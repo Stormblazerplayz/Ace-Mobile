@@ -45,6 +45,13 @@
 	<string>public.app-category.productivity</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Ace finds your Govee and Twinkly lights on your Wi-Fi so it can turn them on, dim them and change their colors.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
 	<key>NSHomeKitUsageDescription</key>
 	<string>Ace turns your lights, plugs, fans, thermostat and robot vacuum on and off when you ask. It never touches locks, garage doors or alarms.</string>
 	<key>NSCameraUsageDescription</key>

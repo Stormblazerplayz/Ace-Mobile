@@ -5,6 +5,7 @@ struct HomeCommand: Equatable {
     enum Action: Equatable {
         case on, off
         case level(Int)                       // brightness 0...100
+        case color(String)                    // "red", "warm white"...
         case temp(Double, unit: String?)      // "f", "c" or nil (use the app's unit)
         case status
         case list
@@ -27,6 +28,7 @@ struct HomeCommand: Equatable {
         case .on: return "home.on"
         case .off: return "home.off"
         case .level: return "home.level"
+        case .color: return "home.color"
         case .temp: return "home.temp"
         case .status: return "home.status"
         case .list: return "home.list"
@@ -47,12 +49,14 @@ enum HomeParser {
     /// Names of the devices, rooms and scenes in Apple Home, saved by HomeService so
     /// "turn on the desk thing" works for any name you gave something in the Home app.
     static var knownNames: [String] {
-        UserDefaults.standard.stringArray(forKey: "homeKnownNames") ?? []
+        (UserDefaults.standard.stringArray(forKey: "homeKnownNames") ?? [])
+            + (UserDefaults.standard.stringArray(forKey: "lanKnownNames") ?? [])
     }
 
-    static let deviceWords = #"\b(lights?|lamps?|bulbs?|led strips?|light strips?|strip lights?|leds|plugs?|smart plugs?|outlets?|switch(es)?|fans?|ceiling fans?|heaters?|air purifiers?|purifiers?|humidifiers?|dehumidifiers?|thermostats?|ac|air conditioners?|aircon|tv|television|speakers?|kettle|coffee maker|christmas lights|fairy lights|twinkly|govee|blueair)\b"#
+    static let deviceWords = #"\b(lights?|lamps?|bulbs?|led strips?|light strips?|strip lights?|leds|plugs?|smart plugs?|outlets?|switch(es)?|fans?|ceiling fans?|heaters?|air purifiers?|purifiers?|humidifiers?|dehumidifiers?|thermostats?|ac|air conditioners?|aircon|tv|television|speakers?|kettle|coffee maker|christmas lights|fairy lights|twinkly|govee|blueair|smarthq|dishwasher|washing machine|dryer|oven)\b"#
     static let vac = #"(?:the |my |our )?(?:robot vacuum|vacuum cleaner|robot cleaner|robo ?vac|vacuum|mova|roomba|roborock|cleaning robot|robot)"#
     static let polite = #"^(?:please |can you |could you |would you |hey ace |ace |ok ace |yo ace )*"#
+    static let colors = #"(cool white|warm white|warm|red|orange|yellow|gold|amber|green|lime|cyan|teal|blue|purple|violet|pink|magenta|white)"#
     static let rooms = #"(kitchen|living room|lounge|bedroom|my room|master bedroom|bathroom|hallway|hall|dining room|office|basement|family room|den|playroom|laundry room|upstairs|downstairs|entryway|[a-z]+'?s room)"#
 
     static func parse(_ t: String) -> HomeCommand? {
@@ -133,6 +137,12 @@ enum HomeParser {
             return HomeCommand(action: .level(g[0] == "dim" ? 30 : 100), target: g[1])
         }
 
+        // Colors ("turn the lights red", "make the govee lights blue", "set the lamp to warm white")
+        if let g = Rx.groups(polite + #"(?:turn|make|set|change|switch|colou?r|paint)\s+(?:the\s+|my\s+|all\s+(?:of\s+)?(?:the\s+|my\s+)?)?(.+?)\s+(?:to\s+|into\s+)?(?:the\s+)?(?:colou?r\s+)?"# + colors + #"(?:\s+colou?r)?(?:\s+(?:please|now|for me))*$"#, t),
+           isDevice(g[0]), isLight(g[0]) {
+            return HomeCommand(action: .color(g[1]), target: g[0])
+        }
+
         // Is it on? (before "X on", so "is the fan on" is a question)
         if let g = Rx.groups(#"^(?:is|are)\s+(?:the\s+|my\s+|all\s+(?:the\s+)?)?(.+?)\s+(?:on|off|still on|turned on|turned off)$"#, t), isDevice(g[0]) {
             return HomeCommand(action: .status, target: g[0])
@@ -157,6 +167,11 @@ enum HomeParser {
         }
 
         return nil
+    }
+
+    /// True unless the words name something that can't change color (a thermostat, a fan...).
+    static func isLight(_ words: String) -> Bool {
+        !Rx.matches(#"\b(thermostats?|heat|heating|heaters?|ac|air conditioners?|aircon|fans?|ceiling fans?|purifiers?|air purifiers?|humidifiers?|dehumidifiers?|tv|television|speakers?|kettle|coffee maker|plugs?|smart plugs?|outlets?|switch(es)?|blueair)\b"#, words)
     }
 
     /// True when the words name something in a home (a light, a plug...) or a name from Apple Home.
