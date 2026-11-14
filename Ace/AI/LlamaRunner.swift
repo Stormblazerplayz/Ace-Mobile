@@ -106,8 +106,10 @@ final class LlamaRunner: @unchecked Sendable {
 
     private func buildPrompt(system: String, user: String) -> String {
         if let template = llama_model_chat_template(model, nil) {
-            let roles = ["system", "user"].map { strdup($0) }
-            let contents = [system, user].map { strdup($0) }
+            let roleNames: [String] = ["system", "user"]
+            let texts: [String] = [system, user]
+            let roles: [UnsafeMutablePointer<CChar>?] = roleNames.map { strdup($0) }
+            let contents: [UnsafeMutablePointer<CChar>?] = texts.map { strdup($0) }
             defer {
                 roles.forEach { free($0) }
                 contents.forEach { free($0) }
