@@ -108,6 +108,12 @@ final class QABank {
         }
     }
 
+    /// How much a word tells about the question: rare words a lot, everyday words little.
+    private func weight(_ token: String) -> Double {
+        let w = idf(token)
+        return TextKit.commonWords.contains(token) ? min(w, 2) : w
+    }
+
     private func idf(_ token: String) -> Double {
         let n = Double(max(1, wordingText.count))
         let df = Double(docFreq[token] ?? 0)
@@ -156,15 +162,16 @@ final class QABank {
             let keys = wordingKeys[w]
             var lex: Double
             if !qKeys.isEmpty && !keys.isEmpty {
-                let inter = qKeys.intersection(keys)
-                let union = qKeys.union(keys)
-                let num = inter.reduce(0.0) { $0 + idf($1) }
-                let den = union.reduce(0.0) { $0 + idf($1) }
-                let weighted = den > 0 ? num / den : 0
-                let allJ = jaccard(qAll, wordingAll[w])
-                lex = weighted * 0.8 + allJ * 0.2
-                // Penalize when an important (rare) word of the question is missing.
-                let missing = qKeys.subtracting(keys).filter { idf($0) > 5.5 }
+                // How much of the bank's question you said, and how much of yours it covers.
+                // Everyday words ("one", "located") count for little, so they don't sink a good match.
+                let inter = qKeys.intersection(keys).reduce(0.0) { $0 + weight($1) }
+                let wordingWeight = keys.reduce(0.0) { $0 + weight($1) }
+                let questionWeight = qKeys.reduce(0.0) { $0 + weight($1) }
+                let coversWording = wordingWeight > 0 ? inter / wordingWeight : 0
+                let coversQuestion = questionWeight > 0 ? inter / questionWeight : 0
+                lex = coversWording * 0.5 + coversQuestion * 0.35 + jaccard(qAll, wordingAll[w]) * 0.15
+                // Penalize when an important word of the question is missing ("france" vs "germany").
+                let missing = qKeys.subtracting(keys).filter { weight($0) > 5.5 }
                 if !missing.isEmpty { lex *= pow(0.72, Double(missing.count)) }
             } else {
                 lex = jaccard(qAll, wordingAll[w])

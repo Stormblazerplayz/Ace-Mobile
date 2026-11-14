@@ -145,7 +145,8 @@ enum IntentRouter {
 
         // Time
         if Rx.matches(#"^(what time is it|what is the time|time|current time|whats the time|tell me the time|time now|what time is it now)$"#, t) { return .time }
-        if Rx.matches(#"^(what day is it|what is the date|what is today|todays date|what is todays date|date|what day is today|what is the date today)$"#, t) { return .date }
+        if Rx.matches(#"^(what day is it|what is the date|what is today|todays date|what is todays date|date|what day is today|what is the date today)$"#, t)
+            || Rx.matches(#"^(what is |whats |tell me )?(today'?s|the) date( today)?( please)?$|^what is the date today$|^what (day|date) is it( today)?$"#, t) { return .date }
         if let g = Rx.groups(#"^how (?:many|long) (?:days|sleeps|weeks) (?:until|till|til|to|before)\s+(.+)$"#, t) { return .daysUntil(g[0]) }
 
         // Hands-free and sounds
@@ -180,7 +181,9 @@ enum IntentRouter {
         if Rx.matches(#"\bbattery\b|\bcharge left\b|\bhow charged\b"#, t) { return .battery }
         if Rx.matches(#"\b(large|big|huge|biggest|largest) files?\b|taking up (space|storage)"#, t) { return .largeFiles }
         if Rx.matches(#"\b(storage|space left|free space|disk space|how much space|running out of space)\b"#, t) { return .storage }
-        if Rx.matches(#"\b(ram|memory usage|how much memory|memory use)\b"#, t) { return .memoryUsage }
+        // "what does ram stand for" is a question about the word, not about this iPad's memory.
+        if Rx.matches(#"\b(ram|memory usage|how much memory|memory use)\b"#, t),
+           !Rx.matches(#"\b(stand for|stands for|short for|mean|meaning)\b|^(what is|whats) (a |the )?ram$"#, t) { return .memoryUsage }
         if Rx.matches(#"^(am i online|is (the )?(wifi|internet) (on|working)|network status|internet status)"#, t) { return .network }
 
         // Sleep

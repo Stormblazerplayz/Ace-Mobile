@@ -234,15 +234,20 @@ final class Brain {
 
         // 3. Follow-ups like "what about saturn" or "how many moons does it have".
         if followUps, let f = followUp(norm) {
-            let plainSure = (matches.first?.score ?? 0) >= Self.sure
-            if f.isAbout || !plainSure {
-                var inner: [String] = []
-                let d = decide(f.question, notes: &inner, followUps: false)
-                if d.isSure {
-                    notes.append("Sounds like a follow-up to \"\(lastQuestion)\", so I read it as \"\(f.question)\"")
-                    notes += inner
-                    return d
-                }
+            let plain = matches.first?.score ?? 0
+            var inner: [String] = []
+            let d = decide(f.question, notes: &inner, followUps: false)
+            // "and italy?" is always a follow-up. "what continent is it in" is one when it fits at least as well.
+            let fits: Bool
+            switch d {
+            case .bank(let m): fits = f.isAbout || plain < Self.sure || m.score >= plain
+            case .rule, .classified: fits = f.isAbout || plain < Self.sure
+            default: fits = false
+            }
+            if fits {
+                notes.append("Sounds like a follow-up to \"\(lastQuestion)\", so I read it as \"\(f.question)\"")
+                notes += inner
+                return d
             }
         }
 
@@ -367,23 +372,32 @@ final class Brain {
     private func followUp(_ norm: String) -> FollowUp? {
         guard !lastQuestion.isEmpty else { return nil }
         let last = TextKit.normalize(lastQuestion)
-        guard last != norm, let span = entitySpan(in: last) else { return nil }
-        var words = last.split(separator: " ").map(String.init)
-        let entity = words[span].joined(separator: " ")
+        guard last != norm else { return nil }
+        let words = last.split(separator: " ").map(String.init)
 
-        if let g = Rx.groups(#"^(?:and |ok |okay |so |now )?(?:what about|how about|what of|same for|same with|and for|and)\s+(.+)$"#, norm)
-            ?? Rx.groups(#"^(?:and |ok |okay |so )?(?:what about|how about)\s+(.+)$"#, norm) {
+        if let g = Rx.groups(#"^(?:and |ok |okay |so |now )?(?:what about|how about|what of|same for|same with|and for|and)\s+(.+)$"#, norm) {
             var x = g[0].trimmingCharacters(in: .whitespaces)
             for p in ["in ", "on ", "of ", "for ", "at ", "with "] where x.hasPrefix(p) { x = String(x.dropFirst(p.count)) }
-            let before = span.lowerBound > 0 ? words[span.lowerBound - 1] : ""
-            if ["a", "an", "the"].contains(before) {
-                for art in ["a ", "an ", "the "] where x.hasPrefix(art) { x = String(x.dropFirst(art.count)) }
+            // Try the new thing in each place the subject could be, and keep the one that makes the best question.
+            var best: (question: String, score: Double)?
+            for span in subjectSpans(in: last) {
+                var y = x
+                let before = span.lowerBound > 0 ? words[span.lowerBound - 1] : ""
+                if ["a", "an", "the"].contains(before) {
+                    for art in ["a ", "an ", "the "] where y.hasPrefix(art) { y = String(y.dropFirst(art.count)) }
+                }
+                guard !y.isEmpty, y != words[span].joined(separator: " ") else { continue }
+                var swapped = words
+                swapped.replaceSubrange(span, with: [y])
+                let q = swapped.joined(separator: " ")
+                let score = bank.search(q).first?.score ?? (IntentRouter.parse(q) != nil ? 0.9 : 0)
+                if best == nil || score > best!.score { best = (q, score) }
             }
-            guard !x.isEmpty, x != entity else { return nil }
-            words.replaceSubrange(span, with: [x])
-            return FollowUp(question: words.joined(separator: " "), isAbout: true)
+            return best.map { FollowUp(question: $0.question, isAbout: true) }
         }
 
+        guard let span = entitySpan(in: last) else { return nil }
+        let entity = words[span].joined(separator: " ")
         let pronouns: [String: String] = ["it": entity, "its": entity, "they": entity, "them": entity,
                                           "there": "in " + entity, "that": entity, "this": entity]
         let mine = norm.split(separator: " ").map(String.init)
@@ -392,12 +406,26 @@ final class Brain {
         return FollowUp(question: swapped, isAbout: false)
     }
 
+    private static let notSubject: Set<String> = ["what", "who", "how", "when", "where", "why", "which", "tell", "many", "much", "long",
+                                                  "does", "do", "is", "are", "the", "a", "an", "of", "in", "on", "about", "called", "say",
+                                                  "you", "have", "has", "me", "facts", "know", "there", "it", "its"]
+
+    /// Every place the subject of a question could be, likeliest first.
+    private func subjectSpans(in text: String) -> [Range<Int>] {
+        let words = text.split(separator: " ").map(String.init)
+        var out: [Range<Int>] = []
+        if let e = entitySpan(in: text) { out.append(e) }
+        let single = words.indices
+            .filter { !Self.notSubject.contains(words[$0]) && !TextKit.stopwords.contains(words[$0]) && words[$0].count > 1 }
+            .sorted { bank.wordFrequency(words[$0]) < bank.wordFrequency(words[$1]) }
+        for i in single where !out.contains(i..<(i + 1)) { out.append(i..<(i + 1)) }
+        return out
+    }
+
     /// The subject of a question: its rarest words ("japan" in "what is the capital of japan").
     private func entitySpan(in text: String) -> Range<Int>? {
         let words = text.split(separator: " ").map(String.init)
-        let skip: Set<String> = ["what", "who", "how", "when", "where", "why", "which", "tell", "many", "much", "long",
-                                 "does", "do", "is", "are", "the", "a", "an", "of", "in", "on", "about", "called", "say",
-                                 "you", "have", "has", "me", "facts", "know", "there", "it", "its"]
+        let skip = Self.notSubject
         var best: (index: Int, freq: Int)?
         for (i, w) in words.enumerated() where !skip.contains(w) && !TextKit.stopwords.contains(w) && w.count > 1 {
             let f = bank.wordFrequency(w)
@@ -436,21 +464,35 @@ final class Brain {
 
     /// Fixes words Ace doesn't know into the closest word it does ("capitol" -> "capital").
     func spellFix(_ norm: String) -> String {
-        let words = norm.split(separator: " ").map(String.init)
-        let fixed = words.map { w -> String in
+        var words = norm.split(separator: " ").map(String.init)
+        for i in words.indices {
+            let w = words[i]
             guard w.count >= 4, w.allSatisfy({ $0.isLetter }), !Self.ruleWords.contains(w), bank.wordFrequency(w) == 0,
-                  !TextKit.stopwords.contains(w) else { return w }
+                  !TextKit.stopwords.contains(w) else { continue }
             let maxDistance = w.count >= 8 ? 2 : 1
-            var best: (word: String, d: Int, f: Int)?
+            var found: [String: (d: Int, f: Int)] = [:]
             for candidate in bank.vocabulary(near: w) + Self.ruleWords.filter({ abs($0.count - w.count) <= maxDistance }) {
                 let d = TextKit.editDistance(w, candidate, limit: maxDistance)
                 guard d <= maxDistance else { continue }
-                let f = max(1, bank.wordFrequency(candidate)) + (Self.ruleWords.contains(candidate) ? 50 : 0)
-                if best == nil || d < best!.d || (d == best!.d && f > best!.f) { best = (candidate, d, f) }
+                found[candidate] = (d, max(1, bank.wordFrequency(candidate)) + (Self.ruleWords.contains(candidate) ? 50 : 0))
             }
-            return best?.word ?? w
+            guard let closest = found.values.map({ $0.d }).min() else { continue }
+            let close = found.filter { $0.value.d == closest }.sorted { $0.value.f > $1.value.f }.prefix(6).map { $0.key }
+            if close.count == 1 { words[i] = close[0]; continue }
+            // "leep year": "leap" and "sleep" are both one letter off, so keep the one that makes a real question.
+            func fit(_ c: String) -> Double {
+                var trial = words
+                trial[i] = c
+                return bank.search(trial.joined(separator: " ")).first?.score ?? 0
+            }
+            var best = close[0], bestFit = fit(close[0])
+            for c in close.dropFirst() {
+                let f = fit(c)
+                if f > bestFit { best = c; bestFit = f }
+            }
+            words[i] = best
         }
-        return fixed.joined(separator: " ")
+        return words.joined(separator: " ")
     }
 
     // MARK: Understanding (no side effects, used by the smartness test)
