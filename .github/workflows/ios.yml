@@ -247,6 +247,17 @@ jobs:
           fi
           echo "IPA_PATH=$IPA_PATH" >> "$GITHUB_ENV"
           echo "Exported $IPA_PATH (build $BUILD_NUMBER)"
+          # Make sure the signed app kept its HomeKit entitlement (Apple Home control needs it).
+          CHECK="$RUNNER_TEMP/ipa-check"
+          rm -rf "$CHECK" && mkdir -p "$CHECK"
+          unzip -q "$IPA_PATH" -d "$CHECK"
+          SIGNED=$(codesign -d --entitlements - "$CHECK/Payload/Ace.app" 2>/dev/null || true)
+          echo "$SIGNED"
+          if ! printf '%s' "$SIGNED" | grep -q "com.apple.developer.homekit"; then
+            echo "::error title=HomeKit missing::The signed app has no HomeKit entitlement. Turn on HomeKit for the App ID in the Apple Developer site (Identifiers > $BUNDLE_ID)."
+            exit 1
+          fi
+          echo "::notice title=HomeKit::The signed app has the HomeKit entitlement."
 
       - name: Save the signed .ipa
         if: steps.signing.outputs.sign == 'true'
