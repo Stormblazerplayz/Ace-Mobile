@@ -13,3 +13,5 @@ DerivedData/
 *.mobileprovision
 .DS_Store
 __pycache__/
+Vendor/
+project-llama.yml

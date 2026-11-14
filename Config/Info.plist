@@ -45,6 +45,8 @@
 	<string>public.app-category.productivity</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Ace uses the camera when you take a photo to show it. The photo stays on your iPad.</string>
 	<key>NSCalendarsFullAccessUsageDescription</key>
 	<string>Ace makes a Nimbus calendar and adds, changes, or deletes events only after you say yes. It also tells you what's coming up.</string>
 	<key>NSRemindersFullAccessUsageDescription</key>

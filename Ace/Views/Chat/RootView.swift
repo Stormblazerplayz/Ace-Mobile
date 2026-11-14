@@ -1,4 +1,6 @@
+import PhotosUI
 import SwiftUI
+import UIKit
 
 /// The main screen: Ace's orb island at the top, the chat in the middle, and the message box at the bottom.
 struct RootView: View {
@@ -9,6 +11,9 @@ struct RootView: View {
     @State private var showChecks = false
     @State private var showSettings = false
     @FocusState private var inputFocused: Bool
+    @State private var showPhotoPicker = false
+    @State private var photoItem: PhotosPickerItem?
+    @State private var showCamera = false
 
     var body: some View {
         NavigationStack {
@@ -52,6 +57,28 @@ struct RootView: View {
         .onChange(of: inputFocused) { _, focused in
             core.setTyping(focused && !draft.isEmpty)
         }
+        .photosPicker(isPresented: $showPhotoPicker, selection: $photoItem, matching: .images)
+        .onChange(of: photoItem) { _, item in
+            guard let item else { return }
+            photoItem = nil
+            Task {
+                if let data = try? await item.loadTransferable(type: Data.self), let image = UIImage(data: data) {
+                    sendPicture(image)
+                }
+            }
+        }
+        .fullScreenCover(isPresented: $showCamera) {
+            CameraPicker { image in sendPicture(image) }
+                .ignoresSafeArea()
+        }
+    }
+
+    private func sendPicture(_ image: UIImage) {
+        guard !core.busy, let data = ImageAnalyzer.jpeg(image), let file = Persistence.saveImage(data) else { return }
+        let text = draft.trimmingCharacters(in: .whitespacesAndNewlines)
+        draft = ""
+        core.setTyping(false)
+        core.send(text, imageFile: file)
     }
 
     // MARK: Chat list
@@ -94,6 +121,20 @@ struct RootView: View {
 
     private var inputBar: some View {
         HStack(alignment: .bottom, spacing: 10) {
+            Menu {
+                Button { showPhotoPicker = true } label: { Label("Photo library", systemImage: "photo.on.rectangle") }
+                if CameraPicker.isAvailable {
+                    Button { showCamera = true } label: { Label("Take a photo", systemImage: "camera") }
+                }
+            } label: {
+                Image(systemName: "plus")
+                    .font(.system(size: 17, weight: .bold))
+                    .frame(width: 44, height: 44)
+                    .background(Circle().fill(AceTheme.card))
+                    .foregroundStyle(AceTheme.ace)
+            }
+            .disabled(core.busy)
+            .accessibilityLabel("Add a picture")
             TextField("Talk to Ace", text: $draft, axis: .vertical)
                 .lineLimit(1...5)
                 .focused($inputFocused)

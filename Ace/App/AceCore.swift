@@ -27,6 +27,7 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
     private var moodResetTask: Task<Void, Never>?
@@ -97,18 +98,24 @@ final class AceCore: ObservableObject, BrainHost {
         messages.append(ChatMessage(speaker: .user, text: text, imageFile: imageFile))
         SoundFX.shared.play(.send, jitter: 0.03, gain: 0.7)
         Haptics.shared.play(.tick)
-        Task { await think(about: text) }
+        Task { await think(about: text, imageFile: imageFile) }
     }
 
-    private func think(about text: String) async {
+    private func think(about text: String, imageFile: String? = nil) async {
         busy = true
         liveThoughts = []
         setMood(.thinking)
         statusLine = "Thinking"
         SoundFX.shared.startLoop()
-        let reply = await brain.respond(to: text) { [weak self] step in
+        let onThought: (String) -> Void = { [weak self] step in
             self?.liveThoughts.append(step)
             self?.statusLine = step
+        }
+        let reply: BrainReply
+        if let imageFile {
+            reply = await lookAt(imageFile: imageFile, question: text, onThought: onThought)
+        } else {
+            reply = await brain.respond(to: text, onThought: onThought)
         }
         SoundFX.shared.stopLoop()
         let msg = ChatMessage(speaker: .ace, text: reply.text, thoughts: settings.showThinking ? reply.thoughts : [],
@@ -435,7 +442,67 @@ final class AceCore: ObservableObject, BrainHost {
         ("Screenshot search is coming in the next update.", [])
     }
 
-    func describeLastPhoto() -> BrainReply? { nil }
+    func describeLastPhoto() -> BrainReply? {
+        guard let r = lastImageReport else { return nil }
+        return BrainReply(text: r.summary, cards: [.image(r)], source: "vision")
+    }
 
-    func polish(_ text: String, question: String) async -> String? { nil }
+    // MARK: Pictures
+
+    /// Looks at a picture with Vision, then (if a model is on) answers the question about it.
+    private func lookAt(imageFile: String, question: String, onThought: @escaping (String) -> Void) async -> BrainReply {
+        var thoughts: [String] = []
+        func note(_ s: String) { thoughts.append(s); onThought(s) }
+        note("Looking at your picture")
+        guard let image = UIImage(contentsOfFile: Persistence.imageURL(imageFile).path) else {
+            return BrainReply(text: "I couldn't open that picture.", thoughts: thoughts, source: "vision", mood: .idle)
+        }
+        let report = await ImageAnalyzer.analyze(image)
+        lastImageReport = report
+        note(report.labels.isEmpty ? "Didn't recognize objects" : "Spotted: " + report.labels.prefix(3).joined(separator: ", "))
+        if report.text != nil { note("Read the text in it") }
+        var text = report.summary
+        var source = "vision"
+        if !question.isEmpty, settings.useLocalModel || settings.useAppleModel {
+            note("Asking my on-device model about it")
+            let facts = "What the picture shows (from the iPad's vision): \(report.summary)"
+                + (report.text.map { "\nText in the picture:\n\($0.prefix(1500))" } ?? "")
+            if let a = await askModel(system: Self.modelInstructions + " Answer questions about a picture using only the description given.",
+                                      user: facts + "\n\nQuestion: \(question)") {
+                text = a
+                source = "model"
+            }
+        }
+        return BrainReply(text: text, thoughts: thoughts, cards: [.image(report)], source: source)
+    }
+
+    // MARK: On-device models
+
+    static let modelInstructions = "You are Ace, a friendly, upbeat assistant on an iPad. Keep answers short, clear and correct. Never make up facts. If you don't know, say so."
+
+    /// LFM3 Omni first (if it's on and downloaded), then Apple's model (if it's on).
+    private func askModel(system: String, user: String, maxTokens: Int = 320) async -> String? {
+        if settings.useLocalModel, LocalModel.shared.filesPresent,
+           let a = await LocalModel.shared.generate(system: system, user: user, maxTokens: maxTokens) {
+            return a
+        }
+        if settings.useAppleModel, let a = await AppleModel.respond(instructions: system, prompt: user) {
+            return a
+        }
+        return nil
+    }
+
+    func polish(_ text: String, question: String) async -> String? {
+        let system = Self.modelInstructions + " Reword the answer so it sounds natural and friendly. Keep every fact, name and number exactly the same. Use 1 to 3 sentences. Don't add anything new."
+        guard let better = await askModel(system: system, user: "Question: \(question)\nAnswer: \(text)\nReworded answer:", maxTokens: 200) else { return nil }
+        // Throw it away if it went off track.
+        if better.count > text.count * 3 + 200 { return nil }
+        let numbers = Set(text.split(whereSeparator: { !$0.isNumber }).map(String.init))
+        let kept = numbers.allSatisfy { better.contains($0) }
+        return kept ? better : nil
+    }
+
+    func freeAnswer(_ question: String) async -> String? {
+        await askModel(system: Self.modelInstructions, user: question)
+    }
 }

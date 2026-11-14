@@ -96,10 +96,12 @@ struct SettingsView: View {
 
                 MemorySection(memory: core.memory, bank: core.brain.bank)
 
+                AIModelSection()
+
                 Section("Coming next") {
                     Label("PC Sync with Nimbus", systemImage: "desktopcomputer")
-                    Label("On-device AI model (LFM3 Omni)", systemImage: "cpu")
-                    Label("Pictures, camera, and screenshot search", systemImage: "camera")
+                    Label("Pictures straight into LFM3 Omni", systemImage: "photo.badge.plus")
+                    Label("Screenshot and file search", systemImage: "doc.text.magnifyingglass")
                     Label("Hands-free voice", systemImage: "mic")
                 }
                 .foregroundStyle(AceTheme.muted)
@@ -168,6 +170,55 @@ struct MemorySection: View {
             Text("What Ace remembers")
         } footer: {
             Text("Swipe a memory to forget it.")
+        }
+    }
+}
+
+/// Turn on Apple's model or LFM3 Omni, and download or delete LFM3 Omni.
+struct AIModelSection: View {
+    @EnvironmentObject var settings: SettingsStore
+    @ObservedObject private var local = LocalModel.shared
+    @State private var confirmDownload = false
+    @State private var confirmDelete = false
+
+    var body: some View {
+        Section {
+            Toggle("Apple Intelligence wording", isOn: $settings.useAppleModel)
+            if settings.useAppleModel {
+                Text(AppleModel.statusText).font(.caption).foregroundStyle(AceTheme.muted)
+            }
+            Toggle("LFM3 Omni on this iPad", isOn: $settings.useLocalModel)
+            if settings.useLocalModel {
+                if !LocalModel.engineIncluded {
+                    Text("This build doesn't have the model engine yet. It comes with the next update.")
+                        .font(.caption)
+                        .foregroundStyle(AceTheme.warn)
+                }
+                LabeledContent("Model", value: local.statusText)
+                switch local.state {
+                case .notDownloaded, .failed:
+                    Button("Download LFM3 Omni (\(SystemMonitor.bytes(LocalModel.totalBytes)))") { confirmDownload = true }
+                case .downloading(let p):
+                    ProgressView(value: p)
+                    Button("Stop download", role: .destructive) { local.cancelDownload() }
+                case .downloaded, .ready, .loading:
+                    Button("Delete the model", role: .destructive) { confirmDelete = true }
+                }
+            }
+        } header: {
+            Text("On-device AI")
+        } footer: {
+            Text("Both are off unless you turn them on. Ace's own brain still answers first. The model helps with wording, questions Ace doesn't know, and questions about pictures. Everything stays on your iPad.")
+        }
+        .confirmationDialog("Download LFM3 Omni?", isPresented: $confirmDownload, titleVisibility: .visible) {
+            Button("Download \(SystemMonitor.bytes(LocalModel.totalBytes))") { local.download() }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("It's a big download, so use Wi-Fi and keep Ace open until it's done.")
+        }
+        .confirmationDialog("Delete LFM3 Omni from this iPad?", isPresented: $confirmDelete, titleVisibility: .visible) {
+            Button("Delete", role: .destructive) { local.deleteFiles() }
+            Button("Cancel", role: .cancel) {}
         }
     }
 }

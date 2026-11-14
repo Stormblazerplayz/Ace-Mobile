@@ -25,6 +25,7 @@ protocol BrainHost: AnyObject {
     func findScreenshots(_ query: String) async -> (text: String, hits: [ScreenshotHit])
     func describeLastPhoto() -> BrainReply?
     func polish(_ text: String, question: String) async -> String?
+    func freeAnswer(_ question: String) async -> String?
 }
 
 /// Ace V4's brain: rules + a big answer bank + a neural matcher + web research,
@@ -161,6 +162,15 @@ final class Brain {
             var r = answer(from: best, think: think)
             r.text = "I think you're asking \"\(best.wording)\". \(r.text)"
             return r
+        }
+
+        // Pass 7: ask the on-device model (LFM3 Omni or Apple's), if one is turned on.
+        if let host, host.settings.useLocalModel || host.settings.useAppleModel {
+            await think("Asking my on-device model")
+            if let a = await host.freeAnswer(text) {
+                await think("The model answered, so I'm going with that")
+                return BrainReply(text: a, source: "model")
+            }
         }
 
         await think("Out of ideas for now")

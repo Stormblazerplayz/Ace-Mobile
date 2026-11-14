@@ -13,10 +13,12 @@ It runs on the iPad all by itself. PC sync with Nimbus is planned and stays off 
 - **Daily greeting, bedtime tips, timers, reminders, recipes (with a checklist card), weather (7 days), and opening sites in an in-app browser tab.**
 - **Sounds and haptics:** made just for Ace, panned left and right as the eyes look around.
 - **Widgets:** Home Screen (small, medium) and Lock Screen (circle, rectangle, inline).
+- **Pictures and camera:** tap + to pick a photo or take one. Ace reads what's in it, any text, QR codes and faces with Apple's Vision, all on the iPad.
+- **On-device AI (off by default):** turn on LFM3 Omni in Settings > On-device AI and download it (about 1.6 GB, from Liquid AI on Hugging Face). It runs with llama.cpp, which the GitHub build adds automatically. Apple Intelligence wording is a second switch for iPadOS 26. Ace's own brain always answers first. The model helps with wording, questions Ace doesn't know, and questions about pictures.
 
 ## Coming next
 
-LFM3 Omni on-device model (a Settings toggle, off by default), pictures and camera, screenshot and file search, hands-free voice, and PC sync with Nimbus.
+Pictures straight into LFM3 Omni, screenshot and file search, hands-free voice, and PC sync with Nimbus.
 
 ## Things iPadOS doesn't let an app do
 
@@ -31,6 +33,8 @@ brew install xcodegen
 xcodegen generate
 open Ace.xcodeproj
 ```
+
+To build with the LFM3 Omni engine on your Mac, put `llama.xcframework` from the newest [llama.cpp release](https://github.com/ggml-org/llama.cpp/releases) in `Vendor/`, then run `python3 tools/make_llama_spec.py` and `xcodegen generate --spec project-llama.yml`.
 
 ## TestFlight (same setup as Squall-mobile)
 
