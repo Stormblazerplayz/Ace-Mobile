@@ -10,10 +10,17 @@ struct OrbIsland: View {
     var status: String
     /// The widest the pill may get when it stretches out (keeps it on small screens).
     var maxExpandedWidth: CGFloat = 330
+    /// How loud you are while Ace listens (0...1), so the rings grow when you talk.
+    var level: Double = 0
     var onTap: () -> Void
+    /// Hold the orb to talk: true when the hold starts, false when you let go.
+    var onHold: (Bool) -> Void = { _ in }
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var start = Date()
+    @State private var pressStart: Date?
+    @State private var holding = false
+    @State private var holdTask: Task<Void, Never>?
 
     private let height: CGFloat = 58
 
@@ -66,11 +73,41 @@ struct OrbIsland: View {
         }
         .animation(.spring(response: 0.5, dampingFraction: 0.72), value: mood)
         .contentShape(Capsule())
-        .onTapGesture(perform: onTap)
+        .scaleEffect(holding ? 1.12 : 1)
+        .animation(.spring(response: 0.3, dampingFraction: 0.6), value: holding)
+        // A quick tap opens Settings. Press and hold to talk, let go to send.
+        .gesture(
+            DragGesture(minimumDistance: 0)
+                .onChanged { _ in
+                    guard pressStart == nil else { return }
+                    pressStart = Date()
+                    holdTask = Task { @MainActor in
+                        try? await Task.sleep(nanoseconds: 350_000_000)
+                        guard !Task.isCancelled, pressStart != nil else { return }
+                        holding = true
+                        onHold(true)
+                    }
+                }
+                .onEnded { _ in
+                    holdTask?.cancel()
+                    holdTask = nil
+                    pressStart = nil
+                    if holding {
+                        holding = false
+                        onHold(false)
+                    } else {
+                        onTap()
+                    }
+                }
+        )
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Ace, \(mood.label)")
-        .accessibilityHint("Double tap to open Settings")
+        .accessibilityHint("Double tap to open Settings. Use the Talk action to speak to Ace.")
         .accessibilityAddTraits(.isButton)
+        .accessibilityAction(.default) { onTap() }
+        .accessibilityAction(named: "Talk") {
+            if holding { holding = false; onHold(false) } else { holding = true; onHold(true) }
+        }
     }
 
     @ViewBuilder
@@ -81,7 +118,7 @@ struct OrbIsland: View {
                     let phase = (t * 0.9 + Double(i) / 3).truncatingRemainder(dividingBy: 1)
                     Circle()
                         .stroke(mood.tint.opacity(0.6 * (1 - phase)), lineWidth: 2)
-                        .scaleEffect(1 + phase * 0.9)
+                        .scaleEffect(1 + phase * (0.9 + level * 0.8))
                 }
             }
             OrbBody(

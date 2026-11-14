@@ -26,6 +26,8 @@ final class SettingsStore: ObservableObject {
     /// Who answers: "ace" (Normal Ace: rules, answer bank, web) or "model" (LFM3 Omni answers questions).
     @Published var brain: String { didSet { d.set(brain, forKey: "brain") } }
     @Published var bedtimeTips: Bool { didSet { d.set(bedtimeTips, forKey: "bedtimeTips") } }
+    /// Listen for "Hey Ace" while the app is open.
+    @Published var heyAce: Bool { didSet { d.set(heyAce, forKey: "heyAce") } }
     /// "auto", "c" or "f".
     @Published var temperatureUnit: String { didSet { d.set(temperatureUnit, forKey: "temperatureUnit") } }
     @Published var syncEnabled: Bool { didSet { d.set(syncEnabled, forKey: "syncEnabled") } }
@@ -58,6 +60,7 @@ final class SettingsStore: ObservableObject {
         useLocalModel = d.bool(forKey: "useLocalModel")
         brain = d.string(forKey: "brain") == "model" ? "model" : "ace"
         bedtimeTips = d.bool(forKey: "bedtimeTips")
+        heyAce = d.bool(forKey: "heyAce")
         temperatureUnit = d.string(forKey: "temperatureUnit") ?? "auto"
         syncEnabled = d.bool(forKey: "syncEnabled")
         syncHost = d.string(forKey: "syncHost") ?? ""
