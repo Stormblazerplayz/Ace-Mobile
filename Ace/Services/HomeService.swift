@@ -180,7 +180,19 @@ final class HomeService: NSObject, ObservableObject {
 
     func run(_ cmd: HomeCommand, confirmed: Bool, fahrenheit: Bool) async -> (reply: BrainReply, confirm: HomeCommand?) {
         if case .safety = cmd.action { return (say(.homeSafety, mood: .idle), nil) }
+        let lan = LanLights.shared
+        let lanHits = lan.enabled ? lan.match(cmd.target) : []
+        let lightish = Self.isLightAction(cmd.action)
+
+        // Govee or Twinkly lights named on purpose don't need Apple Home.
+        if lightish, !lanHits.isEmpty, LanLights.namesBrand(cmd.target) || lan.namesOwn(cmd.target) {
+            return (await runLan(cmd.action, lanHits), nil)
+        }
+
         guard await ready() else {
+            if lightish, !lanHits.isEmpty { return (await runLan(cmd.action, lanHits), nil) }
+            if case .scene(let name) = cmd.action, let reply = await builtInScene(name, homeLights: []) { return (reply, nil) }
+            if LanLights.namesBrand(cmd.target) { return (say(.lanNone, mood: .idle), nil) }
             switch access {
             case .denied: return (say(.homeNoAccess, mood: .idle), nil)
             case .noHome: return (say(.homeNoHome, mood: .idle), nil)
@@ -188,14 +200,21 @@ final class HomeService: NSObject, ObservableObject {
             }
         }
         guard let home else { return (say(.homeNoHome, mood: .idle), nil) }
+        return await runAppleHome(cmd, home: home, confirmed: confirmed, fahrenheit: fahrenheit, lanHits: lanHits)
+    }
 
+    private func runAppleHome(_ cmd: HomeCommand, home: HMHome, confirmed: Bool, fahrenheit: Bool,
+                              lanHits: [LanLights.Light]) async -> (reply: BrainReply, confirm: HomeCommand?) {
         switch cmd.action {
         case .safety:
             return (say(.homeSafety, mood: .idle), nil)
 
         case .list:
             await refresh()
-            guard !devices.isEmpty else { return (say(.homeNotFound, ["device": "any devices"], mood: .idle), nil) }
+            let lan = LanLights.shared
+            if lan.enabled && !lan.lights.isEmpty { await lan.refresh() }
+            let lanLights = lan.enabled ? lan.lights : []
+            guard !devices.isEmpty || !lanLights.isEmpty else { return (say(.homeNotFound, ["device": "any devices"], mood: .idle), nil) }
             var lines: [String] = []
             let byRoom = Dictionary(grouping: devices, by: { $0.room.isEmpty ? "No room" : $0.room })
             for room in byRoom.keys.sorted() {
@@ -205,14 +224,23 @@ final class HomeService: NSObject, ObservableObject {
                 }
                 lines.append("- \(room): \(items.joined(separator: ", "))")
             }
+            if !lanLights.isEmpty {
+                let items = lanLights.map { l -> String in
+                    guard let on = l.isOn else { return l.label }
+                    return "\(l.label) (\(on ? "on" : "off"))"
+                }
+                lines.append("- On your Wi-Fi: \(items.joined(separator: ", "))")
+            }
             if !scenes.isEmpty { lines.append("- Scenes: \(scenes.joined(separator: ", "))") }
-            let count = "\(devices.count) device\(devices.count == 1 ? "" : "s")"
+            let total = devices.count + lanLights.count
+            let count = "\(total) device\(total == 1 ? "" : "s")"
             var text = Say.line(.homeList, ["count": count, "home": home.name]) + "\n" + lines.joined(separator: "\n")
             if !devices.contains(where: { $0.kind == .vacuum }) { text += "\n\n" + Say.line(.vacuumMissing) }
             return (BrainReply(text: text, source: "Apple Home"), nil)
 
         case .scene(let name):
             guard let set = findScene(name, in: home) else {
+                if let reply = await builtInScene(name, homeLights: entries.filter { $0.kind == .light }) { return (reply, nil) }
                 return (say(.homeNotFound, ["device": "a \"\(TextKit.capitalizeFirst(name))\" scene"], mood: .idle), nil)
             }
             let ok = await runScene(set, in: home)
@@ -221,7 +249,7 @@ final class HomeService: NSObject, ObservableObject {
         case .vacuumStart, .vacuumRoom, .vacuumPause, .vacuumDock, .vacuumStatus:
             return (await vacuum(cmd.action), nil)
 
-        case .on, .off, .level, .temp, .status:
+        case .on, .off, .level, .color, .temp, .status:
             break
         }
 
@@ -232,11 +260,20 @@ final class HomeService: NSObject, ObservableObject {
             default: return false
             }
         }()
-        let found = match(wantsThermostat && cmd.target.isEmpty ? "thermostat" : cmd.target, preferThermostat: wantsThermostat)
+        var found = match(wantsThermostat && cmd.target.isEmpty ? "thermostat" : cmd.target, preferThermostat: wantsThermostat)
+        if case .color = cmd.action { found.entries = found.entries.filter { $0.kind == .light } }
         if found.entries.isEmpty {
+            if Self.isLightAction(cmd.action), !lanHits.isEmpty { return (await runLan(cmd.action, lanHits), nil) }
+            if let brand = Self.appOnlyBrand(cmd.target) { return (say(.homeAddTip, ["device": brand], mood: .idle), nil) }
+            if LanLights.namesBrand(cmd.target) { return (say(.lanNone, mood: .idle), nil) }
             return (say(.homeNotFound, ["device": quoted(cmd.target)], mood: .idle), nil)
         }
-        let name = displayName(found.entries, target: cmd.target)
+        // "The lights" means the Apple Home lights and the Govee/Twinkly ones too.
+        let alsoLan: Bool = {
+            if case .status = cmd.action { return false }
+            return Self.isLightAction(cmd.action) && !lanHits.isEmpty
+        }()
+        let name = alsoLan ? "every light" : displayName(found.entries, target: cmd.target)
         if !confirmed && (found.fuzzy || found.unsure) {
             return (say(.homeConfirm, ["action": verb(cmd.action), "device": name], mood: .idle), cmd)
         }
@@ -247,29 +284,22 @@ final class HomeService: NSObject, ObservableObject {
                 if case .on = cmd.action { return true }
                 return false
             }()
-            var okAll = true
-            for e in found.entries {
-                guard let c = power(e.service) else { okAll = false; continue }
-                let ok = await write(c, on)
-                okAll = okAll && ok
-                if ok, let i = devices.firstIndex(where: { $0.id == e.service.uniqueIdentifier }) { devices[i].isOn = on }
-            }
+            var okAll = await apply(cmd.action, to: found.entries)
+            if alsoLan { okAll = await applyLan(cmd.action, lanHits) && okAll }
             if !okAll { return (say(.homeFailed, ["device": name], mood: .alert), nil) }
             return (say(on ? .homeOn : .homeOff, ["device": name]), nil)
 
         case .level(let level):
-            var okAll = true
-            for e in found.entries {
-                guard let c = e.service.characteristics.first(where: { $0.characteristicType == HMCharacteristicTypeBrightness }) else {
-                    okAll = false
-                    continue
-                }
-                if level > 0, let p = power(e.service) { _ = await write(p, true) }
-                let ok = await write(c, level)
-                okAll = okAll && ok
-            }
+            var okAll = await apply(cmd.action, to: found.entries)
+            if alsoLan { okAll = await applyLan(cmd.action, lanHits) && okAll }
             if !okAll { return (say(.homeCantDo, ["device": name, "action": "dim"], mood: .idle), nil) }
             return (say(.homeLevel, ["device": name, "level": "\(level)"]), nil)
+
+        case .color(let color):
+            var okAll = await apply(cmd.action, to: found.entries)
+            if alsoLan { okAll = await applyLan(cmd.action, lanHits) && okAll }
+            if !okAll { return (say(.homeCantDo, ["device": name, "action": "change color"], mood: .idle), nil) }
+            return (say(.homeColor, ["device": name, "color": color]), nil)
 
         case .temp(let value, let unit):
             let useF = unit.map { $0 == "f" } ?? fahrenheit
@@ -309,6 +339,163 @@ final class HomeService: NSObject, ObservableObject {
         default:
             return (say(.homeNotFound, ["device": quoted(cmd.target)], mood: .idle), nil)
         }
+    }
+
+    // MARK: Lights (Apple Home and Govee/Twinkly)
+
+    nonisolated static func isLightAction(_ a: HomeCommand.Action) -> Bool {
+        switch a {
+        case .on, .off, .level, .color, .status: return true
+        default: return false
+        }
+    }
+
+    /// Brands that only work through Apple Home (no way to reach them on your Wi-Fi).
+    nonisolated static func appOnlyBrand(_ target: String) -> String? {
+        let t = TextKit.normalize(target)
+        if t.contains("blueair") { return "Blueair" }
+        if Rx.matches(#"\b(smarthq|smart hq|dishwasher|washing machine|dryer|oven)\b"#, t) { return "your SmartHQ appliance" }
+        if Rx.matches(#"\b(mova|vacuum|robot)\b"#, t) { return "MOVA" }
+        return nil
+    }
+
+    /// Turns Apple Home lights on, off, brighter or a color. True when every one worked.
+    private func apply(_ action: HomeCommand.Action, to list: [Entry]) async -> Bool {
+        var okAll = true
+        for e in list {
+            let s = e.service
+            let ok: Bool
+            switch action {
+            case .on, .off:
+                let on: Bool = { if case .on = action { return true }; return false }()
+                guard let c = power(s) else { okAll = false; continue }
+                ok = await write(c, on)
+                if ok, let i = devices.firstIndex(where: { $0.id == s.uniqueIdentifier }) { devices[i].isOn = on }
+            case .level(let level):
+                guard let c = characteristic(s, HMCharacteristicTypeBrightness) else { okAll = false; continue }
+                if level > 0, let p = power(s) { _ = await write(p, true) }
+                ok = await write(c, level)
+                if ok, let i = devices.firstIndex(where: { $0.id == s.uniqueIdentifier }) { devices[i].level = level; devices[i].isOn = level > 0 }
+            case .color(let name):
+                guard let color = LanLights.color(named: name) else { okAll = false; continue }
+                if let p = power(s) { _ = await write(p, true) }
+                if let k = color.kelvin, let c = characteristic(s, HMCharacteristicTypeColorTemperature) {
+                    ok = await write(c, NSNumber(value: min(500, max(140, 1_000_000 / k))))
+                } else if let h = characteristic(s, HMCharacteristicTypeHue), let sat = characteristic(s, HMCharacteristicTypeSaturation) {
+                    let hs = Self.hueSaturation(color.rgb)
+                    let a = await write(h, NSNumber(value: hs.hue))
+                    let b = await write(sat, NSNumber(value: hs.saturation))
+                    ok = a && b
+                } else {
+                    ok = false
+                }
+            default:
+                ok = false
+            }
+            okAll = okAll && ok
+        }
+        return okAll
+    }
+
+    /// The same for Govee and Twinkly lights.
+    private func applyLan(_ action: HomeCommand.Action, _ lights: [LanLights.Light]) async -> Bool {
+        let lan = LanLights.shared
+        var okAll = true
+        for l in lights {
+            let ok: Bool
+            switch action {
+            case .on: ok = await lan.setPower(l, true)
+            case .off: ok = await lan.setPower(l, false)
+            case .level(let level): ok = await (level == 0 ? lan.setPower(l, false) : lan.setBrightness(l, level))
+            case .color(let name):
+                guard let c = LanLights.color(named: name) else { okAll = false; continue }
+                ok = await lan.setColor(l, c.rgb, kelvin: c.kelvin)
+            default: ok = false
+            }
+            okAll = okAll && ok
+        }
+        return okAll
+    }
+
+    private func runLan(_ action: HomeCommand.Action, _ lights: [LanLights.Light]) async -> BrainReply {
+        let name = lights.count == 1 ? lights[0].label : (Set(lights.map(\.brand)).count == 1 ? "your \(lights[0].brand == .govee ? "Govee" : "Twinkly") lights" : "every light")
+        if case .status = action {
+            await LanLights.shared.refresh()
+            let fresh = LanLights.shared.lights.first { $0.id == lights[0].id } ?? lights[0]
+            let state = fresh.isOn.map { $0 ? "on" : "off" } ?? "not answering right now"
+            return lanSay(.homeStatus, ["device": fresh.label, "state": state])
+        }
+        guard await applyLan(action, lights) else { return lanSay(.homeFailed, ["device": name], mood: .alert) }
+        switch action {
+        case .on: return lanSay(.homeOn, ["device": name])
+        case .off: return lanSay(.homeOff, ["device": name])
+        case .level(let l): return lanSay(.homeLevel, ["device": name, "level": "\(l)"])
+        case .color(let c): return lanSay(.homeColor, ["device": name, "color": c])
+        default: return lanSay(.homeCantDo, ["device": name, "action": "do that"], mood: .idle)
+        }
+    }
+
+    /// Ace's own scenes for when Apple Home doesn't have one with that name.
+    private func builtInScene(_ name: String, homeLights: [Entry]) async -> BrainReply? {
+        let n = TextKit.normalize(name)
+        let lan = LanLights.shared.enabled ? LanLights.shared.lights : []
+        guard !homeLights.isEmpty || !lan.isEmpty else { return nil }
+        let steps: [HomeCommand.Action]
+        let title: String
+        if Rx.matches(#"good ?night|bed|sleep|leaving|away|lights out"#, n) {
+            steps = [.off]; title = "Goodnight"
+        } else if Rx.matches(#"movie|film|cinema|tv"#, n) {
+            steps = [.color("warm white"), .level(15)]; title = "Movie mode"
+        } else if Rx.matches(#"good ?morning|wake|morning"#, n) {
+            steps = [.color("warm white"), .level(100)]; title = "Good morning"
+        } else if Rx.matches(#"focus|study|homework|work|reading|read"#, n) {
+            steps = [.color("cool white"), .level(100)]; title = "Focus"
+        } else if Rx.matches(#"party|disco|rainbow|fun"#, n) {
+            steps = []; title = "Party mode"
+        } else if Rx.matches(#"home|back|arrive|relax|chill|cozy"#, n) {
+            steps = [.color("warm white"), .level(60)]; title = "Welcome home"
+        } else {
+            return nil
+        }
+        if title == "Party mode" {
+            let colors = ["purple", "blue", "pink", "cyan", "green", "orange"]
+            for (i, e) in homeLights.enumerated() { _ = await apply(.color(colors[i % colors.count]), to: [e]) }
+            for (i, l) in lan.enumerated() {
+                if l.brand == .twinkly { _ = await LanLights.shared.playEffects(l) } else { _ = await applyLan(.color(colors[(i + 3) % colors.count]), [l]) }
+            }
+        } else {
+            for step in steps {
+                _ = await apply(step, to: homeLights)
+                _ = await applyLan(step, lan)
+            }
+            if title == "Movie mode" {
+                for l in lan where l.brand == .twinkly { _ = await LanLights.shared.playEffects(l) }
+            }
+        }
+        return say(.homeScene, ["scene": title])
+    }
+
+    private func characteristic(_ s: HMService, _ type: String) -> HMCharacteristic? {
+        s.characteristics.first { $0.characteristicType == type }
+    }
+
+    /// Hue (0...360) and saturation (0...100) for Apple Home lights.
+    nonisolated static func hueSaturation(_ c: LanLights.RGB) -> (hue: Double, saturation: Double) {
+        let r = Double(c.r) / 255, g = Double(c.g) / 255, b = Double(c.b) / 255
+        let mx = max(r, g, b), mn = min(r, g, b), d = mx - mn
+        var h = 0.0
+        if d > 0 {
+            if mx == r { h = 60 * ((g - b) / d).truncatingRemainder(dividingBy: 6) }
+            else if mx == g { h = 60 * ((b - r) / d + 2) }
+            else { h = 60 * ((r - g) / d + 4) }
+        }
+        if h < 0 { h += 360 }
+        let sat = mx == 0 ? 0 : d / mx * 100
+        return ((h * 10).rounded() / 10, (sat * 10).rounded() / 10)
+    }
+
+    private func lanSay(_ key: ReplyKey, _ slots: [String: String] = [:], mood: OrbMood = .happy) -> BrainReply {
+        BrainReply(text: TextKit.capitalizeFirst(Say.line(key, slots)), source: "Your Wi-Fi lights", mood: mood)
     }
 
     // MARK: Robot vacuum
@@ -443,6 +630,7 @@ final class HomeService: NSObject, ObservableObject {
         case .off: return "turn off"
         case .level(let l): return "set the brightness to \(l)% on"
         case .temp: return "change the temperature on"
+        case .color(let c): return "make it \(c) on"
         default: return "check"
         }
     }

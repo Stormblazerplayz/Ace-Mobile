@@ -97,6 +97,7 @@ struct SettingsView: View {
                 MemorySection(memory: core.memory, bank: core.brain.bank)
 
                 HomeSection()
+                WiFiLightsSection()
 
                 AIModelSection()
 
@@ -332,6 +333,76 @@ struct HomeSection: View {
         .onAppear {
             if home.wasConnected { home.connect() }
             Task { await home.refresh() }
+        }
+    }
+}
+
+/// Govee and Twinkly lights found on your Wi-Fi (no account needed).
+struct WiFiLightsSection: View {
+    @ObservedObject private var lan = LanLights.shared
+    @State private var renaming: LanLights.Light?
+    @State private var newName = ""
+    @State private var scannedOnce = false
+
+    var body: some View {
+        Section {
+            Toggle("Find Govee and Twinkly lights", isOn: $lan.enabled)
+            if lan.enabled {
+                if lan.scanning {
+                    HStack {
+                        ProgressView()
+                        Text("Looking on your Wi-Fi...").foregroundStyle(AceTheme.muted)
+                    }
+                } else {
+                    Button {
+                        Task { await lan.scan(); scannedOnce = true }
+                    } label: {
+                        Label("Scan for lights", systemImage: "wifi")
+                    }
+                }
+                if lan.lights.isEmpty && scannedOnce && !lan.scanning {
+                    Text("No lights found. In the Govee Home app, open each light's settings and turn on LAN Control, then scan again.")
+                        .font(.callout)
+                        .foregroundStyle(AceTheme.muted)
+                }
+                ForEach(lan.lights) { l in
+                    HStack(spacing: 12) {
+                        Image(systemName: l.brand == .govee ? "lightbulb.led.fill" : "sparkles")
+                            .foregroundStyle(l.isOn == true ? AceTheme.accent : AceTheme.muted)
+                            .frame(width: 24)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(l.label)
+                            Text(l.brand == .govee ? "Govee · \(l.model)" : "Twinkly")
+                                .font(.caption)
+                                .foregroundStyle(AceTheme.muted)
+                        }
+                        Spacer()
+                        Toggle(l.label, isOn: Binding(
+                            get: { l.isOn ?? false },
+                            set: { v in Task { _ = await lan.setPower(l, v) } }
+                        ))
+                        .labelsHidden()
+                    }
+                    .contextMenu {
+                        Button("Rename") { newName = l.name; renaming = l }
+                        Button("Forget", role: .destructive) { lan.forget(l.id) }
+                    }
+                }
+            }
+        } header: {
+            Text("Wi-Fi lights")
+        } footer: {
+            Text(lan.enabled
+                 ? "Long-press a light to rename it. Try \"turn the govee lights blue\", \"dim the lights to 20%\" or \"movie mode\"."
+                 : "Ace can control Govee and Twinkly lights straight over your Wi-Fi. For Govee, turn on LAN Control in the Govee Home app.")
+        }
+        .alert("Rename light", isPresented: Binding(get: { renaming != nil }, set: { if !$0 { renaming = nil } })) {
+            TextField("Name", text: $newName)
+            Button("Save") { if let r = renaming { lan.rename(r.id, to: newName) }; renaming = nil }
+            Button("Cancel", role: .cancel) { renaming = nil }
+        }
+        .task {
+            if lan.enabled && !lan.lights.isEmpty { await lan.refresh() }
         }
     }
 }

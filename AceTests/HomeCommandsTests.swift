@@ -44,6 +44,16 @@ final class HomeCommandsTests: XCTestCase {
             ("movie mode", "home.scene", nil),
             ("unlock the front door", "home.safety", nil),
             ("open the garage", "home.safety", nil),
+            ("turn the lights red", "home.color", "lights"),
+            ("make the govee lights blue", "home.color", "govee lights"),
+            ("set the bedroom lamp to warm white", "home.color", "bedroom lamp"),
+            ("change the kitchen lights to purple", "home.color", "kitchen lights"),
+            ("turn the twinkly green", "home.color", "twinkly"),
+            ("turn on the govee lights", "home.on", "govee lights"),
+            ("turn off the twinkly", "home.off", "twinkly"),
+            ("dim the govee lights to 20%", "home.level", "govee lights"),
+            ("turn off the blueair", "home.off", "blueair"),
+            ("start movie mode", "home.scene", nil),
         ]
         var misses: [String] = []
         for (text, name, target) in cases {
@@ -62,6 +72,8 @@ final class HomeCommandsTests: XCTestCase {
             "how do robot vacuums work", "build a robot that can clean", "who invented the light bulb",
             "what is the speed of light", "turn off my pc", "what's the weather", "how hot is it outside",
             "set a timer for 5 minutes", "remind me to clean my room", "is it on", "good night",
+            "what color is the sky", "make the background blue", "set the thermostat to warm", "turn the fan red",
+            "what is govee", "is the sky blue",
         ]
         for q in questions {
             XCTAssertNil(home(q), "\"\(q)\" shouldn't be a home command")
@@ -80,6 +92,20 @@ final class HomeCommandsTests: XCTestCase {
         } else {
             XCTFail("set the living room lights to 40%")
         }
+        if case .color(let c)? = home("set the bedroom lamp to warm white")?.action {
+            XCTAssertEqual(c, "warm white")
+        } else {
+            XCTFail("set the bedroom lamp to warm white")
+        }
+        XCTAssertNotNil(LanLights.color(named: "purple"))
+        XCTAssertEqual(LanLights.color(named: "warm white")?.kelvin, 2700)
+        let red = HomeService.hueSaturation(LanLights.RGB(r: 255, g: 0, b: 0))
+        XCTAssertEqual(red.hue, 0)
+        XCTAssertEqual(red.saturation, 100)
+        XCTAssertEqual(HomeService.hueSaturation(LanLights.RGB(r: 0, g: 70, b: 255)).hue, 223.5, accuracy: 0.2)
+        XCTAssertTrue(LanLights.namesBrand("the govee lights"))
+        XCTAssertFalse(LanLights.namesBrand("kitchen lights"))
+        XCTAssertEqual(HomeService.appOnlyBrand("blueair"), "Blueair")
         XCTAssertEqual(HomeService.distance("kitchn", "kitchen"), 1)
         XCTAssertEqual(HomeService.singular("lights"), "light")
     }

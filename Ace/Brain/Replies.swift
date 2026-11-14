@@ -57,6 +57,17 @@ enum ReplyKey: String, CaseIterable {
     case homeConfirm
     case homeCancelled
     case homeCantDo
+    case homeColor
+    case homeAddTip
+    case lanNone
+    case voiceNoPermission
+    case voiceDidntHear
+    case heyAceOn
+    case heyAceOff
+    case focusStart
+    case focusDone
+    case focusStopped
+    case focusLeft
     case nextUp
     case noNameYet
     case noPhoto

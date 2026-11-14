@@ -757,5 +757,80 @@
   "opt": [],
   "orig": "{device} can't {action} from Apple Home.",
   "note": "The device doesn't support that command through Apple Home. {action} is a verb like 'pause'."
+ },
+ "homeColor": {
+  "req": [
+   "device",
+   "color"
+  ],
+  "opt": [],
+  "orig": "{device} is {color} now.",
+  "note": "Lights were set to a color. {color} is a plain color word like 'red' or 'warm white'."
+ },
+ "homeAddTip": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "{device} isn't in Apple Home yet. Add it to Apple Home from its own app, then I can control it.",
+  "note": "For brands Ace can't reach directly (like Blueair or SmartHQ). Must mention Apple Home and its own app."
+ },
+ "lanNone": {
+  "req": [],
+  "opt": [],
+  "orig": "I can't find any Govee or Twinkly lights on your Wi-Fi. In the Govee Home app, turn on LAN Control for each light, then scan again in Settings.",
+  "note": "No Wi-Fi lights found. Must mention Govee, Twinkly, LAN Control and Settings."
+ },
+ "voiceNoPermission": {
+  "req": [],
+  "opt": [],
+  "orig": "I need the microphone and speech recognition to listen. Turn them on in the Settings app, under Ace.",
+  "note": "Voice permission missing. Must say the Settings app and Ace."
+ },
+ "voiceDidntHear": {
+  "req": [],
+  "opt": [],
+  "orig": "I didn't catch that. Hold the orb and try again.",
+  "note": "Speech recognition got nothing. Mention holding the orb."
+ },
+ "heyAceOn": {
+  "req": [],
+  "opt": [],
+  "orig": "Okay! Say \"Hey Ace\" any time while I'm open.",
+  "note": "Hands-free wake word turned on. Must include \"Hey Ace\" in double quotes and say it only works while the app is open."
+ },
+ "heyAceOff": {
+  "req": [],
+  "opt": [],
+  "orig": "Okay, I stopped listening for \"Hey Ace\".",
+  "note": "Hands-free wake word turned off. Must include \"Hey Ace\" in double quotes."
+ },
+ "focusStart": {
+  "req": [
+   "minutes"
+  ],
+  "opt": [],
+  "orig": "Focus time! {minutes} minutes on the clock. I'll show it on my orb.",
+  "note": "Focus timer started. {minutes} is a number. Mention the orb."
+ },
+ "focusDone": {
+  "req": [],
+  "opt": [],
+  "orig": "Focus time's up. Nice work! Take a short break.",
+  "note": "Focus timer finished. Encouraging, one exclamation mark at most."
+ },
+ "focusStopped": {
+  "req": [],
+  "opt": [],
+  "orig": "Okay, I stopped the focus timer.",
+  "note": "Focus timer cancelled."
+ },
+ "focusLeft": {
+  "req": [
+   "time"
+  ],
+  "opt": [],
+  "orig": "{time} left in your focus session.",
+  "note": "How long is left. {time} is like '12 minutes'."
  }
 }
