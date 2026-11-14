@@ -27,7 +27,7 @@ final class SmartnessTests: XCTestCase {
     }
 
     /// The lowest score that still passes, so the brain can't quietly get worse.
-    static let passMark = 0
+    static let passMark = 185
 
     private func loadCases() throws -> CaseFile {
         let bundle = Bundle(for: SmartnessTests.self)
