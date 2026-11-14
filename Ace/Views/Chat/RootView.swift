@@ -20,31 +20,12 @@ struct RootView: View {
             ZStack {
                 AceTheme.background.ignoresSafeArea()
                 VStack(spacing: 0) {
-                    OrbIsland(mood: core.mood, look: core.look, eyeOpen: core.eyeOpen, status: core.statusLine) {
-                        Task { await core.wakeUp(reason: .manual) }
-                    }
-                    .padding(.top, 6)
-                    .padding(.bottom, 8)
+                    header
                     chat
                     inputBar
                 }
             }
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button { showCalendar = true } label: { Image(systemName: "calendar") }
-                        .accessibilityLabel("Nimbus calendar")
-                }
-                ToolbarItem(placement: .topBarTrailing) {
-                    HStack(spacing: 16) {
-                        Button { showChecks = true } label: { Image(systemName: "waveform.path.ecg") }
-                            .accessibilityLabel("Checks")
-                        Button { showSettings = true } label: { Image(systemName: "gearshape") }
-                            .accessibilityLabel("Settings")
-                    }
-                }
-            }
-            .toolbarBackground(.hidden, for: .navigationBar)
-            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(.hidden, for: .navigationBar)
             .tint(AceTheme.ace)
         }
         .preferredColorScheme(.dark)
@@ -82,6 +63,48 @@ struct RootView: View {
     }
 
     // MARK: Chat list
+
+    /// The top row: Ace's orb right at the top in the middle, buttons on each side.
+    /// While the orb stretches out to look around, the buttons step aside.
+    private var header: some View {
+        GeometryReader { geo in
+            ZStack {
+                HStack(spacing: 4) {
+                    headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
+                    Spacer()
+                    headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
+                    headerButton("gearshape", label: "Settings") { showSettings = true }
+                }
+                .opacity(core.mood.expands ? 0 : 1)
+                .allowsHitTesting(!core.mood.expands)
+                OrbIsland(
+                    mood: core.mood,
+                    look: core.look,
+                    eyeOpen: core.eyeOpen,
+                    status: core.statusLine,
+                    maxExpandedWidth: geo.size.width
+                ) {
+                    Task { await core.wakeUp(reason: .manual) }
+                }
+            }
+            .frame(width: geo.size.width, height: geo.size.height)
+            .animation(.easeInOut(duration: 0.25), value: core.mood.expands)
+        }
+        .frame(height: 64)
+        .padding(.horizontal, 12)
+        .padding(.top, 2)
+        .padding(.bottom, 6)
+    }
+
+    private func headerButton(_ symbol: String, label: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Image(systemName: symbol)
+                .font(.system(size: 19, weight: .medium))
+                .frame(width: 44, height: 44)
+                .contentShape(Rectangle())
+        }
+        .accessibilityLabel(label)
+    }
 
     private var chat: some View {
         ScrollViewReader { proxy in

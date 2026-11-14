@@ -8,9 +8,17 @@ struct OrbIsland: View {
     var look: CGPoint
     var eyeOpen: CGFloat
     var status: String
+    /// The widest the pill may get when it stretches out (keeps it on small screens).
+    var maxExpandedWidth: CGFloat = 330
     var onTap: () -> Void
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var start = Date()
+
     private let height: CGFloat = 58
+
+    private var expandedWidth: CGFloat { max(height, min(330, maxExpandedWidth)) }
+    private var showsStatus: Bool { expandedWidth >= 290 }
 
     private var speed: Double {
         switch mood {
@@ -22,8 +30,10 @@ struct OrbIsland: View {
     }
 
     var body: some View {
-        TimelineView(.animation(minimumInterval: 1 / 30)) { context in
-            let t = context.date.timeIntervalSinceReferenceDate
+        // Redraws every screen frame (60 or 120 a second); slower while resting.
+        TimelineView(.animation(minimumInterval: mood == .sleeping ? 1 / 20 : nil)) { context in
+            // Seconds since the orb appeared, so the numbers stay small and smooth.
+            let t = context.date.timeIntervalSince(start) * (reduceMotion ? 0.35 : 1)
             let breathe: Double = (sin(t * speed) + 1) / 2
             let expanded = mood.expands
             ZStack {
@@ -40,17 +50,19 @@ struct OrbIsland: View {
                         OrbEyes(look: look, open: eyeOpen, happy: mood == .happy, color: mood.tint)
                             .frame(width: 96, height: height * 0.62)
                             .transition(.scale(scale: 0.2).combined(with: .opacity))
-                        Text(status)
-                            .font(.system(size: 13, weight: .semibold, design: .rounded))
-                            .foregroundStyle(AceTheme.fg.opacity(0.85))
-                            .lineLimit(1)
-                            .frame(maxWidth: 140, alignment: .leading)
-                            .transition(.opacity)
+                        if showsStatus {
+                            Text(status)
+                                .font(.system(size: 13, weight: .semibold, design: .rounded))
+                                .foregroundStyle(AceTheme.fg.opacity(0.85))
+                                .lineLimit(1)
+                                .frame(maxWidth: 140, alignment: .leading)
+                                .transition(.opacity)
+                        }
                     }
                 }
                 .padding(.horizontal, expanded ? 6 : 0)
             }
-            .frame(width: expanded ? 330 : height, height: height)
+            .frame(width: expanded ? expandedWidth : height, height: height)
         }
         .animation(.spring(response: 0.5, dampingFraction: 0.72), value: mood)
         .contentShape(Capsule())
@@ -72,7 +84,14 @@ struct OrbIsland: View {
                         .scaleEffect(1 + phase * 0.9)
                 }
             }
-            OrbBody(tint: mood.tint, glow: mood == .sleeping ? 0.3 : 0.55 + 0.4 * breathe, pulse: breathe)
+            OrbBody(
+                tint: mood.tint,
+                tint2: mood.tint2,
+                glow: mood == .sleeping ? 0.3 : min(1, 0.5 + 0.35 * breathe + 0.2 * mood.energy),
+                pulse: breathe,
+                time: t,
+                energy: reduceMotion ? mood.energy * 0.4 : mood.energy
+            )
             if mood == .thinking {
                 Circle()
                     .trim(from: 0, to: 0.72)
