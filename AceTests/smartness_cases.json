@@ -585,27 +585,6 @@
   },
   {
    "n": 59,
-   "category": "paraphrase",
-   "prompt": "why does the sky look blue",
-   "expect": {
-    "bank": [
-     "space.why-is-the-sky-blue"
-    ]
-   }
-  },
-  {
-   "n": 60,
-   "category": "paraphrase",
-   "prompt": "how many moons orbit mars",
-   "expect": {
-    "bank": [
-     "space.how-many-moons-does-mars-have",
-     "space.planet.how-many-moons-does-mars-have"
-    ]
-   }
-  },
-  {
-   "n": 61,
    "category": "typo",
    "prompt": "how many planets are in the solor system",
    "expect": {
@@ -615,7 +594,7 @@
    }
   },
   {
-   "n": 62,
+   "n": 60,
    "category": "typo",
    "prompt": "what is the bigest planet",
    "expect": {
@@ -625,7 +604,7 @@
    }
   },
   {
-   "n": 63,
+   "n": 61,
    "category": "typo",
    "prompt": "how far is the moon form earth",
    "expect": {
@@ -635,7 +614,7 @@
    }
   },
   {
-   "n": 64,
+   "n": 62,
    "category": "typo",
    "prompt": "what is the captial of france",
    "expect": {
@@ -645,7 +624,7 @@
    }
   },
   {
-   "n": 65,
+   "n": 63,
    "category": "typo",
    "prompt": "what is the capitol of italy",
    "expect": {
@@ -655,7 +634,7 @@
    }
   },
   {
-   "n": 66,
+   "n": 64,
    "category": "typo",
    "prompt": "who invented the telephon",
    "expect": {
@@ -665,7 +644,7 @@
    }
   },
   {
-   "n": 67,
+   "n": 65,
    "category": "typo",
    "prompt": "what is photosynthesys",
    "expect": {
@@ -675,7 +654,7 @@
    }
   },
   {
-   "n": 68,
+   "n": 66,
    "category": "typo",
    "prompt": "how many bones are in the humen body",
    "expect": {
@@ -685,7 +664,7 @@
    }
   },
   {
-   "n": 69,
+   "n": 67,
    "category": "typo",
    "prompt": "what is the fastes animal",
    "expect": {
@@ -695,7 +674,7 @@
    }
   },
   {
-   "n": 70,
+   "n": 68,
    "category": "typo",
    "prompt": "what is a blak hole",
    "expect": {
@@ -705,7 +684,7 @@
    }
   },
   {
-   "n": 71,
+   "n": 69,
    "category": "typo",
    "prompt": "how do you make a nether portel",
    "expect": {
@@ -715,7 +694,7 @@
    }
   },
   {
-   "n": 72,
+   "n": 70,
    "category": "typo",
    "prompt": "how do you tame a wolfe in minecraft",
    "expect": {
@@ -725,7 +704,7 @@
    }
   },
   {
-   "n": 73,
+   "n": 71,
    "category": "typo",
    "prompt": "what is the speed of lite",
    "expect": {
@@ -735,7 +714,7 @@
    }
   },
   {
-   "n": 74,
+   "n": 72,
    "category": "typo",
    "prompt": "who was albert einstien",
    "expect": {
@@ -745,7 +724,7 @@
    }
   },
   {
-   "n": 75,
+   "n": 73,
    "category": "typo",
    "prompt": "what is gravaty",
    "expect": {
@@ -755,7 +734,7 @@
    }
   },
   {
-   "n": 76,
+   "n": 74,
    "category": "typo",
    "prompt": "how many continants are there",
    "expect": {
@@ -765,7 +744,7 @@
    }
   },
   {
-   "n": 77,
+   "n": 75,
    "category": "typo",
    "prompt": "what is the longest rivar",
    "expect": {
@@ -775,7 +754,7 @@
    }
   },
   {
-   "n": 78,
+   "n": 76,
    "category": "typo",
    "prompt": "what is the tallest animel",
    "expect": {
@@ -785,7 +764,7 @@
    }
   },
   {
-   "n": 79,
+   "n": 77,
    "category": "typo",
    "prompt": "how many legs does a spidar have",
    "expect": {
@@ -795,7 +774,7 @@
    }
   },
   {
-   "n": 80,
+   "n": 78,
    "category": "typo",
    "prompt": "what is the symbol for oxygin",
    "expect": {
@@ -805,7 +784,7 @@
    }
   },
   {
-   "n": 81,
+   "n": 79,
    "category": "typo",
    "prompt": "how do you say hello in spanush",
    "expect": {
@@ -815,7 +794,7 @@
    }
   },
   {
-   "n": 82,
+   "n": 80,
    "category": "typo",
    "prompt": "what is the currancy of japan",
    "expect": {
@@ -825,7 +804,7 @@
    }
   },
   {
-   "n": 83,
+   "n": 81,
    "category": "typo",
    "prompt": "who painted the mona lesa",
    "expect": {
@@ -835,7 +814,7 @@
    }
   },
   {
-   "n": 84,
+   "n": 82,
    "category": "typo",
    "prompt": "what is artifical intelligence",
    "expect": {
@@ -845,7 +824,7 @@
    }
   },
   {
-   "n": 85,
+   "n": 83,
    "category": "typo",
    "prompt": "what is a leep year",
    "expect": {
@@ -855,7 +834,7 @@
    }
   },
   {
-   "n": 86,
+   "n": 84,
    "category": "typo",
    "prompt": "whta is a volcano",
    "expect": {
@@ -865,7 +844,7 @@
    }
   },
   {
-   "n": 87,
+   "n": 85,
    "category": "typo",
    "prompt": "how many teeth do adluts have",
    "expect": {
@@ -875,7 +854,7 @@
    }
   },
   {
-   "n": 88,
+   "n": 86,
    "category": "typo",
    "prompt": "what is the hotest planet",
    "expect": {
@@ -885,27 +864,7 @@
    }
   },
   {
-   "n": 89,
-   "category": "typo",
-   "prompt": "who was the frist person on the moon",
-   "expect": {
-    "bank": [
-     "space.who-was-the-first-person-on-the-moon"
-    ]
-   }
-  },
-  {
-   "n": 90,
-   "category": "typo",
-   "prompt": "how do you make a torche in minecraft",
-   "expect": {
-    "bank": [
-     "minecraft.how-do-you-make-a-torch-in-minecraft"
-    ]
-   }
-  },
-  {
-   "n": 91,
+   "n": 87,
    "category": "skill",
    "prompt": "good evening to you",
    "expect": {
@@ -913,7 +872,7 @@
    }
   },
   {
-   "n": 92,
+   "n": 88,
    "category": "skill",
    "prompt": "thanks so much ace",
    "expect": {
@@ -921,7 +880,7 @@
    }
   },
   {
-   "n": 93,
+   "n": 89,
    "category": "skill",
    "prompt": "ok bye for now",
    "expect": {
@@ -929,7 +888,7 @@
    }
   },
   {
-   "n": 94,
+   "n": 90,
    "category": "skill",
    "prompt": "what's the time right now",
    "expect": {
@@ -937,7 +896,7 @@
    }
   },
   {
-   "n": 95,
+   "n": 91,
    "category": "skill",
    "prompt": "what's today's date",
    "expect": {
@@ -945,7 +904,7 @@
    }
   },
   {
-   "n": 96,
+   "n": 92,
    "category": "skill",
    "prompt": "how many days till christmas",
    "expect": {
@@ -953,7 +912,7 @@
    }
   },
   {
-   "n": 97,
+   "n": 93,
    "category": "skill",
    "prompt": "what's 15 times 4",
    "expect": {
@@ -961,7 +920,7 @@
    }
   },
   {
-   "n": 98,
+   "n": 94,
    "category": "skill",
    "prompt": "what is 12 plus 30 divided by 6",
    "expect": {
@@ -969,7 +928,7 @@
    }
   },
   {
-   "n": 99,
+   "n": 95,
    "category": "skill",
    "prompt": "convert 5 miles to kilometers",
    "expect": {
@@ -977,7 +936,7 @@
    }
   },
   {
-   "n": 100,
+   "n": 96,
    "category": "skill",
    "prompt": "how many ounces are in 2 pounds",
    "expect": {
@@ -985,7 +944,7 @@
    }
   },
   {
-   "n": 101,
+   "n": 97,
    "category": "skill",
    "prompt": "what's 2024 in roman numerals",
    "expect": {
@@ -993,7 +952,7 @@
    }
   },
   {
-   "n": 102,
+   "n": 98,
    "category": "skill",
    "prompt": "pick a random number between 1 and 50",
    "expect": {
@@ -1001,7 +960,7 @@
    }
   },
   {
-   "n": 103,
+   "n": 99,
    "category": "skill",
    "prompt": "how do you spell necessary",
    "expect": {
@@ -1009,7 +968,7 @@
    }
   },
   {
-   "n": 104,
+   "n": 100,
    "category": "skill",
    "prompt": "set a timer for 10 minutes",
    "expect": {
@@ -1017,7 +976,7 @@
    }
   },
   {
-   "n": 105,
+   "n": 101,
    "category": "skill",
    "prompt": "start a 3 minute pizza timer",
    "expect": {
@@ -1025,7 +984,7 @@
    }
   },
   {
-   "n": 106,
+   "n": 102,
    "category": "skill",
    "prompt": "can you time 90 seconds for me",
    "expect": {
@@ -1033,7 +992,7 @@
    }
   },
   {
-   "n": 107,
+   "n": 103,
    "category": "skill",
    "prompt": "remind me to feed the dog at 6pm",
    "expect": {
@@ -1041,7 +1000,7 @@
    }
   },
   {
-   "n": 108,
+   "n": 104,
    "category": "skill",
    "prompt": "don't let me forget to call grandma tomorrow",
    "expect": {
@@ -1049,7 +1008,7 @@
    }
   },
   {
-   "n": 109,
+   "n": 105,
    "category": "skill",
    "prompt": "wake me up at 7",
    "expect": {
@@ -1057,7 +1016,7 @@
    }
   },
   {
-   "n": 110,
+   "n": 106,
    "category": "skill",
    "prompt": "add soccer practice to my calendar tomorrow at 4pm",
    "expect": {
@@ -1065,7 +1024,7 @@
    }
   },
   {
-   "n": 111,
+   "n": 107,
    "category": "skill",
    "prompt": "what's on my schedule today",
    "expect": {
@@ -1073,7 +1032,7 @@
    }
   },
   {
-   "n": 112,
+   "n": 108,
    "category": "skill",
    "prompt": "am i busy tomorrow",
    "expect": {
@@ -1081,7 +1040,7 @@
    }
   },
   {
-   "n": 113,
+   "n": 109,
    "category": "skill",
    "prompt": "move my dentist appointment to friday",
    "expect": {
@@ -1089,7 +1048,7 @@
    }
   },
   {
-   "n": 114,
+   "n": 110,
    "category": "skill",
    "prompt": "delete the meeting on monday",
    "expect": {
@@ -1097,7 +1056,7 @@
    }
   },
   {
-   "n": 115,
+   "n": 111,
    "category": "skill",
    "prompt": "open youtube",
    "expect": {
@@ -1105,7 +1064,7 @@
    }
   },
   {
-   "n": 116,
+   "n": 112,
    "category": "skill",
    "prompt": "search for lego sets on amazon",
    "expect": {
@@ -1113,7 +1072,7 @@
    }
   },
   {
-   "n": 117,
+   "n": 113,
    "category": "skill",
    "prompt": "give me a recipe for pancakes",
    "expect": {
@@ -1121,7 +1080,7 @@
    }
   },
   {
-   "n": 118,
+   "n": 114,
    "category": "skill",
    "prompt": "how do i bake chocolate chip cookies",
    "expect": {
@@ -1129,7 +1088,7 @@
    }
   },
   {
-   "n": 119,
+   "n": 115,
    "category": "skill",
    "prompt": "what's the weather like in chicago",
    "expect": {
@@ -1137,7 +1096,7 @@
    }
   },
   {
-   "n": 120,
+   "n": 116,
    "category": "skill",
    "prompt": "do i need an umbrella today",
    "expect": {
@@ -1145,7 +1104,7 @@
    }
   },
   {
-   "n": 121,
+   "n": 117,
    "category": "skill",
    "prompt": "how much battery do i have left",
    "expect": {
@@ -1153,7 +1112,7 @@
    }
   },
   {
-   "n": 122,
+   "n": 118,
    "category": "skill",
    "prompt": "how much storage is left on my ipad",
    "expect": {
@@ -1161,7 +1120,7 @@
    }
   },
   {
-   "n": 123,
+   "n": 119,
    "category": "skill",
    "prompt": "when should i go to bed tonight",
    "expect": {
@@ -1169,7 +1128,7 @@
    }
   },
   {
-   "n": 124,
+   "n": 120,
    "category": "skill",
    "prompt": "remember that my favorite color is green",
    "expect": {
@@ -1177,7 +1136,7 @@
    }
   },
   {
-   "n": 125,
+   "n": 121,
    "category": "skill",
    "prompt": "my name is storm",
    "expect": {
@@ -1185,7 +1144,7 @@
    }
   },
   {
-   "n": 126,
+   "n": 122,
    "category": "skill",
    "prompt": "what's my favorite color",
    "expect": {
@@ -1193,7 +1152,7 @@
    }
   },
   {
-   "n": 127,
+   "n": 123,
    "category": "skill",
    "prompt": "shut down my pc",
    "expect": {
@@ -1201,7 +1160,7 @@
    }
   },
   {
-   "n": 128,
+   "n": 124,
    "category": "skill",
    "prompt": "turn on hands free mode",
    "expect": {
@@ -1209,23 +1168,7 @@
    }
   },
   {
-   "n": 129,
-   "category": "skill",
-   "prompt": "run a check on everything",
-   "expect": {
-    "skill": "check"
-   }
-  },
-  {
-   "n": 130,
-   "category": "skill",
-   "prompt": "find my screenshot of the wifi password",
-   "expect": {
-    "skill": "findScreenshots"
-   }
-  },
-  {
-   "n": 131,
+   "n": 125,
    "category": "follow-up",
    "prompt": "what about saturn",
    "expect": {
@@ -1238,7 +1181,7 @@
    ]
   },
   {
-   "n": 132,
+   "n": 126,
    "category": "follow-up",
    "prompt": "and on venus?",
    "expect": {
@@ -1251,7 +1194,7 @@
    ]
   },
   {
-   "n": 133,
+   "n": 127,
    "category": "follow-up",
    "prompt": "what about germany",
    "expect": {
@@ -1264,7 +1207,7 @@
    ]
   },
   {
-   "n": 134,
+   "n": 128,
    "category": "follow-up",
    "prompt": "and italy?",
    "expect": {
@@ -1277,7 +1220,7 @@
    ]
   },
   {
-   "n": 135,
+   "n": 129,
    "category": "follow-up",
    "prompt": "what about silver",
    "expect": {
@@ -1290,7 +1233,7 @@
    ]
   },
   {
-   "n": 136,
+   "n": 130,
    "category": "follow-up",
    "prompt": "what about in french",
    "expect": {
@@ -1303,7 +1246,7 @@
    ]
   },
   {
-   "n": 137,
+   "n": 131,
    "category": "follow-up",
    "prompt": "how about mexico",
    "expect": {
@@ -1316,7 +1259,7 @@
    ]
   },
   {
-   "n": 138,
+   "n": 132,
    "category": "follow-up",
    "prompt": "what about peru",
    "expect": {
@@ -1329,7 +1272,7 @@
    ]
   },
   {
-   "n": 139,
+   "n": 133,
    "category": "follow-up",
    "prompt": "what about a cat",
    "expect": {
@@ -1342,7 +1285,7 @@
    ]
   },
   {
-   "n": 140,
+   "n": 134,
    "category": "follow-up",
    "prompt": "and a duck?",
    "expect": {
@@ -1355,7 +1298,7 @@
    ]
   },
   {
-   "n": 141,
+   "n": 135,
    "category": "follow-up",
    "prompt": "what about iron",
    "expect": {
@@ -1368,7 +1311,7 @@
    ]
   },
   {
-   "n": 142,
+   "n": 136,
    "category": "follow-up",
    "prompt": "what about april",
    "expect": {
@@ -1381,7 +1324,7 @@
    ]
   },
   {
-   "n": 143,
+   "n": 137,
    "category": "follow-up",
    "prompt": "and of big?",
    "expect": {
@@ -1394,7 +1337,7 @@
    ]
   },
   {
-   "n": 144,
+   "n": 138,
    "category": "follow-up",
    "prompt": "how many moons does it have",
    "expect": {
@@ -1408,7 +1351,7 @@
    ]
   },
   {
-   "n": 145,
+   "n": 139,
    "category": "follow-up",
    "prompt": "how long is a year there",
    "expect": {
@@ -1421,7 +1364,7 @@
    ]
   },
   {
-   "n": 146,
+   "n": 140,
    "category": "follow-up",
    "prompt": "what continent is it in",
    "expect": {
@@ -1434,7 +1377,7 @@
    ]
   },
   {
-   "n": 147,
+   "n": 141,
    "category": "follow-up",
    "prompt": "what currency do they use there",
    "expect": {
@@ -1447,7 +1390,7 @@
    ]
   },
   {
-   "n": 148,
+   "n": 142,
    "category": "follow-up",
    "prompt": "what's its atomic number",
    "expect": {
@@ -1460,7 +1403,7 @@
    ]
   },
   {
-   "n": 149,
+   "n": 143,
    "category": "follow-up",
    "prompt": "say that again",
    "expect": {
@@ -1471,7 +1414,7 @@
    ]
   },
   {
-   "n": 150,
+   "n": 144,
    "category": "follow-up",
    "prompt": "tell me more",
    "expect": {
@@ -1482,7 +1425,7 @@
    ]
   },
   {
-   "n": 151,
+   "n": 145,
    "category": "follow-up",
    "prompt": "what about basketball",
    "expect": {
@@ -1495,7 +1438,7 @@
    ]
   },
   {
-   "n": 152,
+   "n": 146,
    "category": "follow-up",
    "prompt": "what about an insect",
    "expect": {
@@ -1508,7 +1451,7 @@
    ]
   },
   {
-   "n": 153,
+   "n": 147,
    "category": "follow-up",
    "prompt": "and cats?",
    "expect": {
@@ -1521,7 +1464,7 @@
    ]
   },
   {
-   "n": 154,
+   "n": 148,
    "category": "follow-up",
    "prompt": "what about ohio",
    "expect": {
@@ -1534,7 +1477,7 @@
    ]
   },
   {
-   "n": 155,
+   "n": 149,
    "category": "follow-up",
    "prompt": "what about an octagon",
    "expect": {
@@ -1547,7 +1490,7 @@
    ]
   },
   {
-   "n": 156,
+   "n": 150,
    "category": "multi-part",
    "prompt": "what is the capital of japan and how many moons does mars have",
    "expect": {
@@ -1567,7 +1510,7 @@
    }
   },
   {
-   "n": 157,
+   "n": 151,
    "category": "multi-part",
    "prompt": "what time is it and what's the weather",
    "expect": {
@@ -1582,7 +1525,7 @@
    }
   },
   {
-   "n": 158,
+   "n": 152,
    "category": "multi-part",
    "prompt": "how far is the moon, and how hot is the sun",
    "expect": {
@@ -1601,7 +1544,7 @@
    }
   },
   {
-   "n": 159,
+   "n": 153,
    "category": "multi-part",
    "prompt": "who invented the telephone and who invented the light bulb",
    "expect": {
@@ -1620,7 +1563,7 @@
    }
   },
   {
-   "n": 160,
+   "n": 154,
    "category": "multi-part",
    "prompt": "set a timer for 5 minutes and remind me to stretch at 3pm",
    "expect": {
@@ -1635,7 +1578,7 @@
    }
   },
   {
-   "n": 161,
+   "n": 155,
    "category": "multi-part",
    "prompt": "what's 7 times 8 and what's 9 times 6",
    "expect": {
@@ -1650,7 +1593,7 @@
    }
   },
   {
-   "n": 162,
+   "n": 156,
    "category": "multi-part",
    "prompt": "how many legs does a spider have? how many hearts does an octopus have?",
    "expect": {
@@ -1669,7 +1612,7 @@
    }
   },
   {
-   "n": 163,
+   "n": 157,
    "category": "multi-part",
    "prompt": "tell me a joke and then tell me a fun fact",
    "expect": {
@@ -1688,7 +1631,7 @@
    }
   },
   {
-   "n": 164,
+   "n": 158,
    "category": "multi-part",
    "prompt": "what is the biggest ocean and also what is the longest river",
    "expect": {
@@ -1707,7 +1650,7 @@
    }
   },
   {
-   "n": 165,
+   "n": 159,
    "category": "multi-part",
    "prompt": "what's the symbol for iron and what's the symbol for copper",
    "expect": {
@@ -1726,7 +1669,7 @@
    }
   },
   {
-   "n": 166,
+   "n": 160,
    "category": "multi-part",
    "prompt": "how do you say thank you in french and how do you say goodbye in spanish",
    "expect": {
@@ -1745,7 +1688,7 @@
    }
   },
   {
-   "n": 167,
+   "n": 161,
    "category": "multi-part",
    "prompt": "what is gravity. what is friction",
    "expect": {
@@ -1764,7 +1707,7 @@
    }
   },
   {
-   "n": 168,
+   "n": 162,
    "category": "multi-part",
    "prompt": "check my battery and my storage",
    "expect": {
@@ -1779,7 +1722,7 @@
    }
   },
   {
-   "n": 169,
+   "n": 163,
    "category": "multi-part",
    "prompt": "who was the first president and when did ww2 end",
    "expect": {
@@ -1798,7 +1741,7 @@
    }
   },
   {
-   "n": 170,
+   "n": 164,
    "category": "multi-part",
    "prompt": "what's the date today and how many days until halloween",
    "expect": {
@@ -1813,7 +1756,7 @@
    }
   },
   {
-   "n": 171,
+   "n": 165,
    "category": "multi-part",
    "prompt": "flip a coin and roll a dice",
    "expect": {
@@ -1832,7 +1775,7 @@
    }
   },
   {
-   "n": 172,
+   "n": 166,
    "category": "multi-part",
    "prompt": "what is a cpu and what is a gpu",
    "expect": {
@@ -1851,7 +1794,7 @@
    }
   },
   {
-   "n": 173,
+   "n": 167,
    "category": "multi-part",
    "prompt": "how many feet in a mile and how many inches in a foot",
    "expect": {
@@ -1870,7 +1813,7 @@
    }
   },
   {
-   "n": 174,
+   "n": 168,
    "category": "multi-part",
    "prompt": "what's the capital of australia, what continent is chile in, and what currency does india use",
    "expect": {
@@ -1894,7 +1837,7 @@
    }
   },
   {
-   "n": 175,
+   "n": 169,
    "category": "multi-part",
    "prompt": "open youtube and set a timer for 20 minutes",
    "expect": {
@@ -1909,7 +1852,7 @@
    }
   },
   {
-   "n": 176,
+   "n": 170,
    "category": "unknown",
    "prompt": "what did i eat for breakfast last tuesday",
    "expect": {
@@ -1917,7 +1860,7 @@
    }
   },
   {
-   "n": 177,
+   "n": 171,
    "category": "unknown",
    "prompt": "how tall is my neighbor's dog",
    "expect": {
@@ -1925,7 +1868,7 @@
    }
   },
   {
-   "n": 178,
+   "n": 172,
    "category": "unknown",
    "prompt": "what's the password to my school wifi",
    "expect": {
@@ -1933,7 +1876,7 @@
    }
   },
   {
-   "n": 179,
+   "n": 173,
    "category": "unknown",
    "prompt": "who will win the game tonight",
    "expect": {
@@ -1941,7 +1884,7 @@
    }
   },
   {
-   "n": 180,
+   "n": 174,
    "category": "unknown",
    "prompt": "what color socks am i wearing",
    "expect": {
@@ -1949,7 +1892,7 @@
    }
   },
   {
-   "n": 181,
+   "n": 175,
    "category": "unknown",
    "prompt": "how many grains of sand are on my street",
    "expect": {
@@ -1957,7 +1900,7 @@
    }
   },
   {
-   "n": 182,
+   "n": 176,
    "category": "unknown",
    "prompt": "what is the flibbergast of a zorbnak",
    "expect": {
@@ -1965,7 +1908,7 @@
    }
   },
   {
-   "n": 183,
+   "n": 177,
    "category": "unknown",
    "prompt": "blorp snazzle wump",
    "expect": {
@@ -1973,7 +1916,7 @@
    }
   },
   {
-   "n": 184,
+   "n": 178,
    "category": "unknown",
    "prompt": "what's my teacher's middle name",
    "expect": {
@@ -1981,7 +1924,7 @@
    }
   },
   {
-   "n": 185,
+   "n": 179,
    "category": "unknown",
    "prompt": "how many jellybeans are in the jar at school",
    "expect": {
@@ -1989,7 +1932,7 @@
    }
   },
   {
-   "n": 186,
+   "n": 180,
    "category": "unknown",
    "prompt": "is my friend jake mad at me",
    "expect": {
@@ -1997,7 +1940,7 @@
    }
   },
   {
-   "n": 187,
+   "n": 181,
    "category": "unknown",
    "prompt": "what number am i thinking of",
    "expect": {
@@ -2005,7 +1948,7 @@
    }
   },
   {
-   "n": 188,
+   "n": 182,
    "category": "unknown",
    "prompt": "how much does my backpack weigh",
    "expect": {
@@ -2013,7 +1956,7 @@
    }
   },
   {
-   "n": 189,
+   "n": 183,
    "category": "unknown",
    "prompt": "what will the stock market do next year",
    "expect": {
@@ -2021,7 +1964,7 @@
    }
   },
   {
-   "n": 190,
+   "n": 184,
    "category": "unknown",
    "prompt": "describe the smell of purple",
    "expect": {
@@ -2029,7 +1972,7 @@
    }
   },
   {
-   "n": 191,
+   "n": 185,
    "category": "unknown",
    "prompt": "what's the score of the game right now",
    "expect": {
@@ -2037,7 +1980,7 @@
    }
   },
   {
-   "n": 192,
+   "n": 186,
    "category": "unknown",
    "prompt": "who lives at the house next door",
    "expect": {
@@ -2045,7 +1988,7 @@
    }
   },
   {
-   "n": 193,
+   "n": 187,
    "category": "unknown",
    "prompt": "translate this into klingon",
    "expect": {
@@ -2053,7 +1996,7 @@
    }
   },
   {
-   "n": 194,
+   "n": 188,
    "category": "unknown",
    "prompt": "what is the gloopiest planet in the qwerty galaxy",
    "expect": {
@@ -2061,7 +2004,7 @@
    }
   },
   {
-   "n": 195,
+   "n": 189,
    "category": "unknown",
    "prompt": "how many minecraft blocks tall is my house",
    "expect": {
@@ -2069,7 +2012,7 @@
    }
   },
   {
-   "n": 196,
+   "n": 190,
    "category": "unknown",
    "prompt": "what happened in my dream last night",
    "expect": {
@@ -2077,7 +2020,7 @@
    }
   },
   {
-   "n": 197,
+   "n": 191,
    "category": "unknown",
    "prompt": "which of my friends likes pizza the most",
    "expect": {
@@ -2085,7 +2028,7 @@
    }
   },
   {
-   "n": 198,
+   "n": 192,
    "category": "unknown",
    "prompt": "what's the wifi password at grandma's house",
    "expect": {
@@ -2093,19 +2036,67 @@
    }
   },
   {
-   "n": 199,
-   "category": "unknown",
-   "prompt": "how fast can my bike go downhill",
+   "n": 193,
+   "category": "name-call",
+   "prompt": "ace",
    "expect": {
-    "unknown": true
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 194,
+   "category": "name-call",
+   "prompt": "you there ace?",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 195,
+   "category": "name-call",
+   "prompt": "hey ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 196,
+   "category": "name-call",
+   "prompt": "yo ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 197,
+   "category": "name-call",
+   "prompt": "hi ace!",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 198,
+   "category": "name-call",
+   "prompt": "ok ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 199,
+   "category": "name-call",
+   "prompt": "hello ace",
+   "expect": {
+    "skill": "summon"
    }
   },
   {
    "n": 200,
-   "category": "unknown",
-   "prompt": "what are the lyrics to the song i made up yesterday",
+   "category": "name-call",
+   "prompt": "ace are you there",
    "expect": {
-    "unknown": true
+    "skill": "summon"
    }
   }
  ]

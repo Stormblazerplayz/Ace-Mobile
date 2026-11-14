@@ -271,6 +271,16 @@ UNKNOWN = [
 ]
 
 
+# Saying Ace's name (alone or with a hello) means "are you there?", never a web search.
+NAME_CALLS = ["ace", "you there ace?", "hey ace", "yo ace", "hi ace!", "ok ace", "hello ace", "ace are you there"]
+
+# Room for the name calls: the last two cases of four lists go, so there are still 200.
+PARAPHRASE = PARAPHRASE[:-2]
+TYPOS = TYPOS[:-2]
+SKILLS = SKILLS[:-2]
+UNKNOWN = UNKNOWN[:-2]
+
+
 def build():
     cases = []
 
@@ -292,6 +302,8 @@ def build():
         add("multi-part", p, e)
     for p in UNKNOWN:
         add("unknown", p, U)
+    for p in NAME_CALLS:
+        add("name-call", p, S("summon"))
     return cases
 
 
