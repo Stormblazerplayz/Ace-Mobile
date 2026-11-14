@@ -75,7 +75,7 @@ final class MemoryStore: ObservableObject {
     /// "my favorite color is blue" -> "favorite color".
     static func subject(of text: String) -> String? {
         let t = TextKit.normalize(text)
-        guard let g = Regex.groups(#"^(?:my|i have a|our)\s+(.+?)\s+(?:is|are|was)\s+.+$"#, t) else { return nil }
+        guard let g = Rx.groups(#"^(?:my|i have a|our)\s+(.+?)\s+(?:is|are|was)\s+.+$"#, t) else { return nil }
         return g[0]
     }
 

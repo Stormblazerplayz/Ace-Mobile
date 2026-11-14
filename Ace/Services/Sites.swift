@@ -79,7 +79,7 @@ enum Sites {
     static func link(for target: String, engine: String) -> (title: String, url: URL)? {
         if let s = lookup(target) { return (s.name, s.url) }
         let t = target.lowercased().replacingOccurrences(of: " dot ", with: ".").replacingOccurrences(of: " ", with: "")
-        if Regex.matches(#"^[a-z0-9\-]+(\.[a-z0-9\-]+)+(/.*)?$"#, t), let url = URL(string: "https://" + t) {
+        if Rx.matches(#"^[a-z0-9\-]+(\.[a-z0-9\-]+)+(/.*)?$"#, t), let url = URL(string: "https://" + t) {
             return (t, url)
         }
         return searchLink(target, site: nil, engine: engine)

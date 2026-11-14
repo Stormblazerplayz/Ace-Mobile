@@ -53,56 +53,56 @@ enum IntentRouter {
         guard !t.isEmpty else { return nil }
 
         // Small talk
-        if Regex.matches(#"^(hi|hello|hey|yo|sup|hiya|howdy|good (morning|afternoon|evening))( there)?( ace)?$"#, t) { return .greeting }
-        if Regex.matches(#"^(thanks|thank you|ty|thanks ace|thank you ace|thanks a lot|cheers)( so much| very much)?$"#, t) { return .thanks }
-        if Regex.matches(#"^(bye|goodbye|good night|goodnight|see you|see ya|later|cya)( ace)?$"#, t) { return .goodbye }
+        if Rx.matches(#"^(hi|hello|hey|yo|sup|hiya|howdy|good (morning|afternoon|evening))( there)?( ace)?$"#, t) { return .greeting }
+        if Rx.matches(#"^(thanks|thank you|ty|thanks ace|thank you ace|thanks a lot|cheers)( so much| very much)?$"#, t) { return .thanks }
+        if Rx.matches(#"^(bye|goodbye|good night|goodnight|see you|see ya|later|cya)( ace)?$"#, t) { return .goodbye }
 
         // Teaching and corrections
-        if let g = Regex.groups(#"^(?:if i ask|when i ask|if i say|when i say)\s+(.+?)\s*,?\s*(?:you should say|you say|say|answer|reply)\s+(.+)$"#, t) {
+        if let g = Rx.groups(#"^(?:if i ask|when i ask|if i say|when i say)\s+(.+?)\s*,?\s*(?:you should say|you say|say|answer|reply)\s+(.+)$"#, t) {
             return .teach(question: g[0], answer: g[1])
         }
-        if let g = Regex.groups(#"^the answer to\s+(.+?)\s+is\s+(.+)$"#, t) { return .teach(question: g[0], answer: g[1]) }
-        if Regex.matches(#"^(no|nope|wrong|that is wrong|that is not right|that is incorrect|incorrect|not right)$"#, t) { return .correction(nil) }
-        if let g = Regex.groups(#"^(?:no|nope|wrong|actually|that is wrong|incorrect)\s*,?\s*(?:it is|the answer is|it should be|it was)\s+(.+)$"#, t) {
+        if let g = Rx.groups(#"^the answer to\s+(.+?)\s+is\s+(.+)$"#, t) { return .teach(question: g[0], answer: g[1]) }
+        if Rx.matches(#"^(no|nope|wrong|that is wrong|that is not right|that is incorrect|incorrect|not right)$"#, t) { return .correction(nil) }
+        if let g = Rx.groups(#"^(?:no|nope|wrong|actually|that is wrong|incorrect)\s*,?\s*(?:it is|the answer is|it should be|it was)\s+(.+)$"#, t) {
             return .correction(g[0])
         }
 
         // Follow-ups
-        if Regex.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
-        if Regex.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
+        if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
+        if Rx.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
 
         // Name and memory
-        if let g = Regex.groups(#"^(?:my name is|call me|i am called)\s+([a-z][a-z' \-]{0,30})$"#, t) { return .setName(g[0]) }
-        if Regex.matches(#"^(what do you (know|remember) about me|what do you remember|what have you remembered|list (my )?memories)$"#, t) { return .recallAll }
-        if let g = Regex.groups(#"^(?:please )?remember (?:that )?(.+)$"#, t) { return .remember(g[0]) }
-        if let g = Regex.groups(#"^forget (?:about )?(.+)$"#, t) { return .forget(g[0]) }
-        if let g = Regex.groups(#"^(?:what is|do you know|what are|whats|tell me) my\s+(.+)$"#, t) { return .recall(g[0]) }
-        if let g = Regex.groups(#"^(my .+? (?:is|are) .+)$"#, t), !t.contains("?") { return .remember(g[0]) }
+        if let g = Rx.groups(#"^(?:my name is|call me|i am called)\s+([a-z][a-z' \-]{0,30})$"#, t) { return .setName(g[0]) }
+        if Rx.matches(#"^(what do you (know|remember) about me|what do you remember|what have you remembered|list (my )?memories)$"#, t) { return .recallAll }
+        if let g = Rx.groups(#"^(?:please )?remember (?:that )?(.+)$"#, t) { return .remember(g[0]) }
+        if let g = Rx.groups(#"^forget (?:about )?(.+)$"#, t) { return .forget(g[0]) }
+        if let g = Rx.groups(#"^(?:what is|do you know|what are|whats|tell me) my\s+(.+)$"#, t) { return .recall(g[0]) }
+        if let g = Rx.groups(#"^(my .+? (?:is|are) .+)$"#, t), !t.contains("?") { return .remember(g[0]) }
 
         // Time
-        if Regex.matches(#"^(what time is it|what is the time|time|current time|whats the time|tell me the time|time now|what time is it now)$"#, t) { return .time }
-        if Regex.matches(#"^(what day is it|what is the date|what is today|todays date|what is todays date|date|what day is today|what is the date today)$"#, t) { return .date }
-        if let g = Regex.groups(#"^how (?:many|long) (?:days|sleeps|weeks) (?:until|till|til|to|before)\s+(.+)$"#, t) { return .daysUntil(g[0]) }
+        if Rx.matches(#"^(what time is it|what is the time|time|current time|whats the time|tell me the time|time now|what time is it now)$"#, t) { return .time }
+        if Rx.matches(#"^(what day is it|what is the date|what is today|todays date|what is todays date|date|what day is today|what is the date today)$"#, t) { return .date }
+        if let g = Rx.groups(#"^how (?:many|long) (?:days|sleeps|weeks) (?:until|till|til|to|before)\s+(.+)$"#, t) { return .daysUntil(g[0]) }
 
         // Hands-free and sounds
-        if Regex.matches(#"(turn on|start|enable) hands ?free|hands ?free (on|mode)|start listening"#, t) { return .handsFree(true) }
-        if Regex.matches(#"(turn off|stop|disable|end) hands ?free|hands ?free off|stop listening"#, t) { return .handsFree(false) }
-        if Regex.matches(#"^(mute|turn off|disable) (your |the )?(sounds|sound effects|noises)$"#, t) { return .sounds(false) }
-        if Regex.matches(#"^(unmute|turn on|enable) (your |the )?(sounds|sound effects|noises)$"#, t) { return .sounds(true) }
+        if Rx.matches(#"(turn on|start|enable) hands ?free|hands ?free (on|mode)|start listening"#, t) { return .handsFree(true) }
+        if Rx.matches(#"(turn off|stop|disable|end) hands ?free|hands ?free off|stop listening"#, t) { return .handsFree(false) }
+        if Rx.matches(#"^(mute|turn off|disable) (your |the )?(sounds|sound effects|noises)$"#, t) { return .sounds(false) }
+        if Rx.matches(#"^(unmute|turn on|enable) (your |the )?(sounds|sound effects|noises)$"#, t) { return .sounds(true) }
 
         // PC power (Nimbus does it; Ace tells, doesn't ask)
         let pcWords = #"(pc|computer|desktop|laptop|nimbus|windows)"#
-        if Regex.matches(#"(shut ?down|turn off|power off|power down)\s+(my |the )?"# + pcWords, t) { return .pcPower("shutdown") }
-        if Regex.matches(#"(restart|reboot)\s+(my |the )?"# + pcWords, t) { return .pcPower("restart") }
-        if Regex.matches(#"^(shut ?down|restart|reboot|turn off|power off)( now)?$"#, t) { return .pcPower(t.contains("re") ? "restart" : "shutdown") }
-        if Regex.matches(#"(shut ?down|turn off|restart|reboot|power off) (my |this |the )?ipad"#, t) {
+        if Rx.matches(#"(shut ?down|turn off|power off|power down)\s+(my |the )?"# + pcWords, t) { return .pcPower("shutdown") }
+        if Rx.matches(#"(restart|reboot)\s+(my |the )?"# + pcWords, t) { return .pcPower("restart") }
+        if Rx.matches(#"^(shut ?down|restart|reboot|turn off|power off)( now)?$"#, t) { return .pcPower(t.contains("re") ? "restart" : "shutdown") }
+        if Rx.matches(#"(shut ?down|turn off|restart|reboot|power off) (my |this |the )?ipad"#, t) {
             return .ipadOnlyLimit("Apps can't turn off or restart an iPad. Hold the top button and a volume button, then slide to power off.")
         }
-        if Regex.matches(#"^(is my (pc|computer) (on|awake|online)|pc status|computer status|how is my (pc|computer))"#, t) { return .pcStatus }
-        if Regex.matches(#"^(sync|sync now|sync with (my )?(pc|computer|nimbus)|sync up)$"#, t) { return .syncNow }
+        if Rx.matches(#"^(is my (pc|computer) (on|awake|online)|pc status|computer status|how is my (pc|computer))"#, t) { return .pcStatus }
+        if Rx.matches(#"^(sync|sync now|sync with (my )?(pc|computer|nimbus)|sync up)$"#, t) { return .syncNow }
 
         // App window control (PC only)
-        if let g = Regex.groups(#"^(close|quit|minimize|minimise|maximize|maximise|resize|kill|force quit|exit)\s+(?:the\s+)?(.+?)(\s+(?:on|in) (?:my |the )?(?:pc|computer|desktop|laptop))?$"#, t) {
+        if let g = Rx.groups(#"^(close|quit|minimize|minimise|maximize|maximise|resize|kill|force quit|exit)\s+(?:the\s+)?(.+?)(\s+(?:on|in) (?:my |the )?(?:pc|computer|desktop|laptop))?$"#, t) {
             let action = g[0].replacingOccurrences(of: "minimise", with: "minimize").replacingOccurrences(of: "maximise", with: "maximize")
             let app = g[1].replacingOccurrences(of: " app", with: "").replacingOccurrences(of: " window", with: "")
             if !["this", "that", "it", "chat"].contains(app) {
@@ -111,36 +111,36 @@ enum IntentRouter {
         }
 
         // Checks
-        if Regex.matches(#"^(check|check (everything|things|stuff|my ipad|the ipad|on things|up|around|status|in)|run a check|do a check|status( report)?|look around|how is my ipad|ipad status|how is everything|anything i should know|what needs my attention|scan)$"#, t) { return .check }
-        if Regex.matches(#"\bbattery\b|\bcharge left\b|\bhow charged\b"#, t) { return .battery }
-        if Regex.matches(#"\b(large|big|huge|biggest|largest) files?\b|taking up (space|storage)"#, t) { return .largeFiles }
-        if Regex.matches(#"\b(storage|space left|free space|disk space|how much space|running out of space)\b"#, t) { return .storage }
-        if Regex.matches(#"\b(ram|memory usage|how much memory|memory use)\b"#, t) { return .memoryUsage }
-        if Regex.matches(#"^(am i online|is (the )?(wifi|internet) (on|working)|network status|internet status)"#, t) { return .network }
+        if Rx.matches(#"^(check|check (everything|things|stuff|my ipad|the ipad|on things|up|around|status|in)|run a check|do a check|status( report)?|look around|how is my ipad|ipad status|how is everything|anything i should know|what needs my attention|scan)$"#, t) { return .check }
+        if Rx.matches(#"\bbattery\b|\bcharge left\b|\bhow charged\b"#, t) { return .battery }
+        if Rx.matches(#"\b(large|big|huge|biggest|largest) files?\b|taking up (space|storage)"#, t) { return .largeFiles }
+        if Rx.matches(#"\b(storage|space left|free space|disk space|how much space|running out of space)\b"#, t) { return .storage }
+        if Rx.matches(#"\b(ram|memory usage|how much memory|memory use)\b"#, t) { return .memoryUsage }
+        if Rx.matches(#"^(am i online|is (the )?(wifi|internet) (on|working)|network status|internet status)"#, t) { return .network }
 
         // Sleep
-        if Regex.matches(#"(when should i (go to )?(bed|sleep)|bedtime|what time should i (go to )?(bed|sleep)|sleep schedule|am i sleeping enough|go to sleep)"#, t) { return .bedtime }
+        if Rx.matches(#"(when should i (go to )?(bed|sleep)|bedtime|what time should i (go to )?(bed|sleep)|sleep schedule|am i sleeping enough|go to sleep)"#, t) { return .bedtime }
 
         // Math, conversions, numbers
-        if let g = Regex.groups(#"^(?:what is |convert |change )?(-?\d+(?:\.\d+)?\s*[a-z°/ ]+?\s+(?:to|in|into)\s+[a-z°/ ]+)$"#, t), UnitConvert.convert(g[0]) != nil {
+        if let g = Rx.groups(#"^(?:what is |convert |change )?(-?\d+(?:\.\d+)?\s*[a-z°/ ]+?\s+(?:to|in|into)\s+[a-z°/ ]+)$"#, t), UnitConvert.convert(g[0]) != nil {
             return .convert(g[0])
         }
-        if Regex.matches(#"^how many [a-z ]+ (are )?(in|is) \d"#, t), UnitConvert.convert(t) != nil { return .convert(t) }
-        if let g = Regex.groups(#"(?:what is|whats)?\s*(\d+|[ivxlcdm]+) (?:in|to|as) roman numerals?"#, t) { return .roman(g[0]) }
-        if let g = Regex.groups(#"^(?:what is|whats|convert)?\s*(?:the )?roman numerals? (?:for )?(\d+|[ivxlcdm]+)$"#, t) { return .roman(g[0]) }
-        if let g = Regex.groups(#"random number (?:between|from) (-?\d+) (?:and|to) (-?\d+)"#, t), let a = Int(g[0]), let b = Int(g[1]) {
+        if Rx.matches(#"^how many [a-z ]+ (are )?(in|is) \d"#, t), UnitConvert.convert(t) != nil { return .convert(t) }
+        if let g = Rx.groups(#"(?:what is|whats)?\s*(\d+|[ivxlcdm]+) (?:in|to|as) roman numerals?"#, t) { return .roman(g[0]) }
+        if let g = Rx.groups(#"^(?:what is|whats|convert)?\s*(?:the )?roman numerals? (?:for )?(\d+|[ivxlcdm]+)$"#, t) { return .roman(g[0]) }
+        if let g = Rx.groups(#"random number (?:between|from) (-?\d+) (?:and|to) (-?\d+)"#, t), let a = Int(g[0]), let b = Int(g[1]) {
             return .randomNumber(min(a, b), max(a, b))
         }
-        if let g = Regex.groups(#"^how (?:do you|do i|to) spell\s+([a-z\-']+)$"#, t) { return .spell(g[0]) }
+        if let g = Rx.groups(#"^how (?:do you|do i|to) spell\s+([a-z\-']+)$"#, t) { return .spell(g[0]) }
         if let expr = MathEval.expression(from: t) { return .math(expr) }
 
         // Timers, reminders, alarms
-        if Regex.matches(#"\b(set|start|make|create)?\s*(a |an )?timer\b"#, t) || Regex.matches(#"^\d+\s*(minute|min|second|sec|hour)s?\s+timer"#, t) {
+        if Rx.matches(#"\b(set|start|make|create)?\s*(a |an )?timer\b"#, t) || Rx.matches(#"^\d+\s*(minute|min|second|sec|hour)s?\s+timer"#, t) {
             if let d = DateParser.duration(in: t) {
                 var label = "Timer"
-                if let g = Regex.groups(#"(?:called|named|labeled|for the|for my)\s+([a-z][a-z ]{1,30})$"#, t) {
+                if let g = Rx.groups(#"(?:called|named|labeled|for the|for my)\s+([a-z][a-z ]{1,30})$"#, t) {
                     label = TextKit.capitalizeFirst(g[0]) + " timer"
-                } else if let g = Regex.groups(#"^(?:set |start |make )?(?:a |an |the )?([a-z]{3,20}) timer"#, t),
+                } else if let g = Rx.groups(#"^(?:set |start |make )?(?:a |an |the )?([a-z]{3,20}) timer"#, t),
                           !["set", "start", "make", "new", "quick", "minute", "second", "hour"].contains(g[0]),
                           MathEval.numberWordsToDigits(g[0]) == g[0] {
                     label = TextKit.capitalizeFirst(g[0]) + " timer"
@@ -148,36 +148,36 @@ enum IntentRouter {
                 return .timer(seconds: d.seconds, label: label)
             }
         }
-        if Regex.matches(#"^(set|make|create) (an |a )?alarm|wake me up"#, t) { return .alarm }
-        if Regex.matches(#"^remind me\b|^(set|make|create|add) (a )?reminder|^reminder to"#, t) { return .reminder(text: raw) }
+        if Rx.matches(#"^(set|make|create) (an |a )?alarm|wake me up"#, t) { return .alarm }
+        if Rx.matches(#"^remind me\b|^(set|make|create|add) (a )?reminder|^reminder to"#, t) { return .reminder(text: raw) }
 
         // Calendar
-        if Regex.matches(#"\b(what is|whats|what do i have|anything|show me|show|list|check|what s|open)\b.*\b(calendar|schedule|agenda|my events|my plans|any events|any plans)\b"#, t)
-            || Regex.matches(#"^(what do i have|am i (free|busy)|whats? (next|coming up)|what is (next|coming up|on today|happening))"#, t)
-            || Regex.matches(#"^(my )?(schedule|agenda|calendar)( today| tomorrow| this week)?$"#, t) {
+        if Rx.matches(#"\b(what is|whats|what do i have|anything|show me|show|list|check|what s|open)\b.*\b(calendar|schedule|agenda|my events|my plans|any events|any plans)\b"#, t)
+            || Rx.matches(#"^(what do i have|am i (free|busy)|whats? (next|coming up)|what is (next|coming up|on today|happening))"#, t)
+            || Rx.matches(#"^(my )?(schedule|agenda|calendar)( today| tomorrow| this week)?$"#, t) {
             return .calendarList(text: t)
         }
-        if Regex.matches(#"^(delete|remove|cancel|clear)\b.*"#, t) && Regex.matches(#"\b(event|meeting|appointment|calendar|practice|class|party|lesson|game|session)\b"#, t) {
+        if Rx.matches(#"^(delete|remove|cancel|clear)\b.*"#, t) && Rx.matches(#"\b(event|meeting|appointment|calendar|practice|class|party|lesson|game|session)\b"#, t) {
             return .calendarDelete(text: raw)
         }
-        if Regex.matches(#"^(move|reschedule|change|push|rename|edit|update)\b.*\b(to|from)\b"#, t)
-            && !Regex.matches(#"\b(volume|brightness|wallpaper|setting|settings|password|name|voice|unit|units)\b"#, t) {
+        if Rx.matches(#"^(move|reschedule|change|push|rename|edit|update)\b.*\b(to|from)\b"#, t)
+            && !Rx.matches(#"\b(volume|brightness|wallpaper|setting|settings|password|name|voice|unit|units)\b"#, t) {
             return .calendarEdit(text: raw)
         }
-        if Regex.matches(#"\b(add|put|schedule|create|make|book|plan|set up)\b.*\b(calendar|event|meeting|appointment)\b"#, t)
-            || Regex.matches(#"^(schedule|new event|add event|create event|calendar add)\b"#, t) {
+        if Rx.matches(#"\b(add|put|schedule|create|make|book|plan|set up)\b.*\b(calendar|event|meeting|appointment)\b"#, t)
+            || Rx.matches(#"^(schedule|new event|add event|create event|calendar add)\b"#, t) {
             return .calendarAdd(text: raw)
         }
 
         // Recipes and weather
-        if let g = Regex.groups(#"(?:recipe|recipes) (?:for|of|with)\s+(.+)$"#, t) { return .recipe(g[0]) }
-        if let g = Regex.groups(#"^(?:give me |show me |find |get )?(?:a |an )?(.+?) recipes?$"#, t) { return .recipe(g[0]) }
-        if let g = Regex.groups(#"^how (?:do i|do you|to|can i) (?:cook|bake|grill|roast|fry)\s+(?:a |an |some )?(.+)$"#, t) { return .recipe(g[0]) }
-        if let g = Regex.groups(#"^what (?:can|should) i (?:cook|make for (?:dinner|lunch|breakfast)|eat)(?: with (.+))?$"#, t) {
+        if let g = Rx.groups(#"(?:recipe|recipes) (?:for|of|with)\s+(.+)$"#, t) { return .recipe(g[0]) }
+        if let g = Rx.groups(#"^(?:give me |show me |find |get )?(?:a |an )?(.+?) recipes?$"#, t) { return .recipe(g[0]) }
+        if let g = Rx.groups(#"^how (?:do i|do you|to|can i) (?:cook|bake|grill|roast|fry)\s+(?:a |an |some )?(.+)$"#, t) { return .recipe(g[0]) }
+        if let g = Rx.groups(#"^what (?:can|should) i (?:cook|make for (?:dinner|lunch|breakfast)|eat)(?: with (.+))?$"#, t) {
             return .recipe(g[0].isEmpty ? "chicken" : g[0])
         }
-        if Regex.matches(#"\b(weather|forecast|temperature outside|how (hot|cold) is it|will it (rain|snow)|is it (raining|snowing)|umbrella)\b"#, t) {
-            if let g = Regex.groups(#"\b(?:in|for|at)\s+([a-z][a-z .'\-]+?)(?:\s+(?:today|tomorrow|this week|right now|now))?$"#, t),
+        if Rx.matches(#"\b(weather|forecast|temperature outside|how (hot|cold) is it|will it (rain|snow)|is it (raining|snowing)|umbrella)\b"#, t) {
+            if let g = Rx.groups(#"\b(?:in|for|at)\s+([a-z][a-z .'\-]+?)(?:\s+(?:today|tomorrow|this week|right now|now))?$"#, t),
                !["today", "tomorrow", "this week", "now", "right now", "here", "my area", "outside", "the week", "the weekend"].contains(g[0]) {
                 return .weather(place: g[0])
             }
@@ -185,28 +185,28 @@ enum IntentRouter {
         }
 
         // Files, screenshots, photos
-        if let g = Regex.groups(#"(?:find|search for|look for|where is|search)\s+(?:a |an |my |the )?screenshots?\s*(?:of|with|about|that says|showing|for)?\s*(.*)$"#, t) {
+        if let g = Rx.groups(#"(?:find|search for|look for|where is|search)\s+(?:a |an |my |the )?screenshots?\s*(?:of|with|about|that says|showing|for)?\s*(.*)$"#, t) {
             return .findScreenshots(g[0])
         }
-        if let g = Regex.groups(#"^(?:search|look through) (?:my )?screenshots (?:for )?(.+)$"#, t) { return .findScreenshots(g[0]) }
-        if let g = Regex.groups(#"(?:find|search for|look for|where is|open|search)\s+(?:a |an |my |the )?(?:file|document|doc|pdf|folder|files)\s*(?:called|named|about|with|for)?\s*(.*)$"#, t) {
+        if let g = Rx.groups(#"^(?:search|look through) (?:my )?screenshots (?:for )?(.+)$"#, t) { return .findScreenshots(g[0]) }
+        if let g = Rx.groups(#"(?:find|search for|look for|where is|open|search)\s+(?:a |an |my |the )?(?:file|document|doc|pdf|folder|files)\s*(?:called|named|about|with|for)?\s*(.*)$"#, t) {
             return .findFiles(g[0])
         }
-        if let g = Regex.groups(#"^search (?:my )?(?:files|documents|docs) (?:for )?(.+)$"#, t) { return .findFiles(g[0]) }
-        if Regex.matches(#"(what is|whats|what s) in (this|the|that|my) (picture|photo|image|pic|screenshot)|describe (this|the|that) (picture|photo|image)|read (this|the) (picture|photo|image)"#, t) {
+        if let g = Rx.groups(#"^search (?:my )?(?:files|documents|docs) (?:for )?(.+)$"#, t) { return .findFiles(g[0]) }
+        if Rx.matches(#"(what is|whats|what s) in (this|the|that|my) (picture|photo|image|pic|screenshot)|describe (this|the|that) (picture|photo|image)|read (this|the) (picture|photo|image)"#, t) {
             return .describePhoto
         }
 
         // Browser (hands-free friendly)
-        if let g = Regex.groups(#"^(?:search|look up|find)\s+(.+?)\s+on\s+(youtube|google|wikipedia|amazon|reddit|github|bing|duckduckgo|spotify|twitch|tiktok|pinterest|ebay|maps|google maps|apple music|netflix|roblox|thingiverse|printables|makerworld|etsy|imdb|walmart|target)$"#, t) {
+        if let g = Rx.groups(#"^(?:search|look up|find)\s+(.+?)\s+on\s+(youtube|google|wikipedia|amazon|reddit|github|bing|duckduckgo|spotify|twitch|tiktok|pinterest|ebay|maps|google maps|apple music|netflix|roblox|thingiverse|printables|makerworld|etsy|imdb|walmart|target)$"#, t) {
             return .searchTab(query: g[0], site: g[1])
         }
-        if let g = Regex.groups(#"^(?:play|watch)\s+(.+?)\s+on\s+youtube$"#, t) { return .searchTab(query: g[0], site: "youtube") }
-        if let g = Regex.groups(#"^(youtube|google|wikipedia|amazon|reddit)\s+(.+)$"#, t) { return .searchTab(query: g[1], site: g[0]) }
-        if let g = Regex.groups(#"^(?:search for|search the web for|search the internet for|google|search up|search)\s+(.+)$"#, t) {
+        if let g = Rx.groups(#"^(?:play|watch)\s+(.+?)\s+on\s+youtube$"#, t) { return .searchTab(query: g[0], site: "youtube") }
+        if let g = Rx.groups(#"^(youtube|google|wikipedia|amazon|reddit)\s+(.+)$"#, t) { return .searchTab(query: g[1], site: g[0]) }
+        if let g = Rx.groups(#"^(?:search for|search the web for|search the internet for|google|search up|search)\s+(.+)$"#, t) {
             return .searchTab(query: g[0], site: nil)
         }
-        if let g = Regex.groups(#"^(?:open|go to|launch|pull up|take me to|bring up|visit|open up)\s+(?:the\s+)?(.+?)(?:\s+(?:website|site|page|tab|app|in safari|in a new tab|for me|please))*$"#, t) {
+        if let g = Rx.groups(#"^(?:open|go to|launch|pull up|take me to|bring up|visit|open up)\s+(?:the\s+)?(.+?)(?:\s+(?:website|site|page|tab|app|in safari|in a new tab|for me|please))*$"#, t) {
             let target = g[0]
             if !["my calendar", "calendar", "settings", "ace settings", "checks"].contains(target) || Sites.lookup(target) != nil {
                 return .openSite(target)

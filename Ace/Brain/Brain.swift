@@ -103,7 +103,7 @@ final class Brain {
         let starts = #"^(what|who|how|when|where|why|which|is|are|can|do|does|tell|whats)\b"#
         for sep in [" and also ", "; ", " and then ", " and "] {
             let pieces = t.components(separatedBy: sep)
-            if pieces.count == 2, pieces.allSatisfy({ Regex.matches(starts, $0) && $0.split(separator: " ").count >= 3 }) {
+            if pieces.count == 2, pieces.allSatisfy({ Rx.matches(starts, $0) && $0.split(separator: " ").count >= 3 }) {
                 return pieces
             }
         }
@@ -592,7 +592,7 @@ final class Brain {
         let cal = CalendarService.shared
         guard await cal.requestEventAccess() else { return BrainReply(text: CalendarService.CalendarError.noAccess.errorDescription ?? "", mood: .alert) }
         let t = TextKit.normalize(raw)
-        guard let g = Regex.groups(#"^(move|reschedule|change|push|rename|edit|update)\s+(?:my |the )?(.+?)\s+(?:to|from .+? to)\s+(.+)$"#, t) else { return nil }
+        guard let g = Rx.groups(#"^(move|reschedule|change|push|rename|edit|update)\s+(?:my |the )?(.+?)\s+(?:to|from .+? to)\s+(.+)$"#, t) else { return nil }
         let verb = g[0], what = g[1], to = g[2]
         guard let event = cal.find(what, near: nil).first else {
             return BrainReply(text: "I couldn't find an event called \"\(what)\".", mood: .idle)

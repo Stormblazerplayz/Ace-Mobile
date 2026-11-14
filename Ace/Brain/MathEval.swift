@@ -279,7 +279,7 @@ enum UnitConvert {
             #"how many\s+"# + unitPattern + #"\s+(?:are\s+)?(?:in|is)\s+(-?\d+(?:\.\d+)?)\s*"# + unitPattern + #"$"#,
         ]
         for (i, p) in patterns.enumerated() {
-            guard let m = Regex.groups(p, in: t), m.count == 3 else { continue }
+            guard let m = Rx.groups(p, in: t), m.count == 3 else { continue }
             let value: Double?
             let fromName: String
             let toName: String
@@ -340,7 +340,7 @@ enum Roman {
 }
 
 /// Tiny regex helper: returns the capture groups of the first match.
-enum Regex {
+enum Rx {
     static func groups(_ pattern: String, in text: String) -> [String]? {
         guard let re = try? NSRegularExpression(pattern: pattern, options: [.caseInsensitive]) else { return nil }
         let range = NSRange(text.startIndex..., in: text)

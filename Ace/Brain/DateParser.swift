@@ -54,7 +54,7 @@ enum DateParser {
     static func find(in text: String, now: Date = Date()) -> Found? {
         let lower = text.lowercased()
         // "in 20 minutes" style.
-        if Regex.matches(#"\bin\s+(\d+|a|an|one|two|three|four|five|ten|fifteen|twenty|thirty|half)\b"#, lower),
+        if Rx.matches(#"\bin\s+(\d+|a|an|one|two|three|four|five|ten|fifteen|twenty|thirty|half)\b"#, lower),
            let d = duration(in: lower) {
             return Found(date: now.addingTimeInterval(d.seconds), duration: nil, allDay: false, phrase: "in " + d.phrase)
         }
@@ -78,7 +78,7 @@ enum DateParser {
               let r = Range(m.range, in: prepared) else { return nil }
         let phrase = String(prepared[r])
         let p = phrase.lowercased()
-        let hasTime = Regex.matches(#"\d\s*(am|pm|a\.m\.|p\.m\.)|\d:\d\d|\bat\s+\d|noon|midnight|o'?clock"#, p)
+        let hasTime = Rx.matches(#"\d\s*(am|pm|a\.m\.|p\.m\.)|\d:\d\d|\bat\s+\d|noon|midnight|o'?clock"#, p)
             || !phraseHint.isEmpty && phraseHint != "today"
         var result = date
         // A bare time that already passed today means tomorrow ("at 7" said at 9pm).
