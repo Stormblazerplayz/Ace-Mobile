@@ -48,6 +48,15 @@ enum Intent: Equatable {
 }
 
 extension Intent {
+    /// Things Ace does itself (timers, checks, calendar, memory, math, PC...), so they never go to LFM3 Omni.
+    /// Only small talk goes to the model when it's picked as the brain.
+    var isAction: Bool {
+        switch self {
+        case .greeting, .thanks, .goodbye: return false
+        default: return true
+        }
+    }
+
     /// A short name for the kind of thing to do ("timer", "weather"...). Used by tests and the think loop.
     var kind: String {
         switch self {

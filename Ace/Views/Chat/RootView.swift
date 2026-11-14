@@ -64,7 +64,7 @@ struct RootView: View {
 
     // MARK: Chat list
 
-    /// The top row: Ace's orb right at the top in the middle, buttons on each side.
+    /// The top row: Ace's orb right at the top in the middle (tap it for Settings), buttons on each side.
     /// While the orb stretches out to look around, the buttons step aside.
     private var header: some View {
         GeometryReader { geo in
@@ -73,7 +73,6 @@ struct RootView: View {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
                     Spacer()
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
-                    headerButton("gearshape", label: "Settings") { showSettings = true }
                 }
                 .opacity(core.mood.expands ? 0 : 1)
                 .allowsHitTesting(!core.mood.expands)
@@ -84,7 +83,8 @@ struct RootView: View {
                     status: core.statusLine,
                     maxExpandedWidth: geo.size.width
                 ) {
-                    Task { await core.wakeUp(reason: .manual) }
+                    // Tapping the orb opens Settings (there's no gear button any more).
+                    showSettings = true
                 }
             }
             .frame(width: geo.size.width, height: geo.size.height)

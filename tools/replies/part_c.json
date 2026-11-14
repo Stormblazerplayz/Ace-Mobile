@@ -20,5 +20,27 @@
   "I'm here. Ask me anything.",
   "Ace reporting in! What's up?",
   "You rang? What do you need?"
+ ],
+ "modelMissing": [
+  "LFM3 Omni isn't on this iPad yet, so Normal Ace answered. You can download it in Settings.",
+  "That was Normal Ace. LFM3 Omni isn't downloaded yet, but you can get it in Settings.",
+  "Heads up: LFM3 Omni isn't on this iPad, so I answered as Normal Ace. Download it in Settings.",
+  "I answered as Normal Ace because LFM3 Omni isn't downloaded. Grab it in Settings.",
+  "LFM3 Omni needs to be downloaded first. Until then Normal Ace answers. It's in Settings.",
+  "Normal Ace took that one, since LFM3 Omni isn't here yet. You can download it in Settings.",
+  "LFM3 Omni isn't downloaded, so that answer came from Normal Ace. Get the model in Settings.",
+  "Quick note: LFM3 Omni isn't on this iPad. Download it in Settings and it'll answer next time.",
+  "That came from Normal Ace. To use LFM3 Omni, download it in Settings first.",
+  "I can't use LFM3 Omni until it's downloaded, so Normal Ace answered. Settings has the download.",
+  "LFM3 Omni is picked, but it's not on this iPad yet. Download it in Settings. Normal Ace answered for now.",
+  "Normal Ace answered this time. LFM3 Omni will take over once you download it in Settings.",
+  "No LFM3 Omni on this iPad yet, so I used Normal Ace. You can download it in Settings.",
+  "LFM3 Omni hasn't been downloaded, so Normal Ace stepped in. Settings has a download button.",
+  "I used Normal Ace because LFM3 Omni isn't here yet. Download it in Settings to switch.",
+  "Just so you know, LFM3 Omni isn't downloaded. Normal Ace answered. Get it in Settings.",
+  "LFM3 Omni is missing from this iPad, so Normal Ace answered. You can add it in Settings.",
+  "Normal Ace covered that. LFM3 Omni can answer once it's downloaded in Settings.",
+  "LFM3 Omni isn't ready because it's not downloaded. Normal Ace answered. Download it in Settings.",
+  "That answer is from Normal Ace. Download LFM3 Omni in Settings to use the model."
  ]
 }

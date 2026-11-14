@@ -69,7 +69,7 @@ struct OrbIsland: View {
         .onTapGesture(perform: onTap)
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Ace, \(mood.label)")
-        .accessibilityHint("Double tap to have Ace check things now")
+        .accessibilityHint("Double tap to open Settings")
         .accessibilityAddTraits(.isButton)
     }
 
