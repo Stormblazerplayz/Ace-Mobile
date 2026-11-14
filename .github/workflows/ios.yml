@@ -94,11 +94,18 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # The newest llama.cpp release has a ready-made llama.xcframework.
+          # llama.cpp's numbered builds (like b12380) each have a ready-made llama.xcframework.
+          # Try the pinned build first, then the newest builds that have one.
           # If this step can't get it, the app still builds, just without the on-device model.
           set +e
           mkdir -p "$RUNNER_TEMP/llama" Vendor
-          gh release download --repo ggml-org/llama.cpp --pattern '*xcframework*.zip' --dir "$RUNNER_TEMP/llama"
+          PINNED=b12380
+          for TAG in "$PINNED" $(gh release list --repo ggml-org/llama.cpp --limit 15 --json tagName --jq '.[].tagName' | grep '^b'); do
+            if gh release download "$TAG" --repo ggml-org/llama.cpp --pattern 'llama-*-xcframework.zip' --dir "$RUNNER_TEMP/llama"; then
+              echo "Got llama.cpp $TAG"
+              break
+            fi
+          done
           ZIP=$(find "$RUNNER_TEMP/llama" -name '*.zip' | head -n 1)
           if [ -n "$ZIP" ]; then
             unzip -q "$ZIP" -d "$RUNNER_TEMP/llama/unzipped"
