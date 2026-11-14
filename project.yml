@@ -33,7 +33,9 @@ targets:
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         CODE_SIGN_STYLE: Automatic
         ENABLE_PREVIEWS: YES
-    scheme: {}
+    scheme:
+      testTargets:
+        - AceTests
   AceWidgets:
     type: app-extension
     platform: iOS
@@ -51,3 +53,17 @@ targets:
         ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME: WidgetBackground
         CODE_SIGN_STYLE: Automatic
         SKIP_INSTALL: YES
+  AceTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AceTests
+    dependencies:
+      - target: Ace
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(ACE_BUNDLE_ID).tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Ace.app/Ace
+        BUNDLE_LOADER: $(TEST_HOST)
+        CODE_SIGN_STYLE: Automatic

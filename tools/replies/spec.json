@@ -1,0 +1,598 @@
+{
+ "empty": {
+  "req": [],
+  "opt": [],
+  "orig": "I'm here. What's up?"
+ },
+ "greeting": {
+  "req": [],
+  "opt": [
+   "hello",
+   "who"
+  ],
+  "orig": "{hello}{who}! What can I help with?",
+  "note": "{hello} is 'Good morning'/'Good afternoon'/'Good evening'. {who} is ', Storm' (comma included) or empty. Every variant must still read right when {who} is empty. Use {hello} in at least 10 variants."
+ },
+ "thanks": {
+  "req": [],
+  "opt": [
+   "who"
+  ],
+  "orig": "You're welcome!",
+  "note": "{who} is ', Storm' or empty."
+ },
+ "goodbye": {
+  "req": [],
+  "opt": [
+   "who"
+  ],
+  "orig": "See you later! I'll keep an eye on things.",
+  "note": "{who} is ', Storm' or empty."
+ },
+ "time": {
+  "req": [
+   "time"
+  ],
+  "opt": [],
+  "orig": "It's {time}.",
+  "note": "{time} like '3:42 PM'"
+ },
+ "date": {
+  "req": [
+   "date"
+  ],
+  "opt": [],
+  "orig": "Today is {date}.",
+  "note": "{date} like 'Saturday, November 14, 2026'"
+ },
+ "daysUntilToday": {
+  "req": [],
+  "opt": [
+   "thing"
+  ],
+  "orig": "That's today!",
+  "note": "{thing} like 'christmas'"
+ },
+ "daysUntil": {
+  "req": [
+   "count",
+   "thing",
+   "when"
+  ],
+  "opt": [],
+  "orig": "{count} until {thing}, on {when}.",
+  "note": "{count} like '41 days' or '1 day'; {thing} like 'christmas'; {when} like 'Friday, December 25'"
+ },
+ "math": {
+  "req": [
+   "expr",
+   "value"
+  ],
+  "opt": [],
+  "orig": "{expr} = {value}",
+  "note": "{expr} like '12 * 7', {value} like '84'"
+ },
+ "toRoman": {
+  "req": [
+   "n",
+   "roman"
+  ],
+  "opt": [],
+  "orig": "{n} in Roman numerals is {roman}."
+ },
+ "fromRoman": {
+  "req": [
+   "roman",
+   "n"
+  ],
+  "opt": [],
+  "orig": "{roman} is {n}."
+ },
+ "romanRange": {
+  "req": [],
+  "opt": [],
+  "orig": "Roman numerals only go from 1 to 3,999."
+ },
+ "randomNumber": {
+  "req": [
+   "n"
+  ],
+  "opt": [
+   "low",
+   "high"
+  ],
+  "orig": "{n}",
+  "note": "{low}..{high} is the range they asked for"
+ },
+ "spell": {
+  "req": [
+   "word",
+   "letters"
+  ],
+  "opt": [],
+  "orig": "{word} is spelled {letters}.",
+  "note": "{letters} like 'C-A-T'"
+ },
+ "timerSet": {
+  "req": [
+   "label",
+   "duration"
+  ],
+  "opt": [],
+  "orig": "{label} set for {duration}.",
+  "note": "{label} is usually 'Timer' or a name like 'Pizza'; {duration} like '5 minutes'"
+ },
+ "timerNoAlerts": {
+  "req": [],
+  "opt": [],
+  "orig": "Notifications are off, so keep Ace open to see it finish."
+ },
+ "alarm": {
+  "req": [],
+  "opt": [],
+  "orig": "Apps can't set iPad Clock alarms, but I can set a timer or a reminder that rings. Try \"remind me at 7am to get up\".",
+  "note": "Keep both facts: apps can't set Clock alarms; a timer or a reminder works. Keep an example command in quotes in most variants."
+ },
+ "openSite": {
+  "req": [
+   "site"
+  ],
+  "opt": [],
+  "orig": "Opening {site}."
+ },
+ "searchTab": {
+  "req": [
+   "site",
+   "query"
+  ],
+  "opt": [],
+  "orig": "Searching {site} for {query}.",
+  "note": "{site} like 'YouTube' or 'the web'"
+ },
+ "recipeNotFound": {
+  "req": [
+   "dish"
+  ],
+  "opt": [],
+  "orig": "I couldn't find a recipe for {dish}. Try another name, like \"pancakes\" or \"chicken curry\"."
+ },
+ "recipeFound": {
+  "req": [
+   "name",
+   "ingredients",
+   "steps"
+  ],
+  "opt": [],
+  "orig": "Here's {name}: {ingredients} ingredients and {steps} steps.",
+  "note": "{ingredients} and {steps} are numbers"
+ },
+ "weatherAskCity": {
+  "req": [],
+  "opt": [],
+  "orig": "Which city should I check? Say \"weather in\" and your city, and I'll remember it."
+ },
+ "weatherFail": {
+  "req": [
+   "city"
+  ],
+  "opt": [],
+  "orig": "I couldn't get the weather for {city} right now."
+ },
+ "weatherNow": {
+  "req": [
+   "temp",
+   "sky",
+   "place"
+  ],
+  "opt": [],
+  "orig": "It's {temp} and {sky} in {place}.",
+  "note": "{temp} like '18°C'; {sky} like 'partly cloudy'"
+ },
+ "weatherToday": {
+  "req": [
+   "high",
+   "low"
+  ],
+  "opt": [
+   "rain"
+  ],
+  "orig": "Today: high {high}, low {low}{rain}.",
+  "note": "{rain} is ', 40% chance of rain' (comma included) or empty"
+ },
+ "batteryUnknown": {
+  "req": [],
+  "opt": [],
+  "orig": "I can't read the battery right now."
+ },
+ "batteryCharging": {
+  "req": [
+   "pct"
+  ],
+  "opt": [],
+  "orig": "Your battery is at {pct}% and charging."
+ },
+ "batteryFull": {
+  "req": [
+   "pct"
+  ],
+  "opt": [],
+  "orig": "Your battery is at {pct}% and full."
+ },
+ "batteryLow": {
+  "req": [
+   "pct"
+  ],
+  "opt": [],
+  "orig": "Your battery is at {pct}%. Time to plug in soon."
+ },
+ "batteryOK": {
+  "req": [
+   "pct"
+  ],
+  "opt": [],
+  "orig": "Your battery is at {pct}%."
+ },
+ "lowPowerOn": {
+  "req": [],
+  "opt": [],
+  "orig": "Low Power Mode is on."
+ },
+ "storageUnknown": {
+  "req": [],
+  "opt": [],
+  "orig": "I can't read storage right now."
+ },
+ "storage": {
+  "req": [
+   "free",
+   "total",
+   "pct"
+  ],
+  "opt": [],
+  "orig": "You have {free} free out of {total} ({pct}% free).",
+  "note": "{free} like '41 GB'"
+ },
+ "storageLow": {
+  "req": [],
+  "opt": [],
+  "orig": "That's getting low. Offloading unused apps in Settings > General > iPad Storage helps.",
+  "note": "Keep the Settings > General > iPad Storage path."
+ },
+ "memoryUsage": {
+  "req": [
+   "ram",
+   "app",
+   "free"
+  ],
+  "opt": [],
+  "orig": "Your iPad has {ram} of RAM. I'm using {app}, and about {free} more is free for me. iPadOS doesn't let apps see how much other apps use."
+ },
+ "offline": {
+  "req": [],
+  "opt": [],
+  "orig": "You're offline right now. I can still answer from my answer bank."
+ },
+ "onlineWiFi": {
+  "req": [],
+  "opt": [],
+  "orig": "You're online over Wi-Fi."
+ },
+ "onlineCellular": {
+  "req": [],
+  "opt": [],
+  "orig": "You're online over cellular."
+ },
+ "noPhoto": {
+  "req": [],
+  "opt": [],
+  "orig": "Send me a picture with the photo or camera button first, then ask."
+ },
+ "remembered": {
+  "req": [
+   "fact"
+  ],
+  "opt": [],
+  "orig": "Got it, I'll remember {fact}.",
+  "note": "{fact} like 'your favorite color is blue'"
+ },
+ "setName": {
+  "req": [
+   "name"
+  ],
+  "opt": [],
+  "orig": "Nice to meet you, {name}!"
+ },
+ "noNameYet": {
+  "req": [],
+  "opt": [],
+  "orig": "You haven't told me your name yet. Say \"my name is ...\"."
+ },
+ "yourName": {
+  "req": [
+   "name"
+  ],
+  "opt": [],
+  "orig": "Your name is {name}."
+ },
+ "recallMissing": {
+  "req": [
+   "what"
+  ],
+  "opt": [],
+  "orig": "You haven't told me your {what} yet. Say \"remember my {what} is ...\".",
+  "note": "{what} like 'favorite color'"
+ },
+ "recallNothing": {
+  "req": [],
+  "opt": [],
+  "orig": "I don't have anything saved about you yet."
+ },
+ "recallHeader": {
+  "req": [],
+  "opt": [],
+  "orig": "Here's what I remember:",
+  "note": "A list follows on the next lines, so end with a colon."
+ },
+ "forgotNothing": {
+  "req": [],
+  "opt": [],
+  "orig": "I didn't have anything saved about that."
+ },
+ "forgotSome": {
+  "req": [
+   "count"
+  ],
+  "opt": [],
+  "orig": "Done, I forgot {count}.",
+  "note": "{count} like '2 things' or '1 thing'"
+ },
+ "pcNotPaired": {
+  "req": [],
+  "opt": [],
+  "orig": "I'm not connected to your PC. Turn on PC Sync in Settings and pair with Nimbus first."
+ },
+ "pcRestarting": {
+  "req": [],
+  "opt": [],
+  "orig": "Restarting your PC now."
+ },
+ "pcShuttingDown": {
+  "req": [],
+  "opt": [],
+  "orig": "Shutting down your PC now."
+ },
+ "pcAppNotPaired": {
+  "req": [
+   "action"
+  ],
+  "opt": [],
+  "orig": "I can only {action} apps on your PC once PC Sync is paired with Nimbus.",
+  "note": "{action} like 'open' or 'close'"
+ },
+ "pcAppDone": {
+  "req": [
+   "action",
+   "app"
+  ],
+  "opt": [],
+  "orig": "Done: {action} {app} on your PC.",
+  "note": "{action} is a bare verb like 'open' or 'close'; keep it as a verb, e.g. 'I asked your PC to {action} {app}.'"
+ },
+ "pcAppOnIPad": {
+  "req": [
+   "action",
+   "app"
+  ],
+  "opt": [],
+  "orig": "On iPad, apps can't {action} other apps. You can swipe up from the bottom to switch or close apps. If you pair me with Nimbus, say \"{action} {app} on my PC\"."
+ },
+ "pcStatusOff": {
+  "req": [],
+  "opt": [],
+  "orig": "PC Sync is off, so I can't see your PC. You can turn it on in Settings."
+ },
+ "soundsOn": {
+  "req": [],
+  "opt": [],
+  "orig": "Sounds are back on."
+ },
+ "soundsOff": {
+  "req": [],
+  "opt": [],
+  "orig": "Okay, I'll be quiet."
+ },
+ "tellMoreWhat": {
+  "req": [],
+  "opt": [],
+  "orig": "More about what? Ask me something first."
+ },
+ "tellMoreFail": {
+  "req": [
+   "topic"
+  ],
+  "opt": [],
+  "orig": "I couldn't find more about {topic} right now."
+ },
+ "repeatNothing": {
+  "req": [],
+  "opt": [],
+  "orig": "I haven't said anything yet."
+ },
+ "correctionSaved": {
+  "req": [
+   "fix"
+  ],
+  "opt": [],
+  "orig": "Thanks for fixing that. I'll say \"{fix}\" next time."
+ },
+ "correctionAsk": {
+  "req": [],
+  "opt": [],
+  "orig": "Oops. What should I have said?"
+ },
+ "taught": {
+  "req": [
+   "question",
+   "answer"
+  ],
+  "opt": [],
+  "orig": "Learned it! When you ask \"{question}\", I'll say \"{answer}\"."
+ },
+ "taughtAnswer": {
+  "req": [
+   "question",
+   "answer"
+  ],
+  "opt": [],
+  "orig": "Got it. Next time you ask \"{question}\", I'll say: {answer}"
+ },
+ "reminderSaved": {
+  "req": [
+   "task"
+  ],
+  "opt": [
+   "when"
+  ],
+  "orig": "I'll remind you to {task}{when}. It's in the Nimbus list in Reminders.",
+  "note": "{when} is ' tomorrow at 5 PM' (leading space) or empty. Keep that it's in the Nimbus list in Reminders."
+ },
+ "reminderSet": {
+  "req": [
+   "task",
+   "when"
+  ],
+  "opt": [],
+  "orig": "I'll remind you to {task}{when}.",
+  "note": "{when} is ' tomorrow at 5 PM' with a leading space, so write {task}{when} with no space between"
+ },
+ "reminderWhen": {
+  "req": [
+   "task"
+  ],
+  "opt": [],
+  "orig": "When should I remind you? Try \"remind me to {task} at 5pm\"."
+ },
+ "calendarWhen": {
+  "req": [],
+  "opt": [],
+  "orig": "When is it? Try \"add soccer practice to my calendar tomorrow at 4pm\"."
+ },
+ "calendarAddAsk": {
+  "req": [
+   "title",
+   "when"
+  ],
+  "opt": [],
+  "orig": "Want me to add \"{title}\" {when} to your Nimbus calendar?",
+  "note": "{when} like 'tomorrow at 4 PM'. Must stay a yes/no question."
+ },
+ "eventNotFound": {
+  "req": [
+   "what"
+  ],
+  "opt": [],
+  "orig": "I couldn't find an event called \"{what}\"."
+ },
+ "eventMoveWhen": {
+  "req": [
+   "title"
+  ],
+  "opt": [],
+  "orig": "When should I move \"{title}\" to?"
+ },
+ "eventFound": {
+  "req": [
+   "title",
+   "change"
+  ],
+  "opt": [],
+  "orig": "Found \"{title}\". Want me to {change}?",
+  "note": "{change} like 'move it to Friday at 3 PM' or 'rename it to \"Practice\"'. Must stay a yes/no question."
+ },
+ "deleteNotFound": {
+  "req": [
+   "what"
+  ],
+  "opt": [],
+  "orig": "I couldn't find \"{what}\" on your calendar."
+ },
+ "deleteAsk": {
+  "req": [
+   "title",
+   "when"
+  ],
+  "opt": [],
+  "orig": "Delete \"{title}\" {when}?",
+  "note": "Must stay a yes/no question."
+ },
+ "nothingComingUp": {
+  "req": [],
+  "opt": [],
+  "orig": "Nothing coming up in the next 30 days."
+ },
+ "nextUp": {
+  "req": [
+   "title",
+   "when"
+  ],
+  "opt": [],
+  "orig": "Next up: {title}, {when}."
+ },
+ "calendarFree": {
+  "req": [
+   "label"
+  ],
+  "opt": [],
+  "orig": "Nothing on your calendar {label}. You're free!",
+  "note": "{label} like 'today', 'tomorrow', 'this weekend', 'in the next 7 days'"
+ },
+ "calendarList": {
+  "req": [
+   "count",
+   "label",
+   "list"
+  ],
+  "opt": [],
+  "orig": "You have {count} {label}: {list}.",
+  "note": "{count} like '3 things'; {list} like 'Soccer at 4 PM, Dinner at 6 PM, plus 2 more'"
+ },
+ "guess": {
+  "req": [
+   "question"
+  ],
+  "opt": [],
+  "orig": "I think you're asking \"{question}\".",
+  "note": "Said before a best-guess answer, so it's one short sentence."
+ },
+ "dontKnow": {
+  "req": [
+   "question"
+  ],
+  "opt": [],
+  "orig": "I don't know that one yet. You can teach me by saying \"the answer to {question} is ...\", or I can search the web.",
+  "note": "Keep the teach-me example with {question} in quotes."
+ },
+ "clarify": {
+  "req": [
+   "first",
+   "second"
+  ],
+  "opt": [],
+  "orig": "Do you mean \"{first}\" or \"{second}\"?",
+  "note": "Asked when two answers fit. Must stay an either/or question."
+ },
+ "followUpLost": {
+  "req": [],
+  "opt": [],
+  "orig": "What are we talking about? Ask me the whole question and I'll answer it.",
+  "note": "Said when someone asks 'what about it' with nothing before it."
+ },
+ "summon": {
+  "req": [],
+  "opt": [
+   "who"
+  ],
+  "orig": "Yeah? What do you need?",
+  "note": "Said when someone just says Ace's name. {who} is ', Storm' or empty."
+ }
+}

@@ -3,6 +3,7 @@ import Foundation
 /// Things Ace can do, found by rules first and the neural classifier second.
 enum Intent: Equatable {
     case greeting, thanks, goodbye
+    case summon                   // just "Ace" or "hey Ace": are you there?
     case time, date
     case daysUntil(String)
     case math(String)
@@ -46,16 +47,79 @@ enum Intent: Equatable {
     case ipadOnlyLimit(String)
 }
 
+extension Intent {
+    /// A short name for the kind of thing to do ("timer", "weather"...). Used by tests and the think loop.
+    var kind: String {
+        switch self {
+        case .greeting: return "greeting"
+        case .summon: return "summon"
+        case .thanks: return "thanks"
+        case .goodbye: return "goodbye"
+        case .time: return "time"
+        case .date: return "date"
+        case .daysUntil: return "daysUntil"
+        case .math: return "math"
+        case .convert: return "convert"
+        case .roman: return "roman"
+        case .randomNumber: return "randomNumber"
+        case .spell: return "spell"
+        case .timer: return "timer"
+        case .reminder: return "reminder"
+        case .alarm: return "alarm"
+        case .calendarAdd: return "calendarAdd"
+        case .calendarEdit: return "calendarEdit"
+        case .calendarDelete: return "calendarDelete"
+        case .calendarList: return "calendarList"
+        case .openSite: return "openSite"
+        case .searchTab: return "searchTab"
+        case .recipe: return "recipe"
+        case .weather: return "weather"
+        case .check: return "check"
+        case .battery: return "battery"
+        case .storage: return "storage"
+        case .memoryUsage: return "memoryUsage"
+        case .network: return "network"
+        case .largeFiles: return "largeFiles"
+        case .findFiles: return "findFiles"
+        case .findScreenshots: return "findScreenshots"
+        case .describePhoto: return "describePhoto"
+        case .bedtime: return "bedtime"
+        case .remember: return "remember"
+        case .setName: return "setName"
+        case .recall: return "recall"
+        case .recallAll: return "recallAll"
+        case .forget: return "forget"
+        case .handsFree: return "handsFree"
+        case .pcPower: return "pcPower"
+        case .pcApp: return "pcApp"
+        case .pcStatus: return "pcStatus"
+        case .syncNow: return "syncNow"
+        case .sounds: return "sounds"
+        case .tellMore: return "tellMore"
+        case .repeatLast: return "repeatLast"
+        case .correction: return "correction"
+        case .teach: return "teach"
+        case .ipadOnlyLimit: return "ipadOnlyLimit"
+        }
+    }
+}
+
 enum IntentRouter {
     /// Reads the sentence with rules. Returns nil when no rule fits.
     static func parse(_ raw: String) -> Intent? {
         let t = TextKit.normalize(raw)
         guard !t.isEmpty else { return nil }
 
+        // Calling Ace by name ("Ace", "hey Ace", "Ace, are you there?") is never a web search.
+        if Rx.matches(#"^((hey|hi|hello|yo|ok|okay|oi|psst|um|uh|so|yes|yeah)\s+)*ace(\s+(are you there|you there|are you here|are you awake|are you listening|you awake|wake up))?$"#, t)
+            || Rx.matches(#"^(are )?you (there|here|awake|listening)( ace)?$"#, t) {
+            return .summon
+        }
+
         // Small talk
-        if Rx.matches(#"^(hi|hello|hey|yo|sup|hiya|howdy|good (morning|afternoon|evening))( there)?( ace)?$"#, t) { return .greeting }
-        if Rx.matches(#"^(thanks|thank you|ty|thanks ace|thank you ace|thanks a lot|cheers)( so much| very much)?$"#, t) { return .thanks }
-        if Rx.matches(#"^(bye|goodbye|good night|goodnight|see you|see ya|later|cya)( ace)?$"#, t) { return .goodbye }
+        if Rx.matches(#"^(hi|hello|hey|yo|sup|hiya|howdy|good (morning|afternoon|evening|day))( there)?( to you)?( ace)?( to you)?$"#, t) { return .greeting }
+        if Rx.matches(#"^(thanks|thank you|ty|thx|cheers|thank u)( ace)?( so much| very much| a lot| a bunch| a ton| heaps)?( ace| buddy| man| dude)?$"#, t) { return .thanks }
+        if Rx.matches(#"^(ok |okay |alright |well )?(bye|goodbye|bye bye|good night|goodnight|see you|see ya|later|cya|talk to you later|catch you later)( for now)?( ace)?( for now)?$"#, t) { return .goodbye }
 
         // Teaching and corrections
         if let g = Rx.groups(#"^(?:if i ask|when i ask|if i say|when i say)\s+(.+?)\s*,?\s*(?:you should say|you say|say|answer|reply)\s+(.+)$"#, t) {
@@ -81,7 +145,8 @@ enum IntentRouter {
 
         // Time
         if Rx.matches(#"^(what time is it|what is the time|time|current time|whats the time|tell me the time|time now|what time is it now)$"#, t) { return .time }
-        if Rx.matches(#"^(what day is it|what is the date|what is today|todays date|what is todays date|date|what day is today|what is the date today)$"#, t) { return .date }
+        if Rx.matches(#"^(what day is it|what is the date|what is today|todays date|what is todays date|date|what day is today|what is the date today)$"#, t)
+            || Rx.matches(#"^(what is |whats |tell me )?(today'?s|the) date( today)?( please)?$|^what is the date today$|^what (day|date) is it( today)?$"#, t) { return .date }
         if let g = Rx.groups(#"^how (?:many|long) (?:days|sleeps|weeks) (?:until|till|til|to|before)\s+(.+)$"#, t) { return .daysUntil(g[0]) }
 
         // Hands-free and sounds
@@ -111,11 +176,14 @@ enum IntentRouter {
         }
 
         // Checks
+        if Rx.matches(#"^(run|do) a (quick |full )?check( on (everything|things|my ipad|the ipad|stuff))?$"#, t) { return .check }
         if Rx.matches(#"^(check|check (everything|things|stuff|my ipad|the ipad|on things|up|around|status|in)|run a check|do a check|status( report)?|look around|how is my ipad|ipad status|how is everything|anything i should know|what needs my attention|scan)$"#, t) { return .check }
         if Rx.matches(#"\bbattery\b|\bcharge left\b|\bhow charged\b"#, t) { return .battery }
         if Rx.matches(#"\b(large|big|huge|biggest|largest) files?\b|taking up (space|storage)"#, t) { return .largeFiles }
         if Rx.matches(#"\b(storage|space left|free space|disk space|how much space|running out of space)\b"#, t) { return .storage }
-        if Rx.matches(#"\b(ram|memory usage|how much memory|memory use)\b"#, t) { return .memoryUsage }
+        // "what does ram stand for" is a question about the word, not about this iPad's memory.
+        if Rx.matches(#"\b(ram|memory usage|how much memory|memory use)\b"#, t),
+           !Rx.matches(#"\b(stand for|stands for|short for|mean|meaning)\b|^(what is|whats) (a |the )?ram$"#, t) { return .memoryUsage }
         if Rx.matches(#"^(am i online|is (the )?(wifi|internet) (on|working)|network status|internet status)"#, t) { return .network }
 
         // Sleep
@@ -148,8 +216,12 @@ enum IntentRouter {
                 return .timer(seconds: d.seconds, label: label)
             }
         }
+        if Rx.matches(#"^(can you |could you |please )?(time|count down) (\d|one|two|three|four|five|ten|fifteen|twenty|thirty|forty|fifty|sixty|ninety|a )"#, t),
+           let d = DateParser.duration(in: t) {
+            return .timer(seconds: d.seconds, label: "Timer")
+        }
         if Rx.matches(#"^(set|make|create) (an |a )?alarm|wake me up"#, t) { return .alarm }
-        if Rx.matches(#"^remind me\b|^(set|make|create|add) (a )?reminder|^reminder to"#, t) { return .reminder(text: raw) }
+        if Rx.matches(#"^remind me\b|^(set|make|create|add) (a )?reminder|^reminder to|^(do not|dont) let me forget\b|^make sure i (remember|do not forget)\b"#, t) { return .reminder(text: raw) }
 
         // Calendar
         if Rx.matches(#"\b(what is|whats|what do i have|anything|show me|show|list|check|what s|open)\b.*\b(calendar|schedule|agenda|my events|my plans|any events|any plans)\b"#, t)

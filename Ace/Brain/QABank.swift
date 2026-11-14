@@ -47,6 +47,10 @@ final class QABank {
     private var docFreq: [String: Int] = [:]
     private var exact: [String: Int] = [:]
     private var embeddingCache: [Int: [Double]] = [:]
+    /// How many question wordings use each plain word (for typo fixes and finding the subject of a question).
+    private var wordCount: [String: Int] = [:]
+    /// Known words grouped by length, so typo fixing only looks at words of about the right size.
+    private var wordsByLength: [Int: [String]] = [:]
 
     private let embedding = NLEmbedding.sentenceEmbedding(for: .english)
     static let learnedFile = "learned_qa.json"
@@ -90,6 +94,13 @@ final class QABank {
             wordingKeys.append(keys)
             wordingAll.append(all)
             exact[norm] = w
+            for word in norm.split(separator: " ") {
+                let plain = String(word)
+                if wordCount[plain] == nil, plain.allSatisfy({ $0.isLetter }) {
+                    wordsByLength[plain.count, default: []].append(plain)
+                }
+                wordCount[plain, default: 0] += 1
+            }
             for k in all {
                 postings[k, default: []].append(w)
                 docFreq[k, default: 0] += 1
@@ -97,10 +108,27 @@ final class QABank {
         }
     }
 
+    /// How much a word tells about the question: rare words a lot, everyday words little.
+    private func weight(_ token: String) -> Double {
+        let w = idf(token)
+        return TextKit.commonWords.contains(token) ? min(w, 2) : w
+    }
+
     private func idf(_ token: String) -> Double {
         let n = Double(max(1, wordingText.count))
         let df = Double(docFreq[token] ?? 0)
         return log((n + 1) / (df + 1)) + 1
+    }
+
+    // MARK: Words
+
+    /// How many question wordings use this word (0 means Ace has never seen it).
+    func wordFrequency(_ word: String) -> Int { wordCount[word] ?? 0 }
+
+    /// Known words within 2 letters of this word's length.
+    func vocabulary(near word: String) -> [String] {
+        let n = word.count
+        return (max(1, n - 2)...(n + 2)).flatMap { wordsByLength[$0] ?? [] }
     }
 
     // MARK: Matching
@@ -134,15 +162,16 @@ final class QABank {
             let keys = wordingKeys[w]
             var lex: Double
             if !qKeys.isEmpty && !keys.isEmpty {
-                let inter = qKeys.intersection(keys)
-                let union = qKeys.union(keys)
-                let num = inter.reduce(0.0) { $0 + idf($1) }
-                let den = union.reduce(0.0) { $0 + idf($1) }
-                let weighted = den > 0 ? num / den : 0
-                let allJ = jaccard(qAll, wordingAll[w])
-                lex = weighted * 0.8 + allJ * 0.2
-                // Penalize when an important (rare) word of the question is missing.
-                let missing = qKeys.subtracting(keys).filter { idf($0) > 5.5 }
+                // How much of the bank's question you said, and how much of yours it covers.
+                // Everyday words ("one", "located") count for little, so they don't sink a good match.
+                let inter = qKeys.intersection(keys).reduce(0.0) { $0 + weight($1) }
+                let wordingWeight = keys.reduce(0.0) { $0 + weight($1) }
+                let questionWeight = qKeys.reduce(0.0) { $0 + weight($1) }
+                let coversWording = wordingWeight > 0 ? inter / wordingWeight : 0
+                let coversQuestion = questionWeight > 0 ? inter / questionWeight : 0
+                lex = coversWording * 0.5 + coversQuestion * 0.35 + jaccard(qAll, wordingAll[w]) * 0.15
+                // Penalize when an important word of the question is missing ("france" vs "germany").
+                let missing = qKeys.subtracting(keys).filter { weight($0) > 5.5 }
                 if !missing.isEmpty { lex *= pow(0.72, Double(missing.count)) }
             } else {
                 lex = jaccard(qAll, wordingAll[w])

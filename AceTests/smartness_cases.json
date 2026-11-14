@@ -1,0 +1,2103 @@
+{
+ "format": "ace-smartness/1",
+ "count": 200,
+ "cases": [
+  {
+   "n": 1,
+   "category": "paraphrase",
+   "prompt": "who's the person that made you",
+   "expect": {
+    "bank": [
+     "ace.who-made-you"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "category": "paraphrase",
+   "prompt": "which planet is the largest one",
+   "expect": {
+    "bank": [
+     "space.what-is-the-biggest-planet"
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "category": "paraphrase",
+   "prompt": "how many planets does our solar system have",
+   "expect": {
+    "bank": [
+     "space.how-many-planets-are-in-the-solar-system"
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "category": "paraphrase",
+   "prompt": "what's the distance from earth to the moon",
+   "expect": {
+    "bank": [
+     "space.how-far-is-the-moon"
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "category": "paraphrase",
+   "prompt": "how many bones does a person have",
+   "expect": {
+    "bank": [
+     "body.how-many-bones-are-in-the-human-body"
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "category": "paraphrase",
+   "prompt": "at what temperature does water start boiling",
+   "expect": {
+    "bank": [
+     "science.what-temperature-does-water-boil"
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "category": "paraphrase",
+   "prompt": "what's the quickest animal in the world",
+   "expect": {
+    "bank": [
+     "animals.what-is-the-fastest-animal"
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "category": "paraphrase",
+   "prompt": "which ocean is the biggest on earth",
+   "expect": {
+    "bank": [
+     "earth.what-is-the-biggest-ocean"
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "category": "paraphrase",
+   "prompt": "which mountain is the tallest on the planet",
+   "expect": {
+    "bank": [
+     "earth.what-is-the-tallest-mountain"
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "category": "paraphrase",
+   "prompt": "who was the very first us president",
+   "expect": {
+    "bank": [
+     "history.who-was-the-first-president-of-the-united-states"
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "category": "paraphrase",
+   "prompt": "who came up with the light bulb",
+   "expect": {
+    "bank": [
+     "science.who-invented-the-light-bulb"
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "category": "paraphrase",
+   "prompt": "how quick does light travel",
+   "expect": {
+    "bank": [
+     "science.what-is-the-speed-of-light"
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "category": "paraphrase",
+   "prompt": "explain what a black hole is",
+   "expect": {
+    "bank": [
+     "space.what-is-a-black-hole"
+    ]
+   }
+  },
+  {
+   "n": 14,
+   "category": "paraphrase",
+   "prompt": "can you explain photosynthesis to me",
+   "expect": {
+    "bank": [
+     "science.what-is-photosynthesis"
+    ]
+   }
+  },
+  {
+   "n": 15,
+   "category": "paraphrase",
+   "prompt": "how many legs do spiders have",
+   "expect": {
+    "bank": [
+     "animals.how-many-legs-does-a-spider-have"
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "category": "paraphrase",
+   "prompt": "what do giant pandas like to eat",
+   "expect": {
+    "bank": [
+     "animals.what-do-pandas-eat"
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "category": "paraphrase",
+   "prompt": "which city is japan's capital",
+   "expect": {
+    "bank": [
+     "geo.capital.what-is-the-capital-of-japan"
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "category": "paraphrase",
+   "prompt": "which continent is brazil located in",
+   "expect": {
+    "bank": [
+     "geo.continent.what-continent-is-brazil-in"
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "category": "paraphrase",
+   "prompt": "what money is used in japan",
+   "expect": {
+    "bank": [
+     "geo.currency.what-is-the-currency-of-japan"
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "category": "paraphrase",
+   "prompt": "what's the chemical symbol for gold",
+   "expect": {
+    "bank": [
+     "chem.symbol.what-is-the-symbol-for-gold"
+    ]
+   }
+  },
+  {
+   "n": 21,
+   "category": "paraphrase",
+   "prompt": "what number element is oxygen",
+   "expect": {
+    "bank": [
+     "chem.number.what-is-the-atomic-number-of-oxygen"
+    ]
+   }
+  },
+  {
+   "n": 22,
+   "category": "paraphrase",
+   "prompt": "give me the opposite word for fast",
+   "expect": {
+    "bank": [
+     "words.opposite.what-is-the-opposite-of-fast"
+    ]
+   }
+  },
+  {
+   "n": 23,
+   "category": "paraphrase",
+   "prompt": "what's the name for a baby sheep",
+   "expect": {
+    "bank": [
+     "animals.baby.what-is-a-baby-sheep-called"
+    ]
+   }
+  },
+  {
+   "n": 24,
+   "category": "paraphrase",
+   "prompt": "how do spanish people say thank you",
+   "expect": {
+    "bank": [
+     "lang.thanks.how-do-you-say-thank-you-in-spanish"
+    ]
+   }
+  },
+  {
+   "n": 25,
+   "category": "paraphrase",
+   "prompt": "how many days are there in february",
+   "expect": {
+    "bank": [
+     "time.month.how-many-days-in-february"
+    ]
+   }
+  },
+  {
+   "n": 26,
+   "category": "paraphrase",
+   "prompt": "is a tomato actually a fruit or a vegetable",
+   "expect": {
+    "bank": [
+     "food.is-a-tomato-a-fruit"
+    ]
+   }
+  },
+  {
+   "n": 27,
+   "category": "paraphrase",
+   "prompt": "how many people play on a soccer team",
+   "expect": {
+    "bank": [
+     "sports.how-many-players-on-a-soccer-team"
+    ]
+   }
+  },
+  {
+   "n": 28,
+   "category": "paraphrase",
+   "prompt": "how far is a marathon race",
+   "expect": {
+    "bank": [
+     "sports.how-long-is-a-marathon"
+    ]
+   }
+  },
+  {
+   "n": 29,
+   "category": "paraphrase",
+   "prompt": "what's the number to call in an emergency",
+   "expect": {
+    "bank": [
+     "safety.what-is-the-emergency-number"
+    ]
+   }
+  },
+  {
+   "n": 30,
+   "category": "paraphrase",
+   "prompt": "is it ok to give my password to my friend",
+   "expect": {
+    "bank": [
+     "safety.should-i-share-my-password"
+    ]
+   }
+  },
+  {
+   "n": 31,
+   "category": "paraphrase",
+   "prompt": "how can i get better at studying",
+   "expect": {
+    "bank": [
+     "school.how-do-i-study-better"
+    ]
+   }
+  },
+  {
+   "n": 32,
+   "category": "paraphrase",
+   "prompt": "how do i make a crafting table",
+   "expect": {
+    "bank": [
+     "minecraft.how-do-you-make-a-crafting-table-in-minecraft"
+    ]
+   }
+  },
+  {
+   "n": 33,
+   "category": "paraphrase",
+   "prompt": "how do i build a portal to the nether",
+   "expect": {
+    "bank": [
+     "minecraft.how-do-you-make-a-nether-portal"
+    ]
+   }
+  },
+  {
+   "n": 34,
+   "category": "paraphrase",
+   "prompt": "where can i find diamonds in minecraft",
+   "expect": {
+    "bank": [
+     "minecraft.how-do-you-find-diamonds-in-minecraft",
+     "minecraft.what-level-are-diamonds-in-minecraft"
+    ]
+   }
+  },
+  {
+   "n": 35,
+   "category": "paraphrase",
+   "prompt": "what temp should pla be printed at",
+   "expect": {
+    "bank": [
+     "3dprinting.what-temperature-should-i-print-pla-at"
+    ]
+   }
+  },
+  {
+   "n": 36,
+   "category": "paraphrase",
+   "prompt": "my 3d print won't stick to the bed",
+   "expect": {
+    "bank": [
+     "3dprinting.why-is-my-print-not-sticking"
+    ]
+   }
+  },
+  {
+   "n": 37,
+   "category": "paraphrase",
+   "prompt": "what does a cpu do",
+   "expect": {
+    "bank": [
+     "tech.what-is-a-cpu"
+    ]
+   }
+  },
+  {
+   "n": 38,
+   "category": "paraphrase",
+   "prompt": "what does ram stand for",
+   "expect": {
+    "bank": [
+     "tech.what-is-ram"
+    ]
+   }
+  },
+  {
+   "n": 39,
+   "category": "paraphrase",
+   "prompt": "how do i screenshot on my ipad",
+   "expect": {
+    "bank": [
+     "tech.how-do-i-take-a-screenshot-on-ipad"
+    ]
+   }
+  },
+  {
+   "n": 40,
+   "category": "paraphrase",
+   "prompt": "how can i make my password strong",
+   "expect": {
+    "bank": [
+     "tech.how-do-i-make-a-strong-password"
+    ]
+   }
+  },
+  {
+   "n": 41,
+   "category": "paraphrase",
+   "prompt": "what is an llm in ai",
+   "expect": {
+    "bank": [
+     "tech.what-is-an-llm"
+    ]
+   }
+  },
+  {
+   "n": 42,
+   "category": "paraphrase",
+   "prompt": "what number is pi equal to",
+   "expect": {
+    "bank": [
+     "math.what-is-pi"
+    ]
+   }
+  },
+  {
+   "n": 43,
+   "category": "paraphrase",
+   "prompt": "how many degrees does a triangle add up to",
+   "expect": {
+    "bank": [
+     "math.how-many-degrees-in-a-triangle"
+    ]
+   }
+  },
+  {
+   "n": 44,
+   "category": "paraphrase",
+   "prompt": "how many sides are on a hexagon",
+   "expect": {
+    "bank": [
+     "math.how-many-sides-does-a-hexagon-have"
+    ]
+   }
+  },
+  {
+   "n": 45,
+   "category": "paraphrase",
+   "prompt": "how do you find the area of a circle",
+   "expect": {
+    "bank": [
+     "math.what-is-the-area-of-a-circle"
+    ]
+   }
+  },
+  {
+   "n": 46,
+   "category": "paraphrase",
+   "prompt": "how many feet make up a mile",
+   "expect": {
+    "bank": [
+     "units.how-many-feet-in-a-mile"
+    ]
+   }
+  },
+  {
+   "n": 47,
+   "category": "paraphrase",
+   "prompt": "how many grams are in one kilogram",
+   "expect": {
+    "bank": [
+     "units.how-many-grams-in-a-kilogram"
+    ]
+   }
+  },
+  {
+   "n": 48,
+   "category": "paraphrase",
+   "prompt": "how many seconds are in one hour",
+   "expect": {
+    "bank": [
+     "units.how-many-seconds-in-an-hour"
+    ]
+   }
+  },
+  {
+   "n": 49,
+   "category": "paraphrase",
+   "prompt": "when did the second world war end",
+   "expect": {
+    "bank": [
+     "history.when-did-world-war-2-end"
+    ]
+   }
+  },
+  {
+   "n": 50,
+   "category": "paraphrase",
+   "prompt": "who painted the famous mona lisa",
+   "expect": {
+    "bank": [
+     "history.who-painted-the-mona-lisa"
+    ]
+   }
+  },
+  {
+   "n": 51,
+   "category": "paraphrase",
+   "prompt": "when did the titanic go down",
+   "expect": {
+    "bank": [
+     "history.when-did-the-titanic-sink"
+    ]
+   }
+  },
+  {
+   "n": 52,
+   "category": "paraphrase",
+   "prompt": "who started apple",
+   "expect": {
+    "bank": [
+     "history.who-founded-apple"
+    ]
+   }
+  },
+  {
+   "n": 53,
+   "category": "paraphrase",
+   "prompt": "i'm feeling really sad today",
+   "expect": {
+    "bank": [
+     "feelings.i-m-sad"
+    ]
+   }
+  },
+  {
+   "n": 54,
+   "category": "paraphrase",
+   "prompt": "i'm so tired right now",
+   "expect": {
+    "bank": [
+     "feelings.i-m-tired"
+    ]
+   }
+  },
+  {
+   "n": 55,
+   "category": "paraphrase",
+   "prompt": "you're really cool",
+   "expect": {
+    "bank": [
+     "feelings.you-re-awesome"
+    ]
+   }
+  },
+  {
+   "n": 56,
+   "category": "paraphrase",
+   "prompt": "what are you able to do",
+   "expect": {
+    "bank": [
+     "ace.what-can-you-do"
+    ]
+   }
+  },
+  {
+   "n": 57,
+   "category": "paraphrase",
+   "prompt": "do you ever get to sleep",
+   "expect": {
+    "bank": [
+     "ace.do-you-sleep"
+    ]
+   }
+  },
+  {
+   "n": 58,
+   "category": "paraphrase",
+   "prompt": "what's your favorite colour ace",
+   "expect": {
+    "bank": [
+     "ace.what-is-your-favorite-color"
+    ]
+   }
+  },
+  {
+   "n": 59,
+   "category": "typo",
+   "prompt": "how many planets are in the solor system",
+   "expect": {
+    "bank": [
+     "space.how-many-planets-are-in-the-solar-system"
+    ]
+   }
+  },
+  {
+   "n": 60,
+   "category": "typo",
+   "prompt": "what is the bigest planet",
+   "expect": {
+    "bank": [
+     "space.what-is-the-biggest-planet"
+    ]
+   }
+  },
+  {
+   "n": 61,
+   "category": "typo",
+   "prompt": "how far is the moon form earth",
+   "expect": {
+    "bank": [
+     "space.how-far-is-the-moon"
+    ]
+   }
+  },
+  {
+   "n": 62,
+   "category": "typo",
+   "prompt": "what is the captial of france",
+   "expect": {
+    "bank": [
+     "geo.capital.what-is-the-capital-of-france"
+    ]
+   }
+  },
+  {
+   "n": 63,
+   "category": "typo",
+   "prompt": "what is the capitol of italy",
+   "expect": {
+    "bank": [
+     "geo.capital.what-is-the-capital-of-italy"
+    ]
+   }
+  },
+  {
+   "n": 64,
+   "category": "typo",
+   "prompt": "who invented the telephon",
+   "expect": {
+    "bank": [
+     "science.who-invented-the-telephone"
+    ]
+   }
+  },
+  {
+   "n": 65,
+   "category": "typo",
+   "prompt": "what is photosynthesys",
+   "expect": {
+    "bank": [
+     "science.what-is-photosynthesis"
+    ]
+   }
+  },
+  {
+   "n": 66,
+   "category": "typo",
+   "prompt": "how many bones are in the humen body",
+   "expect": {
+    "bank": [
+     "body.how-many-bones-are-in-the-human-body"
+    ]
+   }
+  },
+  {
+   "n": 67,
+   "category": "typo",
+   "prompt": "what is the fastes animal",
+   "expect": {
+    "bank": [
+     "animals.what-is-the-fastest-animal"
+    ]
+   }
+  },
+  {
+   "n": 68,
+   "category": "typo",
+   "prompt": "what is a blak hole",
+   "expect": {
+    "bank": [
+     "space.what-is-a-black-hole"
+    ]
+   }
+  },
+  {
+   "n": 69,
+   "category": "typo",
+   "prompt": "how do you make a nether portel",
+   "expect": {
+    "bank": [
+     "minecraft.how-do-you-make-a-nether-portal"
+    ]
+   }
+  },
+  {
+   "n": 70,
+   "category": "typo",
+   "prompt": "how do you tame a wolfe in minecraft",
+   "expect": {
+    "bank": [
+     "minecraft.how-do-you-tame-a-wolf-in-minecraft"
+    ]
+   }
+  },
+  {
+   "n": 71,
+   "category": "typo",
+   "prompt": "what is the speed of lite",
+   "expect": {
+    "bank": [
+     "science.what-is-the-speed-of-light"
+    ]
+   }
+  },
+  {
+   "n": 72,
+   "category": "typo",
+   "prompt": "who was albert einstien",
+   "expect": {
+    "bank": [
+     "science.who-was-albert-einstein"
+    ]
+   }
+  },
+  {
+   "n": 73,
+   "category": "typo",
+   "prompt": "what is gravaty",
+   "expect": {
+    "bank": [
+     "space.what-is-gravity"
+    ]
+   }
+  },
+  {
+   "n": 74,
+   "category": "typo",
+   "prompt": "how many continants are there",
+   "expect": {
+    "bank": [
+     "earth.how-many-continents-are-there"
+    ]
+   }
+  },
+  {
+   "n": 75,
+   "category": "typo",
+   "prompt": "what is the longest rivar",
+   "expect": {
+    "bank": [
+     "earth.what-is-the-longest-river"
+    ]
+   }
+  },
+  {
+   "n": 76,
+   "category": "typo",
+   "prompt": "what is the tallest animel",
+   "expect": {
+    "bank": [
+     "animals.what-is-the-tallest-animal"
+    ]
+   }
+  },
+  {
+   "n": 77,
+   "category": "typo",
+   "prompt": "how many legs does a spidar have",
+   "expect": {
+    "bank": [
+     "animals.how-many-legs-does-a-spider-have"
+    ]
+   }
+  },
+  {
+   "n": 78,
+   "category": "typo",
+   "prompt": "what is the symbol for oxygin",
+   "expect": {
+    "bank": [
+     "chem.symbol.what-is-the-symbol-for-oxygen"
+    ]
+   }
+  },
+  {
+   "n": 79,
+   "category": "typo",
+   "prompt": "how do you say hello in spanush",
+   "expect": {
+    "bank": [
+     "lang.hello.how-do-you-say-hello-in-spanish"
+    ]
+   }
+  },
+  {
+   "n": 80,
+   "category": "typo",
+   "prompt": "what is the currancy of japan",
+   "expect": {
+    "bank": [
+     "geo.currency.what-is-the-currency-of-japan"
+    ]
+   }
+  },
+  {
+   "n": 81,
+   "category": "typo",
+   "prompt": "who painted the mona lesa",
+   "expect": {
+    "bank": [
+     "history.who-painted-the-mona-lisa"
+    ]
+   }
+  },
+  {
+   "n": 82,
+   "category": "typo",
+   "prompt": "what is artifical intelligence",
+   "expect": {
+    "bank": [
+     "tech.what-is-ai"
+    ]
+   }
+  },
+  {
+   "n": 83,
+   "category": "typo",
+   "prompt": "what is a leep year",
+   "expect": {
+    "bank": [
+     "units.what-is-a-leap-year"
+    ]
+   }
+  },
+  {
+   "n": 84,
+   "category": "typo",
+   "prompt": "whta is a volcano",
+   "expect": {
+    "bank": [
+     "earth.what-is-a-volcano"
+    ]
+   }
+  },
+  {
+   "n": 85,
+   "category": "typo",
+   "prompt": "how many teeth do adluts have",
+   "expect": {
+    "bank": [
+     "body.how-many-teeth-do-adults-have"
+    ]
+   }
+  },
+  {
+   "n": 86,
+   "category": "typo",
+   "prompt": "what is the hotest planet",
+   "expect": {
+    "bank": [
+     "space.what-is-the-hottest-planet"
+    ]
+   }
+  },
+  {
+   "n": 87,
+   "category": "skill",
+   "prompt": "good evening to you",
+   "expect": {
+    "skill": "greeting"
+   }
+  },
+  {
+   "n": 88,
+   "category": "skill",
+   "prompt": "thanks so much ace",
+   "expect": {
+    "skill": "thanks"
+   }
+  },
+  {
+   "n": 89,
+   "category": "skill",
+   "prompt": "ok bye for now",
+   "expect": {
+    "skill": "goodbye"
+   }
+  },
+  {
+   "n": 90,
+   "category": "skill",
+   "prompt": "what's the time right now",
+   "expect": {
+    "skill": "time"
+   }
+  },
+  {
+   "n": 91,
+   "category": "skill",
+   "prompt": "what's today's date",
+   "expect": {
+    "skill": "date"
+   }
+  },
+  {
+   "n": 92,
+   "category": "skill",
+   "prompt": "how many days till christmas",
+   "expect": {
+    "skill": "daysUntil"
+   }
+  },
+  {
+   "n": 93,
+   "category": "skill",
+   "prompt": "what's 15 times 4",
+   "expect": {
+    "skill": "math"
+   }
+  },
+  {
+   "n": 94,
+   "category": "skill",
+   "prompt": "what is 12 plus 30 divided by 6",
+   "expect": {
+    "skill": "math"
+   }
+  },
+  {
+   "n": 95,
+   "category": "skill",
+   "prompt": "convert 5 miles to kilometers",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 96,
+   "category": "skill",
+   "prompt": "how many ounces are in 2 pounds",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 97,
+   "category": "skill",
+   "prompt": "what's 2024 in roman numerals",
+   "expect": {
+    "skill": "roman"
+   }
+  },
+  {
+   "n": 98,
+   "category": "skill",
+   "prompt": "pick a random number between 1 and 50",
+   "expect": {
+    "skill": "randomNumber"
+   }
+  },
+  {
+   "n": 99,
+   "category": "skill",
+   "prompt": "how do you spell necessary",
+   "expect": {
+    "skill": "spell"
+   }
+  },
+  {
+   "n": 100,
+   "category": "skill",
+   "prompt": "set a timer for 10 minutes",
+   "expect": {
+    "skill": "timer"
+   }
+  },
+  {
+   "n": 101,
+   "category": "skill",
+   "prompt": "start a 3 minute pizza timer",
+   "expect": {
+    "skill": "timer"
+   }
+  },
+  {
+   "n": 102,
+   "category": "skill",
+   "prompt": "can you time 90 seconds for me",
+   "expect": {
+    "skill": "timer"
+   }
+  },
+  {
+   "n": 103,
+   "category": "skill",
+   "prompt": "remind me to feed the dog at 6pm",
+   "expect": {
+    "skill": "reminder"
+   }
+  },
+  {
+   "n": 104,
+   "category": "skill",
+   "prompt": "don't let me forget to call grandma tomorrow",
+   "expect": {
+    "skill": "reminder"
+   }
+  },
+  {
+   "n": 105,
+   "category": "skill",
+   "prompt": "wake me up at 7",
+   "expect": {
+    "skill": "alarm"
+   }
+  },
+  {
+   "n": 106,
+   "category": "skill",
+   "prompt": "add soccer practice to my calendar tomorrow at 4pm",
+   "expect": {
+    "skill": "calendarAdd"
+   }
+  },
+  {
+   "n": 107,
+   "category": "skill",
+   "prompt": "what's on my schedule today",
+   "expect": {
+    "skill": "calendarList"
+   }
+  },
+  {
+   "n": 108,
+   "category": "skill",
+   "prompt": "am i busy tomorrow",
+   "expect": {
+    "skill": "calendarList"
+   }
+  },
+  {
+   "n": 109,
+   "category": "skill",
+   "prompt": "move my dentist appointment to friday",
+   "expect": {
+    "skill": "calendarEdit"
+   }
+  },
+  {
+   "n": 110,
+   "category": "skill",
+   "prompt": "delete the meeting on monday",
+   "expect": {
+    "skill": "calendarDelete"
+   }
+  },
+  {
+   "n": 111,
+   "category": "skill",
+   "prompt": "open youtube",
+   "expect": {
+    "skill": "openSite"
+   }
+  },
+  {
+   "n": 112,
+   "category": "skill",
+   "prompt": "search for lego sets on amazon",
+   "expect": {
+    "skill": "searchTab"
+   }
+  },
+  {
+   "n": 113,
+   "category": "skill",
+   "prompt": "give me a recipe for pancakes",
+   "expect": {
+    "skill": "recipe"
+   }
+  },
+  {
+   "n": 114,
+   "category": "skill",
+   "prompt": "how do i bake chocolate chip cookies",
+   "expect": {
+    "skill": "recipe"
+   }
+  },
+  {
+   "n": 115,
+   "category": "skill",
+   "prompt": "what's the weather like in chicago",
+   "expect": {
+    "skill": "weather"
+   }
+  },
+  {
+   "n": 116,
+   "category": "skill",
+   "prompt": "do i need an umbrella today",
+   "expect": {
+    "skill": "weather"
+   }
+  },
+  {
+   "n": 117,
+   "category": "skill",
+   "prompt": "how much battery do i have left",
+   "expect": {
+    "skill": "battery"
+   }
+  },
+  {
+   "n": 118,
+   "category": "skill",
+   "prompt": "how much storage is left on my ipad",
+   "expect": {
+    "skill": "storage"
+   }
+  },
+  {
+   "n": 119,
+   "category": "skill",
+   "prompt": "when should i go to bed tonight",
+   "expect": {
+    "skill": "bedtime"
+   }
+  },
+  {
+   "n": 120,
+   "category": "skill",
+   "prompt": "remember that my favorite color is green",
+   "expect": {
+    "skill": "remember"
+   }
+  },
+  {
+   "n": 121,
+   "category": "skill",
+   "prompt": "my name is storm",
+   "expect": {
+    "skill": "setName"
+   }
+  },
+  {
+   "n": 122,
+   "category": "skill",
+   "prompt": "what's my favorite color",
+   "expect": {
+    "skill": "recall"
+   }
+  },
+  {
+   "n": 123,
+   "category": "skill",
+   "prompt": "shut down my pc",
+   "expect": {
+    "skill": "pcPower"
+   }
+  },
+  {
+   "n": 124,
+   "category": "skill",
+   "prompt": "turn on hands free mode",
+   "expect": {
+    "skill": "handsFree"
+   }
+  },
+  {
+   "n": 125,
+   "category": "follow-up",
+   "prompt": "what about saturn",
+   "expect": {
+    "bank": [
+     "space.planet.how-many-moons-does-saturn-have"
+    ]
+   },
+   "context": [
+    "how many moons does jupiter have"
+   ]
+  },
+  {
+   "n": 126,
+   "category": "follow-up",
+   "prompt": "and on venus?",
+   "expect": {
+    "bank": [
+     "space.planet.how-long-is-a-day-on-venus"
+    ]
+   },
+   "context": [
+    "how long is a day on mars"
+   ]
+  },
+  {
+   "n": 127,
+   "category": "follow-up",
+   "prompt": "what about germany",
+   "expect": {
+    "bank": [
+     "geo.capital.what-is-the-capital-of-germany"
+    ]
+   },
+   "context": [
+    "what is the capital of france"
+   ]
+  },
+  {
+   "n": 128,
+   "category": "follow-up",
+   "prompt": "and italy?",
+   "expect": {
+    "bank": [
+     "geo.capital.what-is-the-capital-of-italy"
+    ]
+   },
+   "context": [
+    "what is the capital of spain"
+   ]
+  },
+  {
+   "n": 129,
+   "category": "follow-up",
+   "prompt": "what about silver",
+   "expect": {
+    "bank": [
+     "chem.symbol.what-is-the-symbol-for-silver"
+    ]
+   },
+   "context": [
+    "what is the symbol for gold"
+   ]
+  },
+  {
+   "n": 130,
+   "category": "follow-up",
+   "prompt": "what about in french",
+   "expect": {
+    "bank": [
+     "lang.hello.how-do-you-say-hello-in-french"
+    ]
+   },
+   "context": [
+    "how do you say hello in spanish"
+   ]
+  },
+  {
+   "n": 131,
+   "category": "follow-up",
+   "prompt": "how about mexico",
+   "expect": {
+    "bank": [
+     "geo.currency.what-is-the-currency-of-mexico"
+    ]
+   },
+   "context": [
+    "what is the currency of japan"
+   ]
+  },
+  {
+   "n": 132,
+   "category": "follow-up",
+   "prompt": "what about peru",
+   "expect": {
+    "bank": [
+     "geo.continent.what-continent-is-peru-in"
+    ]
+   },
+   "context": [
+    "what continent is egypt in"
+   ]
+  },
+  {
+   "n": 133,
+   "category": "follow-up",
+   "prompt": "what about a cat",
+   "expect": {
+    "bank": [
+     "animals.baby.what-is-a-baby-cat-called"
+    ]
+   },
+   "context": [
+    "what is a baby dog called"
+   ]
+  },
+  {
+   "n": 134,
+   "category": "follow-up",
+   "prompt": "and a duck?",
+   "expect": {
+    "bank": [
+     "animals.sound.what-sound-does-a-duck-make"
+    ]
+   },
+   "context": [
+    "what sound does a cow make"
+   ]
+  },
+  {
+   "n": 135,
+   "category": "follow-up",
+   "prompt": "what about iron",
+   "expect": {
+    "bank": [
+     "chem.number.what-is-the-atomic-number-of-iron"
+    ]
+   },
+   "context": [
+    "what is the atomic number of carbon"
+   ]
+  },
+  {
+   "n": 136,
+   "category": "follow-up",
+   "prompt": "what about april",
+   "expect": {
+    "bank": [
+     "time.month.how-many-days-in-april"
+    ]
+   },
+   "context": [
+    "how many days in january"
+   ]
+  },
+  {
+   "n": 137,
+   "category": "follow-up",
+   "prompt": "and of big?",
+   "expect": {
+    "bank": [
+     "words.opposite.what-is-the-opposite-of-big"
+    ]
+   },
+   "context": [
+    "what is the opposite of hot"
+   ]
+  },
+  {
+   "n": 138,
+   "category": "follow-up",
+   "prompt": "how many moons does it have",
+   "expect": {
+    "bank": [
+     "space.how-many-moons-does-mars-have",
+     "space.planet.how-many-moons-does-mars-have"
+    ]
+   },
+   "context": [
+    "tell me about mars"
+   ]
+  },
+  {
+   "n": 139,
+   "category": "follow-up",
+   "prompt": "how long is a year there",
+   "expect": {
+    "bank": [
+     "space.planet.how-long-is-a-year-on-jupiter"
+    ]
+   },
+   "context": [
+    "tell me about jupiter"
+   ]
+  },
+  {
+   "n": 140,
+   "category": "follow-up",
+   "prompt": "what continent is it in",
+   "expect": {
+    "bank": [
+     "geo.continent.what-continent-is-canada-in"
+    ]
+   },
+   "context": [
+    "what is the capital of canada"
+   ]
+  },
+  {
+   "n": 141,
+   "category": "follow-up",
+   "prompt": "what currency do they use there",
+   "expect": {
+    "bank": [
+     "geo.currency.what-is-the-currency-of-japan"
+    ]
+   },
+   "context": [
+    "tell me about japan"
+   ]
+  },
+  {
+   "n": 142,
+   "category": "follow-up",
+   "prompt": "what's its atomic number",
+   "expect": {
+    "bank": [
+     "chem.number.what-is-the-atomic-number-of-sodium"
+    ]
+   },
+   "context": [
+    "what is the symbol for sodium"
+   ]
+  },
+  {
+   "n": 143,
+   "category": "follow-up",
+   "prompt": "say that again",
+   "expect": {
+    "skill": "repeatLast"
+   },
+   "context": [
+    "who invented the telephone"
+   ]
+  },
+  {
+   "n": 144,
+   "category": "follow-up",
+   "prompt": "tell me more",
+   "expect": {
+    "skill": "tellMore"
+   },
+   "context": [
+    "what is a black hole"
+   ]
+  },
+  {
+   "n": 145,
+   "category": "follow-up",
+   "prompt": "what about basketball",
+   "expect": {
+    "bank": [
+     "sports.how-many-players-on-a-basketball-team"
+    ]
+   },
+   "context": [
+    "how many players on a soccer team"
+   ]
+  },
+  {
+   "n": 146,
+   "category": "follow-up",
+   "prompt": "what about an insect",
+   "expect": {
+    "bank": [
+     "animals.how-many-legs-does-an-insect-have"
+    ]
+   },
+   "context": [
+    "how many legs does a spider have"
+   ]
+  },
+  {
+   "n": 147,
+   "category": "follow-up",
+   "prompt": "and cats?",
+   "expect": {
+    "bank": [
+     "animals.how-long-do-cats-live"
+    ]
+   },
+   "context": [
+    "how long do dogs live"
+   ]
+  },
+  {
+   "n": 148,
+   "category": "follow-up",
+   "prompt": "what about ohio",
+   "expect": {
+    "bank": [
+     "geo.us.what-is-the-capital-of-ohio"
+    ]
+   },
+   "context": [
+    "what is the capital of texas"
+   ]
+  },
+  {
+   "n": 149,
+   "category": "follow-up",
+   "prompt": "what about an octagon",
+   "expect": {
+    "bank": [
+     "math.how-many-sides-does-an-octagon-have"
+    ]
+   },
+   "context": [
+    "how many sides does a hexagon have"
+   ]
+  },
+  {
+   "n": 150,
+   "category": "multi-part",
+   "prompt": "what is the capital of japan and how many moons does mars have",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "geo.capital.what-is-the-capital-of-japan"
+      ]
+     },
+     {
+      "bank": [
+       "space.how-many-moons-does-mars-have",
+       "space.planet.how-many-moons-does-mars-have"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 151,
+   "category": "multi-part",
+   "prompt": "what time is it and what's the weather",
+   "expect": {
+    "multi": [
+     {
+      "skill": "time"
+     },
+     {
+      "skill": "weather"
+     }
+    ]
+   }
+  },
+  {
+   "n": 152,
+   "category": "multi-part",
+   "prompt": "how far is the moon, and how hot is the sun",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "space.how-far-is-the-moon"
+      ]
+     },
+     {
+      "bank": [
+       "space.how-hot-is-the-sun"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 153,
+   "category": "multi-part",
+   "prompt": "who invented the telephone and who invented the light bulb",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "science.who-invented-the-telephone"
+      ]
+     },
+     {
+      "bank": [
+       "science.who-invented-the-light-bulb"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 154,
+   "category": "multi-part",
+   "prompt": "set a timer for 5 minutes and remind me to stretch at 3pm",
+   "expect": {
+    "multi": [
+     {
+      "skill": "timer"
+     },
+     {
+      "skill": "reminder"
+     }
+    ]
+   }
+  },
+  {
+   "n": 155,
+   "category": "multi-part",
+   "prompt": "what's 7 times 8 and what's 9 times 6",
+   "expect": {
+    "multi": [
+     {
+      "skill": "math"
+     },
+     {
+      "skill": "math"
+     }
+    ]
+   }
+  },
+  {
+   "n": 156,
+   "category": "multi-part",
+   "prompt": "how many legs does a spider have? how many hearts does an octopus have?",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "animals.how-many-legs-does-a-spider-have"
+      ]
+     },
+     {
+      "bank": [
+       "animals.how-many-hearts-does-an-octopus-have"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 157,
+   "category": "multi-part",
+   "prompt": "tell me a joke and then tell me a fun fact",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "fun.tell-me-a-joke"
+      ]
+     },
+     {
+      "bank": [
+       "fun.tell-me-a-fun-fact"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 158,
+   "category": "multi-part",
+   "prompt": "what is the biggest ocean and also what is the longest river",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "earth.what-is-the-biggest-ocean"
+      ]
+     },
+     {
+      "bank": [
+       "earth.what-is-the-longest-river"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 159,
+   "category": "multi-part",
+   "prompt": "what's the symbol for iron and what's the symbol for copper",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "chem.symbol.what-is-the-symbol-for-iron"
+      ]
+     },
+     {
+      "bank": [
+       "chem.symbol.what-is-the-symbol-for-copper"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 160,
+   "category": "multi-part",
+   "prompt": "how do you say thank you in french and how do you say goodbye in spanish",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "lang.thanks.how-do-you-say-thank-you-in-french"
+      ]
+     },
+     {
+      "bank": [
+       "lang.bye.how-do-you-say-goodbye-in-spanish"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 161,
+   "category": "multi-part",
+   "prompt": "what is gravity. what is friction",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "space.what-is-gravity"
+      ]
+     },
+     {
+      "bank": [
+       "science.what-is-friction"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 162,
+   "category": "multi-part",
+   "prompt": "check my battery and my storage",
+   "expect": {
+    "multi": [
+     {
+      "skill": "battery"
+     },
+     {
+      "skill": "storage"
+     }
+    ]
+   }
+  },
+  {
+   "n": 163,
+   "category": "multi-part",
+   "prompt": "who was the first president and when did ww2 end",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "history.who-was-the-first-president-of-the-united-states"
+      ]
+     },
+     {
+      "bank": [
+       "history.when-did-world-war-2-end"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 164,
+   "category": "multi-part",
+   "prompt": "what's the date today and how many days until halloween",
+   "expect": {
+    "multi": [
+     {
+      "skill": "date"
+     },
+     {
+      "skill": "daysUntil"
+     }
+    ]
+   }
+  },
+  {
+   "n": 165,
+   "category": "multi-part",
+   "prompt": "flip a coin and roll a dice",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "fun.flip-a-coin"
+      ]
+     },
+     {
+      "bank": [
+       "fun.roll-a-dice"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 166,
+   "category": "multi-part",
+   "prompt": "what is a cpu and what is a gpu",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "tech.what-is-a-cpu"
+      ]
+     },
+     {
+      "bank": [
+       "tech.what-is-a-gpu"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 167,
+   "category": "multi-part",
+   "prompt": "how many feet in a mile and how many inches in a foot",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "units.how-many-feet-in-a-mile"
+      ]
+     },
+     {
+      "bank": [
+       "units.how-many-inches-in-a-foot"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 168,
+   "category": "multi-part",
+   "prompt": "what's the capital of australia, what continent is chile in, and what currency does india use",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "geo.capital.what-is-the-capital-of-australia"
+      ]
+     },
+     {
+      "bank": [
+       "geo.continent.what-continent-is-chile-in"
+      ]
+     },
+     {
+      "bank": [
+       "geo.currency.what-is-the-currency-of-india"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 169,
+   "category": "multi-part",
+   "prompt": "open youtube and set a timer for 20 minutes",
+   "expect": {
+    "multi": [
+     {
+      "skill": "openSite"
+     },
+     {
+      "skill": "timer"
+     }
+    ]
+   }
+  },
+  {
+   "n": 170,
+   "category": "unknown",
+   "prompt": "what did i eat for breakfast last tuesday",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 171,
+   "category": "unknown",
+   "prompt": "how tall is my neighbor's dog",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 172,
+   "category": "unknown",
+   "prompt": "what's the password to my school wifi",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 173,
+   "category": "unknown",
+   "prompt": "who will win the game tonight",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 174,
+   "category": "unknown",
+   "prompt": "what color socks am i wearing",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 175,
+   "category": "unknown",
+   "prompt": "how many grains of sand are on my street",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 176,
+   "category": "unknown",
+   "prompt": "what is the flibbergast of a zorbnak",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 177,
+   "category": "unknown",
+   "prompt": "blorp snazzle wump",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 178,
+   "category": "unknown",
+   "prompt": "what's my teacher's middle name",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 179,
+   "category": "unknown",
+   "prompt": "how many jellybeans are in the jar at school",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 180,
+   "category": "unknown",
+   "prompt": "is my friend jake mad at me",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 181,
+   "category": "unknown",
+   "prompt": "what number am i thinking of",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 182,
+   "category": "unknown",
+   "prompt": "how much does my backpack weigh",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 183,
+   "category": "unknown",
+   "prompt": "what will the stock market do next year",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 184,
+   "category": "unknown",
+   "prompt": "describe the smell of purple",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 185,
+   "category": "unknown",
+   "prompt": "what's the score of the game right now",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 186,
+   "category": "unknown",
+   "prompt": "who lives at the house next door",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 187,
+   "category": "unknown",
+   "prompt": "translate this into klingon",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 188,
+   "category": "unknown",
+   "prompt": "what is the gloopiest planet in the qwerty galaxy",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 189,
+   "category": "unknown",
+   "prompt": "how many minecraft blocks tall is my house",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 190,
+   "category": "unknown",
+   "prompt": "what happened in my dream last night",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 191,
+   "category": "unknown",
+   "prompt": "which of my friends likes pizza the most",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 192,
+   "category": "unknown",
+   "prompt": "what's the wifi password at grandma's house",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 193,
+   "category": "name-call",
+   "prompt": "ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 194,
+   "category": "name-call",
+   "prompt": "you there ace?",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 195,
+   "category": "name-call",
+   "prompt": "hey ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 196,
+   "category": "name-call",
+   "prompt": "yo ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 197,
+   "category": "name-call",
+   "prompt": "hi ace!",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 198,
+   "category": "name-call",
+   "prompt": "ok ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 199,
+   "category": "name-call",
+   "prompt": "hello ace",
+   "expect": {
+    "skill": "summon"
+   }
+  },
+  {
+   "n": 200,
+   "category": "name-call",
+   "prompt": "ace are you there",
+   "expect": {
+    "skill": "summon"
+   }
+  }
+ ]
+}

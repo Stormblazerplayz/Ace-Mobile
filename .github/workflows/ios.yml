@@ -252,3 +252,74 @@ jobs:
       - name: Remove the API key
         if: always()
         run: rm -rf "$HOME/.appstoreconnect/private_keys"
+
+  smartness:
+    name: Brain smartness test (200 questions)
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Pick the newest Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate --spec project.yml
+
+      - name: Pick a simulator
+        id: sim
+        run: |
+          DEST=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          data = json.load(sys.stdin)["devices"]
+          best = None
+          for runtime, devices in data.items():
+              if "iOS" not in runtime:
+                  continue
+              version = [int(x) for x in runtime.split("iOS-")[-1].split("-") if x.isdigit()]
+              for d in devices:
+                  if d["name"].startswith("iPhone") and d.get("isAvailable", True):
+                      key = (version, d["name"])
+                      if best is None or key > best[0]:
+                          best = (key, d["udid"])
+          print(best[1] if best else "")
+          ')
+          if [ -z "$DEST" ]; then echo "::error::No iPhone simulator found"; exit 1; fi
+          echo "Using simulator $DEST"
+          echo "dest=$DEST" >> "$GITHUB_OUTPUT"
+
+      - name: Run the smartness test
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project Ace.xcodeproj \
+            -scheme Ace \
+            -destination "id=${{ steps.sim.outputs.dest }}" \
+            -only-testing:AceTests \
+            CODE_SIGNING_ALLOWED=NO 2>&1 | tee "$RUNNER_TEMP/test.log"
+
+      - name: Show the score
+        if: always()
+        run: |
+          LOG="$RUNNER_TEMP/test.log"
+          [ -f "$LOG" ] || exit 0
+          SCORE=$(grep -m1 'SMARTNESS SCORE:' "$LOG" || true)
+          if [ -n "$SCORE" ]; then echo "::notice title=Ace smartness::${SCORE#*SMARTNESS }"; fi
+          {
+            echo "## Ace smartness test"
+            echo '```'
+            grep 'SMARTNESS' "$LOG" | grep -v 'MISS' || echo "No score (the test didn't run)"
+            echo '```'
+            echo "<details><summary>Misses</summary>"
+            echo
+            echo '```'
+            grep 'SMARTNESS MISS' "$LOG" || echo "None"
+            echo '```'
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"

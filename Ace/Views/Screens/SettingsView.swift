@@ -183,7 +183,7 @@ struct AIModelSection: View {
 
     var body: some View {
         Section {
-            Toggle("Apple Intelligence wording", isOn: $settings.useAppleModel)
+            Toggle("Apple's model on this iPad", isOn: $settings.useAppleModel)
             if settings.useAppleModel {
                 Text(AppleModel.statusText).font(.caption).foregroundStyle(AceTheme.muted)
             }
@@ -208,7 +208,7 @@ struct AIModelSection: View {
         } header: {
             Text("On-device AI")
         } footer: {
-            Text("Both are off unless you turn them on. Ace's own brain still answers first. The model helps with wording, questions Ace doesn't know, and questions about pictures. Everything stays on your iPad.")
+            Text("Both are off unless you turn them on. Ace's own brain always answers first. A model only gets a turn when the brain and the web aren't sure, and for questions about pictures. \"How I got this\" shows which one answered. Everything stays on your iPad.")
         }
         .confirmationDialog("Download LFM3 Omni?", isPresented: $confirmDownload, titleVisibility: .visible) {
             Button("Download \(SystemMonitor.bytes(LocalModel.totalBytes))") { local.download() }
