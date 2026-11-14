@@ -111,13 +111,15 @@ final class AceCore: ObservableObject, BrainHost {
             self?.liveThoughts.append(step)
             self?.statusLine = step
         }
-        let reply: BrainReply
+        var reply: BrainReply
         if let imageFile {
             reply = await lookAt(imageFile: imageFile, question: text, onThought: onThought)
         } else {
             reply = await brain.respond(to: text, onThought: onThought)
         }
         SoundFX.shared.stopLoop()
+        reply.text = TextKit.stripModelTags(reply.text)
+        if reply.text.isEmpty && reply.cards.isEmpty { reply.text = Say.line(.empty) }
         let msg = ChatMessage(speaker: .ace, text: reply.text, thoughts: settings.showThinking ? reply.thoughts : [],
                               cards: reply.cards, source: reply.source)
         messages.append(msg)
@@ -469,8 +471,8 @@ final class AceCore: ObservableObject, BrainHost {
                 + (report.text.map { "\nText in the picture:\n\($0.prefix(1500))" } ?? "")
             if let a = await askModel(system: Self.modelInstructions + " Answer questions about a picture using only the description given.",
                                       user: facts + "\n\nQuestion: \(question)") {
-                text = a
-                source = "model"
+                text = a.text
+                source = "vision + " + a.model
             }
         }
         return BrainReply(text: text, thoughts: thoughts, cards: [.image(report)], source: source)
@@ -480,29 +482,22 @@ final class AceCore: ObservableObject, BrainHost {
 
     static let modelInstructions = "You are Ace, a friendly, upbeat assistant on an iPad. Keep answers short, clear and correct. Never make up facts. If you don't know, say so."
 
-    /// LFM3 Omni first (if it's on and downloaded), then Apple's model (if it's on).
-    private func askModel(system: String, user: String, maxTokens: Int = 320) async -> String? {
+    /// LFM3 Omni first (if it's switched on and downloaded), then Apple's model (if it's switched on).
+    /// Both are off unless turned on in Settings. Thinking tags are always stripped.
+    private func askModel(system: String, user: String, maxTokens: Int = 320) async -> (text: String, model: String)? {
         if settings.useLocalModel, LocalModel.shared.filesPresent,
            let a = await LocalModel.shared.generate(system: system, user: user, maxTokens: maxTokens) {
-            return a
+            let clean = TextKit.stripModelTags(a)
+            if !clean.isEmpty { return (clean, "LFM3 Omni") }
         }
         if settings.useAppleModel, let a = await AppleModel.respond(instructions: system, prompt: user) {
-            return a
+            let clean = TextKit.stripModelTags(a)
+            if !clean.isEmpty { return (clean, "Apple model") }
         }
         return nil
     }
 
-    func polish(_ text: String, question: String) async -> String? {
-        let system = Self.modelInstructions + " Reword the answer so it sounds natural and friendly. Keep every fact, name and number exactly the same. Use 1 to 3 sentences. Don't add anything new."
-        guard let better = await askModel(system: system, user: "Question: \(question)\nAnswer: \(text)\nReworded answer:", maxTokens: 200) else { return nil }
-        // Throw it away if it went off track.
-        if better.count > text.count * 3 + 200 { return nil }
-        let numbers = Set(text.split(whereSeparator: { !$0.isNumber }).map(String.init))
-        let kept = numbers.allSatisfy { better.contains($0) }
-        return kept ? better : nil
-    }
-
-    func freeAnswer(_ question: String) async -> String? {
+    func freeAnswer(_ question: String) async -> (text: String, model: String)? {
         await askModel(system: Self.modelInstructions, user: question)
     }
 }

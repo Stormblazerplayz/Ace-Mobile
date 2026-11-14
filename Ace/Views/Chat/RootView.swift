@@ -91,7 +91,8 @@ struct RootView: View {
                         EmptyChatView { text in send(text) }
                             .padding(.top, 40)
                     }
-                    ForEach(core.messages) { m in
+                    // Skip empty Ace messages (older chats could have them), so no "How I got this" row floats alone.
+                    ForEach(core.messages.filter { $0.speaker == .user || !$0.text.isEmpty || !$0.cards.isEmpty }) { m in
                         MessageRow(message: m)
                             .id(m.id)
                     }
@@ -107,6 +108,11 @@ struct RootView: View {
                 .frame(maxWidth: .infinity)
             }
             .scrollDismissesKeyboard(.interactively)
+            // Fade the top edge so a half-scrolled message never looks cut off.
+            .mask(
+                LinearGradient(stops: [.init(color: .clear, location: 0), .init(color: .black, location: 0.035),
+                                       .init(color: .black, location: 1)], startPoint: .top, endPoint: .bottom)
+            )
             .onChange(of: core.messages.count) { _, _ in
                 withAnimation(.easeOut(duration: 0.25)) { proxy.scrollTo("bottom", anchor: .bottom) }
             }

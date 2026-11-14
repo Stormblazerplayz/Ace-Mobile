@@ -42,8 +42,31 @@ enum TextKit {
             .filter { !$0.isEmpty }
     }
 
+    /// Words that mean the same thing to the answer bank, so "largest" finds "biggest".
+    /// Used on both the bank's questions and yours, so it works both ways.
+    static let sameMeaning: [String: String] = [
+        "largest": "biggest", "hugest": "biggest", "greatest": "biggest",
+        "large": "big", "huge": "big", "giant": "big", "enormous": "big", "massive": "big",
+        "tiny": "small", "little": "small", "smallest": "small", "tiniest": "small",
+        "quickest": "fastest", "speediest": "fastest", "quick": "fast", "speedy": "fast", "rapid": "fast",
+        "highest": "tallest", "high": "tall",
+        "invented": "invent", "inventor": "invent", "invents": "invent", "created": "invent", "creator": "invent",
+        "kids": "child", "kid": "child", "children": "child",
+        "mom": "mother", "mum": "mother", "mommy": "mother", "dad": "father", "daddy": "father",
+        "film": "movie", "films": "movie", "movies": "movie",
+        "colour": "color", "colours": "color", "favourite": "favorite", "fav": "favorite",
+        "pc": "computer", "laptop": "computer", "tablet": "ipad",
+        "begin": "start", "began": "start", "started": "start", "beginning": "start",
+        "finish": "end", "ended": "end", "finished": "end",
+        "temp": "temperature", "hottest": "hot", "coldest": "cold",
+        "years": "year", "yrs": "year", "km": "kilometer", "kilometres": "kilometer", "kilometers": "kilometer",
+        "metres": "meter", "meters": "meter", "metre": "meter", "discovered": "discover", "discoverer": "discover",
+        "humans": "human", "people": "human", "person": "human",
+    ]
+
     /// Simple word stem so "planets" matches "planet" and "running" matches "run".
     static func stem(_ w: String) -> String {
+        if let same = sameMeaning[w] { return same }
         guard w.count > 3, w.allSatisfy({ $0.isLetter }) else { return w }
         if w.hasSuffix("ies"), w.count > 4 { return String(w.dropLast(3)) + "y" }
         if w.hasSuffix("sses") { return String(w.dropLast(2)) }
@@ -65,6 +88,47 @@ enum TextKit {
     /// The meaningful words of a sentence, stemmed.
     static func keywords(_ text: String) -> [String] {
         words(text).filter { !stopwords.contains($0) }.map(stem)
+    }
+
+    /// Takes out a language model's hidden thinking and control tags, like "<think>...</think>" or "<|im_end|>".
+    static func stripModelTags(_ text: String) -> String {
+        var s = text
+        // Whole thinking blocks, then any thinking block that never closed.
+        s = s.replacingOccurrences(of: #"(?is)<(think|thinking|reasoning|reflection)>.*?</\1>"#, with: "", options: .regularExpression)
+        s = s.replacingOccurrences(of: #"(?is)<(think|thinking|reasoning)>.*$"#, with: "", options: .regularExpression)
+        s = s.replacingOccurrences(of: #"(?i)</?(think|thinking|reasoning|reflection|answer|response|output)>"#, with: "", options: .regularExpression)
+        // Chat-template tokens like <|im_start|>, <|endoftext|>, <s>, </s>, [INST].
+        s = s.replacingOccurrences(of: #"<\|[^|>]{1,40}\|>"#, with: "", options: .regularExpression)
+        s = s.replacingOccurrences(of: #"(?i)</?s>|\[/?INST\]"#, with: "", options: .regularExpression)
+        // A leftover "Reworded answer:" or "Answer:" label at the start.
+        s = s.replacingOccurrences(of: #"(?i)^\s*(reworded answer|answer|assistant|ace)\s*:\s*"#, with: "", options: .regularExpression)
+        return s.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    /// Letters to change, add, remove or swap to turn one word into another (stops early past `limit`).
+    static func editDistance(_ a: String, _ b: String, limit: Int = 2) -> Int {
+        let x = Array(a), y = Array(b)
+        if abs(x.count - y.count) > limit { return limit + 1 }
+        if x.isEmpty { return y.count }
+        if y.isEmpty { return x.count }
+        var prev2 = [Int](repeating: 0, count: y.count + 1)
+        var prev = Array(0...y.count)
+        var cur = [Int](repeating: 0, count: y.count + 1)
+        for i in 1...x.count {
+            cur[0] = i
+            var rowMin = cur[0]
+            for j in 1...y.count {
+                let cost = x[i - 1] == y[j - 1] ? 0 : 1
+                var v = min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost)
+                if i > 1, j > 1, x[i - 1] == y[j - 2], x[i - 2] == y[j - 1] { v = min(v, prev2[j - 2] + 1) }
+                cur[j] = v
+                rowMin = min(rowMin, v)
+            }
+            if rowMin > limit { return limit + 1 }
+            prev2 = prev
+            prev = cur
+        }
+        return prev[y.count]
     }
 
     static func capitalizeFirst(_ s: String) -> String {

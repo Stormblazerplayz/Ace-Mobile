@@ -8,6 +8,9 @@ struct MessageRow: View {
     @State private var showThoughts = false
 
     private var isUser: Bool { message.speaker == .user }
+    /// Ace's words without any model thinking tags (older saved chats could still have them).
+    private var shownText: String { isUser ? message.text : TextKit.stripModelTags(message.text) }
+    private var hasContent: Bool { !shownText.isEmpty || !message.cards.isEmpty || message.imageFile != nil }
 
     var body: some View {
         HStack(alignment: .top, spacing: 10) {
@@ -25,17 +28,17 @@ struct MessageRow: View {
                         .frame(maxWidth: 260, maxHeight: 260)
                         .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
                 }
-                if !message.text.isEmpty {
-                    Text(message.text)
+                if !shownText.isEmpty {
+                    Text(shownText)
                         .textSelection(.enabled)
                         .foregroundStyle(isUser ? Color.black : AceTheme.fg)
                         .padding(.horizontal, 14)
                         .padding(.vertical, 10)
                         .background(bubble)
                         .contextMenu {
-                            Button { UIPasteboard.general.string = message.text } label: { Label("Copy", systemImage: "doc.on.doc") }
+                            Button { UIPasteboard.general.string = shownText } label: { Label("Copy", systemImage: "doc.on.doc") }
                             if !isUser {
-                                Button { core.speak(message.text) } label: { Label("Read aloud", systemImage: "speaker.wave.2") }
+                                Button { core.speak(shownText) } label: { Label("Read aloud", systemImage: "speaker.wave.2") }
                             }
                         }
                 }
@@ -43,7 +46,8 @@ struct MessageRow: View {
                     CardView(card: card, messageID: message.id)
                         .frame(maxWidth: 560, alignment: .leading)
                 }
-                if !message.thoughts.isEmpty {
+                // "How I got this" only ever sits under its own message.
+                if !message.thoughts.isEmpty, hasContent {
                     thoughtsView
                 }
             }

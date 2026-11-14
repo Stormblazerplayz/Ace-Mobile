@@ -15,6 +15,7 @@ sys.path.insert(0, HERE)
 
 import qa_data_world as W  # noqa: E402
 import qa_data_general as G  # noqa: E402
+import qa_variants as V  # noqa: E402
 
 OUT = os.path.join(HERE, "..", "Ace", "Resources", "qa_bank.json")
 
@@ -74,7 +75,7 @@ def parse_general():
         left, right = line.split("=>", 1)
         qs = [q for q in left.split("|")]
         ans = [a for a in right.split("||")]
-        add(tag, qs, ans)
+        add(tag, qs, V.general(tag, [a.strip() for a in ans if a.strip()]))
 
 
 # ---------- countries ----------
@@ -86,47 +87,40 @@ def countries():
         for n in names:
             qs += [f"what is the capital of {n}", f"capital of {n}", f"{n} capital",
                    f"whats the capital city of {n}"]
-        add("geo.capital", qs, [
-            f"The capital of {nice} is {capital}.",
-            f"{capital} is the capital of {nice}.",
-        ])
+        add("geo.capital", qs, V.make("capital", nice=nice, capital=capital, continent=continent))
         cap_l = capital.lower()
         add("geo.capital", [f"{cap_l} is the capital of what country", f"what country is {cap_l} the capital of",
-                            f"where is {cap_l}", f"{cap_l} is in what country"], [
-            f"{capital} is the capital of {nice}, in {continent}.",
-        ])
+                            f"where is {cap_l}", f"{cap_l} is in what country"],
+            V.make("capital_same" if capital.lower().startswith(country.lower()) else "capital_of",
+                   nice=nice, capital=capital, continent=continent))
         qs = []
         for n in names:
             qs += [f"what continent is {n} in", f"where is {n}", f"is {n} in {continent.lower()}",
                    f"which continent is {n} on"]
-        add("geo.continent", qs, [f"{cap_first(nice)} is in {continent}.", f"You'll find {nice} in {continent}."])
+        add("geo.continent", qs, V.make("continent", nice=nice, capital=capital, continent=continent))
         cur = W.CURRENCIES.get(country)
-        facts = f"{cap_first(nice)} is a country in {continent}. Its capital is {capital}."
-        if cur:
-            facts += f" People there pay with {cur}."
+        money = f" People there pay with {cur}." if cur else ""
         qs = []
         for n in names:
             qs += [f"tell me about {n}", f"what do you know about {n}", f"facts about {n}"]
-        add("geo.country", qs, [facts])
+        add("geo.country", qs, V.make("country", nice=nice, capital=capital, continent=continent, money=money))
         if cur:
             qs = []
             for n in names:
                 qs += [f"what is the currency of {n}", f"what money do they use in {n}", f"{n} currency"]
-            add("geo.currency", qs, [f"{cap_first(nice)} uses {cur}.", f"In {nice}, people pay with {cur}."])
+            add("geo.currency", qs, V.make("currency", nice=nice, cur=cur))
 
 
 def states():
     for state, capital, abbr in W.US_STATES:
         s = state.lower()
-        add("geo.us", [f"what is the capital of {s}", f"capital of {s}", f"{s} capital", f"{s} state capital"], [
-            f"The capital of {state} is {capital}.", f"{capital} is the capital of {state}.",
-        ])
+        add("geo.us", [f"what is the capital of {s}", f"capital of {s}", f"{s} capital", f"{s} state capital"],
+            V.make("state_capital", state=state, capital=capital))
         add("geo.us", [f"what is the abbreviation for {s}", f"{s} abbreviation", f"what does {abbr.lower()} stand for state",
-                       f"{s} postal code"], [f"{state}'s abbreviation is {abbr}.", f"{abbr} stands for {state}."])
+                       f"{s} postal code"], V.make("state_abbr", state=state, abbr=abbr))
         c = capital.lower()
-        add("geo.us", [f"{c} is the capital of what state", f"what state is {c} the capital of"], [
-            f"{capital} is the capital of {state}.",
-        ])
+        add("geo.us", [f"{c} is the capital of what state", f"what state is {c} the capital of"],
+            V.make("state_of", state=state, capital=capital))
 
 
 # ---------- elements ----------
@@ -135,17 +129,15 @@ def elements():
         n = name.lower()
         state = "gas" if name in W.GASES else "liquid" if name in W.LIQUIDS else "solid"
         add("chem.symbol", [f"what is the symbol for {n}", f"{n} symbol", f"chemical symbol of {n}",
-                            f"what is the element symbol for {n}"], [
-            f"The symbol for {name} is {symbol}.", f"{name}'s chemical symbol is {symbol}.",
-        ])
+                            f"what is the element symbol for {n}"],
+            V.make("symbol", name=name, symbol=symbol, number=number))
         add("chem.symbol", [f"what element is {symbol.lower()}", f"what is {symbol.lower()} on the periodic table",
-                            f"which element has the symbol {symbol.lower()}"], [f"{symbol} is {name}, element number {number}."])
-        add("chem.number", [f"what is the atomic number of {n}", f"atomic number of {n}", f"{n} atomic number"], [
-            f"{name} has atomic number {number}.", f"The atomic number of {name} is {number}.",
-        ])
-        add("chem.number", [f"what element is number {number}", f"element {number}", f"which element has atomic number {number}"], [
-            f"Element number {number} is {name} ({symbol}).",
-        ])
+                            f"which element has the symbol {symbol.lower()}"],
+            V.make("symbol_of", name=name, symbol=symbol, number=number))
+        add("chem.number", [f"what is the atomic number of {n}", f"atomic number of {n}", f"{n} atomic number"],
+            V.make("atomic_number", name=name, symbol=symbol, number=number))
+        add("chem.number", [f"what element is number {number}", f"element {number}", f"which element has atomic number {number}"],
+            V.make("element_number", name=name, symbol=symbol, number=number))
         if number >= 100:
             state_text = ("Only a few atoms of it have ever been made, so nobody has seen it as a solid, "
                           "liquid or gas.")
@@ -155,85 +147,79 @@ def elements():
             else:
                 state_text = f"At room temperature it's a {state}."
         add("chem.state", [f"is {n} a solid liquid or gas", f"is {n} a gas", f"what state is {n} at room temperature",
-                           f"tell me about {n}"], [
-            f"{name} ({symbol}) is element {number}. {state_text}",
-        ])
+                           f"tell me about {n}"],
+            V.make("element_state", name=name, symbol=symbol, number=number, state_text=state_text))
 
 
 # ---------- words ----------
 def words():
     for a, b in G.ANTONYMS:
-        add("words.opposite", [f"what is the opposite of {a}", f"opposite of {a}", f"antonym for {a}"], [
-            f"The opposite of {a} is {b}.", f"{cap_first(b)} is the opposite of {a}.",
-        ])
-        add("words.opposite", [f"what is the opposite of {b}", f"opposite of {b}", f"antonym for {b}"], [
-            f"The opposite of {b} is {a}.", f"{cap_first(a)} is the opposite of {b}.",
-        ])
+        add("words.opposite", [f"what is the opposite of {a}", f"opposite of {a}", f"antonym for {a}"],
+            V.make("opposite", a=a, b=b))
+        add("words.opposite", [f"what is the opposite of {b}", f"opposite of {b}", f"antonym for {b}"],
+            V.make("opposite", a=b, b=a))
     for w, syns in G.SYNONYMS:
         add("words.synonym", [f"what is another word for {w}", f"synonym for {w}", f"another word for {w}",
-                              f"what's a different word for {w}"], [f"Some other words for {w}: {syns}."])
+                              f"what's a different word for {w}"], V.make("synonym", w=w, syns=syns))
 
 
 def animals():
     for animal, baby, sound, group in G.ANIMALS:
-        add("animals.baby", [f"what is a baby {animal} called", f"baby {animal} name", f"what do you call a baby {animal}"], [
-            f"A baby {animal} is called {baby}.",
-        ])
-        add("animals.sound", [f"what sound does a {animal} make", f"what noise does a {animal} make", f"what does a {animal} say"], [
-            f"A {animal} {sound}.",
-        ])
-        add("animals.group", [f"what is a group of {animal}s called", f"group of {animal}s", f"what do you call a bunch of {animal}s"], [
-            f"A group of {animal}s is called {group}.",
-        ])
+        add("animals.baby", [f"what is a baby {animal} called", f"baby {animal} name", f"what do you call a baby {animal}"],
+            V.make("baby", animal=animal, baby=baby))
+        add("animals.sound", [f"what sound does a {animal} make", f"what noise does a {animal} make", f"what does a {animal} say"],
+            V.make("sound", animal=animal, sound=sound))
+        many = V.plural(animal)
+        qs = [f"what is a group of {many} called", f"group of {many}", f"what do you call a bunch of {many}"]
+        if many != animal + "s":
+            qs += [f"what is a group of {animal}s called", f"group of {animal}s"]
+        add("animals.group", qs, V.make("group", animal=animal, group=group),
+            eid=f"animals.group.{slug(f'what is a group of {animal}s called')}")
 
 
 def languages():
     for lang, hello, thanks, bye in G.GREETINGS:
         l = lang.lower()
-        add("lang.hello", [f"how do you say hello in {l}", f"hello in {l}", f"how to say hi in {l}"], [
-            f"Hello in {lang} is \"{hello}\".",
-        ])
-        add("lang.thanks", [f"how do you say thank you in {l}", f"thank you in {l}", f"thanks in {l}"], [
-            f"Thank you in {lang} is \"{thanks}\".",
-        ])
-        add("lang.bye", [f"how do you say goodbye in {l}", f"goodbye in {l}", f"bye in {l}"], [
-            f"Goodbye in {lang} is \"{bye}\".",
-        ])
+        add("lang.hello", [f"how do you say hello in {l}", f"hello in {l}", f"how to say hi in {l}"],
+            V.make("hello", lang=lang, word=hello))
+        add("lang.thanks", [f"how do you say thank you in {l}", f"thank you in {l}", f"thanks in {l}"],
+            V.make("thanks", lang=lang, word=thanks))
+        add("lang.bye", [f"how do you say goodbye in {l}", f"goodbye in {l}", f"bye in {l}"],
+            V.make("bye", lang=lang, word=bye))
+
+
+NTH = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh",
+       "twelfth"]
 
 
 def calendar_facts():
     for i, (m, days) in enumerate(G.MONTHS):
         l = m.lower()
         extra = " (29 in a leap year)" if m == "February" else ""
-        add("time.month", [f"how many days in {l}", f"how many days does {l} have", f"days in {l}"], [
-            f"{m} has {days} days{extra}.",
-        ])
+        add("time.month", [f"how many days in {l}", f"how many days does {l} have", f"days in {l}"],
+            V.make("month_days", month=m, days=days, extra=extra))
         nxt = G.MONTHS[(i + 1) % 12][0]
-        add("time.month", [f"what month comes after {l}", f"what is the month after {l}", f"which month is {l} number"], [
-            f"{m} is month number {i + 1}, and {nxt} comes after it.",
-        ])
+        add("time.month", [f"what month comes after {l}", f"what is the month after {l}", f"which month is {l} number"],
+            V.make("month_order", month=m, n=i + 1, nth=NTH[i], next=nxt))
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     for i, d in enumerate(days):
         l = d.lower()
-        add("time.day", [f"what day comes after {l}", f"day after {l}"], [f"{days[(i + 1) % 7]} comes after {d}."])
-        add("time.day", [f"what day comes before {l}", f"day before {l}"], [f"{days[(i - 1) % 7]} comes before {d}."])
+        add("time.day", [f"what day comes after {l}", f"day after {l}"], V.make("day_after", day=d, next=days[(i + 1) % 7]))
+        add("time.day", [f"what day comes before {l}", f"day before {l}"], V.make("day_before", day=d, prev=days[(i - 1) % 7]))
 
 
 def planets():
     for name, pos, moons, day, year, fact in G.PLANETS:
         l = name.lower()
         ordinal = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth"][pos - 1]
-        add("space.planet", [f"tell me about {l}", f"facts about {l}", f"what is {l} like"], [
-            f"{name} is the {ordinal} planet from the Sun. Fun fact: {fact}.",
-        ])
-        add("space.planet", [f"how many moons does {l} have", f"{l} moons"], [f"{name} has {moons}."])
-        add("space.planet", [f"how long is a day on {l}", f"{l} day length"], [f"A day on {name} lasts {day}."])
-        add("space.planet", [f"how long is a year on {l}", f"how long does {l} take to orbit the sun"], [
-            f"A year on {name} lasts {year}.",
-        ])
-        add("space.planet", [f"what number planet is {l}", f"where is {l} in the solar system"], [
-            f"{name} is the {ordinal} planet from the Sun.",
-        ])
+        add("space.planet", [f"tell me about {l}", f"facts about {l}", f"what is {l} like"],
+            V.make("planet", name=name, ordinal=ordinal, pos=pos, fact=fact))
+        add("space.planet", [f"how many moons does {l} have", f"{l} moons"], V.make("planet_moons", name=name, moons=moons))
+        add("space.planet", [f"how long is a day on {l}", f"{l} day length"], V.make("planet_day", name=name, day=day))
+        add("space.planet", [f"how long is a year on {l}", f"how long does {l} take to orbit the sun"],
+            V.make("planet_year", name=name, year=year))
+        add("space.planet", [f"what number planet is {l}", f"where is {l} in the solar system"],
+            V.make("planet_pos", name=name, ordinal=ordinal, pos=pos))
 
 
 def main():

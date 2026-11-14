@@ -47,6 +47,10 @@ final class QABank {
     private var docFreq: [String: Int] = [:]
     private var exact: [String: Int] = [:]
     private var embeddingCache: [Int: [Double]] = [:]
+    /// How many question wordings use each plain word (for typo fixes and finding the subject of a question).
+    private var wordCount: [String: Int] = [:]
+    /// Known words grouped by length, so typo fixing only looks at words of about the right size.
+    private var wordsByLength: [Int: [String]] = [:]
 
     private let embedding = NLEmbedding.sentenceEmbedding(for: .english)
     static let learnedFile = "learned_qa.json"
@@ -90,6 +94,13 @@ final class QABank {
             wordingKeys.append(keys)
             wordingAll.append(all)
             exact[norm] = w
+            for word in norm.split(separator: " ") {
+                let plain = String(word)
+                if wordCount[plain] == nil, plain.allSatisfy({ $0.isLetter }) {
+                    wordsByLength[plain.count, default: []].append(plain)
+                }
+                wordCount[plain, default: 0] += 1
+            }
             for k in all {
                 postings[k, default: []].append(w)
                 docFreq[k, default: 0] += 1
@@ -101,6 +112,17 @@ final class QABank {
         let n = Double(max(1, wordingText.count))
         let df = Double(docFreq[token] ?? 0)
         return log((n + 1) / (df + 1)) + 1
+    }
+
+    // MARK: Words
+
+    /// How many question wordings use this word (0 means Ace has never seen it).
+    func wordFrequency(_ word: String) -> Int { wordCount[word] ?? 0 }
+
+    /// Known words within 2 letters of this word's length.
+    func vocabulary(near word: String) -> [String] {
+        let n = word.count
+        return (max(1, n - 2)...(n + 2)).flatMap { wordsByLength[$0] ?? [] }
     }
 
     // MARK: Matching
