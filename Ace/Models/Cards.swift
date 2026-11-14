@@ -1,0 +1,156 @@
+import Foundation
+
+/// Special pieces of UI that can ride along with a chat message.
+enum AceCard: Codable, Equatable {
+    case recipe(RecipeCard)
+    case weather(WeatherCard)
+    case web(WebCard)
+    case links([LinkItem])
+    case eventDraft(EventDraft)
+    case events([EventItem])
+    case check(CheckReport)
+    case files([FileHit])
+    case screenshots([ScreenshotHit])
+    case image(ImageReport)
+    case timer(TimerCard)
+    case power(PowerCard)
+}
+
+struct RecipeCard: Codable, Equatable {
+    var name: String
+    var category: String?
+    var area: String?
+    var imageURL: URL?
+    var ingredients: [String]
+    var steps: [String]
+    var sourceURL: URL?
+}
+
+struct WeatherCard: Codable, Equatable {
+    struct Day: Codable, Equatable {
+        var date: Date
+        var high: Double
+        var low: Double
+        var code: Int
+        var rainChance: Int?
+    }
+    var place: String
+    var temperature: Double
+    var feelsLike: Double?
+    var code: Int
+    var wind: Double?
+    var unit: String   // "°C" or "°F"
+    var days: [Day]
+}
+
+struct WebSource: Codable, Equatable, Identifiable {
+    var id: String { url.absoluteString }
+    var title: String
+    var url: URL
+}
+
+struct WebCard: Codable, Equatable {
+    var title: String
+    var summary: String
+    var bullets: [String]
+    var imageURL: URL?
+    var sources: [WebSource]
+}
+
+struct LinkItem: Codable, Equatable, Identifiable {
+    var id: String { url.absoluteString }
+    var title: String
+    var url: URL
+}
+
+enum EventAction: String, Codable {
+    case add, edit, delete
+}
+
+enum DraftStatus: String, Codable {
+    case waiting, done, cancelled, failed
+}
+
+/// A calendar change Ace wants to make. Nothing happens until the user taps Yes.
+struct EventDraft: Codable, Equatable, Identifiable {
+    var id = UUID()
+    var action: EventAction
+    var title: String
+    var start: Date
+    var end: Date
+    var allDay: Bool = false
+    var notes: String?
+    /// The EventKit identifier of the event being edited or deleted.
+    var eventID: String?
+    var status: DraftStatus = .waiting
+    var resultText: String?
+}
+
+struct EventItem: Codable, Equatable, Identifiable {
+    var id: String
+    var title: String
+    var start: Date
+    var end: Date
+    var allDay: Bool
+    var calendar: String
+}
+
+enum CheckLevel: String, Codable {
+    case ok, info, warn
+}
+
+struct CheckItem: Codable, Equatable, Identifiable {
+    var id = UUID()
+    var icon: String     // SF Symbol name
+    var title: String
+    var detail: String
+    var level: CheckLevel
+}
+
+struct CheckReport: Codable, Equatable, Identifiable {
+    var id = UUID()
+    var date = Date()
+    var items: [CheckItem]
+    var summary: String
+
+    var needsAttention: Bool { items.contains { $0.level == .warn } }
+}
+
+struct FileHit: Codable, Equatable, Identifiable {
+    var id: String { path }
+    var name: String
+    var path: String
+    var size: Int64
+    var modified: Date?
+    var snippet: String?
+    /// Which picked folder it came from (its bookmark key).
+    var folderKey: String
+}
+
+struct ScreenshotHit: Codable, Equatable, Identifiable {
+    var id: String { assetID }
+    var assetID: String
+    var date: Date?
+    var snippet: String
+}
+
+struct ImageReport: Codable, Equatable {
+    var labels: [String]
+    var text: String?
+    var codes: [String]
+    var faces: Int
+    var summary: String
+}
+
+struct TimerCard: Codable, Equatable, Identifiable {
+    var id = UUID()
+    var label: String
+    var fireDate: Date
+    var notificationID: String
+}
+
+struct PowerCard: Codable, Equatable {
+    var action: String   // shutdown, restart, or another PC command
+    var status: DraftStatus
+    var detail: String
+}
