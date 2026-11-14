@@ -27,6 +27,8 @@ protocol BrainHost: AnyObject {
     func describeLastPhoto() -> BrainReply?
     /// Asks an on-device model (only the ones switched on in Settings). Returns the answer and the model's name.
     func freeAnswer(_ question: String) async -> (text: String, model: String)?
+    /// LFM3 Omni is downloaded and can run.
+    var modelReady: Bool { get }
 }
 
 /// Ace V4's brain: rules + a big answer bank + a neural matcher + web research,
@@ -43,6 +45,7 @@ final class Brain {
     private var lastTopic = ""
     private var awaitingAnswerFor: String?
     private var pendingChoices: [QABank.Match] = []
+    private var toldModelMissing = false
 
     /// How sure the answer bank has to be to answer straight away.
     static let sure = 0.74
@@ -86,6 +89,17 @@ final class Brain {
         }
 
         await think("Reading: \"\(text)\"")
+
+        // LFM3 Omni picked as the brain: it answers, except for things only Ace can do (timers, checks, calendar...).
+        if let host, host.settings.modelBrain {
+            if let r = await modelBrainAnswer(text, host: host, think: think) {
+                var reply = r
+                thoughts.append("Answered by: \(reply.source)")
+                reply.thoughts = thoughts
+                return finish(reply, question: text)
+            }
+        }
+
         let parts = splitParts(text)
         if parts.count > 1 {
             await think("That's \(parts.count) questions. I'll answer each one.")
@@ -155,17 +169,9 @@ final class Brain {
             }
         }
 
-        // A weaker match is better than nothing, but say so.
-        if case .weak(let m) = decision {
-            await think("Going with my best guess")
-            var r = answer(from: m)
-            r.text = Say.line(.guess, ["question": m.wording]) + " " + r.text
-            return r
-        }
-
-        // The on-device models (LFM3 Omni or Apple's) only answer when they're switched on.
-        if let host, host.settings.useLocalModel || host.settings.useAppleModel {
-            await think("Nothing I know was sure, so I'm asking my on-device model")
+        // Fall back to LFM3 Omni (or Apple's model) only when that's switched on and nothing above was sure.
+        if let host, (host.settings.useLocalModel && host.modelReady) || host.settings.useAppleModel {
+            await think(host.settings.useLocalModel && host.modelReady ? "I'm not sure, so I'm asking LFM3 Omni" : "I'm not sure, so I'm asking Apple's model")
             if let a = await host.freeAnswer(text) {
                 let clean = TextKit.stripModelTags(a.text)
                 if !clean.isEmpty {
@@ -175,6 +181,14 @@ final class Brain {
             }
         }
 
+        // A weaker match is better than nothing, but say so.
+        if case .weak(let m) = decision {
+            await think("Going with my best guess")
+            var r = answer(from: m)
+            r.text = Say.line(.guess, ["question": m.wording]) + " " + r.text
+            return r
+        }
+
         await think("Out of ideas for now")
         lastTopic = Summarizer.topic(of: text)
         var r = BrainReply(text: Say.line(.dontKnow, ["question": TextKit.normalize(text)]), source: "rules", mood: .idle)
@@ -182,6 +196,30 @@ final class Brain {
             r.cards = [.links([LinkItem(title: link.title, url: link.url)])]
         }
         return r
+    }
+
+    /// LFM3 Omni as the brain. Returns nil to let Normal Ace answer instead
+    /// (for things only Ace can do, or when the model isn't on this iPad).
+    private func modelBrainAnswer(_ text: String, host: BrainHost, think: (String) async -> Void) async -> BrainReply? {
+        if let intent = IntentRouter.parse(text), intent.isAction {
+            await think("That's something I do myself (\(describe(intent))), not a question for LFM3 Omni")
+            return nil
+        }
+        guard host.modelReady else {
+            await think("LFM3 Omni isn't on this iPad yet, so Normal Ace is answering")
+            guard !toldModelMissing else { return nil }
+            toldModelMissing = true
+            var r = await solve(text, think: think)
+            r.text += "\n\n" + Say.line(.modelMissing)
+            return r
+        }
+        await think("Asking LFM3 Omni")
+        if let a = await host.freeAnswer(text) {
+            let clean = TextKit.stripModelTags(a.text)
+            if !clean.isEmpty { return BrainReply(text: clean, source: a.model) }
+        }
+        await think("LFM3 Omni didn't answer, so Normal Ace is taking it")
+        return nil
     }
 
     /// Web answers stay short: one or two sentences (the card has the rest).

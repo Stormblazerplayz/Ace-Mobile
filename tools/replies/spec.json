@@ -594,5 +594,11 @@
   ],
   "orig": "Yeah? What do you need?",
   "note": "Said when someone just says Ace's name. {who} is ', Storm' or empty."
+ },
+ "modelMissing": {
+  "req": [],
+  "opt": [],
+  "orig": "LFM3 Omni isn't on this iPad yet, so Normal Ace answered. You can download it in Settings.",
+  "note": "Said once, after Normal Ace answers, when LFM3 Omni is picked as the brain but not downloaded. Must mention LFM3 Omni and Settings."
  }
 }

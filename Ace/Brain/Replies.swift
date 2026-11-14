@@ -36,6 +36,7 @@ enum ReplyKey: String, CaseIterable {
     case lowPowerOn
     case math
     case memoryUsage
+    case modelMissing
     case nextUp
     case noNameYet
     case noPhoto

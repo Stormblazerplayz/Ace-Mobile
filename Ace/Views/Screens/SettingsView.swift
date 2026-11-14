@@ -174,27 +174,46 @@ struct MemorySection: View {
     }
 }
 
-/// Turn on Apple's model or LFM3 Omni, and download or delete LFM3 Omni.
+/// Pick the brain (Normal Ace or LFM3 Omni), the LFM3 Omni fallback, Apple's model,
+/// and download or delete LFM3 Omni.
 struct AIModelSection: View {
     @EnvironmentObject var settings: SettingsStore
     @ObservedObject private var local = LocalModel.shared
     @State private var confirmDownload = false
     @State private var confirmDelete = false
 
+    /// The model has to be on this iPad for the picked setting to work.
+    private var needsModel: Bool { settings.lfmAllowed }
+
     var body: some View {
         Section {
-            Toggle("Apple's model on this iPad", isOn: $settings.useAppleModel)
-            if settings.useAppleModel {
-                Text(AppleModel.statusText).font(.caption).foregroundStyle(AceTheme.muted)
+            Picker("Brain", selection: $settings.brain) {
+                Text("Normal Ace").tag("ace")
+                Text("LFM3 Omni").tag("model")
             }
-            Toggle("LFM3 Omni on this iPad", isOn: $settings.useLocalModel)
-            if settings.useLocalModel {
+            .pickerStyle(.segmented)
+
+            Text(settings.modelBrain
+                 ? "LFM3 Omni answers your questions. Ace still does timers, checks, the calendar and other things it does itself."
+                 : "Ace answers with its own brain: rules, its answer bank and the web.")
+                .font(.caption)
+                .foregroundStyle(AceTheme.muted)
+
+            if !settings.modelBrain {
+                Toggle("Fall back to LFM3 Omni when Ace doesn't know", isOn: $settings.useLocalModel)
+            }
+
+            if needsModel {
                 if !LocalModel.engineIncluded {
                     Text("This build doesn't have the model engine yet. It comes with the next update.")
                         .font(.caption)
                         .foregroundStyle(AceTheme.warn)
+                } else if !local.filesPresent, !isDownloading {
+                    Text("LFM3 Omni isn't on this iPad yet. Download it so it can answer.")
+                        .font(.caption)
+                        .foregroundStyle(AceTheme.warn)
                 }
-                LabeledContent("Model", value: local.statusText)
+                LabeledContent("LFM3 Omni", value: local.statusText)
                 switch local.state {
                 case .notDownloaded, .failed:
                     Button("Download LFM3 Omni (\(SystemMonitor.bytes(LocalModel.totalBytes)))") { confirmDownload = true }
@@ -206,9 +225,9 @@ struct AIModelSection: View {
                 }
             }
         } header: {
-            Text("On-device AI")
+            Text("Brain")
         } footer: {
-            Text("Both are off unless you turn them on. Ace's own brain always answers first. A model only gets a turn when the brain and the web aren't sure, and for questions about pictures. \"How I got this\" shows which one answered. Everything stays on your iPad.")
+            Text("Ace starts with Normal Ace. With the fallback on, LFM3 Omni only answers when Ace isn't sure. \"How I got this\" shows which one answered. Everything stays on your iPad.")
         }
         .confirmationDialog("Download LFM3 Omni?", isPresented: $confirmDownload, titleVisibility: .visible) {
             Button("Download \(SystemMonitor.bytes(LocalModel.totalBytes))") { local.download() }
@@ -220,5 +239,21 @@ struct AIModelSection: View {
             Button("Delete", role: .destructive) { local.deleteFiles() }
             Button("Cancel", role: .cancel) {}
         }
+
+        Section {
+            Toggle("Apple's model on this iPad", isOn: $settings.useAppleModel)
+            if settings.useAppleModel {
+                Text(AppleModel.statusText).font(.caption).foregroundStyle(AceTheme.muted)
+            }
+        } header: {
+            Text("Apple's model")
+        } footer: {
+            Text("Off unless you turn it on. Normal Ace asks it only when it isn't sure.")
+        }
+    }
+
+    private var isDownloading: Bool {
+        if case .downloading = local.state { return true }
+        return false
     }
 }

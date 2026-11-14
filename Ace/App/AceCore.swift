@@ -465,7 +465,7 @@ final class AceCore: ObservableObject, BrainHost {
         if report.text != nil { note("Read the text in it") }
         var text = report.summary
         var source = "vision"
-        if !question.isEmpty, settings.useLocalModel || settings.useAppleModel {
+        if !question.isEmpty, settings.lfmAllowed || settings.useAppleModel {
             note("Asking my on-device model about it")
             let facts = "What the picture shows (from the iPad's vision): \(report.summary)"
                 + (report.text.map { "\nText in the picture:\n\($0.prefix(1500))" } ?? "")
@@ -485,7 +485,7 @@ final class AceCore: ObservableObject, BrainHost {
     /// LFM3 Omni first (if it's switched on and downloaded), then Apple's model (if it's switched on).
     /// Both are off unless turned on in Settings. Thinking tags are always stripped.
     private func askModel(system: String, user: String, maxTokens: Int = 320) async -> (text: String, model: String)? {
-        if settings.useLocalModel, LocalModel.shared.filesPresent,
+        if settings.lfmAllowed, LocalModel.shared.filesPresent,
            let a = await LocalModel.shared.generate(system: system, user: user, maxTokens: maxTokens) {
             let clean = TextKit.stripModelTags(a)
             if !clean.isEmpty { return (clean, "LFM3 Omni") }
@@ -496,6 +496,9 @@ final class AceCore: ObservableObject, BrainHost {
         }
         return nil
     }
+
+    /// LFM3 Omni is downloaded and this build has the engine to run it.
+    var modelReady: Bool { LocalModel.engineIncluded && LocalModel.shared.filesPresent }
 
     func freeAnswer(_ question: String) async -> (text: String, model: String)? {
         await askModel(system: Self.modelInstructions, user: question)

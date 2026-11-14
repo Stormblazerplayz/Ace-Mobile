@@ -21,7 +21,10 @@ final class SettingsStore: ObservableObject {
     @Published var webAnswers: Bool { didSet { d.set(webAnswers, forKey: "webAnswers") } }
     @Published var showThinking: Bool { didSet { d.set(showThinking, forKey: "showThinking") } }
     @Published var useAppleModel: Bool { didSet { d.set(useAppleModel, forKey: "useAppleModel") } }
+    /// "Fall back to LFM3 Omni when Ace doesn't know" (Normal Ace only).
     @Published var useLocalModel: Bool { didSet { d.set(useLocalModel, forKey: "useLocalModel") } }
+    /// Who answers: "ace" (Normal Ace: rules, answer bank, web) or "model" (LFM3 Omni answers questions).
+    @Published var brain: String { didSet { d.set(brain, forKey: "brain") } }
     @Published var bedtimeTips: Bool { didSet { d.set(bedtimeTips, forKey: "bedtimeTips") } }
     /// "auto", "c" or "f".
     @Published var temperatureUnit: String { didSet { d.set(temperatureUnit, forKey: "temperatureUnit") } }
@@ -36,7 +39,7 @@ final class SettingsStore: ObservableObject {
         d.register(defaults: [
             "soundsOn": true, "volume": 0.8, "hapticsOn": true, "speakReplies": false,
             "wakeChecks": true, "backgroundAlerts": true, "openLinksIn": "ace", "searchEngine": "google",
-            "webAnswers": true, "showThinking": true, "useAppleModel": false, "useLocalModel": false,
+            "webAnswers": true, "showThinking": true, "useAppleModel": false, "useLocalModel": true, "brain": "ace",
             "bedtimeTips": true, "temperatureUnit": "auto", "syncEnabled": false, "syncPort": 48620,
         ])
         userName = d.string(forKey: "userName") ?? ""
@@ -53,6 +56,7 @@ final class SettingsStore: ObservableObject {
         showThinking = d.bool(forKey: "showThinking")
         useAppleModel = d.bool(forKey: "useAppleModel")
         useLocalModel = d.bool(forKey: "useLocalModel")
+        brain = d.string(forKey: "brain") == "model" ? "model" : "ace"
         bedtimeTips = d.bool(forKey: "bedtimeTips")
         temperatureUnit = d.string(forKey: "temperatureUnit") ?? "auto"
         syncEnabled = d.bool(forKey: "syncEnabled")
@@ -62,6 +66,12 @@ final class SettingsStore: ObservableObject {
         lastSync = d.object(forKey: "lastSync") as? Date
         lastGreetingDay = d.string(forKey: "lastGreetingDay") ?? ""
     }
+
+    /// True when LFM3 Omni is picked as the brain.
+    var modelBrain: Bool { brain == "model" }
+
+    /// True when LFM3 Omni may answer at all (picked as the brain, or as Normal Ace's fallback).
+    var lfmAllowed: Bool { modelBrain || useLocalModel }
 
     var useFahrenheit: Bool {
         switch temperatureUnit {
