@@ -37,6 +37,26 @@ enum ReplyKey: String, CaseIterable {
     case math
     case memoryUsage
     case modelMissing
+    case homeOn
+    case homeOff
+    case homeLevel
+    case homeTemp
+    case homeStatus
+    case homeList
+    case homeScene
+    case vacuumStart
+    case vacuumRoom
+    case vacuumPause
+    case vacuumDock
+    case vacuumMissing
+    case homeNotFound
+    case homeNoAccess
+    case homeNoHome
+    case homeFailed
+    case homeSafety
+    case homeConfirm
+    case homeCancelled
+    case homeCantDo
     case nextUp
     case noNameYet
     case noPhoto

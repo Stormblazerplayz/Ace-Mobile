@@ -497,6 +497,10 @@ final class AceCore: ObservableObject, BrainHost {
         return nil
     }
 
+    func homeCommand(_ cmd: HomeCommand, confirmed: Bool) async -> (reply: BrainReply, confirm: HomeCommand?) {
+        await HomeService.shared.run(cmd, confirmed: confirmed, fahrenheit: settings.useFahrenheit)
+    }
+
     /// LFM3 Omni is downloaded and this build has the engine to run it.
     var modelReady: Bool { LocalModel.engineIncluded && LocalModel.shared.filesPresent }
 
