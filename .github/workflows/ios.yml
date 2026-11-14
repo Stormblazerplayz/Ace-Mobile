@@ -189,6 +189,24 @@ jobs:
           fi
           echo "ASC_KEY_PATH=$KEY_PATH" >> "$GITHUB_ENV"
 
+      - name: Put the app's entitlements in the archive
+        if: steps.signing.outputs.sign == 'true'
+        run: |
+          set -euo pipefail
+          # The archive is built unsigned, so it has no entitlements yet. Export reads them
+          # from the app's signature to make the provisioning profile, so sign it ad hoc
+          # with Config/Ace.entitlements (HomeKit) first. Export then signs it for real.
+          APP="$RUNNER_TEMP/Ace.xcarchive/Products/Applications/Ace.app"
+          if [ -d "$APP/Frameworks" ]; then
+            find "$APP/Frameworks" -maxdepth 1 \( -name '*.framework' -o -name '*.dylib' \) -print0 | xargs -0 -I{} codesign --force --sign - {}
+          fi
+          if [ -d "$APP/PlugIns" ]; then
+            find "$APP/PlugIns" -maxdepth 1 -name '*.appex' -print0 | xargs -0 -I{} codesign --force --sign - {}
+          fi
+          codesign --force --sign - --entitlements Config/Ace.entitlements "$APP"
+          echo "Entitlements in the archive:"
+          codesign -d --entitlements - "$APP" 2>/dev/null || true
+
       - name: Sign and export the .ipa
         if: steps.signing.outputs.sign == 'true'
         run: |

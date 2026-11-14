@@ -45,6 +45,8 @@
 	<string>public.app-category.productivity</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHomeKitUsageDescription</key>
+	<string>Ace turns your lights, plugs, fans, thermostat and robot vacuum on and off when you ask. It never touches locks, garage doors or alarms.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Ace uses the camera when you take a photo to show it. The photo stays on your iPad.</string>
 	<key>NSCalendarsFullAccessUsageDescription</key>

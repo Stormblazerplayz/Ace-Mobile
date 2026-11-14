@@ -600,5 +600,162 @@
   "opt": [],
   "orig": "LFM3 Omni isn't on this iPad yet, so Normal Ace answered. You can download it in Settings.",
   "note": "Said once, after Normal Ace answers, when LFM3 Omni is picked as the brain but not downloaded. Must mention LFM3 Omni and Settings."
+ },
+ "homeOn": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "{device} is on.",
+  "note": "Said after turning a light, plug, switch or fan on in Apple Home. Short."
+ },
+ "homeOff": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "{device} is off.",
+  "note": "Said after turning a home device off. Short."
+ },
+ "homeLevel": {
+  "req": [
+   "device",
+   "level"
+  ],
+  "opt": [],
+  "orig": "{device} is at {level}%.",
+  "note": "Brightness was set. {level} is a number, keep the % sign right after {level}."
+ },
+ "homeTemp": {
+  "req": [
+   "device",
+   "temp"
+  ],
+  "opt": [],
+  "orig": "I set {device} to {temp}.",
+  "note": "Thermostat target was set. {temp} already has its unit, like 70°F."
+ },
+ "homeStatus": {
+  "req": [
+   "device",
+   "state"
+  ],
+  "opt": [],
+  "orig": "{device} is {state}.",
+  "note": "Reports a device's state. {state} is a phrase like 'on', 'off', 'at 40%' or 'set to 70°F'. Use it after 'is'."
+ },
+ "homeList": {
+  "req": [
+   "count",
+   "home"
+  ],
+  "opt": [],
+  "orig": "You have {count} in {home}:",
+  "note": "Lead-in before a list of devices. {count} is like '6 devices'. Ends with a colon."
+ },
+ "homeScene": {
+  "req": [
+   "scene"
+  ],
+  "opt": [],
+  "orig": "Running {scene}.",
+  "note": "An Apple Home scene (like Good Night) was run."
+ },
+ "vacuumStart": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "Starting {device}.",
+  "note": "Robot vacuum was told to start cleaning."
+ },
+ "vacuumRoom": {
+  "req": [
+   "device",
+   "room"
+  ],
+  "opt": [],
+  "orig": "Starting {device}. Apple Home can't pick rooms, so pick the {room} in the MOVA app if it cleans the whole house.",
+  "note": "Vacuum started but Apple Home can't choose one room. Mention the MOVA app and {room}."
+ },
+ "vacuumPause": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "Paused {device}.",
+  "note": "Vacuum was paused or stopped."
+ },
+ "vacuumDock": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "Sending {device} back to its dock.",
+  "note": "Vacuum is going back to charge."
+ },
+ "vacuumMissing": {
+  "req": [],
+  "opt": [],
+  "orig": "I can't find a vacuum in Apple Home. In the MOVA app, add it to Apple Home with Matter, then ask me again.",
+  "note": "No vacuum in Apple Home. Must mention the MOVA app, Apple Home and Matter."
+ },
+ "homeNotFound": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "I couldn't find {device} in Apple Home.",
+  "note": "No accessory matched. Can suggest checking the name in the Home app."
+ },
+ "homeNoAccess": {
+  "req": [],
+  "opt": [],
+  "orig": "I need Home access first. Turn it on in the Settings app, under Ace.",
+  "note": "Home permission was denied. Must say where: the Settings app, under Ace."
+ },
+ "homeNoHome": {
+  "req": [],
+  "opt": [],
+  "orig": "There's no home in Apple Home yet. Set one up in the Home app first.",
+  "note": "No HomeKit home exists. Mention the Home app."
+ },
+ "homeFailed": {
+  "req": [
+   "device"
+  ],
+  "opt": [],
+  "orig": "{device} didn't respond. Check it's powered and connected in the Home app.",
+  "note": "Writing to the accessory failed."
+ },
+ "homeSafety": {
+  "req": [],
+  "opt": [],
+  "orig": "For safety, use the Home app for locks, garage doors and alarms.",
+  "note": "Ace won't control locks, garage doors or security systems."
+ },
+ "homeConfirm": {
+  "req": [
+   "action",
+   "device"
+  ],
+  "opt": [],
+  "orig": "Should I {action} {device}?",
+  "note": "Asks before acting when Ace isn't sure which device was meant. Must be a yes or no question. {action} is a verb phrase like 'turn on'."
+ },
+ "homeCancelled": {
+  "req": [],
+  "opt": [],
+  "orig": "Okay, I left it alone.",
+  "note": "User said no to a home action."
+ },
+ "homeCantDo": {
+  "req": [
+   "device",
+   "action"
+  ],
+  "opt": [],
+  "orig": "{device} can't {action} from Apple Home.",
+  "note": "The device doesn't support that command through Apple Home. {action} is a verb like 'pause'."
  }
 }

@@ -45,6 +45,7 @@ enum Intent: Equatable {
     case correction(String?)       // "no, it's X" / "that's wrong"
     case teach(question: String, answer: String)
     case ipadOnlyLimit(String)
+    case home(HomeCommand)
 }
 
 extension Intent {
@@ -109,6 +110,7 @@ extension Intent {
         case .correction: return "correction"
         case .teach: return "teach"
         case .ipadOnlyLimit: return "ipadOnlyLimit"
+        case .home: return "home"
         }
     }
 }
@@ -143,6 +145,9 @@ enum IntentRouter {
         // Follow-ups
         if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
         if Rx.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
+
+        // Home (Apple Home): lights, plugs, fans, thermostats, the robot vacuum, scenes
+        if let h = HomeParser.parse(t) { return .home(h) }
 
         // Name and memory
         if let g = Rx.groups(#"^(?:my name is|call me|i am called)\s+([a-z][a-z' \-]{0,30})$"#, t) { return .setName(g[0]) }

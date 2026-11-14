@@ -96,6 +96,8 @@ struct SettingsView: View {
 
                 MemorySection(memory: core.memory, bank: core.brain.bank)
 
+                HomeSection()
+
                 AIModelSection()
 
                 Section("Coming next") {
@@ -255,5 +257,81 @@ struct AIModelSection: View {
     private var isDownloading: Bool {
         if case .downloading = local.state { return true }
         return false
+    }
+}
+
+/// Apple Home: connect, see your devices by room, and flip them on or off.
+struct HomeSection: View {
+    @ObservedObject private var home = HomeService.shared
+
+    var body: some View {
+        Section {
+            switch home.access {
+            case .notConnected:
+                Button {
+                    home.connect()
+                } label: {
+                    Label("Connect Apple Home", systemImage: "house.fill")
+                }
+            case .waiting:
+                HStack {
+                    ProgressView()
+                    Text("Connecting to Apple Home...").foregroundStyle(AceTheme.muted)
+                }
+            case .denied:
+                Text("Ace doesn't have Home access yet. Turn it on in the Settings app, under Ace.")
+                    .font(.callout)
+                    .foregroundStyle(AceTheme.warn)
+            case .noHome:
+                Text("There's no home in Apple Home yet. Set one up in the Home app first.")
+                    .font(.callout)
+                    .foregroundStyle(AceTheme.muted)
+            case .allowed:
+                if home.devices.isEmpty {
+                    Text("No lights, plugs or other devices in \(home.homeName) yet.")
+                        .foregroundStyle(AceTheme.muted)
+                }
+                ForEach(home.devices) { d in
+                    HStack(spacing: 12) {
+                        Image(systemName: d.icon)
+                            .foregroundStyle(d.isOn == true ? AceTheme.accent : AceTheme.muted)
+                            .frame(width: 24)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(d.name)
+                            if !d.room.isEmpty || d.level != nil {
+                                Text([d.room, d.level.map { "\($0)%" } ?? ""].filter { !$0.isEmpty }.joined(separator: " · "))
+                                    .font(.caption)
+                                    .foregroundStyle(AceTheme.muted)
+                            }
+                        }
+                        Spacer()
+                        if let on = d.isOn {
+                            Toggle(d.name, isOn: Binding(
+                                get: { on },
+                                set: { v in Task { await home.setPower(d.id, v) } }
+                            ))
+                            .labelsHidden()
+                        }
+                    }
+                }
+                if !home.scenes.isEmpty {
+                    LabeledContent("Scenes", value: home.scenes.joined(separator: ", "))
+                }
+                if !home.devices.contains(where: { $0.kind == .vacuum }) {
+                    Label("To control your MOVA vacuum, open the MOVA app and add it to Apple Home with Matter.", systemImage: "info.circle")
+                        .font(.caption)
+                        .foregroundStyle(AceTheme.muted)
+                }
+                Button("Refresh") { Task { await home.refresh() } }
+            }
+        } header: {
+            Text("Apple Home")
+        } footer: {
+            Text("Try \"start the vacuum\", \"turn off the kitchen lights\", \"set the thermostat to 70\" or \"run goodnight scene\". Ace won't touch locks, garage doors or alarms.")
+        }
+        .onAppear {
+            if home.wasConnected { home.connect() }
+            Task { await home.refresh() }
+        }
     }
 }

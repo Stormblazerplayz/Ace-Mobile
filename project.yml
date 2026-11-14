@@ -27,6 +27,7 @@ targets:
         PRODUCT_NAME: Ace
         PRODUCT_BUNDLE_IDENTIFIER: $(ACE_BUNDLE_ID)
         INFOPLIST_FILE: Config/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Config/Ace.entitlements
         GENERATE_INFOPLIST_FILE: NO
         TARGETED_DEVICE_FAMILY: "1,2"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

@@ -25,6 +25,8 @@ protocol BrainHost: AnyObject {
     func findFiles(_ query: String, largest: Bool) async -> (text: String, hits: [FileHit])
     func findScreenshots(_ query: String) async -> (text: String, hits: [ScreenshotHit])
     func describeLastPhoto() -> BrainReply?
+    /// Runs a home command in Apple Home. `confirm` is set when Ace should ask before doing it.
+    func homeCommand(_ cmd: HomeCommand, confirmed: Bool) async -> (reply: BrainReply, confirm: HomeCommand?)
     /// Asks an on-device model (only the ones switched on in Settings). Returns the answer and the model's name.
     func freeAnswer(_ question: String) async -> (text: String, model: String)?
     /// LFM3 Omni is downloaded and can run.
@@ -46,6 +48,8 @@ final class Brain {
     private var awaitingAnswerFor: String?
     private var pendingChoices: [QABank.Match] = []
     private var toldModelMissing = false
+    /// A home action waiting for a yes (Ace wasn't sure which device you meant).
+    private var pendingHome: HomeCommand?
 
     /// How sure the answer bank has to be to answer straight away.
     static let sure = 0.74
@@ -73,6 +77,21 @@ final class Brain {
                 bank.learn(question: q, answer: text, source: "taught", tag: "taught")
                 await think("Saving your answer for \"\(q)\"")
                 return finish(BrainReply(text: Say.line(.taughtAnswer, ["question": q, "answer": text]), thoughts: thoughts, source: "learned"), question: text)
+            }
+        }
+
+        // Answering "Should I turn on the desk lamp?"
+        if let ask = pendingHome {
+            pendingHome = nil
+            let t = TextKit.normalize(text)
+            if Rx.matches(#"^(yes|yeah|yep|yup|ya|sure|ok|okay|do it|go ahead|please do|please|yes please|sure thing|of course|definitely|y)( please| do it| go ahead)?$"#, t), let host {
+                await think("You said yes, so I'm doing it")
+                var r = await host.homeCommand(ask, confirmed: true).reply
+                r.thoughts = thoughts
+                return finish(r, question: text)
+            }
+            if Rx.matches(#"^(no|nope|nah|no thanks|do not|dont|cancel|never mind|nevermind|stop|n|leave it)( thanks| thank you)?$"#, t) {
+                return finish(BrainReply(text: Say.line(.homeCancelled), thoughts: thoughts, source: "home", mood: .idle), question: text)
             }
         }
 
@@ -566,6 +585,7 @@ final class Brain {
         lastTopic = ""
         awaitingAnswerFor = nil
         pendingChoices = []
+        pendingHome = nil
     }
 
     private func understandOne(_ text: String) -> Understanding {
@@ -679,6 +699,7 @@ final class Brain {
         case .correction: return "a correction"
         case .teach: return "teaching me"
         case .ipadOnlyLimit: return "an iPad limit"
+        case .home: return "your home"
         }
     }
 
@@ -951,6 +972,14 @@ final class Brain {
 
         case .ipadOnlyLimit(let msg):
             return BrainReply(text: msg, mood: .idle)
+
+        case .home(let cmd):
+            await think("Talking to Apple Home")
+            let r = await host.homeCommand(cmd, confirmed: false)
+            if let ask = r.confirm {
+                pendingHome = ask
+            }
+            return r.reply
         }
     }
 
