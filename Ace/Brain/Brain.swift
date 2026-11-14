@@ -182,6 +182,57 @@ final class Brain {
         return r
     }
 
+    // MARK: Understanding (no side effects, used by the smartness test)
+
+    /// What Ace decided something means, without doing anything.
+    enum Understanding: Equatable {
+        case skill(String)
+        case bank(String)
+        case weakBank(String)
+        case clarify([String])
+        case unknown
+        indirect case multi([Understanding])
+    }
+
+    /// Works out what the text means the same way `respond` does, minus the web and anything with side effects.
+    func understand(_ raw: String) -> Understanding {
+        let text = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !text.isEmpty else { return .unknown }
+        let parts = splitCompound(text)
+        if parts.count > 1 { return .multi(parts.map { understandOne($0) }) }
+        return understandOne(text)
+    }
+
+    /// Records a turn as if Ace had answered it (for follow-up questions in tests).
+    func noteTurn(_ question: String) {
+        lastQuestion = question
+    }
+
+    /// Starts a fresh conversation.
+    func resetConversation() {
+        lastQuestion = ""
+        lastAnswer = ""
+        lastTopic = ""
+        awaitingAnswerFor = nil
+    }
+
+    private func understandOne(_ text: String) -> Understanding {
+        if let intent = IntentRouter.parse(text) { return .skill(intent.kind) }
+        var matches = bank.search(text)
+        if let best = matches.first, best.score >= 0.74 { return .bank(best.entry.id) }
+        if let c = classifier.classify(text), c.score >= 0.8, let intent = intent(for: c.skill, text: text) {
+            return .skill(intent.kind)
+        }
+        let rephrased = rephrase(text)
+        if rephrased != TextKit.normalize(text), !rephrased.isEmpty {
+            let again = bank.search(rephrased)
+            if let best = again.first, best.score >= 0.72 { return .bank(best.entry.id) }
+            matches = (matches + again).sorted { $0.score > $1.score }
+        }
+        if let best = matches.first, best.score >= 0.58 { return .weakBank(best.entry.id) }
+        return .unknown
+    }
+
     private func answer(from m: QABank.Match, think: (String) async -> Void) -> BrainReply {
         let e = m.entry
         var i = Int.random(in: 0..<e.a.count)

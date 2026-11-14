@@ -46,6 +46,62 @@ enum Intent: Equatable {
     case ipadOnlyLimit(String)
 }
 
+extension Intent {
+    /// A short name for the kind of thing to do ("timer", "weather"...). Used by tests and the think loop.
+    var kind: String {
+        switch self {
+        case .greeting: return "greeting"
+        case .thanks: return "thanks"
+        case .goodbye: return "goodbye"
+        case .time: return "time"
+        case .date: return "date"
+        case .daysUntil: return "daysUntil"
+        case .math: return "math"
+        case .convert: return "convert"
+        case .roman: return "roman"
+        case .randomNumber: return "randomNumber"
+        case .spell: return "spell"
+        case .timer: return "timer"
+        case .reminder: return "reminder"
+        case .alarm: return "alarm"
+        case .calendarAdd: return "calendarAdd"
+        case .calendarEdit: return "calendarEdit"
+        case .calendarDelete: return "calendarDelete"
+        case .calendarList: return "calendarList"
+        case .openSite: return "openSite"
+        case .searchTab: return "searchTab"
+        case .recipe: return "recipe"
+        case .weather: return "weather"
+        case .check: return "check"
+        case .battery: return "battery"
+        case .storage: return "storage"
+        case .memoryUsage: return "memoryUsage"
+        case .network: return "network"
+        case .largeFiles: return "largeFiles"
+        case .findFiles: return "findFiles"
+        case .findScreenshots: return "findScreenshots"
+        case .describePhoto: return "describePhoto"
+        case .bedtime: return "bedtime"
+        case .remember: return "remember"
+        case .setName: return "setName"
+        case .recall: return "recall"
+        case .recallAll: return "recallAll"
+        case .forget: return "forget"
+        case .handsFree: return "handsFree"
+        case .pcPower: return "pcPower"
+        case .pcApp: return "pcApp"
+        case .pcStatus: return "pcStatus"
+        case .syncNow: return "syncNow"
+        case .sounds: return "sounds"
+        case .tellMore: return "tellMore"
+        case .repeatLast: return "repeatLast"
+        case .correction: return "correction"
+        case .teach: return "teach"
+        case .ipadOnlyLimit: return "ipadOnlyLimit"
+        }
+    }
+}
+
 enum IntentRouter {
     /// Reads the sentence with rules. Returns nil when no rule fits.
     static func parse(_ raw: String) -> Intent? {
