@@ -23,6 +23,9 @@ enum Intent: Equatable {
     case recipe(String)
     case recipeTweak(String)        // "make it spicier", "for 8 people"
     case script(String)             // "give me a kill brick script", "C++ servo code"
+    case translate(phrase: String, code: String)   // "how do you say thank you in spanish"
+    case translateList              // "what languages can you speak"
+    case game(String)               // "trivia", "trivia:Space", "twenty"
     case weather(place: String?, day: String? = nil)
     case check
     case battery, storage, memoryUsage, network
@@ -88,6 +91,8 @@ extension Intent {
         case .recipe: return "recipe"
         case .recipeTweak: return "recipeTweak"
         case .script: return "script"
+        case .translate, .translateList: return "translate"
+        case .game: return "game"
         case .weather: return "weather"
         case .check: return "check"
         case .battery: return "battery"
@@ -155,6 +160,22 @@ enum IntentRouter {
         // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
         if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }
 
+        // Translating ("how do you say thank you in spanish", "translate good night to japanese")
+        if let tr = Phrasebook.parse(t) { return .translate(phrase: tr.phrase, code: tr.code) }
+        if Rx.matches(#"^(what|which) languages (can you|do you) (speak|translate|know|translate to|say things in)$"#, t)
+            || Rx.matches(#"^(can you|do you) (speak|translate)( other| different)? languages$"#, t) { return .translateList }
+
+        // Games: trivia and 20 questions
+        if Rx.matches(#"^(?:(?:can we|can you|let us|lets|i want to|want to|wanna|please|ok|okay)\s+)*(?:play|start|do)\s+(?:a\s+|some\s+)?(?:game of\s+)?(?:20|twenty) questions(?: with me)?$"#, t)
+            || Rx.matches(#"^(?:can you\s+)?guess what i am thinking(?: of| about)?$"#, t)
+            || Rx.matches(#"^(?:20|twenty) questions$"#, t) {
+            return .game("twenty")
+        }
+        if Rx.matches(#"^(?:(?:can we|can you|let us|lets|i want to|want to|wanna|please|ok|okay)\s+)*(?:(?:play|start|do|give me|have)\s+(?:a\s+|some\s+)?(?:trivia|quiz)(?:\s+game|\s+round|\s+questions?)?|quiz me|test me|ask me (?:a\s+|some\s+)?(?:trivia|quiz)(?:\s+questions?)?|trivia(?: time)?)(?:\s+(?:about|on|with|for)\s+.+)?(?: please)?$"#, t) {
+            if let cat = Trivia.category(in: t) { return .game("trivia:" + cat) }
+            return .game("trivia")
+        }
+
         // Home (Apple Home): lights, plugs, fans, thermostats, the robot vacuum, scenes
         if let h = HomeParser.parse(t) { return .home(h) }
 
@@ -219,7 +240,10 @@ enum IntentRouter {
         if let g = Rx.groups(#"^(?:what is |convert |change )?(-?\d+(?:\.\d+)?\s*[a-z°/ ]+?\s+(?:to|in|into)\s+[a-z°/ ]+)$"#, t), UnitConvert.convert(g[0]) != nil {
             return .convert(g[0])
         }
-        if Rx.matches(#"^how many [a-z ]+ (are )?(in|is) \d"#, t), UnitConvert.convert(t) != nil { return .convert(t) }
+        if Rx.matches(#"^how many [a-z0-9 ]+ (are )?(in|is) (\d|a |an |one )"#, t), UnitConvert.convert(t) != nil { return .convert(t) }
+        if let g = Rx.groups(#"^(?:what is |convert |change )?((?:a|an|one) [a-z°/ ]+?\s+(?:to|in|into)\s+[a-z°/ 0-9]+)$"#, t), UnitConvert.convert(g[0]) != nil {
+            return .convert(g[0])
+        }
         if let g = Rx.groups(#"(?:what is|whats)?\s*(\d+|[ivxlcdm]+) (?:in|to|as) roman numerals?"#, t) { return .roman(g[0]) }
         if let g = Rx.groups(#"^(?:what is|whats|convert)?\s*(?:the )?roman numerals? (?:for )?(\d+|[ivxlcdm]+)$"#, t) { return .roman(g[0]) }
         if let g = Rx.groups(#"random number (?:between|from) (-?\d+) (?:and|to) (-?\d+)"#, t), let a = Int(g[0]), let b = Int(g[1]) {

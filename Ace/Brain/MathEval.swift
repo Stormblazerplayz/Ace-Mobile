@@ -267,13 +267,36 @@ enum UnitConvert {
         add(["gb", "gigabyte", "gigabytes"], UnitInformationStorage.gigabytes)
         add(["tb", "terabyte", "terabytes"], UnitInformationStorage.terabytes)
         add(["byte", "bytes"], UnitInformationStorage.bytes)
+        add(["bit", "bits"], UnitInformationStorage.bits)
+        add(["ms", "millisecond", "milliseconds"], UnitDuration.milliseconds)
+        add(["knot", "knots", "kn"], UnitSpeed.knots)
+        add(["nautical mile", "nautical miles", "nmi"], UnitLength.nauticalMiles)
+        add(["light year", "light years", "lightyear", "lightyears", "ly"], UnitLength.lightyears)
+        add(["st", "stone", "stones"], UnitMass.stones)
+        add(["ton", "tons", "short ton", "short tons"], UnitMass.shortTons)
+        add(["tonne", "tonnes", "metric ton", "metric tons"], UnitMass.metricTons)
+        add(["fl oz", "fluid ounce", "fluid ounces"], UnitVolume.fluidOunces)
+        add(["cubic meter", "cubic meters", "cubic metre", "cubic metres", "m3"], UnitVolume.cubicMeters)
+        add(["sq mm", "square millimeter", "square millimeters", "square millimetre", "square millimetres", "mm2"], UnitArea.squareMillimeters)
+        add(["sq cm", "square centimeter", "square centimeters", "square centimetre", "square centimetres", "cm2"], UnitArea.squareCentimeters)
+        add(["sq m", "square meter", "square meters", "square metre", "square metres", "m2"], UnitArea.squareMeters)
+        add(["sq km", "square kilometer", "square kilometers", "square kilometre", "square kilometres", "km2"], UnitArea.squareKilometers)
+        add(["sq in", "square inch", "square inches"], UnitArea.squareInches)
+        add(["sq ft", "square foot", "square feet"], UnitArea.squareFeet)
+        add(["sq yd", "square yard", "square yards"], UnitArea.squareYards)
+        add(["sq mi", "square mile", "square miles"], UnitArea.squareMiles)
+        add(["acre", "acres"], UnitArea.acres)
+        add(["hectare", "hectares", "ha"], UnitArea.hectares)
         return u
     }()
 
     /// "5 km to miles", "how many cups in 2 liters", "100 f in c".
     static func convert(_ text: String) -> String? {
-        let t = TextKit.normalize(text)
-        let unitPattern = #"([a-z°/ ]+?)"#
+        var t = TextKit.normalize(text)
+        // "how many feet in a mile", "a gallon to liters": "a" means 1.
+        t = t.replacingOccurrences(of: #"\b(in|is|are in)\s+(?:a|an|one)\s+"#, with: "$1 1 ", options: .regularExpression)
+        t = t.replacingOccurrences(of: #"^(?:a|an|one)\s+(?=[a-z])"#, with: "1 ", options: .regularExpression)
+        let unitPattern = #"([a-z°/ 0-9]+?)"#
         let patterns = [
             #"(-?\d+(?:\.\d+)?)\s*"# + unitPattern + #"\s+(?:to|in|into|as)\s+"# + unitPattern + #"$"#,
             #"how many\s+"# + unitPattern + #"\s+(?:are\s+)?(?:in|is)\s+(-?\d+(?:\.\d+)?)\s*"# + unitPattern + #"$"#,

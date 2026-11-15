@@ -1,0 +1,2606 @@
+{
+ "format": "ace-trivia/1",
+ "count": 200,
+ "questions": [
+  {
+   "id": "space-001",
+   "category": "Space",
+   "q": "Which planet is known as the Red Planet?",
+   "choices": [
+    "Venus",
+    "Mars",
+    "Mercury",
+    "Jupiter"
+   ],
+   "answer": 1,
+   "fact": "Mars looks red because its dust has a lot of rusty iron in it."
+  },
+  {
+   "id": "space-002",
+   "category": "Space",
+   "q": "What is the largest planet in our solar system?",
+   "choices": [
+    "Neptune",
+    "Earth",
+    "Saturn",
+    "Jupiter"
+   ],
+   "answer": 3,
+   "fact": "Jupiter is so big that more than 1,000 Earths could fit inside it."
+  },
+  {
+   "id": "space-003",
+   "category": "Space",
+   "q": "Which planet is closest to the Sun?",
+   "choices": [
+    "Mercury",
+    "Venus",
+    "Mars",
+    "Earth"
+   ],
+   "answer": 0,
+   "fact": "Mercury is the closest planet to the Sun and also the smallest planet."
+  },
+  {
+   "id": "space-004",
+   "category": "Space",
+   "q": "What do we call a scientist who studies stars and planets?",
+   "choices": [
+    "Geologist",
+    "Astrologer",
+    "Astronomer",
+    "Biologist"
+   ],
+   "answer": 2,
+   "fact": "Astronomers use telescopes and math to learn about stars, planets, and galaxies."
+  },
+  {
+   "id": "space-005",
+   "category": "Space",
+   "q": "Who was the first person to walk on the Moon?",
+   "choices": [
+    "John Glenn",
+    "Neil Armstrong",
+    "Yuri Gagarin",
+    "Buzz Aldrin"
+   ],
+   "answer": 1,
+   "fact": "Neil Armstrong stepped onto the Moon in 1969 during the Apollo 11 mission."
+  },
+  {
+   "id": "space-006",
+   "category": "Space",
+   "q": "Who was the first person to travel into space?",
+   "choices": [
+    "Yuri Gagarin",
+    "Neil Armstrong",
+    "John Glenn",
+    "Alan Shepard"
+   ],
+   "answer": 0,
+   "fact": "Yuri Gagarin of the Soviet Union orbited Earth in 1961."
+  },
+  {
+   "id": "space-007",
+   "category": "Space",
+   "q": "Which planet is famous for its big, bright rings?",
+   "choices": [
+    "Venus",
+    "Mars",
+    "Saturn",
+    "Mercury"
+   ],
+   "answer": 2,
+   "fact": "Saturn's rings are made of countless chunks of ice and rock."
+  },
+  {
+   "id": "space-008",
+   "category": "Space",
+   "q": "What is the name of the galaxy we live in?",
+   "choices": [
+    "Whirlpool",
+    "Sombrero",
+    "Andromeda",
+    "The Milky Way"
+   ],
+   "answer": 3,
+   "fact": "Our solar system is one small part of the Milky Way, a galaxy with billions of stars."
+  },
+  {
+   "id": "space-009",
+   "category": "Space",
+   "q": "Which planet is the hottest in our solar system?",
+   "choices": [
+    "Mercury",
+    "Venus",
+    "Mars",
+    "Jupiter"
+   ],
+   "answer": 1,
+   "fact": "Venus has thick clouds that trap heat, so it is even hotter than Mercury."
+  },
+  {
+   "id": "space-010",
+   "category": "Space",
+   "q": "How long does it take Earth to travel once around the Sun?",
+   "choices": [
+    "About ten years",
+    "About one year",
+    "About one month",
+    "About one day"
+   ],
+   "answer": 1,
+   "fact": "Earth takes about 365 days to orbit the Sun. That trip is what we call a year."
+  },
+  {
+   "id": "space-011",
+   "category": "Space",
+   "q": "What causes day and night on Earth?",
+   "choices": [
+    "The Sun circling Earth",
+    "Earth orbiting the Sun",
+    "The Moon blocking sunlight",
+    "Earth spinning on its axis"
+   ],
+   "answer": 3,
+   "fact": "Earth spins once about every 24 hours. The side facing the Sun has day."
+  },
+  {
+   "id": "space-012",
+   "category": "Space",
+   "q": "What is a shooting star really?",
+   "choices": [
+    "A star falling to Earth",
+    "A planet moving fast",
+    "An exploding star",
+    "A space rock burning up"
+   ],
+   "answer": 3,
+   "fact": "A shooting star is a meteor, a bit of space rock that glows as it burns up in Earth's air."
+  },
+  {
+   "id": "space-013",
+   "category": "Space",
+   "q": "What force keeps the planets moving around the Sun?",
+   "choices": [
+    "Friction",
+    "Wind",
+    "Gravity",
+    "Magnetism"
+   ],
+   "answer": 2,
+   "fact": "The Sun's gravity pulls on the planets and keeps them in their orbits."
+  },
+  {
+   "id": "space-014",
+   "category": "Space",
+   "q": "Which planet spins tipped over on its side?",
+   "choices": [
+    "Uranus",
+    "Mars",
+    "Saturn",
+    "Neptune"
+   ],
+   "answer": 0,
+   "fact": "Uranus is tilted so much that it spins almost on its side as it orbits the Sun."
+  },
+  {
+   "id": "space-015",
+   "category": "Space",
+   "q": "What was the name of the first satellite launched into space in 1957?",
+   "choices": [
+    "Hubble",
+    "Sputnik 1",
+    "Apollo 1",
+    "Voyager 1"
+   ],
+   "answer": 1,
+   "fact": "The Soviet Union launched Sputnik 1 in 1957, which started the space age."
+  },
+  {
+   "id": "space-016",
+   "category": "Space",
+   "q": "Which famous space telescope was launched into orbit in 1990?",
+   "choices": [
+    "Galileo",
+    "Hubble",
+    "Spitzer",
+    "Kepler"
+   ],
+   "answer": 1,
+   "fact": "The Hubble Space Telescope orbits Earth and has taken amazing pictures of faraway galaxies."
+  },
+  {
+   "id": "space-017",
+   "category": "Space",
+   "q": "What does a light-year measure?",
+   "choices": [
+    "Distance",
+    "Brightness",
+    "Weight",
+    "Time"
+   ],
+   "answer": 0,
+   "fact": "A light-year is how far light travels in one year, about 9.5 trillion kilometers."
+  },
+  {
+   "id": "space-018",
+   "category": "Space",
+   "q": "Which planet has a giant storm called the Great Red Spot?",
+   "choices": [
+    "Neptune",
+    "Mars",
+    "Saturn",
+    "Jupiter"
+   ],
+   "answer": 3,
+   "fact": "The Great Red Spot is a huge storm on Jupiter that has been seen for more than 150 years."
+  },
+  {
+   "id": "space-019",
+   "category": "Space",
+   "q": "How many planets are in our solar system?",
+   "choices": [
+    "8",
+    "9",
+    "10",
+    "7"
+   ],
+   "answer": 0,
+   "fact": "There are eight planets. In 2006, Pluto was moved into a group called dwarf planets."
+  },
+  {
+   "id": "space-020",
+   "category": "Space",
+   "q": "Which planet is farthest from the Sun?",
+   "choices": [
+    "Neptune",
+    "Uranus",
+    "Saturn",
+    "Jupiter"
+   ],
+   "answer": 0,
+   "fact": "Neptune is the eighth planet from the Sun. It is cold, windy, and deep blue."
+  },
+  {
+   "id": "animals-001",
+   "category": "Animals",
+   "q": "What is the largest animal on Earth today?",
+   "choices": [
+    "Whale shark",
+    "Giraffe",
+    "African elephant",
+    "Blue whale"
+   ],
+   "answer": 3,
+   "fact": "A blue whale can grow to about 30 meters long, longer than two school buses."
+  },
+  {
+   "id": "animals-002",
+   "category": "Animals",
+   "q": "What is the fastest land animal?",
+   "choices": [
+    "Pronghorn",
+    "Cheetah",
+    "Greyhound",
+    "Lion"
+   ],
+   "answer": 1,
+   "fact": "Cheetahs can run over 100 km per hour, but only for short sprints."
+  },
+  {
+   "id": "animals-003",
+   "category": "Animals",
+   "q": "How many legs does a spider have?",
+   "choices": [
+    "6",
+    "8",
+    "12",
+    "10"
+   ],
+   "answer": 1,
+   "fact": "Spiders have eight legs. Insects have six, so spiders are not insects."
+  },
+  {
+   "id": "animals-004",
+   "category": "Animals",
+   "q": "What is a baby kangaroo called?",
+   "choices": [
+    "Kit",
+    "Cub",
+    "Joey",
+    "Calf"
+   ],
+   "answer": 2,
+   "fact": "A joey is born tiny and keeps growing safely inside its mother's pouch."
+  },
+  {
+   "id": "animals-005",
+   "category": "Animals",
+   "q": "What is a group of lions called?",
+   "choices": [
+    "A flock",
+    "A herd",
+    "A pack",
+    "A pride"
+   ],
+   "answer": 3,
+   "fact": "A pride is a family group of lions that lives and hunts together."
+  },
+  {
+   "id": "animals-006",
+   "category": "Animals",
+   "q": "Which bird is able to fly backward?",
+   "choices": [
+    "Hummingbird",
+    "Sparrow",
+    "Owl",
+    "Eagle"
+   ],
+   "answer": 0,
+   "fact": "Hummingbirds beat their wings so fast they can hover in place and even fly backward."
+  },
+  {
+   "id": "animals-007",
+   "category": "Animals",
+   "q": "What is the tallest animal in the world?",
+   "choices": [
+    "Moose",
+    "Ostrich",
+    "Giraffe",
+    "Elephant"
+   ],
+   "answer": 2,
+   "fact": "Giraffes can be over 5 meters tall, and their long necks help them reach treetop leaves."
+  },
+  {
+   "id": "animals-008",
+   "category": "Animals",
+   "q": "Which mammal can truly fly, not just glide?",
+   "choices": [
+    "Flying squirrel",
+    "Flying lemur",
+    "Sugar glider",
+    "Bat"
+   ],
+   "answer": 3,
+   "fact": "Bats are the only mammals that can really fly. Flying squirrels can only glide."
+  },
+  {
+   "id": "animals-009",
+   "category": "Animals",
+   "q": "How many hearts does an octopus have?",
+   "choices": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "answer": 1,
+   "fact": "An octopus has three hearts, and its blood is blue."
+  },
+  {
+   "id": "animals-010",
+   "category": "Animals",
+   "q": "What does a caterpillar turn into when it grows up?",
+   "choices": [
+    "A beetle",
+    "A butterfly or moth",
+    "A grasshopper",
+    "A dragonfly"
+   ],
+   "answer": 1,
+   "fact": "Inside a chrysalis or cocoon, a caterpillar completely changes its body."
+  },
+  {
+   "id": "animals-011",
+   "category": "Animals",
+   "q": "What is the largest bird in the world?",
+   "choices": [
+    "Ostrich",
+    "Albatross",
+    "Bald eagle",
+    "Emu"
+   ],
+   "answer": 0,
+   "fact": "Ostriches cannot fly, but they run very fast and lay the biggest eggs of any living bird."
+  },
+  {
+   "id": "animals-012",
+   "category": "Animals",
+   "q": "What kind of animal is a Komodo dragon?",
+   "choices": [
+    "A crocodile",
+    "A lizard",
+    "A dinosaur",
+    "A snake"
+   ],
+   "answer": 1,
+   "fact": "The Komodo dragon is the largest living lizard. It lives on a few islands in Indonesia."
+  },
+  {
+   "id": "animals-013",
+   "category": "Animals",
+   "q": "What is a young frog that lives in water and has a tail called?",
+   "choices": [
+    "Tadpole",
+    "Eel",
+    "Guppy",
+    "Minnow"
+   ],
+   "answer": 0,
+   "fact": "Tadpoles breathe with gills, then grow legs and lungs as they turn into frogs."
+  },
+  {
+   "id": "animals-014",
+   "category": "Animals",
+   "q": "What food do giant pandas mostly eat?",
+   "choices": [
+    "Insects",
+    "Fish",
+    "Berries",
+    "Bamboo"
+   ],
+   "answer": 3,
+   "fact": "Giant pandas spend many hours every day munching on bamboo."
+  },
+  {
+   "id": "animals-015",
+   "category": "Animals",
+   "q": "What type of animal is a dolphin?",
+   "choices": [
+    "Mammal",
+    "Fish",
+    "Reptile",
+    "Amphibian"
+   ],
+   "answer": 0,
+   "fact": "Dolphins breathe air through a blowhole and feed their babies milk, like other mammals."
+  },
+  {
+   "id": "animals-016",
+   "category": "Animals",
+   "q": "Which sea animal has no brain, no heart, and no bones?",
+   "choices": [
+    "Shark",
+    "Octopus",
+    "Squid",
+    "Jellyfish"
+   ],
+   "answer": 3,
+   "fact": "Jellyfish have no brain, heart, or bones. Their bodies are mostly water."
+  },
+  {
+   "id": "animals-017",
+   "category": "Animals",
+   "q": "How do honeybees show other bees where to find flowers?",
+   "choices": [
+    "By changing color",
+    "By singing",
+    "By dancing",
+    "By drawing maps"
+   ],
+   "answer": 2,
+   "fact": "Honeybees do a waggle dance that shows other bees which way to go and how far."
+  },
+  {
+   "id": "animals-018",
+   "category": "Animals",
+   "q": "Which animal spends most of its life hanging upside down in trees?",
+   "choices": [
+    "Lemur",
+    "Monkey",
+    "Sloth",
+    "Koala"
+   ],
+   "answer": 2,
+   "fact": "Sloths move so slowly that tiny green algae can grow in their fur."
+  },
+  {
+   "id": "animals-019",
+   "category": "Animals",
+   "q": "What do you call an animal that eats only plants?",
+   "choices": [
+    "Herbivore",
+    "Carnivore",
+    "Predator",
+    "Omnivore"
+   ],
+   "answer": 0,
+   "fact": "Herbivores like cows, deer, and rabbits eat plants. Carnivores eat meat."
+  },
+  {
+   "id": "animals-020",
+   "category": "Animals",
+   "q": "What is the largest fish in the ocean?",
+   "choices": [
+    "Whale shark",
+    "Great white shark",
+    "Manta ray",
+    "Bluefin tuna"
+   ],
+   "answer": 0,
+   "fact": "The whale shark is a gentle giant that eats tiny floating plankton."
+  },
+  {
+   "id": "science-001",
+   "category": "Science",
+   "q": "What is the chemical formula for water?",
+   "choices": [
+    "O2",
+    "NaCl",
+    "H2O",
+    "CO2"
+   ],
+   "answer": 2,
+   "fact": "Each water molecule has two hydrogen atoms and one oxygen atom."
+  },
+  {
+   "id": "science-002",
+   "category": "Science",
+   "q": "Which gas do plants take in from the air to make food?",
+   "choices": [
+    "Carbon dioxide",
+    "Helium",
+    "Oxygen",
+    "Nitrogen"
+   ],
+   "answer": 0,
+   "fact": "Plants take in carbon dioxide and give off oxygen, which we breathe."
+  },
+  {
+   "id": "science-003",
+   "category": "Science",
+   "q": "At what temperature does water freeze on the Celsius scale?",
+   "choices": [
+    "50 degrees",
+    "100 degrees",
+    "0 degrees",
+    "10 degrees"
+   ],
+   "answer": 2,
+   "fact": "Water freezes at 0 degrees Celsius, which is the same as 32 degrees Fahrenheit."
+  },
+  {
+   "id": "science-004",
+   "category": "Science",
+   "q": "What are the three states of matter we see in everyday life?",
+   "choices": [
+    "Metal, wood, plastic",
+    "Solid, liquid, gas",
+    "Rock, water, air",
+    "Hot, warm, cold"
+   ],
+   "answer": 1,
+   "fact": "Ice, water, and steam are the same stuff in three different states."
+  },
+  {
+   "id": "science-005",
+   "category": "Science",
+   "q": "Which scientist came up with the theory of relativity?",
+   "choices": [
+    "Albert Einstein",
+    "Isaac Newton",
+    "Galileo Galilei",
+    "Thomas Edison"
+   ],
+   "answer": 0,
+   "fact": "Albert Einstein's theory of relativity changed how we understand space, time, and gravity."
+  },
+  {
+   "id": "science-006",
+   "category": "Science",
+   "q": "What is the hardest natural material on Earth?",
+   "choices": [
+    "Quartz",
+    "Iron",
+    "Diamond",
+    "Gold"
+   ],
+   "answer": 2,
+   "fact": "Diamonds are made of carbon atoms packed together very tightly."
+  },
+  {
+   "id": "science-007",
+   "category": "Science",
+   "q": "What is the center of an atom called?",
+   "choices": [
+    "Molecule",
+    "Electron",
+    "Nucleus",
+    "Orbit"
+   ],
+   "answer": 2,
+   "fact": "The nucleus holds protons and neutrons, and electrons move around it."
+  },
+  {
+   "id": "science-008",
+   "category": "Science",
+   "q": "What do solar panels use to make electricity?",
+   "choices": [
+    "Wind",
+    "Coal",
+    "Running water",
+    "Sunlight"
+   ],
+   "answer": 3,
+   "fact": "Solar panels turn the energy in sunlight straight into electricity."
+  },
+  {
+   "id": "science-009",
+   "category": "Science",
+   "q": "What color do you get by mixing blue and yellow paint?",
+   "choices": [
+    "Orange",
+    "Brown",
+    "Purple",
+    "Green"
+   ],
+   "answer": 3,
+   "fact": "Blue and yellow are primary colors in paint, and together they make green."
+  },
+  {
+   "id": "science-010",
+   "category": "Science",
+   "q": "Which of these materials does a magnet pull on?",
+   "choices": [
+    "Glass",
+    "Wood",
+    "Plastic",
+    "Iron"
+   ],
+   "answer": 3,
+   "fact": "Magnets attract iron and a few other metals, like nickel and cobalt."
+  },
+  {
+   "id": "science-011",
+   "category": "Science",
+   "q": "Which gas makes up most of the air we breathe?",
+   "choices": [
+    "Oxygen",
+    "Hydrogen",
+    "Nitrogen",
+    "Carbon dioxide"
+   ],
+   "answer": 2,
+   "fact": "About 78 percent of air is nitrogen. Only about 21 percent is oxygen."
+  },
+  {
+   "id": "science-012",
+   "category": "Science",
+   "q": "What is the process plants use to make food from sunlight?",
+   "choices": [
+    "Digestion",
+    "Photosynthesis",
+    "Respiration",
+    "Evaporation"
+   ],
+   "answer": 1,
+   "fact": "In photosynthesis, plants use sunlight, water, and carbon dioxide to make sugar."
+  },
+  {
+   "id": "science-013",
+   "category": "Science",
+   "q": "Which element has the chemical symbol Au?",
+   "choices": [
+    "Aluminum",
+    "Silver",
+    "Gold",
+    "Argon"
+   ],
+   "answer": 2,
+   "fact": "Au comes from aurum, the Latin word for gold."
+  },
+  {
+   "id": "science-014",
+   "category": "Science",
+   "q": "Which of these travels the fastest?",
+   "choices": [
+    "Light",
+    "A jet plane",
+    "Sound",
+    "A bullet"
+   ],
+   "answer": 0,
+   "fact": "Light is so much faster than sound that you see lightning before you hear thunder."
+  },
+  {
+   "id": "science-015",
+   "category": "Science",
+   "q": "Which scientist wrote the three laws of motion?",
+   "choices": [
+    "Charles Darwin",
+    "Galileo Galilei",
+    "Marie Curie",
+    "Isaac Newton"
+   ],
+   "answer": 3,
+   "fact": "Isaac Newton described how forces make things move, stop, and change direction."
+  },
+  {
+   "id": "science-016",
+   "category": "Science",
+   "q": "Which scientist won Nobel Prizes in both physics and chemistry?",
+   "choices": [
+    "Rosalind Franklin",
+    "Marie Curie",
+    "Albert Einstein",
+    "Niels Bohr"
+   ],
+   "answer": 1,
+   "fact": "Marie Curie studied radioactivity and was the first person to win two Nobel Prizes."
+  },
+  {
+   "id": "science-017",
+   "category": "Science",
+   "q": "What do we call a substance made of only one kind of atom?",
+   "choices": [
+    "Compound",
+    "Solution",
+    "Element",
+    "Mixture"
+   ],
+   "answer": 2,
+   "fact": "Elements like gold, oxygen, and carbon are listed on the periodic table."
+  },
+  {
+   "id": "science-018",
+   "category": "Science",
+   "q": "What is the pH of pure water?",
+   "choices": [
+    "14",
+    "7",
+    "0",
+    "1"
+   ],
+   "answer": 1,
+   "fact": "A pH of 7 is neutral. Lower numbers are acids and higher numbers are bases."
+  },
+  {
+   "id": "science-019",
+   "category": "Science",
+   "q": "What is it called when liquid water turns into vapor?",
+   "choices": [
+    "Melting",
+    "Evaporation",
+    "Freezing",
+    "Condensation"
+   ],
+   "answer": 1,
+   "fact": "Puddles dry up after rain because the water evaporates into the air."
+  },
+  {
+   "id": "science-020",
+   "category": "Science",
+   "q": "Why can't sound travel through outer space?",
+   "choices": [
+    "Gravity stops it",
+    "It is too dark",
+    "It is too cold",
+    "There is no air to carry it"
+   ],
+   "answer": 3,
+   "fact": "Sound needs air, water, or something solid to travel through. Space is almost empty."
+  },
+  {
+   "id": "earth-001",
+   "category": "Earth",
+   "q": "What is the largest ocean on Earth?",
+   "choices": [
+    "Indian Ocean",
+    "Atlantic Ocean",
+    "Pacific Ocean",
+    "Arctic Ocean"
+   ],
+   "answer": 2,
+   "fact": "The Pacific Ocean is so big that all of Earth's land could fit inside it."
+  },
+  {
+   "id": "earth-002",
+   "category": "Earth",
+   "q": "What is the outermost layer of Earth called?",
+   "choices": [
+    "Magma",
+    "Mantle",
+    "Crust",
+    "Core"
+   ],
+   "answer": 2,
+   "fact": "The crust is the thin, rocky layer we live on. It is thinnest under the oceans."
+  },
+  {
+   "id": "earth-003",
+   "category": "Earth",
+   "q": "What is Earth's inner core mostly made of?",
+   "choices": [
+    "Iron and nickel",
+    "Hot gas",
+    "Water",
+    "Melted rock"
+   ],
+   "answer": 0,
+   "fact": "Earth's inner core is a very hot, solid ball made mostly of iron and nickel."
+  },
+  {
+   "id": "earth-004",
+   "category": "Earth",
+   "q": "What is melted rock called while it is still underground?",
+   "choices": [
+    "Ash",
+    "Basalt",
+    "Lava",
+    "Magma"
+   ],
+   "answer": 3,
+   "fact": "Melted rock is called magma underground and lava once it comes out of a volcano."
+  },
+  {
+   "id": "earth-005",
+   "category": "Earth",
+   "q": "What instrument records the shaking from earthquakes?",
+   "choices": [
+    "Thermometer",
+    "Anemometer",
+    "Seismometer",
+    "Barometer"
+   ],
+   "answer": 2,
+   "fact": "A seismometer measures how the ground moves during an earthquake."
+  },
+  {
+   "id": "earth-006",
+   "category": "Earth",
+   "q": "Which type of rock forms when lava or magma cools and hardens?",
+   "choices": [
+    "Sedimentary",
+    "Limestone",
+    "Igneous",
+    "Metamorphic"
+   ],
+   "answer": 2,
+   "fact": "Igneous rocks, like granite and basalt, form from melted rock that cooled."
+  },
+  {
+   "id": "earth-007",
+   "category": "Earth",
+   "q": "Which layer high in the sky blocks a lot of the Sun's harmful rays?",
+   "choices": [
+    "Helium layer",
+    "Smoke layer",
+    "Steam layer",
+    "Ozone layer"
+   ],
+   "answer": 3,
+   "fact": "The ozone layer soaks up much of the Sun's ultraviolet light, which can burn skin."
+  },
+  {
+   "id": "earth-008",
+   "category": "Earth",
+   "q": "What are the giant moving pieces of Earth's crust called?",
+   "choices": [
+    "Fault lines",
+    "Tectonic plates",
+    "Volcanic belts",
+    "Ocean ridges"
+   ],
+   "answer": 1,
+   "fact": "Earth's crust is broken into plates that slowly move a few centimeters each year."
+  },
+  {
+   "id": "earth-009",
+   "category": "Earth",
+   "q": "What was the name of the supercontinent that formed millions of years ago?",
+   "choices": [
+    "Pangaea",
+    "Atlantis",
+    "Avalon",
+    "Lemuria"
+   ],
+   "answer": 0,
+   "fact": "About 300 million years ago, most of Earth's land was joined together as Pangaea."
+  },
+  {
+   "id": "earth-010",
+   "category": "Earth",
+   "q": "In the water cycle, what is rain or snow falling from clouds called?",
+   "choices": [
+    "Precipitation",
+    "Condensation",
+    "Collection",
+    "Evaporation"
+   ],
+   "answer": 0,
+   "fact": "Precipitation is any water that falls from clouds, like rain, snow, sleet, or hail."
+  },
+  {
+   "id": "earth-011",
+   "category": "Earth",
+   "q": "Which tall cloud type often brings thunderstorms?",
+   "choices": [
+    "Stratus",
+    "Cirrus",
+    "Cumulonimbus",
+    "Altocumulus"
+   ],
+   "answer": 2,
+   "fact": "Cumulonimbus clouds can tower many kilometers high and bring lightning and heavy rain."
+  },
+  {
+   "id": "earth-012",
+   "category": "Earth",
+   "q": "What do we call a scientist who studies rocks and the Earth?",
+   "choices": [
+    "Geologist",
+    "Zoologist",
+    "Botanist",
+    "Biologist"
+   ],
+   "answer": 0,
+   "fact": "Geologists study rocks, volcanoes, and earthquakes to learn Earth's history."
+  },
+  {
+   "id": "earth-013",
+   "category": "Earth",
+   "q": "What is a huge, slow-moving river of ice called?",
+   "choices": [
+    "Tundra",
+    "Iceberg",
+    "Avalanche",
+    "Glacier"
+   ],
+   "answer": 3,
+   "fact": "Glaciers form when snow piles up for many years and gets squeezed into ice."
+  },
+  {
+   "id": "earth-014",
+   "category": "Earth",
+   "q": "What mainly causes the ocean tides?",
+   "choices": [
+    "Earth's magnetic field",
+    "The Moon's gravity",
+    "Underwater volcanoes",
+    "Wind blowing on water"
+   ],
+   "answer": 1,
+   "fact": "The Moon's gravity pulls on the oceans, making the water rise and fall. The Sun helps a little too."
+  },
+  {
+   "id": "earth-015",
+   "category": "Earth",
+   "q": "What do we call a spot where hot water and steam shoot out of the ground?",
+   "choices": [
+    "Geyser",
+    "Crater",
+    "Volcano",
+    "Waterfall"
+   ],
+   "answer": 0,
+   "fact": "Old Faithful in Yellowstone National Park is one of the most famous geysers."
+  },
+  {
+   "id": "earth-016",
+   "category": "Earth",
+   "q": "Which layer of the atmosphere do we live in?",
+   "choices": [
+    "Mesosphere",
+    "Stratosphere",
+    "Troposphere",
+    "Thermosphere"
+   ],
+   "answer": 2,
+   "fact": "The troposphere is the lowest layer of air, and almost all weather happens there."
+  },
+  {
+   "id": "earth-017",
+   "category": "Earth",
+   "q": "What do we call the remains of ancient living things preserved in rock?",
+   "choices": [
+    "Geodes",
+    "Fossils",
+    "Minerals",
+    "Crystals"
+   ],
+   "answer": 1,
+   "fact": "Fossils of bones, shells, and footprints help scientists learn about life long ago."
+  },
+  {
+   "id": "earth-018",
+   "category": "Earth",
+   "q": "Which is the coldest continent on Earth?",
+   "choices": [
+    "North America",
+    "Europe",
+    "Asia",
+    "Antarctica"
+   ],
+   "answer": 3,
+   "fact": "Antarctica is covered by a huge sheet of ice and is the coldest place on Earth."
+  },
+  {
+   "id": "earth-019",
+   "category": "Earth",
+   "q": "What is a hurricane called in the western Pacific Ocean?",
+   "choices": [
+    "Blizzard",
+    "Monsoon",
+    "Typhoon",
+    "Tornado"
+   ],
+   "answer": 2,
+   "fact": "Hurricanes, typhoons, and cyclones are the same kind of storm with different names by region."
+  },
+  {
+   "id": "earth-020",
+   "category": "Earth",
+   "q": "Which two things are needed to make a rainbow?",
+   "choices": [
+    "Wind and clouds",
+    "Sunlight and raindrops",
+    "Moonlight and snow",
+    "Thunder and rain"
+   ],
+   "answer": 1,
+   "fact": "Raindrops bend sunlight and split it into its colors, making a rainbow."
+  },
+  {
+   "id": "human-body-001",
+   "category": "Human Body",
+   "q": "What is the largest organ of the human body?",
+   "choices": [
+    "Liver",
+    "Heart",
+    "Brain",
+    "Skin"
+   ],
+   "answer": 3,
+   "fact": "Your skin covers your whole body and protects you from germs, heat, and cold."
+  },
+  {
+   "id": "human-body-002",
+   "category": "Human Body",
+   "q": "How many bones does an adult human have?",
+   "choices": [
+    "256",
+    "206",
+    "312",
+    "106"
+   ],
+   "answer": 1,
+   "fact": "Babies are born with more bones, but some of them join together as they grow."
+  },
+  {
+   "id": "human-body-003",
+   "category": "Human Body",
+   "q": "Which organ pumps blood around your body?",
+   "choices": [
+    "Liver",
+    "Kidneys",
+    "Heart",
+    "Lungs"
+   ],
+   "answer": 2,
+   "fact": "Your heart is a strong muscle that beats about 100,000 times a day."
+  },
+  {
+   "id": "human-body-004",
+   "category": "Human Body",
+   "q": "Where in your body is the smallest bone found?",
+   "choices": [
+    "In the finger",
+    "In the nose",
+    "In the ear",
+    "In the toe"
+   ],
+   "answer": 2,
+   "fact": "The stapes, a tiny bone in your middle ear, is about the size of a grain of rice."
+  },
+  {
+   "id": "human-body-005",
+   "category": "Human Body",
+   "q": "What is the longest bone in the human body?",
+   "choices": [
+    "Collarbone",
+    "Shin bone",
+    "Upper arm bone",
+    "Thigh bone"
+   ],
+   "answer": 3,
+   "fact": "The thigh bone, called the femur, is the longest and strongest bone in your body."
+  },
+  {
+   "id": "human-body-006",
+   "category": "Human Body",
+   "q": "Which gas do your lungs take from the air for your body to use?",
+   "choices": [
+    "Helium",
+    "Hydrogen",
+    "Oxygen",
+    "Carbon dioxide"
+   ],
+   "answer": 2,
+   "fact": "Your blood carries oxygen from your lungs to every part of your body."
+  },
+  {
+   "id": "human-body-007",
+   "category": "Human Body",
+   "q": "Which blood cells help fight germs?",
+   "choices": [
+    "Red blood cells",
+    "Platelets",
+    "Plasma",
+    "White blood cells"
+   ],
+   "answer": 3,
+   "fact": "White blood cells find and attack germs to help keep you from getting sick."
+  },
+  {
+   "id": "human-body-008",
+   "category": "Human Body",
+   "q": "What is the colored part of your eye called?",
+   "choices": [
+    "Cornea",
+    "Pupil",
+    "Iris",
+    "Retina"
+   ],
+   "answer": 2,
+   "fact": "The iris is a ring of muscle that makes the pupil bigger or smaller to control light."
+  },
+  {
+   "id": "human-body-009",
+   "category": "Human Body",
+   "q": "How many baby teeth do most kids have?",
+   "choices": [
+    "12",
+    "28",
+    "32",
+    "20"
+   ],
+   "answer": 3,
+   "fact": "Most kids have 20 baby teeth, which are later replaced by adult teeth."
+  },
+  {
+   "id": "human-body-010",
+   "category": "Human Body",
+   "q": "Which organs clean your blood and make urine?",
+   "choices": [
+    "Liver",
+    "Kidneys",
+    "Stomach",
+    "Lungs"
+   ],
+   "answer": 1,
+   "fact": "You have two kidneys, and they filter waste out of your blood all day long."
+  },
+  {
+   "id": "human-body-011",
+   "category": "Human Body",
+   "q": "Which tube carries food from your mouth to your stomach?",
+   "choices": [
+    "Intestine",
+    "Esophagus",
+    "Windpipe",
+    "Artery"
+   ],
+   "answer": 1,
+   "fact": "Muscles in the esophagus squeeze food down to your stomach, even if you are upside down."
+  },
+  {
+   "id": "human-body-012",
+   "category": "Human Body",
+   "q": "Which vitamin does your skin make when sunlight hits it?",
+   "choices": [
+    "Vitamin A",
+    "Vitamin B12",
+    "Vitamin C",
+    "Vitamin D"
+   ],
+   "answer": 3,
+   "fact": "Vitamin D helps your body use calcium to build strong bones."
+  },
+  {
+   "id": "human-body-013",
+   "category": "Human Body",
+   "q": "Which blood vessels carry blood away from the heart?",
+   "choices": [
+    "Veins",
+    "Nerves",
+    "Arteries",
+    "Tendons"
+   ],
+   "answer": 2,
+   "fact": "Arteries carry blood away from the heart, and veins bring it back."
+  },
+  {
+   "id": "human-body-014",
+   "category": "Human Body",
+   "q": "What connects your muscles to your bones?",
+   "choices": [
+    "Nerves",
+    "Cartilage",
+    "Ligaments",
+    "Tendons"
+   ],
+   "answer": 3,
+   "fact": "Tendons attach muscles to bones, while ligaments connect bones to other bones."
+  },
+  {
+   "id": "human-body-015",
+   "category": "Human Body",
+   "q": "What is the hard white outer layer of your teeth called?",
+   "choices": [
+    "Plaque",
+    "Gums",
+    "Enamel",
+    "Dentin"
+   ],
+   "answer": 2,
+   "fact": "Tooth enamel is the hardest substance in the human body."
+  },
+  {
+   "id": "human-body-016",
+   "category": "Human Body",
+   "q": "Which bones protect your brain?",
+   "choices": [
+    "The pelvis",
+    "The ribs",
+    "The spine",
+    "The skull"
+   ],
+   "answer": 3,
+   "fact": "Your skull is made of several bones joined tightly together to guard your brain."
+  },
+  {
+   "id": "human-body-017",
+   "category": "Human Body",
+   "q": "How many chambers does the human heart have?",
+   "choices": [
+    "4",
+    "2",
+    "3",
+    "6"
+   ],
+   "answer": 0,
+   "fact": "The heart has two upper chambers called atria and two lower chambers called ventricles."
+  },
+  {
+   "id": "human-body-018",
+   "category": "Human Body",
+   "q": "Which body system includes your brain, spinal cord, and nerves?",
+   "choices": [
+    "Nervous system",
+    "Skeletal system",
+    "Circulatory system",
+    "Digestive system"
+   ],
+   "answer": 0,
+   "fact": "Your nervous system sends messages between your brain and the rest of your body."
+  },
+  {
+   "id": "human-body-019",
+   "category": "Human Body",
+   "q": "Where does most digestion of food happen?",
+   "choices": [
+    "Mouth",
+    "Large intestine",
+    "Stomach",
+    "Small intestine"
+   ],
+   "answer": 3,
+   "fact": "Most food is broken down and soaked into your blood in the small intestine."
+  },
+  {
+   "id": "human-body-020",
+   "category": "Human Body",
+   "q": "Which protein in red blood cells carries oxygen?",
+   "choices": [
+    "Hemoglobin",
+    "Collagen",
+    "Insulin",
+    "Keratin"
+   ],
+   "answer": 0,
+   "fact": "Hemoglobin contains iron, and it is what makes blood red."
+  },
+  {
+   "id": "history-001",
+   "category": "History",
+   "q": "Which ancient people built the pyramids of Giza?",
+   "choices": [
+    "The Maya",
+    "Ancient Romans",
+    "Ancient Greeks",
+    "Ancient Egyptians"
+   ],
+   "answer": 3,
+   "fact": "The Great Pyramid of Giza was built more than 4,000 years ago as a tomb for a pharaoh."
+  },
+  {
+   "id": "history-002",
+   "category": "History",
+   "q": "Who was the first President of the United States?",
+   "choices": [
+    "John Adams",
+    "George Washington",
+    "Abraham Lincoln",
+    "Thomas Jefferson"
+   ],
+   "answer": 1,
+   "fact": "George Washington became the first president in 1789."
+  },
+  {
+   "id": "history-003",
+   "category": "History",
+   "q": "In what year did Christopher Columbus first reach the Americas?",
+   "choices": [
+    "1776",
+    "1066",
+    "1620",
+    "1492"
+   ],
+   "answer": 3,
+   "fact": "Columbus sailed from Spain in 1492 with three ships."
+  },
+  {
+   "id": "history-004",
+   "category": "History",
+   "q": "Which famous ship sank in 1912 after hitting an iceberg?",
+   "choices": [
+    "Mayflower",
+    "Lusitania",
+    "Santa Maria",
+    "Titanic"
+   ],
+   "answer": 3,
+   "fact": "The Titanic sank on its very first voyage, across the Atlantic Ocean."
+  },
+  {
+   "id": "history-005",
+   "category": "History",
+   "q": "Who was the main writer of the Declaration of Independence?",
+   "choices": [
+    "George Washington",
+    "Benjamin Franklin",
+    "John Adams",
+    "Thomas Jefferson"
+   ],
+   "answer": 3,
+   "fact": "Thomas Jefferson wrote most of the Declaration, which was adopted in 1776."
+  },
+  {
+   "id": "history-006",
+   "category": "History",
+   "q": "What is the name of the long wall built across northern China?",
+   "choices": [
+    "Hadrian's Wall",
+    "The Great Wall",
+    "The Berlin Wall",
+    "The Western Wall"
+   ],
+   "answer": 1,
+   "fact": "The Great Wall was built and rebuilt over many centuries to protect China from invaders."
+  },
+  {
+   "id": "history-007",
+   "category": "History",
+   "q": "In what year did World War II end?",
+   "choices": [
+    "1950",
+    "1918",
+    "1945",
+    "1939"
+   ],
+   "answer": 2,
+   "fact": "World War II lasted from 1939 to 1945 and involved countries all over the world."
+  },
+  {
+   "id": "history-008",
+   "category": "History",
+   "q": "Which famous queen of Egypt was allied with Julius Caesar and Mark Antony?",
+   "choices": [
+    "Nefertiti",
+    "Cleopatra",
+    "Elizabeth I",
+    "Hatshepsut"
+   ],
+   "answer": 1,
+   "fact": "Cleopatra ruled until 30 BC. After her death, Egypt became part of the Roman Empire."
+  },
+  {
+   "id": "history-009",
+   "category": "History",
+   "q": "Which Roman city was buried when Mount Vesuvius erupted in AD 79?",
+   "choices": [
+    "Sparta",
+    "Pompeii",
+    "Venice",
+    "Athens"
+   ],
+   "answer": 1,
+   "fact": "Ash from the volcano buried Pompeii, and it stayed hidden for over 1,500 years."
+  },
+  {
+   "id": "history-010",
+   "category": "History",
+   "q": "Who built a printing press with movable type in Europe around 1440?",
+   "choices": [
+    "Isaac Newton",
+    "Johannes Gutenberg",
+    "Galileo Galilei",
+    "Leonardo da Vinci"
+   ],
+   "answer": 1,
+   "fact": "Gutenberg's press made books much faster and cheaper to produce."
+  },
+  {
+   "id": "history-011",
+   "category": "History",
+   "q": "In what year did the Berlin Wall fall?",
+   "choices": [
+    "1975",
+    "1989",
+    "1961",
+    "2001"
+   ],
+   "answer": 1,
+   "fact": "The wall split Berlin from 1961 to 1989. Germany was reunited in 1990."
+  },
+  {
+   "id": "history-012",
+   "category": "History",
+   "q": "Who gave the famous \"I Have a Dream\" speech in 1963?",
+   "choices": [
+    "Rosa Parks",
+    "Frederick Douglass",
+    "Malcolm X",
+    "Martin Luther King Jr."
+   ],
+   "answer": 3,
+   "fact": "Martin Luther King Jr. gave the speech in Washington, D.C., calling for equal rights."
+  },
+  {
+   "id": "history-013",
+   "category": "History",
+   "q": "Whose expedition was the first to sail all the way around the world?",
+   "choices": [
+    "Marco Polo",
+    "Ferdinand Magellan",
+    "Vasco da Gama",
+    "Christopher Columbus"
+   ],
+   "answer": 1,
+   "fact": "Magellan died during the voyage, but his crew finished the trip around the world in 1522."
+  },
+  {
+   "id": "history-014",
+   "category": "History",
+   "q": "In which country did the ancient Olympic Games begin?",
+   "choices": [
+    "Italy",
+    "China",
+    "Greece",
+    "Egypt"
+   ],
+   "answer": 2,
+   "fact": "The ancient Olympic Games were held at Olympia, Greece, in honor of the god Zeus."
+  },
+  {
+   "id": "history-015",
+   "category": "History",
+   "q": "Who was the first woman to fly solo across the Atlantic Ocean?",
+   "choices": [
+    "Sally Ride",
+    "Amelia Earhart",
+    "Bessie Coleman",
+    "Harriet Quimby"
+   ],
+   "answer": 1,
+   "fact": "Amelia Earhart flew alone across the Atlantic in 1932."
+  },
+  {
+   "id": "history-016",
+   "category": "History",
+   "q": "Which brothers made the first powered airplane flight in 1903?",
+   "choices": [
+    "The Wright brothers",
+    "The Marx brothers",
+    "The Grimm brothers",
+    "The Lumiere brothers"
+   ],
+   "answer": 0,
+   "fact": "Orville and Wilbur Wright flew their plane at Kitty Hawk, North Carolina."
+  },
+  {
+   "id": "history-017",
+   "category": "History",
+   "q": "What did the ancient Romans build to carry water into their cities?",
+   "choices": [
+    "Pipelines",
+    "Dams",
+    "Canals",
+    "Aqueducts"
+   ],
+   "answer": 3,
+   "fact": "Roman aqueducts used gentle slopes so gravity could carry water many kilometers."
+  },
+  {
+   "id": "history-018",
+   "category": "History",
+   "q": "Which document, signed in 1215, limited the power of the English king?",
+   "choices": [
+    "Magna Carta",
+    "Domesday Book",
+    "Bill of Rights",
+    "Constitution"
+   ],
+   "answer": 0,
+   "fact": "King John agreed to the Magna Carta, which said even the king had to follow the law."
+  },
+  {
+   "id": "history-019",
+   "category": "History",
+   "q": "What were the skilled warriors of old Japan called?",
+   "choices": [
+    "Vikings",
+    "Samurai",
+    "Spartans",
+    "Knights"
+   ],
+   "answer": 1,
+   "fact": "Samurai were Japanese warriors who followed a strict code of honor."
+  },
+  {
+   "id": "history-020",
+   "category": "History",
+   "q": "Which Italian artist painted the Mona Lisa?",
+   "choices": [
+    "Michelangelo",
+    "Donatello",
+    "Leonardo da Vinci",
+    "Raphael"
+   ],
+   "answer": 2,
+   "fact": "Leonardo da Vinci was also an inventor who sketched ideas for flying machines."
+  },
+  {
+   "id": "geography-001",
+   "category": "Geography",
+   "q": "What is the largest continent by area?",
+   "choices": [
+    "Africa",
+    "Asia",
+    "North America",
+    "Europe"
+   ],
+   "answer": 1,
+   "fact": "Asia is the biggest continent and covers about a third of Earth's land."
+  },
+  {
+   "id": "geography-002",
+   "category": "Geography",
+   "q": "What is the capital city of France?",
+   "choices": [
+    "Nice",
+    "Lyon",
+    "Paris",
+    "Marseille"
+   ],
+   "answer": 2,
+   "fact": "Paris is home to the Eiffel Tower, which was finished in 1889."
+  },
+  {
+   "id": "geography-003",
+   "category": "Geography",
+   "q": "Which country is home to the Great Barrier Reef?",
+   "choices": [
+    "Mexico",
+    "Australia",
+    "Philippines",
+    "Brazil"
+   ],
+   "answer": 1,
+   "fact": "The Great Barrier Reef is the world's largest coral reef system, off northeast Australia."
+  },
+  {
+   "id": "geography-004",
+   "category": "Geography",
+   "q": "What is the capital city of Japan?",
+   "choices": [
+    "Tokyo",
+    "Seoul",
+    "Osaka",
+    "Kyoto"
+   ],
+   "answer": 0,
+   "fact": "Tokyo is Japan's capital. Seoul is the capital of South Korea."
+  },
+  {
+   "id": "geography-005",
+   "category": "Geography",
+   "q": "What is the tallest mountain above sea level?",
+   "choices": [
+    "Mount Everest",
+    "Mont Blanc",
+    "Kilimanjaro",
+    "K2"
+   ],
+   "answer": 0,
+   "fact": "Mount Everest is in the Himalayas, on the border of Nepal and China."
+  },
+  {
+   "id": "geography-006",
+   "category": "Geography",
+   "q": "What is the largest hot desert in the world?",
+   "choices": [
+    "Gobi",
+    "Kalahari",
+    "Mojave",
+    "Sahara"
+   ],
+   "answer": 3,
+   "fact": "The Sahara covers much of North Africa and is about as big as the United States."
+  },
+  {
+   "id": "geography-007",
+   "category": "Geography",
+   "q": "Which country is shaped like a boot?",
+   "choices": [
+    "Italy",
+    "Portugal",
+    "Greece",
+    "Spain"
+   ],
+   "answer": 0,
+   "fact": "Italy sticks out into the Mediterranean Sea in the shape of a tall boot."
+  },
+  {
+   "id": "geography-008",
+   "category": "Geography",
+   "q": "What is the capital city of Canada?",
+   "choices": [
+    "Montreal",
+    "Vancouver",
+    "Toronto",
+    "Ottawa"
+   ],
+   "answer": 3,
+   "fact": "Many people guess Toronto, but Ottawa is Canada's capital."
+  },
+  {
+   "id": "geography-009",
+   "category": "Geography",
+   "q": "Which river flows through London?",
+   "choices": [
+    "Danube",
+    "Thames",
+    "Seine",
+    "Rhine"
+   ],
+   "answer": 1,
+   "fact": "The River Thames runs through the middle of London. The Seine flows through Paris."
+  },
+  {
+   "id": "geography-010",
+   "category": "Geography",
+   "q": "What is the smallest country in the world?",
+   "choices": [
+    "Monaco",
+    "Liechtenstein",
+    "Vatican City",
+    "San Marino"
+   ],
+   "answer": 2,
+   "fact": "Vatican City is a tiny country inside the city of Rome, Italy."
+  },
+  {
+   "id": "geography-011",
+   "category": "Geography",
+   "q": "What is the capital city of Australia?",
+   "choices": [
+    "Sydney",
+    "Perth",
+    "Canberra",
+    "Melbourne"
+   ],
+   "answer": 2,
+   "fact": "Sydney is the biggest city, but Canberra was chosen to be Australia's capital."
+  },
+  {
+   "id": "geography-012",
+   "category": "Geography",
+   "q": "Which ocean lies between Africa and Australia?",
+   "choices": [
+    "Atlantic Ocean",
+    "Pacific Ocean",
+    "Indian Ocean",
+    "Arctic Ocean"
+   ],
+   "answer": 2,
+   "fact": "The Indian Ocean is the third largest ocean on Earth."
+  },
+  {
+   "id": "geography-013",
+   "category": "Geography",
+   "q": "What is the imaginary line around the middle of Earth called?",
+   "choices": [
+    "Tropic of Cancer",
+    "Arctic Circle",
+    "Prime Meridian",
+    "Equator"
+   ],
+   "answer": 3,
+   "fact": "The equator divides Earth into the Northern and Southern Hemispheres."
+  },
+  {
+   "id": "geography-014",
+   "category": "Geography",
+   "q": "Which mountain range runs down the west side of South America?",
+   "choices": [
+    "Himalayas",
+    "Andes",
+    "Rockies",
+    "Alps"
+   ],
+   "answer": 1,
+   "fact": "The Andes are the longest mountain range on land in the world."
+  },
+  {
+   "id": "geography-015",
+   "category": "Geography",
+   "q": "What is the capital city of Egypt?",
+   "choices": [
+    "Cairo",
+    "Alexandria",
+    "Casablanca",
+    "Nairobi"
+   ],
+   "answer": 0,
+   "fact": "Cairo sits beside the Nile River, not far from the pyramids of Giza."
+  },
+  {
+   "id": "geography-016",
+   "category": "Geography",
+   "q": "In which city is the Statue of Liberty?",
+   "choices": [
+    "Boston",
+    "New York City",
+    "Washington, D.C.",
+    "Philadelphia"
+   ],
+   "answer": 1,
+   "fact": "France gave the Statue of Liberty to the United States, and it was dedicated in 1886."
+  },
+  {
+   "id": "geography-017",
+   "category": "Geography",
+   "q": "In which country is the ancient city of Machu Picchu?",
+   "choices": [
+    "Peru",
+    "Chile",
+    "Bolivia",
+    "Mexico"
+   ],
+   "answer": 0,
+   "fact": "Machu Picchu is an Inca city built high in the mountains of Peru."
+  },
+  {
+   "id": "geography-018",
+   "category": "Geography",
+   "q": "Which is the largest country in the world by area?",
+   "choices": [
+    "Canada",
+    "United States",
+    "China",
+    "Russia"
+   ],
+   "answer": 3,
+   "fact": "Russia is so wide that it stretches across two continents, Europe and Asia."
+  },
+  {
+   "id": "geography-019",
+   "category": "Geography",
+   "q": "What is the capital city of Brazil?",
+   "choices": [
+    "Brasilia",
+    "Sao Paulo",
+    "Buenos Aires",
+    "Rio de Janeiro"
+   ],
+   "answer": 0,
+   "fact": "Brasilia was built from scratch and became Brazil's capital in 1960."
+  },
+  {
+   "id": "geography-020",
+   "category": "Geography",
+   "q": "Which body of water is so salty that people float easily in it?",
+   "choices": [
+    "Dead Sea",
+    "Black Sea",
+    "Caspian Sea",
+    "Red Sea"
+   ],
+   "answer": 0,
+   "fact": "The Dead Sea is so salty that fish cannot live in it, but swimmers bob like corks."
+  },
+  {
+   "id": "sports-001",
+   "category": "Sports",
+   "q": "How many players does a soccer team have on the field at once?",
+   "choices": [
+    "11",
+    "10",
+    "9",
+    "12"
+   ],
+   "answer": 0,
+   "fact": "Each soccer team has 11 players on the field, including the goalkeeper."
+  },
+  {
+   "id": "sports-002",
+   "category": "Sports",
+   "q": "In which sport can a player score with a slam dunk?",
+   "choices": [
+    "Tennis",
+    "Volleyball",
+    "Baseball",
+    "Basketball"
+   ],
+   "answer": 3,
+   "fact": "A slam dunk is when a player jumps up and pushes the ball down through the hoop."
+  },
+  {
+   "id": "sports-003",
+   "category": "Sports",
+   "q": "How many points is a touchdown worth in American football?",
+   "choices": [
+    "2",
+    "6",
+    "7",
+    "3"
+   ],
+   "answer": 1,
+   "fact": "A touchdown is worth 6 points, and the team can then try for 1 or 2 extra points."
+  },
+  {
+   "id": "sports-004",
+   "category": "Sports",
+   "q": "In tennis, what is a score of zero called?",
+   "choices": [
+    "Love",
+    "Duck",
+    "Blank",
+    "Nil"
+   ],
+   "answer": 0,
+   "fact": "In tennis, love means zero, so a score of 15 to 0 is called fifteen love."
+  },
+  {
+   "id": "sports-005",
+   "category": "Sports",
+   "q": "How often are the Summer Olympic Games usually held?",
+   "choices": [
+    "Every year",
+    "Every two years",
+    "Every four years",
+    "Every five years"
+   ],
+   "answer": 2,
+   "fact": "The Summer and Winter Olympics each happen every four years, two years apart."
+  },
+  {
+   "id": "sports-006",
+   "category": "Sports",
+   "q": "How many rings are on the Olympic flag?",
+   "choices": [
+    "7",
+    "5",
+    "6",
+    "4"
+   ],
+   "answer": 1,
+   "fact": "The five linked rings stand for the parts of the world coming together at the Games."
+  },
+  {
+   "id": "sports-007",
+   "category": "Sports",
+   "q": "In baseball, how many strikes does it take to strike out?",
+   "choices": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "fact": "Three strikes and the batter is out. Four balls let the batter walk to first base."
+  },
+  {
+   "id": "sports-008",
+   "category": "Sports",
+   "q": "How many holes are in a standard round of golf?",
+   "choices": [
+    "18",
+    "12",
+    "9",
+    "24"
+   ],
+   "answer": 0,
+   "fact": "Golfers try to finish all 18 holes using as few strokes as possible."
+  },
+  {
+   "id": "sports-009",
+   "category": "Sports",
+   "q": "Which sport is played on ice with sticks and a puck?",
+   "choices": [
+    "Ice hockey",
+    "Curling",
+    "Lacrosse",
+    "Polo"
+   ],
+   "answer": 0,
+   "fact": "A hockey puck is a hard rubber disk that can fly across the ice very fast."
+  },
+  {
+   "id": "sports-010",
+   "category": "Sports",
+   "q": "About how long is a marathon race?",
+   "choices": [
+    "About 42 kilometers",
+    "About 100 kilometers",
+    "About 10 kilometers",
+    "About 21 kilometers"
+   ],
+   "answer": 0,
+   "fact": "A marathon is 42.195 kilometers, or about 26.2 miles."
+  },
+  {
+   "id": "sports-011",
+   "category": "Sports",
+   "q": "In which sport do you roll a ball to knock down ten pins?",
+   "choices": [
+    "Curling",
+    "Bowling",
+    "Croquet",
+    "Billiards"
+   ],
+   "answer": 1,
+   "fact": "Knocking down all ten pins with your first ball is called a strike."
+  },
+  {
+   "id": "sports-012",
+   "category": "Sports",
+   "q": "How many players from one team are on a basketball court at once?",
+   "choices": [
+    "7",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 2,
+   "fact": "Each basketball team has five players on the court at a time."
+  },
+  {
+   "id": "sports-013",
+   "category": "Sports",
+   "q": "In which country did the sport of judo begin?",
+   "choices": [
+    "China",
+    "Korea",
+    "Japan",
+    "Brazil"
+   ],
+   "answer": 2,
+   "fact": "Judo was created in Japan in 1882 by a teacher named Jigoro Kano."
+  },
+  {
+   "id": "sports-014",
+   "category": "Sports",
+   "q": "In soccer, which player is allowed to use their hands?",
+   "choices": [
+    "Midfielder",
+    "Goalkeeper",
+    "Defender",
+    "Striker"
+   ],
+   "answer": 1,
+   "fact": "Only the goalkeeper may use their hands, and only inside their own penalty area."
+  },
+  {
+   "id": "sports-015",
+   "category": "Sports",
+   "q": "What is it called when one player scores three goals in one game?",
+   "choices": [
+    "Home run",
+    "Triple play",
+    "Grand slam",
+    "Hat trick"
+   ],
+   "answer": 3,
+   "fact": "The term hat trick started in cricket and is now used in soccer and hockey too."
+  },
+  {
+   "id": "sports-016",
+   "category": "Sports",
+   "q": "Which sport uses rackets and a feathered shuttlecock?",
+   "choices": [
+    "Badminton",
+    "Table tennis",
+    "Squash",
+    "Volleyball"
+   ],
+   "answer": 0,
+   "fact": "A badminton shuttlecock is also called a birdie."
+  },
+  {
+   "id": "sports-017",
+   "category": "Sports",
+   "q": "Which swimming stroke is done lying on your back?",
+   "choices": [
+    "Freestyle",
+    "Breaststroke",
+    "Butterfly",
+    "Backstroke"
+   ],
+   "answer": 3,
+   "fact": "Backstroke is the only Olympic swimming race that starts in the water."
+  },
+  {
+   "id": "sports-018",
+   "category": "Sports",
+   "q": "What kind of race is the Tour de France?",
+   "choices": [
+    "Bicycle race",
+    "Sailing race",
+    "Running race",
+    "Car race"
+   ],
+   "answer": 0,
+   "fact": "The Tour de France is a bike race that lasts about three weeks. It began in 1903."
+  },
+  {
+   "id": "sports-019",
+   "category": "Sports",
+   "q": "What do runners in a relay race pass to each other?",
+   "choices": [
+    "Flag",
+    "Torch",
+    "Baton",
+    "Ball"
+   ],
+   "answer": 2,
+   "fact": "In a relay, each runner must hand the baton to the next runner inside a set zone."
+  },
+  {
+   "id": "sports-020",
+   "category": "Sports",
+   "q": "Which sport involves sliding stones across ice while teammates sweep?",
+   "choices": [
+    "Curling",
+    "Bobsleigh",
+    "Figure skating",
+    "Ice hockey"
+   ],
+   "answer": 0,
+   "fact": "In curling, sweeping the ice helps the stone slide farther and straighter."
+  },
+  {
+   "id": "technology-001",
+   "category": "Technology",
+   "q": "What does CPU stand for?",
+   "choices": [
+    "Central Program Utility",
+    "Computer Power Unit",
+    "Central Processing Unit",
+    "Core Processing Unit"
+   ],
+   "answer": 2,
+   "fact": "The CPU is the part of a computer that follows instructions and does calculations."
+  },
+  {
+   "id": "technology-002",
+   "category": "Technology",
+   "q": "Who received the first patent for the telephone in 1876?",
+   "choices": [
+    "Alexander Graham Bell",
+    "Nikola Tesla",
+    "Samuel Morse",
+    "Thomas Edison"
+   ],
+   "answer": 0,
+   "fact": "Bell's first words on the phone were to his assistant, Mr. Watson."
+  },
+  {
+   "id": "technology-003",
+   "category": "Technology",
+   "q": "Who invented the World Wide Web?",
+   "choices": [
+    "Tim Berners-Lee",
+    "Steve Jobs",
+    "Bill Gates",
+    "Alan Turing"
+   ],
+   "answer": 0,
+   "fact": "Tim Berners-Lee came up with the web in 1989 while working at CERN in Europe."
+  },
+  {
+   "id": "technology-004",
+   "category": "Technology",
+   "q": "What number system do computers use, made of only 0s and 1s?",
+   "choices": [
+    "Hexadecimal",
+    "Roman numerals",
+    "Decimal",
+    "Binary"
+   ],
+   "answer": 3,
+   "fact": "Computers store everything, from games to photos, as long lines of 0s and 1s."
+  },
+  {
+   "id": "technology-005",
+   "category": "Technology",
+   "q": "What does GPS stand for?",
+   "choices": [
+    "Global Positioning System",
+    "Ground Position Signal",
+    "General Place Service",
+    "Global Pathway System"
+   ],
+   "answer": 0,
+   "fact": "GPS uses signals from satellites to work out exactly where you are."
+  },
+  {
+   "id": "technology-006",
+   "category": "Technology",
+   "q": "Which company makes the iPad?",
+   "choices": [
+    "Apple",
+    "Microsoft",
+    "Samsung",
+    "Google"
+   ],
+   "answer": 0,
+   "fact": "Apple released the very first iPad in 2010."
+  },
+  {
+   "id": "technology-007",
+   "category": "Technology",
+   "q": "Which inventor created the phonograph, a machine that recorded sound?",
+   "choices": [
+    "Henry Ford",
+    "Alexander Graham Bell",
+    "Thomas Edison",
+    "Nikola Tesla"
+   ],
+   "answer": 2,
+   "fact": "Thomas Edison invented the phonograph in 1877 and recorded himself saying a nursery rhyme."
+  },
+  {
+   "id": "technology-008",
+   "category": "Technology",
+   "q": "What does Wi-Fi let devices do?",
+   "choices": [
+    "Cool down",
+    "Charge faster",
+    "Connect without wires",
+    "Take photos"
+   ],
+   "answer": 2,
+   "fact": "Wi-Fi uses radio waves to link devices to the internet without cables."
+  },
+  {
+   "id": "technology-009",
+   "category": "Technology",
+   "q": "Which early electronic computer, finished in 1945, filled an entire room?",
+   "choices": [
+    "Commodore 64",
+    "Apple I",
+    "ENIAC",
+    "UNIVAC"
+   ],
+   "answer": 2,
+   "fact": "ENIAC weighed about 27 tons and used thousands of glowing vacuum tubes."
+  },
+  {
+   "id": "technology-010",
+   "category": "Technology",
+   "q": "What is a bug in computer programming?",
+   "choices": [
+    "A tiny robot",
+    "A mistake in the code",
+    "A new keyboard",
+    "A fast program"
+   ],
+   "answer": 1,
+   "fact": "Finding and fixing mistakes in code is called debugging."
+  },
+  {
+   "id": "technology-011",
+   "category": "Technology",
+   "q": "Which coding language for kids uses colorful blocks you snap together?",
+   "choices": [
+    "Python",
+    "Java",
+    "C++",
+    "Scratch"
+   ],
+   "answer": 3,
+   "fact": "Scratch was created at MIT so anyone could learn to code by building games and stories."
+  },
+  {
+   "id": "technology-012",
+   "category": "Technology",
+   "q": "What is the name for software made to harm a computer?",
+   "choices": [
+    "Firmware",
+    "Shareware",
+    "Hardware",
+    "Malware"
+   ],
+   "answer": 3,
+   "fact": "Malware is short for malicious software. Viruses are one kind of malware."
+  },
+  {
+   "id": "technology-013",
+   "category": "Technology",
+   "q": "Which British scientist helped crack secret codes in World War II?",
+   "choices": [
+    "Bill Gates",
+    "Isaac Newton",
+    "Alan Turing",
+    "Charles Babbage"
+   ],
+   "answer": 2,
+   "fact": "Alan Turing is often called the father of computer science."
+  },
+  {
+   "id": "technology-014",
+   "category": "Technology",
+   "q": "Who is often called the first computer programmer?",
+   "choices": [
+    "Hedy Lamarr",
+    "Grace Hopper",
+    "Marie Curie",
+    "Ada Lovelace"
+   ],
+   "answer": 3,
+   "fact": "In the 1840s, Ada Lovelace wrote steps for a machine designed by Charles Babbage."
+  },
+  {
+   "id": "technology-015",
+   "category": "Technology",
+   "q": "What does USB stand for?",
+   "choices": [
+    "Universal Serial Bus",
+    "Universal Signal Box",
+    "United System Board",
+    "Unified Serial Bridge"
+   ],
+   "answer": 0,
+   "fact": "USB is a standard way to plug devices into computers and charge them."
+  },
+  {
+   "id": "technology-016",
+   "category": "Technology",
+   "q": "Which device turns your voice into an electrical signal?",
+   "choices": [
+    "Speaker",
+    "Battery",
+    "Microphone",
+    "Antenna"
+   ],
+   "answer": 2,
+   "fact": "A microphone changes sound into electricity. A speaker does the opposite."
+  },
+  {
+   "id": "technology-017",
+   "category": "Technology",
+   "q": "What kind of screen reacts when you tap it with your finger?",
+   "choices": [
+    "Keyboard",
+    "Projector",
+    "Monitor",
+    "Touchscreen"
+   ],
+   "answer": 3,
+   "fact": "Touchscreens on tablets sense the tiny electric charge in your fingertip."
+  },
+  {
+   "id": "technology-018",
+   "category": "Technology",
+   "q": "What does AI stand for?",
+   "choices": [
+    "Artificial intelligence",
+    "Automatic internet",
+    "Advanced information",
+    "Animated images"
+   ],
+   "answer": 0,
+   "fact": "Artificial intelligence means computer programs that can learn and solve problems."
+  },
+  {
+   "id": "technology-019",
+   "category": "Technology",
+   "q": "Which company develops the Android operating system?",
+   "choices": [
+    "Microsoft",
+    "Apple",
+    "Google",
+    "Samsung"
+   ],
+   "answer": 2,
+   "fact": "Android runs on phones and tablets from many different brands."
+  },
+  {
+   "id": "technology-020",
+   "category": "Technology",
+   "q": "What is HTML used to create?",
+   "choices": [
+    "Photos",
+    "Video games",
+    "Spreadsheets",
+    "Web pages"
+   ],
+   "answer": 3,
+   "fact": "HTML stands for HyperText Markup Language. It tells a browser how to show a page."
+  },
+  {
+   "id": "food-001",
+   "category": "Food",
+   "q": "What is guacamole mainly made from?",
+   "choices": [
+    "Peas",
+    "Cucumber",
+    "Avocado",
+    "Green pepper"
+   ],
+   "answer": 2,
+   "fact": "Guacamole comes from Mexico and is made by mashing ripe avocados."
+  },
+  {
+   "id": "food-002",
+   "category": "Food",
+   "q": "Which country is famous for creating pizza?",
+   "choices": [
+    "Italy",
+    "France",
+    "Greece",
+    "United States"
+   ],
+   "answer": 0,
+   "fact": "Modern pizza comes from the city of Naples in Italy."
+  },
+  {
+   "id": "food-003",
+   "category": "Food",
+   "q": "Raisins are made by drying which fruit?",
+   "choices": [
+    "Cherries",
+    "Grapes",
+    "Figs",
+    "Plums"
+   ],
+   "answer": 1,
+   "fact": "Raisins are grapes that have been dried. Dried plums are called prunes."
+  },
+  {
+   "id": "food-004",
+   "category": "Food",
+   "q": "A peanut is not a true nut. What is it?",
+   "choices": [
+    "A root",
+    "A tree seed",
+    "A fruit pit",
+    "A legume"
+   ],
+   "answer": 3,
+   "fact": "Peanuts are legumes, like beans and peas, and they grow underground."
+  },
+  {
+   "id": "food-005",
+   "category": "Food",
+   "q": "Which country is famous for sushi?",
+   "choices": [
+    "Japan",
+    "China",
+    "Korea",
+    "Thailand"
+   ],
+   "answer": 0,
+   "fact": "Sushi is a Japanese dish made with rice flavored with vinegar, often with fish or vegetables."
+  },
+  {
+   "id": "food-006",
+   "category": "Food",
+   "q": "Which food is made by churning cream?",
+   "choices": [
+    "Cheese",
+    "Butter",
+    "Tofu",
+    "Yogurt"
+   ],
+   "answer": 1,
+   "fact": "Shaking or stirring cream for a long time makes the fat clump together into butter."
+  },
+  {
+   "id": "food-007",
+   "category": "Food",
+   "q": "Popcorn is made from which grain?",
+   "choices": [
+    "Corn",
+    "Oats",
+    "Wheat",
+    "Rice"
+   ],
+   "answer": 0,
+   "fact": "Each popcorn kernel has a little water inside that turns to steam and makes it pop."
+  },
+  {
+   "id": "food-008",
+   "category": "Food",
+   "q": "Which fruit has its seeds on the outside?",
+   "choices": [
+    "Blueberry",
+    "Kiwi",
+    "Raspberry",
+    "Strawberry"
+   ],
+   "answer": 3,
+   "fact": "The tiny dots on a strawberry's skin each hold a seed."
+  },
+  {
+   "id": "food-009",
+   "category": "Food",
+   "q": "What sweet food do bees make from flower nectar?",
+   "choices": [
+    "Honey",
+    "Maple syrup",
+    "Molasses",
+    "Jam"
+   ],
+   "answer": 0,
+   "fact": "Bees store honey in wax honeycombs to feed their hive."
+  },
+  {
+   "id": "food-010",
+   "category": "Food",
+   "q": "Where does maple syrup come from?",
+   "choices": [
+    "Flower nectar",
+    "Sugar cane",
+    "Tree sap",
+    "Corn"
+   ],
+   "answer": 2,
+   "fact": "Maple syrup is made by boiling down sap from maple trees until it gets thick and sweet."
+  },
+  {
+   "id": "food-011",
+   "category": "Food",
+   "q": "What is tofu made from?",
+   "choices": [
+    "Milk",
+    "Soybeans",
+    "Wheat",
+    "Rice"
+   ],
+   "answer": 1,
+   "fact": "Tofu is made by curdling soy milk and pressing it into blocks."
+  },
+  {
+   "id": "food-012",
+   "category": "Food",
+   "q": "Which vegetable often makes people cry when they cut it?",
+   "choices": [
+    "Garlic",
+    "Carrot",
+    "Onion",
+    "Celery"
+   ],
+   "answer": 2,
+   "fact": "Cutting an onion releases a gas that stings your eyes and makes them water."
+  },
+  {
+   "id": "food-013",
+   "category": "Food",
+   "q": "Chocolate is made from the beans of which plant?",
+   "choices": [
+    "Coffee",
+    "Cacao",
+    "Carob",
+    "Vanilla"
+   ],
+   "answer": 1,
+   "fact": "Cacao beans grow in pods on cacao trees and are roasted to make chocolate."
+  },
+  {
+   "id": "food-014",
+   "category": "Food",
+   "q": "Which spice comes from the inner bark of a tree?",
+   "choices": [
+    "Nutmeg",
+    "Pepper",
+    "Cinnamon",
+    "Paprika"
+   ],
+   "answer": 2,
+   "fact": "Cinnamon bark curls up into rolls called sticks as it dries."
+  },
+  {
+   "id": "food-015",
+   "category": "Food",
+   "q": "Which country does the rice dish paella come from?",
+   "choices": [
+    "Italy",
+    "Spain",
+    "Mexico",
+    "Portugal"
+   ],
+   "answer": 1,
+   "fact": "Paella comes from Valencia in Spain and is cooked in a wide, shallow pan."
+  },
+  {
+   "id": "food-016",
+   "category": "Food",
+   "q": "What makes bread dough rise and get fluffy?",
+   "choices": [
+    "Salt",
+    "Butter",
+    "Sugar",
+    "Yeast"
+   ],
+   "answer": 3,
+   "fact": "Yeast is a tiny living fungus that makes gas bubbles in the dough."
+  },
+  {
+   "id": "food-017",
+   "category": "Food",
+   "q": "What is the main ingredient in hummus?",
+   "choices": [
+    "Lentils",
+    "Black beans",
+    "Peas",
+    "Chickpeas"
+   ],
+   "answer": 3,
+   "fact": "Hummus is made by blending chickpeas with sesame paste, lemon juice, and garlic."
+  },
+  {
+   "id": "food-018",
+   "category": "Food",
+   "q": "Which vitamin are oranges famous for?",
+   "choices": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin K"
+   ],
+   "answer": 1,
+   "fact": "Vitamin C helps your body heal cuts and fight off sickness."
+  },
+  {
+   "id": "food-019",
+   "category": "Food",
+   "q": "Botanists say a tomato is which part of a plant?",
+   "choices": [
+    "A stem",
+    "A root",
+    "A fruit",
+    "A leaf"
+   ],
+   "answer": 2,
+   "fact": "Tomatoes grow from flowers and hold seeds, so scientists call them fruits."
+  },
+  {
+   "id": "food-020",
+   "category": "Food",
+   "q": "Most dried pasta is made from which grain?",
+   "choices": [
+    "Corn",
+    "Wheat",
+    "Oats",
+    "Rice"
+   ],
+   "answer": 1,
+   "fact": "Most dried pasta is made from durum wheat flour and water."
+  }
+ ]
+}

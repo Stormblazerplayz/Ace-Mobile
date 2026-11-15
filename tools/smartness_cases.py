@@ -9,7 +9,7 @@ the build scripts reads this file. The Swift test checks that again on device.
 
 Expectation kinds:
   bank:    list of answer-bank ids that count as right
-  skill:   the name of the skill (intent) Ace should use
+  skill:   the name of the skill (intent) Ace should use (with bank too, either counts)
   unknown: Ace should say it doesn't know, or ask what you mean (not guess)
   multi:   list of expectations, one per part, in order
   context: earlier messages in the same chat (for follow-up questions)
@@ -33,6 +33,11 @@ def B(*ids):
 
 def S(name):
     return {"skill": name}
+
+
+def BS(name, *ids):
+    """Either the skill or one of these answer-bank ids counts as right."""
+    return {"bank": list(ids), "skill": name}
 
 
 U = {"unknown": True}
@@ -61,7 +66,7 @@ PARAPHRASE = [
     ("what number element is oxygen", B("chem.number.what-is-the-atomic-number-of-oxygen")),
     ("give me the opposite word for fast", B("words.opposite.what-is-the-opposite-of-fast")),
     ("what's the name for a baby sheep", B("animals.baby.what-is-a-baby-sheep-called")),
-    ("how do spanish people say thank you", B("lang.thanks.how-do-you-say-thank-you-in-spanish")),
+    ("how do spanish people say thank you", BS("translate", "lang.thanks.how-do-you-say-thank-you-in-spanish")),
     ("how many days are there in february", B("time.month.how-many-days-in-february")),
     ("is a tomato actually a fruit or a vegetable", B("food.is-a-tomato-a-fruit")),
     ("how many people play on a soccer team", B("sports.how-many-players-on-a-soccer-team")),
@@ -84,8 +89,8 @@ PARAPHRASE = [
     ("how many sides are on a hexagon", B("math.how-many-sides-does-a-hexagon-have")),
     ("how do you find the area of a circle", B("math.what-is-the-area-of-a-circle")),
     ("how many feet make up a mile", B("units.how-many-feet-in-a-mile")),
-    ("how many grams are in one kilogram", B("units.how-many-grams-in-a-kilogram")),
-    ("how many seconds are in one hour", B("units.how-many-seconds-in-an-hour")),
+    ("how many grams are in one kilogram", BS("convert", "units.how-many-grams-in-a-kilogram")),
+    ("how many seconds are in one hour", BS("convert", "units.how-many-seconds-in-an-hour")),
     ("when did the second world war end", B("history.when-did-world-war-2-end")),
     ("who painted the famous mona lisa", B("history.who-painted-the-mona-lisa")),
     ("when did the titanic go down", B("history.when-did-the-titanic-sink")),
@@ -121,7 +126,7 @@ TYPOS = [
     ("what is the tallest animel", B("animals.what-is-the-tallest-animal")),
     ("how many legs does a spidar have", B("animals.how-many-legs-does-a-spider-have")),
     ("what is the symbol for oxygin", B("chem.symbol.what-is-the-symbol-for-oxygen")),
-    ("how do you say hello in spanush", B("lang.hello.how-do-you-say-hello-in-spanish")),
+    ("how do you say hello in spanush", BS("translate", "lang.hello.how-do-you-say-hello-in-spanish")),
     ("what is the currancy of japan", B("geo.currency.what-is-the-currency-of-japan")),
     ("who painted the mona lesa", B("history.who-painted-the-mona-lisa")),
     ("what is artifical intelligence", B("tech.what-is-ai")),
@@ -182,7 +187,7 @@ FOLLOW_UPS = [
     (["what is the capital of france"], "what about germany", B("geo.capital.what-is-the-capital-of-germany")),
     (["what is the capital of spain"], "and italy?", B("geo.capital.what-is-the-capital-of-italy")),
     (["what is the symbol for gold"], "what about silver", B("chem.symbol.what-is-the-symbol-for-silver")),
-    (["how do you say hello in spanish"], "what about in french", B("lang.hello.how-do-you-say-hello-in-french")),
+    (["how do you say hello in spanish"], "what about in french", BS("translate", "lang.hello.how-do-you-say-hello-in-french")),
     (["what is the currency of japan"], "how about mexico", B("geo.currency.what-is-the-currency-of-mexico")),
     (["what continent is egypt in"], "what about peru", B("geo.continent.what-continent-is-peru-in")),
     (["what is a baby dog called"], "what about a cat", B("animals.baby.what-is-a-baby-cat-called")),
@@ -226,7 +231,7 @@ MULTI = [
     ("what's the symbol for iron and what's the symbol for copper",
      M(B("chem.symbol.what-is-the-symbol-for-iron"), B("chem.symbol.what-is-the-symbol-for-copper"))),
     ("how do you say thank you in french and how do you say goodbye in spanish",
-     M(B("lang.thanks.how-do-you-say-thank-you-in-french"), B("lang.bye.how-do-you-say-goodbye-in-spanish"))),
+     M(BS("translate", "lang.thanks.how-do-you-say-thank-you-in-french"), BS("translate", "lang.bye.how-do-you-say-goodbye-in-spanish"))),
     ("what is gravity. what is friction", M(B("space.what-is-gravity"), B("science.what-is-friction"))),
     ("check my battery and my storage", M(S("battery"), S("storage"))),
     ("who was the first president and when did ww2 end",
@@ -235,7 +240,7 @@ MULTI = [
     ("flip a coin and roll a dice", M(B("fun.flip-a-coin"), B("fun.roll-a-dice"))),
     ("what is a cpu and what is a gpu", M(B("tech.what-is-a-cpu"), B("tech.what-is-a-gpu"))),
     ("how many feet in a mile and how many inches in a foot",
-     M(B("units.how-many-feet-in-a-mile"), B("units.how-many-inches-in-a-foot"))),
+     M(BS("convert", "units.how-many-feet-in-a-mile"), BS("convert", "units.how-many-inches-in-a-foot"))),
     ("what's the capital of australia, what continent is chile in, and what currency does india use",
      M(B("geo.capital.what-is-the-capital-of-australia"), B("geo.continent.what-continent-is-chile-in"),
        B("geo.currency.what-is-the-currency-of-india"))),

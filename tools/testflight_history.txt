@@ -1,0 +1,9 @@
+# TestFlight uploads from before the testflight-<number> tags existed (from the GitHub Actions logs).
+# tools/next_build_number.py never picks a number at or below these. One build number per line.
+9   run 9   f2b2535
+17  run 17  a294ae5
+19  run 19  5f2fde2
+26  run 26  c5b177e
+28  run 28  e05cc27
+36  run 36  aadf610
+44  run 44  8cf514e

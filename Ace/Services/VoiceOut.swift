@@ -35,6 +35,18 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
         synth.speak(u)
     }
 
+    /// Says a word or phrase in another language (the translator's "Say it" button).
+    func speak(_ text: String, language: String) {
+        guard !text.isEmpty else { return }
+        AudioRouter.shared.prepareForSpeaking()
+        synth.stopSpeaking(at: .immediate)
+        onChange = nil
+        let u = AVSpeechUtterance(string: text)
+        u.voice = AVSpeechSynthesisVoice(language: language) ?? AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
+        u.rate = AVSpeechUtteranceDefaultSpeechRate * 0.85
+        synth.speak(u)
+    }
+
     func stop() {
         synth.stopSpeaking(at: .immediate)
     }

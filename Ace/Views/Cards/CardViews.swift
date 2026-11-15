@@ -23,6 +23,9 @@ struct CardView: View {
         case .power(let p): PowerCardView(card: p)
         case .greeting(let g): GreetingCardView(card: g)
         case .code(let c): CodeCardView(card: c)
+        case .trivia(let t): TriviaCardView(card: t)
+        case .translation(let t): TranslationCardView(card: t)
+        case .quickReplies(let q): QuickRepliesView(card: q)
         }
     }
 }
@@ -743,5 +746,150 @@ struct CodeCardView: View {
             out += part
         }
         return out
+    }
+}
+
+// MARK: Games and the translator
+
+/// A trivia question: tap an answer. Once it's answered (or a newer question comes), the buttons stop working.
+struct TriviaCardView: View {
+    let card: TriviaCard
+    @EnvironmentObject var core: AceCore
+    @State private var tapped: Int?
+
+    private var live: Bool { tapped == nil && core.brain.gameToken == card.token }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Label("Trivia · \(card.category)", systemImage: "questionmark.bubble.fill")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(AceTheme.ace)
+                Spacer()
+                Text("\(card.number) of \(card.total) · Score \(card.score)")
+                    .font(.caption)
+                    .foregroundStyle(AceTheme.muted)
+            }
+            Text(card.question)
+                .font(.headline)
+                .fixedSize(horizontal: false, vertical: true)
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 8) {
+                ForEach(Array(card.choices.enumerated()), id: \.offset) { i, choice in
+                    Button {
+                        guard live else { return }
+                        tapped = i
+                        Haptics.shared.play(.tick)
+                        core.send(choice)
+                    } label: {
+                        HStack(spacing: 6) {
+                            Text(Trivia.letter(i))
+                                .font(.caption.weight(.bold))
+                                .frame(width: 22, height: 22)
+                                .background(Circle().fill(AceTheme.ace.opacity(0.22)))
+                            Text(choice)
+                                .font(.subheadline.weight(.medium))
+                                .lineLimit(2)
+                                .minimumScaleFactor(0.8)
+                            Spacer(minLength: 0)
+                        }
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 9)
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                        .background(RoundedRectangle(cornerRadius: 12).fill(tapped == i ? AceTheme.ace.opacity(0.3) : AceTheme.ace.opacity(0.1)))
+                    }
+                    .buttonStyle(.plain)
+                    .disabled(!live)
+                    .accessibilityLabel("\(Trivia.letter(i)), \(choice)")
+                }
+            }
+            .opacity(live || tapped != nil ? 1 : 0.55)
+        }
+        .aceCard()
+    }
+}
+
+/// A translation: the words, how to say them, and a button to hear them.
+struct TranslationCardView: View {
+    let card: TranslationCard
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Label("English to \(card.language)", systemImage: "character.bubble.fill")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(AceTheme.ace)
+            Text(card.english)
+                .font(.subheadline)
+                .foregroundStyle(AceTheme.muted)
+            Text(card.text)
+                .font(.title2.weight(.semibold))
+                .textSelection(.enabled)
+                .fixedSize(horizontal: false, vertical: true)
+            if let say = card.say, !say.isEmpty {
+                Text("Say it like: \(say)")
+                    .font(.subheadline)
+                    .foregroundStyle(AceTheme.muted)
+            }
+            HStack(spacing: 10) {
+                Button {
+                    Haptics.shared.play(.tick)
+                    VoiceOut.shared.speak(card.text, language: Phrasebook.speechCodes[card.code] ?? card.code)
+                } label: {
+                    Label("Say it", systemImage: "speaker.wave.2.fill")
+                        .font(.caption.weight(.semibold))
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 7)
+                        .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
+                        .foregroundStyle(AceTheme.ace)
+                }
+                .buttonStyle(.plain)
+                Button {
+                    UIPasteboard.general.string = card.text
+                    Haptics.shared.play(.tick)
+                } label: {
+                    Label("Copy", systemImage: "doc.on.doc")
+                        .font(.caption.weight(.semibold))
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 7)
+                        .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
+                        .foregroundStyle(AceTheme.ace)
+                }
+                .buttonStyle(.plain)
+            }
+        }
+        .aceCard()
+    }
+}
+
+/// Quick answer buttons (Yes, No, Maybe, I don't know) for 20 questions.
+struct QuickRepliesView: View {
+    let card: QuickReplies
+    @EnvironmentObject var core: AceCore
+    @State private var tapped: String?
+
+    private var live: Bool { tapped == nil && core.brain.gameToken == card.token }
+
+    var body: some View {
+        HStack(spacing: 8) {
+            ForEach(card.replies, id: \.self) { reply in
+                Button {
+                    guard live else { return }
+                    tapped = reply
+                    Haptics.shared.play(.tick)
+                    core.send(reply)
+                } label: {
+                    Text(reply)
+                        .font(.subheadline.weight(.semibold))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.8)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 8)
+                        .background(Capsule().fill(tapped == reply ? AceTheme.ace.opacity(0.32) : AceTheme.ace.opacity(0.16)))
+                        .foregroundStyle(AceTheme.ace)
+                }
+                .buttonStyle(.plain)
+                .disabled(!live)
+            }
+        }
+        .opacity(live || tapped != nil ? 1 : 0.5)
     }
 }
