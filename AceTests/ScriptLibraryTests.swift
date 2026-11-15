@@ -1,13 +1,15 @@
 import XCTest
 @testable import Ace
 
-/// Ace's built-in Roblox Lua and C++ scripts: the library, finding the right one, and the colored code.
+/// Ace's built-in Roblox Lua, C++, Python and Swift scripts: the library, finding the right one, and the colored code.
 @MainActor
 final class ScriptLibraryTests: XCTestCase {
     func testLibraryIsComplete() {
         let all = ScriptLibrary.all
         XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Lua" }.count, 25)
         XCTAssertGreaterThanOrEqual(all.filter { $0.language == "C++" }.count, 20)
+        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Python" }.count, 20)
+        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Swift" }.count, 20)
         XCTAssertEqual(Set(all.map(\.id)).count, all.count, "Two scripts share an id")
         for s in all {
             XCTAssertFalse(s.title.isEmpty, s.id)
@@ -15,9 +17,11 @@ final class ScriptLibraryTests: XCTestCase {
             XCTAssertFalse(s.about.isEmpty, s.id)
             XCTAssertGreaterThanOrEqual(s.keywords.count, 3, s.id)
             XCTAssertGreaterThan(s.code.count, 40, s.id)
-            XCTAssertTrue(["Lua", "C++"].contains(s.language), s.id)
+            XCTAssertTrue(ScriptLibrary.languages.contains(s.language), s.id)
         }
-        XCTAssertEqual(ScriptLibrary.categories("C++"), ["Arduino", "Basics", "Games", "Unreal Engine"])
+        for c in ["Arduino", "Basics", "Games", "Unreal Engine"] { XCTAssertTrue(ScriptLibrary.categories("C++").contains(c), c) }
+        XCTAssertTrue(ScriptLibrary.categories("Python").contains("Games"))
+        XCTAssertFalse(ScriptLibrary.categories("Swift").isEmpty)
         XCTAssertTrue(ScriptLibrary.categories("Lua").contains("Obstacles"))
         XCTAssertTrue(ScriptLibrary.script(id: "kill-brick")?.code.contains("humanoid.Health = 0") ?? false)
     }

@@ -1,0 +1,27 @@
+# tag: tech.shortcuts.ipad
+how do i see keyboard shortcuts on ipad | hold command on ipad | ipad shortcut list => With a keyboard connected, press and hold the Command key (or the Globe key) in an app to see a list of its shortcuts.
+how do i go home with an ipad keyboard | command h ipad | globe h => Press Command + H or Globe + H to go to the Home Screen.
+how do i search on ipad with a keyboard | command space ipad | spotlight on ipad => Press Command + Space to open Spotlight search, then type an app or anything else.
+how do i switch apps on ipad with a keyboard | command tab ipad => Hold Command and tap Tab to switch between recent apps on iPad.
+how do i open the app switcher with a keyboard | globe up arrow ipad => Press Globe + Up Arrow to open the App Switcher on iPad.
+how do i open control center with a keyboard | globe c ipad => Press Globe + C to open Control Center on iPad.
+how do i see notifications with a keyboard on ipad | globe n => Press Globe + N to open Notification Center on iPad.
+how do i make a quick note with a keyboard | globe q ipad => Press Globe + Q to open a Quick Note on iPad.
+how do i show the dock with a keyboard on ipad | globe a ipad => Press Globe + A to show the Dock on iPad.
+how do i screenshot on ipad with a keyboard | command shift 3 ipad => Press Command + Shift + 3 to take a screenshot. Command + Shift + 4 takes one and opens markup right away.
+how do i switch keyboard language on ipad keyboard | globe key ipad => Press the Globe key to switch between keyboard languages, or to show the emoji picker if that's set in Settings, General, Keyboard, Hardware Keyboard.
+how do i change what the globe key does on ipad | caps lock language switch ipad => Open Settings, General, Keyboard, Hardware Keyboard. There you can set what the Globe key does and use Caps Lock to switch languages.
+how do i remap keys on ipad keyboard | modifier keys ipad => Open Settings, General, Keyboard, Hardware Keyboard, Modifier Keys. You can swap keys like Caps Lock, Control, Option and Command.
+how do i use a mouse with my ipad | ipad trackpad support => Pair a Bluetooth mouse or trackpad in Settings, Bluetooth, or plug in a USB one. A round pointer appears and works like a finger.
+how do i undo on ipad with a keyboard | command z ipad => Press Command + Z to undo and Command + Shift + Z to redo in most iPad apps.
+how do i open a new tab in safari on ipad keyboard | command t safari ipad => Press Command + T to open a new tab and Command + W to close one in Safari on iPad.
+how do i jump to safari address bar on ipad | command l ipad => Press Command + L in Safari on iPad to jump to the address bar.
+how do i find on page in safari on ipad | command f safari ipad => Press Command + F in Safari on iPad to search for words on the page. Without a keyboard, tap the share button and pick Find on Page.
+how do i reopen a closed safari tab on ipad | command shift t ipad => Press Command + Shift + T in Safari on iPad to reopen the last closed tab. Without a keyboard, touch and hold the plus button.
+how do i lock my ipad with a keyboard | control command q ipad => Press Control + Command + Q on iPad to lock the screen.
+how do i dictate on ipad | voice typing ipad => Tap the microphone on the on-screen keyboard and talk. With a hardware keyboard, you can turn on dictation in Settings, General, Keyboard, then use the dictation key or Globe shortcut shown there.
+how do i turn on ipad keyboard text shortcuts | text replacement ipad => Open Settings, General, Keyboard, Text Replacement, and tap the plus button. Type a short code like omw and the phrase it should expand into.
+how do i type faster on ipad | ipad keyboard tricks => Turn on Slide to Type, double-tap Space for a period, touch and hold a letter for accents, and touch and hold the Space bar to move the cursor like a trackpad.
+how do i move the cursor on ipad without a keyboard | spacebar trackpad => Touch and hold the Space bar on the on-screen keyboard until the keys go blank, then slide your finger to move the cursor.
+how do i split the ipad keyboard | floating keyboard ipad => Pinch the on-screen keyboard with two fingers to make it a small floating keyboard you can drag around. Spread two fingers on it to make it full size again.
+how do i undo by shaking or swiping on ipad | three finger swipe undo => Swipe left with three fingers to undo and right with three fingers to redo. Pinch in with three fingers to copy and pinch out to paste.

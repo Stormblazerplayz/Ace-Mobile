@@ -1,0 +1,1702 @@
+{
+ "recipes": [
+  {
+   "id": "vanilla-layer-cake",
+   "name": "Vanilla layer cake",
+   "aliases": [
+    "vanilla cake",
+    "vanilla layer cake",
+    "yellow cake",
+    "vanilla birthday cake",
+    "yellow birthday cake",
+    "vanilla cakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "2 hr",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "egg",
+    "milk"
+   ],
+   "ingredients": [
+    "2 1/2 cups (315 g) all-purpose flour",
+    "2 1/2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1 cup (225 g) butter, softened",
+    "1 3/4 cups (350 g) sugar",
+    "4 large eggs, at room temperature",
+    "1 tablespoon vanilla extract",
+    "1 cup (240 ml) milk, at room temperature",
+    "1 batch vanilla buttercream or chocolate frosting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease two 9 inch round pans and line the bottoms with parchment paper.",
+    "Whisk the flour, baking powder and salt in a bowl.",
+    "Beat the butter and sugar for 3 minutes, until light and fluffy.",
+    "Beat in the eggs one at a time, then the vanilla.",
+    "Mix in a third of the flour mix, then half the milk. Repeat, ending with flour. Mix until just combined.",
+    "Split the batter between the pans and smooth the tops.",
+    "Bake for 25 to 30 minutes, until a toothpick in the middle comes out clean.",
+    "Let cool for 10 minutes in the pans, then turn out onto a wire rack.",
+    "Let cool for 1 hour before frosting."
+   ]
+  },
+  {
+   "id": "red-velvet-cake",
+   "name": "Red velvet cake",
+   "aliases": [
+    "red velvet cake",
+    "red velvet",
+    "red velvet cupcakes",
+    "red velvet cupcake"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "2 hr",
+   "main": [
+    "flour",
+    "buttermilk",
+    "cocoa",
+    "oil",
+    "cream cheese"
+   ],
+   "ingredients": [
+    "2 1/2 cups (315 g) all-purpose flour",
+    "1 1/2 cups (300 g) sugar",
+    "1 tablespoon unsweetened cocoa powder",
+    "1 teaspoon baking soda",
+    "1 teaspoon salt",
+    "1 1/2 cups (360 ml) vegetable oil",
+    "1 cup (240 ml) buttermilk, at room temperature",
+    "2 large eggs",
+    "2 tablespoons red food coloring",
+    "1 teaspoon vanilla extract",
+    "1 teaspoon white vinegar",
+    "1 batch cream cheese frosting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease two 9 inch round pans and line the bottoms with parchment paper.",
+    "Whisk the flour, sugar, cocoa, baking soda and salt in a big bowl.",
+    "Whisk the oil, buttermilk, eggs, food coloring, vanilla and vinegar in another bowl.",
+    "Pour the wet mix into the dry mix and stir until smooth.",
+    "Split the batter between the pans.",
+    "Bake for 25 to 30 minutes, until a toothpick comes out clean. For 24 cupcakes, bake for 18 to 20 minutes.",
+    "Let cool for 10 minutes in the pans, then turn out onto a rack.",
+    "Let cool for 1 hour, then fill and frost with the cream cheese frosting."
+   ]
+  },
+  {
+   "id": "carrot-cake",
+   "name": "Carrot cake",
+   "aliases": [
+    "carrot cake",
+    "carrot cakes",
+    "carrot sheet cake",
+    "carrot walnut cake"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "2 hr",
+   "main": [
+    "carrots",
+    "flour",
+    "oil",
+    "egg",
+    "cream cheese"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "2 teaspoons baking soda",
+    "2 teaspoons ground cinnamon",
+    "1/2 teaspoon salt",
+    "4 large eggs",
+    "1 1/4 cups (300 ml) vegetable oil",
+    "1 cup (200 g) sugar",
+    "1 cup (220 g) packed brown sugar",
+    "1 teaspoon vanilla extract",
+    "3 cups (300 g) finely grated carrots, about 5 carrots",
+    "1 cup (115 g) chopped walnuts (optional)",
+    "1 batch cream cheese frosting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 13 inch pan.",
+    "Grate the carrots on the small holes of a box grater. Keep your fingers away from the blades.",
+    "Whisk the flour, baking soda, cinnamon and salt in a bowl.",
+    "Whisk the eggs, oil, sugar, brown sugar and vanilla in a big bowl.",
+    "Stir in the flour mix, then the carrots and walnuts.",
+    "Pour into the pan.",
+    "Bake for 35 to 40 minutes, until a toothpick comes out clean.",
+    "Let cool for 1 hour, then spread the frosting on top."
+   ]
+  },
+  {
+   "id": "lemon-drizzle-cake",
+   "name": "Lemon drizzle cake",
+   "aliases": [
+    "lemon drizzle cake",
+    "lemon drizzle",
+    "lemon loaf",
+    "lemon cake",
+    "lemon loaf cake"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "lemon",
+    "butter",
+    "sugar",
+    "egg",
+    "flour"
+   ],
+   "ingredients": [
+    "3/4 cup (170 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "3 large eggs",
+    "Zest of 2 lemons",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/4 cup (60 ml) milk",
+    "Drizzle: 1/2 cup (100 g) sugar and 1/4 cup (60 ml) lemon juice"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 5 inch loaf pan and line it with parchment paper.",
+    "Beat the butter and sugar until fluffy, then beat in the eggs one at a time and the zest.",
+    "Stir in the flour, baking powder and salt, then the milk.",
+    "Spread in the pan.",
+    "Bake for 45 to 50 minutes, until a toothpick comes out clean.",
+    "Stir the drizzle sugar and lemon juice together.",
+    "Poke holes all over the warm cake with a skewer and spoon the drizzle over it.",
+    "Let cool for 30 minutes in the pan. The drizzle sets into a crunchy crust."
+   ]
+  },
+  {
+   "id": "pound-cake",
+   "name": "Pound cake",
+   "aliases": [
+    "pound cake",
+    "pound cakes",
+    "butter pound cake",
+    "vanilla pound cake",
+    "butter cake"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 45 min",
+   "main": [
+    "butter",
+    "sugar",
+    "egg",
+    "flour"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1 cup (200 g) sugar",
+    "4 large eggs, at room temperature",
+    "2 teaspoons vanilla extract",
+    "1 3/4 cups (220 g) all-purpose flour",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Grease and flour a 9 by 5 inch loaf pan.",
+    "Beat the butter and sugar for 4 minutes, until very light and fluffy.",
+    "Beat in the eggs one at a time, then the vanilla.",
+    "Stir in the flour, baking powder and salt until just combined.",
+    "Spread in the pan.",
+    "Bake for 60 to 70 minutes, until golden and a toothpick comes out clean.",
+    "Let cool for 15 minutes in the pan, then turn out onto a rack to cool."
+   ]
+  },
+  {
+   "id": "pineapple-upside-down-cake",
+   "name": "Pineapple upside-down cake",
+   "aliases": [
+    "pineapple upside down cake",
+    "upside down cake",
+    "pineapple cake",
+    "pineapple upside down"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "1 hr 30 min",
+   "main": [
+    "pineapple",
+    "brown sugar",
+    "butter",
+    "flour",
+    "egg"
+   ],
+   "ingredients": [
+    "Topping: 1/4 cup (55 g) butter, melted, 1/2 cup (110 g) packed brown sugar",
+    "7 canned pineapple rings, juice saved",
+    "7 maraschino cherries",
+    "1 1/3 cups (170 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1/2 cup (120 ml) pineapple juice from the can"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Pour the melted butter into a 9 inch round cake pan and sprinkle the brown sugar over it.",
+    "Lay the pineapple rings on top and put a cherry in each hole.",
+    "Beat the butter and sugar until fluffy, then beat in the eggs and vanilla.",
+    "Stir in the flour, baking powder and salt, then the pineapple juice.",
+    "Spread the batter over the pineapple.",
+    "Bake for 40 to 45 minutes, until a toothpick comes out clean.",
+    "Let cool for 10 minutes.",
+    "Put a plate on top and flip the pan over with oven mitts. Ask an adult to help."
+   ]
+  },
+  {
+   "id": "tres-leches-cake",
+   "name": "Tres leches cake",
+   "aliases": [
+    "tres leches cake",
+    "tres leches",
+    "three milk cake",
+    "pastel de tres leches"
+   ],
+   "category": "Dessert",
+   "servings": 15,
+   "time": "5 hr",
+   "main": [
+    "flour",
+    "egg",
+    "sweetened condensed milk",
+    "evaporated milk",
+    "cream"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "5 large eggs, separated",
+    "1 cup (200 g) sugar",
+    "1/3 cup (80 ml) milk",
+    "1 teaspoon vanilla extract",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1 can (12 oz / 354 ml) evaporated milk",
+    "1/2 cup (120 ml) heavy cream",
+    "Topping: 1 1/2 cups (360 ml) heavy cream whipped with 3 tablespoons sugar, plus cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 13 inch pan.",
+    "Beat the egg yolks with 3/4 cup of the sugar until pale, then stir in the milk and vanilla.",
+    "Stir in the flour, baking powder and salt.",
+    "Beat the egg whites in a clean bowl until soft peaks form, then beat in the last 1/4 cup sugar until stiff.",
+    "Gently fold the whites into the batter and spread in the pan.",
+    "Bake for 25 to 30 minutes, until golden and a toothpick comes out clean. Let cool for 30 minutes.",
+    "Whisk the condensed milk, evaporated milk and cream.",
+    "Poke holes all over the cake with a fork and slowly pour the milk mix over it.",
+    "Chill for 4 hours so it soaks in.",
+    "Spread the whipped cream on top and dust with cinnamon."
+   ]
+  },
+  {
+   "id": "strawberry-shortcake",
+   "name": "Strawberry shortcake",
+   "aliases": [
+    "strawberry shortcake",
+    "strawberry shortcakes",
+    "shortcake",
+    "shortcakes",
+    "strawberry biscuits"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "50 min",
+   "main": [
+    "strawberries",
+    "flour",
+    "butter",
+    "cream",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 pound (450 g) strawberries, sliced",
+    "1/4 cup (50 g) sugar for the berries",
+    "2 cups (250 g) all-purpose flour",
+    "3 tablespoons sugar",
+    "1 tablespoon baking powder",
+    "1/2 teaspoon salt",
+    "1/2 cup (115 g) cold butter, cut in cubes",
+    "3/4 cup (180 ml) cold heavy cream, plus a little for brushing",
+    "Whipped cream: 1 cup (240 ml) heavy cream, 2 tablespoons powdered sugar, 1/2 teaspoon vanilla"
+   ],
+   "steps": [
+    "Stir the strawberries and 1/4 cup sugar and let sit for 20 minutes to get juicy.",
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Mix the flour, 3 tablespoons sugar, baking powder and salt.",
+    "Rub in the cold butter with your fingers until it looks like coarse crumbs.",
+    "Stir in the cream until a shaggy dough forms.",
+    "Pat it 3/4 inch thick and cut 8 rounds. Put them on a lined sheet and brush with cream.",
+    "Bake for 15 to 18 minutes, until golden.",
+    "Whip the cream, powdered sugar and vanilla until soft peaks form.",
+    "Split the warm shortcakes, fill with strawberries and whipped cream."
+   ]
+  },
+  {
+   "id": "angel-food-cake",
+   "name": "Angel food cake",
+   "aliases": [
+    "angel food cake",
+    "angel cake",
+    "angel food",
+    "angel food cakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "3 hr",
+   "main": [
+    "egg white",
+    "sugar",
+    "cake flour",
+    "cream of tartar"
+   ],
+   "ingredients": [
+    "1 cup (120 g) cake flour",
+    "1 1/2 cups (300 g) sugar, divided",
+    "12 large egg whites (about 1 1/2 cups / 360 ml), at room temperature",
+    "1 1/2 teaspoons cream of tartar",
+    "1/4 teaspoon salt",
+    "1 1/2 teaspoons vanilla extract"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Sift the cake flour with 3/4 cup of the sugar twice.",
+    "Beat the egg whites, cream of tartar and salt in a very clean bowl until foamy.",
+    "Beat in the other 3/4 cup sugar a little at a time until stiff, glossy peaks form. Beat in the vanilla.",
+    "Sift the flour mix over the whites a quarter at a time, folding gently each time.",
+    "Spoon into an ungreased 10 inch tube pan and run a knife through to pop big bubbles.",
+    "Bake for 35 to 40 minutes, until golden and springy.",
+    "Turn the pan upside down onto a bottle neck or its feet and let cool for 2 hours.",
+    "Run a knife around the edges to release the cake."
+   ]
+  },
+  {
+   "id": "funfetti-cake",
+   "name": "Funfetti sprinkle cake",
+   "aliases": [
+    "funfetti cake",
+    "sprinkle cake",
+    "confetti cake",
+    "rainbow sprinkle cake",
+    "white sprinkle cake"
+   ],
+   "category": "Dessert",
+   "servings": 15,
+   "time": "1 hr 45 min",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "egg white",
+    "sprinkles"
+   ],
+   "ingredients": [
+    "2 1/2 cups (315 g) all-purpose flour",
+    "1 tablespoon baking powder",
+    "1/2 teaspoon salt",
+    "3/4 cup (170 g) butter, softened",
+    "1 1/2 cups (300 g) sugar",
+    "4 large egg whites",
+    "1 tablespoon vanilla extract",
+    "1 cup (240 ml) milk",
+    "1/2 cup (80 g) rainbow sprinkles, plus more on top",
+    "1 batch vanilla buttercream"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 13 inch pan.",
+    "Whisk the flour, baking powder and salt.",
+    "Beat the butter and sugar until fluffy, then beat in the egg whites and vanilla.",
+    "Mix in the flour mix and milk in turns, starting and ending with flour.",
+    "Gently fold in the sprinkles.",
+    "Spread in the pan.",
+    "Bake for 30 to 35 minutes, until a toothpick comes out clean.",
+    "Let cool for 1 hour, then frost and add more sprinkles."
+   ]
+  },
+  {
+   "id": "chocolate-cupcakes",
+   "name": "Chocolate cupcakes",
+   "aliases": [
+    "chocolate cupcakes",
+    "chocolate cupcake",
+    "choc cupcakes",
+    "double chocolate cupcakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 20 min",
+   "main": [
+    "flour",
+    "cocoa",
+    "sugar",
+    "egg",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (125 g) all-purpose flour",
+    "1/2 cup (45 g) unsweetened cocoa powder",
+    "3/4 cup (150 g) sugar",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon baking powder",
+    "1/2 teaspoon salt",
+    "1 large egg",
+    "1/2 cup (120 ml) milk",
+    "1/4 cup (60 ml) vegetable oil",
+    "1 teaspoon vanilla extract",
+    "1/2 cup (120 ml) hot water",
+    "1 batch chocolate frosting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with paper liners.",
+    "Whisk the flour, cocoa, sugar, baking soda, baking powder and salt in a big bowl.",
+    "Whisk in the egg, milk, oil and vanilla.",
+    "Carefully stir in the hot water. The batter will be thin.",
+    "Fill each liner 2/3 full.",
+    "Bake for 18 to 20 minutes, until a toothpick comes out clean.",
+    "Let cool for 1 hour, then frost."
+   ]
+  },
+  {
+   "id": "lemon-cupcakes",
+   "name": "Lemon cupcakes",
+   "aliases": [
+    "lemon cupcakes",
+    "lemon cupcake",
+    "lemon buttercream cupcakes",
+    "lemony cupcakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 20 min",
+   "main": [
+    "lemon",
+    "flour",
+    "butter",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "1 tablespoon lemon zest",
+    "2 large eggs",
+    "2 tablespoons lemon juice",
+    "1/3 cup (80 ml) milk",
+    "Frosting: 1/2 cup (115 g) butter, 2 cups (240 g) powdered sugar, 2 tablespoons lemon juice, 1 teaspoon zest"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with liners.",
+    "Rub the zest into the sugar with your fingers, then beat with the butter until fluffy.",
+    "Beat in the eggs and lemon juice.",
+    "Mix in the flour, baking powder and salt in turns with the milk.",
+    "Fill the liners 2/3 full.",
+    "Bake for 18 to 20 minutes, until a toothpick comes out clean.",
+    "Let cool for 1 hour.",
+    "Beat the frosting ingredients until fluffy and pipe or spread on top."
+   ]
+  },
+  {
+   "id": "strawberry-cupcakes",
+   "name": "Strawberry cupcakes",
+   "aliases": [
+    "strawberry cupcakes",
+    "strawberry cupcake",
+    "pink cupcakes",
+    "fresh strawberry cupcakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 30 min",
+   "main": [
+    "strawberries",
+    "flour",
+    "butter",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "1 1/2 cups (225 g) fresh strawberries, hulled",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "2 tablespoons milk",
+    "Frosting: 1/2 cup (115 g) butter, 2 1/2 cups (300 g) powdered sugar, 3 tablespoons of the strawberry puree"
+   ],
+   "steps": [
+    "Blend the strawberries until smooth.",
+    "Simmer the puree in a small pot for 10 to 15 minutes, stirring, until it cooks down to about 1/2 cup. Let cool.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line a muffin pan with 12 liners.",
+    "Beat the butter and sugar, then beat in the eggs and vanilla.",
+    "Stir in the flour, baking powder and salt, then the milk and 1/3 cup of the puree.",
+    "Fill the liners 2/3 full and bake for 18 to 20 minutes.",
+    "Let cool for 1 hour.",
+    "Beat the frosting ingredients until fluffy and spread on top."
+   ]
+  },
+  {
+   "id": "new-york-cheesecake",
+   "name": "Baked New York cheesecake",
+   "aliases": [
+    "baked cheesecake",
+    "new york cheesecake",
+    "ny cheesecake",
+    "classic cheesecake",
+    "cream cheese cake"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "9 hr",
+   "main": [
+    "cream cheese",
+    "sugar",
+    "egg",
+    "sour cream",
+    "graham crackers"
+   ],
+   "ingredients": [
+    "Crust: 1 1/2 cups (150 g) graham cracker crumbs, 1/4 cup (50 g) sugar, 6 tablespoons (85 g) butter, melted",
+    "32 oz (900 g) cream cheese, softened",
+    "1 cup (200 g) sugar",
+    "3 tablespoons all-purpose flour",
+    "1 cup (240 g) sour cream",
+    "1 tablespoon vanilla extract",
+    "4 large eggs, at room temperature"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Mix the crust ingredients and press into the bottom of a 9 inch springform pan.",
+    "Bake the crust for 10 minutes.",
+    "Beat the cream cheese, sugar and flour on low until smooth.",
+    "Beat in the sour cream and vanilla.",
+    "Beat in the eggs one at a time on low, just until mixed. Too much beating makes cracks.",
+    "Pour over the crust.",
+    "Bake for 60 to 70 minutes, until the edges are set and the middle still jiggles a little.",
+    "Turn off the oven, crack the door and leave the cheesecake inside for 1 hour.",
+    "Chill for at least 6 hours before slicing."
+   ]
+  },
+  {
+   "id": "mini-cheesecakes",
+   "name": "Mini cheesecakes",
+   "aliases": [
+    "mini cheesecakes",
+    "mini cheesecake",
+    "cheesecake cupcakes",
+    "cheesecake bites"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "2 hr 45 min",
+   "main": [
+    "cream cheese",
+    "sugar",
+    "egg",
+    "vanilla wafers"
+   ],
+   "ingredients": [
+    "12 vanilla wafer cookies",
+    "16 oz (450 g) cream cheese, softened",
+    "1/2 cup (100 g) sugar",
+    "1 teaspoon vanilla extract",
+    "2 large eggs",
+    "Fruit or pie filling to top"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line a muffin pan with 12 foil or paper liners and put a wafer in each.",
+    "Beat the cream cheese, sugar and vanilla until smooth.",
+    "Beat in the eggs on low, just until mixed.",
+    "Fill each liner 3/4 full.",
+    "Bake for 18 to 20 minutes, until the middles are almost set.",
+    "Let cool for 30 minutes, then chill for 2 hours.",
+    "Top with fruit before serving."
+   ]
+  },
+  {
+   "id": "texas-sheet-cake",
+   "name": "Texas chocolate sheet cake",
+   "aliases": [
+    "texas sheet cake",
+    "chocolate sheet cake",
+    "sheet cake",
+    "texas chocolate cake"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr",
+   "main": [
+    "flour",
+    "sugar",
+    "butter",
+    "cocoa",
+    "pecans"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "2 cups (400 g) sugar",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "1 cup (225 g) butter",
+    "1 cup (240 ml) water",
+    "1/4 cup (20 g) unsweetened cocoa powder",
+    "1/2 cup (120 g) sour cream",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "Frosting: 1/2 cup (115 g) butter, 1/4 cup (20 g) cocoa, 6 tablespoons milk, 3 1/2 cups (420 g) powdered sugar, 1 teaspoon vanilla, 1 cup (115 g) chopped pecans"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 10 by 15 inch rimmed pan.",
+    "Whisk the flour, sugar, baking soda and salt in a big bowl.",
+    "Heat the butter, water and cocoa in a pot until it boils. Ask an adult to help.",
+    "Pour the hot cocoa mix into the flour mix and stir.",
+    "Stir in the sour cream, eggs and vanilla.",
+    "Pour into the pan and bake for 20 to 22 minutes, until a toothpick comes out clean.",
+    "For the frosting, heat the butter, cocoa and milk until it bubbles, then take it off the heat.",
+    "Whisk in the powdered sugar and vanilla, then the pecans.",
+    "Pour the warm frosting over the warm cake and spread. Let cool for 30 minutes."
+   ]
+  },
+  {
+   "id": "black-forest-cake",
+   "name": "Black Forest cake",
+   "aliases": [
+    "black forest cake",
+    "black forest gateau",
+    "cherry chocolate cake",
+    "schwarzwalder kirschtorte"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "3 hr",
+   "main": [
+    "cocoa",
+    "flour",
+    "cherries",
+    "cream",
+    "chocolate"
+   ],
+   "ingredients": [
+    "1 3/4 cups (220 g) all-purpose flour",
+    "3/4 cup (65 g) unsweetened cocoa powder",
+    "1 3/4 cups (350 g) sugar",
+    "1 1/2 teaspoons baking powder",
+    "1 1/2 teaspoons baking soda",
+    "1 teaspoon salt",
+    "2 large eggs",
+    "1 cup (240 ml) milk",
+    "1/2 cup (120 ml) vegetable oil",
+    "2 teaspoons vanilla extract",
+    "1 cup (240 ml) boiling water",
+    "1 can (21 oz / 595 g) cherry pie filling",
+    "Cream: 2 1/2 cups (600 ml) heavy cream, 1/3 cup (40 g) powdered sugar, 1 teaspoon vanilla",
+    "Chocolate shavings"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease two 9 inch round pans and line with parchment paper.",
+    "Whisk the flour, cocoa, sugar, baking powder, baking soda and salt.",
+    "Beat in the eggs, milk, oil and vanilla for 2 minutes.",
+    "Carefully stir in the boiling water. Ask an adult to help.",
+    "Pour into the pans and bake for 30 to 35 minutes, until a toothpick comes out clean.",
+    "Let cool for 10 minutes in the pans, then 1 hour on a rack.",
+    "Whip the cream, powdered sugar and vanilla until stiff peaks form.",
+    "Put one cake on a plate, spread with cream, then spoon on half the cherry filling.",
+    "Add the second cake, cover the whole cake with cream, then top with the rest of the cherries and chocolate shavings.",
+    "Chill for 30 minutes before slicing."
+   ]
+  },
+  {
+   "id": "eggless-tiramisu",
+   "name": "Tiramisu",
+   "aliases": [
+    "tiramisu",
+    "eggless tiramisu",
+    "tiramisu cake",
+    "italian tiramisu"
+   ],
+   "category": "Dessert",
+   "servings": 9,
+   "time": "6 hr 30 min",
+   "main": [
+    "ladyfingers",
+    "mascarpone",
+    "cream",
+    "coffee",
+    "cocoa"
+   ],
+   "ingredients": [
+    "1 1/2 cups (360 ml) strong coffee or decaf, cooled",
+    "1 1/2 cups (360 ml) cold heavy cream",
+    "8 oz (225 g) mascarpone, cold",
+    "1/2 cup (60 g) powdered sugar",
+    "1 teaspoon vanilla extract",
+    "About 24 crisp ladyfingers (7 oz / 200 g)",
+    "2 tablespoons unsweetened cocoa powder"
+   ],
+   "steps": [
+    "Brew the coffee and let it cool. Decaf works and has less caffeine for kids.",
+    "Whip the cream until soft peaks form.",
+    "Beat the mascarpone, powdered sugar and vanilla until smooth, then fold in the whipped cream.",
+    "Dip each ladyfinger in the coffee for 1 second and lay it in an 8 by 8 inch dish.",
+    "Spread half the cream over the ladyfingers.",
+    "Add another layer of dipped ladyfingers and the rest of the cream.",
+    "Cover and chill for 6 hours.",
+    "Dust with cocoa through a strainer before serving."
+   ]
+  },
+  {
+   "id": "victoria-sponge",
+   "name": "Victoria sponge",
+   "aliases": [
+    "victoria sponge",
+    "victoria sponge cake",
+    "victoria sandwich",
+    "jam sponge cake",
+    "sponge cake"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "butter",
+    "sugar",
+    "egg",
+    "flour",
+    "jam"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1 cup plus 2 tablespoons (225 g) sugar",
+    "4 large eggs",
+    "1 teaspoon vanilla extract",
+    "1 3/4 cups (225 g) all-purpose flour",
+    "2 1/2 teaspoons baking powder",
+    "2 tablespoons milk",
+    "1/2 cup (160 g) strawberry or raspberry jam",
+    "1 cup (240 ml) heavy cream, whipped",
+    "Powdered sugar for dusting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease two 8 inch round pans and line the bottoms with parchment paper.",
+    "Beat the butter and sugar until pale and fluffy.",
+    "Beat in the eggs one at a time, then the vanilla.",
+    "Fold in the flour and baking powder, then the milk.",
+    "Split between the pans and smooth the tops.",
+    "Bake for 20 to 25 minutes, until golden and springy.",
+    "Let cool for 10 minutes in the pans, then 30 minutes on a rack.",
+    "Spread jam on one cake, then whipped cream, and put the other cake on top.",
+    "Dust with powdered sugar."
+   ]
+  },
+  {
+   "id": "swiss-roll",
+   "name": "Swiss roll",
+   "aliases": [
+    "swiss roll",
+    "jelly roll",
+    "cake roll",
+    "roll cake",
+    "jam roll"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "1 hr 45 min",
+   "main": [
+    "egg",
+    "sugar",
+    "flour",
+    "jam",
+    "cream"
+   ],
+   "ingredients": [
+    "4 large eggs, at room temperature",
+    "1/2 cup (100 g) sugar",
+    "1 teaspoon vanilla extract",
+    "3/4 cup (95 g) all-purpose flour",
+    "1 teaspoon baking powder",
+    "Pinch of salt",
+    "Powdered sugar for the towel",
+    "1/2 cup (160 g) jam",
+    "1 cup (240 ml) heavy cream, whipped"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Line a 10 by 15 inch rimmed pan with greased parchment paper.",
+    "Beat the eggs and sugar for 5 minutes, until thick and pale. Beat in the vanilla.",
+    "Sift in the flour, baking powder and salt and fold gently.",
+    "Spread in the pan.",
+    "Bake for 8 to 10 minutes, until springy.",
+    "Dust a clean kitchen towel with powdered sugar and flip the hot cake onto it. Ask an adult to help.",
+    "Peel off the paper and roll the cake up in the towel from the short end.",
+    "Let cool rolled up for 1 hour.",
+    "Unroll, spread with jam and whipped cream, and roll it back up without the towel."
+   ]
+  },
+  {
+   "id": "gingerbread-cake",
+   "name": "Gingerbread cake",
+   "aliases": [
+    "gingerbread cake",
+    "gingerbread",
+    "ginger cake",
+    "molasses cake"
+   ],
+   "category": "Dessert",
+   "servings": 9,
+   "time": "1 hr 30 min",
+   "main": [
+    "molasses",
+    "flour",
+    "ginger",
+    "butter",
+    "egg"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "1/2 cup (100 g) sugar",
+    "1 large egg",
+    "1 cup (340 g) molasses",
+    "2 1/2 cups (315 g) all-purpose flour",
+    "1 1/2 teaspoons baking soda",
+    "1 teaspoon ground cinnamon",
+    "1 teaspoon ground ginger",
+    "1/2 teaspoon ground cloves",
+    "1/2 teaspoon salt",
+    "1 cup (240 ml) hot water"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 9 inch pan.",
+    "Beat the butter and sugar, then beat in the egg and molasses.",
+    "Whisk the flour, baking soda, spices and salt in another bowl.",
+    "Stir the flour mix into the molasses mix.",
+    "Carefully stir in the hot water until smooth.",
+    "Pour into the pan.",
+    "Bake for 50 to 60 minutes, until a toothpick comes out clean.",
+    "Let cool for 20 minutes. Serve with whipped cream."
+   ]
+  },
+  {
+   "id": "apple-cake",
+   "name": "Apple cake",
+   "aliases": [
+    "apple cake",
+    "fresh apple cake",
+    "apfelkuchen",
+    "cinnamon apple cake"
+   ],
+   "category": "Dessert",
+   "servings": 9,
+   "time": "1 hr 20 min",
+   "main": [
+    "apples",
+    "flour",
+    "butter",
+    "sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1 teaspoon ground cinnamon",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1/3 cup (80 ml) milk",
+    "2 medium apples, peeled and thinly sliced",
+    "Topping: 1 tablespoon sugar mixed with 1/2 teaspoon cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 inch round or square pan.",
+    "Peel, core and slice the apples. Ask an adult to help with the knife.",
+    "Beat the butter and sugar, then beat in the eggs and vanilla.",
+    "Stir in the flour, baking powder, cinnamon and salt, then the milk.",
+    "Spread the batter in the pan and press the apple slices into the top in circles.",
+    "Sprinkle with the cinnamon sugar.",
+    "Bake for 45 to 50 minutes, until golden and a toothpick comes out clean.",
+    "Let cool for 20 minutes before slicing."
+   ]
+  },
+  {
+   "id": "olive-oil-cake",
+   "name": "Orange olive oil cake",
+   "aliases": [
+    "olive oil cake",
+    "orange olive oil cake",
+    "italian olive oil cake",
+    "orange cake"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "1 hr 15 min",
+   "main": [
+    "olive oil",
+    "flour",
+    "sugar",
+    "egg",
+    "orange"
+   ],
+   "ingredients": [
+    "1 3/4 cups (220 g) all-purpose flour",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "3 large eggs",
+    "1 cup (200 g) sugar",
+    "Zest of 1 orange",
+    "3/4 cup (180 ml) mild olive oil",
+    "3/4 cup (180 ml) milk",
+    "2 tablespoons orange juice",
+    "Powdered sugar for dusting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 inch round pan and line the bottom with parchment paper.",
+    "Whisk the eggs, sugar and zest for 2 minutes, until pale.",
+    "Whisk in the olive oil, milk and orange juice.",
+    "Stir in the flour, baking powder and salt until smooth.",
+    "Pour into the pan.",
+    "Bake for 40 to 45 minutes, until golden and a toothpick comes out clean.",
+    "Let cool for 20 minutes, then dust with powdered sugar."
+   ]
+  },
+  {
+   "id": "hot-fudge-pudding-cake",
+   "name": "Hot fudge pudding cake",
+   "aliases": [
+    "hot fudge pudding cake",
+    "chocolate pudding cake",
+    "self saucing pudding",
+    "fudge pudding cake",
+    "chocolate self saucing pudding"
+   ],
+   "category": "Dessert",
+   "servings": 9,
+   "time": "1 hr",
+   "main": [
+    "flour",
+    "cocoa",
+    "sugar",
+    "brown sugar",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (125 g) all-purpose flour",
+    "3/4 cup (150 g) sugar",
+    "2 tablespoons unsweetened cocoa powder",
+    "2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (120 ml) milk",
+    "2 tablespoons vegetable oil",
+    "1 teaspoon vanilla extract",
+    "Topping: 1 cup (220 g) packed brown sugar and 1/4 cup (20 g) cocoa",
+    "1 3/4 cups (420 ml) very hot water"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Stir the flour, sugar, cocoa, baking powder and salt in an ungreased 9 by 9 inch pan.",
+    "Stir in the milk, oil and vanilla, then spread it flat.",
+    "Sprinkle the brown sugar and cocoa topping evenly over the batter.",
+    "Carefully pour the hot water over the top. Do not stir. Ask an adult to help.",
+    "Bake for 40 minutes, until the top looks like cake. The sauce forms underneath.",
+    "Let cool for 15 minutes, then spoon into bowls with the sauce. Great with ice cream."
+   ]
+  },
+  {
+   "id": "cherry-dump-cake",
+   "name": "Cherry pineapple dump cake",
+   "aliases": [
+    "dump cake",
+    "cherry dump cake",
+    "pineapple dump cake",
+    "cherry pineapple dump cake"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr",
+   "main": [
+    "cake mix",
+    "cherry pie filling",
+    "pineapple",
+    "butter"
+   ],
+   "ingredients": [
+    "1 can (20 oz / 567 g) crushed pineapple with its juice",
+    "1 can (21 oz / 595 g) cherry pie filling",
+    "1 box (15.25 oz / 432 g) yellow cake mix, dry",
+    "3/4 cup (170 g) butter, melted"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Spread the pineapple and juice in a 9 by 13 inch pan.",
+    "Spoon the cherry pie filling over it.",
+    "Sprinkle the dry cake mix evenly on top. Do not stir.",
+    "Drizzle the melted butter all over the cake mix so most of it is wet.",
+    "Bake for 45 to 50 minutes, until golden and bubbly.",
+    "Let cool for 15 minutes. Serve warm with ice cream."
+   ]
+  },
+  {
+   "id": "basbousa",
+   "name": "Basbousa",
+   "aliases": [
+    "basbousa",
+    "semolina cake",
+    "revani",
+    "harissa cake",
+    "namoura"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr 45 min",
+   "main": [
+    "semolina",
+    "yogurt",
+    "coconut",
+    "sugar",
+    "butter"
+   ],
+   "ingredients": [
+    "1 cup (170 g) fine semolina",
+    "1/2 cup (40 g) unsweetened shredded coconut",
+    "1/2 cup (100 g) sugar",
+    "1 teaspoon baking powder",
+    "1/2 cup (120 g) plain yogurt",
+    "1/2 cup (115 g) butter, melted",
+    "1/4 cup (60 ml) milk",
+    "16 blanched almonds",
+    "Syrup: 1 cup (200 g) sugar, 3/4 cup (180 ml) water, 1 teaspoon lemon juice"
+   ],
+   "steps": [
+    "Simmer the syrup ingredients for 10 minutes, then let cool. Ask an adult to help.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease an 8 by 8 inch pan.",
+    "Mix the semolina, coconut, sugar and baking powder.",
+    "Stir in the yogurt, melted butter and milk. It will be thick.",
+    "Spread it in the pan, cut it into 16 diamonds or squares and press an almond into each.",
+    "Bake for 30 to 35 minutes, until golden brown.",
+    "Pour the cool syrup over the hot cake right away.",
+    "Let rest for 1 hour so it soaks in, then cut along the lines."
+   ]
+  },
+  {
+   "id": "coconut-cake",
+   "name": "Coconut cake",
+   "aliases": [
+    "coconut cake",
+    "coconut sheet cake",
+    "coconut cream cake",
+    "coconut layer cake"
+   ],
+   "category": "Dessert",
+   "servings": 15,
+   "time": "2 hr",
+   "main": [
+    "coconut milk",
+    "coconut",
+    "flour",
+    "butter",
+    "egg"
+   ],
+   "ingredients": [
+    "2 1/4 cups (280 g) all-purpose flour",
+    "2 1/2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "3/4 cup (170 g) butter, softened",
+    "1 1/2 cups (300 g) sugar",
+    "3 large eggs",
+    "1 teaspoon vanilla extract",
+    "1 cup (240 ml) canned coconut milk, stirred",
+    "1 batch cream cheese frosting",
+    "1 1/2 cups (115 g) sweetened shredded coconut"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 13 inch pan.",
+    "Beat the butter and sugar until fluffy, then beat in the eggs and vanilla.",
+    "Mix in the flour, baking powder and salt in turns with the coconut milk.",
+    "Spread in the pan.",
+    "Bake for 30 to 35 minutes, until a toothpick comes out clean.",
+    "Let cool for 1 hour.",
+    "Spread the frosting on top and press the shredded coconut all over it."
+   ]
+  },
+  {
+   "id": "marble-cake",
+   "name": "Marble cake",
+   "aliases": [
+    "marble cake",
+    "marble loaf",
+    "chocolate vanilla cake",
+    "zebra cake",
+    "swirl cake"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "egg",
+    "cocoa"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (120 ml) milk",
+    "2 tablespoons cocoa powder mixed with 2 tablespoons milk"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease and line a 9 by 5 inch loaf pan.",
+    "Beat the butter and sugar, then beat in the eggs and vanilla.",
+    "Stir in the flour, baking powder and salt in turns with the milk.",
+    "Spoon half the batter into another bowl and stir in the cocoa mix.",
+    "Drop spoonfuls of both batters into the pan, then swirl once with a knife.",
+    "Bake for 50 to 55 minutes, until a toothpick comes out clean.",
+    "Let cool for 15 minutes in the pan, then on a rack."
+   ]
+  },
+  {
+   "id": "pavlova",
+   "name": "Pavlova",
+   "aliases": [
+    "pavlova",
+    "pav",
+    "meringue cake",
+    "berry pavlova"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "3 hr",
+   "main": [
+    "egg white",
+    "sugar",
+    "cream",
+    "berries"
+   ],
+   "ingredients": [
+    "4 large egg whites, at room temperature",
+    "1 cup (200 g) sugar",
+    "1 teaspoon white vinegar",
+    "1 teaspoon cornstarch",
+    "1 teaspoon vanilla extract",
+    "1 cup (240 ml) heavy cream, whipped",
+    "2 cups fresh berries and kiwi slices"
+   ],
+   "steps": [
+    "Heat the oven to 250°F (120°C). Ask an adult to help.",
+    "Draw an 8 inch circle on parchment paper and put it upside down on a baking sheet.",
+    "Beat the egg whites until soft peaks form.",
+    "Add the sugar 1 tablespoon at a time while beating, until stiff and glossy.",
+    "Beat in the vinegar, cornstarch and vanilla.",
+    "Spread inside the circle, making the edges a little higher than the middle.",
+    "Bake for 1 hour 15 minutes, until crisp outside.",
+    "Turn off the oven and leave it inside with the door shut for 1 hour.",
+    "Just before serving, top with whipped cream and fruit."
+   ]
+  },
+  {
+   "id": "cream-puffs",
+   "name": "Cream puffs",
+   "aliases": [
+    "cream puffs",
+    "cream puff",
+    "profiteroles",
+    "choux buns",
+    "choux pastry"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 30 min",
+   "main": [
+    "flour",
+    "butter",
+    "egg",
+    "water",
+    "cream"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) water",
+    "1/4 cup (55 g) butter",
+    "Pinch of salt",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 large eggs",
+    "Filling: 1 cup (240 ml) heavy cream, 2 tablespoons powdered sugar, 1/2 teaspoon vanilla",
+    "Powdered sugar or melted chocolate for the tops"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Bring the water, butter and salt to a boil in a pot. Ask an adult to help.",
+    "Dump in the flour and stir hard for 1 minute, until it forms a ball.",
+    "Take it off the heat and let cool for 5 minutes.",
+    "Beat in the eggs one at a time until the dough is smooth and glossy.",
+    "Drop 12 mounds onto a lined baking sheet.",
+    "Bake for 25 to 30 minutes, until puffed and deep golden. Do not open the oven early or they collapse.",
+    "Poke a small hole in each and let cool for 30 minutes.",
+    "Whip the filling until stiff, cut the puffs in half and fill them.",
+    "Dust with powdered sugar or dip the tops in melted chocolate."
+   ]
+  },
+  {
+   "id": "churros",
+   "name": "Churros",
+   "aliases": [
+    "churros",
+    "churro",
+    "spanish churros",
+    "mexican churros",
+    "cinnamon sugar churros"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "flour",
+    "water",
+    "sugar",
+    "cinnamon",
+    "oil"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) water",
+    "2 tablespoons sugar",
+    "1/2 teaspoon salt",
+    "2 tablespoons vegetable oil",
+    "1 cup (125 g) all-purpose flour",
+    "Vegetable oil for frying",
+    "Coating: 1/2 cup (100 g) sugar mixed with 1 teaspoon ground cinnamon"
+   ],
+   "steps": [
+    "An adult should do the frying. Hot oil is dangerous.",
+    "Bring the water, sugar, salt and 2 tablespoons oil to a boil in a pot.",
+    "Take it off the heat, add the flour and stir until it forms a smooth ball.",
+    "Let cool for 5 minutes, then spoon it into a piping bag with a big star tip.",
+    "Heat 2 inches of oil in a deep pot to 375°F (190°C).",
+    "Pipe 5 inch strips into the oil and cut them off with scissors.",
+    "Fry for 2 to 3 minutes, turning once, until golden.",
+    "Drain on paper towels for 1 minute, then roll in the cinnamon sugar."
+   ]
+  },
+  {
+   "id": "strawberry-mochi",
+   "name": "Strawberry mochi",
+   "aliases": [
+    "mochi",
+    "strawberry mochi",
+    "ichigo daifuku",
+    "daifuku",
+    "microwave mochi"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "glutinous rice flour",
+    "sugar",
+    "strawberries",
+    "red bean paste"
+   ],
+   "ingredients": [
+    "1 cup (150 g) glutinous rice flour (mochiko)",
+    "1/4 cup (50 g) sugar",
+    "3/4 cup (180 ml) water",
+    "Cornstarch for dusting",
+    "8 small strawberries, hulled",
+    "1/2 cup (140 g) sweet red bean paste"
+   ],
+   "steps": [
+    "Wrap each strawberry in about 1 tablespoon of red bean paste, leaving the tip showing.",
+    "Whisk the rice flour, sugar and water in a microwave-safe bowl until smooth.",
+    "Cover and microwave for 1 minute, then stir with a wet spatula.",
+    "Microwave for 1 minute more, stir, then 30 seconds more, until thick and see-through.",
+    "Dust the counter with cornstarch and tip the hot dough onto it. It is very hot, so let it cool for 5 minutes.",
+    "Cut into 8 pieces with a dusted knife.",
+    "Flatten each piece, wrap it around a strawberry and pinch it closed.",
+    "Eat the same day."
+   ]
+  },
+  {
+   "id": "strawberry-poke-cake",
+   "name": "Strawberry poke cake",
+   "aliases": [
+    "poke cake",
+    "strawberry poke cake",
+    "jello poke cake",
+    "jello cake"
+   ],
+   "category": "Dessert",
+   "servings": 15,
+   "time": "4 hr 45 min",
+   "main": [
+    "cake mix",
+    "strawberry gelatin",
+    "whipped topping"
+   ],
+   "ingredients": [
+    "1 box (15.25 oz / 432 g) white cake mix, plus the eggs, oil and water on the box",
+    "1 box (3 oz / 85 g) strawberry gelatin",
+    "1 cup (240 ml) boiling water",
+    "1/2 cup (120 ml) cold water",
+    "8 oz (225 g) frozen whipped topping, thawed",
+    "Fresh strawberries to top"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Make and bake the cake in a 9 by 13 inch pan following the box. Let cool for 20 minutes.",
+    "Poke holes all over the cake with a fork or the handle of a wooden spoon.",
+    "Stir the gelatin into the boiling water for 2 minutes, until dissolved. Ask an adult to help.",
+    "Stir in the cold water.",
+    "Slowly pour the gelatin over the cake so it fills the holes.",
+    "Chill for 3 hours.",
+    "Spread the whipped topping over the cake and add sliced strawberries."
+   ]
+  },
+  {
+   "id": "icebox-cake",
+   "name": "Chocolate icebox cake",
+   "aliases": [
+    "icebox cake",
+    "ice box cake",
+    "chocolate wafer cake",
+    "no bake icebox cake"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "6 hr 20 min",
+   "main": [
+    "chocolate wafers",
+    "cream",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "2 1/2 cups (600 ml) cold heavy cream",
+    "1/3 cup (40 g) powdered sugar",
+    "1 teaspoon vanilla extract",
+    "1 package (9 oz / 255 g) thin chocolate wafer cookies",
+    "Chocolate shavings or berries to top"
+   ],
+   "steps": [
+    "Whip the cream, powdered sugar and vanilla until stiff peaks form.",
+    "Spread a little cream on a plate.",
+    "Spread a spoonful of cream on each wafer and stack them in a long log on its side on the plate.",
+    "Cover the whole log with the rest of the cream.",
+    "Chill for 6 hours. The wafers soften into cake.",
+    "Top with shavings or berries and cut slices at an angle."
+   ]
+  },
+  {
+   "id": "fruit-pizza",
+   "name": "Fruit pizza",
+   "aliases": [
+    "fruit pizza",
+    "sugar cookie fruit pizza",
+    "fruit tart pizza",
+    "cookie pizza"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 20 min",
+   "main": [
+    "butter",
+    "flour",
+    "sugar",
+    "cream cheese",
+    "fruit"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "Topping: 8 oz (225 g) cream cheese, softened, 1/2 cup (60 g) powdered sugar, 1 teaspoon vanilla",
+    "3 cups sliced fruit like strawberries, kiwi, blueberries and mandarin oranges"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter and sugar, then the egg and vanilla. Stir in the flour, baking powder and salt.",
+    "Press the dough into a 12 inch round pizza pan.",
+    "Bake for 15 to 18 minutes, until light golden. Let cool for 45 minutes.",
+    "Beat the cream cheese, powdered sugar and vanilla until smooth.",
+    "Spread it over the cookie crust.",
+    "Arrange the fruit on top in circles.",
+    "Cut into wedges with a pizza cutter."
+   ]
+  },
+  {
+   "id": "cookies-and-cream-cupcakes",
+   "name": "Cookies and cream cupcakes",
+   "aliases": [
+    "cookies and cream cupcakes",
+    "oreo cupcakes",
+    "cookies n cream cupcakes",
+    "cookie cupcakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 20 min",
+   "main": [
+    "chocolate sandwich cookies",
+    "flour",
+    "butter",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "17 chocolate sandwich cookies",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1/2 cup (120 ml) milk",
+    "Frosting: 1/2 cup (115 g) butter, 2 cups (240 g) powdered sugar, 2 tablespoons milk, 5 crushed cookies"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line a muffin pan with 12 liners and put a whole cookie in the bottom of each.",
+    "Crush 5 more cookies into crumbs for the frosting.",
+    "Beat the butter and sugar, then beat in the eggs and vanilla.",
+    "Mix in the flour, baking powder and salt in turns with the milk.",
+    "Fill the liners 2/3 full over the cookies.",
+    "Bake for 18 to 20 minutes, until a toothpick comes out clean.",
+    "Let cool for 1 hour.",
+    "Beat the frosting butter, sugar and milk, stir in the crumbs, and frost."
+   ]
+  },
+  {
+   "id": "vanilla-buttercream",
+   "name": "Vanilla buttercream frosting",
+   "aliases": [
+    "buttercream",
+    "vanilla buttercream",
+    "buttercream frosting",
+    "vanilla frosting",
+    "frosting"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "10 min",
+   "main": [
+    "butter",
+    "powdered sugar",
+    "milk",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "4 cups (480 g) powdered sugar",
+    "3 to 4 tablespoons milk or cream",
+    "2 teaspoons vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Beat the butter for 2 minutes, until pale and creamy.",
+    "Add the powdered sugar 1 cup at a time on low speed.",
+    "Add the milk, vanilla and salt.",
+    "Beat on high for 3 minutes, until light and fluffy.",
+    "Add more milk to make it softer or more sugar to make it stiffer. This frosts 24 cupcakes or a 2 layer cake."
+   ]
+  },
+  {
+   "id": "chocolate-frosting",
+   "name": "Chocolate frosting",
+   "aliases": [
+    "chocolate frosting",
+    "chocolate buttercream",
+    "chocolate icing",
+    "fudge frosting"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "10 min",
+   "main": [
+    "butter",
+    "powdered sugar",
+    "cocoa",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "3 1/2 cups (420 g) powdered sugar",
+    "3/4 cup (65 g) unsweetened cocoa powder",
+    "1/4 cup (60 ml) milk",
+    "2 teaspoons vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Beat the butter until creamy.",
+    "Sift the powdered sugar and cocoa together so there are no lumps.",
+    "Add the sugar mix a little at a time with the milk, beating on low.",
+    "Add the vanilla and salt.",
+    "Beat on high for 2 minutes, until fluffy."
+   ]
+  },
+  {
+   "id": "cream-cheese-frosting",
+   "name": "Cream cheese frosting",
+   "aliases": [
+    "cream cheese frosting",
+    "cream cheese icing",
+    "cheese frosting"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "10 min",
+   "main": [
+    "cream cheese",
+    "butter",
+    "powdered sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "8 oz (225 g) cream cheese, softened",
+    "1/2 cup (115 g) butter, softened",
+    "3 cups (360 g) powdered sugar",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Beat the cream cheese and butter until smooth.",
+    "Add the powdered sugar a little at a time on low.",
+    "Beat in the vanilla and salt until fluffy. Do not overbeat or it gets runny.",
+    "Keep anything frosted with it in the fridge."
+   ]
+  },
+  {
+   "id": "whipped-cream",
+   "name": "Whipped cream",
+   "aliases": [
+    "whipped cream",
+    "homemade whipped cream",
+    "whipping cream",
+    "chantilly cream",
+    "whipped topping"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "10 min",
+   "main": [
+    "heavy cream",
+    "powdered sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) cold heavy cream",
+    "2 tablespoons powdered sugar",
+    "1/2 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Chill the bowl and beaters in the freezer for 10 minutes.",
+    "Pour in the cream, powdered sugar and vanilla.",
+    "Beat on medium high for 2 to 3 minutes, until soft peaks form.",
+    "Stop as soon as it holds its shape. Too much beating turns it into butter."
+   ]
+  },
+  {
+   "id": "royal-icing",
+   "name": "Royal icing",
+   "aliases": [
+    "royal icing",
+    "cookie icing",
+    "decorating icing",
+    "icing for cookies"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "10 min",
+   "main": [
+    "powdered sugar",
+    "meringue powder",
+    "water"
+   ],
+   "ingredients": [
+    "4 cups (480 g) powdered sugar",
+    "3 tablespoons meringue powder",
+    "6 to 9 tablespoons warm water",
+    "Gel food coloring"
+   ],
+   "steps": [
+    "Use meringue powder instead of raw egg whites so it is safe to eat.",
+    "Beat the powdered sugar, meringue powder and 6 tablespoons water on low for 5 minutes, until glossy and stiff.",
+    "Add water a teaspoon at a time to thin it for flooding cookies.",
+    "Tint with gel coloring.",
+    "Keep it covered with a damp towel. It dries hard in about 6 hours."
+   ]
+  },
+  {
+   "id": "powdered-sugar-glaze",
+   "name": "Powdered sugar glaze",
+   "aliases": [
+    "powdered sugar glaze",
+    "sugar glaze",
+    "simple icing",
+    "vanilla glaze",
+    "glaze icing"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "5 min",
+   "main": [
+    "powdered sugar",
+    "milk",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 cup (120 g) powdered sugar",
+    "1 1/2 to 2 tablespoons milk or lemon juice",
+    "1/2 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Put the powdered sugar in a bowl.",
+    "Stir in the milk a little at a time with the vanilla until smooth and thick but pourable.",
+    "Drizzle over cakes, cinnamon rolls or cookies.",
+    "Let set for 15 minutes."
+   ]
+  }
+ ]
+}

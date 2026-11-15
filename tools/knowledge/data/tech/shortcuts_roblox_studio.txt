@@ -1,0 +1,17 @@
+# tag: tech.shortcuts.roblox-studio
+what is the move tool shortcut in roblox studio | ctrl 2 roblox studio => Press Ctrl + 2 for the Move tool in Roblox Studio. Ctrl + 1 is Select, Ctrl + 3 is Scale and Ctrl + 4 is Rotate.
+how do i duplicate a part in roblox studio | ctrl d roblox => Select the part and press Ctrl + D (Command + D on Mac) to duplicate it in the same spot.
+how do i group parts into a model in roblox studio | ctrl g roblox => Select the parts and press Ctrl + G to group them into a Model. Ctrl + U ungroups it.
+how do i focus the camera on a part in roblox studio | f key roblox studio => Select the part and press F to zoom the camera to it.
+how do i move the camera in roblox studio | roblox studio camera controls => Hold the right mouse button to look around, use W A S D to move, E to go up and Q to go down. Scroll to zoom. Hold Shift to move slower.
+how do i playtest in roblox studio | f5 roblox studio => Press F5 to Play with your character, F8 to Run without a character, and Shift + F5 to stop.
+how do i rotate a part while dragging it | ctrl r roblox studio => While dragging a part, press Ctrl + R to turn it 90 degrees and Ctrl + T to tilt it 90 degrees.
+how do i switch between local and world space in roblox studio | ctrl l roblox => Press Ctrl + L to switch the move and rotate handles between local (the part's own) and world directions.
+how do i rename something in the roblox explorer | f2 roblox studio => Select the item in the Explorer and press F2, type the new name and press Enter.
+how do i paste a part into another object in studio | ctrl shift v roblox => Copy the item, select where it should go in the Explorer, and press Ctrl + Shift + V to Paste Into it.
+how do i search all scripts in roblox studio | ctrl shift f roblox studio => Press Ctrl + Shift + F to Find All in your scripts, so you can search for a word in every script at once.
+how do i anchor a part in roblox studio | stop a part falling in roblox => Select the part and click Anchor in the toolbar, or tick Anchored in the Properties window. Anchored parts don't move or fall.
+how do i open the explorer and properties in roblox studio | properties window missing => Open the View tab (or Window menu in newer Studio) and click Explorer and Properties to show them again.
+how do i open the output window in roblox studio | see print messages studio => Open the View tab (or Window menu in newer Studio) and click Output. Your print() messages and errors show there.
+how do i change the grid snap in roblox studio | move part by smaller steps => In the Model tab set the Move studs and Rotate degrees boxes, or untick them to move freely.
+save to roblox studio menu | publish to roblox button => Click File, then Publish to Roblox, fill in the name and settings, and click Create. After that, File, Save to Roblox updates it.

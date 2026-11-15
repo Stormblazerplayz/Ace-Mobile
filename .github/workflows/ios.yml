@@ -354,6 +354,9 @@ jobs:
           echo "Using simulator $DEST"
           echo "dest=$DEST" >> "$GITHUB_OUTPUT"
 
+      - name: Type-check every Swift script
+        run: bash tools/scripts/check_swift.sh
+
       - name: Run the smartness test
         run: |
           set -o pipefail
@@ -397,7 +400,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
   scripts:
-    name: Script library check (Lua and C++)
+    name: Script library and knowledge check (Lua, C++, Python)
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -443,3 +446,13 @@ jobs:
 
       - name: Check every C++ program and Arduino sketch
         run: bash tools/scripts/check_cpp.sh
+
+      - name: Check every Python script
+        run: |
+          python3 -m pip install --quiet pyflakes regex
+          bash tools/scripts/check_python.sh
+
+      - name: Knowledge data is clean and the pack is up to date
+        run: |
+          python3 tools/knowledge/check_data.py
+          python3 tools/knowledge/build_knowledge.py --check

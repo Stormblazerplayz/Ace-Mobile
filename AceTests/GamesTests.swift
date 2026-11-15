@@ -17,7 +17,7 @@ final class GamesTests: XCTestCase {
     // MARK: Data
 
     func testDataIsComplete() {
-        XCTAssertEqual(Trivia.all.count, 200)
+        XCTAssertGreaterThanOrEqual(Trivia.all.count, 3000)
         XCTAssertEqual(Trivia.categories.count, 10)
         XCTAssertEqual(Set(Trivia.all.map(\.id)).count, Trivia.all.count, "Two trivia questions share an id")
         for q in Trivia.all {
@@ -26,10 +26,10 @@ final class GamesTests: XCTestCase {
             XCTAssertEqual(Set(q.choices.map { TextKit.normalize($0) }).count, 4, "\(q.id) has the same choice twice")
             XCTAssertFalse(q.fact.isEmpty, q.id)
         }
-        XCTAssertGreaterThanOrEqual(TwentyQuestions.builtIn.count, 100)
+        XCTAssertGreaterThanOrEqual(TwentyQuestions.builtIn.count, 1000)
         XCTAssertGreaterThanOrEqual(TwentyQuestions.questions.count, 30)
         XCTAssertEqual(Phrasebook.languages.count, 12)
-        XCTAssertGreaterThanOrEqual(Phrasebook.entries.count, 250)
+        XCTAssertGreaterThanOrEqual(Phrasebook.entries.count, 2000)
         for e in Phrasebook.entries {
             XCTAssertEqual(e.t.count, 12, "\(e.en) is missing a language")
         }
@@ -280,7 +280,8 @@ final class GamesTests: XCTestCase {
             brain.resetConversation()
         }
         print("20 QUESTIONS: won \(wins)/\(TwentyQuestions.builtIn.count), missed \(missed)")
-        XCTAssertGreaterThanOrEqual(wins, TwentyQuestions.builtIn.count - 5)
+        // With over a thousand things, a few near twins (like two kinds of bird) can't all be told apart in 20 questions.
+        XCTAssertGreaterThanOrEqual(Double(wins), Double(TwentyQuestions.builtIn.count) * 0.95)
     }
 
     func testTwentyQuestionsLearns() throws {

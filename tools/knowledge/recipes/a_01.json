@@ -1,0 +1,2002 @@
+{
+ "recipes": [
+  {
+   "id": "blueberry-pancakes",
+   "name": "Blueberry pancakes",
+   "aliases": [
+    "blueberry pancakes",
+    "blueberry pancake",
+    "berry pancakes",
+    "pancakes with blueberries"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "flour",
+    "egg",
+    "milk",
+    "blueberry"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "2 tablespoons sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1 1/4 cups (300 ml) milk",
+    "1 large egg",
+    "3 tablespoons (45 g) butter, melted, plus more for the pan",
+    "1 cup (150 g) fresh or frozen blueberries"
+   ],
+   "steps": [
+    "Whisk the flour, sugar, baking powder and salt in a big bowl.",
+    "In another bowl, whisk the milk, egg and melted butter.",
+    "Pour the wet mix into the dry mix and stir until just combined. A few lumps are fine.",
+    "Heat a frying pan over medium heat and melt a little butter in it.",
+    "Pour 1/4 cup of batter into the pan for each pancake.",
+    "Drop 6 to 8 blueberries onto each pancake right away.",
+    "Cook for 2 to 3 minutes, until bubbles pop on top.",
+    "Flip and cook for 1 to 2 minutes more, until golden.",
+    "Serve with maple syrup."
+   ]
+  },
+  {
+   "id": "banana-oat-pancakes",
+   "name": "Banana oat pancakes",
+   "aliases": [
+    "banana pancakes",
+    "banana oat pancakes",
+    "oat pancakes",
+    "healthy pancakes",
+    "banana pancake"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "20 min",
+   "main": [
+    "banana",
+    "oats",
+    "egg"
+   ],
+   "ingredients": [
+    "2 ripe bananas",
+    "2 large eggs",
+    "1 cup (90 g) rolled oats",
+    "1/2 teaspoon baking powder",
+    "1/2 teaspoon cinnamon",
+    "1 pinch salt",
+    "Butter or oil for the pan"
+   ],
+   "steps": [
+    "Put the bananas, eggs, oats, baking powder, cinnamon and salt in a blender.",
+    "Blend for 30 seconds, until smooth.",
+    "Let the batter rest for 5 minutes so the oats soften.",
+    "Heat a frying pan over medium-low heat and add a little butter.",
+    "Pour 3 tablespoons of batter into the pan for each pancake.",
+    "Cook for 2 to 3 minutes, until the edges look set.",
+    "Flip gently and cook for 1 to 2 minutes more.",
+    "Serve with sliced banana or yogurt."
+   ]
+  },
+  {
+   "id": "pumpkin-pancakes",
+   "name": "Pumpkin spice pancakes",
+   "aliases": [
+    "pumpkin pancakes",
+    "pumpkin spice pancakes",
+    "fall pancakes",
+    "pumpkin pancake"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "flour",
+    "pumpkin",
+    "egg",
+    "milk"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "3 tablespoons brown sugar",
+    "2 teaspoons baking powder",
+    "1 1/2 teaspoons pumpkin pie spice",
+    "1/2 teaspoon salt",
+    "1 cup (240 ml) milk",
+    "3/4 cup (180 g) canned pumpkin puree",
+    "1 large egg",
+    "2 tablespoons (30 g) butter, melted, plus more for the pan"
+   ],
+   "steps": [
+    "Whisk the flour, brown sugar, baking powder, spice and salt in a big bowl.",
+    "In another bowl, whisk the milk, pumpkin, egg and melted butter.",
+    "Stir the wet mix into the dry mix until just combined. The batter is thick.",
+    "Heat a frying pan over medium-low heat and melt a little butter in it.",
+    "Scoop 1/4 cup of batter into the pan for each pancake and spread it a little.",
+    "Cook for 3 minutes, until the edges look dry.",
+    "Flip and cook for 2 minutes more, until cooked through.",
+    "Serve with maple syrup and a little whipped cream."
+   ]
+  },
+  {
+   "id": "dutch-baby",
+   "name": "Dutch baby pancake",
+   "aliases": [
+    "dutch baby",
+    "dutch baby pancake",
+    "german pancake",
+    "puffed pancake",
+    "oven pancake",
+    "baked pancake"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "egg",
+    "flour",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "3 large eggs",
+    "2/3 cup (160 ml) milk",
+    "2/3 cup (85 g) all-purpose flour",
+    "1 tablespoon sugar",
+    "1/4 teaspoon salt",
+    "1/2 teaspoon vanilla extract",
+    "3 tablespoons (45 g) butter",
+    "Powdered sugar and lemon wedges to serve"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C) with a 10 inch cast iron pan inside. Ask an adult to help.",
+    "Blend the eggs, milk, flour, sugar, salt and vanilla for 30 seconds, until smooth.",
+    "Have an adult take the hot pan out with oven mitts.",
+    "Add the butter and swirl until it melts and coats the pan.",
+    "Pour in the batter right away.",
+    "Bake for 18 to 20 minutes, until puffed and golden brown. Don't open the oven early.",
+    "Dust with powdered sugar and squeeze lemon on top. It will sink as it cools, that's normal."
+   ]
+  },
+  {
+   "id": "crepes",
+   "name": "French crepes",
+   "aliases": [
+    "crepes",
+    "crepe",
+    "french crepes",
+    "thin pancakes",
+    "sweet crepes"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "egg",
+    "flour",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "1 cup (125 g) all-purpose flour",
+    "2 large eggs",
+    "1 1/4 cups (300 ml) milk",
+    "1/4 cup (60 ml) water",
+    "2 tablespoons (30 g) butter, melted, plus more for the pan",
+    "1 tablespoon sugar",
+    "1 pinch salt",
+    "Fillings like strawberries, banana, chocolate hazelnut spread or lemon and sugar"
+   ],
+   "steps": [
+    "Blend or whisk the flour, eggs, milk, water, melted butter, sugar and salt until smooth.",
+    "Let the batter rest for 15 minutes.",
+    "Heat an 8 inch nonstick pan over medium heat and brush it with butter.",
+    "Pour in 1/4 cup of batter and quickly tilt the pan so it covers the bottom in a thin layer.",
+    "Cook for 1 to 2 minutes, until the edges lift and the bottom has light brown spots.",
+    "Loosen with a spatula, flip and cook for 30 seconds more.",
+    "Stack the crepes on a plate and repeat with the rest of the batter.",
+    "Fill, fold into triangles or roll up, and serve."
+   ]
+  },
+  {
+   "id": "baked-french-toast",
+   "name": "Baked French toast casserole",
+   "aliases": [
+    "baked french toast",
+    "french toast casserole",
+    "french toast bake",
+    "overnight french toast"
+   ],
+   "category": "Breakfast",
+   "servings": 8,
+   "time": "1 hr",
+   "main": [
+    "bread",
+    "egg",
+    "milk",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 loaf (1 lb / 450 g) brioche or French bread, cut in 1 inch cubes",
+    "8 large eggs",
+    "2 1/2 cups (600 ml) milk",
+    "1/2 cup (100 g) brown sugar, divided",
+    "2 teaspoons vanilla extract",
+    "2 teaspoons cinnamon",
+    "1/4 teaspoon salt",
+    "3 tablespoons (45 g) butter, melted",
+    "Maple syrup to serve"
+   ],
+   "steps": [
+    "Butter a 9 by 13 inch baking dish and spread the bread cubes in it.",
+    "Whisk the eggs, milk, 1/4 cup of the brown sugar, vanilla, 1 teaspoon cinnamon and salt.",
+    "Pour the egg mix over the bread and press down so it all soaks.",
+    "Cover and chill for at least 30 minutes, or overnight.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Mix the melted butter, the rest of the brown sugar and the rest of the cinnamon and drizzle it over the top.",
+    "Bake for 40 to 45 minutes, until puffed, golden and set in the middle.",
+    "Let it stand for 5 minutes, then serve with maple syrup."
+   ]
+  },
+  {
+   "id": "air-fryer-french-toast-sticks",
+   "name": "Air fryer French toast sticks",
+   "aliases": [
+    "french toast sticks",
+    "french toast fingers",
+    "air fryer french toast",
+    "french toast dippers"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "bread",
+    "egg",
+    "milk",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "4 thick slices of bread",
+    "2 large eggs",
+    "1/2 cup (120 ml) milk",
+    "1 tablespoon sugar",
+    "1/2 teaspoon cinnamon",
+    "1/2 teaspoon vanilla extract",
+    "Cooking spray",
+    "Maple syrup for dipping"
+   ],
+   "steps": [
+    "Cut each slice of bread into 3 sticks. Ask an adult to help.",
+    "Whisk the eggs, milk, sugar, cinnamon and vanilla in a shallow dish.",
+    "Heat the air fryer to 370°F (190°C) for 3 minutes.",
+    "Dip each stick in the egg mix for a second on each side. Don't let it get soggy.",
+    "Spray the basket and lay the sticks in one layer.",
+    "Air fry for 5 minutes.",
+    "Flip, spray the tops and air fry for 3 to 4 minutes more, until golden.",
+    "Serve with maple syrup for dipping."
+   ]
+  },
+  {
+   "id": "fried-eggs",
+   "name": "Fried eggs",
+   "aliases": [
+    "fried egg",
+    "fried eggs",
+    "sunny side up",
+    "over easy eggs",
+    "over easy",
+    "sunny side up eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "2 to 4 large eggs",
+    "1 tablespoon (15 g) butter or oil",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Heat a nonstick pan over medium-low heat and melt the butter.",
+    "Crack each egg into a small cup first, then slide it into the pan.",
+    "Cook for 2 to 3 minutes, until the whites are set and the yolk is still runny. That's sunny side up.",
+    "For over easy, flip gently with a spatula and cook for 30 seconds more.",
+    "For over hard, flip and cook for 1 to 2 minutes, until the yolk is firm.",
+    "Sprinkle with salt and pepper and serve."
+   ]
+  },
+  {
+   "id": "hard-boiled-eggs",
+   "name": "Hard boiled eggs",
+   "aliases": [
+    "hard boiled eggs",
+    "hard boiled egg",
+    "boiled eggs",
+    "boiled egg",
+    "hardboiled eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "egg",
+    "salt"
+   ],
+   "ingredients": [
+    "6 large eggs",
+    "Water",
+    "Ice",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Put the eggs in a pot in one layer and cover them with cold water by 1 inch.",
+    "Bring to a boil over high heat.",
+    "Turn off the heat, put the lid on, and let them sit for 11 minutes.",
+    "While they sit, fill a bowl with ice and cold water.",
+    "Move the eggs into the ice water with a spoon. Ask an adult to help with the hot water.",
+    "Cool for 5 minutes.",
+    "Tap each egg on the counter, roll it to crack the shell, and peel under running water.",
+    "Keep peeled or unpeeled eggs in the fridge for up to 1 week."
+   ]
+  },
+  {
+   "id": "soft-boiled-eggs",
+   "name": "Soft boiled eggs with toast soldiers",
+   "aliases": [
+    "soft boiled eggs",
+    "soft boiled egg",
+    "dippy eggs",
+    "eggs and soldiers",
+    "runny eggs",
+    "jammy eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "bread",
+    "butter"
+   ],
+   "ingredients": [
+    "4 large eggs, straight from the fridge",
+    "4 slices of bread",
+    "Butter",
+    "Salt"
+   ],
+   "steps": [
+    "Bring a small pot of water to a gentle boil.",
+    "Lower the eggs in gently with a spoon. Ask an adult to help.",
+    "Boil for 6 minutes for runny yolks, or 7 minutes for jammy yolks.",
+    "Meanwhile, toast the bread, butter it and cut it into strips.",
+    "Move the eggs to a bowl of cold water for 1 minute.",
+    "Set each egg in an egg cup and tap off the top with a spoon.",
+    "Sprinkle with salt and dip in the toast strips."
+   ]
+  },
+  {
+   "id": "poached-eggs",
+   "name": "Poached eggs",
+   "aliases": [
+    "poached egg",
+    "poached eggs",
+    "how to poach an egg",
+    "egg poaching"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "vinegar"
+   ],
+   "ingredients": [
+    "4 very fresh large eggs",
+    "1 tablespoon white vinegar",
+    "Water",
+    "Salt and pepper",
+    "Buttered toast to serve"
+   ],
+   "steps": [
+    "Fill a wide pot with about 3 inches of water and bring it to a gentle simmer, with small bubbles only.",
+    "Add the vinegar.",
+    "Crack each egg into its own small cup.",
+    "Stir the water to make a gentle swirl and slide one egg into the middle.",
+    "Add the other eggs around the edge of the pot.",
+    "Cook for 3 to 4 minutes, until the whites are set and the yolks are soft.",
+    "Lift out each egg with a slotted spoon and let it drain on a paper towel. Ask an adult to help.",
+    "Serve on toast with salt and pepper."
+   ]
+  },
+  {
+   "id": "eggs-benedict",
+   "name": "Eggs Benedict",
+   "aliases": [
+    "eggs benedict",
+    "egg benedict",
+    "eggs benny",
+    "benedict eggs",
+    "hollandaise eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "egg",
+    "english muffin",
+    "ham",
+    "butter",
+    "lemon"
+   ],
+   "ingredients": [
+    "4 English muffins, split",
+    "8 slices Canadian bacon or ham",
+    "8 very fresh large eggs, plus 3 egg yolks for the sauce",
+    "1 tablespoon white vinegar",
+    "1/2 cup (115 g) butter",
+    "1 tablespoon lemon juice",
+    "1 pinch salt",
+    "1 pinch cayenne or paprika"
+   ],
+   "steps": [
+    "Melt the butter in the microwave for 45 seconds, until hot and bubbly.",
+    "Blend the egg yolks, lemon juice and salt for 5 seconds.",
+    "With the blender running, slowly pour in the hot butter until the sauce is thick. Ask an adult to help.",
+    "Brown the Canadian bacon in a frying pan over medium heat for 1 to 2 minutes per side.",
+    "Toast the English muffins.",
+    "Poach the eggs in simmering water with the vinegar for 3 to 4 minutes, until the whites are set.",
+    "Put bacon on each muffin half, then a poached egg.",
+    "Spoon the sauce over the top and sprinkle with cayenne."
+   ]
+  },
+  {
+   "id": "denver-omelette",
+   "name": "Denver omelette",
+   "aliases": [
+    "denver omelette",
+    "western omelette",
+    "denver omelet",
+    "western omelet",
+    "ham and pepper omelette"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "20 min",
+   "main": [
+    "egg",
+    "ham",
+    "pepper",
+    "onion",
+    "cheese"
+   ],
+   "ingredients": [
+    "4 large eggs",
+    "2 tablespoons milk",
+    "1/4 teaspoon salt",
+    "1 tablespoon (15 g) butter, divided",
+    "1/3 cup (50 g) diced ham",
+    "1/4 green bell pepper, diced",
+    "1/4 onion, diced",
+    "1/2 cup (50 g) shredded cheddar"
+   ],
+   "steps": [
+    "Dice the ham, pepper and onion. Ask an adult to help.",
+    "Whisk the eggs, milk and salt.",
+    "Melt half the butter in a nonstick pan over medium heat.",
+    "Cook the ham, pepper and onion for 3 to 4 minutes, until soft. Move them to a plate.",
+    "Melt the rest of the butter and pour in half the eggs.",
+    "Cook for 1 to 2 minutes, lifting the edges so runny egg flows under, until almost set.",
+    "Scatter half the filling and half the cheese over one side.",
+    "Fold the omelette in half and cook for 30 seconds more. Repeat for the second omelette."
+   ]
+  },
+  {
+   "id": "veggie-frittata",
+   "name": "Veggie frittata",
+   "aliases": [
+    "frittata",
+    "veggie frittata",
+    "vegetable frittata",
+    "egg bake",
+    "oven omelette"
+   ],
+   "category": "Breakfast",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "egg",
+    "spinach",
+    "pepper",
+    "cheese",
+    "potato"
+   ],
+   "ingredients": [
+    "10 large eggs",
+    "1/2 cup (120 ml) milk",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 tablespoon olive oil",
+    "1 small onion, chopped",
+    "1 red bell pepper, chopped",
+    "2 cups (60 g) baby spinach",
+    "1 cup (100 g) shredded cheddar or crumbled feta"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Chop the onion and pepper.",
+    "Whisk the eggs, milk, salt and pepper in a bowl.",
+    "Heat the oil in a 10 inch oven-safe pan over medium heat.",
+    "Cook the onion and pepper for 5 minutes, until soft.",
+    "Add the spinach and stir for 1 minute, until wilted.",
+    "Pour in the eggs and sprinkle the cheese on top.",
+    "Cook without stirring for 2 to 3 minutes, until the edges start to set.",
+    "Move the pan to the oven and bake for 12 to 15 minutes, until the middle is set.",
+    "Let it cool for 5 minutes, then slice into wedges. Use oven mitts, the handle is hot."
+   ]
+  },
+  {
+   "id": "shakshuka",
+   "name": "Shakshuka",
+   "aliases": [
+    "shakshuka",
+    "shakshouka",
+    "eggs in tomato sauce",
+    "eggs in purgatory",
+    "middle eastern eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "egg",
+    "tomato",
+    "pepper",
+    "onion"
+   ],
+   "ingredients": [
+    "2 tablespoons olive oil",
+    "1 onion, chopped",
+    "1 red bell pepper, chopped",
+    "3 garlic cloves, chopped",
+    "1 teaspoon ground cumin",
+    "1 teaspoon paprika",
+    "1 pinch chili flakes (optional)",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1/2 teaspoon salt",
+    "6 large eggs",
+    "Crumbled feta, chopped parsley and bread to serve"
+   ],
+   "steps": [
+    "Chop the onion, pepper and garlic. Ask an adult to help.",
+    "Heat the oil in a big pan over medium heat.",
+    "Cook the onion and pepper for 6 to 8 minutes, until soft.",
+    "Add the garlic and spices and cook for 1 minute.",
+    "Add the tomatoes and salt and simmer for 10 minutes, until a little thick.",
+    "Make 6 small wells in the sauce with a spoon and crack an egg into each.",
+    "Cover and cook on low for 6 to 8 minutes, until the whites are set.",
+    "Top with feta and parsley and serve with bread for dipping."
+   ]
+  },
+  {
+   "id": "huevos-rancheros",
+   "name": "Huevos rancheros",
+   "aliases": [
+    "huevos rancheros",
+    "ranch eggs",
+    "mexican breakfast eggs",
+    "rancheros"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "egg",
+    "tortilla",
+    "bean",
+    "tomato"
+   ],
+   "ingredients": [
+    "1 tablespoon vegetable oil, plus more for the eggs",
+    "1/2 onion, chopped",
+    "1 garlic clove, chopped",
+    "1 jalapeno, seeded and chopped (optional)",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "1/2 teaspoon ground cumin",
+    "1/2 teaspoon salt",
+    "1 can (15 oz / 425 g) refried beans",
+    "8 small corn tortillas",
+    "8 large eggs",
+    "Crumbled queso fresco, avocado and cilantro to serve"
+   ],
+   "steps": [
+    "Chop the onion, garlic and jalapeno. Ask an adult to help.",
+    "Heat the oil in a saucepan over medium heat and cook the onion for 4 minutes.",
+    "Add the garlic, jalapeno, tomatoes, cumin and salt and simmer for 10 minutes. This is the ranchero sauce.",
+    "Warm the refried beans in a small pot or the microwave.",
+    "Warm the tortillas in a dry pan for 30 seconds per side.",
+    "Fry the eggs in a little oil for 2 to 3 minutes, until the whites are set.",
+    "Put 2 tortillas on each plate, spread with beans and top with 2 eggs.",
+    "Spoon the sauce over and add queso fresco, avocado and cilantro."
+   ]
+  },
+  {
+   "id": "breakfast-burritos",
+   "name": "Breakfast burritos",
+   "aliases": [
+    "breakfast burrito",
+    "breakfast burritos",
+    "egg burrito",
+    "sausage egg burrito",
+    "freezer breakfast burritos"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "egg",
+    "tortilla",
+    "sausage",
+    "potato",
+    "cheese"
+   ],
+   "ingredients": [
+    "8 oz (225 g) breakfast sausage",
+    "2 cups (300 g) frozen diced hash brown potatoes",
+    "8 large eggs",
+    "1/4 cup (60 ml) milk",
+    "1/2 teaspoon salt",
+    "1 cup (100 g) shredded cheddar",
+    "4 large flour tortillas",
+    "Salsa to serve"
+   ],
+   "steps": [
+    "Cook the sausage in a big pan over medium heat for 6 to 8 minutes, breaking it up, until browned.",
+    "Add the potatoes and cook for 8 to 10 minutes, stirring, until crispy.",
+    "Whisk the eggs, milk and salt.",
+    "Push the sausage mix to one side and pour the eggs in the empty side.",
+    "Stir the eggs gently for 2 to 3 minutes, until just set, then mix everything together.",
+    "Warm the tortillas in the microwave for 20 seconds.",
+    "Fill each tortilla with the egg mix and cheese.",
+    "Fold in the sides and roll up tightly. Serve with salsa."
+   ]
+  },
+  {
+   "id": "potato-egg-breakfast-tacos",
+   "name": "Potato and egg breakfast tacos",
+   "aliases": [
+    "breakfast tacos",
+    "breakfast taco",
+    "potato and egg tacos",
+    "egg tacos",
+    "papas con huevo"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "egg",
+    "potato",
+    "tortilla",
+    "cheese"
+   ],
+   "ingredients": [
+    "2 medium potatoes, cut in 1/2 inch cubes",
+    "2 tablespoons vegetable oil",
+    "1/2 teaspoon salt, divided",
+    "1/4 teaspoon garlic powder",
+    "6 large eggs",
+    "8 small flour tortillas",
+    "1/2 cup (50 g) shredded cheese",
+    "Salsa to serve"
+   ],
+   "steps": [
+    "Cut the potatoes into small cubes. Ask an adult to help.",
+    "Heat the oil in a big nonstick pan over medium heat.",
+    "Add the potatoes, half the salt and the garlic powder.",
+    "Cover and cook for 10 to 12 minutes, stirring now and then, until soft and browned.",
+    "Whisk the eggs with the rest of the salt and pour them over the potatoes.",
+    "Stir gently for 2 to 3 minutes, until the eggs are just set.",
+    "Warm the tortillas in a dry pan for 20 seconds per side.",
+    "Fill each tortilla with the potato and egg, then add cheese and salsa."
+   ]
+  },
+  {
+   "id": "chilaquiles",
+   "name": "Chilaquiles rojos",
+   "aliases": [
+    "chilaquiles",
+    "chilaquiles rojos",
+    "red chilaquiles",
+    "tortilla chips with salsa and eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "tortilla chip",
+    "salsa",
+    "egg",
+    "cheese"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) red enchilada sauce or salsa roja",
+    "1/2 cup (120 ml) chicken or vegetable broth",
+    "8 oz (225 g) thick tortilla chips",
+    "4 large eggs",
+    "1 tablespoon vegetable oil",
+    "1/2 cup (60 g) crumbled queso fresco or cotija",
+    "1/4 cup (60 ml) sour cream or Mexican crema",
+    "1/4 onion, thinly sliced",
+    "Chopped cilantro"
+   ],
+   "steps": [
+    "Slice the onion. Ask an adult to help.",
+    "Warm the sauce and broth in a big pan over medium heat for 3 to 4 minutes, until simmering.",
+    "Add the chips and toss gently to coat.",
+    "Cook for 1 to 2 minutes, until the chips soften a little but still have some crunch.",
+    "In another pan, fry the eggs in the oil for 2 to 3 minutes, until the whites are set.",
+    "Spoon the chips onto plates and top each with a fried egg.",
+    "Add the cheese, crema, onion and cilantro. Eat right away."
+   ]
+  },
+  {
+   "id": "migas",
+   "name": "Tex-Mex migas",
+   "aliases": [
+    "migas",
+    "tex mex migas",
+    "eggs with tortilla strips",
+    "migas tacos"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "egg",
+    "tortilla",
+    "cheese",
+    "pepper"
+   ],
+   "ingredients": [
+    "4 small corn tortillas, cut in strips",
+    "2 tablespoons vegetable oil",
+    "1/2 onion, chopped",
+    "1 jalapeno, seeded and chopped (optional)",
+    "1 tomato, chopped",
+    "8 large eggs",
+    "1/2 teaspoon salt",
+    "3/4 cup (75 g) shredded Monterey Jack cheese",
+    "Salsa and warm tortillas to serve"
+   ],
+   "steps": [
+    "Cut the tortillas into strips and chop the vegetables. Ask an adult to help.",
+    "Heat the oil in a big nonstick pan over medium-high heat.",
+    "Fry the tortilla strips for 3 to 4 minutes, stirring, until crisp.",
+    "Add the onion and jalapeno and cook for 3 minutes.",
+    "Add the tomato and cook for 1 minute.",
+    "Whisk the eggs with the salt and pour them in.",
+    "Turn the heat to medium and stir gently for 2 to 3 minutes, until just set.",
+    "Sprinkle the cheese on top and serve with salsa or in warm tortillas."
+   ]
+  },
+  {
+   "id": "egg-muffin-cups",
+   "name": "Baked egg muffin cups",
+   "aliases": [
+    "egg muffins",
+    "egg muffin cups",
+    "egg bites",
+    "egg cups",
+    "baked egg cups",
+    "mini frittatas"
+   ],
+   "category": "Breakfast",
+   "servings": 12,
+   "time": "30 min",
+   "main": [
+    "egg",
+    "cheese",
+    "ham",
+    "pepper",
+    "spinach"
+   ],
+   "ingredients": [
+    "10 large eggs",
+    "1/4 cup (60 ml) milk",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 cup (150 g) diced ham or cooked crumbled bacon",
+    "1 cup (30 g) chopped spinach",
+    "1/2 red bell pepper, finely diced",
+    "1 cup (100 g) shredded cheddar",
+    "Cooking spray"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Spray a 12 cup muffin pan well.",
+    "Divide the ham, spinach, pepper and cheese between the cups.",
+    "Whisk the eggs, milk, salt and pepper and pour into the cups until each is 3/4 full.",
+    "Bake for 20 to 22 minutes, until puffed and set in the middle.",
+    "Cool for 5 minutes, then run a butter knife around each one and lift out.",
+    "Keep extras in the fridge for up to 4 days and microwave for 30 seconds to warm."
+   ]
+  },
+  {
+   "id": "egg-in-a-hole",
+   "name": "Egg in a hole",
+   "aliases": [
+    "egg in a hole",
+    "toad in the hole toast",
+    "egg in a basket",
+    "eggy in the hole",
+    "one eyed jack",
+    "hole in one egg"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "egg",
+    "bread",
+    "butter"
+   ],
+   "ingredients": [
+    "2 slices of bread",
+    "2 large eggs",
+    "2 tablespoons (30 g) butter",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Cut a 2 1/2 inch hole in the middle of each slice with a cup or cookie cutter.",
+    "Melt half the butter in a nonstick pan over medium heat.",
+    "Put the bread slices and the cut-out circles in the pan.",
+    "Crack an egg into each hole.",
+    "Cook for 2 to 3 minutes, until the bottom is golden and the egg white is mostly set.",
+    "Add the rest of the butter, flip carefully, and cook for 1 to 2 minutes more.",
+    "Sprinkle with salt and pepper and use the toasted circles for dipping."
+   ]
+  },
+  {
+   "id": "tamagoyaki",
+   "name": "Tamagoyaki Japanese rolled omelette",
+   "aliases": [
+    "tamagoyaki",
+    "japanese omelette",
+    "rolled omelette",
+    "tamago",
+    "dashimaki",
+    "japanese rolled egg"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "sugar",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "4 large eggs",
+    "1 tablespoon sugar",
+    "1 teaspoon soy sauce",
+    "1 tablespoon water",
+    "1 pinch salt",
+    "1 teaspoon vegetable oil"
+   ],
+   "steps": [
+    "Whisk the eggs, sugar, soy sauce, water and salt until smooth but not foamy.",
+    "Heat a nonstick pan (square if you have one) over medium-low heat and wipe it with oil on a paper towel.",
+    "Pour in a thin layer of egg and tilt the pan to cover the bottom.",
+    "Cook for 30 seconds to 1 minute, until just set on top.",
+    "Roll the egg from the far side toward you with chopsticks or a spatula.",
+    "Push the roll back to the far side, oil the pan again, and pour in another thin layer, lifting the roll so egg flows under it.",
+    "Roll it up again when set. Repeat until all the egg is used.",
+    "Let it rest for 2 minutes on a cutting board, then slice into thick pieces."
+   ]
+  },
+  {
+   "id": "korean-steamed-egg",
+   "name": "Korean steamed egg",
+   "aliases": [
+    "gyeran jjim",
+    "korean steamed egg",
+    "steamed egg",
+    "korean egg souffle",
+    "steamed eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "broth",
+    "green onion"
+   ],
+   "ingredients": [
+    "3 large eggs",
+    "3/4 cup (180 ml) water or chicken broth",
+    "1/4 teaspoon salt",
+    "1 green onion, thinly sliced",
+    "1/2 teaspoon sesame oil",
+    "Toasted sesame seeds"
+   ],
+   "steps": [
+    "Slice the green onion. Ask an adult to help.",
+    "Whisk the eggs, water and salt until smooth.",
+    "Pour into a small pot or earthenware bowl and set it over medium heat.",
+    "Stir gently for 2 to 3 minutes, until it starts to thicken like soft curds.",
+    "Stir in most of the green onion.",
+    "Turn the heat to low, cover with a lid and cook for 3 to 4 minutes, until puffed and set.",
+    "Drizzle with sesame oil, sprinkle with sesame seeds and the rest of the green onion. Serve with rice."
+   ]
+  },
+  {
+   "id": "masala-omelette",
+   "name": "Masala omelette",
+   "aliases": [
+    "masala omelette",
+    "indian omelette",
+    "masala omelet",
+    "spicy omelette",
+    "desi omelette"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "onion",
+    "tomato",
+    "chili"
+   ],
+   "ingredients": [
+    "4 large eggs",
+    "1/4 onion, finely chopped",
+    "1/2 small tomato, finely chopped",
+    "1 green chili, seeded and finely chopped (optional)",
+    "2 tablespoons chopped cilantro",
+    "1/4 teaspoon ground turmeric",
+    "1/4 teaspoon salt",
+    "1 pinch red chili powder",
+    "1 tablespoon vegetable oil or ghee"
+   ],
+   "steps": [
+    "Finely chop the onion, tomato, chili and cilantro. Ask an adult to help.",
+    "Whisk the eggs with the vegetables, turmeric, salt and chili powder.",
+    "Heat half the oil in a nonstick pan over medium heat.",
+    "Pour in half the egg mix and spread it out.",
+    "Cook for 2 minutes, until the bottom is golden and the top is nearly set.",
+    "Flip and cook for 1 minute more.",
+    "Repeat with the rest. Serve with toast or roti."
+   ]
+  },
+  {
+   "id": "egg-bhurji",
+   "name": "Egg bhurji Indian scrambled eggs",
+   "aliases": [
+    "egg bhurji",
+    "anda bhurji",
+    "indian scrambled eggs",
+    "spicy scrambled eggs",
+    "masala scrambled eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "onion",
+    "tomato",
+    "spice"
+   ],
+   "ingredients": [
+    "4 large eggs",
+    "1 tablespoon (15 g) butter or ghee",
+    "1/2 onion, finely chopped",
+    "1 small tomato, chopped",
+    "1 green chili, finely chopped (optional)",
+    "1/2 teaspoon grated ginger",
+    "1/4 teaspoon ground turmeric",
+    "1/2 teaspoon garam masala",
+    "1/4 teaspoon salt",
+    "Chopped cilantro"
+   ],
+   "steps": [
+    "Chop the onion, tomato and chili. Ask an adult to help.",
+    "Melt the butter in a pan over medium heat.",
+    "Cook the onion for 3 to 4 minutes, until soft.",
+    "Add the ginger, chili, tomato, turmeric, garam masala and salt and cook for 3 minutes, until the tomato is soft.",
+    "Whisk the eggs and pour them in.",
+    "Stir slowly for 2 to 3 minutes, until the eggs are just set.",
+    "Top with cilantro and serve with toast, roti or pav buns."
+   ]
+  },
+  {
+   "id": "menemen",
+   "name": "Turkish menemen",
+   "aliases": [
+    "menemen",
+    "turkish eggs with tomatoes",
+    "turkish scrambled eggs",
+    "turkish breakfast eggs"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "20 min",
+   "main": [
+    "egg",
+    "tomato",
+    "pepper"
+   ],
+   "ingredients": [
+    "2 tablespoons olive oil",
+    "1 green bell pepper or 2 mild long peppers, chopped",
+    "3 ripe tomatoes, chopped, or 1 can (14.5 oz / 410 g) diced tomatoes",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon paprika or Aleppo pepper",
+    "4 large eggs",
+    "Crusty bread to serve"
+   ],
+   "steps": [
+    "Chop the peppers and tomatoes. Ask an adult to help.",
+    "Heat the oil in a pan over medium heat.",
+    "Cook the peppers for 4 to 5 minutes, until soft.",
+    "Add the tomatoes, salt and paprika and cook for 8 to 10 minutes, until thick and saucy.",
+    "Crack the eggs into the pan and gently stir them through.",
+    "Cook for 2 to 3 minutes, stirring now and then, until the eggs are softly set.",
+    "Serve hot in the pan with bread for scooping."
+   ]
+  },
+  {
+   "id": "cilbir",
+   "name": "Cilbir Turkish poached eggs with yogurt",
+   "aliases": [
+    "cilbir",
+    "turkish eggs",
+    "poached eggs with yogurt",
+    "eggs on garlic yogurt"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "20 min",
+   "main": [
+    "egg",
+    "yogurt",
+    "garlic",
+    "butter"
+   ],
+   "ingredients": [
+    "1 cup (240 g) plain Greek yogurt, at room temperature",
+    "1 small garlic clove, grated",
+    "1/4 teaspoon salt",
+    "4 very fresh large eggs",
+    "1 tablespoon white vinegar",
+    "2 tablespoons (30 g) butter",
+    "1 teaspoon Aleppo pepper or paprika",
+    "Fresh dill and bread to serve"
+   ],
+   "steps": [
+    "Stir the yogurt, garlic and salt together and spread it on 2 plates.",
+    "Poach the eggs in gently simmering water with the vinegar for 3 to 4 minutes. Ask an adult to help.",
+    "Lift out the eggs with a slotted spoon and set them on the yogurt.",
+    "Melt the butter in a small pan over medium heat for 1 to 2 minutes, until it sizzles and smells nutty.",
+    "Stir the Aleppo pepper into the butter and spoon it over the eggs.",
+    "Top with dill and serve with warm bread."
+   ]
+  },
+  {
+   "id": "bacon-egg-cheese-sandwich",
+   "name": "Bacon, egg and cheese sandwich",
+   "aliases": [
+    "bacon egg and cheese",
+    "bacon egg cheese sandwich",
+    "bec",
+    "breakfast sandwich",
+    "bacon egg sandwich"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "20 min",
+   "main": [
+    "bacon",
+    "egg",
+    "cheese",
+    "bread"
+   ],
+   "ingredients": [
+    "4 slices bacon",
+    "2 large eggs",
+    "2 slices American or cheddar cheese",
+    "2 kaiser rolls or English muffins, split",
+    "1 teaspoon butter",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Cook the bacon in a cold pan set over medium heat for 8 to 10 minutes, flipping, until crisp. Ask an adult to help with the hot fat.",
+    "Drain the bacon on paper towels and pour off most of the fat.",
+    "Toast the rolls.",
+    "Melt the butter in the pan and fry the eggs for 2 to 3 minutes, breaking the yolks if you like them firm.",
+    "Flip each egg, top with a slice of cheese, and cook for 1 minute, until the cheese melts.",
+    "Put each egg on a roll with 2 slices of bacon. Add salt, pepper and ketchup if you like."
+   ]
+  },
+  {
+   "id": "sausage-egg-muffin",
+   "name": "Sausage and egg English muffin",
+   "aliases": [
+    "sausage egg muffin",
+    "sausage mcmuffin",
+    "homemade mcmuffin",
+    "egg mcmuffin",
+    "english muffin sandwich"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "sausage",
+    "egg",
+    "english muffin",
+    "cheese"
+   ],
+   "ingredients": [
+    "12 oz (340 g) breakfast sausage meat",
+    "4 large eggs",
+    "4 English muffins, split",
+    "4 slices American cheese",
+    "1 teaspoon vegetable oil",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Shape the sausage into 4 thin patties a little wider than the muffins, then wash your hands.",
+    "Cook the patties in a pan over medium heat for 3 to 4 minutes per side, until 160°F (71°C) inside.",
+    "Toast the English muffins.",
+    "Wipe the pan, add the oil, and set 4 greased canning lids or egg rings in it, if you have them.",
+    "Crack an egg into each ring, break the yolk, and add 1 tablespoon of water to the pan.",
+    "Cover and cook for 3 minutes, until the eggs are set.",
+    "Stack a patty, cheese and egg in each muffin."
+   ]
+  },
+  {
+   "id": "breakfast-quesadilla",
+   "name": "Breakfast quesadilla",
+   "aliases": [
+    "breakfast quesadilla",
+    "egg quesadilla",
+    "egg and cheese quesadilla",
+    "morning quesadilla"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "tortilla",
+    "cheese"
+   ],
+   "ingredients": [
+    "4 large eggs",
+    "1 pinch salt",
+    "1 teaspoon butter",
+    "2 large flour tortillas",
+    "1 cup (100 g) shredded cheddar or Monterey Jack",
+    "2 slices cooked bacon or ham, chopped (optional)",
+    "Salsa to serve"
+   ],
+   "steps": [
+    "Whisk the eggs and salt.",
+    "Melt the butter in a nonstick pan over medium-low heat and scramble the eggs for 2 minutes, until just set. Move them to a plate.",
+    "Lay a tortilla in the pan and sprinkle cheese over half of it.",
+    "Add half the eggs and bacon, then a little more cheese.",
+    "Fold the tortilla over.",
+    "Cook for 2 minutes per side, until golden and the cheese melts.",
+    "Repeat with the other tortilla. Cut into wedges and serve with salsa."
+   ]
+  },
+  {
+   "id": "stovetop-oatmeal",
+   "name": "Creamy stovetop oatmeal",
+   "aliases": [
+    "oatmeal",
+    "porridge",
+    "hot oatmeal",
+    "stovetop oatmeal",
+    "oat porridge",
+    "rolled oats porridge"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "oats",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (90 g) rolled oats",
+    "1 cup (240 ml) milk",
+    "1 cup (240 ml) water",
+    "1 pinch salt",
+    "1 tablespoon maple syrup or brown sugar",
+    "1/4 teaspoon cinnamon",
+    "Toppings like banana, berries, peanut butter or nuts"
+   ],
+   "steps": [
+    "Put the oats, milk, water and salt in a small pot.",
+    "Bring to a simmer over medium heat, stirring.",
+    "Turn the heat to low and cook for 5 minutes, stirring often, until thick and creamy.",
+    "Take off the heat and stir in the maple syrup and cinnamon.",
+    "Let it stand for 1 minute to thicken.",
+    "Spoon into bowls and add your toppings."
+   ]
+  },
+  {
+   "id": "baked-oatmeal",
+   "name": "Blueberry baked oatmeal",
+   "aliases": [
+    "baked oatmeal",
+    "blueberry baked oatmeal",
+    "oatmeal bake",
+    "baked oats"
+   ],
+   "category": "Breakfast",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "oats",
+    "milk",
+    "egg",
+    "blueberry"
+   ],
+   "ingredients": [
+    "2 cups (180 g) rolled oats",
+    "1/3 cup (80 ml) maple syrup",
+    "1 teaspoon baking powder",
+    "1 teaspoon cinnamon",
+    "1/2 teaspoon salt",
+    "1 3/4 cups (420 ml) milk",
+    "1 large egg",
+    "3 tablespoons (45 g) butter, melted",
+    "1 teaspoon vanilla extract",
+    "1 cup (150 g) blueberries"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Butter an 8 inch square baking dish.",
+    "Mix the oats, baking powder, cinnamon and salt in a big bowl.",
+    "In another bowl, whisk the milk, egg, maple syrup, melted butter and vanilla.",
+    "Spread the oat mix in the dish and scatter the blueberries on top.",
+    "Pour the milk mix evenly over everything.",
+    "Bake for 35 to 40 minutes, until the top is golden and the middle is set.",
+    "Cool for 10 minutes before cutting into squares."
+   ]
+  },
+  {
+   "id": "slow-cooker-steel-cut-oats",
+   "name": "Slow cooker steel cut oats",
+   "aliases": [
+    "steel cut oats",
+    "slow cooker oatmeal",
+    "crockpot oatmeal",
+    "overnight steel cut oats",
+    "irish oatmeal"
+   ],
+   "category": "Breakfast",
+   "servings": 6,
+   "time": "7 hr 10 min",
+   "main": [
+    "oats",
+    "milk",
+    "apple",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 cup (160 g) steel cut oats",
+    "3 cups (720 ml) water",
+    "1 cup (240 ml) milk",
+    "1 apple, peeled and diced",
+    "1 teaspoon cinnamon",
+    "1/4 teaspoon salt",
+    "2 tablespoons maple syrup, plus more to serve",
+    "Butter or coconut oil for the slow cooker"
+   ],
+   "steps": [
+    "Grease the inside of the slow cooker with butter so the oats don't stick.",
+    "Peel and dice the apple. Ask an adult to help.",
+    "Add the oats, water, milk, apple, cinnamon, salt and maple syrup and stir.",
+    "Cover and cook on low for 7 to 8 hours, or overnight.",
+    "Stir well in the morning. Add a splash of milk if it's too thick.",
+    "Serve with more maple syrup and nuts or berries."
+   ]
+  },
+  {
+   "id": "granola",
+   "name": "Homemade honey granola",
+   "aliases": [
+    "granola",
+    "homemade granola",
+    "honey granola",
+    "crunchy granola",
+    "granola clusters"
+   ],
+   "category": "Breakfast",
+   "servings": 10,
+   "time": "40 min",
+   "main": [
+    "oats",
+    "honey",
+    "nut",
+    "oil"
+   ],
+   "ingredients": [
+    "3 cups (270 g) rolled oats",
+    "1 cup (120 g) chopped nuts or seeds",
+    "1/2 teaspoon cinnamon",
+    "1/2 teaspoon salt",
+    "1/3 cup (80 ml) honey or maple syrup",
+    "1/3 cup (80 ml) vegetable or melted coconut oil",
+    "1 teaspoon vanilla extract",
+    "1/2 cup (75 g) raisins or dried cranberries"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Line a big baking sheet with parchment paper.",
+    "Mix the oats, nuts, cinnamon and salt in a big bowl.",
+    "Warm the honey and oil in the microwave for 20 seconds, then stir in the vanilla.",
+    "Pour it over the oats and stir until everything is coated.",
+    "Spread it on the sheet and press it down flat with a spatula.",
+    "Bake for 20 minutes, turn the pan, and bake for 5 to 10 minutes more, until golden.",
+    "Let it cool completely on the pan without stirring, so it forms clusters.",
+    "Break into pieces, mix in the raisins and keep in a sealed jar for up to 2 weeks."
+   ]
+  },
+  {
+   "id": "chia-pudding",
+   "name": "Chia seed pudding",
+   "aliases": [
+    "chia pudding",
+    "chia seed pudding",
+    "chia pot",
+    "chia breakfast pudding"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "4 hr 5 min",
+   "main": [
+    "chia seed",
+    "milk",
+    "maple syrup"
+   ],
+   "ingredients": [
+    "1/4 cup (40 g) chia seeds",
+    "1 cup (240 ml) milk or almond milk",
+    "1 tablespoon maple syrup or honey",
+    "1/4 teaspoon vanilla extract",
+    "Berries, mango or banana to serve"
+   ],
+   "steps": [
+    "Stir the chia seeds, milk, maple syrup and vanilla in a jar or bowl.",
+    "Let it sit for 5 minutes, then stir again to break up clumps.",
+    "Cover and refrigerate for at least 4 hours, or overnight, until thick like pudding.",
+    "Stir, spoon into bowls and top with fruit."
+   ]
+  },
+  {
+   "id": "bircher-muesli",
+   "name": "Bircher muesli",
+   "aliases": [
+    "bircher muesli",
+    "bircher",
+    "swiss muesli",
+    "soaked muesli",
+    "muesli"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "4 hr 10 min",
+   "main": [
+    "oats",
+    "apple",
+    "yogurt",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (90 g) rolled oats",
+    "1/2 cup (120 ml) apple juice",
+    "1/2 cup (120 ml) milk",
+    "1 apple",
+    "1/2 cup (120 g) plain yogurt",
+    "1 tablespoon honey",
+    "2 tablespoons chopped nuts or raisins"
+   ],
+   "steps": [
+    "Grate the apple on the big holes of a box grater, skin and all. Ask an adult to help.",
+    "Mix the oats, apple juice, milk and grated apple in a bowl.",
+    "Cover and refrigerate for at least 4 hours, or overnight.",
+    "Stir in the yogurt and honey.",
+    "Top with nuts or raisins and serve cold."
+   ]
+  },
+  {
+   "id": "yogurt-parfait",
+   "name": "Yogurt parfait",
+   "aliases": [
+    "yogurt parfait",
+    "parfait",
+    "fruit parfait",
+    "granola parfait",
+    "yogurt cup"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "yogurt",
+    "granola",
+    "berry"
+   ],
+   "ingredients": [
+    "1 1/2 cups (360 g) vanilla or plain Greek yogurt",
+    "1 cup (150 g) mixed berries",
+    "3/4 cup (75 g) granola",
+    "2 teaspoons honey"
+   ],
+   "steps": [
+    "Wash the berries and slice any strawberries. Ask an adult to help.",
+    "Spoon a layer of yogurt into the bottom of 2 glasses or jars.",
+    "Add a layer of berries, then a layer of granola.",
+    "Repeat the layers until the glass is full.",
+    "Drizzle with honey and eat right away so the granola stays crunchy."
+   ]
+  },
+  {
+   "id": "acai-bowl",
+   "name": "Acai smoothie bowl",
+   "aliases": [
+    "acai bowl",
+    "smoothie bowl",
+    "acai smoothie bowl",
+    "berry smoothie bowl"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "acai",
+    "banana",
+    "berry",
+    "granola"
+   ],
+   "ingredients": [
+    "2 packets (7 oz / 200 g) frozen unsweetened acai puree",
+    "1 frozen banana, in chunks",
+    "1/2 cup (75 g) frozen mixed berries",
+    "1/3 cup (80 ml) milk or apple juice",
+    "Toppings: granola, sliced banana, berries, coconut flakes and honey"
+   ],
+   "steps": [
+    "Run the acai packets under warm water for 10 seconds and break them into pieces.",
+    "Put the acai, banana, berries and milk in a blender.",
+    "Blend on low, stopping to push it down, until thick and smooth like soft ice cream. Add a splash more milk only if needed.",
+    "Spoon into 2 bowls.",
+    "Arrange the toppings in rows on top and eat right away."
+   ]
+  },
+  {
+   "id": "avocado-toast",
+   "name": "Avocado toast",
+   "aliases": [
+    "avocado toast",
+    "avo toast",
+    "smashed avocado toast",
+    "avocado on toast"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "avocado",
+    "bread",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 ripe avocado",
+    "2 slices thick bread, like sourdough",
+    "1 teaspoon lemon or lime juice",
+    "1/4 teaspoon salt",
+    "1 pinch chili flakes (optional)",
+    "1 fried or poached egg per toast (optional)"
+   ],
+   "steps": [
+    "Toast the bread until golden.",
+    "Cut the avocado in half, take out the pit, and scoop the flesh into a bowl. Ask an adult to help with the knife.",
+    "Mash with a fork with the lemon juice and salt.",
+    "Spread the avocado thickly on the toast.",
+    "Top with chili flakes and an egg if you like."
+   ]
+  },
+  {
+   "id": "cinnamon-sugar-toast",
+   "name": "Cinnamon sugar toast",
+   "aliases": [
+    "cinnamon toast",
+    "cinnamon sugar toast",
+    "sugar toast",
+    "cinnamon crunch toast"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "bread",
+    "butter",
+    "cinnamon",
+    "sugar"
+   ],
+   "ingredients": [
+    "4 slices of bread",
+    "3 tablespoons (45 g) soft butter",
+    "3 tablespoons sugar",
+    "1 teaspoon cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Mix the sugar and cinnamon in a small bowl.",
+    "Spread the butter all the way to the edges of each slice.",
+    "Sprinkle the cinnamon sugar evenly over the butter.",
+    "Lay the slices on a baking sheet and bake for 8 to 10 minutes, until bubbly and crisp.",
+    "Let it cool for 1 minute, the sugar is very hot."
+   ]
+  },
+  {
+   "id": "hash-browns",
+   "name": "Crispy hash browns",
+   "aliases": [
+    "hash browns",
+    "hashbrowns",
+    "hash brown",
+    "shredded potatoes",
+    "crispy hash browns"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "potato",
+    "butter",
+    "oil"
+   ],
+   "ingredients": [
+    "2 large russet potatoes (about 1 1/2 lb / 680 g)",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "2 tablespoons vegetable oil",
+    "1 tablespoon (15 g) butter"
+   ],
+   "steps": [
+    "Peel the potatoes and grate them on the big holes of a box grater. Ask an adult to help.",
+    "Put the grated potato in a clean kitchen towel and squeeze out as much water as you can.",
+    "Toss with the salt and pepper.",
+    "Heat the oil and butter in a big nonstick pan over medium-high heat.",
+    "Spread the potato in a thin, even layer and press it down.",
+    "Cook without stirring for 5 to 6 minutes, until deep golden on the bottom.",
+    "Cut into 4 pieces with the spatula, flip, and cook for 4 to 5 minutes more, until crispy."
+   ]
+  },
+  {
+   "id": "home-fries",
+   "name": "Home fries breakfast potatoes",
+   "aliases": [
+    "home fries",
+    "breakfast potatoes",
+    "skillet potatoes",
+    "homefries",
+    "fried breakfast potatoes"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "potato",
+    "onion",
+    "pepper"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) Yukon gold potatoes, cut in 3/4 inch cubes",
+    "3 tablespoons vegetable oil",
+    "1 onion, chopped",
+    "1 bell pepper, chopped",
+    "1 teaspoon paprika",
+    "1/2 teaspoon garlic powder",
+    "1 teaspoon salt",
+    "1/4 teaspoon pepper"
+   ],
+   "steps": [
+    "Cut the potatoes, onion and pepper. Ask an adult to help.",
+    "Put the potatoes in a pot of salted water, bring to a boil and boil for 5 minutes, until just tender at the edges.",
+    "Drain well and let them steam dry for 2 minutes.",
+    "Heat the oil in a big pan over medium-high heat.",
+    "Add the potatoes and cook for 8 minutes, turning only now and then, until browned.",
+    "Add the onion, pepper and seasonings and cook for 6 to 8 minutes more, stirring, until the vegetables are soft."
+   ]
+  },
+  {
+   "id": "corned-beef-hash",
+   "name": "Corned beef hash",
+   "aliases": [
+    "corned beef hash",
+    "hash and eggs",
+    "beef hash",
+    "corned beef and potatoes"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "corned beef",
+    "potato",
+    "onion",
+    "egg"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) potatoes, cut in 1/2 inch cubes",
+    "2 tablespoons vegetable oil",
+    "1 tablespoon (15 g) butter",
+    "1 onion, chopped",
+    "12 oz (340 g) cooked corned beef, chopped, or 1 can (12 oz / 340 g)",
+    "1/4 teaspoon pepper",
+    "4 large eggs"
+   ],
+   "steps": [
+    "Cut the potatoes and chop the onion. Ask an adult to help.",
+    "Boil the potatoes in salted water for 6 to 8 minutes, until just tender. Drain well.",
+    "Heat the oil and butter in a big pan over medium-high heat.",
+    "Add the onion and cook for 4 minutes.",
+    "Add the potatoes and corned beef and press it down.",
+    "Cook for 5 minutes without stirring, flip in sections, and cook for 5 minutes more, until crisp.",
+    "Make 4 wells in the hash and crack an egg into each.",
+    "Cover and cook on low for 4 to 5 minutes, until the whites are set."
+   ]
+  },
+  {
+   "id": "biscuits-and-gravy",
+   "name": "Biscuits and sausage gravy",
+   "aliases": [
+    "biscuits and gravy",
+    "sausage gravy",
+    "sausage gravy and biscuits",
+    "country gravy",
+    "white gravy"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "sausage",
+    "flour",
+    "milk",
+    "biscuit"
+   ],
+   "ingredients": [
+    "8 biscuits, homemade or from a can",
+    "1 lb (450 g) breakfast sausage",
+    "1/4 cup (30 g) all-purpose flour",
+    "2 1/2 cups (600 ml) milk",
+    "1/2 teaspoon pepper",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Bake the biscuits the way the package or recipe says.",
+    "Cook the sausage in a big pan over medium heat for 6 to 8 minutes, breaking it up, until browned with no pink.",
+    "Don't drain it. Sprinkle the flour over the sausage and stir for 1 minute.",
+    "Slowly pour in the milk, stirring all the time.",
+    "Simmer for 5 to 7 minutes, stirring, until thick.",
+    "Stir in the pepper and salt. Add a splash more milk if it gets too thick.",
+    "Split the biscuits and spoon the gravy over them."
+   ]
+  },
+  {
+   "id": "oven-bacon",
+   "name": "Oven baked bacon",
+   "aliases": [
+    "oven bacon",
+    "baked bacon",
+    "bacon in the oven",
+    "crispy bacon",
+    "how to cook bacon"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "bacon",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "12 slices bacon",
+    "1 tablespoon brown sugar (optional)",
+    "1/2 teaspoon black pepper (optional)",
+    "Foil for the pan"
+   ],
+   "steps": [
+    "Line a rimmed baking sheet with foil.",
+    "Lay the bacon on the sheet in one layer. It's fine if the slices touch.",
+    "Sprinkle with brown sugar and pepper if you want sweet and peppery bacon.",
+    "Put the pan in a cold oven and set it to 400°F (200°C). Ask an adult to help.",
+    "Bake for 17 to 22 minutes, until as crispy as you like.",
+    "Have an adult take the pan out, it's full of very hot fat.",
+    "Move the bacon to paper towels to drain.",
+    "Let the fat cool and harden on the foil, then fold it up and throw it away. Never pour it down the sink."
+   ]
+  },
+  {
+   "id": "air-fryer-bacon",
+   "name": "Air fryer bacon",
+   "aliases": [
+    "air fryer bacon",
+    "air fried bacon",
+    "bacon in air fryer"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "bacon",
+    "pepper"
+   ],
+   "ingredients": [
+    "6 slices bacon",
+    "1 slice of bread (optional, to catch grease)",
+    "1 pinch black pepper (optional)"
+   ],
+   "steps": [
+    "Put a slice of bread in the bottom drawer under the basket to soak up grease, if you like.",
+    "Lay the bacon in the basket in one layer. Cut the slices in half if they don't fit.",
+    "Air fry at 350°F (175°C) for 8 to 10 minutes, until as crispy as you like.",
+    "Check after 7 minutes because thin bacon cooks fast.",
+    "Lift out with tongs onto a paper towel. Ask an adult to help, the drawer has hot fat in it."
+   ]
+  },
+  {
+   "id": "breakfast-sausage-patties",
+   "name": "Homemade breakfast sausage patties",
+   "aliases": [
+    "breakfast sausage",
+    "sausage patties",
+    "homemade sausage",
+    "pork sausage patties",
+    "maple sausage"
+   ],
+   "category": "Breakfast",
+   "servings": 6,
+   "time": "25 min",
+   "main": [
+    "pork",
+    "sage",
+    "maple syrup"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground pork",
+    "1 teaspoon salt",
+    "1 teaspoon dried sage",
+    "1/2 teaspoon dried thyme",
+    "1/2 teaspoon pepper",
+    "1/4 teaspoon garlic powder",
+    "1 pinch chili flakes (optional)",
+    "1 tablespoon maple syrup",
+    "1 teaspoon vegetable oil"
+   ],
+   "steps": [
+    "Mix the pork, salt, herbs, spices and maple syrup in a bowl with your hands.",
+    "Shape into 12 thin patties about 2 1/2 inches wide, then wash your hands well.",
+    "Heat the oil in a big pan over medium heat.",
+    "Cook the patties for 3 to 4 minutes per side, until browned and 160°F (71°C) inside.",
+    "Drain on paper towels and serve."
+   ]
+  },
+  {
+   "id": "sausage-breakfast-casserole",
+   "name": "Sausage and egg breakfast casserole",
+   "aliases": [
+    "breakfast casserole",
+    "sausage egg casserole",
+    "egg casserole",
+    "breakfast bake",
+    "egg strata"
+   ],
+   "category": "Breakfast",
+   "servings": 8,
+   "time": "1 hr 5 min",
+   "main": [
+    "sausage",
+    "egg",
+    "bread",
+    "cheese",
+    "milk"
+   ],
+   "ingredients": [
+    "1 lb (450 g) breakfast sausage",
+    "6 slices bread, cut in 1 inch cubes",
+    "2 cups (200 g) shredded cheddar",
+    "8 large eggs",
+    "2 cups (480 ml) milk",
+    "1 teaspoon dry mustard or 2 teaspoons Dijon",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Cook the sausage in a pan over medium heat for 6 to 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Butter a 9 by 13 inch baking dish.",
+    "Spread the bread cubes in the dish, then the sausage, then the cheese.",
+    "Whisk the eggs, milk, mustard, salt and pepper and pour it over the top.",
+    "Bake for 45 to 50 minutes, until puffed, golden and set in the middle.",
+    "Let it stand for 10 minutes before cutting."
+   ]
+  },
+  {
+   "id": "cheesy-grits",
+   "name": "Cheesy grits",
+   "aliases": [
+    "grits",
+    "cheese grits",
+    "cheesy grits",
+    "southern grits",
+    "corn grits"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "grits",
+    "cheese",
+    "butter",
+    "milk"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) water",
+    "2 cups (480 ml) milk",
+    "1 teaspoon salt",
+    "1 cup (160 g) quick or old-fashioned grits (not instant)",
+    "2 tablespoons (30 g) butter",
+    "1 cup (100 g) shredded sharp cheddar",
+    "1/4 teaspoon pepper"
+   ],
+   "steps": [
+    "Bring the water, milk and salt to a boil in a pot over medium-high heat. Watch it so it doesn't boil over.",
+    "Slowly whisk in the grits.",
+    "Turn the heat to low, cover, and cook for 5 to 7 minutes for quick grits or 20 to 25 minutes for old-fashioned, stirring now and then.",
+    "Take off the heat and stir in the butter, cheese and pepper.",
+    "Add a splash of milk if they get too thick and serve hot. Careful, grits can spit when they bubble."
+   ]
+  },
+  {
+   "id": "congee",
+   "name": "Chicken congee rice porridge",
+   "aliases": [
+    "congee",
+    "jook",
+    "rice porridge",
+    "chicken congee",
+    "okayu",
+    "juk"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "1 hr 15 min",
+   "main": [
+    "rice",
+    "chicken",
+    "ginger",
+    "green onion"
+   ],
+   "ingredients": [
+    "3/4 cup (150 g) jasmine rice, rinsed",
+    "8 cups (2 liters) chicken broth or water",
+    "1 inch piece fresh ginger, sliced",
+    "2 boneless skinless chicken thighs",
+    "1 teaspoon salt",
+    "Toppings: sliced green onion, soy sauce, sesame oil, fried shallots or a soft boiled egg"
+   ],
+   "steps": [
+    "Rinse the rice in a strainer until the water runs clearer.",
+    "Put the rice, broth and ginger in a big pot and bring to a boil.",
+    "Add the whole chicken thighs.",
+    "Turn the heat to low, partly cover, and simmer for 20 minutes, until the chicken is 165°F (74°C) inside.",
+    "Lift the chicken out, shred it with two forks and set it aside.",
+    "Keep simmering the rice for 40 to 45 minutes more, stirring now and then, until thick and creamy.",
+    "Take out the ginger, stir in the chicken and salt, and add water if it's too thick.",
+    "Serve with green onion, a few drops of soy sauce and sesame oil."
+   ]
+  },
+  {
+   "id": "poha",
+   "name": "Kanda poha",
+   "aliases": [
+    "poha",
+    "kanda poha",
+    "flattened rice",
+    "aloo poha",
+    "indian poha"
+   ],
+   "category": "Breakfast",
+   "servings": 3,
+   "time": "20 min",
+   "main": [
+    "flattened rice",
+    "onion",
+    "peanut",
+    "turmeric"
+   ],
+   "ingredients": [
+    "2 cups (150 g) thick poha (flattened rice)",
+    "2 tablespoons vegetable oil",
+    "1 teaspoon mustard seeds",
+    "10 curry leaves (optional)",
+    "2 tablespoons peanuts",
+    "1 onion, chopped",
+    "1 green chili, chopped (optional)",
+    "1/2 teaspoon ground turmeric",
+    "3/4 teaspoon salt",
+    "1 teaspoon sugar",
+    "1 tablespoon lemon juice",
+    "Chopped cilantro"
+   ],
+   "steps": [
+    "Chop the onion and chili. Ask an adult to help.",
+    "Put the poha in a strainer and rinse under running water for 20 seconds, just until soft. Let it drain.",
+    "Heat the oil in a pan over medium heat and add the mustard seeds. Cover, they pop.",
+    "When they pop, add the curry leaves and peanuts and cook for 1 minute.",
+    "Add the onion and chili and cook for 3 to 4 minutes, until soft.",
+    "Stir in the turmeric, then the poha, salt and sugar.",
+    "Cover and cook on low for 2 to 3 minutes, until hot.",
+    "Stir in the lemon juice and top with cilantro."
+   ]
+  },
+  {
+   "id": "upma",
+   "name": "Rava upma",
+   "aliases": [
+    "upma",
+    "rava upma",
+    "suji upma",
+    "semolina upma",
+    "sooji upma"
+   ],
+   "category": "Breakfast",
+   "servings": 3,
+   "time": "25 min",
+   "main": [
+    "semolina",
+    "onion",
+    "mustard seed"
+   ],
+   "ingredients": [
+    "1 cup (170 g) fine semolina (rava or sooji)",
+    "2 tablespoons ghee or vegetable oil",
+    "1 teaspoon mustard seeds",
+    "10 curry leaves (optional)",
+    "1 onion, chopped",
+    "1 teaspoon grated ginger",
+    "1/2 cup (70 g) frozen mixed vegetables",
+    "2 3/4 cups (660 ml) water",
+    "1 teaspoon salt",
+    "1 tablespoon lemon juice",
+    "Chopped cilantro"
+   ],
+   "steps": [
+    "Chop the onion. Ask an adult to help.",
+    "Toast the semolina in a dry pan over medium-low heat for 5 minutes, stirring, until it smells nutty. Pour it into a bowl.",
+    "Heat the ghee in the same pan and add the mustard seeds. When they pop, add the curry leaves.",
+    "Add the onion and ginger and cook for 3 minutes.",
+    "Add the vegetables, water and salt and bring to a boil.",
+    "Turn the heat to low and slowly pour in the semolina, stirring fast so no lumps form. Ask an adult to help, it can splatter.",
+    "Cover and cook for 2 to 3 minutes, until thick and fluffy.",
+    "Stir in the lemon juice and top with cilantro."
+   ]
+  }
+ ]
+}

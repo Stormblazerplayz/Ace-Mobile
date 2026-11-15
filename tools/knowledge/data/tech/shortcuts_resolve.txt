@@ -1,0 +1,29 @@
+# tag: tech.shortcuts.resolve
+how do i cut a clip in davinci resolve | split clip resolve | ctrl b resolve => Put the playhead where you want the cut, select the clip, and press Ctrl + B (Command + B on Mac) to split it. Or press B for the Blade tool and click on the clip.
+what is the blade tool in resolve | b key resolve => Press B on the Edit page to switch to the Blade tool, which cuts clips where you click. Press A to go back to the Selection tool.
+how do i go back to the selection tool in resolve | a key resolve normal mode => Press A on the Edit page to switch back to the normal Selection (pointer) tool.
+how do i play and pause in resolve | j k l keys resolve | shuttle playback => Press Space to play or pause. L plays forward, J plays backward, and K stops. Tap L or J more times to go faster.
+how do i set in and out points in resolve | i and o keys resolve => Press I to mark an In point and O to mark an Out point on a clip or the timeline. Alt + X clears both.
+how do i delete a clip without leaving a gap | ripple delete resolve | shift backspace resolve => Select the clip and press Shift + Backspace (Shift + Delete on Mac) to ripple delete it, so the clips after it slide over to close the gap.
+how do i open the media page with keys | shift 2 resolve | switch pages resolve => In Resolve, Shift + 2 opens Media, Shift + 3 Cut, Shift + 4 Edit, Shift + 5 Fusion, Shift + 6 Color, Shift + 7 Fairlight and Shift + 8 Deliver.
+how do i open project settings in resolve | shift 9 resolve => Press Shift + 9 to open Project Settings, where you set timeline resolution and frame rate.
+how do i import media in resolve | ctrl i resolve import => Press Ctrl + I (Command + I on Mac) to import media files into the Media Pool, or drag them in from File Explorer.
+how do i turn snapping on or off in resolve | n key resolve => Press N to toggle snapping, which makes clips and the playhead stick to edit points.
+how do i zoom the timeline in resolve | ctrl plus timeline resolve | shift z resolve => Press Ctrl + = to zoom in and Ctrl + - to zoom out on the timeline. Shift + Z fits the whole timeline in view.
+how do i jump between cuts in resolve | up arrow resolve => Press Up Arrow and Down Arrow to jump the playhead to the previous or next edit point.
+how do i move one frame at a time in resolve | left arrow resolve => Press Left Arrow or Right Arrow to step back or forward one frame.
+how do i add a marker in resolve | m key resolve => Press M to add a marker at the playhead. Press M again on a marker to add a note to it.
+how do i change clip speed in resolve | ctrl r resolve | speed up a clip resolve => Select the clip and press Ctrl + R to show Retime Controls, then click the arrow at the top of the clip to pick a speed. Or right-click and choose Change Clip Speed.
+how do i add a transition in resolve | ctrl t resolve => Select an edit point or clip and press Ctrl + T to add the default transition, usually a cross dissolve.
+how do i disable a clip in resolve | d key resolve => Select the clip and press D to disable or enable it. A disabled clip stays on the timeline but doesn't show in the video.
+how do i trim clips in resolve | t key resolve trim mode => Press T for Trim Edit mode, where dragging a clip edge ripples the rest of the timeline. Press A to go back.
+how do i nudge a clip one frame in resolve | comma period resolve => Select the clip and press , (comma) or . (period) to nudge it one frame left or right.
+how do i copy a clip's effects to another in resolve | paste attributes resolve | alt v resolve => Copy the clip with Ctrl + C, select the other clips, press Alt + V for Paste Attributes, tick what to copy (like zoom or color) and click Apply.
+how do i add a serial node in resolve | alt s resolve color => On the Color page press Alt + S (Option + S on Mac) to add a serial node after the selected one.
+how do i turn a color node off in resolve | ctrl d color page resolve => On the Color page select a node and press Ctrl + D to disable or enable it, so you can compare with and without that grade.
+how do i undo in resolve | ctrl z resolve => Press Ctrl + Z (Command + Z on Mac) to undo and Ctrl + Shift + Z to redo.
+how do i put a clip at the end of the timeline | shift f12 resolve | append to end => Select the clip in the Media Pool and press Shift + F12 to append it to the end of the timeline.
+how do i insert a clip in resolve | f9 resolve | overwrite clip f10 => Select a clip in the source viewer, then press F9 to insert it at the playhead (pushing clips over) or F10 to overwrite what's there.
+how do i make the viewer full screen in resolve | ctrl f resolve => Press Ctrl + F (Command + F on Mac) to make the viewer full screen. Press Esc to exit.
+how do i select the clip under the playhead in resolve | x key resolve => Press X to mark In and Out around the clip under the playhead on the selected track.
+how do i get dynamic trim in resolve | w key resolve => Press W to turn on Dynamic Trim mode, where J, K and L slip or slide clips while playing.
