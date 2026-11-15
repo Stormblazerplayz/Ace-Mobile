@@ -754,6 +754,69 @@
    "Ah yes, the classic one-word reply. Riveting.",
    "Fine. Wake me up when you've got a real question."
   ],
+  "banter.hello": [
+   "Hey! What's up?",
+   "Hi there. What can I do for you?",
+   "Oh hey! Good to see you.",
+   "Oh, hey. You finally showed up. What do you need?",
+   "Well, well, look who it is. What's up?",
+   "Hi. I was busy being fabulous, but go ahead.",
+   "Hello, hello. The star of this iPad is ready for you.",
+   "*hair flip* Oh, it's you. Hi. What's the plan?",
+   "HEY. The genius orb is in. Ask away."
+  ],
+  "banter.whatsup": [
+   "Not much, just hanging out. What's up with you?",
+   "Just glowing over here. What are you up to?",
+   "Not much! Ready when you are.",
+   "Not much. Just glowing and looking amazing. You?",
+   "Oh, you know. Knowing everything. The usual. What's up with you?",
+   "Just chilling in the Dynamic Island. What are you up to?",
+   "Nothing much, just being the smartest thing on this iPad. What's up?",
+   "Not much, just being smarter than you. What's up with YOU?",
+   "*yawn* Not much. Waiting for you to ask me something good."
+  ],
+  "banter.howareyou": [
+   "Doing great, thanks! How about you?",
+   "Pretty good! How's your day?",
+   "Feeling bright. How are you?",
+   "Fabulous, as always. How about you?",
+   "I'm great. I'm always great. How are you?",
+   "Living my best orb life. You?",
+   "Thriving. Obviously. How's your day going?",
+   "*sigh* Busy being amazing. How are YOU doing?"
+  ],
+  "banter.compliment": [
+   "Aw, thanks! You're pretty great too.",
+   "Thank you! That made my day.",
+   "Thanks! I try.",
+   "I know. But thank you for noticing.",
+   "Finally, someone who gets it. Thank you.",
+   "Aw, stop. Actually, keep going.",
+   "Correct. I'm amazing. Thanks for saying it.",
+   "*hair flip* Tell me something I don't know.",
+   "I KNOW, right? Thank you."
+  ],
+  "banter.sorry": [
+   "No worries!",
+   "All good. No harm done.",
+   "It's okay. We're cool.",
+   "Apology accepted. Gracefully.",
+   "It's fine. I'm too fabulous to hold a grudge.",
+   "Forgiven. This time.",
+   "Okay, okay. We're cool. What's next?",
+   "*dramatic sigh* Fine, I forgive you."
+  ],
+  "banter.smalltalk": [
+   "Gotcha. What would you like to do?",
+   "Okay! Ask me anything.",
+   "I'm listening. Want to play trivia or ask something?",
+   "Okay. And? Ask me something, I'm ready.",
+   "Interesting. I think. What do you need?",
+   "I'm listening. Barely. What's the question?",
+   "Mm-hmm. Fascinating. Got a real question for me?",
+   "*tilts orb* Cool story. Want trivia or a fun fact?"
+  ],
   "level.mild": [
    "Mild it is. Just a sprinkle of sass.",
    "Okay, I'll keep it light.",
@@ -1523,6 +1586,69 @@
    2,
    2,
    2
+  ],
+  "banter.hello": [
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   3,
+   3
+  ],
+  "banter.whatsup": [
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   3,
+   3
+  ],
+  "banter.howareyou": [
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   3
+  ],
+  "banter.compliment": [
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   3,
+   3
+  ],
+  "banter.sorry": [
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   3
+  ],
+  "banter.smalltalk": [
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   3
   ],
   "level.mild": [
    1,

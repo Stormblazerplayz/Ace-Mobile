@@ -1,6 +1,15 @@
 {
  "builds": [
   {
+   "build": 57,
+   "date": "2026-11-15",
+   "items": [
+    "Small talk gets a reply that fits: \"yo what up\" gets a what's-up line, \"how are you\" gets how Ace is doing, and compliments and \"sorry\" get their own replies.",
+    "Works in Normal and Sassy mode, at every stop of the Sass slider.",
+    "Say \"turn on sassy mode\" or \"turn off sassy mode\" to switch, and it never asks about Apple Home."
+   ]
+  },
+  {
    "build": 56,
    "date": "2026-11-15",
    "items": [

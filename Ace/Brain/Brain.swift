@@ -23,6 +23,8 @@ protocol BrainHost: AnyObject {
     func runCheck(spoken: Bool) async -> CheckReport
     func openLink(_ url: URL, title: String)
     func setHandsFree(_ on: Bool) -> String
+    /// Switches Sassy mode on or off from a spoken ask, and returns what Ace says about it.
+    func setPersonality(_ sassy: Bool) -> String
     var pcPaired: Bool { get }
     func pcCommand(_ action: String, target: String?) async -> (ok: Bool, detail: String)
     func syncNow() async -> String
@@ -312,7 +314,7 @@ final class Brain {
         // Not a question at all ("I'm going to the store"): chat back instead of "I don't know".
         if !Chat.isInfoQuestion(text), !Sass.isSerious(text) {
             await think("That sounds like chatting, not a question to look up")
-            return chatReply(.whatever)
+            return chatReply(.smalltalk)
         }
 
         await think("Out of ideas for now")
@@ -326,7 +328,7 @@ final class Brain {
 
     /// Kinds of reply that aren't answers to a question, so "search it" skips them.
     static let notQuestions: Set<String> = ["greeting", "summon", "thanks", "goodbye", "chat", "searchTab", "openSite",
-                                            "clarify", "voiceSpeed", "sounds", "handsFree", "settings"]
+                                            "clarify", "voiceSpeed", "sounds", "handsFree", "settings", "personality", "sassy"]
 
     /// Chat and goodbyes, answered without the web. nil for anything else.
     func conversation(_ intent: Intent) -> BrainReply? {
@@ -443,6 +445,13 @@ final class Brain {
 
         // 1. Rules.
         if let intent = IntentRouter.parse(text) {
+            // In Normal mode, small talk like "you're awesome" keeps its hand-made answer from the bank. Only the "feelings"
+            // answers count, so "how are you" never gets "how old are you" and "yo what up" never gets a yo-yo.
+            if !sassy, case .chat(let kind) = intent, kind.isSmallTalk, let best = bank.search(norm).first,
+               best.entry.id.hasPrefix("feelings."), best.score >= Self.sure {
+                notes.append("Small talk with a hand-made answer: \"\(best.wording)\"")
+                return .bank(best)
+            }
             notes.append("Rule match: \(describe(intent))")
             return .rule(intent)
         }
@@ -989,6 +998,7 @@ final class Brain {
         case .pcApp: return "an app window"
         case .pcStatus: return "your PC"
         case .syncNow: return "syncing"
+        case .personality: return "Sassy mode"
         case .sounds: return "my sounds"
         case .tellMore: return "more on the last topic"
         case .repeatLast: return "repeating myself"
@@ -1398,6 +1408,10 @@ final class Brain {
 
         case .syncNow:
             return BrainReply(text: await host.syncNow())
+
+        case .personality(let on):
+            // Turning sass on answers in character (already sassy, so nothing extra goes around it).
+            return BrainReply(text: host.setPersonality(on), source: "personality", mood: .happy, kind: on ? "sassy" : "personality", chat: true)
 
         case .sounds(let on):
             host.settings.soundsOn = on

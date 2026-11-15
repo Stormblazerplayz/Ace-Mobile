@@ -57,6 +57,7 @@ enum Intent: Equatable {
     case ipadOnlyLimit(String)
     case home(HomeCommand)
     case focus(String)            // "start 1500", "stop" or "left"
+    case personality(Bool)        // "turn on sassy mode" (true), "go back to normal mode" (false)
     case leader(Leaders.Ask)      // "who is the prime minister of the UK", "who is the president of the UK" (it has none)
 }
 
@@ -125,6 +126,7 @@ extension Intent {
         case .pcApp: return "pcApp"
         case .pcStatus: return "pcStatus"
         case .syncNow: return "syncNow"
+        case .personality: return "personality"
         case .sounds: return "sounds"
         case .tellMore: return "tellMore"
         case .repeatLast: return "repeatLast"
@@ -158,6 +160,24 @@ enum IntentRouter {
         return rest
     }
 
+    /// "turn on sassy mode" is true, "turn off sassy mode" or "normal mode" is false, anything else nil.
+    static func personality(_ t: String) -> Bool? {
+        let polite = #"^(?:please |can you |could you |would you |ace |hey ace |ok ace |yo ace )*"#
+        let sass = #"(?:sassy|sass|sassy mode|sass mode|sassy personality|attitude mode)"#
+        if Rx.matches(polite + #"(?:turn off|switch off|stop|disable|end|no more|exit|quit|leave) (?:the |your )?"# + sass + #"(?: mode)?(?: please| now)?$"#, t)
+            || Rx.matches(polite + #"(?:go |switch |change |turn )?(?:back )?(?:to )?(?:normal|nice|regular|default) (?:mode|personality|ace)(?: please| now)?$"#, t)
+            || Rx.matches(polite + #"(?:be|act) (?:normal|nice)(?: again| now)?$"#, t)
+            || Rx.matches(#"^"# + sass + #"(?: mode)? off$"#, t) {
+            return false
+        }
+        if Rx.matches(polite + #"(?:turn on|switch on|start|enable|activate|go|switch|change|put)(?: to| into| on)? (?:the |your )?"# + sass + #"(?: mode)?(?: please| now)?$"#, t)
+            || Rx.matches(polite + #"(?:get|act) (?:more |extra |super )?sassy(?: please| now| again)?$"#, t)
+            || Rx.matches(#"^"# + sass + #"(?: mode)? on$"#, t) {
+            return true
+        }
+        return nil
+    }
+
     /// Reads the sentence with rules. Returns nil when no rule fits.
     static func parse(_ raw: String) -> Intent? {
         let t = TextKit.normalize(raw)
@@ -171,7 +191,7 @@ enum IntentRouter {
 
         // Small talk
         if Rx.matches(#"^(hi|hello|hey|yo|sup|hiya|howdy|good (morning|afternoon|evening|day))( there)?( to you)?( ace)?( to you)?$"#, t) { return .greeting }
-        if Rx.matches(#"^(thanks|thank you|ty|thx|cheers|thank u)( ace)?( so much| very much| a lot| a bunch| a ton| heaps)?( ace| buddy| man| dude)?$"#, t) { return .thanks }
+        if Rx.matches(#"^(ok |okay |oh |well )?(thanks|thank you|ty|thx|cheers|thank u|tysm|tyvm|thanks a lot|many thanks|much appreciated|appreciate it|i appreciate it|i appreciate you)( ace)?( so much| very much| a lot| a bunch| a ton| heaps| for (the help|helping|that|everything))?( ace| buddy| man| dude| bro| bud| friend)?$"#, t) { return .thanks }
         if Rx.matches(#"^(ok |okay |alright |well )?(bye|goodbye|bye bye|good night|goodnight|see you|see ya|later|cya|talk to you later|catch you later)( for now)?( ace)?( for now)?$"#, t) { return .goodbye }
         // "I'm gonna leave", "gtg", "goodnight": a goodbye, never a web search.
         if Chat.isGoodbye(raw) { return .goodbye }
@@ -228,6 +248,9 @@ enum IntentRouter {
             if let cat = Trivia.category(in: t) { return .game("trivia:" + cat) }
             return .game("trivia")
         }
+
+        // Sassy mode by voice ("turn on sassy mode", "get sassy", "normal mode"), before Home so it's never a scene.
+        if let on = personality(t) { return .personality(on) }
 
         // Home (Apple Home): lights, plugs, fans, thermostats, the robot vacuum, scenes
         if let h = HomeParser.parse(t) { return .home(h) }

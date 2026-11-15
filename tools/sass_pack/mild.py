@@ -264,6 +264,36 @@ MILD = {
         "Alright then.",
         "No worries. Ask me anything.",
     ],
+    "banter.hello": [
+        "Hey! What's up?",
+        "Hi there. What can I do for you?",
+        "Oh hey! Good to see you.",
+    ],
+    "banter.whatsup": [
+        "Not much, just hanging out. What's up with you?",
+        "Just glowing over here. What are you up to?",
+        "Not much! Ready when you are.",
+    ],
+    "banter.howareyou": [
+        "Doing great, thanks! How about you?",
+        "Pretty good! How's your day?",
+        "Feeling bright. How are you?",
+    ],
+    "banter.compliment": [
+        "Aw, thanks! You're pretty great too.",
+        "Thank you! That made my day.",
+        "Thanks! I try.",
+    ],
+    "banter.sorry": [
+        "No worries!",
+        "All good. No harm done.",
+        "It's okay. We're cool.",
+    ],
+    "banter.smalltalk": [
+        "Gotcha. What would you like to do?",
+        "Okay! Ask me anything.",
+        "I'm listening. Want to play trivia or ask something?",
+    ],
     "sassy.off": [
         "Okay, back to normal.",
         "Normal Ace is back.",
