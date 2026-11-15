@@ -1,6 +1,17 @@
 {
  "builds": [
   {
+   "build": 55,
+   "date": "2026-11-15",
+   "items": [
+    "A much bigger brain: Ace now knows about 60,000 answers, about 20 times more than before.",
+    "About 4,000 trivia questions to play.",
+    "About 1,000 recipes to cook from.",
+    "About 1,100 ready-made scripts and code examples.",
+    "Better at questions it has never seen before, and just as right on the old ones."
+   ]
+  },
+  {
    "build": 53,
    "date": "2026-11-15",
    "items": [
