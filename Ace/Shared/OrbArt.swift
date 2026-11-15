@@ -59,6 +59,16 @@ enum OrbMood: String, Codable, CaseIterable {
     /// The island stretches into a pill when the eyes are out.
     var expands: Bool { showsEyes }
 
+    /// How far Ace's Dynamic Island stretches: small while resting, medium while
+    /// Ace listens, reads, thinks or talks, and wide when the eyes come out.
+    var stretch: IslandStretch {
+        if expands { return .wide }
+        switch self {
+        case .idle, .sleeping: return .compact
+        default: return .medium
+        }
+    }
+
     var label: String {
         switch self {
         case .idle: return "Ready"
@@ -72,6 +82,81 @@ enum OrbMood: String, Codable, CaseIterable {
         case .sleeping: return "Resting"
         case .home: return "Home done"
         }
+    }
+}
+
+/// The three sizes of Ace's Dynamic Island (a black pill at the top of the screen).
+enum IslandStretch: Int, CaseIterable, Comparable {
+    case compact, medium, wide
+
+    static func < (a: IslandStretch, b: IslandStretch) -> Bool { a.rawValue < b.rawValue }
+
+    /// The pill's width when there's room for it.
+    var width: CGFloat {
+        switch self {
+        case .compact: return 120
+        case .medium: return 230
+        case .wide: return 330
+        }
+    }
+
+    /// The pill's height. It grows a little when it stretches, like the real island.
+    var height: CGFloat {
+        switch self {
+        case .compact: return 40
+        case .medium: return 50
+        case .wide: return 58
+        }
+    }
+
+    /// The width that fits in the space: never wider than the space, never narrower than it is tall.
+    func width(fitting space: CGFloat) -> CGFloat {
+        max(height, min(width, space))
+    }
+}
+
+/// The looks Ace takes turns with while it thinks. Each one lasts a few seconds,
+/// then fades into the next. With Reduce Motion on, Ace keeps one calm, still look.
+enum ThinkingAnimation: String, CaseIterable {
+    /// A dashed gold ring spinning around the orb, with a little swirl inside.
+    case spinGlow
+    /// One eye on each side of the orb, glancing around and blinking.
+    case sideEyes
+    /// A band of light sweeping across the orb.
+    case shimmer
+    /// Gold rings pulsing out from the orb.
+    case rings
+    /// Waves running through the island behind the orb.
+    case wave
+    /// A still gold ring, for Reduce Motion.
+    case calm
+
+    /// How long each look lasts.
+    static let seconds: TimeInterval = 3
+    /// How long one look takes to fade into the next (at the end of its turn).
+    static let fade: TimeInterval = 0.6
+
+    /// The looks in the order Ace shows them.
+    static func cycle(reduceMotion: Bool) -> [ThinkingAnimation] {
+        reduceMotion ? [.calm] : [.spinGlow, .sideEyes, .shimmer, .rings, .wave]
+    }
+
+    /// Which look shows `t` seconds after Ace started thinking, the one coming next,
+    /// and how far the fade into the next one has got (0 = not started, 1 = done).
+    static func frame(at t: TimeInterval, reduceMotion: Bool) -> (current: ThinkingAnimation, next: ThinkingAnimation, mix: Double) {
+        let list = cycle(reduceMotion: reduceMotion)
+        guard list.count > 1 else {
+            let only = list.first ?? .calm
+            return (only, only, 0)
+        }
+        let time = t.isFinite ? max(0, t) : 0
+        let step = Int(time / seconds)
+        let current = list[step % list.count]
+        let next = list[(step + 1) % list.count]
+        let into = time - Double(step) * seconds
+        let fadeStart = seconds - fade
+        guard into > fadeStart else { return (current, next, 0) }
+        return (current, next, min(1, max(0, (into - fadeStart) / fade)))
     }
 }
 

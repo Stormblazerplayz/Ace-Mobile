@@ -895,7 +895,7 @@ struct QuickRepliesView: View {
     @EnvironmentObject var core: AceCore
     @State private var tapped: String?
 
-    private var live: Bool { tapped == nil && core.brain.gameToken == card.token }
+    private var live: Bool { tapped == nil && (card.anytime == true || core.brain.gameToken == card.token) }
 
     var body: some View {
         HStack(spacing: 8) {

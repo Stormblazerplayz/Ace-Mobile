@@ -42,7 +42,11 @@ enum WebService {
     static func research(_ query: String) async -> Research? {
         async let ddg = duckDuckGo(query)
         async let wiki = wikipedia(query)
-        let (d, w) = await (ddg, wiki)
+        var (d, w) = await (ddg, wiki)
+        // Throw out anything about a different place or topic than the question.
+        // Saying "I'm not sure" is better than showing a page about something else.
+        if let r = d, !fits(r, query: query) { d = nil }
+        if let r = w, !fits(r, query: query) { w = nil }
         // An exact instant answer ("Answer" field) wins.
         if let d, d.confidence >= 0.9 { return d }
         switch (d, w) {
@@ -99,9 +103,19 @@ enum WebService {
                            ["action": "query", "list": "search", "srsearch": cleaned, "format": "json", "srlimit": "3"]),
               let obj = await json(su) as? [String: Any],
               let q = obj["query"] as? [String: Any],
-              let hits = q["search"] as? [[String: Any]],
-              let title = hits.first?["title"] as? String
+              let hits = q["search"] as? [[String: Any]]
         else { return nil }
+        // The top hit isn't always about the question ("president uk" can find a German page),
+        // so try the first three and keep the first one that fits.
+        for hit in hits.prefix(3) {
+            guard let title = hit["title"] as? String,
+                  let r = await wikipediaPage(title, query: query, cleaned: cleaned) else { continue }
+            if fits(r, query: query) { return r }
+        }
+        return nil
+    }
+
+    private static func wikipediaPage(_ title: String, query: String, cleaned: String) async -> Research? {
         guard let eu = url("https://en.wikipedia.org/w/api.php",
                            ["action": "query", "prop": "extracts|pageimages", "exintro": "1", "explaintext": "1",
                             "redirects": "1", "titles": title, "format": "json", "pithumbsize": "480"]),
@@ -124,6 +138,108 @@ enum WebService {
         return Research(title: pageTitle, summary: summary, bullets: bullets, imageURL: image,
                         sources: link.map { [WebSource(title: "Wikipedia: \(pageTitle)", url: $0)] } ?? [],
                         confidence: min(0.85, 0.45 + overlap * 0.5))
+    }
+
+    // MARK: Does a result fit the question?
+
+    static func fits(_ r: Research, query: String) -> Bool {
+        fits(title: r.title, text: r.summary + " " + r.bullets.joined(separator: " "), query: query)
+    }
+
+    /// True when a web result is about what was asked: it names the place in the question (if there is one)
+    /// and has enough of the question's main words. "capital of the UK" doesn't fit a page about Sanrio,
+    /// and "president of the UK" doesn't fit a page about Germany.
+    static func fits(title: String, text: String, query: String) -> Bool {
+        let hay = title + " " + text
+        let asked = Leaders.countries(in: query)
+        if !asked.isEmpty, !asked.contains(where: { Leaders.mentions($0, in: hay) }) { return false }
+        let main = mainWords(query)
+        guard !main.isEmpty else { return true }
+        let have = Set(TextKit.keywords(hay))
+        let hits = main.filter { m in
+            have.contains(m) || have.contains { $0.count >= 4 && m.count >= 4 && ($0.hasPrefix(m) || m.hasPrefix($0)) }
+        }.count
+        let need = main.count <= 2 ? 1 : main.count / 2
+        return hits >= need
+    }
+
+    /// The words a question is really about, without greetings, filler or place names.
+    static func mainWords(_ query: String) -> [String] {
+        let placeWords = Set(Leaders.countries(in: query).flatMap { c in (c.names + c.people).flatMap { TextKit.keywords($0) } })
+        let skip: Set<String> = [
+            "hello", "hi", "hiya", "yo", "ace", "current", "currently", "now", "today", "latest", "right", "please",
+            "thank", "thanks", "tell", "explain", "mean", "meaning", "fact", "facts", "info", "information", "search",
+            "look", "lookup", "google", "web", "internet", "online",
+        ]
+        var out: [String] = []
+        for w in TextKit.keywords(query) where !skip.contains(w) && !placeWords.contains(w) && !TextKit.commonWords.contains(w) && !out.contains(w) {
+            out.append(w)
+        }
+        return out
+    }
+
+    // MARK: Leaders
+
+    /// Who has a country's top jobs right now, from Wikidata
+    /// (head of state is P35, head of government is P6). nil when it can't be reached.
+    static func leaders(_ wikidataID: String) async -> (state: String?, government: String?)? {
+        guard let u = url("https://www.wikidata.org/w/api.php",
+                          ["action": "wbgetentities", "ids": wikidataID, "props": "claims", "format": "json"]),
+              let obj = await json(u) as? [String: Any],
+              let entities = obj["entities"] as? [String: Any],
+              let entity = entities[wikidataID] as? [String: Any],
+              let claims = entity["claims"] as? [String: Any]
+        else { return nil }
+        let stateID = currentHolder(claims["P35"] as? [[String: Any]] ?? [])
+        let governmentID = currentHolder(claims["P6"] as? [[String: Any]] ?? [])
+        var ids: [String] = []
+        for id in [stateID, governmentID].compactMap({ $0 }) where !ids.contains(id) { ids.append(id) }
+        guard !ids.isEmpty,
+              let lu = url("https://www.wikidata.org/w/api.php",
+                           ["action": "wbgetentities", "ids": ids.joined(separator: "|"), "props": "labels",
+                            "languages": "en", "format": "json"]),
+              let lobj = await json(lu) as? [String: Any],
+              let labels = lobj["entities"] as? [String: Any]
+        else { return nil }
+        func name(_ id: String?) -> String? {
+            guard let id, let e = labels[id] as? [String: Any], let all = e["labels"] as? [String: Any],
+                  let en = all["en"] as? [String: Any], let value = en["value"] as? String, !value.isEmpty else { return nil }
+            return value
+        }
+        let found = (state: name(stateID), government: name(governmentID))
+        return found.state == nil && found.government == nil ? nil : found
+    }
+
+    /// Picks who has the job now from Wikidata statements: no end date, "preferred" first, then the newest start.
+    static func currentHolder(_ statements: [[String: Any]]) -> String? {
+        var best: (id: String, preferred: Bool, start: String)?
+        for s in statements {
+            let rank = s["rank"] as? String ?? "normal"
+            guard rank != "deprecated" else { continue }
+            let qualifiers = s["qualifiers"] as? [String: Any] ?? [:]
+            // An end date (P582) means that person doesn't have the job any more.
+            if qualifiers["P582"] != nil { continue }
+            guard let snak = s["mainsnak"] as? [String: Any],
+                  let dv = snak["datavalue"] as? [String: Any],
+                  let value = dv["value"] as? [String: Any],
+                  let id = value["id"] as? String else { continue }
+            var start = ""
+            if let starts = qualifiers["P580"] as? [[String: Any]],
+               let sdv = starts.first?["datavalue"] as? [String: Any],
+               let sv = sdv["value"] as? [String: Any],
+               let time = sv["time"] as? String {
+                start = time
+            }
+            let preferred = rank == "preferred"
+            if let b = best {
+                if (preferred && !b.preferred) || (preferred == b.preferred && start > b.start) {
+                    best = (id, preferred, start)
+                }
+            } else {
+                best = (id, preferred, start)
+            }
+        }
+        return best?.id
     }
 
     // MARK: Recipes

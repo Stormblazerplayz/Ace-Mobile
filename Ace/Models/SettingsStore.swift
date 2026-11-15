@@ -38,6 +38,14 @@ final class SettingsStore: ObservableObject {
     @Published var syncPCName: String { didSet { d.set(syncPCName, forKey: "syncPCName") } }
     @Published var lastSync: Date? { didSet { d.set(lastSync, forKey: "lastSync") } }
     @Published var lastGreetingDay: String { didSet { d.set(lastGreetingDay, forKey: "lastGreetingDay") } }
+    /// When Ace last said hello as the app opened (it doesn't greet twice within a few minutes).
+    @Published var lastGreetingAt: Date? { didSet { d.set(lastGreetingAt, forKey: "lastGreetingAt") } }
+    /// Say the hello out loud when the app opens.
+    @Published var speakGreeting: Bool { didSet { d.set(speakGreeting, forKey: "speakGreeting") } }
+    /// A short quiet sound when the orb changes mood.
+    @Published var moodSounds: Bool { didSet { d.set(moodSounds, forKey: "moodSounds") } }
+    /// Seasonal outfits on the orb (a Santa hat in December...).
+    @Published var orbOutfits: Bool { didSet { d.set(orbOutfits, forKey: "orbOutfits") } }
 
     init() {
         d.register(defaults: [
@@ -45,6 +53,7 @@ final class SettingsStore: ObservableObject {
             "wakeChecks": true, "backgroundAlerts": true, "openLinksIn": "ace", "searchEngine": "google",
             "webAnswers": true, "showThinking": true, "useAppleModel": false, "useLocalModel": true, "brain": "ace",
             "bedtimeTips": true, "temperatureUnit": "auto", "syncEnabled": false, "syncPort": 48620, "voiceSpeed": 1.0,
+            "speakGreeting": true, "moodSounds": true, "orbOutfits": true,
         ])
         userName = d.string(forKey: "userName") ?? ""
         soundsOn = d.bool(forKey: "soundsOn")
@@ -71,6 +80,10 @@ final class SettingsStore: ObservableObject {
         syncPCName = d.string(forKey: "syncPCName") ?? ""
         lastSync = d.object(forKey: "lastSync") as? Date
         lastGreetingDay = d.string(forKey: "lastGreetingDay") ?? ""
+        lastGreetingAt = d.object(forKey: "lastGreetingAt") as? Date
+        speakGreeting = d.bool(forKey: "speakGreeting")
+        moodSounds = d.bool(forKey: "moodSounds")
+        orbOutfits = d.bool(forKey: "orbOutfits")
     }
 
     nonisolated static let slowestVoice = 0.6

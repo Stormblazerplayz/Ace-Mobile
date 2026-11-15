@@ -16,6 +16,31 @@ enum Sfx: String, CaseIterable {
     case greeting
     case sleepWhoosh = "sleep_whoosh"
     case send
+    case moodListen = "mood_listen"
+    case moodThink = "mood_think"
+    case moodHappy = "mood_happy"
+    case moodConfused = "mood_confused"
+    case moodSleep = "mood_sleep"
+}
+
+/// The short sound the orb makes when its mood changes (Settings > Mood sounds).
+enum MoodSound {
+    /// The sound for going from one mood to another, or nil for no sound
+    /// (the same mood again, or calm everyday changes like typing).
+    static func sfx(from old: OrbMood, to new: OrbMood) -> Sfx? {
+        guard old != new else { return nil }
+        switch new {
+        case .listening: return .moodListen
+        case .thinking: return .moodThink
+        case .happy, .home: return .moodHappy
+        case .alert: return .moodConfused
+        case .sleeping: return .moodSleep
+        case .idle, .typing, .talking, .checking: return nil
+        }
+    }
+
+    /// How quiet the mood sounds are, next to the other sounds.
+    static let gain: Float = 0.3
 }
 
 /// Plays the sound set through one audio engine, with stereo pan (so a glance left
@@ -41,6 +66,8 @@ final class SoundFX {
     private var format: AVAudioFormat?
 
     var enabled = true
+    /// When the last sound started, so a mood sound doesn't pile on top of another sound.
+    private(set) var lastPlayed = Date.distantPast
     var volume: Float = 0.8 {
         didSet { engine.mainMixerNode.outputVolume = volume }
     }
@@ -124,6 +151,13 @@ final class SoundFX {
         voice.busyUntil = now.addingTimeInterval(seconds + 0.05)
         voice.player.scheduleBuffer(buffer, at: nil, options: [], completionHandler: nil)
         voice.player.play()
+        lastPlayed = now
+    }
+
+    /// Plays the quiet mood sound, unless another sound just started (so they never stack up).
+    func playMood(from old: OrbMood, to new: OrbMood) {
+        guard let sfx = MoodSound.sfx(from: old, to: new), Date().timeIntervalSince(lastPlayed) > 0.3 else { return }
+        play(sfx, jitter: 0.03, gain: MoodSound.gain)
     }
 
     /// Starts a looping sound (the thinking hum) with a fade in.

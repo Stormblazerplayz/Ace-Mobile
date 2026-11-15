@@ -50,6 +50,8 @@ final class Brain {
     private var toldModelMissing = false
     /// A home action waiting for a yes (Ace wasn't sure which device you meant).
     private var pendingHome: HomeCommand?
+    /// A quick version of the recipe Ace just showed, offered with "Want a quick 5-minute mug version instead?"
+    private var pendingQuickRecipe: String?
     /// The last recipe Ace showed, so "make it spicier" or "for 8 people" can change it.
     private(set) var lastRecipe: RecipeCard?
     /// What a follow-up like "what about tomorrow" turned into, so the next follow-up builds on it.
@@ -80,7 +82,7 @@ final class Brain {
             onThought(step)
             try? await Task.sleep(nanoseconds: 140_000_000)
         }
-        let text = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+        var text = raw.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !text.isEmpty else { return BrainReply(text: Say.line(.empty)) }
         resolvedQuestion = nil
 
@@ -109,6 +111,17 @@ final class Brain {
             }
         }
 
+        // Answering "Want a quick 5-minute mug version instead?"
+        if let id = pendingQuickRecipe {
+            pendingQuickRecipe = nil
+            if Self.acceptsQuickOffer(text), let e = RecipeBook.all.first(where: { $0.id == id }) {
+                await think("You want the quick one, so here's \(e.name.lowercased())")
+                lastTopic = e.name
+                return finish(BrainReply(text: Say.line(.recipeFound, ["name": e.name, "ingredients": "\(e.ingredients.count)", "steps": "\(e.steps.count)"]),
+                                         thoughts: thoughts, cards: [.recipe(e.card)], source: "Ace's recipe book", mood: .happy), question: text)
+            }
+        }
+
         // Playing trivia or 20 questions: answers go to the game.
         if game != nil, let r = playGame(text) {
             return finish(r, question: text)
@@ -124,6 +137,13 @@ final class Brain {
                 r.thoughts = thoughts
                 return finish(r, question: pick.wording)
             }
+        }
+
+        // "Hello Ace, what's the capital of the UK": the hello and the name aren't part of the question.
+        let asked = IntentRouter.withoutGreeting(text)
+        if asked != text {
+            text = asked
+            await think("You said hi first, so the question is \"\(asked)\"")
         }
 
         await think("Reading: \"\(text)\"")
@@ -189,7 +209,7 @@ final class Brain {
             if let r = await run(intent, text: text, think: think) { return r }
             await think("That skill couldn't do it, so I'll keep looking")
         case .bank(let m):
-            return answer(from: m)
+            return withFavorite(answer(from: m), question: text)
         case .clarify(let a, let b):
             pendingChoices = [a, b]
             return BrainReply(text: Say.line(.clarify, ["first": a.wording, "second": b.wording]), source: "answer bank", mood: .idle)
@@ -204,10 +224,15 @@ final class Brain {
                 await think("Read \(max(1, r.sources.count)) source\(r.sources.count == 1 ? "" : "s") and picked the best sentences")
                 lastTopic = r.title
                 let short = Self.brief(r.summary, query: text)
-                bank.learn(question: text, answer: short, source: "learned", tag: "learned.web", url: r.sources.first?.url.absoluteString)
-                await think("Saved it to my answer bank so I'll know it next time")
+                // "Current", "now" and "latest" questions change, so they're looked up fresh each time.
+                if Leaders.isTimeSensitive(text) {
+                    await think("That can change, so I won't save it as a lasting answer")
+                } else {
+                    bank.learn(question: text, answer: short, source: "learned", tag: "learned.web", url: r.sources.first?.url.absoluteString)
+                    await think("Saved it to my answer bank so I'll know it next time")
+                }
                 let card = WebCard(title: r.title, summary: r.summary, bullets: r.bullets, imageURL: r.imageURL, sources: r.sources)
-                return BrainReply(text: short, cards: [.web(card)], source: "web")
+                return withFavorite(BrainReply(text: short, cards: [.web(card)], source: "web"), question: text)
             }
         }
 
@@ -634,7 +659,7 @@ final class Brain {
 
     /// Works out what the text means the same way `respond` does, minus the web and anything with side effects.
     func understand(_ raw: String) -> Understanding {
-        let text = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+        let text = IntentRouter.withoutGreeting(raw)
         guard !text.isEmpty else { return .unknown }
         let parts = splitParts(text)
         if parts.count > 1 { return .multi(parts.map { understandOne($0) }) }
@@ -654,6 +679,7 @@ final class Brain {
         awaitingAnswerFor = nil
         pendingChoices = []
         pendingHome = nil
+        pendingQuickRecipe = nil
         lastRecipe = nil
         resolvedQuestion = nil
         game = nil
@@ -710,6 +736,18 @@ final class Brain {
         lastTopic = Summarizer.topic(of: m.wording)
         let source = e.source == "builtin" || e.source == nil ? "answer bank" : "learned"
         return BrainReply(text: text, source: source)
+    }
+
+    /// Now and then, adds a line about one of your favorites when the question touches it
+    /// ("tell me about foxes" -> "That's your favorite animal, too!"). Paced so it never gets old.
+    private func withFavorite(_ r: BrainReply, question: String) -> BrainReply {
+        guard let host else { return r }
+        let items = Favorites.all(host.memory.facts.map(\.text))
+        guard !items.isEmpty, let hit = Favorites.touched(by: question, items: items),
+              Favorites.takeTurn(hit.item) else { return r }
+        var out = r
+        out.text += " " + Favorites.aside(hit.item, valueSaid: hit.valueSaid)
+        return out
     }
 
     /// Drops filler like "can you tell me" and swaps a few words for ones the bank knows.
@@ -805,6 +843,7 @@ final class Brain {
         case .correction: return "a correction"
         case .teach: return "teaching me"
         case .focus: return "a focus session"
+        case .leader: return "who leads a country"
         case .ipadOnlyLimit: return "an iPad limit"
         case .home: return "your home"
         }
@@ -923,6 +962,13 @@ final class Brain {
             // "what should I make for dinner": any idea.
             if dish.hasPrefix("idea") {
                 let meal = dish.dropFirst(4).trimmingCharacters(in: .whitespaces)
+                // Sometimes one of your favorite foods, if Ace has the recipe and it fits the meal.
+                let favorites = Favorites.all(host.memory.facts.map(\.text))
+                if Double.random(in: 0..<1) < 0.4, let fav = Favorites.recipe(for: meal, items: favorites) {
+                    lastTopic = fav.name
+                    return BrainReply(text: TextKit.capitalizeFirst(Say.line(.recipeIdea, ["name": fav.name])) + " It's one of your favorites!",
+                                      cards: [.recipe(fav.card)], source: "Ace's recipe book")
+                }
                 guard let pick = RecipeBook.suggestion(for: meal) else {
                     return BrainReply(text: Say.line(.recipeNotFound, ["dish": meal.isEmpty ? "that" : meal]), mood: .idle)
                 }
@@ -932,8 +978,15 @@ final class Brain {
             // Ace's own recipe book works with no internet.
             if let e = RecipeBook.find(dish) {
                 lastTopic = e.name
-                return BrainReply(text: Say.line(.recipeFound, ["name": e.name, "ingredients": "\(e.ingredients.count)", "steps": "\(e.steps.count)"]),
-                                  cards: [.recipe(e.card)], source: "Ace's recipe book")
+                var text = Say.line(.recipeFound, ["name": e.name, "ingredients": "\(e.ingredients.count)", "steps": "\(e.steps.count)"])
+                var cards: [AceCard] = [.recipe(e.card)]
+                // The full chocolate cake takes 2 hours, so offer the 5-minute mug cake too.
+                if let quick = RecipeBook.quickVersion(of: e), let offer = RecipeBook.quickOffer(for: e) {
+                    text += "\n\n" + offer
+                    pendingQuickRecipe = quick.id
+                    cards.append(.quickReplies(QuickReplies(token: "", replies: [quick.name + " recipe"], anytime: true)))
+                }
+                return BrainReply(text: text, cards: cards, source: "Ace's recipe book")
             }
             await think("Looking up a recipe for \(dish)")
             guard let card = await WebService.recipe(dish) else {
@@ -1216,7 +1269,26 @@ final class Brain {
                 pendingHome = ask
             }
             return r.reply
+
+        case .leader(let ask):
+            guard let country = Leaders.country(id: ask.country) else { return nil }
+            // Leaders change, so look them up fresh when Ace can, and say how old the built-in names are when it can't.
+            var fresh: (state: String?, government: String?)?
+            if host.settings.webAnswers, SystemMonitor.shared.online {
+                await think("Checking who leads \(country.short) right now")
+                fresh = await WebService.leaders(country.wikidata)
+            }
+            if fresh == nil { await think("Using my built-in facts from \(Leaders.checked)") }
+            lastTopic = country.name
+            return BrainReply(text: Leaders.answer(ask, fresh: fresh), source: fresh == nil ? "Ace's built-in facts" : "Wikidata")
         }
+    }
+
+    /// "yes", "sure", "the quick one", "mug version" after Ace offers a quick recipe.
+    static func acceptsQuickOffer(_ text: String) -> Bool {
+        let t = TextKit.normalize(text).trimmingCharacters(in: CharacterSet(charactersIn: ".!? "))
+        return Rx.matches(#"^(?:(?:yes|yeah|yep|yup|ya|sure|yes please|sure thing|definitely|do that|y)\b[ ,]*)*(?:(?:the |a |that )?(?:quick|mug|fast|5 minute|five minute|microwave)(?: one| version| cake| mug cake| recipe)?)?(?: please| instead| thanks)?$"#, t)
+            && !t.isEmpty && !Rx.matches(#"^(no|nope|nah)\b"#, t)
     }
 
     // MARK: Games

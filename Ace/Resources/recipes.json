@@ -1746,6 +1746,63 @@
    ]
   },
   {
+   "id": "chocolate-cake",
+   "name": "Chocolate cake",
+   "aliases": [
+    "chocolate cake",
+    "chocolate cakes",
+    "choc cake",
+    "chocolate layer cake",
+    "chocolate birthday cake",
+    "birthday cake",
+    "cake",
+    "cakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "2 hr (with cooling)",
+   "main": [
+    "cocoa",
+    "flour",
+    "sugar",
+    "egg",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "2 cups (400 g) sugar",
+    "1 3/4 cups (220 g) all-purpose flour",
+    "3/4 cup (65 g) unsweetened cocoa powder",
+    "1 1/2 teaspoons baking powder",
+    "1 1/2 teaspoons baking soda",
+    "1 teaspoon salt",
+    "2 large eggs",
+    "1 cup (240 ml) milk",
+    "1/2 cup (120 ml) vegetable oil",
+    "2 teaspoons vanilla extract",
+    "1 cup (240 ml) boiling water",
+    "Frosting: 1/2 cup (115 g) soft butter",
+    "Frosting: 2/3 cup (55 g) unsweetened cocoa powder",
+    "Frosting: 3 cups (360 g) powdered sugar",
+    "Frosting: 1/3 cup (80 ml) milk",
+    "Frosting: 1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease two 9 inch round cake pans (or one 9 by 13 inch pan), dust them with flour and line the bottoms with parchment paper.",
+    "In a big bowl, whisk the sugar, flour, cocoa, baking powder, baking soda and salt.",
+    "Add the eggs, milk, oil and vanilla, and beat with a mixer on medium speed for 2 minutes.",
+    "Have an adult pour in the boiling water, and stir it in. The batter will be very thin, and that's normal.",
+    "Pour the batter evenly into the pans.",
+    "Bake for 30 to 35 minutes, until a toothpick in the middle comes out clean. A 9 by 13 inch pan needs 35 to 40 minutes.",
+    "Let the cakes cool in the pans for 10 minutes, then turn them out onto a wire rack.",
+    "Let them cool completely for about 1 hour before frosting, or the frosting will melt.",
+    "For the frosting, beat the soft butter until smooth, then beat in the cocoa.",
+    "Add the powdered sugar a little at a time, with a splash of the milk between each, until it's thick and spreadable. Stir in the vanilla.",
+    "Put one cake on a plate, spread frosting on top, add the second cake, then frost the top and sides."
+   ]
+  },
+  {
    "id": "chocolate-mug-cake",
    "name": "Chocolate mug cake",
    "aliases": [
