@@ -17,6 +17,8 @@ struct OrbIsland: View {
     var onHold: (Bool) -> Void = { _ in }
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.scenePhase) private var scenePhase
+    @StateObject private var motion = OrbMotion()
     @State private var start = Date()
     @State private var pressStart: Date?
     @State private var holding = false
@@ -54,7 +56,7 @@ struct OrbIsland: View {
                     orb(breathe: breathe, t: t)
                         .frame(width: height - 8, height: height - 8)
                     if expanded {
-                        OrbEyes(look: look, open: eyeOpen, happy: mood == .happy, color: mood.tint)
+                        OrbEyes(look: look, open: eyeOpen, happy: mood == .happy || mood == .home, color: mood.tint)
                             .frame(width: 96, height: height * 0.62)
                             .transition(.scale(scale: 0.2).combined(with: .opacity))
                         if showsStatus {
@@ -72,6 +74,17 @@ struct OrbIsland: View {
             .frame(width: expanded ? expandedWidth : height, height: height)
         }
         .animation(.spring(response: 0.5, dampingFraction: 0.72), value: mood)
+        // Tilt the iPad and the orb leans with it.
+        .rotation3DEffect(.degrees(Double(motion.tilt.height) * -10), axis: (x: 1, y: 0, z: 0))
+        .rotation3DEffect(.degrees(Double(motion.tilt.width) * 10), axis: (x: 0, y: 1, z: 0))
+        .offset(x: motion.tilt.width * 3, y: motion.tilt.height * -2)
+        .onAppear { if !reduceMotion { motion.start() } }
+        .onDisappear { motion.stop() }
+        .onChange(of: reduceMotion) { _, reduce in if reduce { motion.stop() } else { motion.start() } }
+        .onChange(of: scenePhase) { _, phase in
+            guard !reduceMotion else { return }
+            if phase == .active { motion.start() } else if phase == .background { motion.stop() }
+        }
         .contentShape(Capsule())
         .scaleEffect(holding ? 1.12 : 1)
         .animation(.spring(response: 0.3, dampingFraction: 0.6), value: holding)
@@ -132,7 +145,7 @@ struct OrbIsland: View {
             if mood == .thinking {
                 Circle()
                     .trim(from: 0, to: 0.72)
-                    .stroke(AceTheme.amber, style: StrokeStyle(lineWidth: 2.4, lineCap: .round, dash: [5, 6]))
+                    .stroke(Color(hex: 0xFFE08A), style: StrokeStyle(lineWidth: 2.4, lineCap: .round, dash: [5, 6]))
                     .rotationEffect(.degrees(t * 220))
                     .scaleEffect(1.22)
                 // A little swirl inside, like gears turning.
