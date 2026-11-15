@@ -1,0 +1,1629 @@
+{
+ "questions": [
+  {
+   "id": "sports-1126",
+   "category": "Sports",
+   "q": "Which Winter Olympic sport combines cross-country skiing and rifle shooting?",
+   "choices": [
+    "Biathlon",
+    "Bobsleigh",
+    "Nordic combined",
+    "Skeleton"
+   ],
+   "answer": 0,
+   "fact": "Biathletes must calm their racing heartbeat to shoot accurately at small targets."
+  },
+  {
+   "id": "sports-1127",
+   "category": "Sports",
+   "q": "In which Winter Olympic sport do athletes slide headfirst down an icy track on a small sled?",
+   "choices": [
+    "Luge",
+    "Curling",
+    "Skeleton",
+    "Bobsleigh"
+   ],
+   "answer": 2,
+   "fact": "Skeleton racers can go faster than 130 kilometers per hour with their chin just above the ice."
+  },
+  {
+   "id": "sports-1128",
+   "category": "Sports",
+   "q": "In which Winter Olympic sliding sport do athletes lie on their backs and go feet first?",
+   "choices": [
+    "Luge",
+    "Skeleton",
+    "Bobsleigh",
+    "Biathlon"
+   ],
+   "answer": 0,
+   "fact": "Luge is French for \"sled\"."
+  },
+  {
+   "id": "sports-1129",
+   "category": "Sports",
+   "q": "Which city hosted the 2008 Summer Olympics, with its famous Bird's Nest stadium?",
+   "choices": [
+    "Tokyo",
+    "Shanghai",
+    "Seoul",
+    "Beijing"
+   ],
+   "answer": 3,
+   "fact": "In 2022, Beijing became the first city to host both the Summer and Winter Olympics."
+  },
+  {
+   "id": "sports-1130",
+   "category": "Sports",
+   "q": "Which city hosted the 2012 Summer Olympics?",
+   "choices": [
+    "Paris",
+    "London",
+    "Rio de Janeiro",
+    "Beijing"
+   ],
+   "answer": 1,
+   "fact": "London is the only city to have hosted the Summer Olympics three times, in 1908, 1948 and 2012."
+  },
+  {
+   "id": "sports-1131",
+   "category": "Sports",
+   "q": "Which Italian cities hosted the 2026 Winter Olympics together?",
+   "choices": [
+    "Florence and Bologna",
+    "Milan and Cortina d'Ampezzo",
+    "Venice and Verona",
+    "Rome and Turin"
+   ],
+   "answer": 1,
+   "fact": "Cortina d'Ampezzo had hosted the Winter Olympics once before, in 1956."
+  },
+  {
+   "id": "sports-1132",
+   "category": "Sports",
+   "q": "What did winners at the ancient Olympic Games receive as a prize?",
+   "choices": [
+    "Olive wreath",
+    "Gold medal",
+    "Silver cup",
+    "Bag of coins"
+   ],
+   "answer": 0,
+   "fact": "Winners also became famous and were often given free meals for life in their hometowns."
+  },
+  {
+   "id": "sports-1133",
+   "category": "Sports",
+   "q": "As of 2025, which country has won the most medals in Winter Olympics history?",
+   "choices": [
+    "Norway",
+    "United States",
+    "Germany",
+    "Canada"
+   ],
+   "answer": 0,
+   "fact": "Norway is famous for cross-country skiing, biathlon and other snow sports."
+  },
+  {
+   "id": "sports-1134",
+   "category": "Sports",
+   "q": "As of 2025, which country has won the most medals in Summer Olympics history?",
+   "choices": [
+    "Great Britain",
+    "China",
+    "Russia",
+    "United States"
+   ],
+   "answer": 3,
+   "fact": "As of 2025, the United States has won more than 2,600 Summer Olympic medals."
+  },
+  {
+   "id": "sports-1135",
+   "category": "Sports",
+   "q": "Which dance sport made its Olympic debut at the Paris 2024 Games?",
+   "choices": [
+    "Ballet",
+    "Salsa",
+    "Tap dance",
+    "Breaking"
+   ],
+   "answer": 3,
+   "fact": "Breaking is also called breakdancing, and it began in New York City in the 1970s."
+  },
+  {
+   "id": "sports-1136",
+   "category": "Sports",
+   "q": "Which board sport made its Olympic debut at the Tokyo 2020 Games, along with surfing?",
+   "choices": [
+    "Snowboarding",
+    "Wakeboarding",
+    "Kiteboarding",
+    "Skateboarding"
+   ],
+   "answer": 3,
+   "fact": "Some of the skateboarding medal winners at Tokyo were only 13 years old."
+  },
+  {
+   "id": "sports-1137",
+   "category": "Sports",
+   "q": "Which climbing sport, with bouldering and lead climbing, debuted at the Tokyo 2020 Olympics?",
+   "choices": [
+    "Mountaineering",
+    "Sport climbing",
+    "Rappelling",
+    "Ice climbing"
+   ],
+   "answer": 1,
+   "fact": "Speed climbers race up a 15 meter wall in just a few seconds."
+  },
+  {
+   "id": "sports-1138",
+   "category": "Sports",
+   "q": "In which year did snowboarding first appear at the Winter Olympics?",
+   "choices": [
+    "1998",
+    "1992",
+    "1980",
+    "2006"
+   ],
+   "answer": 0,
+   "fact": "Snowboarding debuted at the Nagano Games in Japan."
+  },
+  {
+   "id": "sports-1139",
+   "category": "Sports",
+   "q": "Which Native American athlete won Olympic gold in both the pentathlon and decathlon in 1912?",
+   "choices": [
+    "Billy Mills",
+    "Jim Thorpe",
+    "Carl Lewis",
+    "Jesse Owens"
+   ],
+   "answer": 1,
+   "fact": "Jim Thorpe also played professional football and baseball."
+  },
+  {
+   "id": "sports-1140",
+   "category": "Sports",
+   "q": "Which American track star won nine Olympic gold medals, including four long jump golds in a row?",
+   "choices": [
+    "Michael Johnson",
+    "Jesse Owens",
+    "Carl Lewis",
+    "Bob Beamon"
+   ],
+   "answer": 2,
+   "fact": "Carl Lewis won his long jump golds in 1984, 1988, 1992 and 1996."
+  },
+  {
+   "id": "sports-1141",
+   "category": "Sports",
+   "q": "As of 2025, which American swimmer has won nine Olympic gold medals, mostly in long freestyle races?",
+   "choices": [
+    "Missy Franklin",
+    "Janet Evans",
+    "Katie Ledecky",
+    "Dara Torres"
+   ],
+   "answer": 2,
+   "fact": "Katie Ledecky won her first Olympic gold at age 15 in 2012."
+  },
+  {
+   "id": "sports-1142",
+   "category": "Sports",
+   "q": "As of 2025, which Swedish athlete holds the men's pole vault world record?",
+   "choices": [
+    "Renaud Lavillenie",
+    "Sam Kendricks",
+    "Sergey Bubka",
+    "Armand Duplantis"
+   ],
+   "answer": 3,
+   "fact": "Armand Duplantis, nicknamed Mondo, keeps breaking his own record by one centimeter at a time."
+  },
+  {
+   "id": "sports-1143",
+   "category": "Sports",
+   "q": "As of 2025, who holds the women's 100 meter world record, set in 1988?",
+   "choices": [
+    "Elaine Thompson-Herah",
+    "Marion Jones",
+    "Florence Griffith-Joyner",
+    "Shelly-Ann Fraser-Pryce"
+   ],
+   "answer": 2,
+   "fact": "Florence Griffith-Joyner, nicknamed Flo-Jo, ran 100 meters in 10.49 seconds."
+  },
+  {
+   "id": "sports-1144",
+   "category": "Sports",
+   "q": "Which Jamaican team's story inspired the movie Cool Runnings?",
+   "choices": [
+    "1988 sprint relay team",
+    "2000 cricket team",
+    "1996 soccer team",
+    "1988 bobsled team"
+   ],
+   "answer": 3,
+   "fact": "Jamaica, a tropical country with no snow, sent its first bobsled team to the 1988 Winter Olympics."
+  },
+  {
+   "id": "sports-1145",
+   "category": "Sports",
+   "q": "How long is one lap of a standard outdoor running track?",
+   "choices": [
+    "400 meters",
+    "500 meters",
+    "1,000 meters",
+    "200 meters"
+   ],
+   "answer": 0,
+   "fact": "Running four laps of a standard track is a little less than a mile."
+  },
+  {
+   "id": "sports-1146",
+   "category": "Sports",
+   "q": "Which runner was the first to run a mile in under four minutes, in 1954?",
+   "choices": [
+    "Steve Prefontaine",
+    "Hicham El Guerrouj",
+    "Jesse Owens",
+    "Roger Bannister"
+   ],
+   "answer": 3,
+   "fact": "Roger Bannister was a medical student who trained in his spare time."
+  },
+  {
+   "id": "sports-1147",
+   "category": "Sports",
+   "q": "Which Kenyan runner became the first person to run a marathon distance in under two hours, in 2019?",
+   "choices": [
+    "Eliud Kipchoge",
+    "Kenenisa Bekele",
+    "Haile Gebrselassie",
+    "Mo Farah"
+   ],
+   "answer": 0,
+   "fact": "It didn't count as an official record because pacers rotated in and out to help him."
+  },
+  {
+   "id": "sports-1148",
+   "category": "Sports",
+   "q": "Which track race includes barriers and a water jump?",
+   "choices": [
+    "Sprint",
+    "Steeplechase",
+    "Hurdles",
+    "Relay"
+   ],
+   "answer": 1,
+   "fact": "The steeplechase began in Britain as a race between towns' church steeples."
+  },
+  {
+   "id": "sports-1149",
+   "category": "Sports",
+   "q": "Which throwing event uses a heavy metal ball pushed from the shoulder?",
+   "choices": [
+    "Shot put",
+    "Discus",
+    "Hammer throw",
+    "Javelin"
+   ],
+   "answer": 0,
+   "fact": "The men's shot weighs about 7.26 kilograms, the same as a bowling ball."
+  },
+  {
+   "id": "sports-1150",
+   "category": "Sports",
+   "q": "Which jumping event is also called the hop, step and jump?",
+   "choices": [
+    "Long jump",
+    "Pole vault",
+    "High jump",
+    "Triple jump"
+   ],
+   "answer": 3,
+   "fact": "Athletes in the triple jump can cover more than 18 meters."
+  },
+  {
+   "id": "sports-1151",
+   "category": "Sports",
+   "q": "What is the backward high jump style that most jumpers use today called?",
+   "choices": [
+    "Fosbury Flop",
+    "Western Roll",
+    "Scissors",
+    "Straddle"
+   ],
+   "answer": 0,
+   "fact": "Dick Fosbury used it to win Olympic gold in 1968, and it soon took over the sport."
+  },
+  {
+   "id": "sports-1152",
+   "category": "Sports",
+   "q": "In golf, what is a score of one stroke under par on a hole called?",
+   "choices": [
+    "Eagle",
+    "Birdie",
+    "Bogey",
+    "Albatross"
+   ],
+   "answer": 1,
+   "fact": "Two under par is called an eagle, and three under is an albatross."
+  },
+  {
+   "id": "sports-1153",
+   "category": "Sports",
+   "q": "In golf, what is a score of one stroke over par on a hole called?",
+   "choices": [
+    "Bogey",
+    "Eagle",
+    "Par",
+    "Birdie"
+   ],
+   "answer": 0,
+   "fact": "Two strokes over par is called a double bogey."
+  },
+  {
+   "id": "sports-1154",
+   "category": "Sports",
+   "q": "What is golfer Tiger Woods's real first name?",
+   "choices": [
+    "Terrence",
+    "Eldrick",
+    "Edward",
+    "Tyler"
+   ],
+   "answer": 1,
+   "fact": "Tiger Woods won the Masters at age 21 in 1997 by a record 12 strokes."
+  },
+  {
+   "id": "sports-1155",
+   "category": "Sports",
+   "q": "Which golf tournament's winner receives a famous green jacket?",
+   "choices": [
+    "Ryder Cup",
+    "The Masters",
+    "US Open",
+    "The Open Championship"
+   ],
+   "answer": 1,
+   "fact": "The Masters is played every April at Augusta National Golf Club in Georgia."
+  },
+  {
+   "id": "sports-1156",
+   "category": "Sports",
+   "q": "What is the most clubs a golfer is allowed to carry in a competition round?",
+   "choices": [
+    "10",
+    "12",
+    "18",
+    "14"
+   ],
+   "answer": 3,
+   "fact": "A golfer can choose any mix of clubs as long as there are no more than 14."
+  },
+  {
+   "id": "sports-1157",
+   "category": "Sports",
+   "q": "Why do golf balls have dimples?",
+   "choices": [
+    "To float in water",
+    "To be easier to find",
+    "To look nice",
+    "To fly farther"
+   ],
+   "answer": 3,
+   "fact": "Dimples help air flow around the ball, so a dimpled ball flies about twice as far as a smooth one."
+  },
+  {
+   "id": "sports-1158",
+   "category": "Sports",
+   "q": "In which country was the modern game of golf developed?",
+   "choices": [
+    "England",
+    "Scotland",
+    "Ireland",
+    "United States"
+   ],
+   "answer": 1,
+   "fact": "St Andrews in Scotland is often called the Home of Golf."
+  },
+  {
+   "id": "sports-1159",
+   "category": "Sports",
+   "q": "In which sport do teams from Europe and the United States compete for the Ryder Cup?",
+   "choices": [
+    "Tennis",
+    "Rugby",
+    "Golf",
+    "Sailing"
+   ],
+   "answer": 2,
+   "fact": "The Ryder Cup is played every two years."
+  },
+  {
+   "id": "sports-1160",
+   "category": "Sports",
+   "q": "How many major championships are there in men's professional golf each year?",
+   "choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "fact": "The four men's majors are the Masters, the PGA Championship, the US Open and The Open Championship."
+  },
+  {
+   "id": "sports-1161",
+   "category": "Sports",
+   "q": "In bowling, what is it called when you knock down all ten pins with your first ball?",
+   "choices": [
+    "Spare",
+    "Strike",
+    "Gutter",
+    "Split"
+   ],
+   "answer": 1,
+   "fact": "A strike is marked on the score sheet with an X."
+  },
+  {
+   "id": "sports-1162",
+   "category": "Sports",
+   "q": "What is the highest possible score in a game of ten-pin bowling?",
+   "choices": [
+    "200",
+    "100",
+    "500",
+    "300"
+   ],
+   "answer": 3,
+   "fact": "A perfect 300 game takes 12 strikes in a row."
+  },
+  {
+   "id": "sports-1163",
+   "category": "Sports",
+   "q": "In bowling, what is it called when you roll three strikes in a row?",
+   "choices": [
+    "Hat trick",
+    "Turkey",
+    "Eagle",
+    "Triple"
+   ],
+   "answer": 1,
+   "fact": "Long ago, some bowling alleys gave a real turkey as a prize for three strikes in a row."
+  },
+  {
+   "id": "sports-1164",
+   "category": "Sports",
+   "q": "How many frames are there in a game of ten-pin bowling?",
+   "choices": [
+    "10",
+    "8",
+    "9",
+    "12"
+   ],
+   "answer": 0,
+   "fact": "If you get a strike or spare in the 10th frame, you get bonus balls."
+  },
+  {
+   "id": "sports-1165",
+   "category": "Sports",
+   "q": "In boxing, what does KO stand for?",
+   "choices": [
+    "Knockout",
+    "King's opening",
+    "Keep out",
+    "Kick off"
+   ],
+   "answer": 0,
+   "fact": "A technical knockout, or TKO, is when the referee stops the fight."
+  },
+  {
+   "id": "sports-1166",
+   "category": "Sports",
+   "q": "Which boxer said he could \"float like a butterfly, sting like a bee\"?",
+   "choices": [
+    "Joe Frazier",
+    "George Foreman",
+    "Muhammad Ali",
+    "Mike Tyson"
+   ],
+   "answer": 2,
+   "fact": "Muhammad Ali won an Olympic gold medal in 1960 under his birth name, Cassius Clay."
+  },
+  {
+   "id": "sports-1167",
+   "category": "Sports",
+   "q": "In which sport can a team score a try?",
+   "choices": [
+    "Cricket",
+    "Soccer",
+    "Lacrosse",
+    "Rugby"
+   ],
+   "answer": 3,
+   "fact": "Players form a pushing huddle called a scrum to restart play in rugby."
+  },
+  {
+   "id": "sports-1168",
+   "category": "Sports",
+   "q": "How many players are on the field for each team in rugby union?",
+   "choices": [
+    "11",
+    "13",
+    "15",
+    "9"
+   ],
+   "answer": 2,
+   "fact": "Rugby league, a different version of the game, has 13 players per team."
+  },
+  {
+   "id": "sports-1169",
+   "category": "Sports",
+   "q": "In which country did the game of rugby begin?",
+   "choices": [
+    "South Africa",
+    "Australia",
+    "New Zealand",
+    "England"
+   ],
+   "answer": 3,
+   "fact": "Legend says a student at Rugby School picked up the ball during a soccer game in 1823."
+  },
+  {
+   "id": "sports-1170",
+   "category": "Sports",
+   "q": "How long is a rugby union match?",
+   "choices": [
+    "80 minutes",
+    "60 minutes",
+    "90 minutes",
+    "70 minutes"
+   ],
+   "answer": 0,
+   "fact": "A rugby union match has two halves of 40 minutes each."
+  },
+  {
+   "id": "sports-1171",
+   "category": "Sports",
+   "q": "In cricket, what is a set of six balls bowled by one bowler called?",
+   "choices": [
+    "A wicket",
+    "A run",
+    "An inning",
+    "An over"
+   ],
+   "answer": 3,
+   "fact": "After each over, a different bowler bowls from the other end."
+  },
+  {
+   "id": "sports-1172",
+   "category": "Sports",
+   "q": "What is the famous cricket series between England and Australia called?",
+   "choices": [
+    "The Crown",
+    "The Ashes",
+    "The Embers",
+    "The Wickets"
+   ],
+   "answer": 1,
+   "fact": "The prize is a tiny urn said to hold the ashes of a burned cricket bail."
+  },
+  {
+   "id": "sports-1173",
+   "category": "Sports",
+   "q": "What wood are cricket bats traditionally made from?",
+   "choices": [
+    "Willow",
+    "Oak",
+    "Pine",
+    "Maple"
+   ],
+   "answer": 0,
+   "fact": "Cricket bats are usually made from a kind of white willow tree grown in England."
+  },
+  {
+   "id": "sports-1174",
+   "category": "Sports",
+   "q": "How many players are on the court for each team in indoor volleyball?",
+   "choices": [
+    "7",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 3,
+   "fact": "Volleyball was invented in 1895 by William Morgan, a gym teacher in Massachusetts."
+  },
+  {
+   "id": "sports-1175",
+   "category": "Sports",
+   "q": "How many players are on each team in Olympic beach volleyball?",
+   "choices": [
+    "6",
+    "4",
+    "3",
+    "2"
+   ],
+   "answer": 3,
+   "fact": "Beach volleyball became an Olympic sport in 1996."
+  },
+  {
+   "id": "sports-1176",
+   "category": "Sports",
+   "q": "In archery, what is the center of the target called?",
+   "choices": [
+    "Pinhole",
+    "Gold coin",
+    "Bullseye",
+    "Crow's nest"
+   ],
+   "answer": 2,
+   "fact": "On an Olympic archery target, the center is painted yellow and is worth 10 points."
+  },
+  {
+   "id": "sports-1177",
+   "category": "Sports",
+   "q": "In which sport do competitors use weapons called a foil, an épée and a sabre?",
+   "choices": [
+    "Kendo",
+    "Biathlon",
+    "Archery",
+    "Fencing"
+   ],
+   "answer": 3,
+   "fact": "Fencers wear electric vests so a machine can tell when a hit lands."
+  },
+  {
+   "id": "sports-1178",
+   "category": "Sports",
+   "q": "What color jersey does the overall leader of the Tour de France wear?",
+   "choices": [
+    "Pink",
+    "Red",
+    "Green",
+    "Yellow"
+   ],
+   "answer": 3,
+   "fact": "The leader of the Giro d'Italia, another bike race, wears pink."
+  },
+  {
+   "id": "sports-1179",
+   "category": "Sports",
+   "q": "Which martial art from Korea is famous for its high, fast kicks?",
+   "choices": [
+    "Taekwondo",
+    "Kung fu",
+    "Judo",
+    "Karate"
+   ],
+   "answer": 0,
+   "fact": "Taekwondo became a full Olympic sport at the 2000 Sydney Games."
+  },
+  {
+   "id": "sports-1180",
+   "category": "Sports",
+   "q": "What does the Japanese name for judo mean?",
+   "choices": [
+    "The gentle way",
+    "The empty hand",
+    "The flowing water",
+    "The way of the sword"
+   ],
+   "answer": 0,
+   "fact": "Judo throws use an opponent's own strength and balance against them."
+  },
+  {
+   "id": "sports-1181",
+   "category": "Sports",
+   "q": "In which country is sumo wrestling the national sport?",
+   "choices": [
+    "China",
+    "Japan",
+    "South Korea",
+    "Mongolia"
+   ],
+   "answer": 1,
+   "fact": "Sumo wrestlers throw salt into the ring before a match to purify it."
+  },
+  {
+   "id": "sports-1182",
+   "category": "Sports",
+   "q": "Which Hawaiian swimmer helped make surfing popular around the world?",
+   "choices": [
+    "Kelly Slater",
+    "Bethany Hamilton",
+    "Duke Kahanamoku",
+    "Eddie Aikau"
+   ],
+   "answer": 2,
+   "fact": "Duke Kahanamoku also won Olympic gold medals in swimming in 1912 and 1920."
+  },
+  {
+   "id": "sports-1183",
+   "category": "Sports",
+   "q": "Which skateboarder became the first to land a 900, two and a half spins in the air, in 1999?",
+   "choices": [
+    "Rodney Mullen",
+    "Nyjah Huston",
+    "Tony Hawk",
+    "Shaun White"
+   ],
+   "answer": 2,
+   "fact": "Tony Hawk landed the 900 at the X Games after 10 tries."
+  },
+  {
+   "id": "sports-1184",
+   "category": "Sports",
+   "q": "As of 2025, how many Formula 1 World Championships has Lewis Hamilton won, tying Michael Schumacher's record?",
+   "choices": [
+    "5",
+    "8",
+    "7",
+    "6"
+   ],
+   "answer": 2,
+   "fact": "As of 2025, Hamilton has also won more Formula 1 races than any other driver."
+  },
+  {
+   "id": "sports-1185",
+   "category": "Sports",
+   "q": "What does a checkered flag mean in car racing?",
+   "choices": [
+    "Slow down",
+    "Pit stop now",
+    "There's a crash",
+    "The race is over"
+   ],
+   "answer": 3,
+   "fact": "The black and white flag is waved first at the winner as they cross the finish line."
+  },
+  {
+   "id": "sports-1186",
+   "category": "Sports",
+   "q": "What does the winner of the Indianapolis 500 traditionally drink in victory lane?",
+   "choices": [
+    "Lemonade",
+    "Milk",
+    "Orange juice",
+    "Champagne"
+   ],
+   "answer": 1,
+   "fact": "The tradition began when Louis Meyer drank buttermilk after winning in 1936."
+  },
+  {
+   "id": "sports-1187",
+   "category": "Sports",
+   "q": "What does NASCAR stand for?",
+   "choices": [
+    "New American Stock Car Association Racing",
+    "National Auto Sport Car Racing",
+    "North American Speed Car Racing",
+    "National Association for Stock Car Auto Racing"
+   ],
+   "answer": 3,
+   "fact": "NASCAR was founded in 1948 in Daytona Beach, Florida."
+  },
+  {
+   "id": "sports-1188",
+   "category": "Sports",
+   "q": "Which racehorse won the US Triple Crown in 1973 with record-setting times?",
+   "choices": [
+    "Man o' War",
+    "Secretariat",
+    "Seabiscuit",
+    "American Pharoah"
+   ],
+   "answer": 1,
+   "fact": "Secretariat won the Belmont Stakes by 31 lengths."
+  },
+  {
+   "id": "sports-1189",
+   "category": "Sports",
+   "q": "Which horse race is the first leg of the US Triple Crown?",
+   "choices": [
+    "Belmont Stakes",
+    "Kentucky Derby",
+    "Grand National",
+    "Preakness Stakes"
+   ],
+   "answer": 1,
+   "fact": "The Kentucky Derby is nicknamed the Run for the Roses."
+  },
+  {
+   "id": "sports-1190",
+   "category": "Sports",
+   "q": "In darts, what is the highest score you can get with three darts?",
+   "choices": [
+    "150",
+    "100",
+    "300",
+    "180"
+   ],
+   "answer": 3,
+   "fact": "Three darts in the triple 20 give the top score of 180."
+  },
+  {
+   "id": "sports-1191",
+   "category": "Sports",
+   "q": "In table tennis, how many points do you usually need to win a game?",
+   "choices": [
+    "11",
+    "15",
+    "10",
+    "21"
+   ],
+   "answer": 0,
+   "fact": "You must win by at least two points, so a game can go on past 11."
+  },
+  {
+   "id": "sports-1192",
+   "category": "Sports",
+   "q": "As of 2025, which country has won the most Olympic gold medals in table tennis?",
+   "choices": [
+    "Japan",
+    "China",
+    "Sweden",
+    "South Korea"
+   ],
+   "answer": 1,
+   "fact": "As of 2025, China has won the large majority of all Olympic table tennis gold medals."
+  },
+  {
+   "id": "sports-1193",
+   "category": "Sports",
+   "q": "Which sport has the fastest-moving object, with hits measured at over 400 kilometers per hour?",
+   "choices": [
+    "Badminton",
+    "Squash",
+    "Golf",
+    "Tennis"
+   ],
+   "answer": 0,
+   "fact": "The shuttlecock slows down quickly because of its feathers."
+  },
+  {
+   "id": "sports-1194",
+   "category": "Sports",
+   "q": "What three sports make up a triathlon?",
+   "choices": [
+    "Rowing, cycling and running",
+    "Skiing, shooting and skating",
+    "Swimming, cycling and running",
+    "Running, jumping and throwing"
+   ],
+   "answer": 2,
+   "fact": "The first modern triathlon was held in San Diego in 1974."
+  },
+  {
+   "id": "sports-1195",
+   "category": "Sports",
+   "q": "In which sport do teams compete for the America's Cup, the oldest international sporting trophy?",
+   "choices": [
+    "Golf",
+    "Sailing",
+    "Rowing",
+    "Polo"
+   ],
+   "answer": 1,
+   "fact": "The America's Cup was first won in 1851 by a yacht called America."
+  },
+  {
+   "id": "sports-1196",
+   "category": "Sports",
+   "q": "In which sport do teams compete for the Davis Cup?",
+   "choices": [
+    "Tennis",
+    "Rowing",
+    "Golf",
+    "Cricket"
+   ],
+   "answer": 0,
+   "fact": "The Davis Cup started in 1900 as a match between the United States and Britain."
+  },
+  {
+   "id": "sports-1197",
+   "category": "Sports",
+   "q": "Which sport, played with a stick that has a net on the end, was first played by Native American peoples?",
+   "choices": [
+    "Polo",
+    "Hurling",
+    "Lacrosse",
+    "Field hockey"
+   ],
+   "answer": 2,
+   "fact": "Some early lacrosse games had hundreds of players and fields several kilometers long."
+  },
+  {
+   "id": "sports-1198",
+   "category": "Sports",
+   "q": "Which sport has positions called goal shooter, goal attack and wing defense?",
+   "choices": [
+    "Handball",
+    "Water polo",
+    "Netball",
+    "Basketball"
+   ],
+   "answer": 2,
+   "fact": "In netball, players can't run while holding the ball."
+  },
+  {
+   "id": "sports-1199",
+   "category": "Sports",
+   "q": "Which figure skating jump is the only one that takes off facing forward?",
+   "choices": [
+    "Salchow",
+    "Toe loop",
+    "Lutz",
+    "Axel"
+   ],
+   "answer": 3,
+   "fact": "The Axel is named after Axel Paulsen, a Norwegian skater who first did it in 1882."
+  },
+  {
+   "id": "sports-1200",
+   "category": "Sports",
+   "q": "How many players does each team have in the pool in water polo, including the goalie?",
+   "choices": [
+    "5",
+    "11",
+    "7",
+    "6"
+   ],
+   "answer": 2,
+   "fact": "Water polo players aren't allowed to touch the bottom of the pool."
+  },
+  {
+   "id": "sports-1201",
+   "category": "Sports",
+   "q": "How long is an Olympic swimming pool?",
+   "choices": [
+    "50 meters",
+    "40 meters",
+    "25 meters",
+    "100 meters"
+   ],
+   "answer": 0,
+   "fact": "An Olympic pool holds about 2.5 million liters of water."
+  },
+  {
+   "id": "sports-1202",
+   "category": "Sports",
+   "q": "Which swimming stroke is usually the fastest?",
+   "choices": [
+    "Butterfly",
+    "Backstroke",
+    "Breaststroke",
+    "Freestyle"
+   ],
+   "answer": 3,
+   "fact": "In freestyle races, almost every swimmer uses the front crawl."
+  },
+  {
+   "id": "sports-1203",
+   "category": "Sports",
+   "q": "Which swimming stroke uses a frog-like kick?",
+   "choices": [
+    "Butterfly",
+    "Breaststroke",
+    "Freestyle",
+    "Backstroke"
+   ],
+   "answer": 1,
+   "fact": "Breaststroke is the slowest of the four competitive strokes."
+  },
+  {
+   "id": "sports-1204",
+   "category": "Sports",
+   "q": "Which American skier has won more World Cup races than any other skier, as of 2025?",
+   "choices": [
+    "Lindsey Vonn",
+    "Picabo Street",
+    "Bode Miller",
+    "Mikaela Shiffrin"
+   ],
+   "answer": 3,
+   "fact": "In 2025, Mikaela Shiffrin became the first skier to win 100 World Cup races."
+  },
+  {
+   "id": "sports-1205",
+   "category": "Sports",
+   "q": "Which skiing race makes skiers weave quickly through many gates?",
+   "choices": [
+    "Cross-country",
+    "Ski jumping",
+    "Downhill",
+    "Slalom"
+   ],
+   "answer": 3,
+   "fact": "Slalom comes from a Norwegian word meaning \"sloping track\"."
+  },
+  {
+   "id": "sports-1206",
+   "category": "Sports",
+   "q": "What are the bumps on a ski run called?",
+   "choices": [
+    "Ridges",
+    "Moguls",
+    "Dunes",
+    "Humps"
+   ],
+   "answer": 1,
+   "fact": "Moguls skiing has been an Olympic event since 1992."
+  },
+  {
+   "id": "sports-1207",
+   "category": "Sports",
+   "q": "What is the round target in curling called?",
+   "choices": [
+    "The house",
+    "The nest",
+    "The bullseye",
+    "The circle"
+   ],
+   "answer": 0,
+   "fact": "Curling stones are made from rare granite, and many come from a Scottish island called Ailsa Craig."
+  },
+  {
+   "id": "sports-1208",
+   "category": "Sports",
+   "q": "In rowing, what is the person who steers and calls the rhythm called?",
+   "choices": [
+    "Bowman",
+    "Captain",
+    "Coxswain",
+    "Skipper"
+   ],
+   "answer": 2,
+   "fact": "The coxswain is usually the lightest person in the boat."
+  },
+  {
+   "id": "sports-1209",
+   "category": "Sports",
+   "q": "What are the two lifts in Olympic weightlifting?",
+   "choices": [
+    "Deadlift and curl",
+    "Bench press and squat",
+    "Push and pull",
+    "Snatch and clean and jerk"
+   ],
+   "answer": 3,
+   "fact": "In the snatch, the bar goes from the floor to over the head in one motion."
+  },
+  {
+   "id": "sports-1210",
+   "category": "Sports",
+   "q": "Which paddle sport was invented in 1965 on Bainbridge Island, Washington?",
+   "choices": [
+    "Padel",
+    "Squash",
+    "Table tennis",
+    "Pickleball"
+   ],
+   "answer": 3,
+   "fact": "As of 2025, pickleball is one of the fastest-growing sports in the United States."
+  },
+  {
+   "id": "sports-1211",
+   "category": "Sports",
+   "q": "Which 1,600 kilometer sled dog race is held in Alaska every March?",
+   "choices": [
+    "Iditarod",
+    "Klondike Run",
+    "Yukon Quest",
+    "Northern Dash"
+   ],
+   "answer": 0,
+   "fact": "The Iditarod trail honors a 1925 dog sled relay that carried medicine to the town of Nome."
+  },
+  {
+   "id": "sports-1212",
+   "category": "Sports",
+   "q": "Which sport is called the sport of kings?",
+   "choices": [
+    "Horse racing",
+    "Golf",
+    "Fencing",
+    "Polo"
+   ],
+   "answer": 0,
+   "fact": "Kings and queens of England have owned racehorses for hundreds of years."
+  },
+  {
+   "id": "sports-1213",
+   "category": "Sports",
+   "q": "How many players are on each team in a polo match?",
+   "choices": [
+    "6",
+    "8",
+    "11",
+    "4"
+   ],
+   "answer": 3,
+   "fact": "Polo players switch horses between each period, called a chukka."
+  },
+  {
+   "id": "sports-1214",
+   "category": "Sports",
+   "q": "Which Brazilian martial art mixes fighting moves with music and dance?",
+   "choices": [
+    "Capoeira",
+    "Jiu-jitsu",
+    "Muay Thai",
+    "Samba"
+   ],
+   "answer": 0,
+   "fact": "Capoeira is played in a circle called a roda, with players moving to the music of a berimbau."
+  },
+  {
+   "id": "sports-1215",
+   "category": "Sports",
+   "q": "In which sport do Canadian teams compete for the Grey Cup?",
+   "choices": [
+    "Canadian football",
+    "Curling",
+    "Ice hockey",
+    "Lacrosse"
+   ],
+   "answer": 0,
+   "fact": "Canadian football fields are bigger than American football fields, and teams have 12 players."
+  },
+  {
+   "id": "sports-1216",
+   "category": "Sports",
+   "q": "What is a cricket referee called?",
+   "choices": [
+    "Marshal",
+    "Linesman",
+    "Judge",
+    "Umpire"
+   ],
+   "answer": 3,
+   "fact": "Cricket umpires signal a six by raising both arms above their heads."
+  },
+  {
+   "id": "sports-1217",
+   "category": "Sports",
+   "q": "What does MVP stand for in sports?",
+   "choices": [
+    "Major Victory Prize",
+    "Most Visible Player",
+    "Most Valuable Player",
+    "Main Victory Point"
+   ],
+   "answer": 2,
+   "fact": "The MVP award goes to the player who helped their team the most."
+  },
+  {
+   "id": "sports-1218",
+   "category": "Sports",
+   "q": "In which board game is the most powerful piece the queen?",
+   "choices": [
+    "Chess",
+    "Backgammon",
+    "Checkers",
+    "Go"
+   ],
+   "answer": 0,
+   "fact": "The queen can move any number of squares in a straight line or diagonal."
+  },
+  {
+   "id": "sports-1219",
+   "category": "Sports",
+   "q": "How many squares are on a chessboard?",
+   "choices": [
+    "100",
+    "64",
+    "32",
+    "81"
+   ],
+   "answer": 1,
+   "fact": "A chessboard has 8 rows and 8 columns of alternating light and dark squares."
+  },
+  {
+   "id": "sports-1220",
+   "category": "Sports",
+   "q": "Which chess piece is the only one that can jump over other pieces?",
+   "choices": [
+    "Queen",
+    "Knight",
+    "Bishop",
+    "Rook"
+   ],
+   "answer": 1,
+   "fact": "The knight moves in an L shape: two squares one way and one square to the side."
+  },
+  {
+   "id": "sports-1221",
+   "category": "Sports",
+   "q": "What is it called in chess when the king is attacked and has no way to escape?",
+   "choices": [
+    "Check",
+    "Stalemate",
+    "Checkmate",
+    "Castling"
+   ],
+   "answer": 2,
+   "fact": "Checkmate comes from Persian words often translated as \"the king is helpless\"."
+  },
+  {
+   "id": "sports-1222",
+   "category": "Sports",
+   "q": "Which chess piece can only move diagonally?",
+   "choices": [
+    "Rook",
+    "Knight",
+    "King",
+    "Bishop"
+   ],
+   "answer": 3,
+   "fact": "Each player's two bishops stay on different colored squares for the whole game."
+  },
+  {
+   "id": "sports-1223",
+   "category": "Sports",
+   "q": "What is the special chess move where the king and a rook move at the same time called?",
+   "choices": [
+    "Castling",
+    "En passant",
+    "Forking",
+    "Promotion"
+   ],
+   "answer": 0,
+   "fact": "Castling is the only move where a player moves two pieces in one turn."
+  },
+  {
+   "id": "sports-1224",
+   "category": "Sports",
+   "q": "Which American won the 1972 World Chess Championship during the Cold War?",
+   "choices": [
+    "Bobby Fischer",
+    "Magnus Carlsen",
+    "Garry Kasparov",
+    "Paul Morphy"
+   ],
+   "answer": 0,
+   "fact": "Fischer beat the Soviet champion Boris Spassky in Iceland."
+  },
+  {
+   "id": "sports-1225",
+   "category": "Sports",
+   "q": "As of 2025, which Norwegian player holds the record for the highest chess rating ever?",
+   "choices": [
+    "Fabiano Caruana",
+    "Magnus Carlsen",
+    "Hikaru Nakamura",
+    "Garry Kasparov"
+   ],
+   "answer": 1,
+   "fact": "Magnus Carlsen became a grandmaster at age 13."
+  },
+  {
+   "id": "sports-1226",
+   "category": "Sports",
+   "q": "In which country did the early form of chess most likely begin?",
+   "choices": [
+    "Greece",
+    "Egypt",
+    "China",
+    "India"
+   ],
+   "answer": 3,
+   "fact": "The early Indian game was called chaturanga."
+  },
+  {
+   "id": "sports-1227",
+   "category": "Sports",
+   "q": "In chess, what happens when a pawn reaches the other side of the board?",
+   "choices": [
+    "It goes back to the start",
+    "It can become another piece",
+    "It is removed",
+    "The game ends"
+   ],
+   "answer": 1,
+   "fact": "Most players turn a promoted pawn into a queen."
+  },
+  {
+   "id": "sports-1228",
+   "category": "Sports",
+   "q": "How many pawns does each chess player start with?",
+   "choices": [
+    "12",
+    "6",
+    "8",
+    "10"
+   ],
+   "answer": 2,
+   "fact": "Pawns are the only pieces that can't move backward."
+  },
+  {
+   "id": "sports-1229",
+   "category": "Sports",
+   "q": "Which basketball rule stops a defender from blocking a shot that is already coming down toward the hoop?",
+   "choices": [
+    "Double dribble",
+    "Charging",
+    "Goaltending",
+    "Traveling"
+   ],
+   "answer": 2,
+   "fact": "If goaltending is called, the shot counts anyway."
+  },
+  {
+   "id": "sports-1230",
+   "category": "Sports",
+   "q": "In American football, how many points is a touchdown's extra point kick worth?",
+   "choices": [
+    "3",
+    "6",
+    "1",
+    "2"
+   ],
+   "answer": 2,
+   "fact": "Teams can try for 2 points instead by running or passing the ball into the end zone."
+  },
+  {
+   "id": "sports-1231",
+   "category": "Sports",
+   "q": "What is the protective area where a baseball team's players sit during the game called?",
+   "choices": [
+    "Bullpen",
+    "Dugout",
+    "Infield",
+    "Clubhouse"
+   ],
+   "answer": 1,
+   "fact": "The bullpen is where pitchers warm up before entering the game."
+  },
+  {
+   "id": "sports-1232",
+   "category": "Sports",
+   "q": "In which sport do players \"dribble\", \"dunk\" and \"rebound\"?",
+   "choices": [
+    "Basketball",
+    "Soccer",
+    "Handball",
+    "Volleyball"
+   ],
+   "answer": 0,
+   "fact": "Rebounds happen when players grab the ball after a missed shot."
+  },
+  {
+   "id": "sports-1233",
+   "category": "Sports",
+   "q": "What do you call a soccer player who is the last line of defense right in front of their own goal?",
+   "choices": [
+    "Winger",
+    "Goalkeeper",
+    "Midfielder",
+    "Striker"
+   ],
+   "answer": 1,
+   "fact": "Goalkeepers wear different colored shirts so the referee can tell them apart."
+  },
+  {
+   "id": "sports-1234",
+   "category": "Sports",
+   "q": "In which sport is a \"hat trick\" when a player scores three goals in one game, and fans sometimes throw hats on the ice?",
+   "choices": [
+    "Basketball",
+    "Ice hockey",
+    "Baseball",
+    "Soccer"
+   ],
+   "answer": 1,
+   "fact": "Arena workers collect the hats, and some teams donate them or put them on display."
+  },
+  {
+   "id": "sports-1235",
+   "category": "Sports",
+   "q": "How many players are on a baseball team's field when it is playing defense?",
+   "choices": [
+    "11",
+    "7",
+    "10",
+    "9"
+   ],
+   "answer": 3,
+   "fact": "The nine positions include the pitcher, catcher, four infielders and three outfielders."
+  },
+  {
+   "id": "sports-1236",
+   "category": "Sports",
+   "q": "In which sport would you find the positions \"point guard\" and \"center\"?",
+   "choices": [
+    "Basketball",
+    "Ice hockey",
+    "Soccer",
+    "Baseball"
+   ],
+   "answer": 0,
+   "fact": "The point guard usually brings the ball up the court and runs the plays."
+  },
+  {
+   "id": "sports-1237",
+   "category": "Sports",
+   "q": "What is the area at each end of an American football field where touchdowns are scored called?",
+   "choices": [
+    "Red zone",
+    "End zone",
+    "Pocket",
+    "Goal box"
+   ],
+   "answer": 1,
+   "fact": "Each end zone is 10 yards deep."
+  },
+  {
+   "id": "sports-1238",
+   "category": "Sports",
+   "q": "In soccer, what is it called when the ball goes over the goal line off a defender and the attacking team kicks it from the corner?",
+   "choices": [
+    "Throw-in",
+    "Goal kick",
+    "Corner kick",
+    "Free kick"
+   ],
+   "answer": 2,
+   "fact": "A goal can be scored directly from a corner kick, and it's sometimes called an Olympic goal."
+  },
+  {
+   "id": "sports-1239",
+   "category": "Sports",
+   "q": "How long is each period in a regular NHL hockey game?",
+   "choices": [
+    "12 minutes",
+    "15 minutes",
+    "30 minutes",
+    "20 minutes"
+   ],
+   "answer": 3,
+   "fact": "The clock stops whenever play stops, so a game takes much longer than 60 minutes in real time."
+  },
+  {
+   "id": "sports-1240",
+   "category": "Sports",
+   "q": "What is the name of the famous New York City arena nicknamed \"The World's Most Famous Arena\"?",
+   "choices": [
+    "Yankee Stadium",
+    "Madison Square Garden",
+    "Radio City Music Hall",
+    "Barclays Center"
+   ],
+   "answer": 1,
+   "fact": "Madison Square Garden sits on top of Penn Station, a busy train station."
+  },
+  {
+   "id": "sports-1241",
+   "category": "Sports",
+   "q": "Which famous Formula 1 race is held on the streets of Monaco?",
+   "choices": [
+    "Indianapolis 500",
+    "Le Mans 24 Hours",
+    "Monza Grand Prix",
+    "Monaco Grand Prix"
+   ],
+   "answer": 3,
+   "fact": "The Monaco Grand Prix is so tight and twisty that overtaking is very hard."
+  },
+  {
+   "id": "sports-1242",
+   "category": "Sports",
+   "q": "In which French town is a famous 24-hour car race held every year?",
+   "choices": [
+    "Lyon",
+    "Le Mans",
+    "Nice",
+    "Monaco"
+   ],
+   "answer": 1,
+   "fact": "Teams of drivers take turns driving the same car through the day and night."
+  },
+  {
+   "id": "sports-1243",
+   "category": "Sports",
+   "q": "Which sport's World Cup trophy is called the Webb Ellis Cup?",
+   "choices": [
+    "Rugby",
+    "Soccer",
+    "Golf",
+    "Cricket"
+   ],
+   "answer": 0,
+   "fact": "It's named after William Webb Ellis, the student said to have started rugby."
+  },
+  {
+   "id": "sports-1244",
+   "category": "Sports",
+   "q": "Which sport did Wilma Rudolph win three Olympic gold medals in, after recovering from polio as a child?",
+   "choices": [
+    "Track and field",
+    "Gymnastics",
+    "Swimming",
+    "Tennis"
+   ],
+   "answer": 0,
+   "fact": "Wilma Rudolph was once called the fastest woman in the world."
+  },
+  {
+   "id": "sports-1245",
+   "category": "Sports",
+   "q": "Which basketball player, famous for the skyhook shot, was the NBA's all-time leading scorer for almost 39 years?",
+   "choices": [
+    "Bill Russell",
+    "Shaquille O'Neal",
+    "Wilt Chamberlain",
+    "Kareem Abdul-Jabbar"
+   ],
+   "answer": 3,
+   "fact": "LeBron James passed Kareem's record in February 2023."
+  },
+  {
+   "id": "sports-1246",
+   "category": "Sports",
+   "q": "Which NBA center once scored 100 points in a single game?",
+   "choices": [
+    "Wilt Chamberlain",
+    "Kareem Abdul-Jabbar",
+    "Shaquille O'Neal",
+    "Bill Russell"
+   ],
+   "answer": 0,
+   "fact": "Wilt Chamberlain scored his 100 points on March 2, 1962."
+  },
+  {
+   "id": "sports-1247",
+   "category": "Sports",
+   "q": "Which NBA player won 11 championships with the Boston Celtics, the most by any player?",
+   "choices": [
+    "Bill Russell",
+    "John Havlicek",
+    "Larry Bird",
+    "Paul Pierce"
+   ],
+   "answer": 0,
+   "fact": "The NBA Finals MVP award is named after Bill Russell."
+  },
+  {
+   "id": "sports-1248",
+   "category": "Sports",
+   "q": "Which Slovenian NBA star is famous for his step-back threes and passing?",
+   "choices": [
+    "Goran Dragić",
+    "Nikola Jokić",
+    "Luka Dončić",
+    "Giannis Antetokounmpo"
+   ],
+   "answer": 2,
+   "fact": "Luka Dončić won a EuroLeague title with Real Madrid as a teenager."
+  },
+  {
+   "id": "sports-1249",
+   "category": "Sports",
+   "q": "Which Serbian center is nicknamed \"the Joker\" and won NBA MVP three times?",
+   "choices": [
+    "Luka Dončić",
+    "Nikola Jokić",
+    "Vlade Divac",
+    "Bogdan Bogdanović"
+   ],
+   "answer": 1,
+   "fact": "Nikola Jokić was picked 41st in the 2014 draft, and the pick was announced during a TV ad."
+  },
+  {
+   "id": "sports-1250",
+   "category": "Sports",
+   "q": "Which quarterback led the Kansas City Chiefs to Super Bowl wins in 2020, 2023 and 2024?",
+   "choices": [
+    "Josh Allen",
+    "Joe Burrow",
+    "Patrick Mahomes",
+    "Tom Brady"
+   ],
+   "answer": 2,
+   "fact": "Patrick Mahomes is the son of a former Major League Baseball pitcher."
+  }
+ ]
+}

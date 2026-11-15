@@ -1,7 +1,7 @@
 # tag: tech.shortcuts.ipad
 how do i see keyboard shortcuts on ipad | hold command on ipad | ipad shortcut list => With a keyboard connected, press and hold the Command key (or the Globe key) in an app to see a list of its shortcuts.
 how do i go home with an ipad keyboard | command h ipad | globe h => Press Command + H or Globe + H to go to the Home Screen.
-how do i search on ipad with a keyboard | command space ipad | spotlight on ipad => Press Command + Space to open Spotlight search, then type an app or anything else.
+how do i search on ipad with a keyboard | command space ipad | spotlight shortcut ipad keyboard => Press Command + Space to open Spotlight search, then type an app or anything else.
 how do i switch apps on ipad with a keyboard | command tab ipad => Hold Command and tap Tab to switch between recent apps on iPad.
 how do i open the app switcher with a keyboard | globe up arrow ipad => Press Globe + Up Arrow to open the App Switcher on iPad.
 how do i open control center with a keyboard | globe c ipad => Press Globe + C to open Control Center on iPad.

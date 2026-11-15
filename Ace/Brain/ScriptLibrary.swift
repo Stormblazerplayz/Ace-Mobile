@@ -112,16 +112,17 @@ enum ScriptLibrary {
         return (language, category)
     }
 
-    /// Each script's words (from its title and keywords), and its keywords as word lists.
-    private static let index: [(words: Set<String>, phrases: [String])] = all.map { s in
-        var words = Set(significant(tokens(TextKit.normalize(s.title))))
+    /// Each script's words (from its title and keywords), its keywords as word lists, and its title's words.
+    private static let index: [(words: Set<String>, phrases: [String], title: Set<String>)] = all.map { s in
+        let title = Set(significant(tokens(TextKit.normalize(s.title))))
+        var words = title
         var phrases: [String] = []
         for k in s.keywords {
             let t = tokens(TextKit.normalize(k))
             words.formUnion(significant(t))
             phrases.append(t.joined(separator: " "))
         }
-        return (words, phrases)
+        return (words, phrases, title)
     }
 
     /// How many scripts use each word. Rare words count for more.
@@ -160,6 +161,10 @@ enum ScriptLibrary {
             if phrase { score += 2 }
             if let category, s.category == category { score += 3 }
             if language == nil, s.language == "Lua" { score += 0.05 }   // Roblox first when you don't say
+            // A word in the title counts a bit more ("servo code" -> Servo Sweep, not a lock that also uses a servo),
+            // and among equals the simplest script (fewest words) wins.
+            score += 0.3 * Double(wanted.intersection(entry.title).count)
+            score -= 0.001 * Double(entry.words.count)
             if best == nil || score > best!.score { best = Match(script: s, score: score, phrase: phrase) }
         }
         guard let b = best, b.score >= 1.5 else { return nil }

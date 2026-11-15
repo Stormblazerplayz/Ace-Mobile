@@ -1,0 +1,102 @@
+# tag: pets.dogs.food
+why is chocolate bad for dogs | is chocolate poisonous to dogs => No. Chocolate has theobromine and caffeine, which dogs can't handle well. Dark and baking chocolate are the most dangerous, and it can cause vomiting, a racing heart and seizures.
+my dog ate chocolate what do i do | dog ate a chocolate bar => Tell an adult and call your vet or a pet poison helpline right away. Say what kind of chocolate it was, about how much, and your dog's size. Don't wait for symptoms.
+can dogs eat grapes | are grapes bad for dogs | can dogs eat raisins => No. Grapes and raisins can cause sudden kidney failure in dogs, even in small amounts. Call a vet if your dog eats any.
+can dogs eat cheese | is cheese ok for dogs => A small bit of cheese is fine for most dogs as a treat. Some dogs can't digest dairy well, and too much fat can upset their stomach.
+can dogs eat peanut butter | is peanut butter safe for dogs => Yes, plain peanut butter is a favorite dog treat in small amounts. Check the label first, because some brands contain xylitol, which is very poisonous to dogs.
+can dogs eat apples | are apples good for dogs => Yes. Apple slices are a crunchy, healthy treat. Take out the core and seeds first.
+can dogs eat bananas | are bananas safe for dogs => Yes, in small amounts. Bananas are fine as an occasional treat, but they're sugary, so don't overdo it.
+can dogs eat carrots | are carrots good for dogs => Yes. Raw or cooked carrots are a healthy, low-calorie snack. Cut them into small pieces for small dogs so they don't choke.
+can dogs eat strawberries | can dogs eat blueberries | what fruit can dogs eat => Yes. Strawberries, blueberries, apple slices, banana, seedless watermelon and pineapple are safe treats in small amounts. Grapes, raisins and cherries are not.
+can dogs eat watermelon | is watermelon ok for dogs => Yes, watermelon is a nice hydrating treat. Remove the seeds and don't give them the rind, which can upset their stomach.
+can dogs eat popcorn | is popcorn bad for dogs => Plain, air-popped popcorn with no butter or salt is okay as a small treat. Avoid unpopped kernels, which can hurt teeth or cause choking.
+can dogs eat bread | is bread bad for dogs => Plain baked bread is okay in small bits but has little nutrition. Raw bread dough is dangerous, because it can rise in the stomach and make alcohol.
+can dogs eat eggs | are eggs good for dogs => Yes, cooked eggs are a good source of protein for dogs. Avoid raw eggs and don't add salt or butter.
+can dogs eat rice | is rice good for dogs with an upset stomach => Plain cooked white rice is easy for dogs to digest. Vets sometimes suggest plain rice and boiled chicken for an upset stomach, but ask your vet first.
+can dogs eat chicken bones | are cooked bones safe for dogs => No. Cooked bones can splinter into sharp pieces that hurt a dog's mouth, throat or gut. Use dog chews made for chewing instead.
+can dogs drink milk | is milk bad for dogs => Many dogs can't digest milk well and get diarrhea. A tiny lick is usually fine, but water is the best drink.
+can dogs eat onions | can dogs eat garlic | why are onions bad for dogs => No. Onions and garlic, whether raw, cooked or powdered, damage a dog's red blood cells. Watch out for them in leftovers and sauces.
+can dogs eat avocado | is avocado safe for dogs => It's best to skip avocado. It has a substance called persin, and the big pit can cause choking or a blockage.
+can dogs eat cherries | are cherries bad for dogs => It's best not to. Cherry pits, stems and leaves contain cyanide, and the pit can cause a blockage.
+can dogs eat ice cream | is ice cream ok for dogs => Ice cream isn't good for dogs because of the sugar and dairy, and some flavors like chocolate are toxic. Special dog-safe frozen treats are a better choice.
+can dogs eat tomatoes | are tomatoes toxic to dogs => Ripe red tomato flesh is generally okay in small amounts. The green parts, stems and leaves are not safe.
+can dogs eat corn on the cob | is corn bad for dogs => Corn kernels are okay, but never give a dog the cob. It can get stuck in the gut and may need surgery.
+can dogs eat cat food | is cat food bad for dogs => Cat food is too rich in fat and protein for dogs to eat regularly. A stolen bite won't hurt, but it can upset their stomach.
+can dogs eat pizza | can i give my dog human food => It's best not to give dogs pizza or rich human food. Fat, salt, onion and garlic can make them sick. Stick to dog food and a few safe treats.
+how much water does a dog need | how often do dogs need water => Dogs should always have fresh, clean water. A rough guide is about 50 to 60 ml per kg of body weight a day, more in hot weather or after exercise.
+what treats are good for dogs | healthy dog treats => Good treats include small pieces of carrot, apple, green beans, plain cooked chicken or store-bought dog treats. Treats should be only a small part of their daily food.
+why does my dog eat grass | is it bad that my dog eats grass => Eating grass is common and usually normal. Dogs may like the taste or texture. If they eat grass and vomit a lot or seem sick, see a vet.
+why do dogs eat poop | how do i stop my dog eating poop => Some dogs eat poop out of boredom, habit or curiosity, and puppies often grow out of it. Cleaning up quickly helps, and a vet can check for diet problems.
+
+# tag: pets.dogs.care
+how often should i brush my dogs teeth | do dogs need their teeth brushed => Ideally brush your dog's teeth every day, or at least a few times a week, with dog toothpaste. Never use human toothpaste, which can contain xylitol.
+how do you trim a dogs nails | how often should dog nails be cut => Trim when you can hear nails clicking on the floor, often every few weeks. Cut just the tip and avoid the pink quick inside, which bleeds. Ask an adult or groomer to show you.
+should i leave my dog in the car | how hot does a car get for a dog => Never leave a dog in a parked car on a warm day, even with windows cracked. The inside can get dangerously hot in minutes and cause deadly heatstroke.
+is the pavement too hot for my dog | how do i know if the ground is too hot for dog paws => Put the back of your hand on the pavement for 7 seconds. If it's too hot for you to hold, it's too hot for paws, so walk on grass or go in the cool morning or evening.
+what shots do dogs need | do dogs need vaccines => Dogs need vaccines, including rabies and a combination shot that protects against diseases like parvovirus and distemper. Your vet will set the schedule.
+what is a microchip for a pet | should my dog be microchipped => A microchip is a tiny chip about the size of a grain of rice placed under the skin. If your pet gets lost, a vet or shelter can scan it to find your contact details.
+how do i keep fleas off my dog | how to get rid of fleas on a dog => Ask your vet about monthly flea and tick prevention, wash your dog's bedding in hot water and vacuum often. Flea products for dogs can be deadly to cats, so never mix them up.
+what is heartworm | how do dogs get heartworm => Heartworm is a serious disease spread by mosquito bites, where worms grow in a dog's heart and lungs. Monthly prevention from the vet protects them.
+how often should a dog go to the vet | how many times a year should my dog see the vet => Most healthy adult dogs should see a vet about once a year for a checkup and shots. Puppies and older dogs go more often.
+why is my dog scooting on the floor | why do dogs drag their butt => Scooting often means the small scent glands near the bottom are full or itchy, or the dog has worms or allergies. A vet can check and help.
+can dogs get sunburn | do dogs need sunscreen => Yes. Dogs with short, light fur or pink skin can get sunburned, especially on the nose and ears. Give them shade and ask a vet about pet-safe sunscreen.
+how do i know if my dog is too hot | signs of heatstroke in dogs => Heavy panting, drooling, a bright red tongue, weakness or stumbling can mean heatstroke. Move the dog somewhere cool, offer water and call a vet right away.
+how much exercise does a dog need | how long should i play with my dog => Most dogs need about 30 minutes to 2 hours of activity a day, depending on breed and age. Working breeds like border collies need lots more.
+what does spaying or neutering mean | why should i get my dog fixed => Spaying or neutering is an operation that stops a dog from having puppies. It prevents unwanted litters and can lower the risk of some health problems.
+how do i get my dog to stop chewing things | why does my dog chew everything => Puppies chew because they're teething and exploring, and bored dogs chew too. Give lots of chew toys, more exercise and swap in a toy when they grab something wrong.
+how do you clean dog ears | how often should i clean my dogs ears => Check ears weekly. If they look dirty, wipe the outer part with a cotton pad and dog ear cleaner, never pushing anything deep inside. Red, smelly ears need a vet.
+
+# tag: pets.dogs.training
+how do you house train a puppy | how do i potty train my dog => Take your puppy outside often, especially after waking, eating and playing. Praise and treat right after it goes outside, and clean accidents with an enzyme cleaner without scolding.
+how do i stop my puppy from biting | why does my puppy bite so much => Puppies bite while teething and playing. Say "ouch" and stop playing for a moment when teeth touch skin, then give a chew toy instead. Never hit a puppy.
+how do i teach my dog to come when called | how to get my dog to come back to me => Use an excited voice and a special word, back away to encourage the dog to follow, and reward with a great treat. Never call your dog to punish it.
+what is crate training | is it mean to crate a dog => Crate training teaches a dog to see its crate as a safe den. Used kindly and not for too long, it helps with potty training and keeps puppies safe when alone.
+how do i teach my dog tricks | easy tricks to teach a dog => Start with easy tricks like sit, down, shake and spin. Use small treats, short sessions and lots of praise. Many trainers use a clicker to mark the right moment.
+how do i stop my dog barking | why does my dog bark so much => Dogs bark to alert, when bored, scared or wanting attention. More exercise, toys and rewarding quiet moments help. Yelling often makes barking worse.
+how do i stop my dog pulling on the leash | my dog pulls on walks => Stop walking whenever the leash gets tight, and only move forward when it's loose. Reward your dog for walking beside you.
+how long does it take to train a puppy | how fast can a puppy learn => Basic potty training often takes a few months, and learning simple commands takes weeks of short daily practice. Training really continues their whole life.
+how do i introduce my dog to a cat | can dogs and cats live together => Keep them apart at first and let them smell each other's bedding. Then do short, supervised meetings with the dog on a leash, and make sure the cat has high places to escape to.
+
+# tag: pets.dogs.behavior
+why do dogs wag their tails when happy | does a wagging tail always mean happy => A wagging tail doesn't always mean happy. A loose, wide wag usually means friendly, but a stiff, high wag can mean the dog is alert or upset.
+why do dogs sniff each others butts | why do dogs smell other dogs bums => Dogs learn a lot by sniffing other dogs' rear ends, like their sex, mood and maybe what they ate. It's like a doggy handshake.
+why do dogs tilt their heads | why does my dog turn its head sideways => Dogs may tilt their heads to hear better, see your face around their muzzle, or show they're paying attention to words they know.
+why do dogs lick people | why does my dog lick me => Dogs lick to show affection, get attention, say hello, or because you taste salty. Puppies lick their mothers' faces, so it's a friendly habit.
+why do dogs pant | do dogs sweat => Dogs cool down mainly by panting. They only sweat a little through their paw pads.
+why are dogs noses wet | should a dogs nose be wet => A wet nose helps dogs catch smells. A dry nose isn't always a sign of sickness, especially after sleeping.
+why do dogs chase their tails | is it normal for my dog to spin after its tail => Puppies chase their tails for fun or out of curiosity. If an adult dog does it a lot, it might be bored, itchy or anxious, so talk to a vet.
+why do dogs howl at sirens | why does my dog howl when an ambulance goes by => Sirens sound a bit like howling, so some dogs howl back as if answering another dog, a leftover habit from wolves.
+why do dogs roll in stinky stuff | why does my dog roll in poop => Scientists aren't sure. Rolling in smelly things may hide the dog's own scent, a habit from their wolf ancestors, or they may just like the smell.
+why do dogs turn in circles before lying down | why does my dog spin before sleeping => Circling before lying down is probably an old instinct from wild ancestors, who flattened grass and checked for danger before sleeping.
+why do dogs kick the ground after pooping | why does my dog scratch the grass after going potty => Dogs have scent glands in their paws. Kicking the ground spreads their smell to mark the spot as theirs.
+do dogs dream | why does my dog twitch in its sleep => Dogs seem to dream. They have the same kinds of sleep stages as us, and twitching, paddling and soft barks during sleep may be dreams.
+how much do dogs sleep | why do dogs sleep so much => Adult dogs sleep about 12 to 14 hours a day. Puppies and older dogs sleep even more.
+how do dog years work | how old is my dog in human years | is one dog year 7 human years => The 7-year rule is too simple. A dog's first year is like about 15 human years, the second adds about 9 more, and after that each year is roughly 4 to 5 human years.
+how good is a dogs sense of smell | how much better can dogs smell than humans => A dog's nose is roughly 10,000 to 100,000 times more sensitive than a person's. Some dogs can sniff out diseases, drugs and missing people.
+can dogs hear things we cant | how well can dogs hear => Yes. Dogs can hear much higher-pitched sounds than people, like dog whistles, and hear faint sounds from farther away.
+can dogs see in the dark | do dogs have good night vision => Dogs see better in dim light than we do, thanks to big pupils and a shiny layer at the back of their eyes. They don't see fine details as well as us.
+are dog nose prints unique | do dogs have fingerprints => Every dog's nose has a unique pattern of bumps and lines, like a fingerprint.
+how can i tell if a dog is scared | dog body language signs => A scared or stressed dog may tuck its tail, flatten its ears, lick its lips, yawn, show the whites of its eyes or turn away. Give it space.
+why do dogs yawn | does a dog yawning mean its tired => Dogs yawn when tired, but also when stressed or nervous, as a way to calm themselves. They may even catch yawns from people.
+why do dogs bury bones | why does my dog hide its treats => Burying food is an old instinct from wild ancestors who saved extra food for later. Some dogs bury toys too.
+why does my dog follow me everywhere | why wont my dog leave me alone => Dogs are pack animals and bond closely with their families. Following you means they like being near you, and some breeds were bred to work closely with people.
+
+# tag: pets.dogs.facts
+how many teeth does a dog have | how many teeth do puppies have => Adult dogs have 42 teeth. Puppies have 28 baby teeth, which fall out between about 3 and 6 months old.
+how long are dogs pregnant | how long is a dog pregnancy => Dogs are pregnant for about 63 days, around 9 weeks.
+how many puppies do dogs have | how many puppies in a litter => A litter can have 1 to over 10 puppies. Small breeds usually have fewer, and big breeds often have more, with about 5 or 6 being common.
+when do puppies open their eyes | when can puppies see => Puppies are born with eyes closed and open them at about 10 to 14 days old. Their ears open around the same time.
+when can puppies leave their mom | how old should a puppy be to adopt => Puppies should usually stay with their mother and littermates until at least 8 weeks old.
+what is a dogs normal temperature | how warm are dogs => A dog's normal body temperature is about 38 to 39.2 °C (101 to 102.5 °F), warmer than a person's.
+what is the smartest dog breed | smartest dog in the world => Border collies are usually ranked the smartest dog breed, followed by poodles and German shepherds.
+what is the biggest dog breed | tallest dog breed => Great Danes are the tallest dog breed, and English mastiffs are among the heaviest, often over 70 kg.
+what is the smallest dog breed | tiniest dog breed => The Chihuahua is the smallest dog breed, often weighing only about 1.5 to 3 kg.
+what is the fastest dog | how fast can a greyhound run => Greyhounds are the fastest dogs, reaching about 70 km/h (45 mph).
+what is the most popular dog breed | most popular dog in america => As of 2024, the French bulldog was the most popular dog breed in the US by American Kennel Club registrations, with Labrador retrievers close behind.
+how many dog breeds are there | number of dog breeds in the world => As of 2024, the American Kennel Club recognizes about 200 breeds, and other groups around the world recognize over 300.
+what was the first animal people tamed | when were dogs domesticated => Dogs were the first animal tamed by people, at least 15,000 years ago, long before farm animals.
+are there hypoallergenic dogs | what dogs are good for allergies => No dog is completely allergy-free. Breeds that shed less, like poodles and bichons, may bother some allergic people less.
+whats the difference between a service dog and a therapy dog | can i pet a service dog => Service dogs are trained to help one person with a disability and are working, so don't pet or distract them. Therapy dogs visit places like hospitals to comfort lots of people.
+what is a mutt | what is a mixed breed dog => A mutt is a mixed breed dog with parents of different or unknown breeds. Mixed breeds are often healthy and make great pets.
+can dogs get colds | can my dog catch my cold => Dogs can get coughs and sneezes from dog viruses, like kennel cough, but they usually can't catch a human cold.
+can dogs eat bones | what chews are safe for dogs => Raw bones and chews are debated, and cooked bones are unsafe. Ask your vet about chews, and always watch your dog while it chews.

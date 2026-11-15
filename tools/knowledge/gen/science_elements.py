@@ -559,8 +559,12 @@ def main():
 
         # 7. name origin
         if z in NAME_ORIGIN:
-            add([f"where does the name {n} come from", f"why is {n} called {n}", f"what does {n} mean",
-                 f"how did {n2} get its name"], NAME_ORIGIN[z])
+            qs = [f"where does the name {n} come from", f"why is {n} called {n}", f"what does {n} mean",
+                  f"how did {n2} get its name"]
+            if z == 80:
+                qs = ["why is the element mercury called mercury", "where does the name of the metal mercury come from",
+                      "why does mercury have the symbol hg"]
+            add(qs, NAME_ORIGIN[z])
 
         # 8. uses
         if z in USES:

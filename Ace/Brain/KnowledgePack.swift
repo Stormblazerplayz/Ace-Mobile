@@ -281,6 +281,9 @@ final class KnowledgePack: @unchecked Sendable {
 
     // MARK: Matching
 
+    /// How much each important word in a pack question that you didn't say lowers its score.
+    static let extraWordPenalty = 0.85
+
     /// Word matching, scored exactly like QABank's: the best wordings and their scores (0...1).
     func lexical(qKeys: Set<String>, qAll: Set<String>, limit: Int = 25) -> [(wording: Int, lex: Double)] {
         let lookup = qKeys.isEmpty ? qAll : qKeys
@@ -316,10 +319,11 @@ final class KnowledgePack: @unchecked Sendable {
             var lex: Double
             if !qKeys.isEmpty && !keys.isEmpty {
                 var inter = 0.0, wordingWeight = 0.0
+                var extra = 0
                 for k in keys {
                     let wt = tokenWeight[Int(k)]
                     wordingWeight += wt
-                    if qKeyIDs.contains(k) { inter += wt }
+                    if qKeyIDs.contains(k) { inter += wt } else if wt > 5.5 { extra += 1 }
                 }
                 let coversWording = wordingWeight > 0 ? inter / wordingWeight : 0
                 let coversQuestion = questionWeight > 0 ? inter / questionWeight : 0
@@ -329,6 +333,9 @@ final class KnowledgePack: @unchecked Sendable {
                     if let id { if !keys.contains(id) { missing += 1 } } else { missing += 1 }
                 }
                 if missing > 0 { lex *= pow(0.72, Double(missing)) }
+                // The pack is big, so its question can be about something you didn't say
+                // ("first vice president" for "first president"). Each important word you didn't say counts against it.
+                if extra > 0 { lex *= pow(Self.extraWordPenalty, Double(extra)) }
             } else {
                 lex = jac
             }

@@ -15,7 +15,7 @@ are husks hostile | do husks attack you | is a husk friendly | will a husk hurt 
 fun fact about husks | what should i know about husks => Husks don't burn in sunlight, and their hit gives you Hunger.
 how much health does a drowned have | how many hearts does a drowned have | drowned health | drowned hp minecraft => A drowned has 20 health, which is 10 hearts.
 what does a drowned drop | what do drowned drop | drowned drops | what do you get from killing a drowned => A drowned drops 0 to 2 rotten flesh and sometimes a copper ingot. One holding a trident or nautilus shell can drop it.
-where do drowned spawn | where can i find a drowned | where to find drowned in minecraft | drowned spawn location => A drowned spawns in oceans and rivers, and when a zombie drowns underwater.
+where do drowned spawn | where can i find a drowned | drowned spawn location => A drowned spawns in oceans and rivers, and when a zombie drowns underwater.
 are drowned hostile | do drowned attack you | is a drowned friendly | will a drowned hurt me => Yes, drowned are hostile and attack you on sight.
 fun fact about drowned | what should i know about drowned => Drowned with tridents throw them at you, and they are the only way to get a trident.
 how much health does a zombie villager have | how many hearts does a zombie villager have | zombie villager health | zombie villager hp minecraft => A zombie villager has 20 health, which is 10 hearts.
@@ -56,7 +56,7 @@ what does a cave spider drop | what do cave spiders drop | cave spider drops | w
 where do cave spiders spawn | where can i find a cave spider | where to find cave spiders in minecraft | cave spider spawn location => A cave spider spawns only from spawners in abandoned mineshafts.
 are cave spiders hostile | do cave spiders attack you | is a cave spider friendly | will a cave spider hurt me => Yes, cave spiders are hostile and attack you on sight.
 how much health does an enderman have | how many hearts does an enderman have | enderman health | enderman hp minecraft => An enderman has 40 health, which is 20 hearts.
-what does an enderman drop | what do endermen drop | enderman drops | what do you get from killing an enderman => An enderman drops 0 to 1 ender pearl.
+what does an enderman drop | what do endermen drop | enderman drops => An enderman drops 0 to 1 ender pearl.
 where do endermen spawn | where can i find an enderman | where to find endermen in minecraft | enderman spawn location => An enderman spawns in all three dimensions, and in big groups in the End and warped forests.
 are endermen hostile | is an enderman friendly | will an enderman hurt me => No, endermen are neutral. They only attack if you look at their face or hit them.
 tell me about the enderman in minecraft | what is an enderman in minecraft | fun fact about endermen | what should i know about endermen => Endermen get angry if you look at their face, and water hurts them.
@@ -163,7 +163,7 @@ are silverfish hostile | do silverfish attack you | is a silverfish friendly | w
 fun fact about silverfish | what should i know about silverfish => Silverfish hide in blocks and call their friends when you hit one.
 how much health does a warden have | how many hearts does a warden have | warden health | warden hp minecraft => A warden has 500 health, which is 250 hearts.
 what does a warden drop | what do wardens drop | warden drops | what do you get from killing a warden => A warden drops a sculk catalyst and 5 XP.
-where do wardens spawn | where can i find a warden | warden spawn location => A warden spawns in the Deep Dark when sculk shriekers are set off 3 times.
+where can i find a warden | warden spawn location => A warden spawns in the Deep Dark when sculk shriekers are set off 3 times.
 are wardens hostile | do wardens attack you | is a warden friendly | will a warden hurt me => Yes, wardens are hostile and attack you on sight.
 fun fact about wardens | what should i know about wardens => The Warden is blind and finds you by sound and smell, so sneak to stay quiet.
 how much health does a breeze have | how many hearts does a breeze have | breeze health | breeze hp minecraft => A breeze has 30 health, which is 15 hearts.
@@ -318,7 +318,7 @@ are axolotls hostile | do axolotls attack you | is an axolotl friendly | will an
 fun fact about axolotls | what should i know about axolotls => Axolotls help you fight underwater mobs and come in 5 colors.
 how much health does a frog have | how many hearts does a frog have | frog health | frog hp minecraft => A frog has 10 health, which is 5 hearts.
 what does a frog drop | what do frogs drop | frog drops => A frog drops nothing.
-where do frogs spawn | where can i find a frog | where to find frogs in minecraft | frog spawn location => A frog spawns in swamps and mangrove swamps.
+where do frogs spawn | where can i find a frog | frog spawn location => A frog spawns in swamps and mangrove swamps.
 are frogs hostile | do frogs attack you | is a frog friendly | will a frog hurt me => No, frogs are passive and never attack you.
 fun fact about frogs | what should i know about frogs => Frogs eat small slimes and small magma cubes, and froglights come from magma cubes they eat.
 how much health does a bee have | how many hearts does a bee have | bee health | bee hp minecraft => A bee has 10 health, which is 5 hearts.
@@ -368,7 +368,7 @@ are striders hostile | do striders attack you | is a strider friendly | will a s
 fun fact about striders | what should i know about striders => Ride a saddled strider across lava and steer it with warped fungus on a stick.
 how much health does a skeleton horse have | how many hearts does a skeleton horse have | skeleton horse health | skeleton horse hp minecraft => A skeleton horse has 15 health, which is 7.5 hearts.
 what does a skeleton horse drop | what do skeleton horses drop | skeleton horse drops | what do you get from killing a skeleton horse => A skeleton horse drops 0 to 2 bones.
-where do skeleton horses spawn | where can i find a skeleton horse | where to find skeleton horses in minecraft | skeleton horse spawn location => A skeleton horse spawns from skeleton trap horses in thunderstorms.
+where do skeleton horses spawn | where to find skeleton horses in minecraft | skeleton horse spawn location => A skeleton horse spawns from skeleton trap horses in thunderstorms.
 are skeleton horses hostile | do skeleton horses attack you | is a skeleton horse friendly | will a skeleton horse hurt me => No, skeleton horses are passive and never attack you.
 how much health does a trader llama have | how many hearts does a trader llama have | trader llama health | trader llama hp minecraft => A trader llama has 15 to 30 health (7.5 to 15 hearts).
 what does a trader llama drop | what do trader llamas drop | trader llama drops | what do you get from killing a trader llama => A trader llama drops 0 to 2 leather.

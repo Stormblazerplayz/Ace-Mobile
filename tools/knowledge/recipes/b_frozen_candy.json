@@ -1,0 +1,1484 @@
+{
+ "recipes": [
+  {
+   "id": "no-churn-vanilla-ice-cream",
+   "name": "No-churn vanilla ice cream",
+   "aliases": [
+    "vanilla ice cream",
+    "no churn ice cream",
+    "homemade ice cream",
+    "ice cream",
+    "no churn vanilla ice cream",
+    "easy ice cream"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "6 hr 15 min",
+   "main": [
+    "heavy cream",
+    "sweetened condensed milk",
+    "vanilla"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) cold heavy cream",
+    "1 can (14 oz / 397 g) sweetened condensed milk, cold",
+    "2 teaspoons vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Whisk the condensed milk, vanilla and salt in a big bowl.",
+    "Whip the cream in another bowl until stiff peaks form, about 3 minutes.",
+    "Fold a third of the cream into the condensed milk, then gently fold in the rest.",
+    "Spread into a 9 by 5 inch loaf pan and cover.",
+    "Freeze for 6 hours, until firm.",
+    "Let sit for 5 minutes before scooping."
+   ]
+  },
+  {
+   "id": "no-churn-chocolate-ice-cream",
+   "name": "No-churn chocolate ice cream",
+   "aliases": [
+    "chocolate ice cream",
+    "no churn chocolate ice cream",
+    "homemade chocolate ice cream",
+    "choc ice cream"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "6 hr 15 min",
+   "main": [
+    "heavy cream",
+    "sweetened condensed milk",
+    "cocoa",
+    "chocolate"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) cold heavy cream",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1/2 cup (45 g) unsweetened cocoa powder, sifted",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "1/2 cup (85 g) mini chocolate chips (optional)"
+   ],
+   "steps": [
+    "Whisk the condensed milk, cocoa, vanilla and salt until smooth.",
+    "Whip the cream until stiff peaks form.",
+    "Fold the cream into the chocolate mix in 3 parts, then fold in the chips.",
+    "Spread into a 9 by 5 inch loaf pan and cover.",
+    "Freeze for 6 hours, until firm."
+   ]
+  },
+  {
+   "id": "mint-chip-ice-cream",
+   "name": "Mint chocolate chip ice cream",
+   "aliases": [
+    "mint chocolate chip ice cream",
+    "mint chip ice cream",
+    "mint ice cream",
+    "mint choc chip"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "6 hr 15 min",
+   "main": [
+    "heavy cream",
+    "sweetened condensed milk",
+    "peppermint",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) cold heavy cream",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "3/4 teaspoon peppermint extract",
+    "2 drops green food coloring (optional)",
+    "3/4 cup (130 g) mini chocolate chips or chopped chocolate"
+   ],
+   "steps": [
+    "Whisk the condensed milk, peppermint and food coloring. Taste and add a little more peppermint if you like.",
+    "Whip the cream until stiff peaks form.",
+    "Fold the cream into the condensed milk, then fold in the chocolate.",
+    "Spread into a loaf pan, cover and freeze for 6 hours."
+   ]
+  },
+  {
+   "id": "strawberry-ice-cream",
+   "name": "No-churn strawberry ice cream",
+   "aliases": [
+    "strawberry ice cream",
+    "no churn strawberry ice cream",
+    "pink ice cream",
+    "homemade strawberry ice cream"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "6 hr 20 min",
+   "main": [
+    "strawberries",
+    "heavy cream",
+    "sweetened condensed milk"
+   ],
+   "ingredients": [
+    "2 cups (300 g) strawberries, hulled",
+    "2 tablespoons sugar",
+    "1 tablespoon lemon juice",
+    "2 cups (480 ml) cold heavy cream",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Mash the strawberries with the sugar and lemon juice until mostly smooth with small chunks.",
+    "Whisk the condensed milk and vanilla, then stir in the strawberries.",
+    "Whip the cream until stiff peaks form.",
+    "Gently fold the cream into the strawberry mix.",
+    "Spread into a loaf pan, cover and freeze for 6 hours."
+   ]
+  },
+  {
+   "id": "banana-nice-cream",
+   "name": "Banana nice cream",
+   "aliases": [
+    "nice cream",
+    "banana nice cream",
+    "banana ice cream",
+    "healthy ice cream",
+    "frozen banana ice cream"
+   ],
+   "category": "Dessert",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "bananas",
+    "milk"
+   ],
+   "ingredients": [
+    "4 ripe bananas, peeled, sliced and frozen",
+    "2 to 4 tablespoons milk",
+    "Optional: 2 tablespoons cocoa powder or peanut butter"
+   ],
+   "steps": [
+    "Freeze the banana slices in a bag for at least 4 hours beforehand.",
+    "Put the frozen bananas and 2 tablespoons milk in a food processor or strong blender.",
+    "Blend for 2 to 3 minutes, scraping down the sides, until smooth like soft serve.",
+    "Add the cocoa or peanut butter and blend again.",
+    "Eat right away, or freeze for 1 hour for scoopable ice cream."
+   ]
+  },
+  {
+   "id": "fruit-popsicles",
+   "name": "Fruit popsicles",
+   "aliases": [
+    "popsicles",
+    "fruit popsicles",
+    "ice pops",
+    "ice lollies",
+    "paletas",
+    "strawberry popsicles"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "6 hr 10 min",
+   "main": [
+    "strawberries",
+    "mango",
+    "juice",
+    "sugar"
+   ],
+   "ingredients": [
+    "3 cups (450 g) strawberries or mango chunks",
+    "1/4 cup (50 g) sugar or honey",
+    "1/2 cup (120 ml) water or apple juice",
+    "1 tablespoon lime juice"
+   ],
+   "steps": [
+    "Blend everything until smooth. Taste and add more sugar if needed.",
+    "Pour into 8 popsicle molds.",
+    "Freeze for 1 hour, then push in the sticks.",
+    "Freeze for 5 hours more, until solid.",
+    "Run the molds under warm water for 10 seconds to get them out."
+   ]
+  },
+  {
+   "id": "frozen-yogurt-bark",
+   "name": "Frozen yogurt bark",
+   "aliases": [
+    "yogurt bark",
+    "frozen yogurt bark",
+    "froyo bark",
+    "berry yogurt bark"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "3 hr 10 min",
+   "main": [
+    "greek yogurt",
+    "honey",
+    "berries",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "2 cups (480 g) Greek yogurt",
+    "3 tablespoons honey or maple syrup",
+    "1 teaspoon vanilla extract",
+    "1 cup (150 g) berries",
+    "2 tablespoons mini chocolate chips or granola"
+   ],
+   "steps": [
+    "Line a baking sheet with parchment paper.",
+    "Stir the yogurt, honey and vanilla.",
+    "Spread it on the paper about 1/4 inch thick.",
+    "Scatter the berries and chocolate chips on top and press them in.",
+    "Freeze for 3 hours, until firm.",
+    "Break into pieces and eat right away. Keep the rest in the freezer."
+   ]
+  },
+  {
+   "id": "creamsicle-pops",
+   "name": "Orange creamsicle pops",
+   "aliases": [
+    "creamsicle pops",
+    "creamsicles",
+    "orange cream pops",
+    "orange creamsicle",
+    "dreamsicle"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "6 hr 15 min",
+   "main": [
+    "orange juice",
+    "vanilla yogurt",
+    "milk",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 1/2 cups (360 ml) orange juice",
+    "1 cup (240 g) vanilla yogurt",
+    "1/2 cup (120 ml) milk",
+    "2 tablespoons sugar",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Whisk the yogurt, milk, sugar and vanilla.",
+    "Pour a little orange juice into each mold, then a little yogurt mix. Keep layering.",
+    "Swirl once with a skewer.",
+    "Freeze for 1 hour, then push in the sticks.",
+    "Freeze for 5 hours more, until solid."
+   ]
+  },
+  {
+   "id": "fudge-pops",
+   "name": "Chocolate fudge pops",
+   "aliases": [
+    "fudge pops",
+    "fudgesicles",
+    "chocolate popsicles",
+    "pudding pops",
+    "chocolate pudding pops"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "7 hr",
+   "main": [
+    "milk",
+    "cocoa",
+    "sugar",
+    "cornstarch",
+    "chocolate"
+   ],
+   "ingredients": [
+    "1/2 cup (100 g) sugar",
+    "1/4 cup (20 g) unsweetened cocoa powder",
+    "2 tablespoons cornstarch",
+    "Pinch of salt",
+    "2 1/2 cups (600 ml) milk",
+    "2 oz (55 g) semisweet chocolate, chopped",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Whisk the sugar, cocoa, cornstarch and salt in a pot, then whisk in the milk.",
+    "Cook over medium heat, stirring, until it bubbles and thickens. Ask an adult to help.",
+    "Boil for 1 minute, then stir in the chocolate and vanilla.",
+    "Let cool for 30 minutes.",
+    "Pour into 8 molds, add the sticks and freeze for 6 hours."
+   ]
+  },
+  {
+   "id": "lemon-sorbet",
+   "name": "Lemon sorbet",
+   "aliases": [
+    "lemon sorbet",
+    "lemon ice",
+    "italian ice",
+    "lemon italian ice",
+    "sorbet"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "4 hr 30 min",
+   "main": [
+    "lemon",
+    "sugar",
+    "water"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1 cup (240 ml) water for the syrup",
+    "1 cup (240 ml) fresh lemon juice",
+    "1 tablespoon lemon zest",
+    "1 cup (240 ml) cold water"
+   ],
+   "steps": [
+    "Heat the sugar and 1 cup water in a pot, stirring, for 3 minutes, until the sugar dissolves. Ask an adult to help.",
+    "Let cool for 20 minutes.",
+    "Stir in the lemon juice, zest and cold water.",
+    "Pour into a metal 9 by 13 inch pan and freeze.",
+    "Every 30 minutes, scrape and stir with a fork. Do this for 3 to 4 hours, until smooth and frozen.",
+    "Or churn it in an ice cream maker following its directions."
+   ]
+  },
+  {
+   "id": "mango-sorbet",
+   "name": "Blender mango sorbet",
+   "aliases": [
+    "mango sorbet",
+    "mango ice",
+    "blender sorbet",
+    "mango nice cream",
+    "frozen mango dessert"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "mango",
+    "lime",
+    "honey"
+   ],
+   "ingredients": [
+    "4 cups (about 600 g) frozen mango chunks",
+    "1/4 cup (60 ml) honey or maple syrup",
+    "2 tablespoons lime juice",
+    "1/4 to 1/2 cup (60 to 120 ml) cold water"
+   ],
+   "steps": [
+    "Put the mango, honey and lime juice in a food processor or strong blender.",
+    "Add 1/4 cup water and blend, scraping the sides, until smooth. Add more water a little at a time if it is stuck.",
+    "Eat right away like soft serve, or freeze for 2 hours to scoop."
+   ]
+  },
+  {
+   "id": "watermelon-granita",
+   "name": "Watermelon granita",
+   "aliases": [
+    "watermelon granita",
+    "granita",
+    "watermelon ice",
+    "watermelon slush dessert"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "4 hr",
+   "main": [
+    "watermelon",
+    "sugar",
+    "lime"
+   ],
+   "ingredients": [
+    "6 cups (900 g) seedless watermelon cubes",
+    "1/3 cup (65 g) sugar",
+    "2 tablespoons lime juice"
+   ],
+   "steps": [
+    "Blend the watermelon, sugar and lime juice until smooth.",
+    "Pour into a 9 by 13 inch pan and freeze for 1 hour.",
+    "Scrape with a fork to break up the ice crystals.",
+    "Freeze and scrape every 30 minutes for 2 to 3 hours, until fluffy and icy.",
+    "Scoop into cups."
+   ]
+  },
+  {
+   "id": "ice-cream-sandwiches",
+   "name": "Ice cream sandwiches",
+   "aliases": [
+    "ice cream sandwiches",
+    "ice cream sandwich",
+    "cookie ice cream sandwiches",
+    "chipwich"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "1 hr 20 min",
+   "main": [
+    "cookies",
+    "ice cream",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "16 soft chocolate chip cookies, homemade or store bought",
+    "1 quart (about 1 liter) vanilla ice cream",
+    "1/2 cup (85 g) mini chocolate chips or sprinkles"
+   ],
+   "steps": [
+    "Let the ice cream sit out for 10 minutes to soften a little.",
+    "Put a big scoop on the flat side of a cookie.",
+    "Press a second cookie on top until the ice cream reaches the edges.",
+    "Roll the edges in mini chips or sprinkles.",
+    "Wrap each one in plastic wrap and freeze for 1 hour, until firm."
+   ]
+  },
+  {
+   "id": "ice-cream-sundae",
+   "name": "Ice cream sundae",
+   "aliases": [
+    "ice cream sundae",
+    "sundae",
+    "sundaes",
+    "hot fudge sundae",
+    "chocolate sundae"
+   ],
+   "category": "Dessert",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "ice cream",
+    "hot fudge sauce",
+    "whipped cream",
+    "cherries"
+   ],
+   "ingredients": [
+    "4 scoops vanilla ice cream",
+    "1/2 cup (120 ml) hot fudge or caramel sauce, warmed",
+    "Whipped cream",
+    "2 tablespoons chopped peanuts or sprinkles",
+    "2 maraschino cherries"
+   ],
+   "steps": [
+    "Put 2 scoops of ice cream in each bowl or glass.",
+    "Spoon the warm sauce over the ice cream.",
+    "Add a swirl of whipped cream.",
+    "Sprinkle with nuts or sprinkles.",
+    "Top each with a cherry."
+   ]
+  },
+  {
+   "id": "banana-split",
+   "name": "Banana split",
+   "aliases": [
+    "banana split",
+    "banana splits",
+    "classic banana split",
+    "split sundae"
+   ],
+   "category": "Dessert",
+   "servings": 1,
+   "time": "10 min",
+   "main": [
+    "banana",
+    "ice cream",
+    "chocolate syrup",
+    "whipped cream"
+   ],
+   "ingredients": [
+    "1 ripe banana",
+    "1 scoop each vanilla, chocolate and strawberry ice cream",
+    "2 tablespoons chocolate syrup",
+    "2 tablespoons strawberry topping",
+    "2 tablespoons pineapple topping or crushed pineapple",
+    "Whipped cream, chopped nuts and a cherry"
+   ],
+   "steps": [
+    "Peel the banana and cut it in half lengthwise with a butter knife.",
+    "Put the halves along the sides of a long dish.",
+    "Put the 3 scoops of ice cream in a row between them.",
+    "Spoon chocolate syrup over the chocolate scoop, strawberry over the vanilla and pineapple over the strawberry.",
+    "Add whipped cream, nuts and a cherry on top."
+   ]
+  },
+  {
+   "id": "frozen-chocolate-bananas",
+   "name": "Frozen chocolate bananas",
+   "aliases": [
+    "frozen chocolate bananas",
+    "chocolate covered bananas",
+    "frozen bananas",
+    "banana pops"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "1 hr 45 min",
+   "main": [
+    "bananas",
+    "chocolate",
+    "coconut oil",
+    "sprinkles"
+   ],
+   "ingredients": [
+    "3 ripe but firm bananas",
+    "6 popsicle sticks",
+    "6 oz (170 g) semisweet chocolate, chopped",
+    "1 tablespoon coconut oil",
+    "Toppings: sprinkles, chopped peanuts, crushed cookies"
+   ],
+   "steps": [
+    "Peel the bananas, cut them in half across and push a stick into each cut end.",
+    "Lay them on a parchment-lined tray and freeze for 1 hour.",
+    "Microwave the chocolate and coconut oil for 30 seconds at a time, stirring, until smooth.",
+    "Dip or spoon chocolate over each banana and roll in toppings right away.",
+    "Freeze for 30 minutes, until the chocolate is hard."
+   ]
+  },
+  {
+   "id": "ice-cream-cake",
+   "name": "Ice cream cake",
+   "aliases": [
+    "ice cream cake",
+    "ice cream cakes",
+    "cookies and cream ice cream cake",
+    "frozen cake"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "7 hr",
+   "main": [
+    "ice cream",
+    "chocolate sandwich cookies",
+    "hot fudge sauce",
+    "whipped topping"
+   ],
+   "ingredients": [
+    "24 chocolate sandwich cookies, crushed",
+    "4 tablespoons (55 g) butter, melted",
+    "1 1/2 quarts (1.4 liters) vanilla ice cream, softened",
+    "1/2 cup (120 ml) hot fudge sauce, room temperature",
+    "1 1/2 quarts (1.4 liters) chocolate ice cream, softened",
+    "8 oz (225 g) whipped topping, thawed",
+    "Sprinkles"
+   ],
+   "steps": [
+    "Mix the cookie crumbs and butter, saving 1/2 cup of crumbs, and press the rest into a 9 inch springform pan.",
+    "Freeze for 15 minutes.",
+    "Spread the vanilla ice cream over the crust.",
+    "Drizzle with hot fudge and sprinkle with the saved crumbs.",
+    "Freeze for 1 hour.",
+    "Spread the chocolate ice cream on top and freeze for 1 hour.",
+    "Spread the whipped topping over the top and add sprinkles.",
+    "Freeze for 4 hours, until firm. Let sit for 10 minutes before slicing."
+   ]
+  },
+  {
+   "id": "kulfi",
+   "name": "Kulfi",
+   "aliases": [
+    "kulfi",
+    "malai kulfi",
+    "indian ice cream",
+    "pistachio kulfi",
+    "kulfi ice cream"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "8 hr 15 min",
+   "main": [
+    "evaporated milk",
+    "sweetened condensed milk",
+    "cream",
+    "cardamom",
+    "pistachios"
+   ],
+   "ingredients": [
+    "1 can (12 oz / 354 ml) evaporated milk",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1 cup (240 ml) heavy cream",
+    "1/2 teaspoon ground cardamom",
+    "Pinch of saffron (optional)",
+    "1/4 cup (30 g) chopped pistachios"
+   ],
+   "steps": [
+    "Blend the evaporated milk, condensed milk, cream, cardamom and saffron for 1 minute.",
+    "Stir in most of the pistachios.",
+    "Pour into 8 small cups or popsicle molds and sprinkle with the rest of the pistachios.",
+    "Cover with foil and push in a stick if you like.",
+    "Freeze for 8 hours, until solid.",
+    "Dip the cups in warm water for 10 seconds to unmold."
+   ]
+  },
+  {
+   "id": "frozen-yogurt",
+   "name": "Berry frozen yogurt",
+   "aliases": [
+    "frozen yogurt",
+    "froyo",
+    "berry frozen yogurt",
+    "strawberry frozen yogurt",
+    "healthy frozen yogurt"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "frozen berries",
+    "greek yogurt",
+    "honey"
+   ],
+   "ingredients": [
+    "4 cups (560 g) frozen strawberries or mixed berries",
+    "1 cup (240 g) Greek yogurt",
+    "3 tablespoons honey",
+    "1 tablespoon lemon juice"
+   ],
+   "steps": [
+    "Put everything in a food processor.",
+    "Blend for 2 to 3 minutes, scraping down the sides, until creamy.",
+    "Eat right away, or freeze for 1 hour for a firmer scoop."
+   ]
+  },
+  {
+   "id": "snow-cones",
+   "name": "Snow cones with homemade syrup",
+   "aliases": [
+    "snow cones",
+    "snow cone",
+    "shaved ice",
+    "snow cone syrup",
+    "slush cones"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "25 min",
+   "main": [
+    "ice",
+    "sugar",
+    "drink mix"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1/2 cup (120 ml) water",
+    "1 packet (about 0.15 oz / 4 g) unsweetened drink mix, any flavor",
+    "6 cups ice"
+   ],
+   "steps": [
+    "Heat the sugar and water in a pot for 2 to 3 minutes, stirring, until the sugar dissolves. Ask an adult to help.",
+    "Take it off the heat and stir in the drink mix.",
+    "Let the syrup cool for 15 minutes.",
+    "Crush the ice in a blender or shaved ice machine until fluffy like snow.",
+    "Pack into cups and pour 2 to 3 tablespoons of syrup over each."
+   ]
+  },
+  {
+   "id": "ice-cream-in-a-bag",
+   "name": "Ice cream in a bag",
+   "aliases": [
+    "ice cream in a bag",
+    "bag ice cream",
+    "shake ice cream",
+    "science ice cream"
+   ],
+   "category": "Dessert",
+   "servings": 1,
+   "time": "15 min",
+   "main": [
+    "half and half",
+    "sugar",
+    "ice",
+    "salt"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) half and half or whole milk",
+    "2 tablespoons sugar",
+    "1/2 teaspoon vanilla extract",
+    "4 cups ice",
+    "1/2 cup (about 140 g) rock salt or coarse salt",
+    "1 quart zip bag and 1 gallon zip bag"
+   ],
+   "steps": [
+    "Pour the half and half, sugar and vanilla into the small bag. Squeeze out the air and seal it tight.",
+    "Put the ice and salt in the big bag.",
+    "Put the small bag inside the big bag and seal it.",
+    "Wrap the bag in a towel or wear gloves, it gets very cold.",
+    "Shake for 5 to 10 minutes, until the cream turns into soft ice cream. The salt makes the ice colder than freezing.",
+    "Wipe the salt off the small bag before opening it, then eat with a spoon."
+   ]
+  },
+  {
+   "id": "chocolate-fudge",
+   "name": "Easy chocolate fudge",
+   "aliases": [
+    "fudge",
+    "chocolate fudge",
+    "easy fudge",
+    "microwave fudge",
+    "condensed milk fudge"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "2 hr 15 min",
+   "main": [
+    "chocolate chips",
+    "sweetened condensed milk",
+    "butter",
+    "vanilla"
+   ],
+   "ingredients": [
+    "3 cups (510 g) semisweet chocolate chips",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1/4 cup (55 g) butter",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "1/2 cup (55 g) chopped walnuts (optional)"
+   ],
+   "steps": [
+    "Line an 8 by 8 inch pan with foil or parchment.",
+    "Put the chips, condensed milk and butter in a big microwave-safe bowl.",
+    "Microwave for 1 minute, stir, then for 30 seconds at a time until smooth.",
+    "Stir in the vanilla, salt and nuts.",
+    "Spread in the pan.",
+    "Chill for 2 hours, until firm, then cut into small squares."
+   ]
+  },
+  {
+   "id": "peanut-butter-fudge",
+   "name": "Peanut butter fudge",
+   "aliases": [
+    "peanut butter fudge",
+    "pb fudge",
+    "peanut fudge",
+    "easy peanut butter fudge"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "2 hr 15 min",
+   "main": [
+    "peanut butter",
+    "butter",
+    "powdered sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter",
+    "1 cup (260 g) creamy peanut butter",
+    "1 teaspoon vanilla extract",
+    "3 1/2 cups (420 g) powdered sugar"
+   ],
+   "steps": [
+    "Line an 8 by 8 inch pan with parchment.",
+    "Microwave the butter and peanut butter for 1 minute, stir, then 30 seconds more until melted and smooth.",
+    "Stir in the vanilla.",
+    "Stir in the powdered sugar a cup at a time until thick and smooth.",
+    "Press into the pan.",
+    "Chill for 2 hours, then cut into squares."
+   ]
+  },
+  {
+   "id": "soft-caramels",
+   "name": "Soft caramels",
+   "aliases": [
+    "caramels",
+    "soft caramels",
+    "homemade caramels",
+    "caramel candy",
+    "chewy caramels"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "3 hr",
+   "main": [
+    "butter",
+    "brown sugar",
+    "corn syrup",
+    "sweetened condensed milk"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter",
+    "2 1/4 cups (495 g) packed brown sugar",
+    "1 cup (240 ml) light corn syrup",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1/8 teaspoon salt",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "An adult should do all the cooking. Hot sugar sticks to skin and burns badly.",
+    "Line a 9 by 13 inch pan with buttered parchment.",
+    "Melt the butter in a heavy pot, then stir in the brown sugar, corn syrup, condensed milk and salt.",
+    "Cook over medium heat, stirring all the time, until it boils.",
+    "Clip on a candy thermometer and keep stirring for 12 to 15 minutes, until it reaches 245°F (118°C).",
+    "Take it off the heat, stir in the vanilla and pour into the pan.",
+    "Let cool for 2 hours, until firm.",
+    "Cut into small squares and wrap each in wax paper."
+   ]
+  },
+  {
+   "id": "saltine-toffee",
+   "name": "Saltine cracker toffee",
+   "aliases": [
+    "saltine toffee",
+    "christmas crack",
+    "cracker toffee",
+    "toffee",
+    "chocolate toffee bark"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "saltine crackers",
+    "butter",
+    "brown sugar",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "40 saltine crackers",
+    "1 cup (225 g) butter",
+    "1 cup (220 g) packed brown sugar",
+    "2 cups (340 g) semisweet chocolate chips",
+    "1/2 cup (55 g) chopped pecans or sprinkles (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Line a 10 by 15 inch rimmed pan with foil and lay the crackers on it in one layer.",
+    "Melt the butter and brown sugar in a pot, then boil for 3 minutes without stirring. It is very hot.",
+    "Pour it over the crackers and spread it out.",
+    "Bake for 5 minutes, until bubbly.",
+    "Sprinkle the chocolate chips on top and wait 5 minutes, then spread the melted chips.",
+    "Add the nuts or sprinkles.",
+    "Chill for 1 hour, then break into pieces."
+   ]
+  },
+  {
+   "id": "peanut-brittle",
+   "name": "Peanut brittle",
+   "aliases": [
+    "peanut brittle",
+    "brittle",
+    "nut brittle",
+    "old fashioned peanut brittle"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr",
+   "main": [
+    "sugar",
+    "corn syrup",
+    "peanuts",
+    "butter",
+    "baking soda"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1/2 cup (120 ml) light corn syrup",
+    "1/4 cup (60 ml) water",
+    "1 1/2 cups (220 g) raw or roasted peanuts",
+    "2 tablespoons butter",
+    "1 teaspoon baking soda",
+    "1 teaspoon vanilla extract",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "An adult should do the cooking. This sugar gets hotter than boiling water.",
+    "Butter a baking sheet and set it next to the stove.",
+    "Cook the sugar, corn syrup and water in a heavy pot over medium heat, stirring until the sugar dissolves.",
+    "Boil without stirring until a candy thermometer reads 240°F (116°C).",
+    "Stir in the peanuts and keep cooking, stirring, until it reaches 300°F (149°C) and turns golden.",
+    "Take it off the heat and quickly stir in the butter, baking soda, vanilla and salt. It will foam.",
+    "Pour onto the sheet right away and spread thin.",
+    "Let cool for 30 minutes, then break into pieces."
+   ]
+  },
+  {
+   "id": "chocolate-truffles",
+   "name": "Chocolate truffles",
+   "aliases": [
+    "chocolate truffles",
+    "truffles",
+    "ganache truffles",
+    "chocolate truffle"
+   ],
+   "category": "Dessert",
+   "servings": 20,
+   "time": "2 hr 45 min",
+   "main": [
+    "chocolate",
+    "heavy cream",
+    "butter",
+    "cocoa"
+   ],
+   "ingredients": [
+    "8 oz (225 g) semisweet chocolate, finely chopped",
+    "1/2 cup (120 ml) heavy cream",
+    "1 tablespoon butter",
+    "1 teaspoon vanilla extract",
+    "Coatings: cocoa powder, sprinkles, chopped nuts or coconut"
+   ],
+   "steps": [
+    "Heat the cream in a small pot until steaming. Ask an adult to help.",
+    "Pour it over the chocolate and let sit for 3 minutes.",
+    "Stir until smooth, then stir in the butter and vanilla.",
+    "Cover and chill for 2 hours, until firm.",
+    "Scoop teaspoon size pieces and roll them quickly into balls between your palms.",
+    "Roll in the coatings and keep in the fridge."
+   ]
+  },
+  {
+   "id": "brigadeiros",
+   "name": "Brigadeiros",
+   "aliases": [
+    "brigadeiros",
+    "brigadeiro",
+    "brazilian fudge balls",
+    "chocolate fudge balls"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "sweetened condensed milk",
+    "cocoa",
+    "butter",
+    "sprinkles"
+   ],
+   "ingredients": [
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1 tablespoon butter, plus more for your hands",
+    "2 tablespoons unsweetened cocoa powder",
+    "Pinch of salt",
+    "1/2 cup (80 g) chocolate sprinkles"
+   ],
+   "steps": [
+    "Put the condensed milk, butter, cocoa and salt in a nonstick pot.",
+    "Cook over medium low heat, stirring all the time, for 10 to 12 minutes, until it is thick and pulls away from the bottom of the pot. Ask an adult to help.",
+    "Pour onto a buttered plate and let cool for 1 hour.",
+    "Butter your hands and roll teaspoons of the mix into balls.",
+    "Roll each ball in sprinkles and set in a small paper cup."
+   ]
+  },
+  {
+   "id": "rocky-road",
+   "name": "Rocky road",
+   "aliases": [
+    "rocky road",
+    "rocky road candy",
+    "rocky road bars",
+    "rocky road fudge"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "2 hr 15 min",
+   "main": [
+    "chocolate",
+    "marshmallows",
+    "nuts",
+    "butter"
+   ],
+   "ingredients": [
+    "12 oz (340 g) milk or semisweet chocolate, chopped",
+    "2 tablespoons butter",
+    "3 cups (150 g) mini marshmallows",
+    "1 cup (115 g) chopped peanuts or crushed graham crackers"
+   ],
+   "steps": [
+    "Line an 8 by 8 inch pan with parchment.",
+    "Microwave the chocolate and butter for 30 seconds at a time, stirring, until smooth.",
+    "Let cool for 5 minutes so the marshmallows do not melt.",
+    "Stir in the marshmallows and nuts.",
+    "Spread in the pan.",
+    "Chill for 2 hours, then cut into squares."
+   ]
+  },
+  {
+   "id": "peppermint-bark",
+   "name": "Peppermint bark",
+   "aliases": [
+    "peppermint bark",
+    "christmas bark",
+    "candy cane bark",
+    "chocolate peppermint bark"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr",
+   "main": [
+    "dark chocolate",
+    "white chocolate",
+    "candy canes",
+    "peppermint"
+   ],
+   "ingredients": [
+    "12 oz (340 g) semisweet or dark chocolate, chopped",
+    "12 oz (340 g) white chocolate, chopped",
+    "1/2 teaspoon peppermint extract",
+    "1/2 cup (85 g) crushed candy canes"
+   ],
+   "steps": [
+    "Line a 9 by 13 inch pan with parchment.",
+    "Melt the dark chocolate in the microwave for 30 seconds at a time, stirring each time.",
+    "Spread it in the pan and chill for 15 minutes.",
+    "Melt the white chocolate the same way and stir in the peppermint extract.",
+    "Spread the white chocolate over the dark layer and sprinkle with candy canes.",
+    "Chill for 30 minutes, then break into pieces."
+   ]
+  },
+  {
+   "id": "chocolate-covered-strawberries",
+   "name": "Chocolate covered strawberries",
+   "aliases": [
+    "chocolate covered strawberries",
+    "chocolate strawberries",
+    "chocolate dipped strawberries",
+    "dipped strawberries"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "strawberries",
+    "chocolate",
+    "coconut oil"
+   ],
+   "ingredients": [
+    "1 lb (450 g) strawberries with stems",
+    "6 oz (170 g) semisweet chocolate, chopped",
+    "1 teaspoon coconut oil",
+    "2 oz (55 g) white chocolate for drizzling (optional)"
+   ],
+   "steps": [
+    "Wash the strawberries and dry them completely. Water makes chocolate seize.",
+    "Line a tray with parchment paper.",
+    "Microwave the chocolate and coconut oil for 30 seconds at a time, stirring, until smooth.",
+    "Hold each berry by the stem, dip it in the chocolate and let the extra drip off.",
+    "Lay them on the tray.",
+    "Drizzle with melted white chocolate.",
+    "Chill for 20 minutes, until set."
+   ]
+  },
+  {
+   "id": "homemade-marshmallows",
+   "name": "Homemade marshmallows",
+   "aliases": [
+    "marshmallows",
+    "homemade marshmallows",
+    "marshmallow",
+    "vanilla marshmallows"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "4 hr 45 min",
+   "main": [
+    "gelatin",
+    "sugar",
+    "corn syrup",
+    "vanilla"
+   ],
+   "ingredients": [
+    "3 packets (3/4 oz / 21 g total) unflavored gelatin",
+    "1 cup (240 ml) cold water, divided",
+    "1 1/2 cups (300 g) sugar",
+    "1 cup (240 ml) light corn syrup",
+    "1/4 teaspoon salt",
+    "1 tablespoon vanilla extract",
+    "Coating: 1/2 cup (60 g) powdered sugar mixed with 1/2 cup (60 g) cornstarch"
+   ],
+   "steps": [
+    "Grease a 9 by 13 inch pan and dust it with some of the coating.",
+    "Sprinkle the gelatin over 1/2 cup cold water in a stand mixer bowl.",
+    "An adult should cook the syrup. Heat the sugar, corn syrup, salt and the other 1/2 cup water, stirring until dissolved.",
+    "Boil without stirring until a candy thermometer reads 240°F (116°C).",
+    "With the mixer on low, slowly pour the hot syrup down the side of the bowl into the gelatin.",
+    "Beat on high for 12 minutes, until thick, white and fluffy. Beat in the vanilla.",
+    "Spread in the pan and dust the top with coating.",
+    "Let set uncovered for 4 hours, then cut into squares and toss in more coating."
+   ]
+  },
+  {
+   "id": "peanut-butter-cups",
+   "name": "Homemade peanut butter cups",
+   "aliases": [
+    "peanut butter cups",
+    "peanut butter cup",
+    "homemade reeses",
+    "chocolate peanut butter cups"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr",
+   "main": [
+    "chocolate",
+    "peanut butter",
+    "powdered sugar",
+    "butter"
+   ],
+   "ingredients": [
+    "12 oz (340 g) milk chocolate chips",
+    "1 tablespoon coconut oil",
+    "3/4 cup (195 g) creamy peanut butter",
+    "1/3 cup (40 g) powdered sugar",
+    "2 tablespoons butter, softened",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Line a 12-cup muffin pan with paper liners.",
+    "Microwave the chocolate and coconut oil for 30 seconds at a time, stirring, until smooth.",
+    "Spoon 1 tablespoon chocolate into each liner and tilt so it coats the bottom. Chill for 10 minutes.",
+    "Mix the peanut butter, powdered sugar, butter and salt.",
+    "Put a flat spoonful of peanut butter mix in each cup.",
+    "Cover with the rest of the chocolate.",
+    "Chill for 30 minutes, until firm."
+   ]
+  },
+  {
+   "id": "coconut-ice",
+   "name": "Coconut ice",
+   "aliases": [
+    "coconut ice",
+    "coconut squares",
+    "pink coconut ice",
+    "coconut candy"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "3 hr 20 min",
+   "main": [
+    "sweetened condensed milk",
+    "coconut",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "2 cups (250 g) powdered sugar",
+    "2 2/3 cups (200 g) unsweetened desiccated coconut",
+    "2 drops pink or red food coloring"
+   ],
+   "steps": [
+    "Line an 8 by 8 inch pan with parchment.",
+    "Mix the condensed milk and powdered sugar, then stir in the coconut. It will be stiff.",
+    "Press half the mix into the pan.",
+    "Knead the food coloring into the other half until pink.",
+    "Press the pink layer on top.",
+    "Chill for 3 hours, until firm, then cut into squares."
+   ]
+  },
+  {
+   "id": "cake-pops",
+   "name": "Cake pops",
+   "aliases": [
+    "cake pops",
+    "cake pop",
+    "cake balls",
+    "cake pop recipe"
+   ],
+   "category": "Dessert",
+   "servings": 20,
+   "time": "2 hr 30 min",
+   "main": [
+    "cake",
+    "frosting",
+    "candy melts",
+    "sprinkles"
+   ],
+   "ingredients": [
+    "1 baked and cooled 9 by 13 inch vanilla or chocolate cake, from a box mix or scratch",
+    "2/3 cup (about 170 g) frosting",
+    "24 oz (680 g) candy melts",
+    "1 tablespoon coconut oil",
+    "About 40 lollipop sticks",
+    "Sprinkles"
+   ],
+   "steps": [
+    "Crumble the cake into fine crumbs in a big bowl.",
+    "Mix in the frosting until it holds together like dough.",
+    "Roll into 1 1/2 inch balls and put them on a lined tray.",
+    "Chill for 1 hour.",
+    "Melt the candy melts and coconut oil in the microwave for 30 seconds at a time, stirring.",
+    "Dip the tip of a stick into the candy, push it halfway into a ball and repeat. Freeze for 15 minutes.",
+    "Dip each pop into the candy, tap off the extra and add sprinkles.",
+    "Stand them in a foam block or cup to set for 15 minutes."
+   ]
+  },
+  {
+   "id": "caramel-apples",
+   "name": "Caramel apples",
+   "aliases": [
+    "caramel apples",
+    "caramel apple",
+    "candy apples",
+    "toffee apples",
+    "dipped apples"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "apples",
+    "caramels",
+    "milk",
+    "nuts"
+   ],
+   "ingredients": [
+    "6 small apples",
+    "6 sturdy sticks",
+    "1 bag (11 oz / 311 g) caramel candies, unwrapped",
+    "2 tablespoons milk",
+    "Toppings: chopped peanuts, sprinkles, mini chocolate chips"
+   ],
+   "steps": [
+    "Wash the apples and dry them completely so the caramel sticks.",
+    "Push a stick firmly into the top of each apple.",
+    "Microwave the caramels and milk for 2 minutes, stirring every 30 seconds, until smooth. It is very hot, so ask an adult to help.",
+    "Tilt the bowl and twirl each apple in the caramel.",
+    "Let the extra drip off, then roll the bottom in toppings.",
+    "Set on buttered parchment and chill for 15 minutes."
+   ]
+  },
+  {
+   "id": "hard-candy-lollipops",
+   "name": "Hard candy lollipops",
+   "aliases": [
+    "lollipops",
+    "homemade lollipops",
+    "hard candy",
+    "suckers",
+    "lollies"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr",
+   "main": [
+    "sugar",
+    "corn syrup",
+    "water",
+    "flavoring"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1/3 cup (80 ml) light corn syrup",
+    "1/4 cup (60 ml) water",
+    "1/2 teaspoon candy flavoring oil or 1 teaspoon extract",
+    "Gel food coloring",
+    "12 lollipop sticks and a silicone mat or lollipop molds"
+   ],
+   "steps": [
+    "An adult must do the cooking. This syrup gets hotter than 300°F (149°C) and burns badly.",
+    "Lay the sticks on the silicone mat or set them in the molds.",
+    "Heat the sugar, corn syrup and water in a small heavy pot, stirring, until the sugar dissolves.",
+    "Stop stirring and boil until a candy thermometer reads 300°F (149°C).",
+    "Take it off the heat, wait for the bubbles to stop and stir in the flavoring and coloring.",
+    "Carefully spoon circles of syrup over the end of each stick.",
+    "Let harden for 20 minutes, then wrap in plastic."
+   ]
+  },
+  {
+   "id": "honeycomb-candy",
+   "name": "Honeycomb candy",
+   "aliases": [
+    "honeycomb candy",
+    "honeycomb",
+    "sponge toffee",
+    "cinder toffee",
+    "hokey pokey",
+    "seafoam candy"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 20 min",
+   "main": [
+    "sugar",
+    "corn syrup",
+    "baking soda"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1/4 cup (60 ml) light corn syrup or golden syrup",
+    "2 tablespoons water",
+    "1 1/2 teaspoons baking soda, sifted"
+   ],
+   "steps": [
+    "An adult must do the cooking. The syrup and foam are extremely hot.",
+    "Line an 8 by 8 inch pan with buttered parchment.",
+    "Heat the sugar, corn syrup and water in a big pot, stirring until the sugar dissolves.",
+    "Boil without stirring until a candy thermometer reads 300°F (149°C) and it is golden.",
+    "Take it off the heat, add the baking soda and whisk for 5 seconds. It foams up a lot.",
+    "Pour into the pan right away. Do not spread it.",
+    "Let cool for 1 hour, then break into chunks. Dip in chocolate if you like."
+   ]
+  },
+  {
+   "id": "cookie-truffles",
+   "name": "Cookies and cream truffles",
+   "aliases": [
+    "oreo truffles",
+    "oreo balls",
+    "cookie balls",
+    "cookies and cream truffles",
+    "cream cheese cookie balls"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "2 hr",
+   "main": [
+    "chocolate sandwich cookies",
+    "cream cheese",
+    "chocolate"
+   ],
+   "ingredients": [
+    "36 chocolate sandwich cookies (one 14 oz / 400 g package)",
+    "8 oz (225 g) cream cheese, softened",
+    "12 oz (340 g) semisweet or white chocolate, chopped",
+    "1 tablespoon coconut oil"
+   ],
+   "steps": [
+    "Blend the cookies into fine crumbs in a food processor, or crush them in a bag.",
+    "Mix in the cream cheese until it looks like dough.",
+    "Roll into 1 inch balls and put them on a lined tray.",
+    "Chill for 30 minutes.",
+    "Melt the chocolate and coconut oil in the microwave for 30 seconds at a time, stirring.",
+    "Dip each ball with a fork, tap off the extra and put it back on the tray.",
+    "Chill for 1 hour, until firm. Keep in the fridge."
+   ]
+  },
+  {
+   "id": "milk-burfi",
+   "name": "Milk burfi",
+   "aliases": [
+    "burfi",
+    "barfi",
+    "milk burfi",
+    "milk powder burfi",
+    "indian milk fudge"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr 30 min",
+   "main": [
+    "milk powder",
+    "ghee",
+    "milk",
+    "sugar",
+    "cardamom"
+   ],
+   "ingredients": [
+    "1/4 cup (55 g) ghee or butter",
+    "1/2 cup (120 ml) milk",
+    "2 cups (240 g) milk powder",
+    "1/2 cup (100 g) sugar",
+    "1/2 teaspoon ground cardamom",
+    "2 tablespoons chopped pistachios"
+   ],
+   "steps": [
+    "Grease an 8 by 4 inch loaf pan.",
+    "Melt the ghee in a nonstick pan over low heat and stir in the milk.",
+    "Stir in the milk powder until smooth, then the sugar. Ask an adult to help.",
+    "Cook on low for 5 to 7 minutes, stirring all the time, until it forms a soft dough that pulls away from the pan.",
+    "Stir in the cardamom.",
+    "Press into the pan and sprinkle with pistachios, pressing them in.",
+    "Let set for 1 hour, then cut into squares."
+   ]
+  },
+  {
+   "id": "besan-ladoo",
+   "name": "Besan ladoo",
+   "aliases": [
+    "besan ladoo",
+    "besan laddu",
+    "ladoo",
+    "laddu",
+    "chickpea flour sweets"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "50 min",
+   "main": [
+    "chickpea flour",
+    "ghee",
+    "powdered sugar",
+    "cardamom"
+   ],
+   "ingredients": [
+    "2 cups (180 g) besan (chickpea flour)",
+    "1/2 cup (115 g) ghee, melted",
+    "3/4 cup (90 g) powdered sugar",
+    "1/2 teaspoon ground cardamom",
+    "2 tablespoons chopped almonds or pistachios"
+   ],
+   "steps": [
+    "Put the besan and ghee in a heavy pan over low heat. Ask an adult to help.",
+    "Stir all the time for 15 to 20 minutes, until golden and it smells nutty. Low heat keeps it from burning.",
+    "Take it off the heat and let cool for 15 minutes, until warm but safe to touch.",
+    "Stir in the powdered sugar, cardamom and nuts.",
+    "Squeeze handfuls into 16 tight balls.",
+    "Let set for 15 minutes."
+   ]
+  },
+  {
+   "id": "buckeyes",
+   "name": "Buckeyes",
+   "aliases": [
+    "buckeyes",
+    "buckeye candy",
+    "peanut butter balls",
+    "chocolate peanut butter balls"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 15 min",
+   "main": [
+    "peanut butter",
+    "butter",
+    "powdered sugar",
+    "chocolate"
+   ],
+   "ingredients": [
+    "1 cup (260 g) creamy peanut butter",
+    "1/4 cup (55 g) butter, softened",
+    "1 teaspoon vanilla extract",
+    "2 cups (240 g) powdered sugar",
+    "8 oz (225 g) semisweet chocolate, chopped",
+    "1 tablespoon coconut oil"
+   ],
+   "steps": [
+    "Beat the peanut butter, butter and vanilla, then beat in the powdered sugar until it forms a dough.",
+    "Roll into 1 inch balls and put them on a lined tray.",
+    "Chill for 30 minutes.",
+    "Melt the chocolate and coconut oil in the microwave for 30 seconds at a time, stirring.",
+    "Poke a toothpick into each ball and dip it, leaving a circle of peanut butter showing on top.",
+    "Chill for 20 minutes, until set. Smooth over the toothpick hole with your finger."
+   ]
+  },
+  {
+   "id": "pecan-pralines",
+   "name": "Pecan pralines",
+   "aliases": [
+    "pralines",
+    "pecan pralines",
+    "new orleans pralines",
+    "praline candy"
+   ],
+   "category": "Dessert",
+   "servings": 20,
+   "time": "1 hr",
+   "main": [
+    "pecans",
+    "sugar",
+    "brown sugar",
+    "butter",
+    "evaporated milk"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1 cup (220 g) packed brown sugar",
+    "1/2 cup (120 ml) evaporated milk",
+    "1/4 cup (55 g) butter",
+    "1 1/2 cups (170 g) pecan halves",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "An adult should do the cooking. Hot sugar burns badly.",
+    "Line 2 baking sheets with parchment.",
+    "Cook the sugar, brown sugar, evaporated milk and butter in a heavy pot over medium heat, stirring, until it boils.",
+    "Add the pecans and cook, stirring, until a candy thermometer reads 238°F (114°C).",
+    "Take it off the heat and stir in the vanilla and salt.",
+    "Stir for 2 to 3 minutes, until it thickens and looks creamy.",
+    "Quickly drop spoonfuls onto the parchment.",
+    "Let set for 30 minutes."
+   ]
+  }
+ ]
+}

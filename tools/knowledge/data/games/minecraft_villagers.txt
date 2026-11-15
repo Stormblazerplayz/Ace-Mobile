@@ -1,0 +1,39 @@
+# Minecraft villagers, hand-written. Java Edition 1.21.
+
+# tag: minecraft.villagers
+list of villager professions | how many professions do villagers have | what professions can villagers have => There are 13 jobs: armorer, butcher, cartographer, cleric, farmer, fisherman, fletcher, leatherworker, librarian, mason, shepherd, toolsmith and weaponsmith.
+how do you make a librarian villager | librarian job block | what block makes a librarian => Place a lectern near an unemployed villager.
+how do you make an armorer villager | armorer job block | what block makes an armorer => Place a blast furnace near an unemployed villager.
+how do you make a butcher villager | butcher job block | what block makes a butcher => Place a smoker near an unemployed villager.
+how do you make a cartographer villager | cartographer job block | what block makes a cartographer => Place a cartography table near an unemployed villager.
+how do you make a cleric villager | cleric job block | what block makes a cleric => Place a brewing stand near an unemployed villager.
+how do you make a farmer villager | farmer job block | what block makes a farmer => Place a composter near an unemployed villager.
+how do you make a fisherman villager | fisherman job block | what block makes a fisherman => Place a barrel near an unemployed villager.
+how do you make a fletcher villager | fletcher job block | what block makes a fletcher => Place a fletching table near an unemployed villager.
+how do you make a leatherworker villager | leatherworker job block | what block makes a leatherworker => Place a cauldron near an unemployed villager.
+how do you make a mason villager | mason job block | what block makes a mason => Place a stonecutter near an unemployed villager.
+how do you make a shepherd villager | shepherd job block | what block makes a shepherd => Place a loom near an unemployed villager.
+how do you make a toolsmith villager | toolsmith job block | what block makes a toolsmith => Place a smithing table near an unemployed villager.
+how do you make a weaponsmith villager | weaponsmith job block | what block makes a weaponsmith => Place a grindstone near an unemployed villager.
+what does a librarian villager sell | best librarian trades | librarian trades => Librarians sell enchanted books (including Mending), bookshelves, lanterns, glass, clocks, compasses and name tags, and buy paper and books.
+what does a cleric villager sell | cleric trades | where to buy ender pearls => Clerics sell redstone, lapis lazuli, glowstone, ender pearls and bottles o' enchanting, and buy rotten flesh, gold ingots and other items.
+what does a farmer villager sell | farmer trades | easy emeralds from farmers => Farmers buy wheat, potatoes, carrots, beetroots, pumpkins and melons, and sell bread, pumpkin pie, apples, cookies, cake, golden carrots and glistering melon slices. Selling crops is an easy way to get emeralds.
+what does a cartographer sell | cartographer trades | how to buy an explorer map => Cartographers sell empty maps, banners, banner patterns and explorer maps that lead to ocean monuments, woodland mansions, trial chambers and village areas.
+what does an armorer sell | armorer trades | where to buy diamond armor => Armorers sell iron, chainmail and enchanted diamond armor, shields and bells.
+what does a toolsmith sell | toolsmith trades | buy diamond pickaxe from villager => Toolsmiths sell stone, iron and enchanted diamond tools and bells.
+what does a weaponsmith sell | weaponsmith trades | buy diamond sword villager => Weaponsmiths sell iron axes and swords, enchanted diamond axes and swords, and bells.
+what does a fletcher sell | fletcher trades | where to buy arrows => Fletchers sell arrows, flint, bows, crossbows and tipped arrows, and buy sticks, string, feathers and tripwire hooks.
+what does a fisherman sell | fisherman trades | buy enchanted fishing rod => Fishermen sell cooked fish, campfires, buckets of cod and enchanted fishing rods, and buy raw fish, string and coal.
+what does a butcher sell | butcher trades | where to sell raw meat => Butchers buy raw meat, coal, sweet berries and dried kelp blocks, and sell cooked meat and rabbit stew.
+what does a leatherworker sell | leatherworker trades | where to buy a saddle => Leatherworkers sell dyed leather armor, leather horse armor and saddles, and buy leather, flint and scutes.
+what does a mason sell | mason trades | buy quartz from villager => Masons sell bricks, chiseled stone, polished stone blocks, terracotta, glazed terracotta and quartz blocks, and buy clay and stone.
+what does a shepherd sell | shepherd trades | where to buy wool => Shepherds sell shears, wool, carpets, beds, banners and paintings, and buy wool and dyes.
+what are villager levels | villager badge levels | how do villagers level up => Villagers go from Novice to Apprentice, Journeyman, Expert and Master as you trade with them. Each level unlocks new trades.
+why did my villager stop trading | villager trade locked | how to restock villager trades => Trades lock after being used a few times. The villager restocks up to twice a day by working at its job site block.
+what does a wandering trader sell | wandering trader trades | is the wandering trader worth it => The wandering trader sells things from other biomes like saplings, flowers, dyes, coral, sand, slimeballs, nautilus shells, pointed dripstone and packed ice.
+how do you move villagers | how to transport a villager | get villager into a boat => Push them into a boat or minecart, or lead them with a trail of job blocks or beds. Villagers can't be put on leads.
+how do zombie villagers happen | why did my villager turn into a zombie | zombie villager chance => When a zombie kills a villager, it has a 50 percent chance on Normal and a 100 percent chance on Hard to become a zombie villager. On Easy the villager just dies.
+what happens if lightning hits a villager | villager turns into witch | lightning villager => A villager hit by lightning turns into a witch.
+how do villagers make iron golems | why do villagers spawn golems | golem spawning villagers => Villagers summon an iron golem when they've slept recently and get scared by a zombie, or when enough of them gather and chat.
+what does a bell do in a village | ringing the village bell | what is the bell for => Ringing the bell sends villagers indoors and makes nearby raiders glow during a raid.
+what is a villager trading hall | how to build a trading hall | trading hall design => A trading hall is a row of small cells, each holding one villager next to its job block, so you can trade with many villagers easily.

@@ -45,7 +45,7 @@ import wordfreq  # noqa: E402
 
 OUT = os.path.join(KNOW, "data", "school", "gen_vocab.txt")
 LOW, HIGH = 3.1, 4.7
-TARGET_MEANINGS = 3379
+MAX_RANK = 3544
 TARGET_SYNONYMS = 900
 
 # Rude, adult, scary-for-kids or slur words, and words whose main sense is adult. Checked as substrings
@@ -160,14 +160,18 @@ urge usher utilised utility vacant vain vest vested veteran violated vitality vi
 wandering warden warp watered waterloo whatsoever widowed wield willingness witchcraft wont worn wrestle
 wrestler wrought yang yield""".split())
 # Words whose WordNet "synonym" is technically right but would mislead a kid.
-SYN_SKIP = set("""aforementioned aired arguing assumed attest backing behavioural biting buffet cater comprehend
-conducive conquer cooperative concerted criticise criticize defy delicious delightful derive deserving determination
-diagnosis discount disperse diverted domain engage engagement exceeding fused immediate implemented inhibit integration
-integrity interpreted keen penetrating manifest maximum minimal minimum optimal optimum papers peaked unwell pound
-projected sticking racking reddish relentless remarkable singular replacing rescued resign vacate respective sounding
-struck swollen talent talks transmitted usage wrought frightening ferocious handicapped disabled grumpy mundane muse
-meditate mute nomadic occasion dictate prescribe coordinate strangled sunny preserve gray mold fulfil fulfill
-organisational personalised specialised proven bizarre faded debut sprinkle unity""".split())
+SYN_SKIP = set("""aforementioned aired arguing assumed attest backing behavioural biting bizarre buffet caliber cater command
+comprehend concerted conducive conquer cooperative coordinate criticise criticize debut decree defy delicious
+delightful dependence dependency derive deserving detection determination diagnosis dictate disabled discount
+disperse distortion diverted doctrine domain engage engagement exceeding faded ferocious frightening fulfil
+fulfill fused gram gray grumpy hallmark handicapped hazard immediate implanted implemented infected infinity
+inhibit initiation intake integration integrity interpreted jeopardy keen manifest manpower maximum measurement
+meditate militia minimal minimum mold mundane muse mute newcomer nomadic occasion optimal optimum organisational
+papers patriotism patronage peaked penetrating personalised pound prescribe preserve projected proven prowess
+racking reddish redevelopment relentless remarkable rendition replacing rescued resign respective retention
+sarcasm sentinel singular smuggled sounding specialised spiritual sprinkle sticking strangled struck sunny
+superstar suppress swollen talent talks transmitted traveler tribunal ultra unity unwell usage utilization
+vacate valuation withstand workforce wrought""".split())
 
 VOWEL_SOUND = re.compile(r"^(?:[aeio]|u(?![nr]i|s[eu]|t[ei])|hon|hour|heir)", re.I)
 
@@ -247,6 +251,8 @@ PLAIN = [(r"\bexhibiting\b", "showing"), (r"\bpossessing\b", "having"), (r"\bcha
 
 
 def plain(g):
+    g = re.sub(r"\bsuch as e\.g\.", "such as", g)
+    g = re.sub(r"\s*\be\.g\.\s*", " ", g)
     for a, b in PLAIN:
         g = re.sub(a, b, g)
     return g
@@ -301,7 +307,7 @@ def example_for(w, s):
         toks = set(re.findall(r"[a-z]+", e.lower()))
         if not (toks & forms):
             continue
-        if not 12 <= len(e) <= 110:
+        if not 12 <= len(e) <= 100 or "..." in e or ";" in e or ":" in e:
             continue
         if is_bad_text(e) or check_data.DATED_RE.search(e):
             continue
@@ -467,9 +473,9 @@ def pick():
 def main():
     taken, keys = load_taken()
     meanings, synonyms = [], []
-    for _, _, w, s, gloss, second, dominant in pick():
-        if len(meanings) >= TARGET_MEANINGS:
-            break
+    # Only the first MAX_RANK candidates were read through by hand (see REVIEW_SKIP), so stop there even when
+    # some of them are dropped because another file already covers the word.
+    for _, _, w, s, gloss, second, dominant in pick()[:MAX_RANK]:
         ans = lead(w, s, gloss)
         if second:
             g2 = second if s.pos() != "v" or second.startswith("to ") else "to " + second
@@ -488,10 +494,9 @@ def main():
             continue
         qs = [f"what does {w} mean", f"define {w}", f"meaning of {w}"]
         qs.append(f"what is the definition of {w}" if len(meanings) % 2 else f"what does the word {w} mean")
-        if not free(qs, taken, keys):
-            qs = [q for q in qs if free([q], taken, keys)]
-            if len(qs) < 2 or not free([f"what does {w} mean"], taken, keys):
-                continue
+        # if any other file already explains this word (in any wording), leave the word to that file
+        if not free(qs + [f"what is {article(w)} {w}", f"what is {w}", f"{w} meaning", f"what are {w}"], taken, keys):
+            continue
         claim(qs, taken, keys)
         meanings.append((w, qs, ans))
         if syn and len(synonyms) < TARGET_SYNONYMS:

@@ -1,0 +1,2513 @@
+{
+ "questions": [
+  {
+   "id": "science-1201",
+   "category": "Science",
+   "q": "Why does a feather fall more slowly than a rock on Earth?",
+   "choices": [
+    "Gravity does not pull feathers",
+    "Feathers are magnetic",
+    "Rocks are pushed by the wind",
+    "Air resistance slows the feather more"
+   ],
+   "answer": 3,
+   "fact": "In a vacuum, a feather and a rock fall at exactly the same speed."
+  },
+  {
+   "id": "science-1202",
+   "category": "Science",
+   "q": "What is the pulling force in a stretched rope or string called?",
+   "choices": [
+    "Friction",
+    "Buoyancy",
+    "Tension",
+    "Drag"
+   ],
+   "answer": 2,
+   "fact": "Tug-of-war is a battle of tension in a rope."
+  },
+  {
+   "id": "science-1203",
+   "category": "Science",
+   "q": "What does a lens that is thicker in the middle do to light?",
+   "choices": [
+    "Makes it disappear",
+    "Turns it into heat",
+    "Splits it into colors",
+    "Bends it to come together"
+   ],
+   "answer": 3,
+   "fact": "Magnifying glasses use this kind of lens, called a convex lens."
+  },
+  {
+   "id": "science-1204",
+   "category": "Science",
+   "q": "Why do you see lightning before you hear thunder?",
+   "choices": [
+    "Thunder happens later",
+    "Light travels much faster than sound",
+    "Your eyes are closer to the storm",
+    "Sound travels faster than light"
+   ],
+   "answer": 1,
+   "fact": "Counting the seconds between them and dividing by 3 gives the distance in kilometers."
+  },
+  {
+   "id": "science-1205",
+   "category": "Science",
+   "q": "What causes thunder?",
+   "choices": [
+    "Clouds bumping together",
+    "Air heated by lightning expanding very fast",
+    "Rain hitting the ground",
+    "Wind blowing over mountains"
+   ],
+   "answer": 1,
+   "fact": "Lightning can heat the air to about 30,000 degrees Celsius, hotter than the Sun's surface."
+  },
+  {
+   "id": "science-1206",
+   "category": "Science",
+   "q": "What do we call heat moving through a solid, like a metal spoon in hot soup?",
+   "choices": [
+    "Convection",
+    "Conduction",
+    "Radiation",
+    "Insulation"
+   ],
+   "answer": 1,
+   "fact": "Metals are good conductors of heat, which is why pot handles are often made of plastic or wood."
+  },
+  {
+   "id": "science-1207",
+   "category": "Science",
+   "q": "What do we call heat moving by warm liquid or gas rising and cool sinking?",
+   "choices": [
+    "Conduction",
+    "Radiation",
+    "Reflection",
+    "Convection"
+   ],
+   "answer": 3,
+   "fact": "Convection is why the upstairs of a house is often warmer than the downstairs."
+  },
+  {
+   "id": "science-1208",
+   "category": "Science",
+   "q": "How does heat from the Sun reach Earth through empty space?",
+   "choices": [
+    "Radiation",
+    "Conduction",
+    "Convection",
+    "Wind"
+   ],
+   "answer": 0,
+   "fact": "Radiation can travel through a vacuum because it does not need any material."
+  },
+  {
+   "id": "science-1209",
+   "category": "Science",
+   "q": "What color clothing keeps you coolest in strong sunshine?",
+   "choices": [
+    "Black",
+    "Dark blue",
+    "White",
+    "Dark green"
+   ],
+   "answer": 2,
+   "fact": "White reflects most light, while black absorbs it and gets warm."
+  },
+  {
+   "id": "science-1210",
+   "category": "Science",
+   "q": "What does a thermos bottle use to keep drinks hot or cold?",
+   "choices": [
+    "Ice inside the walls",
+    "A vacuum between two walls",
+    "A small heater",
+    "Magnets"
+   ],
+   "answer": 1,
+   "fact": "Without air in between, heat cannot easily move by conduction or convection."
+  },
+  {
+   "id": "science-1211",
+   "category": "Science",
+   "q": "What makes a rainbow appear in the sky?",
+   "choices": [
+    "Light from the Moon",
+    "Sunlight bending and reflecting in raindrops",
+    "Colored clouds",
+    "Ice crystals on the ground"
+   ],
+   "answer": 1,
+   "fact": "To see a rainbow, the Sun must be behind you."
+  },
+  {
+   "id": "science-1212",
+   "category": "Science",
+   "q": "What is the word for how high or low a sound is?",
+   "choices": [
+    "Volume",
+    "Echo",
+    "Pitch",
+    "Tone color"
+   ],
+   "answer": 2,
+   "fact": "Short, tight guitar strings make higher pitches."
+  },
+  {
+   "id": "science-1213",
+   "category": "Science",
+   "q": "What is sound?",
+   "choices": [
+    "Tiny particles of light",
+    "Vibrations moving through matter",
+    "A type of electricity",
+    "Heat waves"
+   ],
+   "answer": 1,
+   "fact": "When you talk, your vocal cords vibrate and shake the air."
+  },
+  {
+   "id": "science-1214",
+   "category": "Science",
+   "q": "What part of a guitar vibrates to make sound?",
+   "choices": [
+    "The tuning pegs",
+    "The strings",
+    "The neck only",
+    "The case"
+   ],
+   "answer": 1,
+   "fact": "The hollow body makes the sound louder."
+  },
+  {
+   "id": "science-1215",
+   "category": "Science",
+   "q": "What does a laser make?",
+   "choices": [
+    "Sound waves",
+    "A narrow, powerful beam of light",
+    "Magnetic fields",
+    "Cold air"
+   ],
+   "answer": 1,
+   "fact": "The word laser started as an abbreviation of light amplification by stimulated emission of radiation."
+  },
+  {
+   "id": "science-1216",
+   "category": "Science",
+   "q": "Which scientist discovered radioactivity in uranium in 1896?",
+   "choices": [
+    "Henri Becquerel",
+    "Marie Curie",
+    "Ernest Rutherford",
+    "Albert Einstein"
+   ],
+   "answer": 0,
+   "fact": "He shared the 1903 Nobel Prize in Physics with Marie and Pierre Curie."
+  },
+  {
+   "id": "science-1217",
+   "category": "Science",
+   "q": "Which two elements did Marie and Pierre Curie discover?",
+   "choices": [
+    "Uranium and plutonium",
+    "Helium and neon",
+    "Oxygen and nitrogen",
+    "Polonium and radium"
+   ],
+   "answer": 3,
+   "fact": "Marie named polonium after her home country, Poland."
+  },
+  {
+   "id": "science-1218",
+   "category": "Science",
+   "q": "Which scientist discovered that atoms have a tiny, dense nucleus?",
+   "choices": [
+    "Isaac Newton",
+    "John Dalton",
+    "Ernest Rutherford",
+    "Niels Bohr"
+   ],
+   "answer": 2,
+   "fact": "Rutherford shot tiny particles at gold foil and some bounced right back."
+  },
+  {
+   "id": "science-1219",
+   "category": "Science",
+   "q": "Which scientist proposed in the early 1800s that all matter is made of atoms?",
+   "choices": [
+    "Isaac Newton",
+    "Galileo Galilei",
+    "John Dalton",
+    "Robert Hooke"
+   ],
+   "answer": 2,
+   "fact": "The idea of atoms goes back to ancient Greece, but Dalton turned it into modern science."
+  },
+  {
+   "id": "science-1220",
+   "category": "Science",
+   "q": "Who is often called the father of modern chemistry?",
+   "choices": [
+    "Isaac Newton",
+    "Dmitri Mendeleev",
+    "Robert Boyle",
+    "Antoine Lavoisier"
+   ],
+   "answer": 3,
+   "fact": "Lavoisier showed that burning needs oxygen and helped name it."
+  },
+  {
+   "id": "science-1221",
+   "category": "Science",
+   "q": "Who invented the light bulb that became popular in homes in 1879?",
+   "choices": [
+    "Nikola Tesla",
+    "Benjamin Franklin",
+    "Alexander Graham Bell",
+    "Thomas Edison"
+   ],
+   "answer": 3,
+   "fact": "Other inventors made earlier bulbs, but Edison's team made one that lasted long and was practical."
+  },
+  {
+   "id": "science-1222",
+   "category": "Science",
+   "q": "Who discovered that white light is made of all the colors?",
+   "choices": [
+    "Thomas Edison",
+    "Albert Einstein",
+    "Isaac Newton",
+    "Galileo Galilei"
+   ],
+   "answer": 2,
+   "fact": "Newton passed sunlight through a prism and then recombined the colors back into white light."
+  },
+  {
+   "id": "science-1223",
+   "category": "Science",
+   "q": "Which famous scientist was born in Germany and won the Nobel Prize in Physics in 1921?",
+   "choices": [
+    "Albert Einstein",
+    "Isaac Newton",
+    "Niels Bohr",
+    "Max Planck"
+   ],
+   "answer": 0,
+   "fact": "Einstein won it for explaining the photoelectric effect, not for relativity."
+  },
+  {
+   "id": "science-1224",
+   "category": "Science",
+   "q": "Which scientist wrote the book Silent Spring about the dangers of pesticides?",
+   "choices": [
+    "Rachel Carson",
+    "Jane Goodall",
+    "Marie Curie",
+    "Rosalind Franklin"
+   ],
+   "answer": 0,
+   "fact": "The book helped start the modern environmental movement."
+  },
+  {
+   "id": "science-1225",
+   "category": "Science",
+   "q": "Which scientist and inventor was known as the Wizard of Menlo Park?",
+   "choices": [
+    "Nikola Tesla",
+    "Benjamin Franklin",
+    "Thomas Edison",
+    "Henry Ford"
+   ],
+   "answer": 2,
+   "fact": "Edison's lab in Menlo Park, New Jersey, was one of the first research labs."
+  },
+  {
+   "id": "science-1226",
+   "category": "Science",
+   "q": "Which scientist is famous for his work with peanuts and helping farmers rotate crops?",
+   "choices": [
+    "Thomas Edison",
+    "Louis Pasteur",
+    "Gregor Mendel",
+    "George Washington Carver"
+   ],
+   "answer": 3,
+   "fact": "Carver found hundreds of uses for peanuts and sweet potatoes."
+  },
+  {
+   "id": "science-1227",
+   "category": "Science",
+   "q": "What award, started by a Swedish inventor of dynamite, honors great scientists?",
+   "choices": [
+    "The Oscar",
+    "The Pulitzer Prize",
+    "The Fields Medal",
+    "The Nobel Prize"
+   ],
+   "answer": 3,
+   "fact": "Alfred Nobel left his fortune to create the prizes, first given in 1901."
+  },
+  {
+   "id": "science-1228",
+   "category": "Science",
+   "q": "Who was the first woman to win a Nobel Prize?",
+   "choices": [
+    "Rosalind Franklin",
+    "Marie Curie",
+    "Jane Goodall",
+    "Ada Lovelace"
+   ],
+   "answer": 1,
+   "fact": "Marie Curie won in 1903 for physics and again in 1911 for chemistry."
+  },
+  {
+   "id": "science-1229",
+   "category": "Science",
+   "q": "What is the opposite of a vacuum, where air is squeezed tightly together?",
+   "choices": [
+    "High pressure",
+    "Low pressure",
+    "Zero gravity",
+    "No temperature"
+   ],
+   "answer": 0,
+   "fact": "Car tires hold air at high pressure to support the car's weight."
+  },
+  {
+   "id": "science-1230",
+   "category": "Science",
+   "q": "What happens to the air pressure as you climb a tall mountain?",
+   "choices": [
+    "It goes up",
+    "It stays the same",
+    "It turns to liquid",
+    "It goes down"
+   ],
+   "answer": 3,
+   "fact": "That is why your ears pop on mountain roads and airplanes."
+  },
+  {
+   "id": "science-1231",
+   "category": "Science",
+   "q": "Why does a sealed bag of chips puff up when you take it up a mountain?",
+   "choices": [
+    "The air pressure outside is lower",
+    "The chips are growing",
+    "It gets warmer up high",
+    "Gravity is stronger up high"
+   ],
+   "answer": 0,
+   "fact": "The air inside the bag pushes out harder than the thinner air outside."
+  },
+  {
+   "id": "science-1232",
+   "category": "Science",
+   "q": "What is the name for how much water vapor is in the air?",
+   "choices": [
+    "Pressure",
+    "Density",
+    "Velocity",
+    "Humidity"
+   ],
+   "answer": 3,
+   "fact": "High humidity makes hot days feel even hotter because sweat evaporates slowly."
+  },
+  {
+   "id": "science-1233",
+   "category": "Science",
+   "q": "What is the scientific word for the temperature at which a liquid turns into a gas?",
+   "choices": [
+    "Melting point",
+    "Freezing point",
+    "Dew point",
+    "Boiling point"
+   ],
+   "answer": 3,
+   "fact": "Each pure substance has its own boiling point."
+  },
+  {
+   "id": "science-1234",
+   "category": "Science",
+   "q": "Why do people put salt on icy roads?",
+   "choices": [
+    "Salt heats the road",
+    "Salt makes tires stickier",
+    "Salt soaks up all the water",
+    "Salt lowers the temperature at which water freezes"
+   ],
+   "answer": 3,
+   "fact": "Salt water must get colder than fresh water to freeze."
+  },
+  {
+   "id": "science-1235",
+   "category": "Science",
+   "q": "What happens to most materials when they are heated?",
+   "choices": [
+    "They shrink",
+    "They expand",
+    "They get heavier",
+    "They become magnetic"
+   ],
+   "answer": 1,
+   "fact": "Bridges have gaps called expansion joints so they can grow in summer heat."
+  },
+  {
+   "id": "science-1236",
+   "category": "Science",
+   "q": "Which of these is a chemical change?",
+   "choices": [
+    "Melting ice",
+    "Burning wood",
+    "Cutting paper",
+    "Dissolving sugar"
+   ],
+   "answer": 1,
+   "fact": "In a chemical change, new substances are made that were not there before."
+  },
+  {
+   "id": "science-1237",
+   "category": "Science",
+   "q": "Which of these is a physical change?",
+   "choices": [
+    "Wood burning",
+    "Ice melting",
+    "A cake baking",
+    "Iron rusting"
+   ],
+   "answer": 1,
+   "fact": "In a physical change, the substance stays the same, it just changes form."
+  },
+  {
+   "id": "science-1238",
+   "category": "Science",
+   "q": "What gas do we need for fire to burn?",
+   "choices": [
+    "Nitrogen",
+    "Oxygen",
+    "Helium",
+    "Carbon dioxide"
+   ],
+   "answer": 1,
+   "fact": "A fire needs heat, fuel and oxygen, called the fire triangle."
+  },
+  {
+   "id": "science-1239",
+   "category": "Science",
+   "q": "Why do some fire extinguishers use carbon dioxide?",
+   "choices": [
+    "It cools fire with ice",
+    "It makes the fire explode",
+    "It pushes away the oxygen a fire needs",
+    "It turns fire into water"
+   ],
+   "answer": 2,
+   "fact": "Covering a small pan fire with a lid works the same way, by cutting off oxygen."
+  },
+  {
+   "id": "science-1240",
+   "category": "Science",
+   "q": "What gives fireworks their bright colors?",
+   "choices": [
+    "Paint on the rockets",
+    "Colored paper",
+    "Different metal compounds",
+    "Food coloring"
+   ],
+   "answer": 2,
+   "fact": "Strontium makes red, copper makes blue, and barium makes green."
+  },
+  {
+   "id": "science-1241",
+   "category": "Science",
+   "q": "Which element do all living things contain, making life carbon-based?",
+   "choices": [
+    "Iron",
+    "Carbon",
+    "Gold",
+    "Neon"
+   ],
+   "answer": 1,
+   "fact": "Carbon atoms can link together in chains and rings, making millions of different molecules."
+  },
+  {
+   "id": "science-1242",
+   "category": "Science",
+   "q": "What is the most common element in the human body by mass?",
+   "choices": [
+    "Carbon",
+    "Iron",
+    "Oxygen",
+    "Calcium"
+   ],
+   "answer": 2,
+   "fact": "Your body is mostly water, and oxygen makes up most of water's mass."
+  },
+  {
+   "id": "science-1243",
+   "category": "Science",
+   "q": "What is the most common element in the universe?",
+   "choices": [
+    "Oxygen",
+    "Carbon",
+    "Hydrogen",
+    "Helium"
+   ],
+   "answer": 2,
+   "fact": "About three quarters of all normal matter in the universe is hydrogen."
+  },
+  {
+   "id": "science-1244",
+   "category": "Science",
+   "q": "Which shiny metal never rusts or tarnishes and is often used in jewelry?",
+   "choices": [
+    "Iron",
+    "Copper",
+    "Silver",
+    "Gold"
+   ],
+   "answer": 3,
+   "fact": "Gold is so stretchy that one gram can be pulled into a wire more than 2 kilometers long."
+  },
+  {
+   "id": "science-1245",
+   "category": "Science",
+   "q": "What is an alloy?",
+   "choices": [
+    "A pure metal",
+    "A type of rock",
+    "A plastic",
+    "A mix of a metal with other elements"
+   ],
+   "answer": 3,
+   "fact": "Steel is an alloy made mostly of iron and a little carbon."
+  },
+  {
+   "id": "science-1246",
+   "category": "Science",
+   "q": "Which alloy is made from copper and tin?",
+   "choices": [
+    "Brass",
+    "Bronze",
+    "Steel",
+    "Pewter"
+   ],
+   "answer": 1,
+   "fact": "Bronze was so important that a whole period of human history is called the Bronze Age."
+  },
+  {
+   "id": "science-1247",
+   "category": "Science",
+   "q": "Which alloy is made from copper and zinc?",
+   "choices": [
+    "Brass",
+    "Bronze",
+    "Steel",
+    "Solder"
+   ],
+   "answer": 0,
+   "fact": "Many trumpets and trombones are made of brass."
+  },
+  {
+   "id": "science-1248",
+   "category": "Science",
+   "q": "Which metal is added to steel to make stainless steel that resists rust?",
+   "choices": [
+    "Chromium",
+    "Gold",
+    "Lead",
+    "Tin"
+   ],
+   "answer": 0,
+   "fact": "The chromium forms a thin invisible layer that protects the steel."
+  },
+  {
+   "id": "science-1249",
+   "category": "Science",
+   "q": "What are plastics mostly made from?",
+   "choices": [
+    "Sand",
+    "Trees",
+    "Oil and natural gas",
+    "Salt"
+   ],
+   "answer": 2,
+   "fact": "Most plastics take hundreds of years to break down."
+  },
+  {
+   "id": "science-1250",
+   "category": "Science",
+   "q": "What is glass mostly made from?",
+   "choices": [
+    "Sand",
+    "Ice",
+    "Plastic",
+    "Salt"
+   ],
+   "answer": 0,
+   "fact": "Sand is heated to over 1,500 degrees Celsius to melt it into glass."
+  },
+  {
+   "id": "science-1251",
+   "category": "Science",
+   "q": "Which natural material comes from the sap of rubber trees?",
+   "choices": [
+    "Plastic",
+    "Latex",
+    "Nylon",
+    "Wax"
+   ],
+   "answer": 1,
+   "fact": "Latex is made into natural rubber for things like balloons and gloves."
+  },
+  {
+   "id": "science-1252",
+   "category": "Science",
+   "q": "What is the name of the strong, stretchy material invented in 1935 and used for stockings and ropes?",
+   "choices": [
+    "Nylon",
+    "Cotton",
+    "Wool",
+    "Silk"
+   ],
+   "answer": 0,
+   "fact": "Nylon was the first fully synthetic fiber to become a big success."
+  },
+  {
+   "id": "science-1253",
+   "category": "Science",
+   "q": "What is the name for tiny pieces of plastic smaller than 5 millimeters?",
+   "choices": [
+    "Nanobeads",
+    "Plastic dust balls",
+    "Polymers",
+    "Microplastics"
+   ],
+   "answer": 3,
+   "fact": "Microplastics have been found from the deep ocean to mountaintops."
+  },
+  {
+   "id": "science-1254",
+   "category": "Science",
+   "q": "What is a magnet strongest at?",
+   "choices": [
+    "Its poles",
+    "Its middle",
+    "Its sides",
+    "Everywhere the same"
+   ],
+   "answer": 0,
+   "fact": "You can see this by sprinkling iron filings around a bar magnet."
+  },
+  {
+   "id": "science-1255",
+   "category": "Science",
+   "q": "Which metal is NOT attracted to a magnet?",
+   "choices": [
+    "Aluminum",
+    "Iron",
+    "Nickel",
+    "Cobalt"
+   ],
+   "answer": 0,
+   "fact": "That is why magnets do not stick to soda cans."
+  },
+  {
+   "id": "science-1256",
+   "category": "Science",
+   "q": "What is a lodestone?",
+   "choices": [
+    "A heavy gold rock",
+    "A glowing crystal",
+    "A type of coal",
+    "A natural magnetic rock"
+   ],
+   "answer": 3,
+   "fact": "People used lodestones to make the first compasses."
+  },
+  {
+   "id": "science-1257",
+   "category": "Science",
+   "q": "What simple viewer uses a tiny hole to safely project the Sun's image onto paper?",
+   "choices": [
+    "Pinhole projector",
+    "Telescope",
+    "Periscope",
+    "Prism"
+   ],
+   "answer": 0,
+   "fact": "A pinhole projector lets you see the Sun's image on a piece of paper."
+  },
+  {
+   "id": "science-1258",
+   "category": "Science",
+   "q": "What does a periscope use to let you see over things?",
+   "choices": [
+    "Magnets",
+    "Lenses only",
+    "Cameras",
+    "Mirrors"
+   ],
+   "answer": 3,
+   "fact": "Submarines used periscopes to look above the water while staying hidden."
+  },
+  {
+   "id": "science-1259",
+   "category": "Science",
+   "q": "What is the name for the study of sound?",
+   "choices": [
+    "Optics",
+    "Mechanics",
+    "Acoustics",
+    "Thermodynamics"
+   ],
+   "answer": 2,
+   "fact": "Concert halls are carefully designed using acoustics."
+  },
+  {
+   "id": "science-1260",
+   "category": "Science",
+   "q": "What is the study of light called?",
+   "choices": [
+    "Acoustics",
+    "Geology",
+    "Optics",
+    "Botany"
+   ],
+   "answer": 2,
+   "fact": "Glasses, cameras and microscopes all depend on optics."
+  },
+  {
+   "id": "science-1261",
+   "category": "Science",
+   "q": "What is the study of heat and energy called?",
+   "choices": [
+    "Hydraulics",
+    "Aerodynamics",
+    "Acoustics",
+    "Thermodynamics"
+   ],
+   "answer": 3,
+   "fact": "Thermo comes from the Greek word for heat."
+  },
+  {
+   "id": "science-1262",
+   "category": "Science",
+   "q": "What is the study of how air moves around objects, like airplane wings?",
+   "choices": [
+    "Hydraulics",
+    "Optics",
+    "Astronomy",
+    "Aerodynamics"
+   ],
+   "answer": 3,
+   "fact": "Race cars use aerodynamics to stay pressed down onto the track."
+  },
+  {
+   "id": "science-1263",
+   "category": "Science",
+   "q": "What helps an airplane wing create lift?",
+   "choices": [
+    "Magnets in the wing",
+    "Helium inside the wing",
+    "Its shape makes air push it upward",
+    "The engines pointing down"
+   ],
+   "answer": 2,
+   "fact": "The wing's shape and tilt turn the passing air downward, and the air pushes the wing up in return."
+  },
+  {
+   "id": "science-1264",
+   "category": "Science",
+   "q": "What do hydraulic machines, like car brakes and diggers, use to work?",
+   "choices": [
+    "Electric sparks",
+    "Compressed sand",
+    "Magnets",
+    "Liquid under pressure"
+   ],
+   "answer": 3,
+   "fact": "Liquids are hard to squeeze, so they pass a push along very well."
+  },
+  {
+   "id": "science-1265",
+   "category": "Science",
+   "q": "What is a chemical reaction that gives off heat called?",
+   "choices": [
+    "Exothermic",
+    "Endothermic",
+    "Electrolytic",
+    "Isometric"
+   ],
+   "answer": 0,
+   "fact": "Burning wood and hand warmers are exothermic reactions."
+  },
+  {
+   "id": "science-1266",
+   "category": "Science",
+   "q": "What is a chemical reaction that takes in heat and feels cold called?",
+   "choices": [
+    "Exothermic",
+    "Combustion",
+    "Endothermic",
+    "Oxidation"
+   ],
+   "answer": 2,
+   "fact": "Instant cold packs use endothermic reactions."
+  },
+  {
+   "id": "science-1267",
+   "category": "Science",
+   "q": "What is burning called in science?",
+   "choices": [
+    "Combustion",
+    "Condensation",
+    "Corrosion",
+    "Conduction"
+   ],
+   "answer": 0,
+   "fact": "Combustion needs fuel, oxygen and heat."
+  },
+  {
+   "id": "science-1268",
+   "category": "Science",
+   "q": "What is the gas that makes soda fizzy?",
+   "choices": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Helium",
+    "Hydrogen"
+   ],
+   "answer": 0,
+   "fact": "Soda is bottled under pressure to keep the carbon dioxide dissolved."
+  },
+  {
+   "id": "science-1269",
+   "category": "Science",
+   "q": "What is the name for the earthy smell of rain falling on dry ground?",
+   "choices": [
+    "Ozone",
+    "Humus",
+    "Pollen",
+    "Petrichor"
+   ],
+   "answer": 3,
+   "fact": "Part of the smell comes from a chemical made by bacteria in soil."
+  },
+  {
+   "id": "science-1270",
+   "category": "Science",
+   "q": "What do we call substances made of two or more elements chemically joined?",
+   "choices": [
+    "Mixtures",
+    "Compounds",
+    "Alloys only",
+    "Elements"
+   ],
+   "answer": 1,
+   "fact": "Water and table salt are both compounds."
+  },
+  {
+   "id": "science-1271",
+   "category": "Science",
+   "q": "What do you call particles in water that make it cloudy and settle over time?",
+   "choices": [
+    "A solution",
+    "An element",
+    "A gas",
+    "A suspension"
+   ],
+   "answer": 3,
+   "fact": "Muddy water is a suspension, so the mud slowly sinks to the bottom."
+  },
+  {
+   "id": "science-1272",
+   "category": "Science",
+   "q": "How do you separate salt from salt water?",
+   "choices": [
+    "Use a magnet",
+    "Evaporate the water",
+    "Filter it with paper",
+    "Freeze it quickly"
+   ],
+   "answer": 1,
+   "fact": "When the water evaporates, the salt crystals are left behind."
+  },
+  {
+   "id": "science-1273",
+   "category": "Science",
+   "q": "What can you use to separate iron filings from sand?",
+   "choices": [
+    "Water",
+    "A sieve only",
+    "A magnet",
+    "Heat"
+   ],
+   "answer": 2,
+   "fact": "The magnet pulls the iron and leaves the sand behind."
+  },
+  {
+   "id": "science-1274",
+   "category": "Science",
+   "q": "Which way of separating mixtures uses paper to separate colors in ink?",
+   "choices": [
+    "Chromatography",
+    "Distillation",
+    "Filtration",
+    "Magnetism"
+   ],
+   "answer": 0,
+   "fact": "Black marker ink often splits into several colors in chromatography."
+  },
+  {
+   "id": "science-1275",
+   "category": "Science",
+   "q": "What is the process of boiling a liquid and collecting the cooled vapor called?",
+   "choices": [
+    "Distillation",
+    "Filtration",
+    "Freezing",
+    "Melting"
+   ],
+   "answer": 0,
+   "fact": "Distillation can turn salty seawater into fresh drinking water."
+  },
+  {
+   "id": "science-1276",
+   "category": "Science",
+   "q": "What is the smallest unit of an element that still has its properties?",
+   "choices": [
+    "Cell",
+    "Molecule of salt",
+    "Atom",
+    "Grain"
+   ],
+   "answer": 2,
+   "fact": "It would take hundreds of thousands of atoms lined up in a row to cross the width of a human hair."
+  },
+  {
+   "id": "science-1277",
+   "category": "Science",
+   "q": "Which particles make up protons and neutrons?",
+   "choices": [
+    "Quarks",
+    "Electrons",
+    "Photons",
+    "Atoms"
+   ],
+   "answer": 0,
+   "fact": "The name quark came from a line in a novel by James Joyce."
+  },
+  {
+   "id": "science-1278",
+   "category": "Science",
+   "q": "What are tiny packets of light energy called?",
+   "choices": [
+    "Protons",
+    "Neutrons",
+    "Ions",
+    "Photons"
+   ],
+   "answer": 3,
+   "fact": "Photons have no mass and always travel at the speed of light."
+  },
+  {
+   "id": "science-1279",
+   "category": "Science",
+   "q": "What is the name of the huge particle accelerator under the border of France and Switzerland?",
+   "choices": [
+    "Big Atom Smasher",
+    "Great Proton Ring",
+    "Super Particle Tunnel",
+    "Large Hadron Collider"
+   ],
+   "answer": 3,
+   "fact": "Its main ring is about 27 kilometers around."
+  },
+  {
+   "id": "science-1280",
+   "category": "Science",
+   "q": "Which particle, sometimes called the God particle, was found at the Large Hadron Collider in 2012?",
+   "choices": [
+    "Higgs boson",
+    "Electron",
+    "Quark",
+    "Neutrino"
+   ],
+   "answer": 0,
+   "fact": "Peter Higgs predicted it back in 1964 and won a Nobel Prize in 2013."
+  },
+  {
+   "id": "science-1281",
+   "category": "Science",
+   "q": "What is the half-life of a radioactive substance?",
+   "choices": [
+    "Half its weight",
+    "Half its temperature",
+    "Half its size",
+    "The time for half of it to decay"
+   ],
+   "answer": 3,
+   "fact": "Carbon-14's half-life of about 5,730 years helps scientists date ancient things."
+  },
+  {
+   "id": "science-1282",
+   "category": "Science",
+   "q": "How do scientists find the age of old bones and wood from living things?",
+   "choices": [
+    "Counting their atoms by hand",
+    "Measuring their color",
+    "Weighing them",
+    "Carbon dating"
+   ],
+   "answer": 3,
+   "fact": "Carbon dating works for things up to about 50,000 years old."
+  },
+  {
+   "id": "science-1283",
+   "category": "Science",
+   "q": "What is the device that turns movement into electricity, used in power plants?",
+   "choices": [
+    "Motor",
+    "Generator",
+    "Battery",
+    "Transformer"
+   ],
+   "answer": 1,
+   "fact": "A motor does the opposite, turning electricity into movement."
+  },
+  {
+   "id": "science-1284",
+   "category": "Science",
+   "q": "What device changes electricity into motion in things like fans and toys?",
+   "choices": [
+    "Generator",
+    "Electric motor",
+    "Solar cell",
+    "Fuse"
+   ],
+   "answer": 1,
+   "fact": "Electric motors work using magnets and coils of wire."
+  },
+  {
+   "id": "science-1285",
+   "category": "Science",
+   "q": "What safety device in a home breaks a circuit when too much current flows?",
+   "choices": [
+    "Circuit breaker",
+    "Light switch",
+    "Power outlet",
+    "Doorbell"
+   ],
+   "answer": 0,
+   "fact": "Older homes used fuses, which melt to break the circuit."
+  },
+  {
+   "id": "science-1286",
+   "category": "Science",
+   "q": "Why should you never touch electrical outlets with wet hands?",
+   "choices": [
+    "Water damages the wall",
+    "It makes the lights flicker",
+    "Water helps electricity flow into your body",
+    "Water freezes the wires"
+   ],
+   "answer": 2,
+   "fact": "Pure water does not conduct well, but tap water has dissolved minerals that do."
+  },
+  {
+   "id": "science-1287",
+   "category": "Science",
+   "q": "What does a solar cell turn sunlight into?",
+   "choices": [
+    "Heat only",
+    "Water",
+    "Electricity",
+    "Wind"
+   ],
+   "answer": 2,
+   "fact": "Solar cells are mostly made from silicon."
+  },
+  {
+   "id": "science-1288",
+   "category": "Science",
+   "q": "What does a wind turbine turn into electricity?",
+   "choices": [
+    "Heat from the ground",
+    "The motion of the wind",
+    "Sunlight",
+    "Ocean salt"
+   ],
+   "answer": 1,
+   "fact": "Some wind turbine blades are more than 100 meters long."
+  },
+  {
+   "id": "science-1289",
+   "category": "Science",
+   "q": "What is the energy that comes from the rise and fall of the ocean called?",
+   "choices": [
+    "Solar energy",
+    "Geothermal energy",
+    "Tidal energy",
+    "Nuclear energy"
+   ],
+   "answer": 2,
+   "fact": "Tidal energy is very predictable because tides follow the Moon."
+  },
+  {
+   "id": "science-1290",
+   "category": "Science",
+   "q": "What are the three main fossil fuels?",
+   "choices": [
+    "Coal, oil and natural gas",
+    "Wood, wind and water",
+    "Uranium, solar and coal",
+    "Oil, sand and salt"
+   ],
+   "answer": 0,
+   "fact": "Burning fossil fuels releases carbon dioxide into the air."
+  },
+  {
+   "id": "science-1291",
+   "category": "Science",
+   "q": "What is the main gas in natural gas?",
+   "choices": [
+    "Oxygen",
+    "Helium",
+    "Methane",
+    "Carbon dioxide"
+   ],
+   "answer": 2,
+   "fact": "Gas companies add a smelly chemical so people can notice leaks, because methane has no smell."
+  },
+  {
+   "id": "science-1292",
+   "category": "Science",
+   "q": "What kind of energy does a stretched rubber band store?",
+   "choices": [
+    "Elastic potential energy",
+    "Sound energy",
+    "Nuclear energy",
+    "Light energy"
+   ],
+   "answer": 0,
+   "fact": "When you let go, the stored energy turns into motion."
+  },
+  {
+   "id": "science-1293",
+   "category": "Science",
+   "q": "What is a perpetual motion machine?",
+   "choices": [
+    "An impossible machine that would run forever without energy",
+    "A clock",
+    "A car engine",
+    "A wind turbine"
+   ],
+   "answer": 0,
+   "fact": "It breaks the laws of physics because some energy is always lost as heat."
+  },
+  {
+   "id": "science-1294",
+   "category": "Science",
+   "q": "What is the scientific study of weather called?",
+   "choices": [
+    "Geology",
+    "Astronomy",
+    "Botany",
+    "Meteorology"
+   ],
+   "answer": 3,
+   "fact": "Meteorologists use satellites, balloons and computers to forecast weather."
+  },
+  {
+   "id": "science-1295",
+   "category": "Science",
+   "q": "What do we call the temperature at which a solid melts?",
+   "choices": [
+    "Boiling point",
+    "Melting point",
+    "Dew point",
+    "Flash point"
+   ],
+   "answer": 1,
+   "fact": "Tungsten has the highest melting point of any metal, about 3,400 degrees Celsius."
+  },
+  {
+   "id": "science-1296",
+   "category": "Science",
+   "q": "Which state of matter has a fixed shape and fixed volume?",
+   "choices": [
+    "Liquid",
+    "Gas",
+    "Plasma",
+    "Solid"
+   ],
+   "answer": 3,
+   "fact": "The particles in a solid are packed tightly and only vibrate in place."
+  },
+  {
+   "id": "science-1297",
+   "category": "Science",
+   "q": "Which state of matter has no fixed shape but a fixed volume?",
+   "choices": [
+    "Solid",
+    "Gas",
+    "Liquid",
+    "Plasma"
+   ],
+   "answer": 2,
+   "fact": "A liquid takes the shape of whatever container it is in."
+  },
+  {
+   "id": "science-1298",
+   "category": "Science",
+   "q": "Which state of matter spreads out to fill any container?",
+   "choices": [
+    "Liquid",
+    "Gas",
+    "Solid",
+    "Crystal"
+   ],
+   "answer": 1,
+   "fact": "Gas particles move fast and spread far apart."
+  },
+  {
+   "id": "science-1299",
+   "category": "Science",
+   "q": "What is a non-Newtonian fluid, like cornstarch mixed with water?",
+   "choices": [
+    "A gas that turns to ice",
+    "A liquid lighter than air",
+    "A solid that glows",
+    "A liquid that acts like a solid when squeezed fast"
+   ],
+   "answer": 3,
+   "fact": "You can punch a pool of cornstarch slime and it feels hard, but your hand sinks if you push slowly."
+  },
+  {
+   "id": "science-1300",
+   "category": "Science",
+   "q": "What makes a boomerang come back?",
+   "choices": [
+    "Magnets",
+    "The shape of its spinning wings",
+    "A hidden string",
+    "The wind always blowing back"
+   ],
+   "answer": 1,
+   "fact": "A boomerang's arms work like spinning airplane wings that make it turn."
+  },
+  {
+   "id": "science-1301",
+   "category": "Science",
+   "q": "Which force keeps you from flying off a spinning merry-go-round?",
+   "choices": [
+    "Gravity",
+    "Centripetal force",
+    "Magnetism",
+    "Buoyancy"
+   ],
+   "answer": 1,
+   "fact": "Without that inward pull, you would move off in a straight line."
+  },
+  {
+   "id": "science-1302",
+   "category": "Science",
+   "q": "What is the name for the curved path of a thrown ball?",
+   "choices": [
+    "Orbit",
+    "Spiral",
+    "Trajectory",
+    "Radius"
+   ],
+   "answer": 2,
+   "fact": "Gravity pulls the ball down as it moves forward, curving its path."
+  },
+  {
+   "id": "science-1303",
+   "category": "Science",
+   "q": "What is inertia?",
+   "choices": [
+    "A type of energy",
+    "An object's resistance to changing its motion",
+    "A kind of magnet",
+    "A measure of heat"
+   ],
+   "answer": 1,
+   "fact": "Seat belts protect you because inertia keeps your body moving when a car stops suddenly."
+  },
+  {
+   "id": "science-1304",
+   "category": "Science",
+   "q": "What is momentum?",
+   "choices": [
+    "Mass multiplied by velocity",
+    "Weight multiplied by height",
+    "Energy divided by time",
+    "Speed of sound"
+   ],
+   "answer": 0,
+   "fact": "A slow, heavy truck can have more momentum than a fast bicycle."
+  },
+  {
+   "id": "science-1305",
+   "category": "Science",
+   "q": "What instrument measures the strength of electric current?",
+   "choices": [
+    "Thermometer",
+    "Barometer",
+    "Ammeter",
+    "Speedometer"
+   ],
+   "answer": 2,
+   "fact": "An ammeter measures current in amperes."
+  },
+  {
+   "id": "science-1306",
+   "category": "Science",
+   "q": "Which planet's name is also the name of an element on the periodic table?",
+   "choices": [
+    "Mars",
+    "Venus",
+    "Saturn",
+    "Mercury"
+   ],
+   "answer": 3,
+   "fact": "Uranium, neptunium and plutonium are named after planets and a dwarf planet too."
+  },
+  {
+   "id": "science-1307",
+   "category": "Science",
+   "q": "Which element is named after Albert Einstein?",
+   "choices": [
+    "Curium",
+    "Einsteinium",
+    "Nobelium",
+    "Fermium"
+   ],
+   "answer": 1,
+   "fact": "Einsteinium was first found in the debris of a hydrogen bomb test in 1952."
+  },
+  {
+   "id": "science-1308",
+   "category": "Science",
+   "q": "Which element is named after Marie Curie and Pierre Curie?",
+   "choices": [
+    "Curium",
+    "Polonium",
+    "Radium",
+    "Einsteinium"
+   ],
+   "answer": 0,
+   "fact": "Curium was first made in a lab in 1944."
+  },
+  {
+   "id": "science-1309",
+   "category": "Science",
+   "q": "What tiny living thing is yeast?",
+   "choices": [
+    "A fungus",
+    "A plant",
+    "An animal",
+    "A bacterium"
+   ],
+   "answer": 0,
+   "fact": "Yeast is a single-celled fungus that people have used for baking for thousands of years."
+  },
+  {
+   "id": "science-1310",
+   "category": "Science",
+   "q": "Why do cut apples turn brown?",
+   "choices": [
+    "Chemicals in the apple react with oxygen in the air",
+    "They start to rot instantly",
+    "Light burns them",
+    "Germs paint them"
+   ],
+   "answer": 0,
+   "fact": "Lemon juice slows the browning because its acid gets in the way of the reaction."
+  },
+  {
+   "id": "science-1311",
+   "category": "Science",
+   "q": "Why does popcorn pop?",
+   "choices": [
+    "Air inside explodes",
+    "Oil gets inside the kernel",
+    "Water inside the kernel turns to steam and bursts it",
+    "The shell melts"
+   ],
+   "answer": 2,
+   "fact": "The steam builds up pressure until the hard hull cracks open."
+  },
+  {
+   "id": "science-1312",
+   "category": "Science",
+   "q": "What happens to the particles of a substance when it is heated?",
+   "choices": [
+    "They stop moving",
+    "They move faster",
+    "They shrink",
+    "They disappear"
+   ],
+   "answer": 1,
+   "fact": "Temperature is really a measure of how fast particles are moving."
+  },
+  {
+   "id": "science-1313",
+   "category": "Science",
+   "q": "What is a crystal?",
+   "choices": [
+    "Any shiny rock",
+    "A frozen gas",
+    "A solid with atoms arranged in a repeating pattern",
+    "A type of glass"
+   ],
+   "answer": 2,
+   "fact": "Salt and sugar grains are tiny crystals."
+  },
+  {
+   "id": "science-1314",
+   "category": "Science",
+   "q": "What forms when water vapor freezes directly onto cold surfaces?",
+   "choices": [
+    "Dew",
+    "Frost",
+    "Rain",
+    "Hail"
+   ],
+   "answer": 1,
+   "fact": "Frost forms on clear, cold nights when surfaces get colder than freezing."
+  },
+  {
+   "id": "science-1315",
+   "category": "Science",
+   "q": "Which liquid has a higher boiling point, salt water or fresh water?",
+   "choices": [
+    "Fresh water",
+    "Salt water",
+    "They are exactly the same",
+    "Neither can boil"
+   ],
+   "answer": 1,
+   "fact": "Dissolved salt makes water boil at a slightly higher temperature."
+  },
+  {
+   "id": "science-1316",
+   "category": "Science",
+   "q": "What is sugar made of?",
+   "choices": [
+    "Sodium and chlorine",
+    "Carbon, hydrogen and oxygen",
+    "Iron and oxygen",
+    "Nitrogen only"
+   ],
+   "answer": 1,
+   "fact": "Table sugar's scientific name is sucrose."
+  },
+  {
+   "id": "science-1317",
+   "category": "Science",
+   "q": "What is the main gas in the bubbles when you boil water?",
+   "choices": [
+    "Oxygen",
+    "Carbon dioxide",
+    "Water vapor",
+    "Hydrogen"
+   ],
+   "answer": 2,
+   "fact": "The big bubbles in boiling water are pockets of steam."
+  },
+  {
+   "id": "science-1318",
+   "category": "Science",
+   "q": "What happens when you mix the primary paint colors red and blue?",
+   "choices": [
+    "Green",
+    "Purple",
+    "Orange",
+    "Brown"
+   ],
+   "answer": 1,
+   "fact": "Paints mix differently from light because they absorb colors instead of giving them off."
+  },
+  {
+   "id": "science-1319",
+   "category": "Science",
+   "q": "What color do you get by mixing red and green light?",
+   "choices": [
+    "Brown",
+    "Purple",
+    "Blue",
+    "Yellow"
+   ],
+   "answer": 3,
+   "fact": "This is how screens show yellow, by lighting red and green pixels together."
+  },
+  {
+   "id": "science-1320",
+   "category": "Science",
+   "q": "What color do you see when all colors of light are mixed together?",
+   "choices": [
+    "Black",
+    "Brown",
+    "Gray",
+    "White"
+   ],
+   "answer": 3,
+   "fact": "White light, like sunlight, is a mix of all the colors."
+  },
+  {
+   "id": "science-1321",
+   "category": "Science",
+   "q": "What color is an object that absorbs all colors of light?",
+   "choices": [
+    "White",
+    "Red",
+    "Black",
+    "Clear"
+   ],
+   "answer": 2,
+   "fact": "Black objects get hot in the sun because they absorb so much light."
+  },
+  {
+   "id": "science-1322",
+   "category": "Science",
+   "q": "What do you call a material that lets light pass straight through, like clear glass?",
+   "choices": [
+    "Opaque",
+    "Translucent",
+    "Reflective",
+    "Transparent"
+   ],
+   "answer": 3,
+   "fact": "Wax paper is translucent, letting some light through, and wood is opaque."
+  },
+  {
+   "id": "science-1323",
+   "category": "Science",
+   "q": "What do you call a material that blocks all light, like wood?",
+   "choices": [
+    "Transparent",
+    "Translucent",
+    "Opaque",
+    "Clear"
+   ],
+   "answer": 2,
+   "fact": "Shadows form when an opaque object blocks light."
+  },
+  {
+   "id": "science-1324",
+   "category": "Science",
+   "q": "What happens to your shadow as the Sun gets lower in the sky?",
+   "choices": [
+    "It gets shorter",
+    "It gets longer",
+    "It disappears",
+    "It turns colorful"
+   ],
+   "answer": 1,
+   "fact": "Your shadow is shortest around midday, when the Sun is highest."
+  },
+  {
+   "id": "science-1325",
+   "category": "Science",
+   "q": "Why does a spoon look bent in a glass of water?",
+   "choices": [
+    "The water melts the spoon",
+    "The glass is curved like a mirror",
+    "Light bends as it moves from water into air",
+    "Your eyes are tired"
+   ],
+   "answer": 2,
+   "fact": "This bending of light is called refraction."
+  },
+  {
+   "id": "science-1326",
+   "category": "Science",
+   "q": "What does a concave mirror, curved inward like a spoon, do to light?",
+   "choices": [
+    "Splits it into colors",
+    "Turns it off",
+    "Focuses it to a point",
+    "Changes it to sound"
+   ],
+   "answer": 2,
+   "fact": "Car headlights and big telescopes use curved mirrors."
+  },
+  {
+   "id": "science-1327",
+   "category": "Science",
+   "q": "Why do you see yourself upside down in the bowl of a shiny spoon?",
+   "choices": [
+    "The spoon is magnetic",
+    "Light travels backward",
+    "The curved surface flips the reflection",
+    "It is a trick of the metal"
+   ],
+   "answer": 2,
+   "fact": "On the back of the spoon, the curve bulges out and your reflection is right side up."
+  },
+  {
+   "id": "science-1328",
+   "category": "Science",
+   "q": "What tool can show the parts of an onion skin cell?",
+   "choices": [
+    "A microscope",
+    "A telescope",
+    "A magnet",
+    "A thermometer"
+   ],
+   "answer": 0,
+   "fact": "Iodine stain is often added to make the cell parts easier to see."
+  },
+  {
+   "id": "science-1329",
+   "category": "Science",
+   "q": "What is the jelly-like fluid that fills a cell called?",
+   "choices": [
+    "Cytoplasm",
+    "Nucleus",
+    "Membrane",
+    "Ribosome"
+   ],
+   "answer": 0,
+   "fact": "Many of the cell's chemical reactions happen in the cytoplasm."
+  },
+  {
+   "id": "science-1330",
+   "category": "Science",
+   "q": "What is the thin outer layer that controls what enters and leaves an animal cell?",
+   "choices": [
+    "Cell wall",
+    "Cell membrane",
+    "Nucleus",
+    "Vacuole"
+   ],
+   "answer": 1,
+   "fact": "The membrane lets some things in and keeps others out."
+  },
+  {
+   "id": "science-1331",
+   "category": "Science",
+   "q": "What large storage sac holds water in plant cells?",
+   "choices": [
+    "Nucleus",
+    "Chloroplast",
+    "Ribosome",
+    "Vacuole"
+   ],
+   "answer": 3,
+   "fact": "When a plant's vacuoles lose water, the plant wilts."
+  },
+  {
+   "id": "science-1332",
+   "category": "Science",
+   "q": "What is the process where one cell splits into two cells called?",
+   "choices": [
+    "Photosynthesis",
+    "Cell division",
+    "Digestion",
+    "Pollination"
+   ],
+   "answer": 1,
+   "fact": "Your body makes millions of new cells every second through cell division."
+  },
+  {
+   "id": "science-1333",
+   "category": "Science",
+   "q": "What do we call living things made of only one cell?",
+   "choices": [
+    "Unicellular",
+    "Multicellular",
+    "Vertebrate",
+    "Invertebrate"
+   ],
+   "answer": 0,
+   "fact": "Amoebas and most bacteria are unicellular."
+  },
+  {
+   "id": "science-1334",
+   "category": "Science",
+   "q": "Which tiny water creature moves by changing its shape and stretching out false feet?",
+   "choices": [
+    "Amoeba",
+    "Tadpole",
+    "Shrimp",
+    "Snail"
+   ],
+   "answer": 0,
+   "fact": "The amoeba's false feet are called pseudopods."
+  },
+  {
+   "id": "science-1335",
+   "category": "Science",
+   "q": "What do we call a group of similar cells working together, like muscle?",
+   "choices": [
+    "Organ",
+    "System",
+    "Organism",
+    "Tissue"
+   ],
+   "answer": 3,
+   "fact": "Tissues group together to make organs."
+  },
+  {
+   "id": "science-1336",
+   "category": "Science",
+   "q": "Which are the four groups of molecules that build all living things?",
+   "choices": [
+    "Sand, salt, water and air",
+    "Carbohydrates, fats, proteins and nucleic acids",
+    "Iron, gold, silver and copper",
+    "Oxygen, nitrogen, helium and neon"
+   ],
+   "answer": 1,
+   "fact": "Nucleic acids include DNA and RNA."
+  },
+  {
+   "id": "science-1337",
+   "category": "Science",
+   "q": "What does a seed need to start growing?",
+   "choices": [
+    "Darkness and salt",
+    "Only sunlight",
+    "Water, air and warmth",
+    "Only soil"
+   ],
+   "answer": 2,
+   "fact": "Most seeds do not need light to germinate, but the young plant soon needs light to grow."
+  },
+  {
+   "id": "science-1338",
+   "category": "Science",
+   "q": "What do roots, stems and leaves of a plant have inside to carry water?",
+   "choices": [
+    "Tubes called xylem",
+    "Blood vessels",
+    "Nerves",
+    "Air bags"
+   ],
+   "answer": 0,
+   "fact": "Another set of tubes, called phloem, carries sugar made in the leaves."
+  },
+  {
+   "id": "science-1339",
+   "category": "Science",
+   "q": "What is the female part of a flower that receives pollen?",
+   "choices": [
+    "Pistil",
+    "Stamen",
+    "Petal",
+    "Sepal"
+   ],
+   "answer": 0,
+   "fact": "The sticky top of the pistil, called the stigma, catches pollen grains."
+  },
+  {
+   "id": "science-1340",
+   "category": "Science",
+   "q": "What do flowers turn into after pollination?",
+   "choices": [
+    "Fruits with seeds",
+    "Roots",
+    "Leaves",
+    "Thorns"
+   ],
+   "answer": 0,
+   "fact": "Anything with seeds inside, like a tomato or a pumpkin, is a fruit to a scientist."
+  },
+  {
+   "id": "science-1341",
+   "category": "Science",
+   "q": "Why do sunflowers turn to face the Sun when they are young?",
+   "choices": [
+    "To catch more sunlight",
+    "To stay cool",
+    "To scare birds",
+    "To find water"
+   ],
+   "answer": 0,
+   "fact": "Grown-up sunflowers usually stop moving and face east."
+  },
+  {
+   "id": "science-1342",
+   "category": "Science",
+   "q": "What is a plant's growth toward light called?",
+   "choices": [
+    "Photosynthesis",
+    "Germination",
+    "Phototropism",
+    "Hibernation"
+   ],
+   "answer": 2,
+   "fact": "Houseplants on a windowsill often lean toward the window."
+  },
+  {
+   "id": "science-1343",
+   "category": "Science",
+   "q": "Which part of a plant holds it up and carries water to the leaves?",
+   "choices": [
+    "Stem",
+    "Root hair",
+    "Flower",
+    "Seed"
+   ],
+   "answer": 0,
+   "fact": "Tree trunks are big, woody stems."
+  },
+  {
+   "id": "science-1344",
+   "category": "Science",
+   "q": "Which plants reproduce with spores instead of seeds?",
+   "choices": [
+    "Sunflowers",
+    "Ferns",
+    "Apple trees",
+    "Grasses"
+   ],
+   "answer": 1,
+   "fact": "Look under a fern's leaves for brown spots, which hold the spores."
+  },
+  {
+   "id": "science-1345",
+   "category": "Science",
+   "q": "What do plants need from soil besides water?",
+   "choices": [
+    "Sugar",
+    "Minerals like nitrogen",
+    "Oxygen only",
+    "Salt water"
+   ],
+   "answer": 1,
+   "fact": "Fertilizers add minerals like nitrogen, phosphorus and potassium to soil."
+  },
+  {
+   "id": "science-1346",
+   "category": "Science",
+   "q": "What are the long-lasting traces of a living thing preserved in rock studied in science called?",
+   "choices": [
+    "Crystals",
+    "Minerals",
+    "Fossils",
+    "Gems"
+   ],
+   "answer": 2,
+   "fact": "Most fossils form when a living thing is buried quickly in mud or sand."
+  },
+  {
+   "id": "science-1347",
+   "category": "Science",
+   "q": "What do we call a change in a gene that can create a new trait?",
+   "choices": [
+    "Migration",
+    "Evolution",
+    "Mutation",
+    "Adaptation"
+   ],
+   "answer": 2,
+   "fact": "Most mutations are tiny and have no effect, but some lead to new features over many generations."
+  },
+  {
+   "id": "science-1348",
+   "category": "Science",
+   "q": "What is it called when a living thing has a body part or behavior that helps it survive?",
+   "choices": [
+    "Adaptation",
+    "Mutation",
+    "Extinction",
+    "Migration"
+   ],
+   "answer": 0,
+   "fact": "A polar bear's thick fur is an adaptation to the cold."
+  },
+  {
+   "id": "science-1349",
+   "category": "Science",
+   "q": "What is a clone?",
+   "choices": [
+    "A living thing with the exact same DNA as another",
+    "A robot copy",
+    "A type of cell wall",
+    "A fossil"
+   ],
+   "answer": 0,
+   "fact": "Dolly the sheep, born in 1996, was the first mammal cloned from an adult cell."
+  },
+  {
+   "id": "science-1350",
+   "category": "Science",
+   "q": "What is the name of the first mammal cloned from an adult cell, born in 1996?",
+   "choices": [
+    "Molly the cow",
+    "Dolly the sheep",
+    "Polly the pig",
+    "Holly the goat"
+   ],
+   "answer": 1,
+   "fact": "Dolly was named after the singer Dolly Parton."
+  },
+  {
+   "id": "science-1351",
+   "category": "Science",
+   "q": "What do we call the study of how traits are passed from parents to children?",
+   "choices": [
+    "Geology",
+    "Genetics",
+    "Ecology",
+    "Astronomy"
+   ],
+   "answer": 1,
+   "fact": "Traits like dimples and freckles can run in families."
+  },
+  {
+   "id": "science-1352",
+   "category": "Science",
+   "q": "What do we call germs that cause disease?",
+   "choices": [
+    "Antibodies",
+    "Pathogens",
+    "Vitamins",
+    "Enzymes"
+   ],
+   "answer": 1,
+   "fact": "Bacteria, viruses, fungi and parasites can all be pathogens."
+  },
+  {
+   "id": "science-1353",
+   "category": "Science",
+   "q": "Why should you wash your hands with soap?",
+   "choices": [
+    "Soap kills all germs instantly",
+    "Soap makes your hands waterproof",
+    "Soap breaks up oils and lifts germs away",
+    "Soap adds good bacteria"
+   ],
+   "answer": 2,
+   "fact": "Scrubbing for at least 20 seconds helps remove germs."
+  },
+  {
+   "id": "science-1354",
+   "category": "Science",
+   "q": "What is the tiny eight-legged creature that lives in pillows and eats dead skin flakes?",
+   "choices": [
+    "Flea",
+    "Tick",
+    "Bedbug",
+    "Dust mite"
+   ],
+   "answer": 3,
+   "fact": "Dust mites are too small to see without a microscope."
+  },
+  {
+   "id": "science-1355",
+   "category": "Science",
+   "q": "What do we call bacteria that live in your gut and help you digest food?",
+   "choices": [
+    "Viruses",
+    "Gut microbes",
+    "Parasites",
+    "Antibiotics"
+   ],
+   "answer": 1,
+   "fact": "Your gut is home to trillions of microbes."
+  },
+  {
+   "id": "science-1356",
+   "category": "Science",
+   "q": "Which organism glows in some ocean waves at night, making the water sparkle blue?",
+   "choices": [
+    "Glowing sharks",
+    "Plankton called dinoflagellates",
+    "Jellyfish only",
+    "Electric eels"
+   ],
+   "answer": 1,
+   "fact": "When waves stir them, these tiny organisms flash blue light."
+  },
+  {
+   "id": "science-1357",
+   "category": "Science",
+   "q": "What is bioluminescence?",
+   "choices": [
+    "Light from the Moon",
+    "Glow-in-the-dark paint",
+    "Light reflected by water",
+    "Light made by living things"
+   ],
+   "answer": 3,
+   "fact": "Fireflies, anglerfish and some mushrooms are bioluminescent."
+  },
+  {
+   "id": "science-1358",
+   "category": "Science",
+   "q": "What do we call a scientist who studies the chemicals in living things?",
+   "choices": [
+    "Geologist",
+    "Astronomer",
+    "Meteorologist",
+    "Biochemist"
+   ],
+   "answer": 3,
+   "fact": "Biochemists helped discover how medicines work inside the body."
+  },
+  {
+   "id": "science-1359",
+   "category": "Science",
+   "q": "What does a seismograph measure?",
+   "choices": [
+    "Wind speed",
+    "Earthquake shaking",
+    "Sunlight",
+    "Rainfall"
+   ],
+   "answer": 1,
+   "fact": "It draws wiggly lines that show how strong the shaking was."
+  },
+  {
+   "id": "science-1360",
+   "category": "Science",
+   "q": "What is a hypothesis called once it has been tested many times and explains lots of facts?",
+   "choices": [
+    "A guess",
+    "A scientific theory",
+    "A rumor",
+    "An opinion"
+   ],
+   "answer": 1,
+   "fact": "In science, a theory is a well-tested explanation, not just a hunch."
+  },
+  {
+   "id": "science-1361",
+   "category": "Science",
+   "q": "Which of these is NOT a renewable resource?",
+   "choices": [
+    "Sunlight",
+    "Wind",
+    "Coal",
+    "Trees"
+   ],
+   "answer": 2,
+   "fact": "Coal takes millions of years to form, so we use it much faster than nature can replace it."
+  },
+  {
+   "id": "science-1362",
+   "category": "Science",
+   "q": "What does recycling aluminum cans save compared with making new aluminum?",
+   "choices": [
+    "None of the energy",
+    "About 5 percent of the energy",
+    "Twice the energy",
+    "About 95 percent of the energy"
+   ],
+   "answer": 3,
+   "fact": "A recycled can can be back on a store shelf in about two months."
+  },
+  {
+   "id": "science-1363",
+   "category": "Science",
+   "q": "What is the greenhouse effect?",
+   "choices": [
+    "Plants growing faster in glass houses",
+    "Gases in the air trapping heat near Earth's surface",
+    "Sunlight turning green",
+    "The ozone hole"
+   ],
+   "answer": 1,
+   "fact": "Without any greenhouse effect, Earth would be too cold for most life."
+  },
+  {
+   "id": "science-1364",
+   "category": "Science",
+   "q": "Which gas from burning fuels is the main cause of recent global warming?",
+   "choices": [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon dioxide",
+    "Helium"
+   ],
+   "answer": 2,
+   "fact": "As of 2025, carbon dioxide levels in the air are higher than at any time in human history."
+  },
+  {
+   "id": "science-1365",
+   "category": "Science",
+   "q": "Which gas, produced by cows burping, is a strong greenhouse gas?",
+   "choices": [
+    "Oxygen",
+    "Methane",
+    "Helium",
+    "Nitrogen"
+   ],
+   "answer": 1,
+   "fact": "Methane traps much more heat than carbon dioxide, though it stays in the air for less time."
+  },
+  {
+   "id": "science-1366",
+   "category": "Science",
+   "q": "Which scientist suggested that heavier objects do not fall faster than lighter ones, against what Aristotle taught?",
+   "choices": [
+    "Isaac Newton",
+    "Albert Einstein",
+    "Archimedes",
+    "Galileo Galilei"
+   ],
+   "answer": 3,
+   "fact": "Aristotle had taught that heavy objects fall faster, and people believed it for nearly 2,000 years."
+  },
+  {
+   "id": "science-1367",
+   "category": "Science",
+   "q": "Who explained in a 1687 book that the gravity that makes apples fall also keeps the Moon in orbit?",
+   "choices": [
+    "Galileo Galilei",
+    "Albert Einstein",
+    "Nicolaus Copernicus",
+    "Isaac Newton"
+   ],
+   "answer": 3,
+   "fact": "The book is often called the Principia."
+  },
+  {
+   "id": "science-1368",
+   "category": "Science",
+   "q": "Whose improvements to the steam engine helped power the Industrial Revolution?",
+   "choices": [
+    "James Watt",
+    "Thomas Edison",
+    "Henry Ford",
+    "George Stephenson"
+   ],
+   "answer": 0,
+   "fact": "The unit of power, the watt, is named after him."
+  },
+  {
+   "id": "science-1369",
+   "category": "Science",
+   "q": "Which inventor sent the first radio signals across the Atlantic Ocean in 1901?",
+   "choices": [
+    "Alexander Graham Bell",
+    "Thomas Edison",
+    "Guglielmo Marconi",
+    "Samuel Morse"
+   ],
+   "answer": 2,
+   "fact": "Marconi shared the 1909 Nobel Prize in Physics."
+  },
+  {
+   "id": "science-1370",
+   "category": "Science",
+   "q": "Who invented the code of dots and dashes used to send telegraph messages?",
+   "choices": [
+    "Alexander Graham Bell",
+    "Thomas Edison",
+    "Louis Braille",
+    "Samuel Morse"
+   ],
+   "answer": 3,
+   "fact": "In Morse code, SOS is three dots, three dashes and three dots."
+  },
+  {
+   "id": "science-1371",
+   "category": "Science",
+   "q": "Who invented dynamite in 1867?",
+   "choices": [
+    "Thomas Edison",
+    "Marie Curie",
+    "James Watt",
+    "Alfred Nobel"
+   ],
+   "answer": 3,
+   "fact": "Nobel used his fortune to create the Nobel Prizes."
+  },
+  {
+   "id": "science-1372",
+   "category": "Science",
+   "q": "Which scientist came up with a famous thought experiment about a cat in a box?",
+   "choices": [
+    "Albert Einstein",
+    "Isaac Newton",
+    "Niels Bohr",
+    "Erwin Schrödinger"
+   ],
+   "answer": 3,
+   "fact": "The thought experiment was meant to show how strange quantum physics seems."
+  },
+  {
+   "id": "science-1373",
+   "category": "Science",
+   "q": "What branch of physics studies the behavior of super tiny things like atoms and electrons?",
+   "choices": [
+    "Quantum physics",
+    "Astronomy",
+    "Geology",
+    "Acoustics"
+   ],
+   "answer": 0,
+   "fact": "In quantum physics, particles can act like waves."
+  },
+  {
+   "id": "science-1374",
+   "category": "Science",
+   "q": "What is the name for a scientist's careful record of what they see during an experiment?",
+   "choices": [
+    "Predictions",
+    "Observations",
+    "Opinions",
+    "Guesses"
+   ],
+   "answer": 1,
+   "fact": "Good scientists write down everything, even results they did not expect."
+  },
+  {
+   "id": "science-1375",
+   "category": "Science",
+   "q": "Why do scientists repeat experiments?",
+   "choices": [
+    "Because they forgot the answer",
+    "To make sure the results are reliable",
+    "To use up supplies",
+    "Because it is the law"
+   ],
+   "answer": 1,
+   "fact": "If others can repeat an experiment and get the same result, it is much more trustworthy."
+  },
+  {
+   "id": "science-1376",
+   "category": "Science",
+   "q": "What do we call the amount of space something takes up?",
+   "choices": [
+    "Volume",
+    "Mass",
+    "Density",
+    "Weight"
+   ],
+   "answer": 0,
+   "fact": "You can find the volume of an odd-shaped rock by seeing how much water it pushes up in a measuring cup."
+  },
+  {
+   "id": "science-1377",
+   "category": "Science",
+   "q": "What does a kilogram measure?",
+   "choices": [
+    "Length",
+    "Mass",
+    "Volume",
+    "Time"
+   ],
+   "answer": 1,
+   "fact": "Since 2019, the kilogram has been defined using a number from physics instead of a metal cylinder kept in France."
+  },
+  {
+   "id": "science-1378",
+   "category": "Science",
+   "q": "What is the metric prefix that means one thousand, as in kilometer?",
+   "choices": [
+    "Milli",
+    "Centi",
+    "Mega",
+    "Kilo"
+   ],
+   "answer": 3,
+   "fact": "Milli means one thousandth, so a millimeter is a thousandth of a meter."
+  },
+  {
+   "id": "science-1379",
+   "category": "Science",
+   "q": "Which metric prefix means one millionth?",
+   "choices": [
+    "Mega",
+    "Micro",
+    "Kilo",
+    "Centi"
+   ],
+   "answer": 1,
+   "fact": "A micrometer is a millionth of a meter, about the size of some bacteria."
+  },
+  {
+   "id": "science-1380",
+   "category": "Science",
+   "q": "What is the name of the tiny unit used to measure atoms and very small things, a billionth of a meter?",
+   "choices": [
+    "Kilometer",
+    "Centimeter",
+    "Nanometer",
+    "Light-year"
+   ],
+   "answer": 2,
+   "fact": "Your fingernails grow about one nanometer every second."
+  },
+  {
+   "id": "science-1381",
+   "category": "Science",
+   "q": "Which element is a soft metal that explodes when dropped in water?",
+   "choices": [
+    "Gold",
+    "Iron",
+    "Sodium",
+    "Copper"
+   ],
+   "answer": 2,
+   "fact": "Sodium is stored under oil to keep it away from water and air."
+  },
+  {
+   "id": "science-1382",
+   "category": "Science",
+   "q": "Which gas is lighter than helium but very flammable?",
+   "choices": [
+    "Neon",
+    "Argon",
+    "Hydrogen",
+    "Carbon dioxide"
+   ],
+   "answer": 2,
+   "fact": "The airship Hindenburg was filled with hydrogen and burned in 1937."
+  },
+  {
+   "id": "science-1383",
+   "category": "Science",
+   "q": "What gas did early airships like the Hindenburg use to float?",
+   "choices": [
+    "Helium",
+    "Oxygen",
+    "Hydrogen",
+    "Neon"
+   ],
+   "answer": 2,
+   "fact": "Modern blimps use helium instead, because it does not burn."
+  },
+  {
+   "id": "science-1384",
+   "category": "Science",
+   "q": "Which element is a yellow solid that smells like rotten eggs when it burns or reacts?",
+   "choices": [
+    "Carbon",
+    "Iodine",
+    "Phosphorus",
+    "Sulfur"
+   ],
+   "answer": 3,
+   "fact": "Rotten eggs smell because they give off a gas made of sulfur and hydrogen."
+  },
+  {
+   "id": "science-1385",
+   "category": "Science",
+   "q": "Which element glows in the dark and was discovered in urine in 1669?",
+   "choices": [
+    "Sulfur",
+    "Uranium",
+    "Phosphorus",
+    "Neon"
+   ],
+   "answer": 2,
+   "fact": "Hennig Brand found it while trying to make gold."
+  },
+  {
+   "id": "science-1386",
+   "category": "Science",
+   "q": "Which radioactive element is used as fuel in most nuclear power plants?",
+   "choices": [
+    "Iron",
+    "Helium",
+    "Calcium",
+    "Uranium"
+   ],
+   "answer": 3,
+   "fact": "A small pellet of uranium fuel can make as much energy as about a ton of coal."
+  },
+  {
+   "id": "science-1387",
+   "category": "Science",
+   "q": "Which element is added to toothpaste to help prevent tooth decay?",
+   "choices": [
+    "Chlorine",
+    "Fluorine",
+    "Iron",
+    "Neon"
+   ],
+   "answer": 1,
+   "fact": "It is added as fluoride, which makes tooth enamel stronger."
+  },
+  {
+   "id": "science-1388",
+   "category": "Science",
+   "q": "Which element is used in many rechargeable batteries in phones and laptops?",
+   "choices": [
+    "Lead",
+    "Lithium",
+    "Gold",
+    "Neon"
+   ],
+   "answer": 1,
+   "fact": "Lithium is the lightest metal of all."
+  },
+  {
+   "id": "science-1389",
+   "category": "Science",
+   "q": "Which is the heaviest naturally common element of these?",
+   "choices": [
+    "Iron",
+    "Lead",
+    "Uranium",
+    "Gold"
+   ],
+   "answer": 2,
+   "fact": "Uranium has 92 protons in each atom."
+  },
+  {
+   "id": "science-1390",
+   "category": "Science",
+   "q": "What is the densest naturally occurring element?",
+   "choices": [
+    "Osmium",
+    "Gold",
+    "Lead",
+    "Iron"
+   ],
+   "answer": 0,
+   "fact": "A small ball of osmium is about twice as heavy as the same size ball of lead."
+  },
+  {
+   "id": "science-1391",
+   "category": "Science",
+   "q": "How do scientists name new elements?",
+   "choices": [
+    "After the year they were found",
+    "With random letters",
+    "After places, scientists, myths or properties",
+    "After animals only"
+   ],
+   "answer": 2,
+   "fact": "The International Union of Pure and Applied Chemistry approves the names."
+  },
+  {
+   "id": "science-1392",
+   "category": "Science",
+   "q": "What are the gases in the far right column of the periodic table called?",
+   "choices": [
+    "Rare earths",
+    "Alkali metals",
+    "Noble gases",
+    "Halogens"
+   ],
+   "answer": 2,
+   "fact": "Noble gases hardly react with anything."
+  },
+  {
+   "id": "science-1393",
+   "category": "Science",
+   "q": "What are the very reactive metals in the first column of the periodic table called?",
+   "choices": [
+    "Alkali metals",
+    "Noble gases",
+    "Halogens",
+    "Metalloids"
+   ],
+   "answer": 0,
+   "fact": "The farther down the column you go, the more violently they react with water."
+  }
+ ]
+}

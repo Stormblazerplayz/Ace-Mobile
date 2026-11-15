@@ -68,7 +68,7 @@ final class ScriptLibraryTests: XCTestCase {
     func testOtherQuestionsAreNotScripts() {
         for text in ["what is lua", "what is coding", "what is c++", "what is roblox studio", "what is a computer program",
                      "california postal code", "set a timer for 5 minutes", "turn on the lamp", "make it spicier",
-                     "write me a python script", "give me code for a website", "what is the code for wifi", "how do i code"] {
+                     "give me code for a website", "what is the code for wifi", "how do i code"] {
             XCTAssertNotEqual(IntentRouter.parse(text)?.kind, "script", text)
         }
     }
@@ -82,6 +82,9 @@ final class ScriptLibraryTests: XCTestCase {
         XCTAssertEqual(ScriptLibrary.needsOne("can you write me a roblox script"), "Lua")
         XCTAssertEqual(ScriptLibrary.needsOne("i need a c++ program"), "C++")
         XCTAssertNil(ScriptLibrary.needsOne("give me a jump pad script"))
+        XCTAssertEqual(ScriptLibrary.needsOne("write me a python script"), "Python")
+        XCTAssertEqual(ScriptLibrary.needsOne("give me a swift program"), "Swift")
+        XCTAssertEqual(ScriptLibrary.listAsk("show me your python scripts"), "Python")
         for text in ["what scripts do you have", "give me a script", "show me your c++ code"] {
             XCTAssertEqual(IntentRouter.parse(text)?.kind, "script", text)
         }

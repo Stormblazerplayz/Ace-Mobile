@@ -1,0 +1,70 @@
+# tag: pets.cats.food
+what foods are poisonous to cats | what can cats not eat | foods bad for cats => Keep onions, garlic, chocolate, grapes and raisins, alcohol, caffeine, raw dough and xylitol away from cats. Lilies are also extremely poisonous to cats.
+are lilies poisonous to cats | why are lilies dangerous for cats => Yes, very. Eating even a tiny bit of a lily, or licking the pollen off their fur, can cause deadly kidney failure in cats. Call a vet right away if a cat touches one.
+can cats drink milk | is milk bad for cats => Most adult cats can't digest milk well and may get diarrhea. Water is what they need. Special cat milk is okay as a rare treat.
+can i feed my cat dog food | why cant cats live on dog food => Cats shouldn't live on dog food. They need more protein and a nutrient called taurine, which dog food doesn't have enough of.
+what is taurine for cats | why do cats need meat => Cats are obligate carnivores, meaning they must eat meat. Meat gives them taurine, which they need for healthy eyes and hearts.
+can cats eat tuna | is tuna good for cats => A little tuna as a treat is okay, but too much isn't balanced and has a lot of mercury. Choose tuna in water, not oil or salty brine.
+can cats eat chocolate | is chocolate bad for cats => No. Chocolate is toxic to cats just like dogs, though cats rarely want it because they can't taste sweet things.
+can cats taste sweet things | why dont cats like sweets => Cats can't taste sweetness. They're missing a working gene for the sweet taste sensor, probably because they only eat meat.
+can cats eat cheese | can cats eat eggs => A tiny bit of cheese or a cooked egg is okay as a rare treat. Avoid raw eggs and too much dairy.
+how often should i feed my cat | how many times a day do cats eat => Most adult cats do well with two meals a day. Kittens need about 3 to 4 small meals a day.
+how much water should a cat drink | why doesnt my cat drink water => Cats often don't drink much, since their wild ancestors got water from prey. Wet food helps, and some cats prefer running water from a fountain.
+why does my cat eat grass | is it ok for cats to eat grass => Many cats nibble grass, which may help them bring up hairballs or just add fiber. Cat grass from a pet store is a safe choice. Watch out for toxic houseplants.
+what plants are toxic to cats | what houseplants are bad for cats => Lilies are the worst. Others that can harm cats include pothos, aloe, sago palm, philodendron, tulips and daffodils. Check before bringing a plant home.
+
+# tag: pets.cats.care
+why is my cat peeing outside the litter box | why wont my cat use the litter box => It could be a dirty box, a box in a bad spot, stress, or a health problem like a bladder infection. Since it can be medical, have a vet check.
+do cats need baths | how often should you bathe a cat => Most cats keep themselves clean and rarely need baths. Some long-haired cats need help with brushing to stop mats.
+how often should i brush my cat | do cats need to be brushed => Short-haired cats can be brushed about once a week. Long-haired cats may need brushing every day to stop tangles and hairballs.
+what are hairballs | why do cats throw up hairballs => Cats swallow loose fur when they lick themselves, and some of it clumps into a hairball they cough up. Brushing helps, and frequent hairballs need a vet check.
+should my cat be indoor or outdoor | is it better to keep cats inside => Indoor cats usually live longer because they're safe from cars, fights, disease and predators. Outdoor cats also hunt lots of birds. Indoor cats need play to stay happy.
+why does my cat scratch furniture | how do i stop my cat scratching the couch => Scratching keeps claws healthy, stretches muscles and leaves scent marks. Give your cat sturdy scratching posts near its favorite spots and reward it for using them.
+what is declawing | is declawing bad for cats => Declawing is surgery that removes the last bone of each toe, not just the claw. It's painful and banned in many places, and vets recommend scratching posts and nail trims instead.
+how do i trim my cats nails | how to cut cat claws => Gently press a paw to push the claws out and clip only the sharp clear tip, avoiding the pink part inside. Do a few at a time and give treats. Ask an adult or vet to show you.
+how often should a cat go to the vet | does my cat need a yearly checkup => Healthy adult cats should see a vet about once a year. Kittens and older cats need more visits.
+how can i tell if my cat is sick | do cats hide pain => Cats are experts at hiding pain. Signs include hiding, not eating, changes in the litter box, vomiting, hunching or being unusually grumpy. Tell an adult and call the vet.
+what shots do cats need | do indoor cats need vaccines => Cats need core vaccines against diseases like rabies, feline distemper and cat flu viruses. Even indoor cats need some, since germs can come in on shoes.
+how do i keep my cat entertained | how much should i play with my cat => Play with your cat for a couple of short sessions a day with wand toys, balls or crinkly toys. Cats like hunting games and high places to climb.
+how do i introduce a new cat to my cat | how do i get two cats to get along => Keep the new cat in a separate room at first and swap bedding so they learn each other's smell. Then let them see each other slowly over days or weeks.
+
+# tag: pets.cats.behavior
+why do cats knead | why does my cat make biscuits => Kneading comes from kittenhood, when kittens push on their mother to get milk. Adult cats knead when they feel happy and safe.
+why do cats bring dead animals home | why does my cat bring me mice => Cats bring prey home because hunting is an instinct and home feels safe. Some experts think they're sharing or treating you like a clumsy family member.
+why do cats sleep so much | how many hours do cats sleep => Cats sleep about 12 to 16 hours a day. In the wild they burn lots of energy hunting, so they rest a lot in between.
+why do cats hate water | can cats swim => Most cats dislike getting wet because soaked fur gets heavy and cold. Cats can swim, and a few breeds like the Turkish Van actually enjoy water.
+why do cats like boxes | why does my cat sit in boxes => Boxes feel safe and cozy. A cat can hide, watch and pounce from inside, and cardboard holds warmth.
+why do cats have whiskers | what are cat whiskers for => Whiskers are super-sensitive hairs that feel tiny air movements and help cats sense things in the dark and judge if they'll fit through gaps. Never trim them.
+why do cats meow | do cats meow at each other => Adult cats rarely meow at each other. They mostly meow to talk to people, asking for food, attention or to be let out.
+why do cats hiss | what does it mean when a cat hisses => Hissing means a cat is scared or upset and wants you to back off. Give it space instead of reaching for it.
+what does a slow blink from a cat mean | how do cats say i love you => A slow blink is a sign of trust and relaxation. Try slowly blinking back, and many cats will blink again.
+what does a cats tail mean | cat tail language => A tail held straight up usually means friendly and happy. A puffed tail means scared, and a lashing or thumping tail means annoyed.
+why do cats have slit pupils | why are cat pupils vertical => Vertical slit pupils can open very wide in the dark and close very small in bright light. They also help ambush hunters judge distance.
+are cats nocturnal | when are cats most active => Cats aren't fully nocturnal. They're most active at dawn and dusk, which is called crepuscular.
+why do cats chase lasers | is a laser pointer bad for cats => Lasers trigger a cat's hunting instinct. End play by letting them "catch" a real toy, so they don't get frustrated, and never shine it in their eyes.
+why does my cat sit on my laptop | why do cats sit on keyboards => Laptops are warm, and sitting there gets your attention. Some cats also just want to be close to you.
+what is catnip | why do cats go crazy for catnip => Catnip is a plant in the mint family. Its oil makes many cats roll, rub and act silly for about 10 minutes. Around a third of cats don't react at all, and it's harmless.
+why do cats rub against you | why does my cat rub its face on me => Cats have scent glands on their cheeks. Rubbing on you marks you as part of their family, which is a compliment.
+why does my cat bite me when i pet it | why does my cat attack my hand => Some cats get overstimulated when petted too long. Watch for a twitching tail or flattened ears, and stop before they bite.
+why do cats knock things off tables | why does my cat push stuff off the counter => Cats bat things to test them, to play like they're hunting, or because they've learned it gets your attention.
+why does my cat stare at me | why is my cat watching me => Cats stare to get your attention, watch what you're doing or because they want food. A soft stare with slow blinks means they're relaxed.
+
+# tag: pets.cats.facts
+how do cat years work | how old is my cat in human years => A cat's first year is like about 15 human years, and by age 2 a cat is like a 24-year-old. After that, each cat year is roughly 4 human years.
+how many teeth do cats have | do kittens lose baby teeth => Adult cats have 30 teeth, and kittens have 26 baby teeth that fall out by about 6 months old.
+how high can cats jump | how far can a cat jump => A healthy cat can jump about 5 to 6 times its own height, around 1.5 to 1.8 m.
+how fast can a house cat run | how fast are cats => A house cat can sprint about 45 to 48 km/h (30 mph) in short bursts.
+how many muscles are in a cats ear | can cats move their ears separately => Each cat ear has about 32 muscles, so cats can turn each ear separately, almost 180 degrees, to pinpoint sounds.
+are calico cats always female | why are calico cats girls => Almost all calico and tortoiseshell cats are female, because the genes for orange and black fur are on the X chromosome. Rare male calicos have an extra X.
+are orange cats usually boys | why are most orange cats male => About 80 percent of orange tabby cats are male, because the orange gene is on the X chromosome and males need only one copy.
+what is the biggest cat breed | largest house cat breed => The Maine Coon is one of the biggest house cat breeds, often 6 to 8 kg or more and up to about 1 m long from nose to tail tip.
+what is the smallest cat breed | tiniest cat breed => The Singapura is often called the smallest cat breed, usually around 2 to 3 kg.
+are sphynx cats hypoallergenic | are hairless cats good for allergies => Not really. Cat allergies come mostly from a protein in saliva and skin, so even hairless cats can cause allergies.
+how long are cats pregnant | how many kittens does a cat have => Cats are pregnant for about 63 to 67 days. A litter usually has about 4 to 6 kittens.
+when do kittens open their eyes | when can kittens leave their mom => Kittens open their eyes at about 7 to 10 days old. They should stay with their mother until about 8 to 12 weeks old.
+do cats have nose prints | are cat noses unique => Yes. Each cat's nose has a unique pattern of bumps and ridges, like a fingerprint.
+do cats sweat | how do cats cool down => Cats sweat only through their paw pads. They cool down by resting, grooming and finding shade, and panting can be a sign they're overheated or stressed.
+how long have people had cats | when were cats domesticated => Cats started living with people around 9,000 to 10,000 years ago in the Middle East, probably because they hunted mice in grain stores.
+why do people think black cats are unlucky | are black cats bad luck => Old European superstitions linked black cats with witches. In some places, like Japan and Scotland, black cats are seen as good luck.
+what is the most popular cat breed | most common cat breed => Recent counts by cat breeding groups often rank the Ragdoll and Maine Coon as the most popular pedigree cats, though most pet cats are mixed breeds.
+how do i pick up a cat the right way | how should you hold a cat => Put one hand under the chest behind the front legs and the other under the back legs and bottom. Hold the cat close and never lift it by the scruff or tail.

@@ -71,7 +71,7 @@ how do i open an app on startup every time | make a program start with windows =
 how do i find where a program is installed | open file location => Find the app in Start, right-click it, and choose Open file location. If that opens a shortcut, right-click the shortcut and choose Open file location again.
 how do i kill a frozen program | end task windows => Press Ctrl + Shift + Esc, select the frozen app in Processes and click End task. In Windows 11 you can also turn on End task in Settings, System, For developers to right-click it on the taskbar.
 # tag: tech.windows.storage
-how do i free up space on my pc | my c drive is full | clean up storage windows 11 => Open Settings, System, Storage, and click Cleanup recommendations to remove temporary files, big unused files and old downloads. Then uninstall games and apps you don't play.
+how do i free up space on my pc | no space left on my computer | clean up storage windows 11 => Open Settings, System, Storage, and click Cleanup recommendations to remove temporary files, big unused files and old downloads. Then uninstall games and apps you don't play.
 what is storage sense | turn on storage sense => Storage Sense clears temporary files and old Recycle Bin items by itself. Turn it on in Settings, System, Storage, Storage Sense.
 how do i run disk cleanup | disk cleanup windows 11 => Search Disk Cleanup in Start, pick the C: drive, tick what to remove, and click Clean up system files for even more, like old update files.
 how do i delete temporary files | clear temp files windows 11 => Open Settings, System, Storage, Temporary files, tick the boxes and click Remove files. Check the Downloads box carefully, since it deletes everything in that folder.
@@ -139,7 +139,7 @@ how do i connect bluetooth headphones to my pc | pair bluetooth windows 11 => Pu
 how do i turn on bluetooth on my pc | bluetooth missing windows => Open Quick Settings with Windows key + A and click Bluetooth, or go to Settings, Bluetooth and devices. Desktops without built-in Bluetooth need a USB adapter.
 why won't my bluetooth device connect | bluetooth not pairing => Turn Bluetooth off and on, remove the device and pair again, charge it, and move it closer. Make sure it isn't still connected to your phone.
 how do i remove a bluetooth device | unpair bluetooth windows => Open Settings, Bluetooth and devices, click the three dots next to the device, and choose Remove device.
-how do i send a file over bluetooth => Open Settings, Bluetooth and devices, Devices, then Send or receive files via Bluetooth. Nearby Share or a cloud drive is usually faster.
+how do i send a file over bluetooth | bluetooth file transfer pc => Open Settings, Bluetooth and devices, Devices, then Send or receive files via Bluetooth. Nearby Share or a cloud drive is usually faster.
 how do i connect my iphone to my pc | phone link iphone => Open the Phone Link app on Windows and follow the steps to pair your iPhone or Android phone. It shows notifications and messages on the PC.
 how do i share files to a nearby pc | nearby sharing windows => Turn on Nearby sharing in Settings, System, Nearby sharing. Then right-click a file, choose Share, and pick the nearby PC.
 # tag: tech.windows.accounts
@@ -149,13 +149,13 @@ how do i use face or fingerprint sign in | windows hello face => Open Settings, 
 what is the difference between a microsoft account and a local account | do i need a microsoft account => A Microsoft account syncs settings and OneDrive and lets you use the Store and Xbox. A local account stays only on that PC. Family Safety for kids needs Microsoft accounts.
 how do i add another user to my pc | make a second account windows => Open Settings, Accounts, Other users (or Family), and click Add account. Each person gets their own files and settings.
 how do i switch users on windows | sign in as someone else => Press Ctrl + Alt + Delete and choose Switch user, or click your profile picture in Start and pick another account.
-how do i change my account picture => Open Settings, Accounts, Your info, and click Browse files or Open camera to pick a new picture.
+how do i change my account picture | windows profile pic => Open Settings, Accounts, Your info, and click Browse files or Open camera to pick a new picture.
 how do i see my family safety settings | microsoft family safety => Parents can manage screen time, app limits and content filters at the Microsoft Family Safety website or app. Settings, Accounts, Family shows the family group.
 how do i sign out of windows | log off pc => Click Start, click your profile picture, and choose Sign out. Or press Ctrl + Alt + Delete and choose Sign out.
 # tag: tech.windows.backup
 how do i back up my pc | windows backup app => Open the Windows Backup app to back up folders, settings and app lists to OneDrive. For a full copy, also copy important files to an external drive.
 what is onedrive | should i use onedrive => OneDrive is Microsoft's cloud storage. It can back up your Desktop, Documents and Pictures folders so files survive if your PC breaks. Free accounts get 5 GB as of 2025.
-how do i stop onedrive backing up my desktop => Click the OneDrive cloud by the clock, open Settings, Sync and back up, Manage back up, and switch off Desktop. The files stay in OneDrive, so copy any you need back to your PC.
+how do i stop onedrive backing up my desktop | onedrive took over my desktop folder => Click the OneDrive cloud by the clock, open Settings, Sync and back up, Manage back up, and switch off Desktop. The files stay in OneDrive, so copy any you need back to your PC.
 what is file history | back up files to an external drive => File History copies your personal folders to an external drive every hour. Turn it on in Control Panel, File History, after plugging in the drive.
 how do i make a restore point | create system restore point => Search Create a restore point in Start, select the C: drive, click Configure to turn protection on, then click Create and name it.
 how do i use system restore | undo a bad change windows => Search Create a restore point, click System Restore, and pick a restore point from before the problem. Your personal files stay, but apps installed after it are removed.

@@ -1,0 +1,97 @@
+# Minecraft commands, hand-written. Syntax is Java Edition 1.21 unless it says Bedrock.
+
+# tag: minecraft.commands
+how do you turn on cheats in minecraft | how to enable commands | how to use commands in survival => Turn on Allow Cheats when you create the world. For an existing Java world, press Escape, choose Open to LAN, turn Allow Cheats on and start the LAN world.
+how do you use the give command | give command minecraft | how to give yourself items => Type /give @s minecraft:diamond 64. Change the item name and the number to get anything. Use a player's name instead of @s to give it to them.
+how do you give yourself a command block | command block in survival | how do you spawn in a command block => Type /give @s minecraft:command_block. You need cheats on and to be in Creative mode to edit it.
+how do you teleport in minecraft | tp command | teleport command minecraft => Type /tp @s x y z with the coordinates you want, like /tp @s 100 70 -200. You can also type /tp @s PlayerName to go to a friend.
+how do you teleport someone to you | tp a player to me | bring a player to you command => Type /tp PlayerName @s. The first name is who moves and the second is where they go.
+what does the tilde mean in commands | what does ~ mean in minecraft | relative coordinates => A ~ means relative to where you are. /tp @s ~ ~10 ~ moves you 10 blocks straight up, and ~5 means 5 blocks from your current spot.
+what does ^ mean in minecraft commands | caret coordinates | local coordinates minecraft => A ^ is relative to where you're looking. /tp @s ^ ^ ^5 moves you 5 blocks forward in the direction you face.
+how do you change your gamemode | gamemode command | how to go into creative mode => Type /gamemode creative. The others are survival, adventure and spectator. Add a player name at the end to change someone else's.
+can you use /gamemode 1 | gamemode number shortcut | gamemode c not working => Not in Java Edition, where you must type the full name like /gamemode creative. Bedrock still accepts /gamemode 1 or /gamemode c.
+what is spectator mode | how to use spectator mode | what does spectator mode do => Spectator mode lets you fly through blocks, look inside mobs and watch without touching anything. Type /gamemode spectator. It's only in Java Edition and newer Bedrock versions.
+what is adventure mode | adventure mode minecraft | why can't i break blocks in adventure mode => Adventure mode is made for maps. You can't break or place blocks unless the item lets you, so map makers use it to stop players wrecking things.
+how do you make it day in minecraft | time set day command | how to skip the night with a command => Type /time set day. You can also use night, noon or midnight, or a number of ticks like /time set 1000.
+what time is day in minecraft ticks | time set numbers | what is 13000 in minecraft => Day is 1000, noon is 6000, night is 13000 and midnight is 18000. A full day is 24000 ticks.
+how do you stop the day night cycle | always day command | freeze time in minecraft => Type /gamerule doDaylightCycle false to freeze time. Use /time set day first if you want it to stay day.
+how do you stop the rain in minecraft | weather clear command | how to make it stop raining => Type /weather clear. You can also use /weather rain or /weather thunder.
+how do you stop the weather from changing | turn off rain forever | weather cycle gamerule => Type /gamerule doWeatherCycle false after /weather clear, and it stays clear.
+how do you find a village with commands | locate village command | how to use the locate command => Type /locate structure minecraft:village_plains. It tells you the coordinates of the nearest one, and you can click them to teleport.
+how do you locate a biome | find a cherry grove command | locate biome command => Type /locate biome minecraft:cherry_grove, or any biome name. Press Tab while typing to see the list.
+how do you find a stronghold with commands | locate stronghold | locate end portal command => Type /locate structure minecraft:stronghold.
+how do you find an ancient city with a command | locate ancient city | locate trial chambers command => Type /locate structure minecraft:ancient_city, or minecraft:trial_chambers for a trial chamber.
+how do you find a nether fortress with commands | locate fortress | locate bastion command => In the Nether, type /locate structure minecraft:fortress or /locate structure minecraft:bastion_remnant.
+how do you use the fill command | fill command minecraft | how to fill an area with blocks => Type /fill x1 y1 z1 x2 y2 z2 minecraft:stone with two corner coordinates. It fills the whole box between them, up to 32,768 blocks at once.
+how do you make a hollow box with fill | fill hollow | fill outline command => Add hollow or outline at the end, like /fill ~ ~ ~ ~10 ~10 ~10 minecraft:glass hollow. Hollow clears the inside, and outline leaves the inside as it was.
+how do you replace blocks with fill | fill replace command | swap one block for another => Type /fill x1 y1 z1 x2 y2 z2 minecraft:stone replace minecraft:dirt to turn only the dirt in that box into stone.
+how do you clear a big area in minecraft | delete blocks with a command | fill with air => Use /fill with air, like /fill ~-10 ~ ~-10 ~10 ~10 ~10 minecraft:air. That removes every block in the box.
+how do you place one block with a command | setblock command | how to use setblock => Type /setblock x y z minecraft:diamond_block. Use ~ ~ ~ for where you stand.
+how do you copy a build with commands | clone command | how to use clone in minecraft => Type /clone x1 y1 z1 x2 y2 z2 x y z. It copies the box between the first two corners to the spot you give last.
+how do you summon a mob | summon command | how to spawn a mob with commands => Type /summon minecraft:zombie, or any mob name. Add coordinates after it, like ~ ~ ~5, to spawn it 5 blocks away.
+how do you summon a charged creeper | charged creeper command | summon powered creeper => Type /summon minecraft:creeper ~ ~ ~ {powered:1b}.
+how do you summon lightning | lightning command | how to make lightning strike => Type /summon minecraft:lightning_bolt. Add coordinates to choose where it hits.
+how do you summon the ender dragon | spawn ender dragon command | summon wither command => Type /summon minecraft:ender_dragon or /summon minecraft:wither. Be careful, they're real bosses.
+how do you kill all mobs with a command | kill command | kill everything except players => Type /kill @e[type=!player] to remove every entity except players. That also deletes dropped items and armor stands.
+how do you kill all zombies with a command | kill one type of mob | kill @e type => Type /kill @e[type=minecraft:zombie]. Change zombie to any mob name.
+how do you clear dropped items | kill items command | remove lag from dropped items => Type /kill @e[type=minecraft:item]. It removes every dropped item in loaded chunks.
+how do you kill yourself in minecraft with a command | kill @s | respawn command => Type /kill @s. You die and respawn at your spawn point, dropping your items unless keep inventory is on.
+what are target selectors | what does @p mean | @a @e @r @s minecraft => @p is the nearest player, @a is all players, @r is a random player, @s is yourself and @e is every entity. Java 1.21 added @n for the nearest entity.
+how do you target a certain mob in commands | selector arguments | limit and sort in commands => Add arguments in brackets, like @e[type=minecraft:cow,limit=1,sort=nearest] for the closest cow, or @a[distance=..10] for players within 10 blocks.
+how do you give yourself effects | effect command | how to give speed with a command => Type /effect give @s minecraft:speed 60 1. The 60 is seconds and 1 is the amplifier, which means level II.
+how do you remove effects with a command | effect clear | clear potion effects command => Type /effect clear @s to remove all effects, or add an effect name to remove just one.
+how do you get infinite night vision | permanent effect command | infinite effect duration => Type /effect give @s minecraft:night_vision infinite. The word infinite works for any effect in Java 1.19.4 and newer.
+how do you hide effect particles | effect without particles | hideparticles => Add true at the end, like /effect give @s minecraft:speed infinite 1 true, to hide the particles.
+how do you enchant with a command | enchant command | how to use /enchant => Hold the item and type /enchant @s minecraft:sharpness 5. It only works for enchantments that fit the item, up to their normal max level.
+how do you give yourself xp | xp command | how to get levels with a command => Type /xp add @s 30 levels. Leave out levels to add points instead.
+how do you change difficulty | difficulty command | how to make minecraft peaceful => Type /difficulty peaceful, easy, normal or hard.
+how do you turn on keep inventory | keepinventory command | gamerule keep inventory => Type /gamerule keepInventory true. You keep your items and XP when you die. Game rule names can change between versions, so press Tab to autocomplete.
+how do you stop creepers from breaking blocks | mobgriefing gamerule | turn off mob griefing => Type /gamerule mobGriefing false. Creepers and other mobs can't break or change blocks, but villagers also can't farm.
+how do you turn off mob spawning with a command | domobspawning | turn off mob spawning command => Type /gamerule doMobSpawning false. Spawners still work.
+how do you stop fire from spreading | dofiretick | fire spread gamerule => Type /gamerule doFireTick false. Fire stays where it is and doesn't burn out or spread.
+how do you make only one player need to sleep | players sleeping percentage | sleep gamerule => Type /gamerule playersSleepingPercentage 0 so one sleeping player skips the night. The default is 100, which means everyone.
+how do you stop phantoms from spawning | doinsomnia | turn off phantoms => Type /gamerule doInsomnia false.
+how do you make crops grow faster with commands | randomtickspeed | random tick speed command => Type /gamerule randomTickSpeed 10 or higher. The default is 3, and high numbers make plants grow very fast but can lag.
+how do you respawn instantly | doimmediaterespawn | skip the death screen => Type /gamerule doImmediateRespawn true.
+how do you turn off fall damage | fall damage gamerule | no fall damage command => Type /gamerule fallDamage false.
+how do you set your spawn with a command | spawnpoint command | how to use /spawnpoint => Type /spawnpoint @s ~ ~ ~ to make where you stand your respawn point.
+how do you change the world spawn | setworldspawn | where new players spawn => Type /setworldspawn ~ ~ ~ to set where new players and players without a bed spawn.
+how do you clear your inventory | clear command | how to delete items in your inventory => Type /clear @s. Add an item name, like /clear @s minecraft:dirt, to remove only that item.
+how do you see the seed | seed command | how to get your world seed => Type /seed. It shows the world's seed, and you can click to copy it.
+how do you send a private message in minecraft | msg command | whisper in minecraft => Type /msg PlayerName hello. /tell and /w do the same thing.
+how do you make a title on screen | title command | how to show big text => Type /title @a title "Hello". Use subtitle or actionbar instead of title for smaller text.
+how do you set a world border | worldborder command | how to make the world smaller => Type /worldborder set 1000 to make the playable area 1,000 blocks wide around the border's center. Use /worldborder center x z to move it.
+how do you op someone | op command | how to make someone an admin on a server => On a server, type /op PlayerName in the console or as an operator. /deop takes it away.
+how do you ban someone on a minecraft server | ban command | kick command => Type /ban PlayerName to ban someone or /kick PlayerName to remove them for now. /pardon PlayerName unbans them.
+how do you use a whitelist | whitelist command | private server whitelist => Type /whitelist on, then /whitelist add PlayerName for each friend. Only listed players can join.
+how do you see who is online | list command | how many players are on the server => Type /list to see the names of everyone who is online.
+how do you ride a mob with a command | ride command | how to ride any mob => Type /ride @s mount @e[type=minecraft:pig,limit=1,sort=nearest] in Java 1.19.4 and newer. /ride @s dismount gets you off.
+how do you make yourself bigger | scale attribute | how to change player size => Type /attribute @s minecraft:scale base set 2 in Java 1.21.2 and newer. Use 0.5 to shrink. Older 1.20.5 to 1.21.1 versions used generic.scale.
+how do you change the game speed | tick command | how to freeze the game => Type /tick freeze to pause the world, /tick unfreeze to resume, or /tick rate 40 to run twice as fast. It's in Java 1.20.3 and newer.
+how do you change a biome with commands | fillbiome command | how to make a biome => Type /fillbiome x1 y1 z1 x2 y2 z2 minecraft:cherry_grove in Java 1.19.3 and newer. Rejoin the area to see grass and sky colors update.
+how do you spawn a structure | place command | how to place a village with commands => Type /place structure minecraft:village_plains in Java 1.19 and newer. It builds the structure where you are.
+how do you unlock all recipes | recipe command | give all recipes => Type /recipe give @s * to unlock every recipe in your recipe book.
+how do you get all advancements | advancement command | grant all advancements => Type /advancement grant @s everything. /advancement revoke @s everything takes them all back.
+how do you give an item to everyone | give all players | give @a => Use @a, like /give @a minecraft:cookie 5.
+how do you replace armor with a command | item replace command | put a helmet on with commands => Type /item replace entity @s armor.head with minecraft:diamond_helmet. Use armor.chest, armor.legs or armor.feet for the others.
+how do you use execute in minecraft | what does execute do | execute command basics => /execute runs another command from someone else's position or only when a check passes. For example, /execute as @a at @s run summon minecraft:lightning_bolt strikes lightning on every player.
+how do you make a scoreboard | scoreboard command | how to show kills on the side => Type /scoreboard objectives add kills playerKillCount, then /scoreboard objectives setdisplay sidebar kills.
+how do you play a sound with commands | playsound command | how to make a sound => Type /playsound minecraft:entity.creeper.primed master @s. Press Tab after playsound to see all the sound names.
+how do you stop all sounds | stopsound command | stop music in minecraft => Type /stopsound @s. Add a category like music to stop only the music.
+how do you make particles | particle command | how to spawn particles => Type /particle minecraft:heart ~ ~2 ~. Press Tab after particle to see every particle type.
+how do you damage a player with a command | damage command | hurt with commands => Type /damage @s 5 in Java 1.19.4 and newer. The number is damage points, and 2 points is one heart.
+how do you heal with a command | heal command minecraft | instant health command => Minecraft has no /heal, but /effect give @s minecraft:instant_health 1 10 heals you fully.
+how do you feed yourself with a command | saturation command | fill hunger command => Type /effect give @s minecraft:saturation 1 10 to fill your hunger bar.
+how do you get a debug stick | what is a debug stick | debug stick command => Type /give @s minecraft:debug_stick in Java Edition. In Creative, it lets you change block states, like stair shapes or fence connections.
+how do you get barrier blocks | barrier block command | invisible wall block => Type /give @s minecraft:barrier. Barriers are invisible walls that can't be broken in Survival.
+how do you get a light block | invisible light source | light block command => Type /give @s minecraft:light. It's an invisible block that gives off light, and you can set its level from 0 to 15.
+how do you get a structure block | structure block command | how to save a build => Type /give @s minecraft:structure_block. It saves and loads builds of up to 48 by 48 by 48 blocks.
+how do you see all commands | help command | list of commands minecraft => Type /help, or type a slash and press Tab to see every command you can use.
+what is a command block | how do command blocks work | command block types => A command block runs a command when it gets a redstone signal. Impulse blocks run once, chain blocks run after the one before them, and repeating blocks run every tick.
+how do you stop command block spam in chat | commandblockoutput | hide command block messages => Type /gamerule commandBlockOutput false.
+how do you reload a data pack | reload command | what does reload do => Type /reload to reload data packs, functions and loot tables without restarting the world.
+what is a data pack | how to install a data pack | datapacks folder => Data packs change game rules, recipes, loot and more without mods. Put the zip in your world's datapacks folder and type /reload.
+how do you use the random command | random number in minecraft | roll a dice command => Type /random roll 1..6 in Java 1.20.2 and newer to roll a number from 1 to 6 that everyone sees.
+how do you change the default gamemode | defaultgamemode command | set gamemode for new players => Type /defaultgamemode survival, or another mode, to set the mode new players join in.
+how do you spread players out | spreadplayers command | random teleport command => Type /spreadplayers 0 0 100 500 false @a to scatter all players randomly within 500 blocks of 0, 0, at least 100 apart.
+how do you show coordinates in bedrock | showcoordinates gamerule | bedrock coordinates command => Type /gamerule showcoordinates true in Bedrock Edition, or turn on Show Coordinates in the world settings.

@@ -1,0 +1,32 @@
+# Minecraft smelting and cooking, hand-written. Java Edition 1.21.
+
+# tag: minecraft.smelting
+how do you use a furnace | how does smelting work | how to cook food in minecraft => Put the item in the top slot and fuel like coal in the bottom slot. The result comes out on the right after about 10 seconds.
+what is the best fuel in minecraft | best furnace fuel | what fuel lasts longest => A lava bucket lasts the longest, smelting 100 items. A block of coal smelts 80, and coal or charcoal smelts 8.
+how many items does coal smelt | how long does coal burn | coal fuel => One coal or charcoal smelts 8 items.
+can you use wood as fuel | how many items does a log smelt | planks as fuel => Yes. Logs and planks each smelt 1.5 items, and a stick smelts half an item.
+can you use dried kelp as fuel | dried kelp block fuel | kelp fuel => Yes. A dried kelp block smelts 20 items, and you can grow kelp to make it forever.
+can you use bamboo as fuel | bamboo fuel | scaffolding fuel => Yes, but it's weak. Bamboo and scaffolding each smelt only a quarter of an item.
+how do you make charcoal | what is charcoal | charcoal vs coal => Smelt logs in a furnace. Charcoal works just like coal for fuel and torches, but you can't make a block of coal from it.
+how do you make smooth stone | smooth stone recipe | how to get smooth stone => Smelt regular stone in a furnace.
+how do you make stone from cobblestone | how to get stone | smelt cobblestone => Smelt cobblestone in a furnace to get stone. You can also mine stone with Silk Touch.
+how do you make terracotta | how to get terracotta | smelt clay block => Smelt a clay block in a furnace. Badlands biomes also have lots of terracotta.
+how do you make bricks in minecraft | how to get a brick | smelt clay ball => Smelt clay balls in a furnace to get bricks, then put 4 bricks in a 2 by 2 square for a bricks block.
+how do you make nether bricks | how to get nether brick | smelt netherrack => Smelt netherrack in a furnace to get a nether brick item.
+how do you make cracked stone bricks | cracked bricks recipe | how to get cracked stone bricks => Smelt stone bricks in a furnace.
+how do you make smooth sandstone | smooth quartz | smooth sandstone recipe => Smelt sandstone for smooth sandstone, and smelt a block of quartz for smooth quartz.
+how do you get iron ingots | how to smelt raw iron | what do you do with raw iron => Smelt raw iron in a furnace or blast furnace to get iron ingots. Mining iron ore gives raw iron unless you use Silk Touch.
+how do you get gold ingots | how to smelt raw gold | gold ingot from ore => Smelt raw gold in a furnace or blast furnace. In the Nether, nether gold ore drops gold nuggets instead.
+how do you get copper ingots | how to smelt raw copper | copper ingot => Smelt raw copper in a furnace or blast furnace.
+how do you make popped chorus fruit | smelt chorus fruit | popped chorus => Smelt chorus fruit in a furnace.
+how do you make dried kelp | smelt kelp | dried kelp recipe => Smelt kelp in a furnace, smoker or over a campfire.
+how do you get green dye in minecraft | smelt cactus | cactus dye => Smelt cactus in a furnace to get green dye.
+how do you make glass from red sand | can you smelt red sand | red sand glass => Yes, smelting red sand makes regular glass, just like normal sand.
+how do you get an iron nugget from armor | smelt iron tools | recycle iron gear => Smelt iron or chainmail tools, weapons or armor to get 1 iron nugget each. Gold gear gives 1 gold nugget.
+what does a blast furnace do | blast furnace vs furnace | why use a blast furnace => A blast furnace smelts ores, raw metals and metal gear twice as fast as a furnace, but it can't cook food or smelt other blocks.
+what does a smoker do | smoker vs furnace | why use a smoker => A smoker cooks food twice as fast as a furnace, but it only works on food.
+how do you cook with a campfire | campfire cooking | can you cook on a campfire => Place up to 4 raw food items on a campfire. They cook in 30 seconds with no fuel, but you don't get XP.
+do you get xp from smelting | furnace xp | how to get xp from a furnace => Yes. Taking items out of a furnace gives XP, and smelting things like gold or diamonds from ore gives the most.
+what is the fastest way to cook food | quickest way to cook meat | best way to cook => A smoker cooks food in 5 seconds, twice as fast as a furnace. A campfire cooks 4 items at once with no fuel.
+can a hopper feed a furnace | automatic furnace | hopper furnace setup => Yes. A hopper on top puts items in, a hopper on the side adds fuel, and a hopper under it takes the results out.
+how do you make a super smelter | what is a super smelter | many furnaces at once => A super smelter is a row of furnaces with hoppers or hopper minecarts spreading items between them, so lots of items smelt at the same time.

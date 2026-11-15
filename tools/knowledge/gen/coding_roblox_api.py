@@ -236,6 +236,7 @@ def lw(s):
 
 sys.path.insert(0, KNOW)
 from check_data import keyset, norm  # noqa: E402  same duplicate rules as the checker
+from coding_common import existing  # noqa: E402
 
 entries = []
 seen_q = set()
@@ -398,6 +399,9 @@ def main():
         if d:
             docs.append(("global", d))
     load_enums()
+    w, k = existing(OUT)
+    seen_q.update(w)
+    seen_keys.update(k)
     collect_names(docs)
     for kind, d in docs:
         do_class(d, kind)

@@ -5,12 +5,12 @@
    "category": "Space",
    "q": "What is the closest star to Earth?",
    "choices": [
+    "The Sun",
     "Proxima Centauri",
     "Sirius",
-    "The Sun",
     "Polaris"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "The Sun is about 150 million kilometers away, much closer than any other star."
   },
   {
@@ -19,11 +19,11 @@
    "q": "Which star is the closest to our Sun?",
    "choices": [
     "Sirius",
-    "Proxima Centauri",
     "Betelgeuse",
-    "Vega"
+    "Vega",
+    "Proxima Centauri"
    ],
-   "answer": 1,
+   "answer": 3,
    "fact": "Proxima Centauri is about 4.2 light-years away, so its light takes over four years to reach us."
   },
   {
@@ -44,12 +44,12 @@
    "category": "Space",
    "q": "Which star stays almost still in the sky above Earth's North Pole?",
    "choices": [
-    "Polaris",
     "Sirius",
     "Vega",
-    "Aldebaran"
+    "Aldebaran",
+    "Polaris"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Polaris, the North Star, has helped travelers find north for hundreds of years."
   },
   {
@@ -59,10 +59,10 @@
    "choices": [
     "Oxygen and nitrogen",
     "Carbon dioxide and methane",
-    "Neon and argon",
-    "Hydrogen and helium"
+    "Hydrogen and helium",
+    "Neon and argon"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "About three quarters of the Sun's mass is hydrogen."
   },
   {
@@ -71,11 +71,11 @@
    "q": "What process makes the Sun shine?",
    "choices": [
     "Burning coal",
-    "Nuclear fusion",
     "Nuclear fission",
-    "Static electricity"
+    "Static electricity",
+    "Nuclear fusion"
    ],
-   "answer": 1,
+   "answer": 3,
    "fact": "In the Sun's core, hydrogen atoms smash together to make helium and release huge amounts of energy."
   },
   {
@@ -96,12 +96,12 @@
    "category": "Space",
    "q": "What type of star is the Sun?",
    "choices": [
+    "A yellow dwarf",
     "A red giant",
     "A white dwarf",
-    "A neutron star",
-    "A yellow dwarf"
+    "A neutron star"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "Even though it is called a dwarf, the Sun is bigger than most stars in the Milky Way."
   },
   {
@@ -109,12 +109,12 @@
    "category": "Space",
    "q": "What is the visible surface of the Sun called?",
    "choices": [
-    "Photosphere",
     "Corona",
+    "Photosphere",
     "Mantle",
     "Crust"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "The photosphere is about 5,500 degrees Celsius."
   },
   {
@@ -149,11 +149,11 @@
    "q": "What happens during a solar eclipse?",
    "choices": [
     "Earth blocks the Sun",
-    "The Moon blocks the Sun",
     "The Sun blocks the Moon",
+    "The Moon blocks the Sun",
     "Clouds block the Sun"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "A total solar eclipse can turn day into twilight for a few minutes."
   },
   {
@@ -174,12 +174,12 @@
    "category": "Space",
    "q": "Why does the Moon shine at night?",
    "choices": [
-    "It makes its own light",
     "It reflects sunlight",
+    "It makes its own light",
     "Its rocks are on fire",
     "It glows from radiation"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "The Moon's surface is actually a dark gray, a bit like old asphalt."
   },
   {
@@ -187,12 +187,12 @@
    "category": "Space",
    "q": "About how long does the Moon take to orbit Earth?",
    "choices": [
-    "About 27 days",
     "About 7 days",
     "About 365 days",
-    "About 24 hours"
+    "About 24 hours",
+    "About 27 days"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "The Moon takes about 27.3 days to orbit Earth, but about 29.5 days to go from one full moon to the next."
   },
   {
@@ -201,11 +201,11 @@
    "q": "Why do we always see the same side of the Moon?",
    "choices": [
     "It does not spin at all",
-    "Earth blocks the other side",
     "It spins once for each trip around Earth",
+    "Earth blocks the other side",
     "The other side is too dark to see"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "This is called tidal locking, and many moons in the solar system do it."
   },
   {
@@ -226,12 +226,12 @@
    "category": "Space",
    "q": "Which mission was the first to land people on the Moon?",
    "choices": [
-    "Apollo 11",
     "Apollo 13",
     "Gemini 4",
+    "Apollo 11",
     "Apollo 8"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Apollo 11 landed on the Moon on July 20, 1969."
   },
   {
@@ -240,11 +240,11 @@
    "q": "Who was the second person to walk on the Moon?",
    "choices": [
     "Michael Collins",
-    "John Glenn",
     "Buzz Aldrin",
+    "John Glenn",
     "Alan Shepard"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Buzz Aldrin stepped onto the Moon about 19 minutes after Neil Armstrong."
   },
   {
@@ -252,12 +252,12 @@
    "category": "Space",
    "q": "Which Apollo 11 astronaut stayed in orbit around the Moon while the others landed?",
    "choices": [
-    "Michael Collins",
     "Buzz Aldrin",
     "Neil Armstrong",
-    "Jim Lovell"
+    "Jim Lovell",
+    "Michael Collins"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Michael Collins flew the command module Columbia alone around the Moon."
   },
   {
@@ -265,12 +265,12 @@
    "category": "Space",
    "q": "What was the name of the Apollo 11 lunar module that landed on the Moon?",
    "choices": [
+    "Eagle",
     "Falcon",
     "Columbia",
-    "Odyssey",
-    "Eagle"
+    "Odyssey"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "When it touched down, Neil Armstrong radioed that the Eagle has landed."
   },
   {
@@ -278,12 +278,12 @@
    "category": "Space",
    "q": "Which Apollo mission had an oxygen tank explode on the way to the Moon?",
    "choices": [
+    "Apollo 13",
     "Apollo 11",
     "Apollo 8",
-    "Apollo 13",
     "Apollo 17"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "The crew could not land, but they looped around the Moon and made it home safely."
   },
   {
@@ -293,10 +293,10 @@
    "choices": [
     "6",
     "24",
-    "3",
-    "12"
+    "12",
+    "3"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Twelve astronauts walked on the Moon during six Apollo missions between 1969 and 1972."
   },
   {
@@ -304,12 +304,12 @@
    "category": "Space",
    "q": "Which Apollo mission was the last to land on the Moon?",
    "choices": [
-    "Apollo 17",
     "Apollo 11",
     "Apollo 20",
+    "Apollo 17",
     "Apollo 14"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Apollo 17 landed in December 1972, and no one has walked on the Moon since."
   },
   {
@@ -317,12 +317,12 @@
    "category": "Space",
    "q": "Which mission was the first to carry astronauts around the Moon?",
    "choices": [
+    "Apollo 8",
     "Apollo 11",
     "Apollo 1",
-    "Gemini 7",
-    "Apollo 8"
+    "Gemini 7"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "The Apollo 8 crew took the famous Earthrise photo on Christmas Eve 1968."
   },
   {
@@ -332,10 +332,10 @@
    "choices": [
     "A hovercraft",
     "A motorcycle",
-    "A Lunar Roving Vehicle",
-    "A small tank"
+    "A small tank",
+    "A Lunar Roving Vehicle"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "The three lunar rovers were left behind and are still parked on the Moon."
   },
   {
@@ -343,12 +343,12 @@
    "category": "Space",
    "q": "Which country launched the first artificial satellite?",
    "choices": [
-    "Soviet Union",
     "United States",
+    "Soviet Union",
     "China",
     "United Kingdom"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "The Soviet Union launched Sputnik 1 on October 4, 1957, starting the Space Race."
   },
   {
@@ -357,11 +357,11 @@
    "q": "What was the name of the dog that orbited Earth aboard Sputnik 2 in 1957?",
    "choices": [
     "Lassie",
+    "Laika",
     "Rex",
-    "Buddy",
-    "Laika"
+    "Buddy"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Laika was a stray dog from the streets of Moscow."
   },
   {
@@ -369,12 +369,12 @@
    "category": "Space",
    "q": "Who was the first woman to travel into space?",
    "choices": [
-    "Valentina Tereshkova",
     "Sally Ride",
     "Mae Jemison",
-    "Eileen Collins"
+    "Eileen Collins",
+    "Valentina Tereshkova"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Valentina Tereshkova orbited Earth 48 times aboard Vostok 6 in 1963."
   },
   {
@@ -408,12 +408,12 @@
    "category": "Space",
    "q": "Who was the first American to travel into space?",
    "choices": [
-    "Alan Shepard",
     "John Glenn",
     "Neil Armstrong",
-    "Buzz Aldrin"
+    "Buzz Aldrin",
+    "Alan Shepard"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Alan Shepard later hit golf balls on the Moon during Apollo 14."
   },
   {
@@ -436,10 +436,10 @@
    "choices": [
     "Sputnik 1",
     "Soyuz 1",
-    "Vostok 1",
-    "Mir"
+    "Mir",
+    "Vostok 1"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Yuri Gagarin's flight on April 12, 1961, lasted about 108 minutes."
   },
   {
@@ -447,12 +447,12 @@
    "category": "Space",
    "q": "What does NASA stand for?",
    "choices": [
+    "National Aeronautics and Space Administration",
     "National Air and Space Agency",
     "North American Space Association",
-    "National Astronaut and Science Academy",
-    "National Aeronautics and Space Administration"
+    "National Astronaut and Science Academy"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "NASA studies flight in the air (aeronautics) as well as space."
   },
   {
@@ -473,12 +473,12 @@
    "category": "Space",
    "q": "Which space station have astronauts lived on without a break since the year 2000?",
    "choices": [
-    "Mir",
     "International Space Station",
+    "Mir",
     "Skylab",
     "Tiangong"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "People have lived on the International Space Station continuously since November 2000."
   },
   {
@@ -501,10 +501,10 @@
    "choices": [
     "About 40 kilometers",
     "About 4,000 kilometers",
-    "About 400 kilometers",
-    "About 40,000 kilometers"
+    "About 40,000 kilometers",
+    "About 400 kilometers"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "That is roughly the distance from New York City to Washington, DC."
   },
   {
@@ -514,10 +514,10 @@
    "choices": [
     "About 2,800 kilometers per hour",
     "About 280 kilometers per hour",
-    "About 280,000 kilometers per hour",
-    "About 28,000 kilometers per hour"
+    "About 28,000 kilometers per hour",
+    "About 280,000 kilometers per hour"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "At that speed, it could cross the whole United States in about 10 minutes."
   },
   {
@@ -525,12 +525,12 @@
    "category": "Space",
    "q": "Which Soviet and Russian space station orbited Earth from 1986 to 2001?",
    "choices": [
-    "Skylab",
     "Mir",
+    "Skylab",
     "Tiangong",
     "Freedom"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Mir means peace or world in Russian."
   },
   {
@@ -539,11 +539,11 @@
    "q": "What was the name of America's first space station, launched in 1973?",
    "choices": [
     "Mir",
-    "Skylab",
     "Freedom",
-    "Gateway"
+    "Gateway",
+    "Skylab"
    ],
-   "answer": 1,
+   "answer": 3,
    "fact": "Skylab fell back to Earth in 1979, and some pieces landed in Western Australia."
   },
   {
@@ -551,12 +551,12 @@
    "category": "Space",
    "q": "What is the name of China's space station?",
    "choices": [
+    "Tiangong",
     "Mir",
     "Shenzhou",
-    "Tiangong",
     "Skylab"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "Tiangong means Heavenly Palace in Chinese."
   },
   {
@@ -577,12 +577,12 @@
    "category": "Space",
    "q": "Which space shuttle flew the very last shuttle mission in 2011?",
    "choices": [
-    "Atlantis",
     "Columbia",
+    "Atlantis",
     "Challenger",
     "Enterprise"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "Atlantis is now on display at the Kennedy Space Center in Florida."
   },
   {
@@ -590,12 +590,12 @@
    "category": "Space",
    "q": "Which space shuttle was the first to fly into space, in 1981?",
    "choices": [
-    "Columbia",
     "Enterprise",
+    "Columbia",
     "Discovery",
     "Atlantis"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "The shuttle Enterprise was only used for test flights in Earth's air and never went to space."
   },
   {
@@ -616,12 +616,12 @@
    "category": "Space",
    "q": "Which space telescope, launched in 2021, sees mostly in infrared light?",
    "choices": [
-    "Hubble Space Telescope",
     "James Webb Space Telescope",
+    "Hubble Space Telescope",
     "Kepler",
     "Chandra"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Its main mirror is 6.5 meters wide and made of 18 hexagon-shaped pieces."
   },
   {
@@ -629,12 +629,12 @@
    "category": "Space",
    "q": "What metal is the James Webb Space Telescope's big mirror coated with?",
    "choices": [
-    "Silver",
     "Gold",
+    "Silver",
     "Copper",
     "Platinum"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Gold reflects infrared light really well, and the coating is thinner than a human hair."
   },
   {
@@ -643,11 +643,11 @@
    "q": "Why does the James Webb Space Telescope have a sunshield the size of a tennis court?",
    "choices": [
     "To collect solar power",
+    "To keep its instruments very cold",
     "To hide it from aliens",
-    "To block space rain",
-    "To keep its instruments very cold"
+    "To block space rain"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Infrared telescopes must be super cold so their own heat does not blur what they see."
   },
   {
@@ -681,12 +681,12 @@
    "category": "Space",
    "q": "What is the name of the NASA rover that landed on Mars in 2021?",
    "choices": [
+    "Perseverance",
     "Curiosity",
     "Opportunity",
-    "Spirit",
-    "Perseverance"
+    "Spirit"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "Perseverance is collecting rock samples that scientists hope to bring back to Earth someday."
   },
   {
@@ -707,12 +707,12 @@
    "category": "Space",
    "q": "Which NASA rover landed in Gale Crater on Mars in 2012?",
    "choices": [
-    "Curiosity",
     "Perseverance",
     "Sojourner",
-    "Opportunity"
+    "Opportunity",
+    "Curiosity"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Curiosity is about the size of a small car and is powered by a nuclear battery."
   },
   {
@@ -720,12 +720,12 @@
    "category": "Space",
    "q": "What was the name of the first rover to drive on Mars, in 1997?",
    "choices": [
+    "Sojourner",
     "Curiosity",
     "Spirit",
-    "Sojourner",
     "Viking"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "Sojourner was about the size of a microwave oven."
   },
   {
@@ -733,12 +733,12 @@
    "category": "Space",
    "q": "Which Mars rover was planned to last 90 days but kept working for more than 14 years?",
    "choices": [
+    "Opportunity",
     "Sojourner",
     "Curiosity",
-    "Viking 1",
-    "Opportunity"
+    "Viking 1"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "Opportunity drove more than 45 kilometers before a huge dust storm ended its mission in 2018."
   },
   {
@@ -746,12 +746,12 @@
    "category": "Space",
    "q": "What is the tallest volcano in the solar system?",
    "choices": [
-    "Olympus Mons",
     "Mount Everest",
     "Mauna Kea",
+    "Olympus Mons",
     "Mount Fuji"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Olympus Mons on Mars is about two and a half times as tall as Mount Everest."
   },
   {
@@ -786,11 +786,11 @@
    "q": "What is the largest moon in the solar system?",
    "choices": [
     "Titan",
+    "Ganymede",
     "Earth's Moon",
-    "Callisto",
-    "Ganymede"
+    "Callisto"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Ganymede, a moon of Jupiter, is even wider than the planet Mercury."
   },
   {
@@ -799,11 +799,11 @@
    "q": "Which moon has a thick hazy atmosphere and lakes of liquid methane?",
    "choices": [
     "Europa",
-    "Titan",
     "Io",
+    "Titan",
     "Phobos"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Titan orbits Saturn, and it is the only moon with a thick atmosphere."
   },
   {
@@ -811,12 +811,12 @@
    "category": "Space",
    "q": "Which moon is the most volcanically active place in the solar system?",
    "choices": [
-    "Europa",
     "Io",
+    "Europa",
     "Titan",
     "Callisto"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Io, a moon of Jupiter, has hundreds of volcanoes, some shooting lava fountains many kilometers high."
   },
   {
@@ -825,11 +825,11 @@
    "q": "Which moon of Jupiter is thought to hide a salty ocean under its icy crust?",
    "choices": [
     "Io",
-    "Europa",
     "Phobos",
+    "Europa",
     "Charon"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "NASA's Europa Clipper spacecraft launched in 2024 to study this icy moon."
   },
   {
@@ -839,10 +839,10 @@
    "choices": [
     "The Trojan moons",
     "The Apollo moons",
-    "The Galilean moons",
-    "The Kepler moons"
+    "The Kepler moons",
+    "The Galilean moons"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "They are Io, Europa, Ganymede and Callisto."
   },
   {
@@ -851,11 +851,11 @@
    "q": "Who discovered Jupiter's four largest moons in 1610?",
    "choices": [
     "Isaac Newton",
+    "Galileo Galilei",
     "Johannes Kepler",
-    "Nicolaus Copernicus",
-    "Galileo Galilei"
+    "Nicolaus Copernicus"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Seeing moons circle Jupiter helped show that not everything in space circles Earth."
   },
   {
@@ -864,11 +864,11 @@
    "q": "Which moon of Saturn shoots jets of water ice out into space?",
    "choices": [
     "Titan",
-    "Mimas",
     "Enceladus",
+    "Mimas",
     "Io"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "The jets come from an ocean hidden under Enceladus's icy shell."
   },
   {
@@ -876,12 +876,12 @@
    "category": "Space",
    "q": "Which moon of Saturn has a huge crater that makes it look like the Death Star from Star Wars?",
    "choices": [
-    "Titan",
     "Mimas",
+    "Titan",
     "Rhea",
     "Iapetus"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "The giant crater is named Herschel, and it is about a third as wide as Mimas itself."
   },
   {
@@ -890,11 +890,11 @@
    "q": "What is Neptune's largest moon?",
    "choices": [
     "Titan",
-    "Triton",
     "Charon",
+    "Triton",
     "Oberon"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Triton orbits backward, opposite to the way Neptune spins."
   },
   {
@@ -904,10 +904,10 @@
    "choices": [
     "Triton",
     "Nix",
-    "Phobos",
-    "Charon"
+    "Charon",
+    "Phobos"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Charon is about half as wide as Pluto, so the two are sometimes called a double system."
   },
   {
@@ -916,11 +916,11 @@
    "q": "In what year was Pluto reclassified as a dwarf planet?",
    "choices": [
     "1930",
+    "2006",
     "1999",
-    "2015",
-    "2006"
+    "2015"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Pluto was reclassified because it shares its orbit with many other icy objects."
   },
   {
@@ -929,11 +929,11 @@
    "q": "In what year was Pluto discovered?",
    "choices": [
     "1846",
-    "1781",
     "1930",
+    "1781",
     "1969"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Pluto was spotted by comparing photos of the sky taken a few nights apart."
   },
   {
@@ -941,12 +941,12 @@
    "category": "Space",
    "q": "Who discovered Pluto?",
    "choices": [
-    "Clyde Tombaugh",
     "Edwin Hubble",
+    "Clyde Tombaugh",
     "William Herschel",
     "Carl Sagan"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "Clyde Tombaugh was 24 years old when he found Pluto at Lowell Observatory in Arizona."
   },
   {
@@ -954,12 +954,12 @@
    "category": "Space",
    "q": "Which spacecraft flew past Pluto in 2015?",
    "choices": [
+    "New Horizons",
     "Voyager 1",
     "Cassini",
-    "Juno",
-    "New Horizons"
+    "Juno"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "New Horizons found a huge heart-shaped plain of ice on Pluto."
   },
   {
@@ -982,10 +982,10 @@
    "choices": [
     "Vesta",
     "Pluto",
-    "Eros",
-    "Ceres"
+    "Ceres",
+    "Eros"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Ceres is so big and round that it is classified as a dwarf planet."
   },
   {
@@ -1020,11 +1020,11 @@
    "q": "What is the giant, faraway shell of icy objects thought to surround the solar system called?",
    "choices": [
     "Kuiper Belt",
-    "Oort Cloud",
     "Asteroid belt",
-    "Milky Way"
+    "Milky Way",
+    "Oort Cloud"
    ],
-   "answer": 1,
+   "answer": 3,
    "fact": "Many comets that take thousands of years to orbit the Sun are thought to come from the Oort Cloud."
   },
   {
@@ -1033,11 +1033,11 @@
    "q": "What is a comet mostly made of?",
    "choices": [
     "Iron and nickel",
-    "Ice, dust and rock",
     "Hot gas",
+    "Ice, dust and rock",
     "Pure metal"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Comets are often called dirty snowballs."
   },
   {
@@ -1047,10 +1047,10 @@
    "choices": [
     "Toward the Sun",
     "Toward Earth",
-    "Away from the Sun",
-    "Always behind it"
+    "Always behind it",
+    "Away from the Sun"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Sunlight and the solar wind push the tail away from the Sun, so it can even lead the comet."
   },
   {
@@ -1059,11 +1059,11 @@
    "q": "About how often does Halley's Comet come back near Earth?",
    "choices": [
     "Every year",
+    "About every 76 years",
     "About every 10 years",
-    "About every 500 years",
-    "About every 76 years"
+    "About every 500 years"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Halley's Comet was last seen in 1986 and is due back in 2061."
   },
   {
@@ -1071,12 +1071,12 @@
    "category": "Space",
    "q": "Who correctly predicted that a famous comet would return in 1758?",
    "choices": [
-    "Edmond Halley",
     "Isaac Newton",
     "Galileo Galilei",
+    "Edmond Halley",
     "Johannes Kepler"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Halley died before it came back, but the comet was named after him."
   },
   {
@@ -1112,10 +1112,10 @@
    "choices": [
     "Leonids",
     "Geminids",
-    "Orionids",
-    "Perseids"
+    "Perseids",
+    "Orionids"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "The Perseids come from dust left behind by Comet Swift-Tuttle."
   },
   {
@@ -1137,11 +1137,11 @@
    "q": "What is a black hole?",
    "choices": [
     "An empty hole with nothing in it",
-    "A place where gravity is so strong that not even light can escape",
     "A planet with no sunlight",
-    "A tunnel to another galaxy"
+    "A tunnel to another galaxy",
+    "A place where gravity is so strong that not even light can escape"
    ],
-   "answer": 1,
+   "answer": 3,
    "fact": "Black holes form when very big stars collapse."
   },
   {
@@ -1149,12 +1149,12 @@
    "category": "Space",
    "q": "What is the boundary around a black hole, past which nothing can escape, called?",
    "choices": [
-    "Event horizon",
     "Black line",
     "Accretion disk",
-    "Dark edge"
+    "Dark edge",
+    "Event horizon"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Once anything crosses the event horizon, it can never come back out."
   },
   {
@@ -1164,10 +1164,10 @@
    "choices": [
     "Andromeda X",
     "Cygnus Prime",
-    "Orion Zero",
-    "Sagittarius A*"
+    "Sagittarius A*",
+    "Orion Zero"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Sagittarius A* has about 4 million times the mass of the Sun."
   },
   {
@@ -1228,11 +1228,11 @@
    "q": "What will the Sun swell into near the end of its life?",
    "choices": [
     "A black hole",
-    "A red giant",
     "A supernova",
+    "A red giant",
     "A comet"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "After that, the Sun will shrink into a small, hot star called a white dwarf."
   },
   {
@@ -1241,11 +1241,11 @@
    "q": "About how much longer will the Sun keep shining the way it does now?",
    "choices": [
     "About 100 years",
-    "About 5 billion years",
     "About 1 million years",
+    "About 5 billion years",
     "About 500 billion years"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "The Sun is about halfway through its life."
   },
   {
@@ -1255,10 +1255,10 @@
    "choices": [
     "Red",
     "Orange",
-    "Yellow",
-    "Blue"
+    "Blue",
+    "Yellow"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Blue stars can be several times hotter than our yellow Sun."
   },
   {
@@ -1281,10 +1281,10 @@
    "choices": [
     "Rigel",
     "Sirius",
-    "Betelgeuse",
-    "Polaris"
+    "Polaris",
+    "Betelgeuse"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Betelgeuse is so big that if it replaced the Sun, it would swallow the orbits of Mercury, Venus, Earth and Mars."
   },
   {
@@ -1305,12 +1305,12 @@
    "category": "Space",
    "q": "What is the nearest big spiral galaxy to the Milky Way?",
    "choices": [
+    "Andromeda Galaxy",
     "Whirlpool Galaxy",
     "Sombrero Galaxy",
-    "Andromeda Galaxy",
     "Pinwheel Galaxy"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "The Andromeda Galaxy is about 2.5 million light-years away and can be seen without a telescope on dark nights."
   },
   {
@@ -1320,10 +1320,10 @@
    "choices": [
     "A ball",
     "A ring",
-    "A barred spiral",
-    "A cube"
+    "A cube",
+    "A barred spiral"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "From above, the Milky Way would look like a pinwheel with a bar of stars across its middle."
   },
   {
@@ -1331,12 +1331,12 @@
    "category": "Space",
    "q": "About how long does the Sun take to circle the center of the Milky Way once?",
    "choices": [
+    "About 230 million years",
     "About one year",
     "About 1,000 years",
-    "About 10 billion years",
-    "About 230 million years"
+    "About 10 billion years"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "The last time the Sun was in this spot in its orbit, the first dinosaurs were just appearing."
   },
   {
@@ -1344,12 +1344,12 @@
    "category": "Space",
    "q": "About how old is the universe?",
    "choices": [
-    "About 13.8 billion years",
     "About 4.6 billion years",
     "About 6,000 years",
-    "About 100 trillion years"
+    "About 100 trillion years",
+    "About 13.8 billion years"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Scientists worked this out by studying the faint glow left over from the Big Bang."
   },
   {
@@ -1358,11 +1358,11 @@
    "q": "About how old is the solar system?",
    "choices": [
     "About 13.8 billion years",
-    "About 1 million years",
     "About 4.6 billion years",
+    "About 1 million years",
     "About 100 million years"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Scientists learned this partly by dating very old meteorites."
   },
   {
@@ -1372,10 +1372,10 @@
    "choices": [
     "The Big Crunch",
     "The Great Spark",
-    "The Big Bang",
-    "The Cosmic Split"
+    "The Cosmic Split",
+    "The Big Bang"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "The name Big Bang was first used by astronomer Fred Hoyle, who did not even like the idea."
   },
   {
@@ -1385,10 +1385,10 @@
    "choices": [
     "Albert Einstein",
     "Galileo Galilei",
-    "Edwin Hubble",
-    "Isaac Newton"
+    "Isaac Newton",
+    "Edwin Hubble"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "This was one of the first big clues that the universe is expanding."
   },
   {
@@ -1410,11 +1410,11 @@
    "q": "Who worked out that planets move in oval-shaped paths called ellipses?",
    "choices": [
     "Nicolaus Copernicus",
-    "Galileo Galilei",
     "Johannes Kepler",
+    "Galileo Galilei",
     "Tycho Brahe"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Kepler's three laws of planetary motion are still used today."
   },
   {
@@ -1422,12 +1422,12 @@
    "category": "Space",
    "q": "Which planet has the shortest day?",
    "choices": [
-    "Jupiter",
     "Mercury",
     "Earth",
+    "Jupiter",
     "Venus"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Jupiter spins once in about 10 hours, even though it is the biggest planet."
   },
   {
@@ -1435,12 +1435,12 @@
    "category": "Space",
    "q": "Which planet has a day that is longer than its year?",
    "choices": [
-    "Venus",
     "Mercury",
     "Mars",
+    "Venus",
     "Neptune"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Venus takes about 243 Earth days to spin once but only about 225 days to orbit the Sun."
   },
   {
@@ -1448,12 +1448,12 @@
    "category": "Space",
    "q": "Which of these planets spins in the opposite direction from Earth?",
    "choices": [
-    "Mars",
     "Venus",
+    "Mars",
     "Saturn",
     "Jupiter"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "On Venus, the Sun rises in the west and sets in the east."
   },
   {
@@ -1461,12 +1461,12 @@
    "category": "Space",
    "q": "Which planet has the most known moons, as of 2025?",
    "choices": [
-    "Saturn",
     "Jupiter",
+    "Saturn",
     "Uranus",
     "Neptune"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "As of 2025, Saturn has 274 known moons, far more than any other planet."
   },
   {
@@ -1474,12 +1474,12 @@
    "category": "Space",
    "q": "About how many known moons does Jupiter have, as of 2025?",
    "choices": [
-    "More than 90",
     "Exactly 4",
     "About 12",
+    "More than 90",
     "More than 500"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Most of Jupiter's moons are tiny, only a few kilometers wide."
   },
   {
@@ -1487,12 +1487,12 @@
    "category": "Space",
    "q": "How many moons does Mars have?",
    "choices": [
-    "2",
     "0",
     "1",
-    "4"
+    "4",
+    "2"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Both of Mars's moons are small and lumpy, like potatoes."
   },
   {
@@ -1502,10 +1502,10 @@
    "choices": [
     "Mars and Venus",
     "Mercury and Mars",
-    "Earth and Venus",
-    "Mercury and Venus"
+    "Mercury and Venus",
+    "Earth and Venus"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Mercury and Venus are so close to the Sun that a moon would be hard to keep."
   },
   {
@@ -1514,11 +1514,11 @@
    "q": "Which planet is the densest in the solar system?",
    "choices": [
     "Jupiter",
+    "Earth",
     "Mercury",
-    "Saturn",
-    "Earth"
+    "Saturn"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Earth's big iron and nickel core makes it the densest planet."
   },
   {
@@ -1526,12 +1526,12 @@
    "category": "Space",
    "q": "Which planet is less dense than water, so it could float in a giant enough bathtub?",
    "choices": [
-    "Saturn",
     "Jupiter",
     "Neptune",
-    "Mars"
+    "Mars",
+    "Saturn"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Saturn is mostly hydrogen and helium, the two lightest elements."
   },
   {
@@ -1539,12 +1539,12 @@
    "category": "Space",
    "q": "What are Saturn's rings mostly made of?",
    "choices": [
+    "Chunks of water ice",
     "Hot gas",
     "Solid gold",
-    "Chunks of water ice",
     "Lava rock"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "The pieces range from tiny grains to chunks as big as a house."
   },
   {
@@ -1552,12 +1552,12 @@
    "category": "Space",
    "q": "Which of these planets also has rings, though they are very faint?",
    "choices": [
+    "Uranus",
     "Mars",
     "Venus",
-    "Mercury",
-    "Uranus"
+    "Mercury"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "All four giant planets, Jupiter, Saturn, Uranus and Neptune, have rings."
   },
   {
@@ -1566,11 +1566,11 @@
    "q": "How thick are most of Saturn's main rings?",
    "choices": [
     "About 1,000 kilometers",
+    "Often only about 10 meters",
     "About 100,000 kilometers",
-    "As thick as Earth",
-    "Often only about 10 meters"
+    "As thick as Earth"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "The rings are hundreds of thousands of kilometers wide but amazingly thin, like a giant sheet of paper."
   },
   {
@@ -1592,11 +1592,11 @@
    "q": "Which planet has a giant six-sided storm pattern at its north pole?",
    "choices": [
     "Jupiter",
-    "Saturn",
     "Neptune",
+    "Saturn",
     "Uranus"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Each side of Saturn's hexagon is wider than Earth."
   },
   {
@@ -1618,11 +1618,11 @@
    "q": "Which planet was the first to be discovered with a telescope?",
    "choices": [
     "Neptune",
-    "Uranus",
     "Saturn",
+    "Uranus",
     "Jupiter"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Before 1781, people only knew of the planets they could see with their eyes."
   },
   {
@@ -1632,10 +1632,10 @@
    "choices": [
     "Galileo Galilei",
     "Clyde Tombaugh",
-    "Edmond Halley",
-    "William Herschel"
+    "William Herschel",
+    "Edmond Halley"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Herschel first thought it might be a comet."
   },
   {
@@ -1643,12 +1643,12 @@
    "category": "Space",
    "q": "Which planet was found by using math before anyone saw it?",
    "choices": [
-    "Uranus",
     "Neptune",
+    "Uranus",
     "Mars",
     "Jupiter"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Astronomers noticed Uranus was being tugged by something, calculated where it was, and found Neptune in 1846."
   },
   {
@@ -1658,10 +1658,10 @@
    "choices": [
     "Neptune",
     "Mercury",
-    "Mars",
-    "Uranus"
+    "Uranus",
+    "Mars"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Uranus has dropped to about minus 224 degrees Celsius, even colder than Neptune, which is farther away."
   },
   {
@@ -1682,12 +1682,12 @@
    "category": "Space",
    "q": "How long is a year on Mercury?",
    "choices": [
-    "88 Earth days",
     "365 Earth days",
+    "88 Earth days",
     "12 Earth days",
     "687 Earth days"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "Mercury is the fastest planet, zooming around the Sun at about 47 kilometers per second."
   },
   {
@@ -1722,11 +1722,11 @@
    "q": "About how long does Neptune take to orbit the Sun once?",
    "choices": [
     "About 12 Earth years",
-    "About 165 Earth years",
     "About 29 Earth years",
+    "About 165 Earth years",
     "About 84 Earth years"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Neptune finished its first full orbit since its discovery in 2011."
   },
   {
@@ -1747,12 +1747,12 @@
    "category": "Space",
    "q": "About how long is a day on Mars?",
    "choices": [
+    "A little over 24 hours",
     "About 10 hours",
     "About 243 Earth days",
-    "Exactly 12 hours",
-    "A little over 24 hours"
+    "Exactly 12 hours"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "From one sunrise to the next, a day on Mars lasts about 24 hours and 40 minutes, very close to an Earth day."
   },
   {
@@ -1760,12 +1760,12 @@
    "category": "Space",
    "q": "What do scientists call a day on Mars?",
    "choices": [
-    "A sol",
     "A mars-day",
     "A lun",
-    "An orb"
+    "An orb",
+    "A sol"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Mission teams keep track of rovers by counting sols since landing."
   },
   {
@@ -1787,11 +1787,11 @@
    "q": "On which planet would you weigh the most?",
    "choices": [
     "Saturn",
-    "Earth",
     "Jupiter",
+    "Earth",
     "Neptune"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Jupiter's gravity at its cloud tops is about 2.4 times as strong as Earth's."
   },
   {
@@ -1814,10 +1814,10 @@
    "choices": [
     "Drag",
     "Friction",
-    "Thrust",
-    "Lift"
+    "Lift",
+    "Thrust"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Rockets make thrust by blasting hot gas out the bottom very fast."
   },
   {
@@ -1825,12 +1825,12 @@
    "category": "Space",
    "q": "Which giant rocket launched the Apollo astronauts to the Moon?",
    "choices": [
-    "Falcon 9",
     "Saturn V",
+    "Falcon 9",
     "Atlas V",
     "Delta IV"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "The Saturn V stood about 110 meters tall, taller than the Statue of Liberty."
   },
   {
@@ -1839,11 +1839,11 @@
    "q": "Which company builds the Falcon 9 rocket?",
    "choices": [
     "Blue Origin",
+    "SpaceX",
     "Boeing",
-    "Lockheed Martin",
-    "SpaceX"
+    "Lockheed Martin"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Falcon 9 first stages land back on Earth so they can be flown again."
   },
   {
@@ -1866,10 +1866,10 @@
    "choices": [
     "2019",
     "2017",
-    "2022",
-    "2015"
+    "2015",
+    "2022"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Artemis I tested NASA's giant SLS rocket and the Orion spacecraft."
   },
   {
@@ -1877,12 +1877,12 @@
    "category": "Space",
    "q": "What is the name of the spacecraft that carries astronauts on NASA's Artemis missions?",
    "choices": [
+    "Orion",
     "Dragon",
     "Soyuz",
-    "Starliner",
-    "Orion"
+    "Starliner"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "Orion is named after one of the most famous constellations in the sky."
   },
   {
@@ -1890,12 +1890,12 @@
    "category": "Space",
    "q": "What is the name of Russia's long-used crewed spacecraft?",
    "choices": [
-    "Soyuz",
     "Vostok",
     "Dragon",
-    "Shenzhou"
+    "Shenzhou",
+    "Soyuz"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Soyuz spacecraft have been carrying people to space since 1967."
   },
   {
@@ -1904,11 +1904,11 @@
    "q": "What is SpaceX's spacecraft for carrying astronauts called?",
    "choices": [
     "Orion",
-    "Crew Dragon",
     "Starliner",
-    "Soyuz"
+    "Soyuz",
+    "Crew Dragon"
    ],
-   "answer": 1,
+   "answer": 3,
    "fact": "In 2020, Crew Dragon became the first private spacecraft to carry astronauts to the International Space Station."
   },
   {
@@ -1917,11 +1917,11 @@
    "q": "What is SpaceX's giant, fully reusable rocket called?",
    "choices": [
     "Falcon Heavy",
-    "New Glenn",
     "Starship",
+    "New Glenn",
     "Saturn V"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "As of 2025, Starship is the largest and most powerful rocket ever flown."
   },
   {
@@ -1930,11 +1930,11 @@
    "q": "Who founded the rocket company SpaceX?",
    "choices": [
     "Jeff Bezos",
-    "Elon Musk",
     "Richard Branson",
-    "Bill Gates"
+    "Bill Gates",
+    "Elon Musk"
    ],
-   "answer": 1,
+   "answer": 3,
    "fact": "SpaceX was founded in 2002."
   },
   {
@@ -1955,12 +1955,12 @@
    "category": "Space",
    "q": "Which company launches thousands of Starlink internet satellites?",
    "choices": [
-    "Amazon",
     "SpaceX",
+    "Amazon",
     "Apple",
     "NASA"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "As of 2025, SpaceX has launched more satellites than any other company in history."
   },
   {
@@ -1968,12 +1968,12 @@
    "category": "Space",
    "q": "Who was the first space tourist, who paid to visit the International Space Station in 2001?",
    "choices": [
-    "Elon Musk",
     "Dennis Tito",
+    "Elon Musk",
     "Richard Branson",
     "William Shatner"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Dennis Tito spent about eight days in space."
   },
   {
@@ -1983,10 +1983,10 @@
    "choices": [
     "Voyager 2",
     "New Horizons",
-    "Pioneer 10",
-    "Voyager 1"
+    "Voyager 1",
+    "Pioneer 10"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "As of 2025, Voyager 1 is more than 24 billion kilometers from Earth."
   },
   {
@@ -2007,12 +2007,12 @@
    "category": "Space",
    "q": "In what year did Voyager 1 and Voyager 2 launch?",
    "choices": [
-    "1977",
     "1969",
     "1990",
+    "1977",
     "2006"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "Both spacecraft are still sending signals back to Earth decades later."
   },
   {
@@ -2021,11 +2021,11 @@
    "q": "Which spacecraft was the first to reach interstellar space, outside the Sun's bubble?",
    "choices": [
     "Voyager 2",
-    "Pioneer 10",
     "Voyager 1",
+    "Pioneer 10",
     "New Horizons"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Voyager 1 crossed into interstellar space in 2012."
   },
   {
@@ -2035,10 +2035,10 @@
    "choices": [
     "Voyager 1",
     "Cassini",
-    "Voyager 2",
-    "New Horizons"
+    "New Horizons",
+    "Voyager 2"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Voyager 2 flew past Uranus in 1986 and Neptune in 1989."
   },
   {
@@ -2046,12 +2046,12 @@
    "category": "Space",
    "q": "Which spacecraft orbited Saturn from 2004 to 2017?",
    "choices": [
-    "Cassini",
     "Juno",
     "Galileo",
-    "Magellan"
+    "Magellan",
+    "Cassini"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "Cassini ended its mission by diving into Saturn on purpose."
   },
   {
@@ -2061,10 +2061,10 @@
    "choices": [
     "Cassini",
     "Pioneer 10",
-    "Dawn",
-    "Juno"
+    "Juno",
+    "Dawn"
    ],
-   "answer": 3,
+   "answer": 2,
    "fact": "Juno carried three small LEGO figures, including one of Galileo."
   },
   {
@@ -2087,10 +2087,10 @@
    "choices": [
     "Philae",
     "Pathfinder",
-    "Huygens",
-    "Viking 2"
+    "Viking 2",
+    "Huygens"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Huygens is still the farthest landing ever made from Earth."
   },
   {
@@ -2100,10 +2100,10 @@
    "choices": [
     "United States",
     "Russia",
-    "China",
-    "India"
+    "India",
+    "China"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "China's Chang'e 4 lander carried a rover called Yutu-2."
   },
   {
@@ -2111,12 +2111,12 @@
    "category": "Space",
    "q": "Which country landed near the Moon's south pole with Chandrayaan-3 in 2023?",
    "choices": [
+    "India",
     "China",
     "Japan",
-    "Israel",
-    "India"
+    "Israel"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "India became the first country to land near the Moon's south pole."
   },
   {
@@ -2125,11 +2125,11 @@
    "q": "Which spacecraft made the first soft landing on the Moon, in 1966?",
    "choices": [
     "Apollo 11",
-    "Surveyor 1",
     "Luna 9",
+    "Surveyor 1",
     "Sputnik 2"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "The Soviet Luna 9 sent back the first pictures from the Moon's surface."
   },
   {
@@ -2151,11 +2151,11 @@
    "q": "What is the name of the star pattern that looks like a big ladle or saucepan?",
    "choices": [
     "The Little Dipper",
-    "The Big Dipper",
     "Orion's Belt",
+    "The Big Dipper",
     "The Southern Cross"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "The two stars at the end of the Big Dipper's bowl point toward Polaris."
   },
   {
@@ -2177,11 +2177,11 @@
    "q": "What are the three bright stars in a row in the middle of Orion called?",
    "choices": [
     "Orion's Sword",
-    "The Seven Sisters",
     "Orion's Belt",
+    "The Seven Sisters",
     "The Big Dipper"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Following Orion's Belt to the left leads you to Sirius."
   },
   {
@@ -2190,11 +2190,11 @@
    "q": "Which constellation is shaped like the letter W or M?",
    "choices": [
     "Orion",
-    "Leo",
     "Cassiopeia",
+    "Leo",
     "Scorpius"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Cassiopeia was a vain queen in Greek mythology."
   },
   {
@@ -2203,11 +2203,11 @@
    "q": "What is the Pleiades star cluster also known as?",
    "choices": [
     "The Big Dipper",
+    "The Seven Sisters",
     "The Three Kings",
-    "The Northern Cross",
-    "The Seven Sisters"
+    "The Northern Cross"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "The Pleiades holds hundreds of stars, but most people can see only about six or seven with their eyes."
   },
   {
@@ -2216,11 +2216,11 @@
    "q": "Which constellation is used to find south in the Southern Hemisphere?",
    "choices": [
     "The Big Dipper",
-    "The Southern Cross",
     "Cassiopeia",
+    "The Southern Cross",
     "Ursa Minor"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "The Southern Cross appears on the flags of Australia, New Zealand and Brazil."
   },
   {
@@ -2228,12 +2228,12 @@
    "category": "Space",
    "q": "How many official constellations are there?",
    "choices": [
-    "88",
     "12",
     "50",
-    "100"
+    "100",
+    "88"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "The International Astronomical Union set the 88 official constellations."
   },
   {
@@ -2267,12 +2267,12 @@
    "category": "Space",
    "q": "Which constellation is shaped like a lion?",
    "choices": [
-    "Taurus",
     "Leo",
+    "Taurus",
     "Aries",
     "Cancer"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Leo's brightest star is called Regulus."
   },
   {
@@ -2295,10 +2295,10 @@
    "choices": [
     "Betelgeuse",
     "Aldebaran",
-    "Antares",
-    "Sirius"
+    "Sirius",
+    "Antares"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Antares means rival of Mars because its red color looks like the planet."
   },
   {
@@ -2308,10 +2308,10 @@
    "choices": [
     "Aquila",
     "Lyra",
-    "Cygnus",
-    "Pegasus"
+    "Pegasus",
+    "Cygnus"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Cygnus is also called the Northern Cross."
   },
   {
@@ -2319,12 +2319,12 @@
    "category": "Space",
    "q": "Which three bright stars form the Summer Triangle?",
    "choices": [
+    "Vega, Deneb and Altair",
     "Sirius, Rigel and Betelgeuse",
     "Polaris, Vega and Sirius",
-    "Vega, Deneb and Altair",
     "Antares, Spica and Regulus"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "The Summer Triangle is high in the sky on summer nights in the Northern Hemisphere."
   },
   {
@@ -2332,12 +2332,12 @@
    "category": "Space",
    "q": "What is an asterism?",
    "choices": [
-    "A star pattern that is not an official constellation",
     "A small asteroid",
     "A star that twinkles",
+    "A star pattern that is not an official constellation",
     "A crater on the Moon"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "The Big Dipper is an asterism that is part of the constellation Ursa Major."
   },
   {
@@ -2372,11 +2372,11 @@
    "q": "What causes the auroras, like the northern lights?",
    "choices": [
     "Moonlight reflecting off ice",
-    "Lightning high in the clouds",
     "Particles from the Sun hitting Earth's upper air",
+    "Lightning high in the clouds",
     "City lights bouncing off clouds"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "The colors come from oxygen glowing green or red and nitrogen glowing blue or purple."
   },
   {
@@ -2385,11 +2385,11 @@
    "q": "What is the scientific name for the northern lights?",
    "choices": [
     "Aurora australis",
+    "Aurora borealis",
     "Corona borealis",
-    "Polaris lumina",
-    "Aurora borealis"
+    "Polaris lumina"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "The southern lights are called the aurora australis."
   },
   {
@@ -2397,12 +2397,12 @@
    "category": "Space",
    "q": "What is the solar wind?",
    "choices": [
-    "A stream of charged particles flowing out from the Sun",
     "Wind on Earth on sunny days",
     "Air moved by solar panels",
+    "A stream of charged particles flowing out from the Sun",
     "Wind on the Sun's surface"
    ],
-   "answer": 0,
+   "answer": 2,
    "fact": "The solar wind blows out past all the planets."
   },
   {
@@ -2411,11 +2411,11 @@
    "q": "What protects Earth from much of the solar wind?",
    "choices": [
     "The Moon",
-    "Earth's magnetic field",
     "The ozone layer",
+    "Earth's magnetic field",
     "Clouds"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Earth's magnetic field acts like an invisible shield around the planet."
   },
   {
@@ -2424,11 +2424,11 @@
    "q": "What is the giant bubble made by the solar wind around the solar system called?",
    "choices": [
     "Atmosphere",
+    "Heliosphere",
     "Ionosphere",
-    "Stratosphere",
-    "Heliosphere"
+    "Stratosphere"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "Voyager 1 and Voyager 2 have both passed through the edge of the heliosphere."
   },
   {
@@ -2436,12 +2436,12 @@
    "category": "Space",
    "q": "What are the two belts of charged particles trapped by Earth's magnetic field called?",
    "choices": [
-    "Van Allen belts",
     "Kuiper Belt",
+    "Van Allen belts",
     "Asteroid belt",
     "Orion's Belt"
    ],
-   "answer": 0,
+   "answer": 1,
    "fact": "They were discovered in 1958 by America's first satellite, Explorer 1."
   },
   {
@@ -2463,11 +2463,11 @@
    "q": "What is the average distance from Earth to the Sun called when it is used as a unit?",
    "choices": [
     "A light-year",
+    "An astronomical unit",
     "A parsec",
-    "A light-second",
-    "An astronomical unit"
+    "A light-second"
    ],
-   "answer": 3,
+   "answer": 1,
    "fact": "One astronomical unit is about 150 million kilometers."
   },
   {
@@ -2477,10 +2477,10 @@
    "choices": [
     "About 38,000 kilometers",
     "About 3.8 million kilometers",
-    "About 384,000 kilometers",
-    "About 150 million kilometers"
+    "About 150 million kilometers",
+    "About 384,000 kilometers"
    ],
-   "answer": 2,
+   "answer": 3,
    "fact": "Light reflected off the Moon takes only about 1.3 seconds to reach Earth."
   },
   {
@@ -2488,12 +2488,12 @@
    "category": "Space",
    "q": "How is the Moon's distance from Earth changing?",
    "choices": [
-    "It gets closer every year",
     "It moves about 3.8 centimeters farther away each year",
+    "It gets closer every year",
     "It never changes",
     "It moves 1 kilometer farther each year"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Scientists measure this by bouncing lasers off mirrors left on the Moon by Apollo astronauts."
   },
   {
@@ -2502,11 +2502,11 @@
    "q": "How do most scientists think the Moon formed?",
    "choices": [
     "It was a captured asteroid",
-    "From debris after a planet-sized object hit Earth",
     "It was a comet that froze",
+    "From debris after a planet-sized object hit Earth",
     "It formed inside the Sun"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "The object that hit young Earth is often called Theia."
   },
   {
@@ -2515,11 +2515,11 @@
    "q": "Why can footprints on the Moon last for millions of years?",
    "choices": [
     "The ground is made of glue",
-    "Astronauts wore heavy boots",
     "There is no wind or rain to erase them",
+    "Astronauts wore heavy boots",
     "Robots guard them"
    ],
-   "answer": 2,
+   "answer": 1,
    "fact": "Small meteorites will slowly wear them away, but it will take a very long time."
   },
   {
@@ -2527,12 +2527,12 @@
    "category": "Space",
    "q": "What is the Moon phase called when we cannot see the Moon at all?",
    "choices": [
-    "Full moon",
     "New moon",
+    "Full moon",
     "Half moon",
     "Gibbous moon"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "During a new moon, the Moon's lit side faces away from Earth."
   },
   {
@@ -2540,12 +2540,12 @@
    "category": "Space",
    "q": "What is the Moon phase called when it is more than half lit but not yet full?",
    "choices": [
+    "Gibbous",
     "Crescent",
     "New",
-    "Quarter",
-    "Gibbous"
+    "Quarter"
    ],
-   "answer": 3,
+   "answer": 0,
    "fact": "Gibbous comes from an old word meaning humped."
   },
   {
@@ -2554,11 +2554,11 @@
    "q": "What is a blue moon usually?",
    "choices": [
     "A moon that looks blue",
-    "A second full moon in one calendar month",
     "A moon during an eclipse",
+    "A second full moon in one calendar month",
     "The first full moon of winter"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "Blue moons happen about once every two to three years, which is why people say once in a blue moon."
   },
   {
@@ -2567,11 +2567,11 @@
    "q": "What is a supermoon?",
    "choices": [
     "A moon twice its normal size",
-    "A full moon when the Moon is near its closest to Earth",
     "A moon you can see during the day",
+    "A full moon when the Moon is near its closest to Earth",
     "A new moon during an eclipse"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "A supermoon looks a little bigger and brighter than an ordinary full moon."
   },
   {
@@ -2579,12 +2579,12 @@
    "category": "Space",
    "q": "Which side of the Moon is often wrongly called the dark side?",
    "choices": [
+    "The far side",
     "The near side",
     "The south pole",
-    "The far side",
     "The equator"
    ],
-   "answer": 2,
+   "answer": 0,
    "fact": "The far side gets just as much sunlight as the side we see."
   },
   {
@@ -2592,12 +2592,12 @@
    "category": "Space",
    "q": "Why does the Moon look bigger when it is near the horizon?",
    "choices": [
-    "It is a trick of the brain",
     "It is closer to Earth then",
     "The air magnifies it a lot",
-    "It actually grows"
+    "It actually grows",
+    "It is a trick of the brain"
    ],
-   "answer": 0,
+   "answer": 3,
    "fact": "If you take a photo, the Moon near the horizon is the same size as when it is high in the sky."
   }
  ]

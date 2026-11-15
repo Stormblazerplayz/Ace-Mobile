@@ -1,0 +1,2513 @@
+{
+ "questions": [
+  {
+   "id": "geography-1001",
+   "category": "Geography",
+   "q": "What is the capital city of Italy?",
+   "choices": [
+    "Naples",
+    "Milan",
+    "Rome",
+    "Venice"
+   ],
+   "answer": 2,
+   "fact": "Rome is so old that it is nicknamed the Eternal City."
+  },
+  {
+   "id": "geography-1002",
+   "category": "Geography",
+   "q": "What is the capital city of Spain?",
+   "choices": [
+    "Valencia",
+    "Seville",
+    "Barcelona",
+    "Madrid"
+   ],
+   "answer": 3,
+   "fact": "Madrid sits almost exactly in the middle of Spain."
+  },
+  {
+   "id": "geography-1003",
+   "category": "Geography",
+   "q": "What is the capital city of Germany?",
+   "choices": [
+    "Frankfurt",
+    "Hamburg",
+    "Berlin",
+    "Munich"
+   ],
+   "answer": 2,
+   "fact": "Berlin covers more than eight times as much land as Paris."
+  },
+  {
+   "id": "geography-1004",
+   "category": "Geography",
+   "q": "What is the capital city of the United Kingdom?",
+   "choices": [
+    "Edinburgh",
+    "Manchester",
+    "London",
+    "Birmingham"
+   ],
+   "answer": 2,
+   "fact": "London was founded by the Romans almost 2,000 years ago as Londinium."
+  },
+  {
+   "id": "geography-1005",
+   "category": "Geography",
+   "q": "What is the capital city of Russia?",
+   "choices": [
+    "Novosibirsk",
+    "Kazan",
+    "Saint Petersburg",
+    "Moscow"
+   ],
+   "answer": 3,
+   "fact": "Moscow has one of the busiest metro systems in the world, with stations decorated like palaces."
+  },
+  {
+   "id": "geography-1006",
+   "category": "Geography",
+   "q": "What is the capital city of China?",
+   "choices": [
+    "Beijing",
+    "Shanghai",
+    "Guangzhou",
+    "Hong Kong"
+   ],
+   "answer": 0,
+   "fact": "Beijing means \"northern capital\" in Chinese."
+  },
+  {
+   "id": "geography-1007",
+   "category": "Geography",
+   "q": "What is the capital city of India?",
+   "choices": [
+    "Bangalore",
+    "Mumbai",
+    "Kolkata",
+    "New Delhi"
+   ],
+   "answer": 3,
+   "fact": "New Delhi was officially opened as India's capital in 1931."
+  },
+  {
+   "id": "geography-1008",
+   "category": "Geography",
+   "q": "What is the capital city of Mexico?",
+   "choices": [
+    "Mexico City",
+    "Cancún",
+    "Monterrey",
+    "Guadalajara"
+   ],
+   "answer": 0,
+   "fact": "Mexico City sits about 2,240 meters above sea level and is slowly sinking."
+  },
+  {
+   "id": "geography-1009",
+   "category": "Geography",
+   "q": "What is the capital city of Argentina?",
+   "choices": [
+    "Rosario",
+    "Buenos Aires",
+    "Mendoza",
+    "Córdoba"
+   ],
+   "answer": 1,
+   "fact": "Buenos Aires means \"good airs\" in Spanish."
+  },
+  {
+   "id": "geography-1010",
+   "category": "Geography",
+   "q": "What is the capital city of Peru?",
+   "choices": [
+    "Arequipa",
+    "Trujillo",
+    "Lima",
+    "Cusco"
+   ],
+   "answer": 2,
+   "fact": "Lima almost never gets rain, even though it sits right next to the ocean."
+  },
+  {
+   "id": "geography-1011",
+   "category": "Geography",
+   "q": "What is the capital city of Chile?",
+   "choices": [
+    "Concepción",
+    "Santiago",
+    "Antofagasta",
+    "Valparaíso"
+   ],
+   "answer": 1,
+   "fact": "From Santiago you can see the snowy Andes mountains on clear days."
+  },
+  {
+   "id": "geography-1012",
+   "category": "Geography",
+   "q": "What is the capital city of Colombia?",
+   "choices": [
+    "Bogotá",
+    "Cali",
+    "Cartagena",
+    "Medellín"
+   ],
+   "answer": 0,
+   "fact": "Bogotá is more than 2,600 meters above sea level, so it stays cool all year."
+  },
+  {
+   "id": "geography-1013",
+   "category": "Geography",
+   "q": "What is the capital city of Venezuela?",
+   "choices": [
+    "Barquisimeto",
+    "Maracaibo",
+    "Caracas",
+    "Valencia"
+   ],
+   "answer": 2,
+   "fact": "Caracas was the birthplace of Simón Bolívar."
+  },
+  {
+   "id": "geography-1014",
+   "category": "Geography",
+   "q": "What is the capital city of Kenya?",
+   "choices": [
+    "Mombasa",
+    "Nairobi",
+    "Kisumu",
+    "Nakuru"
+   ],
+   "answer": 1,
+   "fact": "Nairobi has a national park with lions and giraffes right next to the city."
+  },
+  {
+   "id": "geography-1015",
+   "category": "Geography",
+   "q": "What is the capital city of Nigeria?",
+   "choices": [
+    "Lagos",
+    "Abuja",
+    "Ibadan",
+    "Kano"
+   ],
+   "answer": 1,
+   "fact": "Abuja replaced Lagos as Nigeria's capital in 1991."
+  },
+  {
+   "id": "geography-1016",
+   "category": "Geography",
+   "q": "What is the capital city of Morocco?",
+   "choices": [
+    "Fez",
+    "Rabat",
+    "Marrakesh",
+    "Casablanca"
+   ],
+   "answer": 1,
+   "fact": "Many people guess Casablanca, but Rabat is the capital."
+  },
+  {
+   "id": "geography-1017",
+   "category": "Geography",
+   "q": "What is the capital city of Turkey?",
+   "choices": [
+    "Izmir",
+    "Antalya",
+    "Istanbul",
+    "Ankara"
+   ],
+   "answer": 3,
+   "fact": "Istanbul is bigger and more famous, but Ankara has been the capital since 1923."
+  },
+  {
+   "id": "geography-1018",
+   "category": "Geography",
+   "q": "What is the capital city of Greece?",
+   "choices": [
+    "Patras",
+    "Athens",
+    "Thessaloniki",
+    "Sparta"
+   ],
+   "answer": 1,
+   "fact": "Athens has been lived in for more than 3,000 years."
+  },
+  {
+   "id": "geography-1019",
+   "category": "Geography",
+   "q": "What is the capital city of Portugal?",
+   "choices": [
+    "Faro",
+    "Coimbra",
+    "Porto",
+    "Lisbon"
+   ],
+   "answer": 3,
+   "fact": "Lisbon is built on seven hills and is famous for its little yellow trams."
+  },
+  {
+   "id": "geography-1020",
+   "category": "Geography",
+   "q": "What is the capital city of Ireland?",
+   "choices": [
+    "Galway",
+    "Limerick",
+    "Cork",
+    "Dublin"
+   ],
+   "answer": 3,
+   "fact": "Dublin's name comes from Irish words meaning \"black pool\"."
+  },
+  {
+   "id": "geography-1021",
+   "category": "Geography",
+   "q": "What is the capital city of Scotland?",
+   "choices": [
+    "Aberdeen",
+    "Glasgow",
+    "Dundee",
+    "Edinburgh"
+   ],
+   "answer": 3,
+   "fact": "Edinburgh Castle sits on top of an old volcano."
+  },
+  {
+   "id": "geography-1022",
+   "category": "Geography",
+   "q": "What is the capital city of Wales?",
+   "choices": [
+    "Cardiff",
+    "Swansea",
+    "Wrexham",
+    "Newport"
+   ],
+   "answer": 0,
+   "fact": "Cardiff became the capital of Wales in 1955."
+  },
+  {
+   "id": "geography-1023",
+   "category": "Geography",
+   "q": "Which city is the seat of Switzerland's government, often called its capital?",
+   "choices": [
+    "Basel",
+    "Bern",
+    "Zurich",
+    "Geneva"
+   ],
+   "answer": 1,
+   "fact": "The Swiss call Bern the \"federal city\" rather than the capital."
+  },
+  {
+   "id": "geography-1024",
+   "category": "Geography",
+   "q": "What is the capital city of Belgium?",
+   "choices": [
+    "Bruges",
+    "Brussels",
+    "Ghent",
+    "Antwerp"
+   ],
+   "answer": 1,
+   "fact": "Brussels is also home to the main offices of the European Union."
+  },
+  {
+   "id": "geography-1025",
+   "category": "Geography",
+   "q": "What is the capital city of Austria?",
+   "choices": [
+    "Salzburg",
+    "Vienna",
+    "Graz",
+    "Innsbruck"
+   ],
+   "answer": 1,
+   "fact": "Vienna was home to famous composers like Mozart and Beethoven."
+  },
+  {
+   "id": "geography-1026",
+   "category": "Geography",
+   "q": "What is the capital city of Sweden?",
+   "choices": [
+    "Gothenburg",
+    "Malmö",
+    "Uppsala",
+    "Stockholm"
+   ],
+   "answer": 3,
+   "fact": "Stockholm is built on 14 islands connected by bridges."
+  },
+  {
+   "id": "geography-1027",
+   "category": "Geography",
+   "q": "What is the capital city of Norway?",
+   "choices": [
+    "Oslo",
+    "Bergen",
+    "Trondheim",
+    "Stavanger"
+   ],
+   "answer": 0,
+   "fact": "The Nobel Peace Prize is handed out in Oslo every year."
+  },
+  {
+   "id": "geography-1028",
+   "category": "Geography",
+   "q": "What is the capital city of Denmark?",
+   "choices": [
+    "Aalborg",
+    "Aarhus",
+    "Odense",
+    "Copenhagen"
+   ],
+   "answer": 3,
+   "fact": "Copenhagen has the famous Little Mermaid statue by the harbor."
+  },
+  {
+   "id": "geography-1029",
+   "category": "Geography",
+   "q": "What is the capital city of Finland?",
+   "choices": [
+    "Turku",
+    "Tampere",
+    "Helsinki",
+    "Oulu"
+   ],
+   "answer": 2,
+   "fact": "Helsinki has an underground swimming pool and church carved into rock."
+  },
+  {
+   "id": "geography-1030",
+   "category": "Geography",
+   "q": "What is the capital city of Poland?",
+   "choices": [
+    "Warsaw",
+    "Wrocław",
+    "Kraków",
+    "Gdańsk"
+   ],
+   "answer": 0,
+   "fact": "Warsaw's old town was almost completely destroyed in World War II and then carefully rebuilt."
+  },
+  {
+   "id": "geography-1031",
+   "category": "Geography",
+   "q": "What is the capital city of Iceland?",
+   "choices": [
+    "Nuuk",
+    "Oslo",
+    "Helsinki",
+    "Reykjavík"
+   ],
+   "answer": 3,
+   "fact": "Reykjavík is the northernmost capital city of any country."
+  },
+  {
+   "id": "geography-1032",
+   "category": "Geography",
+   "q": "What is the capital city of Ukraine?",
+   "choices": [
+    "Kharkiv",
+    "Lviv",
+    "Odesa",
+    "Kyiv"
+   ],
+   "answer": 3,
+   "fact": "Kyiv is one of the oldest cities in Eastern Europe, founded more than 1,400 years ago."
+  },
+  {
+   "id": "geography-1033",
+   "category": "Geography",
+   "q": "What is the capital city of Hungary?",
+   "choices": [
+    "Szeged",
+    "Budapest",
+    "Debrecen",
+    "Pécs"
+   ],
+   "answer": 1,
+   "fact": "Budapest was once two cities, Buda and Pest, on opposite sides of the Danube."
+  },
+  {
+   "id": "geography-1034",
+   "category": "Geography",
+   "q": "What is the capital city of the Czech Republic?",
+   "choices": [
+    "Plzeň",
+    "Prague",
+    "Brno",
+    "Ostrava"
+   ],
+   "answer": 1,
+   "fact": "Prague has an astronomical clock that has been ticking for over 600 years."
+  },
+  {
+   "id": "geography-1035",
+   "category": "Geography",
+   "q": "What is the capital city of South Korea?",
+   "choices": [
+    "Daegu",
+    "Incheon",
+    "Busan",
+    "Seoul"
+   ],
+   "answer": 3,
+   "fact": "About half of all South Koreans live in or around Seoul."
+  },
+  {
+   "id": "geography-1036",
+   "category": "Geography",
+   "q": "What is the capital city of North Korea?",
+   "choices": [
+    "Busan",
+    "Pyongyang",
+    "Kaesong",
+    "Seoul"
+   ],
+   "answer": 1,
+   "fact": "Pyongyang sits on the Taedong River."
+  },
+  {
+   "id": "geography-1037",
+   "category": "Geography",
+   "q": "What is the capital city of Thailand?",
+   "choices": [
+    "Phuket",
+    "Chiang Mai",
+    "Bangkok",
+    "Pattaya"
+   ],
+   "answer": 2,
+   "fact": "Bangkok's full ceremonial name is one of the longest place names in the world."
+  },
+  {
+   "id": "geography-1038",
+   "category": "Geography",
+   "q": "What is the capital city of Vietnam?",
+   "choices": [
+    "Hue",
+    "Hanoi",
+    "Da Nang",
+    "Ho Chi Minh City"
+   ],
+   "answer": 1,
+   "fact": "Hanoi is more than 1,000 years old."
+  },
+  {
+   "id": "geography-1039",
+   "category": "Geography",
+   "q": "What is the capital city of the Philippines?",
+   "choices": [
+    "Cebu",
+    "Iloilo",
+    "Davao",
+    "Manila"
+   ],
+   "answer": 3,
+   "fact": "Manila is one of the most crowded cities in the world."
+  },
+  {
+   "id": "geography-1040",
+   "category": "Geography",
+   "q": "What is the capital city of Malaysia?",
+   "choices": [
+    "Kota Kinabalu",
+    "Kuala Lumpur",
+    "George Town",
+    "Johor Bahru"
+   ],
+   "answer": 1,
+   "fact": "Kuala Lumpur is home to the Petronas Twin Towers."
+  },
+  {
+   "id": "geography-1041",
+   "category": "Geography",
+   "q": "What is the capital city of Pakistan?",
+   "choices": [
+    "Karachi",
+    "Peshawar",
+    "Lahore",
+    "Islamabad"
+   ],
+   "answer": 3,
+   "fact": "Islamabad was built as a brand new planned capital in the 1960s."
+  },
+  {
+   "id": "geography-1042",
+   "category": "Geography",
+   "q": "What is the capital city of Bangladesh?",
+   "choices": [
+    "Sylhet",
+    "Khulna",
+    "Chittagong",
+    "Dhaka"
+   ],
+   "answer": 3,
+   "fact": "Dhaka is famous for its colorful bicycle rickshaws."
+  },
+  {
+   "id": "geography-1043",
+   "category": "Geography",
+   "q": "What is the capital city of Nepal?",
+   "choices": [
+    "Pokhara",
+    "Kathmandu",
+    "Thimphu",
+    "Lhasa"
+   ],
+   "answer": 1,
+   "fact": "Kathmandu is the starting point for many trips to Mount Everest."
+  },
+  {
+   "id": "geography-1044",
+   "category": "Geography",
+   "q": "What is the capital city of Saudi Arabia?",
+   "choices": [
+    "Jeddah",
+    "Medina",
+    "Riyadh",
+    "Mecca"
+   ],
+   "answer": 2,
+   "fact": "Riyadh sits in the middle of the Arabian desert."
+  },
+  {
+   "id": "geography-1045",
+   "category": "Geography",
+   "q": "What is the capital city of Iran?",
+   "choices": [
+    "Tabriz",
+    "Isfahan",
+    "Tehran",
+    "Shiraz"
+   ],
+   "answer": 2,
+   "fact": "Tehran sits at the foot of the Alborz mountains, which have ski resorts."
+  },
+  {
+   "id": "geography-1046",
+   "category": "Geography",
+   "q": "What is the capital city of Iraq?",
+   "choices": [
+    "Erbil",
+    "Baghdad",
+    "Mosul",
+    "Basra"
+   ],
+   "answer": 1,
+   "fact": "Baghdad was one of the biggest and richest cities in the world about 1,200 years ago."
+  },
+  {
+   "id": "geography-1047",
+   "category": "Geography",
+   "q": "What is the capital city of the United Arab Emirates?",
+   "choices": [
+    "Ajman",
+    "Sharjah",
+    "Abu Dhabi",
+    "Dubai"
+   ],
+   "answer": 2,
+   "fact": "Dubai is more famous, but Abu Dhabi is the capital."
+  },
+  {
+   "id": "geography-1048",
+   "category": "Geography",
+   "q": "What is the capital city of New Zealand?",
+   "choices": [
+    "Auckland",
+    "Wellington",
+    "Christchurch",
+    "Queenstown"
+   ],
+   "answer": 1,
+   "fact": "Wellington is the southernmost capital city of any country."
+  },
+  {
+   "id": "geography-1049",
+   "category": "Geography",
+   "q": "What is the capital city of Cuba?",
+   "choices": [
+    "Camagüey",
+    "Santiago de Cuba",
+    "Varadero",
+    "Havana"
+   ],
+   "answer": 3,
+   "fact": "Havana is famous for its colorful old American cars from the 1950s."
+  },
+  {
+   "id": "geography-1050",
+   "category": "Geography",
+   "q": "What is the capital city of Jamaica?",
+   "choices": [
+    "Ocho Rios",
+    "Negril",
+    "Montego Bay",
+    "Kingston"
+   ],
+   "answer": 3,
+   "fact": "Kingston is the birthplace of reggae music."
+  },
+  {
+   "id": "geography-1051",
+   "category": "Geography",
+   "q": "What is the capital city of Ethiopia?",
+   "choices": [
+    "Mekelle",
+    "Gondar",
+    "Dire Dawa",
+    "Addis Ababa"
+   ],
+   "answer": 3,
+   "fact": "Addis Ababa means \"new flower\" in Amharic."
+  },
+  {
+   "id": "geography-1052",
+   "category": "Geography",
+   "q": "What is the capital city of Ghana?",
+   "choices": [
+    "Cape Coast",
+    "Tamale",
+    "Kumasi",
+    "Accra"
+   ],
+   "answer": 3,
+   "fact": "Accra sits on the coast of the Gulf of Guinea."
+  },
+  {
+   "id": "geography-1053",
+   "category": "Geography",
+   "q": "What is the capital city of Kazakhstan?",
+   "choices": [
+    "Shymkent",
+    "Almaty",
+    "Astana",
+    "Tashkent"
+   ],
+   "answer": 2,
+   "fact": "The city was called Nur-Sultan from 2019 until it went back to the name Astana in 2022."
+  },
+  {
+   "id": "geography-1054",
+   "category": "Geography",
+   "q": "What is the capital city of Mongolia?",
+   "choices": [
+    "Ulaanbaatar",
+    "Astana",
+    "Bishkek",
+    "Hohhot"
+   ],
+   "answer": 0,
+   "fact": "Ulaanbaatar is the coldest capital city in the world on average."
+  },
+  {
+   "id": "geography-1055",
+   "category": "Geography",
+   "q": "What is the capital city of Ecuador?",
+   "choices": [
+    "Guayaquil",
+    "Manta",
+    "Quito",
+    "Cuenca"
+   ],
+   "answer": 2,
+   "fact": "Quito sits very close to the Equator, which gave the country its name."
+  },
+  {
+   "id": "geography-1056",
+   "category": "Geography",
+   "q": "What is the capital city of Uruguay?",
+   "choices": [
+    "Salto",
+    "Asunción",
+    "Montevideo",
+    "Punta del Este"
+   ],
+   "answer": 2,
+   "fact": "Montevideo hosted the very first FIFA World Cup final in 1930."
+  },
+  {
+   "id": "geography-1057",
+   "category": "Geography",
+   "q": "What is the capital city of Afghanistan?",
+   "choices": [
+    "Kabul",
+    "Herat",
+    "Kandahar",
+    "Tashkent"
+   ],
+   "answer": 0,
+   "fact": "Kabul sits high in a valley between mountains."
+  },
+  {
+   "id": "geography-1058",
+   "category": "Geography",
+   "q": "What is the capital city of Syria?",
+   "choices": [
+    "Beirut",
+    "Aleppo",
+    "Homs",
+    "Damascus"
+   ],
+   "answer": 3,
+   "fact": "Damascus is often called one of the oldest cities in the world that people still live in."
+  },
+  {
+   "id": "geography-1059",
+   "category": "Geography",
+   "q": "What is the capital city of Lebanon?",
+   "choices": [
+    "Amman",
+    "Beirut",
+    "Damascus",
+    "Tripoli"
+   ],
+   "answer": 1,
+   "fact": "Beirut sits on the Mediterranean coast."
+  },
+  {
+   "id": "geography-1060",
+   "category": "Geography",
+   "q": "What is the capital city of Jordan?",
+   "choices": [
+    "Aqaba",
+    "Damascus",
+    "Amman",
+    "Petra"
+   ],
+   "answer": 2,
+   "fact": "Amman was built on seven hills, like Rome."
+  },
+  {
+   "id": "geography-1061",
+   "category": "Geography",
+   "q": "What is the capital city of Algeria?",
+   "choices": [
+    "Algiers",
+    "Tunis",
+    "Casablanca",
+    "Oran"
+   ],
+   "answer": 0,
+   "fact": "Algeria and its capital Algiers share almost the same name."
+  },
+  {
+   "id": "geography-1062",
+   "category": "Geography",
+   "q": "What is the capital city of Tunisia?",
+   "choices": [
+    "Tunis",
+    "Carthage",
+    "Sfax",
+    "Algiers"
+   ],
+   "answer": 0,
+   "fact": "The ruins of ancient Carthage are in the suburbs of Tunis."
+  },
+  {
+   "id": "geography-1063",
+   "category": "Geography",
+   "q": "What is the capital city of Senegal?",
+   "choices": [
+    "Bamako",
+    "Saint-Louis",
+    "Conakry",
+    "Dakar"
+   ],
+   "answer": 3,
+   "fact": "Dakar is on the westernmost point of mainland Africa."
+  },
+  {
+   "id": "geography-1064",
+   "category": "Geography",
+   "q": "What is the capital city of Zimbabwe?",
+   "choices": [
+    "Bulawayo",
+    "Harare",
+    "Victoria Falls",
+    "Lusaka"
+   ],
+   "answer": 1,
+   "fact": "Harare used to be called Salisbury."
+  },
+  {
+   "id": "geography-1065",
+   "category": "Geography",
+   "q": "What is the capital city of Uganda?",
+   "choices": [
+    "Nairobi",
+    "Entebbe",
+    "Kigali",
+    "Kampala"
+   ],
+   "answer": 3,
+   "fact": "Kampala was first built on seven hills, and the city has since spread over many more."
+  },
+  {
+   "id": "geography-1066",
+   "category": "Geography",
+   "q": "What is the capital city of Rwanda?",
+   "choices": [
+    "Kigali",
+    "Bujumbura",
+    "Goma",
+    "Kampala"
+   ],
+   "answer": 0,
+   "fact": "Kigali is known as one of the cleanest cities in Africa."
+  },
+  {
+   "id": "geography-1067",
+   "category": "Geography",
+   "q": "What is the capital city of Romania?",
+   "choices": [
+    "Brasov",
+    "Cluj-Napoca",
+    "Budapest",
+    "Bucharest"
+   ],
+   "answer": 3,
+   "fact": "Bucharest has one of the heaviest buildings in the world, the Palace of the Parliament."
+  },
+  {
+   "id": "geography-1068",
+   "category": "Geography",
+   "q": "What is the capital city of Bulgaria?",
+   "choices": [
+    "Plovdiv",
+    "Bucharest",
+    "Sofia",
+    "Varna"
+   ],
+   "answer": 2,
+   "fact": "Sofia sits at the foot of Mount Vitosha."
+  },
+  {
+   "id": "geography-1069",
+   "category": "Geography",
+   "q": "What is the capital city of Serbia?",
+   "choices": [
+    "Belgrade",
+    "Novi Sad",
+    "Zagreb",
+    "Sarajevo"
+   ],
+   "answer": 0,
+   "fact": "Belgrade sits where the Sava River meets the Danube."
+  },
+  {
+   "id": "geography-1070",
+   "category": "Geography",
+   "q": "What is the capital city of Croatia?",
+   "choices": [
+    "Dubrovnik",
+    "Zagreb",
+    "Split",
+    "Belgrade"
+   ],
+   "answer": 1,
+   "fact": "Dubrovnik is more famous with tourists, but Zagreb is the capital."
+  },
+  {
+   "id": "geography-1071",
+   "category": "Geography",
+   "q": "What is the capital city of Slovakia?",
+   "choices": [
+    "Vienna",
+    "Bratislava",
+    "Košice",
+    "Prague"
+   ],
+   "answer": 1,
+   "fact": "Bratislava is very close to both Austria and Hungary."
+  },
+  {
+   "id": "geography-1072",
+   "category": "Geography",
+   "q": "What is the capital city of Estonia?",
+   "choices": [
+    "Riga",
+    "Tartu",
+    "Tallinn",
+    "Vilnius"
+   ],
+   "answer": 2,
+   "fact": "Tallinn's medieval old town is one of the best preserved in Europe."
+  },
+  {
+   "id": "geography-1073",
+   "category": "Geography",
+   "q": "What is the capital city of Latvia?",
+   "choices": [
+    "Tallinn",
+    "Riga",
+    "Daugavpils",
+    "Vilnius"
+   ],
+   "answer": 1,
+   "fact": "Riga is the largest city in the three Baltic countries."
+  },
+  {
+   "id": "geography-1074",
+   "category": "Geography",
+   "q": "What is the capital city of Lithuania?",
+   "choices": [
+    "Kaunas",
+    "Riga",
+    "Klaipėda",
+    "Vilnius"
+   ],
+   "answer": 3,
+   "fact": "Vilnius has a neighborhood called Užupis that jokingly calls itself an independent republic."
+  },
+  {
+   "id": "geography-1075",
+   "category": "Geography",
+   "q": "What is the capital city of the Netherlands, according to its constitution?",
+   "choices": [
+    "Amsterdam",
+    "Utrecht",
+    "The Hague",
+    "Rotterdam"
+   ],
+   "answer": 0,
+   "fact": "The Dutch government and king work in The Hague, but Amsterdam is the official capital."
+  },
+  {
+   "id": "geography-1076",
+   "category": "Geography",
+   "q": "What is the capital city of Luxembourg?",
+   "choices": [
+    "Brussels",
+    "Luxembourg City",
+    "Esch-sur-Alzette",
+    "Strasbourg"
+   ],
+   "answer": 1,
+   "fact": "Luxembourg City has huge old tunnels called casemates under its streets."
+  },
+  {
+   "id": "geography-1077",
+   "category": "Geography",
+   "q": "What is the capital city of Myanmar?",
+   "choices": [
+    "Bangkok",
+    "Naypyidaw",
+    "Mandalay",
+    "Yangon"
+   ],
+   "answer": 1,
+   "fact": "Myanmar moved its capital from Yangon to the new city of Naypyidaw in 2005 and 2006."
+  },
+  {
+   "id": "geography-1078",
+   "category": "Geography",
+   "q": "What is the capital city of Cambodia?",
+   "choices": [
+    "Vientiane",
+    "Siem Reap",
+    "Phnom Penh",
+    "Bangkok"
+   ],
+   "answer": 2,
+   "fact": "Phnom Penh sits where the Mekong and Tonle Sap rivers meet."
+  },
+  {
+   "id": "geography-1079",
+   "category": "Geography",
+   "q": "What is the capital city of Laos?",
+   "choices": [
+    "Luang Prabang",
+    "Hanoi",
+    "Vientiane",
+    "Phnom Penh"
+   ],
+   "answer": 2,
+   "fact": "Vientiane sits on the Mekong River, right across from Thailand."
+  },
+  {
+   "id": "geography-1080",
+   "category": "Geography",
+   "q": "What is the capital city of Taiwan?",
+   "choices": [
+    "Tainan",
+    "Taichung",
+    "Taipei",
+    "Kaohsiung"
+   ],
+   "answer": 2,
+   "fact": "Taipei 101 was once the tallest building in the world."
+  },
+  {
+   "id": "geography-1081",
+   "category": "Geography",
+   "q": "What is the capital city of Bhutan?",
+   "choices": [
+    "Thimphu",
+    "Paro",
+    "Kathmandu",
+    "Lhasa"
+   ],
+   "answer": 0,
+   "fact": "Thimphu is one of the few capital cities in the world with no traffic lights."
+  },
+  {
+   "id": "geography-1082",
+   "category": "Geography",
+   "q": "What is the capital city of Papua New Guinea?",
+   "choices": [
+    "Lae",
+    "Suva",
+    "Honiara",
+    "Port Moresby"
+   ],
+   "answer": 3,
+   "fact": "Papua New Guinea has more than 800 languages, more than any other country."
+  },
+  {
+   "id": "geography-1083",
+   "category": "Geography",
+   "q": "What is the capital city of Fiji?",
+   "choices": [
+    "Nadi",
+    "Suva",
+    "Nukuʻalofa",
+    "Apia"
+   ],
+   "answer": 1,
+   "fact": "Suva is on Viti Levu, the largest of Fiji's islands."
+  },
+  {
+   "id": "geography-1084",
+   "category": "Geography",
+   "q": "Which Bolivian city is the seat of government and the highest such capital in the world?",
+   "choices": [
+    "La Paz",
+    "Santa Cruz",
+    "Cochabamba",
+    "Oruro"
+   ],
+   "answer": 0,
+   "fact": "La Paz is about 3,600 meters above sea level, while Bolivia's constitutional capital is Sucre."
+  },
+  {
+   "id": "geography-1085",
+   "category": "Geography",
+   "q": "What is the capital city of Paraguay?",
+   "choices": [
+    "Montevideo",
+    "Ciudad del Este",
+    "Asunción",
+    "Encarnación"
+   ],
+   "answer": 2,
+   "fact": "Asunción is one of the oldest cities in South America, founded in 1537."
+  },
+  {
+   "id": "geography-1086",
+   "category": "Geography",
+   "q": "What is the capital city of Costa Rica?",
+   "choices": [
+    "Managua",
+    "San José",
+    "Limón",
+    "Panama City"
+   ],
+   "answer": 1,
+   "fact": "Costa Rica got rid of its army in 1948."
+  },
+  {
+   "id": "geography-1087",
+   "category": "Geography",
+   "q": "What is the capital city of Haiti?",
+   "choices": [
+    "Santo Domingo",
+    "Kingston",
+    "Cap-Haïtien",
+    "Port-au-Prince"
+   ],
+   "answer": 3,
+   "fact": "Haiti shares the island of Hispaniola with the Dominican Republic."
+  },
+  {
+   "id": "geography-1088",
+   "category": "Geography",
+   "q": "What is the capital city of the Dominican Republic?",
+   "choices": [
+    "Santo Domingo",
+    "Santiago",
+    "Punta Cana",
+    "Port-au-Prince"
+   ],
+   "answer": 0,
+   "fact": "Santo Domingo is the oldest European-founded city in the Americas still standing."
+  },
+  {
+   "id": "geography-1089",
+   "category": "Geography",
+   "q": "What is the capital of Texas?",
+   "choices": [
+    "Houston",
+    "Dallas",
+    "Austin",
+    "San Antonio"
+   ],
+   "answer": 2,
+   "fact": "Austin calls itself the Live Music Capital of the World."
+  },
+  {
+   "id": "geography-1090",
+   "category": "Geography",
+   "q": "What is the capital of California?",
+   "choices": [
+    "San Francisco",
+    "San Diego",
+    "Los Angeles",
+    "Sacramento"
+   ],
+   "answer": 3,
+   "fact": "Sacramento grew fast during the California Gold Rush."
+  },
+  {
+   "id": "geography-1091",
+   "category": "Geography",
+   "q": "What is the capital of New York State?",
+   "choices": [
+    "Albany",
+    "Rochester",
+    "New York City",
+    "Buffalo"
+   ],
+   "answer": 0,
+   "fact": "Albany is one of the oldest cities in the United States, settled by the Dutch."
+  },
+  {
+   "id": "geography-1092",
+   "category": "Geography",
+   "q": "What is the capital of Florida?",
+   "choices": [
+    "Orlando",
+    "Tallahassee",
+    "Miami",
+    "Tampa"
+   ],
+   "answer": 1,
+   "fact": "Tallahassee was chosen because it was halfway between the two biggest cities of the time."
+  },
+  {
+   "id": "geography-1093",
+   "category": "Geography",
+   "q": "What is the capital of Illinois?",
+   "choices": [
+    "Rockford",
+    "Peoria",
+    "Springfield",
+    "Chicago"
+   ],
+   "answer": 2,
+   "fact": "Abraham Lincoln lived in Springfield before he became president."
+  },
+  {
+   "id": "geography-1094",
+   "category": "Geography",
+   "q": "What is the capital of Pennsylvania?",
+   "choices": [
+    "Pittsburgh",
+    "Harrisburg",
+    "Scranton",
+    "Philadelphia"
+   ],
+   "answer": 1,
+   "fact": "Harrisburg's capitol building has a dome inspired by St. Peter's Basilica in Rome."
+  },
+  {
+   "id": "geography-1095",
+   "category": "Geography",
+   "q": "What is the capital of Washington State?",
+   "choices": [
+    "Olympia",
+    "Spokane",
+    "Seattle",
+    "Tacoma"
+   ],
+   "answer": 0,
+   "fact": "Olympia sits at the southern tip of Puget Sound."
+  },
+  {
+   "id": "geography-1096",
+   "category": "Geography",
+   "q": "What is the capital of Alaska?",
+   "choices": [
+    "Nome",
+    "Fairbanks",
+    "Juneau",
+    "Anchorage"
+   ],
+   "answer": 2,
+   "fact": "You can't drive to Juneau from the rest of North America; you have to arrive by plane or boat."
+  },
+  {
+   "id": "geography-1097",
+   "category": "Geography",
+   "q": "What is the capital of Hawaii?",
+   "choices": [
+    "Honolulu",
+    "Hilo",
+    "Kailua",
+    "Lahaina"
+   ],
+   "answer": 0,
+   "fact": "Honolulu has the only royal palace in the United States, Iolani Palace."
+  },
+  {
+   "id": "geography-1098",
+   "category": "Geography",
+   "q": "What is the capital of Nevada?",
+   "choices": [
+    "Carson City",
+    "Reno",
+    "Henderson",
+    "Las Vegas"
+   ],
+   "answer": 0,
+   "fact": "Carson City is named after the frontiersman Kit Carson."
+  },
+  {
+   "id": "geography-1099",
+   "category": "Geography",
+   "q": "What is the capital of Arizona?",
+   "choices": [
+    "Flagstaff",
+    "Mesa",
+    "Tucson",
+    "Phoenix"
+   ],
+   "answer": 3,
+   "fact": "Phoenix is one of the hottest big cities in the United States."
+  },
+  {
+   "id": "geography-1100",
+   "category": "Geography",
+   "q": "What is the capital of Georgia, the US state?",
+   "choices": [
+    "Atlanta",
+    "Savannah",
+    "Macon",
+    "Augusta"
+   ],
+   "answer": 0,
+   "fact": "Atlanta has one of the busiest airports in the world."
+  },
+  {
+   "id": "geography-1101",
+   "category": "Geography",
+   "q": "What is the capital of Colorado?",
+   "choices": [
+    "Aspen",
+    "Denver",
+    "Boulder",
+    "Colorado Springs"
+   ],
+   "answer": 1,
+   "fact": "Denver is called the Mile High City because it is about one mile above sea level."
+  },
+  {
+   "id": "geography-1102",
+   "category": "Geography",
+   "q": "What is the capital of Massachusetts?",
+   "choices": [
+    "Boston",
+    "Salem",
+    "Worcester",
+    "Cambridge"
+   ],
+   "answer": 0,
+   "fact": "Boston has the oldest public park in the United States, Boston Common."
+  },
+  {
+   "id": "geography-1103",
+   "category": "Geography",
+   "q": "What is the capital of Michigan?",
+   "choices": [
+    "Ann Arbor",
+    "Detroit",
+    "Lansing",
+    "Grand Rapids"
+   ],
+   "answer": 2,
+   "fact": "Lansing became the capital in 1847 partly to move it away from the border with Canada."
+  },
+  {
+   "id": "geography-1104",
+   "category": "Geography",
+   "q": "What is the capital of Ohio?",
+   "choices": [
+    "Cleveland",
+    "Cincinnati",
+    "Columbus",
+    "Toledo"
+   ],
+   "answer": 2,
+   "fact": "Columbus is the largest city in Ohio as well as its capital."
+  },
+  {
+   "id": "geography-1105",
+   "category": "Geography",
+   "q": "What is the capital of Oregon?",
+   "choices": [
+    "Salem",
+    "Portland",
+    "Eugene",
+    "Bend"
+   ],
+   "answer": 0,
+   "fact": "Oregon's capitol has a gold-covered statue of a pioneer on top."
+  },
+  {
+   "id": "geography-1106",
+   "category": "Geography",
+   "q": "What is the capital of Ontario, Canada?",
+   "choices": [
+    "Ottawa",
+    "London",
+    "Hamilton",
+    "Toronto"
+   ],
+   "answer": 3,
+   "fact": "Toronto is Canada's largest city, while Ottawa, also in Ontario, is the national capital."
+  },
+  {
+   "id": "geography-1107",
+   "category": "Geography",
+   "q": "What is the capital of British Columbia, Canada?",
+   "choices": [
+    "Vancouver",
+    "Surrey",
+    "Victoria",
+    "Kelowna"
+   ],
+   "answer": 2,
+   "fact": "Victoria is on Vancouver Island, not in the city of Vancouver."
+  },
+  {
+   "id": "geography-1108",
+   "category": "Geography",
+   "q": "What is the capital of the Canadian province of Quebec?",
+   "choices": [
+    "Laval",
+    "Montreal",
+    "Gatineau",
+    "Quebec City"
+   ],
+   "answer": 3,
+   "fact": "Quebec City is the only city north of Mexico that still has its old city walls."
+  },
+  {
+   "id": "geography-1109",
+   "category": "Geography",
+   "q": "How many continents are there in the most common way of counting?",
+   "choices": [
+    "7",
+    "5",
+    "9",
+    "6"
+   ],
+   "answer": 0,
+   "fact": "The seven continents are Africa, Antarctica, Asia, Australia, Europe, North America and South America."
+  },
+  {
+   "id": "geography-1110",
+   "category": "Geography",
+   "q": "Which is the smallest continent?",
+   "choices": [
+    "South America",
+    "Europe",
+    "Antarctica",
+    "Australia"
+   ],
+   "answer": 3,
+   "fact": "Australia is the only continent that is also a single country."
+  },
+  {
+   "id": "geography-1111",
+   "category": "Geography",
+   "q": "Which is the largest ocean?",
+   "choices": [
+    "Atlantic Ocean",
+    "Indian Ocean",
+    "Arctic Ocean",
+    "Pacific Ocean"
+   ],
+   "answer": 3,
+   "fact": "The Pacific Ocean is bigger than all of Earth's land put together."
+  },
+  {
+   "id": "geography-1112",
+   "category": "Geography",
+   "q": "Which is the smallest ocean?",
+   "choices": [
+    "Arctic Ocean",
+    "Atlantic Ocean",
+    "Southern Ocean",
+    "Indian Ocean"
+   ],
+   "answer": 0,
+   "fact": "Much of the Arctic Ocean is covered by sea ice for most of the year."
+  },
+  {
+   "id": "geography-1113",
+   "category": "Geography",
+   "q": "Which ocean separates North America from Europe?",
+   "choices": [
+    "Pacific Ocean",
+    "Indian Ocean",
+    "Atlantic Ocean",
+    "Arctic Ocean"
+   ],
+   "answer": 2,
+   "fact": "The Atlantic Ocean is getting wider by a few centimeters every year."
+  },
+  {
+   "id": "geography-1114",
+   "category": "Geography",
+   "q": "Which continent has the most countries?",
+   "choices": [
+    "Asia",
+    "South America",
+    "Africa",
+    "Europe"
+   ],
+   "answer": 2,
+   "fact": "As of 2025, Africa has 54 countries."
+  },
+  {
+   "id": "geography-1115",
+   "category": "Geography",
+   "q": "Which continent has no countries and no permanent residents?",
+   "choices": [
+    "Antarctica",
+    "The Arctic",
+    "Australia",
+    "Greenland"
+   ],
+   "answer": 0,
+   "fact": "Only scientists and support staff live in Antarctica, and only for part of the year."
+  },
+  {
+   "id": "geography-1116",
+   "category": "Geography",
+   "q": "Which two continents is Russia part of?",
+   "choices": [
+    "Asia and North America",
+    "Asia and Australia",
+    "Europe and Asia",
+    "Europe and Africa"
+   ],
+   "answer": 2,
+   "fact": "Most of Russia's land is in Asia, but most of its people live in the European part."
+  },
+  {
+   "id": "geography-1117",
+   "category": "Geography",
+   "q": "Which continent is Egypt in?",
+   "choices": [
+    "Africa",
+    "South America",
+    "Europe",
+    "Asia"
+   ],
+   "answer": 0,
+   "fact": "Egypt's Sinai Peninsula is actually in Asia, so Egypt crosses two continents."
+  },
+  {
+   "id": "geography-1118",
+   "category": "Geography",
+   "q": "On which continent would you find the country of Argentina?",
+   "choices": [
+    "South America",
+    "North America",
+    "Africa",
+    "Europe"
+   ],
+   "answer": 0,
+   "fact": "Argentina stretches almost 3,700 kilometers from north to south."
+  },
+  {
+   "id": "geography-1119",
+   "category": "Geography",
+   "q": "Which ocean surrounds Antarctica?",
+   "choices": [
+    "Atlantic Ocean",
+    "Arctic Ocean",
+    "Southern Ocean",
+    "Indian Ocean"
+   ],
+   "answer": 2,
+   "fact": "Many mapmakers only started showing the Southern Ocean as a separate ocean in recent decades."
+  },
+  {
+   "id": "geography-1120",
+   "category": "Geography",
+   "q": "In which ocean are the Maldives?",
+   "choices": [
+    "Indian Ocean",
+    "Pacific Ocean",
+    "Arctic Ocean",
+    "Atlantic Ocean"
+   ],
+   "answer": 0,
+   "fact": "The Maldives is the lowest-lying country in the world, with an average height of about 1.5 meters."
+  },
+  {
+   "id": "geography-1121",
+   "category": "Geography",
+   "q": "Which is the longest river in Africa?",
+   "choices": [
+    "Congo",
+    "Zambezi",
+    "Nile",
+    "Niger"
+   ],
+   "answer": 2,
+   "fact": "The Nile flows north through 11 countries before it reaches the Mediterranean Sea."
+  },
+  {
+   "id": "geography-1122",
+   "category": "Geography",
+   "q": "Which river carries more water than any other river in the world?",
+   "choices": [
+    "Mississippi",
+    "Yangtze",
+    "Amazon",
+    "Nile"
+   ],
+   "answer": 2,
+   "fact": "The Amazon pours so much fresh water into the ocean that the sea stays less salty far from shore."
+  },
+  {
+   "id": "geography-1123",
+   "category": "Geography",
+   "q": "Which river flows through Paris?",
+   "choices": [
+    "Loire",
+    "Rhine",
+    "Thames",
+    "Seine"
+   ],
+   "answer": 3,
+   "fact": "Paris has 37 bridges across the Seine."
+  },
+  {
+   "id": "geography-1124",
+   "category": "Geography",
+   "q": "Which river flows through Rome?",
+   "choices": [
+    "Seine",
+    "Tiber",
+    "Arno",
+    "Po"
+   ],
+   "answer": 1,
+   "fact": "Legend says the founders of Rome, Romulus and Remus, were found on the banks of the Tiber."
+  },
+  {
+   "id": "geography-1125",
+   "category": "Geography",
+   "q": "Which river flows through Vienna, Bratislava, Budapest and Belgrade?",
+   "choices": [
+    "Elbe",
+    "Danube",
+    "Rhine",
+    "Volga"
+   ],
+   "answer": 1,
+   "fact": "The Danube flows through more countries than any other river in the world."
+  },
+  {
+   "id": "geography-1126",
+   "category": "Geography",
+   "q": "Which is the longest river in Asia?",
+   "choices": [
+    "Mekong",
+    "Yangtze",
+    "Ganges",
+    "Indus"
+   ],
+   "answer": 1,
+   "fact": "The Three Gorges Dam on the Yangtze is the biggest hydroelectric power plant in the world."
+  },
+  {
+   "id": "geography-1127",
+   "category": "Geography",
+   "q": "Which river is holy to Hindus?",
+   "choices": [
+    "Ganges",
+    "Amazon",
+    "Nile",
+    "Yangtze"
+   ],
+   "answer": 0,
+   "fact": "Millions of pilgrims bathe in the Ganges during festivals."
+  },
+  {
+   "id": "geography-1128",
+   "category": "Geography",
+   "q": "Which river carved the Grand Canyon?",
+   "choices": [
+    "Rio Grande",
+    "Snake River",
+    "Mississippi River",
+    "Colorado River"
+   ],
+   "answer": 3,
+   "fact": "The Grand Canyon is about 1.8 kilometers deep in places."
+  },
+  {
+   "id": "geography-1129",
+   "category": "Geography",
+   "q": "Which river forms much of the border between the United States and Mexico?",
+   "choices": [
+    "Colorado River",
+    "Mississippi River",
+    "Pecos River",
+    "Rio Grande"
+   ],
+   "answer": 3,
+   "fact": "In Mexico, the river is called the Río Bravo."
+  },
+  {
+   "id": "geography-1130",
+   "category": "Geography",
+   "q": "Which river plunges over Victoria Falls?",
+   "choices": [
+    "Limpopo",
+    "Congo",
+    "Nile",
+    "Zambezi"
+   ],
+   "answer": 3,
+   "fact": "The local name for Victoria Falls means \"the smoke that thunders\"."
+  },
+  {
+   "id": "geography-1131",
+   "category": "Geography",
+   "q": "Which river is the longest in Europe?",
+   "choices": [
+    "Rhine",
+    "Volga",
+    "Thames",
+    "Danube"
+   ],
+   "answer": 1,
+   "fact": "The Volga flows through Russia and empties into the Caspian Sea."
+  },
+  {
+   "id": "geography-1132",
+   "category": "Geography",
+   "q": "Which big river flows through the German city of Cologne?",
+   "choices": [
+    "Rhine",
+    "Seine",
+    "Danube",
+    "Elbe"
+   ],
+   "answer": 0,
+   "fact": "The Rhine has many famous castles along its banks."
+  },
+  {
+   "id": "geography-1133",
+   "category": "Geography",
+   "q": "Which river flows past New Orleans on its way to the sea?",
+   "choices": [
+    "Mississippi River",
+    "Missouri River",
+    "Colorado River",
+    "Ohio River"
+   ],
+   "answer": 0,
+   "fact": "The Mississippi drains water from all or part of 31 US states."
+  },
+  {
+   "id": "geography-1134",
+   "category": "Geography",
+   "q": "Which river flows past Washington, DC?",
+   "choices": [
+    "James River",
+    "Hudson River",
+    "Delaware River",
+    "Potomac River"
+   ],
+   "answer": 3,
+   "fact": "George Washington's home, Mount Vernon, sits on the banks of the Potomac."
+  },
+  {
+   "id": "geography-1135",
+   "category": "Geography",
+   "q": "Which famous waterfalls are on the border between the United States and Canada?",
+   "choices": [
+    "Angel Falls",
+    "Victoria Falls",
+    "Niagara Falls",
+    "Iguazu Falls"
+   ],
+   "answer": 2,
+   "fact": "About 2,800 cubic meters of water go over Niagara Falls every second."
+  },
+  {
+   "id": "geography-1136",
+   "category": "Geography",
+   "q": "In which country is Angel Falls, the tallest waterfall in the world?",
+   "choices": [
+    "Colombia",
+    "Brazil",
+    "Peru",
+    "Venezuela"
+   ],
+   "answer": 3,
+   "fact": "Angel Falls drops about 979 meters, and much of the water turns to mist before reaching the bottom."
+  },
+  {
+   "id": "geography-1137",
+   "category": "Geography",
+   "q": "Which huge waterfalls are on the border between Argentina and Brazil?",
+   "choices": [
+    "Iguazu Falls",
+    "Angel Falls",
+    "Victoria Falls",
+    "Niagara Falls"
+   ],
+   "answer": 0,
+   "fact": "Iguazu Falls is made of about 275 separate waterfalls."
+  },
+  {
+   "id": "geography-1138",
+   "category": "Geography",
+   "q": "Which is the largest lake in the world by area?",
+   "choices": [
+    "Lake Baikal",
+    "Lake Superior",
+    "Caspian Sea",
+    "Lake Victoria"
+   ],
+   "answer": 2,
+   "fact": "The Caspian Sea is called a sea, but it is actually a huge saltwater lake."
+  },
+  {
+   "id": "geography-1139",
+   "category": "Geography",
+   "q": "Which is the deepest lake in the world?",
+   "choices": [
+    "Lake Baikal",
+    "Crater Lake",
+    "Lake Superior",
+    "Lake Tanganyika"
+   ],
+   "answer": 0,
+   "fact": "Lake Baikal in Russia holds about one fifth of all the fresh water in Earth's lakes and rivers."
+  },
+  {
+   "id": "geography-1140",
+   "category": "Geography",
+   "q": "Which is the largest freshwater lake in the world by area?",
+   "choices": [
+    "Lake Baikal",
+    "Lake Michigan",
+    "Lake Victoria",
+    "Lake Superior"
+   ],
+   "answer": 3,
+   "fact": "Lake Superior holds enough water to cover all of North and South America about 30 centimeters deep."
+  },
+  {
+   "id": "geography-1141",
+   "category": "Geography",
+   "q": "Which Great Lake is the only one completely inside the United States?",
+   "choices": [
+    "Lake Ontario",
+    "Lake Michigan",
+    "Lake Erie",
+    "Lake Huron"
+   ],
+   "answer": 1,
+   "fact": "Chicago sits on the southwest shore of Lake Michigan."
+  },
+  {
+   "id": "geography-1142",
+   "category": "Geography",
+   "q": "How many Great Lakes are there in North America?",
+   "choices": [
+    "7",
+    "4",
+    "3",
+    "5"
+   ],
+   "answer": 3,
+   "fact": "The word HOMES can help you remember them: Huron, Ontario, Michigan, Erie and Superior."
+  },
+  {
+   "id": "geography-1143",
+   "category": "Geography",
+   "q": "Which is the largest lake in Africa?",
+   "choices": [
+    "Lake Tanganyika",
+    "Lake Chad",
+    "Lake Victoria",
+    "Lake Malawi"
+   ],
+   "answer": 2,
+   "fact": "Lake Victoria is shared by Uganda, Kenya and Tanzania."
+  },
+  {
+   "id": "geography-1144",
+   "category": "Geography",
+   "q": "Which high lake lies on the border of Peru and Bolivia?",
+   "choices": [
+    "Lake Maracaibo",
+    "Lake Titicaca",
+    "Lake Nicaragua",
+    "Lake Baikal"
+   ],
+   "answer": 1,
+   "fact": "People there live on floating islands made from reeds."
+  },
+  {
+   "id": "geography-1145",
+   "category": "Geography",
+   "q": "Which sea lies between Europe and Africa?",
+   "choices": [
+    "Mediterranean Sea",
+    "Red Sea",
+    "Caribbean Sea",
+    "North Sea"
+   ],
+   "answer": 0,
+   "fact": "Mediterranean means \"in the middle of the land\" in Latin."
+  },
+  {
+   "id": "geography-1146",
+   "category": "Geography",
+   "q": "Which sea lies between Egypt and Saudi Arabia?",
+   "choices": [
+    "Red Sea",
+    "Arabian Sea",
+    "Dead Sea",
+    "Black Sea"
+   ],
+   "answer": 0,
+   "fact": "The Red Sea is one of the saltiest seas connected to the ocean."
+  },
+  {
+   "id": "geography-1147",
+   "category": "Geography",
+   "q": "Which sea lies between Turkey, Ukraine and Russia?",
+   "choices": [
+    "Baltic Sea",
+    "Caspian Sea",
+    "Black Sea",
+    "Red Sea"
+   ],
+   "answer": 2,
+   "fact": "The deep waters of the Black Sea have so little oxygen that ancient shipwrecks are perfectly preserved."
+  },
+  {
+   "id": "geography-1148",
+   "category": "Geography",
+   "q": "Which sea is home to islands like Jamaica, Puerto Rico and Aruba?",
+   "choices": [
+    "Mediterranean Sea",
+    "South China Sea",
+    "Coral Sea",
+    "Caribbean Sea"
+   ],
+   "answer": 3,
+   "fact": "The Caribbean Sea is named after the Carib people who lived on some of its islands."
+  },
+  {
+   "id": "geography-1149",
+   "category": "Geography",
+   "q": "Which strait separates Spain from Morocco?",
+   "choices": [
+    "Strait of Hormuz",
+    "Bering Strait",
+    "Strait of Magellan",
+    "Strait of Gibraltar"
+   ],
+   "answer": 3,
+   "fact": "At its narrowest, the Strait of Gibraltar is only about 14 kilometers wide."
+  },
+  {
+   "id": "geography-1150",
+   "category": "Geography",
+   "q": "Which strait separates Alaska from Russia?",
+   "choices": [
+    "Drake Passage",
+    "Strait of Dover",
+    "Strait of Gibraltar",
+    "Bering Strait"
+   ],
+   "answer": 3,
+   "fact": "On a clear day you can see Russia's Big Diomede Island from Alaska's Little Diomede Island."
+  },
+  {
+   "id": "geography-1151",
+   "category": "Geography",
+   "q": "Which narrow body of water separates England from France?",
+   "choices": [
+    "English Channel",
+    "Bay of Biscay",
+    "North Sea",
+    "Irish Sea"
+   ],
+   "answer": 0,
+   "fact": "People have swum across the English Channel, which takes most swimmers more than 10 hours."
+  },
+  {
+   "id": "geography-1152",
+   "category": "Geography",
+   "q": "Which narrow strait splits the city of Istanbul between Europe and Asia?",
+   "choices": [
+    "Dardanelles",
+    "Gibraltar",
+    "Bosporus",
+    "Suez"
+   ],
+   "answer": 2,
+   "fact": "Bridges and tunnels connect the European and Asian sides of Istanbul."
+  },
+  {
+   "id": "geography-1153",
+   "category": "Geography",
+   "q": "Which body of water lies between Iran and the Arabian Peninsula?",
+   "choices": [
+    "Red Sea",
+    "Persian Gulf",
+    "Caspian Sea",
+    "Gulf of Mexico"
+   ],
+   "answer": 1,
+   "fact": "Many of the world's biggest oil fields are around the Persian Gulf."
+  },
+  {
+   "id": "geography-1154",
+   "category": "Geography",
+   "q": "Which sea lies to the east of Great Britain?",
+   "choices": [
+    "Baltic Sea",
+    "North Sea",
+    "Celtic Sea",
+    "Irish Sea"
+   ],
+   "answer": 1,
+   "fact": "Long ago, the land under the North Sea was dry ground where people and mammoths lived."
+  },
+  {
+   "id": "geography-1155",
+   "category": "Geography",
+   "q": "In which country is Mount Kilimanjaro?",
+   "choices": [
+    "Uganda",
+    "Tanzania",
+    "Ethiopia",
+    "Kenya"
+   ],
+   "answer": 1,
+   "fact": "Kilimanjaro is the tallest mountain in Africa, and it has snow at the top even though it is near the Equator."
+  },
+  {
+   "id": "geography-1156",
+   "category": "Geography",
+   "q": "What is the highest mountain in North America?",
+   "choices": [
+    "Mount Logan",
+    "Denali",
+    "Mount Rainier",
+    "Mount Whitney"
+   ],
+   "answer": 1,
+   "fact": "Denali is in Alaska and is about 6,190 meters tall."
+  },
+  {
+   "id": "geography-1157",
+   "category": "Geography",
+   "q": "What is the highest mountain in South America?",
+   "choices": [
+    "Huascarán",
+    "Chimborazo",
+    "Cotopaxi",
+    "Aconcagua"
+   ],
+   "answer": 3,
+   "fact": "Aconcagua in Argentina is the tallest mountain outside of Asia."
+  },
+  {
+   "id": "geography-1158",
+   "category": "Geography",
+   "q": "What is the highest mountain in the Alps?",
+   "choices": [
+    "Matterhorn",
+    "Eiger",
+    "Mont Blanc",
+    "Jungfrau"
+   ],
+   "answer": 2,
+   "fact": "Mont Blanc means \"white mountain\" in French."
+  },
+  {
+   "id": "geography-1159",
+   "category": "Geography",
+   "q": "Which mountain range forms the border between France and Spain?",
+   "choices": [
+    "Alps",
+    "Pyrenees",
+    "Carpathians",
+    "Urals"
+   ],
+   "answer": 1,
+   "fact": "The tiny country of Andorra sits high in the Pyrenees."
+  },
+  {
+   "id": "geography-1160",
+   "category": "Geography",
+   "q": "Which mountain range is often used as the dividing line between Europe and Asia?",
+   "choices": [
+    "Ural Mountains",
+    "Caucasus",
+    "Alps",
+    "Himalayas"
+   ],
+   "answer": 0,
+   "fact": "The Ural Mountains stretch about 2,500 kilometers through Russia."
+  },
+  {
+   "id": "geography-1161",
+   "category": "Geography",
+   "q": "Which old mountain range runs down the eastern United States?",
+   "choices": [
+    "Cascade Range",
+    "Appalachian Mountains",
+    "Rocky Mountains",
+    "Sierra Nevada"
+   ],
+   "answer": 1,
+   "fact": "The Appalachians are hundreds of millions of years old and used to be much taller."
+  },
+  {
+   "id": "geography-1162",
+   "category": "Geography",
+   "q": "Which mountain range runs through Colorado and much of western North America?",
+   "choices": [
+    "Alps",
+    "Appalachian Mountains",
+    "Andes",
+    "Rocky Mountains"
+   ],
+   "answer": 3,
+   "fact": "The Rocky Mountains stretch about 4,800 kilometers from Canada to New Mexico."
+  },
+  {
+   "id": "geography-1163",
+   "category": "Geography",
+   "q": "What is the second-tallest mountain in the world?",
+   "choices": [
+    "Lhotse",
+    "K2",
+    "Kilimanjaro",
+    "Kangchenjunga"
+   ],
+   "answer": 1,
+   "fact": "K2 is on the border of Pakistan and China and is much harder to climb than Everest."
+  },
+  {
+   "id": "geography-1164",
+   "category": "Geography",
+   "q": "In which country is Mount Fuji?",
+   "choices": [
+    "South Korea",
+    "Japan",
+    "China",
+    "Indonesia"
+   ],
+   "answer": 1,
+   "fact": "Mount Fuji is a volcano that last erupted in 1707."
+  },
+  {
+   "id": "geography-1165",
+   "category": "Geography",
+   "q": "The famous Matterhorn mountain sits on the border of Switzerland and which other country?",
+   "choices": [
+    "Germany",
+    "Italy",
+    "Austria",
+    "France"
+   ],
+   "answer": 1,
+   "fact": "The Matterhorn's pointy shape inspired the logo of a famous chocolate bar."
+  },
+  {
+   "id": "geography-1166",
+   "category": "Geography",
+   "q": "Mount Everest sits on the border between Nepal and which other country?",
+   "choices": [
+    "China",
+    "Bhutan",
+    "India",
+    "Pakistan"
+   ],
+   "answer": 0,
+   "fact": "The Chinese side of the border is the region of Tibet."
+  },
+  {
+   "id": "geography-1167",
+   "category": "Geography",
+   "q": "Which flat-topped mountain overlooks Cape Town, South Africa?",
+   "choices": [
+    "Table Mountain",
+    "Drakensberg",
+    "Kilimanjaro",
+    "Mount Kenya"
+   ],
+   "answer": 0,
+   "fact": "Clouds that spill over Table Mountain are nicknamed the tablecloth."
+  },
+  {
+   "id": "geography-1168",
+   "category": "Geography",
+   "q": "Which active volcano towers over the island of Sicily?",
+   "choices": [
+    "Mount Olympus",
+    "Stromboli",
+    "Mount Vesuvius",
+    "Mount Etna"
+   ],
+   "answer": 3,
+   "fact": "Mount Etna is the tallest active volcano in Europe."
+  },
+  {
+   "id": "geography-1169",
+   "category": "Geography",
+   "q": "In which two countries is the Gobi Desert?",
+   "choices": [
+    "Mongolia and China",
+    "Egypt and Libya",
+    "India and Pakistan",
+    "Chile and Peru"
+   ],
+   "answer": 0,
+   "fact": "Many dinosaur fossils and eggs have been found in the Gobi Desert."
+  },
+  {
+   "id": "geography-1170",
+   "category": "Geography",
+   "q": "In which country is the Atacama, one of the driest places on Earth?",
+   "choices": [
+    "Chile",
+    "Mexico",
+    "Egypt",
+    "Peru"
+   ],
+   "answer": 0,
+   "fact": "Some weather stations in the Atacama have never recorded any rain."
+  },
+  {
+   "id": "geography-1171",
+   "category": "Geography",
+   "q": "Which desert covers much of Botswana in southern Africa?",
+   "choices": [
+    "Gobi",
+    "Namib",
+    "Sahara",
+    "Kalahari"
+   ],
+   "answer": 3,
+   "fact": "The Kalahari gets more rain than a true desert, so it has grasses and many animals."
+  },
+  {
+   "id": "geography-1172",
+   "category": "Geography",
+   "q": "In which US state is Death Valley?",
+   "choices": [
+    "Nevada",
+    "California",
+    "Utah",
+    "Arizona"
+   ],
+   "answer": 1,
+   "fact": "Death Valley holds the record for the hottest air temperature ever measured on Earth."
+  },
+  {
+   "id": "geography-1173",
+   "category": "Geography",
+   "q": "Which famous US city sits in the Mojave Desert?",
+   "choices": [
+    "Las Vegas",
+    "Phoenix",
+    "Salt Lake City",
+    "Denver"
+   ],
+   "answer": 0,
+   "fact": "Las Vegas means \"the meadows\" in Spanish because of springs that once watered the area."
+  },
+  {
+   "id": "geography-1174",
+   "category": "Geography",
+   "q": "Which large sandy desert, called the Empty Quarter, covers part of the Arabian Peninsula?",
+   "choices": [
+    "Kalahari",
+    "Gobi",
+    "Rub' al Khali",
+    "Thar"
+   ],
+   "answer": 2,
+   "fact": "The Rub' al Khali is the largest continuous sand desert in the world."
+  },
+  {
+   "id": "geography-1175",
+   "category": "Geography",
+   "q": "What is a piece of land almost completely surrounded by water called?",
+   "choices": [
+    "Peninsula",
+    "Delta",
+    "Archipelago",
+    "Isthmus"
+   ],
+   "answer": 0,
+   "fact": "Florida is one of the most famous peninsulas in the United States."
+  },
+  {
+   "id": "geography-1176",
+   "category": "Geography",
+   "q": "What is a group or chain of islands called?",
+   "choices": [
+    "Lagoon",
+    "Peninsula",
+    "Archipelago",
+    "Atoll"
+   ],
+   "answer": 2,
+   "fact": "Indonesia and Japan are both archipelago countries."
+  },
+  {
+   "id": "geography-1177",
+   "category": "Geography",
+   "q": "What is a narrow strip of land that joins two larger areas of land called?",
+   "choices": [
+    "Isthmus",
+    "Strait",
+    "Peninsula",
+    "Bay"
+   ],
+   "answer": 0,
+   "fact": "The Isthmus of Panama joins North America and South America."
+  },
+  {
+   "id": "geography-1178",
+   "category": "Geography",
+   "q": "What is the fan-shaped area of land at a river's mouth called?",
+   "choices": [
+    "Delta",
+    "Canyon",
+    "Oxbow",
+    "Gorge"
+   ],
+   "answer": 0,
+   "fact": "The word comes from the Greek letter delta, which is shaped like a triangle."
+  },
+  {
+   "id": "geography-1179",
+   "category": "Geography",
+   "q": "What is a long, deep sea inlet between steep cliffs, carved by glaciers, called?",
+   "choices": [
+    "Estuary",
+    "Bay",
+    "Lagoon",
+    "Fjord"
+   ],
+   "answer": 3,
+   "fact": "Norway's coastline is famous for its fjords."
+  },
+  {
+   "id": "geography-1180",
+   "category": "Geography",
+   "q": "What is a ring-shaped coral island around a lagoon called?",
+   "choices": [
+    "Reef",
+    "Isthmus",
+    "Atoll",
+    "Delta"
+   ],
+   "answer": 2,
+   "fact": "Atolls often form around volcanoes that slowly sank under the sea."
+  },
+  {
+   "id": "geography-1181",
+   "category": "Geography",
+   "q": "What is a green, watered place in the middle of a desert called?",
+   "choices": [
+    "Mirage",
+    "Oasis",
+    "Dune",
+    "Lagoon"
+   ],
+   "answer": 1,
+   "fact": "Oases form where underground water reaches the surface."
+  },
+  {
+   "id": "geography-1182",
+   "category": "Geography",
+   "q": "What is a smaller river that flows into a bigger river called?",
+   "choices": [
+    "Delta",
+    "Canal",
+    "Tributary",
+    "Estuary"
+   ],
+   "answer": 2,
+   "fact": "The Missouri River is a tributary of the Mississippi."
+  },
+  {
+   "id": "geography-1183",
+   "category": "Geography",
+   "q": "What is a high, flat area of land called?",
+   "choices": [
+    "Canyon",
+    "Valley",
+    "Basin",
+    "Plateau"
+   ],
+   "answer": 3,
+   "fact": "The Tibetan Plateau is so high and big that it is nicknamed the Roof of the World."
+  },
+  {
+   "id": "geography-1184",
+   "category": "Geography",
+   "q": "What is the largest island in the world that is not a continent?",
+   "choices": [
+    "New Guinea",
+    "Greenland",
+    "Madagascar",
+    "Borneo"
+   ],
+   "answer": 1,
+   "fact": "Despite its name, most of Greenland is covered by a thick sheet of ice."
+  },
+  {
+   "id": "geography-1185",
+   "category": "Geography",
+   "q": "Which country does Greenland belong to?",
+   "choices": [
+    "Denmark",
+    "Canada",
+    "Iceland",
+    "Norway"
+   ],
+   "answer": 0,
+   "fact": "Greenland governs itself but is part of the Kingdom of Denmark."
+  },
+  {
+   "id": "geography-1186",
+   "category": "Geography",
+   "q": "Which large island lies off the southeast coast of Africa?",
+   "choices": [
+    "Zanzibar",
+    "Mauritius",
+    "Sri Lanka",
+    "Madagascar"
+   ],
+   "answer": 3,
+   "fact": "Most of the animals on Madagascar, like lemurs, are found nowhere else on Earth."
+  },
+  {
+   "id": "geography-1187",
+   "category": "Geography",
+   "q": "Which country does the island of Sicily belong to?",
+   "choices": [
+    "Italy",
+    "Spain",
+    "Greece",
+    "Malta"
+   ],
+   "answer": 0,
+   "fact": "Sicily is the biggest island in the Mediterranean Sea."
+  },
+  {
+   "id": "geography-1188",
+   "category": "Geography",
+   "q": "Which country does the island of Corsica belong to?",
+   "choices": [
+    "France",
+    "Spain",
+    "Greece",
+    "Italy"
+   ],
+   "answer": 0,
+   "fact": "Napoleon Bonaparte was born on Corsica in 1769."
+  },
+  {
+   "id": "geography-1189",
+   "category": "Geography",
+   "q": "Which country does the island of Crete belong to?",
+   "choices": [
+    "Turkey",
+    "Italy",
+    "Cyprus",
+    "Greece"
+   ],
+   "answer": 3,
+   "fact": "Crete is the largest of the Greek islands."
+  },
+  {
+   "id": "geography-1190",
+   "category": "Geography",
+   "q": "Which country does the island of Tasmania belong to?",
+   "choices": [
+    "New Zealand",
+    "Papua New Guinea",
+    "Indonesia",
+    "Australia"
+   ],
+   "answer": 3,
+   "fact": "Tasmania is the only place in the wild where Tasmanian devils live."
+  },
+  {
+   "id": "geography-1191",
+   "category": "Geography",
+   "q": "Which country does the island of Bali belong to?",
+   "choices": [
+    "Thailand",
+    "Malaysia",
+    "Indonesia",
+    "Philippines"
+   ],
+   "answer": 2,
+   "fact": "Bali is famous for its rice terraces and Hindu temples."
+  },
+  {
+   "id": "geography-1192",
+   "category": "Geography",
+   "q": "Which is the largest island in the Caribbean?",
+   "choices": [
+    "Puerto Rico",
+    "Cuba",
+    "Hispaniola",
+    "Jamaica"
+   ],
+   "answer": 1,
+   "fact": "Cuba is about 1,250 kilometers long."
+  },
+  {
+   "id": "geography-1193",
+   "category": "Geography",
+   "q": "Which island is shared by three countries, Malaysia, Indonesia and Brunei?",
+   "choices": [
+    "Sumatra",
+    "Borneo",
+    "Java",
+    "New Guinea"
+   ],
+   "answer": 1,
+   "fact": "Borneo is the third-largest island in the world."
+  }
+ ]
+}

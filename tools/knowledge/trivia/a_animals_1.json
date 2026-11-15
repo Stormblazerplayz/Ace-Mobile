@@ -1,0 +1,2604 @@
+{
+ "questions": [
+  {
+   "id": "animals-1001",
+   "category": "Animals",
+   "q": "What is a baby cat called?",
+   "choices": [
+    "Cub",
+    "Pup",
+    "Calf",
+    "Kitten"
+   ],
+   "answer": 3,
+   "fact": "Kittens are born with their eyes closed and open them after about one to two weeks."
+  },
+  {
+   "id": "animals-1002",
+   "category": "Animals",
+   "q": "What is a baby goat called?",
+   "choices": [
+    "Lamb",
+    "Foal",
+    "Kid",
+    "Calf"
+   ],
+   "answer": 2,
+   "fact": "Baby goats can stand and walk within minutes of being born."
+  },
+  {
+   "id": "animals-1003",
+   "category": "Animals",
+   "q": "What is a baby horse called?",
+   "choices": [
+    "Kid",
+    "Calf",
+    "Foal",
+    "Cub"
+   ],
+   "answer": 2,
+   "fact": "A young female horse is called a filly and a young male is called a colt."
+  },
+  {
+   "id": "animals-1004",
+   "category": "Animals",
+   "q": "What is a baby swan called?",
+   "choices": [
+    "Duckling",
+    "Gosling",
+    "Chick",
+    "Cygnet"
+   ],
+   "answer": 3,
+   "fact": "Cygnets are usually gray or brown, not white like their parents."
+  },
+  {
+   "id": "animals-1005",
+   "category": "Animals",
+   "q": "What is a baby goose called?",
+   "choices": [
+    "Cygnet",
+    "Kit",
+    "Cub",
+    "Gosling"
+   ],
+   "answer": 3,
+   "fact": "Goslings can swim within a day or so of hatching."
+  },
+  {
+   "id": "animals-1006",
+   "category": "Animals",
+   "q": "What is a baby owl called?",
+   "choices": [
+    "Chick",
+    "Owlet",
+    "Cub",
+    "Fledgling"
+   ],
+   "answer": 1,
+   "fact": "Owlets are covered in fluffy down feathers before their adult feathers grow in."
+  },
+  {
+   "id": "animals-1007",
+   "category": "Animals",
+   "q": "What is a baby deer called?",
+   "choices": [
+    "Calf",
+    "Fawn",
+    "Cub",
+    "Kid"
+   ],
+   "answer": 1,
+   "fact": "Many fawns have white spots that help them hide in dappled forest light."
+  },
+  {
+   "id": "animals-1008",
+   "category": "Animals",
+   "q": "What is a baby bear called?",
+   "choices": [
+    "Pup",
+    "Kit",
+    "Cub",
+    "Calf"
+   ],
+   "answer": 2,
+   "fact": "Black bear cubs are about the size of a squirrel when they are born."
+  },
+  {
+   "id": "animals-1009",
+   "category": "Animals",
+   "q": "What is a baby whale called?",
+   "choices": [
+    "Pup",
+    "Calf",
+    "Cub",
+    "Fry"
+   ],
+   "answer": 1,
+   "fact": "A newborn blue whale calf can weigh more than 2,500 kilograms."
+  },
+  {
+   "id": "animals-1010",
+   "category": "Animals",
+   "q": "What is a baby fox called?",
+   "choices": [
+    "Calf",
+    "Lamb",
+    "Fawn",
+    "Kit"
+   ],
+   "answer": 3,
+   "fact": "Fox kits are born in an underground den."
+  },
+  {
+   "id": "animals-1011",
+   "category": "Animals",
+   "q": "What is a baby seal called?",
+   "choices": [
+    "Cub",
+    "Calf",
+    "Kid",
+    "Pup"
+   ],
+   "answer": 3,
+   "fact": "Some seal pups are born with fluffy white fur."
+  },
+  {
+   "id": "animals-1012",
+   "category": "Animals",
+   "q": "What is a baby eel called?",
+   "choices": [
+    "Fry",
+    "Kit",
+    "Elver",
+    "Joey"
+   ],
+   "answer": 2,
+   "fact": "Young eels are see-through when they are small and are called glass eels."
+  },
+  {
+   "id": "animals-1013",
+   "category": "Animals",
+   "q": "What is a group of crows called?",
+   "choices": [
+    "A herd",
+    "A parliament",
+    "A gaggle",
+    "A murder"
+   ],
+   "answer": 3,
+   "fact": "Crows are very smart and can recognize individual human faces."
+  },
+  {
+   "id": "animals-1014",
+   "category": "Animals",
+   "q": "What is a group of owls called?",
+   "choices": [
+    "A murder",
+    "A parliament",
+    "A pride",
+    "A pod"
+   ],
+   "answer": 1,
+   "fact": "The name may come from an old story that described owls as wise."
+  },
+  {
+   "id": "animals-1015",
+   "category": "Animals",
+   "q": "What is a group of whales or dolphins called?",
+   "choices": [
+    "A herd",
+    "A pack",
+    "A pod",
+    "A school"
+   ],
+   "answer": 2,
+   "fact": "Some dolphin pods join together to make superpods of more than a thousand animals."
+  },
+  {
+   "id": "animals-1016",
+   "category": "Animals",
+   "q": "What is a group of fish swimming together called?",
+   "choices": [
+    "A pod",
+    "A flock",
+    "A school",
+    "A pack"
+   ],
+   "answer": 2,
+   "fact": "Swimming in a school helps fish confuse predators."
+  },
+  {
+   "id": "animals-1017",
+   "category": "Animals",
+   "q": "What is a group of wolves called?",
+   "choices": [
+    "A pack",
+    "A pride",
+    "A herd",
+    "A troop"
+   ],
+   "answer": 0,
+   "fact": "A wolf pack is usually a family made of parents and their young."
+  },
+  {
+   "id": "animals-1018",
+   "category": "Animals",
+   "q": "What is a group of geese on the ground called?",
+   "choices": [
+    "A murder",
+    "A gaggle",
+    "A pod",
+    "A troop"
+   ],
+   "answer": 1,
+   "fact": "Flying geese in a V shape are often called a skein."
+  },
+  {
+   "id": "animals-1019",
+   "category": "Animals",
+   "q": "What is a group of monkeys called?",
+   "choices": [
+    "A troop",
+    "A pod",
+    "A gaggle",
+    "A swarm"
+   ],
+   "answer": 0,
+   "fact": "Some monkey troops have more than a hundred members."
+  },
+  {
+   "id": "animals-1020",
+   "category": "Animals",
+   "q": "What is a group of flamingos called?",
+   "choices": [
+    "A sparkle",
+    "A flamboyance",
+    "A parade",
+    "A gaggle"
+   ],
+   "answer": 1,
+   "fact": "Flamingos often stand on one leg, even while sleeping."
+  },
+  {
+   "id": "animals-1021",
+   "category": "Animals",
+   "q": "What is a group of ants called?",
+   "choices": [
+    "A colony",
+    "A herd",
+    "A pack",
+    "A pride"
+   ],
+   "answer": 0,
+   "fact": "Some ant colonies have millions of ants working together."
+  },
+  {
+   "id": "animals-1022",
+   "category": "Animals",
+   "q": "What is a group of cows called?",
+   "choices": [
+    "A pack",
+    "A herd",
+    "A flock",
+    "A pod"
+   ],
+   "answer": 1,
+   "fact": "Cows in a herd often have best friends and get stressed when separated."
+  },
+  {
+   "id": "animals-1023",
+   "category": "Animals",
+   "q": "What is the fastest bird in a dive?",
+   "choices": [
+    "Bald eagle",
+    "Ostrich",
+    "Hummingbird",
+    "Peregrine falcon"
+   ],
+   "answer": 3,
+   "fact": "A diving peregrine falcon can go faster than 320 kilometers per hour."
+  },
+  {
+   "id": "animals-1024",
+   "category": "Animals",
+   "q": "What is the fastest fish in the sea?",
+   "choices": [
+    "Sailfish",
+    "Great white shark",
+    "Tuna",
+    "Goldfish"
+   ],
+   "answer": 0,
+   "fact": "Sailfish are often said to reach speeds of over 100 kilometers per hour in short bursts."
+  },
+  {
+   "id": "animals-1025",
+   "category": "Animals",
+   "q": "Which is the largest living land animal?",
+   "choices": [
+    "White rhinoceros",
+    "African elephant",
+    "Hippopotamus",
+    "Giraffe"
+   ],
+   "answer": 1,
+   "fact": "A big male African elephant can weigh about 6,000 kilograms or more."
+  },
+  {
+   "id": "animals-1026",
+   "category": "Animals",
+   "q": "Which animal has the longest pregnancy of any mammal?",
+   "choices": [
+    "Blue whale",
+    "Human",
+    "Elephant",
+    "Giraffe"
+   ],
+   "answer": 2,
+   "fact": "An elephant mother is pregnant for about 22 months."
+  },
+  {
+   "id": "animals-1027",
+   "category": "Animals",
+   "q": "What is an elephant's trunk?",
+   "choices": [
+    "A long tooth",
+    "An extra leg",
+    "Its nose joined with its upper lip",
+    "Its tail"
+   ],
+   "answer": 2,
+   "fact": "An elephant's trunk has tens of thousands of muscles."
+  },
+  {
+   "id": "animals-1028",
+   "category": "Animals",
+   "q": "What are an elephant's tusks?",
+   "choices": [
+    "Horns",
+    "Bones from the skull",
+    "Claws",
+    "Very long teeth"
+   ],
+   "answer": 3,
+   "fact": "Elephant tusks are made of ivory and keep growing all their lives."
+  },
+  {
+   "id": "animals-1029",
+   "category": "Animals",
+   "q": "How can you tell an African elephant from an Asian elephant?",
+   "choices": [
+    "African elephants have much bigger ears",
+    "African elephants have no trunks",
+    "Asian elephants are bigger",
+    "Asian elephants have striped skin"
+   ],
+   "answer": 0,
+   "fact": "An African elephant's big ears are shaped a bit like the continent of Africa."
+  },
+  {
+   "id": "animals-1030",
+   "category": "Animals",
+   "q": "Why do elephants flap their big ears?",
+   "choices": [
+    "To hear better",
+    "To cool down",
+    "To fly",
+    "To scare birds"
+   ],
+   "answer": 1,
+   "fact": "Blood flowing through their thin ears loses heat when the ears flap."
+  },
+  {
+   "id": "animals-1031",
+   "category": "Animals",
+   "q": "Which animal is the largest living cat?",
+   "choices": [
+    "Lion",
+    "Tiger",
+    "Jaguar",
+    "Leopard"
+   ],
+   "answer": 1,
+   "fact": "Siberian tigers, also called Amur tigers, are the biggest of all."
+  },
+  {
+   "id": "animals-1032",
+   "category": "Animals",
+   "q": "Which big cat lives in groups called prides?",
+   "choices": [
+    "Tiger",
+    "Lion",
+    "Leopard",
+    "Jaguar"
+   ],
+   "answer": 1,
+   "fact": "Lions are the only truly social big cats."
+  },
+  {
+   "id": "animals-1033",
+   "category": "Animals",
+   "q": "In a lion pride, who does most of the hunting?",
+   "choices": [
+    "The males",
+    "The cubs",
+    "Other animals",
+    "The females"
+   ],
+   "answer": 3,
+   "fact": "Lionesses often hunt together as a team."
+  },
+  {
+   "id": "animals-1034",
+   "category": "Animals",
+   "q": "Which big cat is a great swimmer and often hunts in water?",
+   "choices": [
+    "Cheetah",
+    "Snow leopard",
+    "Tiger",
+    "Lynx"
+   ],
+   "answer": 2,
+   "fact": "Unlike most cats, tigers usually enjoy water."
+  },
+  {
+   "id": "animals-1035",
+   "category": "Animals",
+   "q": "What are a tiger's stripes like?",
+   "choices": [
+    "All tigers have the same pattern",
+    "Stripes are only on the fur, not the skin",
+    "Every tiger's stripes are different",
+    "Tigers have spots under their stripes"
+   ],
+   "answer": 2,
+   "fact": "A tiger's skin is striped too, not just its fur."
+  },
+  {
+   "id": "animals-1036",
+   "category": "Animals",
+   "q": "Which big cat lives high in the mountains of Central Asia?",
+   "choices": [
+    "Jaguar",
+    "Snow leopard",
+    "Cheetah",
+    "Lion"
+   ],
+   "answer": 1,
+   "fact": "Snow leopards use their long, thick tails like a scarf to keep warm."
+  },
+  {
+   "id": "animals-1037",
+   "category": "Animals",
+   "q": "Which big cat lives mostly in Central and South America?",
+   "choices": [
+    "Leopard",
+    "Jaguar",
+    "Tiger",
+    "Cheetah"
+   ],
+   "answer": 1,
+   "fact": "Jaguars have one of the strongest bites of all big cats."
+  },
+  {
+   "id": "animals-1038",
+   "category": "Animals",
+   "q": "How can you tell a jaguar's spots from a leopard's?",
+   "choices": [
+    "Jaguar spots are square",
+    "Jaguar spots often have small dots inside",
+    "Leopards have stripes",
+    "They look exactly the same"
+   ],
+   "answer": 1,
+   "fact": "The rings of spots on both cats are called rosettes."
+  },
+  {
+   "id": "animals-1039",
+   "category": "Animals",
+   "q": "Which cat cannot roar but can purr?",
+   "choices": [
+    "Lion",
+    "Tiger",
+    "Cheetah",
+    "Jaguar"
+   ],
+   "answer": 2,
+   "fact": "Cheetahs chirp, purr and even make bird-like calls."
+  },
+  {
+   "id": "animals-1040",
+   "category": "Animals",
+   "q": "Why do cheetahs have black lines running from their eyes?",
+   "choices": [
+    "They are tear stains from crying",
+    "They help cut down glare from the sun",
+    "They scare predators",
+    "They show age"
+   ],
+   "answer": 1,
+   "fact": "These tear marks may work like the black grease that some athletes wear under their eyes."
+  },
+  {
+   "id": "animals-1041",
+   "category": "Animals",
+   "q": "What is the largest member of the dog family?",
+   "choices": [
+    "Coyote",
+    "Red fox",
+    "Gray wolf",
+    "African wild dog"
+   ],
+   "answer": 2,
+   "fact": "Gray wolves can weigh more than 60 kilograms."
+  },
+  {
+   "id": "animals-1042",
+   "category": "Animals",
+   "q": "Which wild dog lives in Australia?",
+   "choices": [
+    "Dingo",
+    "Coyote",
+    "Jackal",
+    "Wolf"
+   ],
+   "answer": 0,
+   "fact": "Dingoes have lived in Australia for thousands of years."
+  },
+  {
+   "id": "animals-1043",
+   "category": "Animals",
+   "q": "Which animal is known for laughing sounds?",
+   "choices": [
+    "Lion",
+    "Giraffe",
+    "Zebra",
+    "Spotted hyena"
+   ],
+   "answer": 3,
+   "fact": "The giggle-like sounds help hyenas tell each other who is around and how they feel."
+  },
+  {
+   "id": "animals-1044",
+   "category": "Animals",
+   "q": "What is a zebra's skin color underneath its stripes?",
+   "choices": [
+    "White",
+    "Pink",
+    "Gray",
+    "Black"
+   ],
+   "answer": 3,
+   "fact": "Scientists think the stripes may help keep biting flies away."
+  },
+  {
+   "id": "animals-1045",
+   "category": "Animals",
+   "q": "Which large flightless bird lives only in Australia?",
+   "choices": [
+    "Ostrich",
+    "Emu",
+    "Penguin",
+    "Kiwi"
+   ],
+   "answer": 1,
+   "fact": "Emus are the second tallest birds in the world after ostriches."
+  },
+  {
+   "id": "animals-1046",
+   "category": "Animals",
+   "q": "Which bird lays the largest eggs?",
+   "choices": [
+    "Ostrich",
+    "Emu",
+    "Eagle",
+    "Chicken"
+   ],
+   "answer": 0,
+   "fact": "An ostrich egg weighs about as much as two dozen chicken eggs."
+  },
+  {
+   "id": "animals-1047",
+   "category": "Animals",
+   "q": "Which country is the kiwi bird from?",
+   "choices": [
+    "Australia",
+    "South Africa",
+    "New Zealand",
+    "Brazil"
+   ],
+   "answer": 2,
+   "fact": "The kiwi cannot fly and has nostrils at the tip of its long beak."
+  },
+  {
+   "id": "animals-1048",
+   "category": "Animals",
+   "q": "Which bird can turn its head about three quarters of the way around?",
+   "choices": [
+    "Parrot",
+    "Pigeon",
+    "Owl",
+    "Duck"
+   ],
+   "answer": 2,
+   "fact": "Owls cannot move their eyes, so they turn their heads instead."
+  },
+  {
+   "id": "animals-1049",
+   "category": "Animals",
+   "q": "Which bird is the national bird of the United States?",
+   "choices": [
+    "Wild turkey",
+    "Golden eagle",
+    "Blue jay",
+    "Bald eagle"
+   ],
+   "answer": 3,
+   "fact": "Bald eagles are not actually bald, their heads are covered in white feathers."
+  },
+  {
+   "id": "animals-1050",
+   "category": "Animals",
+   "q": "What do bald eagles mainly eat?",
+   "choices": [
+    "Fish",
+    "Seeds",
+    "Grass",
+    "Insects"
+   ],
+   "answer": 0,
+   "fact": "Bald eagles sometimes steal fish from other birds, like ospreys."
+  },
+  {
+   "id": "animals-1051",
+   "category": "Animals",
+   "q": "What makes flamingos pink?",
+   "choices": [
+    "Sunburn",
+    "Their blood",
+    "Paint in the water",
+    "The food they eat"
+   ],
+   "answer": 3,
+   "fact": "Flamingos eat tiny shrimp and algae full of pink color, and without it their feathers turn pale."
+  },
+  {
+   "id": "animals-1052",
+   "category": "Animals",
+   "q": "Which bird is famous for copying human speech?",
+   "choices": [
+    "Parrot",
+    "Crow",
+    "Penguin",
+    "Owl"
+   ],
+   "answer": 0,
+   "fact": "An African gray parrot named Alex learned more than 100 words."
+  },
+  {
+   "id": "animals-1053",
+   "category": "Animals",
+   "q": "Which bird has the longest wingspan of any living bird?",
+   "choices": [
+    "Wandering albatross",
+    "Bald eagle",
+    "Condor",
+    "Pelican"
+   ],
+   "answer": 0,
+   "fact": "A wandering albatross can have wings over 3 meters from tip to tip."
+  },
+  {
+   "id": "animals-1054",
+   "category": "Animals",
+   "q": "Which bird is the smallest in the world?",
+   "choices": [
+    "Bee hummingbird",
+    "Sparrow",
+    "Robin",
+    "Finch"
+   ],
+   "answer": 0,
+   "fact": "The bee hummingbird from Cuba is only about 5 centimeters long."
+  },
+  {
+   "id": "animals-1055",
+   "category": "Animals",
+   "q": "How fast can a hummingbird's wings beat?",
+   "choices": [
+    "Once a second",
+    "About ten times a minute",
+    "A thousand times a second",
+    "Dozens of times every second"
+   ],
+   "answer": 3,
+   "fact": "Some small hummingbirds beat their wings around 80 times a second."
+  },
+  {
+   "id": "animals-1056",
+   "category": "Animals",
+   "q": "Which bird has a huge, colorful bill and lives in South American rainforests?",
+   "choices": [
+    "Pelican",
+    "Puffin",
+    "Toucan",
+    "Flamingo"
+   ],
+   "answer": 2,
+   "fact": "A toucan's bill looks heavy but is light, made of a spongy material."
+  },
+  {
+   "id": "animals-1057",
+   "category": "Animals",
+   "q": "Which bird can hold lots of fish in a stretchy pouch under its bill?",
+   "choices": [
+    "Toucan",
+    "Heron",
+    "Pelican",
+    "Stork"
+   ],
+   "answer": 2,
+   "fact": "A brown pelican dives headfirst into the water to catch fish."
+  },
+  {
+   "id": "animals-1058",
+   "category": "Animals",
+   "q": "Which seabird with a colorful beak is sometimes called a sea parrot?",
+   "choices": [
+    "Penguin",
+    "Albatross",
+    "Seagull",
+    "Puffin"
+   ],
+   "answer": 3,
+   "fact": "Puffins can carry many small fish in their beaks at once."
+  },
+  {
+   "id": "animals-1059",
+   "category": "Animals",
+   "q": "Which bird is famous for its huge, colorful tail feathers?",
+   "choices": [
+    "Crow",
+    "Ostrich",
+    "Peacock",
+    "Owl"
+   ],
+   "answer": 2,
+   "fact": "Only the males, called peacocks, have the big fancy tails, and the females are called peahens."
+  },
+  {
+   "id": "animals-1060",
+   "category": "Animals",
+   "q": "Where do most penguins live?",
+   "choices": [
+    "The Southern Hemisphere",
+    "The Arctic",
+    "The Sahara Desert",
+    "The Amazon rainforest"
+   ],
+   "answer": 0,
+   "fact": "No penguins live in the wild at the North Pole."
+  },
+  {
+   "id": "animals-1061",
+   "category": "Animals",
+   "q": "Which is the largest kind of penguin?",
+   "choices": [
+    "King penguin",
+    "Little penguin",
+    "Gentoo penguin",
+    "Emperor penguin"
+   ],
+   "answer": 3,
+   "fact": "Emperor penguins can stand more than 1 meter tall."
+  },
+  {
+   "id": "animals-1062",
+   "category": "Animals",
+   "q": "Which parent keeps an emperor penguin egg warm through the Antarctic winter?",
+   "choices": [
+    "The mother",
+    "Both take turns each day",
+    "The father",
+    "Neither, the egg is buried"
+   ],
+   "answer": 2,
+   "fact": "The father balances the egg on his feet under a warm fold of skin for about two months."
+  },
+  {
+   "id": "animals-1063",
+   "category": "Animals",
+   "q": "What is the smallest kind of penguin?",
+   "choices": [
+    "Emperor penguin",
+    "King penguin",
+    "Little penguin",
+    "Adelie penguin"
+   ],
+   "answer": 2,
+   "fact": "Little penguins, also called fairy penguins, are only about 33 centimeters tall."
+  },
+  {
+   "id": "animals-1064",
+   "category": "Animals",
+   "q": "Which bird builds the biggest nests?",
+   "choices": [
+    "Robin",
+    "Bald eagle",
+    "Sparrow",
+    "Hummingbird"
+   ],
+   "answer": 1,
+   "fact": "One bald eagle nest in Florida was estimated to weigh more than 2 tons."
+  },
+  {
+   "id": "animals-1065",
+   "category": "Animals",
+   "q": "Which bird can stay in the air for about 10 months without landing?",
+   "choices": [
+    "Common swift",
+    "Chicken",
+    "Ostrich",
+    "Turkey"
+   ],
+   "answer": 0,
+   "fact": "Common swifts even eat and drink while flying."
+  },
+  {
+   "id": "animals-1066",
+   "category": "Animals",
+   "q": "Which bird migrates the farthest each year?",
+   "choices": [
+    "Robin",
+    "Arctic tern",
+    "Pigeon",
+    "Sparrow"
+   ],
+   "answer": 1,
+   "fact": "Arctic terns fly from the Arctic to the Antarctic and back every year."
+  },
+  {
+   "id": "animals-1067",
+   "category": "Animals",
+   "q": "What do we call it when birds lose old feathers and grow new ones?",
+   "choices": [
+    "Molting",
+    "Migrating",
+    "Nesting",
+    "Preening"
+   ],
+   "answer": 0,
+   "fact": "Most birds molt at least once a year."
+  },
+  {
+   "id": "animals-1068",
+   "category": "Animals",
+   "q": "Which bird uses tools like twigs to pull insects out of holes?",
+   "choices": [
+    "Chicken",
+    "New Caledonian crow",
+    "Ostrich",
+    "Duck"
+   ],
+   "answer": 1,
+   "fact": "These crows even bend and shape their tools."
+  },
+  {
+   "id": "animals-1069",
+   "category": "Animals",
+   "q": "Which bird pecks holes in trees to find insects?",
+   "choices": [
+    "Woodpecker",
+    "Robin",
+    "Swan",
+    "Penguin"
+   ],
+   "answer": 0,
+   "fact": "Woodpeckers can peck around 20 times every second."
+  },
+  {
+   "id": "animals-1070",
+   "category": "Animals",
+   "q": "Which bird is a symbol of peace?",
+   "choices": [
+    "Crow",
+    "Vulture",
+    "Dove",
+    "Hawk"
+   ],
+   "answer": 2,
+   "fact": "Doves and pigeons belong to the same bird family."
+  },
+  {
+   "id": "animals-1071",
+   "category": "Animals",
+   "q": "Which bird hoots and hunts mostly at night?",
+   "choices": [
+    "Owl",
+    "Robin",
+    "Parrot",
+    "Eagle"
+   ],
+   "answer": 0,
+   "fact": "Owls have special soft feathers that let them fly almost silently."
+  },
+  {
+   "id": "animals-1072",
+   "category": "Animals",
+   "q": "Which mammal lays eggs and has a bill like a duck?",
+   "choices": [
+    "Platypus",
+    "Beaver",
+    "Otter",
+    "Mole"
+   ],
+   "answer": 0,
+   "fact": "Platypuses use their bills to sense tiny electric signals from prey underwater."
+  },
+  {
+   "id": "animals-1073",
+   "category": "Animals",
+   "q": "Besides the platypus, which other mammal lays eggs?",
+   "choices": [
+    "Echidna",
+    "Hedgehog",
+    "Armadillo",
+    "Porcupine"
+   ],
+   "answer": 0,
+   "fact": "Egg-laying mammals are called monotremes."
+  },
+  {
+   "id": "animals-1074",
+   "category": "Animals",
+   "q": "Where does a mother kangaroo carry her baby?",
+   "choices": [
+    "On her back",
+    "In a pouch",
+    "In her mouth",
+    "In a nest"
+   ],
+   "answer": 1,
+   "fact": "Animals with pouches are called marsupials."
+  },
+  {
+   "id": "animals-1075",
+   "category": "Animals",
+   "q": "Which animal from Australia sleeps up to 20 hours a day and eats eucalyptus leaves?",
+   "choices": [
+    "Koala",
+    "Kangaroo",
+    "Wombat",
+    "Platypus"
+   ],
+   "answer": 0,
+   "fact": "Eucalyptus leaves give koalas little energy, so they rest a lot."
+  },
+  {
+   "id": "animals-1076",
+   "category": "Animals",
+   "q": "Is a koala a bear?",
+   "choices": [
+    "Yes, a small bear",
+    "No, it is a marsupial",
+    "Yes, a type of panda",
+    "No, it is a monkey"
+   ],
+   "answer": 1,
+   "fact": "Koala babies, like kangaroo babies, are called joeys."
+  },
+  {
+   "id": "animals-1077",
+   "category": "Animals",
+   "q": "Which Australian animal makes poop shaped like cubes?",
+   "choices": [
+    "Koala",
+    "Kangaroo",
+    "Emu",
+    "Wombat"
+   ],
+   "answer": 3,
+   "fact": "Wombats leave their cube-shaped poop on rocks and logs to mark their territory."
+  },
+  {
+   "id": "animals-1078",
+   "category": "Animals",
+   "q": "Which marsupial from Tasmania is known for its loud screeches?",
+   "choices": [
+    "Koala",
+    "Wombat",
+    "Quokka",
+    "Tasmanian devil"
+   ],
+   "answer": 3,
+   "fact": "Tasmanian devils have one of the strongest bites for their size of any mammal."
+  },
+  {
+   "id": "animals-1079",
+   "category": "Animals",
+   "q": "Which small Australian marsupial is famous for looking like it is smiling?",
+   "choices": [
+    "Quokka",
+    "Wombat",
+    "Dingo",
+    "Koala"
+   ],
+   "answer": 0,
+   "fact": "Quokkas live mostly on Rottnest Island near Perth."
+  },
+  {
+   "id": "animals-1080",
+   "category": "Animals",
+   "q": "Which is the only marsupial native to the United States and Canada?",
+   "choices": [
+    "Raccoon",
+    "Skunk",
+    "Armadillo",
+    "Virginia opossum"
+   ],
+   "answer": 3,
+   "fact": "When scared, an opossum may play dead, flopping over and lying very still."
+  },
+  {
+   "id": "animals-1081",
+   "category": "Animals",
+   "q": "Which animal sprays a bad smell to defend itself?",
+   "choices": [
+    "Skunk",
+    "Raccoon",
+    "Squirrel",
+    "Rabbit"
+   ],
+   "answer": 0,
+   "fact": "A skunk can spray its smelly liquid about 3 meters."
+  },
+  {
+   "id": "animals-1082",
+   "category": "Animals",
+   "q": "Which animal has a hard shell made of bony plates and can sometimes roll into a ball?",
+   "choices": [
+    "Porcupine",
+    "Armadillo",
+    "Hedgehog",
+    "Beaver"
+   ],
+   "answer": 1,
+   "fact": "Only the three-banded armadillo can roll into a complete ball."
+  },
+  {
+   "id": "animals-1083",
+   "category": "Animals",
+   "q": "Which animal is covered in sharp quills?",
+   "choices": [
+    "Armadillo",
+    "Otter",
+    "Raccoon",
+    "Porcupine"
+   ],
+   "answer": 3,
+   "fact": "Porcupines cannot shoot their quills, but the quills come off easily when touched."
+  },
+  {
+   "id": "animals-1084",
+   "category": "Animals",
+   "q": "Which animal builds dams across streams?",
+   "choices": [
+    "Otter",
+    "Muskrat",
+    "Raccoon",
+    "Beaver"
+   ],
+   "answer": 3,
+   "fact": "Beavers' front teeth never stop growing, and they are orange because of iron."
+  },
+  {
+   "id": "animals-1085",
+   "category": "Animals",
+   "q": "Which animal holds hands with others while sleeping so they don't drift apart?",
+   "choices": [
+    "Beaver",
+    "Seal",
+    "Penguin",
+    "Sea otter"
+   ],
+   "answer": 3,
+   "fact": "Sea otters also wrap themselves in seaweed to stay in place."
+  },
+  {
+   "id": "animals-1086",
+   "category": "Animals",
+   "q": "Which animal uses rocks as tools to crack open shellfish?",
+   "choices": [
+    "Sea otter",
+    "Walrus",
+    "Seal",
+    "Dolphin"
+   ],
+   "answer": 0,
+   "fact": "Sea otters even keep a favorite rock in a pouch of skin under their arm."
+  },
+  {
+   "id": "animals-1087",
+   "category": "Animals",
+   "q": "Which animal has long tusks and uses them to pull itself onto ice?",
+   "choices": [
+    "Walrus",
+    "Narwhal",
+    "Elephant seal",
+    "Manatee"
+   ],
+   "answer": 0,
+   "fact": "Both male and female walruses have tusks."
+  },
+  {
+   "id": "animals-1088",
+   "category": "Animals",
+   "q": "Which whale has a long spiral tusk that makes it look like a unicorn?",
+   "choices": [
+    "Beluga",
+    "Orca",
+    "Narwhal",
+    "Humpback whale"
+   ],
+   "answer": 2,
+   "fact": "A narwhal's tusk is actually a long tooth that grows through its lip."
+  },
+  {
+   "id": "animals-1089",
+   "category": "Animals",
+   "q": "Which white whale is known as the canary of the sea for its many sounds?",
+   "choices": [
+    "Beluga",
+    "Narwhal",
+    "Orca",
+    "Sperm whale"
+   ],
+   "answer": 0,
+   "fact": "Belugas can change the shape of their bumpy forehead, called a melon."
+  },
+  {
+   "id": "animals-1090",
+   "category": "Animals",
+   "q": "Which whale is famous for its long, beautiful songs?",
+   "choices": [
+    "Sperm whale",
+    "Narwhal",
+    "Blue whale",
+    "Humpback whale"
+   ],
+   "answer": 3,
+   "fact": "Male humpbacks sing songs that can last for hours."
+  },
+  {
+   "id": "animals-1091",
+   "category": "Animals",
+   "q": "What is another name for the orca?",
+   "choices": [
+    "Sperm whale",
+    "Sea wolf shark",
+    "Pilot shark",
+    "Killer whale"
+   ],
+   "answer": 3,
+   "fact": "Orcas are actually the largest members of the dolphin family."
+  },
+  {
+   "id": "animals-1092",
+   "category": "Animals",
+   "q": "Which whale has the largest brain of any animal?",
+   "choices": [
+    "Blue whale",
+    "Sperm whale",
+    "Orca",
+    "Humpback whale"
+   ],
+   "answer": 1,
+   "fact": "A sperm whale's brain weighs about 8 kilograms."
+  },
+  {
+   "id": "animals-1093",
+   "category": "Animals",
+   "q": "How do whales breathe?",
+   "choices": [
+    "Through gills",
+    "Through a blowhole on top of their head",
+    "Through their skin",
+    "Through their mouth underwater"
+   ],
+   "answer": 1,
+   "fact": "The spout you see is warm breath and water spray from the blowhole."
+  },
+  {
+   "id": "animals-1094",
+   "category": "Animals",
+   "q": "What do blue whales mainly eat?",
+   "choices": [
+    "Sharks",
+    "Seaweed",
+    "Squid only",
+    "Krill"
+   ],
+   "answer": 3,
+   "fact": "A blue whale can eat several tons of these tiny shrimp-like animals in a day."
+  },
+  {
+   "id": "animals-1095",
+   "category": "Animals",
+   "q": "What do some whales have in their mouths instead of teeth, to strain food from water?",
+   "choices": [
+    "Gills",
+    "Spikes",
+    "Baleen",
+    "Feathers"
+   ],
+   "answer": 2,
+   "fact": "Baleen is made of keratin, the same stuff as your fingernails."
+  },
+  {
+   "id": "animals-1096",
+   "category": "Animals",
+   "q": "How do dolphins find food using sound?",
+   "choices": [
+    "Echolocation",
+    "Smelling the water",
+    "Seeing in the dark with night vision",
+    "Feeling electric fields only"
+   ],
+   "answer": 0,
+   "fact": "Dolphins send out clicks and listen for the echoes bouncing back."
+  },
+  {
+   "id": "animals-1097",
+   "category": "Animals",
+   "q": "How do dolphins sleep?",
+   "choices": [
+    "With both eyes closed for 12 hours",
+    "Floating upside down",
+    "They never sleep",
+    "With half of their brain at a time"
+   ],
+   "answer": 3,
+   "fact": "Keeping half the brain awake lets them keep breathing and watch for danger."
+  },
+  {
+   "id": "animals-1098",
+   "category": "Animals",
+   "q": "Which sea mammal is also called a sea cow?",
+   "choices": [
+    "Walrus",
+    "Manatee",
+    "Seal",
+    "Sea lion"
+   ],
+   "answer": 1,
+   "fact": "Manatees are plant eaters and their closest land relatives are elephants."
+  },
+  {
+   "id": "animals-1099",
+   "category": "Animals",
+   "q": "How can you tell a sea lion from a true seal?",
+   "choices": [
+    "Seals have ear flaps",
+    "Sea lions have no flippers",
+    "Seals can walk on all four flippers",
+    "Sea lions have ear flaps"
+   ],
+   "answer": 3,
+   "fact": "Sea lions can also turn their back flippers forward to walk on land."
+  },
+  {
+   "id": "animals-1100",
+   "category": "Animals",
+   "q": "Which shark is the largest predator fish?",
+   "choices": [
+    "Great white shark",
+    "Hammerhead shark",
+    "Tiger shark",
+    "Nurse shark"
+   ],
+   "answer": 0,
+   "fact": "The whale shark is bigger, but it eats tiny plankton instead of hunting big prey."
+  },
+  {
+   "id": "animals-1101",
+   "category": "Animals",
+   "q": "What are shark skeletons made of?",
+   "choices": [
+    "Bone",
+    "Wood-like fibers",
+    "Shell",
+    "Cartilage"
+   ],
+   "answer": 3,
+   "fact": "Cartilage is the same bendy material in your nose and ears."
+  },
+  {
+   "id": "animals-1102",
+   "category": "Animals",
+   "q": "How many rows of teeth can a shark have?",
+   "choices": [
+    "Many rows, replaced all through its life",
+    "Only one row that never changes",
+    "No teeth at all",
+    "Two teeth only"
+   ],
+   "answer": 0,
+   "fact": "Some sharks lose and replace thousands of teeth in their lifetime."
+  },
+  {
+   "id": "animals-1103",
+   "category": "Animals",
+   "q": "Which shark has a head shaped like a wide flat hammer?",
+   "choices": [
+    "Tiger shark",
+    "Mako shark",
+    "Hammerhead shark",
+    "Bull shark"
+   ],
+   "answer": 2,
+   "fact": "The wide head spreads out the eyes and sensors, helping it find prey."
+  },
+  {
+   "id": "animals-1104",
+   "category": "Animals",
+   "q": "Which shark can swim from the ocean far up into fresh water rivers?",
+   "choices": [
+    "Great white shark",
+    "Whale shark",
+    "Hammerhead shark",
+    "Bull shark"
+   ],
+   "answer": 3,
+   "fact": "Bull sharks have been found far up the Mississippi and Amazon rivers."
+  },
+  {
+   "id": "animals-1105",
+   "category": "Animals",
+   "q": "Which shark lives the longest, possibly hundreds of years?",
+   "choices": [
+    "Great white shark",
+    "Tiger shark",
+    "Nurse shark",
+    "Greenland shark"
+   ],
+   "answer": 3,
+   "fact": "Scientists estimate that some Greenland sharks may live 270 years or more."
+  },
+  {
+   "id": "animals-1106",
+   "category": "Animals",
+   "q": "Which fish can puff up into a spiky ball?",
+   "choices": [
+    "Clownfish",
+    "Tuna",
+    "Pufferfish",
+    "Salmon"
+   ],
+   "answer": 2,
+   "fact": "Many pufferfish contain a strong poison, so most predators leave them alone."
+  },
+  {
+   "id": "animals-1107",
+   "category": "Animals",
+   "q": "Which fish lives safely among the stinging tentacles of sea anemones?",
+   "choices": [
+    "Goldfish",
+    "Salmon",
+    "Tuna",
+    "Clownfish"
+   ],
+   "answer": 3,
+   "fact": "A slimy coating protects clownfish from the anemone's stings."
+  },
+  {
+   "id": "animals-1108",
+   "category": "Animals",
+   "q": "Which fish swims from the ocean back up the river where it hatched to lay eggs?",
+   "choices": [
+    "Tuna",
+    "Clownfish",
+    "Shark",
+    "Salmon"
+   ],
+   "answer": 3,
+   "fact": "Salmon may use their sense of smell to find their home stream."
+  },
+  {
+   "id": "animals-1109",
+   "category": "Animals",
+   "q": "Which fish has a glowing lure on its head to attract prey in the deep sea?",
+   "choices": [
+    "Swordfish",
+    "Anglerfish",
+    "Catfish",
+    "Flounder"
+   ],
+   "answer": 1,
+   "fact": "The glow comes from bacteria living in the lure."
+  },
+  {
+   "id": "animals-1110",
+   "category": "Animals",
+   "q": "Which fish has both eyes on one side of its head and lies flat on the sea floor?",
+   "choices": [
+    "Tuna",
+    "Flounder",
+    "Shark",
+    "Eel"
+   ],
+   "answer": 1,
+   "fact": "Baby flounders start with eyes on both sides, and one eye moves over as they grow."
+  },
+  {
+   "id": "animals-1111",
+   "category": "Animals",
+   "q": "In which fish species does the male give birth?",
+   "choices": [
+    "Shark",
+    "Goldfish",
+    "Salmon",
+    "Seahorse"
+   ],
+   "answer": 3,
+   "fact": "The female puts her eggs into a pouch on the male's belly, and he carries them until they hatch."
+  },
+  {
+   "id": "animals-1112",
+   "category": "Animals",
+   "q": "Which fish can make strong electric shocks?",
+   "choices": [
+    "Clownfish",
+    "Catfish",
+    "Electric eel",
+    "Goldfish"
+   ],
+   "answer": 2,
+   "fact": "Despite its name, the electric eel is actually a type of knifefish."
+  },
+  {
+   "id": "animals-1113",
+   "category": "Animals",
+   "q": "Which fish is known for its sharp teeth and lives in South American rivers?",
+   "choices": [
+    "Salmon",
+    "Piranha",
+    "Trout",
+    "Carp"
+   ],
+   "answer": 1,
+   "fact": "Most piranhas eat a mix of food, including seeds and fruit, and rarely attack people."
+  },
+  {
+   "id": "animals-1114",
+   "category": "Animals",
+   "q": "What do fish use to breathe underwater?",
+   "choices": [
+    "Lungs",
+    "Gills",
+    "Their skin only",
+    "Blowholes"
+   ],
+   "answer": 1,
+   "fact": "Gills pull oxygen out of the water as it flows over them."
+  },
+  {
+   "id": "animals-1115",
+   "category": "Animals",
+   "q": "Which ocean animal shoots out ink to escape from predators?",
+   "choices": [
+    "Crab",
+    "Octopus",
+    "Starfish",
+    "Jellyfish"
+   ],
+   "answer": 1,
+   "fact": "The ink cloud confuses predators while the octopus swims away."
+  },
+  {
+   "id": "animals-1116",
+   "category": "Animals",
+   "q": "What color is an octopus's blood?",
+   "choices": [
+    "Red",
+    "Blue",
+    "Green",
+    "Clear"
+   ],
+   "answer": 1,
+   "fact": "Octopus blood uses copper to carry oxygen, which makes it blue."
+  },
+  {
+   "id": "animals-1117",
+   "category": "Animals",
+   "q": "How many arms does an octopus have?",
+   "choices": [
+    "8",
+    "6",
+    "10",
+    "12"
+   ],
+   "answer": 0,
+   "fact": "Each arm has its own cluster of nerves and can taste what it touches."
+  },
+  {
+   "id": "animals-1118",
+   "category": "Animals",
+   "q": "Which animal can change both the color and texture of its skin in less than a second?",
+   "choices": [
+    "Crab",
+    "Starfish",
+    "Lobster",
+    "Octopus"
+   ],
+   "answer": 3,
+   "fact": "Octopuses have special color cells in their skin that they control with muscles."
+  },
+  {
+   "id": "animals-1119",
+   "category": "Animals",
+   "q": "Which animal has the largest eyes of any animal?",
+   "choices": [
+    "Blue whale",
+    "Ostrich",
+    "Colossal squid",
+    "Owl"
+   ],
+   "answer": 2,
+   "fact": "A colossal squid's eye can be about the size of a soccer ball."
+  },
+  {
+   "id": "animals-1120",
+   "category": "Animals",
+   "q": "How many arms does a typical sea star have?",
+   "choices": [
+    "3",
+    "8",
+    "5",
+    "12"
+   ],
+   "answer": 2,
+   "fact": "Some sea stars can regrow a lost arm, and a few kinds have many more arms."
+  },
+  {
+   "id": "animals-1121",
+   "category": "Animals",
+   "q": "Is a sea star a fish?",
+   "choices": [
+    "Yes, a flat fish",
+    "No, it is an echinoderm",
+    "Yes, a kind of shark",
+    "No, it is a plant"
+   ],
+   "answer": 1,
+   "fact": "Sea stars have no blood and move water through their bodies instead."
+  },
+  {
+   "id": "animals-1122",
+   "category": "Animals",
+   "q": "Which ocean animal is actually a colony of many tiny animals living together?",
+   "choices": [
+    "Octopus",
+    "Portuguese man o' war",
+    "Sea turtle",
+    "Clam"
+   ],
+   "answer": 1,
+   "fact": "Each part of a man o' war is a separate tiny creature, and they cannot live alone."
+  },
+  {
+   "id": "animals-1123",
+   "category": "Animals",
+   "q": "What is a coral reef made from?",
+   "choices": [
+    "Rocks from volcanoes",
+    "Plants",
+    "Shells of sea turtles",
+    "Skeletons of tiny animals called coral polyps"
+   ],
+   "answer": 3,
+   "fact": "Coral reefs cover a tiny part of the ocean floor but are home to about a quarter of all ocean species."
+  },
+  {
+   "id": "animals-1124",
+   "category": "Animals",
+   "q": "Which animal is a hermit crab known for using as a home?",
+   "choices": [
+    "A coral hole",
+    "A tin can only",
+    "A sea star",
+    "An empty shell"
+   ],
+   "answer": 3,
+   "fact": "Hermit crabs move into bigger shells as they grow."
+  },
+  {
+   "id": "animals-1125",
+   "category": "Animals",
+   "q": "How many legs does a crab have?",
+   "choices": [
+    "6",
+    "8",
+    "12",
+    "10"
+   ],
+   "answer": 3,
+   "fact": "Two of the crab's ten legs are its front claws, called pincers."
+  },
+  {
+   "id": "animals-1126",
+   "category": "Animals",
+   "q": "Which sea turtle is the largest?",
+   "choices": [
+    "Leatherback",
+    "Green sea turtle",
+    "Loggerhead",
+    "Hawksbill"
+   ],
+   "answer": 0,
+   "fact": "Leatherbacks can weigh more than 500 kilograms."
+  },
+  {
+   "id": "animals-1127",
+   "category": "Animals",
+   "q": "Where do sea turtles lay their eggs?",
+   "choices": [
+    "In nests dug on sandy beaches",
+    "On floating seaweed",
+    "Underwater on the sea floor",
+    "In coral reefs"
+   ],
+   "answer": 0,
+   "fact": "Many females return to lay eggs on the same beach where they hatched."
+  },
+  {
+   "id": "animals-1128",
+   "category": "Animals",
+   "q": "What decides whether many baby sea turtles hatch as males or females?",
+   "choices": [
+    "The size of the egg",
+    "The time of day",
+    "The temperature of the sand",
+    "The color of the sand"
+   ],
+   "answer": 2,
+   "fact": "Warmer nests mostly produce females and cooler nests mostly produce males."
+  },
+  {
+   "id": "animals-1129",
+   "category": "Animals",
+   "q": "Which reptile can live for more than 150 years?",
+   "choices": [
+    "Giant tortoise",
+    "Iguana",
+    "Crocodile",
+    "Garter snake"
+   ],
+   "answer": 0,
+   "fact": "A giant tortoise named Jonathan, living on the island of Saint Helena, was over 190 years old as of 2025."
+  },
+  {
+   "id": "animals-1130",
+   "category": "Animals",
+   "q": "What is the difference between a tortoise and a turtle?",
+   "choices": [
+    "Tortoises can fly",
+    "Turtles have no shells",
+    "There is no difference",
+    "Tortoises live on land, while many turtles live in water"
+   ],
+   "answer": 3,
+   "fact": "Tortoises usually have rounded, dome-shaped shells and stumpy legs."
+  },
+  {
+   "id": "animals-1131",
+   "category": "Animals",
+   "q": "Which reptile is the largest living reptile?",
+   "choices": [
+    "Saltwater crocodile",
+    "Komodo dragon",
+    "Anaconda",
+    "Leatherback turtle"
+   ],
+   "answer": 0,
+   "fact": "Big male saltwater crocodiles can grow longer than 6 meters."
+  },
+  {
+   "id": "animals-1132",
+   "category": "Animals",
+   "q": "How can you tell a crocodile from an alligator?",
+   "choices": [
+    "Alligators are always bigger",
+    "Crocodiles have fur",
+    "Alligators live only in oceans",
+    "Crocodiles usually have a narrower, pointed snout"
+   ],
+   "answer": 3,
+   "fact": "When a crocodile closes its mouth, you can usually still see some of its lower teeth."
+  },
+  {
+   "id": "animals-1133",
+   "category": "Animals",
+   "q": "In which two countries do wild alligators live?",
+   "choices": [
+    "United States and China",
+    "Australia and Brazil",
+    "India and Egypt",
+    "Mexico and Canada"
+   ],
+   "answer": 0,
+   "fact": "The Chinese alligator is much smaller and is critically endangered."
+  },
+  {
+   "id": "animals-1134",
+   "category": "Animals",
+   "q": "Which lizard can change color and move its eyes in two directions at once?",
+   "choices": [
+    "Iguana",
+    "Chameleon",
+    "Gecko",
+    "Monitor lizard"
+   ],
+   "answer": 1,
+   "fact": "A chameleon's tongue can be longer than its whole body."
+  },
+  {
+   "id": "animals-1135",
+   "category": "Animals",
+   "q": "Which lizard can walk up walls and even across ceilings?",
+   "choices": [
+    "Iguana",
+    "Gecko",
+    "Komodo dragon",
+    "Chameleon"
+   ],
+   "answer": 1,
+   "fact": "Geckos have millions of tiny hairs on their toes that stick to surfaces."
+  },
+  {
+   "id": "animals-1136",
+   "category": "Animals",
+   "q": "Which lizard can squirt blood from its eyes to scare away predators?",
+   "choices": [
+    "Horned lizard",
+    "Gecko",
+    "Iguana",
+    "Komodo dragon"
+   ],
+   "answer": 0,
+   "fact": "The blood tastes bad to predators like dogs and coyotes."
+  },
+  {
+   "id": "animals-1137",
+   "category": "Animals",
+   "q": "Why do some lizards drop their tails?",
+   "choices": [
+    "To cool off",
+    "To make a nest",
+    "To escape from predators",
+    "Because they are old"
+   ],
+   "answer": 2,
+   "fact": "The tail keeps wiggling to distract the predator, and a new tail can grow back."
+  },
+  {
+   "id": "animals-1138",
+   "category": "Animals",
+   "q": "Which venomous lizard lives in the deserts of the southwestern United States and Mexico?",
+   "choices": [
+    "Komodo dragon",
+    "Gila monster",
+    "Chameleon",
+    "Bearded dragon"
+   ],
+   "answer": 1,
+   "fact": "Gila monsters spend most of their lives underground."
+  },
+  {
+   "id": "animals-1139",
+   "category": "Animals",
+   "q": "Which is the longest snake in the world?",
+   "choices": [
+    "Green anaconda",
+    "King cobra",
+    "Black mamba",
+    "Reticulated python"
+   ],
+   "answer": 3,
+   "fact": "Reticulated pythons can grow longer than 6 meters."
+  },
+  {
+   "id": "animals-1140",
+   "category": "Animals",
+   "q": "Which is the heaviest snake in the world?",
+   "choices": [
+    "Green anaconda",
+    "Reticulated python",
+    "King cobra",
+    "Boa constrictor"
+   ],
+   "answer": 0,
+   "fact": "Green anacondas can weigh more than 90 kilograms, about as much as a grown-up."
+  },
+  {
+   "id": "animals-1141",
+   "category": "Animals",
+   "q": "Which is the longest venomous snake?",
+   "choices": [
+    "Black mamba",
+    "Rattlesnake",
+    "Copperhead",
+    "King cobra"
+   ],
+   "answer": 3,
+   "fact": "King cobras can be more than 5 meters long and mostly eat other snakes."
+  },
+  {
+   "id": "animals-1142",
+   "category": "Animals",
+   "q": "How do snakes smell?",
+   "choices": [
+    "With their forked tongues",
+    "With big noses",
+    "With their tails",
+    "They cannot smell"
+   ],
+   "answer": 0,
+   "fact": "A snake flicks its tongue to collect smells and then presses it to a special organ in its mouth."
+  },
+  {
+   "id": "animals-1143",
+   "category": "Animals",
+   "q": "What does a rattlesnake use its rattle for?",
+   "choices": [
+    "To catch insects",
+    "To help it swim",
+    "To call its babies",
+    "To warn animals to stay away"
+   ],
+   "answer": 3,
+   "fact": "A new segment is added to the rattle each time the snake sheds its skin."
+  },
+  {
+   "id": "animals-1144",
+   "category": "Animals",
+   "q": "How do snakes grow?",
+   "choices": [
+    "By growing feathers",
+    "By shedding their old skin",
+    "By changing shells",
+    "They never grow"
+   ],
+   "answer": 1,
+   "fact": "Snakes often shed their skin in one long piece, inside out."
+  },
+  {
+   "id": "animals-1145",
+   "category": "Animals",
+   "q": "How do snakes like pythons and boas kill their prey?",
+   "choices": [
+    "With venom",
+    "By drowning it in sand",
+    "By biting it in half",
+    "By squeezing it"
+   ],
+   "answer": 3,
+   "fact": "Snakes that squeeze their prey are called constrictors."
+  },
+  {
+   "id": "animals-1146",
+   "category": "Animals",
+   "q": "Do snakes have eyelids?",
+   "choices": [
+    "Yes, two each",
+    "Only at night",
+    "Only when sleeping",
+    "No"
+   ],
+   "answer": 3,
+   "fact": "Instead, a clear scale covers and protects each eye."
+  },
+  {
+   "id": "animals-1147",
+   "category": "Animals",
+   "q": "What are the only animals that have feathers?",
+   "choices": [
+    "Bats",
+    "Birds",
+    "Reptiles",
+    "Insects"
+   ],
+   "answer": 1,
+   "fact": "Some dinosaurs had feathers too, and birds are their living relatives."
+  },
+  {
+   "id": "animals-1148",
+   "category": "Animals",
+   "q": "Which amphibian can regrow lost legs, and even parts of its heart and brain?",
+   "choices": [
+    "Frog",
+    "Axolotl",
+    "Toad",
+    "Newt"
+   ],
+   "answer": 1,
+   "fact": "Axolotls are a kind of salamander from lakes near Mexico City."
+  },
+  {
+   "id": "animals-1149",
+   "category": "Animals",
+   "q": "How do frogs drink water?",
+   "choices": [
+    "With their tongue",
+    "Through their nose",
+    "They soak it up through their skin",
+    "They never need water"
+   ],
+   "answer": 2,
+   "fact": "Many frogs have a special patch of skin on their belly for soaking up water."
+  },
+  {
+   "id": "animals-1150",
+   "category": "Animals",
+   "q": "What is the difference between a frog and a toad?",
+   "choices": [
+    "Frogs live only on land",
+    "Toads are never amphibians",
+    "There is no difference",
+    "Toads usually have dry, bumpy skin and shorter legs"
+   ],
+   "answer": 3,
+   "fact": "All toads are actually a type of frog."
+  },
+  {
+   "id": "animals-1151",
+   "category": "Animals",
+   "q": "Which brightly colored frog from rainforests has poisonous skin?",
+   "choices": [
+    "Bullfrog",
+    "Poison dart frog",
+    "Tree frog",
+    "Leopard frog"
+   ],
+   "answer": 1,
+   "fact": "Some Indigenous people used the poison on the tips of their blow darts."
+  },
+  {
+   "id": "animals-1152",
+   "category": "Animals",
+   "q": "What does the word amphibian mean?",
+   "choices": [
+    "Double life",
+    "Cold skin",
+    "Slimy creature",
+    "Pond animal"
+   ],
+   "answer": 0,
+   "fact": "Most amphibians start life in water and later live partly on land."
+  },
+  {
+   "id": "animals-1153",
+   "category": "Animals",
+   "q": "Which animal group are frogs, toads and salamanders part of?",
+   "choices": [
+    "Reptiles",
+    "Fish",
+    "Amphibians",
+    "Mammals"
+   ],
+   "answer": 2,
+   "fact": "Amphibians have thin skin that must stay moist."
+  },
+  {
+   "id": "animals-1154",
+   "category": "Animals",
+   "q": "How many legs do insects have?",
+   "choices": [
+    "8",
+    "4",
+    "10",
+    "6"
+   ],
+   "answer": 3,
+   "fact": "Insects also have three main body parts: head, thorax and abdomen."
+  },
+  {
+   "id": "animals-1155",
+   "category": "Animals",
+   "q": "Which group of animals do spiders belong to?",
+   "choices": [
+    "Insects",
+    "Crustaceans",
+    "Arachnids",
+    "Reptiles"
+   ],
+   "answer": 2,
+   "fact": "Scorpions, ticks and mites are arachnids too."
+  },
+  {
+   "id": "animals-1156",
+   "category": "Animals",
+   "q": "What is the name for an animal with no backbone?",
+   "choices": [
+    "Invertebrate",
+    "Vertebrate",
+    "Mammal",
+    "Amphibian"
+   ],
+   "answer": 0,
+   "fact": "About 97 percent of all animal species are invertebrates."
+  },
+  {
+   "id": "animals-1157",
+   "category": "Animals",
+   "q": "What do caterpillars turn into inside a chrysalis to become butterflies?",
+   "choices": [
+    "They grow wings on the outside first",
+    "They lay eggs",
+    "They change form completely",
+    "They sleep through winter only"
+   ],
+   "answer": 2,
+   "fact": "This complete change of body shape is called metamorphosis."
+  },
+  {
+   "id": "animals-1158",
+   "category": "Animals",
+   "q": "Which butterfly travels thousands of kilometers from Canada to Mexico every year?",
+   "choices": [
+    "Cabbage white",
+    "Monarch butterfly",
+    "Swallowtail",
+    "Painted lady"
+   ],
+   "answer": 1,
+   "fact": "Millions of monarchs spend the winter clustered on trees in the mountains of Mexico."
+  },
+  {
+   "id": "animals-1159",
+   "category": "Animals",
+   "q": "What do butterflies taste with?",
+   "choices": [
+    "Their wings",
+    "Their feet",
+    "Their antennae only",
+    "Their eyes"
+   ],
+   "answer": 1,
+   "fact": "Butterflies stand on a leaf to taste whether it is good for laying eggs."
+  },
+  {
+   "id": "animals-1160",
+   "category": "Animals",
+   "q": "Which insect makes honey?",
+   "choices": [
+    "Wasp",
+    "Ant",
+    "Honeybee",
+    "Beetle"
+   ],
+   "answer": 2,
+   "fact": "A single honeybee makes only about one twelfth of a teaspoon of honey in its whole life."
+  },
+  {
+   "id": "animals-1161",
+   "category": "Animals",
+   "q": "Who is the only bee in a hive that lays eggs?",
+   "choices": [
+    "The queen",
+    "The drones",
+    "The workers",
+    "All the bees"
+   ],
+   "answer": 0,
+   "fact": "A queen bee can lay up to about 2,000 eggs in a single day."
+  },
+  {
+   "id": "animals-1162",
+   "category": "Animals",
+   "q": "What are male honeybees called?",
+   "choices": [
+    "Drones",
+    "Workers",
+    "Soldiers",
+    "Kings"
+   ],
+   "answer": 0,
+   "fact": "Drones do not have stingers."
+  },
+  {
+   "id": "animals-1163",
+   "category": "Animals",
+   "q": "What happens to a honeybee after it stings a person?",
+   "choices": [
+    "It grows a new stinger",
+    "It gets stronger",
+    "Nothing happens",
+    "It usually dies"
+   ],
+   "answer": 3,
+   "fact": "The barbed stinger gets stuck in skin and tears away from the bee."
+  },
+  {
+   "id": "animals-1164",
+   "category": "Animals",
+   "q": "Which insects make light to attract mates?",
+   "choices": [
+    "Fireflies",
+    "Moths",
+    "Crickets",
+    "Ladybugs"
+   ],
+   "answer": 0,
+   "fact": "The light from fireflies makes almost no heat."
+  },
+  {
+   "id": "animals-1165",
+   "category": "Animals",
+   "q": "How do crickets make their chirping sound?",
+   "choices": [
+    "By clapping their legs",
+    "With their mouths",
+    "By buzzing their antennae",
+    "By rubbing their wings together"
+   ],
+   "answer": 3,
+   "fact": "You can roughly estimate the temperature by counting cricket chirps."
+  },
+  {
+   "id": "animals-1166",
+   "category": "Animals",
+   "q": "Which insect is famous for carrying many times its own body weight?",
+   "choices": [
+    "Butterfly",
+    "Ant",
+    "Mosquito",
+    "Moth"
+   ],
+   "answer": 1,
+   "fact": "Some ants can lift around 50 times their own weight."
+  },
+  {
+   "id": "animals-1167",
+   "category": "Animals",
+   "q": "Which insect is known for spending years underground and then all coming out together to sing loudly?",
+   "choices": [
+    "Cricket",
+    "Grasshopper",
+    "Firefly",
+    "Periodical cicada"
+   ],
+   "answer": 3,
+   "fact": "Some periodical cicadas stay underground for 17 years."
+  },
+  {
+   "id": "animals-1168",
+   "category": "Animals",
+   "q": "Which insect only drinks blood when it is a female?",
+   "choices": [
+    "Housefly",
+    "Butterfly",
+    "Dragonfly",
+    "Mosquito"
+   ],
+   "answer": 3,
+   "fact": "Female mosquitoes need protein from blood to make their eggs, while males drink plant nectar."
+  },
+  {
+   "id": "animals-1169",
+   "category": "Animals",
+   "q": "Which animal kills more people each year than any other wild animal?",
+   "choices": [
+    "Shark",
+    "Snake",
+    "Lion",
+    "Mosquito"
+   ],
+   "answer": 3,
+   "fact": "Mosquitoes spread diseases like malaria."
+  },
+  {
+   "id": "animals-1170",
+   "category": "Animals",
+   "q": "Which insect has been around since before the dinosaurs and can hunt other insects in mid-air?",
+   "choices": [
+    "Ladybug",
+    "Dragonfly",
+    "Housefly",
+    "Moth"
+   ],
+   "answer": 1,
+   "fact": "Dragonflies catch a very high share of the prey they chase."
+  },
+  {
+   "id": "animals-1171",
+   "category": "Animals",
+   "q": "Which beetle is red with black spots and eats aphids?",
+   "choices": [
+    "Firefly",
+    "Ladybug",
+    "Scarab",
+    "Stag beetle"
+   ],
+   "answer": 1,
+   "fact": "One ladybug can eat thousands of aphids during its life."
+  },
+  {
+   "id": "animals-1172",
+   "category": "Animals",
+   "q": "Which insect can hide by looking just like a twig?",
+   "choices": [
+    "Ladybug",
+    "Bee",
+    "Dragonfly",
+    "Stick insect"
+   ],
+   "answer": 3,
+   "fact": "Some stick insects are longer than a ruler."
+  },
+  {
+   "id": "animals-1173",
+   "category": "Animals",
+   "q": "What do dung beetles do with animal poop?",
+   "choices": [
+    "Throw it at enemies",
+    "Build houses with it",
+    "Nothing",
+    "Roll it into balls and eat it or lay eggs in it"
+   ],
+   "answer": 3,
+   "fact": "Some dung beetles use the Milky Way in the night sky to find their way."
+  },
+  {
+   "id": "animals-1174",
+   "category": "Animals",
+   "q": "Which insect group has the most species on Earth?",
+   "choices": [
+    "Ants",
+    "Butterflies",
+    "Beetles",
+    "Flies"
+   ],
+   "answer": 2,
+   "fact": "Scientists have described about 400,000 kinds of beetles."
+  },
+  {
+   "id": "animals-1175",
+   "category": "Animals",
+   "q": "What do termites mainly eat?",
+   "choices": [
+    "Meat",
+    "Wood",
+    "Leaves only",
+    "Other insects"
+   ],
+   "answer": 1,
+   "fact": "Some African termites build mounds taller than a grown-up."
+  },
+  {
+   "id": "animals-1176",
+   "category": "Animals",
+   "q": "What is the young of a dragonfly that lives underwater called?",
+   "choices": [
+    "Nymph",
+    "Caterpillar",
+    "Tadpole",
+    "Grub"
+   ],
+   "answer": 0,
+   "fact": "A dragonfly nymph can spend years underwater before becoming a flying adult."
+  },
+  {
+   "id": "animals-1177",
+   "category": "Animals",
+   "q": "How does a spider catch most of its food?",
+   "choices": [
+    "In silk webs or by hunting",
+    "By chasing with wings",
+    "By stinging with a tail",
+    "By eating plants"
+   ],
+   "answer": 0,
+   "fact": "Weight for weight, spider silk can be stronger than steel."
+  },
+  {
+   "id": "animals-1178",
+   "category": "Animals",
+   "q": "Which spider is famous for eating its mate?",
+   "choices": [
+    "Tarantula",
+    "Black widow",
+    "Wolf spider",
+    "Jumping spider"
+   ],
+   "answer": 1,
+   "fact": "Female black widows do sometimes eat males, but not every time."
+  },
+  {
+   "id": "animals-1179",
+   "category": "Animals",
+   "q": "Which spider is large and hairy and sometimes kept as a pet?",
+   "choices": [
+    "Black widow",
+    "Brown recluse",
+    "Tarantula",
+    "Garden spider"
+   ],
+   "answer": 2,
+   "fact": "Some tarantulas can live for more than 20 years."
+  },
+  {
+   "id": "animals-1180",
+   "category": "Animals",
+   "q": "Which spider mother carries her babies on her back?",
+   "choices": [
+    "Black widow",
+    "Orb weaver",
+    "Wolf spider",
+    "Tarantula"
+   ],
+   "answer": 2,
+   "fact": "Hundreds of tiny spiderlings may ride on their mother's back."
+  },
+  {
+   "id": "animals-1181",
+   "category": "Animals",
+   "q": "Which ape is the closest living relative of humans, along with the bonobo?",
+   "choices": [
+    "Gorilla",
+    "Chimpanzee",
+    "Orangutan",
+    "Gibbon"
+   ],
+   "answer": 1,
+   "fact": "Humans and chimpanzees share about 98 percent of their DNA."
+  },
+  {
+   "id": "animals-1182",
+   "category": "Animals",
+   "q": "Which is the largest ape?",
+   "choices": [
+    "Gorilla",
+    "Chimpanzee",
+    "Orangutan",
+    "Bonobo"
+   ],
+   "answer": 0,
+   "fact": "A big male gorilla, called a silverback, can weigh more than 180 kilograms."
+  },
+  {
+   "id": "animals-1183",
+   "category": "Animals",
+   "q": "Which ape has reddish-orange hair and lives in the rainforests of Borneo and Sumatra?",
+   "choices": [
+    "Gorilla",
+    "Chimpanzee",
+    "Gibbon",
+    "Orangutan"
+   ],
+   "answer": 3,
+   "fact": "Orangutan means person of the forest in the Malay language."
+  },
+  {
+   "id": "animals-1184",
+   "category": "Animals",
+   "q": "Which apes swing through the trees with super long arms and sing loud songs?",
+   "choices": [
+    "Gorillas",
+    "Baboons",
+    "Gibbons",
+    "Lemurs"
+   ],
+   "answer": 2,
+   "fact": "Gibbons can swing between branches at up to about 55 kilometers per hour."
+  },
+  {
+   "id": "animals-1185",
+   "category": "Animals",
+   "q": "Which scientist became famous for studying wild chimpanzees in Tanzania?",
+   "choices": [
+    "Marie Curie",
+    "Rachel Carson",
+    "Dian Fossey",
+    "Jane Goodall"
+   ],
+   "answer": 3,
+   "fact": "Jane Goodall discovered that chimpanzees make and use tools."
+  },
+  {
+   "id": "animals-1186",
+   "category": "Animals",
+   "q": "Where do wild lemurs live?",
+   "choices": [
+    "Madagascar",
+    "Australia",
+    "Brazil",
+    "India"
+   ],
+   "answer": 0,
+   "fact": "Lemurs live naturally only on the island of Madagascar and a few small nearby islands."
+  },
+  {
+   "id": "animals-1187",
+   "category": "Animals",
+   "q": "What is the difference between a monkey and an ape?",
+   "choices": [
+    "Apes have tails and monkeys do not",
+    "Monkeys are always bigger",
+    "There is no difference",
+    "Most monkeys have tails and apes do not"
+   ],
+   "answer": 3,
+   "fact": "Gorillas, chimpanzees, orangutans and gibbons are all apes."
+  },
+  {
+   "id": "animals-1188",
+   "category": "Animals",
+   "q": "Which monkey is known as one of the loudest land animals?",
+   "choices": [
+    "Spider monkey",
+    "Capuchin",
+    "Howler monkey",
+    "Baboon"
+   ],
+   "answer": 2,
+   "fact": "A howler monkey's call can be heard several kilometers away through the forest."
+  },
+  {
+   "id": "animals-1189",
+   "category": "Animals",
+   "q": "Which monkey lives in snowy mountains in Japan and bathes in hot springs?",
+   "choices": [
+    "Howler monkey",
+    "Baboon",
+    "Japanese macaque",
+    "Mandrill"
+   ],
+   "answer": 2,
+   "fact": "These monkeys are often called snow monkeys."
+  },
+  {
+   "id": "animals-1190",
+   "category": "Animals",
+   "q": "Which monkey has a bright red and blue face?",
+   "choices": [
+    "Howler monkey",
+    "Capuchin",
+    "Mandrill",
+    "Spider monkey"
+   ],
+   "answer": 2,
+   "fact": "Mandrills are the largest monkeys in the world."
+  },
+  {
+   "id": "animals-1191",
+   "category": "Animals",
+   "q": "What is the largest rodent in the world?",
+   "choices": [
+    "Beaver",
+    "Capybara",
+    "Porcupine",
+    "Rat"
+   ],
+   "answer": 1,
+   "fact": "Capybaras live in South America and love to swim."
+  },
+  {
+   "id": "animals-1192",
+   "category": "Animals",
+   "q": "Which rodent stores food in big cheek pouches?",
+   "choices": [
+    "Rabbit",
+    "Mouse",
+    "Hamster",
+    "Guinea pig"
+   ],
+   "answer": 2,
+   "fact": "A hamster can stuff its cheek pouches until its head looks twice as wide."
+  },
+  {
+   "id": "animals-1193",
+   "category": "Animals",
+   "q": "Is a rabbit a rodent?",
+   "choices": [
+    "Yes",
+    "It is a marsupial",
+    "No, it is a lagomorph",
+    "It is a type of cat"
+   ],
+   "answer": 2,
+   "fact": "Rabbits have a second small pair of upper front teeth behind the first pair."
+  },
+  {
+   "id": "animals-1194",
+   "category": "Animals",
+   "q": "Which pet rodent comes from South America and makes squeaking sounds called wheeking?",
+   "choices": [
+    "Hamster",
+    "Guinea pig",
+    "Gerbil",
+    "Chinchilla"
+   ],
+   "answer": 1,
+   "fact": "Guinea pigs are not pigs and do not come from Guinea."
+  },
+  {
+   "id": "animals-1195",
+   "category": "Animals",
+   "q": "Which animal has the softest, thickest fur of any land animal?",
+   "choices": [
+    "Rabbit",
+    "Chinchilla",
+    "Polar bear",
+    "Sheep"
+   ],
+   "answer": 1,
+   "fact": "A chinchilla can grow about 60 hairs from a single hair follicle."
+  },
+  {
+   "id": "animals-1196",
+   "category": "Animals",
+   "q": "Which small mammal digs tunnels and is almost blind?",
+   "choices": [
+    "Hamster",
+    "Squirrel",
+    "Mole",
+    "Rabbit"
+   ],
+   "answer": 2,
+   "fact": "A mole can dig about 18 meters of tunnel in a day."
+  },
+  {
+   "id": "animals-1197",
+   "category": "Animals",
+   "q": "Which African rodent has almost no hair and lives in colonies with a queen, like bees?",
+   "choices": [
+    "Gerbil",
+    "Chinchilla",
+    "Capybara",
+    "Naked mole-rat"
+   ],
+   "answer": 3,
+   "fact": "Naked mole-rats can live more than 30 years, a very long time for a rodent."
+  },
+  {
+   "id": "animals-1198",
+   "category": "Animals",
+   "q": "How do most bats find insects in the dark?",
+   "choices": [
+    "Echolocation",
+    "Smell only",
+    "Heat vision",
+    "Magnetism"
+   ],
+   "answer": 0,
+   "fact": "Bats send out high-pitched calls and listen for the echoes."
+  },
+  {
+   "id": "animals-1199",
+   "category": "Animals",
+   "q": "What do vampire bats drink?",
+   "choices": [
+    "Nectar",
+    "Water only",
+    "Blood",
+    "Milk"
+   ],
+   "answer": 2,
+   "fact": "Vampire bats share blood meals with roost mates who did not find food."
+  },
+  {
+   "id": "animals-1200",
+   "category": "Animals",
+   "q": "Which bat is the largest, with wings over 1.5 meters wide?",
+   "choices": [
+    "Vampire bat",
+    "Bumblebee bat",
+    "Flying fox",
+    "Brown bat"
+   ],
+   "answer": 2,
+   "fact": "Flying foxes eat fruit and nectar, not insects."
+  }
+ ]
+}

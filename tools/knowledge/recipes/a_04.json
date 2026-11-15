@@ -1,0 +1,1757 @@
+{
+ "recipes": [
+  {
+   "id": "pork-potstickers",
+   "name": "Pork potstickers",
+   "aliases": [
+    "potstickers",
+    "pot stickers",
+    "dumplings",
+    "pork dumplings",
+    "gyoza",
+    "jiaozi",
+    "chinese dumplings"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "1 hr 15 min",
+   "main": [
+    "pork",
+    "cabbage",
+    "dumpling wrapper",
+    "ginger",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground pork",
+    "2 cups (140 g) finely chopped napa cabbage",
+    "1/2 teaspoon salt, for the cabbage",
+    "2 green onions, finely chopped",
+    "1 tablespoon grated ginger",
+    "2 garlic cloves, grated",
+    "2 tablespoons soy sauce",
+    "1 tablespoon sesame oil",
+    "40 round dumpling wrappers",
+    "2 tablespoons vegetable oil",
+    "1/2 cup (120 ml) water",
+    "Dipping sauce: 3 tablespoons soy sauce, 1 tablespoon rice vinegar, 1 teaspoon sesame oil"
+   ],
+   "steps": [
+    "Chop the cabbage and green onions. Ask an adult to help.",
+    "Toss the cabbage with the salt, wait 10 minutes, then squeeze out the water.",
+    "Mix the pork, cabbage, green onion, ginger, garlic, soy sauce and sesame oil. Wash your hands after.",
+    "Put 1 teaspoon of filling in the middle of a wrapper, wet the edge with water, fold in half and pinch or pleat it shut.",
+    "Heat 1 tablespoon of oil in a nonstick pan with a lid over medium heat and set in half the dumplings, flat side down.",
+    "Cook for 2 minutes, until the bottoms are golden.",
+    "Pour in 1/4 cup of water, cover right away, and steam for 6 to 7 minutes, until the filling is cooked through. Ask an adult to help, it spits.",
+    "Uncover and cook for 1 minute more to crisp. Repeat with the rest and serve with dipping sauce."
+   ]
+  },
+  {
+   "id": "dan-dan-noodles",
+   "name": "Dan dan noodles",
+   "aliases": [
+    "dan dan noodles",
+    "dandan noodles",
+    "dan dan mian",
+    "sichuan noodles",
+    "spicy sesame pork noodles"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "noodle",
+    "pork",
+    "sesame paste",
+    "chili oil"
+   ],
+   "ingredients": [
+    "12 oz (340 g) fresh or dried wheat noodles",
+    "1 tablespoon vegetable oil",
+    "8 oz (225 g) ground pork",
+    "1 tablespoon soy sauce, for the pork",
+    "1 tablespoon hoisin sauce",
+    "3 tablespoons Chinese sesame paste or tahini",
+    "3 tablespoons soy sauce",
+    "1 tablespoon rice vinegar or Chinese black vinegar",
+    "1 teaspoon sugar",
+    "1 to 3 tablespoons chili oil, to taste",
+    "1/2 teaspoon ground Sichuan pepper (optional)",
+    "1/2 cup (120 ml) hot noodle water",
+    "2 baby bok choy, halved, and sliced green onion"
+   ],
+   "steps": [
+    "Cook the pork in the oil over medium-high heat for 5 to 6 minutes, breaking it up, until browned and crispy. Stir in 1 tablespoon soy sauce and the hoisin.",
+    "Whisk the sesame paste, soy sauce, vinegar, sugar, chili oil and Sichuan pepper in a big bowl.",
+    "Boil the noodles as the package says. Add the bok choy for the last 1 minute.",
+    "Scoop out 1/2 cup of the noodle water, then drain. Ask an adult to help.",
+    "Whisk the hot water into the sauce until smooth.",
+    "Divide the sauce between bowls, add the noodles and bok choy, and top with pork and green onion.",
+    "Mix everything together before eating."
+   ]
+  },
+  {
+   "id": "cold-sesame-noodles",
+   "name": "Cold sesame noodles",
+   "aliases": [
+    "sesame noodles",
+    "cold sesame noodles",
+    "peanut sesame noodles",
+    "cold noodles",
+    "peanut noodles"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "noodle",
+    "sesame paste",
+    "soy sauce",
+    "cucumber"
+   ],
+   "ingredients": [
+    "12 oz (340 g) spaghetti or Chinese wheat noodles",
+    "1/4 cup (60 g) Chinese sesame paste, tahini or peanut butter",
+    "3 tablespoons soy sauce",
+    "1 tablespoon rice vinegar",
+    "1 tablespoon honey or sugar",
+    "1 tablespoon sesame oil",
+    "1 garlic clove, grated",
+    "1 teaspoon grated ginger",
+    "3 tablespoons warm water",
+    "1 cucumber, cut in thin sticks",
+    "2 green onions and toasted sesame seeds"
+   ],
+   "steps": [
+    "Boil the noodles as the package says, then rinse under cold water and drain well.",
+    "Whisk the sesame paste, soy sauce, vinegar, honey, sesame oil, garlic, ginger and warm water until smooth.",
+    "Toss the noodles with the sauce.",
+    "Cut the cucumber and slice the green onions. Ask an adult to help.",
+    "Top the noodles with cucumber, green onion and sesame seeds. Serve cold or at room temperature."
+   ]
+  },
+  {
+   "id": "scallion-oil-noodles",
+   "name": "Scallion oil noodles",
+   "aliases": [
+    "scallion oil noodles",
+    "cong you ban mian",
+    "green onion noodles",
+    "shanghai scallion noodles"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "20 min",
+   "main": [
+    "noodle",
+    "green onion",
+    "soy sauce",
+    "oil"
+   ],
+   "ingredients": [
+    "8 oz (225 g) thin wheat noodles",
+    "6 green onions, cut in 2 inch pieces",
+    "1/4 cup (60 ml) vegetable oil",
+    "3 tablespoons soy sauce",
+    "1 tablespoon dark soy sauce (optional, for color)",
+    "1 tablespoon sugar"
+   ],
+   "steps": [
+    "Cut the green onions, keeping the white and green parts apart. Ask an adult to help.",
+    "Heat the oil in a small pan over medium-low heat and add the white parts.",
+    "Cook for 3 minutes, then add the greens and cook for 6 to 8 minutes more, until dark brown and crispy but not burned.",
+    "Turn off the heat and carefully stir in the soy sauces and sugar. It will bubble up.",
+    "Boil the noodles as the package says and drain.",
+    "Toss the noodles with 2 to 3 tablespoons of the scallion oil and the crispy onions."
+   ]
+  },
+  {
+   "id": "zha-jiang-mian",
+   "name": "Zha jiang mian",
+   "aliases": [
+    "zha jiang mian",
+    "zhajiangmian",
+    "fried sauce noodles",
+    "beijing noodles",
+    "jajangmyeon"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "noodle",
+    "pork",
+    "bean paste",
+    "cucumber"
+   ],
+   "ingredients": [
+    "1 lb (450 g) fresh wheat noodles",
+    "1 tablespoon vegetable oil",
+    "12 oz (340 g) ground pork",
+    "2 garlic cloves, chopped",
+    "1/4 cup (65 g) sweet bean sauce or hoisin",
+    "2 tablespoons yellow soybean paste or miso",
+    "1 tablespoon soy sauce",
+    "1 teaspoon sugar",
+    "1/2 cup (120 ml) water",
+    "1 cucumber, cut in thin sticks"
+   ],
+   "steps": [
+    "Chop the garlic and cut the cucumber. Ask an adult to help.",
+    "Heat the oil in a pan over medium heat and cook the pork for 5 minutes, until browned.",
+    "Add the garlic and cook for 30 seconds.",
+    "Stir in the bean sauce, soybean paste, soy sauce, sugar and water.",
+    "Simmer for 8 to 10 minutes, stirring, until thick and glossy.",
+    "Boil the noodles as the package says and drain.",
+    "Top the noodles with the meat sauce and cucumber, then mix well."
+   ]
+  },
+  {
+   "id": "upgraded-instant-ramen",
+   "name": "Upgraded instant ramen",
+   "aliases": [
+    "instant ramen",
+    "ramen noodles",
+    "upgraded ramen",
+    "fancy instant ramen",
+    "ramen hack"
+   ],
+   "category": "Lunch",
+   "servings": 1,
+   "time": "10 min",
+   "main": [
+    "instant noodle",
+    "egg",
+    "green onion"
+   ],
+   "ingredients": [
+    "1 pack instant ramen",
+    "2 cups (480 ml) water",
+    "1 large egg",
+    "1 slice American cheese (optional)",
+    "1 green onion, sliced",
+    "1/2 cup (35 g) frozen corn or spinach",
+    "1 teaspoon butter",
+    "1 pinch sesame seeds"
+   ],
+   "steps": [
+    "Bring the water to a boil in a small pot.",
+    "Add the noodles and vegetables and cook for 2 minutes.",
+    "Stir in half or all of the seasoning packet, to taste.",
+    "Crack the egg into the pot, don't stir, and cook for 1 minute more, until the white is set.",
+    "Turn off the heat and add the butter and cheese.",
+    "Slide into a bowl and top with green onion and sesame seeds. Careful, it's very hot."
+   ]
+  },
+  {
+   "id": "paneer-kathi-roll",
+   "name": "Paneer kathi roll",
+   "aliases": [
+    "kathi roll",
+    "kati roll",
+    "paneer roll",
+    "paneer kathi roll",
+    "frankie roll",
+    "indian wrap"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "paneer",
+    "flatbread",
+    "onion",
+    "pepper"
+   ],
+   "ingredients": [
+    "8 oz (225 g) paneer, cut in strips",
+    "1/4 cup (60 g) plain yogurt",
+    "1 teaspoon garam masala",
+    "1/2 teaspoon chili powder",
+    "1/2 teaspoon ground turmeric",
+    "1/2 teaspoon salt",
+    "1 tablespoon vegetable oil",
+    "1 onion, sliced",
+    "1 bell pepper, sliced",
+    "4 parathas or large flour tortillas",
+    "4 large eggs (optional)",
+    "Green chutney and sliced red onion with lemon"
+   ],
+   "steps": [
+    "Cut the paneer, onion and pepper. Ask an adult to help.",
+    "Mix the yogurt, spices and salt and coat the paneer. Rest for 10 minutes.",
+    "Heat the oil in a pan over medium-high heat and cook the onion and pepper for 4 minutes.",
+    "Add the paneer and cook for 4 to 5 minutes, turning gently, until browned.",
+    "Warm each paratha in a pan. For the egg version, pour a beaten egg in the pan and lay the paratha on top for 1 minute, then flip.",
+    "Spread chutney on each paratha, add the filling and red onion, and roll it up."
+   ]
+  },
+  {
+   "id": "pav-bhaji",
+   "name": "Pav bhaji",
+   "aliases": [
+    "pav bhaji",
+    "bhaji pav",
+    "mumbai pav bhaji",
+    "mashed vegetable curry with buns"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "potato",
+    "cauliflower",
+    "pea",
+    "tomato",
+    "bun"
+   ],
+   "ingredients": [
+    "2 potatoes, peeled and cubed",
+    "1 cup (100 g) cauliflower florets",
+    "1/2 cup (70 g) frozen peas",
+    "1 carrot, chopped",
+    "4 tablespoons (60 g) butter, plus more for the buns",
+    "1 onion, finely chopped",
+    "1 green bell pepper, finely chopped",
+    "1 tablespoon ginger garlic paste",
+    "3 tomatoes, finely chopped",
+    "2 tablespoons pav bhaji masala",
+    "1/2 teaspoon chili powder",
+    "1 teaspoon salt",
+    "8 soft dinner rolls (pav)",
+    "Chopped onion, cilantro and lemon wedges to serve"
+   ],
+   "steps": [
+    "Chop the vegetables. Ask an adult to help.",
+    "Boil the potatoes, cauliflower, carrot and peas in water for 15 minutes, until very soft. Drain and mash.",
+    "Melt the butter in a big pan over medium heat and cook the onion and pepper for 5 minutes.",
+    "Add the ginger garlic paste and cook for 1 minute.",
+    "Add the tomatoes, masala, chili powder and salt and cook for 6 to 8 minutes, mashing, until soft.",
+    "Add the mashed vegetables and 1/2 cup of water and mash everything together. Simmer for 5 minutes.",
+    "Split the rolls, butter them and toast in a pan for 1 minute.",
+    "Serve the bhaji with buns, onion, cilantro and a squeeze of lemon."
+   ]
+  },
+  {
+   "id": "croque-monsieur",
+   "name": "Croque monsieur",
+   "aliases": [
+    "croque monsieur",
+    "croque madame",
+    "french ham and cheese",
+    "baked ham and cheese sandwich"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "30 min",
+   "main": [
+    "ham",
+    "gruyere",
+    "bread",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "1 tablespoon (15 g) butter",
+    "1 tablespoon all-purpose flour",
+    "1/2 cup (120 ml) milk",
+    "1 pinch salt and nutmeg",
+    "1 cup (100 g) grated Gruyere or Swiss cheese, divided",
+    "4 slices white bread",
+    "1 teaspoon Dijon mustard",
+    "4 slices ham",
+    "2 fried eggs, for a croque madame (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Melt the butter in a small pot over medium heat, stir in the flour and cook for 1 minute.",
+    "Whisk in the milk and simmer for 2 to 3 minutes, until thick. Add salt, nutmeg and 1/4 cup of the cheese.",
+    "Toast the bread lightly and lay 2 slices on a baking sheet.",
+    "Spread with mustard, add ham and half the remaining cheese, and top with the other bread.",
+    "Spread the sauce over the tops and sprinkle with the rest of the cheese.",
+    "Bake for 8 to 10 minutes, then broil for 1 to 2 minutes, until golden and bubbly. Watch it closely.",
+    "Top each with a fried egg for a croque madame."
+   ]
+  },
+  {
+   "id": "quiche-lorraine",
+   "name": "Quiche Lorraine",
+   "aliases": [
+    "quiche",
+    "quiche lorraine",
+    "bacon quiche",
+    "cheese quiche",
+    "egg pie"
+   ],
+   "category": "Lunch",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "egg",
+    "bacon",
+    "cheese",
+    "cream",
+    "pie crust"
+   ],
+   "ingredients": [
+    "1 refrigerated pie crust (9 inch)",
+    "6 slices bacon, chopped",
+    "4 large eggs",
+    "1 1/4 cups (300 ml) half and half or light cream",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 pinch nutmeg",
+    "1 1/2 cups (150 g) shredded Swiss or Gruyere cheese"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Press the pie crust into a 9 inch pie pan and prick the bottom with a fork.",
+    "Line it with foil, fill with dried beans and bake for 15 minutes. Lift out the foil and beans and bake for 5 minutes more.",
+    "Cook the bacon in a pan over medium heat for 6 to 8 minutes, until crisp. Drain on paper towels.",
+    "Whisk the eggs, cream, salt, pepper and nutmeg.",
+    "Scatter the bacon and cheese in the crust and pour in the egg mix.",
+    "Bake for 35 to 40 minutes, until set with only a slight wobble in the middle.",
+    "Cool for 15 minutes before slicing."
+   ]
+  },
+  {
+   "id": "spanakopita",
+   "name": "Spanakopita spinach pie",
+   "aliases": [
+    "spanakopita",
+    "spinach pie",
+    "greek spinach pie",
+    "spinach and feta pie",
+    "spanakopita triangles"
+   ],
+   "category": "Lunch",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "spinach",
+    "feta",
+    "phyllo",
+    "egg",
+    "onion"
+   ],
+   "ingredients": [
+    "2 bags (10 oz / 285 g each) frozen chopped spinach, thawed",
+    "2 tablespoons olive oil",
+    "1 onion, chopped",
+    "4 green onions, sliced",
+    "1/4 cup (15 g) chopped dill",
+    "8 oz (225 g) feta, crumbled",
+    "2 large eggs, beaten",
+    "1/4 teaspoon pepper",
+    "1 lb (450 g) phyllo dough, thawed",
+    "1/2 cup (115 g) butter, melted"
+   ],
+   "steps": [
+    "Squeeze all the water out of the spinach with your hands.",
+    "Chop the onion and green onions. Ask an adult to help.",
+    "Cook the onions in the oil over medium heat for 5 minutes. Cool.",
+    "Mix the spinach, onions, dill, feta, eggs and pepper.",
+    "Heat the oven to 375°F (190°C) and brush a 9 by 13 inch dish with butter.",
+    "Lay in 8 sheets of phyllo, brushing each with butter. Keep the rest under a damp towel.",
+    "Spread the filling, then top with 8 more buttered sheets. Tuck in the edges.",
+    "Cut through the top layers into squares with a sharp knife.",
+    "Bake for 45 to 50 minutes, until deep golden and crisp. Cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "caprese-panini",
+   "name": "Caprese panini",
+   "aliases": [
+    "caprese panini",
+    "caprese sandwich",
+    "mozzarella tomato sandwich",
+    "panini",
+    "pesto panini"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "mozzarella",
+    "tomato",
+    "basil",
+    "bread"
+   ],
+   "ingredients": [
+    "4 slices ciabatta or sourdough",
+    "2 tablespoons basil pesto",
+    "6 oz (170 g) fresh mozzarella, sliced",
+    "1 large tomato, sliced",
+    "6 fresh basil leaves",
+    "1 tablespoon olive oil",
+    "1 pinch salt and pepper"
+   ],
+   "steps": [
+    "Slice the mozzarella and tomato. Ask an adult to help.",
+    "Spread pesto on 2 slices of bread.",
+    "Layer mozzarella, tomato with salt and pepper, and basil, then top with the other bread.",
+    "Brush the outsides with olive oil.",
+    "Cook in a panini press or in a pan over medium heat with a heavy pan on top for 3 to 4 minutes per side, until golden and melty."
+   ]
+  },
+  {
+   "id": "italian-sub",
+   "name": "Italian sub",
+   "aliases": [
+    "italian sub",
+    "italian hoagie",
+    "hoagie",
+    "sub sandwich",
+    "italian grinder",
+    "submarine sandwich"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "salami",
+    "ham",
+    "provolone",
+    "bread",
+    "lettuce"
+   ],
+   "ingredients": [
+    "4 sub rolls (8 inch)",
+    "4 oz (115 g) sliced Genoa salami",
+    "4 oz (115 g) sliced ham or capicola",
+    "4 oz (115 g) sliced pepperoni",
+    "8 slices provolone",
+    "2 cups (100 g) shredded lettuce",
+    "1 tomato, thinly sliced",
+    "1/2 red onion, thinly sliced",
+    "3 tablespoons olive oil",
+    "1 tablespoon red wine vinegar",
+    "1/2 teaspoon dried oregano",
+    "1 pinch salt and pepper"
+   ],
+   "steps": [
+    "Slice the tomato and onion. Ask an adult to help.",
+    "Whisk the oil, vinegar, oregano, salt and pepper.",
+    "Split the rolls without cutting all the way through.",
+    "Layer provolone, salami, ham and pepperoni inside.",
+    "Add lettuce, tomato and onion.",
+    "Drizzle with the dressing, close and press down. Cut in half."
+   ]
+  },
+  {
+   "id": "meatball-subs",
+   "name": "Meatball subs",
+   "aliases": [
+    "meatball sub",
+    "meatball subs",
+    "meatball sandwich",
+    "meatball hero",
+    "meatball sandwiches"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "beef",
+    "breadcrumb",
+    "marinara",
+    "mozzarella",
+    "bread"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "1/2 cup (50 g) dry breadcrumbs",
+    "1 large egg",
+    "1/4 cup (25 g) grated parmesan",
+    "1 teaspoon Italian seasoning",
+    "1/2 teaspoon salt",
+    "2 cups (480 ml) marinara sauce",
+    "4 sub rolls",
+    "8 slices provolone or 1 cup (115 g) shredded mozzarella"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Mix the beef, breadcrumbs, egg, parmesan, seasoning and salt, then roll into 16 balls. Wash your hands.",
+    "Bake on a lined sheet for 15 to 18 minutes, until 160°F (71°C) inside.",
+    "Warm the marinara in a pot and add the meatballs. Simmer for 5 minutes.",
+    "Split the rolls and lay them open on a baking sheet.",
+    "Fill each with 4 meatballs and sauce and top with cheese.",
+    "Bake for 5 minutes, until the cheese melts."
+   ]
+  },
+  {
+   "id": "basil-pesto-pasta",
+   "name": "Basil pesto pasta",
+   "aliases": [
+    "pesto pasta",
+    "pesto",
+    "basil pesto",
+    "pasta with pesto",
+    "pesto genovese",
+    "homemade pesto"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "pasta",
+    "basil",
+    "parmesan",
+    "pine nut",
+    "garlic"
+   ],
+   "ingredients": [
+    "12 oz (340 g) pasta like fusilli or spaghetti",
+    "2 cups (50 g) packed fresh basil leaves",
+    "1/3 cup (45 g) pine nuts or walnuts",
+    "1 garlic clove",
+    "1/2 cup (50 g) grated parmesan, plus more to serve",
+    "1/2 cup (120 ml) olive oil",
+    "1/4 teaspoon salt",
+    "1 teaspoon lemon juice"
+   ],
+   "steps": [
+    "Boil the pasta in salted water as the package says.",
+    "Blend the basil, nuts and garlic in a food processor until finely chopped.",
+    "With it running, pour in the olive oil.",
+    "Pulse in the parmesan, salt and lemon juice.",
+    "Scoop out 1/2 cup of pasta water, then drain the pasta. Ask an adult to help.",
+    "Toss the pasta with the pesto, adding splashes of pasta water until silky.",
+    "Serve with more parmesan."
+   ]
+  },
+  {
+   "id": "butter-noodles",
+   "name": "Buttered noodles",
+   "aliases": [
+    "buttered noodles",
+    "butter noodles",
+    "buttered pasta",
+    "butter pasta",
+    "plain pasta with butter"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "pasta",
+    "butter",
+    "parmesan"
+   ],
+   "ingredients": [
+    "12 oz (340 g) egg noodles or pasta",
+    "4 tablespoons (60 g) butter",
+    "1/2 cup (50 g) grated parmesan",
+    "1/4 teaspoon garlic powder (optional)",
+    "Salt and pepper",
+    "1 tablespoon chopped parsley (optional)"
+   ],
+   "steps": [
+    "Boil the noodles in salted water as the package says.",
+    "Scoop out 1/2 cup of the cooking water, then drain. Ask an adult to help.",
+    "Put the noodles back in the pot over low heat.",
+    "Add the butter, parmesan, garlic powder and a splash of cooking water.",
+    "Stir for 1 minute, until glossy and coated.",
+    "Season with salt and pepper and top with parsley."
+   ]
+  },
+  {
+   "id": "loaded-baked-potatoes",
+   "name": "Loaded baked potatoes",
+   "aliases": [
+    "baked potato",
+    "baked potatoes",
+    "loaded baked potato",
+    "jacket potato",
+    "jacket potatoes",
+    "stuffed potato"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "1 hr 10 min",
+   "main": [
+    "potato",
+    "cheese",
+    "bacon",
+    "sour cream"
+   ],
+   "ingredients": [
+    "4 large russet potatoes",
+    "1 tablespoon olive oil",
+    "1 teaspoon coarse salt",
+    "4 tablespoons (60 g) butter",
+    "1 cup (100 g) shredded cheddar",
+    "4 slices cooked bacon, crumbled",
+    "1/2 cup (120 g) sour cream",
+    "2 green onions, sliced"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Scrub the potatoes, dry them and prick each 6 times with a fork.",
+    "Rub with oil and salt and put them right on the oven rack.",
+    "Bake for 50 to 60 minutes, until a knife slides in easily.",
+    "Cut a slit in the top of each and squeeze the ends to open it up. Use a towel, they're very hot.",
+    "Add butter, cheese, bacon, sour cream and green onions."
+   ]
+  },
+  {
+   "id": "hot-dogs",
+   "name": "Hot dogs with toppings",
+   "aliases": [
+    "hot dog",
+    "hot dogs",
+    "hotdog",
+    "hotdogs",
+    "frankfurters",
+    "wieners"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "hot dog",
+    "bun",
+    "mustard",
+    "ketchup"
+   ],
+   "ingredients": [
+    "8 hot dogs",
+    "8 hot dog buns",
+    "Ketchup, mustard and relish",
+    "1/2 onion, finely chopped",
+    "1 cup (140 g) sauerkraut (optional)"
+   ],
+   "steps": [
+    "Chop the onion. Ask an adult to help.",
+    "To boil, put the hot dogs in a pot of simmering water for 5 minutes, until hot all the way through.",
+    "To pan-fry, cook them in a pan over medium heat for 5 to 6 minutes, turning, until browned.",
+    "Warm the buns in the oven or microwave for 20 seconds.",
+    "Put a hot dog in each bun and add toppings.",
+    "For little kids, slice hot dogs in quarters lengthwise so they aren't a choking risk."
+   ]
+  },
+  {
+   "id": "chili-cheese-dogs",
+   "name": "Chili cheese dogs",
+   "aliases": [
+    "chili dogs",
+    "chili cheese dogs",
+    "chili dog",
+    "coney dogs",
+    "chili cheese dog"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "hot dog",
+    "beef",
+    "cheese",
+    "bun"
+   ],
+   "ingredients": [
+    "8 oz (225 g) ground beef",
+    "1/2 onion, finely chopped",
+    "1 tablespoon chili powder",
+    "1/2 teaspoon ground cumin",
+    "1/4 teaspoon salt",
+    "1/2 cup (120 ml) tomato sauce",
+    "1/4 cup (60 ml) water",
+    "8 hot dogs",
+    "8 hot dog buns",
+    "1 cup (100 g) shredded cheddar"
+   ],
+   "steps": [
+    "Chop the onion. Ask an adult to help.",
+    "Cook the beef and half the onion in a pan over medium heat for 6 to 8 minutes, breaking it into tiny bits, until browned.",
+    "Stir in the chili powder, cumin, salt, tomato sauce and water.",
+    "Simmer for 10 minutes, until thick.",
+    "Cook the hot dogs in simmering water for 5 minutes.",
+    "Put each hot dog in a bun, spoon chili over it and top with cheese and the rest of the onion."
+   ]
+  },
+  {
+   "id": "cheeseburger-sliders",
+   "name": "Cheeseburger sliders",
+   "aliases": [
+    "sliders",
+    "cheeseburger sliders",
+    "burger sliders",
+    "mini burgers",
+    "sheet pan sliders"
+   ],
+   "category": "Lunch",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "beef",
+    "cheese",
+    "roll",
+    "onion"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) ground beef",
+    "1 teaspoon onion powder",
+    "3/4 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "6 slices American cheese",
+    "1 package (12 count) slider buns or Hawaiian rolls",
+    "Pickles, ketchup and mustard",
+    "2 tablespoons (30 g) butter, melted",
+    "1 teaspoon sesame seeds"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Press the beef evenly into a 9 by 13 inch baking dish and sprinkle with onion powder, salt and pepper.",
+    "Bake for 15 to 18 minutes, until 160°F (71°C) inside. Pour off the fat.",
+    "Slice the block of rolls in half sideways without pulling them apart and lay the bottoms on a sheet pan.",
+    "Lift the beef sheet onto the buns with two spatulas and top with cheese, pickles, ketchup and mustard.",
+    "Add the bun tops, brush with butter and sprinkle sesame seeds.",
+    "Bake for 5 minutes, until the cheese melts. Cut into 12 sliders."
+   ]
+  },
+  {
+   "id": "chicken-burrito-bowl",
+   "name": "Chicken burrito bowl",
+   "aliases": [
+    "burrito bowl",
+    "burrito bowls",
+    "chicken burrito bowl",
+    "chipotle bowl",
+    "chicken rice bowl"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "chicken",
+    "rice",
+    "black bean",
+    "corn",
+    "salsa"
+   ],
+   "ingredients": [
+    "1 lb (450 g) boneless skinless chicken thighs",
+    "1 tablespoon olive oil",
+    "1 teaspoon chili powder",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon garlic powder",
+    "3/4 teaspoon salt",
+    "3 cups (550 g) cooked rice",
+    "1 lime",
+    "2 tablespoons chopped cilantro",
+    "1 can (15 oz / 425 g) black beans, drained and warmed",
+    "1 cup (150 g) corn, warmed",
+    "Salsa, shredded cheese, sour cream and guacamole"
+   ],
+   "steps": [
+    "Rub the chicken with oil, spices and salt.",
+    "Cook in a pan over medium-high heat for 5 to 7 minutes per side, until 165°F (74°C) inside.",
+    "Rest for 5 minutes and chop. Ask an adult to help.",
+    "Stir the juice of half the lime and the cilantro into the rice.",
+    "Fill bowls with rice, beans, corn and chicken.",
+    "Top with salsa, cheese, sour cream and guacamole."
+   ]
+  },
+  {
+   "id": "buddha-bowl",
+   "name": "Roasted veggie Buddha bowl",
+   "aliases": [
+    "buddha bowl",
+    "grain bowl",
+    "veggie bowl",
+    "quinoa bowl",
+    "nourish bowl"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "quinoa",
+    "chickpea",
+    "sweet potato",
+    "broccoli",
+    "tahini"
+   ],
+   "ingredients": [
+    "1 cup (170 g) quinoa, rinsed",
+    "2 cups (480 ml) water",
+    "1 sweet potato, cut in cubes",
+    "2 cups (150 g) broccoli florets",
+    "1 can (15 oz / 425 g) chickpeas, drained and patted dry",
+    "2 tablespoons olive oil",
+    "1 teaspoon smoked paprika",
+    "3/4 teaspoon salt",
+    "1 avocado, sliced",
+    "1/4 cup (60 g) tahini",
+    "2 tablespoons lemon juice",
+    "3 tablespoons water, for the sauce",
+    "1 teaspoon maple syrup"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Toss the sweet potato, broccoli and chickpeas with the oil, paprika and salt on a sheet pan.",
+    "Roast for 25 to 30 minutes, stirring once, until tender and the chickpeas are crisp.",
+    "Simmer the quinoa in the water, covered, for 15 minutes. Rest for 5 minutes and fluff.",
+    "Whisk the tahini, lemon juice, water, maple syrup and a pinch of salt.",
+    "Fill bowls with quinoa, roasted veggies and avocado and drizzle with the sauce."
+   ]
+  },
+  {
+   "id": "pizza-quesadilla",
+   "name": "Pizza quesadilla",
+   "aliases": [
+    "pizza quesadilla",
+    "pizzadilla",
+    "pepperoni quesadilla",
+    "pizza quesadillas"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "15 min",
+   "main": [
+    "tortilla",
+    "mozzarella",
+    "pepperoni",
+    "pizza sauce"
+   ],
+   "ingredients": [
+    "2 large flour tortillas",
+    "1 cup (115 g) shredded mozzarella",
+    "20 slices pepperoni",
+    "1/2 teaspoon Italian seasoning",
+    "1/2 cup (120 ml) pizza sauce, warm, for dipping"
+   ],
+   "steps": [
+    "Sprinkle half the cheese over half of each tortilla.",
+    "Add pepperoni and a pinch of seasoning, then the rest of the cheese.",
+    "Fold the tortillas over.",
+    "Cook in a dry pan over medium heat for 2 to 3 minutes per side, until golden and melty.",
+    "Cut into wedges and dip in warm pizza sauce."
+   ]
+  },
+  {
+   "id": "philly-cheesesteak",
+   "name": "Philly cheesesteak",
+   "aliases": [
+    "cheesesteak",
+    "philly cheesesteak",
+    "cheese steak",
+    "philly cheese steak",
+    "steak sandwich"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "beef",
+    "onion",
+    "pepper",
+    "provolone",
+    "roll"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) ribeye steak",
+    "2 tablespoons vegetable oil",
+    "1 large onion, thinly sliced",
+    "1 green bell pepper, thinly sliced (optional)",
+    "3/4 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "8 slices provolone or white American cheese",
+    "4 hoagie rolls, split"
+   ],
+   "steps": [
+    "Freeze the steak for 30 minutes so it slices thinly, then shave it as thin as you can. Ask an adult to do the slicing.",
+    "Heat 1 tablespoon of oil in a big pan over medium heat and cook the onion and pepper for 8 to 10 minutes, until soft. Move to one side.",
+    "Turn the heat to high, add the rest of the oil and the steak, and season with salt and pepper.",
+    "Cook for 2 to 3 minutes, chopping with a spatula, until no pink is left.",
+    "Mix in the onions and split into 4 piles in the pan.",
+    "Lay 2 slices of cheese on each pile and let it melt for 1 minute.",
+    "Hold an open roll over each pile and scoop it in with a spatula."
+   ]
+  },
+  {
+   "id": "mujadara",
+   "name": "Mujadara lentils and rice with crispy onions",
+   "aliases": [
+    "mujadara",
+    "mujaddara",
+    "lentils and rice",
+    "mejadra",
+    "lentil rice with onions"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "lentil",
+    "rice",
+    "onion",
+    "cumin"
+   ],
+   "ingredients": [
+    "1 cup (200 g) brown or green lentils, rinsed",
+    "1/2 cup (120 ml) olive oil",
+    "3 large onions, thinly sliced",
+    "1 1/2 teaspoons salt, divided",
+    "1 cup (190 g) long grain rice, rinsed",
+    "2 teaspoons ground cumin",
+    "1/2 teaspoon cinnamon",
+    "2 1/2 cups (600 ml) water",
+    "Plain yogurt and cucumber to serve"
+   ],
+   "steps": [
+    "Slice the onions thinly. Ask an adult to help.",
+    "Simmer the lentils in plenty of water for 15 minutes, until just tender. Drain.",
+    "Heat the oil in a big pot over medium-high heat and cook the onions with 1/2 teaspoon salt for 20 to 25 minutes, stirring often, until dark golden and crispy.",
+    "Lift out half the onions onto paper towels.",
+    "Add the rice, cumin and cinnamon to the pot and stir for 1 minute.",
+    "Add the lentils, water and the rest of the salt and bring to a boil.",
+    "Cover, turn the heat to low and cook for 18 to 20 minutes, until the water is gone.",
+    "Rest for 10 minutes, fluff, and top with the crispy onions. Serve with yogurt."
+   ]
+  },
+  {
+   "id": "lahmacun",
+   "name": "Lahmacun Turkish flatbread",
+   "aliases": [
+    "lahmacun",
+    "turkish pizza",
+    "armenian pizza",
+    "lahmajoun",
+    "turkish flatbread"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "lamb",
+    "flatbread",
+    "tomato",
+    "pepper",
+    "onion"
+   ],
+   "ingredients": [
+    "8 oz (225 g) ground lamb or beef",
+    "1/2 onion",
+    "1/2 red bell pepper",
+    "1 tomato",
+    "1 garlic clove",
+    "1/4 cup (15 g) parsley leaves",
+    "1 tablespoon tomato paste",
+    "1 teaspoon paprika",
+    "1/2 teaspoon ground cumin",
+    "1/2 teaspoon salt",
+    "4 large flour tortillas or thin flatbreads",
+    "Lemon wedges, parsley and sliced onion to serve"
+   ],
+   "steps": [
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Pulse the onion, pepper, tomato, garlic and parsley in a food processor until very fine.",
+    "Mix in the meat, tomato paste, spices and salt until it's a smooth paste.",
+    "Lay the tortillas on 2 baking sheets.",
+    "Spread the raw meat mix very thinly all the way to the edges. Wash your hands.",
+    "Bake for 8 to 10 minutes, until the meat is cooked through and the edges are crisp.",
+    "Squeeze lemon on top, add parsley and onion, and roll up to eat."
+   ]
+  },
+  {
+   "id": "sabich",
+   "name": "Sabich eggplant and egg pita",
+   "aliases": [
+    "sabich",
+    "sabich sandwich",
+    "eggplant pita",
+    "israeli eggplant sandwich"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "eggplant",
+    "egg",
+    "pita",
+    "hummus",
+    "tahini"
+   ],
+   "ingredients": [
+    "1 large eggplant, sliced into 1/2 inch rounds",
+    "3 tablespoons olive oil",
+    "1/2 teaspoon salt",
+    "4 hard boiled eggs, sliced",
+    "4 pita breads",
+    "1/2 cup (120 g) hummus",
+    "1/4 cup (60 ml) tahini sauce",
+    "Chopped tomato, cucumber and parsley",
+    "Pickles and amba (mango sauce), optional"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Slice the eggplant, brush both sides with oil and sprinkle with salt.",
+    "Roast on a lined sheet for 25 minutes, flipping halfway, until soft and browned.",
+    "Mix the tomato, cucumber and parsley with a pinch of salt.",
+    "Warm the pitas and open them up.",
+    "Spread hummus inside and fill with eggplant, egg slices and the salad.",
+    "Drizzle with tahini and amba."
+   ]
+  },
+  {
+   "id": "nasi-goreng",
+   "name": "Nasi goreng",
+   "aliases": [
+    "nasi goreng",
+    "indonesian fried rice",
+    "nasi goreng ayam",
+    "malaysian fried rice"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "rice",
+    "egg",
+    "kecap manis",
+    "chicken",
+    "shallot"
+   ],
+   "ingredients": [
+    "4 cups (700 g) cold cooked rice",
+    "2 tablespoons vegetable oil",
+    "3 shallots, finely chopped",
+    "3 garlic cloves, chopped",
+    "8 oz (225 g) boneless chicken, cut small",
+    "1 teaspoon sambal oelek or chili paste (optional)",
+    "3 tablespoons kecap manis (sweet soy sauce)",
+    "1 tablespoon soy sauce",
+    "4 large eggs",
+    "Cucumber and tomato slices and fried shallots to serve"
+   ],
+   "steps": [
+    "Chop the shallots, garlic and chicken. Ask an adult to help.",
+    "Heat the oil in a wok over medium-high heat and cook the shallots and garlic for 1 minute.",
+    "Add the chicken and sambal and stir-fry for 4 to 5 minutes, until cooked through.",
+    "Add the rice, kecap manis and soy sauce and toss for 3 to 4 minutes, until hot and evenly brown.",
+    "Fry the eggs sunny side up for 2 to 3 minutes.",
+    "Serve each plate topped with a fried egg, with cucumber, tomato and fried shallots."
+   ]
+  },
+  {
+   "id": "mie-goreng",
+   "name": "Mie goreng",
+   "aliases": [
+    "mie goreng",
+    "mee goreng",
+    "indonesian fried noodles",
+    "bami goreng"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "noodle",
+    "cabbage",
+    "kecap manis",
+    "egg"
+   ],
+   "ingredients": [
+    "12 oz (340 g) egg noodles",
+    "2 tablespoons vegetable oil",
+    "3 garlic cloves, chopped",
+    "2 shallots, sliced",
+    "8 oz (225 g) chicken or shrimp, cut small",
+    "2 cups (140 g) sliced cabbage",
+    "1 carrot, cut in thin strips",
+    "2 large eggs",
+    "3 tablespoons kecap manis",
+    "1 tablespoon soy sauce",
+    "1 tablespoon oyster sauce",
+    "2 green onions, sliced"
+   ],
+   "steps": [
+    "Cut the garlic, shallots, chicken and vegetables. Ask an adult to help.",
+    "Boil the noodles as the package says, drain and rinse.",
+    "Heat the oil in a wok over medium-high heat and cook the garlic and shallots for 1 minute.",
+    "Add the chicken and stir-fry for 4 minutes, until cooked through.",
+    "Add the cabbage and carrot and cook for 2 minutes.",
+    "Push everything aside, scramble the eggs in the gap for 1 minute, then mix in.",
+    "Add the noodles and sauces and toss for 2 minutes. Top with green onions."
+   ]
+  },
+  {
+   "id": "pancit-bihon",
+   "name": "Pancit bihon",
+   "aliases": [
+    "pancit",
+    "pancit bihon",
+    "filipino noodles",
+    "pansit",
+    "pancit canton"
+   ],
+   "category": "Lunch",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "rice noodle",
+    "chicken",
+    "cabbage",
+    "carrot",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "8 oz (225 g) rice sticks (bihon)",
+    "2 tablespoons vegetable oil",
+    "1 onion, sliced",
+    "3 garlic cloves, chopped",
+    "1 lb (450 g) boneless chicken, thinly sliced",
+    "1 carrot, cut in thin strips",
+    "3 cups (210 g) shredded cabbage",
+    "1 cup (100 g) snow peas",
+    "2 cups (480 ml) chicken broth",
+    "1/4 cup (60 ml) soy sauce",
+    "1 tablespoon oyster sauce",
+    "Lemon or calamansi wedges"
+   ],
+   "steps": [
+    "Soak the rice sticks in warm water for 10 minutes, then drain.",
+    "Slice the onion, chicken and vegetables. Ask an adult to help.",
+    "Heat the oil in a big wok over medium heat and cook the onion and garlic for 2 minutes.",
+    "Add the chicken and cook for 5 to 6 minutes, until cooked through.",
+    "Add the carrot, cabbage and snow peas and cook for 2 minutes. Lift everything out.",
+    "Add the broth, soy sauce and oyster sauce and bring to a boil.",
+    "Add the noodles and toss for 3 to 4 minutes, until they soak up the liquid.",
+    "Mix the chicken and vegetables back in and serve with lemon wedges."
+   ]
+  },
+  {
+   "id": "lumpia",
+   "name": "Lumpia Shanghai",
+   "aliases": [
+    "lumpia",
+    "lumpia shanghai",
+    "filipino egg rolls",
+    "filipino spring rolls",
+    "lumpiang shanghai"
+   ],
+   "category": "Lunch",
+   "servings": 8,
+   "time": "1 hr",
+   "main": [
+    "pork",
+    "carrot",
+    "onion",
+    "spring roll wrapper"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground pork",
+    "1 carrot, finely grated",
+    "1/2 onion, finely chopped",
+    "2 garlic cloves, finely chopped",
+    "2 green onions, finely chopped",
+    "1 large egg",
+    "1 tablespoon soy sauce",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "25 spring roll wrappers",
+    "Vegetable oil for frying",
+    "Sweet chili sauce for dipping"
+   ],
+   "steps": [
+    "Grate and chop the vegetables. Ask an adult to help.",
+    "Mix the pork, vegetables, egg, soy sauce, salt and pepper. Wash your hands.",
+    "Lay a wrapper like a diamond and put a thin log of filling across the bottom corner.",
+    "Roll halfway, fold in the sides, then roll up tightly. Seal the tip with a dab of water.",
+    "Cut each roll in half, if you like.",
+    "An adult heats 1 inch of oil in a deep pan to 350°F (175°C).",
+    "Fry a few at a time for 4 to 5 minutes, turning, until deep golden and the filling is cooked through. An adult should do the frying.",
+    "Drain on paper towels and serve with sweet chili sauce."
+   ]
+  },
+  {
+   "id": "cornish-pasty",
+   "name": "Cornish pasties",
+   "aliases": [
+    "cornish pasty",
+    "cornish pasties",
+    "pasty",
+    "pasties",
+    "meat and potato pasty"
+   ],
+   "category": "Lunch",
+   "servings": 6,
+   "time": "1 hr 30 min",
+   "main": [
+    "beef",
+    "potato",
+    "rutabaga",
+    "onion",
+    "pastry"
+   ],
+   "ingredients": [
+    "3 1/4 cups (400 g) all-purpose flour",
+    "1 teaspoon salt",
+    "1 cup (225 g) cold butter, in cubes",
+    "1/2 cup (120 ml) ice water, about",
+    "12 oz (340 g) beef skirt or chuck steak, cut in small pieces",
+    "1 potato, peeled and finely diced",
+    "1 cup (140 g) finely diced rutabaga (swede)",
+    "1 onion, finely diced",
+    "1 teaspoon salt and 1/2 teaspoon pepper, for the filling",
+    "1 large egg, beaten"
+   ],
+   "steps": [
+    "Mix the flour and salt, rub in the butter until it looks like crumbs, and stir in enough ice water to make a dough. Chill for 30 minutes.",
+    "Dice the beef and vegetables small. Ask an adult to help.",
+    "Mix the filling with the salt and pepper.",
+    "Heat the oven to 400°F (200°C).",
+    "Roll the dough 1/8 inch thick and cut 6 circles about 8 inches wide using a plate.",
+    "Pile filling on half of each, fold over, and crimp the edge tightly.",
+    "Brush with egg and cut a small slit on top.",
+    "Bake for 20 minutes, then turn the oven to 350°F (175°C) and bake for 35 to 40 minutes more, until golden."
+   ]
+  },
+  {
+   "id": "welsh-rarebit",
+   "name": "Welsh rarebit",
+   "aliases": [
+    "welsh rarebit",
+    "welsh rabbit",
+    "cheese on toast",
+    "rarebit",
+    "posh cheese on toast"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "cheddar",
+    "bread",
+    "mustard",
+    "butter"
+   ],
+   "ingredients": [
+    "2 tablespoons (30 g) butter",
+    "2 tablespoons all-purpose flour",
+    "1/2 cup (120 ml) milk",
+    "1 teaspoon Dijon or English mustard",
+    "1 teaspoon Worcestershire sauce",
+    "2 cups (200 g) grated sharp cheddar",
+    "1 large egg yolk",
+    "4 thick slices bread"
+   ],
+   "steps": [
+    "Heat the broiler to high with the rack in the top third. Ask an adult to help.",
+    "Melt the butter in a pot over medium heat, stir in the flour and cook for 1 minute.",
+    "Whisk in the milk and cook for 2 minutes, until thick.",
+    "Take off the heat and stir in the mustard, Worcestershire, cheese and egg yolk.",
+    "Toast the bread on one side under the broiler.",
+    "Spread the cheese mix thickly on the untoasted side.",
+    "Broil for 2 to 3 minutes, until bubbly and golden in spots. Watch closely."
+   ]
+  },
+  {
+   "id": "omurice",
+   "name": "Omurice",
+   "aliases": [
+    "omurice",
+    "omelette rice",
+    "omu rice",
+    "japanese omelet rice",
+    "ketchup rice omelette"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "30 min",
+   "main": [
+    "rice",
+    "egg",
+    "chicken",
+    "ketchup"
+   ],
+   "ingredients": [
+    "1 tablespoon (15 g) butter, plus 2 teaspoons for the eggs",
+    "1/2 onion, finely chopped",
+    "4 oz (115 g) boneless chicken thigh, cut small",
+    "1/4 cup (35 g) frozen peas and carrots",
+    "2 cups (350 g) cooked rice",
+    "3 tablespoons ketchup, plus more on top",
+    "1 pinch salt and pepper",
+    "4 large eggs",
+    "2 tablespoons milk"
+   ],
+   "steps": [
+    "Chop the onion and chicken. Ask an adult to help.",
+    "Melt the butter in a pan over medium heat and cook the onion and chicken for 5 to 6 minutes, until the chicken is cooked through.",
+    "Add the peas and carrots, rice, ketchup, salt and pepper and stir for 3 minutes. Shape half the rice into an oval on each plate.",
+    "Beat 2 eggs with 1 tablespoon of milk.",
+    "Melt 1 teaspoon butter in a nonstick pan over medium heat and pour in the eggs.",
+    "Stir quickly for 20 seconds, then let it set for 30 seconds into a soft omelette.",
+    "Slide it over the rice to cover it. Repeat for the second plate.",
+    "Draw a ketchup line or picture on top."
+   ]
+  },
+  {
+   "id": "bibim-guksu",
+   "name": "Bibim guksu spicy cold noodles",
+   "aliases": [
+    "bibim guksu",
+    "bibim noodles",
+    "korean cold noodles",
+    "spicy cold noodles",
+    "bibimmyeon"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "20 min",
+   "main": [
+    "somen",
+    "gochujang",
+    "cucumber",
+    "egg"
+   ],
+   "ingredients": [
+    "6 oz (170 g) somen noodles",
+    "2 tablespoons gochujang",
+    "1 tablespoon sugar",
+    "1 tablespoon rice vinegar",
+    "1 tablespoon soy sauce",
+    "1 tablespoon sesame oil",
+    "1 teaspoon sesame seeds",
+    "1/2 cucumber, cut in thin strips",
+    "1 hard boiled egg, halved",
+    "1/2 cup kimchi, chopped (optional)"
+   ],
+   "steps": [
+    "Mix the gochujang, sugar, vinegar, soy sauce, sesame oil and sesame seeds.",
+    "Cut the cucumber into thin strips. Ask an adult to help.",
+    "Boil the noodles for 2 to 3 minutes, or as the package says.",
+    "Drain and rinse under cold water, rubbing them until cold and no longer sticky.",
+    "Toss the noodles with the sauce.",
+    "Top with cucumber, kimchi and half an egg each."
+   ]
+  },
+  {
+   "id": "japchae",
+   "name": "Japchae",
+   "aliases": [
+    "japchae",
+    "chapchae",
+    "korean glass noodles",
+    "sweet potato noodles",
+    "jap chae"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "glass noodle",
+    "beef",
+    "spinach",
+    "carrot",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "8 oz (225 g) Korean sweet potato glass noodles (dangmyeon)",
+    "6 oz (170 g) beef sirloin, cut in thin strips",
+    "3 tablespoons soy sauce, divided",
+    "2 tablespoons sugar, divided",
+    "2 tablespoons sesame oil, divided",
+    "2 garlic cloves, grated",
+    "2 tablespoons vegetable oil",
+    "1 onion, sliced",
+    "1 carrot, cut in thin strips",
+    "4 mushrooms, sliced",
+    "3 cups (90 g) spinach",
+    "1 tablespoon sesame seeds"
+   ],
+   "steps": [
+    "Slice the beef and vegetables thinly. Ask an adult to help.",
+    "Mix the beef with 1 tablespoon soy sauce, 1 teaspoon sugar, 1 teaspoon sesame oil and the garlic.",
+    "Boil the noodles for 6 to 7 minutes, until chewy and clear. Drain, rinse, and cut a few times with scissors.",
+    "Toss the noodles with the rest of the soy sauce, sugar and sesame oil.",
+    "Heat the vegetable oil in a big pan over medium-high heat and cook the onion and carrot for 3 minutes. Add the mushrooms for 2 minutes. Lift out.",
+    "Cook the beef for 2 to 3 minutes, until no pink is left.",
+    "Wilt the spinach in the pan for 1 minute.",
+    "Toss everything with the noodles over low heat for 2 minutes and sprinkle with sesame seeds."
+   ]
+  },
+  {
+   "id": "spanish-tortilla",
+   "name": "Spanish tortilla",
+   "aliases": [
+    "spanish tortilla",
+    "tortilla espanola",
+    "spanish omelette",
+    "potato omelette",
+    "tortilla de patatas"
+   ],
+   "category": "Lunch",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "potato",
+    "egg",
+    "onion",
+    "olive oil"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) Yukon gold potatoes, peeled and thinly sliced",
+    "1 onion, thinly sliced",
+    "3/4 cup (180 ml) olive oil",
+    "1 1/4 teaspoons salt",
+    "6 large eggs"
+   ],
+   "steps": [
+    "Thinly slice the potatoes and onion. Ask an adult to help.",
+    "Heat the oil in a 10 inch nonstick pan over medium-low heat.",
+    "Add the potatoes, onion and 1 teaspoon salt and cook gently for 20 minutes, turning now and then, until soft but not browned.",
+    "Drain the potatoes in a strainer over a bowl, keeping 2 tablespoons of the oil.",
+    "Beat the eggs with the rest of the salt, stir in the potatoes and let sit for 5 minutes.",
+    "Heat the saved oil in the pan over medium heat, pour in the mix and smooth it out.",
+    "Cook for 6 to 8 minutes, until the edges are set and the bottom is golden.",
+    "An adult should flip it: set a plate on top, turn the pan over, then slide it back in.",
+    "Cook for 3 to 4 minutes more. Rest for 10 minutes and cut into wedges."
+   ]
+  },
+  {
+   "id": "chicken-lettuce-wraps",
+   "name": "Chicken lettuce wraps",
+   "aliases": [
+    "lettuce wraps",
+    "chicken lettuce wraps",
+    "lettuce cups",
+    "asian lettuce wraps"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "chicken",
+    "lettuce",
+    "water chestnut",
+    "hoisin"
+   ],
+   "ingredients": [
+    "1 tablespoon vegetable oil",
+    "1 lb (450 g) ground chicken",
+    "2 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "1 can (8 oz / 225 g) water chestnuts, drained and chopped",
+    "3 tablespoons hoisin sauce",
+    "2 tablespoons soy sauce",
+    "1 tablespoon rice vinegar",
+    "1 teaspoon sesame oil",
+    "2 green onions, sliced",
+    "1 head butter lettuce, leaves separated"
+   ],
+   "steps": [
+    "Chop the garlic, water chestnuts and green onions. Ask an adult to help.",
+    "Heat the oil in a big pan over medium-high heat and cook the chicken for 6 to 8 minutes, breaking it up, until no pink is left and 165°F (74°C).",
+    "Add the garlic and ginger and cook for 1 minute.",
+    "Stir in the water chestnuts, hoisin, soy sauce, vinegar and sesame oil and cook for 2 minutes.",
+    "Stir in the green onions.",
+    "Spoon into lettuce leaves and eat like tacos."
+   ]
+  },
+  {
+   "id": "arepa-reina-pepiada",
+   "name": "Arepa reina pepiada",
+   "aliases": [
+    "reina pepiada",
+    "arepa reina pepiada",
+    "chicken avocado arepa",
+    "stuffed arepas",
+    "venezuelan chicken arepa"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "corn flour",
+    "chicken",
+    "avocado",
+    "mayonnaise"
+   ],
+   "ingredients": [
+    "2 cups (240 g) pre-cooked white cornmeal (masarepa)",
+    "1 teaspoon salt",
+    "2 1/2 cups (600 ml) warm water",
+    "1 tablespoon vegetable oil",
+    "2 cups (280 g) shredded cooked chicken",
+    "2 ripe avocados",
+    "3 tablespoons mayonnaise",
+    "1 tablespoon lime juice",
+    "2 tablespoons chopped cilantro",
+    "1/4 teaspoon salt, for the filling"
+   ],
+   "steps": [
+    "Mix the masarepa, salt and warm water into a soft dough. Rest for 5 minutes.",
+    "Shape 8 balls and flatten each into a disk 1/2 inch thick.",
+    "Cook in an oiled pan over medium heat for 6 to 8 minutes per side, until crusty.",
+    "Mash the avocados with the mayonnaise, lime juice, cilantro and salt.",
+    "Fold in the chicken.",
+    "Split each arepa open with a knife like a pocket and stuff with the filling. Ask an adult to help."
+   ]
+  },
+  {
+   "id": "hiyashi-chuka",
+   "name": "Hiyashi chuka cold ramen",
+   "aliases": [
+    "hiyashi chuka",
+    "cold ramen",
+    "japanese cold noodles",
+    "chilled ramen salad"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "30 min",
+   "main": [
+    "ramen noodle",
+    "egg",
+    "ham",
+    "cucumber"
+   ],
+   "ingredients": [
+    "2 servings fresh ramen noodles (or instant noodles, seasoning thrown away)",
+    "3 tablespoons soy sauce",
+    "3 tablespoons rice vinegar",
+    "2 tablespoons sugar",
+    "1 tablespoon sesame oil",
+    "2 tablespoons water",
+    "2 large eggs, beaten with a pinch of sugar",
+    "4 slices ham, cut in thin strips",
+    "1 cucumber, cut in thin strips",
+    "1 tomato, cut in wedges",
+    "Sesame seeds"
+   ],
+   "steps": [
+    "Stir the soy sauce, vinegar, sugar, sesame oil and water until the sugar dissolves. Chill.",
+    "Cook the eggs as a thin omelette in an oiled pan over medium-low heat for 1 to 2 minutes per side, then cut into thin strips.",
+    "Cut the ham, cucumber and tomato. Ask an adult to help.",
+    "Boil the noodles as the package says, then rinse under cold water until cold. Drain well.",
+    "Put the noodles on plates and arrange the egg, ham, cucumber and tomato in rows on top.",
+    "Pour the cold sauce over and sprinkle with sesame seeds."
+   ]
+  },
+  {
+   "id": "shrimp-po-boy",
+   "name": "Shrimp po boy",
+   "aliases": [
+    "po boy",
+    "po boys",
+    "shrimp po boy",
+    "poboy",
+    "fried shrimp sandwich"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "shrimp",
+    "cornmeal",
+    "bread",
+    "lettuce"
+   ],
+   "ingredients": [
+    "1 lb (450 g) medium shrimp, peeled and deveined",
+    "1/2 cup (120 ml) buttermilk or milk",
+    "1/2 cup (75 g) cornmeal",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 teaspoons Cajun seasoning",
+    "Vegetable oil for frying",
+    "4 soft French rolls, split",
+    "1/2 cup (115 g) mayonnaise mixed with 1 tablespoon hot sauce",
+    "Shredded lettuce, sliced tomato and pickles"
+   ],
+   "steps": [
+    "Soak the shrimp in the buttermilk for 10 minutes.",
+    "Mix the cornmeal, flour and Cajun seasoning in a bowl.",
+    "An adult heats 1 inch of oil in a deep pan to 350°F (175°C).",
+    "Lift the shrimp from the milk, toss them in the cornmeal mix, and shake off the extra.",
+    "Fry in batches for 2 to 3 minutes, until golden and the shrimp are opaque inside. An adult should do the frying.",
+    "Drain on paper towels.",
+    "Spread the rolls with spicy mayo and fill with lettuce, tomato, pickles and shrimp."
+   ]
+  },
+  {
+   "id": "halal-cart-chicken",
+   "name": "Halal cart chicken and rice",
+   "aliases": [
+    "halal cart chicken",
+    "chicken over rice",
+    "halal guys chicken",
+    "chicken and rice platter",
+    "white sauce chicken"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "chicken",
+    "rice",
+    "yogurt",
+    "lettuce"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless skinless chicken thighs",
+    "2 tablespoons olive oil",
+    "2 tablespoons lemon juice",
+    "2 garlic cloves, grated",
+    "1 teaspoon ground cumin",
+    "1 teaspoon ground coriander",
+    "1 teaspoon dried oregano",
+    "1 teaspoon salt",
+    "1 1/2 cups (285 g) long grain rice, cooked with 1/2 teaspoon turmeric",
+    "1/2 cup (115 g) mayonnaise",
+    "1/2 cup (120 g) plain Greek yogurt",
+    "1 tablespoon vinegar, 1 teaspoon sugar and 1/4 teaspoon pepper, for the white sauce",
+    "Shredded lettuce, tomato wedges and warm pita"
+   ],
+   "steps": [
+    "Mix the oil, lemon juice, garlic, spices and salt and coat the chicken. Marinate for at least 30 minutes in the fridge.",
+    "Whisk the mayonnaise, yogurt, vinegar, sugar and pepper for the white sauce.",
+    "Cook the chicken in a big pan over medium-high heat for 5 to 6 minutes per side, until 165°F (74°C) inside.",
+    "Rest for 5 minutes and chop into small pieces. Ask an adult to help.",
+    "Fill plates with yellow rice, chicken, lettuce and tomato.",
+    "Pour lots of white sauce over the top and serve with pita."
+   ]
+  },
+  {
+   "id": "chickpea-salad-sandwich",
+   "name": "Smashed chickpea salad sandwich",
+   "aliases": [
+    "chickpea salad sandwich",
+    "smashed chickpea sandwich",
+    "vegan chickpea salad",
+    "chickpea tuna"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "chickpea",
+    "mayonnaise",
+    "celery",
+    "bread"
+   ],
+   "ingredients": [
+    "1 can (15 oz / 425 g) chickpeas, drained and rinsed",
+    "3 tablespoons mayonnaise or vegan mayo",
+    "1 teaspoon Dijon mustard",
+    "1 tablespoon lemon juice",
+    "1 celery stalk, finely chopped",
+    "2 tablespoons chopped pickles or relish",
+    "1/4 teaspoon salt",
+    "1 pinch pepper",
+    "8 slices bread",
+    "Lettuce and tomato"
+   ],
+   "steps": [
+    "Chop the celery and pickles. Ask an adult to help.",
+    "Mash the chickpeas with a fork until mostly broken up.",
+    "Mix in the mayonnaise, mustard, lemon juice, celery, pickles, salt and pepper.",
+    "Spread on bread with lettuce and tomato."
+   ]
+  }
+ ]
+}

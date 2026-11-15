@@ -55,4 +55,3 @@ what was the interstate highway system | when were interstates built => The Inte
 when did tv become popular | when did most families get a tv => TV spread fast after World War 2. In 1950 only about 9 percent of US homes had a TV, but by 1960 almost 90 percent did.
 what was the first video game | who made the first video game => Early games include Tennis for Two in 1958 and Spacewar! in 1962. Pong, released by Atari in 1972, was the first big commercial hit.
 when did the internet start | what was arpanet => The internet grew from ARPANET, a US government network that sent its first message in 1969. Vint Cerf and Bob Kahn designed the TCP/IP rules it still uses, and it switched to them on January 1, 1983.
-when was the web invented | who made the first website => Tim Berners-Lee, a British scientist at CERN, invented the World Wide Web in 1989 and made the first website in 1991. The web runs on top of the internet.
