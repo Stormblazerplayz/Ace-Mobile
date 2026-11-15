@@ -20,6 +20,14 @@ enum AceCard: Codable, Equatable {
     case translation(TranslationCard)
     case quickReplies(QuickReplies)
     case steps(StepsCard)
+    case whatsNew(WhatsNewCard)
+}
+
+/// What changed in this build, shown once after an update (and from Settings).
+struct WhatsNewCard: Codable, Equatable {
+    var build: Int
+    var date: String
+    var items: [String]
 }
 
 /// Buttons that send a short answer ("Yes", "No"...), used by 20 questions and recipe offers.

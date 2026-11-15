@@ -8,6 +8,8 @@ struct BrainReply {
     /// Which part of Ace answered, shown after "How I got this" (rules, answer bank, web, LFM3 Omni...).
     var source: String = "rules"
     var mood: OrbMood = .happy
+    /// What kind of answer this is ("timer", "weather", "dontKnow", "sassy"...), so Sassy mode picks the right line.
+    var kind: String = ""
 }
 
 /// The parts of the app the brain can use (calendar, checks, opening links...).
@@ -41,6 +43,9 @@ final class Brain {
     let bank = QABank()
     let classifier = IntentClassifier()
     weak var host: BrainHost?
+    /// Tests turn Sassy mode on or off here. Otherwise it follows Settings.
+    var sassyOverride: Bool?
+    var sassy: Bool { sassyOverride ?? Sass.isOn(host?.settings.personality ?? "normal") }
 
     private var lastQuestion = ""
     private var lastAnswer = ""
@@ -193,6 +198,23 @@ final class Brain {
         return r
     }
 
+    /// In Sassy mode the sassy set answers first, except for jobs (timers, weather, calendar...)
+    /// that Ace does itself. Small talk like "hi" and "thanks" counts as a question here.
+    static func sassyFirst(_ decision: Decision) -> Bool {
+        switch decision {
+        case .rule(let intent), .classified(let intent): return !intent.isAction
+        default: return true
+        }
+    }
+
+    /// "What continent is it in" is about the last thing you asked, so the sassy set (which doesn't
+    /// know what "it" is) leaves it to the normal answers.
+    static func soundsLikeFollowUp(_ text: String) -> Bool {
+        let pointers: Set<String> = ["it", "its", "they", "them", "their", "there", "that", "this", "those", "these",
+                                     "he", "she", "him", "her", "his"]
+        return TextKit.words(text).contains { pointers.contains($0) }
+    }
+
     static func joinSources(_ sources: [String]) -> String {
         var out: [String] = []
         for s in sources where !out.contains(s) { out.append(s) }
@@ -204,15 +226,27 @@ final class Brain {
         let decision = decide(text, notes: &notes)
         for n in notes { await think(n) }
 
+        // Sassy mode: its own small set first, for anything that isn't a job like a timer or the weather.
+        // Small talk said word for word always counts. A fact question with "it" or "that" in it is
+        // probably about the last answer, so the normal answers take it.
+        if sassy, Self.sassyFirst(decision), let entry = SassPack.shared.match(text),
+           entry.exact || !Self.soundsLikeFollowUp(text), let hit = SassPack.shared.answer(text) {
+            await think("Sassy mode: found it in the sassy set")
+            return BrainReply(text: hit.text, source: "Ace's sassy set", kind: "sassy")
+        }
+
         switch decision {
         case .rule(let intent), .classified(let intent):
-            if let r = await run(intent, text: text, think: think) { return r }
+            if var r = await run(intent, text: text, think: think) {
+                if r.kind.isEmpty { r.kind = intent.kind }
+                return r
+            }
             await think("That skill couldn't do it, so I'll keep looking")
         case .bank(let m):
             return withFavorite(answer(from: m), question: text)
         case .clarify(let a, let b):
             pendingChoices = [a, b]
-            return BrainReply(text: Say.line(.clarify, ["first": a.wording, "second": b.wording]), source: "answer bank", mood: .idle)
+            return BrainReply(text: Say.line(.clarify, ["first": a.wording, "second": b.wording]), source: "answer bank", mood: .idle, kind: "clarify")
         case .weak, .none:
             break
         }
@@ -258,7 +292,7 @@ final class Brain {
 
         await think("Out of ideas for now")
         lastTopic = Summarizer.topic(of: text)
-        var r = BrainReply(text: Say.line(.dontKnow, ["question": TextKit.normalize(text)]), source: "rules", mood: .idle)
+        var r = BrainReply(text: Say.line(.dontKnow, ["question": TextKit.normalize(text)]), source: "rules", mood: .idle, kind: "dontKnow")
         if let host, let link = Sites.searchLink(text, site: nil, engine: host.settings.searchEngine) {
             r.cards = [.links([LinkItem(title: link.title, url: link.url)])]
         }

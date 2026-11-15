@@ -32,6 +32,10 @@ final class AceCore: ObservableObject, BrainHost {
 
     private var wakeTask: Task<Void, Never>?
     private var moodResetTask: Task<Void, Never>?
+    /// Sassy mode: notices the same question asked again within 30 minutes.
+    private var repeats = RepeatTracker()
+    /// True while the orb rolls its eyes, so talking doesn't cut the eye-roll short.
+    private var holdMood = false
     private var lastInteraction = Date()
     /// When the app went to the background (for the hello when you come back).
     private var awaySince: Date?
@@ -142,13 +146,20 @@ final class AceCore: ObservableObject, BrainHost {
         openedOnce = true
         let away = awaySince
         awaySince = nil
-        if Greeter.shouldGreet(now: now, lastGreeting: settings.lastGreetingAt, awaySince: away, firstOpen: first) {
+        let greetNow = Greeter.shouldGreet(now: now, lastGreeting: settings.lastGreetingAt, awaySince: away, firstOpen: first)
+        var full = false
+        if greetNow {
             settings.lastGreetingAt = now
             // The first hello of the day also shows today's calendar and battery.
             let today = Persistence.dayKey()
-            let full = settings.lastGreetingDay != today
+            full = settings.lastGreetingDay != today
             settings.lastGreetingDay = today
-            Task { await greet(full: full) }
+        }
+        let fullHello = full
+        Task {
+            if greetNow { await greet(full: fullHello) }
+            // After an update, the What's new card comes after the hello (once per build).
+            showWhatsNew(force: false)
         }
     }
 
@@ -209,6 +220,16 @@ final class AceCore: ObservableObject, BrainHost {
         SoundFX.shared.stopLoop()
         reply.text = TextKit.stripModelTags(reply.text)
         if reply.text.isEmpty && reply.cards.isEmpty { reply.text = Say.line(.empty) }
+        // Sassy mode: a sassy line around the answer (the answer itself stays the same).
+        let plain = reply.text
+        var sass: Sass.Dressed?
+        if Sass.isOn(settings.personality), !Sass.isSerious(text) {
+            let category = Sass.category(kind: reply.kind, source: reply.source, mood: reply.mood, cards: reply.cards)
+            let again = Sass.countsRepeats(category) && !text.isEmpty ? repeats.note(text) : 0
+            let dressed = Sass.dress(plain, category: category, repeats: again, hour: Calendar.current.component(.hour, from: Date()))
+            reply.text = dressed.text
+            sass = dressed
+        }
         let msg = ChatMessage(speaker: .ace, text: reply.text, thoughts: settings.showThinking ? reply.thoughts : [],
                               cards: reply.cards, source: reply.source)
         messages.append(msg)
@@ -225,20 +246,112 @@ final class AceCore: ObservableObject, BrainHost {
             SoundFX.shared.play(.success, gain: 0.55)
             Haptics.shared.play(.success)
         }
-        speak(reply.text, cards: reply.cards)
-        setMood(reply.mood == .idle ? .talking : reply.mood, thenIdleAfter: 2.2)
+        let finalMood: OrbMood = reply.mood == .idle ? .talking : reply.mood
+        if let sass, sass.eyes != .none {
+            // Set before speaking, so the voice starting doesn't cut the eye-roll short.
+            holdMood = true
+            speak(plain, cards: reply.cards, sassBefore: sass.before, sassAfter: sass.after)
+            Task { await sassyEyes(sass.eyes, then: finalMood) }
+        } else {
+            speak(plain, cards: reply.cards, sassBefore: sass?.before ?? "", sassAfter: sass?.after ?? "")
+            setMood(finalMood, thenIdleAfter: 2.2)
+        }
         saveChat()
     }
 
     /// Reads a reply out loud. A translation in it is said in that language's accent.
     /// `force` says it even when spoken replies are off (the hello when the app opens has its own switch).
-    func speak(_ text: String, cards: [AceCard] = [], force: Bool = false) {
+    /// In Sassy mode, `sassBefore` and `sassAfter` are the sassy lines, said with extra drama.
+    func speak(_ text: String, cards: [AceCard] = [], force: Bool = false, sassBefore: String = "", sassAfter: String = "") {
         guard force || settings.speakReplies || handsFree else { return }
-        VoiceOut.shared.speak(Phrasebook.spokenParts(text, cards: cards), voiceID: settings.voiceID) { [weak self] speaking in
+        var parts = Phrasebook.spokenParts(text, cards: cards)
+        if Sass.isOn(settings.personality) {
+            // "*sigh*" is said as a sigh, and other *stage directions* aren't read out.
+            parts = parts.map { $0.language == nil ? SpokenPart(text: Sass.spoken($0.text), language: nil) : $0 }
+            let before = Sass.spoken(sassBefore)
+            let after = Sass.spoken(sassAfter)
+            if !before.isEmpty { parts.insert(SpokenPart(text: before, language: nil, sassy: true), at: 0) }
+            if !after.isEmpty { parts.append(SpokenPart(text: after, language: nil, sassy: true)) }
+        }
+        VoiceOut.shared.speak(parts, voiceID: settings.voiceID) { [weak self] speaking in
             guard let self else { return }
             VoiceIn.shared.aceSpeaking(speaking)
+            guard !self.holdMood else { return }
             if speaking { self.setMood(.talking) } else if !self.busy { self.setMood(.idle) }
         }
+    }
+
+    /// Sassy mode: a big eye-roll (the eyes swing down, across and up, and stay up there for a moment)
+    /// or a long side-eye, then the orb goes on as usual.
+    private func sassyEyes(_ eyes: Sass.Eyes, then next: OrbMood) async {
+        holdMood = true
+        setMood(.checking)
+        withAnimation(.easeInOut(duration: 0.15)) { eyeOpen = 0.62 }
+        try? await Task.sleep(nanoseconds: 220_000_000)
+        switch eyes {
+        case .roll:
+            let path = [CGPoint(x: -0.8, y: 0.7), CGPoint(x: -1.1, y: 0), CGPoint(x: -0.75, y: -1.2),
+                        CGPoint(x: 0, y: -1.5), CGPoint(x: 0.75, y: -1.2), CGPoint(x: 0.2, y: -1.45)]
+            SoundFX.shared.play(.lookWhir, pan: -0.6, jitter: 0.05, gain: 0.45)
+            for p in path {
+                withAnimation(.easeInOut(duration: 0.15)) { look = p }
+                try? await Task.sleep(nanoseconds: 150_000_000)
+            }
+            SoundFX.shared.play(.lookWhir, pan: 0.3, jitter: 0.05, gain: 0.35)
+            // Hold the "ugh, really?" look.
+            try? await Task.sleep(nanoseconds: 750_000_000)
+        case .side:
+            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) { look = CGPoint(x: 1.15, y: 0.1) }
+            withAnimation(.easeInOut(duration: 0.2)) { eyeOpen = 0.45 }
+            SoundFX.shared.play(.lookWhir, pan: 0.8, jitter: 0.05, gain: 0.45)
+            try? await Task.sleep(nanoseconds: 1_100_000_000)
+            // A quick glance back, still unimpressed.
+            withAnimation(.spring(response: 0.25, dampingFraction: 0.7)) { look = CGPoint(x: -0.2, y: 0.1) }
+            try? await Task.sleep(nanoseconds: 300_000_000)
+        case .none:
+            break
+        }
+        withAnimation(.spring(response: 0.4, dampingFraction: 0.7)) {
+            look = .zero
+            eyeOpen = 1
+        }
+        holdMood = false
+        // A new question came in meanwhile: leave the orb to it.
+        guard !busy else { return }
+        setMood(VoiceOut.shared.isSpeaking ? .talking : next, thenIdleAfter: 2.2)
+    }
+
+    /// Settings changed Normal / Sassy: Ace says so, in character.
+    func personalityChanged(to personality: String) {
+        let on = Sass.isOn(personality)
+        let line = SassPack.shared.line(on ? "sassy.on" : "sassy.off")
+        guard !line.isEmpty else { return }
+        messages.append(ChatMessage(speaker: .ace, text: line, source: "personality"))
+        saveChat()
+        if on {
+            holdMood = true
+            Task { await sassyEyes(.roll, then: .happy) }
+        } else {
+            setMood(.happy, thenIdleAfter: 1.5)
+        }
+    }
+
+    /// The What's new card: once after each update, or any time from Settings (`force`).
+    func showWhatsNew(force: Bool) {
+        let releases = WhatsNew.load()
+        let build = WhatsNew.currentBuild
+        let release = force ? (WhatsNew.release(forBuild: build, in: releases) ?? releases.first)
+            : WhatsNew.due(currentBuild: build, lastShown: settings.lastWhatsNewBuild, releases: releases)
+        guard let release else { return }
+        // Busy answering something: it shows next time instead.
+        if !force, busy { return }
+        settings.lastWhatsNewBuild = max(settings.lastWhatsNewBuild, release.build)
+        let shown = max(build, release.build)
+        let card = WhatsNewCard(build: shown, date: release.date, items: release.items)
+        messages.append(ChatMessage(speaker: .ace, text: WhatsNew.intro(build: shown, sassy: Sass.isOn(settings.personality)),
+                                    cards: [.whatsNew(card)], source: "what's new"))
+        saveChat()
+        SoundFX.shared.play(.success, gain: 0.5)
     }
 
     func clearChat() {
@@ -492,7 +605,9 @@ final class AceCore: ObservableObject, BrainHost {
         SoundFX.shared.play(.greeting, gain: 0.8)
         Haptics.shared.play(.success)
         setMood(.happy)
-        let options = Greeter.lines(hour: hour, name: settings.userName)
+        let sassy = Sass.isOn(settings.personality)
+        let sassyLines = sassy ? Sass.greetingLines(hour: hour, name: settings.userName) : []
+        let options = sassyLines.isEmpty ? Greeter.lines(hour: hour, name: settings.userName) : sassyLines
         var lines = [options[VariantPicker.shared.pick("greeting.open", count: options.count)]]
         // Now and then, one of your favorites ("Up for some Minecraft today?").
         if let fav = Favorites.all(memory.facts.map(\.text)).reversed().first(where: { Favorites.greetingLine($0) != nil }),
@@ -516,7 +631,12 @@ final class AceCore: ObservableObject, BrainHost {
         messages.append(ChatMessage(speaker: .ace, text: lines.joined(separator: " "), cards: full ? [.greeting(card)] : [], source: "greeting"))
         saveChat()
         if settings.speakGreeting { speak(lines.joined(separator: " "), force: true) }
-        setMood(.happy, thenIdleAfter: 2.5)
+        if sassy {
+            holdMood = true
+            await sassyEyes(Bool.random() ? .roll : .side, then: .happy)
+        } else {
+            setMood(.happy, thenIdleAfter: 2.5)
+        }
     }
 
     private func bedtimeNudgeIfNeeded() {

@@ -19,6 +19,20 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    Picker("Personality", selection: $settings.personality) {
+                        Text("Normal").tag("normal")
+                        Text("Sassy").tag("sassy")
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text("Personality")
+                } footer: {
+                    Text(settings.personality == "sassy"
+                         ? "Sassy Ace has a LOT of attitude, rolls its eyes, and still gives the right answer."
+                         : "Switch to Sassy for an Ace with a lot of attitude. Same right answers.")
+                }
+
+                Section {
                     Toggle("Sound effects", isOn: $settings.soundsOn)
                     HStack {
                         Image(systemName: "speaker.fill").foregroundStyle(AceTheme.muted)
@@ -149,6 +163,7 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    NavigationLink("What's new") { WhatsNewView() }
                     LabeledContent("Ace", value: Self.version)
                 }
             }
@@ -172,6 +187,7 @@ struct SettingsView: View {
             .onChange(of: settings.volume) { _, _ in core.applySoundSettings() }
             .onChange(of: settings.hapticsOn) { _, _ in core.applySoundSettings() }
             .onChange(of: settings.wakeChecks) { _, _ in core.scheduleWake() }
+            .onChange(of: settings.personality) { _, new in core.personalityChanged(to: new) }
         }
         .preferredColorScheme(.dark)
         .tint(AceTheme.ace)

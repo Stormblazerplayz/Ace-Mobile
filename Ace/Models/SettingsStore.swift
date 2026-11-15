@@ -46,6 +46,10 @@ final class SettingsStore: ObservableObject {
     @Published var moodSounds: Bool { didSet { d.set(moodSounds, forKey: "moodSounds") } }
     /// Seasonal outfits on the orb (a Santa hat in December...).
     @Published var orbOutfits: Bool { didSet { d.set(orbOutfits, forKey: "orbOutfits") } }
+    /// "normal" or "sassy" (lots of attitude, same right answers).
+    @Published var personality: String { didSet { d.set(personality, forKey: "personality") } }
+    /// The newest build whose What's new card was shown in the chat.
+    @Published var lastWhatsNewBuild: Int { didSet { d.set(lastWhatsNewBuild, forKey: "lastWhatsNewBuild") } }
 
     init() {
         d.register(defaults: [
@@ -53,7 +57,7 @@ final class SettingsStore: ObservableObject {
             "wakeChecks": true, "backgroundAlerts": true, "openLinksIn": "ace", "searchEngine": "google",
             "webAnswers": true, "showThinking": true, "useAppleModel": false, "useLocalModel": true, "brain": "ace",
             "bedtimeTips": true, "temperatureUnit": "auto", "syncEnabled": false, "syncPort": 48620, "voiceSpeed": 1.0,
-            "speakGreeting": true, "moodSounds": true, "orbOutfits": true,
+            "speakGreeting": true, "moodSounds": true, "orbOutfits": true, "personality": "normal",
         ])
         userName = d.string(forKey: "userName") ?? ""
         soundsOn = d.bool(forKey: "soundsOn")
@@ -84,6 +88,8 @@ final class SettingsStore: ObservableObject {
         speakGreeting = d.bool(forKey: "speakGreeting")
         moodSounds = d.bool(forKey: "moodSounds")
         orbOutfits = d.bool(forKey: "orbOutfits")
+        personality = d.string(forKey: "personality") == "sassy" ? "sassy" : "normal"
+        lastWhatsNewBuild = d.integer(forKey: "lastWhatsNewBuild")
     }
 
     nonisolated static let slowestVoice = 0.6
