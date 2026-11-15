@@ -91,7 +91,8 @@ enum RecipeBook {
 
     /// Splits "eggs, cheese and bread" into ["eggs", "cheese", "bread"].
     static func splitItems(_ text: String) -> [String] {
-        TextKit.normalize(text)
+        // Commas are kept as " and " first, because normalizing drops them.
+        let pieces = TextKit.normalize(text.replacingOccurrences(of: ",", with: " and "))
             .replacingOccurrences(of: " and ", with: ",")
             .replacingOccurrences(of: " or ", with: ",")
             .replacingOccurrences(of: " plus ", with: ",")
@@ -99,6 +100,19 @@ enum RecipeBook {
             .map { $0.trimmingCharacters(in: .whitespaces) }
             .map { $0.replacingOccurrences(of: #"^(some|a|an|the|my|leftover|fresh|frozen)\s+"#, with: "", options: .regularExpression) }
             .filter { !$0.isEmpty && !["stuff", "things", "that", "it"].contains($0) }
+        // Spoken lists often have no commas ("eggs cheese bread"). A piece no recipe knows
+        // as one ingredient ("peanut butter" is one, "eggs cheese" isn't) is split into words.
+        return pieces.flatMap { piece -> [String] in
+            let words = piece.split(separator: " ").map(String.init)
+            guard words.count > 1, !knownIngredient(piece) else { return [piece] }
+            return words.filter { !filler.contains($0) }
+        }
+    }
+
+    private static let ingredientText: String = all.flatMap { $0.ingredients + $0.main }.joined(separator: " | ").lowercased()
+
+    private static func knownIngredient(_ phrase: String) -> Bool {
+        ingredientText.contains(phrase) || ingredientText.contains(singularPhrase(phrase))
     }
 
     /// A random idea for a meal ("what should I make for dinner").
