@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// Draws any special card that rides along with a chat message.
 struct CardView: View {
@@ -21,6 +22,7 @@ struct CardView: View {
         case .timer(let t): TimerCardView(timer: t)
         case .power(let p): PowerCardView(card: p)
         case .greeting(let g): GreetingCardView(card: g)
+        case .code(let c): CodeCardView(card: c)
         }
     }
 }
@@ -642,5 +644,104 @@ struct PowerCardView: View {
             Spacer()
         }
         .aceCard()
+    }
+}
+
+// MARK: Code
+
+/// A script from Ace's library: colored code, a Copy button and where to put it.
+struct CodeCardView: View {
+    let card: CodeCard
+    var startOpen = false
+    @State private var showAll = false
+    @State private var copied = false
+
+    private static let shortLines = 18
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(alignment: .top, spacing: 8) {
+                Image(systemName: "chevron.left.forwardslash.chevron.right")
+                    .foregroundStyle(AceTheme.ace)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(card.title)
+                        .font(.system(.headline, design: .rounded))
+                        .foregroundStyle(AceTheme.fg)
+                    Text("\(card.language) · \(card.kind)")
+                        .font(.caption)
+                        .foregroundStyle(AceTheme.muted)
+                }
+                Spacer(minLength: 0)
+                Button {
+                    UIPasteboard.general.string = card.code
+                    copied = true
+                    Task { @MainActor in
+                        try? await Task.sleep(nanoseconds: 1_800_000_000)
+                        copied = false
+                    }
+                } label: {
+                    Label(copied ? "Copied" : "Copy", systemImage: copied ? "checkmark" : "doc.on.doc")
+                        .font(.subheadline.weight(.semibold))
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(copied ? AceTheme.good : AceTheme.ace)
+                .accessibilityLabel(copied ? "Copied" : "Copy the code")
+            }
+
+            Label(card.`where`, systemImage: "mappin.and.ellipse")
+                .font(.subheadline)
+                .foregroundStyle(AceTheme.fg)
+                .padding(10)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(AceTheme.ace.opacity(0.12), in: RoundedRectangle(cornerRadius: 10))
+
+            ScrollView(.horizontal, showsIndicators: false) {
+                Text(CodeCardView.colored(shownCode, language: card.language))
+                    .font(.system(.footnote, design: .monospaced))
+                    .textSelection(.enabled)
+                    .fixedSize(horizontal: true, vertical: false)
+                    .padding(12)
+            }
+            .background(Color.black.opacity(0.35), in: RoundedRectangle(cornerRadius: 10))
+
+            if lineCount > Self.shortLines {
+                Button(showAll ? "Show less" : "Show all \(lineCount) lines") {
+                    withAnimation { showAll.toggle() }
+                }
+                .font(.subheadline)
+                .tint(AceTheme.ace)
+            }
+
+            Text(card.about)
+                .font(.caption)
+                .foregroundStyle(AceTheme.muted)
+        }
+        .aceCard()
+        .onAppear { if startOpen { showAll = true } }
+    }
+
+    private var lineCount: Int { card.code.split(separator: "\n", omittingEmptySubsequences: false).count }
+
+    private var shownCode: String {
+        guard !showAll, lineCount > Self.shortLines else { return card.code }
+        return card.code.split(separator: "\n", omittingEmptySubsequences: false).prefix(Self.shortLines).joined(separator: "\n") + "\n…"
+    }
+
+    static func colored(_ code: String, language: String) -> AttributedString {
+        var out = AttributedString()
+        for piece in CodeHighlighter.pieces(code, language: language) {
+            var part = AttributedString(piece.text)
+            switch piece.kind {
+            case .plain: part.foregroundColor = AceTheme.fg
+            case .keyword: part.foregroundColor = Color(hex: 0xFF7AB6)
+            case .string: part.foregroundColor = Color(hex: 0xA5E075)
+            case .comment: part.foregroundColor = Color(hex: 0x8A87A6)
+            case .number: part.foregroundColor = Color(hex: 0xFFB86C)
+            case .builtin: part.foregroundColor = Color(hex: 0x6CC8FF)
+            case .preprocessor: part.foregroundColor = Color(hex: 0xC792EA)
+            }
+            out += part
+        }
+        return out
     }
 }

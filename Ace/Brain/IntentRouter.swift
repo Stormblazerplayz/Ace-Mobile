@@ -22,6 +22,7 @@ enum Intent: Equatable {
     case searchTab(query: String, site: String?)
     case recipe(String)
     case recipeTweak(String)        // "make it spicier", "for 8 people"
+    case script(String)             // "give me a kill brick script", "C++ servo code"
     case weather(place: String?, day: String? = nil)
     case check
     case battery, storage, memoryUsage, network
@@ -86,6 +87,7 @@ extension Intent {
         case .searchTab: return "searchTab"
         case .recipe: return "recipe"
         case .recipeTweak: return "recipeTweak"
+        case .script: return "script"
         case .weather: return "weather"
         case .check: return "check"
         case .battery: return "battery"
@@ -149,6 +151,9 @@ enum IntentRouter {
         // Follow-ups
         if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
         if Rx.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
+
+        // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
+        if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }
 
         // Home (Apple Home): lights, plugs, fans, thermostats, the robot vacuum, scenes
         if let h = HomeParser.parse(t) { return .home(h) }

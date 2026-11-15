@@ -1,0 +1,1055 @@
+{
+ "format": "ace-scripts/1",
+ "count": 62,
+ "scripts": [
+  {
+   "id": "button-door",
+   "title": "Button that opens a door",
+   "language": "Lua",
+   "category": "Doors and buttons",
+   "kind": "Script",
+   "where": "Put this Script inside a Model in Workspace that holds two parts named Button and Door.",
+   "keywords": [
+    "button opens door",
+    "press button",
+    "click button door",
+    "switch opens door",
+    "button and door"
+   ],
+   "about": "Clicking, tapping or stepping on the button opens the door for a few seconds.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal OPEN_TIME = 5 -- seconds the door stays open\nlocal PRESSED_COLOR = Color3.fromRGB(0, 255, 0) -- button color while the door is open\n\nlocal model = script.Parent\nlocal button = model:WaitForChild(\"Button\")\nlocal door = model:WaitForChild(\"Door\")\n\n-- Add a ClickDetector so the button can be clicked or tapped\nlocal clickDetector = button:FindFirstChildOfClass(\"ClickDetector\") or Instance.new(\"ClickDetector\")\nclickDetector.Parent = button\n\nlocal buttonColor = button.Color\nlocal doorTransparency = door.Transparency\nlocal isOpen = false\n\nlocal function openDoor()\n\tif isOpen then\n\t\treturn\n\tend\n\tisOpen = true\n\tbutton.Color = PRESSED_COLOR\n\tdoor.CanCollide = false\n\tdoor.Transparency = 0.8\n\n\ttask.wait(OPEN_TIME)\n\n\tdoor.CanCollide = true\n\tdoor.Transparency = doorTransparency\n\tbutton.Color = buttonColor\n\tisOpen = false\nend\n\n-- Click or tap the button\nclickDetector.MouseClick:Connect(openDoor)\n\n-- Or step on the button\nbutton.Touched:Connect(function(hit)\n\tif Players:GetPlayerFromCharacter(hit.Parent) then\n\t\topenDoor()\n\tend\nend)\n"
+  },
+  {
+   "id": "touch-door",
+   "title": "Door that opens when touched",
+   "language": "Lua",
+   "category": "Doors and buttons",
+   "kind": "Script",
+   "where": "Put this Script inside the door Part (make it Anchored).",
+   "keywords": [
+    "door",
+    "door that opens",
+    "touch door",
+    "automatic door",
+    "walk through door",
+    "open door when touched"
+   ],
+   "about": "The door opens when a player bumps into it, then closes again after a few seconds.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal OPEN_TIME = 3 -- seconds the door stays open\nlocal OPEN_TRANSPARENCY = 0.7 -- how see-through it is when open (1 = invisible)\n\nlocal door = script.Parent\nlocal closedTransparency = door.Transparency\nlocal isOpen = false\n\ndoor.Touched:Connect(function(hit)\n\t-- Only open for players, and not if it's already open\n\tif isOpen or not Players:GetPlayerFromCharacter(hit.Parent) then\n\t\treturn\n\tend\n\tisOpen = true\n\n\t-- Open: you can walk through now\n\tdoor.CanCollide = false\n\tdoor.Transparency = OPEN_TRANSPARENCY\n\n\ttask.wait(OPEN_TIME)\n\n\t-- Close again\n\tdoor.CanCollide = true\n\tdoor.Transparency = closedTransparency\n\tisOpen = false\nend)\n"
+  },
+  {
+   "id": "key-door",
+   "title": "Key door",
+   "language": "Lua",
+   "category": "Doors and buttons",
+   "kind": "Script",
+   "where": "Put this Script inside the door Part, and make a Tool named Key (with a Handle part) that players can get.",
+   "keywords": [
+    "key door",
+    "locked door",
+    "door needs a key",
+    "unlock door with key",
+    "key card door"
+   ],
+   "about": "The door only opens for players who have the Key tool.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these!\nlocal KEY_NAME = \"Key\" -- the exact name of your key Tool\nlocal OPEN_TIME = 3 -- seconds the door stays open\nlocal USE_UP_KEY = false -- true = the key disappears after opening the door\n\nlocal door = script.Parent\nlocal closedTransparency = door.Transparency\nlocal isOpen = false\n\n-- Find the player who touched the door (even if it was their tool or hat)\nlocal function getPlayer(hit)\n\tlocal model = hit.Parent\n\tlocal player = model and Players:GetPlayerFromCharacter(model)\n\tif not player and model and model.Parent then\n\t\tplayer = Players:GetPlayerFromCharacter(model.Parent)\n\tend\n\treturn player\nend\n\n-- Look for the key in their hand or their backpack\nlocal function findKey(player)\n\tlocal character = player.Character\n\tlocal backpack = player:FindFirstChildOfClass(\"Backpack\")\n\treturn (character and character:FindFirstChild(KEY_NAME))\n\t\tor (backpack and backpack:FindFirstChild(KEY_NAME))\nend\n\ndoor.Touched:Connect(function(hit)\n\tif isOpen then\n\t\treturn\n\tend\n\tlocal player = getPlayer(hit)\n\tlocal key = player and findKey(player)\n\tif not key then\n\t\treturn -- no key, no entry!\n\tend\n\n\tisOpen = true\n\tif USE_UP_KEY then\n\t\tkey:Destroy()\n\tend\n\tdoor.CanCollide = false\n\tdoor.Transparency = 0.7\n\n\ttask.wait(OPEN_TIME)\n\tdoor.CanCollide = true\n\tdoor.Transparency = closedTransparency\n\tisOpen = false\nend)\n"
+  },
+  {
+   "id": "team-door",
+   "title": "Team-only door",
+   "language": "Lua",
+   "category": "Doors and buttons",
+   "kind": "Script",
+   "where": "Put this Script inside the door Part, make sure you have Teams (in the Teams service), and set TEAM_NAME below.",
+   "keywords": [
+    "team door",
+    "team only door",
+    "vip room door",
+    "only my team can enter",
+    "team base door"
+   ],
+   "about": "Players on one team can walk right through the door, but everyone else is blocked.",
+   "code": "local Players = game:GetService(\"Players\")\nlocal PhysicsService = game:GetService(\"PhysicsService\")\n\n-- Settings: change this to your team's exact name!\nlocal TEAM_NAME = \"Red\"\n\nlocal door = script.Parent\nlocal doorGroup = \"TeamDoor_\" .. TEAM_NAME\nlocal memberGroup = \"TeamMembers_\" .. TEAM_NAME\n\n-- Collision groups: team members and this door don't bump into each other\nfor _, groupName in ipairs({ doorGroup, memberGroup }) do\n\tif not PhysicsService:IsCollisionGroupRegistered(groupName) then\n\t\tPhysicsService:RegisterCollisionGroup(groupName)\n\tend\nend\nPhysicsService:CollisionGroupSetCollidable(doorGroup, memberGroup, false)\ndoor.CollisionGroup = doorGroup\n\nlocal function isOnTeam(player)\n\treturn player.Team ~= nil and player.Team.Name == TEAM_NAME\nend\n\n-- Put a body part in the right group\nlocal function updatePart(player, part)\n\tif not part:IsA(\"BasePart\") then\n\t\treturn\n\tend\n\tif isOnTeam(player) then\n\t\tpart.CollisionGroup = memberGroup\n\telseif part.CollisionGroup == memberGroup then\n\t\tpart.CollisionGroup = \"Default\"\n\tend\nend\n\nlocal function updateCharacter(player, character)\n\tfor _, part in ipairs(character:GetDescendants()) do\n\t\tupdatePart(player, part)\n\tend\nend\n\nlocal function onPlayerAdded(player)\n\tlocal function onCharacter(character)\n\t\tupdateCharacter(player, character)\n\t\tcharacter.DescendantAdded:Connect(function(part)\n\t\t\tupdatePart(player, part)\n\t\tend)\n\tend\n\tplayer.CharacterAdded:Connect(onCharacter)\n\tif player.Character then\n\t\tonCharacter(player.Character)\n\tend\n\t-- Switching teams? Update right away\n\tplayer:GetPropertyChangedSignal(\"Team\"):Connect(function()\n\t\tif player.Character then\n\t\t\tupdateCharacter(player, player.Character)\n\t\tend\n\tend)\nend\n\nPlayers.PlayerAdded:Connect(onPlayerAdded)\nfor _, player in ipairs(Players:GetPlayers()) do\n\tonPlayerAdded(player)\nend\n"
+  },
+  {
+   "id": "coins-label",
+   "title": "Coins on screen",
+   "language": "Lua",
+   "category": "GUI",
+   "kind": "LocalScript",
+   "where": "Put this LocalScript inside a TextLabel in a ScreenGui in StarterGui (you also need the Leaderstats with saving script).",
+   "keywords": [
+    "show coins on screen",
+    "coin counter gui",
+    "money display",
+    "coins text label",
+    "how many coins i have"
+   ],
+   "about": "Shows the player's coins on the screen and updates it when the number changes.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these!\nlocal STAT_NAME = \"Coins\" -- must match your leaderstats name\nlocal PREFIX = \"Coins: \" -- text shown before the number\n\nlocal label = script.Parent\nlocal player = Players.LocalPlayer\n\n-- Wait for the leaderstats made by the server\nlocal leaderstats = player:WaitForChild(\"leaderstats\")\nlocal stat = leaderstats:WaitForChild(STAT_NAME)\n\nlocal function update()\n\tlabel.Text = PREFIX .. tostring(stat.Value)\nend\n\nupdate()\nstat:GetPropertyChangedSignal(\"Value\"):Connect(update)\n"
+  },
+  {
+   "id": "round-timer-label",
+   "title": "Round timer text",
+   "language": "Lua",
+   "category": "GUI",
+   "kind": "LocalScript",
+   "where": "Put this LocalScript inside a TextLabel in a ScreenGui in StarterGui (it shows the text from the Round timer with intermission script).",
+   "keywords": [
+    "timer on screen",
+    "countdown text",
+    "show round time",
+    "intermission text",
+    "timer gui"
+   ],
+   "about": "Shows the round countdown on every player's screen.",
+   "code": "local ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\n\nlocal label = script.Parent\n\n-- The server writes the time into this StringValue\nlocal status = ReplicatedStorage:WaitForChild(\"Status\")\n\nlocal function update()\n\tlabel.Text = status.Value\nend\n\nupdate()\n-- Update the text every time the server changes it\nstatus:GetPropertyChangedSignal(\"Value\"):Connect(update)\n"
+  },
+  {
+   "id": "shop-button",
+   "title": "Shop button",
+   "language": "Lua",
+   "category": "GUI",
+   "kind": "LocalScript",
+   "where": "Put this LocalScript inside a TextButton in a ScreenGui in StarterGui, and also add the Shop (server part) script and a RemoteEvent named BuyItem in ReplicatedStorage.",
+   "keywords": [
+    "shop button",
+    "buy button",
+    "shop gui",
+    "buy with a button",
+    "store button"
+   ],
+   "about": "Tapping the button asks the server to buy an item, then shows if it worked.",
+   "code": "local ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\n\n-- Settings: change this to the item this button buys\nlocal ITEM_NAME = \"Sword\" -- must match a name in the Shop (server part) PRICES list\nlocal MESSAGE_TIME = 1.5 -- seconds the \"Bought!\" message stays\n\nlocal button = script.Parent\nlocal buyItem = ReplicatedStorage:WaitForChild(\"BuyItem\")\nlocal normalText = button.Text\nlocal normalColor = button.BackgroundColor3\nlocal messageNumber = 0\n\n-- Tapping or clicking the button asks the server to buy (the server checks the coins)\nbutton.Activated:Connect(function()\n\tbuyItem:FireServer(ITEM_NAME)\nend)\n\n-- The server answers: did it work?\nbuyItem.OnClientEvent:Connect(function(itemName, success, message)\n\tif itemName ~= ITEM_NAME then\n\t\treturn -- this answer is for a different button\n\tend\n\tmessageNumber = messageNumber + 1\n\tlocal myNumber = messageNumber\n\n\tbutton.Text = message\n\tif success then\n\t\tbutton.BackgroundColor3 = Color3.fromRGB(60, 200, 90) -- green\n\telse\n\t\tbutton.BackgroundColor3 = Color3.fromRGB(220, 70, 70) -- red\n\tend\n\n\t-- Go back to normal after a moment\n\ttask.delay(MESSAGE_TIME, function()\n\t\tif myNumber == messageNumber then\n\t\t\tbutton.Text = normalText\n\t\t\tbutton.BackgroundColor3 = normalColor\n\t\tend\n\tend)\nend)\n"
+  },
+  {
+   "id": "round-timer",
+   "title": "Round timer with intermission",
+   "language": "Lua",
+   "category": "Game rounds",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService; add a normal Part named RoundSpawn where rounds start (not a SpawnLocation), and use the Round timer text script to show the time.",
+   "keywords": [
+    "round timer",
+    "timer",
+    "intermission",
+    "round system",
+    "minigame rounds",
+    "game loop",
+    "rounds and lobby"
+   ],
+   "about": "Runs an intermission countdown, sends everyone into a round, then brings them back to the lobby, forever.",
+   "code": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\n\n-- Settings: change these numbers!\nlocal INTERMISSION = 15 -- seconds in the lobby between rounds\nlocal ROUND_TIME = 60 -- seconds each round lasts\nlocal MIN_PLAYERS = 1 -- players needed to start (use 2 for a real game)\n\n-- The text everyone sees, shared in ReplicatedStorage\nlocal status = ReplicatedStorage:FindFirstChild(\"Status\")\nif not status then\n\tstatus = Instance.new(\"StringValue\")\n\tstatus.Name = \"Status\"\n\tstatus.Parent = ReplicatedStorage\nend\n\n-- Count down one second at a time\nlocal function countdown(text, seconds)\n\tfor i = seconds, 1, -1 do\n\t\tstatus.Value = text .. i\n\t\ttask.wait(1)\n\tend\nend\n\nwhile true do\n\t-- Wait until there are enough players\n\twhile #Players:GetPlayers() < MIN_PLAYERS do\n\t\tstatus.Value = \"Waiting for players...\"\n\t\ttask.wait(1)\n\tend\n\n\tcountdown(\"Intermission: \", INTERMISSION)\n\n\t-- Round start: send everyone to RoundSpawn (spread out a little)\n\tlocal roundSpawn = workspace:FindFirstChild(\"RoundSpawn\")\n\tif roundSpawn then\n\t\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\t\tlocal character = player.Character\n\t\t\tif character then\n\t\t\t\tlocal offset = Vector3.new(math.random(-5, 5), 5, math.random(-5, 5))\n\t\t\t\tcharacter:PivotTo(CFrame.new(roundSpawn.Position + offset))\n\t\t\tend\n\t\tend\n\tend\n\n\tcountdown(\"Round: \", ROUND_TIME)\n\n\t-- Round over: respawn everyone back in the lobby\n\tstatus.Value = \"Round over!\"\n\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\tplayer:LoadCharacter()\n\tend\n\ttask.wait(3)\nend\n"
+  },
+  {
+   "id": "win-pad",
+   "title": "Win pad",
+   "language": "Lua",
+   "category": "Game rounds",
+   "kind": "Script",
+   "where": "Put this Script inside the finish Part at the end of your obby or race, and add a Part named Lobby in Workspace if you want winners sent back there.",
+   "keywords": [
+    "win pad",
+    "finish line",
+    "give a win",
+    "wins leaderboard",
+    "you win part",
+    "end of the obby"
+   ],
+   "about": "Touching the finish gives the player a Win on the leaderboard and sends them back to the lobby.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these!\nlocal LOBBY_NAME = \"Lobby\" -- winners get sent to a part with this name (if it exists)\nlocal COOLDOWN = 5 -- seconds before the same player can win again\n\nlocal pad = script.Parent\nlocal recent = {} -- players who just won\n\npad.Touched:Connect(function(hit)\n\tlocal character = hit.Parent\n\tlocal player = Players:GetPlayerFromCharacter(character)\n\tif not player or recent[player] then\n\t\treturn\n\tend\n\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\tif not humanoid or humanoid.Health <= 0 then\n\t\treturn\n\tend\n\trecent[player] = true\n\n\t-- Find (or make) the Wins number on the leaderboard\n\tlocal leaderstats = player:FindFirstChild(\"leaderstats\")\n\tif not leaderstats then\n\t\tleaderstats = Instance.new(\"Folder\")\n\t\tleaderstats.Name = \"leaderstats\"\n\t\tleaderstats.Parent = player\n\tend\n\tlocal wins = leaderstats:FindFirstChild(\"Wins\")\n\tif not wins then\n\t\twins = Instance.new(\"IntValue\")\n\t\twins.Name = \"Wins\"\n\t\twins.Parent = leaderstats\n\tend\n\twins.Value = wins.Value + 1\n\n\t-- Send the winner back to the lobby\n\tlocal lobby = workspace:FindFirstChild(LOBBY_NAME)\n\tif lobby and lobby:IsA(\"BasePart\") then\n\t\tcharacter:PivotTo(CFrame.new(lobby.Position + Vector3.new(0, lobby.Size.Y / 2 + 3, 0)))\n\tend\n\n\ttask.delay(COOLDOWN, function()\n\t\trecent[player] = nil\n\tend)\nend)\n"
+  },
+  {
+   "id": "conveyor-belt",
+   "title": "Conveyor belt",
+   "language": "Lua",
+   "category": "Moving parts",
+   "kind": "Script",
+   "where": "Put this Script inside a flat Part; it pushes players toward the part's Front side (spin the part around to change the direction).",
+   "keywords": [
+    "conveyor belt",
+    "treadmill",
+    "moving floor",
+    "floor that pushes you",
+    "push part"
+   ],
+   "about": "Pushes anything standing on the part along, like a conveyor belt.",
+   "code": "-- Settings: change this number!\nlocal SPEED = 10 -- studs per second (bigger = faster, negative = backwards)\n\nlocal belt = script.Parent\nbelt.Anchored = true -- the belt itself stays still\n\n-- The belt \"pretends\" to move, so things on top slide along\nlocal function updateBelt()\n\tbelt.AssemblyLinearVelocity = belt.CFrame.LookVector * SPEED\nend\n\nupdateBelt()\n-- If you turn the part around while playing, the push direction follows\nbelt:GetPropertyChangedSignal(\"CFrame\"):Connect(updateBelt)\n"
+  },
+  {
+   "id": "moving-part",
+   "title": "Moving platform",
+   "language": "Lua",
+   "category": "Moving parts",
+   "kind": "Script",
+   "where": "Put this Script inside the Part you want to slide back and forth (it will be Anchored for you).",
+   "keywords": [
+    "moving platform",
+    "moving part",
+    "part that goes back and forth",
+    "sliding part",
+    "moving block",
+    "platform that moves"
+   ],
+   "about": "Slides the part back and forth forever, and players standing on it ride along.",
+   "code": "local TweenService = game:GetService(\"TweenService\")\nlocal RunService = game:GetService(\"RunService\")\n\n-- Settings: change these numbers!\nlocal MOVE_BY = Vector3.new(0, 0, 20) -- how far it moves (X, Y, Z in studs)\nlocal TIME = 3 -- seconds to move one way (smaller = faster)\n\nlocal part = script.Parent\npart.Anchored = true\nlocal startPosition = part.Position\n\n-- Slide to the end, then back again, forever (-1 = repeat forever, true = go back)\nlocal info = TweenInfo.new(TIME, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true)\nlocal tween = TweenService:Create(part, info, { Position = startPosition + MOVE_BY })\ntween:Play()\n\n-- This tells physics how fast the part moves, so players on top ride along\nlocal lastPosition = part.Position\nRunService.Heartbeat:Connect(function(dt)\n\tlocal nowPosition = part.Position\n\tif dt > 0 then\n\t\tpart.AssemblyLinearVelocity = (nowPosition - lastPosition) / dt\n\tend\n\tlastPosition = nowPosition\nend)\n"
+  },
+  {
+   "id": "spinning-part",
+   "title": "Spinning part",
+   "language": "Lua",
+   "category": "Moving parts",
+   "kind": "Script",
+   "where": "Put this Script inside the Part you want to spin (it will be Anchored for you).",
+   "keywords": [
+    "spinning part",
+    "spinner",
+    "rotating part",
+    "spinning bar",
+    "part that spins around"
+   ],
+   "about": "Spins the part around and around, and pushes players it hits.",
+   "code": "local RunService = game:GetService(\"RunService\")\n\n-- Settings: change these numbers!\nlocal SPEED = 90 -- degrees per second (bigger = faster, negative = other way)\nlocal AXIS = Vector3.new(0, 1, 0) -- spin around: (0,1,0) = flat like a fan, (1,0,0) = like a wheel\n\nlocal part = script.Parent\npart.Anchored = true\n\nRunService.Heartbeat:Connect(function(dt)\n\t-- Turn a tiny bit every frame\n\tpart.CFrame = part.CFrame * CFrame.fromAxisAngle(AXIS, math.rad(SPEED) * dt)\n\t-- Tell physics it's spinning, so it pushes players instead of sliding under them\n\tpart.AssemblyAngularVelocity = part.CFrame:VectorToWorldSpace(AXIS) * math.rad(SPEED)\nend)\n"
+  },
+  {
+   "id": "checkpoints",
+   "title": "Checkpoints",
+   "language": "Lua",
+   "category": "Obstacles",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService, then make a Folder named Checkpoints in Workspace with SpawnLocations inside named 1, 2, 3 and so on (1 is the start).",
+   "keywords": [
+    "checkpoint",
+    "save my spot",
+    "respawn at checkpoint",
+    "obby checkpoints",
+    "spawn where i left off"
+   ],
+   "about": "Touching a checkpoint makes it the place where you come back to life.",
+   "code": "local Players = game:GetService(\"Players\")\n\nlocal checkpoints = workspace:WaitForChild(\"Checkpoints\")\nlocal best = {} -- the highest checkpoint each player reached\n\n-- Get ready a checkpoint so touching it saves your spot\nlocal function setupCheckpoint(checkpoint)\n\tif not checkpoint:IsA(\"SpawnLocation\") then\n\t\treturn\n\tend\n\tcheckpoint.Neutral = true -- everyone can use it, any team\n\n\tcheckpoint.Touched:Connect(function(hit)\n\t\tlocal player = Players:GetPlayerFromCharacter(hit.Parent)\n\t\tlocal number = tonumber(checkpoint.Name)\n\t\tif not player or not number then\n\t\t\treturn\n\t\tend\n\t\t-- Only save if it's further than before (no going back!)\n\t\tif number > (best[player] or 0) then\n\t\t\tbest[player] = number\n\t\t\tplayer.RespawnLocation = checkpoint\n\t\tend\n\tend)\nend\n\nfor _, checkpoint in ipairs(checkpoints:GetChildren()) do\n\tsetupCheckpoint(checkpoint)\nend\ncheckpoints.ChildAdded:Connect(setupCheckpoint)\n\n-- New players start at checkpoint 1\nlocal function onPlayerAdded(player)\n\tlocal first = checkpoints:FindFirstChild(\"1\")\n\tif first and first:IsA(\"SpawnLocation\") then\n\t\tbest[player] = 1\n\t\tplayer.RespawnLocation = first\n\tend\nend\n\nPlayers.PlayerAdded:Connect(onPlayerAdded)\nfor _, player in ipairs(Players:GetPlayers()) do\n\tonPlayerAdded(player)\nend\n\nPlayers.PlayerRemoving:Connect(function(player)\n\tbest[player] = nil\nend)\n"
+  },
+  {
+   "id": "damage-zone",
+   "title": "Damage zone",
+   "language": "Lua",
+   "category": "Obstacles",
+   "kind": "Script",
+   "where": "Put this Script inside a Part that covers the hurting area (turn off CanCollide and make it see-through if you like).",
+   "keywords": [
+    "damage zone",
+    "poison area",
+    "hurt zone",
+    "acid pool",
+    "toxic gas",
+    "lose health slowly"
+   ],
+   "about": "Players standing inside the zone keep losing health a little at a time.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal DAMAGE = 10 -- health lost each tick\nlocal TICK_TIME = 1 -- seconds between ticks\n\nlocal zone = script.Parent\n\n-- Only look at things that are not the zone itself\nlocal params = OverlapParams.new()\nparams.FilterType = Enum.RaycastFilterType.Exclude\nparams.FilterDescendantsInstances = { zone }\n\nwhile true do\n\ttask.wait(TICK_TIME)\n\n\t-- Find every player character inside the zone (each one only once)\n\tlocal hurt = {}\n\tfor _, hit in ipairs(workspace:GetPartsInPart(zone, params)) do\n\t\tlocal character = hit.Parent\n\t\tlocal player = Players:GetPlayerFromCharacter(character)\n\t\tif player and not hurt[player] then\n\t\t\thurt[player] = true\n\t\t\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\t\t\tif humanoid and humanoid.Health > 0 then\n\t\t\t\thumanoid:TakeDamage(DAMAGE)\n\t\t\tend\n\t\tend\n\tend\nend\n"
+  },
+  {
+   "id": "disappearing-platform",
+   "title": "Disappearing platform",
+   "language": "Lua",
+   "category": "Obstacles",
+   "kind": "Script",
+   "where": "Put this Script inside the platform Part that should fade away when someone steps on it.",
+   "keywords": [
+    "disappearing platform",
+    "fading platform",
+    "vanishing part",
+    "platform that disappears",
+    "fake floor"
+   ],
+   "about": "The platform fades away after someone steps on it, then comes back.",
+   "code": "local Players = game:GetService(\"Players\")\nlocal TweenService = game:GetService(\"TweenService\")\n\n-- Settings: change these numbers!\nlocal WAIT_BEFORE_FADE = 0.5 -- seconds before it starts fading\nlocal FADE_TIME = 1 -- seconds it takes to fade out\nlocal COME_BACK_TIME = 3 -- seconds before it comes back\n\nlocal part = script.Parent\nlocal startTransparency = part.Transparency\nlocal busy = false\n\nlocal function fadeTo(transparency)\n\tlocal tween = TweenService:Create(part, TweenInfo.new(FADE_TIME), { Transparency = transparency })\n\ttween:Play()\n\ttween.Completed:Wait()\nend\n\npart.Touched:Connect(function(hit)\n\t-- Only players start the fade, and only once at a time\n\tif busy or not Players:GetPlayerFromCharacter(hit.Parent) then\n\t\treturn\n\tend\n\tbusy = true\n\n\ttask.wait(WAIT_BEFORE_FADE)\n\tfadeTo(1)\n\tpart.CanCollide = false -- now you fall through!\n\n\ttask.wait(COME_BACK_TIME)\n\tpart.CanCollide = true\n\tfadeTo(startTransparency)\n\tbusy = false\nend)\n"
+  },
+  {
+   "id": "fall-kill",
+   "title": "Fall kill height",
+   "language": "Lua",
+   "category": "Obstacles",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService.",
+   "keywords": [
+    "kill when falling",
+    "fall off the map",
+    "void kill",
+    "falling resets you",
+    "kill below height"
+   ],
+   "about": "Anyone who falls below a set height gets reset.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal KILL_HEIGHT = -50 -- fall lower than this Y position and you reset\nlocal CHECK_EVERY = 0.25 -- seconds between checks\n\nwhile true do\n\ttask.wait(CHECK_EVERY)\n\n\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\tlocal character = player.Character\n\t\tlocal root = character and character:FindFirstChild(\"HumanoidRootPart\")\n\t\tlocal humanoid = character and character:FindFirstChildOfClass(\"Humanoid\")\n\n\t\t-- Too low? Reset them!\n\t\tif root and humanoid and humanoid.Health > 0 and root.Position.Y < KILL_HEIGHT then\n\t\t\thumanoid.Health = 0\n\t\tend\n\tend\nend\n"
+  },
+  {
+   "id": "kill-brick",
+   "title": "Kill brick",
+   "language": "Lua",
+   "category": "Obstacles",
+   "kind": "Script",
+   "where": "Put this Script inside the Part you want to be deadly.",
+   "keywords": [
+    "kill brick",
+    "kill part",
+    "death brick",
+    "lava brick",
+    "deadly part"
+   ],
+   "about": "Touching the part resets the player.",
+   "code": "local Players = game:GetService(\"Players\")\n\nlocal part = script.Parent\n\n-- When something touches the part...\npart.Touched:Connect(function(hit)\n\t-- ...check if it belongs to a player's character\n\tlocal character = hit.Parent\n\tlocal player = Players:GetPlayerFromCharacter(character)\n\tif not player then\n\t\treturn\n\tend\n\n\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\tif humanoid and humanoid.Health > 0 then\n\t\thumanoid.Health = 0 -- Oof! Back to spawn.\n\tend\nend)\n"
+  },
+  {
+   "id": "stage-counter",
+   "title": "Obby stage counter",
+   "language": "Lua",
+   "category": "Obstacles",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService, and make a Folder named Checkpoints in Workspace with parts inside named 1, 2, 3 and so on (works great with the Checkpoints script).",
+   "keywords": [
+    "stage counter",
+    "show my stage",
+    "stage on leaderboard",
+    "what stage am i on",
+    "obby stages"
+   ],
+   "about": "Shows each player's obby stage on the leaderboard and raises it when they reach a new stage.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: set to true so players can't skip stages\nlocal ONLY_NEXT_STAGE = false\n\nlocal checkpoints = workspace:WaitForChild(\"Checkpoints\")\n\n-- Make the Stage number on the leaderboard\nlocal function onPlayerAdded(player)\n\tlocal leaderstats = player:FindFirstChild(\"leaderstats\")\n\tif not leaderstats then\n\t\tleaderstats = Instance.new(\"Folder\")\n\t\tleaderstats.Name = \"leaderstats\" -- must be lowercase like this!\n\t\tleaderstats.Parent = player\n\tend\n\tlocal stage = Instance.new(\"IntValue\")\n\tstage.Name = \"Stage\"\n\tstage.Value = 0\n\tstage.Parent = leaderstats\nend\n\nPlayers.PlayerAdded:Connect(onPlayerAdded)\nfor _, player in ipairs(Players:GetPlayers()) do\n\tonPlayerAdded(player)\nend\n\n-- Touching a stage part raises your Stage number\nlocal function setupStage(part)\n\tif not part:IsA(\"BasePart\") then\n\t\treturn\n\tend\n\tpart.Touched:Connect(function(hit)\n\t\tlocal player = Players:GetPlayerFromCharacter(hit.Parent)\n\t\tlocal number = tonumber(part.Name)\n\t\tlocal leaderstats = player and player:FindFirstChild(\"leaderstats\")\n\t\tlocal stage = leaderstats and leaderstats:FindFirstChild(\"Stage\")\n\t\tif not stage or not number then\n\t\t\treturn\n\t\tend\n\t\tif ONLY_NEXT_STAGE then\n\t\t\tif number == stage.Value + 1 then\n\t\t\t\tstage.Value = number\n\t\t\tend\n\t\telseif number > stage.Value then\n\t\t\tstage.Value = number\n\t\tend\n\tend)\nend\n\nfor _, part in ipairs(checkpoints:GetChildren()) do\n\tsetupStage(part)\nend\ncheckpoints.ChildAdded:Connect(setupStage)\n"
+  },
+  {
+   "id": "rising-lava",
+   "title": "Rising lava",
+   "language": "Lua",
+   "category": "Obstacles",
+   "kind": "Script",
+   "where": "Put this Script inside a big flat lava Part placed at the bottom of your map (make it Anchored).",
+   "keywords": [
+    "rising lava",
+    "lava rises",
+    "floor is lava",
+    "flood rising",
+    "water rising",
+    "climb before the lava"
+   ],
+   "about": "The lava slowly rises up, kills anyone it touches, then drops back down and starts again.",
+   "code": "local Players = game:GetService(\"Players\")\nlocal RunService = game:GetService(\"RunService\")\n\n-- Settings: change these numbers!\nlocal RISE_SPEED = 2 -- studs per second (bigger = faster)\nlocal RISE_HEIGHT = 100 -- how many studs the lava climbs\nlocal WAIT_AT_TOP = 5 -- seconds it stays at the top\nlocal WAIT_AT_BOTTOM = 5 -- seconds before it rises again\n\nlocal lava = script.Parent\nlava.Anchored = true\nlocal startCFrame = lava.CFrame\n\n-- Touching the lava resets the player\nlava.Touched:Connect(function(hit)\n\tlocal character = hit.Parent\n\tif not Players:GetPlayerFromCharacter(character) then\n\t\treturn\n\tend\n\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\tif humanoid and humanoid.Health > 0 then\n\t\thumanoid.Health = 0\n\tend\nend)\n\nwhile true do\n\ttask.wait(WAIT_AT_BOTTOM)\n\n\t-- Rise a little bit every frame\n\tlocal risen = 0\n\twhile risen < RISE_HEIGHT do\n\t\tlocal dt = RunService.Heartbeat:Wait()\n\t\trisen = math.min(risen + RISE_SPEED * dt, RISE_HEIGHT)\n\t\tlava.CFrame = startCFrame + Vector3.new(0, risen, 0)\n\tend\n\n\ttask.wait(WAIT_AT_TOP)\n\tlava.CFrame = startCFrame -- back to the bottom\nend\n"
+  },
+  {
+   "id": "coin-pickup",
+   "title": "Coin pickup",
+   "language": "Lua",
+   "category": "Pickups and money",
+   "kind": "Script",
+   "where": "Put this Script inside your coin Part, and add the Leaderstats with saving script to ServerScriptService so players have Coins.",
+   "keywords": [
+    "coin pickup",
+    "coin",
+    "collect coins",
+    "collectible coin",
+    "touch coin get money",
+    "spinning coin"
+   ],
+   "about": "Touching the coin gives the player coins, then the coin comes back after a few seconds.",
+   "code": "local Players = game:GetService(\"Players\")\nlocal RunService = game:GetService(\"RunService\")\n\n-- Settings: change these numbers!\nlocal COINS = 1 -- coins you get each time\nlocal RESPAWN_TIME = 5 -- seconds before the coin comes back\nlocal SPIN_SPEED = 90 -- degrees per second (0 = no spinning)\nlocal STAT_NAME = \"Coins\" -- must match your leaderstats name\n\nlocal coin = script.Parent\ncoin.Anchored = true\ncoin.CanCollide = false\nlocal startTransparency = coin.Transparency\nlocal collected = false\n\ncoin.Touched:Connect(function(hit)\n\tif collected then\n\t\treturn\n\tend\n\tlocal player = Players:GetPlayerFromCharacter(hit.Parent)\n\tlocal leaderstats = player and player:FindFirstChild(\"leaderstats\")\n\tlocal coins = leaderstats and leaderstats:FindFirstChild(STAT_NAME)\n\tif not coins then\n\t\treturn\n\tend\n\n\t-- Give the coins and hide the coin\n\tcollected = true\n\tcoins.Value = coins.Value + COINS\n\tcoin.Transparency = 1\n\n\t-- Bring it back later\n\ttask.wait(RESPAWN_TIME)\n\tcoin.Transparency = startTransparency\n\tcollected = false\nend)\n\n-- Spin around and around (straight up and down, no matter how the coin is turned)\nRunService.Heartbeat:Connect(function(dt)\n\tif SPIN_SPEED ~= 0 then\n\t\tlocal turn = CFrame.Angles(0, math.rad(SPIN_SPEED) * dt, 0)\n\t\tcoin.CFrame = CFrame.new(coin.Position) * turn * (coin.CFrame - coin.Position)\n\tend\nend)\n"
+  },
+  {
+   "id": "cash-over-time",
+   "title": "Coins over time",
+   "language": "Lua",
+   "category": "Pickups and money",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService, together with the Leaderstats with saving script.",
+   "keywords": [
+    "free coins every minute",
+    "money over time",
+    "passive income",
+    "coins for playing",
+    "payday"
+   ],
+   "about": "Gives every player some coins every so often just for being in the game.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these!\nlocal AMOUNT = 10 -- coins given each time\nlocal EVERY = 60 -- seconds between payouts\nlocal STAT_NAME = \"Coins\" -- must match your leaderstats name\n\nwhile true do\n\ttask.wait(EVERY)\n\n\t-- Pay everyone in the server\n\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\tlocal leaderstats = player:FindFirstChild(\"leaderstats\")\n\t\tlocal coins = leaderstats and leaderstats:FindFirstChild(STAT_NAME)\n\t\tif coins then\n\t\t\tcoins.Value = coins.Value + AMOUNT\n\t\tend\n\tend\nend\n"
+  },
+  {
+   "id": "leaderstats-saving",
+   "title": "Leaderstats with saving",
+   "language": "Lua",
+   "category": "Pickups and money",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService, and to test saving in Studio turn on Game Settings > Security > Enable Studio Access to API Services.",
+   "keywords": [
+    "leaderstats",
+    "saving",
+    "save coins",
+    "datastore",
+    "save data",
+    "money that saves",
+    "coins leaderboard"
+   ],
+   "about": "Adds a Coins number to the leaderboard and saves it, so players keep their coins next time they play.",
+   "code": "local Players = game:GetService(\"Players\")\nlocal DataStoreService = game:GetService(\"DataStoreService\")\n\n-- Settings: change these!\nlocal STAT_NAME = \"Coins\" -- the name shown on the leaderboard\nlocal START_AMOUNT = 0 -- coins a brand new player gets\nlocal AUTOSAVE_EVERY = 120 -- seconds between autosaves\n\nlocal store = DataStoreService:GetDataStore(\"PlayerCoins_v1\")\nlocal loaded = {} -- only save players whose coins loaded fine, so we never wipe them\n\nlocal function onPlayerAdded(player)\n\t-- The folder MUST be named \"leaderstats\" (all lowercase)\n\tlocal leaderstats = player:FindFirstChild(\"leaderstats\") or Instance.new(\"Folder\")\n\tleaderstats.Name = \"leaderstats\"\n\tleaderstats.Parent = player\n\tlocal stat = Instance.new(\"IntValue\")\n\tstat.Name = STAT_NAME\n\tstat.Value = START_AMOUNT\n\tstat.Parent = leaderstats\n\n\t-- Load saved coins (pcall stops errors from breaking the script)\n\tlocal ok, saved = pcall(function()\n\t\treturn store:GetAsync(\"Player_\" .. player.UserId)\n\tend)\n\tif ok and player.Parent then\n\t\tif typeof(saved) == \"number\" then\n\t\t\tstat.Value = saved\n\t\tend\n\t\tloaded[player] = true\n\telseif not ok then\n\t\twarn(\"Could not load coins for \" .. player.Name .. \": \" .. tostring(saved))\n\tend\nend\n\nlocal function save(player)\n\tlocal leaderstats = player:FindFirstChild(\"leaderstats\")\n\tlocal stat = leaderstats and leaderstats:FindFirstChild(STAT_NAME)\n\tif not loaded[player] or not stat then return end\n\tlocal ok, err = pcall(function()\n\t\tstore:SetAsync(\"Player_\" .. player.UserId, stat.Value)\n\tend)\n\tif not ok then\n\t\twarn(\"Could not save coins for \" .. player.Name .. \": \" .. tostring(err))\n\tend\nend\n\nPlayers.PlayerAdded:Connect(onPlayerAdded)\nfor _, player in ipairs(Players:GetPlayers()) do\n\ttask.spawn(onPlayerAdded, player)\nend\n\n-- Save when a player leaves\nPlayers.PlayerRemoving:Connect(function(player)\n\tsave(player)\n\tloaded[player] = nil\nend)\n\n-- Save everyone when the server shuts down\ngame:BindToClose(function()\n\tlocal left = 0\n\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\tleft = left + 1\n\t\ttask.spawn(function()\n\t\t\tsave(player)\n\t\t\tleft = left - 1\n\t\tend)\n\tend\n\twhile left > 0 do task.wait() end\nend)\n\n-- Autosave every few minutes, just in case\nwhile true do\n\ttask.wait(AUTOSAVE_EVERY)\n\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\ttask.spawn(save, player)\n\tend\nend\n"
+  },
+  {
+   "id": "shop-server",
+   "title": "Shop (server part)",
+   "language": "Lua",
+   "category": "Pickups and money",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService, add a RemoteEvent named BuyItem to ReplicatedStorage, and put your Tools in a Folder named ShopItems in ServerStorage.",
+   "keywords": [
+    "shop script",
+    "buy items with coins",
+    "sell tools",
+    "store system",
+    "spend coins"
+   ],
+   "about": "Checks a player has enough coins, takes them, and gives the Tool they bought (use it with the Shop button script).",
+   "code": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal ServerStorage = game:GetService(\"ServerStorage\")\n\n-- Settings: item names and prices (each name must match a Tool in ShopItems)\nlocal PRICES = {\n\t[\"Sword\"] = 50,\n\t[\"Speed Coil\"] = 100,\n}\nlocal STAT_NAME = \"Coins\"\nlocal COOLDOWN = 1 -- seconds between buys (stops button spamming)\n\nlocal buyItem = ReplicatedStorage:WaitForChild(\"BuyItem\")\nlocal shopItems = ServerStorage:WaitForChild(\"ShopItems\")\nlocal lastBuy = {}\n\n-- Does the player already own this tool?\nlocal function ownsTool(player, name)\n\tlocal gear = player:FindFirstChild(\"StarterGear\")\n\tlocal backpack = player:FindFirstChildOfClass(\"Backpack\")\n\tlocal character = player.Character\n\treturn (gear and gear:FindFirstChild(name))\n\t\tor (backpack and backpack:FindFirstChild(name))\n\t\tor (character and character:FindFirstChild(name))\nend\n\nbuyItem.OnServerEvent:Connect(function(player, itemName)\n\t-- Never trust the client: the server checks everything!\n\tif typeof(itemName) ~= \"string\" then\n\t\treturn\n\tend\n\tlocal now = os.clock()\n\tif lastBuy[player] and now - lastBuy[player] < COOLDOWN then\n\t\treturn\n\tend\n\tlastBuy[player] = now\n\n\tlocal price = PRICES[itemName]\n\tlocal tool = shopItems:FindFirstChild(itemName)\n\tlocal leaderstats = player:FindFirstChild(\"leaderstats\")\n\tlocal coins = leaderstats and leaderstats:FindFirstChild(STAT_NAME)\n\tif not price or not tool or not coins then\n\t\tbuyItem:FireClient(player, itemName, false, \"Not for sale\")\n\telseif ownsTool(player, itemName) then\n\t\tbuyItem:FireClient(player, itemName, false, \"You have it!\")\n\telseif coins.Value < price then\n\t\tbuyItem:FireClient(player, itemName, false, \"Need \" .. price .. \" coins\")\n\telse\n\t\t-- Take the coins and give the tool (StarterGear keeps it after you respawn)\n\t\tcoins.Value = coins.Value - price\n\t\tlocal backpack = player:FindFirstChildOfClass(\"Backpack\")\n\t\tif backpack then\n\t\t\ttool:Clone().Parent = backpack\n\t\tend\n\t\tlocal gear = player:FindFirstChild(\"StarterGear\")\n\t\tif gear then\n\t\t\ttool:Clone().Parent = gear\n\t\tend\n\t\tbuyItem:FireClient(player, itemName, true, \"Bought!\")\n\tend\nend)\n\nPlayers.PlayerRemoving:Connect(function(player)\n\tlastBuy[player] = nil\nend)\n"
+  },
+  {
+   "id": "double-jump",
+   "title": "Double jump",
+   "language": "Lua",
+   "category": "Players",
+   "kind": "LocalScript",
+   "where": "Put this LocalScript in StarterPlayer > StarterCharacterScripts.",
+   "keywords": [
+    "double jump",
+    "jump twice",
+    "jump in the air",
+    "air jump",
+    "extra jump"
+   ],
+   "about": "Lets players jump a second time while they are in the air (works with the jump button on phones and iPads too).",
+   "code": "local UserInputService = game:GetService(\"UserInputService\")\n\n-- Settings: change these numbers!\nlocal DOUBLE_JUMP_POWER = 50 -- how high the second jump goes\nlocal DELAY = 0.2 -- seconds after leaving the ground before you can jump again\n\nlocal character = script.Parent\nlocal humanoid = character:WaitForChild(\"Humanoid\")\nlocal root = character:WaitForChild(\"HumanoidRootPart\")\n\nlocal leftGroundAt = nil -- when we left the ground\nlocal usedDoubleJump = false\n\n-- Keep track of when we are on the ground or in the air\nhumanoid.StateChanged:Connect(function(_, newState)\n\tif newState == Enum.HumanoidStateType.Landed\n\t\tor newState == Enum.HumanoidStateType.Running\n\t\tor newState == Enum.HumanoidStateType.Climbing\n\t\tor newState == Enum.HumanoidStateType.Swimming then\n\t\tleftGroundAt = nil\n\t\tusedDoubleJump = false\n\telseif newState == Enum.HumanoidStateType.Freefall or newState == Enum.HumanoidStateType.Jumping then\n\t\tif not leftGroundAt then\n\t\t\tleftGroundAt = os.clock()\n\t\tend\n\tend\nend)\n\n-- When the player presses jump in the air, jump again (only once!)\nUserInputService.JumpRequest:Connect(function()\n\tif usedDoubleJump or not leftGroundAt then\n\t\treturn\n\tend\n\tif os.clock() - leftGroundAt < DELAY then\n\t\treturn\n\tend\n\tif humanoid:GetState() ~= Enum.HumanoidStateType.Freefall then\n\t\treturn\n\tend\n\n\tusedDoubleJump = true\n\thumanoid:ChangeState(Enum.HumanoidStateType.Jumping)\n\tlocal velocity = root.AssemblyLinearVelocity\n\troot.AssemblyLinearVelocity = Vector3.new(velocity.X, DOUBLE_JUMP_POWER, velocity.Z)\nend)\n"
+  },
+  {
+   "id": "healing-pad",
+   "title": "Healing pad",
+   "language": "Lua",
+   "category": "Players",
+   "kind": "Script",
+   "where": "Put this Script inside the Part you want to heal players.",
+   "keywords": [
+    "healing pad",
+    "heal part",
+    "health pad",
+    "get health back",
+    "medkit pad"
+   ],
+   "about": "Gives players health back when they touch it, with a wait before it works again.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal HEAL_AMOUNT = 25 -- health given each time\nlocal COOLDOWN = 5 -- seconds before the same player can heal again\n\nlocal pad = script.Parent\nlocal lastHeal = {} -- when each player last healed\n\npad.Touched:Connect(function(hit)\n\tlocal character = hit.Parent\n\tlocal player = Players:GetPlayerFromCharacter(character)\n\tif not player then\n\t\treturn\n\tend\n\n\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\t-- Skip if they're gone, or already at full health\n\tif not humanoid or humanoid.Health <= 0 or humanoid.Health >= humanoid.MaxHealth then\n\t\treturn\n\tend\n\n\t-- Still cooling down? Not yet!\n\tlocal now = os.clock()\n\tif lastHeal[player] and now - lastHeal[player] < COOLDOWN then\n\t\treturn\n\tend\n\tlastHeal[player] = now\n\n\t-- Heal, but never above max health\n\thumanoid.Health = math.min(humanoid.Health + HEAL_AMOUNT, humanoid.MaxHealth)\nend)\n\nPlayers.PlayerRemoving:Connect(function(player)\n\tlastHeal[player] = nil\nend)\n"
+  },
+  {
+   "id": "jump-pad",
+   "title": "Jump pad",
+   "language": "Lua",
+   "category": "Players",
+   "kind": "Script",
+   "where": "Put this Script inside the Part you want to be a jump pad.",
+   "keywords": [
+    "jump pad",
+    "launch pad",
+    "bounce pad",
+    "trampoline",
+    "super jump part",
+    "boost you up"
+   ],
+   "about": "Launches players high into the air when they step on it.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal JUMP_POWER = 100 -- how fast you shoot up (bigger = higher)\nlocal COOLDOWN = 0.5 -- seconds before the same player can bounce again\n\nlocal pad = script.Parent\nlocal recent = {} -- players who just bounced\n\npad.Touched:Connect(function(hit)\n\tlocal character = hit.Parent\n\tlocal player = Players:GetPlayerFromCharacter(character)\n\tif not player or recent[player] then\n\t\treturn\n\tend\n\n\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\tlocal root = character:FindFirstChild(\"HumanoidRootPart\")\n\tif not humanoid or not root or humanoid.Health <= 0 then\n\t\treturn\n\tend\n\n\trecent[player] = true\n\t-- Keep sideways speed, but shoot straight up!\n\tlocal velocity = root.AssemblyLinearVelocity\n\troot.AssemblyLinearVelocity = Vector3.new(velocity.X, JUMP_POWER, velocity.Z)\n\n\ttask.delay(COOLDOWN, function()\n\t\trecent[player] = nil\n\tend)\nend)\n"
+  },
+  {
+   "id": "speed-pad",
+   "title": "Speed pad",
+   "language": "Lua",
+   "category": "Players",
+   "kind": "Script",
+   "where": "Put this Script inside the Part you want to be a speed pad.",
+   "keywords": [
+    "speed pad",
+    "speed boost",
+    "run faster part",
+    "boost pad",
+    "go fast pad"
+   ],
+   "about": "Makes players super fast for a few seconds, then back to normal speed.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal BOOST_SPEED = 50 -- speed while boosted\nlocal NORMAL_SPEED = 16 -- normal Roblox speed is 16\nlocal BOOST_TIME = 3 -- seconds the boost lasts\n\nlocal pad = script.Parent\nlocal boosted = {} -- players who are boosted right now\n\npad.Touched:Connect(function(hit)\n\tlocal character = hit.Parent\n\tlocal player = Players:GetPlayerFromCharacter(character)\n\tif not player or boosted[player] then\n\t\treturn\n\tend\n\n\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\tif not humanoid or humanoid.Health <= 0 then\n\t\treturn\n\tend\n\n\t-- Zoom!\n\tboosted[player] = true\n\thumanoid.WalkSpeed = BOOST_SPEED\n\n\t-- After a few seconds, go back to normal\n\ttask.delay(BOOST_TIME, function()\n\t\tif humanoid.Parent then\n\t\t\thumanoid.WalkSpeed = NORMAL_SPEED\n\t\tend\n\t\tboosted[player] = nil\n\tend)\nend)\n"
+  },
+  {
+   "id": "sprint",
+   "title": "Sprint button",
+   "language": "Lua",
+   "category": "Players",
+   "kind": "LocalScript",
+   "where": "Put this LocalScript in StarterPlayer > StarterCharacterScripts.",
+   "keywords": [
+    "sprint",
+    "run button",
+    "hold shift to run",
+    "sprint key",
+    "sprint button on mobile"
+   ],
+   "about": "Hold Shift (or the Run button on phones and iPads) to run faster.",
+   "code": "local ContextActionService = game:GetService(\"ContextActionService\")\n\n-- Settings: change these numbers!\nlocal SPRINT_SPEED = 28 -- speed while sprinting\nlocal WALK_SPEED = 16 -- normal speed\n\nlocal character = script.Parent\nlocal humanoid = character:WaitForChild(\"Humanoid\")\n\n-- Runs when the sprint key or button is pressed or let go\nlocal function onSprint(_, inputState)\n\tif inputState == Enum.UserInputState.Begin then\n\t\thumanoid.WalkSpeed = SPRINT_SPEED\n\telseif inputState == Enum.UserInputState.End or inputState == Enum.UserInputState.Cancel then\n\t\thumanoid.WalkSpeed = WALK_SPEED\n\tend\n\treturn Enum.ContextActionResult.Pass\nend\n\n-- true = also make a button on touch screens\nContextActionService:BindAction(\"Sprint\", onSprint, true, Enum.KeyCode.LeftShift, Enum.KeyCode.ButtonL3)\nContextActionService:SetTitle(\"Sprint\", \"Run\")\n\n-- Remove the button when you die (a new one comes when you respawn)\nhumanoid.Died:Connect(function()\n\tContextActionService:UnbindAction(\"Sprint\")\nend)\n"
+  },
+  {
+   "id": "teleporter",
+   "title": "Teleporter pair",
+   "language": "Lua",
+   "category": "Players",
+   "kind": "Script",
+   "where": "Put this Script inside a Model or Folder in Workspace that holds two parts named TeleportA and TeleportB.",
+   "keywords": [
+    "teleporter",
+    "teleport pad",
+    "portal",
+    "teleport to another part",
+    "warp pad"
+   ],
+   "about": "Touching one pad sends you to the other pad, and back again.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change this number!\nlocal COOLDOWN = 2 -- seconds before you can teleport again (stops bouncing back and forth)\n\nlocal holder = script.Parent\nlocal padA = holder:WaitForChild(\"TeleportA\")\nlocal padB = holder:WaitForChild(\"TeleportB\")\nlocal recent = {} -- players who just teleported\n\n-- Touching fromPad sends you on top of toPad\nlocal function linkPads(fromPad, toPad)\n\tfromPad.Touched:Connect(function(hit)\n\t\tlocal character = hit.Parent\n\t\tlocal player = Players:GetPlayerFromCharacter(character)\n\t\tif not player or recent[player] then\n\t\t\treturn\n\t\tend\n\t\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\t\tif not humanoid or humanoid.Health <= 0 then\n\t\t\treturn\n\t\tend\n\n\t\trecent[player] = true\n\t\t-- Land a little above the other pad\n\t\tlocal above = toPad.Position + Vector3.new(0, toPad.Size.Y / 2 + 3, 0)\n\t\tcharacter:PivotTo(CFrame.new(above))\n\n\t\ttask.delay(COOLDOWN, function()\n\t\t\trecent[player] = nil\n\t\tend)\n\tend)\nend\n\nlinkPads(padA, padB)\nlinkPads(padB, padA)\n"
+  },
+  {
+   "id": "sword",
+   "title": "Basic sword",
+   "language": "Lua",
+   "category": "Tools and combat",
+   "kind": "Script",
+   "where": "Put this Script inside a Tool that has a part named Handle, then put the Tool in StarterPack.",
+   "keywords": [
+    "sword",
+    "sword script",
+    "slash and damage",
+    "melee weapon",
+    "sword that hurts players"
+   ],
+   "about": "Click or tap to swing the sword and hurt other players and NPCs it hits (never yourself).",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change these numbers!\nlocal DAMAGE = 25 -- health taken per hit\nlocal SWING_TIME = 0.4 -- seconds a swing can hit things\nlocal COOLDOWN = 0.8 -- seconds between swings\nlocal TEAM_DAMAGE = false -- true = you can hurt your own team\n\nlocal tool = script.Parent\nlocal handle = tool:WaitForChild(\"Handle\")\nlocal swinging = false\nlocal canSwing = true\nlocal hitThisSwing = {} -- each enemy can only be hit once per swing\n\ntool.Activated:Connect(function()\n\tif not canSwing then\n\t\treturn\n\tend\n\tcanSwing = false\n\tswinging = true\n\thitThisSwing = {}\n\n\t-- Play Roblox's built-in sword slash animation\n\tlocal anim = Instance.new(\"StringValue\")\n\tanim.Name = \"toolanim\"\n\tanim.Value = \"Slash\"\n\tanim.Parent = tool\n\n\ttask.wait(SWING_TIME)\n\tswinging = false\n\ttask.wait(math.max(COOLDOWN - SWING_TIME, 0))\n\tcanSwing = true\nend)\n\nhandle.Touched:Connect(function(hit)\n\tif not swinging then\n\t\treturn\n\tend\n\tlocal owner = tool.Parent -- the character holding the sword\n\tlocal character = hit.Parent\n\tif not character or character == owner then\n\t\treturn -- no hitting yourself!\n\tend\n\tlocal humanoid = character:FindFirstChildOfClass(\"Humanoid\")\n\tif not humanoid or humanoid.Health <= 0 or hitThisSwing[humanoid] then\n\t\treturn\n\tend\n\n\t-- Skip teammates (only if your game has teams)\n\tlocal ownerPlayer = Players:GetPlayerFromCharacter(owner)\n\tlocal victimPlayer = Players:GetPlayerFromCharacter(character)\n\tif not TEAM_DAMAGE and ownerPlayer and victimPlayer and victimPlayer.Team ~= nil\n\t\tand victimPlayer.Team == ownerPlayer.Team then\n\t\treturn\n\tend\n\n\thitThisSwing[humanoid] = true\n\thumanoid:TakeDamage(DAMAGE)\nend)\n"
+  },
+  {
+   "id": "click-give-tool",
+   "title": "Click to get a tool",
+   "language": "Lua",
+   "category": "Tools and combat",
+   "kind": "Script",
+   "where": "Put this Script inside a Part, and put the Tool you want to give in ServerStorage (set TOOL_NAME to its exact name).",
+   "keywords": [
+    "give tool",
+    "click to get item",
+    "tool giver",
+    "free item part",
+    "get a sword by clicking"
+   ],
+   "about": "Clicking or tapping the part puts a copy of the tool in the player's backpack.",
+   "code": "local ServerStorage = game:GetService(\"ServerStorage\")\n\n-- Settings: change these!\nlocal TOOL_NAME = \"Sword\" -- the exact name of the Tool in ServerStorage\nlocal CLICK_DISTANCE = 20 -- how close you must be to click it\n\nlocal part = script.Parent\n\n-- Add a ClickDetector so the part can be clicked or tapped\nlocal clickDetector = part:FindFirstChildOfClass(\"ClickDetector\") or Instance.new(\"ClickDetector\")\nclickDetector.MaxActivationDistance = CLICK_DISTANCE\nclickDetector.Parent = part\n\nclickDetector.MouseClick:Connect(function(player)\n\tlocal tool = ServerStorage:FindFirstChild(TOOL_NAME)\n\tif not tool then\n\t\twarn(\"Put a Tool named \" .. TOOL_NAME .. \" in ServerStorage!\")\n\t\treturn\n\tend\n\n\tlocal backpack = player:FindFirstChildOfClass(\"Backpack\")\n\tlocal character = player.Character\n\tif not backpack then\n\t\treturn\n\tend\n\n\t-- Only one each, no stacking up copies\n\tif backpack:FindFirstChild(TOOL_NAME) or (character and character:FindFirstChild(TOOL_NAME)) then\n\t\treturn\n\tend\n\n\ttool:Clone().Parent = backpack\nend)\n"
+  },
+  {
+   "id": "day-night-cycle",
+   "title": "Day and night cycle",
+   "language": "Lua",
+   "category": "World and effects",
+   "kind": "Script",
+   "where": "Put this Script in ServerScriptService.",
+   "keywords": [
+    "day night cycle",
+    "day and night",
+    "sun goes down",
+    "time of day",
+    "make it night"
+   ],
+   "about": "Makes the sun move across the sky so day turns into night and back again.",
+   "code": "local Lighting = game:GetService(\"Lighting\")\n\n-- Settings: change these numbers!\nlocal DAY_LENGTH = 10 -- minutes for one full day and night\nlocal START_TIME = 8 -- the hour the game starts at (0 = midnight, 12 = noon)\nlocal UPDATE_EVERY = 0.1 -- seconds between updates\n\nLighting.ClockTime = START_TIME\n\n-- How many in-game hours pass each real second\nlocal hoursPerSecond = 24 / (DAY_LENGTH * 60)\n\nwhile true do\n\tlocal dt = task.wait(UPDATE_EVERY)\n\t-- Move the clock forward (% 24 makes it go back to 0 after midnight)\n\tLighting.ClockTime = (Lighting.ClockTime + hoursPerSecond * dt) % 24\nend\n"
+  },
+  {
+   "id": "follow-npc",
+   "title": "NPC that follows players",
+   "language": "Lua",
+   "category": "World and effects",
+   "kind": "Script",
+   "where": "Put this Script inside an NPC Model that has a Humanoid and a HumanoidRootPart (for example a Rig made with the Rig Builder in the Avatar tab).",
+   "keywords": [
+    "npc follow",
+    "npc that chases you",
+    "zombie chase",
+    "follower npc",
+    "enemy that follows the player"
+   ],
+   "about": "The NPC walks after the nearest player, and can hurt them if you turn on TOUCH_DAMAGE.",
+   "code": "local Players = game:GetService(\"Players\")\nlocal PathfindingService = game:GetService(\"PathfindingService\")\n\n-- Settings: change these!\nlocal CHASE_DISTANCE = 100 -- players closer than this get followed\nlocal STOP_DISTANCE = 5 -- stop walking this close to the player\nlocal USE_PATHFINDING = false -- true = walks around walls\nlocal TOUCH_DAMAGE = 0 -- set to 10 to make it a zombie that hurts\n\nlocal npc = script.Parent\nlocal humanoid = npc:WaitForChild(\"Humanoid\")\nlocal root = npc:WaitForChild(\"HumanoidRootPart\")\n-- Unanchor the NPC so it can walk, and let the server move it smoothly\nfor _, part in ipairs(npc:GetDescendants()) do\n\tif part:IsA(\"BasePart\") then\n\t\tpart.Anchored = false\n\tend\nend\npcall(function() root:SetNetworkOwner(nil) end)\n\n-- Find the closest living player\nlocal function findNearest()\n\tlocal nearest, nearestDistance = nil, CHASE_DISTANCE\n\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\tlocal character = player.Character\n\t\tlocal theirRoot = character and character:FindFirstChild(\"HumanoidRootPart\")\n\t\tlocal theirHumanoid = character and character:FindFirstChildOfClass(\"Humanoid\")\n\t\tif theirRoot and theirHumanoid and theirHumanoid.Health > 0 then\n\t\t\tlocal distance = (theirRoot.Position - root.Position).Magnitude\n\t\t\tif distance < nearestDistance then\n\t\t\t\tnearest, nearestDistance = theirRoot, distance\n\t\t\tend\n\t\tend\n\tend\n\treturn nearest, nearestDistance\nend\n\n-- Walk toward a spot (around walls if pathfinding is on)\nlocal function walkTo(position)\n\tif USE_PATHFINDING then\n\t\tlocal path = PathfindingService:CreatePath()\n\t\tlocal ok = pcall(function()\n\t\t\tpath:ComputeAsync(root.Position, position)\n\t\tend)\n\t\tlocal waypoints = ok and path.Status == Enum.PathStatus.Success and path:GetWaypoints()\n\t\tlocal nextPoint = waypoints and (waypoints[2] or waypoints[1])\n\t\tif nextPoint then\n\t\t\tif nextPoint.Action == Enum.PathWaypointAction.Jump then\n\t\t\t\thumanoid.Jump = true\n\t\t\tend\n\t\t\thumanoid:MoveTo(nextPoint.Position)\n\t\t\treturn\n\t\tend\n\tend\n\thumanoid:MoveTo(position)\nend\n\n-- Hurt players it touches (only if TOUCH_DAMAGE is more than 0)\nlocal lastHit = {}\nhumanoid.Touched:Connect(function(hit)\n\tlocal player = Players:GetPlayerFromCharacter(hit.Parent)\n\tlocal theirHumanoid = player and hit.Parent:FindFirstChildOfClass(\"Humanoid\")\n\tlocal now = os.clock()\n\t-- Only hurt the same player once per second\n\tif TOUCH_DAMAGE > 0 and theirHumanoid and now - (lastHit[player] or 0) >= 1 then\n\t\tlastHit[player] = now\n\t\ttheirHumanoid:TakeDamage(TOUCH_DAMAGE)\n\tend\nend)\n\n-- Keep chasing while the NPC is alive\nwhile humanoid.Health > 0 do\n\tlocal target, distance = findNearest()\n\tif target and distance > STOP_DISTANCE then\n\t\twalkTo(target.Position)\n\tend\n\ttask.wait(0.25)\nend\n"
+  },
+  {
+   "id": "rainbow-part",
+   "title": "Rainbow part",
+   "language": "Lua",
+   "category": "World and effects",
+   "kind": "Script",
+   "where": "Put this Script inside a Part (or inside a Model to make every part in it rainbow).",
+   "keywords": [
+    "rainbow part",
+    "color changing part",
+    "rainbow colors",
+    "disco floor",
+    "part that changes color"
+   ],
+   "about": "Smoothly changes the color through the whole rainbow, over and over.",
+   "code": "-- Settings: change these numbers!\nlocal SPEED = 0.2 -- how fast the colors change (1 = whole rainbow every second)\nlocal SATURATION = 1 -- 0 = grey, 1 = super colorful\nlocal BRIGHTNESS = 1 -- 0 = black, 1 = bright\n\nlocal target = script.Parent\nlocal hue = 0\n\n-- Color the part, or every part inside the model\nlocal function paint(color)\n\tif target:IsA(\"BasePart\") then\n\t\ttarget.Color = color\n\tend\n\tfor _, item in ipairs(target:GetDescendants()) do\n\t\tif item:IsA(\"BasePart\") then\n\t\t\titem.Color = color\n\t\tend\n\tend\nend\n\nwhile true do\n\tlocal dt = task.wait(0.05)\n\thue = (hue + SPEED * dt) % 1\n\tpaint(Color3.fromHSV(hue, SATURATION, BRIGHTNESS))\nend\n"
+  },
+  {
+   "id": "sound-on-touch",
+   "title": "Sound on touch",
+   "language": "Lua",
+   "category": "World and effects",
+   "kind": "Script",
+   "where": "Put this Script inside a Part, and put a Sound inside the same Part (pick one from the Toolbox or paste a sound ID into its SoundId).",
+   "keywords": [
+    "sound on touch",
+    "play a sound when touched",
+    "noise when you step on it",
+    "touch sound",
+    "sound effect part"
+   ],
+   "about": "Plays the part's sound when a player touches it.",
+   "code": "local Players = game:GetService(\"Players\")\n\n-- Settings: change this number!\nlocal COOLDOWN = 1 -- seconds before the same player can play it again\n\nlocal part = script.Parent\nlocal sound = part:FindFirstChildOfClass(\"Sound\")\nlocal lastPlayed = {}\n\nif not sound then\n\twarn(\"Put a Sound inside \" .. part.Name .. \" so it has something to play!\")\n\treturn\nend\n\npart.Touched:Connect(function(hit)\n\tlocal player = Players:GetPlayerFromCharacter(hit.Parent)\n\tif not player then\n\t\treturn\n\tend\n\n\t-- Wait a bit between plays so it doesn't spam\n\tlocal now = os.clock()\n\tif lastPlayed[player] and now - lastPlayed[player] < COOLDOWN then\n\t\treturn\n\tend\n\tlastPlayed[player] = now\n\n\tsound:Play()\nend)\n\nPlayers.PlayerRemoving:Connect(function(player)\n\tlastPlayed[player] = nil\nend)\n"
+  },
+  {
+   "id": "arduino-blink",
+   "title": "Blink an LED",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new sketch in the Arduino IDE and upload it to your board. Uses the built-in LED, so no wiring needed.",
+   "keywords": [
+    "arduino blink",
+    "blink led arduino",
+    "flash the arduino light",
+    "arduino led on and off"
+   ],
+   "about": "Turns the board's LED on and off every second.",
+   "code": "// How long the LED stays on (and off), in milliseconds.\nconst unsigned long BLINK_TIME = 1000;\n\nvoid setup() {\n  // Tell the board this pin is an output (it sends power out).\n  pinMode(LED_BUILTIN, OUTPUT);\n}\n\nvoid loop() {\n  digitalWrite(LED_BUILTIN, HIGH);  // LED on\n  delay(BLINK_TIME);                // wait 1 second\n  digitalWrite(LED_BUILTIN, LOW);   // LED off\n  delay(BLINK_TIME);                // wait 1 second\n}\n"
+  },
+  {
+   "id": "arduino-button-led",
+   "title": "Button Turns On an LED",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch and upload it; wire one leg of a push button to pin 2 and the other leg to GND, and use the built-in LED.",
+   "keywords": [
+    "arduino button",
+    "arduino push button led",
+    "button turns on light arduino",
+    "arduino debounce",
+    "arduino input pullup"
+   ],
+   "about": "Each press of the button flips the LED on or off, with debounce so one press counts once.",
+   "code": "const int BUTTON_PIN = 2;\nconst int LED_PIN = LED_BUILTIN;\nconst unsigned long DEBOUNCE_MS = 50;  // ignore wobbles shorter than this\n\nbool ledOn = false;\nint lastReading = HIGH;          // what the pin said last time\nint stableState = HIGH;          // the \"real\" button state after debounce\nunsigned long lastChangeTime = 0;\n\nvoid setup() {\n  // INPUT_PULLUP keeps the pin HIGH until the button connects it to GND.\n  pinMode(BUTTON_PIN, INPUT_PULLUP);\n  pinMode(LED_PIN, OUTPUT);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int reading = digitalRead(BUTTON_PIN);\n\n  // The reading changed, so restart the debounce timer.\n  if (reading != lastReading) {\n    lastChangeTime = millis();\n  }\n\n  // It stayed the same long enough, so trust it.\n  if (millis() - lastChangeTime > DEBOUNCE_MS && reading != stableState) {\n    stableState = reading;\n\n    // LOW means pressed (the pin is pulled to GND).\n    if (stableState == LOW) {\n      ledOn = !ledOn;\n      digitalWrite(LED_PIN, ledOn ? HIGH : LOW);\n      Serial.println(ledOn ? \"LED ON\" : \"LED OFF\");\n    }\n  }\n\n  lastReading = reading;\n}\n"
+  },
+  {
+   "id": "arduino-buzzer-melody",
+   "title": "Buzzer Melody",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch and upload it; wire the buzzer's + leg to pin 8 and the - leg to GND.",
+   "keywords": [
+    "arduino buzzer",
+    "arduino melody",
+    "play a song on arduino",
+    "arduino tone music",
+    "arduino piezo"
+   ],
+   "about": "Plays \"Twinkle Twinkle Little Star\" on a buzzer, then waits and plays it again.",
+   "code": "const int BUZZER_PIN = 8;\n\n// Note pitches in Hz (0 means a rest).\nconst int NOTE_C = 262, NOTE_D = 294, NOTE_E = 330, NOTE_F = 349, NOTE_G = 392, NOTE_A = 440;\n\nconst int melody[] = {\n  NOTE_C, NOTE_C, NOTE_G, NOTE_G, NOTE_A, NOTE_A, NOTE_G, 0,\n  NOTE_F, NOTE_F, NOTE_E, NOTE_E, NOTE_D, NOTE_D, NOTE_C, 0\n};\n\n// How long each note lasts: 4 = quarter note, 2 = half note.\nconst int beats[] = {\n  4, 4, 4, 4, 4, 4, 2, 4,\n  4, 4, 4, 4, 4, 4, 2, 4\n};\n\nconst int NOTE_COUNT = sizeof(melody) / sizeof(melody[0]);\nconst int WHOLE_NOTE_MS = 1600;  // smaller = faster song\n\nvoid setup() {\n  pinMode(BUZZER_PIN, OUTPUT);\n}\n\nvoid loop() {\n  for (int i = 0; i < NOTE_COUNT; i++) {\n    int noteLength = WHOLE_NOTE_MS / beats[i];\n\n    if (melody[i] > 0) {\n      tone(BUZZER_PIN, melody[i], noteLength);\n    }\n\n    // Wait a little longer than the note so notes don't blur together.\n    delay(noteLength * 13 / 10);\n    noTone(BUZZER_PIN);\n  }\n\n  delay(2000);  // pause before playing again\n}\n"
+  },
+  {
+   "id": "arduino-l298n-motor",
+   "title": "DC Motor with L298N",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch and upload it; wire L298N ENA to pin 9, IN1 to pin 8, IN2 to pin 7, the motor to OUT1 and OUT2, a battery pack to 12V and GND, and the L298N GND to the Arduino GND.",
+   "keywords": [
+    "arduino dc motor",
+    "arduino l298n",
+    "motor driver arduino",
+    "arduino motor speed control",
+    "spin a motor with arduino"
+   ],
+   "about": "Spins a DC motor forward, then backward, speeding up and slowing down with analogWrite.",
+   "code": "// Tip: pull the little jumper off the L298N's ENA pins so the Arduino can set the speed.\nconst int ENA_PIN = 9;  // speed pin (must be a ~PWM pin)\nconst int IN1_PIN = 8;  // direction pin 1\nconst int IN2_PIN = 7;  // direction pin 2\n\nvoid setup() {\n  pinMode(ENA_PIN, OUTPUT);\n  pinMode(IN1_PIN, OUTPUT);\n  pinMode(IN2_PIN, OUTPUT);\n  Serial.begin(9600);\n}\n\n// Set the direction: true = forward, false = backward.\nvoid setDirection(bool forward) {\n  digitalWrite(IN1_PIN, forward ? HIGH : LOW);\n  digitalWrite(IN2_PIN, forward ? LOW : HIGH);\n}\n\n// Stop the motor.\nvoid stopMotor() {\n  digitalWrite(IN1_PIN, LOW);\n  digitalWrite(IN2_PIN, LOW);\n  analogWrite(ENA_PIN, 0);\n}\n\n// Speed up from slow to full, then slow back down.\nvoid rampSpeed() {\n  for (int speed = 80; speed <= 255; speed += 5) {\n    analogWrite(ENA_PIN, speed);\n    delay(30);\n  }\n  for (int speed = 255; speed >= 80; speed -= 5) {\n    analogWrite(ENA_PIN, speed);\n    delay(30);\n  }\n}\n\nvoid loop() {\n  Serial.println(\"Forward\");\n  setDirection(true);\n  rampSpeed();\n\n  stopMotor();\n  delay(1000);\n\n  Serial.println(\"Backward\");\n  setDirection(false);\n  rampSpeed();\n\n  stopMotor();\n  delay(1000);\n}\n"
+  },
+  {
+   "id": "arduino-neopixel-rainbow",
+   "title": "NeoPixel Rainbow",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Install \"Adafruit NeoPixel\" from the Arduino IDE Library Manager, paste this into a new sketch and upload it; wire the strip's DIN to pin 6, 5V to 5V and GND to GND.",
+   "keywords": [
+    "arduino neopixel",
+    "arduino rainbow led strip",
+    "arduino rgb strip",
+    "ws2812b arduino",
+    "arduino addressable leds"
+   ],
+   "about": "Makes a NeoPixel LED strip show a smooth rainbow that slides along.",
+   "code": "#include <Adafruit_NeoPixel.h>\n\nconst int LED_PIN = 6;\nconst int LED_COUNT = 30;   // change to how many LEDs your strip has\nconst int BRIGHTNESS = 50;  // 0 to 255 (keep it low so USB power is enough)\n\nAdafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);\n\n// Where the rainbow starts. It moves a bit each frame.\nuint16_t firstHue = 0;\n\nvoid setup() {\n  strip.begin();\n  strip.setBrightness(BRIGHTNESS);\n  strip.show();  // start with all LEDs off\n}\n\nvoid loop() {\n  for (uint16_t i = 0; i < strip.numPixels(); i++) {\n    // Spread one full rainbow (65536 hues) across the strip.\n    uint16_t hue = firstHue + (uint32_t)i * 65536UL / strip.numPixels();\n    uint32_t color = strip.gamma32(strip.ColorHSV(hue));\n    strip.setPixelColor(i, color);\n  }\n  strip.show();\n\n  firstHue += 256;  // slide the rainbow along\n  delay(20);\n}\n"
+  },
+  {
+   "id": "arduino-night-light",
+   "title": "Night Light with a Light Sensor",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch and upload it; wire a photoresistor from 5V to A0, a 10k resistor from A0 to GND, and an LED (long leg) through a 220 ohm resistor to pin 9 with the short leg to GND.",
+   "keywords": [
+    "arduino night light",
+    "arduino photoresistor",
+    "arduino light sensor",
+    "arduino ldr"
+   ],
+   "about": "Makes an LED glow brighter as the room gets darker, like a night light.",
+   "code": "const int SENSOR_PIN = A0;\nconst int LED_PIN = 9;  // a ~PWM pin so we can dim it\n\n// Change these after watching the Serial Monitor in your room.\nconst int DARK_READING = 200;    // reading when it's dark\nconst int BRIGHT_READING = 800;  // reading when it's bright\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int light = analogRead(SENSOR_PIN);  // 0 (dark) to 1023 (bright)\n\n  // Dark room -> bright LED. Bright room -> LED off.\n  int brightness = map(light, DARK_READING, BRIGHT_READING, 255, 0);\n  brightness = constrain(brightness, 0, 255);\n  analogWrite(LED_PIN, brightness);\n\n  Serial.print(\"Light: \");\n  Serial.print(light);\n  Serial.print(\"  LED: \");\n  Serial.println(brightness);\n\n  delay(100);\n}\n"
+  },
+  {
+   "id": "arduino-joystick",
+   "title": "Read a Joystick",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch, upload it and open Tools > Serial Monitor at 9600 baud; wire the joystick VRx to A0, VRy to A1, SW to pin 2, +5V to 5V and GND to GND.",
+   "keywords": [
+    "arduino joystick",
+    "arduino thumbstick",
+    "read joystick arduino",
+    "arduino analog stick"
+   ],
+   "about": "Reads a joystick's X and Y and its press button, then prints them and which way it is pushed.",
+   "code": "const int X_PIN = A0;\nconst int Y_PIN = A1;\nconst int BUTTON_PIN = 2;\nconst int DEAD_ZONE = 150;  // how far from the middle before it counts\n\nvoid setup() {\n  pinMode(BUTTON_PIN, INPUT_PULLUP);  // pressed = LOW\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int x = analogRead(X_PIN);  // 0 to 1023, about 512 in the middle\n  int y = analogRead(Y_PIN);\n  bool pressed = digitalRead(BUTTON_PIN) == LOW;\n\n  // Work out the direction.\n  const char *direction = \"center\";\n  if (x < 512 - DEAD_ZONE) direction = \"left\";\n  else if (x > 512 + DEAD_ZONE) direction = \"right\";\n  else if (y < 512 - DEAD_ZONE) direction = \"up\";\n  else if (y > 512 + DEAD_ZONE) direction = \"down\";\n\n  Serial.print(\"X: \");\n  Serial.print(x);\n  Serial.print(\"  Y: \");\n  Serial.print(y);\n  Serial.print(\"  Button: \");\n  Serial.print(pressed ? \"PRESSED\" : \"-\");\n  Serial.print(\"  Direction: \");\n  Serial.println(direction);\n\n  delay(100);\n}\n"
+  },
+  {
+   "id": "arduino-servo-sweep",
+   "title": "Servo Sweep",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch and upload it; wire the servo's signal (orange or yellow) to pin 9, red to 5V, and brown or black to GND.",
+   "keywords": [
+    "arduino servo",
+    "arduino servo sweep",
+    "move a servo with arduino",
+    "servo motor arduino code"
+   ],
+   "about": "Swings a servo motor slowly from 0 to 180 degrees and back, over and over.",
+   "code": "#include <Servo.h>\n\nconst int SERVO_PIN = 9;\nconst int STEP_DELAY = 15;  // smaller = faster sweep\n\nServo myServo;\n\nvoid setup() {\n  myServo.attach(SERVO_PIN);\n}\n\nvoid loop() {\n  // Go from 0 up to 180 degrees.\n  for (int angle = 0; angle <= 180; angle++) {\n    myServo.write(angle);\n    delay(STEP_DELAY);\n  }\n  // Come back down from 180 to 0.\n  for (int angle = 180; angle >= 0; angle--) {\n    myServo.write(angle);\n    delay(STEP_DELAY);\n  }\n}\n"
+  },
+  {
+   "id": "arduino-traffic-light",
+   "title": "Traffic Light",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch and upload it; wire a red LED to pin 12, yellow to pin 11 and green to pin 10, each through a 220 ohm resistor, with every short leg going to GND.",
+   "keywords": [
+    "arduino traffic light",
+    "arduino red yellow green leds",
+    "arduino stop light",
+    "three leds arduino"
+   ],
+   "about": "Runs three LEDs like a real traffic light: green, yellow, then red.",
+   "code": "const int RED_PIN = 12;\nconst int YELLOW_PIN = 11;\nconst int GREEN_PIN = 10;\n\n// Turn on just one light and turn the others off.\nvoid showLight(int pinToTurnOn) {\n  digitalWrite(RED_PIN, pinToTurnOn == RED_PIN ? HIGH : LOW);\n  digitalWrite(YELLOW_PIN, pinToTurnOn == YELLOW_PIN ? HIGH : LOW);\n  digitalWrite(GREEN_PIN, pinToTurnOn == GREEN_PIN ? HIGH : LOW);\n}\n\nvoid setup() {\n  pinMode(RED_PIN, OUTPUT);\n  pinMode(YELLOW_PIN, OUTPUT);\n  pinMode(GREEN_PIN, OUTPUT);\n}\n\nvoid loop() {\n  showLight(GREEN_PIN);\n  delay(5000);  // go for 5 seconds\n\n  showLight(YELLOW_PIN);\n  delay(2000);  // slow down for 2 seconds\n\n  showLight(RED_PIN);\n  delay(5000);  // stop for 5 seconds\n}\n"
+  },
+  {
+   "id": "arduino-ultrasonic-distance",
+   "title": "Ultrasonic Distance Sensor",
+   "language": "C++",
+   "category": "Arduino",
+   "kind": "Arduino sketch",
+   "where": "Paste this into a new Arduino IDE sketch, upload it and open Tools > Serial Monitor at 9600 baud; wire the HC-SR04 VCC to 5V, GND to GND, Trig to pin 9 and Echo to pin 10.",
+   "keywords": [
+    "arduino ultrasonic sensor",
+    "arduino hc-sr04",
+    "arduino distance sensor",
+    "measure distance with arduino"
+   ],
+   "about": "Measures how far away something is with an HC-SR04 sensor and prints it in centimeters.",
+   "code": "const int TRIG_PIN = 9;\nconst int ECHO_PIN = 10;\n\nvoid setup() {\n  pinMode(TRIG_PIN, OUTPUT);\n  pinMode(ECHO_PIN, INPUT);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // Send a tiny 10 microsecond \"ping\".\n  digitalWrite(TRIG_PIN, LOW);\n  delayMicroseconds(2);\n  digitalWrite(TRIG_PIN, HIGH);\n  delayMicroseconds(10);\n  digitalWrite(TRIG_PIN, LOW);\n\n  // Time how long the echo takes to come back (give up after 30 ms).\n  unsigned long duration = pulseIn(ECHO_PIN, HIGH, 30000UL);\n\n  if (duration == 0) {\n    Serial.println(\"Nothing in range\");\n  } else {\n    // Sound goes about 0.0343 cm per microsecond, there and back, so divide by 2.\n    float distanceCm = duration * 0.0343 / 2.0;\n    Serial.print(\"Distance: \");\n    Serial.print(distanceCm, 1);\n    Serial.println(\" cm\");\n  }\n\n  delay(200);\n}\n"
+  },
+  {
+   "id": "cpp-pet-class",
+   "title": "Classes and Objects: a Pet",
+   "language": "C++",
+   "category": "Basics",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o pets && ./pets",
+   "keywords": [
+    "c++ classes and objects",
+    "c++ class example",
+    "c++ pet class",
+    "learn c++ classes",
+    "c++ object oriented"
+   ],
+   "about": "Makes a Pet class with a name, hunger and happiness, then creates two pets and plays with them.",
+   "code": "#include <iostream>\n#include <string>\n\n// A class is a blueprint. Each Pet we make from it is an \"object\".\nclass Pet {\npublic:\n  // The constructor runs when a new Pet is made.\n  Pet(const std::string &name, const std::string &species)\n      : name_(name), species_(species) {}\n\n  void feed() {\n    hunger_ = clamp(hunger_ - 30);\n    std::cout << name_ << \" munches some food. Yum!\\n\";\n  }\n\n  void play() {\n    happiness_ = clamp(happiness_ + 20);\n    hunger_ = clamp(hunger_ + 10);  // playing makes you hungry\n    std::cout << name_ << \" plays fetch!\\n\";\n  }\n\n  void showStatus() const {\n    std::cout << name_ << \" the \" << species_ << \" - hunger: \" << hunger_\n              << \"/100, happiness: \" << happiness_ << \"/100\";\n    if (hunger_ > 70) std::cout << \" (very hungry!)\";\n    std::cout << \"\\n\";\n  }\n\n  const std::string &getName() const { return name_; }\n\nprivate:\n  // Private data: only the Pet's own functions can change it.\n  std::string name_;\n  std::string species_;\n  int hunger_ = 50;\n  int happiness_ = 50;\n\n  // Keep a value between 0 and 100.\n  static int clamp(int value) {\n    if (value < 0) return 0;\n    if (value > 100) return 100;\n    return value;\n  }\n};\n\nint main() {\n  // Two different objects made from the same class.\n  Pet dog(\"Biscuit\", \"dog\");\n  Pet cat(\"Pixel\", \"cat\");\n\n  dog.showStatus();\n  cat.showStatus();\n  std::cout << \"\\n\";\n\n  dog.play();\n  dog.play();\n  cat.feed();\n  std::cout << \"\\n\";\n\n  dog.showStatus();\n  cat.showStatus();\n\n  std::cout << \"\\nRemember to feed \" << dog.getName() << \" soon!\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-countdown-timer",
+   "title": "Countdown Timer",
+   "language": "C++",
+   "category": "Basics",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o timer && ./timer",
+   "keywords": [
+    "c++ countdown timer",
+    "c++ chrono timer",
+    "c++ sleep for seconds",
+    "c++ this_thread sleep_for"
+   ],
+   "about": "Asks how many seconds to count down, ticks once a second, then shows how long it really took.",
+   "code": "#include <chrono>\n#include <iostream>\n#include <sstream>\n#include <string>\n#include <thread>\n\nint main() {\n  int seconds = 0;\n  std::string line;\n\n  // Keep asking until we get a number from 1 to 3600.\n  while (true) {\n    std::cout << \"Count down from how many seconds? (1-3600): \";\n    if (!std::getline(std::cin, line)) return 0;  // input closed\n    std::istringstream in(line);\n    char extra;\n    if (in >> seconds && !(in >> extra) && seconds >= 1 && seconds <= 3600) break;\n    std::cout << \"Please type a whole number from 1 to 3600.\\n\";\n  }\n\n  // Remember when we started.\n  auto start = std::chrono::steady_clock::now();\n\n  for (int left = seconds; left > 0; left--) {\n    int minutes = left / 60;\n    int secs = left % 60;\n    // \\r jumps back to the start of the line so the number updates in place.\n    std::cout << \"\\r\" << minutes << \":\" << (secs < 10 ? \"0\" : \"\") << secs << \"   \" << std::flush;\n    std::this_thread::sleep_for(std::chrono::seconds(1));\n  }\n\n  auto end = std::chrono::steady_clock::now();\n  auto tookMs = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();\n\n  std::cout << \"\\r0:00   \\nTime's up! Beep beep beep!\\n\";\n  std::cout << \"That really took \" << tookMs / 1000.0 << \" seconds.\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-high-scores",
+   "title": "High Score List with Structs",
+   "language": "C++",
+   "category": "Basics",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o scores && ./scores",
+   "keywords": [
+    "c++ struct",
+    "c++ high score list",
+    "c++ std sort",
+    "sort a leaderboard in c++",
+    "c++ leaderboard"
+   ],
+   "about": "Stores players in a struct, lets you add your own score, then sorts the top 5 with std::sort.",
+   "code": "#include <algorithm>\n#include <iostream>\n#include <sstream>\n#include <string>\n#include <vector>\n\n// A struct groups related data together.\nstruct Score {\n  std::string name;\n  int points;\n};\n\nvoid printTop(const std::vector<Score> &scores, std::size_t howMany) {\n  std::cout << \"\\n=== HIGH SCORES ===\\n\";\n  for (std::size_t i = 0; i < scores.size() && i < howMany; i++) {\n    std::cout << (i + 1) << \". \" << scores[i].name << \" - \" << scores[i].points << \"\\n\";\n  }\n}\n\nint main() {\n  std::vector<Score> scores = {\n      {\"Ava\", 1200}, {\"Leo\", 950}, {\"Mia\", 1500}, {\"Sam\", 700}, {\"Zoe\", 1100}};\n\n  // Ask for the player's name.\n  std::cout << \"Your name: \";\n  std::string name;\n  if (!std::getline(std::cin, name)) return 0;\n  if (name.empty()) name = \"Player\";\n\n  // Ask for a score until it's a real number.\n  int points = 0;\n  while (true) {\n    std::cout << \"Your score: \";\n    std::string line;\n    if (!std::getline(std::cin, line)) return 0;\n    std::istringstream in(line);\n    char extra;\n    if (in >> points && !(in >> extra) && points >= 0) break;\n    std::cout << \"Please type a whole number (0 or more).\\n\";\n  }\n  scores.push_back({name, points});\n\n  // Sort biggest first. The little function says how to compare two scores.\n  std::sort(scores.begin(), scores.end(), [](const Score &a, const Score &b) {\n    return a.points > b.points;\n  });\n\n  printTop(scores, 5);\n\n  // Find where the player ended up.\n  for (std::size_t i = 0; i < scores.size(); i++) {\n    if (scores[i].name == name && scores[i].points == points) {\n      std::cout << \"\\nYou placed #\" << (i + 1) << \"!\";\n      if (i < 5) std::cout << \" You made the top 5!\";\n      std::cout << \"\\n\";\n      break;\n    }\n  }\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-loops-and-ifs",
+   "title": "Loops and If Statements",
+   "language": "C++",
+   "category": "Basics",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o loops && ./loops",
+   "keywords": [
+    "c++ for loop",
+    "c++ while loop",
+    "c++ if else",
+    "c++ fizzbuzz",
+    "c++ hello world"
+   ],
+   "about": "Says hello, then shows a for loop, a while loop and if/else with the FizzBuzz game.",
+   "code": "#include <iostream>\n\nint main() {\n  // The classic first program.\n  std::cout << \"Hello, world!\\n\\n\";\n\n  // A for loop: start at 1, keep going while i <= 5, add 1 each time.\n  std::cout << \"Counting up: \";\n  for (int i = 1; i <= 5; i++) {\n    std::cout << i << \" \";\n  }\n  std::cout << \"\\n\";\n\n  // A while loop: keep going while the condition is true.\n  std::cout << \"Doubling: \";\n  int number = 1;\n  while (number < 200) {\n    std::cout << number << \" \";\n    number *= 2;\n  }\n  std::cout << \"\\n\\n\";\n\n  // If / else if / else with FizzBuzz:\n  // multiples of 3 say Fizz, of 5 say Buzz, of both say FizzBuzz.\n  for (int i = 1; i <= 20; i++) {\n    if (i % 15 == 0) {\n      std::cout << \"FizzBuzz\\n\";\n    } else if (i % 3 == 0) {\n      std::cout << \"Fizz\\n\";\n    } else if (i % 5 == 0) {\n      std::cout << \"Buzz\\n\";\n    } else {\n      std::cout << i << \"\\n\";\n    }\n  }\n\n  // A loop inside a loop makes a times table.\n  std::cout << \"\\nTimes table:\\n\";\n  for (int row = 1; row <= 5; row++) {\n    for (int col = 1; col <= 5; col++) {\n      int value = row * col;\n      if (value < 10) std::cout << \" \";  // line up the columns\n      std::cout << value << \" \";\n    }\n    std::cout << \"\\n\";\n  }\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-file-read-write",
+   "title": "Read and Write a Text File",
+   "language": "C++",
+   "category": "Basics",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o notes && ./notes (it makes notes.txt in the same folder).",
+   "keywords": [
+    "c++ read and write file",
+    "c++ fstream",
+    "c++ save to text file",
+    "c++ ofstream ifstream",
+    "load a file in c++"
+   ],
+   "about": "Adds a note you type to notes.txt, then reads the whole file back and prints it.",
+   "code": "#include <fstream>\n#include <iostream>\n#include <string>\n\nconst std::string FILE_NAME = \"notes.txt\";\n\nint main() {\n  // Ask for a note.\n  std::cout << \"Type a note to save: \";\n  std::string note;\n  if (!std::getline(std::cin, note) || note.empty()) {\n    std::cout << \"No note typed, nothing saved.\\n\";\n  } else {\n    // std::ios::app means \"add to the end\" instead of wiping the file.\n    std::ofstream out(FILE_NAME, std::ios::app);\n    if (!out) {\n      std::cout << \"Couldn't open \" << FILE_NAME << \" for writing.\\n\";\n      return 1;\n    }\n    out << note << \"\\n\";\n    std::cout << \"Saved!\\n\";\n  }  // the file closes by itself here\n\n  // Read the file back, one line at a time.\n  std::ifstream in(FILE_NAME);\n  if (!in) {\n    std::cout << \"There's no \" << FILE_NAME << \" yet.\\n\";\n    return 0;\n  }\n\n  std::cout << \"\\n--- Everything in \" << FILE_NAME << \" ---\\n\";\n  std::string line;\n  int lineNumber = 1;\n  while (std::getline(in, line)) {\n    std::cout << lineNumber << \": \" << line << \"\\n\";\n    lineNumber++;\n  }\n  std::cout << \"--- Total notes: \" << (lineNumber - 1) << \" ---\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-calculator",
+   "title": "Simple Calculator",
+   "language": "C++",
+   "category": "Basics",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o calc && ./calc",
+   "keywords": [
+    "c++ calculator",
+    "simple calculator in c++",
+    "c++ add subtract multiply divide",
+    "c++ math program"
+   ],
+   "about": "Type something like 12 * 3 and it gives you the answer, until you type q.",
+   "code": "#include <cmath>\n#include <iostream>\n#include <sstream>\n#include <string>\n\nint main() {\n  std::cout << \"Calculator! Type things like 7 + 5 or 9 / 2. Use + - * / % ^\\n\"\n            << \"Type q to quit.\\n\";\n\n  std::string line;\n  while (true) {\n    std::cout << \"\\n> \";\n    if (!std::getline(std::cin, line)) break;  // input closed\n    if (line == \"q\" || line == \"quit\") break;\n\n    // Split the line into: number, operator, number.\n    std::istringstream in(line);\n    double a = 0, b = 0;\n    char op = 0, extra = 0;\n    if (!(in >> a >> op >> b) || (in >> extra)) {\n      std::cout << \"I didn't get that. Try: 3 + 4\\n\";\n      continue;\n    }\n\n    double answer = 0;\n    bool ok = true;\n    switch (op) {\n      case '+': answer = a + b; break;\n      case '-': answer = a - b; break;\n      case '*': case 'x': answer = a * b; break;\n      case '/':\n        if (b == 0) { std::cout << \"You can't divide by zero!\\n\"; ok = false; }\n        else answer = a / b;\n        break;\n      case '%':\n        if (b == 0) { std::cout << \"You can't divide by zero!\\n\"; ok = false; }\n        else answer = std::fmod(a, b);\n        break;\n      case '^': answer = std::pow(a, b); break;\n      default:\n        std::cout << \"I don't know the '\" << op << \"' sign. Use + - * / % ^\\n\";\n        ok = false;\n    }\n\n    if (ok) std::cout << \"= \" << answer << \"\\n\";\n  }\n\n  std::cout << \"Bye!\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-vector-basics",
+   "title": "std::vector Basics",
+   "language": "C++",
+   "category": "Basics",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o vectors && ./vectors",
+   "keywords": [
+    "c++ vector",
+    "std vector basics",
+    "c++ list of items",
+    "c++ dynamic array",
+    "how to use vector in c++"
+   ],
+   "about": "Shows how to make a std::vector, add and remove items, loop over it and find things in it.",
+   "code": "#include <algorithm>\n#include <iostream>\n#include <string>\n#include <vector>\n\n// Print every item in a vector of strings.\nvoid printAll(const std::vector<std::string> &items) {\n  std::cout << \"[\";\n  for (std::size_t i = 0; i < items.size(); i++) {\n    std::cout << items[i];\n    if (i + 1 < items.size()) std::cout << \", \";\n  }\n  std::cout << \"]  (size \" << items.size() << \")\\n\";\n}\n\nint main() {\n  // A vector is a list that can grow and shrink.\n  std::vector<std::string> inventory = {\"sword\", \"shield\"};\n  printAll(inventory);\n\n  // Add to the end.\n  inventory.push_back(\"potion\");\n  inventory.push_back(\"map\");\n  std::cout << \"After adding: \";\n  printAll(inventory);\n\n  // Read and change an item by its position (starts at 0!).\n  std::cout << \"First item: \" << inventory[0] << \"\\n\";\n  inventory[1] = \"golden shield\";\n  std::cout << \"After upgrade: \";\n  printAll(inventory);\n\n  // Find an item.\n  auto spot = std::find(inventory.begin(), inventory.end(), \"potion\");\n  if (spot != inventory.end()) {\n    std::cout << \"Found potion at position \" << (spot - inventory.begin()) << \"\\n\";\n    inventory.erase(spot);  // use it up\n  }\n  std::cout << \"After using potion: \";\n  printAll(inventory);\n\n  // Remove the last item.\n  inventory.pop_back();\n  std::cout << \"After dropping last item: \";\n  printAll(inventory);\n\n  // A vector of numbers, plus a \"for each\" loop to add them up.\n  std::vector<int> scores = {40, 75, 90, 15};\n  int total = 0;\n  for (int score : scores) total += score;\n  std::cout << \"Total score: \" << total << \"\\n\";\n\n  // Sort the numbers from small to big.\n  std::sort(scores.begin(), scores.end());\n  std::cout << \"Sorted scores:\";\n  for (int score : scores) std::cout << \" \" << score;\n  std::cout << \"\\n\";\n\n  // Empty it out.\n  inventory.clear();\n  std::cout << \"Inventory empty? \" << (inventory.empty() ? \"yes\" : \"no\") << \"\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-hangman",
+   "title": "Hangman",
+   "language": "C++",
+   "category": "Games",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o game && ./game",
+   "keywords": [
+    "c++ hangman",
+    "hangman game in c++",
+    "c++ word guessing game",
+    "guess the word c++"
+   ],
+   "about": "Guess the secret word one letter at a time before you run out of lives.",
+   "code": "#include <cctype>\n#include <iostream>\n#include <random>\n#include <string>\n#include <vector>\n\nint main() {\n  const std::vector<std::string> words = {\"robot\", \"planet\", \"castle\", \"dragon\",\n                                          \"rocket\", \"pizza\", \"jungle\", \"laptop\"};\n\n  std::random_device seed;\n  std::mt19937 rng(seed());\n  std::uniform_int_distribution<std::size_t> pick(0, words.size() - 1);\n\n  const std::string secret = words[pick(rng)];\n  std::string shown(secret.size(), '_');  // what the player sees, like \"_ _ _\"\n  std::string guessed;                     // letters tried so far\n  int lives = 6;\n\n  std::cout << \"Hangman! Guess the word one letter at a time.\\n\";\n\n  while (lives > 0 && shown != secret) {\n    std::cout << \"\\nWord: \";\n    for (char c : shown) std::cout << c << ' ';\n    std::cout << \"\\nLives: \" << lives << \"   Tried: \" << guessed << \"\\nLetter: \";\n\n    std::string line;\n    if (!std::getline(std::cin, line)) return 0;  // input closed\n\n    // Only accept exactly one letter.\n    if (line.size() != 1 || !std::isalpha(static_cast<unsigned char>(line[0]))) {\n      std::cout << \"Please type one letter.\\n\";\n      continue;\n    }\n    char letter = static_cast<char>(std::tolower(static_cast<unsigned char>(line[0])));\n\n    if (guessed.find(letter) != std::string::npos) {\n      std::cout << \"You already tried '\" << letter << \"'.\\n\";\n      continue;\n    }\n    guessed += letter;\n\n    // Reveal every spot where the letter appears.\n    bool found = false;\n    for (std::size_t i = 0; i < secret.size(); i++) {\n      if (secret[i] == letter) {\n        shown[i] = letter;\n        found = true;\n      }\n    }\n\n    if (found) {\n      std::cout << \"Nice! '\" << letter << \"' is in the word.\\n\";\n    } else {\n      lives--;\n      std::cout << \"Nope, no '\" << letter << \"'.\\n\";\n    }\n  }\n\n  if (shown == secret) {\n    std::cout << \"\\nYou won! The word was \" << secret << \".\\n\";\n  } else {\n    std::cout << \"\\nOut of lives! The word was \" << secret << \".\\n\";\n  }\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-number-guessing",
+   "title": "Number Guessing Game",
+   "language": "C++",
+   "category": "Games",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o game && ./game",
+   "keywords": [
+    "c++ number guessing game",
+    "guess the number c++",
+    "c++ higher or lower game",
+    "c++ guessing game"
+   ],
+   "about": "The computer picks a secret number from 1 to 100 and tells you \"higher\" or \"lower\" until you guess it.",
+   "code": "#include <iostream>\n#include <random>\n#include <sstream>\n#include <string>\n\n// Ask for a whole number. Keeps asking if you type letters.\n// Returns false if the input is closed (so we never loop forever).\nbool readNumber(const std::string &prompt, int &number) {\n  std::string line;\n  while (true) {\n    std::cout << prompt;\n    if (!std::getline(std::cin, line)) return false;\n    std::istringstream in(line);\n    char extra;\n    if (in >> number && !(in >> extra)) return true;\n    std::cout << \"That's not a number. Try again!\\n\";\n  }\n}\n\nint main() {\n  // Set up a good random number maker.\n  std::random_device seed;\n  std::mt19937 rng(seed());\n  std::uniform_int_distribution<int> pick(1, 100);\n\n  bool playAgain = true;\n  while (playAgain) {\n    int secret = pick(rng);\n    int tries = 0;\n    int guess = 0;\n\n    std::cout << \"\\nI'm thinking of a number from 1 to 100...\\n\";\n    while (guess != secret) {\n      if (!readNumber(\"Your guess: \", guess)) return 0;\n      if (guess < 1 || guess > 100) {\n        std::cout << \"Pick between 1 and 100.\\n\";\n        continue;\n      }\n      tries++;\n      if (guess < secret) std::cout << \"Higher!\\n\";\n      else if (guess > secret) std::cout << \"Lower!\\n\";\n    }\n    std::cout << \"You got it in \" << tries << \" tries!\\n\";\n\n    // Ask to play again.\n    std::cout << \"Play again? (y/n): \";\n    std::string answer;\n    if (!std::getline(std::cin, answer)) return 0;\n    playAgain = !answer.empty() && (answer[0] == 'y' || answer[0] == 'Y');\n  }\n\n  std::cout << \"Thanks for playing!\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-rock-paper-scissors",
+   "title": "Rock Paper Scissors",
+   "language": "C++",
+   "category": "Games",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o game && ./game",
+   "keywords": [
+    "c++ rock paper scissors",
+    "rock paper scissors in c++",
+    "c++ game vs computer",
+    "c++ rps game"
+   ],
+   "about": "Play rock, paper, scissors against the computer and keep score.",
+   "code": "#include <cctype>\n#include <iostream>\n#include <random>\n#include <string>\n\nconst std::string NAMES[3] = {\"rock\", \"paper\", \"scissors\"};\n\n// Turn what you typed into 0, 1 or 2. Returns -1 if it's not a move.\nint toMove(const std::string &text) {\n  if (text == \"r\" || text == \"rock\") return 0;\n  if (text == \"p\" || text == \"paper\") return 1;\n  if (text == \"s\" || text == \"scissors\") return 2;\n  return -1;\n}\n\nint main() {\n  std::random_device seed;\n  std::mt19937 rng(seed());\n  std::uniform_int_distribution<int> pick(0, 2);\n\n  int wins = 0, losses = 0, ties = 0;\n  std::cout << \"Rock Paper Scissors! Type r, p or s (or q to quit).\\n\";\n\n  while (true) {\n    std::cout << \"\\nYour move: \";\n    std::string input;\n    if (!std::getline(std::cin, input)) break;  // input closed\n    for (char &c : input) c = static_cast<char>(std::tolower(static_cast<unsigned char>(c)));\n    if (input == \"q\" || input == \"quit\") break;\n\n    int you = toMove(input);\n    if (you < 0) {\n      std::cout << \"Hmm, type r, p or s.\\n\";\n      continue;\n    }\n\n    int computer = pick(rng);\n    std::cout << \"You: \" << NAMES[you] << \"  Computer: \" << NAMES[computer] << \"\\n\";\n\n    // Each move beats the one just before it: paper > rock, scissors > paper, rock > scissors.\n    if (you == computer) {\n      std::cout << \"Tie!\\n\";\n      ties++;\n    } else if ((you + 2) % 3 == computer) {\n      std::cout << \"You win!\\n\";\n      wins++;\n    } else {\n      std::cout << \"Computer wins!\\n\";\n      losses++;\n    }\n    std::cout << \"Score - You: \" << wins << \"  Computer: \" << losses << \"  Ties: \" << ties << \"\\n\";\n  }\n\n  std::cout << \"\\nFinal score - You: \" << wins << \"  Computer: \" << losses\n            << \"  Ties: \" << ties << \"\\nThanks for playing!\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-text-adventure",
+   "title": "Text Adventure with Rooms",
+   "language": "C++",
+   "category": "Games",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o game && ./game",
+   "keywords": [
+    "c++ text adventure",
+    "c++ adventure game with rooms",
+    "c++ dungeon game",
+    "choose your path game c++"
+   ],
+   "about": "Walk between rooms by typing north, south, east or west, find the key and escape the castle.",
+   "code": "#include <cctype>\n#include <iostream>\n#include <map>\n#include <string>\n\n// One room: a name, a description, and which way leads where.\nstruct Room {\n  std::string name;\n  std::string description;\n  std::map<std::string, std::string> exits;  // direction -> room id\n};\n\nint main() {\n  std::map<std::string, Room> rooms = {\n      {\"hall\", {\"Great Hall\", \"A dusty hall. Doors lead north and east.\",\n                {{\"north\", \"library\"}, {\"east\", \"kitchen\"}}}},\n      {\"library\", {\"Library\", \"Tall shelves of old books. Something shiny is on a desk.\",\n                   {{\"south\", \"hall\"}}}},\n      {\"kitchen\", {\"Kitchen\", \"Pots and pans everywhere. A big locked door is to the east.\",\n                   {{\"west\", \"hall\"}, {\"east\", \"exit\"}}}},\n      {\"exit\", {\"Castle Gate\", \"Fresh air! You escaped!\", {}}},\n  };\n\n  std::string current = \"hall\";\n  bool hasKey = false;\n\n  std::cout << \"== Castle Escape ==\\n\"\n            << \"Commands: north, south, east, west, take, look, quit\\n\";\n\n  while (true) {\n    const Room &room = rooms[current];\n    std::cout << \"\\n[\" << room.name << \"]\\n\" << room.description << \"\\n\";\n    if (current == \"exit\") break;\n\n    std::cout << \"> \";\n    std::string command;\n    if (!std::getline(std::cin, command)) return 0;  // input closed\n    for (char &c : command) c = static_cast<char>(std::tolower(static_cast<unsigned char>(c)));\n\n    if (command == \"quit\") {\n      std::cout << \"Bye!\\n\";\n      return 0;\n    } else if (command == \"look\") {\n      continue;  // the loop prints the room again\n    } else if (command == \"take\") {\n      if (current == \"library\" && !hasKey) {\n        hasKey = true;\n        rooms[\"library\"].description = \"Tall shelves of old books. The desk is empty now.\";\n        std::cout << \"You picked up a golden key!\\n\";\n      } else {\n        std::cout << \"There's nothing to take here.\\n\";\n      }\n    } else if (room.exits.count(command)) {\n      std::string next = room.exits.at(command);\n      if (next == \"exit\" && !hasKey) {\n        std::cout << \"The door is locked. Maybe a key is somewhere...\\n\";\n      } else {\n        current = next;\n      }\n    } else {\n      std::cout << \"You can't do that. Try north, south, east, west, take or look.\\n\";\n    }\n  }\n\n  std::cout << \"You win! Thanks for playing.\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "cpp-tic-tac-toe",
+   "title": "Tic-Tac-Toe for Two Players",
+   "language": "C++",
+   "category": "Games",
+   "kind": "Console program",
+   "where": "Save as main.cpp and run: g++ -std=c++17 main.cpp -o game && ./game",
+   "keywords": [
+    "c++ tic tac toe",
+    "tic-tac-toe in c++",
+    "c++ noughts and crosses",
+    "two player game c++"
+   ],
+   "about": "Two players take turns placing X and O on a 3 by 3 board until someone wins or it's a draw.",
+   "code": "#include <array>\n#include <iostream>\n#include <sstream>\n#include <string>\n\n// The board: squares 1-9 start as their number.\nstd::array<char, 9> board = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};\n\nvoid drawBoard() {\n  std::cout << \"\\n\";\n  for (int row = 0; row < 3; row++) {\n    std::cout << \" \" << board[row * 3] << \" | \" << board[row * 3 + 1] << \" | \"\n              << board[row * 3 + 2] << \"\\n\";\n    if (row < 2) std::cout << \"---+---+---\\n\";\n  }\n  std::cout << \"\\n\";\n}\n\n// Check every row, column and diagonal for three in a row.\nbool hasWon(char player) {\n  const int lines[8][3] = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8},   // rows\n                           {0, 3, 6}, {1, 4, 7}, {2, 5, 8},   // columns\n                           {0, 4, 8}, {2, 4, 6}};             // diagonals\n  for (const auto &line : lines) {\n    if (board[line[0]] == player && board[line[1]] == player &&\n        board[line[2]] == player) {\n      return true;\n    }\n  }\n  return false;\n}\n\n// Ask for a square number 1-9 that isn't taken yet.\n// Returns -1 if the input is closed.\nint askForSquare(char player) {\n  std::string line;\n  while (true) {\n    std::cout << \"Player \" << player << \", pick a square (1-9): \";\n    if (!std::getline(std::cin, line)) return -1;\n    std::istringstream in(line);\n    int square = 0;\n    char extra;\n    if (!(in >> square) || (in >> extra)) {\n      std::cout << \"Please type a number.\\n\";\n    } else if (square < 1 || square > 9) {\n      std::cout << \"That square doesn't exist. Use 1 to 9.\\n\";\n    } else if (board[square - 1] == 'X' || board[square - 1] == 'O') {\n      std::cout << \"That square is taken!\\n\";\n    } else {\n      return square - 1;\n    }\n  }\n}\n\nint main() {\n  std::cout << \"Tic-Tac-Toe! X goes first.\\n\";\n  char player = 'X';\n\n  for (int turn = 0; turn < 9; turn++) {\n    drawBoard();\n    int square = askForSquare(player);\n    if (square < 0) return 0;\n    board[square] = player;\n\n    if (hasWon(player)) {\n      drawBoard();\n      std::cout << \"Player \" << player << \" wins!\\n\";\n      return 0;\n    }\n    player = (player == 'X') ? 'O' : 'X';  // swap turns\n  }\n\n  drawBoard();\n  std::cout << \"It's a draw!\\n\";\n  return 0;\n}\n"
+  },
+  {
+   "id": "unreal-kill-volume",
+   "title": "Kill Volume (Kill Brick)",
+   "language": "C++",
+   "category": "Unreal Engine",
+   "kind": "Unreal C++ class",
+   "where": "In Unreal Editor use Tools > New C++ Class > Actor named KillVolume, then replace the .h and .cpp with these two parts, build, and drag it into your level where players should die.",
+   "keywords": [
+    "unreal kill volume",
+    "unreal kill brick",
+    "ue5 c++ death zone",
+    "unreal lava that kills the player",
+    "unreal overlap kill"
+   ],
+   "about": "An invisible box that kills any pawn or character that touches it, then respawns players at the Player Start after a second.",
+   "code": "// ===== KillVolume.h =====\n#pragma once\n\n#include \"CoreMinimal.h\"\n#include \"GameFramework/Actor.h\"\n#include \"KillVolume.generated.h\"  // this include must stay last\n\nclass UBoxComponent;\nclass UPrimitiveComponent;\n\n// Change YOURGAME_API to your project's name in capitals, like MYGAME_API.\nUCLASS()\nclass YOURGAME_API AKillVolume : public AActor\n{\n\tGENERATED_BODY()\n\npublic:\n\tAKillVolume();\n\nprotected:\n\tvirtual void BeginPlay() override;\n\n\t// The box that does the killing. Change its size with Box Extent in Details.\n\tUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = \"Kill Volume\")\n\tTObjectPtr<UBoxComponent> Box;\n\n\t// Bring players back at the Player Start after they die.\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Kill Volume\")\n\tbool bRespawnPlayers = true;\n\n\t// Seconds to wait before respawning.\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Kill Volume\", meta = (ClampMin = \"0.1\"))\n\tfloat RespawnDelay = 1.f;\n\n\t// Runs when something starts touching the box. UFUNCTION is needed for AddDynamic.\n\tUFUNCTION()\n\tvoid OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,\n\t\tUPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,\n\t\tconst FHitResult& SweepResult);\n};\n\n// ===== KillVolume.cpp =====\n#include \"KillVolume.h\"\n#include \"Components/BoxComponent.h\"\n#include \"Engine/World.h\"\n#include \"GameFramework/Controller.h\"\n#include \"GameFramework/GameModeBase.h\"\n#include \"GameFramework/Pawn.h\"\n#include \"GameFramework/PlayerController.h\"\n#include \"TimerManager.h\"\n\nAKillVolume::AKillVolume()\n{\n\tPrimaryActorTick.bCanEverTick = false;  // no Tick needed\n\n\tBox = CreateDefaultSubobject<UBoxComponent>(TEXT(\"Box\"));\n\tRootComponent = Box;\n\tBox->SetBoxExtent(FVector(200.f, 200.f, 50.f));\n\tBox->SetCollisionProfileName(TEXT(\"Trigger\"));  // overlaps things, doesn't block them\n\tBox->SetGenerateOverlapEvents(true);\n\tBox->ShapeColor = FColor::Red;  // red outline in the editor\n}\n\nvoid AKillVolume::BeginPlay()\n{\n\tSuper::BeginPlay();\n\n\t// Call our function whenever something starts overlapping the box.\n\tBox->OnComponentBeginOverlap.AddDynamic(this, &AKillVolume::OnBoxBeginOverlap);\n}\n\nvoid AKillVolume::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,\n\tUPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,\n\tconst FHitResult& SweepResult)\n{\n\t// Only the server decides who dies.\n\tif (!HasAuthority())\n\t{\n\t\treturn;\n\t}\n\n\t// Only kill pawns (characters, cars, enemies...), not random props.\n\t// IsValid also skips anything that is already being destroyed.\n\tAPawn* Pawn = Cast<APawn>(OtherActor);\n\tif (!IsValid(Pawn))\n\t{\n\t\treturn;\n\t}\n\n\t// Remember who was controlling it before it goes away.\n\tAPlayerController* Player = Cast<APlayerController>(Pawn->GetController());\n\n\tPawn->Destroy();\n\n\t// After a short wait, respawn the player at a Player Start.\n\tif (bRespawnPlayers && Player != nullptr)\n\t{\n\t\tTWeakObjectPtr<APlayerController> WeakPlayer = Player;  // safe if they leave the game\n\t\tFTimerHandle RespawnTimer;\n\t\tGetWorldTimerManager().SetTimer(RespawnTimer, FTimerDelegate::CreateWeakLambda(this, [WeakPlayer]()\n\t\t{\n\t\t\tAPlayerController* PC = WeakPlayer.Get();\n\t\t\tAGameModeBase* GameMode = PC ? PC->GetWorld()->GetAuthGameMode() : nullptr;\n\t\t\tif (GameMode && PC->GetPawn() == nullptr)\n\t\t\t{\n\t\t\t\tGameMode->RestartPlayer(PC);\n\t\t\t}\n\t\t}), FMath::Max(RespawnDelay, 0.1f), false);\n\t}\n}\n"
+  },
+  {
+   "id": "unreal-launch-pad",
+   "title": "Launch Pad (Jump Pad)",
+   "language": "C++",
+   "category": "Unreal Engine",
+   "kind": "Unreal C++ class",
+   "where": "In Unreal Editor use Tools > New C++ Class > Actor named LaunchPad, then replace the .h and .cpp with these two parts, build, and drag it into your level.",
+   "keywords": [
+    "unreal launch pad",
+    "unreal jump pad",
+    "ue5 c++ bounce pad",
+    "launch character in unreal"
+   ],
+   "about": "A pad that throws any character who steps on it high into the air.",
+   "code": "// ===== LaunchPad.h =====\n#pragma once\n\n#include \"CoreMinimal.h\"\n#include \"GameFramework/Actor.h\"\n#include \"LaunchPad.generated.h\"  // this include must stay last\n\nclass UBoxComponent;\nclass UPrimitiveComponent;\nclass USceneComponent;\nclass UStaticMeshComponent;\n\n// Change YOURGAME_API to your project's name in capitals, like MYGAME_API.\nUCLASS()\nclass YOURGAME_API ALaunchPad : public AActor\n{\n\tGENERATED_BODY()\n\npublic:\n\tALaunchPad();\n\nprotected:\n\tvirtual void BeginPlay() override;\n\n\tUPROPERTY(VisibleAnywhere, Category = \"Launch Pad\")\n\tTObjectPtr<USceneComponent> Root;\n\n\t// The flat pad you see and stand on.\n\tUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = \"Launch Pad\")\n\tTObjectPtr<UStaticMeshComponent> Pad;\n\n\t// The invisible box just above the pad that notices characters.\n\tUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = \"Launch Pad\")\n\tTObjectPtr<UBoxComponent> Trigger;\n\n\t// How hard to launch: Z is up, X is forward (the pad's forward).\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Launch Pad\")\n\tFVector LaunchVelocity = FVector(0.f, 0.f, 1500.f);\n\n\tUFUNCTION()\n\tvoid OnTriggerBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,\n\t\tUPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,\n\t\tconst FHitResult& SweepResult);\n};\n\n// ===== LaunchPad.cpp =====\n#include \"LaunchPad.h\"\n#include \"Components/BoxComponent.h\"\n#include \"Components/SceneComponent.h\"\n#include \"Components/StaticMeshComponent.h\"\n#include \"Engine/StaticMesh.h\"\n#include \"GameFramework/Character.h\"\n#include \"UObject/ConstructorHelpers.h\"\n\nALaunchPad::ALaunchPad()\n{\n\tPrimaryActorTick.bCanEverTick = false;\n\n\tRoot = CreateDefaultSubobject<USceneComponent>(TEXT(\"Root\"));\n\tRootComponent = Root;\n\n\t// A flat cylinder for the pad (100 wide x 100 tall, squashed to 150 x 10).\n\tPad = CreateDefaultSubobject<UStaticMeshComponent>(TEXT(\"Pad\"));\n\tPad->SetupAttachment(Root);\n\tstatic ConstructorHelpers::FObjectFinder<UStaticMesh> CylinderMesh(TEXT(\"/Engine/BasicShapes/Cylinder.Cylinder\"));\n\tif (CylinderMesh.Succeeded())\n\t{\n\t\tPad->SetStaticMesh(CylinderMesh.Object);\n\t}\n\tPad->SetRelativeScale3D(FVector(1.5f, 1.5f, 0.1f));\n\n\t// The trigger box sits on top of the pad.\n\tTrigger = CreateDefaultSubobject<UBoxComponent>(TEXT(\"Trigger\"));\n\tTrigger->SetupAttachment(Root);\n\tTrigger->SetRelativeLocation(FVector(0.f, 0.f, 50.f));\n\tTrigger->SetBoxExtent(FVector(75.f, 75.f, 50.f));\n\tTrigger->SetCollisionProfileName(TEXT(\"Trigger\"));\n\tTrigger->SetGenerateOverlapEvents(true);\n}\n\nvoid ALaunchPad::BeginPlay()\n{\n\tSuper::BeginPlay();\n\tTrigger->OnComponentBeginOverlap.AddDynamic(this, &ALaunchPad::OnTriggerBeginOverlap);\n}\n\nvoid ALaunchPad::OnTriggerBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,\n\tUPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,\n\tconst FHitResult& SweepResult)\n{\n\t// Only characters can be launched (they have LaunchCharacter).\n\tACharacter* Character = Cast<ACharacter>(OtherActor);\n\tif (!IsValid(Character))\n\t{\n\t\treturn;\n\t}\n\n\t// Turn the launch direction so \"forward\" follows the way the pad faces.\n\tconst FVector WorldVelocity = GetActorRotation().RotateVector(LaunchVelocity);\n\n\t// true, true = replace the character's current speed instead of adding to it.\n\tCharacter->LaunchCharacter(WorldVelocity, true, true);\n}\n"
+  },
+  {
+   "id": "unreal-moving-platform",
+   "title": "Moving Platform",
+   "language": "C++",
+   "category": "Unreal Engine",
+   "kind": "Unreal C++ class",
+   "where": "In Unreal Editor use Tools > New C++ Class > Actor named MovingPlatform, then replace the .h and .cpp with these two parts, build, drag it into your level and move the Target Offset diamond to set where it goes.",
+   "keywords": [
+    "unreal moving platform",
+    "ue5 c++ elevator",
+    "unreal platform back and forth",
+    "unreal lerp platform",
+    "moving part in unreal"
+   ],
+   "about": "A platform that glides smoothly between its start and a target point, pausing at each end.",
+   "code": "// ===== MovingPlatform.h =====\n#pragma once\n\n#include \"CoreMinimal.h\"\n#include \"GameFramework/Actor.h\"\n#include \"MovingPlatform.generated.h\"  // this include must stay last\n\nclass USceneComponent;\nclass UStaticMeshComponent;\n\n// Change YOURGAME_API to your project's name in capitals, like MYGAME_API.\nUCLASS()\nclass YOURGAME_API AMovingPlatform : public AActor\n{\n\tGENERATED_BODY()\n\npublic:\n\tAMovingPlatform();\n\n\tvirtual void Tick(float DeltaTime) override;\n\nprotected:\n\tvirtual void BeginPlay() override;\n\n\tUPROPERTY(VisibleAnywhere, Category = \"Moving Platform\")\n\tTObjectPtr<USceneComponent> Root;\n\n\tUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = \"Moving Platform\")\n\tTObjectPtr<UStaticMeshComponent> Mesh;\n\n\t// Where to go from the start. MakeEditWidget gives you a diamond to drag in the level.\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Moving Platform\", meta = (MakeEditWidget = true))\n\tFVector TargetOffset = FVector(0.f, 0.f, 300.f);\n\n\t// Seconds from one end to the other.\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Moving Platform\", meta = (ClampMin = \"0.1\"))\n\tfloat TravelTime = 3.f;\n\n\t// Seconds to wait at each end.\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Moving Platform\", meta = (ClampMin = \"0.0\"))\n\tfloat PauseTime = 1.f;\n\nprivate:\n\tFVector StartLocation = FVector::ZeroVector;\n\tFVector EndLocation = FVector::ZeroVector;\n\tfloat Alpha = 0.f;         // 0 = at start, 1 = at end\n\tbool bGoingToEnd = true;\n\tfloat PauseLeft = 0.f;\n};\n\n// ===== MovingPlatform.cpp =====\n#include \"MovingPlatform.h\"\n#include \"Components/SceneComponent.h\"\n#include \"Components/StaticMeshComponent.h\"\n#include \"Engine/StaticMesh.h\"\n#include \"UObject/ConstructorHelpers.h\"\n\nAMovingPlatform::AMovingPlatform()\n{\n\tPrimaryActorTick.bCanEverTick = true;\n\n\t// An empty root, so squashing the mesh doesn't squash the Target Offset too.\n\tRoot = CreateDefaultSubobject<USceneComponent>(TEXT(\"Root\"));\n\tRootComponent = Root;\n\tRoot->SetMobility(EComponentMobility::Movable);  // it has to be movable to move\n\n\tMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT(\"Mesh\"));\n\tMesh->SetupAttachment(Root);\n\tMesh->SetMobility(EComponentMobility::Movable);\n\n\t// Use the built-in cube, squashed flat like a platform.\n\tstatic ConstructorHelpers::FObjectFinder<UStaticMesh> CubeMesh(TEXT(\"/Engine/BasicShapes/Cube.Cube\"));\n\tif (CubeMesh.Succeeded())\n\t{\n\t\tMesh->SetStaticMesh(CubeMesh.Object);\n\t}\n\tMesh->SetRelativeScale3D(FVector(3.f, 3.f, 0.25f));\n}\n\nvoid AMovingPlatform::BeginPlay()\n{\n\tSuper::BeginPlay();\n\n\t// Turn the offset (which is local to the platform) into a spot in the world.\n\tStartLocation = GetActorLocation();\n\tEndLocation = GetActorTransform().TransformPosition(TargetOffset);\n}\n\nvoid AMovingPlatform::Tick(float DeltaTime)\n{\n\tSuper::Tick(DeltaTime);\n\n\tif (PauseLeft > 0.f)  // waiting at one end\n\t{\n\t\tPauseLeft -= DeltaTime;\n\t\treturn;\n\t}\n\n\t// Move Alpha toward 1 (end) or 0 (start).\n\tconst float Step = DeltaTime / FMath::Max(TravelTime, 0.1f);\n\tAlpha += bGoingToEnd ? Step : -Step;\n\n\tif (Alpha >= 1.f)\n\t{\n\t\tAlpha = 1.f;\n\t\tbGoingToEnd = false;\n\t\tPauseLeft = PauseTime;\n\t}\n\telse if (Alpha <= 0.f)\n\t{\n\t\tAlpha = 0.f;\n\t\tbGoingToEnd = true;\n\t\tPauseLeft = PauseTime;\n\t}\n\n\t// SmoothStep makes it speed up and slow down gently instead of jerking.\n\tconst float Smooth = FMath::SmoothStep(0.f, 1.f, Alpha);\n\tSetActorLocation(FMath::Lerp(StartLocation, EndLocation, Smooth));\n}\n"
+  },
+  {
+   "id": "unreal-rotating-actor",
+   "title": "Rotating Actor",
+   "language": "C++",
+   "category": "Unreal Engine",
+   "kind": "Unreal C++ class",
+   "where": "In Unreal Editor use Tools > New C++ Class > Actor named RotatingActor, then replace the .h and .cpp with these two parts, build, and drag it into your level.",
+   "keywords": [
+    "unreal rotating actor",
+    "unreal spinning object",
+    "ue5 c++ rotate every tick",
+    "spin a cube in unreal"
+   ],
+   "about": "An actor with a cube mesh that spins a little bit every frame.",
+   "code": "// ===== RotatingActor.h =====\n#pragma once\n\n#include \"CoreMinimal.h\"\n#include \"GameFramework/Actor.h\"\n#include \"RotatingActor.generated.h\"  // this include must stay last\n\nclass UStaticMeshComponent;\n\n// Change YOURGAME_API to your project's name in capitals, like MYGAME_API.\nUCLASS()\nclass YOURGAME_API ARotatingActor : public AActor\n{\n\tGENERATED_BODY()\n\npublic:\n\tARotatingActor();\n\n\tvirtual void Tick(float DeltaTime) override;\n\nprotected:\n\t// The thing you see. Pick any mesh in the Details panel.\n\tUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = \"Rotating\")\n\tTObjectPtr<UStaticMeshComponent> Mesh;\n\n\t// How fast to spin, in degrees per second (Yaw spins like a top).\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Rotating\")\n\tFRotator RotationSpeed = FRotator(0.f, 90.f, 0.f);\n};\n\n// ===== RotatingActor.cpp =====\n#include \"RotatingActor.h\"\n#include \"Components/StaticMeshComponent.h\"\n#include \"Engine/StaticMesh.h\"\n#include \"UObject/ConstructorHelpers.h\"\n\nARotatingActor::ARotatingActor()\n{\n\t// Let Tick run every frame.\n\tPrimaryActorTick.bCanEverTick = true;\n\n\tMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT(\"Mesh\"));\n\tRootComponent = Mesh;\n\tMesh->SetMobility(EComponentMobility::Movable);  // it has to be movable to spin\n\n\t// Start with Unreal's built-in cube so you can see it right away.\n\tstatic ConstructorHelpers::FObjectFinder<UStaticMesh> CubeMesh(TEXT(\"/Engine/BasicShapes/Cube.Cube\"));\n\tif (CubeMesh.Succeeded())\n\t{\n\t\tMesh->SetStaticMesh(CubeMesh.Object);\n\t}\n}\n\nvoid ARotatingActor::Tick(float DeltaTime)\n{\n\tSuper::Tick(DeltaTime);\n\n\t// DeltaTime is the seconds since last frame, so the speed is the same on fast and slow PCs.\n\tAddActorLocalRotation(RotationSpeed * DeltaTime);\n}\n"
+  },
+  {
+   "id": "unreal-coin-pickup",
+   "title": "Spinning Coin Pickup",
+   "language": "C++",
+   "category": "Unreal Engine",
+   "kind": "Unreal C++ class",
+   "where": "In Unreal Editor use Tools > New C++ Class > Actor named CoinPickup, then replace the .h and .cpp with these two parts, build, and drag some into your level.",
+   "keywords": [
+    "unreal coin pickup",
+    "unreal collectible",
+    "ue5 c++ collect coins",
+    "unreal pickup item"
+   ],
+   "about": "A spinning coin that disappears and shows a message on screen when the player touches it.",
+   "code": "// ===== CoinPickup.h =====\n#pragma once\n\n#include \"CoreMinimal.h\"\n#include \"GameFramework/Actor.h\"\n#include \"CoinPickup.generated.h\"  // this include must stay last\n\nclass UPrimitiveComponent;\nclass USphereComponent;\nclass UStaticMeshComponent;\n\n// Change YOURGAME_API to your project's name in capitals, like MYGAME_API.\nUCLASS()\nclass YOURGAME_API ACoinPickup : public AActor\n{\n\tGENERATED_BODY()\n\npublic:\n\tACoinPickup();\n\n\tvirtual void Tick(float DeltaTime) override;\n\nprotected:\n\tvirtual void BeginPlay() override;\n\n\t// The invisible ball that notices the player.\n\tUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = \"Coin\")\n\tTObjectPtr<USphereComponent> Sphere;\n\n\t// The coin you see.\n\tUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = \"Coin\")\n\tTObjectPtr<UStaticMeshComponent> Mesh;\n\n\t// How many points this coin is worth.\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Coin\")\n\tint32 Value = 1;\n\n\t// Spin speed in degrees per second.\n\tUPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Coin\")\n\tfloat SpinSpeed = 180.f;\n\n\tUFUNCTION()\n\tvoid OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,\n\t\tUPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,\n\t\tconst FHitResult& SweepResult);\n};\n\n// ===== CoinPickup.cpp =====\n#include \"CoinPickup.h\"\n#include \"Components/SphereComponent.h\"\n#include \"Components/StaticMeshComponent.h\"\n#include \"Engine/Engine.h\"\n#include \"Engine/StaticMesh.h\"\n#include \"GameFramework/Pawn.h\"\n#include \"UObject/ConstructorHelpers.h\"\n\nACoinPickup::ACoinPickup()\n{\n\tPrimaryActorTick.bCanEverTick = true;\n\n\tSphere = CreateDefaultSubobject<USphereComponent>(TEXT(\"Sphere\"));\n\tRootComponent = Sphere;\n\tSphere->SetSphereRadius(60.f);\n\tSphere->SetCollisionProfileName(TEXT(\"Trigger\"));\n\tSphere->SetGenerateOverlapEvents(true);\n\n\t// A thin cylinder standing on its edge looks like a coin.\n\tMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT(\"Mesh\"));\n\tMesh->SetupAttachment(Sphere);\n\tMesh->SetMobility(EComponentMobility::Movable);  // so it can spin\n\tstatic ConstructorHelpers::FObjectFinder<UStaticMesh> CylinderMesh(TEXT(\"/Engine/BasicShapes/Cylinder.Cylinder\"));\n\tif (CylinderMesh.Succeeded())\n\t{\n\t\tMesh->SetStaticMesh(CylinderMesh.Object);\n\t}\n\tMesh->SetRelativeRotation(FRotator(90.f, 0.f, 0.f));\n\tMesh->SetRelativeScale3D(FVector(0.6f, 0.6f, 0.1f));\n\tMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);  // the sphere handles touching\n}\n\nvoid ACoinPickup::BeginPlay()\n{\n\tSuper::BeginPlay();\n\tSphere->OnComponentBeginOverlap.AddDynamic(this, &ACoinPickup::OnSphereBeginOverlap);\n}\n\nvoid ACoinPickup::Tick(float DeltaTime)\n{\n\tSuper::Tick(DeltaTime);\n\tAddActorLocalRotation(FRotator(0.f, SpinSpeed * DeltaTime, 0.f));\n}\n\nvoid ACoinPickup::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,\n\tUPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,\n\tconst FHitResult& SweepResult)\n{\n\t// Only the player can collect coins, not enemies.\n\tAPawn* Pawn = Cast<APawn>(OtherActor);\n\tif (!IsValid(Pawn) || !Pawn->IsPlayerControlled())\n\t{\n\t\treturn;\n\t}\n\n\t// Show a message on the screen for 2 seconds.\n\tif (GEngine)\n\t{\n\t\tGEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow,\n\t\t\tFString::Printf(TEXT(\"Coin collected! +%d\"), Value));\n\t}\n\n\tDestroy();  // the coin disappears\n}\n"
+  }
+ ]
+}

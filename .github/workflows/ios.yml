@@ -383,3 +383,51 @@ jobs:
             echo '```'
             echo "</details>"
           } >> "$GITHUB_STEP_SUMMARY"
+
+  scripts:
+    name: Script library check (Lua and C++)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: scripts.json matches the scripts
+        run: python3 tools/build_scripts.py --check
+
+      - name: Get Luau (Roblox's Lua compiler)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/luau"
+          gh release download --repo luau-lang/luau --pattern 'luau-ubuntu.zip' --dir "$RUNNER_TEMP/luau"
+          unzip -q -o "$RUNNER_TEMP/luau/luau-ubuntu.zip" -d "$RUNNER_TEMP/luau"
+          chmod +x "$RUNNER_TEMP/luau/"luau*
+          echo "$RUNNER_TEMP/luau" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/luau/luau-compile" --help 2>&1 | head -5 || true
+
+      - name: Compile every Lua script
+        run: |
+          set -uo pipefail
+          # First make sure the compiler really catches mistakes.
+          printf 'local x = (\n' > "$RUNNER_TEMP/broken.lua"
+          if luau-compile --binary "$RUNNER_TEMP/broken.lua" > /dev/null 2>&1; then
+            echo "::error::luau-compile didn't catch a broken script, so this check can't be trusted."
+            exit 1
+          fi
+          failed=0
+          checked=0
+          for f in tools/scripts/lua/*.lua; do
+            if luau-compile --binary "$f" > /dev/null 2> "$RUNNER_TEMP/err.txt"; then
+              checked=$((checked + 1))
+            else
+              echo "::error file=$f::$(head -c 500 "$RUNNER_TEMP/err.txt")"
+              failed=$((failed + 1))
+            fi
+          done
+          echo "Lua scripts compiled: $checked, failed: $failed"
+          [ "$failed" -eq 0 ] && [ "$checked" -gt 0 ]
+
+      - name: Check every C++ program and Arduino sketch
+        run: bash tools/scripts/check_cpp.sh

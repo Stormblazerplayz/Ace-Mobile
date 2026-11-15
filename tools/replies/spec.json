@@ -944,5 +944,39 @@
   "opt": [],
   "orig": "{name} doesn't need changes to be {change}, so you can make it as it is.",
   "note": "{change} like 'vegetarian'"
+ },
+ "scriptFound": {
+  "req": [
+   "title",
+   "language"
+  ],
+  "opt": [],
+  "orig": "Here's the {title} script in {language}.",
+  "note": "{title} is the script's name, lowercase, like 'kill brick' or 'tic-tac-toe for two players'; {language} is 'Lua' or 'C++'. A code card with a Copy button follows."
+ },
+ "scriptNotFound": {
+  "req": [
+   "examples"
+  ],
+  "opt": [],
+  "orig": "I don't have that script yet. I do have {examples}.",
+  "note": "{examples} is a list like 'kill brick, moving platform or coin pickup'"
+ },
+ "scriptNeedOne": {
+  "req": [
+   "examples"
+  ],
+  "opt": [],
+  "orig": "Sure! Which one? I have {examples}.",
+  "note": "They asked for a script without saying which. {examples} is a list joined with 'or'"
+ },
+ "scriptList": {
+  "req": [
+   "count",
+   "examples"
+  ],
+  "opt": [],
+  "orig": "I have {count} scripts built in, like {examples}. They're all in Settings under Scripts.",
+  "note": "{count} like '35 Lua'; {examples} is a list joined with 'and'"
  }
 }
