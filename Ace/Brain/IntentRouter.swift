@@ -21,7 +21,8 @@ enum Intent: Equatable {
     case openSite(String)
     case searchTab(query: String, site: String?)
     case recipe(String)
-    case weather(place: String?)
+    case recipeTweak(String)        // "make it spicier", "for 8 people"
+    case weather(place: String?, day: String? = nil)
     case check
     case battery, storage, memoryUsage, network
     case largeFiles
@@ -84,6 +85,7 @@ extension Intent {
         case .openSite: return "openSite"
         case .searchTab: return "searchTab"
         case .recipe: return "recipe"
+        case .recipeTweak: return "recipeTweak"
         case .weather: return "weather"
         case .check: return "check"
         case .battery: return "battery"
@@ -150,6 +152,9 @@ enum IntentRouter {
 
         // Home (Apple Home): lights, plugs, fans, thermostats, the robot vacuum, scenes
         if let h = HomeParser.parse(t) { return .home(h) }
+
+        // Changing the last recipe ("make it vegetarian", "for 8 people", "double it")
+        if RecipeTweaks.parse(t) != nil { return .recipeTweak(t) }
 
         // Name and memory
         if let g = Rx.groups(#"^(?:my name is|call me|i am called)\s+([a-z][a-z' \-]{0,30})$"#, t) { return .setName(g[0]) }
@@ -296,11 +301,14 @@ enum IntentRouter {
             return .recipe(g[0])
         }
         if Rx.matches(#"\b(weather|forecast|temperature outside|how (hot|cold) is it|will it (rain|snow)|is it (raining|snowing)|umbrella)\b"#, t) {
-            if let g = Rx.groups(#"\b(?:in|for|at)\s+([a-z][a-z .'\-]+?)(?:\s+(?:today|tomorrow|this week|right now|now))?$"#, t),
-               !["today", "tomorrow", "this week", "now", "right now", "here", "my area", "outside", "the week", "the weekend"].contains(g[0]) {
-                return .weather(place: g[0])
+            let day = DayWords.find(in: t)
+            let rest = day?.rest ?? t
+            let when = day.flatMap { $0.offset == 0 && $0.label == "today" ? nil : $0.label.lowercased() }
+            if let g = Rx.groups(#"\b(?:in|for|at)\s+([a-z][a-z .'\-]+?)(?:\s+(?:this week|right now|now|like))?$"#, rest),
+               !["this week", "now", "right now", "here", "my area", "outside", "the week", "like"].contains(g[0]) {
+                return .weather(place: g[0], day: when)
             }
-            return .weather(place: nil)
+            return .weather(place: nil, day: when)
         }
 
         // Files, screenshots, photos

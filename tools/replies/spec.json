@@ -864,5 +864,85 @@
   "opt": [],
   "orig": "There's no focus session running. Say \"focus for 25 minutes\" to start one.",
   "note": "No focus timer is running."
+ },
+ "aliasIs": {
+  "req": [
+   "alias",
+   "thing"
+  ],
+  "opt": [],
+  "orig": "{alias} is your {thing}.",
+  "note": "{alias} is a name the user gave something, like 'Mova'; {thing} like 'vacuum'"
+ },
+ "weatherDay": {
+  "req": [
+   "day",
+   "place",
+   "sky",
+   "high",
+   "low"
+  ],
+  "opt": [
+   "rain"
+  ],
+  "orig": "{day} in {place}: {sky}, high {high}, low {low}{rain}.",
+  "note": "{day} like 'Tomorrow' or 'Saturday' (capitalized, can start a sentence); {sky} like 'partly cloudy'; {rain} is ', 40% chance of rain' (comma included) or empty and must come right after {low}"
+ },
+ "weatherTooFar": {
+  "req": [
+   "day"
+  ],
+  "opt": [],
+  "orig": "I can only see about a week ahead, so {day} is too far away for now.",
+  "note": "{day} like 'next Saturday'"
+ },
+ "recipeNeedOne": {
+  "req": [],
+  "opt": [],
+  "orig": "Ask me for a recipe first, then I can change it for you.",
+  "note": ""
+ },
+ "recipeScaled": {
+  "req": [
+   "name",
+   "people"
+  ],
+  "opt": [],
+  "orig": "Here's {name} for {people}. I changed all the amounts.",
+  "note": "{people} like '8 people'"
+ },
+ "recipeBatch": {
+  "req": [
+   "name",
+   "amount"
+  ],
+  "opt": [],
+  "orig": "Here's {name} with {amount}. I changed all the amounts.",
+  "note": "{amount} like 'twice as much' or 'half as much'"
+ },
+ "recipeGuessedServings": {
+  "req": [],
+  "opt": [],
+  "orig": "The recipe didn't say how many it feeds, so I guessed 4.",
+  "note": ""
+ },
+ "recipeTweaked": {
+  "req": [
+   "name",
+   "change",
+   "swaps"
+  ],
+  "opt": [],
+  "orig": "Here's a {change} version of {name}: {swaps}.",
+  "note": "{change} like 'vegetarian' or 'spicier'; {swaps} is a list like 'chickpeas or tofu instead of the chicken and vegetable broth instead of the meat broth'"
+ },
+ "recipeTweakNothing": {
+  "req": [
+   "name",
+   "change"
+  ],
+  "opt": [],
+  "orig": "{name} doesn't need changes to be {change}, so you can make it as it is.",
+  "note": "{change} like 'vegetarian'"
  }
 }

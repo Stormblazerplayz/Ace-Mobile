@@ -218,7 +218,7 @@ enum WebService {
             "latitude": String(lat), "longitude": String(lon),
             "current": "temperature_2m,apparent_temperature,weather_code,wind_speed_10m",
             "daily": "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max",
-            "timezone": "auto", "forecast_days": "4",
+            "timezone": "auto", "forecast_days": "7",
         ]
         if fahrenheit {
             items["temperature_unit"] = "fahrenheit"

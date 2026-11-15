@@ -121,6 +121,15 @@ enum ReplyKey: String, CaseIterable {
     case weatherFail
     case weatherNow
     case weatherToday
+    case aliasIs
+    case weatherDay
+    case weatherTooFar
+    case recipeNeedOne
+    case recipeScaled
+    case recipeBatch
+    case recipeGuessedServings
+    case recipeTweaked
+    case recipeTweakNothing
     case yourName
 }
 
