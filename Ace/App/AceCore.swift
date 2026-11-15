@@ -226,7 +226,8 @@ final class AceCore: ObservableObject, BrainHost {
         if Sass.isOn(settings.personality), !Sass.isSerious(text) {
             let category = Sass.category(kind: reply.kind, source: reply.source, mood: reply.mood, cards: reply.cards)
             let again = Sass.countsRepeats(category) && !text.isEmpty ? repeats.note(text) : 0
-            let dressed = Sass.dress(plain, category: category, repeats: again, hour: Calendar.current.component(.hour, from: Date()))
+            let dressed = Sass.dress(plain, category: category, repeats: again,
+                                     hour: Calendar.current.component(.hour, from: Date()), level: sassLevel)
             reply.text = dressed.text
             sass = dressed
         }
@@ -240,13 +241,15 @@ final class AceCore: ObservableObject, BrainHost {
         case .alert:
             SoundFX.shared.play(.alert, gain: 0.8)
             Haptics.shared.play(.alert)
-        case .idle:
+        case .idle, .sleeping:
             SoundFX.shared.play(.blink, gain: 0.6)
         default:
             SoundFX.shared.play(.success, gain: 0.55)
             Haptics.shared.play(.success)
         }
         let finalMood: OrbMood = reply.mood == .idle ? .talking : reply.mood
+        // A goodbye: the orb dozes off once it's done talking.
+        restAfterTalk = reply.mood == .sleeping
         if let sass, sass.eyes != .none {
             // Set before speaking, so the voice starting doesn't cut the eye-roll short.
             holdMood = true
@@ -254,7 +257,7 @@ final class AceCore: ObservableObject, BrainHost {
             Task { await sassyEyes(sass.eyes, then: finalMood) }
         } else {
             speak(plain, cards: reply.cards, sassBefore: sass?.before ?? "", sassAfter: sass?.after ?? "")
-            setMood(finalMood, thenIdleAfter: 2.2)
+            setMood(finalMood, thenIdleAfter: finalMood == .sleeping ? Self.napLength : 2.2)
         }
         saveChat()
     }
@@ -270,41 +273,59 @@ final class AceCore: ObservableObject, BrainHost {
             parts = parts.map { $0.language == nil ? SpokenPart(text: Sass.spoken($0.text), language: nil) : $0 }
             let before = Sass.spoken(sassBefore)
             let after = Sass.spoken(sassAfter)
-            if !before.isEmpty { parts.insert(SpokenPart(text: before, language: nil, sassy: true), at: 0) }
-            if !after.isEmpty { parts.append(SpokenPart(text: after, language: nil, sassy: true)) }
+            // The sassy lines get more drama the higher the slider is.
+            let drama = sassLevel.rawValue
+            if !before.isEmpty { parts.insert(SpokenPart(text: before, language: nil, sassy: true, drama: drama), at: 0) }
+            if !after.isEmpty { parts.append(SpokenPart(text: after, language: nil, sassy: true, drama: drama)) }
         }
         VoiceOut.shared.speak(parts, voiceID: settings.voiceID) { [weak self] speaking in
             guard let self else { return }
             VoiceIn.shared.aceSpeaking(speaking)
             guard !self.holdMood else { return }
-            if speaking { self.setMood(.talking) } else if !self.busy { self.setMood(.idle) }
+            if speaking {
+                self.setMood(.talking)
+            } else if !self.busy {
+                if self.restAfterTalk {
+                    self.restAfterTalk = false
+                    self.setMood(.sleeping, thenIdleAfter: Self.napLength)
+                } else {
+                    self.setMood(.idle)
+                }
+            }
         }
     }
 
+    /// After a goodbye, the orb sleeps once it's done talking.
+    private var restAfterTalk = false
+    /// How long the orb naps after a goodbye before it wakes back up to idle.
+    static let napLength: Double = 8
+
+    /// The sass slider as a level.
+    var sassLevel: SassLevel { SassLevel(setting: settings.sassLevel) }
+
     /// Sassy mode: a big eye-roll (the eyes swing down, across and up, and stay up there for a moment)
-    /// or a long side-eye, then the orb goes on as usual.
+    /// or a long side-eye, then the orb goes on as usual. Smaller and quicker at Mild, biggest at Extra.
     private func sassyEyes(_ eyes: Sass.Eyes, then next: OrbMood) async {
+        let drama = Sass.EyeDrama(level: sassLevel)
         holdMood = true
         setMood(.checking)
-        withAnimation(.easeInOut(duration: 0.15)) { eyeOpen = 0.62 }
+        withAnimation(.easeInOut(duration: 0.15)) { eyeOpen = drama.squint }
         try? await Task.sleep(nanoseconds: 220_000_000)
         switch eyes {
         case .roll:
-            let path = [CGPoint(x: -0.8, y: 0.7), CGPoint(x: -1.1, y: 0), CGPoint(x: -0.75, y: -1.2),
-                        CGPoint(x: 0, y: -1.5), CGPoint(x: 0.75, y: -1.2), CGPoint(x: 0.2, y: -1.45)]
-            SoundFX.shared.play(.lookWhir, pan: -0.6, jitter: 0.05, gain: 0.45)
-            for p in path {
-                withAnimation(.easeInOut(duration: 0.15)) { look = p }
-                try? await Task.sleep(nanoseconds: 150_000_000)
+            SoundFX.shared.play(.lookWhir, pan: -0.6, jitter: 0.05, gain: 0.45 * drama.size)
+            for p in drama.rollPath {
+                withAnimation(.easeInOut(duration: drama.step)) { look = p }
+                try? await Task.sleep(nanoseconds: UInt64(drama.step * 1_000_000_000))
             }
-            SoundFX.shared.play(.lookWhir, pan: 0.3, jitter: 0.05, gain: 0.35)
+            SoundFX.shared.play(.lookWhir, pan: 0.3, jitter: 0.05, gain: 0.35 * drama.size)
             // Hold the "ugh, really?" look.
-            try? await Task.sleep(nanoseconds: 750_000_000)
+            try? await Task.sleep(nanoseconds: UInt64(drama.hold * 1_000_000_000))
         case .side:
-            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) { look = CGPoint(x: 1.15, y: 0.1) }
-            withAnimation(.easeInOut(duration: 0.2)) { eyeOpen = 0.45 }
-            SoundFX.shared.play(.lookWhir, pan: 0.8, jitter: 0.05, gain: 0.45)
-            try? await Task.sleep(nanoseconds: 1_100_000_000)
+            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) { look = CGPoint(x: 1.15 * drama.size, y: 0.1) }
+            withAnimation(.easeInOut(duration: 0.2)) { eyeOpen = drama.squint - 0.17 }
+            SoundFX.shared.play(.lookWhir, pan: 0.8, jitter: 0.05, gain: 0.45 * drama.size)
+            try? await Task.sleep(nanoseconds: UInt64(drama.sideHold * 1_000_000_000))
             // A quick glance back, still unimpressed.
             withAnimation(.spring(response: 0.25, dampingFraction: 0.7)) { look = CGPoint(x: -0.2, y: 0.1) }
             try? await Task.sleep(nanoseconds: 300_000_000)
@@ -318,22 +339,36 @@ final class AceCore: ObservableObject, BrainHost {
         holdMood = false
         // A new question came in meanwhile: leave the orb to it.
         guard !busy else { return }
-        setMood(VoiceOut.shared.isSpeaking ? .talking : next, thenIdleAfter: 2.2)
+        setMood(VoiceOut.shared.isSpeaking ? .talking : next, thenIdleAfter: next == .sleeping ? Self.napLength : 2.2)
     }
 
     /// Settings changed Normal / Sassy: Ace says so, in character.
     func personalityChanged(to personality: String) {
         let on = Sass.isOn(personality)
-        let line = SassPack.shared.line(on ? "sassy.on" : "sassy.off")
+        let line = SassPack.shared.line(on ? "sassy.on" : "sassy.off", level: sassLevel)
         guard !line.isEmpty else { return }
         messages.append(ChatMessage(speaker: .ace, text: line, source: "personality"))
         saveChat()
         if on {
             holdMood = true
-            Task { await sassyEyes(.roll, then: .happy) }
+            Task { await sassyEyes(sassLevel == .mild ? .side : .roll, then: .happy) }
         } else {
             setMood(.happy, thenIdleAfter: 1.5)
         }
+    }
+
+    /// The sass slider moved: Ace shows off the new level.
+    func sassLevelChanged(to setting: String) {
+        guard Sass.isOn(settings.personality) else { return }
+        let level = SassLevel(setting: setting)
+        let line = SassPack.shared.line("level." + level.setting, level: level)
+        guard !line.isEmpty else { return }
+        // Moving the slider back and forth replaces the last slider line instead of piling them up.
+        if let last = messages.last, last.source == "sass level" { messages.removeLast() }
+        messages.append(ChatMessage(speaker: .ace, text: line, source: "sass level"))
+        saveChat()
+        holdMood = true
+        Task { await sassyEyes(level == .mild ? .side : .roll, then: .happy) }
     }
 
     /// The What's new card: once after each update, or any time from Settings (`force`).
@@ -348,7 +383,7 @@ final class AceCore: ObservableObject, BrainHost {
         settings.lastWhatsNewBuild = max(settings.lastWhatsNewBuild, release.build)
         let shown = max(build, release.build)
         let card = WhatsNewCard(build: shown, date: release.date, items: release.items)
-        messages.append(ChatMessage(speaker: .ace, text: WhatsNew.intro(build: shown, sassy: Sass.isOn(settings.personality)),
+        messages.append(ChatMessage(speaker: .ace, text: WhatsNew.intro(build: shown, sassy: Sass.isOn(settings.personality), level: sassLevel),
                                     cards: [.whatsNew(card)], source: "what's new"))
         saveChat()
         SoundFX.shared.play(.success, gain: 0.5)
@@ -606,7 +641,7 @@ final class AceCore: ObservableObject, BrainHost {
         Haptics.shared.play(.success)
         setMood(.happy)
         let sassy = Sass.isOn(settings.personality)
-        let sassyLines = sassy ? Sass.greetingLines(hour: hour, name: settings.userName) : []
+        let sassyLines = sassy ? Sass.greetingLines(hour: hour, name: settings.userName, level: sassLevel) : []
         let options = sassyLines.isEmpty ? Greeter.lines(hour: hour, name: settings.userName) : sassyLines
         var lines = [options[VariantPicker.shared.pick("greeting.open", count: options.count)]]
         // Now and then, one of your favorites ("Up for some Minecraft today?").
@@ -633,7 +668,7 @@ final class AceCore: ObservableObject, BrainHost {
         if settings.speakGreeting { speak(lines.joined(separator: " "), force: true) }
         if sassy {
             holdMood = true
-            await sassyEyes(Bool.random() ? .roll : .side, then: .happy)
+            await sassyEyes(sassLevel == .mild ? .side : Bool.random() ? .roll : .side, then: .happy)
         } else {
             setMood(.happy, thenIdleAfter: 2.5)
         }

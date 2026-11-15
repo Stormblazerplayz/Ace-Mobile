@@ -180,9 +180,10 @@ TALK = [
         "Something. There, I said something. Happy? Kidding. Ask me a question.",
     ]),
     ("talk", ["roast me", "can you roast me", "insult me"], [
-        "Nope. I roast situations, not people. Like this one: you asked an orb to roast you. Bold.",
-        "*sigh* I don't roast people. I roast timers, the weather and bad Wi-Fi. Want me to roast the Wi-Fi?",
-        "I only roast marshmallows. And slow internet.",
+        "Okay, roast: you asked a talking orb to roast you. That's it. That's the roast. Bold.",
+        "*cracks knuckles* Roast incoming. Your Wi-Fi works harder than this whole conversation.",
+        "I roast situations, not people. This situation? You, me, and zero questions. Medium rare.",
+        "I only roast marshmallows. And slow internet. Your internet, specifically.",
     ]),
     ("talk", ["roast the wifi", "roast the internet", "roast my ipad"], [
         "This Wi-Fi is so slow, snails are passing it on the highway.",

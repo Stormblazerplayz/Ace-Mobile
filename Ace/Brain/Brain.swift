@@ -10,6 +10,8 @@ struct BrainReply {
     var mood: OrbMood = .happy
     /// What kind of answer this is ("timer", "weather", "dontKnow", "sassy"...), so Sassy mode picks the right line.
     var kind: String = ""
+    /// Chat, banter or a goodbye (not a question, so "search it" won't search it).
+    var chat: Bool = false
 }
 
 /// The parts of the app the brain can use (calendar, checks, opening links...).
@@ -46,8 +48,13 @@ final class Brain {
     /// Tests turn Sassy mode on or off here. Otherwise it follows Settings.
     var sassyOverride: Bool?
     var sassy: Bool { sassyOverride ?? Sass.isOn(host?.settings.personality ?? "normal") }
+    /// The sass slider (tests set it directly).
+    var sassLevelOverride: SassLevel?
+    var sassLevel: SassLevel { sassLevelOverride ?? SassLevel(setting: host?.settings.sassLevel ?? "extra") }
 
     private var lastQuestion = ""
+    /// The last real question (not chat, a hello or a command), for "search it" and "look that up".
+    private(set) var lastInfoQuestion = ""
     private var lastAnswer = ""
     private var lastTopic = ""
     private var awaitingAnswerFor: String?
@@ -190,6 +197,7 @@ final class Brain {
         r.text = TextKit.stripModelTags(r.text)
         if r.text.isEmpty && r.cards.isEmpty { r.text = Say.line(.empty) }
         lastQuestion = resolvedQuestion ?? question
+        if !r.chat, !Self.notQuestions.contains(r.kind) { lastInfoQuestion = lastQuestion }
         resolvedQuestion = nil
         lastAnswer = r.text
         for card in r.cards {
@@ -202,6 +210,8 @@ final class Brain {
     /// that Ace does itself. Small talk like "hi" and "thanks" counts as a question here.
     static func sassyFirst(_ decision: Decision) -> Bool {
         switch decision {
+        // A goodbye always gets Ace's goodbye (and the orb goes to sleep), sassy or not.
+        case .rule(.goodbye), .classified(.goodbye): return false
         case .rule(let intent), .classified(let intent): return !intent.isAction
         default: return true
         }
@@ -230,13 +240,19 @@ final class Brain {
         // Small talk said word for word always counts. A fact question with "it" or "that" in it is
         // probably about the last answer, so the normal answers take it.
         if sassy, Self.sassyFirst(decision), let entry = SassPack.shared.match(text),
-           entry.exact || !Self.soundsLikeFollowUp(text), let hit = SassPack.shared.answer(text) {
+           entry.exact || !Self.soundsLikeFollowUp(text), let hit = SassPack.shared.answer(text, level: sassLevel) {
             await think("Sassy mode: found it in the sassy set")
-            return BrainReply(text: hit.text, source: "Ace's sassy set", kind: "sassy")
+            let chatty = ["talk", "about", "joke"].contains(hit.entry.topic)
+            return BrainReply(text: hit.text, source: "Ace's sassy set", kind: "sassy", chat: chatty)
         }
 
         switch decision {
         case .rule(let intent), .classified(let intent):
+            // Chat and goodbyes are conversation: answered here, never searched.
+            if let r = conversation(intent) {
+                await think(intent == .goodbye ? "That's a goodbye" : "That's just chatting, not a question to look up")
+                return r
+            }
             if var r = await run(intent, text: text, think: think) {
                 if r.kind.isEmpty { r.kind = intent.kind }
                 return r
@@ -251,8 +267,9 @@ final class Brain {
             break
         }
 
-        // Research it on the web, then learn it (only when the brain wasn't sure).
-        if let host, host.settings.webAnswers, SystemMonitor.shared.online {
+        // Research it on the web, then learn it (only when the brain wasn't sure, and only for a clear
+        // question: never chat, a goodbye, one word or only little words like "it").
+        if let host, host.settings.webAnswers, SystemMonitor.shared.online, Chat.isInfoQuestion(text) {
             await think("Not sure yet, so I'm researching it on the web")
             if let r = await WebService.research(text), r.confidence >= 0.5 {
                 await think("Read \(max(1, r.sources.count)) source\(r.sources.count == 1 ? "" : "s") and picked the best sentences")
@@ -290,13 +307,52 @@ final class Brain {
             return r
         }
 
+        // Not a question at all ("I'm going to the store"): chat back instead of "I don't know".
+        if !Chat.isInfoQuestion(text), !Sass.isSerious(text) {
+            await think("That sounds like chatting, not a question to look up")
+            return chatReply(.whatever)
+        }
+
         await think("Out of ideas for now")
         lastTopic = Summarizer.topic(of: text)
         var r = BrainReply(text: Say.line(.dontKnow, ["question": TextKit.normalize(text)]), source: "rules", mood: .idle, kind: "dontKnow")
-        if let host, let link = Sites.searchLink(text, site: nil, engine: host.settings.searchEngine) {
+        if let host, Chat.isInfoQuestion(text), let link = Sites.searchLink(text, site: nil, engine: host.settings.searchEngine) {
             r.cards = [.links([LinkItem(title: link.title, url: link.url)])]
         }
         return r
+    }
+
+    /// Kinds of reply that aren't answers to a question, so "search it" skips them.
+    static let notQuestions: Set<String> = ["greeting", "summon", "thanks", "goodbye", "chat", "searchTab", "openSite",
+                                            "clarify", "voiceSpeed", "sounds", "handsFree", "settings"]
+
+    /// Chat and goodbyes, answered without the web. nil for anything else.
+    func conversation(_ intent: Intent) -> BrainReply? {
+        switch intent {
+        case .chat(let kind): return chatReply(kind)
+        case .goodbye: return goodbyeReply()
+        default: return nil
+        }
+    }
+
+    /// A reply to banter: friendly in Normal mode, sassy (about the situation, never the person) in Sassy mode.
+    func chatReply(_ kind: Chat.Kind) -> BrainReply {
+        if sassy {
+            let line = SassPack.shared.line("banter." + kind.rawValue, level: sassLevel)
+            if !line.isEmpty {
+                return BrainReply(text: line, source: "Ace's sassy set", mood: .happy, kind: "sassy", chat: true)
+            }
+        }
+        let options = Chat.lines(kind)
+        let text = options[VariantPicker.shared.pick("chat." + kind.rawValue, count: options.count)]
+        return BrainReply(text: text, source: "rules", mood: .happy, kind: "chat", chat: true)
+    }
+
+    /// Bye, and the orb goes to sleep.
+    func goodbyeReply() -> BrainReply {
+        let name = host?.settings.userName ?? ""
+        let who = name.isEmpty ? "" : ", \(name)"
+        return BrainReply(text: Say.line(.goodbye, ["who": who]), source: "rules", mood: .sleeping, kind: "goodbye", chat: true)
     }
 
     /// LFM3 Omni as the brain. Returns nil to let Normal Ace answer instead
@@ -708,6 +764,7 @@ final class Brain {
     /// Starts a fresh conversation.
     func resetConversation() {
         lastQuestion = ""
+        lastInfoQuestion = ""
         lastAnswer = ""
         lastTopic = ""
         awaitingAnswerFor = nil
@@ -824,6 +881,7 @@ final class Brain {
         case .summon: return "you calling my name"
         case .thanks: return "a thank you"
         case .goodbye: return "a goodbye"
+        case .chat: return "chatting"
         case .time: return "the time"
         case .date: return "today's date"
         case .daysUntil: return "a countdown"
@@ -903,7 +961,10 @@ final class Brain {
             return BrainReply(text: Say.line(.thanks, ["who": who]))
 
         case .goodbye:
-            return BrainReply(text: Say.line(.goodbye, ["who": who]), mood: .idle)
+            return goodbyeReply()
+
+        case .chat(let kind):
+            return chatReply(kind)
 
         case .time:
             return BrainReply(text: Say.line(.time, ["time": now.formatted(date: .omitted, time: .shortened)]))
@@ -968,12 +1029,25 @@ final class Brain {
         case .calendarList(let t):
             return await calendarList(t, think: think)
 
+        case .openSite(let target) where Chat.isPointer(target):
+            // "open it": search the last thing you asked.
+            guard let query = Chat.resolve(target, lastQuestion: lastInfoQuestion) else {
+                return BrainReply(text: "Open what? Tell me the site or what to look up.", mood: .idle, kind: "clarify")
+            }
+            guard let link = Sites.searchLink(query, site: nil, engine: host.settings.searchEngine) else { return nil }
+            host.openLink(link.url, title: link.title)
+            return BrainReply(text: Say.line(.searchTab, ["site": "the web", "query": query]), cards: [.links([LinkItem(title: link.title, url: link.url)])])
+
         case .openSite(let target):
             guard let link = Sites.link(for: target, engine: host.settings.searchEngine) else { return nil }
             host.openLink(link.url, title: link.title)
             return BrainReply(text: Say.line(.openSite, ["site": link.title]), cards: [.links([LinkItem(title: link.title, url: link.url)])])
 
-        case .searchTab(let query, let site):
+        case .searchTab(let asked, let site):
+            // "search it": the last thing you asked. Nothing asked yet: ask what to search.
+            guard let query = Chat.resolve(asked, lastQuestion: lastInfoQuestion) else {
+                return BrainReply(text: "Search what?", mood: .idle, kind: "clarify")
+            }
             guard let link = Sites.searchLink(query, site: site, engine: host.settings.searchEngine) else { return nil }
             host.openLink(link.url, title: link.title)
             return BrainReply(text: Say.line(.searchTab, ["site": site.flatMap { Sites.lookup($0)?.name } ?? "the web", "query": query]), cards: [.links([LinkItem(title: link.title, url: link.url)])])

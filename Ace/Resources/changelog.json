@@ -1,6 +1,18 @@
 {
  "builds": [
   {
+   "build": 53,
+   "date": "2026-11-15",
+   "items": [
+    "Sass slider: in Settings, under Personality, pick Mild, Spicy or Extra when Sassy mode is on. Extra is the full attitude.",
+    "Mild is a light quip now and then, Spicy is a sassy line on most replies, and Extra is every reply with big eye-rolls.",
+    "The eye-rolls and the sassy voice get bigger the higher the slider goes.",
+    "Chatting like \"roast me\", \"lol\" or \"whatever\" gets a real reply instead of a web search.",
+    "\"Search it\" searches what you asked before, or asks \"Search what?\".",
+    "Goodbyes like \"I'm gonna leave\" or \"gtg\" get a goodbye, and the orb goes to sleep."
+   ]
+  },
+  {
    "build": 52,
    "date": "2026-11-15",
    "items": [
