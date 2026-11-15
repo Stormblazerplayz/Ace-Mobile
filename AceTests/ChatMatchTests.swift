@@ -32,7 +32,7 @@ final class ChatMatchTests: XCTestCase {
         ("heyy", .hello),
         ("hiii", .hello),
         ("yo yo", .hello),
-        ("howdy", .hello),
+        ("heya", .hello),
         ("I'm back", .hello),
         ("long time no see", .hello),
         ("nice to meet you", .hello),
@@ -213,8 +213,11 @@ final class ChatMatchTests: XCTestCase {
         XCTAssertEqual(IntentRouter.parse("go back to normal mode"), .personality(false))
         XCTAssertEqual(IntentRouter.parse("be normal"), .personality(false))
         // Real scenes still go to Apple Home.
-        XCTAssertEqual(IntentRouter.parse("movie mode")?.kind, "home.scene")
-        XCTAssertEqual(IntentRouter.parse("run the goodnight scene")?.kind, "home.scene")
+        for text in ["movie mode", "run the goodnight scene"] {
+            guard case .home(let h)? = IntentRouter.parse(text), case .scene = h.action else {
+                return XCTFail("\(text) should still be an Apple Home scene")
+            }
+        }
     }
 
     func testChatNeverAsksAppleHome() {
