@@ -233,11 +233,56 @@ def send():
     return finish(x, 0.55)
 
 
+# Short, quiet sounds for when the orb changes mood (Settings > Mood sounds).
+def mood_listen():
+    """Two soft rising blips: Ace is listening."""
+    buf = np.zeros(int(SR * 0.22))
+    place(buf, bell(880.0, 0.12, decay=9.0), 0.0)
+    place(buf, bell(1318.5, 0.14, decay=9.0), 0.07)
+    return finish(buf, 0.35)
+
+
+def mood_think():
+    """A small low "hmm" bubble: Ace is thinking."""
+    d = 0.26
+    n = int(SR * d)
+    x = sweep(300, 360, d) * env(n, 0.03, 0.15)
+    x += 0.3 * sweep(600, 720, d) * env(n, 0.03, 0.12)
+    return finish(lowpass(x, 2500), 0.3)
+
+
+def mood_happy():
+    """A quick bright chirp up a major third: Ace is happy."""
+    buf = np.zeros(int(SR * 0.26))
+    place(buf, bell(1046.5, 0.14, decay=8.0), 0.0)
+    place(buf, bell(1318.5, 0.18, decay=7.0), 0.06)
+    return finish(buf, 0.35)
+
+
+def mood_confused():
+    """A little "huh?" that dips and comes back up: Ace isn't sure."""
+    d = 0.3
+    n = int(SR * d)
+    f = np.concatenate([np.geomspace(520, 380, n // 2), np.geomspace(380, 560, n - n // 2)])
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * env(n, 0.02, 0.1)
+    return finish(lowpass(x, 3000), 0.3)
+
+
+def mood_sleep():
+    """Two gentle falling notes: Ace is going to sleep."""
+    buf = np.zeros(int(SR * 0.42))
+    place(buf, bell(659.3, 0.2, decay=6.0), 0.0)
+    place(buf, bell(523.3, 0.28, decay=5.0), 0.12)
+    return finish(lowpass(buf, 2200), 0.28)
+
+
 SOUNDS = {
     "orb_wake": orb_wake, "eyes_pop": eyes_pop, "blink": blink, "look_whir": look_whir,
     "think_loop": think_loop, "success": success, "alert": alert, "listen_start": listen_start,
     "listen_stop": listen_stop, "type_tick": type_tick, "greeting": greeting,
     "sleep_whoosh": sleep_whoosh, "send": send,
+    "mood_listen": mood_listen, "mood_think": mood_think, "mood_happy": mood_happy,
+    "mood_confused": mood_confused, "mood_sleep": mood_sleep,
 }
 
 if __name__ == "__main__":

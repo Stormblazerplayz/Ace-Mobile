@@ -33,6 +33,10 @@ final class AceCore: ObservableObject, BrainHost {
     private var wakeTask: Task<Void, Never>?
     private var moodResetTask: Task<Void, Never>?
     private var lastInteraction = Date()
+    /// When the app went to the background (for the hello when you come back).
+    private var awaySince: Date?
+    /// False until the app has been in front once since it started.
+    private var openedOnce = false
     private var typing = false
     private let chatFile = "chat.json"
     private let checksFile = "checks.json"
@@ -132,14 +136,24 @@ final class AceCore: ObservableObject, BrainHost {
             VoiceIn.shared.appActive(true)
         }
         KitchenTimers.shared.refresh()
-        let today = Persistence.dayKey()
-        if settings.lastGreetingDay != today {
+        // Ace says hello when the app starts, and when you come back after 5 minutes or more.
+        let now = Date()
+        let first = !openedOnce
+        openedOnce = true
+        let away = awaySince
+        awaySince = nil
+        if Greeter.shouldGreet(now: now, lastGreeting: settings.lastGreetingAt, awaySince: away, firstOpen: first) {
+            settings.lastGreetingAt = now
+            // The first hello of the day also shows today's calendar and battery.
+            let today = Persistence.dayKey()
+            let full = settings.lastGreetingDay != today
             settings.lastGreetingDay = today
-            Task { await greet() }
+            Task { await greet(full: full) }
         }
     }
 
     func wentToBackground() {
+        awaySince = Date()
         wakeTask?.cancel()
         wakeTask = nil
         SoundFX.shared.stopLoop()
@@ -217,8 +231,9 @@ final class AceCore: ObservableObject, BrainHost {
     }
 
     /// Reads a reply out loud. A translation in it is said in that language's accent.
-    func speak(_ text: String, cards: [AceCard] = []) {
-        guard settings.speakReplies || handsFree else { return }
+    /// `force` says it even when spoken replies are off (the hello when the app opens has its own switch).
+    func speak(_ text: String, cards: [AceCard] = [], force: Bool = false) {
+        guard force || settings.speakReplies || handsFree else { return }
         VoiceOut.shared.speak(Phrasebook.spokenParts(text, cards: cards), voiceID: settings.voiceID) { [weak self] speaking in
             guard let self else { return }
             VoiceIn.shared.aceSpeaking(speaking)
@@ -237,6 +252,7 @@ final class AceCore: ObservableObject, BrainHost {
 
     func setMood(_ m: OrbMood, thenIdleAfter seconds: Double? = nil) {
         moodResetTask?.cancel()
+        if settings.moodSounds { SoundFX.shared.playMood(from: mood, to: m) }
         withAnimation(.spring(response: 0.45, dampingFraction: 0.72)) { mood = m }
         if let seconds {
             moodResetTask = Task { @MainActor [weak self] in
@@ -460,18 +476,32 @@ final class AceCore: ObservableObject, BrainHost {
 
     // MARK: Greeting and bedtime
 
-    private func greet() async {
-        try? await Task.sleep(nanoseconds: 700_000_000)
+    /// The hello when the app opens: the orb wakes up, the greeting sound plays, and Ace says hi
+    /// (out loud too, unless that's off in Settings). `full` adds today's calendar and battery.
+    private func greet(full: Bool) async {
+        try? await Task.sleep(nanoseconds: 500_000_000)
+        guard !busy else { return }
+        // The orb wakes up: the island stretches and the eyes pop out.
+        SoundFX.shared.play(.orbWake, gain: 0.7)
+        Haptics.shared.play(.wake)
+        setMood(.checking)
+        try? await Task.sleep(nanoseconds: 650_000_000)
         let hour = Calendar.current.component(.hour, from: Date())
-        let part = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening"
+        let part = Greeter.partOfDay(hour: hour)
         let name = settings.userName.isEmpty ? "" : ", \(settings.userName)"
         SoundFX.shared.play(.greeting, gain: 0.8)
         Haptics.shared.play(.success)
         setMood(.happy)
-        var lines = ["\(part)\(name)! Ace V4 is awake."]
+        let options = Greeter.lines(hour: hour, name: settings.userName)
+        var lines = [options[VariantPicker.shared.pick("greeting.open", count: options.count)]]
+        // Now and then, one of your favorites ("Up for some Minecraft today?").
+        if let fav = Favorites.all(memory.facts.map(\.text)).reversed().first(where: { Favorites.greetingLine($0) != nil }),
+           Double.random(in: 0..<1) < 0.35, Favorites.takeTurn(fav), let line = Favorites.greetingLine(fav) {
+            lines.append(line)
+        }
         let cal = CalendarService.shared
         var today: [EventItem] = []
-        if cal.eventAccess {
+        if full, cal.eventAccess {
             let c = Calendar.current
             let end = c.date(byAdding: .day, value: 1, to: c.startOfDay(for: Date()))!
             let events = cal.events(from: Date(), to: end, nimbusOnly: false).sorted { $0.start < $1.start }
@@ -480,12 +510,12 @@ final class AceCore: ObservableObject, BrainHost {
                             "You have \(events.count) thing\(events.count == 1 ? "" : "s") today, starting with \(events[0].title).")
         }
         let card = GreetingCard(hello: "\(part)\(name)!", date: Date(), events: today, calendarAllowed: cal.eventAccess)
-        if let level = SystemMonitor.shared.snapshot().batteryLevel, level < 0.25 {
+        if full, let level = SystemMonitor.shared.snapshot().batteryLevel, level < 0.25 {
             lines.append("Your battery is at \(Int(level * 100))%, so you may want to charge.")
         }
-        messages.append(ChatMessage(speaker: .ace, text: lines.joined(separator: " "), cards: [.greeting(card)], source: "greeting"))
+        messages.append(ChatMessage(speaker: .ace, text: lines.joined(separator: " "), cards: full ? [.greeting(card)] : [], source: "greeting"))
         saveChat()
-        speak(lines.joined(separator: " "))
+        if settings.speakGreeting { speak(lines.joined(separator: " "), force: true) }
         setMood(.happy, thenIdleAfter: 2.5)
     }
 

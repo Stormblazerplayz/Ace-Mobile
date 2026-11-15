@@ -27,6 +27,8 @@ struct SettingsView: View {
                     }
                     .disabled(!settings.soundsOn)
                     Toggle("Haptics", isOn: $settings.hapticsOn)
+                    Toggle("Mood sounds", isOn: $settings.moodSounds)
+                        .disabled(!settings.soundsOn)
                     Button("Play a test sound") {
                         core.applySoundSettings()
                         SoundFX.shared.play(.greeting)
@@ -35,11 +37,21 @@ struct SettingsView: View {
                 } header: {
                     Text("Sounds")
                 } footer: {
-                    Text("Sound effects follow your silent switch.")
+                    Text("Sound effects follow your silent switch. Mood sounds are quiet blips when the orb changes mood.")
+                }
+
+                Section {
+                    Toggle("Seasonal orb outfits", isOn: $settings.orbOutfits)
+                    NavigationLink("Preview outfits") { OutfitPreviewView() }
+                } header: {
+                    Text("Orb")
+                } footer: {
+                    Text("Ace wears a Santa hat in December, a pumpkin at Halloween, and more on special days.")
                 }
 
                 Section {
                     Toggle("Read replies out loud", isOn: $settings.speakReplies)
+                    Toggle("Say hello out loud when Ace opens", isOn: $settings.speakGreeting)
                     Toggle("Listen for \"Hey Ace\"", isOn: Binding(
                         get: { settings.heyAce },
                         set: { on in _ = core.setHandsFree(on) }

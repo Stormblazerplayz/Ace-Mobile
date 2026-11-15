@@ -56,6 +56,7 @@ enum Intent: Equatable {
     case ipadOnlyLimit(String)
     case home(HomeCommand)
     case focus(String)            // "start 1500", "stop" or "left"
+    case leader(Leaders.Ask)      // "who is the prime minister of the UK", "who is the president of the UK" (it has none)
 }
 
 extension Intent {
@@ -130,11 +131,31 @@ extension Intent {
         case .ipadOnlyLimit: return "ipadOnlyLimit"
         case .home: return "home"
         case .focus: return "focus"
+        case .leader: return "leader"
         }
     }
 }
 
 enum IntentRouter {
+    /// Takes "Hello Ace," or "Hey Ace" off the front of a question, so "Hello Ace what is the capital of the UK"
+    /// is just "what is the capital of the UK". A plain "hello" or "hey Ace" on its own is left alone (it's a greeting),
+    /// and so is "hello world in python", where "hello" is part of the question.
+    static func withoutGreeting(_ raw: String) -> String {
+        let text = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+        let pattern = #"^(?:((?:hey|hi|hello|hiya|yo|howdy|ok|okay|good morning|good afternoon|good evening|morning)(?:\s+there)?)\b\s*([,!.;:]*)\s*)?(?:(ace)\b\s*([,!.;:]*)\s*)?(.*)$"#
+        guard let g = Rx.groups(pattern, text), g.count == 5 else { return text }
+        let greeting = g[0], greetingMark = g[1], name = g[2], nameMark = g[3]
+        let rest = g[4].trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !greeting.isEmpty || !name.isEmpty, !rest.isEmpty else { return text }
+        // A real question or command has to follow, not just more chat ("hey ace!!").
+        guard rest.rangeOfCharacter(from: .alphanumerics) != nil else { return text }
+        // "Hello Ace ..." or "Ace, ..." is clearly talking to Ace. "Ace of spades" isn't, so the name alone needs a comma.
+        let marked = (!greeting.isEmpty && !name.isEmpty) || !greetingMark.isEmpty || !nameMark.isEmpty
+        let starts = #"^(what|what's|whats|who|who's|whos|where|where's|when|why|how|how's|which|is|are|was|were|can|could|do|does|did|will|would|should|tell|show|give|make|set|play|start|stop|open|turn|find|search|remind|add|let's|lets|please|define|translate|calculate|explain|convert|spell|i|i'm|im|my|whats|help)\b"#
+        guard marked || Rx.matches(starts, rest) else { return text }
+        return rest
+    }
+
     /// Reads the sentence with rules. Returns nil when no rule fits.
     static func parse(_ raw: String) -> Intent? {
         let t = TextKit.normalize(raw)
@@ -164,6 +185,9 @@ enum IntentRouter {
         // Follow-ups
         if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
         if Rx.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
+
+        // Who leads a country, and fixing a wrong title ("president of the UK").
+        if let ask = Leaders.parse(raw) { return .leader(ask) }
 
         // Homework, step by step ("solve 2x + 3 = 11", "3/4 + 1/8", "help me with my math homework").
         // Read from the words as typed, because normalizing drops "=", "(" and ")".

@@ -37,10 +37,59 @@ enum RecipeBook {
         "dinner", "lunch", "breakfast", "dessert", "snack", "food", "something", "meal", "tonight", "today",
     ]
 
+    /// Quick versions of a dish. "chocolate cake" is the full cake; "quick chocolate cake" or
+    /// "mug cake" is the 5-minute one.
+    static let quickVersions: [String: String] = ["chocolate-cake": "chocolate-mug-cake"]
+
+    /// Words that ask for the fast, small version of a dish.
+    private static let quickPattern = #"\b(mug|quick|quickly|fast|single|single serve|single serving|microwave|microwaved|5 minute|five minute|5 min|for one|one person|individual)\b"#
+
+    /// True when the words ask for a quick or single-serve version ("quick chocolate cake", "mug cake").
+    static func wantsQuick(_ dish: String) -> Bool {
+        Rx.matches(quickPattern, TextKit.normalize(dish).replacingOccurrences(of: "-", with: " "))
+    }
+
+    /// The quick version of a recipe, if Ace has one.
+    static func quickVersion(of e: Entry) -> Entry? {
+        guard let id = quickVersions[e.id] else { return nil }
+        return all.first { $0.id == id }
+    }
+
+    /// The line Ace adds under a full recipe when there's a quick version ("Want a quick 5-minute mug version instead?").
+    static func quickOffer(for e: Entry) -> String? {
+        guard let q = quickVersion(of: e) else { return nil }
+        let minutes = Int(q.time.split(separator: " ").first ?? "") ?? 0
+        let kind = q.id.contains("mug") ? "mug" : "quick"
+        let size = minutes > 0 ? "\(minutes)-minute " : ""
+        return "Want a quick \(size)\(kind) version instead?"
+    }
+
+    /// True when a recipe is the quick version of another one (the mug cake).
+    static func isQuickVersion(_ e: Entry) -> Bool {
+        quickVersions.values.contains(e.id)
+    }
+
     /// Finds a recipe by name ("pancakes", "choc chip cookies", "spaghetti bolognese").
+    /// The plain dish wins over its quick version unless you ask for quick, mug or microwave.
     static func find(_ dish: String) -> Entry? {
         let t = TextKit.normalize(dish)
         guard !t.isEmpty else { return nil }
+        guard let e = match(t) else {
+            // "microwave chocolate cake": no name has every word, so drop the quick words and use the quick version.
+            guard wantsQuick(t) else { return nil }
+            let plain = t.replacingOccurrences(of: "-", with: " ")
+                .replacingOccurrences(of: quickPattern, with: " ", options: [.regularExpression, .caseInsensitive])
+                .replacingOccurrences(of: #"\b(version|serve|serving|size|sized|minute|minutes|min)\b"#, with: " ", options: .regularExpression)
+            let cleaned = plain.split(separator: " ").joined(separator: " ")
+            guard !cleaned.isEmpty, cleaned != t, let base = match(cleaned) else { return nil }
+            return quickVersion(of: base) ?? base
+        }
+        // "quick chocolate cake": the words found the full cake, but you want the fast one.
+        if wantsQuick(t), let q = quickVersion(of: e) { return q }
+        return e
+    }
+
+    private static func match(_ t: String) -> Entry? {
         // Exact name or alias first.
         if let e = all.first(where: { $0.name.lowercased() == t || $0.aliases.contains(t) }) { return e }
         let words = t.split(separator: " ").map { singular(String($0)) }.filter { !filler.contains($0) }
@@ -57,7 +106,8 @@ enum RecipeBook {
                 let nameWords = Set(n.split(separator: " ").map(String.init))
                 let hits = words.filter { w in nameWords.contains(w) || (w.count >= 7 && nameWords.contains { HomeService.distance($0, w) <= 1 }) }.count
                 guard hits == words.count else { continue }
-                let score = Double(nameWords.count - hits) + (i == 0 ? 0 : 1.5)
+                // A quick version only wins when nothing plainer fits.
+                let score = Double(nameWords.count - hits) + (i == 0 ? 0 : 1.5) + (isQuickVersion(e) ? 3 : 0)
                 if best == nil || score < best!.1 { best = (e, score) }
             }
         }

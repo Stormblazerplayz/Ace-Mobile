@@ -86,6 +86,7 @@ struct RootView: View {
                     status: core.statusLine,
                     maxExpandedWidth: geo.size.width,
                     level: voice.level,
+                    outfit: settings.orbOutfits ? OrbOutfit.forDate(Date()) : nil,
                     onTap: {
                         // Tapping the orb opens Settings (there's no gear button any more).
                         showSettings = true

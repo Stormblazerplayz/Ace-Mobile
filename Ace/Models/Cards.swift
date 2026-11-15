@@ -22,11 +22,14 @@ enum AceCard: Codable, Equatable {
     case steps(StepsCard)
 }
 
-/// Buttons that send a short answer ("Yes", "No"...), used by 20 questions.
+/// Buttons that send a short answer ("Yes", "No"...), used by 20 questions and recipe offers.
 struct QuickReplies: Codable, Equatable {
     /// Matches Brain.gameToken while these buttons still mean something.
     var token: String
     var replies: [String]
+    /// True for buttons that work any time, like "Chocolate mug cake recipe" (not part of a game).
+    /// Optional so chats saved before it still load.
+    var anytime: Bool? = nil
 }
 
 /// The first hello of the day: the date, what's on today, and a few quick things to ask.
