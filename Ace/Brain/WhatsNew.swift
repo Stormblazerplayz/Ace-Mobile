@@ -43,9 +43,9 @@ enum WhatsNew {
 
     /// The line that comes with the card.
     @MainActor
-    static func intro(build: Int, sassy: Bool, pack: SassPack = .shared) -> String {
+    static func intro(build: Int, sassy: Bool, level: SassLevel = .extra, pack: SassPack = .shared) -> String {
         if sassy {
-            let line = pack.line("whatsnew", fill: ["build": "\(build)"])
+            let line = pack.line("whatsnew", level: level, fill: ["build": "\(build)"])
             if !line.isEmpty { return line }
         }
         return "Here's what's new in build \(build)."

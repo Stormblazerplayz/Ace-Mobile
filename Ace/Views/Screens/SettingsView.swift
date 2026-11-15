@@ -24,12 +24,13 @@ struct SettingsView: View {
                         Text("Sassy").tag("sassy")
                     }
                     .pickerStyle(.segmented)
+                    if settings.personality == "sassy" {
+                        SassSlider(level: $settings.sassLevel)
+                    }
                 } header: {
                     Text("Personality")
                 } footer: {
-                    Text(settings.personality == "sassy"
-                         ? "Sassy Ace has a LOT of attitude, rolls its eyes, and still gives the right answer."
-                         : "Switch to Sassy for an Ace with a lot of attitude. Same right answers.")
+                    Text(personalityFooter)
                 }
 
                 Section {
@@ -188,9 +189,21 @@ struct SettingsView: View {
             .onChange(of: settings.hapticsOn) { _, _ in core.applySoundSettings() }
             .onChange(of: settings.wakeChecks) { _, _ in core.scheduleWake() }
             .onChange(of: settings.personality) { _, new in core.personalityChanged(to: new) }
+            .onChange(of: settings.sassLevel) { _, new in core.sassLevelChanged(to: new) }
         }
         .preferredColorScheme(.dark)
         .tint(AceTheme.ace)
+    }
+
+    private var personalityFooter: String {
+        guard settings.personality == "sassy" else {
+            return "Switch to Sassy for an Ace with attitude. Same right answers."
+        }
+        switch SassLevel(setting: settings.sassLevel) {
+        case .mild: return "Mild: a light, friendly quip now and then. Still the right answers."
+        case .spicy: return "Spicy: a sassy line on most replies, with some eye-rolls. Still the right answers."
+        case .extra: return "Extra: a LOT of attitude on every reply, big eye-rolls and dramatic sighs. Still the right answers."
+        }
     }
 
     static var version: String {

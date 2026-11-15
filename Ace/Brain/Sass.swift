@@ -1,4 +1,51 @@
 import Foundation
+import CoreGraphics
+
+/// How much attitude Sassy Ace has: the slider in Settings, under Personality.
+enum SassLevel: Int, CaseIterable, Comparable {
+    /// A light quip on some replies.
+    case mild = 1
+    /// A sassy line on most replies.
+    case spicy = 2
+    /// Full attitude: every reply, big eye-rolls, lots of drama.
+    case extra = 3
+
+    /// From the setting ("mild", "spicy" or "extra"). Anything else is Extra, the default.
+    init(setting: String) {
+        switch setting {
+        case "mild": self = .mild
+        case "spicy": self = .spicy
+        default: self = .extra
+        }
+    }
+
+    var setting: String {
+        switch self {
+        case .mild: return "mild"
+        case .spicy: return "spicy"
+        case .extra: return "extra"
+        }
+    }
+
+    var title: String {
+        switch self {
+        case .mild: return "Mild"
+        case .spicy: return "Spicy"
+        case .extra: return "Extra"
+        }
+    }
+
+    /// Which tagged lines each stop picks from (tools/sass_pack/build.py tags every line 1, 2 or 3).
+    var pool: Set<Int> {
+        switch self {
+        case .mild: return [1]
+        case .spicy: return [2]
+        case .extra: return [2, 3]
+        }
+    }
+
+    static func < (a: SassLevel, b: SassLevel) -> Bool { a.rawValue < b.rawValue }
+}
 
 /// Sassy mode's own small data set (sass_pack.json, made by tools/sass_pack/build.py):
 /// sassy answers for common questions, and sassy lines to wrap every other answer.
@@ -16,15 +63,26 @@ final class SassPack {
         var exact: Bool
         var q: [String]
         var a: [String]
+        /// The sass level of each answer: 1 Mild, 2 Spicy, 3 Extra.
+        var lv: [Int]?
+
+        /// The answers that fit a slider stop.
+        func answers(for level: SassLevel) -> [String] {
+            let levels = lv ?? Array(repeating: 2, count: a.count)
+            return zip(a, levels).filter { level.pool.contains($0.1) }.map(\.0)
+        }
     }
 
     private struct File: Codable {
         var version: Int
         var lines: [String: [String]]
+        var levels: [String: [Int]]?
         var answers: [Entry]
     }
 
     let lines: [String: [String]]
+    /// The sass level of each line, in the same order as `lines`.
+    let levels: [String: [Int]]
     let answers: [Entry]
     private var byPhrase: [String: Int] = [:]
     private var byKeywords: [String: Int] = [:]
@@ -38,6 +96,7 @@ final class SassPack {
             file = try? JSONDecoder().decode(File.self, from: d)
         }
         lines = file?.lines ?? [:]
+        levels = file?.levels ?? [:]
         answers = file?.answers ?? []
         for (i, e) in answers.enumerated() {
             for q in e.q {
@@ -72,16 +131,28 @@ final class SassPack {
         return nil
     }
 
-    /// A sassy answer for a question, picked so it doesn't repeat the last few.
-    func answer(_ question: String) -> (entry: Entry, text: String)? {
-        guard let e = match(question), !e.a.isEmpty else { return nil }
-        return (e, e.a[VariantPicker.shared.pick("sass.answer." + e.id, count: e.a.count)])
+    /// A sassy answer for a question at a slider stop, picked so it doesn't repeat the last few.
+    /// nil when the sassy set has none at that level, so Ace's normal answers take it.
+    func answer(_ question: String, level: SassLevel = .extra) -> (entry: Entry, text: String)? {
+        guard let e = match(question) else { return nil }
+        let fit = e.answers(for: level)
+        guard !fit.isEmpty else { return nil }
+        return (e, fit[VariantPicker.shared.pick("sass.answer.\(level.rawValue)." + e.id, count: fit.count)])
     }
 
-    /// One line of a kind ("answer.open", "timer", "repeat.2"...), or "" when there are none.
-    func line(_ key: String, fill: [String: String] = [:]) -> String {
-        guard let all = lines[key], !all.isEmpty else { return "" }
-        var s = all[VariantPicker.shared.pick("sass." + key, count: all.count)]
+    /// The lines of a kind that fit a slider stop (all of them if the kind has none at that level).
+    func linesFor(_ key: String, level: SassLevel) -> [String] {
+        guard let all = lines[key], !all.isEmpty else { return [] }
+        guard let lv = levels[key], lv.count == all.count else { return all }
+        let fit = zip(all, lv).filter { level.pool.contains($0.1) }.map(\.0)
+        return fit.isEmpty ? all : fit
+    }
+
+    /// One line of a kind ("answer.open", "timer", "repeat.2"...) at a slider stop, or "" when there are none.
+    func line(_ key: String, level: SassLevel = .extra, fill: [String: String] = [:]) -> String {
+        let all = linesFor(key, level: level)
+        guard !all.isEmpty else { return "" }
+        var s = all[VariantPicker.shared.pick("sass.\(level.rawValue)." + key, count: all.count)]
         for (k, v) in fill { s = s.replacingOccurrences(of: "{\(k)}", with: v) }
         return s
     }
@@ -130,7 +201,8 @@ enum Sass {
 
     /// Which kind of sassy line fits a reply. nil means no sass (it was already handled).
     static func category(kind: String, source: String, mood: OrbMood, cards: [AceCard]) -> String {
-        if kind == "sassy" { return "sassy" }
+        // Sassy-set answers and banter already have their attitude.
+        if kind == "sassy" || kind == "chat" { return "sassy" }
         if kind == "dontKnow" { return "unknown" }
         if mood == .alert { return "error" }
         for card in cards {
@@ -189,40 +261,98 @@ enum Sass {
     static func isLate(hour: Int) -> Bool { hour >= 22 || hour < 5 }
 
     /// Wraps an answer in sass. `repeats` is how many times the same question was asked in the last
-    /// 30 minutes before this one. `chance` is a random number from 0 to 1 (fixed in tests).
-    static func dress(_ answer: String, category: String, repeats: Int, hour: Int, pack: SassPack = .shared,
-                      chance: () -> Double = { Double.random(in: 0..<1) }) -> Dressed {
+    /// 30 minutes before this one. `level` is the slider: Mild adds a light quip to some replies,
+    /// Spicy a sassy line to most, Extra a line to every reply. `chance` is a random number from 0 to 1
+    /// (fixed in tests).
+    static func dress(_ answer: String, category: String, repeats: Int, hour: Int, level: SassLevel = .extra,
+                      pack: SassPack = .shared, chance: () -> Double = { Double.random(in: 0..<1) }) -> Dressed {
         var before = ""
         var after = ""
         if repeats > 0 {
-            before = pack.line("repeat.\(min(repeats, 3))")
+            // A repeat always gets a comeback, gentle at Mild.
+            before = pack.line("repeat.\(min(repeats, 3))", level: level)
         } else if category == "sassy" {
             // The sassy set's own answers already have their attitude.
+        } else if chance() >= often(level) {
+            // Mild and Spicy let some replies go by without a line.
         } else if isLate(hour: hour), ["answer", "recipe", "unknown", "math"].contains(category), chance() < 0.35 {
-            before = pack.line("latenight")
+            before = pack.line("latenight", level: level)
         } else if afterKinds.contains(category) {
-            after = pack.line(category)
+            after = pack.line(category, level: level)
         } else {
-            before = pack.line(pack.lines[category] == nil ? "answer.open" : category)
+            before = pack.line(pack.lines[category] == nil ? "answer.open" : category, level: level)
         }
         // Plain answers often get a line after, too, for extra attitude.
-        if after.isEmpty, category == "answer", repeats == 0, chance() < 0.4 {
-            after = pack.line("answer.close")
+        if after.isEmpty, category == "answer", repeats == 0, chance() < closeOften(level) {
+            after = pack.line("answer.close", level: level)
         }
         let text = [before, answer, after]
             .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
             .filter { !$0.isEmpty }
             .joined(separator: answer.contains("\n") ? "\n\n" : " ")
         let eyes: Eyes
-        if repeats > 0 {
-            eyes = .roll
+        if before.isEmpty, after.isEmpty, category != "sassy" {
+            eyes = .none
+        } else if repeats > 0 {
+            eyes = level == .mild ? .side : .roll
         } else if category == "unknown" || category == "error" || category == "clarify" {
             eyes = .side
         } else {
             let r = chance()
-            eyes = r < 0.55 ? .roll : r < 0.9 ? .side : .none
+            switch level {
+            case .mild: eyes = r < 0.3 ? .side : .none
+            case .spicy: eyes = r < 0.4 ? .roll : r < 0.75 ? .side : .none
+            case .extra: eyes = r < 0.55 ? .roll : r < 0.9 ? .side : .none
+            }
         }
         return Dressed(text: text, before: before, after: after, eyes: eyes)
+    }
+
+    /// How often a reply gets a sassy line at each stop.
+    static func often(_ level: SassLevel) -> Double {
+        switch level {
+        case .mild: return 0.35
+        case .spicy: return 0.8
+        case .extra: return 1
+        }
+    }
+
+    /// How often a plain answer also gets a line after it.
+    static func closeOften(_ level: SassLevel) -> Double {
+        switch level {
+        case .mild: return 0
+        case .spicy: return 0.15
+        case .extra: return 0.4
+        }
+    }
+
+    /// How big the orb's eye-roll and side-eye are at each slider stop.
+    struct EyeDrama: Equatable {
+        /// 1 is the full Extra eye-roll.
+        var size: Double
+        /// Seconds per step of the eye-roll.
+        var step: Double
+        /// Seconds the eyes stay rolled up.
+        var hold: Double
+        /// Seconds of side-eye.
+        var sideHold: Double
+        /// How open the eyes are (smaller is a stronger squint).
+        var squint: Double
+
+        init(level: SassLevel) {
+            switch level {
+            case .mild: size = 0.55; step = 0.12; hold = 0.3; sideHold = 0.6; squint = 0.8
+            case .spicy: size = 0.8; step = 0.14; hold = 0.5; sideHold = 0.85; squint = 0.7
+            case .extra: size = 1; step = 0.15; hold = 0.75; sideHold = 1.1; squint = 0.62
+            }
+        }
+
+        /// Down, across and up, then stuck up there.
+        var rollPath: [CGPoint] {
+            [CGPoint(x: -0.8, y: 0.7), CGPoint(x: -1.1, y: 0), CGPoint(x: -0.75, y: -1.2),
+             CGPoint(x: 0, y: -1.5), CGPoint(x: 0.75, y: -1.2), CGPoint(x: 0.2, y: -1.45)]
+                .map { CGPoint(x: $0.x * size, y: $0.y * size) }
+        }
     }
 
     /// How a sassy line is said out loud: "*sigh*" becomes a sigh word, other *stage directions* are left out.
@@ -239,12 +369,12 @@ enum Sass {
     }
 
     /// Hello lines for when the app opens.
-    static func greetingLines(hour: Int, name: String, pack: SassPack = .shared) -> [String] {
+    static func greetingLines(hour: Int, name: String, level: SassLevel = .extra, pack: SassPack = .shared) -> [String] {
         let part = Greeter.partOfDay(hour: hour)
         let n = name.trimmingCharacters(in: .whitespaces)
         let fill = ["part": part, "who": n.isEmpty ? "" : ", \(n)", "hey": n.isEmpty ? " there" : " \(n)"]
-        var keys = pack.lines["greeting"] ?? []
-        if isLate(hour: hour) { keys += pack.lines["greeting.late"] ?? [] }
+        var keys = pack.linesFor("greeting", level: level)
+        if isLate(hour: hour) { keys += pack.linesFor("greeting.late", level: level) }
         return keys.map { line in
             var s = line
             for (k, v) in fill { s = s.replacingOccurrences(of: "{\(k)}", with: v) }

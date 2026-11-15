@@ -146,6 +146,8 @@ struct SpokenPart: Equatable {
     var language: String?
     /// A Sassy mode line, said slower and higher with a dramatic pause after it.
     var sassy: Bool = false
+    /// How dramatic a sassy line sounds: 1 Mild, 2 Spicy, 3 Extra.
+    var drama: Int = 3
 }
 
 extension Phrasebook {

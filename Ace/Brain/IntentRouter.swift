@@ -3,6 +3,7 @@ import Foundation
 /// Things Ace can do, found by rules first and the neural classifier second.
 enum Intent: Equatable {
     case greeting, thanks, goodbye
+    case chat(Chat.Kind)              // banter: "roast me", "lol", "bet you can't", "I'm bored"
     case summon                   // just "Ace" or "hey Ace": are you there?
     case time, date
     case daysUntil(String)
@@ -64,7 +65,7 @@ extension Intent {
     /// Only small talk goes to the model when it's picked as the brain.
     var isAction: Bool {
         switch self {
-        case .greeting, .thanks, .goodbye: return false
+        case .greeting, .thanks, .goodbye, .chat: return false
         default: return true
         }
     }
@@ -76,6 +77,7 @@ extension Intent {
         case .summon: return "summon"
         case .thanks: return "thanks"
         case .goodbye: return "goodbye"
+        case .chat: return "chat"
         case .time: return "time"
         case .date: return "date"
         case .daysUntil: return "daysUntil"
@@ -171,6 +173,8 @@ enum IntentRouter {
         if Rx.matches(#"^(hi|hello|hey|yo|sup|hiya|howdy|good (morning|afternoon|evening|day))( there)?( to you)?( ace)?( to you)?$"#, t) { return .greeting }
         if Rx.matches(#"^(thanks|thank you|ty|thx|cheers|thank u)( ace)?( so much| very much| a lot| a bunch| a ton| heaps)?( ace| buddy| man| dude)?$"#, t) { return .thanks }
         if Rx.matches(#"^(ok |okay |alright |well )?(bye|goodbye|bye bye|good night|goodnight|see you|see ya|later|cya|talk to you later|catch you later)( for now)?( ace)?( for now)?$"#, t) { return .goodbye }
+        // "I'm gonna leave", "gtg", "goodnight": a goodbye, never a web search.
+        if Chat.isGoodbye(raw) { return .goodbye }
 
         // Teaching and corrections
         if let g = Rx.groups(#"^(?:if i ask|when i ask|if i say|when i say)\s+(.+?)\s*,?\s*(?:you should say|you say|say|answer|reply)\s+(.+)$"#, t) {
@@ -181,6 +185,9 @@ enum IntentRouter {
         if let g = Rx.groups(#"^(?:no|nope|wrong|actually|that is wrong|incorrect)\s*,?\s*(?:it is|the answer is|it should be|it was)\s+(.+)$"#, t) {
             return .correction(g[0])
         }
+
+        // Banter ("roast me", "lol", "whatever", "bet you can't"): conversation, never a web search.
+        if let banter = Chat.kind(raw) { return .chat(banter) }
 
         // Follow-ups
         if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
@@ -404,6 +411,10 @@ enum IntentRouter {
             return .searchTab(query: g[0], site: g[1])
         }
         if let g = Rx.groups(#"^(?:play|watch)\s+(.+?)\s+on\s+youtube$"#, t) { return .searchTab(query: g[0], site: "youtube") }
+        // "look it up", "google that": search the last thing you asked.
+        if let g = Rx.groups(#"^(?:search|look|google|find|search up|look up)\s+(it|that|this|that one|this one)(?:\s+up)?(?:\s+(?:on|in)\s+(?:google|the web|the internet|safari))?(?:\s+(?:for me|please|now))*$"#, t) {
+            return .searchTab(query: g[0], site: nil)
+        }
         if let g = Rx.groups(#"^(youtube|google|wikipedia|amazon|reddit)\s+(.+)$"#, t) { return .searchTab(query: g[1], site: g[0]) }
         if let g = Rx.groups(#"^(?:search for|search the web for|search the internet for|google|search up|search)\s+(.+)$"#, t) {
             return .searchTab(query: g[0], site: nil)

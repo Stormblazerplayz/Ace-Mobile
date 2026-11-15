@@ -28,7 +28,7 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
     func speak(_ parts: [SpokenPart], voiceID: String, onChange: @escaping (Bool) -> Void) {
         let lines = parts.map { p in
             SpokenPart(text: p.language == nil ? Self.clean(p.text) : p.text.trimmingCharacters(in: .whitespacesAndNewlines),
-                       language: p.language, sassy: p.sassy)
+                       language: p.language, sassy: p.sassy, drama: p.drama)
         }.filter { !$0.text.isEmpty }
         guard !lines.isEmpty else { return }
         AudioRouter.shared.prepareForSpeaking()
@@ -47,9 +47,11 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
                 }
                 if line.sassy {
                     // Sassy delivery: drawn out, a bit higher, and a dramatic pause before the answer.
-                    u.rate = Self.rate(0.88)
-                    u.pitchMultiplier = 1.24
-                    u.postUtteranceDelay = 0.25
+                    // More of each the higher the sass slider is.
+                    let style = Self.sassyStyle(drama: line.drama)
+                    u.rate = Self.rate(style.rate)
+                    u.pitchMultiplier = style.pitch
+                    u.postUtteranceDelay = style.pause
                 } else {
                     u.rate = Self.rate(1.02)
                     u.pitchMultiplier = 1.08
@@ -57,6 +59,15 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
             }
             queued[ObjectIdentifier(u)] = u
             synth.speak(u)
+        }
+    }
+
+    /// How a sassy line sounds at each sass level (1 Mild, 2 Spicy, 3 Extra).
+    static func sassyStyle(drama: Int) -> (rate: Float, pitch: Float, pause: TimeInterval) {
+        switch drama {
+        case ...1: return (0.98, 1.12, 0.08)
+        case 2: return (0.93, 1.18, 0.16)
+        default: return (0.88, 1.24, 0.25)
         }
     }
 
