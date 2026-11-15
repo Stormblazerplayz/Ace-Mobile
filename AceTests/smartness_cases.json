@@ -471,7 +471,8 @@
    "expect": {
     "bank": [
      "units.how-many-grams-in-a-kilogram"
-    ]
+    ],
+    "skill": "convert"
    }
   },
   {
@@ -481,7 +482,8 @@
    "expect": {
     "bank": [
      "units.how-many-seconds-in-an-hour"
-    ]
+    ],
+    "skill": "convert"
    }
   },
   {
@@ -1807,12 +1809,14 @@
      {
       "bank": [
        "units.how-many-feet-in-a-mile"
-      ]
+      ],
+      "skill": "convert"
      },
      {
       "bank": [
        "units.how-many-inches-in-a-foot"
-      ]
+      ],
+      "skill": "convert"
      }
     ]
    }
