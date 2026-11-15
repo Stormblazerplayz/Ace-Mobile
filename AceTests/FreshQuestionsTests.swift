@@ -22,6 +22,11 @@ final class FreshQuestionsTests: XCTestCase {
                 score += 1
             } else {
                 misses.append("#\(c.n) [\(c.category)] \"\(c.prompt)\" -> \(SmartnessTests.describe(got))")
+                // What the answer bank saw, to show why it missed (print only, the score is the same).
+                for m in brain.bank.search(c.prompt, limit: 4) {
+                    let sem = m.semantic.map { String(format: "%.2f", $0) } ?? "-"
+                    print(String(format: "FRESH NEAR #%d %.3f lex %.3f sem %@ %@ (%@)", c.n, m.score, m.lexical, sem, m.entry.id, m.entry.source ?? "builtin"))
+                }
             }
         }
         print("FRESH SCORE: \(score)/\(file.cases.count)")

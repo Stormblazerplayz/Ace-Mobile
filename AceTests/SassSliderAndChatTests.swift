@@ -170,7 +170,14 @@ final class SassSliderAndChatTests: XCTestCase {
         XCTAssertTrue(brain.items.contains { $0.contains("60,000") })
         XCTAssertEqual(WhatsNew.due(currentBuild: 55, lastShown: 53, releases: releases)?.build, 55)
         XCTAssertNil(WhatsNew.due(currentBuild: 55, lastShown: 55, releases: releases))
-        XCTAssertEqual(releases.first?.build, 55, "Newest first")
+        XCTAssertEqual(WhatsNew.due(currentBuild: 56, lastShown: 55, releases: releases)?.build, 56)
+        XCTAssertEqual(releases.first?.build, 56, "Newest first")
+    }
+
+    func testWhatsNewShowsNewWordings() throws {
+        let release = try XCTUnwrap(WhatsNew.load().first { $0.build == 56 })
+        XCTAssertTrue(release.items.contains { $0.contains("your own words") })
+        XCTAssertTrue(release.items.contains { $0.contains("typos") })
     }
 
     // MARK: Banter is conversation, never a web search

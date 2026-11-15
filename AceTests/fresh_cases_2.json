@@ -1,0 +1,590 @@
+{
+ "format": "ace-knowledge/1",
+ "count": 50,
+ "cases": [
+  {
+   "n": 1,
+   "category": "paraphrase",
+   "prompt": "how many legs has a spider got",
+   "expect": {
+    "has": [
+     [
+      "8",
+      "eight"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "category": "paraphrase",
+   "prompt": "which planet has the most rings",
+   "expect": {
+    "has": [
+     [
+      "Saturn"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "category": "paraphrase",
+   "prompt": "what gas do plants breathe in",
+   "expect": {
+    "has": [
+     [
+      "carbon dioxide",
+      "CO2"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "category": "paraphrase",
+   "prompt": "how many bones are inside a grown up",
+   "expect": {
+    "has": [
+     [
+      "206"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "category": "paraphrase",
+   "prompt": "what's the biggest animal on the planet",
+   "expect": {
+    "has": [
+     [
+      "blue whale"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "category": "paraphrase",
+   "prompt": "which ocean is the largest one",
+   "expect": {
+    "has": [
+     [
+      "Pacific"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "category": "paraphrase",
+   "prompt": "how hot does the sun get",
+   "expect": {
+    "has": [
+     [
+      "million",
+      "5,500",
+      "5500",
+      "\u00b0"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "category": "paraphrase",
+   "prompt": "who was the first guy to walk on the moon",
+   "expect": {
+    "has": [
+     [
+      "Armstrong"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "category": "paraphrase",
+   "prompt": "what's the tallest mountain on earth",
+   "expect": {
+    "has": [
+     [
+      "Everest"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "category": "paraphrase",
+   "prompt": "how many days are there in a leap year",
+   "expect": {
+    "has": [
+     [
+      "366"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "category": "paraphrase",
+   "prompt": "what does a caterpillar turn into",
+   "expect": {
+    "has": [
+     [
+      "butterfly",
+      "moth"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "category": "paraphrase",
+   "prompt": "which animal is the fastest on land",
+   "expect": {
+    "has": [
+     [
+      "cheetah"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "category": "paraphrase",
+   "prompt": "what's the longest river in the world",
+   "expect": {
+    "has": [
+     [
+      "Nile",
+      "Amazon"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 14,
+   "category": "paraphrase",
+   "prompt": "how many hearts does an octopus have",
+   "expect": {
+    "has": [
+     [
+      "three",
+      "3"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 15,
+   "category": "paraphrase",
+   "prompt": "what is the red planet called",
+   "expect": {
+    "has": [
+     [
+      "Mars"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "category": "paraphrase",
+   "prompt": "who came up with the light bulb",
+   "expect": {
+    "has": [
+     [
+      "Edison"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "category": "paraphrase",
+   "prompt": "how many sides does a hexagon have",
+   "expect": {
+    "has": [
+     [
+      "six",
+      "6"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "category": "paraphrase",
+   "prompt": "what's the main language they speak in mexico",
+   "expect": {
+    "has": [
+     [
+      "Spanish"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "category": "paraphrase",
+   "prompt": "how long does it take earth to go around the sun",
+   "expect": {
+    "has": [
+     [
+      "365",
+      "year"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "category": "paraphrase",
+   "prompt": "what do bees make",
+   "expect": {
+    "has": [
+     [
+      "honey"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 21,
+   "category": "paraphrase",
+   "prompt": "which organ pumps blood around your body",
+   "expect": {
+    "has": [
+     [
+      "heart"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 22,
+   "category": "paraphrase",
+   "prompt": "what is h2o",
+   "expect": {
+    "has": [
+     [
+      "water"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 23,
+   "category": "paraphrase",
+   "prompt": "how many players are on a soccer team on the field",
+   "expect": {
+    "has": [
+     [
+      "11",
+      "eleven"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 24,
+   "category": "paraphrase",
+   "prompt": "what's a group of lions known as",
+   "expect": {
+    "has": [
+     [
+      "pride"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 25,
+   "category": "paraphrase",
+   "prompt": "what are baby kangaroos called",
+   "expect": {
+    "has": [
+     [
+      "joey"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 26,
+   "category": "paraphrase",
+   "prompt": "what is the smallest planet",
+   "expect": {
+    "has": [
+     [
+      "Mercury"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 27,
+   "category": "paraphrase",
+   "prompt": "why is the ocean salty",
+   "expect": {
+    "has": [
+     [
+      "salt",
+      "mineral"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 28,
+   "category": "paraphrase",
+   "prompt": "what does a thermometer measure",
+   "expect": {
+    "has": [
+     [
+      "temperature"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 29,
+   "category": "paraphrase",
+   "prompt": "how many minutes make an hour",
+   "expect": {
+    "has": [
+     [
+      "60"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 30,
+   "category": "paraphrase",
+   "prompt": "what is the hardest natural thing",
+   "expect": {
+    "has": [
+     [
+      "diamond"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 31,
+   "category": "typo",
+   "prompt": "how many planits are in the solar system",
+   "expect": {
+    "has": [
+     [
+      "8",
+      "eight"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 32,
+   "category": "typo",
+   "prompt": "what is the capitel of japan",
+   "expect": {
+    "has": [
+     [
+      "Tokyo"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 33,
+   "category": "typo",
+   "prompt": "who painted the mona lsa",
+   "expect": {
+    "has": [
+     [
+      "Leonardo",
+      "da Vinci"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 34,
+   "category": "typo",
+   "prompt": "what do kowalas eat",
+   "expect": {
+    "has": [
+     [
+      "eucalyptus"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 35,
+   "category": "typo",
+   "prompt": "how fast is the speed of lite",
+   "expect": {
+    "has": [
+     [
+      "299",
+      "300,000",
+      "186,000",
+      "186000"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 36,
+   "category": "typo",
+   "prompt": "what is photosinthesis",
+   "expect": {
+    "has": [
+     [
+      "sunlight",
+      "light"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 37,
+   "category": "typo",
+   "prompt": "how many continants are there in the world",
+   "expect": {
+    "has": [
+     [
+      "7",
+      "seven"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 38,
+   "category": "typo",
+   "prompt": "what is the bigest desert",
+   "expect": {
+    "has": [
+     [
+      "Antarctic",
+      "Sahara"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 39,
+   "category": "skill",
+   "prompt": "set a timer for 3 minutes please",
+   "expect": {
+    "skill": "timer"
+   }
+  },
+  {
+   "n": 40,
+   "category": "skill",
+   "prompt": "what is 7 times 8",
+   "expect": {
+    "skill": "math"
+   }
+  },
+  {
+   "n": 41,
+   "category": "skill",
+   "prompt": "how do you say thank you in french",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 42,
+   "category": "skill",
+   "prompt": "write me a python script that counts to ten",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 43,
+   "category": "skill",
+   "prompt": "remind me to feed the dog at 6",
+   "expect": {
+    "skill": "reminder"
+   }
+  },
+  {
+   "n": 44,
+   "category": "skill",
+   "prompt": "is it going to rain today",
+   "expect": {
+    "skill": "weather"
+   }
+  },
+  {
+   "n": 45,
+   "category": "unknown",
+   "prompt": "what's my cousin's favorite color",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 46,
+   "category": "unknown",
+   "prompt": "how tall is my brother",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 47,
+   "category": "unknown",
+   "prompt": "what did my mom make for dinner last night",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 48,
+   "category": "unknown",
+   "prompt": "what time does my soccer practice start",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 49,
+   "category": "paraphrase",
+   "prompt": "if i wanted to know how deep the ocean goes what would the answer be",
+   "expect": {
+    "has": [
+     [
+      "11,000",
+      "11000",
+      "Mariana",
+      "36,000",
+      "10,9"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 50,
+   "category": "paraphrase",
+   "prompt": "yo ace whats the closest planet to the sun",
+   "expect": {
+    "has": [
+     [
+      "Mercury"
+     ]
+    ]
+   }
+  }
+ ]
+}
