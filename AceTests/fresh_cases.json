@@ -1,0 +1,494 @@
+{
+ "format": "ace-smartness/1",
+ "count": 50,
+ "cases": [
+  {
+   "n": 1,
+   "category": "paraphrase",
+   "prompt": "why do people yawn so much",
+   "expect": {
+    "bank": [
+     "body.why-do-we-yawn"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "category": "paraphrase",
+   "prompt": "pluto still counts as a planet right",
+   "expect": {
+    "bank": [
+     "space.is-pluto-a-planet"
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "category": "paraphrase",
+   "prompt": "what do you call lots of frogs together",
+   "expect": {
+    "bank": [
+     "animals.group.what-is-a-group-of-frogs-called"
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "category": "paraphrase",
+   "prompt": "how many continents does the world have",
+   "expect": {
+    "bank": [
+     "earth.how-many-continents-are-there"
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "category": "paraphrase",
+   "prompt": "at what temp does water turn to ice",
+   "expect": {
+    "bank": [
+     "science.what-temperature-does-water-freeze"
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "category": "paraphrase",
+   "prompt": "what is chocolate made from",
+   "expect": {
+    "bank": [
+     "food.where-does-chocolate-come-from"
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "category": "paraphrase",
+   "prompt": "which star is nearest to us",
+   "expect": {
+    "bank": [
+     "space.what-is-the-closest-star"
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "category": "paraphrase",
+   "prompt": "tell me about the space station",
+   "expect": {
+    "bank": [
+     "space.what-is-the-iss"
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "category": "paraphrase",
+   "prompt": "how many letters does the english alphabet have",
+   "expect": {
+    "bank": [
+     "words.how-many-letters-are-in-the-alphabet"
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "category": "paraphrase",
+   "prompt": "what's a baby monkey known as",
+   "expect": {
+    "bank": [
+     "animals.baby.what-is-a-baby-monkey-called"
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "category": "paraphrase",
+   "prompt": "why does your body need sleep",
+   "expect": {
+    "bank": [
+     "body.why-do-we-sleep"
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "category": "paraphrase",
+   "prompt": "how many years make a decade",
+   "expect": {
+    "bank": [
+     "units.how-many-years-in-a-decade"
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "category": "paraphrase",
+   "prompt": "which colors are the primary ones",
+   "expect": {
+    "bank": [
+     "science.what-are-the-primary-colors"
+    ]
+   }
+  },
+  {
+   "n": 14,
+   "category": "paraphrase",
+   "prompt": "what age is planet earth",
+   "expect": {
+    "bank": [
+     "space.how-old-is-the-earth"
+    ]
+   }
+  },
+  {
+   "n": 15,
+   "category": "paraphrase",
+   "prompt": "what's a bug in programming",
+   "expect": {
+    "bank": [
+     "tech.what-is-a-bug"
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "category": "paraphrase",
+   "prompt": "what food do pandas like",
+   "expect": {
+    "bank": [
+     "animals.what-do-pandas-eat"
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "category": "paraphrase",
+   "prompt": "how many years can a turtle live",
+   "expect": {
+    "bank": [
+     "animals.how-long-do-turtles-live"
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "category": "paraphrase",
+   "prompt": "how much water am i supposed to drink each day",
+   "expect": {
+    "bank": [
+     "body.how-much-water-should-i-drink"
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "category": "paraphrase",
+   "prompt": "how does rain happen",
+   "expect": {
+    "bank": [
+     "earth.what-causes-rain"
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "category": "paraphrase",
+   "prompt": "what does the cloud mean on computers",
+   "expect": {
+    "bank": [
+     "tech.what-is-the-cloud"
+    ]
+   }
+  },
+  {
+   "n": 21,
+   "category": "paraphrase",
+   "prompt": "is a dolphin a kind of fish",
+   "expect": {
+    "bank": [
+     "animals.are-dolphins-fish"
+    ]
+   }
+  },
+  {
+   "n": 22,
+   "category": "paraphrase",
+   "prompt": "how long does a minecraft day last",
+   "expect": {
+    "bank": [
+     "minecraft.how-long-is-a-day-in-minecraft"
+    ]
+   }
+  },
+  {
+   "n": 23,
+   "category": "paraphrase",
+   "prompt": "what's titanium's chemical symbol",
+   "expect": {
+    "bank": [
+     "chem.symbol.what-is-the-symbol-for-titanium"
+    ]
+   }
+  },
+  {
+   "n": 24,
+   "category": "paraphrase",
+   "prompt": "which city is the capital of libya",
+   "expect": {
+    "bank": [
+     "geo.capital.what-is-the-capital-of-libya"
+    ]
+   }
+  },
+  {
+   "n": 25,
+   "category": "paraphrase",
+   "prompt": "give me some facts about norway",
+   "expect": {
+    "bank": [
+     "geo.country.tell-me-about-norway"
+    ]
+   }
+  },
+  {
+   "n": 26,
+   "category": "typo",
+   "prompt": "why do we yawm",
+   "expect": {
+    "bank": [
+     "body.why-do-we-yawn"
+    ]
+   }
+  },
+  {
+   "n": 27,
+   "category": "typo",
+   "prompt": "how many contenents are there",
+   "expect": {
+    "bank": [
+     "earth.how-many-continents-are-there"
+    ]
+   }
+  },
+  {
+   "n": 28,
+   "category": "typo",
+   "prompt": "what do pandas eet",
+   "expect": {
+    "bank": [
+     "animals.what-do-pandas-eat"
+    ]
+   }
+  },
+  {
+   "n": 29,
+   "category": "typo",
+   "prompt": "what is the capitol of nepal",
+   "expect": {
+    "bank": [
+     "geo.capital.what-is-the-capital-of-nepal"
+    ]
+   }
+  },
+  {
+   "n": 30,
+   "category": "typo",
+   "prompt": "what is the simbol for helium",
+   "expect": {
+    "bank": [
+     "chem.symbol.what-is-the-symbol-for-helium"
+    ]
+   }
+  },
+  {
+   "n": 31,
+   "category": "typo",
+   "prompt": "how long do turtels live",
+   "expect": {
+    "bank": [
+     "animals.how-long-do-turtles-live"
+    ]
+   }
+  },
+  {
+   "n": 32,
+   "category": "typo",
+   "prompt": "what is pyhton",
+   "expect": {
+    "bank": [
+     "tech.what-is-python"
+    ]
+   }
+  },
+  {
+   "n": 33,
+   "category": "typo",
+   "prompt": "how old is the eath",
+   "expect": {
+    "bank": [
+     "space.how-old-is-the-earth"
+    ]
+   }
+  },
+  {
+   "n": 34,
+   "category": "skill",
+   "prompt": "can you start a 12 minute timer",
+   "expect": {
+    "skill": "timer"
+   }
+  },
+  {
+   "n": 35,
+   "category": "skill",
+   "prompt": "what's 48 divided by 6",
+   "expect": {
+    "skill": "math"
+   }
+  },
+  {
+   "n": 36,
+   "category": "skill",
+   "prompt": "convert 10 inches to centimeters",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 37,
+   "category": "skill",
+   "prompt": "how do you say good afternoon in italian",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 38,
+   "category": "skill",
+   "prompt": "give me a sprint script for roblox",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 39,
+   "category": "skill",
+   "prompt": "solve 4x + 1 = 17",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 40,
+   "category": "skill",
+   "prompt": "take a note: feed the fish",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 41,
+   "category": "skill",
+   "prompt": "let's play some trivia",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 42,
+   "category": "skill",
+   "prompt": "remind me to charge my ipad at 9pm",
+   "expect": {
+    "skill": "reminder"
+   }
+  },
+  {
+   "n": 43,
+   "category": "skill",
+   "prompt": "what's the weather like tomorrow",
+   "expect": {
+    "skill": "weather"
+   }
+  },
+  {
+   "n": 44,
+   "category": "unknown",
+   "prompt": "what color is my bedroom",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 45,
+   "category": "unknown",
+   "prompt": "what did i eat for breakfast yesterday",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 46,
+   "category": "unknown",
+   "prompt": "what is my best friend's favorite movie",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 47,
+   "category": "unknown",
+   "prompt": "how many coins are in my piggy bank",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 48,
+   "category": "unknown",
+   "prompt": "what's the password to my school laptop",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 49,
+   "category": "multi-part",
+   "prompt": "what is python and what is the cloud",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "tech.what-is-python"
+      ]
+     },
+     {
+      "bank": [
+       "tech.what-is-the-cloud"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "n": 50,
+   "category": "multi-part",
+   "prompt": "how many teeth does a kid have and why do humans need sleep",
+   "expect": {
+    "multi": [
+     {
+      "bank": [
+       "body.how-many-teeth-do-kids-have"
+      ]
+     },
+     {
+      "bank": [
+       "body.why-do-we-sleep"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
