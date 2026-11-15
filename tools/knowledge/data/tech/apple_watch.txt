@@ -1,0 +1,23 @@
+# tag: tech.applewatch
+what is apple watch family setup | apple watch for a kid without an iphone => Family Setup lets a parent set up a cellular Apple Watch for a kid who doesn't have an iPhone, and manage it from the parent's iPhone.
+what is schooltime on apple watch | school mode watch => Schooltime is a mode a parent schedules that limits the watch to the time and basic features during school. Kids can leave it briefly, and parents can see when they did.
+what is the difference between apple watch se series and ultra | which apple watch to get => SE is the cheaper model with fewer health sensors, Series is the main model with more features, and Ultra is bigger, tougher and lasts the longest on a charge.
+how do i change my apple watch face | switch watch faces => Touch and hold the watch face, then swipe to pick another or tap Edit to change colors and complications.
+what are complications on apple watch | watch face widgets => Complications are small bits of info on a watch face, like weather, battery or your next event. Tap one to open its app.
+how do i pair an apple watch | set up new apple watch => Turn the watch on and hold it near your iPhone. A pairing screen pops up, or open the Watch app and tap Pair New Watch.
+how do i unpair an apple watch | remove apple watch before selling => In the Watch app, tap All Watches, the info button next to the watch, then Unpair Apple Watch. It backs it up and removes Activation Lock.
+how do i update my apple watch | watchos update => In the Watch app on iPhone, go to General, Software Update. The watch needs to be on its charger and at least 50 percent charged.
+how do i open control center on apple watch | apple watch control center => Press the side button to open Control Center for Wi-Fi, flashlight, Low Power Mode, Water Lock and pinging your iPhone.
+what is water lock on apple watch | water drop icon watch => Water Lock stops accidental taps while swimming. When you turn it off with the Digital Crown, the watch plays tones that push water out of the speaker.
+how do i take a screenshot on apple watch | apple watch screenshot not working => Turn on Enable Screenshots in the Watch app under General, then press the Digital Crown and side button together.
+how do i find my iphone with my apple watch | ping iphone from watch => Open Control Center on the watch and tap the iPhone button to make your iPhone play a sound. Touch and hold it to flash the iPhone's light too.
+how do i unlock my mac with my apple watch | auto unlock mac watch => On the Mac, open System Settings, then Touch ID and Password or Login Password, and turn on the option to use Apple Watch to unlock. Your watch must be on your wrist and unlocked.
+what is walkie talkie on apple watch | talk to friends with apple watch => Walkie-Talkie lets two Apple Watch users talk by holding a button, like a radio, after they accept each other's invite.
+what are the apple watch activity rings | move exercise stand rings => The red Move ring counts active calories, green Exercise counts brisk minutes and blue Stand counts hours you stood and moved for at least a minute.
+can kids use the ecg app on apple watch | apple watch ecg age => The ECG app isn't meant for people under 22. It records your heart rhythm by holding a finger on the Digital Crown for 30 seconds.
+what is double tap on apple watch | pinch fingers apple watch => On Series 9, Ultra 2 and later, tapping your index finger and thumb together twice answers calls, scrolls, stops timers and more without touching the screen.
+what is the smart stack on apple watch | widgets on apple watch => Turn the Digital Crown up from the watch face to see the Smart Stack, a set of widgets that shows what's useful at that moment.
+what is wrist detection on apple watch | watch locks when i take it off => Wrist detection locks the watch when you take it off, so it needs your passcode again. Apple Pay and some health features need it on.
+how do i pay with my apple watch | apple pay on apple watch => Double-click the side button, then hold the watch near the card reader until it taps. Your card must be added in the Wallet app.
+what is a cellular apple watch | apple watch without phone nearby => A cellular Apple Watch has its own connection, so it can call, text and stream music without the iPhone nearby. It needs a plan from a phone carrier.
+what is the noise app on apple watch | watch warns loud sounds => The Noise app measures how loud it is around you and warns you if sound levels could hurt your hearing over time.

@@ -1,0 +1,20 @@
+# tag: tech.audio
+open back vs closed back headphones | which headphones for gaming => Closed back headphones block outside noise and keep sound in. Open back headphones sound more spacious and natural but leak sound both ways. Many gamers like open back for hearing direction at home.
+what is noise cancelling | anc headphones => Active noise cancelling (ANC) uses microphones to hear outside noise and plays opposite sound waves to cancel it, especially low hums like engines.
+what is transparency mode | airpods transparency => Transparency mode lets outside sound in through the microphones so you can hear people and traffic while wearing earbuds. Use it when walking near roads.
+what is spatial audio | head tracking airpods => Spatial audio makes sound seem to come from around you, and with head tracking it stays in place as you turn your head. It works best with content mixed for it.
+what bluetooth codecs are there | aac vs aptx vs ldac => Codecs compress Bluetooth audio. SBC is basic, AAC is best on Apple devices, and aptX and LDAC give higher quality on many Android phones. Both devices must support the codec.
+why does bluetooth audio lag in games | bluetooth latency gaming => Bluetooth adds about 100 to 300 milliseconds of delay. For gaming, use wired headphones or a headset with a low-latency 2.4 GHz wireless dongle.
+what is a dac | do i need a dac => A DAC turns digital audio into the analog signal headphones play. Your PC already has one. A separate DAC can lower noise or hiss, but most people don't need one.
+what is a headphone amp | do i need an amp for headphones => An amp gives headphones more power. Most headphones work fine without one, but very high impedance or hard-to-drive headphones can sound quiet without it.
+what is impedance in headphones | 32 ohm vs 250 ohm => Impedance in ohms is how much the headphones resist power. Low impedance like 32 ohms runs easily from phones; 250 ohm studio headphones usually need more power.
+what are iems | in ear monitors => IEMs are in-ear earphones that seal in your ear canal, often used by musicians and gamers for detailed sound and blocking noise. Pick the right size tip for a good seal.
+what is 7.1 surround sound on headsets | virtual surround => Most 7.1 gaming headsets use virtual surround, processing stereo to fake directions. Many players find good stereo headphones just as good for hearing footsteps.
+what is sidetone | hear my own voice in headset => Sidetone plays your own voice into your headset so you don't shout. Turn it on in your headset's software or the Windows Listen setting.
+how do i connect airpods to a windows pc | airpods on pc => Put the AirPods in the case, open the lid, hold the button on the back until the light flashes white, then add them in Windows Settings, Bluetooth and devices.
+how do i find my lost airpods | airpods find my => Open the Find My app, tap Devices, and pick your AirPods to see them on the map or play a sound if they're nearby.
+what is a soundbar | do i need a soundbar for my tv => A soundbar is a long speaker that sits under a TV or monitor to give better sound than built-in speakers, often with a subwoofer.
+what is frequency response | hz in headphones => Frequency response is the range of pitches a speaker can play, like 20 Hz to 20,000 Hz, which covers most human hearing. The shape of the curve matters more than the range.
+what is an equalizer | eq settings for gaming => An equalizer (EQ) boosts or cuts certain frequencies. Raising the upper mids a little can make footsteps easier to hear in games.
+what is bass boost | is bass boost bad => Bass boost raises low frequencies for more thump. Too much can make sound muddy and hide details like footsteps.
+why do my earbuds sound quiet | one airpod quieter => Clean the speaker mesh, check Settings, Accessibility, Audio and Visual for balance, and make sure the tip seals well in your ear.

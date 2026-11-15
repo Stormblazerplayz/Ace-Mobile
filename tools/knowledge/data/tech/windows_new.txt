@@ -1,0 +1,13 @@
+# tag: tech.windows.new
+what is click to do in windows | click to do copilot plus => Click to Do is a feature on Copilot+ PCs that finds text and images on your screen and offers quick actions, like summarizing text or removing an image's background.
+what are windows studio effects | webcam blur windows => Windows Studio Effects uses a PC's AI chip to blur your background, keep you centered and make it look like you're looking at the camera in video calls. It needs a PC with an NPU.
+what is smart app control | windows smart app control => Smart App Control blocks apps that Microsoft thinks are untrusted or harmful before they run. It's found in Windows Security under App & browser control.
+what is a dev drive | windows dev drive => A Dev Drive is a special drive format in Windows 11 made to speed up coding tools and builds. Regular users don't need one.
+what is sudo for windows | sudo command windows 11 => Windows 11 can run a command as admin by typing sudo before it in the terminal, once you turn it on in Settings > System > For developers.
+what is the windows insider program | try new windows features early => The Windows Insider Program lets you test new Windows features before release. Builds can be buggy, so it's best on a spare PC.
+what is the copilot key | new key on keyboard windows => Newer Windows keyboards have a Copilot key that opens Microsoft's AI assistant. On some PCs you can change what it opens in Settings.
+what is auto super resolution | auto sr windows => Auto SR upscales games automatically using the AI chip in some Copilot+ PCs, so they run at a lower resolution but look sharper.
+what is edge game assist | browser in game windows => Game Assist is a version of Microsoft Edge that opens in the Game Bar over your game, so you can check guides without alt-tabbing.
+what is the xbox full screen experience | xbox mode on windows handheld => It's a console-style home screen for Windows handhelds like the ROG Xbox Ally, which boots straight into a controller-friendly game library.
+what are windows 10 extended security updates | windows 10 esu => After Windows 10 support ended in October 2025, Extended Security Updates give an extra year of security fixes. Upgrading to Windows 11 is the longer-term fix.
+what is the windows security app | windows defender app => Windows Security is the built-in app for antivirus, firewall, account protection and device security. For most people it's all the protection needed.

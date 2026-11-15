@@ -1,0 +1,149 @@
+# C++ basics, written by hand for Ace.
+# tag: coding.cpp
+what is c++ used for | c plus plus => C++ is a fast compiled language used for games and game engines (like Unreal), operating systems, browsers, robotics and Arduino. It gives you a lot of control over memory and speed.
+who made c++ | when was c++ made | c++ history => Bjarne Stroustrup created C++ at Bell Labs, starting in 1979 as "C with Classes". It was renamed C++ in 1983.
+what is the difference between c and c++ | c vs c++ | is c++ the same as c => C++ grew out of C and can run most C code, but adds classes, templates, references, the standard library (STL), exceptions and much more.
+is c++ hard to learn | should i learn c++ | c++ for beginners => C++ is harder than Python because you manage types, memory and compiling, but it teaches how computers really work. Arduino is a fun, friendly way to start.
+what is a compiler for c++ | g++ vs clang | c++ compilers => A compiler turns your .cpp files into a program. Common ones are GCC (g++), Clang (clang++) and Microsoft's MSVC in Visual Studio.
+how do i compile a c++ program | g++ command | compile and run c++ => Run `g++ -std=c++20 -Wall main.cpp -o main` then `./main` (or `main.exe` on Windows). `-Wall` turns on helpful warnings.
+what is hello world in c++ | c++ hello world | first c++ program => `#include <iostream>` then `int main() { std::cout << "Hello, world!\n"; return 0; }`.
+what is int main | main function c++ | why int main => `main` is where every C++ program starts. It returns an int to the operating system, where 0 means success.
+what does #include do | include in c++ | header include => `#include` pastes in another file before compiling, usually a header like `<iostream>` or your own `"player.h"`. Angle brackets are for library headers, quotes for your own files.
+what is iostream | cout and cin | input output c++ => `<iostream>` gives `std::cout` for printing and `std::cin` for reading input: `std::cin >> age;`.
+what is std:: | what does std mean | std namespace => `std` is the namespace of the C++ standard library, so names like `std::cout` and `std::vector` do not clash with yours.
+should i use using namespace std | using namespace std bad => It saves typing in small programs, but in headers and big projects it can cause name clashes. Many people write `std::` or `using std::cout;` instead.
+what is a semicolon for in c++ | missing semicolon c++ | why semicolons => Semicolons end statements in C++. Forgetting one, especially after a class or struct's closing brace, is a very common compile error.
+what are the basic types in c++ | c++ data types | int float double char bool => Common types are `int` (whole numbers), `double` and `float` (decimals), `char` (one character), `bool` (true or false), and `std::string` for text.
+what is the size of int in c++ | how big is an int | int range c++ => On most computers an int is 32 bits, from about -2.1 billion to 2.1 billion. On AVR Arduinos like the Uno it is only 16 bits, from -32,768 to 32,767.
+what is auto in c++ | auto keyword | type deduction c++ => `auto` lets the compiler pick the type from the value: `auto x = 5;` is an int. It is great for long type names like iterators.
+what is const in c++ | const variable | const keyword => `const` means the value cannot change after it is set: `const int maxLives = 3;`. Use it wherever you can.
+what is constexpr | constexpr vs const | compile time constant => `constexpr` means the value can be worked out while compiling, like `constexpr int size = 10;`, which lets it be used for array sizes and makes code faster.
+what is a string in c++ | std string | text in c++ => `std::string` from `<string>` holds text: `std::string name = "Sam";`. Join with `+`, get the length with `name.size()`, and read characters with `name[0]`.
+how do i read a whole line in c++ | getline c++ | read string with spaces => `std::getline(std::cin, line);` reads a full line including spaces, while `std::cin >> word` stops at a space.
+how do i write an if statement in c++ | c++ if else | if syntax c++ => `if (score > 10) { ... } else if (score > 5) { ... } else { ... }`. The condition goes in parentheses.
+what is a switch in c++ | switch case c++ | break in switch => `switch (choice) { case 1: ... break; default: ... }`. Without `break`, execution falls through into the next case.
+how do i write a for loop in c++ | c++ for loop | loop 10 times c++ => `for (int i = 0; i < 10; i++) { }` runs 10 times with i from 0 to 9.
+what is a range based for loop | for each c++ | loop over vector c++ => `for (const auto& item : items) { }` goes through each element. Use `auto&` without const if you want to change them.
+what is a while loop in c++ | do while c++ | c++ while => `while (lives > 0) { }` checks first. `do { } while (cond);` always runs at least once.
+what is i++ vs ++i | increment c++ | pre vs post increment => Both add 1. `++i` gives the new value and `i++` gives the old one. In a for loop either works; `++i` can be slightly faster for iterators.
+what are logical operators in c++ | and or not c++ | && in c++ => `&&` means and, `!` means not, and two vertical bars mean or. C++ also accepts the words `and`, `or` and `not`.
+what is integer division in c++ | 5 / 2 in c++ | why does division give whole number => Dividing two ints throws away the decimal, so `5 / 2` is 2. Make one a double to get 2.5: `5.0 / 2`.
+what is the modulo operator in c++ | % c++ | remainder c++ => `%` gives the remainder of integer division, so `7 % 3` is 1. Use `std::fmod` for doubles.
+what is a function in c++ | c++ function syntax | write a function c++ => `int add(int a, int b) { return a + b; }`. The type before the name is what it returns; use `void` if it returns nothing.
+what is a function prototype | declare before use c++ | forward declaration => C++ reads top to bottom, so a function must be declared before it is called. Put a declaration like `int add(int a, int b);` above main, or define the function above main.
+what is function overloading | overload c++ | same function name different parameters => You can have several functions with the same name if their parameter types differ, like `print(int)` and `print(std::string)`. C++ picks the right one.
+what are default arguments in c++ | default parameter c++ | optional parameter c++ => `void greet(std::string name = "friend")` lets callers skip that argument. Defaults go at the end of the parameter list.
+what is pass by value vs pass by reference | reference parameter c++ | & in function parameter => By value copies the argument, so changes do not affect the caller. By reference (`int& x`) works on the original. Use `const std::string& s` to avoid copying big objects without changing them.
+what is a reference in c++ | c++ references | int& meaning => A reference is another name for an existing variable: `int& r = x;` then changing r changes x. It must be set when made and cannot be re-pointed.
+what is a pointer in c++ | c++ pointers explained | int* meaning => A pointer holds a memory address. `int* p = &x;` stores x's address, and `*p` reads or changes the value at that address.
+what is the difference between a pointer and a reference | pointer vs reference | when to use pointer => A reference always refers to one object and cannot be null. A pointer can be null, can be changed to point elsewhere, and needs `*` to reach the value. Prefer references when you can.
+what does & mean in c++ | address of operator | ampersand c++ => In an expression, `&x` gives the address of x. In a type, like `int&`, it means a reference. `&&` is logical and.
+what does * mean in c++ | dereference operator | asterisk pointer c++ => In a type, `int*` means pointer to int. In an expression, `*p` dereferences, giving the value the pointer points to. It is also multiplication.
+what is nullptr | null pointer c++ | nullptr vs null => `nullptr` is the value for a pointer that points to nothing. Check `if (p != nullptr)` before using it. Older code used NULL or 0.
+what is the arrow operator in c++ | -> c++ | pointer to member => `p->name` is a shortcut for `(*p).name`, used to reach members through a pointer.
+what is new and delete in c++ | dynamic memory c++ | heap allocation => `new` makes an object on the heap and returns a pointer; `delete` frees it. Forgetting delete leaks memory, so modern C++ uses smart pointers instead.
+what is a memory leak in c++ | memory leak | forgot to delete => A leak is memory you allocated with new but never freed. The program uses more and more memory. Smart pointers and containers prevent most leaks.
+what is a smart pointer | unique_ptr | shared_ptr => Smart pointers free memory automatically. `std::unique_ptr` has one owner (make it with `std::make_unique`), and `std::shared_ptr` counts owners and frees the object when the last one goes.
+what is raii | resource acquisition is initialization | raii c++ => RAII means an object grabs a resource (memory, a file, a lock) in its constructor and releases it in its destructor, so cleanup happens automatically when it goes out of scope.
+what is the stack and the heap | stack vs heap c++ | where are variables stored => Local variables live on the stack and vanish when the function ends; it is fast but small. The heap is for memory you request with new (or containers use), which lasts until freed.
+what is a segmentation fault | segfault c++ | segmentation fault core dumped => The program touched memory it is not allowed to, usually from a null or dangling pointer or reading past the end of an array. Run it in a debugger or with `-fsanitize=address` to find where.
+what is a dangling pointer | dangling reference | use after free => A dangling pointer points to memory that was already freed or to a local variable that went out of scope. Using it is undefined behavior and often crashes.
+what is undefined behavior | ub in c++ | undefined behaviour => Undefined behavior means C++ makes no promises about what happens, like reading past an array, using an uninitialized variable or overflowing a signed int. It might seem to work and then break later.
+what is an array in c++ | c array | std array c++ => `int nums[5];` is a fixed-size C array. `std::array<int, 5>` is safer and knows its size. Use `std::vector` when the size changes.
+what is a vector in c++ | std vector | dynamic array c++ => `std::vector<int> v;` from `<vector>` is a resizable array. Add with `v.push_back(3)`, read with `v[0]`, and get the count with `v.size()`.
+what is the stl | standard template library | c++ stl => The STL is the part of the C++ standard library with containers (vector, map, set...), algorithms (sort, find...) and iterators that connect them.
+what is a map in c++ | std map | dictionary in c++ => `std::map<std::string, int> ages;` stores sorted key-value pairs: `ages["Sam"] = 12;`. `std::unordered_map` is usually faster but unsorted.
+what is unordered_map | hash map c++ | unordered map vs map => `std::unordered_map` stores key-value pairs in a hash table, so lookups are about constant time on average. `std::map` keeps keys sorted and is a bit slower.
+what is a set in c++ | std set | unique values c++ => `std::set<int>` stores unique values in sorted order; `std::unordered_set` is unsorted but faster. Check with `s.count(x)` or `s.contains(x)` in C++20.
+what is a pair in c++ | std pair | two values together c++ => `std::pair<int, std::string> p{1, "a"};` holds two values, read with `p.first` and `p.second`. `std::tuple` holds more.
+what is a deque in c++ | std deque | double ended queue => `std::deque` can add and remove at both the front and back quickly, with `push_front` and `push_back`.
+what is a queue and stack in c++ | std queue | std stack => `std::queue` is first in, first out (`push`, `front`, `pop`) and `std::stack` is last in, first out (`push`, `top`, `pop`).
+what is a priority queue in c++ | std priority_queue | heap c++ => `std::priority_queue<int>` always gives the largest item at `top()`. Use `std::greater<int>` as the comparator to get the smallest instead.
+how do i sort a vector in c++ | std sort | sort descending c++ => `std::sort(v.begin(), v.end());` from `<algorithm>` sorts small to big. Add `std::greater<int>()` as a third argument for big to small.
+how do i find an item in a vector c++ | std find | search vector c++ => `auto it = std::find(v.begin(), v.end(), 5);` and if `it != v.end()` it was found.
+what is an iterator in c++ | iterators explained | begin and end c++ => An iterator points to an element in a container, like a smart pointer. `begin()` is the first element and `end()` is one past the last, which marks the stop.
+what is a lambda in c++ | c++ lambda | anonymous function c++ => A lambda is an inline function: `auto add = [](int a, int b) { return a + b; };`. The square brackets capture outside variables, like `[&]` for all by reference.
+what is a class in c++ | c++ class | make a class c++ => A class bundles data and functions: `class Player { public: std::string name; void jump(); };`. Make one with `Player p;` and use `p.jump();`.
+what is the difference between class and struct in c++ | struct vs class c++ | struct c++ => They are almost the same. Members of a struct are public by default and members of a class are private by default. Many people use struct for simple data.
+what is public private protected | access specifiers c++ | private members => `public` members can be used anywhere, `private` only inside the class, and `protected` inside the class and its subclasses.
+what is a constructor in c++ | c++ constructor | initialize object c++ => A constructor runs when an object is made and has the class's name: `Player(std::string n) : name(n) {}`. The part after the colon is the member initializer list.
+what is a destructor in c++ | ~ in c++ | destructor explained => A destructor, like `~Player()`, runs when an object is destroyed, for cleanup. With RAII and smart pointers you rarely write one yourself.
+what is this in c++ | this pointer | this-> c++ => `this` is a pointer to the object a member function was called on, so `this->name` is that object's name.
+what is inheritance in c++ | c++ inheritance | derived class => `class Boss : public Enemy { };` makes Boss get Enemy's members. Boss can add its own and override virtual functions.
+what is a virtual function | virtual c++ | override keyword => A `virtual` function can be replaced by a subclass, and the right version is called even through a base pointer. Mark replacements with `override` so the compiler checks them.
+what is polymorphism in c++ | runtime polymorphism | base class pointer => Polymorphism lets you treat different subclasses through a base class pointer or reference and still call each one's own version of a virtual function.
+what is an abstract class in c++ | pure virtual function | = 0 c++ => A function declared `virtual void draw() = 0;` is pure virtual, making the class abstract. You cannot create it directly; subclasses must implement draw.
+why should a base class have a virtual destructor | virtual destructor | delete through base pointer => If you delete a subclass object through a base pointer, the base needs a virtual destructor, or the subclass's destructor will not run.
+what is operator overloading in c++ | overload + c++ | custom operators => You can define operators for your types, like `Vec operator+(const Vec& a, const Vec& b)`, so `a + b` works.
+what is a template in c++ | c++ templates | generic code c++ => Templates let code work with any type: `template <typename T> T biggest(T a, T b) { return a > b ? a : b; }`. vector and map are templates.
+what is a header file | .h file c++ | header vs cpp => A header (.h or .hpp) declares classes and functions; a .cpp file defines them. Other files include the header to use them.
+what is #pragma once | include guards | header included twice => `#pragma once` at the top of a header stops it being included twice. Older code uses include guards with `#ifndef`, `#define` and `#endif`.
+what is the preprocessor | #define c++ | macros c++ => The preprocessor handles lines starting with #, like `#include` and `#define`, before compiling. Prefer `constexpr` and functions over `#define` macros.
+what is a namespace in c++ | make a namespace | namespace explained => A namespace groups names so they do not clash: `namespace game { int score; }` used as `game::score`.
+what is enum class | scoped enum c++ | enum vs enum class => `enum class Color { Red, Green };` makes a scoped enum used as `Color::Red`. It is safer than a plain enum because it does not turn into an int by itself.
+c++ struct example | group data c++ => `struct Point { int x; int y; };` then `Point p{3, 4};` and `p.x`.
+what is static in c++ | static variable | static member c++ => Inside a function, a `static` variable keeps its value between calls. In a class, a static member belongs to the class, not each object.
+what is inline in c++ | inline function | inline keyword => `inline` lets a function be defined in a header that many files include. It is also a hint the compiler may paste the code in place of the call.
+what is a linker | linker error c++ | undefined reference => The linker joins compiled files into one program. "undefined reference" means something was declared but its definition was not found or the .cpp file was not compiled in.
+what does undefined reference to mean | undefined reference error | lnk2019 => The linker could not find a function's definition. Make sure it is defined (not just declared), the .cpp file is part of the build, and the names and parameters match exactly.
+what does was not declared in this scope mean | not declared in this scope | identifier is undefined => The compiler does not know that name there. Check spelling, add the right `#include`, add `std::`, or declare it before use.
+what does expected ; before mean | expected semicolon error | missing semicolon error c++ => A semicolon is missing, usually at the end of the line before the one shown, or after a class or struct's closing brace.
+what does no matching function for call mean | no matching function | wrong arguments c++ => You called a function with arguments it does not accept. Check the number and types of arguments against its declaration.
+what does cannot convert from to mean c++ | cannot convert error | invalid conversion => You assigned or passed a value of the wrong type. Convert it explicitly, like `static_cast<int>(x)`, or change the type.
+what does multiple definition of mean | redefinition error c++ | already defined in obj => The same function or variable is defined in more than one file, often from putting a definition in a header. Mark it `inline`, or keep only the declaration in the header.
+what does expected primary expression before mean | expected primary-expression | primary expression error => The compiler found something where it expected a value, often a stray type name, missing argument or extra bracket. Look closely at that line.
+what does lvalue required mean | lvalue required as left operand | assignment error c++ => The left side of `=` must be something you can assign to, like a variable. You may have written `=` where you meant `==`.
+what does control reaches end of non-void function mean | missing return c++ | no return statement => A function that returns a value has a path with no return. Add a return at the end or in each branch.
+what does std out of range mean | out_of_range exception | vector at out of range => You used `.at()` with an index outside the container. `v[i]` would not check and could crash or read garbage instead.
+what does terminate called after throwing mean | uncaught exception c++ | terminate called => An exception was thrown and nothing caught it, so the program stopped. Wrap the code in try/catch or fix the cause shown in the message.
+what is exception handling in c++ | try catch c++ | throw c++ => `try { ... } catch (const std::exception& e) { std::cout << e.what(); }` catches errors thrown with `throw std::runtime_error("msg");`.
+what is static_cast | casting in c++ | convert types c++ => `static_cast<double>(x)` converts between related types clearly and safely. Avoid C-style casts like `(int)x` in C++ code.
+what is the size of a type | sizeof c++ | how many bytes => `sizeof(int)` gives the size in bytes. `sizeof(arr) / sizeof(arr[0])` gives a C array's length (it does not work on pointers).
+what is a char in c++ | single quotes c++ | char vs string => A char holds one character in single quotes, like `'A'`. Double quotes make a string. A char is really a small number, so `'A' + 1` is 66.
+how do i convert a string to an int in c++ | stoi | string to number c++ => `std::stoi("42")` converts to int and `std::stod("3.5")` to double. They throw an exception if the text is not a number.
+to_string c++ | std to_string | turn an int into text c++ => `std::to_string(42)` from `<string>` gives the text "42". It also works for doubles, though it always shows 6 decimal places.
+how do i get a random number in c++ | random c++ | mt19937 => Use `<random>`: `std::mt19937 rng(std::random_device{}());` then `std::uniform_int_distribution<int> dist(1, 6);` and `dist(rng)`. `rand()` is older and lower quality.
+how do i read a file in c++ | ifstream | file input c++ => `std::ifstream in("data.txt"); std::string line; while (std::getline(in, line)) { }` reads line by line. Include `<fstream>`.
+how do i write a file in c++ | ofstream | file output c++ => `std::ofstream out("save.txt"); out << "score " << score << "\n";`. The file closes when `out` goes out of scope.
+what is endl vs \n | std endl | newline c++ => Both end a line, but `std::endl` also flushes the output, which is slower. Use "\n" in most cases.
+how do i format output in c++ | setprecision | print decimals c++ => Include `<iomanip>` and use `std::cout << std::fixed << std::setprecision(2) << x;`. C++20 also has `std::format("{:.2f}", x)`.
+what is std::format | c++20 format | format strings c++ => `std::format("Score: {}", score)` from `<format>` builds a string like Python's f-strings. C++23 adds `std::print`.
+what are c++ versions | c++11 c++17 c++20 | which c++ standard => C++ gets a new standard about every three years: C++11 (a huge update), C++14, C++17, C++20, C++23. Pick one with a flag like `-std=c++20`.
+what is modern c++ | c++11 features | modern c++ style => Modern C++ (C++11 and later) uses auto, range-for loops, smart pointers, lambdas, move semantics and the STL instead of raw new, delete and C arrays.
+what is move semantics | std move | rvalue reference => Move semantics let an object take another's resources instead of copying them, which is fast for big things like vectors. `std::move(x)` says x may be moved from.
+what is the rule of three | rule of five | rule of zero => If a class needs a custom destructor, copy constructor or copy assignment, it probably needs all three (five with move operations). Best of all is the rule of zero: use members like vector and unique_ptr so you need none.
+what is const correctness | const member function | const after function => Marking things const when they should not change, including member functions like `int score() const;`, lets the compiler catch accidental changes.
+what is an initializer list | brace initialization | {} initialization c++ => Braces initialize values safely: `int x{5};`, `std::vector<int> v{1, 2, 3};`. They also stop narrowing, like putting 3.7 into an int.
+what is a uninitialized variable | garbage value c++ | random value in variable => A local variable without a starting value holds whatever was in memory, a garbage value. Always initialize, like `int count = 0;`.
+what is integer overflow in c++ | int overflow | number wraps around c++ => Going past an int's limit is undefined behavior for signed ints. Use a bigger type like `long long` or `int64_t` when numbers get large.
+what is unsigned in c++ | unsigned int | signed vs unsigned => `unsigned` types cannot be negative, giving twice the positive range. Mixing signed and unsigned in comparisons can cause surprising bugs.
+what is size_t | size_t c++ => `size_t` is an unsigned type for sizes and indexes, returned by `.size()` and `sizeof`.
+what are fixed width integers | uint8_t int32_t | stdint c++ => `<cstdint>` gives exact sizes like `int8_t`, `uint8_t`, `int16_t`, `int32_t` and `uint64_t`, which matter on microcontrollers and for file formats.
+what is a bitwise operator | bitwise and or c++ | bit shift c++ => Bitwise operators work on single bits: `&` and, `^` xor, `~` not, `<<` and `>>` shift. A single vertical bar is bitwise or. Used for flags and hardware registers.
+what is a ternary operator in c++ | conditional operator c++ => `int best = (a > b) ? a : b;` picks one of two values in one line.
+what is a goto in c++ | goto statement | should i use goto => `goto label;` jumps to a labeled line. It makes code hard to follow, so it is almost never used in modern C++.
+what is a global variable in c++ | global variables bad | global scope c++ => A variable declared outside all functions is global and can be used anywhere in that file. Use them sparingly, since any code can change them.
+what is scope in c++ | variable scope | block scope c++ => A variable exists from where it is declared to the end of its braces. Outside, it is gone.
+what is cmake | cmakelists | build system c++ => CMake is a popular tool that generates build files for C++ projects from a CMakeLists.txt, so the same project builds with different compilers and IDEs.
+what is a makefile | make command | makefile c++ => A Makefile lists how to build a program and which files depend on which, so `make` rebuilds only what changed.
+what is visual studio for c++ | best ide for c++ | c++ editor => Visual Studio (Windows) is a full IDE with a great debugger. CLion and VS Code with the C++ extension are popular too, and Xcode works on Mac.
+what is a debugger for c++ | gdb | lldb => A debugger runs your program step by step so you can watch variables. gdb and lldb work from the terminal, and IDEs give a visual debugger.
+what is a library in c++ | static vs dynamic library | dll and so => A library is compiled code to reuse. Static libraries (.lib, .a) are copied into your program; dynamic ones (.dll, .so, .dylib) load when it runs.
+what is a package manager for c++ | vcpkg | conan => vcpkg and Conan download and build C++ libraries for you, which is much easier than doing it by hand.
+what is sfml | sdl | c++ game library => SFML and SDL are libraries for windows, graphics, sound and input in C++, good for making 2D games from scratch. Raylib is another beginner-friendly one.
+what is raylib | raylib c++ | simple game library => raylib is a simple C library for games, usable from C++. A window and a drawing loop take only a few lines.
+what is unreal engine c++ | unreal c++ | ue5 programming => Unreal Engine uses C++ for game code along with Blueprints, its visual scripting. Classes use macros like UCLASS and UPROPERTY so the editor can see them.
+is c++ faster than python | c++ vs python speed | why is c++ fast => Usually yes, often by a lot, because C++ compiles to machine code and has no interpreter overhead. Python is faster to write, so people often use both.
+what is a compile error vs runtime error | compile time vs runtime | error types c++ => Compile errors stop the program from building, like a missing semicolon. Runtime errors happen while it runs, like a crash from a bad pointer. Logic errors give wrong results without crashing.
+what are compiler warnings | -wall -wextra | why fix warnings => Warnings point at code that compiles but is probably wrong. Turn them on with `-Wall -Wextra` and fix them; many bugs show up there first.
+what is address sanitizer | fsanitize address | find memory bugs c++ => Compile with `-fsanitize=address -g` and the program reports out-of-bounds access, use-after-free and leaks with the exact line.
+what is std::optional | optional c++ | maybe value c++ => `std::optional<int>` holds an int or nothing. Check with `if (opt)` and read with `*opt` or `opt.value_or(0)`.
+what is std::variant | variant c++ | type safe union => `std::variant<int, std::string>` holds one of several types at a time. Use `std::visit` or `std::get_if` to read it.
+what is std::function | function object c++ | store a lambda => `std::function<void(int)>` can hold any callable with that signature, like a lambda, so you can store callbacks.
+what is std::string_view | string_view | cheap string reference => `std::string_view` looks at text without copying it, great for function parameters that only read a string.
+what is std::span | span c++ | view of array => `std::span<int>` (C++20) is a view over a block of elements, like part of a vector or array, without copying.
+what is a thread in c++ | std thread | multithreading c++ => `std::thread t(work); t.join();` runs work at the same time as the main code. Protect shared data with `std::mutex` and `std::lock_guard`.
+what is a mutex | std mutex | lock in c++ => A mutex lets only one thread into a section at a time. `std::lock_guard<std::mutex> lock(m);` locks it and unlocks automatically at the end of the scope.
+what is std::chrono | chrono c++ | measure time c++ => `<chrono>` measures time: save `auto start = std::chrono::steady_clock::now();` then subtract from a later now() and convert with `duration_cast`.
+how do i sleep in c++ | sleep_for | pause c++ program => `std::this_thread::sleep_for(std::chrono::milliseconds(500));` from `<thread>` and `<chrono>`.
+what is the difference between ++ in c and c++ | why is it called c plus plus | c++ name meaning => In C, `++` adds one to a variable, so the name C++ is a joke meaning "one step beyond C".

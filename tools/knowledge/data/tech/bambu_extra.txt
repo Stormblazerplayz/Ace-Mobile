@@ -1,0 +1,3 @@
+# tag: tech.printing.bambu.extra
+what is flush into infill | flush into object bambu studio => These options purge the old color into the model's hidden infill or into a spare object instead of the poop chute, wasting less filament when changing colors.
+what is a refill spool | filament without a spool => Refills are coils of filament sold without a plastic spool to cut waste. You snap them onto a reusable spool, and Bambu sells reusable spools that fit the AMS.

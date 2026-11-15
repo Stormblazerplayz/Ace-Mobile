@@ -1,13 +1,15 @@
 import XCTest
 @testable import Ace
 
-/// Ace's built-in Roblox Lua and C++ scripts: the library, finding the right one, and the colored code.
+/// Ace's built-in Roblox Lua, C++, Python and Swift scripts: the library, finding the right one, and the colored code.
 @MainActor
 final class ScriptLibraryTests: XCTestCase {
     func testLibraryIsComplete() {
         let all = ScriptLibrary.all
         XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Lua" }.count, 25)
         XCTAssertGreaterThanOrEqual(all.filter { $0.language == "C++" }.count, 20)
+        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Python" }.count, 200)
+        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Swift" }.count, 100)
         XCTAssertEqual(Set(all.map(\.id)).count, all.count, "Two scripts share an id")
         for s in all {
             XCTAssertFalse(s.title.isEmpty, s.id)
@@ -15,9 +17,11 @@ final class ScriptLibraryTests: XCTestCase {
             XCTAssertFalse(s.about.isEmpty, s.id)
             XCTAssertGreaterThanOrEqual(s.keywords.count, 3, s.id)
             XCTAssertGreaterThan(s.code.count, 40, s.id)
-            XCTAssertTrue(["Lua", "C++"].contains(s.language), s.id)
+            XCTAssertTrue(ScriptLibrary.languages.contains(s.language), s.id)
         }
-        XCTAssertEqual(ScriptLibrary.categories("C++"), ["Arduino", "Basics", "Games", "Unreal Engine"])
+        for c in ["Arduino", "Basics", "Games", "Unreal Engine"] { XCTAssertTrue(ScriptLibrary.categories("C++").contains(c), c) }
+        XCTAssertTrue(ScriptLibrary.categories("Python").contains("Games"))
+        XCTAssertFalse(ScriptLibrary.categories("Swift").isEmpty)
         XCTAssertTrue(ScriptLibrary.categories("Lua").contains("Obstacles"))
         XCTAssertTrue(ScriptLibrary.script(id: "kill-brick")?.code.contains("humanoid.Health = 0") ?? false)
     }
@@ -54,6 +58,14 @@ final class ScriptLibraryTests: XCTestCase {
             ("script for a speed boost", "speed-pad"),
             ("rising lava script", "rising-lava"),
             ("neopixel rainbow arduino code", "arduino-neopixel-rainbow"),
+            ("python fizzbuzz", "python-fizzbuzz"),
+            ("write a magic eight ball in python", "python-magic-8-ball"),
+            ("python turtle smiley face", "python-turtle-smiley"),
+            ("python script to convert json to csv", "python-json-to-csv"),
+            ("python slot machine", "python-slot-machine"),
+            ("swiftui dice roller app", "swiftui-dice-roller"),
+            ("swift coin flip app", "swiftui-coin-flip"),
+            ("swift binary search", "swift-binary-search"),
         ]
         for (text, want) in cases {
             XCTAssertEqual(ScriptLibrary.find(text)?.script.id, want, text)
@@ -64,7 +76,7 @@ final class ScriptLibraryTests: XCTestCase {
     func testOtherQuestionsAreNotScripts() {
         for text in ["what is lua", "what is coding", "what is c++", "what is roblox studio", "what is a computer program",
                      "california postal code", "set a timer for 5 minutes", "turn on the lamp", "make it spicier",
-                     "write me a python script", "give me code for a website", "what is the code for wifi", "how do i code"] {
+                     "give me code for a website", "what is the code for wifi", "how do i code"] {
             XCTAssertNotEqual(IntentRouter.parse(text)?.kind, "script", text)
         }
     }
@@ -78,6 +90,9 @@ final class ScriptLibraryTests: XCTestCase {
         XCTAssertEqual(ScriptLibrary.needsOne("can you write me a roblox script"), "Lua")
         XCTAssertEqual(ScriptLibrary.needsOne("i need a c++ program"), "C++")
         XCTAssertNil(ScriptLibrary.needsOne("give me a jump pad script"))
+        XCTAssertEqual(ScriptLibrary.needsOne("write me a python script"), "Python")
+        XCTAssertEqual(ScriptLibrary.needsOne("give me a swift program"), "Swift")
+        XCTAssertEqual(ScriptLibrary.listAsk("show me your python scripts"), "Python")
         for text in ["what scripts do you have", "give me a script", "show me your c++ code"] {
             XCTAssertEqual(IntentRouter.parse(text)?.kind, "script", text)
         }

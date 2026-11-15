@@ -1,0 +1,916 @@
+{
+ "recipes": [
+  {
+   "id": "blueberry-muffins",
+   "name": "Blueberry muffins",
+   "aliases": [
+    "blueberry muffins",
+    "blueberry muffin",
+    "berry muffins",
+    "bakery blueberry muffins"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "40 min",
+   "main": [
+    "flour",
+    "blueberries",
+    "sugar",
+    "egg",
+    "milk"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "3/4 cup (150 g) sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1/3 cup (80 ml) vegetable oil",
+    "1 large egg",
+    "3/4 cup (180 ml) milk",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (220 g) blueberries, fresh or frozen",
+    "1 tablespoon coarse sugar for the tops (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with paper liners.",
+    "Whisk the flour, sugar, baking powder and salt in a big bowl.",
+    "Whisk the oil, egg, milk and vanilla in another bowl.",
+    "Pour the wet mix into the dry mix and stir until just combined. Lumps are fine.",
+    "Gently fold in the blueberries. Use them frozen, do not thaw.",
+    "Fill the liners almost full and sprinkle with coarse sugar.",
+    "Bake for 18 to 20 minutes, until golden and a toothpick comes out clean.",
+    "Let cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "chocolate-chip-muffins",
+   "name": "Chocolate chip muffins",
+   "aliases": [
+    "chocolate chip muffins",
+    "chocolate chip muffin",
+    "choc chip muffins",
+    "chip muffins"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "40 min",
+   "main": [
+    "flour",
+    "chocolate chips",
+    "sugar",
+    "egg",
+    "milk"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1/2 cup (100 g) sugar",
+    "1/2 cup (110 g) packed brown sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1/2 cup (115 g) butter, melted",
+    "2 large eggs",
+    "3/4 cup (180 ml) milk",
+    "2 teaspoons vanilla extract",
+    "1 cup (170 g) chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with liners.",
+    "Whisk the flour, sugar, brown sugar, baking powder and salt.",
+    "Whisk the butter, eggs, milk and vanilla in another bowl.",
+    "Stir the wet into the dry until just combined, then stir in most of the chips.",
+    "Fill the liners and sprinkle the rest of the chips on top.",
+    "Bake for 18 to 20 minutes, until a toothpick comes out clean.",
+    "Let cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "double-chocolate-muffins",
+   "name": "Double chocolate muffins",
+   "aliases": [
+    "double chocolate muffins",
+    "chocolate muffins",
+    "chocolate muffin",
+    "triple chocolate muffins"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "40 min",
+   "main": [
+    "flour",
+    "cocoa",
+    "chocolate chips",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "1 3/4 cups (220 g) all-purpose flour",
+    "1/2 cup (45 g) unsweetened cocoa powder",
+    "3/4 cup (150 g) sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "2 large eggs",
+    "1 cup (240 ml) milk",
+    "1/2 cup (120 ml) vegetable oil",
+    "1 teaspoon vanilla extract",
+    "1 cup (170 g) chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with liners.",
+    "Whisk the flour, cocoa, sugar, baking powder, baking soda and salt.",
+    "Whisk the eggs, milk, oil and vanilla in another bowl.",
+    "Stir the wet into the dry until just combined, then stir in the chips.",
+    "Fill the liners nearly full.",
+    "Bake for 18 to 20 minutes, until a toothpick comes out with only melted chocolate.",
+    "Let cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "lemon-poppy-seed-muffins",
+   "name": "Lemon poppy seed muffins",
+   "aliases": [
+    "lemon poppy seed muffins",
+    "lemon poppyseed muffins",
+    "lemon muffins",
+    "poppy seed muffins"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "45 min",
+   "main": [
+    "flour",
+    "lemon",
+    "poppy seeds",
+    "yogurt",
+    "butter"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "3/4 cup (150 g) sugar",
+    "1 tablespoon poppy seeds",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "2 large eggs",
+    "3/4 cup (180 g) plain yogurt or sour cream",
+    "1/2 cup (115 g) butter, melted",
+    "1 tablespoon lemon zest",
+    "2 tablespoons lemon juice",
+    "Glaze: 1 cup (120 g) powdered sugar and 2 tablespoons lemon juice"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with liners.",
+    "Whisk the flour, sugar, poppy seeds, baking powder, baking soda and salt.",
+    "Whisk the eggs, yogurt, butter, zest and lemon juice.",
+    "Stir the wet into the dry until just combined.",
+    "Fill the liners 3/4 full.",
+    "Bake for 18 to 20 minutes, until golden.",
+    "Let cool for 15 minutes, then drizzle with the glaze."
+   ]
+  },
+  {
+   "id": "pumpkin-muffins",
+   "name": "Pumpkin muffins",
+   "aliases": [
+    "pumpkin muffins",
+    "pumpkin muffin",
+    "pumpkin spice muffins",
+    "pumpkin chocolate chip muffins"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "45 min",
+   "main": [
+    "pumpkin",
+    "flour",
+    "brown sugar",
+    "egg",
+    "oil"
+   ],
+   "ingredients": [
+    "1 3/4 cups (220 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon baking powder",
+    "1/2 teaspoon salt",
+    "2 teaspoons pumpkin pie spice or cinnamon",
+    "1 cup (245 g) pumpkin puree",
+    "1/2 cup (120 ml) vegetable oil",
+    "2 large eggs",
+    "3/4 cup (165 g) packed brown sugar",
+    "1/4 cup (50 g) sugar",
+    "1/4 cup (60 ml) milk",
+    "3/4 cup (130 g) chocolate chips (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with liners.",
+    "Whisk the flour, baking soda, baking powder, salt and spice.",
+    "Whisk the pumpkin, oil, eggs, both sugars and milk.",
+    "Stir the wet into the dry until just combined, then the chips.",
+    "Fill the liners nearly full.",
+    "Bake for 20 to 22 minutes, until a toothpick comes out clean.",
+    "Let cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "apple-cinnamon-muffins",
+   "name": "Apple cinnamon muffins",
+   "aliases": [
+    "apple cinnamon muffins",
+    "apple muffins",
+    "apple muffin",
+    "apple crumb muffins"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "45 min",
+   "main": [
+    "apples",
+    "flour",
+    "cinnamon",
+    "brown sugar",
+    "butter"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1/2 cup (100 g) sugar",
+    "1/2 cup (110 g) packed brown sugar",
+    "2 teaspoons baking powder",
+    "1 1/2 teaspoons ground cinnamon",
+    "1/2 teaspoon salt",
+    "2 large eggs",
+    "1/2 cup (115 g) butter, melted",
+    "3/4 cup (180 ml) milk",
+    "1 1/2 cups (190 g) peeled, diced apple",
+    "Crumb top: 1/4 cup (30 g) flour, 1/4 cup (55 g) brown sugar, 2 tablespoons butter, 1/2 teaspoon cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with liners.",
+    "Peel and dice the apple into small cubes. Ask an adult to help with the knife.",
+    "Whisk the flour, both sugars, baking powder, cinnamon and salt.",
+    "Whisk the eggs, butter and milk, then stir into the dry mix until just combined.",
+    "Fold in the apple and fill the liners.",
+    "Rub the crumb top together and sprinkle over the muffins.",
+    "Bake for 20 to 22 minutes, until a toothpick comes out clean."
+   ]
+  },
+  {
+   "id": "raspberry-white-chocolate-muffins",
+   "name": "Raspberry white chocolate muffins",
+   "aliases": [
+    "raspberry white chocolate muffins",
+    "raspberry muffins",
+    "raspberry muffin",
+    "white chocolate muffins"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "40 min",
+   "main": [
+    "raspberries",
+    "white chocolate",
+    "flour",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "3/4 cup (150 g) sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1/2 cup (115 g) butter, melted",
+    "2 large eggs",
+    "3/4 cup (180 ml) milk",
+    "1 teaspoon vanilla extract",
+    "1 cup (125 g) raspberries, fresh or frozen",
+    "3/4 cup (130 g) white chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with liners.",
+    "Whisk the flour, sugar, baking powder and salt.",
+    "Whisk the butter, eggs, milk and vanilla, then stir into the dry mix until just combined.",
+    "Gently fold in the raspberries and white chocolate.",
+    "Fill the liners nearly full.",
+    "Bake for 20 to 22 minutes, until golden.",
+    "Let cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "cornbread",
+   "name": "Cornbread",
+   "aliases": [
+    "cornbread",
+    "corn bread",
+    "corn muffins",
+    "southern cornbread",
+    "sweet cornbread"
+   ],
+   "category": "Baking",
+   "servings": 9,
+   "time": "35 min",
+   "main": [
+    "cornmeal",
+    "flour",
+    "milk",
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "1 cup (140 g) yellow cornmeal",
+    "1 cup (125 g) all-purpose flour",
+    "1/4 cup (50 g) sugar",
+    "1 tablespoon baking powder",
+    "1/2 teaspoon salt",
+    "1 cup (240 ml) milk",
+    "1/3 cup (75 g) butter, melted",
+    "1 large egg"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Grease an 8 by 8 inch pan or a 12-cup muffin pan.",
+    "Whisk the cornmeal, flour, sugar, baking powder and salt.",
+    "Whisk the milk, butter and egg, then stir into the dry mix until just combined.",
+    "Pour into the pan.",
+    "Bake for 20 to 25 minutes, until golden and a toothpick comes out clean. Muffins take 15 to 18 minutes.",
+    "Let cool for 5 minutes. Serve warm with butter and honey."
+   ]
+  },
+  {
+   "id": "zucchini-bread",
+   "name": "Zucchini bread",
+   "aliases": [
+    "zucchini bread",
+    "zucchini loaf",
+    "courgette bread",
+    "courgette cake"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "zucchini",
+    "flour",
+    "sugar",
+    "oil",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 teaspoon ground cinnamon",
+    "1/2 teaspoon baking soda",
+    "1/2 teaspoon baking powder",
+    "1/2 teaspoon salt",
+    "2 large eggs",
+    "1/2 cup (120 ml) vegetable oil",
+    "1/2 cup (100 g) sugar",
+    "1/2 cup (110 g) packed brown sugar",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (190 g) grated zucchini, about 1 medium"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 5 inch loaf pan.",
+    "Grate the zucchini on a box grater, keeping your fingers clear, and squeeze out some of the water in a towel.",
+    "Whisk the flour, cinnamon, baking soda, baking powder and salt.",
+    "Whisk the eggs, oil, sugars and vanilla, then stir in the zucchini.",
+    "Stir in the flour mix until just combined.",
+    "Pour into the pan.",
+    "Bake for 55 to 60 minutes, until a toothpick comes out clean.",
+    "Let cool for 15 minutes in the pan, then on a rack."
+   ]
+  },
+  {
+   "id": "pumpkin-bread",
+   "name": "Pumpkin bread",
+   "aliases": [
+    "pumpkin bread",
+    "pumpkin loaf",
+    "pumpkin spice bread",
+    "pumpkin quick bread"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "pumpkin",
+    "flour",
+    "sugar",
+    "egg",
+    "oil"
+   ],
+   "ingredients": [
+    "1 3/4 cups (220 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "2 teaspoons pumpkin pie spice or cinnamon",
+    "1 cup (245 g) pumpkin puree",
+    "2 large eggs",
+    "1/2 cup (120 ml) vegetable oil",
+    "1/3 cup (80 ml) water or milk",
+    "1 cup (200 g) sugar",
+    "1/2 cup (110 g) packed brown sugar"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 5 inch loaf pan.",
+    "Whisk the flour, baking soda, salt and spice.",
+    "Whisk the pumpkin, eggs, oil, water and both sugars.",
+    "Stir in the flour mix until just combined.",
+    "Pour into the pan.",
+    "Bake for 55 to 65 minutes, until a toothpick comes out clean.",
+    "Let cool for 15 minutes in the pan, then on a rack."
+   ]
+  },
+  {
+   "id": "irish-soda-bread",
+   "name": "Irish soda bread",
+   "aliases": [
+    "irish soda bread",
+    "soda bread",
+    "irish bread",
+    "buttermilk soda bread"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "1 hr",
+   "main": [
+    "flour",
+    "buttermilk",
+    "baking soda",
+    "salt"
+   ],
+   "ingredients": [
+    "4 cups (500 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1 teaspoon salt",
+    "1 tablespoon sugar (optional)",
+    "1 3/4 cups (420 ml) buttermilk",
+    "1/2 cup (75 g) raisins (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Whisk the flour, baking soda, salt and sugar in a big bowl. Stir in the raisins.",
+    "Pour in the buttermilk and stir with a fork until a shaggy dough forms.",
+    "Knead gently on a floured counter for 30 seconds, just until it holds together.",
+    "Shape into a round loaf about 2 inches tall and put it on a lined baking sheet.",
+    "Cut a deep cross on top with a knife. Ask an adult to help.",
+    "Bake for 35 to 40 minutes, until browned and hollow sounding when tapped underneath.",
+    "Let cool for 20 minutes."
+   ]
+  },
+  {
+   "id": "buttermilk-biscuits",
+   "name": "Buttermilk biscuits",
+   "aliases": [
+    "buttermilk biscuits",
+    "biscuits",
+    "biscuit",
+    "flaky biscuits",
+    "southern biscuits"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "35 min",
+   "main": [
+    "flour",
+    "butter",
+    "buttermilk",
+    "baking powder"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 tablespoon baking powder",
+    "1/2 teaspoon baking soda",
+    "1 teaspoon salt",
+    "1 teaspoon sugar",
+    "1/2 cup (115 g) very cold butter, cubed",
+    "3/4 cup (180 ml) cold buttermilk, plus more if needed",
+    "2 tablespoons butter, melted, for brushing"
+   ],
+   "steps": [
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Whisk the flour, baking powder, baking soda, salt and sugar.",
+    "Rub in the cold butter until the pieces are pea sized.",
+    "Stir in the buttermilk until just combined. Add a spoonful more if it is dry.",
+    "Pat the dough 1 inch thick, fold it in half, pat it out again and fold again. This makes layers.",
+    "Pat 3/4 inch thick and cut straight down with a 2 1/2 inch cutter. Do not twist.",
+    "Put them touching on a baking sheet.",
+    "Bake for 12 to 15 minutes, until golden.",
+    "Brush with melted butter."
+   ]
+  },
+  {
+   "id": "cheddar-drop-biscuits",
+   "name": "Cheddar garlic drop biscuits",
+   "aliases": [
+    "cheddar biscuits",
+    "cheddar bay biscuits",
+    "garlic cheddar biscuits",
+    "drop biscuits",
+    "cheese biscuits"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "30 min",
+   "main": [
+    "flour",
+    "cheddar",
+    "butter",
+    "buttermilk",
+    "garlic powder"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 tablespoon baking powder",
+    "1 tablespoon sugar",
+    "1 teaspoon garlic powder",
+    "1/2 teaspoon salt",
+    "1 cup (240 ml) buttermilk or milk",
+    "1/2 cup (115 g) butter, melted",
+    "1 1/2 cups (170 g) shredded sharp cheddar",
+    "Topping: 3 tablespoons butter, melted, 1/2 teaspoon garlic powder, 1 teaspoon chopped parsley"
+   ],
+   "steps": [
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Whisk the flour, baking powder, sugar, garlic powder and salt.",
+    "Stir in the buttermilk and melted butter until just combined, then the cheese.",
+    "Drop 12 big spoonfuls onto a lined baking sheet.",
+    "Bake for 10 to 12 minutes, until golden.",
+    "Mix the topping and brush it over the hot biscuits."
+   ]
+  },
+  {
+   "id": "scones",
+   "name": "Cream scones",
+   "aliases": [
+    "scones",
+    "scone",
+    "cream scones",
+    "blueberry scones",
+    "chocolate chip scones",
+    "cranberry scones"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "flour",
+    "butter",
+    "cream",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1/4 cup (50 g) sugar",
+    "1 tablespoon baking powder",
+    "1/2 teaspoon salt",
+    "1/2 cup (115 g) cold butter, cubed",
+    "1/2 cup (120 ml) heavy cream, plus more for brushing",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "3/4 cup mix-ins like blueberries, chocolate chips or dried cranberries"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Whisk the flour, sugar, baking powder and salt.",
+    "Rub in the cold butter until crumbly.",
+    "Whisk the cream, egg and vanilla and stir into the flour until just combined. Fold in the mix-ins.",
+    "Pat into an 8 inch circle on a lined baking sheet and cut into 8 wedges. Pull them apart a little.",
+    "Brush with cream and sprinkle with sugar.",
+    "Bake for 18 to 20 minutes, until golden.",
+    "Let cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "cheese-scones",
+   "name": "Cheese scones",
+   "aliases": [
+    "cheese scones",
+    "cheddar scones",
+    "savory scones",
+    "british cheese scones"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "35 min",
+   "main": [
+    "flour",
+    "cheddar",
+    "butter",
+    "milk",
+    "baking powder"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 tablespoon baking powder",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon mustard powder (optional)",
+    "4 tablespoons (55 g) cold butter, cubed",
+    "1 cup (115 g) grated sharp cheddar, plus a little for the tops",
+    "2/3 cup (160 ml) milk, plus a little for brushing"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Whisk the flour, baking powder, salt and mustard powder.",
+    "Rub in the butter until it looks like breadcrumbs, then stir in the cheese.",
+    "Stir in the milk to make a soft dough.",
+    "Pat 1 inch thick and cut 2 1/2 inch rounds.",
+    "Put on a lined sheet, brush with milk and sprinkle with cheese.",
+    "Bake for 12 to 15 minutes, until risen and golden."
+   ]
+  },
+  {
+   "id": "sour-cream-coffee-cake",
+   "name": "Sour cream coffee cake",
+   "aliases": [
+    "coffee cake",
+    "sour cream coffee cake",
+    "streusel cake",
+    "crumb cake",
+    "cinnamon streusel cake"
+   ],
+   "category": "Baking",
+   "servings": 9,
+   "time": "1 hr 15 min",
+   "main": [
+    "flour",
+    "sour cream",
+    "butter",
+    "brown sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "Streusel: 3/4 cup (95 g) flour, 1/2 cup (110 g) packed brown sugar, 1 teaspoon cinnamon, 1/3 cup (75 g) butter, melted",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1 cup (240 g) sour cream",
+    "2 cups (250 g) all-purpose flour",
+    "1 teaspoon baking powder",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 9 inch pan.",
+    "Mix the streusel ingredients with a fork until clumpy.",
+    "Beat the butter and sugar, then beat in the eggs, vanilla and sour cream.",
+    "Stir in the flour, baking powder, baking soda and salt.",
+    "Spread half the batter in the pan and sprinkle with half the streusel.",
+    "Spread the rest of the batter on top and finish with the rest of the streusel.",
+    "Bake for 40 to 45 minutes, until a toothpick comes out clean. There is no coffee in it. It is made to eat with coffee."
+   ]
+  },
+  {
+   "id": "strawberry-bread",
+   "name": "Strawberry bread",
+   "aliases": [
+    "strawberry bread",
+    "strawberry loaf",
+    "strawberry quick bread",
+    "strawberry loaf cake"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "strawberries",
+    "flour",
+    "sugar",
+    "egg",
+    "oil"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1/2 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "1 teaspoon ground cinnamon",
+    "2 large eggs",
+    "1/2 cup (120 ml) vegetable oil",
+    "3/4 cup (150 g) sugar",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (225 g) chopped strawberries"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 5 inch loaf pan.",
+    "Whisk the flour, baking soda, salt and cinnamon.",
+    "Whisk the eggs, oil, sugar and vanilla.",
+    "Stir in the flour mix until just combined, then fold in the strawberries.",
+    "Pour into the pan.",
+    "Bake for 55 to 60 minutes, until a toothpick comes out clean.",
+    "Let cool for 15 minutes in the pan."
+   ]
+  },
+  {
+   "id": "cranberry-orange-bread",
+   "name": "Cranberry orange bread",
+   "aliases": [
+    "cranberry orange bread",
+    "cranberry bread",
+    "orange cranberry loaf",
+    "cranberry nut bread"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "cranberries",
+    "orange",
+    "flour",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "3/4 cup (150 g) sugar",
+    "1 1/2 teaspoons baking powder",
+    "1/2 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "1 tablespoon orange zest",
+    "3/4 cup (180 ml) orange juice",
+    "1 large egg",
+    "1/4 cup (55 g) butter, melted",
+    "1 1/2 cups (150 g) fresh or frozen cranberries, roughly chopped",
+    "1/2 cup (55 g) chopped walnuts (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 5 inch loaf pan.",
+    "Whisk the flour, sugar, baking powder, baking soda, salt and zest.",
+    "Whisk the orange juice, egg and butter, then stir into the dry mix until just combined.",
+    "Fold in the cranberries and nuts.",
+    "Pour into the pan.",
+    "Bake for 55 to 60 minutes, until a toothpick comes out clean.",
+    "Let cool for 15 minutes in the pan."
+   ]
+  },
+  {
+   "id": "baked-donuts",
+   "name": "Baked donuts",
+   "aliases": [
+    "baked donuts",
+    "baked doughnuts",
+    "donuts",
+    "doughnuts",
+    "cake donuts",
+    "cinnamon sugar donuts"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "35 min",
+   "main": [
+    "flour",
+    "sugar",
+    "milk",
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "3/4 cup (150 g) sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon ground nutmeg",
+    "3/4 cup (180 ml) milk",
+    "2 large eggs",
+    "1/4 cup (55 g) butter, melted",
+    "1 teaspoon vanilla extract",
+    "Topping: powdered sugar glaze with sprinkles, or 1/4 cup melted butter and 1/2 cup cinnamon sugar"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease two 6-cavity donut pans.",
+    "Whisk the flour, sugar, baking powder, salt and nutmeg.",
+    "Whisk the milk, eggs, butter and vanilla and stir into the dry mix until smooth.",
+    "Spoon the batter into a zip bag, snip a corner and pipe into the pans 2/3 full.",
+    "Bake for 10 to 12 minutes, until they spring back when touched.",
+    "Let cool for 5 minutes, then turn out.",
+    "Dip in glaze and sprinkles, or brush with butter and roll in cinnamon sugar."
+   ]
+  },
+  {
+   "id": "damper",
+   "name": "Australian damper",
+   "aliases": [
+    "damper",
+    "australian damper",
+    "bush bread",
+    "campfire bread",
+    "damper bread"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "50 min",
+   "main": [
+    "flour",
+    "baking powder",
+    "butter",
+    "milk"
+   ],
+   "ingredients": [
+    "3 cups (375 g) all-purpose flour",
+    "4 1/2 teaspoons baking powder",
+    "1 teaspoon salt",
+    "3 tablespoons (45 g) butter, cold",
+    "1 cup (240 ml) milk",
+    "1/4 cup (60 ml) water"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Whisk the flour, baking powder and salt.",
+    "Rub in the butter until it looks like breadcrumbs.",
+    "Stir in the milk and water until a soft dough forms.",
+    "Knead gently and shape into a round about 2 inches tall on a lined baking sheet.",
+    "Cut a cross on top with a knife and dust with flour.",
+    "Bake for 30 to 35 minutes, until golden and hollow sounding.",
+    "Serve warm with butter and golden syrup or jam."
+   ]
+  },
+  {
+   "id": "cinnamon-quick-bread",
+   "name": "Cinnamon swirl quick bread",
+   "aliases": [
+    "cinnamon quick bread",
+    "amish cinnamon bread",
+    "cinnamon swirl loaf",
+    "cinnamon sugar bread"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "1 hr 20 min",
+   "main": [
+    "flour",
+    "sugar",
+    "buttermilk",
+    "cinnamon",
+    "egg"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 cup (200 g) sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1 cup (240 ml) buttermilk or milk",
+    "1/3 cup (80 ml) vegetable oil",
+    "1 large egg",
+    "2 teaspoons vanilla extract",
+    "Swirl: 1/3 cup (65 g) sugar mixed with 2 teaspoons cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 5 inch loaf pan.",
+    "Whisk the flour, sugar, baking powder and salt.",
+    "Whisk the buttermilk, oil, egg and vanilla and stir into the dry mix until just combined.",
+    "Pour half the batter in the pan and sprinkle with half the cinnamon sugar.",
+    "Add the rest of the batter and sprinkle with the rest of the cinnamon sugar.",
+    "Swirl with a knife.",
+    "Bake for 45 to 50 minutes, until a toothpick comes out clean.",
+    "Let cool for 15 minutes in the pan."
+   ]
+  },
+  {
+   "id": "popovers",
+   "name": "Popovers",
+   "aliases": [
+    "popovers",
+    "popover",
+    "puffy rolls",
+    "hollow rolls"
+   ],
+   "category": "Baking",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "flour",
+    "milk",
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "1 cup (125 g) all-purpose flour",
+    "1/2 teaspoon salt",
+    "1 cup (240 ml) milk, at room temperature",
+    "2 large eggs, at room temperature",
+    "1 tablespoon butter, melted, plus more for the pan"
+   ],
+   "steps": [
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Grease a 6-cup popover pan or a 12-cup muffin pan well.",
+    "Whisk the flour, salt, milk, eggs and melted butter until smooth.",
+    "Fill the cups halfway.",
+    "Bake for 20 minutes. Do not open the oven or they fall.",
+    "Turn the oven down to 350°F (175°C) and bake for 15 to 20 minutes more, until tall and deep golden.",
+    "Poke each one with a knife to let the steam out and serve right away."
+   ]
+  }
+ ]
+}

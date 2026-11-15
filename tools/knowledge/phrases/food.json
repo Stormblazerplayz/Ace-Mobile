@@ -1,0 +1,1815 @@
+{
+ "entries": [
+  {
+   "en": "cheese",
+   "also": [],
+   "t": {
+    "es": "queso",
+    "fr": "fromage",
+    "de": "Käse",
+    "it": "formaggio",
+    "pt": "queijo",
+    "ja": "チーズ",
+    "zh": "奶酪",
+    "ko": "치즈",
+    "hi": "चीज़",
+    "ar": "جبن",
+    "ru": "сыр",
+    "nl": "kaas"
+   },
+   "say": {
+    "ja": "chiizu",
+    "zh": "nǎilào",
+    "ko": "chijeu",
+    "hi": "cheez",
+    "ar": "jubn",
+    "ru": "syr"
+   }
+  },
+  {
+   "en": "butter",
+   "also": [],
+   "t": {
+    "es": "mantequilla",
+    "fr": "beurre",
+    "de": "Butter",
+    "it": "burro",
+    "pt": "manteiga",
+    "ja": "バター",
+    "zh": "黄油",
+    "ko": "버터",
+    "hi": "मक्खन",
+    "ar": "زبدة",
+    "ru": "сливочное масло",
+    "nl": "boter"
+   },
+   "say": {
+    "ja": "bataa",
+    "zh": "huángyóu",
+    "ko": "beoteo",
+    "hi": "makkhan",
+    "ar": "zubda",
+    "ru": "slivochnoye maslo"
+   }
+  },
+  {
+   "en": "meat",
+   "also": [],
+   "t": {
+    "es": "carne",
+    "fr": "viande",
+    "de": "Fleisch",
+    "it": "carne",
+    "pt": "carne",
+    "ja": "肉",
+    "zh": "肉",
+    "ko": "고기",
+    "hi": "मांस",
+    "ar": "لحم",
+    "ru": "мясо",
+    "nl": "vlees"
+   },
+   "say": {
+    "ja": "niku",
+    "zh": "ròu",
+    "ko": "gogi",
+    "hi": "maans",
+    "ar": "lahm",
+    "ru": "myaso"
+   }
+  },
+  {
+   "en": "beef",
+   "also": [],
+   "t": {
+    "es": "carne de res",
+    "fr": "bœuf",
+    "de": "Rindfleisch",
+    "it": "manzo",
+    "pt": "carne bovina",
+    "ja": "牛肉",
+    "zh": "牛肉",
+    "ko": "소고기",
+    "hi": "गोमांस",
+    "ar": "لحم بقر",
+    "ru": "говядина",
+    "nl": "rundvlees"
+   },
+   "say": {
+    "ja": "gyuuniku",
+    "zh": "niúròu",
+    "ko": "sogogi",
+    "hi": "gomaans",
+    "ar": "lahm baqar",
+    "ru": "govyadina"
+   }
+  },
+  {
+   "en": "pork",
+   "also": [],
+   "t": {
+    "es": "cerdo",
+    "fr": "porc",
+    "de": "Schweinefleisch",
+    "it": "maiale",
+    "pt": "carne de porco",
+    "ja": "豚肉",
+    "zh": "猪肉",
+    "ko": "돼지고기",
+    "hi": "सूअर का मांस",
+    "ar": "لحم خنزير",
+    "ru": "свинина",
+    "nl": "varkensvlees"
+   },
+   "say": {
+    "ja": "butaniku",
+    "zh": "zhūròu",
+    "ko": "dwaejigogi",
+    "hi": "sooar ka maans",
+    "ar": "lahm khinzeer",
+    "ru": "svinina"
+   }
+  },
+  {
+   "en": "soup",
+   "also": [],
+   "t": {
+    "es": "sopa",
+    "fr": "soupe",
+    "de": "Suppe",
+    "it": "zuppa",
+    "pt": "sopa",
+    "ja": "スープ",
+    "zh": "汤",
+    "ko": "수프",
+    "hi": "सूप",
+    "ar": "شوربة",
+    "ru": "суп",
+    "nl": "soep"
+   },
+   "say": {
+    "ja": "suupu",
+    "zh": "tāng",
+    "ko": "supeu",
+    "hi": "soop",
+    "ar": "shorba",
+    "ru": "sup"
+   }
+  },
+  {
+   "en": "salad",
+   "also": [],
+   "t": {
+    "es": "ensalada",
+    "fr": "salade",
+    "de": "Salat",
+    "it": "insalata",
+    "pt": "salada",
+    "ja": "サラダ",
+    "zh": "沙拉",
+    "ko": "샐러드",
+    "hi": "सलाद",
+    "ar": "سلطة",
+    "ru": "салат",
+    "nl": "salade"
+   },
+   "say": {
+    "ja": "sarada",
+    "zh": "shālā",
+    "ko": "saelleodeu",
+    "hi": "salaad",
+    "ar": "salata",
+    "ru": "salat"
+   }
+  },
+  {
+   "en": "sandwich",
+   "also": [],
+   "t": {
+    "es": "sándwich",
+    "fr": "sandwich",
+    "de": "Sandwich",
+    "it": "panino",
+    "pt": "sanduíche",
+    "ja": "サンドイッチ",
+    "zh": "三明治",
+    "ko": "샌드위치",
+    "hi": "सैंडविच",
+    "ar": "شطيرة",
+    "ru": "бутерброд",
+    "nl": "broodje"
+   },
+   "say": {
+    "ja": "sandoicchi",
+    "zh": "sānmíngzhì",
+    "ko": "saendeuwichi",
+    "hi": "saindvich",
+    "ar": "shateera",
+    "ru": "buterbrod"
+   }
+  },
+  {
+   "en": "pasta",
+   "also": [],
+   "t": {
+    "es": "pasta",
+    "fr": "pâtes",
+    "de": "Nudeln",
+    "it": "pasta",
+    "pt": "macarrão",
+    "ja": "パスタ",
+    "zh": "意大利面",
+    "ko": "파스타",
+    "hi": "पास्ता",
+    "ar": "معكرونة",
+    "ru": "макароны",
+    "nl": "pasta"
+   },
+   "say": {
+    "ja": "pasuta",
+    "zh": "yìdàlìmiàn",
+    "ko": "paseuta",
+    "hi": "paasta",
+    "ar": "ma'karoona",
+    "ru": "makarony"
+   }
+  },
+  {
+   "en": "potato",
+   "also": [],
+   "t": {
+    "es": "papa",
+    "fr": "pomme de terre",
+    "de": "Kartoffel",
+    "it": "patata",
+    "pt": "batata",
+    "ja": "じゃがいも",
+    "zh": "土豆",
+    "ko": "감자",
+    "hi": "आलू",
+    "ar": "بطاطس",
+    "ru": "картошка",
+    "nl": "aardappel"
+   },
+   "say": {
+    "ja": "jagaimo",
+    "zh": "tǔdòu",
+    "ko": "gamja",
+    "hi": "aaloo",
+    "ar": "bataatis",
+    "ru": "kartoshka"
+   }
+  },
+  {
+   "en": "tomato",
+   "also": [],
+   "t": {
+    "es": "tomate",
+    "fr": "tomate",
+    "de": "Tomate",
+    "it": "pomodoro",
+    "pt": "tomate",
+    "ja": "トマト",
+    "zh": "西红柿",
+    "ko": "토마토",
+    "hi": "टमाटर",
+    "ar": "طماطم",
+    "ru": "помидор",
+    "nl": "tomaat"
+   },
+   "say": {
+    "ja": "tomato",
+    "zh": "xīhóngshì",
+    "ko": "tomato",
+    "hi": "tamaatar",
+    "ar": "tamaatim",
+    "ru": "pomidor"
+   }
+  },
+  {
+   "en": "carrot",
+   "also": [],
+   "t": {
+    "es": "zanahoria",
+    "fr": "carotte",
+    "de": "Karotte",
+    "it": "carota",
+    "pt": "cenoura",
+    "ja": "にんじん",
+    "zh": "胡萝卜",
+    "ko": "당근",
+    "hi": "गाजर",
+    "ar": "جزر",
+    "ru": "морковь",
+    "nl": "wortel"
+   },
+   "say": {
+    "ja": "ninjin",
+    "zh": "húluóbo",
+    "ko": "danggeun",
+    "hi": "gaajar",
+    "ar": "jazar",
+    "ru": "morkov"
+   }
+  },
+  {
+   "en": "onion",
+   "also": [],
+   "t": {
+    "es": "cebolla",
+    "fr": "oignon",
+    "de": "Zwiebel",
+    "it": "cipolla",
+    "pt": "cebola",
+    "ja": "玉ねぎ",
+    "zh": "洋葱",
+    "ko": "양파",
+    "hi": "प्याज़",
+    "ar": "بصل",
+    "ru": "лук",
+    "nl": "ui"
+   },
+   "say": {
+    "ja": "tamanegi",
+    "zh": "yángcōng",
+    "ko": "yangpa",
+    "hi": "pyaaz",
+    "ar": "basal",
+    "ru": "luk"
+   }
+  },
+  {
+   "en": "corn",
+   "also": [],
+   "t": {
+    "es": "maíz",
+    "fr": "maïs",
+    "de": "Mais",
+    "it": "mais",
+    "pt": "milho",
+    "ja": "とうもろこし",
+    "zh": "玉米",
+    "ko": "옥수수",
+    "hi": "मक्का",
+    "ar": "ذرة",
+    "ru": "кукуруза",
+    "nl": "maïs"
+   },
+   "say": {
+    "ja": "toumorokoshi",
+    "zh": "yùmǐ",
+    "ko": "oksusu",
+    "hi": "makka",
+    "ar": "dhura",
+    "ru": "kukuruza"
+   }
+  },
+  {
+   "en": "strawberry",
+   "also": [],
+   "t": {
+    "es": "fresa",
+    "fr": "fraise",
+    "de": "Erdbeere",
+    "it": "fragola",
+    "pt": "morango",
+    "ja": "いちご",
+    "zh": "草莓",
+    "ko": "딸기",
+    "hi": "स्ट्रॉबेरी",
+    "ar": "فراولة",
+    "ru": "клубника",
+    "nl": "aardbei"
+   },
+   "say": {
+    "ja": "ichigo",
+    "zh": "cǎoméi",
+    "ko": "ttalgi",
+    "hi": "stroberi",
+    "ar": "faraawla",
+    "ru": "klubnika"
+   }
+  },
+  {
+   "en": "grapes",
+   "also": [],
+   "t": {
+    "es": "uvas",
+    "fr": "raisin",
+    "de": "Weintrauben",
+    "it": "uva",
+    "pt": "uvas",
+    "ja": "ぶどう",
+    "zh": "葡萄",
+    "ko": "포도",
+    "hi": "अंगूर",
+    "ar": "عنب",
+    "ru": "виноград",
+    "nl": "druiven"
+   },
+   "say": {
+    "ja": "budou",
+    "zh": "pútáo",
+    "ko": "podo",
+    "hi": "angoor",
+    "ar": "'inab",
+    "ru": "vinograd"
+   }
+  },
+  {
+   "en": "watermelon",
+   "also": [],
+   "t": {
+    "es": "sandía",
+    "fr": "pastèque",
+    "de": "Wassermelone",
+    "it": "anguria",
+    "pt": "melancia",
+    "ja": "すいか",
+    "zh": "西瓜",
+    "ko": "수박",
+    "hi": "तरबूज़",
+    "ar": "بطيخ",
+    "ru": "арбуз",
+    "nl": "watermeloen"
+   },
+   "say": {
+    "ja": "suika",
+    "zh": "xīguā",
+    "ko": "subak",
+    "hi": "tarbooz",
+    "ar": "batteekh",
+    "ru": "arbuz"
+   }
+  },
+  {
+   "en": "lemon",
+   "also": [],
+   "t": {
+    "es": "limón",
+    "fr": "citron",
+    "de": "Zitrone",
+    "it": "limone",
+    "pt": "limão",
+    "ja": "レモン",
+    "zh": "柠檬",
+    "ko": "레몬",
+    "hi": "नींबू",
+    "ar": "ليمون",
+    "ru": "лимон",
+    "nl": "citroen"
+   },
+   "say": {
+    "ja": "remon",
+    "zh": "níngméng",
+    "ko": "remon",
+    "hi": "neemboo",
+    "ar": "laymoon",
+    "ru": "limon"
+   }
+  },
+  {
+   "en": "pear",
+   "also": [],
+   "t": {
+    "es": "pera",
+    "fr": "poire",
+    "de": "Birne",
+    "it": "pera",
+    "pt": "pera",
+    "ja": "梨",
+    "zh": "梨",
+    "ko": "배",
+    "hi": "नाशपाती",
+    "ar": "كمثرى",
+    "ru": "груша",
+    "nl": "peer"
+   },
+   "say": {
+    "ja": "nashi",
+    "zh": "lí",
+    "ko": "bae",
+    "hi": "naashpaati",
+    "ar": "kummathra",
+    "ru": "grusha"
+   }
+  },
+  {
+   "en": "peach",
+   "also": [],
+   "t": {
+    "es": "durazno",
+    "fr": "pêche",
+    "de": "Pfirsich",
+    "it": "pesca",
+    "pt": "pêssego",
+    "ja": "桃",
+    "zh": "桃子",
+    "ko": "복숭아",
+    "hi": "आड़ू",
+    "ar": "خوخ",
+    "ru": "персик",
+    "nl": "perzik"
+   },
+   "say": {
+    "ja": "momo",
+    "zh": "táozi",
+    "ko": "boksunga",
+    "hi": "aadoo",
+    "ar": "khookh",
+    "ru": "persik"
+   }
+  },
+  {
+   "en": "mango",
+   "also": [],
+   "t": {
+    "es": "mango",
+    "fr": "mangue",
+    "de": "Mango",
+    "it": "mango",
+    "pt": "manga",
+    "ja": "マンゴー",
+    "zh": "芒果",
+    "ko": "망고",
+    "hi": "आम",
+    "ar": "مانجو",
+    "ru": "манго",
+    "nl": "mango"
+   },
+   "say": {
+    "ja": "mangoo",
+    "zh": "mángguǒ",
+    "ko": "manggo",
+    "hi": "aam",
+    "ar": "maanjo",
+    "ru": "mango"
+   }
+  },
+  {
+   "en": "pineapple",
+   "also": [],
+   "t": {
+    "es": "piña",
+    "fr": "ananas",
+    "de": "Ananas",
+    "it": "ananas",
+    "pt": "abacaxi",
+    "ja": "パイナップル",
+    "zh": "菠萝",
+    "ko": "파인애플",
+    "hi": "अनानास",
+    "ar": "أناناس",
+    "ru": "ананас",
+    "nl": "ananas"
+   },
+   "say": {
+    "ja": "painappuru",
+    "zh": "bōluó",
+    "ko": "painaepeul",
+    "hi": "anaanaas",
+    "ar": "anaanaas",
+    "ru": "ananas"
+   }
+  },
+  {
+   "en": "cherry",
+   "also": [],
+   "t": {
+    "es": "cereza",
+    "fr": "cerise",
+    "de": "Kirsche",
+    "it": "ciliegia",
+    "pt": "cereja",
+    "ja": "さくらんぼ",
+    "zh": "樱桃",
+    "ko": "체리",
+    "hi": "चेरी",
+    "ar": "كرز",
+    "ru": "вишня",
+    "nl": "kers"
+   },
+   "say": {
+    "ja": "sakuranbo",
+    "zh": "yīngtáo",
+    "ko": "cheri",
+    "hi": "cheri",
+    "ar": "karaz",
+    "ru": "vishnya"
+   }
+  },
+  {
+   "en": "nuts",
+   "also": [],
+   "t": {
+    "es": "frutos secos",
+    "fr": "noix",
+    "de": "Nüsse",
+    "it": "frutta secca",
+    "pt": "castanhas",
+    "ja": "ナッツ",
+    "zh": "坚果",
+    "ko": "견과류",
+    "hi": "मेवे",
+    "ar": "مكسرات",
+    "ru": "орехи",
+    "nl": "noten"
+   },
+   "say": {
+    "ja": "nattsu",
+    "zh": "jiānguǒ",
+    "ko": "gyeongwaryu",
+    "hi": "meve",
+    "ar": "mukassaraat",
+    "ru": "orekhi"
+   }
+  },
+  {
+   "en": "peanuts",
+   "also": [],
+   "t": {
+    "es": "cacahuates",
+    "fr": "cacahuètes",
+    "de": "Erdnüsse",
+    "it": "arachidi",
+    "pt": "amendoim",
+    "ja": "ピーナッツ",
+    "zh": "花生",
+    "ko": "땅콩",
+    "hi": "मूंगफली",
+    "ar": "فول سوداني",
+    "ru": "арахис",
+    "nl": "pinda's"
+   },
+   "say": {
+    "ja": "piinattsu",
+    "zh": "huāshēng",
+    "ko": "ttangkong",
+    "hi": "moongphali",
+    "ar": "fool soodaani",
+    "ru": "arakhis"
+   }
+  },
+  {
+   "en": "sugar",
+   "also": [],
+   "t": {
+    "es": "azúcar",
+    "fr": "sucre",
+    "de": "Zucker",
+    "it": "zucchero",
+    "pt": "açúcar",
+    "ja": "砂糖",
+    "zh": "糖",
+    "ko": "설탕",
+    "hi": "चीनी",
+    "ar": "سكر",
+    "ru": "сахар",
+    "nl": "suiker"
+   },
+   "say": {
+    "ja": "satou",
+    "zh": "táng",
+    "ko": "seoltang",
+    "hi": "cheeni",
+    "ar": "sukkar",
+    "ru": "sakhar"
+   }
+  },
+  {
+   "en": "salt",
+   "also": [],
+   "t": {
+    "es": "sal",
+    "fr": "sel",
+    "de": "Salz",
+    "it": "sale",
+    "pt": "sal",
+    "ja": "塩",
+    "zh": "盐",
+    "ko": "소금",
+    "hi": "नमक",
+    "ar": "ملح",
+    "ru": "соль",
+    "nl": "zout"
+   },
+   "say": {
+    "ja": "shio",
+    "zh": "yán",
+    "ko": "sogeum",
+    "hi": "namak",
+    "ar": "milh",
+    "ru": "sol"
+   }
+  },
+  {
+   "en": "pepper",
+   "also": [
+    "black pepper"
+   ],
+   "t": {
+    "es": "pimienta",
+    "fr": "poivre",
+    "de": "Pfeffer",
+    "it": "pepe",
+    "pt": "pimenta-do-reino",
+    "ja": "こしょう",
+    "zh": "胡椒",
+    "ko": "후추",
+    "hi": "काली मिर्च",
+    "ar": "فلفل أسود",
+    "ru": "перец",
+    "nl": "peper"
+   },
+   "say": {
+    "ja": "koshou",
+    "zh": "hújiāo",
+    "ko": "huchu",
+    "hi": "kaali mirch",
+    "ar": "filfil aswad",
+    "ru": "perets"
+   }
+  },
+  {
+   "en": "honey",
+   "also": [],
+   "t": {
+    "es": "miel",
+    "fr": "miel",
+    "de": "Honig",
+    "it": "miele",
+    "pt": "mel",
+    "ja": "はちみつ",
+    "zh": "蜂蜜",
+    "ko": "꿀",
+    "hi": "शहद",
+    "ar": "عسل",
+    "ru": "мёд",
+    "nl": "honing"
+   },
+   "say": {
+    "ja": "hachimitsu",
+    "zh": "fēngmì",
+    "ko": "kkul",
+    "hi": "shahad",
+    "ar": "'asal",
+    "ru": "myod"
+   }
+  },
+  {
+   "en": "yogurt",
+   "also": [
+    "yoghurt"
+   ],
+   "t": {
+    "es": "yogur",
+    "fr": "yaourt",
+    "de": "Joghurt",
+    "it": "yogurt",
+    "pt": "iogurte",
+    "ja": "ヨーグルト",
+    "zh": "酸奶",
+    "ko": "요거트",
+    "hi": "दही",
+    "ar": "زبادي",
+    "ru": "йогурт",
+    "nl": "yoghurt"
+   },
+   "say": {
+    "ja": "yooguruto",
+    "zh": "suānnǎi",
+    "ko": "yogeoteu",
+    "hi": "dahi",
+    "ar": "zabaadi",
+    "ru": "yogurt"
+   }
+  },
+  {
+   "en": "cereal",
+   "also": [],
+   "t": {
+    "es": "cereal",
+    "fr": "céréales",
+    "de": "Frühstücksflocken",
+    "it": "cereali",
+    "pt": "cereal",
+    "ja": "シリアル",
+    "zh": "麦片",
+    "ko": "시리얼",
+    "hi": "सीरियल",
+    "ar": "حبوب الإفطار",
+    "ru": "хлопья",
+    "nl": "ontbijtgranen"
+   },
+   "say": {
+    "ja": "shiriaru",
+    "zh": "màipiàn",
+    "ko": "sirieol",
+    "hi": "siriyal",
+    "ar": "huboob al-iftaar",
+    "ru": "khlopya"
+   }
+  },
+  {
+   "en": "pancakes",
+   "also": [],
+   "t": {
+    "es": "panqueques",
+    "fr": "crêpes",
+    "de": "Pfannkuchen",
+    "it": "pancake",
+    "pt": "panquecas",
+    "ja": "パンケーキ",
+    "zh": "松饼",
+    "ko": "팬케이크",
+    "hi": "पैनकेक",
+    "ar": "بان كيك",
+    "ru": "блины",
+    "nl": "pannenkoeken"
+   },
+   "say": {
+    "ja": "pankeeki",
+    "zh": "sōngbǐng",
+    "ko": "paenkeikeu",
+    "hi": "painkek",
+    "ar": "baan keek",
+    "ru": "bliny"
+   }
+  },
+  {
+   "en": "popcorn",
+   "also": [],
+   "t": {
+    "es": "palomitas",
+    "fr": "pop-corn",
+    "de": "Popcorn",
+    "it": "popcorn",
+    "pt": "pipoca",
+    "ja": "ポップコーン",
+    "zh": "爆米花",
+    "ko": "팝콘",
+    "hi": "पॉपकॉर्न",
+    "ar": "فشار",
+    "ru": "попкорн",
+    "nl": "popcorn"
+   },
+   "say": {
+    "ja": "poppukoon",
+    "zh": "bàomǐhuā",
+    "ko": "papkon",
+    "hi": "popkorn",
+    "ar": "fushaar",
+    "ru": "popkorn"
+   }
+  },
+  {
+   "en": "snack",
+   "also": [],
+   "t": {
+    "es": "merienda",
+    "fr": "en-cas",
+    "de": "Snack",
+    "it": "spuntino",
+    "pt": "lanche",
+    "ja": "おやつ",
+    "zh": "零食",
+    "ko": "간식",
+    "hi": "नाश्ता",
+    "ar": "وجبة خفيفة",
+    "ru": "перекус",
+    "nl": "tussendoortje"
+   },
+   "say": {
+    "ja": "oyatsu",
+    "zh": "língshí",
+    "ko": "gansik",
+    "hi": "naashta",
+    "ar": "wajba khafeefa",
+    "ru": "perekus"
+   }
+  },
+  {
+   "en": "dessert",
+   "also": [],
+   "t": {
+    "es": "postre",
+    "fr": "dessert",
+    "de": "Nachtisch",
+    "it": "dolce",
+    "pt": "sobremesa",
+    "ja": "デザート",
+    "zh": "甜点",
+    "ko": "디저트",
+    "hi": "मिठाई",
+    "ar": "حلوى",
+    "ru": "десерт",
+    "nl": "toetje"
+   },
+   "say": {
+    "ja": "dezaato",
+    "zh": "tiándiǎn",
+    "ko": "dijeoteu",
+    "hi": "mithaai",
+    "ar": "halwa",
+    "ru": "desert"
+   }
+  },
+  {
+   "en": "coffee",
+   "also": [],
+   "t": {
+    "es": "café",
+    "fr": "café",
+    "de": "Kaffee",
+    "it": "caffè",
+    "pt": "café",
+    "ja": "コーヒー",
+    "zh": "咖啡",
+    "ko": "커피",
+    "hi": "कॉफ़ी",
+    "ar": "قهوة",
+    "ru": "кофе",
+    "nl": "koffie"
+   },
+   "say": {
+    "ja": "koohii",
+    "zh": "kāfēi",
+    "ko": "keopi",
+    "hi": "kofi",
+    "ar": "qahwa",
+    "ru": "kofe"
+   }
+  },
+  {
+   "en": "hot chocolate",
+   "also": [
+    "cocoa"
+   ],
+   "t": {
+    "es": "chocolate caliente",
+    "fr": "chocolat chaud",
+    "de": "heiße Schokolade",
+    "it": "cioccolata calda",
+    "pt": "chocolate quente",
+    "ja": "ココア",
+    "zh": "热巧克力",
+    "ko": "핫초코",
+    "hi": "हॉट चॉकलेट",
+    "ar": "شوكولاتة ساخنة",
+    "ru": "горячий шоколад",
+    "nl": "warme chocolademelk"
+   },
+   "say": {
+    "ja": "kokoa",
+    "zh": "rè qiǎokèlì",
+    "ko": "hatchoko",
+    "hi": "hot choklet",
+    "ar": "shookolaata saakhina",
+    "ru": "goryachy shokolad"
+   }
+  },
+  {
+   "en": "soda",
+   "also": [
+    "soft drink",
+    "pop"
+   ],
+   "t": {
+    "es": "refresco",
+    "fr": "soda",
+    "de": "Limonade",
+    "it": "bibita gassata",
+    "pt": "refrigerante",
+    "ja": "炭酸飲料",
+    "zh": "汽水",
+    "ko": "탄산음료",
+    "hi": "सोडा",
+    "ar": "مشروب غازي",
+    "ru": "газировка",
+    "nl": "frisdrank"
+   },
+   "say": {
+    "ja": "tansan inryou",
+    "zh": "qìshuǐ",
+    "ko": "tansaneumnyo",
+    "hi": "soda",
+    "ar": "mashroob ghaazi",
+    "ru": "gazirovka"
+   }
+  },
+  {
+   "en": "sweet",
+   "also": [
+    "sugary"
+   ],
+   "t": {
+    "es": "dulce",
+    "fr": "sucré",
+    "de": "süß",
+    "it": "dolce",
+    "pt": "doce",
+    "ja": "甘い",
+    "zh": "甜",
+    "ko": "달아요",
+    "hi": "मीठा",
+    "ar": "حلو",
+    "ru": "сладкий",
+    "nl": "zoet"
+   },
+   "say": {
+    "ja": "amai",
+    "zh": "tián",
+    "ko": "darayo",
+    "hi": "meetha",
+    "ar": "hulw",
+    "ru": "sladky"
+   }
+  },
+  {
+   "en": "sour",
+   "also": [],
+   "t": {
+    "es": "ácido",
+    "fr": "acide",
+    "de": "sauer",
+    "it": "aspro",
+    "pt": "azedo",
+    "ja": "酸っぱい",
+    "zh": "酸",
+    "ko": "셔요",
+    "hi": "खट्टा",
+    "ar": "حامض",
+    "ru": "кислый",
+    "nl": "zuur"
+   },
+   "say": {
+    "ja": "suppai",
+    "zh": "suān",
+    "ko": "syeoyo",
+    "hi": "khatta",
+    "ar": "haamid",
+    "ru": "kisly"
+   }
+  },
+  {
+   "en": "salty",
+   "also": [],
+   "t": {
+    "es": "salado",
+    "fr": "salé",
+    "de": "salzig",
+    "it": "salato",
+    "pt": "salgado",
+    "ja": "しょっぱい",
+    "zh": "咸",
+    "ko": "짜요",
+    "hi": "नमकीन",
+    "ar": "مالح",
+    "ru": "солёный",
+    "nl": "zout"
+   },
+   "say": {
+    "ja": "shoppai",
+    "zh": "xián",
+    "ko": "jjayo",
+    "hi": "namkeen",
+    "ar": "maalih",
+    "ru": "solyony"
+   }
+  },
+  {
+   "en": "spicy",
+   "also": [
+    "hot spicy"
+   ],
+   "t": {
+    "es": "picante",
+    "fr": "épicé",
+    "de": "scharf",
+    "it": "piccante",
+    "pt": "apimentado",
+    "ja": "辛い",
+    "zh": "辣",
+    "ko": "매워요",
+    "hi": "तीखा",
+    "ar": "حار",
+    "ru": "острый",
+    "nl": "pittig"
+   },
+   "say": {
+    "ja": "karai",
+    "zh": "là",
+    "ko": "maewoyo",
+    "hi": "teekha",
+    "ar": "haarr",
+    "ru": "ostry"
+   }
+  },
+  {
+   "en": "bitter",
+   "also": [],
+   "t": {
+    "es": "amargo",
+    "fr": "amer",
+    "de": "bitter",
+    "it": "amaro",
+    "pt": "amargo",
+    "ja": "苦い",
+    "zh": "苦",
+    "ko": "써요",
+    "hi": "कड़वा",
+    "ar": "مر",
+    "ru": "горький",
+    "nl": "bitter"
+   },
+   "say": {
+    "ja": "nigai",
+    "zh": "kǔ",
+    "ko": "sseoyo",
+    "hi": "kadva",
+    "ar": "murr",
+    "ru": "gorky"
+   }
+  },
+  {
+   "en": "fork",
+   "also": [],
+   "t": {
+    "es": "tenedor",
+    "fr": "fourchette",
+    "de": "Gabel",
+    "it": "forchetta",
+    "pt": "garfo",
+    "ja": "フォーク",
+    "zh": "叉子",
+    "ko": "포크",
+    "hi": "काँटा",
+    "ar": "شوكة",
+    "ru": "вилка",
+    "nl": "vork"
+   },
+   "say": {
+    "ja": "fooku",
+    "zh": "chāzi",
+    "ko": "pokeu",
+    "hi": "kaanta",
+    "ar": "shawka",
+    "ru": "vilka"
+   }
+  },
+  {
+   "en": "spoon",
+   "also": [],
+   "t": {
+    "es": "cuchara",
+    "fr": "cuillère",
+    "de": "Löffel",
+    "it": "cucchiaio",
+    "pt": "colher",
+    "ja": "スプーン",
+    "zh": "勺子",
+    "ko": "숟가락",
+    "hi": "चम्मच",
+    "ar": "ملعقة",
+    "ru": "ложка",
+    "nl": "lepel"
+   },
+   "say": {
+    "ja": "supuun",
+    "zh": "sháozi",
+    "ko": "sutgarak",
+    "hi": "chammach",
+    "ar": "mil'aqa",
+    "ru": "lozhka"
+   }
+  },
+  {
+   "en": "knife",
+   "also": [],
+   "t": {
+    "es": "cuchillo",
+    "fr": "couteau",
+    "de": "Messer",
+    "it": "coltello",
+    "pt": "faca",
+    "ja": "ナイフ",
+    "zh": "刀",
+    "ko": "칼",
+    "hi": "चाकू",
+    "ar": "سكين",
+    "ru": "нож",
+    "nl": "mes"
+   },
+   "say": {
+    "ja": "naifu",
+    "zh": "dāo",
+    "ko": "kal",
+    "hi": "chaakoo",
+    "ar": "sikkeen",
+    "ru": "nozh"
+   }
+  },
+  {
+   "en": "chopsticks",
+   "also": [],
+   "t": {
+    "es": "palillos",
+    "fr": "baguettes",
+    "de": "Essstäbchen",
+    "it": "bacchette",
+    "pt": "hashi",
+    "ja": "箸",
+    "zh": "筷子",
+    "ko": "젓가락",
+    "hi": "चॉपस्टिक",
+    "ar": "عيدان الأكل",
+    "ru": "палочки",
+    "nl": "eetstokjes"
+   },
+   "say": {
+    "ja": "hashi",
+    "zh": "kuàizi",
+    "ko": "jeotgarak",
+    "hi": "chopstik",
+    "ar": "'eedaan al-akl",
+    "ru": "palochki"
+   }
+  },
+  {
+   "en": "plate",
+   "also": [],
+   "t": {
+    "es": "plato",
+    "fr": "assiette",
+    "de": "Teller",
+    "it": "piatto",
+    "pt": "prato",
+    "ja": "皿",
+    "zh": "盘子",
+    "ko": "접시",
+    "hi": "प्लेट",
+    "ar": "صحن",
+    "ru": "тарелка",
+    "nl": "bord"
+   },
+   "say": {
+    "ja": "sara",
+    "zh": "pánzi",
+    "ko": "jeopsi",
+    "hi": "plet",
+    "ar": "sahn",
+    "ru": "tarelka"
+   }
+  },
+  {
+   "en": "cup",
+   "also": [],
+   "t": {
+    "es": "taza",
+    "fr": "tasse",
+    "de": "Tasse",
+    "it": "tazza",
+    "pt": "xícara",
+    "ja": "カップ",
+    "zh": "杯子",
+    "ko": "컵",
+    "hi": "कप",
+    "ar": "فنجان",
+    "ru": "чашка",
+    "nl": "kopje"
+   },
+   "say": {
+    "ja": "kappu",
+    "zh": "bēizi",
+    "ko": "keop",
+    "hi": "kap",
+    "ar": "finjaan",
+    "ru": "chashka"
+   }
+  },
+  {
+   "en": "glass",
+   "also": [
+    "drinking glass"
+   ],
+   "t": {
+    "es": "vaso",
+    "fr": "verre",
+    "de": "Glas",
+    "it": "bicchiere",
+    "pt": "copo",
+    "ja": "グラス",
+    "zh": "玻璃杯",
+    "ko": "유리컵",
+    "hi": "गिलास",
+    "ar": "كوب",
+    "ru": "стакан",
+    "nl": "glas"
+   },
+   "say": {
+    "ja": "gurasu",
+    "zh": "bōlibēi",
+    "ko": "yurikeop",
+    "hi": "gilaas",
+    "ar": "koob",
+    "ru": "stakan"
+   }
+  },
+  {
+   "en": "bowl",
+   "also": [],
+   "t": {
+    "es": "tazón",
+    "fr": "bol",
+    "de": "Schüssel",
+    "it": "ciotola",
+    "pt": "tigela",
+    "ja": "お椀",
+    "zh": "碗",
+    "ko": "그릇",
+    "hi": "कटोरी",
+    "ar": "وعاء",
+    "ru": "миска",
+    "nl": "kom"
+   },
+   "say": {
+    "ja": "owan",
+    "zh": "wǎn",
+    "ko": "geureut",
+    "hi": "katori",
+    "ar": "wi'aa'",
+    "ru": "miska"
+   }
+  },
+  {
+   "en": "napkin",
+   "also": [],
+   "t": {
+    "es": "servilleta",
+    "fr": "serviette",
+    "de": "Serviette",
+    "it": "tovagliolo",
+    "pt": "guardanapo",
+    "ja": "ナプキン",
+    "zh": "餐巾纸",
+    "ko": "냅킨",
+    "hi": "नैपकिन",
+    "ar": "منديل",
+    "ru": "салфетка",
+    "nl": "servet"
+   },
+   "say": {
+    "ja": "napukin",
+    "zh": "cānjīnzhǐ",
+    "ko": "naepkin",
+    "hi": "naipkin",
+    "ar": "mandeel",
+    "ru": "salfetka"
+   }
+  },
+  {
+   "en": "menu",
+   "also": [],
+   "t": {
+    "es": "menú",
+    "fr": "menu",
+    "de": "Speisekarte",
+    "it": "menù",
+    "pt": "cardápio",
+    "ja": "メニュー",
+    "zh": "菜单",
+    "ko": "메뉴",
+    "hi": "मेन्यू",
+    "ar": "قائمة الطعام",
+    "ru": "меню",
+    "nl": "menukaart"
+   },
+   "say": {
+    "ja": "menyuu",
+    "zh": "càidān",
+    "ko": "menyu",
+    "hi": "menyoo",
+    "ar": "qaa'imat at-ta'aam",
+    "ru": "menyu"
+   }
+  },
+  {
+   "en": "the menu please",
+   "also": [
+    "can i see the menu",
+    "menu please"
+   ],
+   "t": {
+    "es": "La carta, por favor",
+    "fr": "La carte, s'il vous plaît",
+    "de": "Die Speisekarte, bitte",
+    "it": "Il menù, per favore",
+    "pt": "O cardápio, por favor",
+    "ja": "メニューをください",
+    "zh": "请给我菜单",
+    "ko": "메뉴 주세요",
+    "hi": "मेन्यू दीजिए",
+    "ar": "القائمة من فضلك",
+    "ru": "Меню, пожалуйста",
+    "nl": "De menukaart, alstublieft"
+   },
+   "say": {
+    "ja": "menyuu o kudasai",
+    "zh": "qǐng gěi wǒ càidān",
+    "ko": "menyu juseyo",
+    "hi": "menyoo deejiye",
+    "ar": "al-qaa'ima min fadlak",
+    "ru": "menyu, pozhaluysta"
+   }
+  },
+  {
+   "en": "the check please",
+   "also": [
+    "the bill please",
+    "can i have the bill"
+   ],
+   "t": {
+    "es": "La cuenta, por favor",
+    "fr": "L'addition, s'il vous plaît",
+    "de": "Die Rechnung, bitte",
+    "it": "Il conto, per favore",
+    "pt": "A conta, por favor",
+    "ja": "お会計お願いします",
+    "zh": "请结账",
+    "ko": "계산서 주세요",
+    "hi": "बिल दीजिए",
+    "ar": "الحساب من فضلك",
+    "ru": "Счёт, пожалуйста",
+    "nl": "De rekening, alstublieft"
+   },
+   "say": {
+    "ja": "okaikei onegai shimasu",
+    "zh": "qǐng jiézhàng",
+    "ko": "gyesanseo juseyo",
+    "hi": "bil deejiye",
+    "ar": "al-hisaab min fadlak",
+    "ru": "schyot, pozhaluysta"
+   }
+  },
+  {
+   "en": "a table for two please",
+   "also": [
+    "table for two"
+   ],
+   "t": {
+    "es": "Una mesa para dos, por favor",
+    "fr": "Une table pour deux, s'il vous plaît",
+    "de": "Einen Tisch für zwei, bitte",
+    "it": "Un tavolo per due, per favore",
+    "pt": "Uma mesa para dois, por favor",
+    "ja": "二人です",
+    "zh": "两位",
+    "ko": "두 명이요",
+    "hi": "दो लोगों के लिए टेबल चाहिए",
+    "ar": "طاولة لشخصين من فضلك",
+    "ru": "Столик на двоих, пожалуйста",
+    "nl": "Een tafel voor twee, alstublieft"
+   },
+   "say": {
+    "ja": "futari desu",
+    "zh": "liǎng wèi",
+    "ko": "du myeongiyo",
+    "hi": "do logon ke liye tebal chaahiye",
+    "ar": "taawila li-shakhsayn min fadlak",
+    "ru": "stolik na dvoikh, pozhaluysta"
+   }
+  },
+  {
+   "en": "water please",
+   "also": [
+    "some water please",
+    "can i have water"
+   ],
+   "t": {
+    "es": "Agua, por favor",
+    "fr": "De l'eau, s'il vous plaît",
+    "de": "Wasser, bitte",
+    "it": "Acqua, per favore",
+    "pt": "Água, por favor",
+    "ja": "お水をください",
+    "zh": "请给我水",
+    "ko": "물 주세요",
+    "hi": "पानी दीजिए",
+    "ar": "ماء من فضلك",
+    "ru": "Воды, пожалуйста",
+    "nl": "Water, alstublieft"
+   },
+   "say": {
+    "ja": "omizu o kudasai",
+    "zh": "qǐng gěi wǒ shuǐ",
+    "ko": "mul juseyo",
+    "hi": "paani deejiye",
+    "ar": "maa' min fadlak",
+    "ru": "vody, pozhaluysta"
+   }
+  },
+  {
+   "en": "i'm full",
+   "also": [],
+   "t": {
+    "es": "Estoy lleno/a",
+    "fr": "J'ai bien mangé",
+    "de": "Ich bin satt",
+    "it": "Sono pieno/a",
+    "pt": "Estou satisfeito/a",
+    "ja": "お腹いっぱいです",
+    "zh": "我吃饱了",
+    "ko": "배불러요",
+    "hi": "मेरा पेट भर गया",
+    "ar": "شبعت",
+    "ru": "Я наелся / наелась",
+    "nl": "Ik zit vol"
+   },
+   "say": {
+    "ja": "onaka ippai desu",
+    "zh": "wǒ chī bǎo le",
+    "ko": "baebulleoyo",
+    "hi": "mera pet bhar gaya",
+    "ar": "shabi'tu",
+    "ru": "ya nayelsya / nayelas"
+   }
+  },
+  {
+   "en": "i'm a vegetarian",
+   "also": [
+    "i am vegetarian"
+   ],
+   "t": {
+    "es": "Soy vegetariano/a",
+    "fr": "Je suis végétarien(ne)",
+    "de": "Ich bin Vegetarier/in",
+    "it": "Sono vegetariano/a",
+    "pt": "Sou vegetariano/a",
+    "ja": "ベジタリアンです",
+    "zh": "我吃素",
+    "ko": "저는 채식주의자예요",
+    "hi": "मैं शाकाहारी हूँ",
+    "ar": "أنا نباتي / نباتية",
+    "ru": "Я вегетарианец / вегетарианка",
+    "nl": "Ik ben vegetariër"
+   },
+   "say": {
+    "ja": "bejitarian desu",
+    "zh": "wǒ chī sù",
+    "ko": "jeoneun chaesikjuuijayeyo",
+    "hi": "main shaakaahaari hoon",
+    "ar": "ana nabaati / nabaatiyya",
+    "ru": "ya vegetarianets / vegetarianka"
+   }
+  },
+  {
+   "en": "i'm allergic to ...",
+   "also": [
+    "i am allergic to"
+   ],
+   "t": {
+    "es": "Soy alérgico/a a ...",
+    "fr": "Je suis allergique à ...",
+    "de": "Ich bin allergisch gegen ...",
+    "it": "Sono allergico/a a ...",
+    "pt": "Sou alérgico/a a ...",
+    "ja": "...のアレルギーがあります",
+    "zh": "我对...过敏",
+    "ko": "...알레르기가 있어요",
+    "hi": "मुझे ... से एलर्जी है",
+    "ar": "عندي حساسية من ...",
+    "ru": "У меня аллергия на ...",
+    "nl": "Ik ben allergisch voor ..."
+   },
+   "say": {
+    "ja": "...no arerugii ga arimasu",
+    "zh": "wǒ duì ... guòmǐn",
+    "ko": "...allereugiga isseoyo",
+    "hi": "mujhe ... se elarji hai",
+    "ar": "'indi hassaasiyya min ...",
+    "ru": "u menya allergiya na ..."
+   }
+  },
+  {
+   "en": "no meat please",
+   "also": [
+    "without meat"
+   ],
+   "t": {
+    "es": "Sin carne, por favor",
+    "fr": "Sans viande, s'il vous plaît",
+    "de": "Ohne Fleisch, bitte",
+    "it": "Senza carne, per favore",
+    "pt": "Sem carne, por favor",
+    "ja": "肉なしでお願いします",
+    "zh": "请不要放肉",
+    "ko": "고기 빼 주세요",
+    "hi": "बिना मांस के, कृपया",
+    "ar": "بدون لحم من فضلك",
+    "ru": "Без мяса, пожалуйста",
+    "nl": "Zonder vlees, alstublieft"
+   },
+   "say": {
+    "ja": "niku nashi de onegai shimasu",
+    "zh": "qǐng bú yào fàng ròu",
+    "ko": "gogi ppae juseyo",
+    "hi": "bina maans ke, kripya",
+    "ar": "bidoon lahm min fadlak",
+    "ru": "bez myasa, pozhaluysta"
+   }
+  },
+  {
+   "en": "not spicy please",
+   "also": [
+    "not too spicy"
+   ],
+   "t": {
+    "es": "Que no pique, por favor",
+    "fr": "Pas épicé, s'il vous plaît",
+    "de": "Nicht scharf, bitte",
+    "it": "Non piccante, per favore",
+    "pt": "Sem pimenta, por favor",
+    "ja": "辛くしないでください",
+    "zh": "请不要辣",
+    "ko": "안 맵게 해 주세요",
+    "hi": "तीखा मत बनाइए",
+    "ar": "بدون حار من فضلك",
+    "ru": "Не остро, пожалуйста",
+    "nl": "Niet pittig, alstublieft"
+   },
+   "say": {
+    "ja": "karaku shinaide kudasai",
+    "zh": "qǐng bú yào là",
+    "ko": "an maepge hae juseyo",
+    "hi": "teekha mat banaaiye",
+    "ar": "bidoon haarr min fadlak",
+    "ru": "ne ostro, pozhaluysta"
+   }
+  },
+  {
+   "en": "what do you recommend",
+   "also": [],
+   "t": {
+    "es": "¿Qué me recomienda?",
+    "fr": "Qu'est-ce que vous recommandez ?",
+    "de": "Was empfehlen Sie?",
+    "it": "Cosa mi consiglia?",
+    "pt": "O que você recomenda?",
+    "ja": "おすすめは何ですか？",
+    "zh": "你推荐什么？",
+    "ko": "뭘 추천하세요?",
+    "hi": "आप क्या सुझाएँगे?",
+    "ar": "ماذا تنصح؟",
+    "ru": "Что вы посоветуете?",
+    "nl": "Wat raadt u aan?"
+   },
+   "say": {
+    "ja": "osusume wa nan desu ka?",
+    "zh": "nǐ tuījiàn shénme?",
+    "ko": "mwol chucheonhaseyo?",
+    "hi": "aap kya sujhaayenge?",
+    "ar": "maadha tansah?",
+    "ru": "chto vy posovetuyete?"
+   }
+  },
+  {
+   "en": "to go please",
+   "also": [
+    "takeaway please",
+    "to take away"
+   ],
+   "t": {
+    "es": "Para llevar, por favor",
+    "fr": "À emporter, s'il vous plaît",
+    "de": "Zum Mitnehmen, bitte",
+    "it": "Da portare via, per favore",
+    "pt": "Para viagem, por favor",
+    "ja": "持ち帰りでお願いします",
+    "zh": "打包，谢谢",
+    "ko": "포장해 주세요",
+    "hi": "पैक कर दीजिए",
+    "ar": "للأخذ معي من فضلك",
+    "ru": "С собой, пожалуйста",
+    "nl": "Om mee te nemen, alstublieft"
+   },
+   "say": {
+    "ja": "mochikaeri de onegai shimasu",
+    "zh": "dǎbāo, xièxie",
+    "ko": "pojanghae juseyo",
+    "hi": "paik kar deejiye",
+    "ar": "lil-akhdh ma'i min fadlak",
+    "ru": "s soboy, pozhaluysta"
+   }
+  },
+  {
+   "en": "it was delicious",
+   "also": [
+    "that was delicious"
+   ],
+   "t": {
+    "es": "Estaba delicioso",
+    "fr": "C'était délicieux",
+    "de": "Es war sehr lecker",
+    "it": "Era buonissimo",
+    "pt": "Estava delicioso",
+    "ja": "とてもおいしかったです",
+    "zh": "很好吃",
+    "ko": "정말 맛있었어요",
+    "hi": "बहुत स्वादिष्ट था",
+    "ar": "كان لذيذا",
+    "ru": "Было очень вкусно",
+    "nl": "Het was heerlijk"
+   },
+   "say": {
+    "ja": "totemo oishikatta desu",
+    "zh": "hěn hǎochī",
+    "ko": "jeongmal masisseosseoyo",
+    "hi": "bahut svaadisht tha",
+    "ar": "kaana ladheedhan",
+    "ru": "bylo ochen vkusno"
+   }
+  },
+  {
+   "en": "let's eat",
+   "also": [
+    "time to eat"
+   ],
+   "t": {
+    "es": "Vamos a comer",
+    "fr": "On mange",
+    "de": "Lass uns essen",
+    "it": "Mangiamo",
+    "pt": "Vamos comer",
+    "ja": "食べましょう",
+    "zh": "我们吃饭吧",
+    "ko": "먹어요",
+    "hi": "चलो खाना खाते हैं",
+    "ar": "هيا نأكل",
+    "ru": "Давайте есть",
+    "nl": "Laten we eten"
+   },
+   "say": {
+    "ja": "tabemashou",
+    "zh": "wǒmen chīfàn ba",
+    "ko": "meogeoyo",
+    "hi": "chalo khaana khaate hain",
+    "ar": "hayya na'kul",
+    "ru": "davayte yest"
+   }
+  },
+  {
+   "en": "i'm vegan",
+   "also": [],
+   "t": {
+    "es": "Soy vegano/a",
+    "fr": "Je suis végan(e)",
+    "de": "Ich bin Veganer/in",
+    "it": "Sono vegano/a",
+    "pt": "Sou vegano/a",
+    "ja": "ヴィーガンです",
+    "zh": "我是纯素食者",
+    "ko": "저는 비건이에요",
+    "hi": "मैं वीगन हूँ",
+    "ar": "أنا نباتي صرف",
+    "ru": "Я веган",
+    "nl": "Ik ben veganist"
+   },
+   "say": {
+    "ja": "viigan desu",
+    "zh": "wǒ shì chún sùshízhě",
+    "ko": "jeoneun bigeonieyo",
+    "hi": "main veegan hoon",
+    "ar": "ana nabaati sirf",
+    "ru": "ya vegan"
+   }
+  },
+  {
+   "en": "is there meat in this",
+   "also": [
+    "does this have meat"
+   ],
+   "t": {
+    "es": "¿Esto lleva carne?",
+    "fr": "Il y a de la viande dedans ?",
+    "de": "Ist da Fleisch drin?",
+    "it": "C'è carne dentro?",
+    "pt": "Isso tem carne?",
+    "ja": "これに肉は入っていますか？",
+    "zh": "这里面有肉吗？",
+    "ko": "이거 고기 들어 있어요?",
+    "hi": "क्या इसमें मांस है?",
+    "ar": "هل فيه لحم؟",
+    "ru": "Здесь есть мясо?",
+    "nl": "Zit hier vlees in?"
+   },
+   "say": {
+    "ja": "kore ni niku wa haitte imasu ka?",
+    "zh": "zhè lǐmiàn yǒu ròu ma?",
+    "ko": "igeo gogi deureo isseoyo?",
+    "hi": "kya ismein maans hai?",
+    "ar": "hal feehi lahm?",
+    "ru": "zdes yest myaso?"
+   }
+  }
+ ]
+}

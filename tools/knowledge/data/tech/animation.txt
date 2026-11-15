@@ -1,0 +1,9 @@
+# tag: tech.animation
+what is procreate dreams | procreate animation app => Procreate Dreams is a paid iPad animation app from the makers of Procreate, with a timeline, keyframes and painting tools.
+what is flipaclip | flipaclip app => FlipaClip is a frame-by-frame animation app for phones and tablets with layers, onion skin and audio. It's beginner friendly.
+what is grease pencil in blender | 2d animation blender => Grease Pencil is Blender's tool for drawing and animating 2D strokes inside a 3D scene.
+what is timing and spacing in animation | spacing in animation => Timing is how many frames an action takes. Spacing is how far things move between frames: close spacing looks slow, wide spacing looks fast.
+what is a character turnaround | front side and back character drawing => A turnaround is a sheet showing a character from the front, side, three-quarter and back, so you draw or model them the same every time.
+what is a background in animation | animation backgrounds => Backgrounds are the scenery behind characters, often painted separately. Layers let characters move over them without redrawing the background.
+what is parallax in animation | layers moving different speeds => Parallax makes near layers move faster than far ones when the camera moves, giving a feeling of depth in 2D scenes.
+how do i make a looping animation | seamless loop => Make the last frame lead naturally back into the first. In a walk cycle, the final pose should come just before the first pose.

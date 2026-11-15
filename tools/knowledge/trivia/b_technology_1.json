@@ -1,0 +1,2526 @@
+{
+ "questions": [
+  {
+   "id": "technology-1001",
+   "category": "Technology",
+   "q": "Whose company developed a long-lasting electric light bulb in 1879?",
+   "choices": [
+    "Thomas Edison",
+    "Alexander Graham Bell",
+    "Benjamin Franklin",
+    "Nikola Tesla"
+   ],
+   "answer": 0,
+   "fact": "Edison's team tested thousands of materials, including bamboo, before finding one that glowed for a long time."
+  },
+  {
+   "id": "technology-1002",
+   "category": "Technology",
+   "q": "Which Italian inventor sent the first radio signal across the Atlantic Ocean in 1901?",
+   "choices": [
+    "Enrico Fermi",
+    "Guglielmo Marconi",
+    "Alessandro Volta",
+    "Galileo Galilei"
+   ],
+   "answer": 1,
+   "fact": "Marconi shared the Nobel Prize in Physics in 1909 for his work on wireless radio."
+  },
+  {
+   "id": "technology-1003",
+   "category": "Technology",
+   "q": "Which material, used for writing and drawing, was invented in China about 2,000 years ago?",
+   "choices": [
+    "Plastic",
+    "Paper",
+    "Rubber",
+    "Glass"
+   ],
+   "answer": 1,
+   "fact": "A Chinese court official named Cai Lun is credited with improving papermaking around AD 105."
+  },
+  {
+   "id": "technology-1004",
+   "category": "Technology",
+   "q": "Which explosive powder was invented in ancient China?",
+   "choices": [
+    "Nitroglycerin",
+    "TNT",
+    "Dynamite",
+    "Gunpowder"
+   ],
+   "answer": 3,
+   "fact": "Chinese alchemists are said to have discovered gunpowder while searching for a potion to help people live forever."
+  },
+  {
+   "id": "technology-1005",
+   "category": "Technology",
+   "q": "Which navigation tool with a magnetic needle was first used in China?",
+   "choices": [
+    "Astrolabe",
+    "Compass",
+    "Sextant",
+    "Telescope"
+   ],
+   "answer": 1,
+   "fact": "Early Chinese compasses used a spoon made of a magnetic rock called lodestone."
+  },
+  {
+   "id": "technology-1006",
+   "category": "Technology",
+   "q": "Which American inventor came up with the idea for electronic television as a teenager while working on a farm?",
+   "choices": [
+    "John Logie Baird",
+    "Thomas Edison",
+    "Samuel Morse",
+    "Philo Farnsworth"
+   ],
+   "answer": 3,
+   "fact": "Farnsworth said the rows of a plowed field gave him the idea of scanning a picture line by line."
+  },
+  {
+   "id": "technology-1007",
+   "category": "Technology",
+   "q": "Which Scottish inventor gave the first public demonstration of a working television in 1926?",
+   "choices": [
+    "James Watt",
+    "Alexander Graham Bell",
+    "John Logie Baird",
+    "Philo Farnsworth"
+   ],
+   "answer": 2,
+   "fact": "Baird's early TV pictures were blurry and only about 30 lines tall."
+  },
+  {
+   "id": "technology-1008",
+   "category": "Technology",
+   "q": "In what year was the first iPhone released?",
+   "choices": [
+    "2010",
+    "2004",
+    "2007",
+    "2001"
+   ],
+   "answer": 2,
+   "fact": "Steve Jobs introduced the first iPhone as an iPod, a phone and an internet device all in one."
+  },
+  {
+   "id": "technology-1009",
+   "category": "Technology",
+   "q": "Which two friends started Apple in 1976?",
+   "choices": [
+    "Steve Jobs and Steve Wozniak",
+    "Mark Zuckerberg and Eduardo Saverin",
+    "Larry Page and Sergey Brin",
+    "Bill Gates and Paul Allen"
+   ],
+   "answer": 0,
+   "fact": "Apple's first computer, the Apple I, was built by hand by Steve Wozniak."
+  },
+  {
+   "id": "technology-1010",
+   "category": "Technology",
+   "q": "Which two friends founded Microsoft in 1975?",
+   "choices": [
+    "Larry Page and Sergey Brin",
+    "Bill Gates and Paul Allen",
+    "Bill Hewlett and David Packard",
+    "Steve Jobs and Steve Wozniak"
+   ],
+   "answer": 1,
+   "fact": "Bill Gates and Paul Allen had been friends since they were students in Seattle."
+  },
+  {
+   "id": "technology-1011",
+   "category": "Technology",
+   "q": "Who founded Amazon in 1994?",
+   "choices": [
+    "Jeff Bezos",
+    "Elon Musk",
+    "Jack Ma",
+    "Larry Ellison"
+   ],
+   "answer": 0,
+   "fact": "Amazon started out selling only books."
+  },
+  {
+   "id": "technology-1012",
+   "category": "Technology",
+   "q": "Which two students started Google at Stanford University in 1998?",
+   "choices": [
+    "Larry Page and Sergey Brin",
+    "Jerry Yang and David Filo",
+    "Bill Gates and Paul Allen",
+    "Steve Jobs and Steve Wozniak"
+   ],
+   "answer": 0,
+   "fact": "Google's name comes from googol, the number 1 followed by 100 zeros."
+  },
+  {
+   "id": "technology-1013",
+   "category": "Technology",
+   "q": "Which company makes PlayStation game consoles?",
+   "choices": [
+    "Microsoft",
+    "Sony",
+    "Nintendo",
+    "Sega"
+   ],
+   "answer": 1,
+   "fact": "The first PlayStation came out in Japan in 1994."
+  },
+  {
+   "id": "technology-1014",
+   "category": "Technology",
+   "q": "Which company makes Xbox game consoles?",
+   "choices": [
+    "Microsoft",
+    "Nintendo",
+    "Apple",
+    "Sony"
+   ],
+   "answer": 0,
+   "fact": "The first Xbox came out in 2001."
+  },
+  {
+   "id": "technology-1015",
+   "category": "Technology",
+   "q": "Which video game company started out in 1889 making playing cards?",
+   "choices": [
+    "Nintendo",
+    "Atari",
+    "Sega",
+    "Sony"
+   ],
+   "answer": 0,
+   "fact": "Nintendo still makes hanafuda playing cards in Japan."
+  },
+  {
+   "id": "technology-1016",
+   "category": "Technology",
+   "q": "Which Swedish chemist invented dynamite and later created famous prizes?",
+   "choices": [
+    "Carl Linnaeus",
+    "Niels Bohr",
+    "Anders Celsius",
+    "Alfred Nobel"
+   ],
+   "answer": 3,
+   "fact": "Nobel left most of his fortune to fund the Nobel Prizes, first given in 1901."
+  },
+  {
+   "id": "technology-1017",
+   "category": "Technology",
+   "q": "Who invented the cotton gin in 1793?",
+   "choices": [
+    "John Deere",
+    "Cyrus McCormick",
+    "Eli Whitney",
+    "Samuel Slater"
+   ],
+   "answer": 2,
+   "fact": "The cotton gin pulled seeds out of cotton far faster than people could by hand."
+  },
+  {
+   "id": "technology-1018",
+   "category": "Technology",
+   "q": "Which German engineer built the first practical car powered by a gasoline engine, in 1886?",
+   "choices": [
+    "Karl Benz",
+    "Rudolf Diesel",
+    "Henry Ford",
+    "Gottlieb Daimler"
+   ],
+   "answer": 0,
+   "fact": "His wife Bertha Benz took the car on the first long-distance drive to show it worked."
+  },
+  {
+   "id": "technology-1019",
+   "category": "Technology",
+   "q": "Which car company started using a moving assembly line in 1913?",
+   "choices": [
+    "Volkswagen",
+    "General Motors",
+    "Ford",
+    "Toyota"
+   ],
+   "answer": 2,
+   "fact": "The assembly line cut the time to build a Model T from over 12 hours to about 90 minutes."
+  },
+  {
+   "id": "technology-1020",
+   "category": "Technology",
+   "q": "Which Italian scientist built the first electric battery in 1800?",
+   "choices": [
+    "Guglielmo Marconi",
+    "Galileo Galilei",
+    "Luigi Galvani",
+    "Alessandro Volta"
+   ],
+   "answer": 3,
+   "fact": "The unit of electricity called the volt is named after him."
+  },
+  {
+   "id": "technology-1021",
+   "category": "Technology",
+   "q": "Which inventor is famous for developing alternating current motors and has an electric car company named after him?",
+   "choices": [
+    "Michael Faraday",
+    "Nikola Tesla",
+    "Thomas Edison",
+    "George Westinghouse"
+   ],
+   "answer": 1,
+   "fact": "Nikola Tesla was born in what is now Croatia and moved to the United States in 1884."
+  },
+  {
+   "id": "technology-1022",
+   "category": "Technology",
+   "q": "Which inventor helped create the telegraph and a code made of dots and dashes?",
+   "choices": [
+    "Alexander Graham Bell",
+    "Samuel Morse",
+    "Thomas Edison",
+    "Eli Whitney"
+   ],
+   "answer": 1,
+   "fact": "In Morse code, SOS is three dots, three dashes and three dots."
+  },
+  {
+   "id": "technology-1023",
+   "category": "Technology",
+   "q": "Which French mathematician built one of the first mechanical calculators as a teenager in the 1640s?",
+   "choices": [
+    "René Descartes",
+    "Blaise Pascal",
+    "Pierre de Fermat",
+    "Isaac Newton"
+   ],
+   "answer": 1,
+   "fact": "Pascal built his calculator to help his father, a tax collector, add up numbers."
+  },
+  {
+   "id": "technology-1024",
+   "category": "Technology",
+   "q": "Which English inventor designed the Analytical Engine, an early idea for a computer, in the 1830s?",
+   "choices": [
+    "Alan Turing",
+    "Charles Babbage",
+    "James Watt",
+    "Isaac Newton"
+   ],
+   "answer": 1,
+   "fact": "Babbage's design used punched cards, an idea borrowed from weaving looms."
+  },
+  {
+   "id": "technology-1025",
+   "category": "Technology",
+   "q": "What gave the Swiss inventor of Velcro his idea?",
+   "choices": [
+    "Fishing hooks",
+    "A bird's nest",
+    "Spider webs",
+    "Burrs stuck to his dog"
+   ],
+   "answer": 3,
+   "fact": "George de Mestral looked at burrs under a microscope and saw tiny hooks."
+  },
+  {
+   "id": "technology-1026",
+   "category": "Technology",
+   "q": "Which kitchen invention came about after a radar machine melted a chocolate bar in an engineer's pocket?",
+   "choices": [
+    "Blender",
+    "Microwave oven",
+    "Electric kettle",
+    "Toaster"
+   ],
+   "answer": 1,
+   "fact": "Percy Spencer noticed the melted candy bar in 1945 and soon tested popcorn too."
+  },
+  {
+   "id": "technology-1027",
+   "category": "Technology",
+   "q": "Which inventor built the first practical single-rotor helicopter in 1939?",
+   "choices": [
+    "Howard Hughes",
+    "Igor Sikorsky",
+    "Orville Wright",
+    "Wernher von Braun"
+   ],
+   "answer": 1,
+   "fact": "Many helicopters today still use a design with one big rotor and a small tail rotor."
+  },
+  {
+   "id": "technology-1028",
+   "category": "Technology",
+   "q": "Which invention by Willis Carrier in 1902 is used to cool buildings?",
+   "choices": [
+    "Air conditioning",
+    "Ice machine",
+    "Electric fan",
+    "Refrigerator"
+   ],
+   "answer": 0,
+   "fact": "Carrier first designed it to control humidity at a printing plant."
+  },
+  {
+   "id": "technology-1029",
+   "category": "Technology",
+   "q": "Who invented the famous twisting puzzle cube in 1974?",
+   "choices": [
+    "Hiroshi Tanaka",
+    "Erik Hansen",
+    "Ernő Rubik",
+    "Rubik Cubeson"
+   ],
+   "answer": 2,
+   "fact": "Ernő Rubik was a teacher in Hungary, and it took him about a month to solve his own cube."
+  },
+  {
+   "id": "technology-1030",
+   "category": "Technology",
+   "q": "In which country was LEGO invented?",
+   "choices": [
+    "Sweden",
+    "Netherlands",
+    "Germany",
+    "Denmark"
+   ],
+   "answer": 3,
+   "fact": "LEGO comes from the Danish words \"leg godt\", which mean \"play well\"."
+  },
+  {
+   "id": "technology-1031",
+   "category": "Technology",
+   "q": "Which American woman patented the windshield wiper in 1903?",
+   "choices": [
+    "Ada Lovelace",
+    "Hedy Lamarr",
+    "Mary Anderson",
+    "Margaret Knight"
+   ],
+   "answer": 2,
+   "fact": "Mary Anderson got the idea while riding a streetcar in snowy New York City."
+  },
+  {
+   "id": "technology-1032",
+   "category": "Technology",
+   "q": "Which NASA engineer invented the Super Soaker water gun?",
+   "choices": [
+    "Elijah McCoy",
+    "George Carver",
+    "Garrett Morgan",
+    "Lonnie Johnson"
+   ],
+   "answer": 3,
+   "fact": "Lonnie Johnson got the idea while testing a cooling system in his bathroom."
+  },
+  {
+   "id": "technology-1033",
+   "category": "Technology",
+   "q": "Which American engineer created the first home video game console, the Magnavox Odyssey?",
+   "choices": [
+    "Shigeru Miyamoto",
+    "Ralph Baer",
+    "Steve Jobs",
+    "Nolan Bushnell"
+   ],
+   "answer": 1,
+   "fact": "Ralph Baer is often called the Father of Video Games."
+  },
+  {
+   "id": "technology-1034",
+   "category": "Technology",
+   "q": "Which French brothers showed one of the first public movies to a paying audience in 1895?",
+   "choices": [
+    "Montgolfier brothers",
+    "Warner brothers",
+    "Lumière brothers",
+    "Wright brothers"
+   ],
+   "answer": 2,
+   "fact": "Lumière means \"light\" in French."
+  },
+  {
+   "id": "technology-1035",
+   "category": "Technology",
+   "q": "Which French brothers launched the first hot air balloon flight with people aboard, in 1783?",
+   "choices": [
+    "Wright brothers",
+    "Grimm brothers",
+    "Montgolfier brothers",
+    "Lumière brothers"
+   ],
+   "answer": 2,
+   "fact": "The first passengers on a Montgolfier balloon test were a sheep, a duck and a rooster."
+  },
+  {
+   "id": "technology-1036",
+   "category": "Technology",
+   "q": "Who invented a reading system of raised dots for blind people, when he was only 15?",
+   "choices": [
+    "Louis Braille",
+    "Alexander Graham Bell",
+    "Helen Keller",
+    "Samuel Morse"
+   ],
+   "answer": 0,
+   "fact": "Louis Braille lost his sight after an accident when he was 3 years old."
+  },
+  {
+   "id": "technology-1037",
+   "category": "Technology",
+   "q": "Which French inventor took the oldest surviving photograph from a window in the 1820s?",
+   "choices": [
+    "Louis Daguerre",
+    "Louis Pasteur",
+    "Nicéphore Niépce",
+    "Auguste Lumière"
+   ],
+   "answer": 2,
+   "fact": "The picture needed many hours, or maybe even days, of light to show up."
+  },
+  {
+   "id": "technology-1038",
+   "category": "Technology",
+   "q": "Which inventor made elevators safe with a brake that stopped them from falling?",
+   "choices": [
+    "Elisha Otis",
+    "Thomas Edison",
+    "Charles Goodyear",
+    "George Ferris"
+   ],
+   "answer": 0,
+   "fact": "Elisha Otis showed off his safety brake by cutting the elevator rope while he stood inside."
+  },
+  {
+   "id": "technology-1039",
+   "category": "Technology",
+   "q": "Who made the first cell phone call, in 1973?",
+   "choices": [
+    "Steve Jobs",
+    "Alexander Graham Bell",
+    "Bill Gates",
+    "Martin Cooper"
+   ],
+   "answer": 3,
+   "fact": "The first mobile phone weighed about 1 kilogram and the battery lasted only about 30 minutes of talking."
+  },
+  {
+   "id": "technology-1040",
+   "category": "Technology",
+   "q": "What did the first text message, sent in 1992, say?",
+   "choices": [
+    "Hello World",
+    "Happy New Year",
+    "Can you hear me",
+    "Merry Christmas"
+   ],
+   "answer": 3,
+   "fact": "The message was sent from a computer to a phone, because phones couldn't type texts yet."
+  },
+  {
+   "id": "technology-1041",
+   "category": "Technology",
+   "q": "What does LED stand for?",
+   "choices": [
+    "Light-emitting diode",
+    "Laser emitting dot",
+    "Low energy device",
+    "Light electric display"
+   ],
+   "answer": 0,
+   "fact": "LEDs use far less energy than old light bulbs and can last for many years."
+  },
+  {
+   "id": "technology-1042",
+   "category": "Technology",
+   "q": "What does LCD stand for?",
+   "choices": [
+    "Low cost display",
+    "Laser crystal device",
+    "Light color diode",
+    "Liquid crystal display"
+   ],
+   "answer": 3,
+   "fact": "LCD screens use liquid crystals that twist to let light through or block it."
+  },
+  {
+   "id": "technology-1043",
+   "category": "Technology",
+   "q": "What does RAM stand for in a computer?",
+   "choices": [
+    "Read and memorize",
+    "Rapid action module",
+    "Real active memory",
+    "Random access memory"
+   ],
+   "answer": 3,
+   "fact": "RAM is cleared when you turn the computer off, unlike a hard drive."
+  },
+  {
+   "id": "technology-1044",
+   "category": "Technology",
+   "q": "What does SSD stand for?",
+   "choices": [
+    "Smart storage device",
+    "Super speed disk",
+    "Solid-state drive",
+    "Spinning storage drive"
+   ],
+   "answer": 2,
+   "fact": "SSDs have no moving parts, which makes them much faster than old hard drives."
+  },
+  {
+   "id": "technology-1045",
+   "category": "Technology",
+   "q": "What does GPU stand for?",
+   "choices": [
+    "Game play utility",
+    "General power unit",
+    "Graphics processing unit",
+    "Graphic pixel updater"
+   ],
+   "answer": 2,
+   "fact": "GPUs are great at doing thousands of small math problems at once, which also makes them useful for AI."
+  },
+  {
+   "id": "technology-1046",
+   "category": "Technology",
+   "q": "What does URL stand for?",
+   "choices": [
+    "Unique Resource Line",
+    "Universal Routing Link",
+    "Uniform Resource Locator",
+    "User Reference List"
+   ],
+   "answer": 2,
+   "fact": "A URL is the address of a page on the web, like the address of a house."
+  },
+  {
+   "id": "technology-1047",
+   "category": "Technology",
+   "q": "What does HTTP stand for?",
+   "choices": [
+    "Hyperlink Typing Text Protocol",
+    "Home Tool Transfer Page",
+    "Hypertext Transfer Protocol",
+    "High Tech Text Program"
+   ],
+   "answer": 2,
+   "fact": "The S in HTTPS means secure, because the data is encrypted."
+  },
+  {
+   "id": "technology-1048",
+   "category": "Technology",
+   "q": "What does PDF stand for?",
+   "choices": [
+    "Page Display Format",
+    "Public Document Folder",
+    "Printed Data File",
+    "Portable Document Format"
+   ],
+   "answer": 3,
+   "fact": "PDF files look the same on almost any device."
+  },
+  {
+   "id": "technology-1049",
+   "category": "Technology",
+   "q": "What does \"www\" stand for at the start of web addresses?",
+   "choices": [
+    "World Wide Web",
+    "Web Wide Worldwide",
+    "Wide Web World",
+    "World Web Wire"
+   ],
+   "answer": 0,
+   "fact": "Many websites now work fine without the www part."
+  },
+  {
+   "id": "technology-1050",
+   "category": "Technology",
+   "q": "How many bits are in one byte?",
+   "choices": [
+    "16",
+    "8",
+    "10",
+    "4"
+   ],
+   "answer": 1,
+   "fact": "A single byte can store a number from 0 to 255."
+  },
+  {
+   "id": "technology-1051",
+   "category": "Technology",
+   "q": "Which of these is an operating system?",
+   "choices": [
+    "Linux",
+    "Google Chrome",
+    "Python",
+    "Photoshop"
+   ],
+   "answer": 0,
+   "fact": "An operating system runs the computer and lets other programs work."
+  },
+  {
+   "id": "technology-1052",
+   "category": "Technology",
+   "q": "What is the name of the penguin mascot of Linux?",
+   "choices": [
+    "Pingu",
+    "Waddles",
+    "Tux",
+    "Linus"
+   ],
+   "answer": 2,
+   "fact": "Linus Torvalds said he picked a penguin because he was once bitten by one at a zoo."
+  },
+  {
+   "id": "technology-1053",
+   "category": "Technology",
+   "q": "Who created the Linux operating system in 1991?",
+   "choices": [
+    "Steve Wozniak",
+    "Bill Gates",
+    "Guido van Rossum",
+    "Linus Torvalds"
+   ],
+   "answer": 3,
+   "fact": "Linus Torvalds started Linux as a hobby when he was a student in Finland."
+  },
+  {
+   "id": "technology-1054",
+   "category": "Technology",
+   "q": "What does \"open source\" software mean?",
+   "choices": [
+    "Anyone can see and change its code",
+    "It has no code",
+    "It costs a lot of money",
+    "Only one company can use it"
+   ],
+   "answer": 0,
+   "fact": "Linux, Firefox and Blender are all open source."
+  },
+  {
+   "id": "technology-1055",
+   "category": "Technology",
+   "q": "On a Windows PC, which keyboard shortcut copies selected text?",
+   "choices": [
+    "Ctrl + V",
+    "Ctrl + X",
+    "Ctrl + P",
+    "Ctrl + C"
+   ],
+   "answer": 3,
+   "fact": "Ctrl + V pastes what you copied, and Ctrl + X cuts it."
+  },
+  {
+   "id": "technology-1056",
+   "category": "Technology",
+   "q": "On most computers, what does Ctrl + Z do?",
+   "choices": [
+    "Save",
+    "Zoom in",
+    "Close the window",
+    "Undo"
+   ],
+   "answer": 3,
+   "fact": "On a Mac, the same shortcut is Command + Z."
+  },
+  {
+   "id": "technology-1057",
+   "category": "Technology",
+   "q": "Which keyboard shortcut opens the Task Manager on Windows?",
+   "choices": [
+    "Ctrl + Alt + T",
+    "Alt + F4",
+    "Windows + D",
+    "Ctrl + Shift + Esc"
+   ],
+   "answer": 3,
+   "fact": "Task Manager shows which programs are using your CPU and memory."
+  },
+  {
+   "id": "technology-1058",
+   "category": "Technology",
+   "q": "On Windows 10 and 11, which shortcut opens a tool to take a screenshot of part of the screen?",
+   "choices": [
+    "Ctrl + S",
+    "Alt + Tab",
+    "Windows + Shift + S",
+    "Windows + L"
+   ],
+   "answer": 2,
+   "fact": "The screenshot is copied so you can paste it right away."
+  },
+  {
+   "id": "technology-1059",
+   "category": "Technology",
+   "q": "What is the name of the operating system on iPhones?",
+   "choices": [
+    "iOS",
+    "Windows Phone",
+    "macOS",
+    "Android"
+   ],
+   "answer": 0,
+   "fact": "iPads used iOS too until Apple gave them iPadOS in 2019."
+  },
+  {
+   "id": "technology-1060",
+   "category": "Technology",
+   "q": "Which programming language did Apple introduce in 2014 for making iPhone and iPad apps?",
+   "choices": [
+    "Go",
+    "Swift",
+    "Ruby",
+    "Kotlin"
+   ],
+   "answer": 1,
+   "fact": "You can learn Swift on an iPad with Apple's free Swift Playgrounds app."
+  },
+  {
+   "id": "technology-1061",
+   "category": "Technology",
+   "q": "What is computer chips' main material, which gave Silicon Valley its name?",
+   "choices": [
+    "Gold",
+    "Plastic",
+    "Silicon",
+    "Copper"
+   ],
+   "answer": 2,
+   "fact": "Silicon is made from sand, the second most common element in Earth's crust."
+  },
+  {
+   "id": "technology-1062",
+   "category": "Technology",
+   "q": "Which company makes GeForce graphics cards?",
+   "choices": [
+    "Apple",
+    "Nvidia",
+    "Intel",
+    "Logitech"
+   ],
+   "answer": 1,
+   "fact": "Nvidia was founded in 1993, and as of 2025 it is one of the most valuable companies in the world."
+  },
+  {
+   "id": "technology-1063",
+   "category": "Technology",
+   "q": "Which company makes Ryzen processors?",
+   "choices": [
+    "AMD",
+    "Nvidia",
+    "Qualcomm",
+    "Intel"
+   ],
+   "answer": 0,
+   "fact": "AMD stands for Advanced Micro Devices."
+  },
+  {
+   "id": "technology-1064",
+   "category": "Technology",
+   "q": "Which company released the first commercial microprocessor, the 4004, in 1971?",
+   "choices": [
+    "IBM",
+    "Microsoft",
+    "Apple",
+    "Intel"
+   ],
+   "answer": 3,
+   "fact": "The Intel 4004 was first made for a Japanese calculator."
+  },
+  {
+   "id": "technology-1065",
+   "category": "Technology",
+   "q": "What is thermal paste used for in a PC?",
+   "choices": [
+    "Cleaning the fans",
+    "Gluing parts together",
+    "Moving heat from the CPU to its cooler",
+    "Making the case shiny"
+   ],
+   "answer": 2,
+   "fact": "A pea-sized dot of thermal paste is usually enough."
+  },
+  {
+   "id": "technology-1066",
+   "category": "Technology",
+   "q": "What does PSU stand for in a computer?",
+   "choices": [
+    "Processor speed upgrade",
+    "Primary storage unit",
+    "Power supply unit",
+    "Pixel shading unit"
+   ],
+   "answer": 2,
+   "fact": "The PSU turns the electricity from the wall into the kind the computer parts can use."
+  },
+  {
+   "id": "technology-1067",
+   "category": "Technology",
+   "q": "Which kind of cable carries both high-definition video and sound to a TV or monitor?",
+   "choices": [
+    "Ethernet",
+    "Phone cord",
+    "HDMI",
+    "VGA"
+   ],
+   "answer": 2,
+   "fact": "HDMI stands for High-Definition Multimedia Interface."
+  },
+  {
+   "id": "technology-1068",
+   "category": "Technology",
+   "q": "What is special about USB-C plugs compared to older USB plugs?",
+   "choices": [
+    "They fit either way up",
+    "They only charge phones",
+    "They need batteries",
+    "They are always yellow"
+   ],
+   "answer": 0,
+   "fact": "As of 2025, the European Union requires most new phones sold there to use USB-C charging."
+  },
+  {
+   "id": "technology-1069",
+   "category": "Technology",
+   "q": "What does a monitor's refresh rate, like 144 Hz, measure?",
+   "choices": [
+    "How many colors it shows",
+    "How bright the screen is",
+    "How big the screen is",
+    "How many times per second the picture updates"
+   ],
+   "answer": 3,
+   "fact": "Higher refresh rates make fast games look smoother."
+  },
+  {
+   "id": "technology-1070",
+   "category": "Technology",
+   "q": "Which type of storage uses spinning metal platters inside?",
+   "choices": [
+    "RAM",
+    "USB flash drive",
+    "Hard disk drive",
+    "Solid-state drive"
+   ],
+   "answer": 2,
+   "fact": "Hard drive platters can spin about 7,200 times per minute."
+  },
+  {
+   "id": "technology-1071",
+   "category": "Technology",
+   "q": "What is a pixel?",
+   "choices": [
+    "One tiny dot of a digital picture",
+    "A type of battery",
+    "A computer virus",
+    "A coding language"
+   ],
+   "answer": 0,
+   "fact": "The word pixel is short for \"picture element\"."
+  },
+  {
+   "id": "technology-1072",
+   "category": "Technology",
+   "q": "What is a screen resolution of 1920 by 1080 often called?",
+   "choices": [
+    "8-bit",
+    "4K",
+    "Full HD",
+    "Retina"
+   ],
+   "answer": 2,
+   "fact": "It's also called 1080p, because the picture is 1,080 pixels tall."
+  },
+  {
+   "id": "technology-1073",
+   "category": "Technology",
+   "q": "About how many pixels wide is a 4K screen?",
+   "choices": [
+    "About 40,000",
+    "About 4,000",
+    "About 400",
+    "About 1,000"
+   ],
+   "answer": 1,
+   "fact": "Most 4K TVs are 3,840 pixels wide and 2,160 pixels tall."
+  },
+  {
+   "id": "technology-1074",
+   "category": "Technology",
+   "q": "Which three colors of light do screens mix to make every other color?",
+   "choices": [
+    "Red, green and blue",
+    "Cyan, magenta and yellow",
+    "Black, white and gray",
+    "Red, yellow and blue"
+   ],
+   "answer": 0,
+   "fact": "Look closely at an old screen with a magnifying glass and you can see tiny red, green and blue dots."
+  },
+  {
+   "id": "technology-1075",
+   "category": "Technology",
+   "q": "What does Moore's Law say roughly doubles about every two years?",
+   "choices": [
+    "Video game prices",
+    "Transistors on a computer chip",
+    "Internet users",
+    "Phone sizes"
+   ],
+   "answer": 1,
+   "fact": "Gordon Moore, a co-founder of Intel, first made this kind of prediction in 1965."
+  },
+  {
+   "id": "technology-1076",
+   "category": "Technology",
+   "q": "What is a transistor?",
+   "choices": [
+    "A computer screen",
+    "A kind of cable",
+    "A type of battery",
+    "A tiny electronic switch"
+   ],
+   "answer": 3,
+   "fact": "Modern computer chips can have billions of transistors."
+  },
+  {
+   "id": "technology-1077",
+   "category": "Technology",
+   "q": "Who invented the computer mouse in the 1960s?",
+   "choices": [
+    "Douglas Engelbart",
+    "Tim Berners-Lee",
+    "Steve Jobs",
+    "Bill Gates"
+   ],
+   "answer": 0,
+   "fact": "The first mouse was a wooden box with two metal wheels."
+  },
+  {
+   "id": "technology-1078",
+   "category": "Technology",
+   "q": "What does QWERTY describe?",
+   "choices": [
+    "A coding language",
+    "A type of mouse",
+    "A computer virus",
+    "The usual layout of keyboard letters"
+   ],
+   "answer": 3,
+   "fact": "QWERTY comes from the first six letters on the top row of letter keys."
+  },
+  {
+   "id": "technology-1079",
+   "category": "Technology",
+   "q": "What does the old \"save\" icon in many programs show?",
+   "choices": [
+    "A floppy disk",
+    "A CD",
+    "A USB stick",
+    "A folder"
+   ],
+   "answer": 0,
+   "fact": "Floppy disks held only about 1.44 megabytes, less than one phone photo today."
+  },
+  {
+   "id": "technology-1080",
+   "category": "Technology",
+   "q": "What does one megapixel mean?",
+   "choices": [
+    "One thousand pixels",
+    "One million pixels",
+    "One big pixel",
+    "One billion pixels"
+   ],
+   "answer": 1,
+   "fact": "A 12 megapixel camera takes photos made of about 12 million pixels."
+  },
+  {
+   "id": "technology-1081",
+   "category": "Technology",
+   "q": "What does GIF stand for?",
+   "choices": [
+    "Graphics Interchange Format",
+    "Graphic Internet Frame",
+    "General Image Format",
+    "Great Image File"
+   ],
+   "answer": 0,
+   "fact": "People still argue whether GIF is said with a hard G or a soft G like \"jif\"."
+  },
+  {
+   "id": "technology-1082",
+   "category": "Technology",
+   "q": "What does JPEG stand for?",
+   "choices": [
+    "Just Pictures Every Gallery",
+    "Joint Photographic Experts Group",
+    "Joined Picture Encoding Graphics",
+    "Java Photo Engine Group"
+   ],
+   "answer": 1,
+   "fact": "JPEG makes photos smaller by throwing away details your eyes are unlikely to notice."
+  },
+  {
+   "id": "technology-1083",
+   "category": "Technology",
+   "q": "Which early computer network, started in 1969, grew into the internet?",
+   "choices": [
+    "ARPANET",
+    "Ethernet",
+    "World Wide Web",
+    "Bluetooth"
+   ],
+   "answer": 0,
+   "fact": "The first message sent on ARPANET was supposed to be \"LOGIN\", but it crashed after \"LO\"."
+  },
+  {
+   "id": "technology-1084",
+   "category": "Technology",
+   "q": "Who sent the first email between two computers and chose the @ symbol for addresses?",
+   "choices": [
+    "Bill Gates",
+    "Ray Tomlinson",
+    "Tim Berners-Lee",
+    "Vint Cerf"
+   ],
+   "answer": 1,
+   "fact": "Ray Tomlinson sent the first network email in 1971 and later said he couldn't remember what it said."
+  },
+  {
+   "id": "technology-1085",
+   "category": "Technology",
+   "q": "What is unwanted junk email called?",
+   "choices": [
+    "Glitch",
+    "Spoof",
+    "Spam",
+    "Cookie"
+   ],
+   "answer": 2,
+   "fact": "It was named after a comedy sketch by Monty Python where everyone keeps saying \"spam\"."
+  },
+  {
+   "id": "technology-1086",
+   "category": "Technology",
+   "q": "In what year was YouTube founded?",
+   "choices": [
+    "2010",
+    "2000",
+    "2005",
+    "1998"
+   ],
+   "answer": 2,
+   "fact": "The first video uploaded to YouTube was \"Me at the zoo\", about elephants at the San Diego Zoo."
+  },
+  {
+   "id": "technology-1087",
+   "category": "Technology",
+   "q": "Which company bought YouTube in 2006?",
+   "choices": [
+    "Microsoft",
+    "Apple",
+    "Google",
+    "Facebook"
+   ],
+   "answer": 2,
+   "fact": "Google paid about 1.65 billion dollars for YouTube."
+  },
+  {
+   "id": "technology-1088",
+   "category": "Technology",
+   "q": "What does the Japanese word \"emoji\" mean?",
+   "choices": [
+    "Happy face",
+    "Phone symbol",
+    "Little feeling",
+    "Picture character"
+   ],
+   "answer": 3,
+   "fact": "Emoji comes from \"e\", meaning picture, and \"moji\", meaning character."
+  },
+  {
+   "id": "technology-1089",
+   "category": "Technology",
+   "q": "What is phishing?",
+   "choices": [
+    "A coding language",
+    "A type of video game",
+    "A way to speed up Wi-Fi",
+    "A trick to steal passwords or information with fake messages"
+   ],
+   "answer": 3,
+   "fact": "Phishing messages often pretend to be from a bank or a game company and ask you to click a link."
+  },
+  {
+   "id": "technology-1090",
+   "category": "Technology",
+   "q": "Which of these usually makes the strongest password?",
+   "choices": [
+    "Your birthday",
+    "123456",
+    "A long phrase of random words",
+    "Your pet's name"
+   ],
+   "answer": 2,
+   "fact": "A long passphrase is easier to remember and much harder to guess."
+  },
+  {
+   "id": "technology-1091",
+   "category": "Technology",
+   "q": "What is two-factor authentication?",
+   "choices": [
+    "Using a second check, like a code, to sign in",
+    "Having two passwords for two sites",
+    "Using two keyboards",
+    "Logging in twice a day"
+   ],
+   "answer": 0,
+   "fact": "Even if someone steals your password, they still need the second code."
+  },
+  {
+   "id": "technology-1092",
+   "category": "Technology",
+   "q": "What does a firewall do?",
+   "choices": [
+    "Makes Wi-Fi faster",
+    "Cools down the computer",
+    "Blocks unwanted network traffic",
+    "Stops the screen from burning"
+   ],
+   "answer": 2,
+   "fact": "The name comes from real walls built to stop fires from spreading."
+  },
+  {
+   "id": "technology-1093",
+   "category": "Technology",
+   "q": "What does VPN stand for?",
+   "choices": [
+    "Video player network",
+    "Virtual private network",
+    "Very private name",
+    "Visual page navigator"
+   ],
+   "answer": 1,
+   "fact": "A VPN sends your internet traffic through an encrypted tunnel."
+  },
+  {
+   "id": "technology-1094",
+   "category": "Technology",
+   "q": "What does a router do in a home network?",
+   "choices": [
+    "Charges your phone",
+    "Stores your photos",
+    "Prints documents",
+    "Sends internet traffic to the right devices"
+   ],
+   "answer": 3,
+   "fact": "Restarting the router is often the first fix to try when Wi-Fi acts up."
+  },
+  {
+   "id": "technology-1095",
+   "category": "Technology",
+   "q": "What is an IP address?",
+   "choices": [
+    "A type of email",
+    "A website's password",
+    "A computer's brand name",
+    "A number that identifies a device on a network"
+   ],
+   "answer": 3,
+   "fact": "Older IP addresses look like four numbers separated by dots, like 192.168.0.1."
+  },
+  {
+   "id": "technology-1096",
+   "category": "Technology",
+   "q": "When people talk about saving files \"in the cloud\", where are the files really kept?",
+   "choices": [
+    "On the moon",
+    "Up in the sky",
+    "Inside your keyboard",
+    "On computers in data centers"
+   ],
+   "answer": 3,
+   "fact": "Big data centers can hold many thousands of servers."
+  },
+  {
+   "id": "technology-1097",
+   "category": "Technology",
+   "q": "What is \"ping\" in online gaming?",
+   "choices": [
+    "The number of players",
+    "How long data takes to travel to the server and back",
+    "The game's frame rate",
+    "Your score"
+   ],
+   "answer": 1,
+   "fact": "Ping is measured in milliseconds, and lower is better."
+  },
+  {
+   "id": "technology-1098",
+   "category": "Technology",
+   "q": "What is \"lag\" in an online game?",
+   "choices": [
+    "A delay between your action and the game's response",
+    "A secret level",
+    "Extra lives",
+    "A type of controller"
+   ],
+   "answer": 0,
+   "fact": "A wired internet connection usually has less lag than Wi-Fi."
+  },
+  {
+   "id": "technology-1099",
+   "category": "Technology",
+   "q": "What does AFK mean in gaming chat?",
+   "choices": [
+    "Always fight kindly",
+    "All friends know",
+    "Away from keyboard",
+    "Attack from knee"
+   ],
+   "answer": 2,
+   "fact": "Some games kick players who are AFK for too long."
+  },
+  {
+   "id": "technology-1100",
+   "category": "Technology",
+   "q": "What does GG mean in gaming chat?",
+   "choices": [
+    "Good game",
+    "Go green",
+    "Great glitch",
+    "Get going"
+   ],
+   "answer": 0,
+   "fact": "Saying GG at the end of a match is a way to show good sportsmanship."
+  },
+  {
+   "id": "technology-1101",
+   "category": "Technology",
+   "q": "What does NPC stand for in video games?",
+   "choices": [
+    "Non-player character",
+    "Normal plain creature",
+    "Next player chance",
+    "New power card"
+   ],
+   "answer": 0,
+   "fact": "Shopkeepers and quest givers are usually NPCs."
+  },
+  {
+   "id": "technology-1102",
+   "category": "Technology",
+   "q": "In PC gaming, what does FPS mean when people talk about how smooth a game runs?",
+   "choices": [
+    "Fast player speed",
+    "First person shooter",
+    "Full power setting",
+    "Frames per second"
+   ],
+   "answer": 3,
+   "fact": "Many gamers aim for at least 60 frames per second."
+  },
+  {
+   "id": "technology-1103",
+   "category": "Technology",
+   "q": "What does RPG stand for in video games?",
+   "choices": [
+    "Rapid power gear",
+    "Role-playing game",
+    "Real player game",
+    "Random puzzle game"
+   ],
+   "answer": 1,
+   "fact": "In an RPG, your character usually levels up and gets stronger as you play."
+  },
+  {
+   "id": "technology-1104",
+   "category": "Technology",
+   "q": "What does DLC stand for in gaming?",
+   "choices": [
+    "Direct link controller",
+    "Downloadable content",
+    "Double life counter",
+    "Digital level code"
+   ],
+   "answer": 1,
+   "fact": "DLC adds new levels, characters or items after a game comes out."
+  },
+  {
+   "id": "technology-1105",
+   "category": "Technology",
+   "q": "What is the programming language Python named after?",
+   "choices": [
+    "A large snake",
+    "A Greek god",
+    "A brand of computer",
+    "A comedy group, Monty Python"
+   ],
+   "answer": 3,
+   "fact": "Guido van Rossum named Python after Monty Python's Flying Circus."
+  },
+  {
+   "id": "technology-1106",
+   "category": "Technology",
+   "q": "Who created the Python programming language?",
+   "choices": [
+    "Linus Torvalds",
+    "Guido van Rossum",
+    "James Gosling",
+    "Bjarne Stroustrup"
+   ],
+   "answer": 1,
+   "fact": "Guido van Rossum released the first version of Python in 1991."
+  },
+  {
+   "id": "technology-1107",
+   "category": "Technology",
+   "q": "In Python, which symbol starts a comment?",
+   "choices": [
+    "//",
+    "**",
+    "#",
+    "--"
+   ],
+   "answer": 2,
+   "fact": "Comments are notes for people, and the computer ignores them."
+  },
+  {
+   "id": "technology-1108",
+   "category": "Technology",
+   "q": "How does Python know which lines belong inside a loop or an if statement?",
+   "choices": [
+    "Curly braces",
+    "Indentation",
+    "Square brackets",
+    "Semicolons"
+   ],
+   "answer": 1,
+   "fact": "Most Python code uses four spaces for each level of indentation."
+  },
+  {
+   "id": "technology-1109",
+   "category": "Technology",
+   "q": "What do you call a value that can only be true or false?",
+   "choices": [
+    "Integer",
+    "String",
+    "Float",
+    "Boolean"
+   ],
+   "answer": 3,
+   "fact": "It's named after George Boole, a mathematician from the 1800s."
+  },
+  {
+   "id": "technology-1110",
+   "category": "Technology",
+   "q": "In programming, what is a loop used for?",
+   "choices": [
+    "Ending the program",
+    "Repeating code",
+    "Drawing circles",
+    "Deleting files"
+   ],
+   "answer": 1,
+   "fact": "A for loop repeats a set number of times, and a while loop repeats while something is true."
+  },
+  {
+   "id": "technology-1111",
+   "category": "Technology",
+   "q": "In programming, what is a variable?",
+   "choices": [
+    "A type of screen",
+    "A named place to store a value",
+    "A broken piece of code",
+    "A computer virus"
+   ],
+   "answer": 1,
+   "fact": "You can change what a variable holds while the program runs."
+  },
+  {
+   "id": "technology-1112",
+   "category": "Technology",
+   "q": "What is an algorithm?",
+   "choices": [
+    "A type of robot",
+    "A step-by-step set of instructions to solve a problem",
+    "A math mistake",
+    "A computer's power cable"
+   ],
+   "answer": 1,
+   "fact": "A recipe for baking cookies is a kind of algorithm."
+  },
+  {
+   "id": "technology-1113",
+   "category": "Technology",
+   "q": "What is finding and fixing mistakes in code called?",
+   "choices": [
+    "Formatting",
+    "Compiling",
+    "Encrypting",
+    "Debugging"
+   ],
+   "answer": 3,
+   "fact": "In 1947, Grace Hopper's team found a real moth stuck in a computer and taped it in their logbook."
+  },
+  {
+   "id": "technology-1114",
+   "category": "Technology",
+   "q": "Which computer scientist helped create the COBOL language and built one of the first compilers?",
+   "choices": [
+    "Ada Lovelace",
+    "Katherine Johnson",
+    "Margaret Hamilton",
+    "Grace Hopper"
+   ],
+   "answer": 3,
+   "fact": "Grace Hopper was a US Navy rear admiral, and a Navy ship is named after her."
+  },
+  {
+   "id": "technology-1115",
+   "category": "Technology",
+   "q": "Which programming language is used to make web pages interactive in the browser?",
+   "choices": [
+    "Java",
+    "SQL",
+    "HTML",
+    "JavaScript"
+   ],
+   "answer": 3,
+   "fact": "JavaScript was created in just 10 days in 1995."
+  },
+  {
+   "id": "technology-1116",
+   "category": "Technology",
+   "q": "Which language is used to style web pages with colors, fonts and layouts?",
+   "choices": [
+    "CSS",
+    "HTML",
+    "Python",
+    "SQL"
+   ],
+   "answer": 0,
+   "fact": "CSS stands for Cascading Style Sheets."
+  },
+  {
+   "id": "technology-1117",
+   "category": "Technology",
+   "q": "Arduino sketches are written in a language based on which language?",
+   "choices": [
+    "Lua",
+    "Python",
+    "Java",
+    "C++"
+   ],
+   "answer": 3,
+   "fact": "Arduino was created in Italy, and it's named after a bar where its makers used to meet."
+  },
+  {
+   "id": "technology-1118",
+   "category": "Technology",
+   "q": "In an Arduino sketch, which function runs over and over forever?",
+   "choices": [
+    "setup()",
+    "loop()",
+    "main()",
+    "repeat()"
+   ],
+   "answer": 1,
+   "fact": "The setup() function runs only once, when the board turns on or resets."
+  },
+  {
+   "id": "technology-1119",
+   "category": "Technology",
+   "q": "In programming, what is a string?",
+   "choices": [
+    "A type of cable",
+    "A loop",
+    "A piece of text",
+    "A whole number"
+   ],
+   "answer": 2,
+   "fact": "Strings are usually written inside quotation marks, like \"hello\"."
+  },
+  {
+   "id": "technology-1120",
+   "category": "Technology",
+   "q": "What is the traditional first program people write when learning a new language?",
+   "choices": [
+    "Test, One, Two!",
+    "Hello, World!",
+    "Goodbye, Moon!",
+    "Start, Game!"
+   ],
+   "answer": 1,
+   "fact": "The tradition became famous from a 1978 book about the C language."
+  },
+  {
+   "id": "technology-1121",
+   "category": "Technology",
+   "q": "What does IDE stand for in coding?",
+   "choices": [
+    "Integrated Development Environment",
+    "Instant Debug Engine",
+    "Interactive Design Editor",
+    "Internet Data Exchange"
+   ],
+   "answer": 0,
+   "fact": "Roblox Studio and Visual Studio Code are both used like IDEs."
+  },
+  {
+   "id": "technology-1122",
+   "category": "Technology",
+   "q": "What is Git used for?",
+   "choices": [
+    "Speeding up the internet",
+    "Drawing 3D models",
+    "Tracking changes to code",
+    "Playing music"
+   ],
+   "answer": 2,
+   "fact": "Linus Torvalds, who created Linux, also created Git in 2005."
+  },
+  {
+   "id": "technology-1123",
+   "category": "Technology",
+   "q": "What is the name of GitHub's cat and octopus mascot?",
+   "choices": [
+    "Gitkitty",
+    "Octocat",
+    "Codepus",
+    "Catopus"
+   ],
+   "answer": 1,
+   "fact": "The Octocat has five legs that look like octopus arms."
+  },
+  {
+   "id": "technology-1124",
+   "category": "Technology",
+   "q": "What does API stand for?",
+   "choices": [
+    "Application Programming Interface",
+    "Advanced Program Installer",
+    "App Privacy Information",
+    "Automatic Pixel Index"
+   ],
+   "answer": 0,
+   "fact": "An API lets one program ask another program for data or actions."
+  },
+  {
+   "id": "technology-1125",
+   "category": "Technology",
+   "q": "What is a syntax error?",
+   "choices": [
+    "A broken screen",
+    "A game glitch",
+    "A slow internet connection",
+    "A mistake in how code is written, like a missing bracket"
+   ],
+   "answer": 3,
+   "fact": "The computer can't run code with a syntax error until it's fixed."
+  },
+  {
+   "id": "technology-1126",
+   "category": "Technology",
+   "q": "What is an infinite loop?",
+   "choices": [
+    "A loop that runs once",
+    "A circle drawing",
+    "A loop that never stops",
+    "A very fast computer"
+   ],
+   "answer": 2,
+   "fact": "An infinite loop can freeze a program until you stop it."
+  },
+  {
+   "id": "technology-1127",
+   "category": "Technology",
+   "q": "In most programming languages, what does \"==\" mean?",
+   "choices": [
+    "Not equal",
+    "Set equal to",
+    "Add together",
+    "Is equal to"
+   ],
+   "answer": 3,
+   "fact": "A single \"=\" usually puts a value into a variable."
+  },
+  {
+   "id": "technology-1128",
+   "category": "Technology",
+   "q": "In C++ and many other languages, what does \"++\" do to a number variable?",
+   "choices": [
+    "Makes it negative",
+    "Deletes it",
+    "Adds 1 to it",
+    "Doubles it"
+   ],
+   "answer": 2,
+   "fact": "The name C++ is a joke meaning \"one better than C\"."
+  },
+  {
+   "id": "technology-1129",
+   "category": "Technology",
+   "q": "Which company first created the Java programming language?",
+   "choices": [
+    "Apple",
+    "Google",
+    "Microsoft",
+    "Sun Microsystems"
+   ],
+   "answer": 3,
+   "fact": "Java was first released in 1995 and was named after coffee from the island of Java."
+  },
+  {
+   "id": "technology-1130",
+   "category": "Technology",
+   "q": "Which number system uses the digits 0 to 9 and the letters A to F?",
+   "choices": [
+    "Roman numerals",
+    "Binary",
+    "Hexadecimal",
+    "Decimal"
+   ],
+   "answer": 2,
+   "fact": "Colors on web pages are often written in hexadecimal, like #FF0000 for red."
+  },
+  {
+   "id": "technology-1131",
+   "category": "Technology",
+   "q": "What is the number 1010 in binary equal to in normal numbers?",
+   "choices": [
+    "2",
+    "5",
+    "1,010",
+    "10"
+   ],
+   "answer": 3,
+   "fact": "In binary, 1010 means one 8, no 4s, one 2 and no 1s."
+  },
+  {
+   "id": "technology-1132",
+   "category": "Technology",
+   "q": "What is machine learning?",
+   "choices": [
+    "Computers learning patterns from data",
+    "Fixing broken computers",
+    "Robots building machines",
+    "Learning to type faster"
+   ],
+   "answer": 0,
+   "fact": "Machine learning powers things like photo search and voice assistants."
+  },
+  {
+   "id": "technology-1133",
+   "category": "Technology",
+   "q": "Which company makes the AI assistant called Claude?",
+   "choices": [
+    "Microsoft",
+    "Google",
+    "Apple",
+    "Anthropic"
+   ],
+   "answer": 3,
+   "fact": "Anthropic was founded in 2021 by people who wanted to build AI that is safe and helpful."
+  },
+  {
+   "id": "technology-1134",
+   "category": "Technology",
+   "q": "What is the Turing test meant to check?",
+   "choices": [
+    "Whether a machine can chat like a human",
+    "How strong a robot is",
+    "How good a password is",
+    "How fast a computer is"
+   ],
+   "answer": 0,
+   "fact": "Alan Turing described the test in 1950 and called it the imitation game."
+  },
+  {
+   "id": "technology-1135",
+   "category": "Technology",
+   "q": "Which science fiction writer created the Three Laws of Robotics?",
+   "choices": [
+    "H. G. Wells",
+    "Ray Bradbury",
+    "Isaac Asimov",
+    "Jules Verne"
+   ],
+   "answer": 2,
+   "fact": "The first law says a robot may not harm a human being."
+  },
+  {
+   "id": "technology-1136",
+   "category": "Technology",
+   "q": "The word \"robot\" first appeared in a 1920 play from which country?",
+   "choices": [
+    "Czechoslovakia",
+    "Japan",
+    "United States",
+    "Germany"
+   ],
+   "answer": 0,
+   "fact": "It comes from the Czech word \"robota\", which means forced work."
+  },
+  {
+   "id": "technology-1137",
+   "category": "Technology",
+   "q": "Which company makes the Siri voice assistant?",
+   "choices": [
+    "Google",
+    "Samsung",
+    "Amazon",
+    "Apple"
+   ],
+   "answer": 3,
+   "fact": "Siri was added to the iPhone in 2011."
+  },
+  {
+   "id": "technology-1138",
+   "category": "Technology",
+   "q": "Which company makes the Alexa voice assistant?",
+   "choices": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Microsoft"
+   ],
+   "answer": 0,
+   "fact": "Alexa was named partly after the ancient Library of Alexandria."
+  },
+  {
+   "id": "technology-1139",
+   "category": "Technology",
+   "q": "At least how many GPS satellites does a receiver need to work out its position in 3D?",
+   "choices": [
+    "1",
+    "10",
+    "4",
+    "2"
+   ],
+   "answer": 2,
+   "fact": "GPS receivers figure out where you are by timing signals from several satellites."
+  },
+  {
+   "id": "technology-1140",
+   "category": "Technology",
+   "q": "Which small, cheap computer, made in the UK, is popular for learning to code and building projects?",
+   "choices": [
+    "Banana Board",
+    "Raspberry Pi",
+    "Apple Mini",
+    "Blueberry Box"
+   ],
+   "answer": 1,
+   "fact": "The first Raspberry Pi came out in 2012 and cost about 35 dollars."
+  },
+  {
+   "id": "technology-1141",
+   "category": "Technology",
+   "q": "What is a breadboard used for in electronics?",
+   "choices": [
+    "Storing batteries",
+    "Building circuits without soldering",
+    "Cutting wires",
+    "Cooling chips"
+   ],
+   "answer": 1,
+   "fact": "Early hobbyists really did build circuits on wooden boards for cutting bread."
+  },
+  {
+   "id": "technology-1142",
+   "category": "Technology",
+   "q": "Which part is usually added with an LED to stop too much current from burning it out?",
+   "choices": [
+    "Speaker",
+    "Capacitor",
+    "Antenna",
+    "Resistor"
+   ],
+   "answer": 3,
+   "fact": "Without a resistor, an LED can quickly overheat and fail."
+  },
+  {
+   "id": "technology-1143",
+   "category": "Technology",
+   "q": "What unit is electrical resistance measured in?",
+   "choices": [
+    "Amps",
+    "Volts",
+    "Watts",
+    "Ohms"
+   ],
+   "answer": 3,
+   "fact": "The symbol for ohms is the Greek letter omega, Ω."
+  },
+  {
+   "id": "technology-1144",
+   "category": "Technology",
+   "q": "What kind of motor can be told to turn to an exact angle, like 90 degrees?",
+   "choices": [
+    "Jet engine",
+    "Steam engine",
+    "Servo motor",
+    "Fan motor"
+   ],
+   "answer": 2,
+   "fact": "Servo motors move robot arms, model plane flaps and camera mounts."
+  },
+  {
+   "id": "technology-1145",
+   "category": "Technology",
+   "q": "What is soldering?",
+   "choices": [
+    "Cutting wires",
+    "Gluing plastic",
+    "Painting circuit boards",
+    "Joining parts with melted metal"
+   ],
+   "answer": 3,
+   "fact": "A soldering iron gets hot enough to melt solder, often over 300 degrees Celsius."
+  },
+  {
+   "id": "technology-1146",
+   "category": "Technology",
+   "q": "In what year was Roblox released?",
+   "choices": [
+    "2012",
+    "2000",
+    "2006",
+    "2016"
+   ],
+   "answer": 2,
+   "fact": "Roblox was created by David Baszucki and Erik Cassel."
+  },
+  {
+   "id": "technology-1147",
+   "category": "Technology",
+   "q": "What is the name of Roblox's in-game currency?",
+   "choices": [
+    "Bloxbucks",
+    "Robcoins",
+    "Robux",
+    "Tix"
+   ],
+   "answer": 2,
+   "fact": "Roblox used a second currency called Tix until 2016."
+  },
+  {
+   "id": "technology-1148",
+   "category": "Technology",
+   "q": "Roblox scripts are written in Luau, which is based on which programming language?",
+   "choices": [
+    "C++",
+    "Lua",
+    "Python",
+    "Java"
+   ],
+   "answer": 1,
+   "fact": "Lua was created in Brazil, and its name means \"moon\" in Portuguese."
+  },
+  {
+   "id": "technology-1149",
+   "category": "Technology",
+   "q": "In Roblox Studio, where should you put a Script that runs only on the server, like game rules?",
+   "choices": [
+    "Lighting",
+    "ReplicatedFirst",
+    "StarterGui",
+    "ServerScriptService"
+   ],
+   "answer": 3,
+   "fact": "Scripts in ServerScriptService can't be seen or changed by players."
+  },
+  {
+   "id": "technology-1150",
+   "category": "Technology",
+   "q": "In Roblox, which property stops a part from falling or being pushed by physics?",
+   "choices": [
+    "CanCollide",
+    "Locked",
+    "Massless",
+    "Anchored"
+   ],
+   "answer": 3,
+   "fact": "Anchored parts stay exactly where you put them, even in midair."
+  },
+  {
+   "id": "technology-1151",
+   "category": "Technology",
+   "q": "In Roblox Lua, what does Instance.new(\"Part\") do?",
+   "choices": [
+    "Creates a new part",
+    "Deletes all parts",
+    "Saves the game",
+    "Copies the player"
+   ],
+   "answer": 0,
+   "fact": "After you make it, set its Parent to workspace so it shows up in the game."
+  },
+  {
+   "id": "technology-1152",
+   "category": "Technology",
+   "q": "In Roblox Studio, which function shows a message in the Output window?",
+   "choices": [
+    "say()",
+    "show()",
+    "print()",
+    "log()"
+   ],
+   "answer": 2,
+   "fact": "Printing messages is one of the easiest ways to find bugs in a script."
+  },
+  {
+   "id": "technology-1153",
+   "category": "Technology",
+   "q": "In Roblox, which object lets the server and a player's device send messages to each other?",
+   "choices": [
+    "RemoteEvent",
+    "BindableEvent",
+    "ClickDetector",
+    "ModuleScript"
+   ],
+   "answer": 0,
+   "fact": "Never trust data from a RemoteEvent blindly, since exploiters can send fake messages."
+  },
+  {
+   "id": "technology-1154",
+   "category": "Technology",
+   "q": "In Roblox, where does a LocalScript run?",
+   "choices": [
+    "On the player's own device",
+    "Only in Roblox Studio",
+    "In every player's game at once",
+    "On the Roblox server"
+   ],
+   "answer": 0,
+   "fact": "LocalScripts handle things like the player's camera, controls and screen menus."
+  },
+  {
+   "id": "technology-1155",
+   "category": "Technology",
+   "q": "In Lua, how do you start a one-line comment?",
+   "choices": [
+    "#",
+    "//",
+    "--",
+    "'"
+   ],
+   "answer": 2,
+   "fact": "A comment that spans many lines starts with --[[ and ends with ]]."
+  },
+  {
+   "id": "technology-1156",
+   "category": "Technology",
+   "q": "In Lua, what is the index of the first item in a table used as a list?",
+   "choices": [
+    "A",
+    "1",
+    "0",
+    "-1"
+   ],
+   "answer": 1,
+   "fact": "Many other languages start counting at 0, so this trips up a lot of new coders."
+  },
+  {
+   "id": "technology-1157",
+   "category": "Technology",
+   "q": "In Lua, which keyword closes blocks like functions, if statements and loops?",
+   "choices": [
+    "}",
+    "stop",
+    "close",
+    "end"
+   ],
+   "answer": 3,
+   "fact": "Forgetting an end is one of the most common errors in Roblox scripts."
+  },
+  {
+   "id": "technology-1158",
+   "category": "Technology",
+   "q": "In Roblox, which service holds the 3D world, like parts and models you can see?",
+   "choices": [
+    "Workspace",
+    "ServerStorage",
+    "SoundService",
+    "Players"
+   ],
+   "answer": 0,
+   "fact": "You can reach it from any script with the word workspace."
+  },
+  {
+   "id": "technology-1159",
+   "category": "Technology",
+   "q": "In Roblox, what is a Humanoid's MaxHealth by default?",
+   "choices": [
+    "100",
+    "50",
+    "1,000",
+    "10"
+   ],
+   "answer": 0,
+   "fact": "Setting a Humanoid's Health to 0 makes the character fall apart."
+  },
+  {
+   "id": "technology-1160",
+   "category": "Technology",
+   "q": "In Roblox, what is a character's default WalkSpeed?",
+   "choices": [
+    "10",
+    "25",
+    "50",
+    "16"
+   ],
+   "answer": 3,
+   "fact": "WalkSpeed is measured in studs per second."
+  },
+  {
+   "id": "technology-1161",
+   "category": "Technology",
+   "q": "What is the basic unit of length in Roblox Studio called?",
+   "choices": [
+    "Brick",
+    "Stud",
+    "Voxel",
+    "Block"
+   ],
+   "answer": 1,
+   "fact": "Studs are named after the bumps on top of old Roblox bricks."
+  },
+  {
+   "id": "technology-1162",
+   "category": "Technology",
+   "q": "Who created the original version of Minecraft?",
+   "choices": [
+    "Markus Persson",
+    "Shigeru Miyamoto",
+    "Satoshi Tajiri",
+    "Jens Bergensten"
+   ],
+   "answer": 0,
+   "fact": "Markus Persson is better known by his gamer name, Notch."
+  },
+  {
+   "id": "technology-1163",
+   "category": "Technology",
+   "q": "Which company bought Minecraft and its maker Mojang in 2014?",
+   "choices": [
+    "Nintendo",
+    "Microsoft",
+    "Sony",
+    "Google"
+   ],
+   "answer": 1,
+   "fact": "Microsoft paid 2.5 billion dollars for Mojang."
+  },
+  {
+   "id": "technology-1164",
+   "category": "Technology",
+   "q": "In what year did Minecraft officially leave beta and release version 1.0?",
+   "choices": [
+    "2011",
+    "2014",
+    "2008",
+    "2009"
+   ],
+   "answer": 0,
+   "fact": "Version 1.0 was launched at the first MineCon in Las Vegas."
+  },
+  {
+   "id": "technology-1165",
+   "category": "Technology",
+   "q": "Which block do you need to build a Nether portal frame in Minecraft?",
+   "choices": [
+    "Obsidian",
+    "Cobblestone",
+    "Netherrack",
+    "Bedrock"
+   ],
+   "answer": 0,
+   "fact": "You light the portal with flint and steel."
+  },
+  {
+   "id": "technology-1166",
+   "category": "Technology",
+   "q": "What is the smallest number of obsidian blocks needed for a Nether portal if you skip the corners?",
+   "choices": [
+    "14",
+    "10",
+    "12",
+    "8"
+   ],
+   "answer": 1,
+   "fact": "A full frame with corners uses 14 blocks, but the corners aren't needed."
+  },
+  {
+   "id": "technology-1167",
+   "category": "Technology",
+   "q": "Which boss do players fight in the End dimension in Minecraft?",
+   "choices": [
+    "Ender Dragon",
+    "Wither",
+    "Warden",
+    "Elder Guardian"
+   ],
+   "answer": 0,
+   "fact": "Defeating the Ender Dragon rolls the end credits, with the End Poem."
+  },
+  {
+   "id": "technology-1168",
+   "category": "Technology",
+   "q": "Which item helps you find a stronghold and fill the End portal in Minecraft?",
+   "choices": [
+    "Ender pearl",
+    "Map",
+    "Compass",
+    "Eye of Ender"
+   ],
+   "answer": 3,
+   "fact": "You make an Eye of Ender from an ender pearl and blaze powder."
+  },
+  {
+   "id": "technology-1169",
+   "category": "Technology",
+   "q": "Which green Minecraft mob hisses and then explodes?",
+   "choices": [
+    "Creeper",
+    "Drowned",
+    "Zombie",
+    "Slime"
+   ],
+   "answer": 0,
+   "fact": "The creeper was created by accident when the game's maker mixed up the size numbers for a pig."
+  },
+  {
+   "id": "technology-1170",
+   "category": "Technology",
+   "q": "What do you give a wolf in Minecraft to tame it?",
+   "choices": [
+    "Wheat",
+    "Bones",
+    "Raw beef",
+    "Fish"
+   ],
+   "answer": 1,
+   "fact": "A tamed wolf gets a red collar, and you can dye it other colors."
+  },
+  {
+   "id": "technology-1171",
+   "category": "Technology",
+   "q": "What is the weakest pickaxe that can mine diamond ore in Minecraft?",
+   "choices": [
+    "Iron pickaxe",
+    "Stone pickaxe",
+    "Golden pickaxe",
+    "Wooden pickaxe"
+   ],
+   "answer": 0,
+   "fact": "Mining diamond ore with a weaker pickaxe breaks the block but drops nothing."
+  },
+  {
+   "id": "technology-1172",
+   "category": "Technology",
+   "q": "Which pickaxes can mine obsidian in Minecraft?",
+   "choices": [
+    "Any pickaxe",
+    "Iron or gold",
+    "Diamond or netherite",
+    "Stone or iron"
+   ],
+   "answer": 2,
+   "fact": "Mining obsidian takes about 9 seconds with a diamond pickaxe."
+  },
+  {
+   "id": "technology-1173",
+   "category": "Technology",
+   "q": "Which rare Nether block do you smelt to get netherite scraps in Minecraft?",
+   "choices": [
+    "Quartz ore",
+    "Magma block",
+    "Glowstone",
+    "Ancient debris"
+   ],
+   "answer": 3,
+   "fact": "Ancient debris doesn't burn in lava, and neither do netherite items."
+  },
+  {
+   "id": "technology-1174",
+   "category": "Technology",
+   "q": "Which Minecraft mob drops ender pearls?",
+   "choices": [
+    "Creeper",
+    "Spider",
+    "Enderman",
+    "Blaze"
+   ],
+   "answer": 2,
+   "fact": "You can throw an ender pearl to teleport where it lands."
+  },
+  {
+   "id": "technology-1175",
+   "category": "Technology",
+   "q": "What makes an Enderman angry in Minecraft?",
+   "choices": [
+    "Placing torches",
+    "Looking at its face",
+    "Wearing gold",
+    "Jumping near it"
+   ],
+   "answer": 1,
+   "fact": "Wearing a carved pumpkin on your head lets you look at Endermen safely."
+  },
+  {
+   "id": "technology-1176",
+   "category": "Technology",
+   "q": "How big is the crafting grid on a Minecraft crafting table?",
+   "choices": [
+    "5 by 5",
+    "4 by 4",
+    "2 by 2",
+    "3 by 3"
+   ],
+   "answer": 3,
+   "fact": "The crafting grid in your inventory is only 2 by 2."
+  },
+  {
+   "id": "technology-1177",
+   "category": "Technology",
+   "q": "What do you smelt in a Minecraft furnace to make glass?",
+   "choices": [
+    "Quartz",
+    "Sand",
+    "Clay",
+    "Gravel"
+   ],
+   "answer": 1,
+   "fact": "Red sand works too."
+  },
+  {
+   "id": "technology-1178",
+   "category": "Technology",
+   "q": "What does redstone dust do in Minecraft?",
+   "choices": [
+    "Makes armor",
+    "Heals players",
+    "Grows plants",
+    "Carries power like wires"
+   ],
+   "answer": 3,
+   "fact": "Players have used redstone to build working calculators and even simple computers inside Minecraft."
+  },
+  {
+   "id": "technology-1179",
+   "category": "Technology",
+   "q": "What do Minecraft villagers use as money when trading?",
+   "choices": [
+    "Iron nuggets",
+    "Gold ingots",
+    "Diamonds",
+    "Emeralds"
+   ],
+   "answer": 3,
+   "fact": "Curing a zombie villager gets you big trading discounts."
+  },
+  {
+   "id": "technology-1180",
+   "category": "Technology",
+   "q": "Which Minecraft mob catches fire in sunlight?",
+   "choices": [
+    "Creeper",
+    "Zombie",
+    "Enderman",
+    "Spider"
+   ],
+   "answer": 1,
+   "fact": "Zombies wearing helmets don't burn in daylight."
+  },
+  {
+   "id": "technology-1181",
+   "category": "Technology",
+   "q": "Which Minecraft game mode gives you unlimited blocks and lets you fly?",
+   "choices": [
+    "Hardcore",
+    "Adventure",
+    "Creative",
+    "Survival"
+   ],
+   "answer": 2,
+   "fact": "In Hardcore mode, you only get one life."
+  },
+  {
+   "id": "technology-1182",
+   "category": "Technology",
+   "q": "Which version of Minecraft runs on consoles, phones and Windows and is written in C++?",
+   "choices": [
+    "Legacy Edition",
+    "Java Edition",
+    "Bedrock Edition",
+    "Pocket Edition"
+   ],
+   "answer": 2,
+   "fact": "Bedrock Edition lets players on different devices play together."
+  },
+  {
+   "id": "technology-1183",
+   "category": "Technology",
+   "q": "In which programming language is Minecraft Java Edition written?",
+   "choices": [
+    "Python",
+    "Lua",
+    "C++",
+    "Java"
+   ],
+   "answer": 3,
+   "fact": "Java Edition is the version most mods are made for."
+  },
+  {
+   "id": "technology-1184",
+   "category": "Technology",
+   "q": "In which Minecraft dimension do Piglins live?",
+   "choices": [
+    "The Nether",
+    "The Overworld",
+    "The End",
+    "The Deep Dark"
+   ],
+   "answer": 0,
+   "fact": "Piglins love gold, and they will attack you unless you wear at least one piece of gold armor."
+  },
+  {
+   "id": "technology-1185",
+   "category": "Technology",
+   "q": "What do you need to summon the Wither in Minecraft?",
+   "choices": [
+    "Netherrack and three blaze rods",
+    "Iron blocks and a pumpkin",
+    "Obsidian and a dragon egg",
+    "Soul sand and three wither skeleton skulls"
+   ],
+   "answer": 3,
+   "fact": "Building iron blocks with a pumpkin on top makes an iron golem instead."
+  },
+  {
+   "id": "technology-1186",
+   "category": "Technology",
+   "q": "What is the name of the classic default player character in Minecraft?",
+   "choices": [
+    "Notch",
+    "Herobrine",
+    "Alex",
+    "Steve"
+   ],
+   "answer": 3,
+   "fact": "Alex was added as a second default character in 2014."
+  },
+  {
+   "id": "technology-1187",
+   "category": "Technology",
+   "q": "Which tree with pink leaves was added to Minecraft in 2023?",
+   "choices": [
+    "Birch",
+    "Acacia",
+    "Mangrove",
+    "Cherry"
+   ],
+   "answer": 3,
+   "fact": "Cherry trees grow in the cherry grove biome, and their leaves drop little pink petals."
+  },
+  {
+   "id": "technology-1188",
+   "category": "Technology",
+   "q": "In which Minecraft biome does the Warden live?",
+   "choices": [
+    "Badlands",
+    "Nether Wastes",
+    "Mushroom Fields",
+    "Deep Dark"
+   ],
+   "answer": 3,
+   "fact": "The Warden is blind, so it finds players by sound and smell."
+  },
+  {
+   "id": "technology-1189",
+   "category": "Technology",
+   "q": "How long is one full day and night cycle in Minecraft?",
+   "choices": [
+    "20 minutes",
+    "24 minutes",
+    "1 hour",
+    "10 minutes"
+   ],
+   "answer": 0,
+   "fact": "Daytime lasts about 10 minutes of that cycle."
+  },
+  {
+   "id": "technology-1190",
+   "category": "Technology",
+   "q": "Which actor played Steve in the 2025 film A Minecraft Movie?",
+   "choices": [
+    "Jason Momoa",
+    "Chris Pratt",
+    "Ryan Reynolds",
+    "Jack Black"
+   ],
+   "answer": 3,
+   "fact": "Jack Black also voiced Bowser in The Super Mario Bros. Movie."
+  },
+  {
+   "id": "technology-1191",
+   "category": "Technology",
+   "q": "As of 2025, which is the best-selling video game of all time?",
+   "choices": [
+    "Minecraft",
+    "Wii Sports",
+    "Grand Theft Auto V",
+    "Tetris"
+   ],
+   "answer": 0,
+   "fact": "As of 2025, Minecraft has sold more than 300 million copies."
+  },
+  {
+   "id": "technology-1192",
+   "category": "Technology",
+   "q": "Which plumber is Nintendo's most famous mascot?",
+   "choices": [
+    "Mario",
+    "Luigi",
+    "Wario",
+    "Link"
+   ],
+   "answer": 0,
+   "fact": "Mario has appeared in more than 200 games."
+  },
+  {
+   "id": "technology-1193",
+   "category": "Technology",
+   "q": "What was Mario called in the 1981 arcade game Donkey Kong?",
+   "choices": [
+    "Jumpman",
+    "Plumber Man",
+    "Red Hat",
+    "Mr. Video"
+   ],
+   "answer": 0,
+   "fact": "He was later named after the landlord of Nintendo's American warehouse."
+  },
+  {
+   "id": "technology-1194",
+   "category": "Technology",
+   "q": "Who is Mario's tall younger brother in green?",
+   "choices": [
+    "Toad",
+    "Yoshi",
+    "Luigi",
+    "Wario"
+   ],
+   "answer": 2,
+   "fact": "Luigi got his own game, Luigi's Mansion, in 2001."
+  }
+ ]
+}

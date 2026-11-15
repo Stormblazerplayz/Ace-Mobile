@@ -1,0 +1,1838 @@
+{
+ "recipes": [
+  {
+   "id": "chicken-parmesan",
+   "name": "Chicken parmesan",
+   "aliases": [
+    "chicken parmesan",
+    "chicken parm",
+    "chicken parmigiana",
+    "chicken parmigiana with spaghetti",
+    "parm chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "chicken",
+    "breadcrumb",
+    "marinara",
+    "mozzarella",
+    "parmesan"
+   ],
+   "ingredients": [
+    "2 large boneless skinless chicken breasts, sliced in half sideways into 4 thin cutlets",
+    "1/2 teaspoon salt",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 large eggs, beaten",
+    "1 cup (60 g) panko breadcrumbs",
+    "1/2 cup (50 g) grated parmesan",
+    "1 teaspoon Italian seasoning",
+    "1/4 cup (60 ml) olive oil",
+    "1 1/2 cups (360 ml) marinara sauce",
+    "1 1/2 cups (170 g) shredded mozzarella",
+    "Cooked spaghetti to serve"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help slice the chicken into thin cutlets.",
+    "Season the chicken with salt.",
+    "Set up 3 dishes: flour, eggs, and panko mixed with parmesan and seasoning.",
+    "Coat each cutlet in flour, then egg, then the crumbs. Wash your hands.",
+    "Heat the oil in a big oven-safe pan over medium-high heat and fry the cutlets for 3 minutes per side, until golden.",
+    "Spoon marinara over each cutlet and top with mozzarella.",
+    "Bake for 10 to 12 minutes, until the cheese bubbles and the chicken is 165°F (74°C).",
+    "Serve over spaghetti with more sauce."
+   ]
+  },
+  {
+   "id": "fettuccine-alfredo",
+   "name": "Chicken fettuccine Alfredo",
+   "aliases": [
+    "fettuccine alfredo",
+    "chicken alfredo",
+    "alfredo pasta",
+    "alfredo sauce pasta",
+    "chicken fettuccine"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "pasta",
+    "cream",
+    "parmesan",
+    "butter",
+    "chicken"
+   ],
+   "ingredients": [
+    "12 oz (340 g) fettuccine",
+    "1 lb (450 g) boneless skinless chicken breasts (optional)",
+    "1 teaspoon salt, divided",
+    "1 tablespoon olive oil",
+    "4 tablespoons (60 g) butter",
+    "2 garlic cloves, grated",
+    "1 1/2 cups (360 ml) heavy cream",
+    "1 1/2 cups (150 g) finely grated parmesan",
+    "1/4 teaspoon pepper",
+    "Chopped parsley"
+   ],
+   "steps": [
+    "Season the chicken with 1/2 teaspoon salt and cook in the oil over medium heat for 6 to 7 minutes per side, until 165°F (74°C). Rest and slice. Ask an adult to help.",
+    "Boil the fettuccine in salted water as the package says. Save 1/2 cup of pasta water and drain.",
+    "Melt the butter in a big pan over medium heat and add the garlic for 30 seconds.",
+    "Add the cream and simmer for 3 to 4 minutes, until slightly thick.",
+    "Turn the heat to low and stir in the parmesan until smooth.",
+    "Toss in the pasta, the rest of the salt and pepper, adding pasta water if it's too thick.",
+    "Top with the chicken and parsley."
+   ]
+  },
+  {
+   "id": "baked-ziti",
+   "name": "Baked ziti",
+   "aliases": [
+    "baked ziti",
+    "ziti",
+    "baked pasta",
+    "ziti bake",
+    "baked penne"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "1 hr",
+   "main": [
+    "pasta",
+    "beef",
+    "ricotta",
+    "mozzarella",
+    "marinara"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ziti or penne",
+    "1 lb (450 g) ground beef or Italian sausage",
+    "1 jar (24 oz / 680 g) marinara sauce",
+    "1 can (15 oz / 425 g) tomato sauce",
+    "1 1/2 cups (375 g) ricotta",
+    "1 large egg",
+    "1/2 cup (50 g) grated parmesan, divided",
+    "1 teaspoon Italian seasoning",
+    "3 cups (340 g) shredded mozzarella, divided"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Boil the pasta for 2 minutes less than the package says. Drain.",
+    "Cook the meat in a big pan over medium heat for 8 minutes, breaking it up, until browned. Drain the fat and stir in the marinara and tomato sauce.",
+    "Mix the ricotta, egg, half the parmesan and the seasoning.",
+    "Toss the pasta with the meat sauce.",
+    "Spread half in a 9 by 13 inch dish, dot with the ricotta mix and sprinkle with half the mozzarella.",
+    "Add the rest of the pasta and top with the rest of the mozzarella and parmesan.",
+    "Cover with foil and bake for 20 minutes, then uncover and bake for 15 minutes more, until bubbly."
+   ]
+  },
+  {
+   "id": "classic-lasagna",
+   "name": "Classic beef lasagna",
+   "aliases": [
+    "lasagna",
+    "lasagne",
+    "beef lasagna",
+    "meat lasagna",
+    "classic lasagna"
+   ],
+   "category": "Dinner",
+   "servings": 10,
+   "time": "2 hr",
+   "main": [
+    "lasagna noodle",
+    "beef",
+    "ricotta",
+    "mozzarella",
+    "tomato"
+   ],
+   "ingredients": [
+    "12 lasagna noodles",
+    "1 lb (450 g) ground beef",
+    "8 oz (225 g) Italian sausage",
+    "1 onion, chopped",
+    "3 garlic cloves, chopped",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1 can (6 oz / 170 g) tomato paste",
+    "1/2 cup (120 ml) water",
+    "2 teaspoons Italian seasoning",
+    "1 1/2 teaspoons salt, divided",
+    "2 cups (500 g) ricotta",
+    "1 large egg",
+    "3/4 cup (75 g) grated parmesan, divided",
+    "4 cups (450 g) shredded mozzarella"
+   ],
+   "steps": [
+    "Chop the onion and garlic. Ask an adult to help.",
+    "Cook the beef, sausage and onion in a big pot over medium heat for 10 minutes, until browned. Drain the fat.",
+    "Add the garlic, tomatoes, tomato paste, water, seasoning and 1 teaspoon salt and simmer for 30 minutes.",
+    "Boil the noodles as the package says, drain and lay them flat on oiled foil.",
+    "Heat the oven to 375°F (190°C).",
+    "Mix the ricotta, egg, half the parmesan and the rest of the salt.",
+    "In a 9 by 13 inch dish, layer: 1 cup sauce, 4 noodles, a third of the ricotta, a quarter of the mozzarella, sauce. Repeat twice, then finish with sauce, mozzarella and parmesan.",
+    "Cover with foil (sprayed so it won't stick) and bake for 25 minutes, then uncover and bake for 25 minutes more, until bubbly.",
+    "Rest for 15 minutes before cutting."
+   ]
+  },
+  {
+   "id": "spaghetti-carbonara",
+   "name": "Spaghetti carbonara",
+   "aliases": [
+    "carbonara",
+    "spaghetti carbonara",
+    "pasta carbonara",
+    "bacon egg pasta",
+    "carbonara pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "pasta",
+    "egg",
+    "bacon",
+    "parmesan"
+   ],
+   "ingredients": [
+    "12 oz (340 g) spaghetti",
+    "6 oz (170 g) guanciale, pancetta or thick bacon, diced",
+    "3 large eggs plus 1 egg yolk",
+    "1 cup (100 g) finely grated pecorino or parmesan, plus more to serve",
+    "1 teaspoon coarse black pepper"
+   ],
+   "steps": [
+    "Dice the bacon. Ask an adult to help.",
+    "Whisk the eggs, yolk, cheese and pepper in a bowl.",
+    "Boil the spaghetti in salted water as the package says. Save 1 cup of pasta water.",
+    "Cook the bacon in a big pan over medium heat for 6 to 8 minutes, until crisp. Turn off the heat.",
+    "Add the drained hot pasta to the bacon pan and toss.",
+    "Wait 1 minute, then pour in the egg mix and 1/4 cup of pasta water and toss fast with tongs.",
+    "Keep tossing, adding splashes of pasta water, until creamy and glossy. The heat of the pasta cooks the eggs into a sauce. If it looks runny, warm over very low heat for 30 seconds while tossing.",
+    "Serve right away with more cheese and pepper."
+   ]
+  },
+  {
+   "id": "cacio-e-pepe",
+   "name": "Cacio e pepe",
+   "aliases": [
+    "cacio e pepe",
+    "cheese and pepper pasta",
+    "pecorino pepper pasta",
+    "roman cheese pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "pasta",
+    "pecorino",
+    "black pepper"
+   ],
+   "ingredients": [
+    "12 oz (340 g) spaghetti or tonnarelli",
+    "2 teaspoons coarsely ground black pepper",
+    "1 1/2 cups (150 g) very finely grated Pecorino Romano",
+    "1 tablespoon (15 g) butter (optional)"
+   ],
+   "steps": [
+    "Boil the pasta in a smaller amount of salted water than usual so the water gets starchy. Cook for 1 minute less than the package says.",
+    "Toast the pepper in a big dry pan over medium heat for 1 minute.",
+    "Add 1/2 cup of pasta water and the butter to the pepper.",
+    "Scoop 1/2 cup more pasta water into a bowl and let it cool for 1 minute, then whisk in the cheese to a smooth paste.",
+    "Move the pasta into the pepper pan with tongs and toss for 1 minute. Ask an adult to help.",
+    "Take the pan off the heat, add the cheese paste and toss fast, adding pasta water until creamy.",
+    "Serve right away."
+   ]
+  },
+  {
+   "id": "aglio-e-olio",
+   "name": "Spaghetti aglio e olio",
+   "aliases": [
+    "aglio e olio",
+    "spaghetti aglio e olio",
+    "garlic oil pasta",
+    "garlic spaghetti",
+    "pasta with garlic and oil"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "pasta",
+    "garlic",
+    "olive oil",
+    "chili flakes"
+   ],
+   "ingredients": [
+    "12 oz (340 g) spaghetti",
+    "1/2 cup (120 ml) olive oil",
+    "6 garlic cloves, thinly sliced",
+    "1/2 teaspoon chili flakes",
+    "1/4 cup chopped parsley",
+    "1/2 teaspoon salt",
+    "Grated parmesan (optional)"
+   ],
+   "steps": [
+    "Slice the garlic thinly. Ask an adult to help.",
+    "Boil the spaghetti in salted water as the package says. Save 1 cup of pasta water.",
+    "Put the oil and garlic in a big cold pan and heat over medium-low heat for 4 to 5 minutes, until the garlic is light golden. Don't let it go brown or it turns bitter.",
+    "Add the chili flakes for 10 seconds, then 1/2 cup pasta water.",
+    "Add the drained pasta, parsley and salt and toss for 1 minute, adding more water until glossy.",
+    "Serve with parmesan."
+   ]
+  },
+  {
+   "id": "pasta-primavera",
+   "name": "Pasta primavera",
+   "aliases": [
+    "pasta primavera",
+    "primavera",
+    "vegetable pasta",
+    "veggie pasta",
+    "spring vegetable pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "pasta",
+    "zucchini",
+    "pepper",
+    "broccoli",
+    "parmesan"
+   ],
+   "ingredients": [
+    "12 oz (340 g) penne or farfalle",
+    "3 tablespoons olive oil",
+    "1 cup (75 g) small broccoli florets",
+    "1 zucchini, sliced",
+    "1 red bell pepper, sliced",
+    "1 cup (150 g) cherry tomatoes, halved",
+    "1/2 cup (70 g) frozen peas",
+    "3 garlic cloves, chopped",
+    "2 tablespoons (30 g) butter",
+    "1/2 cup (50 g) grated parmesan",
+    "1 lemon, zested and juiced",
+    "1 teaspoon salt"
+   ],
+   "steps": [
+    "Cut all the vegetables. Ask an adult to help.",
+    "Boil the pasta in salted water as the package says. Add the broccoli for the last 2 minutes. Save 1 cup of pasta water and drain.",
+    "Heat the oil in a big pan over medium-high heat and cook the zucchini and pepper for 5 minutes.",
+    "Add the tomatoes, peas and garlic for 2 minutes.",
+    "Add the pasta, broccoli, butter, parmesan, lemon zest and juice, salt and 1/2 cup pasta water.",
+    "Toss until glossy and serve with more parmesan."
+   ]
+  },
+  {
+   "id": "penne-alla-vodka",
+   "name": "Creamy penne alla vodka",
+   "aliases": [
+    "penne alla vodka",
+    "vodka pasta",
+    "vodka sauce",
+    "pasta alla vodka",
+    "pink sauce pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "pasta",
+    "tomato",
+    "cream",
+    "parmesan"
+   ],
+   "ingredients": [
+    "12 oz (340 g) penne",
+    "2 tablespoons (30 g) butter",
+    "1 small onion or shallot, finely chopped",
+    "2 garlic cloves, chopped",
+    "1/3 cup (85 g) tomato paste",
+    "1/4 cup (60 ml) vodka, or use pasta water instead",
+    "3/4 cup (180 ml) heavy cream",
+    "1/2 teaspoon salt",
+    "1 pinch chili flakes",
+    "1/2 cup (50 g) grated parmesan",
+    "Fresh basil"
+   ],
+   "steps": [
+    "Chop the onion and garlic. Ask an adult to help.",
+    "Boil the penne in salted water as the package says. Save 1 cup of pasta water.",
+    "Melt the butter in a big pan over medium heat and cook the onion for 4 minutes. Add the garlic for 1 minute.",
+    "Add the tomato paste and cook for 3 to 4 minutes, stirring, until it turns darker red.",
+    "Add the vodka (an adult should do this, away from the flame) and simmer for 1 minute.",
+    "Stir in the cream, salt and chili flakes.",
+    "Add the pasta, parmesan and splashes of pasta water and toss until silky. Top with basil."
+   ]
+  },
+  {
+   "id": "mushroom-risotto",
+   "name": "Mushroom risotto",
+   "aliases": [
+    "risotto",
+    "mushroom risotto",
+    "creamy risotto",
+    "risotto ai funghi",
+    "parmesan risotto"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "arborio rice",
+    "mushroom",
+    "parmesan",
+    "broth"
+   ],
+   "ingredients": [
+    "6 cups (1.4 liters) chicken or vegetable broth",
+    "3 tablespoons (45 g) butter, divided",
+    "1 tablespoon olive oil",
+    "12 oz (340 g) mushrooms, sliced",
+    "1 small onion, finely chopped",
+    "2 garlic cloves, chopped",
+    "1 1/2 cups (300 g) arborio rice",
+    "1/2 cup (120 ml) white wine or more broth",
+    "3/4 cup (75 g) grated parmesan",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Keep the broth warm in a pot over low heat.",
+    "Slice the mushrooms and chop the onion and garlic. Ask an adult to help.",
+    "Cook the mushrooms in 1 tablespoon butter and the oil in a big pan over medium-high heat for 6 to 8 minutes, until browned. Lift out.",
+    "Melt 1 tablespoon butter and cook the onion for 4 minutes. Add the garlic for 1 minute.",
+    "Add the rice and stir for 2 minutes. Add the wine and stir until absorbed.",
+    "Add 1 ladle of warm broth and stir until it's mostly absorbed. Keep adding broth one ladle at a time, stirring often, for 18 to 22 minutes, until the rice is creamy but still a little firm.",
+    "Stir in the mushrooms, the rest of the butter, parmesan and salt."
+   ]
+  },
+  {
+   "id": "eggplant-parmesan",
+   "name": "Baked eggplant parmesan",
+   "aliases": [
+    "eggplant parmesan",
+    "eggplant parm",
+    "aubergine parmigiana",
+    "melanzane alla parmigiana",
+    "eggplant parmigiana"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "eggplant",
+    "breadcrumb",
+    "marinara",
+    "mozzarella",
+    "parmesan"
+   ],
+   "ingredients": [
+    "2 medium eggplants, sliced into 1/2 inch rounds",
+    "1 teaspoon salt",
+    "2 large eggs, beaten",
+    "1 1/2 cups (90 g) panko breadcrumbs",
+    "3/4 cup (75 g) grated parmesan, divided",
+    "1 teaspoon Italian seasoning",
+    "Olive oil spray",
+    "3 cups (720 ml) marinara sauce",
+    "2 cups (225 g) shredded mozzarella",
+    "Fresh basil"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help slice the eggplant.",
+    "Sprinkle the slices with salt, wait 15 minutes, then pat dry.",
+    "Mix the panko, half the parmesan and the seasoning.",
+    "Dip each slice in egg, then the crumbs, and lay on 2 oiled baking sheets. Spray the tops.",
+    "Bake for 20 minutes, flipping halfway, until golden.",
+    "Turn the oven to 375°F (190°C). Layer sauce, eggplant, mozzarella and parmesan in a 9 by 13 inch dish, twice over, ending with sauce and cheese.",
+    "Bake for 25 to 30 minutes, until bubbly. Rest for 10 minutes and top with basil."
+   ]
+  },
+  {
+   "id": "stuffed-shells",
+   "name": "Spinach and ricotta stuffed shells",
+   "aliases": [
+    "stuffed shells",
+    "stuffed pasta shells",
+    "ricotta stuffed shells",
+    "spinach stuffed shells",
+    "jumbo shells"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "pasta",
+    "ricotta",
+    "spinach",
+    "mozzarella",
+    "marinara"
+   ],
+   "ingredients": [
+    "24 jumbo pasta shells",
+    "2 cups (500 g) ricotta",
+    "1 package (10 oz / 285 g) frozen chopped spinach, thawed and squeezed dry",
+    "1 1/2 cups (170 g) shredded mozzarella, divided",
+    "1/2 cup (50 g) grated parmesan, divided",
+    "1 large egg",
+    "1 garlic clove, grated",
+    "1/2 teaspoon salt",
+    "3 cups (720 ml) marinara sauce"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Boil the shells for 2 minutes less than the package says. Drain and lay them apart on a tray so they don't stick.",
+    "Mix the ricotta, spinach, 1 cup mozzarella, half the parmesan, egg, garlic and salt.",
+    "Spread 1 cup of marinara in a 9 by 13 inch dish.",
+    "Fill each shell with a heaping spoonful of the filling and set it in the dish.",
+    "Pour the rest of the sauce over and top with the rest of the cheeses.",
+    "Cover with foil and bake for 25 minutes, then uncover and bake for 10 minutes more, until bubbly."
+   ]
+  },
+  {
+   "id": "potato-gnocchi",
+   "name": "Homemade potato gnocchi",
+   "aliases": [
+    "gnocchi",
+    "potato gnocchi",
+    "homemade gnocchi",
+    "gnocchi with butter and sage",
+    "gnocchi pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr 15 min",
+   "main": [
+    "potato",
+    "flour",
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "2 lb (900 g) russet potatoes",
+    "1 large egg yolk",
+    "1 teaspoon salt",
+    "1 1/4 cups (160 g) all-purpose flour, plus more for dusting",
+    "4 tablespoons (60 g) butter",
+    "8 fresh sage leaves (optional)",
+    "Grated parmesan"
+   ],
+   "steps": [
+    "Bake the whole potatoes at 400°F (200°C) for 50 to 60 minutes, until soft. Ask an adult to help.",
+    "While still hot, cut in half, scoop out the insides and mash or rice until smooth with no lumps. Let cool for 10 minutes.",
+    "Mix in the egg yolk and salt, then the flour, and knead gently for 1 minute into a soft dough. Don't overwork it.",
+    "Roll pieces into ropes 3/4 inch thick and cut into 1 inch pieces.",
+    "Boil the gnocchi in salted water in batches. When they float, cook for 1 minute more, then lift out with a slotted spoon.",
+    "Melt the butter in a pan over medium heat with the sage for 2 to 3 minutes, until nutty and golden.",
+    "Toss the gnocchi in the butter for 1 minute and top with parmesan."
+   ]
+  },
+  {
+   "id": "sausage-and-peppers",
+   "name": "Italian sausage and peppers",
+   "aliases": [
+    "sausage and peppers",
+    "italian sausage and peppers",
+    "sausage peppers and onions",
+    "sausage and pepper subs"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "sausage",
+    "pepper",
+    "onion",
+    "tomato"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) Italian sausage links",
+    "2 tablespoons olive oil",
+    "3 bell peppers, sliced",
+    "1 large onion, sliced",
+    "3 garlic cloves, sliced",
+    "1 teaspoon dried oregano",
+    "1/2 teaspoon salt",
+    "1 can (14.5 oz / 410 g) crushed tomatoes (optional)",
+    "Hoagie rolls or cooked pasta to serve"
+   ],
+   "steps": [
+    "Slice the peppers, onion and garlic. Ask an adult to help.",
+    "Brown the sausages in the oil in a big pan over medium heat for 8 to 10 minutes, turning. Lift them out.",
+    "Cook the peppers and onion in the pan for 8 minutes, until soft.",
+    "Add the garlic, oregano and salt for 1 minute.",
+    "Add the tomatoes if using, and put the sausages back.",
+    "Cover and simmer for 10 to 12 minutes, until the sausages are 160°F (71°C) inside.",
+    "Serve in rolls or over pasta."
+   ]
+  },
+  {
+   "id": "chicken-piccata",
+   "name": "Chicken piccata",
+   "aliases": [
+    "chicken piccata",
+    "lemon caper chicken",
+    "piccata",
+    "chicken picatta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "chicken",
+    "lemon",
+    "caper",
+    "butter"
+   ],
+   "ingredients": [
+    "2 large boneless skinless chicken breasts, sliced in half sideways",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1/3 cup (40 g) all-purpose flour",
+    "2 tablespoons olive oil",
+    "4 tablespoons (60 g) butter, divided",
+    "2 garlic cloves, chopped",
+    "3/4 cup (180 ml) chicken broth",
+    "1/4 cup (60 ml) lemon juice",
+    "2 tablespoons capers, drained",
+    "2 tablespoons chopped parsley"
+   ],
+   "steps": [
+    "Slice the chicken into thin cutlets. Ask an adult to help.",
+    "Season with salt and pepper and dust with flour. Wash your hands.",
+    "Heat the oil and 1 tablespoon butter in a big pan over medium-high heat.",
+    "Cook the chicken for 3 to 4 minutes per side, until golden and 165°F (74°C). Move to a plate.",
+    "Turn the heat to medium, add the garlic for 30 seconds, then the broth, lemon juice and capers.",
+    "Simmer for 3 to 4 minutes, scraping the pan, until reduced by half.",
+    "Turn off the heat and swirl in the rest of the butter.",
+    "Put the chicken back, spoon the sauce over, and top with parsley."
+   ]
+  },
+  {
+   "id": "chicken-marsala",
+   "name": "Chicken marsala",
+   "aliases": [
+    "chicken marsala",
+    "marsala chicken",
+    "chicken and mushroom marsala",
+    "chicken masala mushroom"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "chicken",
+    "mushroom",
+    "marsala",
+    "butter"
+   ],
+   "ingredients": [
+    "2 large boneless skinless chicken breasts, sliced in half sideways",
+    "1/2 teaspoon salt",
+    "1/3 cup (40 g) all-purpose flour",
+    "2 tablespoons olive oil",
+    "3 tablespoons (45 g) butter, divided",
+    "8 oz (225 g) mushrooms, sliced",
+    "2 garlic cloves, chopped",
+    "3/4 cup (180 ml) dry Marsala wine, or chicken broth plus 1 tablespoon balsamic vinegar",
+    "1/2 cup (120 ml) chicken broth",
+    "1/3 cup (80 ml) heavy cream (optional)",
+    "Chopped parsley"
+   ],
+   "steps": [
+    "Slice the chicken into thin cutlets and the mushrooms. Ask an adult to help.",
+    "Season the chicken with salt, dust with flour, and wash your hands.",
+    "Heat the oil and 1 tablespoon butter in a big pan over medium-high heat and cook the chicken for 3 to 4 minutes per side, until 165°F (74°C). Move to a plate.",
+    "Add 1 tablespoon butter and the mushrooms and cook for 6 minutes, until browned. Add the garlic for 30 seconds.",
+    "Pour in the Marsala (an adult should do this) and simmer for 2 minutes.",
+    "Add the broth and simmer for 4 minutes, until reduced. Stir in the cream and the rest of the butter.",
+    "Put the chicken back to warm for 1 minute and top with parsley."
+   ]
+  },
+  {
+   "id": "chicken-cacciatore",
+   "name": "Chicken cacciatore",
+   "aliases": [
+    "chicken cacciatore",
+    "cacciatore",
+    "hunters chicken",
+    "italian chicken stew"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "tomato",
+    "pepper",
+    "mushroom",
+    "onion"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken thighs",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "2 tablespoons olive oil",
+    "1 onion, sliced",
+    "1 red bell pepper, sliced",
+    "8 oz (225 g) mushrooms, sliced",
+    "3 garlic cloves, chopped",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1/2 cup (120 ml) chicken broth",
+    "1 teaspoon dried oregano",
+    "1 sprig fresh rosemary",
+    "1/4 cup (35 g) black olives (optional)"
+   ],
+   "steps": [
+    "Season the chicken with salt and pepper. Wash your hands.",
+    "Slice the vegetables. Ask an adult to help.",
+    "Heat the oil in a big pot over medium-high heat and brown the chicken skin side down for 5 minutes per side. Lift it out.",
+    "Cook the onion, pepper and mushrooms for 6 minutes. Add the garlic for 1 minute.",
+    "Add the tomatoes, broth, oregano and rosemary and put the chicken back.",
+    "Cover and simmer for 30 to 35 minutes, until the chicken is 165°F (74°C).",
+    "Add the olives and serve with pasta, polenta or bread."
+   ]
+  },
+  {
+   "id": "pasta-puttanesca",
+   "name": "Pasta puttanesca",
+   "aliases": [
+    "puttanesca",
+    "pasta puttanesca",
+    "spaghetti puttanesca",
+    "olive caper pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "pasta",
+    "tomato",
+    "olive",
+    "caper",
+    "garlic"
+   ],
+   "ingredients": [
+    "12 oz (340 g) spaghetti",
+    "3 tablespoons olive oil",
+    "4 garlic cloves, sliced",
+    "4 anchovy fillets (optional)",
+    "1/2 teaspoon chili flakes",
+    "1 can (28 oz / 800 g) whole peeled tomatoes, crushed by hand",
+    "1/2 cup (70 g) pitted black olives, halved",
+    "2 tablespoons capers",
+    "1/4 cup chopped parsley"
+   ],
+   "steps": [
+    "Slice the garlic. Ask an adult to help.",
+    "Boil the spaghetti in salted water as the package says.",
+    "Heat the oil in a big pan over medium heat and cook the garlic, anchovies and chili flakes for 2 minutes, mashing the anchovies.",
+    "Add the tomatoes, olives and capers and simmer for 12 to 15 minutes, until thick.",
+    "Toss the drained spaghetti in the sauce with a splash of pasta water.",
+    "Top with parsley."
+   ]
+  },
+  {
+   "id": "pasta-pomodoro",
+   "name": "Pasta pomodoro",
+   "aliases": [
+    "pasta pomodoro",
+    "spaghetti pomodoro",
+    "tomato basil pasta",
+    "simple tomato pasta",
+    "pomodoro sauce"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "pasta",
+    "tomato",
+    "basil",
+    "garlic",
+    "olive oil"
+   ],
+   "ingredients": [
+    "12 oz (340 g) spaghetti",
+    "1/4 cup (60 ml) olive oil",
+    "4 garlic cloves, sliced",
+    "1 can (28 oz / 800 g) whole San Marzano tomatoes",
+    "3/4 teaspoon salt",
+    "1 pinch chili flakes (optional)",
+    "1 handful fresh basil leaves",
+    "2 tablespoons (30 g) butter",
+    "Grated parmesan"
+   ],
+   "steps": [
+    "Slice the garlic. Ask an adult to help.",
+    "Heat the oil in a big pan over medium heat and cook the garlic for 1 to 2 minutes, until just golden.",
+    "Add the tomatoes and crush them with a potato masher. Add the salt and chili flakes.",
+    "Simmer for 20 minutes, stirring, until thick.",
+    "Boil the spaghetti in salted water as the package says, then drain.",
+    "Toss the spaghetti with the sauce, butter and torn basil. Serve with parmesan."
+   ]
+  },
+  {
+   "id": "pasta-amatriciana",
+   "name": "Pasta all'amatriciana",
+   "aliases": [
+    "amatriciana",
+    "pasta amatriciana",
+    "bucatini amatriciana",
+    "bacon tomato pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "pasta",
+    "guanciale",
+    "tomato",
+    "pecorino"
+   ],
+   "ingredients": [
+    "12 oz (340 g) bucatini or spaghetti",
+    "6 oz (170 g) guanciale or pancetta, cut in strips",
+    "1 teaspoon olive oil",
+    "1/2 onion, thinly sliced (optional)",
+    "1/2 teaspoon chili flakes",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1/2 teaspoon salt",
+    "3/4 cup (75 g) grated Pecorino Romano"
+   ],
+   "steps": [
+    "Cut the guanciale and slice the onion. Ask an adult to help.",
+    "Cook the guanciale in the oil in a big pan over medium heat for 6 to 8 minutes, until crisp at the edges.",
+    "Add the onion and chili flakes and cook for 3 minutes.",
+    "Add the tomatoes and salt and simmer for 15 minutes.",
+    "Boil the pasta in salted water as the package says.",
+    "Toss the pasta in the sauce with half the pecorino and a splash of pasta water.",
+    "Serve with the rest of the cheese."
+   ]
+  },
+  {
+   "id": "calzones",
+   "name": "Cheese and pepperoni calzones",
+   "aliases": [
+    "calzone",
+    "calzones",
+    "pepperoni calzone",
+    "stuffed pizza",
+    "folded pizza"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "pizza dough",
+    "ricotta",
+    "mozzarella",
+    "pepperoni"
+   ],
+   "ingredients": [
+    "1 lb (450 g) pizza dough, store-bought or homemade",
+    "1 cup (250 g) ricotta",
+    "1 1/2 cups (170 g) shredded mozzarella",
+    "1/4 cup (25 g) grated parmesan",
+    "3 oz (85 g) sliced pepperoni",
+    "1/2 teaspoon Italian seasoning",
+    "1 large egg, beaten",
+    "1 cup (240 ml) marinara sauce, warm, for dipping"
+   ],
+   "steps": [
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Mix the ricotta, mozzarella, parmesan and seasoning.",
+    "Split the dough into 4 pieces and roll each into an 8 inch circle.",
+    "Put a quarter of the cheese and pepperoni on half of each circle, leaving a 1 inch border.",
+    "Fold over and pinch and roll the edges to seal.",
+    "Set on a lined sheet, brush with egg and cut 2 small slits on top.",
+    "Bake for 15 to 18 minutes, until golden brown.",
+    "Cool for 5 minutes and serve with marinara for dipping."
+   ]
+  },
+  {
+   "id": "shrimp-scampi",
+   "name": "Shrimp scampi with linguine",
+   "aliases": [
+    "shrimp scampi",
+    "scampi",
+    "shrimp linguine",
+    "shrimp scampi pasta",
+    "garlic shrimp pasta"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "shrimp",
+    "pasta",
+    "garlic",
+    "butter",
+    "lemon"
+   ],
+   "ingredients": [
+    "12 oz (340 g) linguine",
+    "1 lb (450 g) large shrimp, peeled and deveined",
+    "1/2 teaspoon salt",
+    "2 tablespoons olive oil",
+    "4 tablespoons (60 g) butter",
+    "5 garlic cloves, chopped",
+    "1/4 teaspoon chili flakes",
+    "1/2 cup (120 ml) white wine or chicken broth",
+    "1 lemon, zested and juiced",
+    "1/4 cup chopped parsley"
+   ],
+   "steps": [
+    "Chop the garlic. Ask an adult to help.",
+    "Boil the linguine in salted water as the package says. Save 1/2 cup pasta water.",
+    "Season the shrimp with salt. Heat the oil in a big pan over medium-high heat and cook the shrimp for 1 to 2 minutes per side, until pink. Move to a plate.",
+    "Turn the heat to medium, melt the butter and cook the garlic and chili flakes for 1 minute.",
+    "Add the wine and lemon juice and simmer for 2 minutes.",
+    "Add the linguine, shrimp, zest, parsley and pasta water and toss until glossy."
+   ]
+  },
+  {
+   "id": "creamy-tuscan-chicken",
+   "name": "Creamy Tuscan chicken",
+   "aliases": [
+    "tuscan chicken",
+    "creamy tuscan chicken",
+    "sun dried tomato chicken",
+    "marry me chicken",
+    "creamy garlic chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "chicken",
+    "sun dried tomato",
+    "spinach",
+    "cream",
+    "parmesan"
+   ],
+   "ingredients": [
+    "4 thin boneless skinless chicken breasts or cutlets",
+    "1 teaspoon salt",
+    "1 teaspoon Italian seasoning",
+    "2 tablespoons olive oil",
+    "3 garlic cloves, chopped",
+    "1/2 cup (55 g) sun dried tomatoes, chopped",
+    "1 cup (240 ml) heavy cream",
+    "1/2 cup (120 ml) chicken broth",
+    "1/2 cup (50 g) grated parmesan",
+    "2 cups (60 g) baby spinach"
+   ],
+   "steps": [
+    "Season the chicken with salt and seasoning. Wash your hands.",
+    "Heat the oil in a big pan over medium-high heat and cook the chicken for 5 to 6 minutes per side, until 165°F (74°C). Move to a plate.",
+    "Chop the garlic and sun dried tomatoes. Ask an adult to help.",
+    "Turn the heat to medium and cook the garlic and tomatoes for 1 minute.",
+    "Add the cream and broth and simmer for 3 minutes.",
+    "Stir in the parmesan and spinach until wilted.",
+    "Put the chicken back and spoon the sauce over. Serve with pasta or bread."
+   ]
+  },
+  {
+   "id": "coq-au-vin",
+   "name": "Coq au vin",
+   "aliases": [
+    "coq au vin",
+    "chicken in red wine",
+    "french chicken stew",
+    "coq au vin blanc"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr",
+   "main": [
+    "chicken",
+    "bacon",
+    "mushroom",
+    "onion",
+    "wine"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken thighs and drumsticks",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "6 slices thick bacon, chopped",
+    "1 onion, chopped",
+    "2 carrots, sliced",
+    "8 oz (225 g) mushrooms, quartered",
+    "3 garlic cloves, chopped",
+    "2 tablespoons all-purpose flour",
+    "2 tablespoons tomato paste",
+    "2 cups (480 ml) dry red wine, or chicken broth with 2 tablespoons red wine vinegar",
+    "1 cup (240 ml) chicken broth",
+    "3 sprigs fresh thyme",
+    "2 bay leaves"
+   ],
+   "steps": [
+    "Season the chicken. Chop the bacon and vegetables. Ask an adult to help.",
+    "Cook the bacon in a big heavy pot over medium heat for 6 minutes, until crisp. Lift it out.",
+    "Brown the chicken in the bacon fat for 5 minutes per side. Lift it out.",
+    "Cook the onion, carrots and mushrooms for 6 minutes. Add the garlic, flour and tomato paste for 1 minute.",
+    "Add the wine and broth, scraping the pot. The alcohol cooks off as it simmers.",
+    "Add the chicken, bacon, thyme and bay leaves, cover and simmer on low for 1 hour, until the chicken is very tender and well over 165°F (74°C).",
+    "Take out the herbs and serve with mashed potatoes or bread."
+   ]
+  },
+  {
+   "id": "beef-bourguignon",
+   "name": "Beef bourguignon",
+   "aliases": [
+    "beef bourguignon",
+    "boeuf bourguignon",
+    "beef burgundy",
+    "french beef stew",
+    "red wine beef stew"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "3 hr 30 min",
+   "main": [
+    "beef",
+    "mushroom",
+    "carrot",
+    "onion",
+    "wine"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) beef chuck, cut in 2 inch cubes",
+    "1 1/2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "6 slices thick bacon, chopped",
+    "2 tablespoons olive oil",
+    "2 carrots, sliced",
+    "1 onion, chopped",
+    "3 garlic cloves, chopped",
+    "2 tablespoons tomato paste",
+    "3 tablespoons all-purpose flour",
+    "3 cups (720 ml) dry red wine, or beef broth with 2 tablespoons red wine vinegar",
+    "2 cups (480 ml) beef broth",
+    "3 sprigs fresh thyme",
+    "2 bay leaves",
+    "12 oz (340 g) mushrooms, quartered",
+    "2 cups (300 g) frozen pearl onions",
+    "2 tablespoons (30 g) butter"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Pat the beef dry and season with salt and pepper.",
+    "Cook the bacon in a big oven-safe pot over medium heat for 6 minutes. Lift it out.",
+    "Add the oil and brown the beef in 3 batches for 5 minutes each. Lift it out.",
+    "Cook the carrots and onion for 5 minutes. Add the garlic, tomato paste and flour for 1 minute.",
+    "Add the wine, broth, thyme, bay leaves, beef and bacon and bring to a simmer.",
+    "Cover and bake for 2 hours 30 minutes to 3 hours, until the beef is fork tender.",
+    "Brown the mushrooms and pearl onions in the butter for 8 minutes and stir them into the stew. Take out the herbs."
+   ]
+  },
+  {
+   "id": "beer-braised-bratwurst",
+   "name": "Bratwurst with sauerkraut and onions",
+   "aliases": [
+    "bratwurst",
+    "brats",
+    "bratwurst and sauerkraut",
+    "brats and kraut",
+    "german sausages"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "bratwurst",
+    "sauerkraut",
+    "onion",
+    "mustard"
+   ],
+   "ingredients": [
+    "1 tablespoon vegetable oil",
+    "5 uncooked bratwurst",
+    "1 onion, sliced",
+    "1 apple, peeled and sliced (optional)",
+    "2 cups (280 g) sauerkraut, drained",
+    "1 cup (240 ml) chicken broth or apple juice",
+    "1 teaspoon caraway seeds (optional)",
+    "5 hoagie or bratwurst buns",
+    "Spicy brown mustard"
+   ],
+   "steps": [
+    "Slice the onion and apple. Ask an adult to help.",
+    "Heat the oil in a big pan over medium heat and brown the bratwurst for 6 to 8 minutes, turning. Lift them out.",
+    "Cook the onion and apple in the pan for 6 minutes, until soft.",
+    "Add the sauerkraut, broth and caraway and nestle the bratwurst back in.",
+    "Cover and simmer for 15 minutes, until the bratwurst are 160°F (71°C) inside.",
+    "Serve in buns with the sauerkraut and onions and lots of mustard."
+   ]
+  },
+  {
+   "id": "chicken-cordon-bleu",
+   "name": "Baked chicken cordon bleu",
+   "aliases": [
+    "chicken cordon bleu",
+    "cordon bleu",
+    "ham and cheese stuffed chicken",
+    "stuffed chicken breast"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "chicken",
+    "ham",
+    "swiss cheese",
+    "breadcrumb"
+   ],
+   "ingredients": [
+    "4 boneless skinless chicken breasts",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "4 slices deli ham",
+    "4 slices Swiss cheese",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 large eggs, beaten",
+    "1 cup (60 g) panko breadcrumbs",
+    "3 tablespoons (45 g) butter, melted",
+    "Toothpicks"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Put each breast between plastic wrap and pound it to an even 1/4 inch thick.",
+    "Season with salt and pepper and lay a slice of ham and cheese on each.",
+    "Roll up tightly and close with toothpicks.",
+    "Coat each roll in flour, then egg, then panko. Wash your hands.",
+    "Set on a lined baking sheet and drizzle with the melted butter.",
+    "Bake for 30 to 35 minutes, until golden and 165°F (74°C) in the middle.",
+    "Take out the toothpicks before serving."
+   ]
+  },
+  {
+   "id": "salmon-en-papillote",
+   "name": "Salmon in parchment",
+   "aliases": [
+    "salmon en papillote",
+    "salmon in parchment",
+    "salmon parcels",
+    "fish in paper",
+    "baked salmon packets"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "salmon",
+    "lemon",
+    "zucchini",
+    "butter"
+   ],
+   "ingredients": [
+    "4 salmon fillets (5 oz / 140 g each)",
+    "1 zucchini, thinly sliced",
+    "1 cup (150 g) cherry tomatoes, halved",
+    "1 lemon, thinly sliced",
+    "4 teaspoons butter or olive oil",
+    "1 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "4 sprigs fresh dill or thyme",
+    "4 large sheets parchment paper"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Fold each sheet of parchment in half to make a crease, then open it.",
+    "Lay zucchini and tomatoes next to the crease, then a salmon fillet.",
+    "Season with salt and pepper and top with lemon slices, butter and dill.",
+    "Fold the paper over and crimp the edges in small folds to seal tightly.",
+    "Bake on a baking sheet for 12 to 15 minutes, until the salmon is 145°F (63°C).",
+    "Cut the packets open carefully at the table. Hot steam comes out."
+   ]
+  },
+  {
+   "id": "seafood-paella",
+   "name": "Chicken and shrimp paella",
+   "aliases": [
+    "paella",
+    "spanish paella",
+    "seafood paella",
+    "chicken paella",
+    "paella valenciana"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "rice",
+    "chicken",
+    "shrimp",
+    "saffron",
+    "pepper"
+   ],
+   "ingredients": [
+    "3 tablespoons olive oil",
+    "1 lb (450 g) boneless chicken thighs, cut in pieces",
+    "4 oz (115 g) Spanish chorizo, sliced",
+    "1 onion, chopped",
+    "1 red bell pepper, chopped",
+    "3 garlic cloves, chopped",
+    "1 teaspoon smoked paprika",
+    "1 pinch saffron, crumbled",
+    "1 1/2 cups (300 g) short grain Spanish rice like bomba, or arborio",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "4 cups (960 ml) chicken broth",
+    "1 teaspoon salt",
+    "12 oz (340 g) large shrimp, peeled",
+    "1 cup (140 g) frozen peas",
+    "Lemon wedges"
+   ],
+   "steps": [
+    "Cut the chicken and vegetables. Ask an adult to help.",
+    "Heat the oil in a big wide pan over medium-high heat and brown the chicken and chorizo for 6 minutes. Lift out.",
+    "Cook the onion and pepper for 5 minutes. Add the garlic, paprika and saffron for 1 minute.",
+    "Stir in the rice for 1 minute, then add the tomatoes, broth, salt, chicken and chorizo.",
+    "Bring to a boil and spread the rice evenly. Don't stir from now on.",
+    "Simmer for 15 minutes, until most of the liquid is gone.",
+    "Push the shrimp into the rice and scatter the peas. Cook for 5 to 8 minutes, until the shrimp are pink and the chicken is 165°F (74°C).",
+    "Turn the heat up for 1 to 2 minutes to crisp the bottom. Rest for 5 minutes and serve with lemon."
+   ]
+  },
+  {
+   "id": "pork-schnitzel",
+   "name": "Pork schnitzel",
+   "aliases": [
+    "schnitzel",
+    "pork schnitzel",
+    "wiener schnitzel",
+    "schnitzel with lemon",
+    "breaded pork cutlets"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "pork",
+    "breadcrumb",
+    "egg",
+    "lemon"
+   ],
+   "ingredients": [
+    "4 boneless pork chops (about 1 1/4 lb / 570 g)",
+    "3/4 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 large eggs, beaten with 1 tablespoon milk",
+    "1 1/2 cups (150 g) fine dry breadcrumbs",
+    "Vegetable oil for frying",
+    "2 tablespoons (30 g) butter",
+    "Lemon wedges"
+   ],
+   "steps": [
+    "Put each chop between plastic wrap and pound it to 1/4 inch thick with a meat mallet or rolling pin.",
+    "Season with salt and pepper.",
+    "Coat each in flour, then egg, then breadcrumbs, without pressing hard. Wash your hands.",
+    "An adult heats 1/4 inch of oil and the butter in a big pan over medium-high heat.",
+    "Fry for 2 to 3 minutes per side, swirling the pan so oil washes over the top, until puffed and golden and cooked through. An adult should do the frying.",
+    "Drain on paper towels and serve with lemon wedges."
+   ]
+  },
+  {
+   "id": "swedish-meatballs",
+   "name": "Swedish meatballs",
+   "aliases": [
+    "swedish meatballs",
+    "ikea meatballs",
+    "meatballs in cream sauce",
+    "kottbullar",
+    "meatballs and gravy"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "beef",
+    "pork",
+    "cream",
+    "broth"
+   ],
+   "ingredients": [
+    "1/2 cup (50 g) dry breadcrumbs",
+    "1/3 cup (80 ml) milk",
+    "12 oz (340 g) ground beef",
+    "8 oz (225 g) ground pork",
+    "1 large egg",
+    "1/4 onion, grated",
+    "1 teaspoon salt",
+    "1/4 teaspoon allspice",
+    "1/4 teaspoon nutmeg",
+    "1 tablespoon vegetable oil",
+    "3 tablespoons (45 g) butter",
+    "3 tablespoons all-purpose flour",
+    "2 cups (480 ml) beef broth",
+    "1/2 cup (120 ml) heavy cream",
+    "1 teaspoon Worcestershire or soy sauce"
+   ],
+   "steps": [
+    "Soak the breadcrumbs in the milk for 5 minutes.",
+    "Mix in the meats, egg, onion, salt, allspice and nutmeg and roll into 1 inch balls. Wash your hands.",
+    "Brown the meatballs in the oil in a big pan over medium heat for 8 to 10 minutes, turning, until 160°F (71°C) inside. Lift out.",
+    "Melt the butter in the pan and whisk in the flour for 1 minute.",
+    "Slowly whisk in the broth, then the cream and Worcestershire, and simmer for 3 to 4 minutes, until thick.",
+    "Put the meatballs back for 2 minutes.",
+    "Serve with mashed potatoes or egg noodles and lingonberry jam."
+   ]
+  },
+  {
+   "id": "beef-stroganoff",
+   "name": "Beef stroganoff",
+   "aliases": [
+    "beef stroganoff",
+    "stroganoff",
+    "beef strogonoff",
+    "creamy beef and noodles",
+    "ground beef stroganoff"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "beef",
+    "mushroom",
+    "sour cream",
+    "egg noodle"
+   ],
+   "ingredients": [
+    "1 1/4 lb (570 g) sirloin steak, thinly sliced",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "2 tablespoons vegetable oil",
+    "2 tablespoons (30 g) butter",
+    "1 onion, sliced",
+    "8 oz (225 g) mushrooms, sliced",
+    "2 garlic cloves, chopped",
+    "2 tablespoons all-purpose flour",
+    "1 1/2 cups (360 ml) beef broth",
+    "1 tablespoon Worcestershire sauce",
+    "1 teaspoon Dijon mustard",
+    "3/4 cup (180 g) sour cream",
+    "12 oz (340 g) egg noodles, cooked"
+   ],
+   "steps": [
+    "Slice the beef, onion and mushrooms. Ask an adult to help.",
+    "Season the beef and sear it in the oil in a big pan over high heat in 2 batches for 1 to 2 minutes, until browned. Lift it out.",
+    "Melt the butter over medium heat and cook the onion and mushrooms for 8 minutes. Add the garlic for 1 minute.",
+    "Stir in the flour for 1 minute, then whisk in the broth, Worcestershire and mustard.",
+    "Simmer for 3 to 4 minutes, until thick.",
+    "Turn the heat to low, stir in the sour cream, and add the beef to warm for 1 minute. Don't let it boil.",
+    "Serve over egg noodles."
+   ]
+  },
+  {
+   "id": "mushroom-stroganoff",
+   "name": "Mushroom stroganoff",
+   "aliases": [
+    "mushroom stroganoff",
+    "vegetarian stroganoff",
+    "vegan stroganoff",
+    "creamy mushroom noodles"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "mushroom",
+    "onion",
+    "sour cream",
+    "egg noodle"
+   ],
+   "ingredients": [
+    "2 tablespoons olive oil",
+    "2 tablespoons (30 g) butter",
+    "1 1/2 lb (680 g) mixed mushrooms, sliced",
+    "1 onion, sliced",
+    "3 garlic cloves, chopped",
+    "1 teaspoon smoked paprika",
+    "2 tablespoons all-purpose flour",
+    "1 1/2 cups (360 ml) vegetable broth",
+    "1 tablespoon soy sauce",
+    "1 teaspoon Dijon mustard",
+    "3/4 cup (180 g) sour cream",
+    "1/2 teaspoon salt",
+    "12 oz (340 g) egg noodles, cooked",
+    "Chopped parsley"
+   ],
+   "steps": [
+    "Slice the mushrooms and onion. Ask an adult to help.",
+    "Heat the oil and butter in a big pan over medium-high heat and cook the mushrooms in 2 batches for 6 to 8 minutes, until browned. Lift out.",
+    "Cook the onion for 5 minutes, then add the garlic and paprika for 1 minute.",
+    "Stir in the flour, then whisk in the broth, soy sauce and mustard. Simmer for 3 minutes.",
+    "Put the mushrooms back, turn the heat to low and stir in the sour cream and salt.",
+    "Serve over noodles with parsley."
+   ]
+  },
+  {
+   "id": "potato-cheese-pierogi",
+   "name": "Potato and cheese pierogi",
+   "aliases": [
+    "pierogi",
+    "pierogies",
+    "perogies",
+    "potato pierogi",
+    "polish dumplings",
+    "varenyky"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 30 min",
+   "main": [
+    "flour",
+    "potato",
+    "cheese",
+    "onion",
+    "butter"
+   ],
+   "ingredients": [
+    "3 cups (375 g) all-purpose flour",
+    "1 teaspoon salt",
+    "1 large egg",
+    "1/2 cup (120 g) sour cream",
+    "1/2 cup (120 ml) warm water",
+    "2 tablespoons (30 g) butter, melted",
+    "1 1/2 lb (680 g) russet potatoes, peeled and cubed",
+    "1 cup (100 g) shredded sharp cheddar",
+    "1 onion, chopped",
+    "4 tablespoons (60 g) butter, for frying",
+    "Sour cream to serve"
+   ],
+   "steps": [
+    "Mix the flour, salt, egg, sour cream, water and melted butter into a soft dough. Knead for 5 minutes, cover and rest for 30 minutes.",
+    "Boil the potatoes for 15 minutes, until soft. Drain and mash with the cheese and a pinch of salt. Cool.",
+    "Chop the onion and cook it in 2 tablespoons butter over medium heat for 10 minutes, until golden. Ask an adult to help.",
+    "Roll the dough 1/8 inch thick and cut 3 inch circles.",
+    "Put 1 tablespoon of filling on each, fold over and pinch the edges tightly shut.",
+    "Boil in batches in salted water. When they float, cook for 2 minutes more.",
+    "Fry the boiled pierogi in the rest of the butter for 2 minutes per side, until golden.",
+    "Top with the onions and serve with sour cream."
+   ]
+  },
+  {
+   "id": "chicken-paprikash",
+   "name": "Chicken paprikash",
+   "aliases": [
+    "chicken paprikash",
+    "paprika chicken",
+    "hungarian chicken",
+    "paprikas csirke"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "paprika",
+    "onion",
+    "sour cream"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) bone-in chicken thighs",
+    "1 teaspoon salt",
+    "2 tablespoons vegetable oil or butter",
+    "2 onions, finely chopped",
+    "1 red bell pepper, chopped",
+    "2 garlic cloves, chopped",
+    "2 tablespoons sweet Hungarian paprika",
+    "1 tomato, chopped",
+    "1 cup (240 ml) chicken broth",
+    "3/4 cup (180 g) sour cream",
+    "1 tablespoon all-purpose flour",
+    "Egg noodles or dumplings to serve"
+   ],
+   "steps": [
+    "Season the chicken with salt. Chop the vegetables. Ask an adult to help.",
+    "Brown the chicken in the oil in a big pot over medium-high heat for 5 minutes per side. Lift out.",
+    "Cook the onions and pepper for 8 minutes, until soft. Add the garlic for 1 minute.",
+    "Take the pot off the heat and stir in the paprika. It burns easily.",
+    "Add the tomato, broth and chicken, cover and simmer on low for 30 minutes, until 165°F (74°C).",
+    "Whisk the sour cream and flour, stir in a ladle of the hot sauce, then stir it all back into the pot.",
+    "Simmer gently for 2 minutes and serve over noodles."
+   ]
+  },
+  {
+   "id": "moussaka",
+   "name": "Moussaka",
+   "aliases": [
+    "moussaka",
+    "greek moussaka",
+    "eggplant lamb bake",
+    "mousaka"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "2 hr",
+   "main": [
+    "eggplant",
+    "lamb",
+    "tomato",
+    "milk",
+    "cheese"
+   ],
+   "ingredients": [
+    "3 medium eggplants, sliced 1/2 inch thick",
+    "1/3 cup (80 ml) olive oil, divided",
+    "1 1/2 teaspoons salt, divided",
+    "1 onion, chopped",
+    "3 garlic cloves, chopped",
+    "1 1/2 lb (680 g) ground lamb or beef",
+    "1 can (14.5 oz / 410 g) crushed tomatoes",
+    "2 tablespoons tomato paste",
+    "1 teaspoon cinnamon",
+    "1 teaspoon dried oregano",
+    "4 tablespoons (60 g) butter",
+    "1/3 cup (40 g) all-purpose flour",
+    "2 1/2 cups (600 ml) milk",
+    "2 large egg yolks",
+    "1 pinch nutmeg",
+    "1 cup (100 g) grated parmesan or kefalotyri"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Brush the eggplant with oil, sprinkle with 1/2 teaspoon salt and roast on sheet pans for 20 to 25 minutes, flipping once, until soft.",
+    "Cook the onion in 1 tablespoon oil in a big pan over medium heat for 5 minutes. Add the garlic and meat and cook for 8 minutes, until browned. Drain.",
+    "Add the tomatoes, tomato paste, cinnamon, oregano and 1/2 teaspoon salt and simmer for 15 minutes.",
+    "Melt the butter, whisk in the flour for 1 minute, then slowly whisk in the milk and simmer for 5 minutes, until thick. Off the heat, whisk in the yolks, nutmeg, the rest of the salt and half the cheese.",
+    "Turn the oven to 350°F (175°C). Layer half the eggplant, all the meat, the rest of the eggplant in a 9 by 13 inch dish.",
+    "Pour the white sauce over and sprinkle with the rest of the cheese.",
+    "Bake for 45 minutes, until golden. Rest for 20 minutes before cutting."
+   ]
+  },
+  {
+   "id": "chicken-souvlaki",
+   "name": "Chicken souvlaki skewers",
+   "aliases": [
+    "souvlaki",
+    "chicken souvlaki",
+    "greek chicken skewers",
+    "chicken kebabs",
+    "greek kebabs"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "lemon",
+    "oregano",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless skinless chicken thighs or breasts, cut in 1 1/2 inch cubes",
+    "1/4 cup (60 ml) olive oil",
+    "3 tablespoons lemon juice",
+    "3 garlic cloves, grated",
+    "2 teaspoons dried oregano",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "8 skewers (soak wooden ones in water for 30 minutes)",
+    "Pita, tzatziki, tomato and red onion to serve"
+   ],
+   "steps": [
+    "Cut the chicken into cubes. Ask an adult to help, and wash your hands after.",
+    "Mix the oil, lemon juice, garlic, oregano, salt and pepper and coat the chicken. Marinate in the fridge for 30 minutes to 4 hours.",
+    "Thread the chicken onto skewers.",
+    "Heat a grill pan or the broiler to high. An adult should do this.",
+    "Cook the skewers for 10 to 12 minutes, turning every few minutes, until charred and 165°F (74°C) inside.",
+    "Serve with pita, tzatziki, tomato and onion."
+   ]
+  },
+  {
+   "id": "greek-lemon-chicken-potatoes",
+   "name": "Greek lemon chicken and potatoes",
+   "aliases": [
+    "greek lemon chicken",
+    "lemon chicken and potatoes",
+    "greek chicken and potatoes",
+    "kotopoulo lemonato"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr 15 min",
+   "main": [
+    "chicken",
+    "potato",
+    "lemon",
+    "oregano",
+    "garlic"
+   ],
+   "ingredients": [
+    "8 bone-in, skin-on chicken thighs",
+    "2 lb (900 g) Yukon gold potatoes, cut in wedges",
+    "1/3 cup (80 ml) olive oil",
+    "1/3 cup (80 ml) lemon juice",
+    "4 garlic cloves, grated",
+    "1 tablespoon dried oregano",
+    "2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "3/4 cup (180 ml) chicken broth"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help cut the potatoes.",
+    "Whisk the oil, lemon juice, garlic, oregano, salt and pepper.",
+    "Toss the potatoes with half the mix in a big roasting pan and spread them out.",
+    "Coat the chicken with the rest and nestle it skin side up between the potatoes. Wash your hands.",
+    "Pour the broth around the potatoes.",
+    "Roast for 50 to 60 minutes, until the potatoes are tender and golden and the chicken is 175°F (79°C), safely past 165°F (74°C).",
+    "Spoon the pan juices over before serving."
+   ]
+  },
+  {
+   "id": "beef-kofta-kebabs",
+   "name": "Beef kofta kebabs",
+   "aliases": [
+    "kofta",
+    "kofta kebabs",
+    "kafta",
+    "beef kofta",
+    "lamb kofta",
+    "kofte"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "beef",
+    "onion",
+    "parsley",
+    "spice"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) ground beef or lamb",
+    "1/2 onion, grated",
+    "1/4 cup chopped parsley",
+    "2 garlic cloves, grated",
+    "1 teaspoon ground cumin",
+    "1 teaspoon ground coriander",
+    "1 teaspoon paprika",
+    "1/2 teaspoon cinnamon",
+    "1 1/4 teaspoons salt",
+    "1/4 teaspoon pepper",
+    "8 skewers",
+    "Pita, tahini or yogurt sauce, and salad to serve"
+   ],
+   "steps": [
+    "Grate the onion and chop the parsley. Ask an adult to help.",
+    "Mix the meat, onion, parsley, garlic, spices, salt and pepper well with your hands.",
+    "Split into 8 pieces and squeeze each around a skewer into a long sausage shape. Wash your hands.",
+    "Chill for 15 minutes so they hold their shape.",
+    "Cook in a grill pan or under a broiler on high for 8 to 10 minutes, turning, until browned and 160°F (71°C) inside. An adult should help.",
+    "Serve with pita, sauce and salad."
+   ]
+  },
+  {
+   "id": "chicken-shawarma",
+   "name": "Oven chicken shawarma",
+   "aliases": [
+    "shawarma",
+    "chicken shawarma",
+    "shawarma wrap",
+    "chicken shwarma",
+    "sheet pan shawarma"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "yogurt",
+    "lemon",
+    "spice",
+    "pita"
+   ],
+   "ingredients": [
+    "2 lb (900 g) boneless skinless chicken thighs",
+    "1/4 cup (60 ml) olive oil",
+    "3 tablespoons lemon juice",
+    "4 garlic cloves, grated",
+    "2 teaspoons ground cumin",
+    "2 teaspoons paprika",
+    "1 teaspoon ground coriander",
+    "1/2 teaspoon ground turmeric",
+    "1/2 teaspoon cinnamon",
+    "1 1/2 teaspoons salt",
+    "1 red onion, cut in wedges",
+    "Pita, garlic sauce or tahini, pickles, tomato and lettuce"
+   ],
+   "steps": [
+    "Mix the oil, lemon juice, garlic, spices and salt and coat the chicken. Marinate in the fridge for 30 minutes to overnight. Wash your hands.",
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Spread the chicken and onion on a lined sheet pan.",
+    "Roast for 25 to 30 minutes, until charred at the edges and 165°F (74°C).",
+    "Rest for 5 minutes and slice thinly.",
+    "Wrap in warm pita with sauce, pickles, tomato and lettuce."
+   ]
+  },
+  {
+   "id": "joojeh-kabab",
+   "name": "Joojeh kabab Persian saffron chicken",
+   "aliases": [
+    "joojeh kabab",
+    "jujeh kabab",
+    "persian chicken kabab",
+    "saffron chicken",
+    "iranian chicken kebab"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "saffron",
+    "yogurt",
+    "lemon",
+    "onion"
+   ],
+   "ingredients": [
+    "2 lb (900 g) boneless chicken thighs or breasts, cut in 1 1/2 inch pieces",
+    "1/2 teaspoon saffron threads, ground with a pinch of sugar",
+    "2 tablespoons hot water",
+    "1/2 cup (120 g) plain yogurt",
+    "1 onion, grated",
+    "1/4 cup (60 ml) lemon juice",
+    "2 tablespoons olive oil",
+    "1 1/2 teaspoons salt",
+    "2 tablespoons (30 g) butter, melted",
+    "8 skewers",
+    "Rice and grilled tomatoes to serve"
+   ],
+   "steps": [
+    "Steep the ground saffron in the hot water for 10 minutes.",
+    "Mix the yogurt, onion, lemon juice, oil, salt and most of the saffron water and coat the chicken. Marinate in the fridge for at least 30 minutes, up to overnight. Wash your hands.",
+    "Thread the chicken onto skewers.",
+    "Heat the broiler or a grill pan to high. An adult should do this.",
+    "Cook for 10 to 12 minutes, turning, until charred and 165°F (74°C).",
+    "Mix the melted butter with the rest of the saffron water and brush over the chicken.",
+    "Serve with rice and grilled tomatoes."
+   ]
+  },
+  {
+   "id": "stuffed-cabbage-rolls",
+   "name": "Stuffed cabbage rolls",
+   "aliases": [
+    "cabbage rolls",
+    "stuffed cabbage",
+    "golabki",
+    "holubtsi",
+    "sarma",
+    "stuffed cabbage rolls"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr",
+   "main": [
+    "cabbage",
+    "beef",
+    "rice",
+    "tomato"
+   ],
+   "ingredients": [
+    "1 large head green cabbage",
+    "1 lb (450 g) ground beef",
+    "8 oz (225 g) ground pork",
+    "3/4 cup (140 g) cooked rice",
+    "1 onion, finely chopped",
+    "1 large egg",
+    "1 1/2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1 can (8 oz / 225 g) tomato sauce",
+    "2 tablespoons brown sugar",
+    "1 tablespoon lemon juice"
+   ],
+   "steps": [
+    "An adult cuts the core out of the cabbage and boils the whole head in a big pot for 8 to 10 minutes, peeling off leaves with tongs as they soften. You need about 12.",
+    "Trim the thick rib on each leaf so it rolls easily.",
+    "Mix the meats, rice, onion, egg, salt and pepper. Wash your hands after.",
+    "Heat the oven to 350°F (175°C).",
+    "Put 1/3 cup of filling on each leaf, fold in the sides and roll up.",
+    "Mix the tomatoes, tomato sauce, brown sugar and lemon juice. Spread a little in a baking dish.",
+    "Lay the rolls seam side down and pour the rest of the sauce over.",
+    "Cover with foil and bake for 1 hour 15 minutes, until the filling is 160°F (71°C)."
+   ]
+  },
+  {
+   "id": "rosemary-lamb-chops",
+   "name": "Garlic rosemary lamb chops",
+   "aliases": [
+    "lamb chops",
+    "garlic lamb chops",
+    "rosemary lamb chops",
+    "lamb cutlets",
+    "pan seared lamb"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "lamb",
+    "rosemary",
+    "garlic",
+    "olive oil"
+   ],
+   "ingredients": [
+    "8 lamb loin or rib chops, about 1 inch thick",
+    "3 tablespoons olive oil, divided",
+    "3 garlic cloves, grated",
+    "1 tablespoon chopped fresh rosemary",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 lemon"
+   ],
+   "steps": [
+    "Mix 2 tablespoons oil, garlic, rosemary, salt and pepper and rub it on the chops. Let them sit for 15 minutes. Wash your hands.",
+    "Heat the rest of the oil in a heavy pan over medium-high heat. Ask an adult to help, it spatters.",
+    "Cook the chops for 3 to 4 minutes per side, until 145°F (63°C) inside.",
+    "Rest for 5 minutes and squeeze lemon over the top."
+   ]
+  },
+  {
+   "id": "baked-chicken-kiev",
+   "name": "Baked chicken Kiev",
+   "aliases": [
+    "chicken kiev",
+    "chicken kyiv",
+    "garlic butter stuffed chicken",
+    "chicken kievs"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "butter",
+    "garlic",
+    "breadcrumb"
+   ],
+   "ingredients": [
+    "4 boneless skinless chicken breasts",
+    "6 tablespoons (85 g) soft butter",
+    "2 garlic cloves, grated",
+    "2 tablespoons chopped parsley or dill",
+    "1/2 teaspoon salt, plus more for the chicken",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 large eggs, beaten",
+    "1 1/2 cups (90 g) panko breadcrumbs",
+    "Cooking spray"
+   ],
+   "steps": [
+    "Mix the butter, garlic, herbs and salt, shape into 4 small logs on plastic wrap and freeze for 20 minutes.",
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Pound each breast to 1/4 inch thick between plastic wrap and season with salt.",
+    "Lay a butter log on each, roll up tightly and tuck in the sides so it's sealed.",
+    "Coat in flour, then egg, then panko. Dip in egg and panko a second time. Wash your hands.",
+    "Set seam side down on a lined sheet and spray with oil.",
+    "Bake for 25 to 30 minutes, until golden and 165°F (74°C). Rest for 5 minutes. Careful, hot butter pours out when you cut it."
+   ]
+  }
+ ]
+}

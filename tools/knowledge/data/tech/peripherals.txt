@@ -1,0 +1,24 @@
+# tag: tech.peripherals
+what are mouse grip styles | palm claw fingertip grip => Palm grip rests your whole hand on the mouse, claw arches your fingers, and fingertip uses only the fingertips. Pick a mouse shape that suits your grip and hand size.
+does mouse weight matter for gaming | lightweight mouse => Lighter mice, often under 70 grams, are easier to flick and stop quickly, which many FPS players like. It's personal preference.
+what is a mouse sensor | best mouse sensor gaming => The sensor tracks movement. Almost every modern gaming mouse sensor is accurate enough, so shape and weight matter more.
+what are mouse skates | mouse feet => Mouse skates are the slippery pads on the bottom of a mouse. Replacing worn ones with PTFE or glass skates makes it glide smoother.
+what is lift off distance | lod mouse => Lift-off distance is how high you can lift the mouse before it stops tracking. Low LOD helps low-sensitivity players who lift and reposition a lot.
+what size mousepad should i get | big mousepad => Low-sensitivity players need a large or extended desk pad for big arm movements. Speed pads glide fast and control pads slow the mouse more.
+what is a cloth vs hard mousepad | glass mousepad => Cloth pads are comfortable and controlled, hard pads are faster and last long, and glass pads are very fast and smooth but loud.
+what is a hot swappable keyboard | hot swap switches => A hot-swappable keyboard lets you pull out and replace switches without soldering, so you can try different switch types.
+what are keycaps | pbt vs abs keycaps => Keycaps are the tops of the keys. PBT plastic resists shine and feels textured, while ABS is smoother and can get shiny over time.
+what is a gasket mount keyboard | gasket mount keyboard explained => In a gasket mount keyboard, the plate sits on soft pads instead of being screwed down, which feels cushioned and sounds softer.
+what are keyboard stabilizers | stabs rattle => Stabilizers keep long keys like the space bar level. Lubing and tuning them stops rattling.
+what is a mechanical switch actuation point | actuation distance => The actuation point is how far you press before the key registers. Shorter actuation feels faster. Hall effect keyboards let you adjust it.
+what is n key rollover | nkro anti ghosting => N-key rollover means every key you press at once is registered. Anti-ghosting stops fake key presses when several keys are held.
+what is a macro key | gaming keyboard macros => A macro key runs a set of key presses with one button. Some games ban macros that automate gameplay, so check the rules.
+what is iso vs ansi keyboard | keyboard layout uk us => ANSI is the US layout with a wide Enter key, and ISO is common in the UK and Europe with a tall Enter key and an extra key by left Shift.
+what is a split keyboard | ergonomic keyboard => A split keyboard separates the two halves so your arms and wrists sit straighter, which can be more comfortable for long typing.
+how do i connect a 2.4ghz wireless mouse | wireless dongle => Plug the USB dongle into the PC, ideally on a front port or extension cable close to the mouse, and turn the mouse on. It pairs automatically.
+what is an 8000hz polling rate | 8k polling => 8000 Hz mice report position 8,000 times a second, which is smoother on high refresh monitors but uses more CPU. 1000 Hz is plenty for most people.
+what is a drawing tablet's pressure levels | pen pressure levels => Pressure levels tell how finely a pen senses pressure. Anything over a few thousand levels is plenty, and the feel of the pen matters more.
+what is a webcam resolution worth getting | 1080p vs 4k webcam => A good 1080p webcam with decent lighting looks better than a cheap 4K one. Light from in front of you matters most.
+can i use my phone as a webcam | phone webcam app => Yes, iPhones work as a Mac webcam with Continuity Camera, and Windows 11 can use Android phones through Phone Link. Apps like Camo work for more combinations.
+what is a usb audio interface | audio interface for xlr => An audio interface connects XLR mics and instruments to a computer and gives better sound quality than a basic sound card.
+what is a monitor light bar | screenbar => A monitor light bar sits on top of the screen and lights your desk without glare on the display. It's good for late-night work.

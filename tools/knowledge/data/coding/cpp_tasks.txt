@@ -1,0 +1,75 @@
+# C++ classes, compiler flags, debugging and common error messages, written by hand for Ace.
+# tag: coding.cpp.tasks
+rule of five c++ | five special member functions => If a class manages a resource by hand, it usually needs all five: destructor, copy constructor, copy assignment, move constructor and move assignment.
+rule of zero c++ | no destructor needed c++ => Let members like `std::vector`, `std::string` and `std::unique_ptr` manage resources, so your class needs none of the special functions written by hand.
+what is = default in c++ | default constructor keyword | defaulted function c++ => `Player() = default;` asks the compiler to write the normal version of that special function for you.
+what is = delete in c++ | deleted function c++ | stop copying a class => `Thing(const Thing&) = delete;` forbids copying, so any attempt to copy is a compile error.
+what is the explicit keyword | explicit constructor c++ | stop implicit conversion c++ => `explicit` on a one-argument constructor stops C++ from silently converting values into your type, which prevents surprise bugs.
+what is the mutable keyword | mutable member c++ | change member in const function => A `mutable` member can be changed even inside a const member function, for things like a cache or counter.
+const after function c++ | const method c++ => `int getHp() const;` promises the function does not change the object, so it can be called on const objects and const references.
+what is the override keyword c++ | override specifier | override in c++ class => Writing `override` after a virtual function in a subclass makes the compiler check it really overrides something, catching typos in the name or parameters.
+pure virtual c++ | function with no body that subclasses must write c++ => `virtual void draw() = 0;` has no body in the base class, makes the class abstract, and forces subclasses to provide it.
+what is dynamic_cast | dynamic cast c++ | downcast safely c++ => `dynamic_cast<Enemy*>(obj)` turns a base pointer into a derived one and gives `nullptr` if the object is not really that type. The base class needs a virtual function.
+what is reinterpret_cast | reinterpret cast c++ | dangerous cast c++ => `reinterpret_cast` treats bits as a different type with no checks. It is rarely needed and easy to misuse, so avoid it unless you know why.
+what is a friend in c++ | friend function c++ | friend class => A `friend` function or class can access another class's private members. It is often used for `operator<<`.
+how do i print my own class with cout | cout custom class c++ => Write `std::ostream& operator<<(std::ostream& os, const Point& p) { return os << p.x << ", " << p.y; }` outside the class.
+how do i compare my own structs c++ | equal structs c++ => Write `bool operator==(const Point&) const = default;` in C++20 to compare all members, or write your own operator==.
+how do i use my struct as a map key c++ | struct key map c++ | operator< for map => `std::map` needs `operator<` (or a comparator) on the key type. For `unordered_map` you need `operator==` and a hash instead.
+what is a custom hash c++ | std::hash specialization | unordered_map struct key => Give `unordered_map` a hash struct as its third template argument, with an `operator()` that combines the members' `std::hash` values.
+what is static_assert | static assert c++ | compile time check c++ => `static_assert(sizeof(int) == 4, "need 32 bit int");` checks a condition while compiling and stops with the message if false.
+what is noexcept | noexcept c++ | function cannot throw => `noexcept` promises a function will not throw. Move constructors marked noexcept let `std::vector` move items instead of copying them when it grows.
+what is copy elision | rvo c++ | return value optimization => The compiler can build a returned object directly in the caller's variable, skipping the copy. Since C++17 this is guaranteed when returning a temporary.
+when should i use std::move | std move pitfalls | using a moved from object => Use `std::move` when you no longer need a value and want to hand it off cheaply. After moving, only assign to or destroy the old variable. Do not `std::move` a local in a return statement.
+what is emplace_back vs push_back | emplace vs push c++ | which is faster push or emplace => `push_back` adds an existing object, while `emplace_back` builds it in place from constructor arguments. For simple types they perform about the same.
+what is iterator invalidation | iterator invalid c++ | crash after push_back iterator => Adding to or erasing from a vector can move its items, so old iterators, pointers and references to them become invalid. Get fresh ones after changing it.
+how do i erase while looping c++ | erase in loop c++ | remove items while iterating => Use `it = v.erase(it);` and only `++it` when you did not erase. In C++20, `std::erase_if` does it in one call.
+what is unordered_set | unordered set c++ | hash set c++ => `std::unordered_set` stores unique values in a hash table, with very fast `contains` checks but no sorted order.
+what is a multimap | multimap c++ | map with duplicate keys => `std::multimap` is like map but allows the same key several times. `equal_range(key)` gives all the values for a key.
+how do i make a min heap in c++ | priority_queue smallest first | std greater priority queue => `std::priority_queue<int, std::vector<int>, std::greater<int>> pq;` gives the smallest item from `top()`.
+what is std::greater | greater c++ => `std::greater<>()` compares with `>`, so `std::sort(v.begin(), v.end(), std::greater<>())` sorts largest first.
+what is vector<bool> | vector bool weird c++ | vector bool special => `std::vector<bool>` is specially packed as bits, so you cannot take a normal `bool&` to an item. Use `std::vector<char>` or `std::bitset` if that matters.
+should i use map or unordered_map | map vs unordered_map | which map is faster c++ => Use `unordered_map` for fast lookups when order does not matter, and `map` when you need keys sorted or ordered iteration.
+how do i turn a char digit into an int c++ | '5' to 5 c++ => Subtract the character zero: `int d = c - '0';` turns '5' into 5.
+how do i turn an int into a char c++ | int to letter c++ => `char c = '0' + 7;` gives '7', and `char letter = 'A' + 2;` gives 'C'.
+how do i convert a string to a char array c++ | string to char pointer | c_str example => `s.c_str()` gives a read-only `const char*`. For a changeable copy, use a `std::vector<char>(s.begin(), s.end())` plus a zero at the end.
+how do i read numbers from a string c++ | parse numbers from string c++ | istringstream numbers => `std::istringstream in("3 4 5"); int x; while (in >> x) { ... }` reads each number.
+getline delimiter | split csv line c++ => `std::getline(stream, part, ',')` reads up to each comma, so loop it over an `std::istringstream` of the line.
+how do i make random numbers properly in c++ | uniform_int_distribution => Make one `std::mt19937 rng(std::random_device{}());`, then `std::uniform_int_distribution<int> dist(1, 6); int roll = dist(rng);`. Avoid `rand()` in new code.
+how do i turn an enum into a string c++ | enum to string c++ | print enum name c++ => C++ has no built-in way. Write a function with a switch that returns the name for each value.
+how do i loop over an enum c++ | iterate enum c++ | enum for loop => Give the enum a final `Count` value and loop from 0 to `Count`, using `static_cast` to convert each number back.
+what is extern in c++ | extern variable c++ | share global between files => `extern int score;` in a header declares a global defined once in a single .cpp file, so several files can share it. `inline` variables in C++17 are an easier way.
+what are header guards | include guard c++ | #ifndef header => `#ifndef PLAYER_H`, `#define PLAYER_H` ... `#endif` stops a header being included twice. `#pragma once` does the same in one line.
+how do i compile multiple files with g++ | compile two cpp files | g++ many files => List them all: `g++ main.cpp player.cpp -o game`. Only .cpp files go on the command line, not headers.
+what flags should i use with g++ | g++ warnings flags => `g++ -std=c++20 -Wall -Wextra -g main.cpp -o main` turns on modern C++, useful warnings and debug info.
+what does -g do in g++ | debug symbols c++ | compile with debug info => `-g` adds debug info so a debugger like gdb or lldb can show your code lines and variable names.
+how do i use gdb | gdb basics | debug c++ in terminal => Run `gdb ./game`, type `break main`, then `run`, step with `next` and `step`, look with `print x`, and after a crash type `backtrace` to see where.
+what is lldb | lldb c++ | mac debugger c++ => LLDB is the debugger used by Xcode and clang. Commands are like gdb's: `b main`, `run`, `n`, `s`, `p x` and `bt`.
+how do i link a library with g++ | -l flag | link library c++ => Add `-l` and the library name, like `-lsfml-graphics`, plus `-L` with the folder if it is not in a standard place.
+what is vcpkg | vcpkg c++ | install c++ libraries => vcpkg is Microsoft's free C++ package manager. `vcpkg install fmt` gets a library, and it works with CMake and Visual Studio.
+what is conan | conan c++ | conan package manager => Conan is another C++ package manager that downloads and builds libraries for your project.
+what is fmt library | fmt c++ | fmt format library => {fmt} is the library that `std::format` came from, with easy `fmt::print("Score: {}\n", score)` formatting. Use it on compilers without full std::format support.
+what is a std::bad_alloc | bad_alloc c++ | out of memory exception c++ => `std::bad_alloc` is thrown when `new` cannot get memory, often because you asked for a huge or negative size by mistake.
+what does double free mean c++ | double free detected | free twice c++ => The same memory was deleted twice, often because two raw pointers owned it. Use smart pointers so each object has one clear owner.
+what does stack smashing detected mean | stack smashing c++ | buffer overflow crash => Your code wrote past the end of a local array and damaged the stack. Check array sizes and loop bounds, or use `std::vector` with `.at()`.
+what does pure virtual function called mean | pure virtual call crash | pure virtual method called => A pure virtual function was called during construction or destruction, or on an already destroyed object. Do not call virtual functions from constructors and destructors.
+what does vector subscript out of range mean | debug assertion failed vector | vector index crash visual studio => Visual Studio's debug checks caught you using an index past the end of a vector. Check `i < v.size()` and loops that use `<=` by mistake.
+what does lnk2019 mean | lnk2019 unresolved external symbol | unresolved external c++ => The linker found a declaration but no definition. Make sure the function is written in a .cpp file that is part of the project, or link the needed library.
+what does lnk2005 mean | lnk2005 already defined => The same thing was defined in two files, usually a function or global written in a header. Mark it `inline` or move the definition to one .cpp file.
+what does c2065 mean | c2065 undeclared identifier | undeclared identifier c++ => Visual Studio cannot find that name. Check spelling, include the right header, and add `std::` where needed.
+what does c4996 mean | c4996 unsafe function | this function may be unsafe => Visual Studio warns about older C functions like `scanf` or `strcpy`. Use C++ alternatives like `std::cin` and `std::string` instead.
+what does expression must have a constant value mean | variable length array c++ | array size variable error => Plain arrays need a size known when compiling. Use `std::vector<int> v(n);` for sizes decided while running.
+does not name a type c++ | type not known error => The compiler does not know that type there. Include its header, check spelling, or forward-declare it, and do not put statements outside functions.
+what does invalid use of non-static member function mean | non static member error | call member without object => You used a member function as if it were standalone. Call it on an object, like `player.update()`, or make it `static`.
+what does no operator << matches mean | cannot print with cout => `cout` does not know how to print that type, like a vector or your struct. Loop over it, or write an `operator<<` for it.
+what does too few arguments to function mean | too few arguments c++ | too many arguments c++ => The call does not match the function's parameter list. Check how many values it needs and their order.
+what does jump to case label mean | crosses initialization case | variable in switch case c++ => You declared a variable inside a case without braces. Wrap that case's code in `{ }` so the variable has its own scope.
+what does redeclared as different kind of symbol mean | redeclared different kind | name clash c++ => You used one name for two different things, like a variable and a function. Rename one of them.
+what does invalid conversion from int to int* mean | int to pointer error | invalid conversion pointer c++ => You passed a number where a pointer was expected, or the other way round. Use `&x` to get an address or `*p` to get the value.
+what does error missing template arguments mean | missing template arguments | template argument error => You used a template class without saying the type, like `vector v;`. Write `std::vector<int> v;`, or give it values so C++17 can work the type out.
+why does my program close straight away c++ | console window closes immediately | c++ window disappears => The program finished and the window closed. Run it from a terminal, or add `std::cin.get();` at the end while testing.
+why does my c++ program run slowly | slow c++ program | speed up c++ => Build in Release mode with optimizations like `-O2`, pass big objects by const reference, reserve vector space and avoid needless copies in loops.
+how do i pass an object without copying c++ | avoid copy c++ | pass big object c++ => Use a const reference, `void show(const std::vector<int>& v)`, to read it without copying, or a normal reference to change it.
+how do i return a big object from a function c++ | return vector c++ | is returning a vector slow => Just return it by value. The compiler moves it or builds it in place, so it is cheap.
+how do i store different shapes in one vector c++ | vector of base class pointers | polymorphic vector c++ => Store `std::vector<std::unique_ptr<Shape>>` and push `std::make_unique<Circle>()`. Calling a virtual `draw()` runs each shape's own version.
+how do i make a 2d grid for a game c++ | tile grid c++ | game map array c++ => Use `std::vector<std::vector<int>> grid(rows, std::vector<int>(cols, 0));` or a flat vector indexed as `grid[y * cols + x]`, which is faster.
+how do i make a simple timer in c++ | countdown timer c++ | cooldown c++ game => Store a time from `std::chrono::steady_clock::now()` and compare the elapsed time with your cooldown length each frame.

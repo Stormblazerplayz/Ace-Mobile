@@ -1,0 +1,1160 @@
+{
+ "entries": [
+  {
+   "en": "what is it called",
+   "also": [
+    "what is this called"
+   ],
+   "t": {
+    "es": "¿Cómo se llama esto?",
+    "fr": "Comment ça s'appelle ?",
+    "de": "Wie heißt das?",
+    "it": "Come si chiama questo?",
+    "pt": "Como se chama isso?",
+    "ja": "これは何と言いますか？",
+    "zh": "这个叫什么？",
+    "ko": "이건 뭐라고 해요?",
+    "hi": "इसे क्या कहते हैं?",
+    "ar": "ماذا يسمى هذا؟",
+    "ru": "Как это называется?",
+    "nl": "Hoe heet dit?"
+   },
+   "say": {
+    "ja": "kore wa nan to iimasu ka?",
+    "zh": "zhège jiào shénme?",
+    "ko": "igeon mworago haeyo?",
+    "hi": "ise kya kehte hain?",
+    "ar": "maadha yusamma haadha?",
+    "ru": "kak eto nazyvayetsya?"
+   }
+  },
+  {
+   "en": "what does it mean",
+   "also": [
+    "what does that mean",
+    "what does this mean"
+   ],
+   "t": {
+    "es": "¿Qué significa?",
+    "fr": "Qu'est-ce que ça veut dire ?",
+    "de": "Was bedeutet das?",
+    "it": "Cosa significa?",
+    "pt": "O que significa?",
+    "ja": "どういう意味ですか？",
+    "zh": "这是什么意思？",
+    "ko": "무슨 뜻이에요?",
+    "hi": "इसका क्या मतलब है?",
+    "ar": "ماذا يعني هذا؟",
+    "ru": "Что это значит?",
+    "nl": "Wat betekent dat?"
+   },
+   "say": {
+    "ja": "dou iu imi desu ka?",
+    "zh": "zhè shì shénme yìsi?",
+    "ko": "museun tteusieyo?",
+    "hi": "iska kya matlab hai?",
+    "ar": "maadha ya'ni haadha?",
+    "ru": "chto eto znachit?"
+   }
+  },
+  {
+   "en": "how do you spell it",
+   "also": [
+    "how do you spell that"
+   ],
+   "t": {
+    "es": "¿Cómo se escribe?",
+    "fr": "Comment ça s'écrit ?",
+    "de": "Wie schreibt man das?",
+    "it": "Come si scrive?",
+    "pt": "Como se escreve?",
+    "ja": "どう書きますか？",
+    "zh": "怎么写？",
+    "ko": "어떻게 써요?",
+    "hi": "इसकी स्पेलिंग क्या है?",
+    "ar": "كيف يكتب هذا؟",
+    "ru": "Как это пишется?",
+    "nl": "Hoe spel je dat?"
+   },
+   "say": {
+    "ja": "dou kakimasu ka?",
+    "zh": "zěnme xiě?",
+    "ko": "eotteoke sseoyo?",
+    "hi": "iski speling kya hai?",
+    "ar": "kayfa yuktab haadha?",
+    "ru": "kak eto pishetsya?"
+   }
+  },
+  {
+   "en": "can you write it down",
+   "also": [
+    "please write it down"
+   ],
+   "t": {
+    "es": "¿Me lo puede escribir?",
+    "fr": "Vous pouvez l'écrire ?",
+    "de": "Können Sie das bitte aufschreiben?",
+    "it": "Me lo può scrivere?",
+    "pt": "Pode escrever para mim?",
+    "ja": "書いてもらえますか？",
+    "zh": "你能写下来吗？",
+    "ko": "적어 주실 수 있어요?",
+    "hi": "क्या आप इसे लिख सकते हैं?",
+    "ar": "هل يمكنك أن تكتبه؟",
+    "ru": "Можете это записать?",
+    "nl": "Kunt u het opschrijven?"
+   },
+   "say": {
+    "ja": "kaite moraemasu ka?",
+    "zh": "nǐ néng xiě xiàlai ma?",
+    "ko": "jeogeo jusil su isseoyo?",
+    "hi": "kya aap ise likh sakte hain?",
+    "ar": "hal yumkinuka an taktubahu?",
+    "ru": "mozhete eto zapisat?"
+   }
+  },
+  {
+   "en": "do you understand",
+   "also": [],
+   "t": {
+    "es": "¿Entiende?",
+    "fr": "Vous comprenez ?",
+    "de": "Verstehen Sie?",
+    "it": "Capisce?",
+    "pt": "Você entende?",
+    "ja": "分かりますか？",
+    "zh": "你明白吗？",
+    "ko": "이해하세요?",
+    "hi": "क्या आप समझे?",
+    "ar": "هل تفهم؟",
+    "ru": "Вы понимаете?",
+    "nl": "Begrijpt u het?"
+   },
+   "say": {
+    "ja": "wakarimasu ka?",
+    "zh": "nǐ míngbai ma?",
+    "ko": "ihaehaseyo?",
+    "hi": "kya aap samjhe?",
+    "ar": "hal tafham?",
+    "ru": "vy ponimayete?"
+   }
+  },
+  {
+   "en": "is this right",
+   "also": [
+    "is this correct",
+    "is that correct"
+   ],
+   "t": {
+    "es": "¿Está bien así?",
+    "fr": "C'est correct ?",
+    "de": "Ist das richtig?",
+    "it": "È giusto?",
+    "pt": "Está certo?",
+    "ja": "これで合っていますか？",
+    "zh": "这样对吗？",
+    "ko": "이거 맞아요?",
+    "hi": "क्या यह सही है?",
+    "ar": "هل هذا صحيح؟",
+    "ru": "Это правильно?",
+    "nl": "Is dit goed?"
+   },
+   "say": {
+    "ja": "kore de atte imasu ka?",
+    "zh": "zhèyàng duì ma?",
+    "ko": "igeo majayo?",
+    "hi": "kya yeh sahi hai?",
+    "ar": "hal haadha saheeh?",
+    "ru": "eto pravilno?"
+   }
+  },
+  {
+   "en": "which one",
+   "also": [],
+   "t": {
+    "es": "¿Cuál?",
+    "fr": "Lequel ?",
+    "de": "Welches?",
+    "it": "Quale?",
+    "pt": "Qual?",
+    "ja": "どれですか？",
+    "zh": "哪个？",
+    "ko": "어느 거요?",
+    "hi": "कौन सा?",
+    "ar": "أيهما؟",
+    "ru": "Какой?",
+    "nl": "Welke?"
+   },
+   "say": {
+    "ja": "dore desu ka?",
+    "zh": "nǎge?",
+    "ko": "eoneu geoyo?",
+    "hi": "kaun sa?",
+    "ar": "ayyuhumaa?",
+    "ru": "kakoy?"
+   }
+  },
+  {
+   "en": "how many",
+   "also": [],
+   "t": {
+    "es": "¿Cuántos?",
+    "fr": "Combien ?",
+    "de": "Wie viele?",
+    "it": "Quanti?",
+    "pt": "Quantos?",
+    "ja": "いくつですか？",
+    "zh": "多少？",
+    "ko": "몇 개요?",
+    "hi": "कितने?",
+    "ar": "كم عددها؟",
+    "ru": "Сколько?",
+    "nl": "Hoeveel?"
+   },
+   "say": {
+    "ja": "ikutsu desu ka?",
+    "zh": "duōshao?",
+    "ko": "myeot gaeyo?",
+    "hi": "kitne?",
+    "ar": "kam 'adaduha?",
+    "ru": "skolko?"
+   }
+  },
+  {
+   "en": "how long does it take",
+   "also": [],
+   "t": {
+    "es": "¿Cuánto tiempo se tarda?",
+    "fr": "Combien de temps ça prend ?",
+    "de": "Wie lange dauert das?",
+    "it": "Quanto tempo ci vuole?",
+    "pt": "Quanto tempo demora?",
+    "ja": "どのくらいかかりますか？",
+    "zh": "需要多长时间？",
+    "ko": "얼마나 걸려요?",
+    "hi": "कितना समय लगेगा?",
+    "ar": "كم من الوقت يستغرق؟",
+    "ru": "Сколько времени это займёт?",
+    "nl": "Hoe lang duurt het?"
+   },
+   "say": {
+    "ja": "dono kurai kakarimasu ka?",
+    "zh": "xūyào duō cháng shíjiān?",
+    "ko": "eolmana geollyeoyo?",
+    "hi": "kitna samay lagega?",
+    "ar": "kam min al-waqt yastaghriq?",
+    "ru": "skolko vremeni eto zaymyot?"
+   }
+  },
+  {
+   "en": "what happened",
+   "also": [],
+   "t": {
+    "es": "¿Qué pasó?",
+    "fr": "Qu'est-ce qui s'est passé ?",
+    "de": "Was ist passiert?",
+    "it": "Cos'è successo?",
+    "pt": "O que aconteceu?",
+    "ja": "何があったんですか？",
+    "zh": "发生了什么事？",
+    "ko": "무슨 일이에요?",
+    "hi": "क्या हुआ?",
+    "ar": "ماذا حدث؟",
+    "ru": "Что случилось?",
+    "nl": "Wat is er gebeurd?"
+   },
+   "say": {
+    "ja": "nani ga attan desu ka?",
+    "zh": "fāshēng le shénme shì?",
+    "ko": "museun irieyo?",
+    "hi": "kya hua?",
+    "ar": "maadha hadath?",
+    "ru": "chto sluchilos?"
+   }
+  },
+  {
+   "en": "what's wrong",
+   "also": [
+    "what's the matter"
+   ],
+   "t": {
+    "es": "¿Qué le pasa?",
+    "fr": "Qu'est-ce qui ne va pas ?",
+    "de": "Was ist los?",
+    "it": "Cosa c'è che non va?",
+    "pt": "O que houve?",
+    "ja": "どうしたんですか？",
+    "zh": "怎么了？",
+    "ko": "왜 그래요?",
+    "hi": "क्या बात है?",
+    "ar": "ما الأمر؟",
+    "ru": "Что с вами?",
+    "nl": "Wat is er aan de hand?"
+   },
+   "say": {
+    "ja": "dou shitan desu ka?",
+    "zh": "zěnme le?",
+    "ko": "wae geuraeyo?",
+    "hi": "kya baat hai?",
+    "ar": "ma al-amr?",
+    "ru": "chto s vami?"
+   }
+  },
+  {
+   "en": "where are you",
+   "also": [],
+   "t": {
+    "es": "¿Dónde está?",
+    "fr": "Où êtes-vous ?",
+    "de": "Wo sind Sie?",
+    "it": "Dove si trova?",
+    "pt": "Onde você está?",
+    "ja": "どこにいますか？",
+    "zh": "你在哪里？",
+    "ko": "어디에 있어요?",
+    "hi": "आप कहाँ हैं?",
+    "ar": "أين أنت؟",
+    "ru": "Где вы?",
+    "nl": "Waar bent u?"
+   },
+   "say": {
+    "ja": "doko ni imasu ka?",
+    "zh": "nǐ zài nǎlǐ?",
+    "ko": "eodie isseoyo?",
+    "hi": "aap kahaan hain?",
+    "ar": "ayna anta?",
+    "ru": "gde vy?"
+   }
+  },
+  {
+   "en": "where are we",
+   "also": [],
+   "t": {
+    "es": "¿Dónde estamos?",
+    "fr": "Où sommes-nous ?",
+    "de": "Wo sind wir?",
+    "it": "Dove siamo?",
+    "pt": "Onde estamos?",
+    "ja": "ここはどこですか？",
+    "zh": "我们在哪里？",
+    "ko": "여기가 어디예요?",
+    "hi": "हम कहाँ हैं?",
+    "ar": "أين نحن؟",
+    "ru": "Где мы?",
+    "nl": "Waar zijn we?"
+   },
+   "say": {
+    "ja": "koko wa doko desu ka?",
+    "zh": "wǒmen zài nǎlǐ?",
+    "ko": "yeogiga eodiyeyo?",
+    "hi": "ham kahaan hain?",
+    "ar": "ayna nahnu?",
+    "ru": "gde my?"
+   }
+  },
+  {
+   "en": "where are you going",
+   "also": [],
+   "t": {
+    "es": "¿Adónde va?",
+    "fr": "Où allez-vous ?",
+    "de": "Wohin gehen Sie?",
+    "it": "Dove va?",
+    "pt": "Aonde você vai?",
+    "ja": "どこに行きますか？",
+    "zh": "你去哪里？",
+    "ko": "어디 가세요?",
+    "hi": "आप कहाँ जा रहे हैं?",
+    "ar": "إلى أين أنت ذاهب؟",
+    "ru": "Куда вы идёте?",
+    "nl": "Waar gaat u heen?"
+   },
+   "say": {
+    "ja": "doko ni ikimasu ka?",
+    "zh": "nǐ qù nǎlǐ?",
+    "ko": "eodi gaseyo?",
+    "hi": "aap kahaan ja rahe hain?",
+    "ar": "ila ayna anta dhaahib?",
+    "ru": "kuda vy idyote?"
+   }
+  },
+  {
+   "en": "what are you doing",
+   "also": [],
+   "t": {
+    "es": "¿Qué está haciendo?",
+    "fr": "Qu'est-ce que vous faites ?",
+    "de": "Was machen Sie?",
+    "it": "Cosa sta facendo?",
+    "pt": "O que você está fazendo?",
+    "ja": "何をしていますか？",
+    "zh": "你在做什么？",
+    "ko": "뭐 하고 있어요?",
+    "hi": "आप क्या कर रहे हैं?",
+    "ar": "ماذا تفعل؟",
+    "ru": "Что вы делаете?",
+    "nl": "Wat doet u?"
+   },
+   "say": {
+    "ja": "nani o shite imasu ka?",
+    "zh": "nǐ zài zuò shénme?",
+    "ko": "mwo hago isseoyo?",
+    "hi": "aap kya kar rahe hain?",
+    "ar": "maadha taf'al?",
+    "ru": "chto vy delayete?"
+   }
+  },
+  {
+   "en": "what do you want",
+   "also": [],
+   "t": {
+    "es": "¿Qué quiere?",
+    "fr": "Qu'est-ce que vous voulez ?",
+    "de": "Was möchten Sie?",
+    "it": "Cosa vuole?",
+    "pt": "O que você quer?",
+    "ja": "何が欲しいですか？",
+    "zh": "你想要什么？",
+    "ko": "뭘 원하세요?",
+    "hi": "आपको क्या चाहिए?",
+    "ar": "ماذا تريد؟",
+    "ru": "Что вы хотите?",
+    "nl": "Wat wilt u?"
+   },
+   "say": {
+    "ja": "nani ga hoshii desu ka?",
+    "zh": "nǐ xiǎng yào shénme?",
+    "ko": "mwol wonhaseyo?",
+    "hi": "aapko kya chaahiye?",
+    "ar": "maadha tureed?",
+    "ru": "chto vy khotite?"
+   }
+  },
+  {
+   "en": "what do you think",
+   "also": [],
+   "t": {
+    "es": "¿Qué piensa?",
+    "fr": "Qu'en pensez-vous ?",
+    "de": "Was meinen Sie?",
+    "it": "Cosa ne pensa?",
+    "pt": "O que você acha?",
+    "ja": "どう思いますか？",
+    "zh": "你觉得怎么样？",
+    "ko": "어떻게 생각해요?",
+    "hi": "आपको क्या लगता है?",
+    "ar": "ما رأيك؟",
+    "ru": "Как вы думаете?",
+    "nl": "Wat vindt u ervan?"
+   },
+   "say": {
+    "ja": "dou omoimasu ka?",
+    "zh": "nǐ juéde zěnmeyàng?",
+    "ko": "eotteoke saenggakhaeyo?",
+    "hi": "aapko kya lagta hai?",
+    "ar": "ma ra'yuk?",
+    "ru": "kak vy dumayete?"
+   }
+  },
+  {
+   "en": "are you sure",
+   "also": [],
+   "t": {
+    "es": "¿Está seguro/a?",
+    "fr": "Vous êtes sûr(e) ?",
+    "de": "Sind Sie sicher?",
+    "it": "È sicuro/a?",
+    "pt": "Você tem certeza?",
+    "ja": "確かですか？",
+    "zh": "你确定吗？",
+    "ko": "확실해요?",
+    "hi": "क्या आपको यकीन है?",
+    "ar": "هل أنت متأكد؟",
+    "ru": "Вы уверены?",
+    "nl": "Weet u het zeker?"
+   },
+   "say": {
+    "ja": "tashika desu ka?",
+    "zh": "nǐ quèdìng ma?",
+    "ko": "hwaksilhaeyo?",
+    "hi": "kya aapko yakeen hai?",
+    "ar": "hal anta muta'akkid?",
+    "ru": "vy uvereny?"
+   }
+  },
+  {
+   "en": "who is that",
+   "also": [],
+   "t": {
+    "es": "¿Quién es?",
+    "fr": "Qui est-ce ?",
+    "de": "Wer ist das?",
+    "it": "Chi è?",
+    "pt": "Quem é?",
+    "ja": "あの人は誰ですか？",
+    "zh": "那是谁？",
+    "ko": "저 사람은 누구예요?",
+    "hi": "वह कौन है?",
+    "ar": "من هذا؟",
+    "ru": "Кто это?",
+    "nl": "Wie is dat?"
+   },
+   "say": {
+    "ja": "ano hito wa dare desu ka?",
+    "zh": "nà shì shéi?",
+    "ko": "jeo sarameun nuguyeyo?",
+    "hi": "voh kaun hai?",
+    "ar": "man haadha?",
+    "ru": "kto eto?"
+   }
+  },
+  {
+   "en": "whose is this",
+   "also": [],
+   "t": {
+    "es": "¿De quién es esto?",
+    "fr": "C'est à qui ?",
+    "de": "Wem gehört das?",
+    "it": "Di chi è questo?",
+    "pt": "De quem é isso?",
+    "ja": "これは誰のですか？",
+    "zh": "这是谁的？",
+    "ko": "이거 누구 거예요?",
+    "hi": "यह किसका है?",
+    "ar": "لمن هذا؟",
+    "ru": "Чьё это?",
+    "nl": "Van wie is dit?"
+   },
+   "say": {
+    "ja": "kore wa dare no desu ka?",
+    "zh": "zhè shì shéi de?",
+    "ko": "igeo nugu geoyeyo?",
+    "hi": "yeh kiska hai?",
+    "ar": "liman haadha?",
+    "ru": "chyo eto?"
+   }
+  },
+  {
+   "en": "is this yours",
+   "also": [],
+   "t": {
+    "es": "¿Es suyo?",
+    "fr": "C'est à vous ?",
+    "de": "Gehört das Ihnen?",
+    "it": "È suo?",
+    "pt": "Isso é seu?",
+    "ja": "これはあなたのですか？",
+    "zh": "这是你的吗？",
+    "ko": "이거 당신 거예요?",
+    "hi": "क्या यह आपका है?",
+    "ar": "هل هذا لك؟",
+    "ru": "Это ваше?",
+    "nl": "Is dit van u?"
+   },
+   "say": {
+    "ja": "kore wa anata no desu ka?",
+    "zh": "zhè shì nǐ de ma?",
+    "ko": "igeo dangsin geoyeyo?",
+    "hi": "kya yeh aapka hai?",
+    "ar": "hal haadha lak?",
+    "ru": "eto vashe?"
+   }
+  },
+  {
+   "en": "this is mine",
+   "also": [
+    "it's mine"
+   ],
+   "t": {
+    "es": "Es mío",
+    "fr": "C'est à moi",
+    "de": "Das gehört mir",
+    "it": "È mio",
+    "pt": "É meu",
+    "ja": "これは私のです",
+    "zh": "这是我的",
+    "ko": "이거 제 거예요",
+    "hi": "यह मेरा है",
+    "ar": "هذا لي",
+    "ru": "Это моё",
+    "nl": "Dit is van mij"
+   },
+   "say": {
+    "ja": "kore wa watashi no desu",
+    "zh": "zhè shì wǒ de",
+    "ko": "igeo je geoyeyo",
+    "hi": "yeh mera hai",
+    "ar": "haadha li",
+    "ru": "eto moyo"
+   }
+  },
+  {
+   "en": "can i borrow this",
+   "also": [
+    "can i borrow it"
+   ],
+   "t": {
+    "es": "¿Me lo presta?",
+    "fr": "Je peux l'emprunter ?",
+    "de": "Darf ich das ausleihen?",
+    "it": "Posso prenderlo in prestito?",
+    "pt": "Posso pegar emprestado?",
+    "ja": "これを借りてもいいですか？",
+    "zh": "我可以借这个吗？",
+    "ko": "이거 빌려도 돼요?",
+    "hi": "क्या मैं यह उधार ले सकता / सकती हूँ?",
+    "ar": "هل يمكنني استعارة هذا؟",
+    "ru": "Можно это взять?",
+    "nl": "Mag ik dit lenen?"
+   },
+   "say": {
+    "ja": "kore o karite mo ii desu ka?",
+    "zh": "wǒ kěyǐ jiè zhège ma?",
+    "ko": "igeo billyeodo dwaeyo?",
+    "hi": "kya main yeh udhaar le sakta / sakti hoon?",
+    "ar": "hal yumkinuni isti'aarat haadha?",
+    "ru": "mozhno eto vzyat?"
+   }
+  },
+  {
+   "en": "can you show me",
+   "also": [],
+   "t": {
+    "es": "¿Me lo puede mostrar?",
+    "fr": "Vous pouvez me montrer ?",
+    "de": "Können Sie es mir zeigen?",
+    "it": "Me lo può mostrare?",
+    "pt": "Pode me mostrar?",
+    "ja": "見せてもらえますか？",
+    "zh": "你能给我看看吗？",
+    "ko": "보여 주실 수 있어요?",
+    "hi": "क्या आप मुझे दिखा सकते हैं?",
+    "ar": "هل يمكنك أن تريني؟",
+    "ru": "Можете мне показать?",
+    "nl": "Kunt u het me laten zien?"
+   },
+   "say": {
+    "ja": "misete moraemasu ka?",
+    "zh": "nǐ néng gěi wǒ kànkan ma?",
+    "ko": "boyeo jusil su isseoyo?",
+    "hi": "kya aap mujhe dikha sakte hain?",
+    "ar": "hal yumkinuka an turini?",
+    "ru": "mozhete mne pokazat?"
+   }
+  },
+  {
+   "en": "do you have ...",
+   "also": [
+    "do you have"
+   ],
+   "t": {
+    "es": "¿Tiene ...?",
+    "fr": "Vous avez ... ?",
+    "de": "Haben Sie ...?",
+    "it": "Ha ...?",
+    "pt": "Você tem ...?",
+    "ja": "...はありますか？",
+    "zh": "你有...吗？",
+    "ko": "...있어요?",
+    "hi": "क्या आपके पास ... है?",
+    "ar": "هل عندك ...؟",
+    "ru": "У вас есть ...?",
+    "nl": "Heeft u ...?"
+   },
+   "say": {
+    "ja": "...wa arimasu ka?",
+    "zh": "nǐ yǒu ... ma?",
+    "ko": "...isseoyo?",
+    "hi": "kya aapke paas ... hai?",
+    "ar": "hal 'indak ...?",
+    "ru": "u vas yest ...?"
+   }
+  },
+  {
+   "en": "is there ...",
+   "also": [
+    "is there"
+   ],
+   "t": {
+    "es": "¿Hay ...?",
+    "fr": "Il y a ... ?",
+    "de": "Gibt es ...?",
+    "it": "C'è ...?",
+    "pt": "Tem ...?",
+    "ja": "...がありますか？",
+    "zh": "有...吗？",
+    "ko": "...이 있어요?",
+    "hi": "क्या यहाँ ... है?",
+    "ar": "هل يوجد ...؟",
+    "ru": "Здесь есть ...?",
+    "nl": "Is er ...?"
+   },
+   "say": {
+    "ja": "...ga arimasu ka?",
+    "zh": "yǒu ... ma?",
+    "ko": "...i isseoyo?",
+    "hi": "kya yahaan ... hai?",
+    "ar": "hal yoojad ...?",
+    "ru": "zdes yest ...?"
+   }
+  },
+  {
+   "en": "did you like it",
+   "also": [],
+   "t": {
+    "es": "¿Le gustó?",
+    "fr": "Ça vous a plu ?",
+    "de": "Hat es Ihnen gefallen?",
+    "it": "Le è piaciuto?",
+    "pt": "Você gostou?",
+    "ja": "気に入りましたか？",
+    "zh": "你喜欢吗？",
+    "ko": "마음에 들었어요?",
+    "hi": "क्या आपको पसंद आया?",
+    "ar": "هل أعجبك؟",
+    "ru": "Вам понравилось?",
+    "nl": "Vond u het leuk?"
+   },
+   "say": {
+    "ja": "ki ni irimashita ka?",
+    "zh": "nǐ xǐhuan ma?",
+    "ko": "maeume deureosseoyo?",
+    "hi": "kya aapko pasand aaya?",
+    "ar": "hal a'jabak?",
+    "ru": "vam ponravilos?"
+   }
+  },
+  {
+   "en": "do you like it",
+   "also": [],
+   "t": {
+    "es": "¿Le gusta?",
+    "fr": "Ça vous plaît ?",
+    "de": "Gefällt es Ihnen?",
+    "it": "Le piace?",
+    "pt": "Você gosta?",
+    "ja": "好きですか？",
+    "zh": "你喜欢这个吗？",
+    "ko": "마음에 들어요?",
+    "hi": "क्या आपको यह पसंद है?",
+    "ar": "هل يعجبك؟",
+    "ru": "Вам нравится?",
+    "nl": "Vindt u het leuk?"
+   },
+   "say": {
+    "ja": "suki desu ka?",
+    "zh": "nǐ xǐhuan zhège ma?",
+    "ko": "maeume deureoyo?",
+    "hi": "kya aapko yeh pasand hai?",
+    "ar": "hal yu'jibuk?",
+    "ru": "vam nravitsya?"
+   }
+  },
+  {
+   "en": "what is your favorite ...",
+   "also": [
+    "what is your favorite"
+   ],
+   "t": {
+    "es": "¿Cuál es su ... favorito/a?",
+    "fr": "Quel est votre ... préféré ?",
+    "de": "Was ist Ihr Lieblings...?",
+    "it": "Qual è il suo ... preferito?",
+    "pt": "Qual é o seu ... favorito?",
+    "ja": "好きな...は何ですか？",
+    "zh": "你最喜欢的...是什么？",
+    "ko": "제일 좋아하는 ...은 뭐예요?",
+    "hi": "आपका पसंदीदा ... क्या है?",
+    "ar": "ما هو ... المفضل لديك؟",
+    "ru": "Какой ваш любимый ...?",
+    "nl": "Wat is uw favoriete ...?"
+   },
+   "say": {
+    "ja": "suki na ... wa nan desu ka?",
+    "zh": "nǐ zuì xǐhuan de ... shì shénme?",
+    "ko": "jeil joahaneun ...eun mwoyeyo?",
+    "hi": "aapka pasandeeda ... kya hai?",
+    "ar": "ma huwa ... al-mufaddal ladayk?",
+    "ru": "kakoy vash lyubimy ...?"
+   }
+  },
+  {
+   "en": "my favorite ... is ...",
+   "also": [
+    "my favorite"
+   ],
+   "t": {
+    "es": "Mi ... favorito/a es ...",
+    "fr": "Mon ... préféré, c'est ...",
+    "de": "Mein Lieblings... ist ...",
+    "it": "Il mio ... preferito è ...",
+    "pt": "Meu ... favorito é ...",
+    "ja": "私の好きな...は...です",
+    "zh": "我最喜欢的...是...",
+    "ko": "제가 제일 좋아하는 ...은 ...이에요",
+    "hi": "मेरा पसंदीदा ... ... है",
+    "ar": "... المفضل لدي هو ...",
+    "ru": "Мой любимый ... это ...",
+    "nl": "Mijn favoriete ... is ..."
+   },
+   "say": {
+    "ja": "watashi no suki na ... wa ... desu",
+    "zh": "wǒ zuì xǐhuan de ... shì ...",
+    "ko": "jega jeil joahaneun ...eun ...ieyo",
+    "hi": "mera pasandeeda ... ... hai",
+    "ar": "... al-mufaddal ladayya huwa ...",
+    "ru": "moy lyubimy ... eto ..."
+   }
+  },
+  {
+   "en": "what do you like to do",
+   "also": [],
+   "t": {
+    "es": "¿Qué le gusta hacer?",
+    "fr": "Qu'est-ce que vous aimez faire ?",
+    "de": "Was machen Sie gern?",
+    "it": "Cosa le piace fare?",
+    "pt": "O que você gosta de fazer?",
+    "ja": "何をするのが好きですか？",
+    "zh": "你喜欢做什么？",
+    "ko": "뭘 하는 걸 좋아해요?",
+    "hi": "आपको क्या करना पसंद है?",
+    "ar": "ماذا تحب أن تفعل؟",
+    "ru": "Что вы любите делать?",
+    "nl": "Wat doet u graag?"
+   },
+   "say": {
+    "ja": "nani o suru no ga suki desu ka?",
+    "zh": "nǐ xǐhuan zuò shénme?",
+    "ko": "mwol haneun geol joahaeyo?",
+    "hi": "aapko kya karna pasand hai?",
+    "ar": "maadha tuhibb an taf'al?",
+    "ru": "chto vy lyubite delat?"
+   }
+  },
+  {
+   "en": "how do you say this",
+   "also": [
+    "how do i say this"
+   ],
+   "t": {
+    "es": "¿Cómo se dice esto?",
+    "fr": "Comment on dit ça ?",
+    "de": "Wie sagt man das?",
+    "it": "Come si dice questo?",
+    "pt": "Como se diz isso?",
+    "ja": "これはどう言いますか？",
+    "zh": "这个怎么说？",
+    "ko": "이건 어떻게 말해요?",
+    "hi": "इसे कैसे कहते हैं?",
+    "ar": "كيف تقول هذا؟",
+    "ru": "Как это сказать?",
+    "nl": "Hoe zeg je dit?"
+   },
+   "say": {
+    "ja": "kore wa dou iimasu ka?",
+    "zh": "zhège zěnme shuō?",
+    "ko": "igeon eotteoke malhaeyo?",
+    "hi": "ise kaise kehte hain?",
+    "ar": "kayfa taqool haadha?",
+    "ru": "kak eto skazat?"
+   }
+  },
+  {
+   "en": "what time does it open",
+   "also": [],
+   "t": {
+    "es": "¿A qué hora abre?",
+    "fr": "À quelle heure ça ouvre ?",
+    "de": "Wann öffnet es?",
+    "it": "A che ora apre?",
+    "pt": "Que horas abre?",
+    "ja": "何時に開きますか？",
+    "zh": "几点开门？",
+    "ko": "몇 시에 열어요?",
+    "hi": "यह कितने बजे खुलता है?",
+    "ar": "متى يفتح؟",
+    "ru": "Во сколько открывается?",
+    "nl": "Hoe laat gaat het open?"
+   },
+   "say": {
+    "ja": "nanji ni hirakimasu ka?",
+    "zh": "jǐ diǎn kāimén?",
+    "ko": "myeot sie yeoreoyo?",
+    "hi": "yeh kitne baje khulta hai?",
+    "ar": "mata yaftah?",
+    "ru": "vo skolko otkryvayetsya?"
+   }
+  },
+  {
+   "en": "what time does it close",
+   "also": [],
+   "t": {
+    "es": "¿A qué hora cierra?",
+    "fr": "À quelle heure ça ferme ?",
+    "de": "Wann schließt es?",
+    "it": "A che ora chiude?",
+    "pt": "Que horas fecha?",
+    "ja": "何時に閉まりますか？",
+    "zh": "几点关门？",
+    "ko": "몇 시에 닫아요?",
+    "hi": "यह कितने बजे बंद होता है?",
+    "ar": "متى يغلق؟",
+    "ru": "Во сколько закрывается?",
+    "nl": "Hoe laat gaat het dicht?"
+   },
+   "say": {
+    "ja": "nanji ni shimarimasu ka?",
+    "zh": "jǐ diǎn guānmén?",
+    "ko": "myeot sie dadayo?",
+    "hi": "yeh kitne baje band hota hai?",
+    "ar": "mata yughliq?",
+    "ru": "vo skolko zakryvayetsya?"
+   }
+  },
+  {
+   "en": "what day is it today",
+   "also": [
+    "what day is it"
+   ],
+   "t": {
+    "es": "¿Qué día es hoy?",
+    "fr": "Quel jour sommes-nous ?",
+    "de": "Welcher Tag ist heute?",
+    "it": "Che giorno è oggi?",
+    "pt": "Que dia é hoje?",
+    "ja": "今日は何曜日ですか？",
+    "zh": "今天星期几？",
+    "ko": "오늘 무슨 요일이에요?",
+    "hi": "आज कौन सा दिन है?",
+    "ar": "أي يوم اليوم؟",
+    "ru": "Какой сегодня день?",
+    "nl": "Welke dag is het vandaag?"
+   },
+   "say": {
+    "ja": "kyou wa nan'youbi desu ka?",
+    "zh": "jīntiān xīngqī jǐ?",
+    "ko": "oneul museun yoirieyo?",
+    "hi": "aaj kaun sa din hai?",
+    "ar": "ayyu yawmin al-yawm?",
+    "ru": "kakoy segodnya den?"
+   }
+  },
+  {
+   "en": "what's the date today",
+   "also": [
+    "what is today's date"
+   ],
+   "t": {
+    "es": "¿Qué fecha es hoy?",
+    "fr": "Quelle est la date aujourd'hui ?",
+    "de": "Der Wievielte ist heute?",
+    "it": "Quanti ne abbiamo oggi?",
+    "pt": "Qual é a data de hoje?",
+    "ja": "今日は何日ですか？",
+    "zh": "今天几号？",
+    "ko": "오늘 며칠이에요?",
+    "hi": "आज कौन सी तारीख़ है?",
+    "ar": "ما تاريخ اليوم؟",
+    "ru": "Какое сегодня число?",
+    "nl": "Welke datum is het vandaag?"
+   },
+   "say": {
+    "ja": "kyou wa nannichi desu ka?",
+    "zh": "jīntiān jǐ hào?",
+    "ko": "oneul myeochirieyo?",
+    "hi": "aaj kaun si taareekh hai?",
+    "ar": "ma taareekh al-yawm?",
+    "ru": "kakoye segodnya chislo?"
+   }
+  },
+  {
+   "en": "what's your phone number",
+   "also": [
+    "what is your number"
+   ],
+   "t": {
+    "es": "¿Cuál es su número de teléfono?",
+    "fr": "Quel est votre numéro de téléphone ?",
+    "de": "Wie ist Ihre Telefonnummer?",
+    "it": "Qual è il suo numero di telefono?",
+    "pt": "Qual é o seu número de telefone?",
+    "ja": "電話番号は何ですか？",
+    "zh": "你的电话号码是多少？",
+    "ko": "전화번호가 뭐예요?",
+    "hi": "आपका फ़ोन नंबर क्या है?",
+    "ar": "ما رقم هاتفك؟",
+    "ru": "Какой у вас номер телефона?",
+    "nl": "Wat is uw telefoonnummer?"
+   },
+   "say": {
+    "ja": "denwa bangou wa nan desu ka?",
+    "zh": "nǐ de diànhuà hàomǎ shì duōshao?",
+    "ko": "jeonhwabeonhoga mwoyeyo?",
+    "hi": "aapka fon nambar kya hai?",
+    "ar": "ma raqm haatifak?",
+    "ru": "kakoy u vas nomer telefona?"
+   }
+  },
+  {
+   "en": "where do you live",
+   "also": [],
+   "t": {
+    "es": "¿Dónde vive?",
+    "fr": "Où habitez-vous ?",
+    "de": "Wo wohnen Sie?",
+    "it": "Dove abita?",
+    "pt": "Onde você mora?",
+    "ja": "どこに住んでいますか？",
+    "zh": "你住在哪里？",
+    "ko": "어디 살아요?",
+    "hi": "आप कहाँ रहते हैं?",
+    "ar": "أين تسكن؟",
+    "ru": "Где вы живёте?",
+    "nl": "Waar woont u?"
+   },
+   "say": {
+    "ja": "doko ni sunde imasu ka?",
+    "zh": "nǐ zhù zài nǎlǐ?",
+    "ko": "eodi sarayo?",
+    "hi": "aap kahaan rehte hain?",
+    "ar": "ayna taskun?",
+    "ru": "gde vy zhivyote?"
+   }
+  },
+  {
+   "en": "when is your birthday",
+   "also": [],
+   "t": {
+    "es": "¿Cuándo es su cumpleaños?",
+    "fr": "C'est quand votre anniversaire ?",
+    "de": "Wann haben Sie Geburtstag?",
+    "it": "Quando è il suo compleanno?",
+    "pt": "Quando é o seu aniversário?",
+    "ja": "誕生日はいつですか？",
+    "zh": "你的生日是什么时候？",
+    "ko": "생일이 언제예요?",
+    "hi": "आपका जन्मदिन कब है?",
+    "ar": "متى عيد ميلادك؟",
+    "ru": "Когда у вас день рождения?",
+    "nl": "Wanneer bent u jarig?"
+   },
+   "say": {
+    "ja": "tanjoubi wa itsu desu ka?",
+    "zh": "nǐ de shēngrì shì shénme shíhou?",
+    "ko": "saengiri eonjeyeyo?",
+    "hi": "aapka janmadin kab hai?",
+    "ar": "mata 'eed meelaadak?",
+    "ru": "kogda u vas den rozhdeniya?"
+   }
+  },
+  {
+   "en": "do you have brothers or sisters",
+   "also": [
+    "do you have siblings"
+   ],
+   "t": {
+    "es": "¿Tiene hermanos?",
+    "fr": "Vous avez des frères et sœurs ?",
+    "de": "Haben Sie Geschwister?",
+    "it": "Ha fratelli o sorelle?",
+    "pt": "Você tem irmãos?",
+    "ja": "兄弟はいますか？",
+    "zh": "你有兄弟姐妹吗？",
+    "ko": "형제가 있어요?",
+    "hi": "क्या आपके भाई-बहन हैं?",
+    "ar": "هل لديك إخوة؟",
+    "ru": "У вас есть братья или сёстры?",
+    "nl": "Heeft u broers of zussen?"
+   },
+   "say": {
+    "ja": "kyoudai wa imasu ka?",
+    "zh": "nǐ yǒu xiōngdì jiěmèi ma?",
+    "ko": "hyeongjega isseoyo?",
+    "hi": "kya aapke bhai-bahan hain?",
+    "ar": "hal ladayka ikhwa?",
+    "ru": "u vas yest bratya ili syostry?"
+   }
+  },
+  {
+   "en": "what grade are you in",
+   "also": [],
+   "t": {
+    "es": "¿En qué grado está?",
+    "fr": "Vous êtes en quelle classe ?",
+    "de": "In welcher Klasse sind Sie?",
+    "it": "In che classe è?",
+    "pt": "Em que ano você está?",
+    "ja": "何年生ですか？",
+    "zh": "你上几年级？",
+    "ko": "몇 학년이에요?",
+    "hi": "आप किस कक्षा में हैं?",
+    "ar": "في أي صف أنت؟",
+    "ru": "В каком вы классе?",
+    "nl": "In welke klas zit u?"
+   },
+   "say": {
+    "ja": "nannensei desu ka?",
+    "zh": "nǐ shàng jǐ niánjí?",
+    "ko": "myeot hangnyeonieyo?",
+    "hi": "aap kis kaksha mein hain?",
+    "ar": "fi ayyi saff anta?",
+    "ru": "v kakom vy klasse?"
+   }
+  },
+  {
+   "en": "can we be friends",
+   "also": [],
+   "t": {
+    "es": "¿Podemos ser amigos?",
+    "fr": "On peut être amis ?",
+    "de": "Wollen wir Freunde sein?",
+    "it": "Possiamo essere amici?",
+    "pt": "Podemos ser amigos?",
+    "ja": "友達になってくれますか？",
+    "zh": "我们可以做朋友吗？",
+    "ko": "우리 친구 할래요?",
+    "hi": "क्या हम दोस्त बन सकते हैं?",
+    "ar": "هل يمكن أن نكون أصدقاء؟",
+    "ru": "Давайте дружить",
+    "nl": "Zullen we vrienden worden?"
+   },
+   "say": {
+    "ja": "tomodachi ni natte kuremasu ka?",
+    "zh": "wǒmen kěyǐ zuò péngyou ma?",
+    "ko": "uri chingu hallaeyo?",
+    "hi": "kya ham dost ban sakte hain?",
+    "ar": "hal yumkin an nakoona asdiqaa'?",
+    "ru": "davayte druzhit"
+   }
+  },
+  {
+   "en": "do you want to play",
+   "also": [
+    "want to play"
+   ],
+   "t": {
+    "es": "¿Jugamos?",
+    "fr": "On joue ?",
+    "de": "Wollen wir spielen?",
+    "it": "Giochiamo?",
+    "pt": "Vamos brincar?",
+    "ja": "一緒に遊びませんか？",
+    "zh": "要一起玩吗？",
+    "ko": "같이 놀래요?",
+    "hi": "क्या आप खेलना चाहते हैं?",
+    "ar": "هل تريد أن تلعب؟",
+    "ru": "Давайте поиграем?",
+    "nl": "Zullen we spelen?"
+   },
+   "say": {
+    "ja": "issho ni asobimasen ka?",
+    "zh": "yào yìqǐ wán ma?",
+    "ko": "gachi nollaeyo?",
+    "hi": "kya aap khelna chaahte hain?",
+    "ar": "hal tureed an tal'ab?",
+    "ru": "davayte poigrayem?"
+   }
+  }
+ ]
+}

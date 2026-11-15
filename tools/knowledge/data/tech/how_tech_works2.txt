@@ -1,0 +1,22 @@
+# tag: tech.how.works2
+how do cell towers work | how does my phone connect to the network => Your phone talks by radio to the nearest cell tower, which connects to the carrier's network by cable. As you move, your phone hands off to the next tower.
+how does texting work | how are sms messages sent => A normal text, or SMS, travels over the cell network through your carrier to the other person's carrier. iMessage and RCS send messages over the internet instead.
+what is phone roaming | roaming charges abroad => Roaming means using another carrier's network, usually in another country. It can cost extra, so check your plan or use Wi-Fi before traveling.
+what is volte | voice over lte => VoLTE carries phone calls over the 4G network, giving clearer calls and letting you use data during a call.
+what is mmwave 5g | 5g mmwave vs sub 6 => mmWave 5G uses very high frequencies for huge speeds over short distances, often only outdoors in busy areas. Most 5G uses lower frequencies that reach farther.
+how does a microphone work | how do mics pick up sound => Sound waves move a thin part inside the mic called a diaphragm. That movement is turned into an electrical signal that matches the sound.
+how does a smart speaker hear its wake word | is alexa always listening => The speaker listens on the device for its wake word, like Alexa. It only starts sending audio to the cloud after it hears that word.
+what is imap vs pop | email account settings imap => IMAP keeps your email on the server, so it syncs across all your devices. POP downloads mail to one device. Use IMAP for almost everything.
+what is smtp | outgoing mail server => SMTP is the system used to send email from your app to mail servers and on to the other person's mailbox.
+how do spam filters work | why did my email go to spam => Spam filters look at the sender's reputation, links and wording and whether the email is properly signed, then send suspicious mail to the spam folder.
+how do authenticator app codes work | why do 2fa codes change every 30 seconds => Your phone and the website share a secret when you set it up. Both use that secret and the clock to make the same six-digit code, which changes every 30 seconds.
+how do search engines find websites | what is a web crawler => Search engines use programs called crawlers that follow links across the web, read pages and store them in a giant index to search later.
+how does search autocomplete work | why does google finish my search => Autocomplete suggests searches based on what many people search for, what's trending and sometimes your own past searches.
+how does video streaming change quality | what is adaptive bitrate => Streaming apps keep several quality versions of a video and switch between them as your internet speeds up or slows down, so it keeps playing.
+how do video calls work | how does facetime send video => Your device compresses your camera and mic into small packets and sends them over the internet, and the other device decodes them almost instantly.
+how do online games stay in sync | client and server in games => In most online games, a server keeps the true game state. Each player's game sends inputs and predicts what happens, then the server corrects any differences.
+how does a projector make a picture | how do projectors work => A projector shines a bright light through or off a tiny image chip and uses a lens to make the picture big on a wall or screen.
+how does a touchscreen know where i tap | how do phone screens feel fingers => Phone screens have a grid of tiny wires that hold an electric field. Your finger changes the field at that spot, and the phone measures where.
+how does noise cancelling block sound | how does anc work => Microphones on the headphones hear outside noise, and the headphones play the opposite sound wave, which cancels much of the noise out.
+how does a usb cable carry power and data | wires inside a usb cable => A USB cable has separate wires for power and for data. USB-C cables can carry more power and faster data depending on the cable's rating.
+how does a phone camera blur the background | how does portrait mode work => Portrait mode uses two cameras or depth sensing to figure out how far things are, then blurs the background in software.

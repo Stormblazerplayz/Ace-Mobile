@@ -1,0 +1,11 @@
+# tag: tech.resolve.extra
+what are smart bins in resolve | auto sort clips resolve => Smart bins collect clips automatically based on rules you set, like a keyword, file type or frame rate, so new matching clips show up in them.
+what are power bins in resolve | share clips across projects resolve => Power bins are bins that show up in every project in the same database, handy for logos, sound effects and intros you reuse.
+what is the depth map effect in resolve | blur background with depth resolve => Depth Map in Resolve Studio guesses how far each part of the image is and makes a matte, so you can blur or grade the background separately.
+what is relight in resolve | add light to a face in post => Relight is a Resolve Studio effect that adds virtual light to a scene after filming, using a map of surface shapes it builds from the image.
+what is dialogue leveler in resolve | even out speaking volume fairlight => Dialogue Leveler is a Fairlight effect in Resolve 19 and later that automatically evens out loud and quiet parts of speech.
+how do i make subtitles automatically in resolve | create subtitles from audio => In Resolve Studio, choose Timeline, Create Subtitles from Audio. It transcribes the speech into a subtitle track you can fix and style.
+what is davinci wide gamut | dwg color space => DaVinci Wide Gamut is a very large color space Resolve can grade in. Footage converts into it and then out to Rec.709 or HDR for delivery.
+what are hue vs curves in resolve | change only one color resolve => Hue vs Hue, Hue vs Sat and Hue vs Lum curves change just one range of colors, like making only the grass greener or the sky darker.
+what is quick export in resolve | fast export without deliver page => File, Quick Export renders the timeline with simple presets like H.264, H.265 or YouTube without going to the Deliver page.
+what is the delta keyer | fusion green screen key => Delta Keyer is a Fusion tool for keying green or blue screens with fine control over spill, edges and the matte.

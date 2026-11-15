@@ -1,0 +1,133 @@
+# Lua and Luau language basics, written by hand for Ace.
+# tag: coding.luau
+luau vs lua | is roblox lua or luau => Luau is Roblox's language, based on Lua 5.1 with extras like type checking, `+=` operators, `continue`, string interpolation and faster speed. Most plain Lua code also works in Luau.
+what is lua used for | who made lua => Lua is a small, fast scripting language made in Brazil in 1993. It is used in games and apps like Roblox (as Luau), World of Warcraft addons, and many game engines.
+how do i make a variable in lua | local variable luau | declare a variable lua => Write `local name = value`, like `local coins = 10`. Without `local` it becomes a global, which you should avoid.
+what types are there in lua | lua data types | luau types list => Lua has nil, boolean, number, string, table, function, thread (coroutine) and userdata. Luau adds vector and buffer, and Roblox adds types like Vector3 and Instance.
+what is nil in lua | nil meaning luau | what does nil mean => nil means no value. A variable that was never set, a missing table key, or a function that returns nothing gives nil.
+what values are false in lua | truthy and falsy luau | is 0 false in lua => Only `false` and `nil` count as false. Everything else is true, even 0 and the empty string "".
+how do i write an if statement in lua | if else luau | lua if syntax => `if score > 10 then print("win") elseif score > 5 then print("close") else print("lose") end`.
+what does ~= mean in lua | not equal in luau | lua not equals sign => `~=` means not equal, like `if name ~= "Bob" then`. Lua does not use `!=`.
+what are and or not in lua | logical operators luau | lua boolean operators => `and` is true if both sides are true, `or` if either is, and `not` flips true and false. `x = x or 5` sets a default when x is nil.
+how do i do a ternary in lua | inline if luau | one line if else lua => Luau has if expressions: `local label = if score > 10 then "high" else "low"`. In older Lua people write `cond and a or b`, which fails if a is false or nil.
+how do i write a for loop in lua | numeric for loop luau | count from 1 to 10 lua => `for i = 1, 10 do print(i) end`. Add a third number for the step: `for i = 10, 1, -1 do` counts down.
+how do i loop through a table in lua | pairs vs ipairs | iterate table luau => Use `for i, v in ipairs(list) do` for arrays in order, and `for k, v in pairs(dict) do` for any keys. In Luau you can also write `for k, v in tbl do`.
+what is the difference between pairs and ipairs | ipairs vs pairs luau | when to use ipairs => ipairs goes through 1, 2, 3 in order and stops at the first nil. pairs goes through every key in no set order, including string keys.
+what is generalized iteration in luau | for k v in table without pairs | luau for in loop => Luau lets you loop a table directly: `for key, value in myTable do`. It works like pairs but also keeps array parts in order.
+how do i write a while loop in lua | while loop luau | lua while syntax => `while health > 0 do health -= 1 task.wait(1) end`. The condition is checked before each run.
+what is repeat until in lua | repeat until loop luau | do while in lua => `repeat ... until condition` runs the body at least once and stops when the condition becomes true.
+how do i skip to the next loop in lua | continue in luau | skip an iteration => Luau has `continue`: `for i = 1, 10 do if i % 2 == 0 then continue end print(i) end`. Plain Lua 5.1 does not, so people use goto or an if around the body.
+how do i make a function in lua | lua function syntax | define a function luau => `local function add(a, b) return a + b end`, then call it with `add(2, 3)`.
+can a lua function return more than one value | multiple returns lua | return two values luau => Yes: `local function minmax(a, b) return math.min(a, b), math.max(a, b) end` and `local lo, hi = minmax(5, 2)`.
+what is ... in lua | varargs lua | variable number of arguments luau => `...` takes any number of arguments: `local function sum(...) local t = 0 for _, n in {...} do t += n end return t end`. Use `select("#", ...)` to count them.
+what is an anonymous function in lua | function without a name luau | inline function lua => A function written right where it is used, like `button.Activated:Connect(function() print("hi") end)`. It has no name of its own.
+what is a closure in lua | closures luau | function remembers variables => A closure is a function that remembers local variables from where it was made, even after that code finished. Counters and callbacks use this a lot.
+what is a table in lua | lua tables explained | luau table basics => A table is Lua's only data structure. It can be a list `{1, 2, 3}`, a dictionary `{name = "Bob"}`, or both, and it is used for arrays, objects and modules.
+how do i add to a table in lua | append to list lua => `table.insert(list, value)` adds to the end, or `list[#list + 1] = value`. `table.insert(list, 1, value)` adds at the front.
+how do i remove from a table in lua | delete item from list lua => `table.remove(list, index)` removes that item and shifts the rest down. For dictionaries set the key to nil: `dict.key = nil`.
+how do i get the length of a table in lua | # operator lua | count items in a list luau => `#list` gives the length of an array part. It does not count dictionary keys, so loop with pairs and count for those.
+how do i count keys in a dictionary lua | dictionary length luau | number of keys in a table => Loop and count: `local n = 0 for _ in dict do n += 1 end`. The # operator does not work on dictionaries.
+do lua arrays start at 1 | lua index starts at 1 | why does lua start at 1 => Yes. Lua arrays start at index 1, not 0, so the first item is `list[1]` and the last is `list[#list]`.
+how do i check if a table contains a value | is item in list lua => In Luau use `table.find(list, value)`, which returns its index or nil. In plain Lua, loop and compare each item.
+how do i copy a table in lua | table clone => `table.clone(t)` makes a shallow copy in Luau. Nested tables inside are still shared, so copy those too if you need a deep copy.
+how do i sort a table in lua | sort high to low lua => `table.sort(list)` sorts small to big. For your own order pass a function: `table.sort(list, function(a, b) return a > b end)` sorts big to small.
+how do i join a table into a string | list to string lua => `table.concat({"a", "b", "c"}, ", ")` gives "a, b, c". It only works with strings and numbers.
+what is a nested table in lua | table inside a table | 2d array luau => A table can hold other tables: `local grid = {{1, 2}, {3, 4}}` and `grid[2][1]` is 3. Make each inner table before using it.
+are tables passed by reference in lua | table reference luau | why did my table change => Yes. Assigning or passing a table shares the same table, so changing it through one variable changes it for all. Use table.clone for a separate copy.
+how do i join strings in lua | concatenate lua | string concat luau => Use `..`: `"Hello " .. name`. Numbers join too: `"Level " .. 5`.
+what is string interpolation in luau | backtick strings luau | format a string with variables => Luau supports backtick strings: `` `Hello {name}, you have {coins} coins` ``. The parts in braces are filled in.
+how do i get the length of a string in lua | string length luau | count characters lua => `#text` or `string.len(text)` gives the number of bytes, which equals characters for plain English text.
+how do i make a string uppercase in lua | upper and lower luau | string upper lua => `string.upper("hi")` gives "HI" and `string.lower("HI")` gives "hi". You can also write `text:upper()`.
+how do i get part of a string in lua | substring lua => `string.sub("hello", 2, 4)` gives "ell". Negative numbers count from the end: `("hello"):sub(-2)` is "lo".
+how do i find text in a string in lua | does string contain lua => `string.find(text, "cat", 1, true)` returns where "cat" starts, or nil. The true turns off pattern matching so special characters work normally.
+how do i replace text in a string in lua | replace word lua => `local new = string.gsub("I like cats", "cats", "dogs")` gives "I like dogs". gsub also returns how many replacements it made.
+what are lua patterns | lua pattern matching | %d in lua => Lua patterns are a simple version of regex: `%d` is a digit, `%a` a letter, `%s` whitespace, `.` any character, `+` one or more, `*` zero or more. Use `%` to escape special characters.
+split string by comma | string split roblox => In Roblox, `string.split("a,b,c", ",")` returns `{"a", "b", "c"}`. In plain Lua use `for part in string.gmatch(s, "[^,]+") do`.
+how do i trim spaces in lua | remove spaces from start and end | strip whitespace luau => `local trimmed = string.match(s, "^%s*(.-)%s*$")` removes spaces at both ends.
+how do i repeat a string in lua | repeat text => `string.rep("ab", 3)` gives "ababab".
+how do i reverse a string in lua | backwards text lua => `string.reverse("hello")` gives "olleh".
+how do i format numbers in lua | 2 decimal places lua => `string.format("%.2f", 3.14159)` gives "3.14". `%d` formats whole numbers and `%s` strings.
+how do i loop through each letter of a string in lua | iterate characters lua | string characters luau => `for i = 1, #s do local c = s:sub(i, i) print(c) end`, or `for c in s:gmatch(".") do`.
+how do i check a variable's type in lua | type function lua | is it a number luau => `type(x)` returns "nil", "number", "string", "boolean", "table", "function", "thread" or "userdata". In Roblox use `typeof(x)` to also see Vector3 or Instance.
+what is the modulo operator in lua | % in lua | remainder luau => `%` gives the remainder after dividing: `7 % 3` is 1. `n % 2 == 0` checks if a number is even.
+what is floor division in luau | // operator luau | integer division lua => Luau has `//`, which divides and rounds down: `7 // 2` is 3. You can also use `math.floor(7 / 2)`.
+what is the power operator in lua | exponent in lua | squared in luau => `^` raises to a power: `2 ^ 3` is 8. Square roots use `math.sqrt(x)`.
+what are compound assignment operators in luau | += in lua | plus equals luau => Luau supports `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `^=` and `..=`, like `coins += 5`. Plain Lua 5.1 does not.
+does lua have ++ | increment a variable lua | i++ in luau => No. Lua and Luau have no `++`. Write `i += 1` in Luau or `i = i + 1` in Lua.
+how do i get a random number in lua | math random lua | random integer lua => `math.random(1, 10)` gives a whole number from 1 to 10, and `math.random()` gives a decimal from 0 up to 1.
+how do i round down or up in lua | math floor and ceil | round numbers lua => `math.floor(3.7)` is 3 and `math.ceil(3.2)` is 4. Luau also has `math.round(3.5)` which gives 4.
+how do i get the biggest number in a list lua | math max with table | max of a table luau => `math.max(table.unpack(list))` works for small lists. For big lists, loop and keep the largest.
+infinity in lua | biggest number lua => `math.huge` is infinity, bigger than any number. It is handy as a starting value when looking for the smallest distance.
+pi in lua | radians and degrees lua => `math.pi` is about 3.14159. Convert degrees to radians with `math.rad(deg)` and back with `math.deg(rad)`.
+what is math.clamp | clamp a number luau | keep a value between min and max => `math.clamp(x, min, max)` keeps x inside the range, like `math.clamp(health, 0, 100)`.
+how do i check if a number is a whole number | is integer lua | check decimals luau => `x % 1 == 0` is true for whole numbers, or compare `math.floor(x) == x`.
+what is a metatable | metatables explained lua | setmetatable => A metatable changes how a table behaves. Set one with `setmetatable(t, mt)` and add metamethods like `__index`, `__add` or `__tostring` to it.
+what is __index in lua | index metamethod | __index explained => `__index` runs when you read a key the table does not have. Setting `mt.__index = otherTable` makes missing keys come from otherTable, which is how classes and inheritance work.
+what is __newindex in lua | newindex metamethod | detect when a key is set => `__newindex` runs when you set a key that does not exist yet, so you can block it, log it, or store it somewhere else. Use `rawset` inside to really set it.
+what is __call metamethod | call a table like a function | __call lua => If a table's metatable has `__call`, you can call the table like a function: `t(5)` runs `mt.__call(t, 5)`.
+what is __tostring | tostring metamethod | print a table nicely lua => `__tostring` decides what `tostring(t)` and `print(t)` show, instead of a table address.
+what are arithmetic metamethods in lua | __add __eq lua | operator overloading lua => `__add`, `__sub`, `__mul`, `__div`, `__eq`, `__lt` and `__le` let tables work with `+`, `-`, `*`, `/`, `==`, `<` and `<=`. Vector-like objects use these.
+how do i make a class in lua | oop in luau | object oriented lua => Make a table, set `Class.__index = Class`, and write a constructor: `function Class.new(x) local self = setmetatable({}, Class) self.x = x return self end`. Methods use `function Class:Move() end`.
+what is self in lua | what does self mean luau | colon vs dot functions => `self` is the object a method was called on. `obj:Method()` is the same as `obj.Method(obj)`, so the colon passes the object as self automatically.
+what is the difference between . and : in lua | colon vs dot lua | why use colon in roblox => A colon passes the object as the first argument. `part:Destroy()` means `part.Destroy(part)`. Use `:` for methods and `.` for properties and plain functions.
+how do i do inheritance in lua | subclass lua | extend a class luau => Make the child's metatable point at the parent: `setmetatable(Child, {__index = Parent})` and `Child.__index = Child`. Missing methods are then found in Parent.
+what is rawget and rawset | rawget lua | bypass metatable => `rawget(t, k)` and `rawset(t, k, v)` read and write a table directly without calling `__index` or `__newindex`.
+what is a coroutine in lua | coroutines explained | coroutine create and resume => A coroutine is a function that can pause with `coroutine.yield()` and continue later with `coroutine.resume()`. It lets code take turns without blocking. In Roblox, task.spawn is usually simpler.
+what does coroutine.wrap do | coroutine wrap lua | wrap vs create => `coroutine.wrap(fn)` makes a coroutine and returns a function that resumes it each time you call it. Errors inside it are thrown to the caller.
+what is pcall in lua | protected call lua | catch errors luau => `pcall(fn, args)` runs fn and returns true and the results if it worked, or false and the error message if it failed, without stopping your script.
+what is xpcall | xpcall vs pcall | error handler lua => `xpcall(fn, handler)` is like pcall but calls your handler with the error first, so you can add things like `debug.traceback()` to see where it failed.
+how do i throw an error in lua | error function lua | make my own error luau => Call `error("Something went wrong")`. It stops the function and can be caught with pcall.
+what is assert in lua | assert function luau | check a condition lua => `assert(condition, "message")` throws an error with the message if the condition is false or nil, and returns the value if it is fine.
+what is a global variable in lua | _g in lua => A global is a variable made without `local`. `_G` is a table shared by scripts on the same side in Roblox, but ModuleScripts are a cleaner way to share data.
+what is scope in lua | variable scope luau | why is my variable nil outside => Scope is where a variable can be used. A `local` made inside a function, loop or if block only exists inside it, so declare it outside if you need it after.
+what is shadowing in lua | same variable name twice | local hides variable => Shadowing is making a new local with the same name as an outer one, which hides the outer one inside that block. It can cause bugs when you meant to change the outer variable.
+what is a do block in lua | do end lua | make a new scope => `do ... end` makes a block with its own scope, so locals inside it disappear after `end`.
+how do i write comments in lua | lua comment syntax | multi line comment luau => `--` comments one line. `--[[` starts a multi-line comment and `]]` ends it.
+what is a multiline string in lua | long string lua | [[ ]] string => `[[ ... ]]` makes a string that can cover many lines and keeps the text exactly as written.
+how do i escape quotes in lua | quotes inside a string lua | backslash in luau => Use a backslash: `"She said \"hi\""`, or use the other quote type: `'She said "hi"'`. `\n` is a new line and `\t` is a tab.
+what is goto in lua | goto continue lua | labels in lua => Lua 5.2 and newer have `goto` and `::label::`, often used to fake continue. Luau does not support goto; it has `continue` instead.
+what is type annotation in luau | how do i add types to a function => Add types after a colon: `local function add(a: number, b: number): number return a + b end`. With `--!strict`, Studio warns about wrong types.
+what is a type alias in luau | export type luau | define my own type => `type Player = {name: string, level: number}` makes a named type. `export type` lets other scripts use it after requiring the module.
+what is an optional type in luau | nil allowed type | question mark after a type luau => Adding `?` means the value can also be nil: `local target: Part? = nil`.
+what is a union type in luau | number or string type | variable that can be two types luau => A union means one of several types: `local id: number | string`. Check which one it is with `typeof` before using it.
+any vs unknown luau | turn off type checking for a variable => `any` turns off type checking for that value. `unknown` is safer because you must check its type before using it.
+what is table.freeze in luau | freeze a table | make a table read only => `table.freeze(t)` makes the table read-only, so changing it throws an error. `table.isfrozen(t)` checks it. Good for config tables.
+what is table.create in luau | make an array of a size | prefill table luau => `table.create(10, 0)` makes an array of 10 zeros. It is faster than adding items one by one when you know the size.
+what is table.move | copy part of an array lua => `table.move(src, 1, 3, 1, dest)` copies items 1 to 3 from src into dest starting at index 1.
+what is table.unpack | unpack lua | turn a table into arguments => `table.unpack({1, 2, 3})` returns 1, 2, 3 as separate values, handy for passing a list as function arguments.
+what is select in lua | select hash lua | count varargs => `select("#", ...)` gives the number of arguments in `...`, and `select(2, ...)` returns everything from the second one on.
+what is tostring and tonumber | convert types lua | number string conversion lua => `tostring(5)` gives "5" and `tonumber("5")` gives 5. tonumber returns nil when the text is not a number.
+what is the # length of a string with emoji | utf8 len luau | count emoji characters => `#s` counts bytes, and emoji use several bytes. `utf8.len(s)` counts real characters.
+what is integer overflow in luau | lua number precision => Luau numbers are 64-bit floats, so whole numbers are exact up to about 9 quadrillion (2^53). Past that, they lose precision.
+why is 0.1 + 0.2 not 0.3 in lua | floating point error | decimal math wrong => Computers store decimals in binary, so some values like 0.1 cannot be exact. Compare with a small tolerance, like `math.abs(a - b) < 0.0001`.
+what is short circuit evaluation in lua | lazy evaluation lua => `a and b` does not check b if a is false, and `a or b` does not check b if a is true. That is why `obj and obj.Name` avoids an error when obj is nil.
+compare tables lua | are two tables equal => `==` checks if two tables are the same table, not if they hold the same values. Loop through both to compare their contents.
+how do i make a 2d grid in lua | 2d array lua | grid of tables luau => `local grid = {} for x = 1, 10 do grid[x] = {} for y = 1, 10 do grid[x][y] = 0 end end`.
+how do i make a queue in lua | queue luau | first in first out lua => Use a table with `table.insert(q, item)` to add and `table.remove(q, 1)` to take the front. For long queues, track head and tail indexes so removals are fast.
+how do i make a stack in lua | stack luau | last in first out lua => Push with `table.insert(s, item)` and pop with `table.remove(s)`, which takes the last item.
+how do i make a set in lua | unique values lua | set table luau => Use the values as keys: `local set = {} set["apple"] = true`. Checking `if set["apple"] then` is fast.
+how do i shuffle a table in lua | random order lua | fisher yates luau => `for i = #t, 2, -1 do local j = math.random(1, i) t[i], t[j] = t[j], t[i] end`.
+how do i swap two variables in lua | swap values luau | multiple assignment lua => `a, b = b, a`. Lua assigns all the right side values first, then stores them.
+what is recursion in lua | recursive function luau | function calls itself lua => A recursive function calls itself on a smaller problem until it hits a base case: `local function fact(n) if n <= 1 then return 1 end return n * fact(n - 1) end`.
+what is the string library in lua | string methods lua | text functions luau => It has functions like `string.sub`, `string.find`, `string.gsub`, `string.format`, `string.upper`, `string.rep`, and in Luau `string.split`. You can call them as methods: `name:upper()`.
+what is os.time and os.date | date and time lua | get today's date lua => `os.time()` gives the seconds since 1970 (Unix time). `os.date("*t")` returns a table with year, month, day, hour and more.
+what is os.clock | measure how long code takes lua | benchmark luau => `os.clock()` gives CPU time in seconds with high precision. Save it before and after the code and subtract to see how long it took.
+what is require in lua | require module lua | load another file lua => `require` loads a module and returns what it returns. In Roblox you pass the ModuleScript object, and each side only runs a module once, then reuses the result.
+what is the vector type in luau | vector library luau | vector.create => Luau has a built-in vector type made with `vector.create(x, y, z)` and a `vector` library with functions like `vector.magnitude` and `vector.dot`. In Roblox, Vector3 values are this vector type.
+what is the buffer type in luau | buffer library | binary data luau => A buffer is a block of raw bytes made with `buffer.create(size)`. Functions like `buffer.writeu8` and `buffer.readf32` read and write numbers in it, which is useful for packing data tightly.
+what is lua 5.1 | lua versions | lua 5.4 vs luau => Lua has versions 5.1 through 5.4. Luau started from 5.1 and added its own features, so some 5.3 and 5.4 things like the integer type and goto are not in Luau.
+what is love2d | lua game engine | make games with lua outside roblox => LÖVE (Love2D) is a free framework for making 2D games in plain Lua on Windows, macOS and Linux. You write main.lua with functions like `love.update` and `love.draw`.
+how do i run lua on my computer | install lua | lua interpreter => Install Lua from lua.org or a package manager, then run `lua myfile.lua` in a terminal. Luau also has its own command line tool on GitHub.
+what is a game loop | update loop explained | how do games run every frame => A game loop runs over and over each frame: read input, update the game state, then draw. In Roblox, RunService events like Heartbeat are your game loop hooks.
+debounce explained | why do i need a debounce => A debounce is a true/false flag that blocks a function from running again until it finishes or a cooldown passes. It stops Touched and clicks from triggering many times.
+what is an early return | guard clause lua | return early from function => Returning early when something is wrong, like `if not humanoid then return end`, keeps the rest of the function simpler and avoids deep nesting.
+what is a callback function | callback lua | pass a function as argument => A callback is a function you give to other code so it can call it later, like the function you pass to `:Connect()`.
+use a table instead of if else | dictionary instead of many ifs => Instead of a long if-elseif chain, store answers in a table: `local prices = {Sword = 100, Shield = 50}` and read `prices[item]`. It is faster and easier to change.
+what is serialization in lua | save a table as text | json encode luau => Serialization turns data into text or bytes to save or send. In Roblox, `HttpService:JSONEncode(t)` turns a table into JSON and `JSONDecode` turns it back.
+what are weak tables in lua | __mode lua | weak keys => Setting `__mode = "k"` or `"v"` in a metatable makes keys or values weak, so the garbage collector can remove them when nothing else uses them. Useful for caches.
+what is garbage collection in lua | memory in lua | how does lua free memory => Lua automatically frees tables and objects nothing points to anymore. Memory leaks happen when you keep references around, like connections that are never disconnected.
+what is string.byte and string.char | ascii in lua | character codes lua => `string.byte("A")` gives 65 and `string.char(65)` gives "A". They convert between characters and their number codes.
+what is gmatch in lua | loop over matches => `string.gmatch(s, pattern)` returns an iterator over every match, like `for word in s:gmatch("%a+") do print(word) end`.
+what is string.match | match lua | capture part of a string => `string.match(s, pattern)` returns the first match, or its captures in parentheses: `string.match("level 12", "%d+")` gives "12".
+how do i check if a string starts with something in lua | starts with luau | string prefix check => `s:sub(1, #prefix) == prefix` is true when s starts with prefix.
+how do i check if a string is empty in lua | empty string check luau | blank text lua => `if s == "" then` or `if #s == 0 then`. To also treat spaces as empty, use `if s:match("^%s*$") then`.

@@ -53,7 +53,7 @@ struct GreetingCard: Codable, Equatable {
 struct CodeCard: Codable, Equatable {
     var id: String
     var title: String
-    var language: String   // "Lua" or "C++"
+    var language: String   // "Lua", "C++", "Python" or "Swift"
     var kind: String       // "Script", "LocalScript", "Arduino sketch"...
     var `where`: String
     var about: String

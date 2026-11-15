@@ -1,0 +1,12 @@
+# tag: tech.drones.extra
+what is propwash | drone wobbles when dropping => Propwash is the shaky wobble when an FPV drone drops into its own dirty air from the props. Smoother flying lines, good PID tuning and RPM filtering reduce it.
+what is horizon mode | fpv horizon vs angle mode => Horizon mode self-levels like angle mode near the center of the sticks but lets the drone flip when you push the sticks far.
+what is camera uptilt on fpv | why is my fpv camera tilted up => The camera is tilted up so you still look forward when the drone leans to fly fast. Beginners use about 10 to 20 degrees, and faster pilots use more.
+what is the difference between freestyle and racing drones | racing quad vs freestyle quad => Racing drones are as light and fast as possible for gates and lap times. Freestyle drones are tougher and often carry an action camera for tricks.
+what does 5 inch drone mean | fpv frame size => The size is the propeller length the frame fits. A 5 inch drone uses 5 inch props and is the most common size for freestyle and racing.
+what are walksnail and hdzero | digital fpv systems => Walksnail and HDZero are digital FPV video systems, like DJI's. HDZero has very low, steady delay, and Walksnail has a sharper picture.
+what are dji geo zones | drone says no fly zone => GEO zones are areas DJI's app marks as restricted, like near airports. The drone may refuse to take off or fly there unless the area is allowed and unlocked.
+why does my drone video have jello | wobbly lines in drone footage => Jello is wobble caused by vibrations reaching the camera. Check for bent or damaged props and loose parts, and use soft camera mounts.
+what is battery sag on a drone | voltage drops when punching throttle => Sag is when the battery voltage dips under heavy throttle and recovers after. Big sag means an old or weak battery.
+what is a 249 gram drone | sub 250g drone => Drones under 250 grams, like the DJI Mini series, face lighter rules in many countries. Check your local rules, since they still apply.
+why does my fpv drone flip over on takeoff | quad flips when armed => Usually the props are on the wrong motors, a motor spins the wrong way or the flight controller orientation is wrong. Check motor direction in Betaflight.

@@ -1,0 +1,8 @@
+# tag: tech.networking.extra2
+what is tailscale | private network between my devices => Tailscale links your own devices into a private network over the internet, so you can reach your PC or a game server from anywhere without port forwarding.
+what is dynamic dns | ddns explained => Home internet addresses can change. Dynamic DNS gives your home a name that always points to its newest address, handy for hosting a server.
+how do i map a network drive | network folder as a drive letter => In File Explorer, right-click This PC, choose Map network drive, pick a letter and type the share path like \\pc-name\folder.
+why does my ethernet only show 100 mbps | ethernet link speed slow => A damaged cable or one with a broken wire pair often drops to 100 Mbps. Try a different Cat 5e or better cable and another port.
+is a usb wifi adapter good for gaming | usb wifi dongle => It works in a pinch, but small ones often have weak antennas. A PCIe Wi-Fi card or an Ethernet cable gives steadier ping.
+what is localsend | send files between phone and pc free => LocalSend is a free, open-source app that sends files between phones and computers on the same Wi-Fi, even across Android, iPhone and Windows.
+what is teamviewer | let someone fix my pc remotely => TeamViewer lets another person see and control your computer over the internet. Only use it with someone you know and trust, since scammers use these apps too.

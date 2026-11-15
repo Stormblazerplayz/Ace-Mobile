@@ -1,0 +1,10 @@
+# tag: tech.audio.extra
+what is a cardioid mic | mic polar pattern => Cardioid mics pick up sound mostly from the front and ignore the back, which helps block keyboard and room noise. Speak into the side the maker marks as the front.
+what is a shock mount for a mic | stop desk bumps in mic => A shock mount holds the mic in elastic bands so bumps and vibrations from the desk or boom arm don't thump into the recording.
+what is a noise gate | mute mic when not talking => A noise gate mutes your mic until your voice gets louder than a set level, cutting out background hum and keyboard noise between words.
+why does my bluetooth headset sound bad when i use the mic | bluetooth hands free low quality => Classic Bluetooth switches to a low-quality hands-free mode when the mic is on. Use a separate mic, a USB dongle headset, or the newer LE Audio if both devices support it.
+what is loudness equalization | even out pc volume => Loudness Equalization in Windows sound enhancements evens out loud and quiet sounds. It helps hear footsteps but can make sounds less natural.
+what is equalizer apo | system wide eq windows => Equalizer APO is a free Windows tool that adds an equalizer to all sound on the PC. Peace is a popular easy interface for it.
+what is chatmix on a headset | balance game and voice chat => ChatMix is a dial on some headsets that balances game sound and voice chat by showing up as two separate audio devices on the PC.
+why doesn't my front headphone jack work | front panel audio not working => Make sure the case's HD Audio cable is plugged into the motherboard's front audio header, then check the jack-detection setting in the audio software.
+what is the 60 60 rule for headphones | safe headphone volume => Listen at no more than about 60 percent volume for 60 minutes at a time, then give your ears a break. Phones can warn you about loud listening too.

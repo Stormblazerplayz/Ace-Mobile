@@ -1,0 +1,20 @@
+# tag: tech.audio.production
+what is fl studio | fl studio for beats => FL Studio is a popular music app for making beats, known for its pattern-based sequencer and piano roll. Paid versions include free lifetime updates.
+what is ableton live | ableton for music => Ableton Live is a music production app famous for live performance and electronic music, with a clip view for trying ideas quickly.
+what is logic pro | logic pro mac => Logic Pro is Apple's professional music app for Mac and iPad, a big step up from GarageBand with many instruments and effects.
+what is bandlab | free music app online => BandLab is a free music-making app that works in a browser or on phones, letting you record, make beats and collaborate online.
+what is musescore | free music notation => MuseScore is a free app for writing sheet music. It plays back what you write so you can hear your composition.
+what is a vst plugin | music plugins => A VST is a plugin that adds an instrument or effect to a music app, like a synth, piano or reverb. Get them from trusted sites only.
+what is an asio driver | asio4all => ASIO is a Windows audio driver system that gives music apps low delay. Audio interfaces usually come with their own ASIO driver, which works best.
+what is buffer size in audio | audio latency buffer => Buffer size is how much audio the computer handles at once. Small buffers give less delay for recording, and bigger buffers stop crackles when mixing big projects.
+what is audio bit depth | 16 bit vs 24 bit audio => Bit depth sets how much detail each audio sample stores. 24-bit gives more room for quiet and loud sounds when recording, and 16-bit is fine for listening.
+what is phantom power | 48v mic power => Phantom power sends 48 volts down an XLR cable to power condenser mics. Dynamic mics like the SM58 don't need it.
+what is gain staging | set mic gain => Gain staging means setting input levels so audio is loud enough to be clear but never clips. Aim for peaks around -12 to -6 dB when recording.
+what is a piano roll | piano roll in music apps => A piano roll is a grid where you draw notes, with pitch going up and time going across. It's how most people write melodies in a DAW.
+what is quantize in music | fix timing of notes => Quantize snaps notes to the nearest beat on the grid, fixing sloppy timing. Too much can make music sound robotic.
+what is a sampler instrument | sampling in music production => A sampler plays recorded sounds, like a drum hit or voice, across the keyboard, so you can turn any sound into an instrument.
+what is a click track | play to a click => A click track is a metronome you hear in headphones while recording, so everyone stays on the same tempo.
+what is splice for music | sample library => Splice is a subscription service with a huge library of royalty-free sounds and loops for music producers.
+what is an audio export format for music | wav or mp3 export => Export WAV for the best quality or for uploading to distributors, and MP3 for small files to share with friends.
+what is mastering software | ai mastering => Mastering tools make a finished song louder and balanced for streaming. Some apps offer automatic AI mastering, but learning your own ears matters most.
+what is monitor speakers vs regular speakers | studio monitors => Studio monitors are speakers made to sound flat and honest, so you hear your mix as it really is instead of with boosted bass.

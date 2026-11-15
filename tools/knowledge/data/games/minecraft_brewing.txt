@@ -1,0 +1,39 @@
+# Minecraft brewing and potions, hand-written. Java Edition 1.21.
+
+# tag: minecraft.brewing
+how do you make an awkward potion | what is an awkward potion | awkward potion recipe => Brew nether wart into water bottles. Awkward potions do nothing by themselves, but they're the base for almost every useful potion.
+how do you make a potion of swiftness | speed potion recipe | how to make a speed potion => Brew sugar into an awkward potion. Add redstone to make it last longer or glowstone for Swiftness II.
+how do you make a potion of strength | strength potion recipe | how to make a strength potion => Brew blaze powder into an awkward potion. Add glowstone for Strength II or redstone for a longer one.
+how do you make a potion of healing | healing potion recipe | how to make a health potion => Brew a glistering melon slice into an awkward potion. Add glowstone for Healing II.
+how do you make a potion of regeneration | regen potion recipe | how to make a regeneration potion => Brew a ghast tear into an awkward potion.
+how do you make a potion of fire resistance | fire resistance potion recipe | how to make a fire res potion => Brew magma cream into an awkward potion. Add redstone to make it last 8 minutes.
+how do you make a potion of night vision | night vision potion recipe | how to see in the dark potion => Brew a golden carrot into an awkward potion.
+how do you make a potion of invisibility | invisibility potion recipe | how to become invisible in minecraft => Brew a fermented spider eye into a potion of night vision.
+how do you make a potion of water breathing | water breathing potion recipe | how to breathe underwater in minecraft => Brew a pufferfish into an awkward potion.
+how do you make a potion of leaping | jump boost potion recipe | how to make a jump potion => Brew a rabbit's foot into an awkward potion.
+how do you make a potion of poison | poison potion recipe | how to make a poison potion => Brew a spider eye into an awkward potion. Make it a splash potion with gunpowder to throw it at mobs.
+how do you make a potion of harming | harming potion recipe | how to make a damage potion => Brew a fermented spider eye into a potion of healing or a potion of poison.
+how do you make a potion of weakness | weakness potion recipe | potion for curing zombie villagers => Brew a fermented spider eye into a plain water bottle. No nether wart needed. Add gunpowder to make it a splash potion for curing zombie villagers.
+how do you make a potion of slowness | slowness potion recipe | how to make a slow potion => Brew a fermented spider eye into a potion of swiftness or a potion of leaping.
+how do you make a potion of slow falling | slow falling potion recipe | how to fall slowly in minecraft => Brew a phantom membrane into an awkward potion.
+how do you make a potion of the turtle master | turtle master potion recipe | what does turtle master do => Brew a turtle shell into an awkward potion. It gives Slowness IV and Resistance III, so you're slow but take much less damage.
+how do you make a potion of wind charging | wind charging potion recipe | breeze rod potion => Brew a breeze rod into an awkward potion. In Java 1.21 and newer, whoever has the effect lets out a burst of wind when they die.
+how do you make a potion of weaving | weaving potion recipe | cobweb potion => Brew a cobweb into an awkward potion. In Java 1.21 and newer, it spreads cobwebs when the drinker dies.
+how do you make a potion of oozing | oozing potion recipe | slime block potion => Brew a slime block into an awkward potion. In Java 1.21 and newer, 2 slimes pop out when the drinker dies.
+how do you make a potion of infestation | infestation potion recipe | stone potion => Brew a stone block into an awkward potion. In Java 1.21 and newer, silverfish can come out when the drinker gets hurt.
+how do you make a potion of luck | can you brew a luck potion | luck potion minecraft => You can't brew a potion of luck in Survival. You can only get it with commands or in Creative.
+how do you make a splash potion | what does gunpowder do in brewing | throwable potion => Brew gunpowder into any potion to turn it into a splash potion you can throw.
+how do you make a lingering potion | what does dragon's breath do in brewing | potion cloud => Brew dragon's breath into a splash potion. It leaves a cloud that gives the effect to anything standing in it.
+how do you make tipped arrows | how to make poison arrows | lingering potion arrows => Surround a lingering potion with 8 arrows in a crafting table to get 8 tipped arrows with that effect.
+what does redstone do in brewing | how to make potions last longer | extended potion => Brewing redstone into a potion makes its effect last longer, but you can't also make it stronger.
+what does glowstone do in brewing | how to make level 2 potions | stronger potion => Brewing glowstone dust into a potion makes it level II, but it lasts a shorter time.
+what does a fermented spider eye do in brewing | corrupt a potion | fermented spider eye use => A fermented spider eye turns a potion into its opposite or a bad version, like night vision into invisibility or healing into harming.
+how do you fuel a brewing stand | what does blaze powder do in a brewing stand | brewing stand fuel => Put blaze powder in the top left slot. One blaze powder fuels 20 brews.
+how many potions can you brew at once | brewing stand slots | brew 3 potions => A brewing stand brews 3 potions at a time, all with the same ingredient.
+how do you get water bottles | how to fill a glass bottle | water bottle for brewing => Use an empty glass bottle on water, or on a cauldron with water in it.
+how long does a potion last in minecraft | potion duration | how long do potions last => Most potions last 3 minutes, or 8 minutes with redstone. Level II versions last 1 minute and 30 seconds, and instant potions like healing happen right away.
+how do you drink a potion | how to throw a splash potion | potion controls => Hold right click to drink a normal potion. Splash and lingering potions are thrown when you right click.
+what does milk do to potion effects | how to remove a potion effect | cure effects with milk => Drinking a bucket of milk removes all your effects, good and bad.
+where do you find a brewing stand | brewing stand in village | church brewing stand => Brewing stands generate in igloo basements, village churches with cleric houses and End ships. You can also craft one from a blaze rod and 3 cobblestone.
+what potions should you bring to fight the ender dragon | best potions for the dragon | dragon fight potions => Bring slow falling, healing, strength and regeneration. Slow falling saves you when the dragon flings you up.
+what potions do you need for the nether | best potions for the nether | nether potions => Fire resistance is the most important, since it makes you immune to lava and fire. Healing and regeneration help too.

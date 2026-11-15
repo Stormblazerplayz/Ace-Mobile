@@ -1,0 +1,1135 @@
+{
+ "recipes": [
+  {
+   "id": "sandwich-bread",
+   "name": "White sandwich bread",
+   "aliases": [
+    "sandwich bread",
+    "white bread",
+    "homemade bread",
+    "loaf of bread",
+    "bread loaf",
+    "sandwich loaf"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr 30 min",
+   "main": [
+    "flour",
+    "yeast",
+    "milk",
+    "butter",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 1/4 cups (300 ml) warm milk, about 110°F (43°C)",
+    "2 1/4 teaspoons (1 packet / 7 g) instant or active dry yeast",
+    "2 tablespoons sugar",
+    "3 1/2 cups (440 g) bread flour or all-purpose flour",
+    "1 1/2 teaspoons salt",
+    "3 tablespoons (45 g) butter, softened"
+   ],
+   "steps": [
+    "Stir the warm milk, yeast and sugar in a big bowl and let sit for 5 minutes, until foamy.",
+    "Add the flour, salt and butter and stir into a shaggy dough.",
+    "Knead on a floured counter for 8 to 10 minutes, until smooth and stretchy.",
+    "Put it in an oiled bowl, cover and let rise for 1 hour, until doubled.",
+    "Press it flat into a rectangle, roll it up tight from the short end and pinch the seam.",
+    "Put it seam side down in a greased 9 by 5 inch loaf pan.",
+    "Cover and let rise for 45 minutes, until it domes 1 inch over the pan.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 30 to 35 minutes, until golden and hollow sounding when tapped.",
+    "Turn out and let cool for 1 hour before slicing."
+   ]
+  },
+  {
+   "id": "whole-wheat-bread",
+   "name": "Honey whole wheat bread",
+   "aliases": [
+    "whole wheat bread",
+    "wheat bread",
+    "honey wheat bread",
+    "brown bread",
+    "whole grain bread"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr 30 min",
+   "main": [
+    "whole wheat flour",
+    "flour",
+    "yeast",
+    "honey",
+    "oil"
+   ],
+   "ingredients": [
+    "1 1/2 cups (360 ml) warm water, about 110°F (43°C)",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "3 tablespoons honey",
+    "2 tablespoons vegetable oil",
+    "2 cups (240 g) whole wheat flour",
+    "1 3/4 cups (220 g) bread flour or all-purpose flour",
+    "1 1/2 teaspoons salt"
+   ],
+   "steps": [
+    "Stir the water, yeast and honey and let sit for 5 minutes, until foamy.",
+    "Stir in the oil, both flours and the salt.",
+    "Knead for 10 minutes, until smooth and springy. It will feel a little tacky.",
+    "Put it in an oiled bowl, cover and let rise for 1 hour 15 minutes, until doubled.",
+    "Shape into a log and put it in a greased 9 by 5 inch loaf pan.",
+    "Cover and let rise for 45 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 35 to 40 minutes, until browned and hollow sounding.",
+    "Let cool for 1 hour before slicing."
+   ]
+  },
+  {
+   "id": "french-baguette",
+   "name": "French baguettes",
+   "aliases": [
+    "baguette",
+    "baguettes",
+    "french bread",
+    "french baguette",
+    "crusty bread"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "3 hr",
+   "main": [
+    "bread flour",
+    "yeast",
+    "water",
+    "salt"
+   ],
+   "ingredients": [
+    "1 1/3 cups (320 ml) warm water, about 110°F (43°C)",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1 teaspoon sugar",
+    "3 1/2 cups (440 g) bread flour",
+    "2 teaspoons salt"
+   ],
+   "steps": [
+    "Stir the water, yeast and sugar and let sit for 5 minutes, until foamy.",
+    "Add the flour and salt and knead for 8 to 10 minutes, until smooth.",
+    "Cover and let rise for 1 hour, until doubled.",
+    "Split in half. Press each half into a rectangle and roll it into a 14 inch log, tapering the ends.",
+    "Put the logs on a floured baking sheet, cover and let rise for 40 minutes.",
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Put an empty metal pan on the bottom rack.",
+    "Have an adult cut 4 slanted slashes on each loaf with a sharp knife.",
+    "Put the bread in and have an adult pour 1 cup of hot water into the empty pan to make steam.",
+    "Bake for 20 to 25 minutes, until deep golden.",
+    "Let cool for 20 minutes."
+   ]
+  },
+  {
+   "id": "focaccia",
+   "name": "Rosemary focaccia",
+   "aliases": [
+    "focaccia",
+    "focaccia bread",
+    "rosemary focaccia",
+    "italian flatbread",
+    "olive oil bread"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr",
+   "main": [
+    "flour",
+    "yeast",
+    "olive oil",
+    "rosemary",
+    "salt"
+   ],
+   "ingredients": [
+    "1 3/4 cups (420 ml) warm water, about 110°F (43°C)",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1 teaspoon sugar",
+    "4 cups (500 g) all-purpose flour",
+    "2 teaspoons salt",
+    "6 tablespoons (90 ml) olive oil, divided",
+    "1 tablespoon fresh rosemary leaves",
+    "1 teaspoon flaky salt"
+   ],
+   "steps": [
+    "Stir the water, yeast and sugar and let sit for 5 minutes.",
+    "Stir in the flour and salt until no dry flour shows. It will be very sticky. No kneading needed.",
+    "Cover and let rise for 1 hour 30 minutes, until bubbly and doubled.",
+    "Pour 4 tablespoons of the oil into a 9 by 13 inch pan.",
+    "Tip the dough into the pan and gently stretch it toward the corners with oiled hands.",
+    "Let rise for 30 minutes.",
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Drizzle the rest of the oil on top and press your fingertips all over to make deep dimples.",
+    "Sprinkle with rosemary and flaky salt.",
+    "Bake for 22 to 25 minutes, until golden and crisp at the edges.",
+    "Let cool for 10 minutes, then cut into squares."
+   ]
+  },
+  {
+   "id": "no-knead-bread",
+   "name": "No-knead crusty bread",
+   "aliases": [
+    "no knead bread",
+    "crusty bread loaf",
+    "dutch oven bread",
+    "artisan bread",
+    "overnight bread"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "16 hr",
+   "main": [
+    "flour",
+    "yeast",
+    "salt",
+    "water"
+   ],
+   "ingredients": [
+    "3 cups (390 g) all-purpose or bread flour",
+    "1/4 teaspoon instant yeast",
+    "1 1/2 teaspoons salt",
+    "1 1/2 cups (360 ml) warm water"
+   ],
+   "steps": [
+    "Stir the flour, yeast, salt and water in a big bowl until a shaggy, sticky dough forms.",
+    "Cover and let sit at room temperature for 12 to 18 hours, until bubbly.",
+    "Tip onto a floured counter and fold it over itself a few times into a ball.",
+    "Set it on parchment, cover and let rest for 1 hour.",
+    "Put a covered Dutch oven in the oven and heat to 450°F (230°C) for 30 minutes. An adult should handle the pot.",
+    "Lift the dough by the parchment into the hot pot and cover.",
+    "Bake for 30 minutes, then take off the lid and bake for 10 to 15 minutes more, until deep brown.",
+    "Let cool for 1 hour before slicing."
+   ]
+  },
+  {
+   "id": "cinnamon-rolls",
+   "name": "Cinnamon rolls",
+   "aliases": [
+    "cinnamon rolls",
+    "cinnamon roll",
+    "cinnamon buns",
+    "cinnamon bun",
+    "sticky buns",
+    "cinnabon"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr",
+   "main": [
+    "flour",
+    "yeast",
+    "butter",
+    "brown sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) warm milk, about 110°F (43°C)",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1/2 cup (100 g) sugar",
+    "1/3 cup (75 g) butter, melted",
+    "2 large eggs",
+    "4 1/2 cups (560 g) all-purpose flour",
+    "1 teaspoon salt",
+    "Filling: 1 cup (220 g) packed brown sugar, 2 1/2 tablespoons ground cinnamon, 1/3 cup (75 g) butter, softened",
+    "Icing: 4 oz (115 g) cream cheese, 1/4 cup (55 g) butter, 1 1/2 cups (180 g) powdered sugar, 1/2 teaspoon vanilla"
+   ],
+   "steps": [
+    "Stir the milk, yeast and sugar and let sit for 5 minutes.",
+    "Mix in the melted butter, eggs, flour and salt.",
+    "Knead for 6 to 8 minutes, until soft and smooth.",
+    "Cover and let rise for 1 hour, until doubled.",
+    "Roll the dough into a 16 by 21 inch rectangle.",
+    "Spread with the soft butter and sprinkle with the brown sugar and cinnamon.",
+    "Roll it up from the long side and cut into 12 rolls with dental floss or a sharp knife.",
+    "Put them in a greased 9 by 13 inch pan, cover and let rise for 30 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 25 to 30 minutes, until golden.",
+    "Beat the icing ingredients and spread on the warm rolls."
+   ]
+  },
+  {
+   "id": "soft-pretzels",
+   "name": "Soft pretzels",
+   "aliases": [
+    "soft pretzels",
+    "soft pretzel",
+    "pretzels",
+    "homemade pretzels",
+    "pretzel bites",
+    "mall pretzels"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "2 hr",
+   "main": [
+    "flour",
+    "yeast",
+    "butter",
+    "baking soda",
+    "salt"
+   ],
+   "ingredients": [
+    "1 1/2 cups (360 ml) warm water, about 110°F (43°C)",
+    "1 tablespoon sugar",
+    "2 teaspoons salt",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "4 1/2 cups (560 g) all-purpose flour",
+    "4 tablespoons (55 g) butter, melted",
+    "10 cups (2.4 liters) water and 2/3 cup (about 145 g) baking soda for the bath",
+    "1 egg yolk beaten with 1 tablespoon water",
+    "Coarse salt"
+   ],
+   "steps": [
+    "Stir the warm water, sugar, salt and yeast and let sit for 5 minutes.",
+    "Add the flour and butter and knead for 5 minutes, until smooth.",
+    "Cover and let rise for 1 hour, until doubled.",
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Have an adult bring the 10 cups water and baking soda to a boil in a big pot.",
+    "Split the dough into 8 pieces, roll each into a 24 inch rope and twist into a pretzel shape.",
+    "Have an adult dip each pretzel in the boiling water for 30 seconds, then lift it out with a slotted spatula.",
+    "Put them on a lined baking sheet, brush with egg wash and sprinkle with coarse salt.",
+    "Bake for 12 to 14 minutes, until dark golden brown.",
+    "For pretzel bites, cut the ropes into 1 inch pieces and bake for 8 to 10 minutes."
+   ]
+  },
+  {
+   "id": "bagels",
+   "name": "Homemade bagels",
+   "aliases": [
+    "bagels",
+    "bagel",
+    "homemade bagels",
+    "new york bagels",
+    "everything bagels"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "2 hr 30 min",
+   "main": [
+    "bread flour",
+    "yeast",
+    "water",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 1/4 cups (300 ml) warm water, about 110°F (43°C)",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1 tablespoon sugar",
+    "4 cups (500 g) bread flour",
+    "2 teaspoons salt",
+    "1 tablespoon honey for the boiling water",
+    "Toppings: everything seasoning, sesame seeds or poppy seeds"
+   ],
+   "steps": [
+    "Stir the water, yeast and sugar and let sit for 5 minutes.",
+    "Add the flour and salt and knead for 10 minutes. The dough will be stiff.",
+    "Cover and let rise for 1 hour.",
+    "Split into 8 balls. Poke your thumb through the middle of each and stretch into a 2 inch hole.",
+    "Rest on a lined sheet for 20 minutes.",
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Have an adult bring a big pot of water and the honey to a boil.",
+    "Boil the bagels 2 or 3 at a time for 1 minute per side, then lift them out with a slotted spoon.",
+    "Put them back on the sheet and sprinkle with toppings.",
+    "Bake for 20 to 25 minutes, until golden brown."
+   ]
+  },
+  {
+   "id": "naan",
+   "name": "Skillet naan",
+   "aliases": [
+    "naan",
+    "naan bread",
+    "garlic naan",
+    "nan bread",
+    "butter naan"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "1 hr 45 min",
+   "main": [
+    "flour",
+    "yogurt",
+    "yeast",
+    "butter",
+    "garlic"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) warm water",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1 teaspoon sugar",
+    "1/2 cup (120 g) plain yogurt",
+    "2 tablespoons vegetable oil",
+    "2 3/4 cups (345 g) all-purpose flour",
+    "1 teaspoon salt",
+    "1/2 teaspoon baking powder",
+    "Garlic butter: 3 tablespoons butter, melted, with 1 minced garlic clove and chopped cilantro"
+   ],
+   "steps": [
+    "Stir the water, yeast and sugar and let sit for 5 minutes.",
+    "Stir in the yogurt, oil, flour, salt and baking powder and knead for 5 minutes, until soft.",
+    "Cover and let rise for 1 hour.",
+    "Split into 8 balls and roll each into an oval about 1/4 inch thick.",
+    "Heat a cast iron skillet over medium high heat until very hot. Ask an adult to help.",
+    "Cook one naan for 1 to 2 minutes, until bubbles puff up and the bottom has dark spots.",
+    "Flip and cook for 1 minute more.",
+    "Brush with garlic butter and keep warm under a towel."
+   ]
+  },
+  {
+   "id": "pita-bread",
+   "name": "Pita bread",
+   "aliases": [
+    "pita bread",
+    "pita",
+    "pitas",
+    "pocket bread",
+    "homemade pita"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "1 hr 45 min",
+   "main": [
+    "flour",
+    "yeast",
+    "olive oil",
+    "water"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) warm water",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1 teaspoon sugar",
+    "2 1/2 cups (315 g) all-purpose flour",
+    "1 teaspoon salt",
+    "1 tablespoon olive oil"
+   ],
+   "steps": [
+    "Stir the water, yeast and sugar and let sit for 5 minutes.",
+    "Add the flour, salt and oil and knead for 6 minutes, until smooth.",
+    "Cover and let rise for 1 hour.",
+    "Put a baking sheet in the oven and heat to 475°F (245°C). Ask an adult to help.",
+    "Split into 8 balls and roll each into a 6 inch circle about 1/4 inch thick.",
+    "Have an adult put 2 or 3 at a time on the hot sheet.",
+    "Bake for 4 to 5 minutes, until puffed like balloons and pale golden.",
+    "Wrap in a towel right away so they stay soft."
+   ]
+  },
+  {
+   "id": "challah",
+   "name": "Challah",
+   "aliases": [
+    "challah",
+    "challah bread",
+    "braided bread",
+    "egg bread",
+    "shabbat bread"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr 30 min",
+   "main": [
+    "flour",
+    "egg",
+    "yeast",
+    "oil",
+    "sugar"
+   ],
+   "ingredients": [
+    "3/4 cup (180 ml) warm water",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1/4 cup (50 g) sugar",
+    "1/4 cup (60 ml) vegetable oil",
+    "2 large eggs, plus 1 egg for brushing",
+    "4 cups (500 g) all-purpose flour",
+    "1 1/2 teaspoons salt",
+    "Sesame or poppy seeds (optional)"
+   ],
+   "steps": [
+    "Stir the water, yeast and sugar and let sit for 5 minutes.",
+    "Whisk in the oil and 2 eggs, then add the flour and salt.",
+    "Knead for 8 to 10 minutes, until smooth.",
+    "Cover and let rise for 1 hour 30 minutes, until doubled.",
+    "Split into 3 pieces and roll each into a 16 inch rope.",
+    "Pinch the ends together at the top and braid them, then pinch the bottom and tuck the ends under.",
+    "Put on a lined baking sheet, cover and let rise for 45 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Brush with the beaten egg and sprinkle with seeds.",
+    "Bake for 30 to 35 minutes, until deep golden."
+   ]
+  },
+  {
+   "id": "hamburger-buns",
+   "name": "Homemade burger buns",
+   "aliases": [
+    "hamburger buns",
+    "burger buns",
+    "homemade buns",
+    "sandwich buns",
+    "hot dog buns"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "2 hr 30 min",
+   "main": [
+    "flour",
+    "milk",
+    "yeast",
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) warm milk",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "2 tablespoons sugar",
+    "1 large egg, plus 1 egg for brushing",
+    "3 tablespoons (45 g) butter, softened",
+    "3 1/4 cups (405 g) all-purpose flour",
+    "1 teaspoon salt",
+    "Sesame seeds"
+   ],
+   "steps": [
+    "Stir the milk, yeast and sugar and let sit for 5 minutes.",
+    "Add 1 egg, the butter, flour and salt and knead for 8 minutes, until soft and smooth.",
+    "Cover and let rise for 1 hour.",
+    "Split into 8 balls and press each into a 3 1/2 inch disk on a lined sheet. For hot dog buns, shape 6 inch logs.",
+    "Cover and let rise for 45 minutes.",
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Brush with beaten egg and sprinkle with sesame seeds.",
+    "Bake for 15 to 18 minutes, until golden."
+   ]
+  },
+  {
+   "id": "monkey-bread",
+   "name": "Monkey bread",
+   "aliases": [
+    "monkey bread",
+    "pull apart bread",
+    "bubble bread",
+    "cinnamon pull apart bread"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "1 hr 15 min",
+   "main": [
+    "biscuit dough",
+    "sugar",
+    "cinnamon",
+    "butter",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "2 cans (16.3 oz / 462 g each) refrigerated biscuits",
+    "1 cup (200 g) sugar",
+    "2 teaspoons ground cinnamon",
+    "1/2 cup (115 g) butter",
+    "3/4 cup (165 g) packed brown sugar"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 12 cup bundt pan.",
+    "Mix the sugar and cinnamon in a big zip bag.",
+    "Cut each biscuit into 4 pieces with kitchen scissors and shake them in the bag a handful at a time.",
+    "Pile the coated pieces into the pan.",
+    "Heat the butter and brown sugar in a pot until it boils for 1 minute. Ask an adult to help.",
+    "Pour it over the dough.",
+    "Bake for 30 to 35 minutes, until golden and cooked through.",
+    "Let cool for 10 minutes, then flip onto a plate with oven mitts."
+   ]
+  },
+  {
+   "id": "garlic-knots",
+   "name": "Garlic knots",
+   "aliases": [
+    "garlic knots",
+    "garlic knot",
+    "garlic rolls",
+    "pizza knots"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "45 min",
+   "main": [
+    "pizza dough",
+    "butter",
+    "garlic",
+    "parmesan",
+    "parsley"
+   ],
+   "ingredients": [
+    "1 lb (450 g) pizza dough, store bought or homemade",
+    "4 tablespoons (55 g) butter",
+    "3 garlic cloves, minced",
+    "2 tablespoons grated parmesan",
+    "1 tablespoon chopped parsley",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Cut the dough into 12 pieces and roll each into an 8 inch rope.",
+    "Tie each rope into a loose knot and put them on a lined baking sheet.",
+    "Bake for 15 to 18 minutes, until golden.",
+    "Melt the butter with the garlic in a small pan over low heat for 2 minutes.",
+    "Toss the hot knots in the garlic butter, then sprinkle with parmesan, parsley and salt."
+   ]
+  },
+  {
+   "id": "soft-breadsticks",
+   "name": "Soft breadsticks",
+   "aliases": [
+    "breadsticks",
+    "soft breadsticks",
+    "bread sticks",
+    "garlic breadsticks",
+    "olive garden breadsticks"
+   ],
+   "category": "Baking",
+   "servings": 16,
+   "time": "2 hr",
+   "main": [
+    "flour",
+    "yeast",
+    "butter",
+    "garlic salt"
+   ],
+   "ingredients": [
+    "1 1/2 cups (360 ml) warm water",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "2 tablespoons sugar",
+    "2 tablespoons butter, softened",
+    "1 1/2 teaspoons salt",
+    "4 cups (500 g) all-purpose flour",
+    "Topping: 3 tablespoons butter, melted, and 1 teaspoon garlic salt"
+   ],
+   "steps": [
+    "Stir the water, yeast and sugar and let sit for 5 minutes.",
+    "Add the butter, salt and flour and knead for 6 minutes.",
+    "Cover and let rise for 45 minutes.",
+    "Split into 16 pieces and roll each into a 7 inch stick. Put them on lined sheets.",
+    "Cover and let rise for 30 minutes.",
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Bake for 12 to 15 minutes, until golden.",
+    "Brush with melted butter and sprinkle with garlic salt."
+   ]
+  },
+  {
+   "id": "english-muffins",
+   "name": "English muffins",
+   "aliases": [
+    "english muffins",
+    "english muffin",
+    "griddle muffins",
+    "homemade english muffins"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "2 hr 30 min",
+   "main": [
+    "flour",
+    "milk",
+    "yeast",
+    "butter",
+    "cornmeal"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) warm milk",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1 tablespoon sugar",
+    "2 tablespoons butter, melted",
+    "1 large egg",
+    "3 cups (375 g) all-purpose flour",
+    "1 teaspoon salt",
+    "Cornmeal for dusting"
+   ],
+   "steps": [
+    "Stir the milk, yeast and sugar and let sit for 5 minutes.",
+    "Mix in the butter, egg, flour and salt and knead for 5 minutes. It will be soft.",
+    "Cover and let rise for 1 hour.",
+    "Roll 1/2 inch thick and cut 3 inch circles.",
+    "Put them on a cornmeal-dusted tray, sprinkle more cornmeal on top and let rest for 30 minutes.",
+    "Heat a griddle or skillet over medium low heat. Ask an adult to help.",
+    "Cook for 6 to 8 minutes per side, until golden and cooked through.",
+    "Split with a fork and toast."
+   ]
+  },
+  {
+   "id": "hot-cross-buns",
+   "name": "Hot cross buns",
+   "aliases": [
+    "hot cross buns",
+    "hot cross bun",
+    "easter buns",
+    "spiced buns",
+    "cross buns"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr",
+   "main": [
+    "flour",
+    "milk",
+    "yeast",
+    "raisins",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) warm milk",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1/4 cup (50 g) sugar",
+    "1/4 cup (55 g) butter, melted",
+    "1 large egg",
+    "3 1/2 cups (440 g) all-purpose flour",
+    "1 teaspoon salt",
+    "1 1/2 teaspoons ground cinnamon",
+    "1/2 teaspoon ground allspice",
+    "3/4 cup (110 g) raisins or currants",
+    "Cross paste: 1/2 cup (65 g) flour and 1/3 cup (80 ml) water",
+    "2 tablespoons apricot jam, warmed, for glazing"
+   ],
+   "steps": [
+    "Stir the milk, yeast and sugar and let sit for 5 minutes.",
+    "Mix in the butter, egg, flour, salt and spices and knead for 8 minutes.",
+    "Knead in the raisins.",
+    "Cover and let rise for 1 hour.",
+    "Split into 12 balls and put them in a greased 9 by 13 inch pan. Let rise for 45 minutes.",
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Mix the cross paste and pipe a cross on each bun.",
+    "Bake for 20 to 25 minutes, until golden.",
+    "Brush the warm buns with the jam."
+   ]
+  },
+  {
+   "id": "cinnamon-raisin-bread",
+   "name": "Cinnamon swirl raisin bread",
+   "aliases": [
+    "cinnamon raisin bread",
+    "cinnamon swirl bread",
+    "raisin bread",
+    "cinnamon bread loaf"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr 30 min",
+   "main": [
+    "flour",
+    "yeast",
+    "milk",
+    "raisins",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 1/4 cups (300 ml) warm milk",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "3 tablespoons sugar",
+    "3 1/2 cups (440 g) all-purpose flour",
+    "1 1/2 teaspoons salt",
+    "3 tablespoons (45 g) butter, softened",
+    "3/4 cup (110 g) raisins",
+    "Swirl: 1/3 cup (65 g) sugar mixed with 1 tablespoon cinnamon, and 1 tablespoon milk for brushing"
+   ],
+   "steps": [
+    "Stir the milk, yeast and sugar and let sit for 5 minutes.",
+    "Add the flour, salt and butter and knead for 8 minutes, then knead in the raisins.",
+    "Cover and let rise for 1 hour.",
+    "Roll into an 8 by 16 inch rectangle, brush with milk and sprinkle with the cinnamon sugar.",
+    "Roll it up tight from the short end and put it in a greased 9 by 5 inch loaf pan.",
+    "Cover and let rise for 45 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 35 to 40 minutes, until golden. Cover with foil for the last 10 minutes if it browns fast.",
+    "Let cool for 1 hour before slicing."
+   ]
+  },
+  {
+   "id": "japanese-milk-bread",
+   "name": "Japanese milk bread",
+   "aliases": [
+    "milk bread",
+    "japanese milk bread",
+    "hokkaido milk bread",
+    "shokupan",
+    "tangzhong bread"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "3 hr 30 min",
+   "main": [
+    "bread flour",
+    "milk",
+    "yeast",
+    "butter",
+    "egg"
+   ],
+   "ingredients": [
+    "Tangzhong: 3 tablespoons (25 g) bread flour and 1/2 cup (120 ml) milk",
+    "2 1/2 cups (315 g) bread flour",
+    "1/4 cup (50 g) sugar",
+    "2 1/4 teaspoons (7 g) instant yeast",
+    "1 teaspoon salt",
+    "1/2 cup (120 ml) warm milk",
+    "1 large egg, plus 1 egg for brushing",
+    "4 tablespoons (55 g) butter, softened"
+   ],
+   "steps": [
+    "Whisk the tangzhong flour and milk in a small pot over low heat for 1 to 2 minutes, until it turns into a thick paste. Let cool.",
+    "Mix the flour, sugar, yeast and salt, then add the warm milk, egg and tangzhong.",
+    "Knead for 5 minutes, then knead in the butter.",
+    "Knead for 10 to 15 minutes more, until very smooth and stretchy. A stand mixer helps.",
+    "Cover and let rise for 1 hour, until doubled.",
+    "Split into 4 balls, roll each into an oval, roll up and stand them side by side in a greased 9 by 5 inch loaf pan.",
+    "Cover and let rise for 45 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Brush with egg and bake for 30 to 35 minutes, until golden.",
+    "Let cool for 1 hour. It stays soft for days."
+   ]
+  },
+  {
+   "id": "conchas",
+   "name": "Conchas",
+   "aliases": [
+    "conchas",
+    "concha",
+    "pan dulce",
+    "mexican sweet bread",
+    "shell bread"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr 30 min",
+   "main": [
+    "flour",
+    "yeast",
+    "butter",
+    "egg",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) warm milk",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1/3 cup (65 g) sugar",
+    "2 large eggs",
+    "1/4 cup (55 g) butter, softened",
+    "3 cups (375 g) all-purpose flour",
+    "1/2 teaspoon salt",
+    "1 teaspoon vanilla extract",
+    "Topping: 1/2 cup (60 g) powdered sugar, 1/2 cup (65 g) flour, 1/4 cup (55 g) butter, 1 teaspoon vanilla, 1 tablespoon cocoa (optional)"
+   ],
+   "steps": [
+    "Stir the milk, yeast and sugar and let sit for 5 minutes.",
+    "Add the eggs, butter, flour, salt and vanilla and knead for 8 to 10 minutes. It will be soft.",
+    "Cover and let rise for 1 hour 30 minutes.",
+    "Mix the topping into a soft paste. Stir cocoa into half if you want brown ones.",
+    "Split the dough into 12 balls and set them on lined sheets.",
+    "Flatten a ball of topping between plastic wrap and lay it on each bun.",
+    "Press a shell pattern into the topping with a knife or concha cutter.",
+    "Let rise for 1 hour.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 18 to 20 minutes, until the bottoms are golden."
+   ]
+  },
+  {
+   "id": "pao-de-queijo",
+   "name": "Brazilian cheese bread",
+   "aliases": [
+    "pao de queijo",
+    "brazilian cheese bread",
+    "cheese bread balls",
+    "cheese puffs bread"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "45 min",
+   "main": [
+    "tapioca flour",
+    "milk",
+    "egg",
+    "parmesan",
+    "oil"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) milk",
+    "1/2 cup (120 ml) vegetable oil",
+    "1 teaspoon salt",
+    "2 cups (250 g) tapioca flour",
+    "2 large eggs",
+    "1 1/2 cups (150 g) grated parmesan or a mix of parmesan and mozzarella"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Have an adult bring the milk, oil and salt to a boil.",
+    "Pour it over the tapioca flour in a bowl and stir until smooth and sticky.",
+    "Let cool for 10 minutes.",
+    "Beat in the eggs one at a time, then the cheese.",
+    "Scoop 1 1/2 tablespoon balls onto a lined baking sheet.",
+    "Bake for 20 to 25 minutes, until puffed and golden. They are hollow and chewy inside."
+   ]
+  },
+  {
+   "id": "mantou",
+   "name": "Steamed buns",
+   "aliases": [
+    "mantou",
+    "steamed buns",
+    "chinese steamed buns",
+    "bao buns",
+    "plain steamed buns"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "2 hr",
+   "main": [
+    "flour",
+    "yeast",
+    "milk",
+    "sugar"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 teaspoon instant yeast",
+    "1 tablespoon sugar",
+    "2/3 cup (150 ml) warm milk or water",
+    "1 tablespoon vegetable oil"
+   ],
+   "steps": [
+    "Mix the flour, yeast and sugar, then stir in the milk and oil.",
+    "Knead for 10 minutes, until very smooth.",
+    "Cover and let rise for 1 hour.",
+    "Roll into a log and cut into 8 pieces. Put each on a square of parchment.",
+    "Let rise in the steamer basket for 20 minutes.",
+    "Have an adult set the basket over a pot of boiling water and cover.",
+    "Steam for 12 to 15 minutes.",
+    "Turn off the heat and wait 5 minutes before lifting the lid so they do not shrink."
+   ]
+  },
+  {
+   "id": "flour-tortillas",
+   "name": "Flour tortillas",
+   "aliases": [
+    "flour tortillas",
+    "flour tortilla",
+    "homemade tortillas",
+    "tortillas",
+    "soft tortillas"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "1 hr",
+   "main": [
+    "flour",
+    "shortening",
+    "baking powder",
+    "water"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 teaspoon baking powder",
+    "1 teaspoon salt",
+    "1/4 cup (50 g) shortening, lard or vegetable oil",
+    "3/4 cup (180 ml) hot tap water"
+   ],
+   "steps": [
+    "Mix the flour, baking powder and salt, then rub in the shortening.",
+    "Stir in the hot water and knead for 2 minutes, until smooth.",
+    "Split into 8 balls, cover and rest for 30 minutes.",
+    "Roll each ball into a thin 8 inch circle.",
+    "Heat a dry skillet over medium high heat. Ask an adult to help.",
+    "Cook each tortilla for 30 to 60 seconds per side, until bubbly with light brown spots.",
+    "Stack them in a towel to keep soft."
+   ]
+  },
+  {
+   "id": "corn-tortillas",
+   "name": "Corn tortillas",
+   "aliases": [
+    "corn tortillas",
+    "corn tortilla",
+    "masa tortillas",
+    "homemade corn tortillas"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "45 min",
+   "main": [
+    "masa harina",
+    "water",
+    "salt"
+   ],
+   "ingredients": [
+    "2 cups (230 g) masa harina",
+    "1/2 teaspoon salt",
+    "1 1/2 cups (360 ml) hot water"
+   ],
+   "steps": [
+    "Mix the masa harina, salt and water into a soft dough like play dough. Add water a spoonful at a time if it cracks.",
+    "Cover and rest for 20 minutes.",
+    "Roll into 12 balls.",
+    "Press each ball between 2 pieces of plastic in a tortilla press or under a heavy pan to about 6 inches.",
+    "Heat a dry skillet over medium high heat. Ask an adult to help.",
+    "Cook for 1 minute, flip and cook for 1 minute, then flip again for 30 seconds. It may puff.",
+    "Keep warm in a towel."
+   ]
+  },
+  {
+   "id": "chocolate-babka",
+   "name": "Chocolate babka",
+   "aliases": [
+    "babka",
+    "chocolate babka",
+    "chocolate swirl bread",
+    "twisted chocolate bread"
+   ],
+   "category": "Baking",
+   "servings": 10,
+   "time": "4 hr",
+   "main": [
+    "flour",
+    "butter",
+    "egg",
+    "chocolate",
+    "cocoa"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) warm milk",
+    "2 1/4 teaspoons (7 g) instant yeast",
+    "1/4 cup (50 g) sugar",
+    "2 large eggs",
+    "2 3/4 cups (345 g) all-purpose flour",
+    "1/2 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "Filling: 4 oz (115 g) chocolate and 1/2 cup (115 g) butter melted together, 1/2 cup (60 g) powdered sugar, 1/4 cup (20 g) cocoa",
+    "Syrup: 1/3 cup (65 g) sugar and 1/3 cup (80 ml) water"
+   ],
+   "steps": [
+    "Mix the milk, yeast, sugar, eggs, flour and salt, then knead in the butter for 10 minutes, until smooth.",
+    "Cover and let rise for 1 hour 30 minutes.",
+    "Stir the filling together until smooth.",
+    "Roll the dough into a 10 by 15 inch rectangle and spread the filling over it.",
+    "Roll up from the long side and chill for 15 minutes.",
+    "Cut the log in half lengthwise and twist the two halves together, cut sides up.",
+    "Put in a greased 9 by 5 inch loaf pan and let rise for 1 hour.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 35 to 45 minutes, until a skewer comes out without wet dough.",
+    "Boil the syrup ingredients for 1 minute and brush over the hot babka."
+   ]
+  },
+  {
+   "id": "chapati",
+   "name": "Chapati",
+   "aliases": [
+    "chapati",
+    "roti",
+    "chapatti",
+    "phulka",
+    "indian flatbread"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "45 min",
+   "main": [
+    "whole wheat flour",
+    "water",
+    "oil",
+    "ghee"
+   ],
+   "ingredients": [
+    "2 cups (240 g) whole wheat atta flour",
+    "1/2 teaspoon salt",
+    "1 tablespoon vegetable oil",
+    "3/4 cup (180 ml) warm water",
+    "Ghee or butter for brushing"
+   ],
+   "steps": [
+    "Mix the flour and salt, then add the oil and water and knead for 5 minutes into a soft dough.",
+    "Cover and rest for 20 minutes.",
+    "Split into 8 balls and roll each into a thin 7 inch circle, dusting with flour.",
+    "Heat a dry skillet over medium high heat. Ask an adult to help.",
+    "Cook for 30 to 60 seconds, until bubbles show, then flip.",
+    "Cook for 1 minute, pressing gently with a folded towel so it puffs.",
+    "Brush with ghee and stack in a towel."
+   ]
+  },
+  {
+   "id": "honey-oat-bread",
+   "name": "Honey oat bread",
+   "aliases": [
+    "honey oat bread",
+    "oat bread",
+    "oatmeal bread",
+    "honey oatmeal bread"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr 30 min",
+   "main": [
+    "oats",
+    "flour",
+    "honey",
+    "yeast",
+    "butter"
+   ],
+   "ingredients": [
+    "1 cup (90 g) rolled oats, plus more for the top",
+    "1 cup (240 ml) boiling water",
+    "1/4 cup (85 g) honey",
+    "2 tablespoons butter",
+    "1/2 cup (120 ml) warm water",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "3 cups (375 g) all-purpose flour",
+    "1 1/2 teaspoons salt"
+   ],
+   "steps": [
+    "Pour the boiling water over the oats, honey and butter. Let sit for 20 minutes, until just warm. Ask an adult to help.",
+    "Stir the yeast into the warm water and add it to the oats.",
+    "Add the flour and salt and knead for 8 minutes.",
+    "Cover and let rise for 1 hour.",
+    "Shape into a log, brush the top with water, sprinkle with oats and put it in a greased 9 by 5 inch loaf pan.",
+    "Let rise for 45 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 35 to 40 minutes, until golden.",
+    "Let cool for 1 hour before slicing."
+   ]
+  },
+  {
+   "id": "cardamom-buns",
+   "name": "Swedish cardamom buns",
+   "aliases": [
+    "cardamom buns",
+    "kardemummabullar",
+    "swedish cardamom buns",
+    "cardamom knots",
+    "cardamom rolls"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "3 hr",
+   "main": [
+    "flour",
+    "milk",
+    "butter",
+    "cardamom",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) warm milk",
+    "2 1/4 teaspoons (7 g) instant or active dry yeast",
+    "1/4 cup (50 g) sugar",
+    "1/3 cup (75 g) butter, melted",
+    "1 teaspoon ground cardamom",
+    "1/2 teaspoon salt",
+    "3 1/4 cups (405 g) all-purpose flour",
+    "Filling: 1/2 cup (115 g) butter, softened, 1/2 cup (110 g) packed brown sugar, 2 teaspoons cardamom, 1 teaspoon cinnamon",
+    "1 egg for brushing and pearl sugar or coarse sugar"
+   ],
+   "steps": [
+    "Stir the milk, yeast and sugar and let sit for 5 minutes.",
+    "Add the butter, cardamom, salt and flour and knead for 8 minutes.",
+    "Cover and let rise for 1 hour.",
+    "Roll into a 12 by 16 inch rectangle, spread with the filling and fold into thirds like a letter.",
+    "Cut into 12 strips. Twist each strip and tie it into a knot.",
+    "Put on lined sheets and let rise for 45 minutes.",
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Brush with egg and sprinkle with pearl sugar.",
+    "Bake for 12 to 15 minutes, until golden."
+   ]
+  }
+ ]
+}

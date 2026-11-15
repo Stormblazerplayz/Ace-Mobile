@@ -1,0 +1,9 @@
+# tag: tech.office.extra2
+what are smart chips in google docs | at sign in docs => Type @ in a Google Doc to insert smart chips for people, files, dates, dropdowns and more. Hovering a chip shows details without leaving the doc.
+how do i use tabs in google docs | document tabs => Google Docs can split one document into tabs and subtabs, shown in the left sidebar. Use them for chapters or sections instead of making separate docs.
+what is pageless format in google docs | remove page breaks docs => Pageless format, in File, Page setup, removes page breaks so the doc flows as one long page, good for notes and wide tables.
+what is a filter view in google sheets | filter without changing it for others => A filter view, under Data, lets you sort and filter just for yourself, so others editing the sheet don't see their view change.
+what is google apps script | automate google sheets with code => Apps Script is JavaScript that runs inside Google Sheets, Docs and Gmail to automate tasks like sending emails or making custom functions. Open it from Extensions.
+how do i make a google form skip questions | form branching sections => Split the form into sections, then on a multiple choice question tap the menu and choose Go to section based on answer.
+what is drive for desktop | google drive on my pc => Google Drive for desktop puts your Drive in File Explorer as a drive letter. Files can stream on demand or be kept offline.
+what is a section break in word | different layout for part of a document => A section break, from Layout, Breaks, lets one part of a document have different margins, columns, orientation or headers from the rest.

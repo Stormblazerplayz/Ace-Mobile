@@ -1,0 +1,1562 @@
+{
+ "recipes": [
+  {
+   "id": "pie-crust",
+   "name": "All-butter pie crust",
+   "aliases": [
+    "pie crust",
+    "pie dough",
+    "pastry crust",
+    "double pie crust",
+    "butter pie crust",
+    "homemade pie crust"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "flour",
+    "butter",
+    "salt",
+    "water"
+   ],
+   "ingredients": [
+    "2 1/2 cups (315 g) all-purpose flour",
+    "1 tablespoon sugar",
+    "1 teaspoon salt",
+    "1 cup (225 g) very cold butter, cut in small cubes",
+    "6 to 8 tablespoons ice water"
+   ],
+   "steps": [
+    "Whisk the flour, sugar and salt in a big bowl.",
+    "Rub the butter into the flour with your fingers or a pastry cutter until the biggest bits are pea sized.",
+    "Sprinkle on 6 tablespoons of ice water and stir with a fork.",
+    "Squeeze a handful. If it falls apart, add more water a tablespoon at a time.",
+    "Split the dough in half, press each half into a flat disk and wrap it.",
+    "Chill for 1 hour before rolling. This makes a top and bottom crust for one 9 inch pie.",
+    "To bake an empty crust, line it with parchment and dried beans and bake at 425°F (220°C) for 15 minutes, then remove the beans and bake for 10 minutes more. Ask an adult to help."
+   ]
+  },
+  {
+   "id": "graham-cracker-crust",
+   "name": "Graham cracker crust",
+   "aliases": [
+    "graham cracker crust",
+    "graham crust",
+    "cookie crumb crust",
+    "crumb crust",
+    "cracker pie crust"
+   ],
+   "category": "Baking",
+   "servings": 8,
+   "time": "25 min",
+   "main": [
+    "graham crackers",
+    "butter",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 1/2 cups (150 g) graham cracker crumbs, about 10 full sheets",
+    "1/3 cup (65 g) sugar",
+    "6 tablespoons (85 g) butter, melted"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Crush the crackers in a zip bag with a rolling pin until fine.",
+    "Stir the crumbs, sugar and melted butter until it looks like wet sand.",
+    "Press firmly into the bottom and sides of a 9 inch pie plate with the bottom of a cup.",
+    "Bake for 10 minutes, until fragrant.",
+    "Let cool for 15 minutes before filling."
+   ]
+  },
+  {
+   "id": "apple-pie",
+   "name": "Apple pie",
+   "aliases": [
+    "apple pie",
+    "apple pies",
+    "homemade apple pie",
+    "double crust apple pie",
+    "classic apple pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr",
+   "main": [
+    "apples",
+    "pie crust",
+    "sugar",
+    "cinnamon",
+    "butter"
+   ],
+   "ingredients": [
+    "1 batch all-butter pie crust (top and bottom), chilled",
+    "6 to 7 medium apples (2 1/2 lb / 1.1 kg), peeled and thinly sliced",
+    "3/4 cup (150 g) sugar",
+    "2 tablespoons all-purpose flour",
+    "1 teaspoon ground cinnamon",
+    "1/4 teaspoon ground nutmeg",
+    "1 tablespoon lemon juice",
+    "2 tablespoons butter, in small pieces",
+    "1 egg beaten with 1 tablespoon milk"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Peel, core and slice the apples. Ask an adult to help with the knife.",
+    "Toss the apples with the sugar, flour, cinnamon, nutmeg and lemon juice.",
+    "Roll half the dough into a 12 inch circle and fit it into a 9 inch pie plate.",
+    "Pile in the apples and dot with butter.",
+    "Roll the other half, lay it on top, trim, and pinch the edges together.",
+    "Cut 4 slits in the top and brush with the egg wash.",
+    "Bake for 15 minutes, then turn the oven down to 375°F (190°C).",
+    "Bake for 40 to 45 minutes more, until golden and the juice bubbles through the slits.",
+    "Let cool for 2 hours so the filling sets."
+   ]
+  },
+  {
+   "id": "pumpkin-pie",
+   "name": "Pumpkin pie",
+   "aliases": [
+    "pumpkin pie",
+    "pumpkin pies",
+    "thanksgiving pie",
+    "pumpkin custard pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr 30 min",
+   "main": [
+    "pumpkin",
+    "evaporated milk",
+    "egg",
+    "sugar",
+    "pie crust"
+   ],
+   "ingredients": [
+    "1 unbaked 9 inch pie crust (half batch of all-butter pie crust)",
+    "1 can (15 oz / 425 g) pumpkin puree",
+    "1 can (12 oz / 354 ml) evaporated milk",
+    "2 large eggs",
+    "3/4 cup (150 g) sugar",
+    "1/2 teaspoon salt",
+    "1 teaspoon ground cinnamon",
+    "1/2 teaspoon ground ginger",
+    "1/4 teaspoon ground cloves"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Fit the crust into a 9 inch pie plate and crimp the edge.",
+    "Whisk the sugar, salt and spices, then whisk in the eggs and pumpkin.",
+    "Slowly whisk in the evaporated milk.",
+    "Pour into the crust.",
+    "Bake for 15 minutes, then turn the oven down to 350°F (175°C).",
+    "Bake for 40 to 50 minutes more, until a knife near the middle comes out clean.",
+    "Let cool for 2 hours, then chill. Serve with whipped cream."
+   ]
+  },
+  {
+   "id": "pecan-pie",
+   "name": "Pecan pie",
+   "aliases": [
+    "pecan pie",
+    "pecan pies",
+    "southern pecan pie",
+    "nut pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr",
+   "main": [
+    "pecans",
+    "corn syrup",
+    "egg",
+    "sugar",
+    "pie crust"
+   ],
+   "ingredients": [
+    "1 unbaked 9 inch pie crust",
+    "1 cup (240 ml) light corn syrup",
+    "3 large eggs",
+    "1/2 cup (100 g) sugar",
+    "1/2 cup (110 g) packed brown sugar",
+    "2 tablespoons butter, melted",
+    "1 teaspoon vanilla extract",
+    "1/4 teaspoon salt",
+    "1 1/2 cups (170 g) pecan halves"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Fit the crust into a 9 inch pie plate.",
+    "Whisk the corn syrup, eggs, sugar, brown sugar, butter, vanilla and salt.",
+    "Stir in the pecans and pour into the crust.",
+    "Bake for 60 to 70 minutes, until the middle is set and only jiggles a little. Cover the edges with foil if they brown too fast.",
+    "Let cool for 2 hours before slicing."
+   ]
+  },
+  {
+   "id": "cherry-pie",
+   "name": "Cherry pie",
+   "aliases": [
+    "cherry pie",
+    "cherry pies",
+    "sour cherry pie",
+    "lattice cherry pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr",
+   "main": [
+    "cherries",
+    "sugar",
+    "cornstarch",
+    "pie crust"
+   ],
+   "ingredients": [
+    "1 batch all-butter pie crust (top and bottom), chilled",
+    "5 cups (about 2 lb / 900 g) pitted tart cherries, fresh or thawed frozen and drained",
+    "1 cup (200 g) sugar",
+    "1/4 cup (30 g) cornstarch",
+    "1 tablespoon lemon juice",
+    "1/4 teaspoon almond extract",
+    "1 egg beaten with 1 tablespoon milk"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Stir the cherries, sugar, cornstarch, lemon juice and almond extract.",
+    "Roll half the dough and fit it into a 9 inch pie plate. Pour in the filling.",
+    "Roll the other half, cut it into strips and weave a lattice on top. Pinch the edges.",
+    "Brush with the egg wash and put the pie on a baking sheet to catch drips.",
+    "Bake for 50 to 60 minutes, until golden and the filling bubbles in the middle.",
+    "Let cool for 3 hours so the filling sets."
+   ]
+  },
+  {
+   "id": "blueberry-pie",
+   "name": "Blueberry pie",
+   "aliases": [
+    "blueberry pie",
+    "blueberry pies",
+    "berry pie",
+    "wild blueberry pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr",
+   "main": [
+    "blueberries",
+    "sugar",
+    "cornstarch",
+    "lemon",
+    "pie crust"
+   ],
+   "ingredients": [
+    "1 batch all-butter pie crust (top and bottom), chilled",
+    "6 cups (900 g) blueberries",
+    "3/4 cup (150 g) sugar",
+    "1/4 cup (30 g) cornstarch",
+    "1 tablespoon lemon juice",
+    "1 teaspoon lemon zest",
+    "Pinch of salt",
+    "1 egg beaten with 1 tablespoon milk"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Toss the blueberries with the sugar, cornstarch, lemon juice, zest and salt.",
+    "Fit half the dough into a 9 inch pie plate and fill with the berries.",
+    "Cover with the top crust or a lattice and pinch the edges. Cut slits if using a full top.",
+    "Brush with egg wash and set on a baking sheet.",
+    "Bake for 20 minutes, then turn the oven down to 375°F (190°C).",
+    "Bake for 40 to 45 minutes more, until the juice bubbles thickly.",
+    "Let cool for 3 hours before slicing."
+   ]
+  },
+  {
+   "id": "key-lime-pie",
+   "name": "Key lime pie",
+   "aliases": [
+    "key lime pie",
+    "lime pie",
+    "key lime pies",
+    "florida lime pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr",
+   "main": [
+    "lime",
+    "sweetened condensed milk",
+    "egg yolk",
+    "graham crackers"
+   ],
+   "ingredients": [
+    "1 baked graham cracker crust",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "3 large egg yolks",
+    "1/2 cup (120 ml) key lime or regular lime juice",
+    "1 teaspoon lime zest",
+    "Whipped cream to serve"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Whisk the condensed milk and egg yolks until smooth.",
+    "Whisk in the lime juice and zest. It thickens as you stir.",
+    "Pour into the cooled crust.",
+    "Bake for 15 minutes, until set at the edges.",
+    "Let cool for 30 minutes, then chill for 3 hours.",
+    "Top with whipped cream."
+   ]
+  },
+  {
+   "id": "chocolate-cream-pie",
+   "name": "Chocolate cream pie",
+   "aliases": [
+    "chocolate cream pie",
+    "chocolate pie",
+    "chocolate pudding pie",
+    "french silk pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "5 hr",
+   "main": [
+    "chocolate",
+    "milk",
+    "egg yolk",
+    "cornstarch",
+    "chocolate cookies"
+   ],
+   "ingredients": [
+    "Crust: 1 1/2 cups (150 g) chocolate cookie crumbs and 5 tablespoons (70 g) butter, melted",
+    "2/3 cup (135 g) sugar",
+    "1/4 cup (30 g) cornstarch",
+    "1/4 teaspoon salt",
+    "3 cups (720 ml) milk",
+    "3 large egg yolks",
+    "4 oz (115 g) semisweet chocolate, chopped",
+    "2 tablespoons butter",
+    "1 teaspoon vanilla extract",
+    "Whipped cream to top"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Press the crust mix into a 9 inch pie plate and bake for 8 minutes. Let cool.",
+    "Whisk the sugar, cornstarch and salt in a pot, then whisk in the milk and yolks.",
+    "Cook over medium heat, stirring all the time, until it thickens and bubbles. Ask an adult to help.",
+    "Boil for 1 minute while stirring.",
+    "Take it off the heat and stir in the chocolate, butter and vanilla until smooth.",
+    "Pour into the crust and press plastic wrap onto the top.",
+    "Chill for 4 hours, then top with whipped cream."
+   ]
+  },
+  {
+   "id": "sweet-potato-pie",
+   "name": "Sweet potato pie",
+   "aliases": [
+    "sweet potato pie",
+    "sweet potato pies",
+    "yam pie",
+    "sweet tater pie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr 30 min",
+   "main": [
+    "sweet potato",
+    "butter",
+    "sugar",
+    "evaporated milk",
+    "egg"
+   ],
+   "ingredients": [
+    "1 unbaked 9 inch pie crust",
+    "1 1/2 lb (680 g) sweet potatoes, about 2 medium",
+    "1/2 cup (115 g) butter, softened",
+    "1 cup (200 g) sugar",
+    "1/2 cup (120 ml) evaporated milk",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1/2 teaspoon ground cinnamon",
+    "1/4 teaspoon ground nutmeg"
+   ],
+   "steps": [
+    "Peel and cube the sweet potatoes and boil for 15 to 20 minutes, until very soft. Ask an adult to help. Drain.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Mash the sweet potatoes with the butter until smooth. You need about 2 cups.",
+    "Beat in the sugar, evaporated milk, eggs, vanilla and spices.",
+    "Pour into the crust.",
+    "Bake for 55 to 60 minutes, until a knife in the middle comes out clean.",
+    "Let cool for 2 hours."
+   ]
+  },
+  {
+   "id": "fresh-strawberry-pie",
+   "name": "Fresh strawberry pie",
+   "aliases": [
+    "strawberry pie",
+    "fresh strawberry pie",
+    "glazed strawberry pie",
+    "strawberry pies"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "4 hr",
+   "main": [
+    "strawberries",
+    "sugar",
+    "cornstarch",
+    "pie crust"
+   ],
+   "ingredients": [
+    "1 baked 9 inch pie crust",
+    "2 lb (900 g) strawberries, hulled",
+    "3/4 cup (150 g) sugar",
+    "3 tablespoons cornstarch",
+    "1 cup (240 ml) water",
+    "2 tablespoons strawberry gelatin powder (optional, for color)"
+   ],
+   "steps": [
+    "Mash 1 cup of the smallest strawberries.",
+    "Whisk the sugar and cornstarch in a pot, then stir in the water and mashed berries.",
+    "Cook over medium heat, stirring, until it boils and turns thick and clear, about 5 minutes. Ask an adult to help.",
+    "Stir in the gelatin and let cool for 15 minutes.",
+    "Pile the rest of the strawberries in the crust, pointy side up.",
+    "Pour the glaze over them.",
+    "Chill for 3 hours. Serve with whipped cream."
+   ]
+  },
+  {
+   "id": "peach-cobbler",
+   "name": "Peach cobbler",
+   "aliases": [
+    "peach cobbler",
+    "cobbler",
+    "peach cobblers",
+    "southern peach cobbler",
+    "fruit cobbler"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "1 hr 10 min",
+   "main": [
+    "peaches",
+    "flour",
+    "sugar",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter",
+    "4 cups (about 1 1/2 lb / 680 g) sliced peaches, fresh or thawed frozen",
+    "1/2 cup (100 g) sugar for the peaches",
+    "1 cup (125 g) all-purpose flour",
+    "1 cup (200 g) sugar",
+    "2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1 cup (240 ml) milk",
+    "1 teaspoon ground cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Put the butter in a 9 by 13 inch dish and put it in the oven for 5 minutes, until melted.",
+    "Stir the peaches with 1/2 cup sugar.",
+    "Whisk the flour, 1 cup sugar, baking powder and salt, then whisk in the milk.",
+    "Pour the batter over the melted butter. Do not stir.",
+    "Spoon the peaches and juice over the batter and sprinkle with cinnamon.",
+    "Bake for 40 to 45 minutes, until golden. The batter rises up around the fruit.",
+    "Let cool for 15 minutes. Serve with vanilla ice cream."
+   ]
+  },
+  {
+   "id": "berry-crisp",
+   "name": "Mixed berry crisp",
+   "aliases": [
+    "berry crisp",
+    "mixed berry crisp",
+    "berry crumble",
+    "blueberry crisp",
+    "strawberry crisp"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "1 hr",
+   "main": [
+    "berries",
+    "oats",
+    "flour",
+    "brown sugar",
+    "butter"
+   ],
+   "ingredients": [
+    "5 cups (700 g) mixed berries, fresh or frozen",
+    "1/3 cup (65 g) sugar",
+    "2 tablespoons cornstarch",
+    "1 tablespoon lemon juice",
+    "Topping: 3/4 cup (95 g) all-purpose flour, 3/4 cup (70 g) rolled oats, 1/2 cup (110 g) packed brown sugar, 1/2 teaspoon cinnamon, 1/4 teaspoon salt",
+    "1/2 cup (115 g) cold butter, cubed"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Toss the berries with the sugar, cornstarch and lemon juice and spread in an 8 by 8 inch dish.",
+    "Mix the topping dry ingredients, then rub in the butter until clumpy.",
+    "Sprinkle the topping over the berries.",
+    "Bake for 35 to 40 minutes, until golden and bubbling at the edges.",
+    "Let cool for 15 minutes. Serve warm with ice cream."
+   ]
+  },
+  {
+   "id": "apple-turnovers",
+   "name": "Apple turnovers",
+   "aliases": [
+    "apple turnovers",
+    "apple turnover",
+    "turnovers",
+    "apple hand pies",
+    "puff pastry turnovers"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "1 hr",
+   "main": [
+    "puff pastry",
+    "apples",
+    "brown sugar",
+    "cinnamon",
+    "butter"
+   ],
+   "ingredients": [
+    "1 box (17.3 oz / 490 g) puff pastry, 2 sheets, thawed",
+    "2 apples, peeled and diced small",
+    "2 tablespoons butter",
+    "1/4 cup (55 g) packed brown sugar",
+    "1/2 teaspoon ground cinnamon",
+    "1 teaspoon cornstarch mixed with 1 tablespoon water",
+    "1 egg beaten with 1 tablespoon water",
+    "1 batch powdered sugar glaze (optional)"
+   ],
+   "steps": [
+    "Cook the apples, butter, brown sugar and cinnamon in a pan over medium heat for 5 minutes, until soft. Ask an adult to help.",
+    "Stir in the cornstarch mix and cook for 1 minute, until thick. Let cool for 15 minutes.",
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Cut each pastry sheet into 4 squares.",
+    "Put a spoonful of apples in the middle of each square.",
+    "Fold into triangles and press the edges with a fork.",
+    "Brush with egg wash, cut a small slit in each and put on a lined sheet.",
+    "Bake for 20 to 25 minutes, until puffed and golden.",
+    "Let cool for 10 minutes, then drizzle with glaze."
+   ]
+  },
+  {
+   "id": "fruit-galette",
+   "name": "Rustic fruit galette",
+   "aliases": [
+    "galette",
+    "fruit galette",
+    "rustic tart",
+    "crostata",
+    "peach galette",
+    "berry galette"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "1 hr 45 min",
+   "main": [
+    "flour",
+    "butter",
+    "fruit",
+    "sugar"
+   ],
+   "ingredients": [
+    "Dough: 1 1/4 cups (160 g) all-purpose flour, 1 tablespoon sugar, 1/2 teaspoon salt, 1/2 cup (115 g) cold butter, 3 to 4 tablespoons ice water",
+    "3 cups sliced fruit like peaches, plums, apples or berries",
+    "1/4 cup (50 g) sugar",
+    "1 tablespoon cornstarch",
+    "1 egg beaten with 1 tablespoon milk",
+    "1 tablespoon coarse sugar"
+   ],
+   "steps": [
+    "Mix the flour, sugar and salt, rub in the butter, and stir in just enough ice water to hold together.",
+    "Flatten into a disk, wrap and chill for 30 minutes.",
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Roll the dough into a 12 inch circle on parchment and slide it onto a baking sheet.",
+    "Toss the fruit with the sugar and cornstarch and pile it in the middle, leaving a 2 inch border.",
+    "Fold the border up over the fruit, pleating as you go.",
+    "Brush the crust with egg wash and sprinkle with coarse sugar.",
+    "Bake for 35 to 40 minutes, until the crust is golden and the fruit bubbles.",
+    "Let cool for 20 minutes."
+   ]
+  },
+  {
+   "id": "chocolate-pudding",
+   "name": "Chocolate pudding",
+   "aliases": [
+    "chocolate pudding",
+    "homemade chocolate pudding",
+    "chocolate puddings",
+    "stovetop chocolate pudding"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "2 hr 20 min",
+   "main": [
+    "milk",
+    "cocoa",
+    "sugar",
+    "cornstarch",
+    "chocolate"
+   ],
+   "ingredients": [
+    "1/2 cup (100 g) sugar",
+    "1/4 cup (20 g) unsweetened cocoa powder",
+    "3 tablespoons cornstarch",
+    "1/4 teaspoon salt",
+    "2 3/4 cups (650 ml) milk",
+    "2 oz (55 g) semisweet chocolate, chopped",
+    "1 tablespoon butter",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Whisk the sugar, cocoa, cornstarch and salt in a pot.",
+    "Slowly whisk in the milk until smooth.",
+    "Cook over medium heat, stirring all the time, until it thickens and starts to bubble. Ask an adult to help.",
+    "Boil for 1 minute while stirring.",
+    "Take it off the heat and stir in the chocolate, butter and vanilla.",
+    "Pour into 4 cups and press plastic wrap onto the tops so no skin forms.",
+    "Chill for 2 hours."
+   ]
+  },
+  {
+   "id": "vanilla-pudding",
+   "name": "Vanilla pudding",
+   "aliases": [
+    "vanilla pudding",
+    "homemade vanilla pudding",
+    "vanilla custard pudding",
+    "pudding cups"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "2 hr 20 min",
+   "main": [
+    "milk",
+    "sugar",
+    "cornstarch",
+    "egg yolk",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1/2 cup (100 g) sugar",
+    "3 tablespoons cornstarch",
+    "1/4 teaspoon salt",
+    "2 3/4 cups (650 ml) milk",
+    "2 large egg yolks",
+    "2 tablespoons butter",
+    "2 teaspoons vanilla extract"
+   ],
+   "steps": [
+    "Whisk the sugar, cornstarch and salt in a pot.",
+    "Whisk in the milk and egg yolks until smooth.",
+    "Cook over medium heat, stirring all the time, until it thickens and bubbles. Ask an adult to help.",
+    "Boil for 1 minute while stirring.",
+    "Take it off the heat and stir in the butter and vanilla.",
+    "Pour into 4 cups and press plastic wrap onto the tops.",
+    "Chill for 2 hours."
+   ]
+  },
+  {
+   "id": "rice-pudding",
+   "name": "Creamy rice pudding",
+   "aliases": [
+    "rice pudding",
+    "arroz con leche",
+    "rice puddings",
+    "creamy rice pudding",
+    "stovetop rice pudding"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "rice",
+    "milk",
+    "sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1/2 cup (100 g) short-grain or arborio rice",
+    "4 cups (950 ml) whole milk",
+    "1/3 cup (65 g) sugar",
+    "1/4 teaspoon salt",
+    "1 cinnamon stick",
+    "1 teaspoon vanilla extract",
+    "1/3 cup (50 g) raisins (optional)",
+    "Ground cinnamon to sprinkle"
+   ],
+   "steps": [
+    "Put the rice, milk, sugar, salt and cinnamon stick in a heavy pot.",
+    "Bring to a gentle simmer over medium heat, stirring. Ask an adult to help.",
+    "Turn the heat to low and simmer for 35 to 40 minutes, stirring often so it does not stick, until thick and creamy.",
+    "Take out the cinnamon stick and stir in the vanilla and raisins.",
+    "Serve warm or chilled with a sprinkle of cinnamon. It thickens more as it cools."
+   ]
+  },
+  {
+   "id": "kheer",
+   "name": "Kheer",
+   "aliases": [
+    "kheer",
+    "indian rice pudding",
+    "payasam",
+    "chawal ki kheer",
+    "cardamom rice pudding"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "rice",
+    "milk",
+    "sugar",
+    "cardamom",
+    "pistachios"
+   ],
+   "ingredients": [
+    "1/4 cup (50 g) basmati rice",
+    "4 cups (950 ml) whole milk",
+    "1/4 cup (50 g) sugar",
+    "1/2 teaspoon ground cardamom",
+    "Pinch of saffron (optional)",
+    "2 tablespoons chopped pistachios or almonds",
+    "2 tablespoons raisins"
+   ],
+   "steps": [
+    "Rinse the rice and soak it in water for 20 minutes, then drain.",
+    "Bring the milk to a boil in a heavy pot, stirring. Ask an adult to help.",
+    "Add the rice and simmer on low for 30 to 35 minutes, stirring often, until the rice is very soft and the milk thickens.",
+    "Stir in the sugar, cardamom and saffron and cook for 5 minutes.",
+    "Stir in the nuts and raisins.",
+    "Serve warm or chilled."
+   ]
+  },
+  {
+   "id": "bread-pudding",
+   "name": "Bread pudding",
+   "aliases": [
+    "bread pudding",
+    "bread and butter pudding",
+    "bread puddings",
+    "cinnamon bread pudding"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "bread",
+    "milk",
+    "egg",
+    "sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "6 cups (about 300 g) day-old bread cubes",
+    "2 1/2 cups (600 ml) milk",
+    "3 large eggs",
+    "3/4 cup (150 g) sugar",
+    "1/4 cup (55 g) butter, melted",
+    "1 teaspoon vanilla extract",
+    "1 teaspoon ground cinnamon",
+    "1/2 cup (75 g) raisins (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease an 8 by 8 inch dish and spread the bread cubes and raisins in it.",
+    "Whisk the milk, eggs, sugar, butter, vanilla and cinnamon.",
+    "Pour over the bread and press down so it soaks.",
+    "Let soak for 15 minutes.",
+    "Bake for 45 to 50 minutes, until puffed and a knife in the middle comes out clean.",
+    "Let cool for 10 minutes. Serve warm."
+   ]
+  },
+  {
+   "id": "banana-pudding",
+   "name": "Banana pudding",
+   "aliases": [
+    "banana pudding",
+    "nilla banana pudding",
+    "southern banana pudding",
+    "banana puddings"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "4 hr 30 min",
+   "main": [
+    "bananas",
+    "vanilla wafers",
+    "milk",
+    "egg yolk",
+    "cream"
+   ],
+   "ingredients": [
+    "3/4 cup (150 g) sugar",
+    "1/4 cup (30 g) cornstarch",
+    "1/4 teaspoon salt",
+    "3 cups (720 ml) milk",
+    "3 large egg yolks",
+    "1 tablespoon butter",
+    "1 teaspoon vanilla extract",
+    "1 box (11 oz / 311 g) vanilla wafer cookies",
+    "4 ripe bananas, sliced",
+    "1 1/2 cups (360 ml) heavy cream whipped with 2 tablespoons sugar"
+   ],
+   "steps": [
+    "Whisk the sugar, cornstarch and salt in a pot, then whisk in the milk and yolks.",
+    "Cook over medium heat, stirring all the time, until thick and bubbling. Ask an adult to help.",
+    "Boil for 1 minute, then stir in the butter and vanilla. Let cool for 30 minutes.",
+    "Layer wafers, banana slices and pudding in a 9 by 9 inch dish. Repeat 2 more times.",
+    "Spread the whipped cream on top.",
+    "Chill for 4 hours so the wafers soften."
+   ]
+  },
+  {
+   "id": "flan",
+   "name": "Caramel flan",
+   "aliases": [
+    "flan",
+    "caramel flan",
+    "creme caramel",
+    "leche flan",
+    "flan de leche",
+    "mexican flan"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "6 hr",
+   "main": [
+    "egg",
+    "sweetened condensed milk",
+    "evaporated milk",
+    "sugar"
+   ],
+   "ingredients": [
+    "3/4 cup (150 g) sugar",
+    "2 tablespoons water",
+    "5 large eggs",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1 can (12 oz / 354 ml) evaporated milk",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "An adult should make the caramel. Heat the sugar and water in a pan over medium heat, swirling, for 6 to 8 minutes, until amber. It is extremely hot.",
+    "Pour the caramel into a 9 inch round cake pan and tilt to coat the bottom.",
+    "Blend or whisk the eggs, condensed milk, evaporated milk and vanilla until smooth.",
+    "Pour over the caramel.",
+    "Set the pan in a bigger pan and pour in hot water halfway up the sides.",
+    "Bake for 50 to 60 minutes, until the edges are set and the middle jiggles a little.",
+    "Let cool for 1 hour, then chill for 4 hours.",
+    "Run a knife around the edge and flip it onto a plate with a rim."
+   ]
+  },
+  {
+   "id": "creme-brulee",
+   "name": "Creme brulee",
+   "aliases": [
+    "creme brulee",
+    "burnt cream",
+    "creme brulees",
+    "custard with burnt sugar"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "4 hr 30 min",
+   "main": [
+    "cream",
+    "egg yolk",
+    "sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) heavy cream",
+    "5 large egg yolks",
+    "1/2 cup (100 g) sugar",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "6 teaspoons sugar for the tops"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Heat the cream in a pot until steaming but not boiling.",
+    "Whisk the yolks, sugar, vanilla and salt, then slowly whisk in the hot cream.",
+    "Pour into six 6 oz ramekins set in a baking dish.",
+    "Pour hot water into the dish halfway up the ramekins. Ask an adult to help.",
+    "Bake for 35 to 40 minutes, until set at the edges and jiggly in the middle.",
+    "Let cool for 30 minutes, then chill for 3 hours.",
+    "Sprinkle 1 teaspoon sugar on each and have an adult melt it with a kitchen torch until golden."
+   ]
+  },
+  {
+   "id": "panna-cotta",
+   "name": "Vanilla panna cotta",
+   "aliases": [
+    "panna cotta",
+    "vanilla panna cotta",
+    "italian cream dessert",
+    "pannacotta"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "4 hr 20 min",
+   "main": [
+    "cream",
+    "milk",
+    "gelatin",
+    "sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 packet (2 1/4 teaspoons / 7 g) unflavored gelatin",
+    "3 tablespoons cold water",
+    "2 cups (480 ml) heavy cream",
+    "1 cup (240 ml) milk",
+    "1/3 cup (65 g) sugar",
+    "2 teaspoons vanilla extract",
+    "Berries or berry sauce to serve"
+   ],
+   "steps": [
+    "Sprinkle the gelatin over the cold water and let sit for 5 minutes.",
+    "Heat the cream, milk and sugar in a pot until steaming and the sugar dissolves. Do not let it boil. Ask an adult to help.",
+    "Take it off the heat and stir in the gelatin until fully melted, then the vanilla.",
+    "Pour into 6 small glasses or ramekins.",
+    "Chill for 4 hours, until set.",
+    "Top with berries."
+   ]
+  },
+  {
+   "id": "chocolate-mousse",
+   "name": "Easy chocolate mousse",
+   "aliases": [
+    "chocolate mousse",
+    "easy chocolate mousse",
+    "eggless chocolate mousse",
+    "mousse"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "2 hr 30 min",
+   "main": [
+    "chocolate",
+    "heavy cream",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "6 oz (170 g) semisweet chocolate, chopped",
+    "2 cups (480 ml) cold heavy cream, divided",
+    "2 tablespoons powdered sugar",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Heat 1/2 cup of the cream until steaming and pour it over the chocolate.",
+    "Let sit for 2 minutes, then stir until smooth. Let cool for 15 minutes.",
+    "Whip the other 1 1/2 cups of cream with the powdered sugar and vanilla until soft peaks form.",
+    "Fold a third of the whipped cream into the chocolate, then fold in the rest until no streaks are left.",
+    "Spoon into 6 glasses.",
+    "Chill for 2 hours. There are no raw eggs in this one."
+   ]
+  },
+  {
+   "id": "berry-trifle",
+   "name": "Berry trifle",
+   "aliases": [
+    "trifle",
+    "berry trifle",
+    "english trifle",
+    "strawberry trifle",
+    "trifle dessert"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "2 hr 30 min",
+   "main": [
+    "pound cake",
+    "pudding",
+    "berries",
+    "whipped cream"
+   ],
+   "ingredients": [
+    "1 box (3.4 oz / 96 g) instant vanilla pudding mix",
+    "2 cups (480 ml) cold milk",
+    "1 pound cake or angel food cake (about 10 oz / 280 g), cut in cubes",
+    "3 cups mixed berries, sliced if big",
+    "2 cups (480 ml) heavy cream whipped with 1/4 cup (30 g) powdered sugar"
+   ],
+   "steps": [
+    "Whisk the pudding mix and milk for 2 minutes and let set for 5 minutes.",
+    "Fold 1 cup of the whipped cream into the pudding.",
+    "Put a third of the cake in the bottom of a big glass bowl.",
+    "Add a layer of pudding, then berries.",
+    "Repeat the layers 2 more times.",
+    "Spread the rest of the whipped cream on top and add a few berries.",
+    "Chill for 2 hours."
+   ]
+  },
+  {
+   "id": "baked-apples",
+   "name": "Baked apples",
+   "aliases": [
+    "baked apples",
+    "baked apple",
+    "stuffed baked apples",
+    "cinnamon baked apples"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "apples",
+    "oats",
+    "brown sugar",
+    "butter",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "4 firm apples like Honeycrisp or Granny Smith",
+    "1/4 cup (55 g) packed brown sugar",
+    "1/4 cup (25 g) rolled oats",
+    "1 teaspoon ground cinnamon",
+    "2 tablespoons chopped walnuts or raisins",
+    "2 tablespoons butter, softened",
+    "1/2 cup (120 ml) water or apple juice"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Have an adult cut out the cores with a melon baller or small knife, leaving the bottoms on.",
+    "Mix the brown sugar, oats, cinnamon, nuts and butter.",
+    "Stuff the mix into the apples.",
+    "Stand them in a baking dish and pour the water around them.",
+    "Bake for 35 to 45 minutes, until soft when poked with a knife.",
+    "Let cool for 10 minutes and spoon the juice over them."
+   ]
+  },
+  {
+   "id": "poached-pears",
+   "name": "Poached pears",
+   "aliases": [
+    "poached pears",
+    "poached pear",
+    "spiced pears",
+    "pears in syrup"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "pears",
+    "apple juice",
+    "sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "4 firm ripe pears",
+    "4 cups (950 ml) apple juice or water",
+    "1/2 cup (100 g) sugar",
+    "1 cinnamon stick",
+    "2 strips lemon peel",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Peel the pears and leave the stems on. Slice a little off the bottoms so they stand up.",
+    "Put the juice, sugar, cinnamon and lemon peel in a pot that fits the pears and bring to a simmer. Ask an adult to help.",
+    "Lower the pears in and simmer for 20 to 25 minutes, turning now and then, until a knife slides in easily.",
+    "Lift the pears out onto plates.",
+    "Boil the liquid for 10 minutes, until it turns syrupy, then stir in the vanilla.",
+    "Spoon the syrup over the pears."
+   ]
+  },
+  {
+   "id": "gulab-jamun",
+   "name": "Gulab jamun",
+   "aliases": [
+    "gulab jamun",
+    "gulab jamuns",
+    "indian milk balls",
+    "gulab jaman"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "1 hr 45 min",
+   "main": [
+    "milk powder",
+    "flour",
+    "ghee",
+    "sugar",
+    "cardamom"
+   ],
+   "ingredients": [
+    "1 cup (120 g) milk powder",
+    "1/4 cup (30 g) all-purpose flour",
+    "1/4 teaspoon baking soda",
+    "2 tablespoons ghee or butter, melted",
+    "3 to 4 tablespoons milk",
+    "Syrup: 1 1/2 cups (300 g) sugar, 1 1/2 cups (360 ml) water, 4 cardamom pods crushed, 1 teaspoon rose water (optional)",
+    "Oil or ghee for frying"
+   ],
+   "steps": [
+    "Simmer the syrup ingredients for 5 minutes, then keep it warm on low. Ask an adult to help.",
+    "Mix the milk powder, flour and baking soda, then the ghee.",
+    "Add milk a spoonful at a time and gently mix into a soft, sticky dough. Rest for 5 minutes.",
+    "Roll into 16 smooth balls with no cracks.",
+    "An adult should fry. Heat 2 inches of oil to 300°F (149°C), low heat is important.",
+    "Fry the balls for 6 to 8 minutes, turning gently, until deep golden brown all over.",
+    "Drop the hot balls into the warm syrup.",
+    "Soak for 1 hour. They puff up and soften."
+   ]
+  },
+  {
+   "id": "mango-sticky-rice",
+   "name": "Mango sticky rice",
+   "aliases": [
+    "mango sticky rice",
+    "khao niao mamuang",
+    "thai mango rice",
+    "sticky rice with mango"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "4 hr 45 min",
+   "main": [
+    "glutinous rice",
+    "coconut milk",
+    "mango",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 cup (200 g) glutinous sticky rice",
+    "1 can (13.5 oz / 400 ml) coconut milk",
+    "1/2 cup (100 g) sugar",
+    "1/2 teaspoon salt",
+    "1 teaspoon cornstarch",
+    "2 ripe mangoes",
+    "1 teaspoon toasted sesame seeds (optional)"
+   ],
+   "steps": [
+    "Rinse the rice until the water runs clear, then soak it in water for 4 hours.",
+    "Drain and steam the rice in a steamer basket lined with cheesecloth for 20 to 25 minutes, until tender and see-through. Ask an adult to help with the steam.",
+    "Heat 1 cup of the coconut milk with the sugar and 1/4 teaspoon salt until the sugar dissolves.",
+    "Stir it into the hot rice, cover and let sit for 20 minutes.",
+    "Simmer the rest of the coconut milk with the last 1/4 teaspoon salt and the cornstarch for 2 minutes, until a little thick.",
+    "Peel and slice the mangoes. Ask an adult to help with the knife.",
+    "Serve the rice with mango slices, sauce poured over and sesame seeds on top."
+   ]
+  },
+  {
+   "id": "baklava",
+   "name": "Baklava",
+   "aliases": [
+    "baklava",
+    "baklawa",
+    "walnut baklava",
+    "pistachio baklava",
+    "honey nut pastry"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "6 hr",
+   "main": [
+    "phyllo dough",
+    "walnuts",
+    "butter",
+    "honey",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 lb (450 g) phyllo dough, thawed",
+    "1 cup (225 g) butter, melted",
+    "3 cups (340 g) finely chopped walnuts or pistachios",
+    "1/4 cup (50 g) sugar",
+    "1 teaspoon ground cinnamon",
+    "Syrup: 1 cup (200 g) sugar, 3/4 cup (180 ml) water, 1/2 cup (170 g) honey, 1 teaspoon vanilla, 1 strip lemon peel"
+   ],
+   "steps": [
+    "Simmer the syrup ingredients for 10 minutes, then let cool. Ask an adult to help.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Mix the nuts, sugar and cinnamon.",
+    "Brush a 9 by 13 inch pan with butter. Layer 8 sheets of phyllo, brushing each with butter. Keep the rest covered with a damp towel.",
+    "Sprinkle on a third of the nuts, then layer 6 buttered sheets.",
+    "Repeat with another third of nuts and 6 sheets, then the last nuts.",
+    "Top with 8 buttered sheets.",
+    "Have an adult cut it into 24 diamonds with a sharp knife, all the way to the bottom.",
+    "Bake for 45 to 50 minutes, until deep golden.",
+    "Pour the cool syrup over the hot baklava and let sit uncovered for 4 hours."
+   ]
+  },
+  {
+   "id": "pastel-de-nata",
+   "name": "Portuguese custard tarts",
+   "aliases": [
+    "pastel de nata",
+    "pasteis de nata",
+    "portuguese egg tarts",
+    "custard tarts",
+    "egg tarts"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr",
+   "main": [
+    "puff pastry",
+    "egg yolk",
+    "milk",
+    "sugar",
+    "cream"
+   ],
+   "ingredients": [
+    "1 sheet (about 9 oz / 245 g) puff pastry, thawed",
+    "4 large egg yolks",
+    "1/2 cup (100 g) sugar",
+    "2 tablespoons cornstarch",
+    "1 cup (240 ml) whole milk",
+    "1/2 cup (120 ml) heavy cream",
+    "1 teaspoon vanilla extract",
+    "1/4 teaspoon ground cinnamon"
+   ],
+   "steps": [
+    "Whisk the yolks, sugar and cornstarch in a pot, then whisk in the milk and cream.",
+    "Cook over medium heat for 4 to 5 minutes, stirring all the time, until thick like pudding. Ask an adult to help.",
+    "Stir in the vanilla and cinnamon and let cool for 15 minutes.",
+    "Heat the oven to 500°F (260°C). Ask an adult to help.",
+    "Roll the pastry sheet up tight into a log and cut it into 12 slices.",
+    "Press each slice into a cup of a greased muffin pan, pushing it thin up the sides.",
+    "Fill each cup 3/4 full with custard.",
+    "Bake for 12 to 15 minutes, until the pastry is golden and the custard has dark spots.",
+    "Let cool for 15 minutes before lifting out."
+   ]
+  },
+  {
+   "id": "dirt-cups",
+   "name": "Dirt cups",
+   "aliases": [
+    "dirt cups",
+    "dirt pudding",
+    "worms in dirt",
+    "mud cups",
+    "oreo dirt pudding"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "chocolate pudding",
+    "chocolate sandwich cookies",
+    "whipped topping",
+    "gummy worms"
+   ],
+   "ingredients": [
+    "1 box (3.9 oz / 110 g) instant chocolate pudding mix",
+    "2 cups (480 ml) cold milk",
+    "1 cup (75 g) whipped topping, thawed",
+    "15 chocolate sandwich cookies",
+    "12 gummy worms"
+   ],
+   "steps": [
+    "Whisk the pudding mix and milk for 2 minutes. Let set for 5 minutes.",
+    "Fold in the whipped topping.",
+    "Put the cookies in a zip bag and crush them into crumbs with a rolling pin.",
+    "Layer crumbs, pudding and more crumbs in 6 clear cups.",
+    "Poke 2 gummy worms into each cup so they hang out.",
+    "Chill for 1 hour."
+   ]
+  },
+  {
+   "id": "lemon-posset",
+   "name": "Lemon posset",
+   "aliases": [
+    "lemon posset",
+    "posset",
+    "lemon cream pots",
+    "lemon cream dessert"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "3 hr 20 min",
+   "main": [
+    "heavy cream",
+    "sugar",
+    "lemon"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) heavy cream",
+    "2/3 cup (135 g) sugar",
+    "1/3 cup (80 ml) lemon juice",
+    "1 teaspoon lemon zest",
+    "Berries or shortbread to serve"
+   ],
+   "steps": [
+    "Heat the cream and sugar in a pot over medium heat, stirring, until it boils. Ask an adult to help.",
+    "Turn the heat down and simmer for 3 minutes, stirring so it does not boil over.",
+    "Take it off the heat and stir in the lemon juice and zest.",
+    "Let cool for 10 minutes, then pour into 4 small glasses.",
+    "Chill for 3 hours. The lemon makes it set like pudding."
+   ]
+  },
+  {
+   "id": "eton-mess",
+   "name": "Eton mess",
+   "aliases": [
+    "eton mess",
+    "strawberry eton mess",
+    "strawberries and cream meringue",
+    "berry mess"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "strawberries",
+    "cream",
+    "meringue"
+   ],
+   "ingredients": [
+    "2 cups (300 g) strawberries, chopped",
+    "1 tablespoon sugar",
+    "1 1/4 cups (300 ml) cold heavy cream",
+    "1 tablespoon powdered sugar",
+    "4 meringue nests or 2 cups meringue cookies (about 2 oz / 60 g)"
+   ],
+   "steps": [
+    "Stir the strawberries with the sugar and let sit for 5 minutes.",
+    "Whip the cream and powdered sugar until soft peaks form.",
+    "Break the meringues into bite size pieces.",
+    "Gently fold the meringue and most of the strawberries into the cream.",
+    "Spoon into glasses, top with the rest of the strawberries and eat right away."
+   ]
+  },
+  {
+   "id": "caramelized-bananas",
+   "name": "Caramelized bananas",
+   "aliases": [
+    "caramelized bananas",
+    "bananas foster",
+    "fried bananas",
+    "caramel bananas",
+    "brown sugar bananas"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "bananas",
+    "butter",
+    "brown sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "3 tablespoons butter",
+    "1/3 cup (75 g) packed brown sugar",
+    "1/2 teaspoon ground cinnamon",
+    "2 tablespoons heavy cream or milk",
+    "2 bananas, cut in half lengthwise and across",
+    "Vanilla ice cream to serve"
+   ],
+   "steps": [
+    "Melt the butter in a frying pan over medium heat. Ask an adult to help, the sugar gets very hot.",
+    "Stir in the brown sugar and cinnamon and cook for 1 minute, until bubbly.",
+    "Stir in the cream.",
+    "Lay the bananas in the sauce and cook for 2 to 3 minutes.",
+    "Flip them and cook for 1 minute more.",
+    "Spoon over ice cream."
+   ]
+  },
+  {
+   "id": "sticky-toffee-pudding",
+   "name": "Sticky toffee pudding",
+   "aliases": [
+    "sticky toffee pudding",
+    "sticky date pudding",
+    "toffee pudding",
+    "date cake"
+   ],
+   "category": "Dessert",
+   "servings": 9,
+   "time": "1 hr 15 min",
+   "main": [
+    "dates",
+    "brown sugar",
+    "butter",
+    "flour",
+    "cream"
+   ],
+   "ingredients": [
+    "1 cup (175 g) pitted dates, chopped",
+    "3/4 cup (180 ml) boiling water",
+    "1 teaspoon baking soda",
+    "1/4 cup (55 g) butter, softened",
+    "2/3 cup (145 g) packed brown sugar",
+    "2 large eggs",
+    "1 1/3 cups (175 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "Toffee sauce: 1/2 cup (115 g) butter, 3/4 cup (165 g) packed brown sugar, 2/3 cup (160 ml) heavy cream"
+   ],
+   "steps": [
+    "Pour the boiling water over the dates and baking soda and soak for 10 minutes. Ask an adult to help.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease an 8 by 8 inch pan.",
+    "Beat the butter and brown sugar, then beat in the eggs.",
+    "Stir in the flour and baking powder, then the dates and their water.",
+    "Pour into the pan and bake for 30 to 35 minutes, until springy.",
+    "For the sauce, simmer the butter, brown sugar and cream for 3 to 4 minutes, stirring, until glossy.",
+    "Poke holes in the warm cake, pour on half the sauce, and serve the rest on the side."
+   ]
+  },
+  {
+   "id": "chocolate-ganache-tart",
+   "name": "Chocolate ganache tart",
+   "aliases": [
+    "chocolate tart",
+    "chocolate ganache tart",
+    "ganache tart",
+    "chocolate tarts"
+   ],
+   "category": "Dessert",
+   "servings": 10,
+   "time": "2 hr 45 min",
+   "main": [
+    "chocolate",
+    "heavy cream",
+    "chocolate cookies",
+    "butter"
+   ],
+   "ingredients": [
+    "Crust: 1 1/2 cups (150 g) chocolate cookie crumbs and 5 tablespoons (70 g) butter, melted",
+    "8 oz (225 g) semisweet chocolate, finely chopped",
+    "1 cup (240 ml) heavy cream",
+    "1 tablespoon butter",
+    "Pinch of salt",
+    "Berries to top"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Press the crust mix into a 9 inch tart pan or pie plate.",
+    "Bake for 10 minutes and let cool for 20 minutes.",
+    "Heat the cream until steaming and pour it over the chocolate in a bowl. Ask an adult to help.",
+    "Let sit for 5 minutes, then stir slowly until smooth and shiny. Stir in the butter and salt.",
+    "Pour into the crust.",
+    "Chill for 2 hours, until firm. Top with berries."
+   ]
+  },
+  {
+   "id": "malva-pudding",
+   "name": "Malva pudding",
+   "aliases": [
+    "malva pudding",
+    "malva",
+    "south african pudding",
+    "apricot sponge pudding"
+   ],
+   "category": "Dessert",
+   "servings": 9,
+   "time": "1 hr 15 min",
+   "main": [
+    "apricot jam",
+    "flour",
+    "sugar",
+    "butter",
+    "cream"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1 large egg",
+    "1 tablespoon apricot jam",
+    "1 cup (125 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "Pinch of salt",
+    "1 tablespoon butter, melted",
+    "1 teaspoon white vinegar",
+    "1/2 cup (120 ml) milk",
+    "Sauce: 1/2 cup (120 ml) heavy cream, 1/2 cup (115 g) butter, 1/2 cup (100 g) sugar, 1/4 cup (60 ml) hot water"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease an 8 by 8 inch dish.",
+    "Beat the sugar and egg until pale, then beat in the jam.",
+    "Stir in the flour, baking soda and salt.",
+    "Stir the butter, vinegar and milk together and mix into the batter.",
+    "Pour into the dish and bake for 40 to 45 minutes, until dark golden and springy.",
+    "While it bakes, heat the sauce ingredients, stirring, until the butter melts.",
+    "Poke holes in the hot pudding and pour the sauce over it.",
+    "Let soak for 10 minutes. Serve warm with custard or ice cream."
+   ]
+  },
+  {
+   "id": "cherry-clafoutis",
+   "name": "Cherry clafoutis",
+   "aliases": [
+    "clafoutis",
+    "cherry clafoutis",
+    "clafouti",
+    "french cherry flan"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "cherries",
+    "egg",
+    "milk",
+    "flour",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 tablespoon butter for the dish",
+    "3 cups (450 g) cherries, pitted",
+    "3 large eggs",
+    "1/2 cup (100 g) sugar",
+    "1/2 cup (65 g) all-purpose flour",
+    "1 1/4 cups (300 ml) milk",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "Powdered sugar for dusting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Butter a 9 inch pie dish and spread the cherries in it.",
+    "Whisk the eggs and sugar, then whisk in the flour until smooth.",
+    "Whisk in the milk, vanilla and salt. It will be thin like crepe batter.",
+    "Pour over the cherries.",
+    "Bake for 40 to 45 minutes, until puffed, golden and set in the middle.",
+    "Let cool for 15 minutes. It sinks as it cools. Dust with powdered sugar."
+   ]
+  },
+  {
+   "id": "chocolate-fondue",
+   "name": "Chocolate fondue",
+   "aliases": [
+    "chocolate fondue",
+    "fondue",
+    "chocolate dip",
+    "chocolate fondue dip"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "chocolate",
+    "heavy cream",
+    "fruit",
+    "marshmallows"
+   ],
+   "ingredients": [
+    "8 oz (225 g) semisweet or milk chocolate, chopped",
+    "3/4 cup (180 ml) heavy cream",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "Dippers: strawberries, banana chunks, marshmallows, pretzels, pound cake cubes"
+   ],
+   "steps": [
+    "Heat the cream in a small pot until it just starts to bubble at the edges. Ask an adult to help.",
+    "Take it off the heat, add the chocolate and let sit for 2 minutes.",
+    "Stir until smooth, then stir in the vanilla and salt.",
+    "Pour into a fondue pot or warm bowl.",
+    "Dip the fruit and treats with skewers. Rewarm in the microwave for 20 seconds if it thickens."
+   ]
+  }
+ ]
+}

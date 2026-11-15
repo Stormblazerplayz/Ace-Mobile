@@ -1,0 +1,12 @@
+# tag: tech.specs.extra
+what is an e-marker usb c cable | 5a usb c cable => An e-marker is a tiny chip in some USB-C cables that tells the charger the cable can safely carry 5 amps. Chargers above 60 W need one.
+what is 240w usb c | usb pd epr => USB PD's Extended Power Range raises charging up to 240 W at 48 V for big laptops. It needs a 240 W charger and a cable rated for it.
+what is thunderbolt 5 | thunderbolt 5 speed => Thunderbolt 5 runs at 80 Gbps, and up to 120 Gbps one way for big displays, using USB-C plugs. It's backward compatible with Thunderbolt 4 and USB4.
+what do usb 3.2 gen 1 and gen 2 mean | confusing usb names => USB 3.2 Gen 1 is 5 Gbps, Gen 2 is 10 Gbps and Gen 2x2 is 20 Gbps. Look for the speed number on the box, since the names are confusing.
+what is displayport alt mode | does my usb c port do video => DisplayPort Alt Mode lets a USB-C port send video straight to a monitor. Not every USB-C port supports it, so check for a DisplayPort or Thunderbolt logo.
+what is mtbf | mean time between failures => MTBF is the average running time before a failure, measured over many units. A big MTBF doesn't mean your one drive will last that long.
+what is watts rms vs peak | speaker watts meaning => RMS watts is how much power a speaker handles steadily, which is the useful number. Peak watts is a brief burst and is often inflated for marketing.
+what is contrast ratio | 1000 to 1 contrast => Contrast ratio compares the brightest white to the darkest black a screen can show. IPS is around 1000 to 1, VA around 3000 to 1, and OLED is nearly infinite.
+what does ipx4 mean | splash resistant rating => IPX4 means splash resistant, fine for sweat and light rain but not dunking. IP67 and IP68 survive being submerged for a while.
+what is dts audio | dts vs dolby => DTS is a surround sound format, like Dolby Digital, used on Blu-rays and some games. DTS:X adds height channels like Dolby Atmos.
+what is qms on hdmi | quick media switching => QMS is an HDMI 2.1 feature that switches frame rates without the screen going black for a second when a movie starts.

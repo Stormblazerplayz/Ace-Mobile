@@ -1,0 +1,24 @@
+# tag: tech.pc.extras
+what is a mini pc | mini pc vs desktop => A mini PC is a tiny desktop that often uses laptop-style chips. It's great for school work, media or light games, but can't fit a big graphics card.
+what is an egpu | external graphics card laptop => An eGPU is a desktop graphics card in an external box that plugs into a laptop through Thunderbolt, USB4 or OCuLink. It boosts graphics but loses some performance over the cable.
+what is a homelab | home server hobby => A homelab is a home setup of old PCs or small servers used to learn and run things like media servers, backups and game servers.
+what is pi hole | block ads on whole network => Pi-hole is free software, often run on a Raspberry Pi, that blocks ads and trackers for every device on your network by filtering DNS requests.
+what is reshade | reshade filters games => ReShade adds post-processing effects like sharper colors or depth of field to games. Avoid it in online games with anti-cheat unless the game allows it.
+what is a game trainer | single player cheat tool => A trainer is a program that changes a single-player game, like infinite health. Shady trainers can hide malware, and using one online can get you banned.
+what is livesplit | timing my speedruns app => LiveSplit is a free timer that speedrunners use to time runs and compare each section, called splits, against their best times.
+what is a mod manager | vortex vs mod organizer => A mod manager installs, sorts and removes game mods for you. Vortex and Mod Organizer 2 are popular for games on Nexus Mods.
+what is nexus mods | where to get pc game mods => Nexus Mods is a big site for PC game mods, like Skyrim or Stardew Valley mods. Read the instructions and comments before installing.
+what is curseforge | curseforge app => CurseForge is a mod site and app for games like Minecraft and World of Warcraft that can install modpacks in one click.
+what is modrinth | modrinth minecraft => Modrinth is an open-source site for Minecraft mods, modpacks and resource packs, with its own launcher app.
+what is lossless scaling | add frame gen to any game => Lossless Scaling is a paid app on Steam that adds upscaling and frame generation to almost any game. It works best when your base frame rate is already decent.
+what is dlss override in the nvidia app | force newer dlss => In the NVIDIA app, DLSS Override lets RTX owners switch supported games to newer DLSS versions or frame generation modes without waiting for a game update.
+what is a laptop stand | raise my laptop screen => A laptop stand lifts the screen to eye level so you don't hunch. Use it with an external keyboard and mouse.
+what is a boom arm for a microphone | mic arm => A boom arm clamps to your desk and holds the mic near your mouth, freeing desk space and cutting keyboard noise.
+what is a key light for streaming | stream lighting panel => A key light is the main light on your face. A soft LED panel in front and slightly to one side makes webcam video look much clearer.
+what is a softbox | soft light for videos => A softbox is a light with a fabric cover that spreads the light out, giving soft shadows that flatter faces.
+what is a teleprompter | read script while recording => A teleprompter shows your script in front of the camera lens, so you can read while looking at the camera. Phone and tablet apps can do this too.
+how do i make my webcam look better | webcam settings tips => Face a window or a light, lock exposure and white balance in the camera settings, and keep the background tidy. Light matters more than the webcam.
+what are obs plugins | obs add ons => Plugins add features to OBS, like the Move transition for animated scene changes. Only download them from the official OBS forums or GitHub pages.
+what is a capture card's passthrough latency | game lag through capture card => Playing from the capture card's preview adds delay, so plug your TV or monitor into the passthrough port and play from that instead.
+what is a dummy plug | hdmi dummy plug => A dummy plug pretends to be a monitor so a PC without a screen still renders video, useful for streaming PCs and remote play.
+what is a usb switch | share devices between two computers => A USB switch moves your keyboard, mouse or webcam between two computers at the press of a button.

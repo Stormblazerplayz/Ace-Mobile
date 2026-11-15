@@ -58,6 +58,15 @@ final class QABank {
     var builtinCount = 0
     var learnedCount: Int { entries.filter { $0.source == "learned" || $0.source == "taught" || $0.source == "pc" }.count }
     var hasNeuralMatching: Bool { embedding != nil }
+    /// Answers in the big knowledge pack (0 until it has loaded, a moment after launch).
+    var knowledgeCount: Int { KnowledgePack.ready?.count ?? 0 }
+    /// A core answer wins over a pack answer unless the pack one fits clearly better (by this much),
+    /// so the hand-made answers stay first for the questions they were made for.
+    static let packMargin = 0.03
+    private var packEmbeddingCache: [Int: [Double]] = [:]
+
+    /// Loads the knowledge pack now instead of in the background (for tests, so timing doesn't matter).
+    func loadKnowledgeNow() { KnowledgePack.loadNow() }
 
     init() {
         if let url = Bundle.main.url(forResource: "qa_bank", withExtension: "json"),
@@ -68,6 +77,12 @@ final class QABank {
                 add(e)
             }
             builtinCount = file.entries.count
+        }
+        // In the app it loads in the background. Under tests it loads first, so results don't depend on timing.
+        if ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil {
+            KnowledgePack.loadNow()
+        } else {
+            KnowledgePack.startLoading()
         }
         if let learned = Persistence.load(QAFile.self, from: Self.learnedFile) {
             for e in learned.entries { upsert(e, save: false) }
@@ -122,18 +137,34 @@ final class QABank {
 
     // MARK: Words
 
-    /// How many question wordings use this word (0 means Ace has never seen it).
+    /// How many hand-made question wordings use this word (0 means the core bank has never seen it).
+    /// Used to find the subject of a question, so it leaves the knowledge pack out on purpose.
     func wordFrequency(_ word: String) -> Int { wordCount[word] ?? 0 }
 
-    /// Known words within 2 letters of this word's length.
+    /// How many wordings use this word, counting the knowledge pack too (for typo fixes).
+    func spellingFrequency(_ word: String) -> Int {
+        (wordCount[word] ?? 0) + (KnowledgePack.ready?.wordCount[word] ?? 0)
+    }
+
+    /// Known words within 2 letters of this word's length (core bank and knowledge pack).
     func vocabulary(near word: String) -> [String] {
         let n = word.count
-        return (max(1, n - 2)...(n + 2)).flatMap { wordsByLength[$0] ?? [] }
+        let lengths = max(1, n - 2)...(n + 2)
+        let core = lengths.flatMap { wordsByLength[$0] ?? [] }
+        guard let pack = KnowledgePack.ready else { return core }
+        var seen = Set(core)
+        var out = core
+        for l in lengths {
+            for w in pack.wordsByLength[l] ?? [] where seen.insert(w).inserted { out.append(w) }
+        }
+        return out
     }
 
     // MARK: Matching
 
     /// Finds the best answers for a question. Scores are 0...1.
+    /// Looks in the hand-made bank and in the big knowledge pack, and keeps the hand-made answer first
+    /// unless a pack answer fits clearly better.
     func search(_ query: String, limit: Int = 5) -> [Match] {
         let norm = TextKit.normalize(query)
         guard !norm.isEmpty else { return [] }
@@ -141,8 +172,54 @@ final class QABank {
             let e = entries[wordingEntry[w]]
             return [Match(entry: e, wording: wordingText[w], score: 1, lexical: 1, semantic: nil)]
         }
+        let pack = KnowledgePack.ready
+        if let pack, let w = pack.exact[norm] {
+            let i = Int(w)
+            return [Match(entry: pack.entry(ofWording: i), wording: pack.wordingText[i], score: 1, lexical: 1, semantic: nil)]
+        }
         let qKeys = Set(TextKit.keywords(norm))
         let qAll = Set(TextKit.words(norm).map(TextKit.stem))
+        let core = searchCore(norm, qKeys: qKeys, qAll: qAll, limit: limit)
+        guard let pack else { return core }
+        let fromPack = searchPack(pack, norm, qKeys: qKeys, qAll: qAll, limit: limit)
+        guard !fromPack.isEmpty else { return core }
+        let ranked = core.map { ($0, $0.score + Self.packMargin) } + fromPack.map { ($0, $0.score) }
+        return ranked.sorted { $0.1 > $1.1 }.prefix(limit).map { $0.0 }
+    }
+
+    /// The knowledge pack's best answers, scored the same way as the hand-made bank.
+    private func searchPack(_ pack: KnowledgePack, _ norm: String, qKeys: Set<String>, qAll: Set<String>, limit: Int) -> [Match] {
+        let top = pack.lexical(qKeys: qKeys, qAll: qAll, important: qKeys.filter { weight($0) > 5.5 }, limit: 20)
+        guard !top.isEmpty else { return [] }
+        let qVec = vector(for: norm)
+        var bestPerEntry: [Int32: Match] = [:]
+        for (w, lex) in top {
+            var sem: Double?
+            if let qVec, let wVec = cachedPackVector(pack, w) { sem = cosine(qVec, wVec) }
+            let score: Double
+            if let sem {
+                score = min(1, lex * 0.62 + max(0, sem) * 0.38 + (lex > 0.85 && sem > 0.85 ? 0.05 : 0))
+            } else {
+                score = lex
+            }
+            let e = pack.wordingEntry[w]
+            if (bestPerEntry[e]?.score ?? -1) < score {
+                bestPerEntry[e] = Match(entry: pack.entry(ofWording: w), wording: pack.wordingText[w], score: score, lexical: lex, semantic: sem)
+            }
+        }
+        return bestPerEntry.values.sorted { $0.score > $1.score }.prefix(limit).map { $0 }
+    }
+
+    private func cachedPackVector(_ pack: KnowledgePack, _ w: Int) -> [Double]? {
+        if let v = packEmbeddingCache[w] { return v }
+        guard let v = embedding?.vector(for: pack.wordingText[w]) else { return nil }
+        if packEmbeddingCache.count > 6000 { packEmbeddingCache.removeAll(keepingCapacity: true) }
+        packEmbeddingCache[w] = v
+        return v
+    }
+
+    /// The hand-made bank's best answers.
+    private func searchCore(_ norm: String, qKeys: Set<String>, qAll: Set<String>, limit: Int) -> [Match] {
         let lookup = qKeys.isEmpty ? qAll : qKeys
 
         // 1. Gather candidates that share a word (rarest words first so common ones don't flood it).
@@ -254,7 +331,8 @@ final class QABank {
     }
 
     func entry(id: String) -> QAEntry? {
-        indexByID[id].map { entries[$0] }
+        if let i = indexByID[id] { return entries[i] }
+        return KnowledgePack.ready?.entry(id: id)
     }
 
     // MARK: Learning

@@ -1,0 +1,20 @@
+# tag: tech.apps.steam
+how do i hide a game in my steam library | hide steam game => Right-click the game, choose Manage, then Hide this game. Find it again with the Hidden filter in the library dropdown.
+how do i see how many hours i played on steam | steam playtime => Your hours show on the game's page in your library and on your Steam profile under recent activity.
+how do i gift a game on steam | send a game to a friend steam => On the game's store page, choose Add to Cart, then Purchase as a gift and pick a friend. Ask a parent before spending money.
+how do i add a friend on steam | steam friend code => Open Friends > Add a Friend and type their friend code or search their profile name. They'll get a request to accept.
+can steam record my gameplay | steam game recording => Yes. Steam's game recording can record in the background or on demand. Set it up in Settings > Game Recording and watch clips from the overlay.
+where are my steam screenshots saved | find steam screenshots => Open View > Screenshots in Steam to see them, then use Show on Disk to open the folder. You can change the folder in Settings > In Game.
+how do i change my steam profile picture | edit steam profile => Click your name at the top, choose Profile, then Edit Profile. You can change your avatar, name and background there.
+what is the steam storage manager | steam storage manager explained => Go to Settings > Storage to see how much space each game uses on each drive, and uninstall or move games from there.
+how do i stop steam downloading while i play | allow downloads during gameplay => In Settings > Downloads, turn off Allow downloads during gameplay so updates don't slow your game or ping.
+what is shader pre caching in steam | steam shader cache => Shader pre-caching downloads ready-made shaders for some games, which can reduce stutter. It's in Settings > Downloads and is fine to leave on.
+how do i stop a steam game updating automatically | steam auto update setting => Right-click the game, open Properties > Updates and choose to update only when you launch it. Online games still need updates to play.
+how do i download steam games from my phone | steam remote download => In the Steam mobile app, open your library, pick a game and tap install. Your PC starts the download if Steam is running and signed in.
+what is the steam discovery queue | discovery queue => The discovery queue shows you a short list of games Steam thinks you might like, based on what you play and wishlist.
+what is steam deck verified | steam deck compatibility badge => The badge shows how well a game works on Steam Deck: Verified, Playable, Unsupported or Unknown.
+what are steam curators | steam curator explained => Curators are people or groups who recommend games on Steam. Follow ones you trust and their picks show up on store pages.
+how do i uninstall a game on steam | delete steam game => Right-click the game in your library, choose Manage, then Uninstall. Your cloud saves stay safe if the game supports Steam Cloud.
+what is a steam wallet code | steam gift card => A Steam Wallet code adds money to a Steam account. Real codes only come from stores or Steam, and anyone asking you to pay with them is likely a scammer.
+what is steam families | steam family parental controls => Steam Families lets a household share games and lets parents set playtime limits, approve purchases and choose which games kids can see.
+what are steam reviews | mostly positive meaning steam => Steam reviews show what players think. Ratings like Very Positive or Mixed sum them up, and Recent Reviews shows how the game is doing lately.

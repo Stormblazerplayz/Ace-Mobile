@@ -1,0 +1,25 @@
+# tag: tech.pc.upgrades
+how do i add a second ssd to my pc | install another m.2 => Shut down and unplug, find a free M.2 slot (often under a heatsink), insert the SSD at an angle, screw or clip it down, then initialize and format it in Disk Management.
+how do i initialize a new drive in windows | disk management new drive => Right-click Start, open Disk Management, choose GPT when it asks to initialize, then right-click the unallocated space and choose New Simple Volume.
+do some m.2 slots turn off other ports | m.2 lane sharing => On some motherboards, using certain M.2 slots disables SATA ports or slows a PCIe slot because they share lanes. Check the manual's lane chart.
+how do i upgrade my graphics card | replace gpu => Uninstall the old driver (DDU helps when switching brands), shut down and unplug, swap the card, connect the power cables, then install the new driver.
+can my power supply handle a new gpu | psu for gpu upgrade => Check the GPU maker's recommended PSU wattage and that your PSU has enough PCIe power connectors. Don't use adapters on a weak or cheap PSU.
+do i need a bios update for a new cpu | bios for ryzen 9000 => Often yes. Newer CPUs like Ryzen 9000 may need a newer BIOS on older AM5 boards. Check the board's CPU support list, and update before swapping if you can.
+how do i upgrade ram in my pc | add more ram => Match the new kit to your board's type (DDR5 for AM5), install sticks in the slots the manual recommends, and turn on EXPO or XMP. A matched kit is safer than mixing.
+can i upgrade my laptop's ram or ssd | laptop upgrades => Many laptops let you swap the SSD and some let you add RAM, but thin ones often have soldered RAM. Look up your exact model before buying.
+how do i install a case fan | add fan to pc => Screw it into a fan mount with the airflow arrow pointing the right way, then plug it into a fan header or hub. Front fans pull in, back and top push out.
+how do i replace my cpu cooler | swap cpu cooler => Remove the old cooler, clean the old paste with isopropyl alcohol, apply new paste, mount the new cooler evenly in a cross pattern and plug it into CPU_FAN.
+how do i reseat my ram | reseat ram fix => Shut down and unplug, press the clips, pull the sticks out, then push them back firmly until the clips click. It fixes many boot problems.
+what are thermal pads | replace gpu thermal pads => Thermal pads are soft squares that move heat from memory and VRMs to the cooler. Replacing them on a GPU needs the right thickness, so it's an advanced job.
+should i upgrade my power supply | when to replace psu => Upgrade if it can't handle a new GPU, it's very old or cheap, or it makes noise. A good PSU often lasts through several builds.
+what is a front usb c header | case usb c port not working => Front USB-C on a case needs a matching USB-C header on the motherboard. If the board doesn't have one, the port won't work.
+is a sound card worth it | sound card vs motherboard audio => For most people, modern motherboard audio is fine. A USB DAC or audio interface helps more for good headphones or microphones.
+how do i add rgb strips to my pc | argb strip install => Plug ARGB strips into a 3-pin 5V ARGB header, never a 4-pin 12V RGB header, or they can burn out. Then control them in the motherboard's software.
+what upgrade helps an old pc the most | cheapest pc upgrade => Moving from a hard drive to an SSD makes the biggest difference for everyday speed. For gaming, the GPU usually matters most.
+can i put a new gpu in an old pc | gpu in old pc => Usually yes if the PSU and case fit, but a very old CPU may bottleneck it. Turn on Resizable BAR if the board supports it.
+how do i upgrade a prebuilt pc | prebuilt upgrade problems => Many prebuilts use standard parts, but some have special motherboards, small power supplies or odd cases. Check the model's specs and photos before buying parts.
+how do i check what upgrades my pc supports | compatible parts for my motherboard => Find the motherboard model with System Information, then read its manual or support page for supported CPUs, RAM and slots.
+how do i upgrade from am4 to am5 | am4 to am5 switch => It needs a new AM5 motherboard, a Ryzen 7000 or newer CPU and DDR5 RAM. Most AM4 coolers work with AM5 using the same mounting.
+should i buy a new cpu or gpu first | upgrade cpu or gpu => Check which one is maxed out in games with an overlay. If GPU usage stays near 100 percent, upgrade the GPU. If it's low while one CPU thread is maxed, upgrade the CPU.
+what is a pcie riser for an m.2 | pcie m.2 adapter card => A PCIe M.2 adapter card adds an NVMe slot in a spare PCIe slot, useful when the board's M.2 slots are full.
+how do i add wifi to a pc with a card | pcie wifi card install => Insert the card in a short PCIe slot, screw it in, connect the antennas, and plug in the Bluetooth USB cable to a motherboard header if it has one.

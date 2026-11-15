@@ -1,0 +1,26 @@
+# tag: tech.chromebook
+how do i right click on a chromebook | chromebook right click touchpad => Tap the touchpad with two fingers, or hold Alt and click.
+how do i turn on caps lock on a chromebook | chromebook has no caps lock key => Press the Search or Launcher key and Alt together to toggle Caps Lock.
+how do i forward delete on a chromebook | chromebook delete key => Press Alt + Backspace to delete the character in front of the cursor, like a Delete key.
+how do i use f keys on a chromebook | chromebook function keys => Hold the Search or Launcher key and press a top-row key to use it as F1 to F12.
+how do i see all chromebook shortcuts | chromebook shortcut list => Press Ctrl + Alt + / to open the keyboard shortcuts list, where you can search for any shortcut.
+how do i open task manager on a chromebook | chromebook frozen tab => Press Search + Esc to open Task Manager, then pick the app or tab and click End process.
+how do i split the screen on a chromebook | two windows side by side chromebook => Drag a window to the left or right edge, or press Alt + [ or Alt + ] to snap it to a half.
+how do i see clipboard history on a chromebook | chromebook paste old copies => Press Search + V to open clipboard history and pick something you copied earlier.
+how do i type emoji on a chromebook | chromebook emoji picker => Press Search + Shift + Space to open the emoji picker. It also has symbols and GIFs.
+how do i screen record on a chromebook | chromebook video capture => Press Ctrl + Shift + Show windows to open Screen capture, switch to the video option and pick what to record.
+how do i lock my chromebook | chromebook lock screen shortcut => Press Search + L to lock it right away.
+how do i update a chromebook | chromeos update => Open Settings, About ChromeOS, and click Check for updates. Restart when it asks.
+what is powerwash on a chromebook | factory reset chromebook => Powerwash erases everything on the Chromebook and resets it. Go to Settings, Reset settings, or press Ctrl + Alt + Shift + R at the sign-in screen.
+what is a chromebook auto update expiration date | how long do chromebooks get updates => Each Chromebook gets updates until a set date. Models from 2019 and later get about 10 years from their release, and you can see the date in Settings, About ChromeOS.
+what is chromeos flex | turn an old pc into a chromebook => ChromeOS Flex is a free version of ChromeOS you can install on many older Windows PCs and Macs to make them fast and useful again.
+can i run linux apps on a chromebook | chromebook linux setup => Many Chromebooks can turn on a Linux development environment in Settings, About ChromeOS, Developers. School-managed ones often block it.
+can i get android apps on a chromebook | play store on chromebook => Most Chromebooks can install Android apps from the Google Play Store, though some apps aren't made for big screens.
+why can't i change things on my school chromebook | managed chromebook => School Chromebooks are managed by the school, which controls apps, sites and settings. Ask your school's tech help, and don't try to get around the rules.
+what is phone hub on a chromebook | connect android phone to chromebook => Phone Hub links an Android phone to your Chromebook to see notifications, check battery, use its hotspot and see recent photos.
+what is guest mode on a chromebook | use chromebook without signing in => Guest mode lets someone browse without an account. Everything they do is deleted when they sign out.
+how do i zip files on a chromebook | open a zip file chromebook => In the Files app, select the files, right-click and choose Zip selection. Double-click a zip to open it like a folder.
+how do i make a new desk on a chromebook | chromebook virtual desks => Press Search + Shift + = to make a new desk, and Search + [ or ] to switch between desks.
+what is the show windows key on a chromebook | chromebook overview key => The Show windows key, which looks like a rectangle with lines, shows all your open windows and desks so you can switch.
+how do i turn on the screen reader on a chromebook | chromevox => Press Ctrl + Alt + Z to turn ChromeVox, the built-in screen reader, on or off.
+how do i zoom the whole screen on a chromebook | chromebook magnifier => Press Ctrl + Search + M to turn on the full-screen magnifier, then use Ctrl + Alt with brightness keys or pinch to change the zoom.

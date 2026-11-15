@@ -1,0 +1,2344 @@
+{
+ "questions": [
+  {
+   "id": "animals-1201",
+   "category": "Animals",
+   "q": "How do most bats rest?",
+   "choices": [
+    "Lying on the ground",
+    "Standing up",
+    "Hanging upside down",
+    "Floating in water"
+   ],
+   "answer": 2,
+   "fact": "Bats have special tendons that lock their toes, so hanging takes no effort."
+  },
+  {
+   "id": "animals-1202",
+   "category": "Animals",
+   "q": "Which animal is the slowest mammal in the world?",
+   "choices": [
+    "Koala",
+    "Three-toed sloth",
+    "Tortoise",
+    "Snail"
+   ],
+   "answer": 1,
+   "fact": "Sloths move so slowly that tiny algae grow in their fur, giving them a greenish tint."
+  },
+  {
+   "id": "animals-1203",
+   "category": "Animals",
+   "q": "Which animal sleeps through winter in a deep, long sleep?",
+   "choices": [
+    "Groundhog",
+    "Squirrel",
+    "Deer",
+    "Fox"
+   ],
+   "answer": 0,
+   "fact": "This long winter sleep is called hibernation."
+  },
+  {
+   "id": "animals-1204",
+   "category": "Animals",
+   "q": "What is it called when an animal travels a long way each year to find food or warmth?",
+   "choices": [
+    "Hibernation",
+    "Camouflage",
+    "Migration",
+    "Metamorphosis"
+   ],
+   "answer": 2,
+   "fact": "Some caribou herds migrate thousands of kilometers each year."
+  },
+  {
+   "id": "animals-1205",
+   "category": "Animals",
+   "q": "What is it called when an animal's colors help it blend into its surroundings?",
+   "choices": [
+    "Migration",
+    "Mimicry of sound",
+    "Camouflage",
+    "Hibernation"
+   ],
+   "answer": 2,
+   "fact": "Arctic foxes turn white in winter and brown in summer to stay hidden."
+  },
+  {
+   "id": "animals-1206",
+   "category": "Animals",
+   "q": "What do we call animals that are active mostly at night?",
+   "choices": [
+    "Diurnal",
+    "Aquatic",
+    "Arboreal",
+    "Nocturnal"
+   ],
+   "answer": 3,
+   "fact": "Owls, bats and raccoons are all nocturnal."
+  },
+  {
+   "id": "animals-1207",
+   "category": "Animals",
+   "q": "What do we call an animal that eats both plants and meat?",
+   "choices": [
+    "Herbivore",
+    "Carnivore",
+    "Omnivore",
+    "Insectivore"
+   ],
+   "answer": 2,
+   "fact": "Bears, pigs and most people are omnivores."
+  },
+  {
+   "id": "animals-1208",
+   "category": "Animals",
+   "q": "What do we call an animal that eats only meat?",
+   "choices": [
+    "Carnivore",
+    "Herbivore",
+    "Omnivore",
+    "Frugivore"
+   ],
+   "answer": 0,
+   "fact": "Cats are true carnivores and must eat meat to stay healthy."
+  },
+  {
+   "id": "animals-1209",
+   "category": "Animals",
+   "q": "What do we call an animal that hunts other animals for food?",
+   "choices": [
+    "Prey",
+    "Scavenger",
+    "Predator",
+    "Herbivore"
+   ],
+   "answer": 2,
+   "fact": "The animals that predators hunt are called prey."
+  },
+  {
+   "id": "animals-1210",
+   "category": "Animals",
+   "q": "What do we call an animal that eats dead animals it did not kill?",
+   "choices": [
+    "Scavenger",
+    "Predator",
+    "Herbivore",
+    "Parasite"
+   ],
+   "answer": 0,
+   "fact": "Vultures are important scavengers that help clean up nature."
+  },
+  {
+   "id": "animals-1211",
+   "category": "Animals",
+   "q": "What is a living thing that lives on or in another and harms it called?",
+   "choices": [
+    "Predator",
+    "Parasite",
+    "Producer",
+    "Pollinator"
+   ],
+   "answer": 1,
+   "fact": "Fleas, ticks and tapeworms are all parasites."
+  },
+  {
+   "id": "animals-1212",
+   "category": "Animals",
+   "q": "What is the place where an animal naturally lives called?",
+   "choices": [
+    "Habitat",
+    "Territory map",
+    "Niche box",
+    "Biome den"
+   ],
+   "answer": 0,
+   "fact": "A habitat gives an animal food, water, shelter and space."
+  },
+  {
+   "id": "animals-1213",
+   "category": "Animals",
+   "q": "What do we call a type of animal that has completely died out?",
+   "choices": [
+    "Endangered",
+    "Threatened",
+    "Extinct",
+    "Invasive"
+   ],
+   "answer": 2,
+   "fact": "Once an animal is extinct, it is gone forever."
+  },
+  {
+   "id": "animals-1214",
+   "category": "Animals",
+   "q": "Which flightless bird from the island of Mauritius went extinct in the 1600s?",
+   "choices": [
+    "Kiwi",
+    "Emu",
+    "Penguin",
+    "Dodo"
+   ],
+   "answer": 3,
+   "fact": "The phrase dead as a dodo comes from this bird."
+  },
+  {
+   "id": "animals-1215",
+   "category": "Animals",
+   "q": "Which huge, hairy relative of elephants lived during the Ice Age?",
+   "choices": [
+    "Saber-toothed cat",
+    "Woolly mammoth",
+    "Giant ground sloth",
+    "Woolly rhinoceros"
+   ],
+   "answer": 1,
+   "fact": "Some woolly mammoths still lived on Wrangel Island until about 4,000 years ago, when the pyramids of Egypt already stood."
+  },
+  {
+   "id": "animals-1216",
+   "category": "Animals",
+   "q": "Which bird, once the most common in North America, went extinct in 1914?",
+   "choices": [
+    "Passenger pigeon",
+    "Bald eagle",
+    "Wild turkey",
+    "Dodo"
+   ],
+   "answer": 0,
+   "fact": "The last known passenger pigeon, named Martha, died at the Cincinnati Zoo."
+  },
+  {
+   "id": "animals-1217",
+   "category": "Animals",
+   "q": "Which striped, meat-eating marsupial, also called the thylacine, went extinct in the 1900s?",
+   "choices": [
+    "Tasmanian devil",
+    "Quoll",
+    "Numbat",
+    "Tasmanian tiger"
+   ],
+   "answer": 3,
+   "fact": "The last known Tasmanian tiger, also called a thylacine, died in a zoo in 1936."
+  },
+  {
+   "id": "animals-1218",
+   "category": "Animals",
+   "q": "Which dinosaur had three horns on its face and a big bony frill?",
+   "choices": [
+    "Stegosaurus",
+    "Velociraptor",
+    "Brachiosaurus",
+    "Triceratops"
+   ],
+   "answer": 3,
+   "fact": "Triceratops means three-horned face."
+  },
+  {
+   "id": "animals-1219",
+   "category": "Animals",
+   "q": "Which dinosaur had large plates along its back and spikes on its tail?",
+   "choices": [
+    "Triceratops",
+    "Tyrannosaurus rex",
+    "Ankylosaurus",
+    "Stegosaurus"
+   ],
+   "answer": 3,
+   "fact": "Stegosaurus had a brain about the size of a walnut, tiny for such a big body."
+  },
+  {
+   "id": "animals-1220",
+   "category": "Animals",
+   "q": "Which famous meat-eating dinosaur had tiny arms and huge teeth?",
+   "choices": [
+    "Triceratops",
+    "Diplodocus",
+    "Tyrannosaurus rex",
+    "Stegosaurus"
+   ],
+   "answer": 2,
+   "fact": "A T. rex tooth, including the root, could be about 30 centimeters long."
+  },
+  {
+   "id": "animals-1221",
+   "category": "Animals",
+   "q": "Which dinosaur had a club on the end of its tail and armor all over its back?",
+   "choices": [
+    "Stegosaurus",
+    "Triceratops",
+    "Spinosaurus",
+    "Ankylosaurus"
+   ],
+   "answer": 3,
+   "fact": "Ankylosaurus could swing its tail club hard enough to break bones."
+  },
+  {
+   "id": "animals-1222",
+   "category": "Animals",
+   "q": "What were the flying reptiles that lived at the same time as dinosaurs called?",
+   "choices": [
+    "Raptors",
+    "Pterosaurs",
+    "Plesiosaurs",
+    "Mammoths"
+   ],
+   "answer": 1,
+   "fact": "Pterosaurs were not dinosaurs, but they were close relatives."
+  },
+  {
+   "id": "animals-1223",
+   "category": "Animals",
+   "q": "Which animals alive today are the living descendants of dinosaurs?",
+   "choices": [
+    "Lizards",
+    "Birds",
+    "Crocodiles",
+    "Frogs"
+   ],
+   "answer": 1,
+   "fact": "Scientists consider birds to be a group of small feathered dinosaurs that survived."
+  },
+  {
+   "id": "animals-1224",
+   "category": "Animals",
+   "q": "What does the word dinosaur mean?",
+   "choices": [
+    "Terrible lizard",
+    "Giant bird",
+    "Old dragon",
+    "Huge bones"
+   ],
+   "answer": 0,
+   "fact": "The name was made up in 1842 by scientist Richard Owen."
+  },
+  {
+   "id": "animals-1225",
+   "category": "Animals",
+   "q": "Which long-necked dinosaur is one of the longest animals ever?",
+   "choices": [
+    "Velociraptor",
+    "Argentinosaurus",
+    "Triceratops",
+    "Pachycephalosaurus"
+   ],
+   "answer": 1,
+   "fact": "Argentinosaurus may have been around 30 meters long and weighed as much as several big trucks."
+  },
+  {
+   "id": "animals-1226",
+   "category": "Animals",
+   "q": "What kind of animal is a seahorse?",
+   "choices": [
+    "A fish",
+    "A mammal",
+    "A reptile",
+    "A crustacean"
+   ],
+   "answer": 0,
+   "fact": "Seahorses swim upright and steer with a tiny fin on their back."
+  },
+  {
+   "id": "animals-1227",
+   "category": "Animals",
+   "q": "What kind of animal is a whale shark?",
+   "choices": [
+    "A whale",
+    "A mammal",
+    "A fish",
+    "A reptile"
+   ],
+   "answer": 2,
+   "fact": "Even though it is huge, a whale shark eats tiny plankton."
+  },
+  {
+   "id": "animals-1228",
+   "category": "Animals",
+   "q": "What kind of animal is a bat?",
+   "choices": [
+    "A mammal",
+    "A bird",
+    "A reptile",
+    "An insect"
+   ],
+   "answer": 0,
+   "fact": "Bat mothers feed their babies milk, like all mammals."
+  },
+  {
+   "id": "animals-1229",
+   "category": "Animals",
+   "q": "What kind of animal is a penguin?",
+   "choices": [
+    "A bird",
+    "A mammal",
+    "A fish",
+    "A reptile"
+   ],
+   "answer": 0,
+   "fact": "Penguins have wings, but they use them like flippers to fly through water."
+  },
+  {
+   "id": "animals-1230",
+   "category": "Animals",
+   "q": "What kind of animal is a salamander?",
+   "choices": [
+    "An amphibian",
+    "A reptile",
+    "A fish",
+    "An insect"
+   ],
+   "answer": 0,
+   "fact": "Salamanders look like lizards but have smooth, moist skin and no scales."
+  },
+  {
+   "id": "animals-1231",
+   "category": "Animals",
+   "q": "What kind of animal is a jellyfish?",
+   "choices": [
+    "An invertebrate without a skeleton",
+    "A fish",
+    "A plant",
+    "A mammal"
+   ],
+   "answer": 0,
+   "fact": "Jellyfish have been around for hundreds of millions of years, long before dinosaurs."
+  },
+  {
+   "id": "animals-1232",
+   "category": "Animals",
+   "q": "Which feature do all mammals share?",
+   "choices": [
+    "They feed their babies milk",
+    "They lay eggs",
+    "They can fly",
+    "They live in water"
+   ],
+   "answer": 0,
+   "fact": "Mammals also have hair or fur at some time in their lives, even whales."
+  },
+  {
+   "id": "animals-1233",
+   "category": "Animals",
+   "q": "What are animals with backbones called?",
+   "choices": [
+    "Invertebrates",
+    "Arthropods",
+    "Mollusks",
+    "Vertebrates"
+   ],
+   "answer": 3,
+   "fact": "Fish, amphibians, reptiles, birds and mammals are all vertebrates."
+  },
+  {
+   "id": "animals-1234",
+   "category": "Animals",
+   "q": "What do we call animals that cannot control their own body temperature and depend on the outside?",
+   "choices": [
+    "Warm-blooded",
+    "Hot-blooded",
+    "Cold-blooded",
+    "Even-blooded"
+   ],
+   "answer": 2,
+   "fact": "Lizards bask in the sun to warm up before they get moving."
+  },
+  {
+   "id": "animals-1235",
+   "category": "Animals",
+   "q": "Which group of animals includes snails, clams and octopuses?",
+   "choices": [
+    "Mollusks",
+    "Insects",
+    "Reptiles",
+    "Arachnids"
+   ],
+   "answer": 0,
+   "fact": "Most mollusks have soft bodies, and many protect themselves with a shell."
+  },
+  {
+   "id": "animals-1236",
+   "category": "Animals",
+   "q": "Which group of animals includes crabs, lobsters and shrimp?",
+   "choices": [
+    "Crustaceans",
+    "Mollusks",
+    "Insects",
+    "Amphibians"
+   ],
+   "answer": 0,
+   "fact": "Crustaceans have hard outer skeletons that they must shed to grow."
+  },
+  {
+   "id": "animals-1237",
+   "category": "Animals",
+   "q": "Which animal can sleep for up to three years?",
+   "choices": [
+    "Bear",
+    "Snail",
+    "Bat",
+    "Hedgehog"
+   ],
+   "answer": 1,
+   "fact": "In very dry weather, some snails seal themselves in their shells and rest for a very long time."
+  },
+  {
+   "id": "animals-1238",
+   "category": "Animals",
+   "q": "How does a snail move?",
+   "choices": [
+    "By sliding on a muscle called a foot and a trail of slime",
+    "With tiny legs",
+    "By rolling its shell",
+    "By jumping"
+   ],
+   "answer": 0,
+   "fact": "The slime helps snails glide over rough ground and even across sharp edges."
+  },
+  {
+   "id": "animals-1239",
+   "category": "Animals",
+   "q": "Which small worm-like animal lives in soil and helps keep it healthy?",
+   "choices": [
+    "Earthworm",
+    "Tapeworm",
+    "Caterpillar",
+    "Centipede"
+   ],
+   "answer": 0,
+   "fact": "Earthworms have no lungs and breathe through their skin."
+  },
+  {
+   "id": "animals-1240",
+   "category": "Animals",
+   "q": "Which animal has the most legs?",
+   "choices": [
+    "A millipede",
+    "A centipede",
+    "A spider",
+    "A crab"
+   ],
+   "answer": 0,
+   "fact": "One millipede species has been found with more than 1,300 legs."
+  },
+  {
+   "id": "animals-1241",
+   "category": "Animals",
+   "q": "Which animal has a stinger at the end of its tail and glows under ultraviolet light?",
+   "choices": [
+    "Scorpion",
+    "Spider",
+    "Centipede",
+    "Tick"
+   ],
+   "answer": 0,
+   "fact": "No one knows for sure why scorpions glow blue-green under UV light."
+  },
+  {
+   "id": "animals-1242",
+   "category": "Animals",
+   "q": "What is a baby butterfly or moth called?",
+   "choices": [
+    "A nymph",
+    "A tadpole",
+    "A pupa only",
+    "A caterpillar or larva"
+   ],
+   "answer": 3,
+   "fact": "Some caterpillars grow to thousands of times their hatching weight."
+  },
+  {
+   "id": "animals-1243",
+   "category": "Animals",
+   "q": "What is the only continent where no ants live naturally?",
+   "choices": [
+    "Australia",
+    "Antarctica",
+    "Europe",
+    "South America"
+   ],
+   "answer": 1,
+   "fact": "Ants live on every other continent, and there are thought to be quadrillions of them."
+  },
+  {
+   "id": "animals-1244",
+   "category": "Animals",
+   "q": "Which animal is known as the ship of the desert?",
+   "choices": [
+    "Camel",
+    "Horse",
+    "Elephant",
+    "Donkey"
+   ],
+   "answer": 0,
+   "fact": "Camels can go about a week or more without drinking water."
+  },
+  {
+   "id": "animals-1245",
+   "category": "Animals",
+   "q": "What do camels store in their humps?",
+   "choices": [
+    "Water",
+    "Milk",
+    "Air",
+    "Fat"
+   ],
+   "answer": 3,
+   "fact": "When a camel uses up its fat, its hump can get floppy and lean over."
+  },
+  {
+   "id": "animals-1246",
+   "category": "Animals",
+   "q": "How many humps does a dromedary camel have?",
+   "choices": [
+    "One",
+    "Two",
+    "Three",
+    "None"
+   ],
+   "answer": 0,
+   "fact": "Bactrian camels have two humps, and dromedaries have one."
+  },
+  {
+   "id": "animals-1247",
+   "category": "Animals",
+   "q": "Which South American animal is related to the camel and often used to carry loads in the Andes?",
+   "choices": [
+    "Goat",
+    "Llama",
+    "Yak",
+    "Donkey"
+   ],
+   "answer": 1,
+   "fact": "Llamas may spit when they are annoyed, usually at other llamas."
+  },
+  {
+   "id": "animals-1248",
+   "category": "Animals",
+   "q": "Which animal from the Himalayas has long shaggy hair and is used to carry loads at high altitudes?",
+   "choices": [
+    "Llama",
+    "Yak",
+    "Camel",
+    "Bison"
+   ],
+   "answer": 1,
+   "fact": "Yaks have extra-large lungs and hearts to help them live where the air is thin."
+  },
+  {
+   "id": "animals-1249",
+   "category": "Animals",
+   "q": "Which animal is the national animal of Scotland?",
+   "choices": [
+    "Lion",
+    "Red deer",
+    "Golden eagle",
+    "Unicorn"
+   ],
+   "answer": 3,
+   "fact": "Scotland chose this mythical creature as a symbol of purity and power."
+  },
+  {
+   "id": "animals-1250",
+   "category": "Animals",
+   "q": "Which animal lived on the Great Plains of North America in herds of millions?",
+   "choices": [
+    "American bison",
+    "Moose",
+    "Elk",
+    "Mountain goat"
+   ],
+   "answer": 0,
+   "fact": "Bison are the heaviest land animals in North America."
+  },
+  {
+   "id": "animals-1251",
+   "category": "Animals",
+   "q": "Which is the largest kind of deer?",
+   "choices": [
+    "Moose",
+    "Elk",
+    "Reindeer",
+    "White-tailed deer"
+   ],
+   "answer": 0,
+   "fact": "A big male moose can be over 2 meters tall at the shoulder."
+  },
+  {
+   "id": "animals-1252",
+   "category": "Animals",
+   "q": "In which kind of deer do both males and females grow antlers?",
+   "choices": [
+    "Reindeer",
+    "Moose",
+    "Elk",
+    "White-tailed deer"
+   ],
+   "answer": 0,
+   "fact": "Reindeer are called caribou in North America."
+  },
+  {
+   "id": "animals-1253",
+   "category": "Animals",
+   "q": "What are antlers made of?",
+   "choices": [
+    "Keratin, like fingernails",
+    "Bone",
+    "Ivory",
+    "Cartilage"
+   ],
+   "answer": 1,
+   "fact": "Most deer shed their antlers every year and grow new ones."
+  },
+  {
+   "id": "animals-1254",
+   "category": "Animals",
+   "q": "What are horns on cattle, goats and sheep covered in?",
+   "choices": [
+    "Ivory",
+    "Feathers",
+    "Enamel",
+    "Keratin"
+   ],
+   "answer": 3,
+   "fact": "Unlike antlers, true horns are not shed and keep growing."
+  },
+  {
+   "id": "animals-1255",
+   "category": "Animals",
+   "q": "What is a rhinoceros horn made of?",
+   "choices": [
+    "Bone",
+    "Keratin",
+    "Ivory",
+    "Stone"
+   ],
+   "answer": 1,
+   "fact": "Keratin is the same material as your hair and fingernails."
+  },
+  {
+   "id": "animals-1256",
+   "category": "Animals",
+   "q": "Which animal has the thickest fur of any marine mammal?",
+   "choices": [
+    "Walrus",
+    "Manatee",
+    "Sea otter",
+    "Dolphin"
+   ],
+   "answer": 2,
+   "fact": "A sea otter has about a million hairs in every square inch of skin."
+  },
+  {
+   "id": "animals-1257",
+   "category": "Animals",
+   "q": "What color is a polar bear's skin?",
+   "choices": [
+    "White",
+    "Black",
+    "Pink",
+    "Yellow"
+   ],
+   "answer": 1,
+   "fact": "Its fur hairs are actually clear and hollow, and they look white by reflecting light."
+  },
+  {
+   "id": "animals-1258",
+   "category": "Animals",
+   "q": "What do polar bears mainly hunt?",
+   "choices": [
+    "Penguins",
+    "Fish only",
+    "Reindeer",
+    "Seals"
+   ],
+   "answer": 3,
+   "fact": "Polar bears and penguins never meet in the wild because they live at opposite ends of Earth."
+  },
+  {
+   "id": "animals-1259",
+   "category": "Animals",
+   "q": "Which bear is the largest meat-eating land mammal?",
+   "choices": [
+    "Polar bear",
+    "Black bear",
+    "Sun bear",
+    "Panda"
+   ],
+   "answer": 0,
+   "fact": "A big male polar bear can weigh more than 600 kilograms."
+  },
+  {
+   "id": "animals-1260",
+   "category": "Animals",
+   "q": "Which bear is the smallest?",
+   "choices": [
+    "Grizzly bear",
+    "Polar bear",
+    "Sun bear",
+    "Black bear"
+   ],
+   "answer": 2,
+   "fact": "Sun bears have very long tongues for licking honey and insects out of trees."
+  },
+  {
+   "id": "animals-1261",
+   "category": "Animals",
+   "q": "Which bear has a hump on its shoulders made of muscle?",
+   "choices": [
+    "Polar bear",
+    "Panda",
+    "Grizzly bear",
+    "Sun bear"
+   ],
+   "answer": 2,
+   "fact": "The muscle hump helps grizzlies dig with their long claws."
+  },
+  {
+   "id": "animals-1262",
+   "category": "Animals",
+   "q": "Where do wild giant pandas live?",
+   "choices": [
+    "Japan",
+    "India",
+    "Nepal",
+    "China"
+   ],
+   "answer": 3,
+   "fact": "Giant pandas live in cool, misty bamboo forests in the mountains of central China."
+  },
+  {
+   "id": "animals-1263",
+   "category": "Animals",
+   "q": "What is special about a giant panda's wrist?",
+   "choices": [
+    "It can spin in a circle",
+    "It has an extra bone that works like a thumb",
+    "It has no bones",
+    "It glows in the dark"
+   ],
+   "answer": 1,
+   "fact": "The pseudo-thumb helps pandas grip bamboo stalks."
+  },
+  {
+   "id": "animals-1264",
+   "category": "Animals",
+   "q": "Which African animal has black and white striped fur?",
+   "choices": [
+    "Okapi",
+    "Hippopotamus",
+    "Giraffe",
+    "Zebra"
+   ],
+   "answer": 3,
+   "fact": "Each zebra has its own stripe pattern, like a fingerprint."
+  },
+  {
+   "id": "animals-1265",
+   "category": "Animals",
+   "q": "Which animal looks like a mix of a zebra and a giraffe but is related to the giraffe?",
+   "choices": [
+    "Tapir",
+    "Zebra donkey",
+    "Okapi",
+    "Antelope"
+   ],
+   "answer": 2,
+   "fact": "The okapi lives in the rainforests of the Democratic Republic of the Congo."
+  },
+  {
+   "id": "animals-1266",
+   "category": "Animals",
+   "q": "How long is a giraffe's tongue?",
+   "choices": [
+    "About 5 centimeters",
+    "About 2 meters",
+    "About 45 to 50 centimeters",
+    "About 1 centimeter"
+   ],
+   "answer": 2,
+   "fact": "A giraffe's dark tongue may help protect it from sunburn while it eats."
+  },
+  {
+   "id": "animals-1267",
+   "category": "Animals",
+   "q": "How many neck bones does a giraffe have?",
+   "choices": [
+    "50",
+    "2",
+    "7, the same as humans",
+    "100"
+   ],
+   "answer": 2,
+   "fact": "Each giraffe neck bone can be more than 25 centimeters long."
+  },
+  {
+   "id": "animals-1268",
+   "category": "Animals",
+   "q": "Which African animal spends its days in water and can be very dangerous?",
+   "choices": [
+    "Hippopotamus",
+    "Rhinoceros",
+    "Giraffe",
+    "Zebra"
+   ],
+   "answer": 0,
+   "fact": "Hippos cannot really swim, they walk or bounce along the river bottom."
+  },
+  {
+   "id": "animals-1269",
+   "category": "Animals",
+   "q": "What does the name hippopotamus mean?",
+   "choices": [
+    "Water cow",
+    "Big mouth",
+    "Mud pig",
+    "River horse"
+   ],
+   "answer": 3,
+   "fact": "Hippos make their own reddish skin oil that may help protect them from the sun."
+  },
+  {
+   "id": "animals-1270",
+   "category": "Animals",
+   "q": "Which animal is famous for curling into a spiky ball?",
+   "choices": [
+    "Hedgehog",
+    "Porcupine",
+    "Armadillo",
+    "Pangolin"
+   ],
+   "answer": 0,
+   "fact": "A hedgehog has about 5,000 to 7,000 spines."
+  },
+  {
+   "id": "animals-1271",
+   "category": "Animals",
+   "q": "Which animal is covered in scales and is one of the most trafficked mammals in the world?",
+   "choices": [
+    "Pangolin",
+    "Armadillo",
+    "Anteater",
+    "Hedgehog"
+   ],
+   "answer": 0,
+   "fact": "Pangolins roll into a tight ball of scales when frightened."
+  },
+  {
+   "id": "animals-1272",
+   "category": "Animals",
+   "q": "Which animal eats ants and termites with a very long sticky tongue but has no teeth?",
+   "choices": [
+    "Aardvark",
+    "Pangolin",
+    "Armadillo",
+    "Giant anteater"
+   ],
+   "answer": 3,
+   "fact": "A giant anteater's tongue can flick in and out about 150 times a minute."
+  },
+  {
+   "id": "animals-1273",
+   "category": "Animals",
+   "q": "Which animal's name comes from an Afrikaans word meaning earth pig?",
+   "choices": [
+    "Warthog",
+    "Aardvark",
+    "Meerkat",
+    "Hyena"
+   ],
+   "answer": 1,
+   "fact": "Aardvarks dig burrows that many other animals later use as homes."
+  },
+  {
+   "id": "animals-1274",
+   "category": "Animals",
+   "q": "Which small African mammal stands on its back legs to keep watch?",
+   "choices": [
+    "Lemur",
+    "Meerkat",
+    "Gopher",
+    "Weasel"
+   ],
+   "answer": 1,
+   "fact": "Meerkats take turns as sentries, calling out warnings when danger comes."
+  },
+  {
+   "id": "animals-1275",
+   "category": "Animals",
+   "q": "Which animal is famous for being stubborn and is a relative of the horse?",
+   "choices": [
+    "Camel",
+    "Donkey",
+    "Cow",
+    "Goat"
+   ],
+   "answer": 1,
+   "fact": "Donkeys are actually careful, and they stop when they sense danger."
+  },
+  {
+   "id": "animals-1276",
+   "category": "Animals",
+   "q": "What is a mule?",
+   "choices": [
+    "A small horse",
+    "A wild donkey",
+    "The baby of a male donkey and a female horse",
+    "A type of camel"
+   ],
+   "answer": 2,
+   "fact": "Mules are usually not able to have babies of their own."
+  },
+  {
+   "id": "animals-1277",
+   "category": "Animals",
+   "q": "Which horse breed is often known as the fastest for short sprints?",
+   "choices": [
+    "Clydesdale",
+    "Shetland pony",
+    "Shire",
+    "American Quarter Horse"
+   ],
+   "answer": 3,
+   "fact": "Quarter horses got their name from racing a quarter mile."
+  },
+  {
+   "id": "animals-1278",
+   "category": "Animals",
+   "q": "How do horses usually sleep?",
+   "choices": [
+    "Always lying flat",
+    "Often standing up, with special locking legs",
+    "Upside down",
+    "They never sleep"
+   ],
+   "answer": 1,
+   "fact": "Horses do need to lie down sometimes to get deep sleep."
+  },
+  {
+   "id": "animals-1279",
+   "category": "Animals",
+   "q": "How do scientists measure a horse's height?",
+   "choices": [
+    "In feet only",
+    "In hooves",
+    "In tails",
+    "In hands"
+   ],
+   "answer": 3,
+   "fact": "One hand equals 4 inches, about 10 centimeters."
+  },
+  {
+   "id": "animals-1280",
+   "category": "Animals",
+   "q": "Which farm animal has a stomach with four parts?",
+   "choices": [
+    "Pig",
+    "Cow",
+    "Chicken",
+    "Horse"
+   ],
+   "answer": 1,
+   "fact": "Cows chew their cud, which is food brought back up to chew again."
+  },
+  {
+   "id": "animals-1281",
+   "category": "Animals",
+   "q": "Which farm animal is known for being very smart and learning tricks quickly?",
+   "choices": [
+    "Sheep",
+    "Chicken",
+    "Pig",
+    "Turkey"
+   ],
+   "answer": 2,
+   "fact": "Pigs can learn their names and play simple video games with joysticks in experiments."
+  },
+  {
+   "id": "animals-1282",
+   "category": "Animals",
+   "q": "Why do pigs roll in mud?",
+   "choices": [
+    "Because they are dirty",
+    "To find food",
+    "To keep cool and protect their skin",
+    "To clean their teeth"
+   ],
+   "answer": 2,
+   "fact": "Pigs have very few working sweat glands."
+  },
+  {
+   "id": "animals-1283",
+   "category": "Animals",
+   "q": "Which bird lays the eggs that most people eat?",
+   "choices": [
+    "Duck",
+    "Turkey",
+    "Ostrich",
+    "Chicken"
+   ],
+   "answer": 3,
+   "fact": "There are more chickens on Earth than any other bird."
+  },
+  {
+   "id": "animals-1284",
+   "category": "Animals",
+   "q": "What is the fleshy red part on top of a chicken's head called?",
+   "choices": [
+    "Wattle",
+    "Crest",
+    "Beak",
+    "Comb"
+   ],
+   "answer": 3,
+   "fact": "The red flaps under the beak are called wattles."
+  },
+  {
+   "id": "animals-1285",
+   "category": "Animals",
+   "q": "What is wool mostly from?",
+   "choices": [
+    "Cows",
+    "Sheep",
+    "Pigs",
+    "Horses"
+   ],
+   "answer": 1,
+   "fact": "A sheep that is never sheared will keep growing more and more wool."
+  },
+  {
+   "id": "animals-1286",
+   "category": "Animals",
+   "q": "Which pet animal is descended from wolves?",
+   "choices": [
+    "Dog",
+    "Cat",
+    "Rabbit",
+    "Hamster"
+   ],
+   "answer": 0,
+   "fact": "Dogs were tamed from wolves many thousands of years ago, long before farming began."
+  },
+  {
+   "id": "animals-1287",
+   "category": "Animals",
+   "q": "Which dog breed is known as the fastest?",
+   "choices": [
+    "Greyhound",
+    "Bulldog",
+    "Poodle",
+    "Dachshund"
+   ],
+   "answer": 0,
+   "fact": "Greyhounds can reach about 70 kilometers per hour."
+  },
+  {
+   "id": "animals-1288",
+   "category": "Animals",
+   "q": "Which dog breed was bred to hunt badgers and has a long body and short legs?",
+   "choices": [
+    "Beagle",
+    "Poodle",
+    "Boxer",
+    "Dachshund"
+   ],
+   "answer": 3,
+   "fact": "Dachshund means badger dog in German."
+  },
+  {
+   "id": "animals-1289",
+   "category": "Animals",
+   "q": "Which is the smallest dog breed?",
+   "choices": [
+    "Pug",
+    "Beagle",
+    "Chihuahua",
+    "Poodle"
+   ],
+   "answer": 2,
+   "fact": "Chihuahuas are named after a state in Mexico."
+  },
+  {
+   "id": "animals-1290",
+   "category": "Animals",
+   "q": "Which dog breed often works as a rescue dog in the Swiss Alps?",
+   "choices": [
+    "Chihuahua",
+    "Saint Bernard",
+    "Dalmatian",
+    "Greyhound"
+   ],
+   "answer": 1,
+   "fact": "Saint Bernards are famous in stories for carrying small barrels, but that is mostly a myth."
+  },
+  {
+   "id": "animals-1291",
+   "category": "Animals",
+   "q": "Which dog breed has spots and was once used to run beside horse-drawn fire carts?",
+   "choices": [
+    "Beagle",
+    "Boxer",
+    "Husky",
+    "Dalmatian"
+   ],
+   "answer": 3,
+   "fact": "Dalmatian puppies are born pure white and get their spots as they grow."
+  },
+  {
+   "id": "animals-1292",
+   "category": "Animals",
+   "q": "Which dog breed is famous for pulling sleds in cold places?",
+   "choices": [
+    "Chihuahua",
+    "Siberian husky",
+    "Bulldog",
+    "Pug"
+   ],
+   "answer": 1,
+   "fact": "Some huskies have one blue eye and one brown eye."
+  },
+  {
+   "id": "animals-1293",
+   "category": "Animals",
+   "q": "How does a dog cool itself down?",
+   "choices": [
+    "By sweating all over",
+    "By rolling in grass",
+    "By panting",
+    "By wagging its tail"
+   ],
+   "answer": 2,
+   "fact": "Dogs only have a few sweat glands, mostly in their paw pads."
+  },
+  {
+   "id": "animals-1294",
+   "category": "Animals",
+   "q": "How good is a dog's sense of smell compared to a person's?",
+   "choices": [
+    "About the same",
+    "Worse",
+    "Many thousands of times better",
+    "Exactly twice as good"
+   ],
+   "answer": 2,
+   "fact": "Dogs can be trained to sniff out lost people, bombs and even some illnesses."
+  },
+  {
+   "id": "animals-1295",
+   "category": "Animals",
+   "q": "Why do cats purr?",
+   "choices": [
+    "Often when happy, but also to calm themselves",
+    "Only when angry",
+    "Only when hungry",
+    "To scare mice"
+   ],
+   "answer": 0,
+   "fact": "Cats may purr when they are hurt or scared too, which may help soothe them."
+  },
+  {
+   "id": "animals-1296",
+   "category": "Animals",
+   "q": "What are a cat's whiskers mainly used for?",
+   "choices": [
+    "Tasting food",
+    "Hearing",
+    "Keeping warm",
+    "Feeling their way and sensing things nearby"
+   ],
+   "answer": 3,
+   "fact": "A cat's whiskers are usually about as wide as its body, helping it judge tight spaces."
+  },
+  {
+   "id": "animals-1297",
+   "category": "Animals",
+   "q": "Which animal can see colors humans cannot, like ultraviolet light?",
+   "choices": [
+    "Honeybee",
+    "Dog",
+    "Cat",
+    "Cow"
+   ],
+   "answer": 0,
+   "fact": "Many flowers have ultraviolet patterns that guide bees to their nectar."
+  },
+  {
+   "id": "animals-1298",
+   "category": "Animals",
+   "q": "Which animal has the best color vision, with many types of color cells in its eyes?",
+   "choices": [
+    "Dog",
+    "Mantis shrimp",
+    "Cat",
+    "Bat"
+   ],
+   "answer": 1,
+   "fact": "Mantis shrimp have 12 to 16 kinds of color-sensing cells, while humans have 3."
+  },
+  {
+   "id": "animals-1299",
+   "category": "Animals",
+   "q": "Which animal has the most powerful punch for its size?",
+   "choices": [
+    "Kangaroo",
+    "Gorilla",
+    "Mantis shrimp",
+    "Crab"
+   ],
+   "answer": 2,
+   "fact": "A mantis shrimp's punch is fast enough to crack snail shells and even aquarium glass."
+  },
+  {
+   "id": "animals-1300",
+   "category": "Animals",
+   "q": "Which animal is the loudest in the world?",
+   "choices": [
+    "Sperm whale",
+    "Lion",
+    "Howler monkey",
+    "Elephant"
+   ],
+   "answer": 0,
+   "fact": "A sperm whale's clicks are the loudest sounds made by any animal."
+  },
+  {
+   "id": "animals-1301",
+   "category": "Animals",
+   "q": "Which animal is known for having a memory so good that it remembers watering holes for decades?",
+   "choices": [
+    "Goldfish",
+    "Chicken",
+    "Elephant",
+    "Rabbit"
+   ],
+   "answer": 2,
+   "fact": "Older female elephants lead their herds to water using memories from many years before."
+  },
+  {
+   "id": "animals-1302",
+   "category": "Animals",
+   "q": "Can goldfish really only remember things for three seconds?",
+   "choices": [
+    "Yes, exactly three seconds",
+    "They have no memory at all",
+    "Only for one minute",
+    "No, they can remember for months"
+   ],
+   "answer": 3,
+   "fact": "Scientists have trained goldfish to respond to sounds and remember for months."
+  },
+  {
+   "id": "animals-1303",
+   "category": "Animals",
+   "q": "Which animal has fingerprints almost like a human's?",
+   "choices": [
+    "Dog",
+    "Cat",
+    "Horse",
+    "Koala"
+   ],
+   "answer": 3,
+   "fact": "Koala fingerprints are so similar to ours that they could be confused under a microscope."
+  },
+  {
+   "id": "animals-1304",
+   "category": "Animals",
+   "q": "Which animal can survive being frozen solid in winter and thaw back to life in spring?",
+   "choices": [
+    "Wood frog",
+    "Polar bear",
+    "Penguin",
+    "Seal"
+   ],
+   "answer": 0,
+   "fact": "Wood frogs fill their cells with sugar, which works like antifreeze."
+  },
+  {
+   "id": "animals-1305",
+   "category": "Animals",
+   "q": "Which tiny animal can survive outer space, boiling and freezing?",
+   "choices": [
+    "Ant",
+    "Tardigrade",
+    "Flea",
+    "Ladybug"
+   ],
+   "answer": 1,
+   "fact": "Tardigrades are also called water bears and are less than a millimeter long."
+  },
+  {
+   "id": "animals-1306",
+   "category": "Animals",
+   "q": "Which jellyfish can turn back into a young form and start its life over?",
+   "choices": [
+    "Box jellyfish",
+    "Moon jellyfish",
+    "Immortal jellyfish",
+    "Lion's mane jellyfish"
+   ],
+   "answer": 2,
+   "fact": "Its scientific name is Turritopsis dohrnii."
+  },
+  {
+   "id": "animals-1307",
+   "category": "Animals",
+   "q": "Which jellyfish is the longest, with tentacles that can reach over 30 meters?",
+   "choices": [
+    "Lion's mane jellyfish",
+    "Moon jellyfish",
+    "Box jellyfish",
+    "Immortal jellyfish"
+   ],
+   "answer": 0,
+   "fact": "That is longer than a blue whale."
+  },
+  {
+   "id": "animals-1308",
+   "category": "Animals",
+   "q": "Which animal is the oldest known individual animal ever found?",
+   "choices": [
+    "A quahog clam",
+    "A tortoise",
+    "A whale",
+    "An elephant"
+   ],
+   "answer": 0,
+   "fact": "A clam named Ming, found near Iceland, was about 507 years old."
+  },
+  {
+   "id": "animals-1309",
+   "category": "Animals",
+   "q": "Which animal sleeps the most, about 20 hours a day?",
+   "choices": [
+    "Horse",
+    "Little brown bat",
+    "Giraffe",
+    "Elephant"
+   ],
+   "answer": 1,
+   "fact": "Giraffes and elephants, on the other hand, sleep only a few hours a day."
+  },
+  {
+   "id": "animals-1310",
+   "category": "Animals",
+   "q": "Which tall animal often sleeps standing up, in naps only minutes long?",
+   "choices": [
+    "Lion",
+    "Hippopotamus",
+    "Giraffe",
+    "Koala"
+   ],
+   "answer": 2,
+   "fact": "Giraffes sleep only a few hours a day in total."
+  },
+  {
+   "id": "animals-1311",
+   "category": "Animals",
+   "q": "Which animal's heart beats only a few times a minute when it dives deep?",
+   "choices": [
+    "Mouse",
+    "Hummingbird",
+    "Blue whale",
+    "Rabbit"
+   ],
+   "answer": 2,
+   "fact": "A blue whale's heart has been measured beating as slowly as 2 times a minute during a dive."
+  },
+  {
+   "id": "animals-1312",
+   "category": "Animals",
+   "q": "What is the name of the colorful flap of skin that helps a male frigatebird attract a mate?",
+   "choices": [
+    "Comb",
+    "Throat pouch",
+    "Fin",
+    "Mane"
+   ],
+   "answer": 1,
+   "fact": "The male puffs up his red throat pouch like a big balloon."
+  },
+  {
+   "id": "animals-1313",
+   "category": "Animals",
+   "q": "Which long-legged bird wades in shallow water and spears fish with its sharp beak?",
+   "choices": [
+    "Penguin",
+    "Pigeon",
+    "Heron",
+    "Parrot"
+   ],
+   "answer": 2,
+   "fact": "Herons stand very still, then strike quickly with their sharp beaks."
+  },
+  {
+   "id": "animals-1314",
+   "category": "Animals",
+   "q": "Which large, flightless parrot from New Zealand is critically endangered?",
+   "choices": [
+    "Kakapo",
+    "Kea",
+    "Macaw",
+    "Cockatoo"
+   ],
+   "answer": 0,
+   "fact": "Every living kakapo has a name and is watched closely by scientists."
+  },
+  {
+   "id": "animals-1315",
+   "category": "Animals",
+   "q": "Which huge South American vulture is one of the largest flying birds in the world?",
+   "choices": [
+    "Andean condor",
+    "Bald eagle",
+    "Pelican",
+    "Seagull"
+   ],
+   "answer": 0,
+   "fact": "Andean condors can soar for hours without flapping their wings."
+  },
+  {
+   "id": "animals-1316",
+   "category": "Animals",
+   "q": "Which bird is famous for laying its eggs in other birds' nests?",
+   "choices": [
+    "Robin",
+    "Eagle",
+    "Cuckoo",
+    "Owl"
+   ],
+   "answer": 2,
+   "fact": "The other birds raise the cuckoo chick as if it were their own."
+  },
+  {
+   "id": "animals-1317",
+   "category": "Animals",
+   "q": "Which bird can dive deeper than any other?",
+   "choices": [
+    "Pelican",
+    "Puffin",
+    "Kingfisher",
+    "Emperor penguin"
+   ],
+   "answer": 3,
+   "fact": "Emperor penguins can dive to more than 500 meters deep."
+  },
+  {
+   "id": "animals-1318",
+   "category": "Animals",
+   "q": "Which bird has red feathers and is the state bird of seven US states?",
+   "choices": [
+    "Northern cardinal",
+    "Blue jay",
+    "Robin",
+    "Bald eagle"
+   ],
+   "answer": 0,
+   "fact": "Only male cardinals are bright red, and the females are a soft brown."
+  },
+  {
+   "id": "animals-1319",
+   "category": "Animals",
+   "q": "Which bird is known for building mud nests and catching insects while flying low over fields?",
+   "choices": [
+    "Ostrich",
+    "Penguin",
+    "Barn swallow",
+    "Turkey"
+   ],
+   "answer": 2,
+   "fact": "Barn swallows often build their nests under bridges and inside barns."
+  },
+  {
+   "id": "animals-1320",
+   "category": "Animals",
+   "q": "Which bird's name is also the name of a famous fast-running cartoon character?",
+   "choices": [
+    "Ostrich",
+    "Emu",
+    "Roadrunner",
+    "Turkey"
+   ],
+   "answer": 2,
+   "fact": "Real roadrunners can run about 30 kilometers per hour and eat lizards and even snakes."
+  },
+  {
+   "id": "animals-1321",
+   "category": "Animals",
+   "q": "Which bird did Benjamin Franklin praise as more respectable than the bald eagle?",
+   "choices": [
+    "Wild turkey",
+    "Penguin",
+    "Ostrich",
+    "Peacock"
+   ],
+   "answer": 0,
+   "fact": "He wrote this in a 1784 letter to his daughter, but he never officially proposed the turkey as the national bird."
+  },
+  {
+   "id": "animals-1322",
+   "category": "Animals",
+   "q": "What color are a robin's eggs?",
+   "choices": [
+    "Brown",
+    "White with red spots",
+    "Green with black spots",
+    "Light blue"
+   ],
+   "answer": 3,
+   "fact": "The color is so famous that robin egg blue is a color name."
+  },
+  {
+   "id": "animals-1323",
+   "category": "Animals",
+   "q": "Which bird is the symbol of wisdom in many stories?",
+   "choices": [
+    "Pigeon",
+    "Chicken",
+    "Owl",
+    "Duck"
+   ],
+   "answer": 2,
+   "fact": "In ancient Greece, the owl was linked with Athena, the goddess of wisdom."
+  },
+  {
+   "id": "animals-1324",
+   "category": "Animals",
+   "q": "How do birds that eat seeds grind their food without teeth?",
+   "choices": [
+    "By chewing with their beaks",
+    "With their tongue",
+    "With a muscular stomach called a gizzard",
+    "They swallow seeds whole and never grind them"
+   ],
+   "answer": 2,
+   "fact": "Many birds swallow tiny stones that help the gizzard grind food."
+  },
+  {
+   "id": "animals-1325",
+   "category": "Animals",
+   "q": "Which animal has blue blood and has barely changed in hundreds of millions of years?",
+   "choices": [
+    "Lobster",
+    "Octopus",
+    "Horseshoe crab",
+    "Clam"
+   ],
+   "answer": 2,
+   "fact": "Horseshoe crab blood is used to test medicines for germs."
+  },
+  {
+   "id": "animals-1326",
+   "category": "Animals",
+   "q": "Which animal can regrow its whole body from just a small piece?",
+   "choices": [
+    "Snake",
+    "Frog",
+    "Flatworm",
+    "Crab"
+   ],
+   "answer": 2,
+   "fact": "Some flatworms called planarians can regrow a whole new body from a tiny piece."
+  },
+  {
+   "id": "animals-1327",
+   "category": "Animals",
+   "q": "Which ocean animal has a body shaped like a disk and a long tail with a stinging spine?",
+   "choices": [
+    "Sea star",
+    "Clam",
+    "Sea cucumber",
+    "Stingray"
+   ],
+   "answer": 3,
+   "fact": "Stingrays are close relatives of sharks and also have skeletons made of cartilage."
+  },
+  {
+   "id": "animals-1328",
+   "category": "Animals",
+   "q": "Which is the largest ray, with fins that can stretch about 7 meters wide?",
+   "choices": [
+    "Giant manta ray",
+    "Stingray",
+    "Electric ray",
+    "Skate"
+   ],
+   "answer": 0,
+   "fact": "Manta rays have one of the biggest brains, for their size, of any fish."
+  },
+  {
+   "id": "animals-1329",
+   "category": "Animals",
+   "q": "Which huge deep-sea animal was first photographed alive in the wild in 2004?",
+   "choices": [
+    "Anglerfish",
+    "Vampire squid",
+    "Nautilus",
+    "Giant squid"
+   ],
+   "answer": 3,
+   "fact": "Japanese scientists took the photos almost 900 meters deep in the Pacific Ocean."
+  },
+  {
+   "id": "animals-1330",
+   "category": "Animals",
+   "q": "Which sea creature has a spiral shell with many chambers and relatives that go back about 500 million years?",
+   "choices": [
+    "Hermit crab",
+    "Nautilus",
+    "Snail",
+    "Sea urchin"
+   ],
+   "answer": 1,
+   "fact": "A nautilus moves up and down by changing the amount of gas in its shell chambers."
+  },
+  {
+   "id": "animals-1331",
+   "category": "Animals",
+   "q": "Which spiny round sea animal is a favorite food of sea otters?",
+   "choices": [
+    "Sea cucumber",
+    "Sea urchin",
+    "Jellyfish",
+    "Coral"
+   ],
+   "answer": 1,
+   "fact": "Sea urchins move slowly on hundreds of tiny tube feet."
+  },
+  {
+   "id": "animals-1332",
+   "category": "Animals",
+   "q": "Which sea animal can throw out its insides to scare predators and then regrow them?",
+   "choices": [
+    "Sea urchin",
+    "Clam",
+    "Sea cucumber",
+    "Crab"
+   ],
+   "answer": 2,
+   "fact": "Some sea cucumbers shoot out sticky threads to tangle up attackers."
+  },
+  {
+   "id": "animals-1333",
+   "category": "Animals",
+   "q": "Which ocean animal makes pearls?",
+   "choices": [
+    "Crabs",
+    "Oysters and some other mollusks",
+    "Sea stars",
+    "Jellyfish"
+   ],
+   "answer": 1,
+   "fact": "A pearl forms when a mollusk coats a bit of grit or irritation with layers of shiny material."
+  },
+  {
+   "id": "animals-1334",
+   "category": "Animals",
+   "q": "Which tiny ocean creatures are the main food of many whales, penguins and seals in the Southern Ocean?",
+   "choices": [
+    "Clams",
+    "Krill",
+    "Sea snails",
+    "Tuna"
+   ],
+   "answer": 1,
+   "fact": "Antarctic krill are among the most plentiful animals on Earth, with hundreds of trillions of them."
+  },
+  {
+   "id": "animals-1335",
+   "category": "Animals",
+   "q": "What is plankton?",
+   "choices": [
+    "A type of seaweed only",
+    "Tiny living things that drift in water",
+    "Big fish",
+    "Sand on the sea floor"
+   ],
+   "answer": 1,
+   "fact": "Plankton made by tiny ocean plants produce a large share of the oxygen we breathe."
+  },
+  {
+   "id": "animals-1336",
+   "category": "Animals",
+   "q": "Which fish can glide above the water for long distances using big fins like wings?",
+   "choices": [
+    "Swordfish",
+    "Catfish",
+    "Flying fish",
+    "Goldfish"
+   ],
+   "answer": 2,
+   "fact": "Flying fish can glide for about 200 meters by leaping out of the water."
+  },
+  {
+   "id": "animals-1337",
+   "category": "Animals",
+   "q": "Which fish has a long, flat, sword-like bill?",
+   "choices": [
+    "Barracuda",
+    "Catfish",
+    "Swordfish",
+    "Flounder"
+   ],
+   "answer": 2,
+   "fact": "Swordfish can heat their eyes and brains to see better in cold, deep water."
+  },
+  {
+   "id": "animals-1338",
+   "category": "Animals",
+   "q": "Which fish is the heaviest bony fish in the world?",
+   "choices": [
+    "Tuna",
+    "Swordfish",
+    "Ocean sunfish",
+    "Catfish"
+   ],
+   "answer": 2,
+   "fact": "An ocean sunfish, also called a mola, can weigh more than 2,000 kilograms."
+  },
+  {
+   "id": "animals-1339",
+   "category": "Animals",
+   "q": "Which fish can live out of water and even climb onto mangrove roots?",
+   "choices": [
+    "Mudskipper",
+    "Goldfish",
+    "Tuna",
+    "Clownfish"
+   ],
+   "answer": 0,
+   "fact": "Mudskippers breathe through their skin and through water they hold in their gill chambers."
+  },
+  {
+   "id": "animals-1340",
+   "category": "Animals",
+   "q": "What is a male deer called?",
+   "choices": [
+    "Doe",
+    "Buck or stag",
+    "Fawn",
+    "Ram"
+   ],
+   "answer": 1,
+   "fact": "A female deer is called a doe."
+  },
+  {
+   "id": "animals-1341",
+   "category": "Animals",
+   "q": "What is a male sheep called?",
+   "choices": [
+    "Ram",
+    "Ewe",
+    "Buck",
+    "Bull"
+   ],
+   "answer": 0,
+   "fact": "A female sheep is called a ewe."
+  },
+  {
+   "id": "animals-1342",
+   "category": "Animals",
+   "q": "What is a female horse called?",
+   "choices": [
+    "Mare",
+    "Stallion",
+    "Colt",
+    "Gelding"
+   ],
+   "answer": 0,
+   "fact": "An adult male horse is called a stallion."
+  },
+  {
+   "id": "animals-1343",
+   "category": "Animals",
+   "q": "What is a male chicken called?",
+   "choices": [
+    "Rooster",
+    "Hen",
+    "Pullet",
+    "Chick"
+   ],
+   "answer": 0,
+   "fact": "Roosters crow at many times of the day, not only at sunrise."
+  },
+  {
+   "id": "animals-1344",
+   "category": "Animals",
+   "q": "What is a female pig called?",
+   "choices": [
+    "Boar",
+    "Sow",
+    "Hog",
+    "Piglet"
+   ],
+   "answer": 1,
+   "fact": "A male pig is called a boar."
+  },
+  {
+   "id": "animals-1345",
+   "category": "Animals",
+   "q": "What is a male duck called?",
+   "choices": [
+    "Hen",
+    "Gander",
+    "Cob",
+    "Drake"
+   ],
+   "answer": 3,
+   "fact": "Many male ducks have bright colors, while females are brown to stay hidden on the nest."
+  },
+  {
+   "id": "animals-1346",
+   "category": "Animals",
+   "q": "What is a male goose called?",
+   "choices": [
+    "Gander",
+    "Drake",
+    "Rooster",
+    "Cob"
+   ],
+   "answer": 0,
+   "fact": "A female goose is simply called a goose."
+  },
+  {
+   "id": "animals-1347",
+   "category": "Animals",
+   "q": "Which type of animal is the axolotl, which is often called a Mexican walking fish?",
+   "choices": [
+    "Fish",
+    "Lizard",
+    "Salamander",
+    "Eel"
+   ],
+   "answer": 2,
+   "fact": "Axolotls usually keep their feathery gills and live in water their whole lives."
+  },
+  {
+   "id": "animals-1348",
+   "category": "Animals",
+   "q": "Which animal can jump the highest compared to its body size?",
+   "choices": [
+    "Kangaroo",
+    "Flea",
+    "Frog",
+    "Grasshopper"
+   ],
+   "answer": 1,
+   "fact": "A flea can jump more than 100 times its own body length."
+  },
+  {
+   "id": "animals-1349",
+   "category": "Animals",
+   "q": "How far can a red kangaroo jump in a single hop?",
+   "choices": [
+    "About 1 meter",
+    "About 30 meters",
+    "About 50 centimeters",
+    "About 8 meters"
+   ],
+   "answer": 3,
+   "fact": "Kangaroos cannot easily walk backward."
+  },
+  {
+   "id": "animals-1350",
+   "category": "Animals",
+   "q": "What does a kangaroo use its strong tail for?",
+   "choices": [
+    "Swimming only",
+    "Holding food",
+    "Scaring birds",
+    "Balance and support, like a fifth leg"
+   ],
+   "answer": 3,
+   "fact": "When moving slowly, a kangaroo leans on its tail while it swings its legs forward."
+  },
+  {
+   "id": "animals-1351",
+   "category": "Animals",
+   "q": "Which animal has a nose like a short trunk and lives in rainforests of South America and Asia?",
+   "choices": [
+    "Anteater",
+    "Okapi",
+    "Tapir",
+    "Aardvark"
+   ],
+   "answer": 2,
+   "fact": "Baby tapirs have stripes and spots that fade as they grow."
+  },
+  {
+   "id": "animals-1352",
+   "category": "Animals",
+   "q": "Which cat has a very short tail and tufted ears and lives in northern forests?",
+   "choices": [
+    "Cheetah",
+    "Lynx",
+    "Lion",
+    "Jaguar"
+   ],
+   "answer": 1,
+   "fact": "Lynx have huge, furry paws that work like snowshoes."
+  },
+  {
+   "id": "animals-1353",
+   "category": "Animals",
+   "q": "Which wild cat of the Americas is also called a cougar, puma or mountain lion?",
+   "choices": [
+    "Mountain lion",
+    "Bobcat",
+    "Lynx",
+    "Ocelot"
+   ],
+   "answer": 0,
+   "fact": "It holds the record for the animal with the most common names in English."
+  },
+  {
+   "id": "animals-1354",
+   "category": "Animals",
+   "q": "Which small wild cat of North America is named for its short tail?",
+   "choices": [
+    "Lynx",
+    "Ocelot",
+    "Bobcat",
+    "Serval"
+   ],
+   "answer": 2,
+   "fact": "Bobcats are about twice the size of a pet cat."
+  },
+  {
+   "id": "animals-1355",
+   "category": "Animals",
+   "q": "Which wild African cat has very long legs and big ears to hear prey in tall grass?",
+   "choices": [
+    "Lion",
+    "Leopard",
+    "Cheetah",
+    "Serval"
+   ],
+   "answer": 3,
+   "fact": "Servals can leap high into the air to catch birds."
+  },
+  {
+   "id": "animals-1356",
+   "category": "Animals",
+   "q": "Which weasel relative is famous for being fearless and fighting much bigger animals?",
+   "choices": [
+    "Otter",
+    "Honey badger",
+    "Mink",
+    "Ferret"
+   ],
+   "answer": 1,
+   "fact": "Honey badgers have thick, loose skin that makes them hard to grab."
+  },
+  {
+   "id": "animals-1357",
+   "category": "Animals",
+   "q": "Which animal is famous for washing its food in water before eating?",
+   "choices": [
+    "Raccoon",
+    "Squirrel",
+    "Opossum",
+    "Fox"
+   ],
+   "answer": 0,
+   "fact": "Raccoons are actually feeling their food, since wet paws are extra sensitive."
+  },
+  {
+   "id": "animals-1358",
+   "category": "Animals",
+   "q": "Which animal is red, fluffy and lives in the Himalayas, though it is not a bear?",
+   "choices": [
+    "Red fox",
+    "Raccoon",
+    "Squirrel",
+    "Red panda"
+   ],
+   "answer": 3,
+   "fact": "Red pandas were named pandas before giant pandas were."
+  },
+  {
+   "id": "animals-1359",
+   "category": "Animals",
+   "q": "Which fox lives in the Sahara Desert and has huge ears?",
+   "choices": [
+    "Red fox",
+    "Arctic fox",
+    "Fennec fox",
+    "Gray fox"
+   ],
+   "answer": 2,
+   "fact": "Its big ears help it hear prey underground and also give off heat to stay cool."
+  },
+  {
+   "id": "animals-1360",
+   "category": "Animals",
+   "q": "Which tiny primate has eyes so big that each one is about as large as its brain?",
+   "choices": [
+    "Sloth",
+    "Tarsier",
+    "Lemur",
+    "Gibbon"
+   ],
+   "answer": 1,
+   "fact": "Tarsiers cannot move their eyes, so they turn their heads instead, like owls."
+  },
+  {
+   "id": "animals-1361",
+   "category": "Animals",
+   "q": "Which wild pig of Africa has warts on its face?",
+   "choices": [
+    "Boar",
+    "Peccary",
+    "Tapir",
+    "Warthog"
+   ],
+   "answer": 3,
+   "fact": "Warthogs kneel on their front knees when they eat grass."
+  },
+  {
+   "id": "animals-1362",
+   "category": "Animals",
+   "q": "Which antelope can leap about 3 meters high and is common in African savannas?",
+   "choices": [
+    "Moose",
+    "Impala",
+    "Bison",
+    "Yak"
+   ],
+   "answer": 1,
+   "fact": "When running from danger, impalas leap in many directions to confuse predators."
+  },
+  {
+   "id": "animals-1363",
+   "category": "Animals",
+   "q": "Which large animal of Africa travels with zebras in a giant migration each year?",
+   "choices": [
+    "Elephant",
+    "Wildebeest",
+    "Giraffe",
+    "Hippopotamus"
+   ],
+   "answer": 1,
+   "fact": "More than a million wildebeest travel across the Serengeti and Masai Mara each year."
+  },
+  {
+   "id": "animals-1364",
+   "category": "Animals",
+   "q": "Which animal has the thickest skin of any land mammal?",
+   "choices": [
+    "Rhinoceros",
+    "Elephant",
+    "Camel",
+    "Pig"
+   ],
+   "answer": 0,
+   "fact": "Rhino skin can be about 5 centimeters thick in places."
+  },
+  {
+   "id": "animals-1365",
+   "category": "Animals",
+   "q": "Which rhinoceros is the largest kind?",
+   "choices": [
+    "Black rhinoceros",
+    "Javan rhinoceros",
+    "White rhinoceros",
+    "Sumatran rhinoceros"
+   ],
+   "answer": 2,
+   "fact": "Both white and black rhinos are actually gray."
+  },
+  {
+   "id": "animals-1366",
+   "category": "Animals",
+   "q": "Which animal is the national animal of Australia, along with the emu?",
+   "choices": [
+    "Koala",
+    "Kangaroo",
+    "Platypus",
+    "Wombat"
+   ],
+   "answer": 1,
+   "fact": "The kangaroo and emu both appear on Australia's coat of arms."
+  },
+  {
+   "id": "animals-1367",
+   "category": "Animals",
+   "q": "Which animal is the national animal of China?",
+   "choices": [
+    "Tiger",
+    "Dragon",
+    "Crane",
+    "Giant panda"
+   ],
+   "answer": 3,
+   "fact": "Giant pandas have been sent to zoos in other countries as signs of friendship."
+  },
+  {
+   "id": "animals-1368",
+   "category": "Animals",
+   "q": "Which animal on the endangered list was saved partly because the United States banned the pesticide DDT?",
+   "choices": [
+    "Pigeon",
+    "Crow",
+    "Bald eagle",
+    "Sparrow"
+   ],
+   "answer": 2,
+   "fact": "DDT made eggshells so thin they broke before hatching."
+  },
+  {
+   "id": "animals-1369",
+   "category": "Animals",
+   "q": "Which ape is critically endangered and lives in the mountains of Rwanda, Uganda and Congo?",
+   "choices": [
+    "Orangutan",
+    "Chimpanzee",
+    "Mountain gorilla",
+    "Bonobo"
+   ],
+   "answer": 2,
+   "fact": "As of 2025, there are only about 1,000 mountain gorillas, but their numbers have been slowly growing."
+  },
+  {
+   "id": "animals-1370",
+   "category": "Animals",
+   "q": "What kind of fish is Nemo in the movie Finding Nemo?",
+   "choices": [
+    "Angelfish",
+    "Goldfish",
+    "Clownfish",
+    "Pufferfish"
+   ],
+   "answer": 2,
+   "fact": "All clownfish are born male, and some later change into females."
+  },
+  {
+   "id": "animals-1371",
+   "category": "Animals",
+   "q": "Which cartoon character from Finding Nemo is a blue tang?",
+   "choices": [
+    "Nemo",
+    "Marlin",
+    "Dory",
+    "Bruce"
+   ],
+   "answer": 2,
+   "fact": "Blue tangs have sharp spines near their tails for defense."
+  },
+  {
+   "id": "animals-1372",
+   "category": "Animals",
+   "q": "Which pet fish was first kept by people in ancient China?",
+   "choices": [
+    "Betta",
+    "Goldfish",
+    "Guppy",
+    "Clownfish"
+   ],
+   "answer": 1,
+   "fact": "Goldfish come from a wild carp and were bred in China over a thousand years ago."
+  },
+  {
+   "id": "animals-1373",
+   "category": "Animals",
+   "q": "Which fish is also called the Siamese fighting fish?",
+   "choices": [
+    "Guppy",
+    "Betta",
+    "Goldfish",
+    "Tetra"
+   ],
+   "answer": 1,
+   "fact": "Male bettas build nests out of bubbles on the water's surface."
+  },
+  {
+   "id": "animals-1374",
+   "category": "Animals",
+   "q": "Which pet reptile is a popular lizard from Australia known for its spiky beard?",
+   "choices": [
+    "Iguana",
+    "Chameleon",
+    "Gecko",
+    "Bearded dragon"
+   ],
+   "answer": 3,
+   "fact": "Bearded dragons puff out and darken their beards when they feel threatened."
+  },
+  {
+   "id": "animals-1375",
+   "category": "Animals",
+   "q": "Which bird's heart can beat more than 1,000 times a minute?",
+   "choices": [
+    "Ostrich",
+    "Penguin",
+    "Eagle",
+    "Hummingbird"
+   ],
+   "answer": 3,
+   "fact": "Hummingbirds burn so much energy that they must feed many times every hour."
+  },
+  {
+   "id": "animals-1376",
+   "category": "Animals",
+   "q": "Which group of animals has the most known species?",
+   "choices": [
+    "Mammals",
+    "Insects",
+    "Birds",
+    "Fish"
+   ],
+   "answer": 1,
+   "fact": "Scientists have named about a million insect species, and there are many more to find."
+  },
+  {
+   "id": "animals-1377",
+   "category": "Animals",
+   "q": "Which insect is famous for its praying pose and for catching other insects with spiky front legs?",
+   "choices": [
+    "Praying mantis",
+    "Grasshopper",
+    "Stick insect",
+    "Ladybug"
+   ],
+   "answer": 0,
+   "fact": "A praying mantis can turn its head almost all the way around to look behind it."
+  },
+  {
+   "id": "animals-1378",
+   "category": "Animals",
+   "q": "Which insect makes a big ball-shaped paper nest from chewed wood?",
+   "choices": [
+    "Bee",
+    "Ant",
+    "Wasp",
+    "Butterfly"
+   ],
+   "answer": 2,
+   "fact": "Wasps were making paper long before people learned how."
+  },
+  {
+   "id": "animals-1379",
+   "category": "Animals",
+   "q": "Which insect sense organ helps ants and moths smell?",
+   "choices": [
+    "Wings",
+    "Legs only",
+    "Antennae",
+    "Eyes"
+   ],
+   "answer": 2,
+   "fact": "Some male moths can smell a female from kilometers away with their feathery antennae."
+  },
+  {
+   "id": "animals-1380",
+   "category": "Animals",
+   "q": "How many eyes do most spiders have?",
+   "choices": [
+    "2",
+    "8",
+    "4",
+    "12"
+   ],
+   "answer": 1,
+   "fact": "Jumping spiders have two huge front eyes that give them sharp vision."
+  }
+ ]
+}

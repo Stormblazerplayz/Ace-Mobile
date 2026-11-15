@@ -1,0 +1,44 @@
+# tag: tech.consoles.switch
+what are joy con 2 | switch 2 joy cons => Joy-Con 2 attach to the Switch 2 with magnets instead of rails, and each one can work like a mouse when you slide it on a table.
+how do i use mouse controls on switch 2 | joy con mouse mode => In games that support it, turn a Joy-Con 2 on its side and slide it on a flat surface like a mouse. Play on a table or your leg, not a rough surface.
+can i use old joy cons on switch 2 | switch 1 joycon on switch 2 => Original Joy-Con can connect to Switch 2 wirelessly, but they can't attach to its sides. Original Pro Controllers also work.
+what screen does the switch 2 have | switch 2 screen size => The Switch 2 has a 7.9 inch 1080p LCD that supports up to 120 Hz and HDR. Docked, it can output up to 4K on a TV in supported games.
+how much storage does switch 2 have | switch 2 internal storage => The Switch 2 has 256 GB of built-in storage. You can add more with a microSD Express card.
+does switch 2 need a camera for gamechat | switch 2 camera => No, GameChat voice works with the built-in mic. A USB-C camera adds video of your face to the chat.
+what is the nintendo switch online expansion pack | nso expansion pack => The Expansion Pack is a pricier Nintendo Switch Online tier that adds N64, Game Boy Advance and GameCube games on Switch 2, plus some DLC.
+how do i share games with another switch | virtual game cards => Nintendo's virtual game cards let you load a digital game onto another Switch in your family group for a time, but only one console can play a game at once.
+what is a primary console on switch | primary console nintendo => The primary console lets anyone on it play your digital games offline. On other consoles, you need an internet connection to check you own the game.
+how do i check how much space is left on switch | switch free storage => Open System Settings, Data Management. It shows free space on the system memory and the microSD card.
+how do i turn off the switch auto brightness | switch screen too dark => Open System Settings, Screen Brightness and turn off Auto-Brightness Adjustment, then drag the slider.
+how do i change my switch user icon | switch profile picture => Open your user page from the Home menu, tap Edit Profile, then Change Icon and pick a character and background.
+how do i add a friend on switch | friend code switch => Open your user page, choose Add Friend, then Search with Friend Code and type their code. Only add people you know in real life.
+how do i change my switch nickname | rename switch profile => Open your user page, choose Profile, Edit Profile, then Nickname.
+why does my switch say the game card can't be read | game card error switch => Turn the Switch off, take out the card, check the slot for dust, and put it back. If it still fails, try another game card to see if it's the slot or the card.
+how do i close a game on switch | quit software switch => Press the Home button, then press X on the game and choose Close.
+why does my switch not charge | switch battery not charging => Try Nintendo's own charger, check the USB-C port for dirt, and leave it charging for 30 minutes before turning it on. A fully drained battery can take a while to wake.
+# tag: tech.consoles.playstation
+how do i record gameplay on ps5 | ps5 create button => Press the Create button to open capture options, or hold it to save a screenshot. You can save recent gameplay or start a new recording.
+how do i transfer ps5 clips to my phone | ps app captures => Turn on auto-upload in the PS5's Captures settings, then open the PlayStation App on your phone to download them. Or copy them to a USB drive.
+how do i share play on ps5 | share screen ps5 => Start a party, then choose Share Screen. With Share Play, a friend can watch or even play your game without owning it, for up to an hour at a time.
+what is ps plus | essential extra premium => PlayStation Plus is Sony's subscription. Essential gives online play and monthly games, Extra adds a library of games, and Premium adds classics and cloud streaming.
+how do i change ps5 video output settings | ps5 resolution settings => Open Settings, Screen and Video, Video Output to change resolution, HDR, 120 Hz and VRR.
+what is ps5 performance mode vs quality mode | fidelity mode ps5 => Many games let you choose Performance mode for higher FPS or Quality mode for sharper graphics at 30 or 40 FPS. Set a default in Settings, Saved Data and Game/App Settings.
+how do i turn on vrr on ps5 | ps5 variable refresh rate => Open Settings, Screen and Video, Video Output, and turn VRR on. Your TV or monitor needs HDMI 2.1 VRR support.
+how do i stop my ps5 overheating | ps5 hot => Give it space on all sides, keep it out of cabinets, and clean the dust from its vents. Make sure the fan isn't blocked.
+what is the playstation portal | ps portal => The PlayStation Portal is a handheld screen that streams games from your PS5 over Wi-Fi. It also supports cloud streaming of some games for PS Plus Premium members.
+how do i reset a ps5 controller | dualsense reset button => Turn the PS5 off, then press the small reset button in the hole on the back of the controller with a pin for a few seconds. Plug it in with USB and press PS to pair again.
+# tag: tech.consoles.xbox
+how do i record on xbox | xbox capture clip => Press the Share button to take a screenshot, or hold it to record a clip of recent gameplay. Change capture length in Settings, Preferences, Capture and share.
+how do i get xbox clips on my phone | xbox app captures => Open the Xbox app on your phone, sign in, and go to Captures. Clips uploaded from the console show up there.
+how do i use an xbox controller on pc | xbox controller windows => Plug it in with USB-C, use the Xbox Wireless Adapter, or pair it with Bluetooth on newer controllers. Windows supports it without extra drivers.
+what is xbox play anywhere | play anywhere games => Xbox Play Anywhere games bought once can be played on both Xbox and Windows PC, with shared saves.
+how do i set up xbox family settings | xbox parental controls app => Use the Xbox Family Settings app to set screen time, approve friends, and limit content and purchases for a child account.
+what is the xbox ally | rog xbox ally => The ROG Xbox Ally is a handheld Windows gaming PC made by ASUS with Xbox, released in 2025. It runs PC games and has a full-screen Xbox experience.
+# tag: tech.consoles.general
+what is pass through on a capture card | capture card passthrough => Passthrough sends the console's picture to your TV or monitor with no delay while the card also sends a copy to your PC.
+what is hdcp | hdcp capture card => HDCP is copy protection on HDMI. It blocks capturing some video, like PS5 menus while HDCP is on, so turn it off in the PS5's settings to record gameplay.
+can i play console games on my pc monitor | console on 200hz monitor => Yes, plug the console into the monitor with HDMI. Consoles usually top out at 120 Hz, so a 200 Hz monitor will run at 120 Hz or lower.
+what is geforce now | geforce now explained => GeForce Now is NVIDIA's cloud gaming service that streams PC games you own on Steam, Epic and other stores to any device.
+what is a retro handheld | anbernic handheld => Retro handhelds are small devices built to play old console games, often through emulators. Stick to games you own to stay on the right side of the law.
+what is a controller's dead zone | stick dead zone => A dead zone is how far you have to move a stick before the game reacts. A bigger dead zone hides small drift, and a smaller one feels more responsive.
+what is a back paddle controller | paddles on a controller => Back paddles are extra buttons behind the controller that copy face buttons, so you can jump or reload without taking your thumb off the stick.

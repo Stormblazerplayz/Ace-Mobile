@@ -1,0 +1,1146 @@
+{
+ "entries": [
+  {
+   "en": "circle",
+   "also": [],
+   "t": {
+    "es": "círculo",
+    "fr": "cercle",
+    "de": "Kreis",
+    "it": "cerchio",
+    "pt": "círculo",
+    "ja": "丸",
+    "zh": "圆",
+    "ko": "동그라미",
+    "hi": "गोला",
+    "ar": "دائرة",
+    "ru": "круг",
+    "nl": "cirkel"
+   },
+   "say": {
+    "ja": "maru",
+    "zh": "yuán",
+    "ko": "donggeurami",
+    "hi": "gola",
+    "ar": "daa'ira",
+    "ru": "krug"
+   }
+  },
+  {
+   "en": "square",
+   "also": [],
+   "t": {
+    "es": "cuadrado",
+    "fr": "carré",
+    "de": "Quadrat",
+    "it": "quadrato",
+    "pt": "quadrado",
+    "ja": "四角",
+    "zh": "正方形",
+    "ko": "네모",
+    "hi": "वर्ग",
+    "ar": "مربع",
+    "ru": "квадрат",
+    "nl": "vierkant"
+   },
+   "say": {
+    "ja": "shikaku",
+    "zh": "zhèngfāngxíng",
+    "ko": "nemo",
+    "hi": "varg",
+    "ar": "murabba'",
+    "ru": "kvadrat"
+   }
+  },
+  {
+   "en": "triangle",
+   "also": [],
+   "t": {
+    "es": "triángulo",
+    "fr": "triangle",
+    "de": "Dreieck",
+    "it": "triangolo",
+    "pt": "triângulo",
+    "ja": "三角",
+    "zh": "三角形",
+    "ko": "세모",
+    "hi": "त्रिभुज",
+    "ar": "مثلث",
+    "ru": "треугольник",
+    "nl": "driehoek"
+   },
+   "say": {
+    "ja": "sankaku",
+    "zh": "sānjiǎoxíng",
+    "ko": "semo",
+    "hi": "tribhuj",
+    "ar": "muthallath",
+    "ru": "treugolnik"
+   }
+  },
+  {
+   "en": "heart shape",
+   "also": [],
+   "t": {
+    "es": "corazón",
+    "fr": "cœur",
+    "de": "Herz",
+    "it": "cuore",
+    "pt": "coração",
+    "ja": "ハート",
+    "zh": "心形",
+    "ko": "하트",
+    "hi": "दिल का आकार",
+    "ar": "شكل قلب",
+    "ru": "сердечко",
+    "nl": "hartje"
+   },
+   "say": {
+    "ja": "haato",
+    "zh": "xīnxíng",
+    "ko": "hateu",
+    "hi": "dil ka aakaar",
+    "ar": "shakl qalb",
+    "ru": "serdechko"
+   }
+  },
+  {
+   "en": "star shape",
+   "also": [],
+   "t": {
+    "es": "estrella",
+    "fr": "étoile",
+    "de": "Stern",
+    "it": "stella",
+    "pt": "estrela",
+    "ja": "星形",
+    "zh": "星形",
+    "ko": "별 모양",
+    "hi": "तारे का आकार",
+    "ar": "شكل نجمة",
+    "ru": "звёздочка",
+    "nl": "ster"
+   },
+   "say": {
+    "ja": "hoshigata",
+    "zh": "xīngxíng",
+    "ko": "byeol moyang",
+    "hi": "taare ka aakaar",
+    "ar": "shakl najma",
+    "ru": "zvyozdochka"
+   }
+  },
+  {
+   "en": "dark",
+   "also": [],
+   "t": {
+    "es": "oscuro",
+    "fr": "sombre",
+    "de": "dunkel",
+    "it": "buio",
+    "pt": "escuro",
+    "ja": "暗い",
+    "zh": "暗",
+    "ko": "어두워요",
+    "hi": "अँधेरा",
+    "ar": "مظلم",
+    "ru": "тёмный",
+    "nl": "donker"
+   },
+   "say": {
+    "ja": "kurai",
+    "zh": "àn",
+    "ko": "eoduwoyo",
+    "hi": "andhera",
+    "ar": "mudhlim",
+    "ru": "tyomny"
+   }
+  },
+  {
+   "en": "bright",
+   "also": [],
+   "t": {
+    "es": "brillante",
+    "fr": "lumineux",
+    "de": "hell",
+    "it": "luminoso",
+    "pt": "claro",
+    "ja": "明るい",
+    "zh": "亮",
+    "ko": "밝아요",
+    "hi": "रोशन",
+    "ar": "مضيء",
+    "ru": "светлый",
+    "nl": "licht"
+   },
+   "say": {
+    "ja": "akarui",
+    "zh": "liàng",
+    "ko": "balgayo",
+    "hi": "roshan",
+    "ar": "mudee'",
+    "ru": "svetly"
+   }
+  },
+  {
+   "en": "beige",
+   "also": [],
+   "t": {
+    "es": "beige",
+    "fr": "beige",
+    "de": "beige",
+    "it": "beige",
+    "pt": "bege",
+    "ja": "ベージュ",
+    "zh": "米色",
+    "ko": "베이지색",
+    "hi": "बेज",
+    "ar": "بيج",
+    "ru": "бежевый",
+    "nl": "beige"
+   },
+   "say": {
+    "ja": "beeju",
+    "zh": "mǐsè",
+    "ko": "beijisaek",
+    "hi": "bej",
+    "ar": "beej",
+    "ru": "bezhevy"
+   }
+  },
+  {
+   "en": "favorite color",
+   "also": [
+    "favourite colour",
+    "favorite colour"
+   ],
+   "t": {
+    "es": "color favorito",
+    "fr": "couleur préférée",
+    "de": "Lieblingsfarbe",
+    "it": "colore preferito",
+    "pt": "cor favorita",
+    "ja": "好きな色",
+    "zh": "最喜欢的颜色",
+    "ko": "좋아하는 색",
+    "hi": "पसंदीदा रंग",
+    "ar": "اللون المفضل",
+    "ru": "любимый цвет",
+    "nl": "lievelingskleur"
+   },
+   "say": {
+    "ja": "suki na iro",
+    "zh": "zuì xǐhuan de yánsè",
+    "ko": "joahaneun saek",
+    "hi": "pasandeeda rang",
+    "ar": "al-lawn al-mufaddal",
+    "ru": "lyubimy tsvet"
+   }
+  },
+  {
+   "en": "steak",
+   "also": [],
+   "t": {
+    "es": "bistec",
+    "fr": "steak",
+    "de": "Steak",
+    "it": "bistecca",
+    "pt": "bife",
+    "ja": "ステーキ",
+    "zh": "牛排",
+    "ko": "스테이크",
+    "hi": "स्टेक",
+    "ar": "شريحة لحم",
+    "ru": "стейк",
+    "nl": "biefstuk"
+   },
+   "say": {
+    "ja": "suteeki",
+    "zh": "niúpái",
+    "ko": "seuteikeu",
+    "hi": "stek",
+    "ar": "shareehat lahm",
+    "ru": "steyk"
+   }
+  },
+  {
+   "en": "hot dog",
+   "also": [],
+   "t": {
+    "es": "perrito caliente",
+    "fr": "hot-dog",
+    "de": "Hotdog",
+    "it": "hot dog",
+    "pt": "cachorro-quente",
+    "ja": "ホットドッグ",
+    "zh": "热狗",
+    "ko": "핫도그",
+    "hi": "हॉट डॉग",
+    "ar": "هوت دوغ",
+    "ru": "хот-дог",
+    "nl": "hotdog"
+   },
+   "say": {
+    "ja": "hotto doggu",
+    "zh": "règǒu",
+    "ko": "hatdogeu",
+    "hi": "hot dog",
+    "ar": "hoot doogh",
+    "ru": "khot-dog"
+   }
+  },
+  {
+   "en": "sushi",
+   "also": [],
+   "t": {
+    "es": "sushi",
+    "fr": "sushi",
+    "de": "Sushi",
+    "it": "sushi",
+    "pt": "sushi",
+    "ja": "寿司",
+    "zh": "寿司",
+    "ko": "초밥",
+    "hi": "सुशी",
+    "ar": "سوشي",
+    "ru": "суши",
+    "nl": "sushi"
+   },
+   "say": {
+    "ja": "sushi",
+    "zh": "shòusī",
+    "ko": "chobap",
+    "hi": "sushi",
+    "ar": "sooshi",
+    "ru": "sushi"
+   }
+  },
+  {
+   "en": "spaghetti",
+   "also": [],
+   "t": {
+    "es": "espaguetis",
+    "fr": "spaghettis",
+    "de": "Spaghetti",
+    "it": "spaghetti",
+    "pt": "espaguete",
+    "ja": "スパゲッティ",
+    "zh": "意大利面条",
+    "ko": "스파게티",
+    "hi": "स्पेगेटी",
+    "ar": "سباغيتي",
+    "ru": "спагетти",
+    "nl": "spaghetti"
+   },
+   "say": {
+    "ja": "supagetti",
+    "zh": "yìdàlì miàntiáo",
+    "ko": "seupageti",
+    "hi": "spegeti",
+    "ar": "sbaaghetti",
+    "ru": "spagetti"
+   }
+  },
+  {
+   "en": "toast",
+   "also": [],
+   "t": {
+    "es": "pan tostado",
+    "fr": "pain grillé",
+    "de": "Toast",
+    "it": "pane tostato",
+    "pt": "torrada",
+    "ja": "トースト",
+    "zh": "烤面包",
+    "ko": "토스트",
+    "hi": "टोस्ट",
+    "ar": "خبز محمص",
+    "ru": "тост",
+    "nl": "geroosterd brood"
+   },
+   "say": {
+    "ja": "toosuto",
+    "zh": "kǎo miànbāo",
+    "ko": "toseuteu",
+    "hi": "tost",
+    "ar": "khubz muhammas",
+    "ru": "tost"
+   }
+  },
+  {
+   "en": "jam",
+   "also": [],
+   "t": {
+    "es": "mermelada",
+    "fr": "confiture",
+    "de": "Marmelade",
+    "it": "marmellata",
+    "pt": "geleia",
+    "ja": "ジャム",
+    "zh": "果酱",
+    "ko": "잼",
+    "hi": "जैम",
+    "ar": "مربى",
+    "ru": "варенье",
+    "nl": "jam"
+   },
+   "say": {
+    "ja": "jamu",
+    "zh": "guǒjiàng",
+    "ko": "jaem",
+    "hi": "jaim",
+    "ar": "murabba",
+    "ru": "varenye"
+   }
+  },
+  {
+   "en": "ketchup",
+   "also": [],
+   "t": {
+    "es": "kétchup",
+    "fr": "ketchup",
+    "de": "Ketchup",
+    "it": "ketchup",
+    "pt": "ketchup",
+    "ja": "ケチャップ",
+    "zh": "番茄酱",
+    "ko": "케첩",
+    "hi": "केचप",
+    "ar": "كاتشب",
+    "ru": "кетчуп",
+    "nl": "ketchup"
+   },
+   "say": {
+    "ja": "kechappu",
+    "zh": "fānqiéjiàng",
+    "ko": "kecheop",
+    "hi": "kechap",
+    "ar": "kaatshab",
+    "ru": "ketchup"
+   }
+  },
+  {
+   "en": "oil",
+   "also": [
+    "cooking oil"
+   ],
+   "t": {
+    "es": "aceite",
+    "fr": "huile",
+    "de": "Öl",
+    "it": "olio",
+    "pt": "óleo",
+    "ja": "油",
+    "zh": "油",
+    "ko": "기름",
+    "hi": "तेल",
+    "ar": "زيت",
+    "ru": "растительное масло",
+    "nl": "olie"
+   },
+   "say": {
+    "ja": "abura",
+    "zh": "yóu",
+    "ko": "gireum",
+    "hi": "tel",
+    "ar": "zayt",
+    "ru": "rastitelnoye maslo"
+   }
+  },
+  {
+   "en": "garlic",
+   "also": [],
+   "t": {
+    "es": "ajo",
+    "fr": "ail",
+    "de": "Knoblauch",
+    "it": "aglio",
+    "pt": "alho",
+    "ja": "にんにく",
+    "zh": "大蒜",
+    "ko": "마늘",
+    "hi": "लहसुन",
+    "ar": "ثوم",
+    "ru": "чеснок",
+    "nl": "knoflook"
+   },
+   "say": {
+    "ja": "ninniku",
+    "zh": "dàsuàn",
+    "ko": "maneul",
+    "hi": "lahsun",
+    "ar": "thoom",
+    "ru": "chesnok"
+   }
+  },
+  {
+   "en": "mushroom",
+   "also": [
+    "mushrooms"
+   ],
+   "t": {
+    "es": "champiñón",
+    "fr": "champignon",
+    "de": "Pilz",
+    "it": "fungo",
+    "pt": "cogumelo",
+    "ja": "きのこ",
+    "zh": "蘑菇",
+    "ko": "버섯",
+    "hi": "मशरूम",
+    "ar": "فطر",
+    "ru": "гриб",
+    "nl": "paddenstoel"
+   },
+   "say": {
+    "ja": "kinoko",
+    "zh": "mógu",
+    "ko": "beoseot",
+    "hi": "mashroom",
+    "ar": "futr",
+    "ru": "grib"
+   }
+  },
+  {
+   "en": "cucumber",
+   "also": [],
+   "t": {
+    "es": "pepino",
+    "fr": "concombre",
+    "de": "Gurke",
+    "it": "cetriolo",
+    "pt": "pepino",
+    "ja": "きゅうり",
+    "zh": "黄瓜",
+    "ko": "오이",
+    "hi": "खीरा",
+    "ar": "خيار",
+    "ru": "огурец",
+    "nl": "komkommer"
+   },
+   "say": {
+    "ja": "kyuuri",
+    "zh": "huánggua",
+    "ko": "oi",
+    "hi": "kheera",
+    "ar": "khiyaar",
+    "ru": "ogurets"
+   }
+  },
+  {
+   "en": "beans",
+   "also": [],
+   "t": {
+    "es": "frijoles",
+    "fr": "haricots",
+    "de": "Bohnen",
+    "it": "fagioli",
+    "pt": "feijão",
+    "ja": "豆",
+    "zh": "豆子",
+    "ko": "콩",
+    "hi": "सेम",
+    "ar": "فاصولياء",
+    "ru": "фасоль",
+    "nl": "bonen"
+   },
+   "say": {
+    "ja": "mame",
+    "zh": "dòuzi",
+    "ko": "kong",
+    "hi": "sem",
+    "ar": "faasoolyaa'",
+    "ru": "fasol"
+   }
+  },
+  {
+   "en": "lettuce",
+   "also": [],
+   "t": {
+    "es": "lechuga",
+    "fr": "laitue",
+    "de": "Kopfsalat",
+    "it": "lattuga",
+    "pt": "alface",
+    "ja": "レタス",
+    "zh": "生菜",
+    "ko": "상추",
+    "hi": "सलाद पत्ता",
+    "ar": "خس",
+    "ru": "салат латук",
+    "nl": "sla"
+   },
+   "say": {
+    "ja": "retasu",
+    "zh": "shēngcài",
+    "ko": "sangchu",
+    "hi": "salaad patta",
+    "ar": "khass",
+    "ru": "salat latuk"
+   }
+  },
+  {
+   "en": "coconut",
+   "also": [],
+   "t": {
+    "es": "coco",
+    "fr": "noix de coco",
+    "de": "Kokosnuss",
+    "it": "cocco",
+    "pt": "coco",
+    "ja": "ココナッツ",
+    "zh": "椰子",
+    "ko": "코코넛",
+    "hi": "नारियल",
+    "ar": "جوز الهند",
+    "ru": "кокос",
+    "nl": "kokosnoot"
+   },
+   "say": {
+    "ja": "kokonattsu",
+    "zh": "yēzi",
+    "ko": "kokoneot",
+    "hi": "naariyal",
+    "ar": "jawz al-hind",
+    "ru": "kokos"
+   }
+  },
+  {
+   "en": "blueberry",
+   "also": [
+    "blueberries"
+   ],
+   "t": {
+    "es": "arándano",
+    "fr": "myrtille",
+    "de": "Heidelbeere",
+    "it": "mirtillo",
+    "pt": "mirtilo",
+    "ja": "ブルーベリー",
+    "zh": "蓝莓",
+    "ko": "블루베리",
+    "hi": "ब्लूबेरी",
+    "ar": "توت أزرق",
+    "ru": "черника",
+    "nl": "bosbes"
+   },
+   "say": {
+    "ja": "buruuberii",
+    "zh": "lánméi",
+    "ko": "beulluberi",
+    "hi": "blooberi",
+    "ar": "toot azraq",
+    "ru": "chernika"
+   }
+  },
+  {
+   "en": "avocado",
+   "also": [],
+   "t": {
+    "es": "aguacate",
+    "fr": "avocat",
+    "de": "Avocado",
+    "it": "avocado",
+    "pt": "abacate",
+    "ja": "アボカド",
+    "zh": "牛油果",
+    "ko": "아보카도",
+    "hi": "एवोकाडो",
+    "ar": "أفوكادو",
+    "ru": "авокадо",
+    "nl": "avocado"
+   },
+   "say": {
+    "ja": "abokado",
+    "zh": "niúyóuguǒ",
+    "ko": "abokado",
+    "hi": "evokaado",
+    "ar": "afookaado",
+    "ru": "avokado"
+   }
+  },
+  {
+   "en": "lemonade",
+   "also": [],
+   "t": {
+    "es": "limonada",
+    "fr": "limonade",
+    "de": "Limonade",
+    "it": "limonata",
+    "pt": "limonada",
+    "ja": "レモネード",
+    "zh": "柠檬水",
+    "ko": "레모네이드",
+    "hi": "नींबू पानी",
+    "ar": "ليموناضة",
+    "ru": "лимонад",
+    "nl": "limonade"
+   },
+   "say": {
+    "ja": "remoneedo",
+    "zh": "níngméngshuǐ",
+    "ko": "remoneideu",
+    "hi": "neemboo paani",
+    "ar": "leemoonaada",
+    "ru": "limonad"
+   }
+  },
+  {
+   "en": "smoothie",
+   "also": [],
+   "t": {
+    "es": "batido",
+    "fr": "smoothie",
+    "de": "Smoothie",
+    "it": "frullato",
+    "pt": "vitamina",
+    "ja": "スムージー",
+    "zh": "果昔",
+    "ko": "스무디",
+    "hi": "स्मूदी",
+    "ar": "سموذي",
+    "ru": "смузи",
+    "nl": "smoothie"
+   },
+   "say": {
+    "ja": "sumuujii",
+    "zh": "guǒxī",
+    "ko": "seumudi",
+    "hi": "smoodi",
+    "ar": "smoothi",
+    "ru": "smuzi"
+   }
+  },
+  {
+   "en": "cookies and milk",
+   "also": [
+    "milk and cookies"
+   ],
+   "t": {
+    "es": "galletas con leche",
+    "fr": "biscuits et lait",
+    "de": "Kekse und Milch",
+    "it": "biscotti e latte",
+    "pt": "biscoitos com leite",
+    "ja": "クッキーと牛乳",
+    "zh": "饼干和牛奶",
+    "ko": "쿠키와 우유",
+    "hi": "बिस्कुट और दूध",
+    "ar": "بسكويت وحليب",
+    "ru": "печенье с молоком",
+    "nl": "koekjes met melk"
+   },
+   "say": {
+    "ja": "kukkii to gyuunyuu",
+    "zh": "bǐnggān hé niúnǎi",
+    "ko": "kukiwa uyu",
+    "hi": "biskut aur doodh",
+    "ar": "baskaweet wa haleeb",
+    "ru": "pechenye s molokom"
+   }
+  },
+  {
+   "en": "helicopter",
+   "also": [],
+   "t": {
+    "es": "helicóptero",
+    "fr": "hélicoptère",
+    "de": "Hubschrauber",
+    "it": "elicottero",
+    "pt": "helicóptero",
+    "ja": "ヘリコプター",
+    "zh": "直升机",
+    "ko": "헬리콥터",
+    "hi": "हेलीकॉप्टर",
+    "ar": "مروحية",
+    "ru": "вертолёт",
+    "nl": "helikopter"
+   },
+   "say": {
+    "ja": "herikoputaa",
+    "zh": "zhíshēngjī",
+    "ko": "hellikopteo",
+    "hi": "helikoptar",
+    "ar": "mirwahiyya",
+    "ru": "vertolyot"
+   }
+  },
+  {
+   "en": "motorcycle",
+   "also": [
+    "motorbike"
+   ],
+   "t": {
+    "es": "moto",
+    "fr": "moto",
+    "de": "Motorrad",
+    "it": "moto",
+    "pt": "moto",
+    "ja": "バイク",
+    "zh": "摩托车",
+    "ko": "오토바이",
+    "hi": "मोटरसाइकिल",
+    "ar": "دراجة نارية",
+    "ru": "мотоцикл",
+    "nl": "motor"
+   },
+   "say": {
+    "ja": "baiku",
+    "zh": "mótuōchē",
+    "ko": "otobai",
+    "hi": "motarsaaikil",
+    "ar": "darraaja naariyya",
+    "ru": "mototsikl"
+   }
+  },
+  {
+   "en": "truck",
+   "also": [
+    "lorry"
+   ],
+   "t": {
+    "es": "camión",
+    "fr": "camion",
+    "de": "Lastwagen",
+    "it": "camion",
+    "pt": "caminhão",
+    "ja": "トラック",
+    "zh": "卡车",
+    "ko": "트럭",
+    "hi": "ट्रक",
+    "ar": "شاحنة",
+    "ru": "грузовик",
+    "nl": "vrachtwagen"
+   },
+   "say": {
+    "ja": "torakku",
+    "zh": "kǎchē",
+    "ko": "teureok",
+    "hi": "trak",
+    "ar": "shaahina",
+    "ru": "gruzovik"
+   }
+  },
+  {
+   "en": "ship",
+   "also": [],
+   "t": {
+    "es": "barco",
+    "fr": "navire",
+    "de": "Schiff",
+    "it": "nave",
+    "pt": "navio",
+    "ja": "船",
+    "zh": "轮船",
+    "ko": "배",
+    "hi": "जहाज़",
+    "ar": "سفينة",
+    "ru": "корабль",
+    "nl": "schip"
+   },
+   "say": {
+    "ja": "fune",
+    "zh": "lúnchuán",
+    "ko": "bae",
+    "hi": "jahaaz",
+    "ar": "safeena",
+    "ru": "korabl"
+   }
+  },
+  {
+   "en": "rocket",
+   "also": [],
+   "t": {
+    "es": "cohete",
+    "fr": "fusée",
+    "de": "Rakete",
+    "it": "razzo",
+    "pt": "foguete",
+    "ja": "ロケット",
+    "zh": "火箭",
+    "ko": "로켓",
+    "hi": "रॉकेट",
+    "ar": "صاروخ",
+    "ru": "ракета",
+    "nl": "raket"
+   },
+   "say": {
+    "ja": "roketto",
+    "zh": "huǒjiàn",
+    "ko": "roket",
+    "hi": "roket",
+    "ar": "saarookh",
+    "ru": "raketa"
+   }
+  },
+  {
+   "en": "tram",
+   "also": [],
+   "t": {
+    "es": "tranvía",
+    "fr": "tramway",
+    "de": "Straßenbahn",
+    "it": "tram",
+    "pt": "bonde",
+    "ja": "路面電車",
+    "zh": "有轨电车",
+    "ko": "트램",
+    "hi": "ट्राम",
+    "ar": "ترام",
+    "ru": "трамвай",
+    "nl": "tram"
+   },
+   "say": {
+    "ja": "romen densha",
+    "zh": "yǒuguǐ diànchē",
+    "ko": "teuraem",
+    "hi": "traam",
+    "ar": "traam",
+    "ru": "tramvay"
+   }
+  },
+  {
+   "en": "gas station",
+   "also": [
+    "petrol station"
+   ],
+   "t": {
+    "es": "gasolinera",
+    "fr": "station-service",
+    "de": "Tankstelle",
+    "it": "distributore di benzina",
+    "pt": "posto de gasolina",
+    "ja": "ガソリンスタンド",
+    "zh": "加油站",
+    "ko": "주유소",
+    "hi": "पेट्रोल पंप",
+    "ar": "محطة بنزين",
+    "ru": "заправка",
+    "nl": "tankstation"
+   },
+   "say": {
+    "ja": "gasorin sutando",
+    "zh": "jiāyóuzhàn",
+    "ko": "juyuso",
+    "hi": "petrol pamp",
+    "ar": "mahattat banzeen",
+    "ru": "zapravka"
+   }
+  },
+  {
+   "en": "parking lot",
+   "also": [
+    "car park",
+    "parking"
+   ],
+   "t": {
+    "es": "estacionamiento",
+    "fr": "parking",
+    "de": "Parkplatz",
+    "it": "parcheggio",
+    "pt": "estacionamento",
+    "ja": "駐車場",
+    "zh": "停车场",
+    "ko": "주차장",
+    "hi": "पार्किंग",
+    "ar": "موقف سيارات",
+    "ru": "парковка",
+    "nl": "parkeerplaats"
+   },
+   "say": {
+    "ja": "chuushajou",
+    "zh": "tíngchēchǎng",
+    "ko": "juchajang",
+    "hi": "paarking",
+    "ar": "mawqif sayyaaraat",
+    "ru": "parkovka"
+   }
+  },
+  {
+   "en": "stadium",
+   "also": [],
+   "t": {
+    "es": "estadio",
+    "fr": "stade",
+    "de": "Stadion",
+    "it": "stadio",
+    "pt": "estádio",
+    "ja": "スタジアム",
+    "zh": "体育场",
+    "ko": "경기장",
+    "hi": "स्टेडियम",
+    "ar": "ملعب",
+    "ru": "стадион",
+    "nl": "stadion"
+   },
+   "say": {
+    "ja": "sutajiamu",
+    "zh": "tǐyùchǎng",
+    "ko": "gyeonggijang",
+    "hi": "stediyam",
+    "ar": "mal'ab",
+    "ru": "stadion"
+   }
+  },
+  {
+   "en": "castle",
+   "also": [],
+   "t": {
+    "es": "castillo",
+    "fr": "château",
+    "de": "Burg",
+    "it": "castello",
+    "pt": "castelo",
+    "ja": "城",
+    "zh": "城堡",
+    "ko": "성",
+    "hi": "क़िला",
+    "ar": "قلعة",
+    "ru": "замок",
+    "nl": "kasteel"
+   },
+   "say": {
+    "ja": "shiro",
+    "zh": "chéngbǎo",
+    "ko": "seong",
+    "hi": "qila",
+    "ar": "qal'a",
+    "ru": "zamok"
+   }
+  },
+  {
+   "en": "farm",
+   "also": [],
+   "t": {
+    "es": "granja",
+    "fr": "ferme",
+    "de": "Bauernhof",
+    "it": "fattoria",
+    "pt": "fazenda",
+    "ja": "農場",
+    "zh": "农场",
+    "ko": "농장",
+    "hi": "खेत",
+    "ar": "مزرعة",
+    "ru": "ферма",
+    "nl": "boerderij"
+   },
+   "say": {
+    "ja": "noujou",
+    "zh": "nóngchǎng",
+    "ko": "nongjang",
+    "hi": "khet",
+    "ar": "mazra'a",
+    "ru": "ferma"
+   }
+  },
+  {
+   "en": "bakery",
+   "also": [],
+   "t": {
+    "es": "panadería",
+    "fr": "boulangerie",
+    "de": "Bäckerei",
+    "it": "panetteria",
+    "pt": "padaria",
+    "ja": "パン屋",
+    "zh": "面包店",
+    "ko": "빵집",
+    "hi": "बेकरी",
+    "ar": "مخبز",
+    "ru": "пекарня",
+    "nl": "bakkerij"
+   },
+   "say": {
+    "ja": "pan'ya",
+    "zh": "miànbāodiàn",
+    "ko": "ppangjip",
+    "hi": "bekari",
+    "ar": "makhbaz",
+    "ru": "pekarnya"
+   }
+  },
+  {
+   "en": "bookstore",
+   "also": [
+    "bookshop"
+   ],
+   "t": {
+    "es": "librería",
+    "fr": "librairie",
+    "de": "Buchhandlung",
+    "it": "libreria",
+    "pt": "livraria",
+    "ja": "本屋",
+    "zh": "书店",
+    "ko": "서점",
+    "hi": "किताबों की दुकान",
+    "ar": "مكتبة لبيع الكتب",
+    "ru": "книжный магазин",
+    "nl": "boekwinkel"
+   },
+   "say": {
+    "ja": "hon'ya",
+    "zh": "shūdiàn",
+    "ko": "seojeom",
+    "hi": "kitaabon ki dukaan",
+    "ar": "maktaba li-bay' al-kutub",
+    "ru": "knizhny magazin"
+   }
+  },
+  {
+   "en": "toy store",
+   "also": [
+    "toy shop"
+   ],
+   "t": {
+    "es": "juguetería",
+    "fr": "magasin de jouets",
+    "de": "Spielzeugladen",
+    "it": "negozio di giocattoli",
+    "pt": "loja de brinquedos",
+    "ja": "おもちゃ屋",
+    "zh": "玩具店",
+    "ko": "장난감 가게",
+    "hi": "खिलौनों की दुकान",
+    "ar": "متجر ألعاب",
+    "ru": "магазин игрушек",
+    "nl": "speelgoedwinkel"
+   },
+   "say": {
+    "ja": "omochaya",
+    "zh": "wánjùdiàn",
+    "ko": "jangnangam gage",
+    "hi": "khilaunon ki dukaan",
+    "ar": "matjar al'aab",
+    "ru": "magazin igrushek"
+   }
+  },
+  {
+   "en": "aquarium",
+   "also": [],
+   "t": {
+    "es": "acuario",
+    "fr": "aquarium",
+    "de": "Aquarium",
+    "it": "acquario",
+    "pt": "aquário",
+    "ja": "水族館",
+    "zh": "水族馆",
+    "ko": "수족관",
+    "hi": "मछलीघर",
+    "ar": "حوض أسماك",
+    "ru": "океанариум",
+    "nl": "aquarium"
+   },
+   "say": {
+    "ja": "suizokukan",
+    "zh": "shuǐzúguǎn",
+    "ko": "sujokgwan",
+    "hi": "machhlighar",
+    "ar": "hawd asmaak",
+    "ru": "okeanarium"
+   }
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+# tag: tech.shortcuts.excel
+how do i insert a row in excel with keys | ctrl plus excel insert => Select a whole row with Shift + Space, then press Ctrl + Plus (Ctrl + Shift + =) to insert a row above it.
+how do i delete a row in excel with keys | ctrl minus excel => Select the row with Shift + Space, then press Ctrl + Minus to delete it.
+how do i fill the same value into many cells | ctrl enter fill selection => Select the cells, type the value or formula, and press Ctrl + Enter. It goes into every selected cell at once.
+how do i copy a formula to the right in excel | ctrl r fill right => Select the cell with the formula plus the cells to its right, then press Ctrl + R.
+what is flash fill in excel | ctrl e excel => Type an example of the pattern you want in the next column, like first names from full names, then press Ctrl + E and Excel fills the rest.
+how do i select data to the end in excel | ctrl shift arrow select => Press Ctrl + Shift + an arrow key to select from the active cell to the last filled cell in that direction.
+how do i go to cell a1 fast | ctrl home excel => Press Ctrl + Home to jump to A1, and Ctrl + End to jump to the last used cell.
+how do i make a chart instantly in excel | alt f1 chart => Select your data and press Alt + F1 to put a chart on the same sheet, or F11 to put it on its own chart sheet.
+how do i add a new sheet in excel with keys | shift f11 excel => Press Shift + F11 to insert a new worksheet.
+how do i format as percent with keys | ctrl shift percent excel => Select the cells and press Ctrl + Shift + % to show them as percentages.
+how do i put a border around cells fast | ctrl shift 7 excel border => Press Ctrl + Shift + & (Ctrl + Shift + 7) to add an outline border, and Ctrl + Shift + _ to remove it.
+how do i hide a row in excel with keys | ctrl 9 hide row => Press Ctrl + 9 to hide the selected rows and Ctrl + 0 to hide columns.
+how do i strikethrough in excel | ctrl 5 excel => Select the cells and press Ctrl + 5 to cross out the text.
+how do i insert the time in excel | ctrl shift colon excel => Press Ctrl + Shift + : to type the time into a cell. It won't update later.
+how do i paste values only in google sheets | ctrl shift v sheets => Press Ctrl + Shift + V in Google Sheets to paste only the values, without the formula or formatting.
+how do i strikethrough in google docs | alt shift 5 docs => Press Alt + Shift + 5 in Google Docs or Sheets to cross out the selected text.
+how do i make a numbered list in google docs | ctrl shift 7 docs => Press Ctrl + Shift + 7 to start or remove a numbered list.
+how do i search the menus in google docs | alt slash docs => Press Alt + / in Docs, Sheets or Slides to search for any menu command by typing its name.
+how do i align text left or right in google docs | ctrl shift l docs => Press Ctrl + Shift + L for left, Ctrl + Shift + R for right and Ctrl + Shift + J for justified in Google Docs.
+how do i type subscript in google docs | ctrl comma docs => Press Ctrl + , to type subscript like the 2 in H2O, and press it again to turn it off.
+# tag: tech.shortcuts.word
+how do i align text in word with keys | ctrl l word left align => Press Ctrl + L for left, Ctrl + E for center, Ctrl + R for right and Ctrl + J for justified.
+how do i double space in word with keys | ctrl 2 word => Press Ctrl + 2 for double spacing, Ctrl + 5 for 1.5 lines and Ctrl + 1 for single spacing.
+how do i make the font one size bigger in word | ctrl right bracket word => Press Ctrl + ] to grow the font by one point and Ctrl + [ to shrink it by one.
+how do i type subscript in word | ctrl equals word => Press Ctrl + = for subscript and Ctrl + Shift + = for superscript.
+how do i copy formatting with keys in word | ctrl shift c word => Select formatted text and press Ctrl + Shift + C, then select other text and press Ctrl + Shift + V to apply the same look.
+how do i open the thesaurus in word | shift f7 word => Click a word and press Shift + F7 to find other words with a similar meaning.
+how do i turn on track changes with keys | ctrl shift e word => Press Ctrl + Shift + E in Word to turn Track Changes on or off.
+how do i insert the date in word | alt shift d word => Press Alt + Shift + D to insert the date, and Alt + Shift + T for the time.
+how do i select a whole sentence in word | ctrl click sentence => Hold Ctrl and click anywhere in a sentence to select it. Triple-click selects the whole paragraph.
+# tag: tech.shortcuts.terminal
+how do i open a new tab in windows terminal | ctrl shift t terminal => Press Ctrl + Shift + T to open a new tab with your default profile.
+how do i split windows terminal | alt shift plus terminal => Press Alt + Shift + Plus to split side by side and Alt + Shift + Minus to split top and bottom. Alt + Shift + D duplicates the pane.
+how do i close a pane in windows terminal | ctrl shift w terminal => Press Ctrl + Shift + W to close the active pane or tab.
+how do i open the command palette in windows terminal | ctrl shift p terminal => Press Ctrl + Shift + P to search every Terminal action by name.
+how do i make windows terminal full screen | alt enter terminal => Press F11 or Alt + Enter to toggle full screen in Windows Terminal.
+how do i autocomplete a file name in the terminal | tab complete => Type the start of a file or folder name and press Tab to finish it. Press Tab again to cycle through matches.
+how do i see my command history in command prompt | f7 cmd => Press F7 in Command Prompt to see a list of commands you ran in that window.
+# tag: tech.shortcuts.notepad
+how do i insert the time in notepad | f5 notepad => Press F5 in Notepad to type the time and date at the cursor.
+how do i go to a line in notepad | ctrl g notepad => Press Ctrl + G and type a line number to jump there.
+how do i open a new tab in notepad | ctrl t notepad => In Windows 11's Notepad, press Ctrl + T for a new tab and Ctrl + W to close it.
+how do i resize an image in paint | ctrl w paint => Press Ctrl + W in Paint to open Resize and skew, then change the size by percentage or pixels.
+how do i crop in paint | ctrl shift x paint => Select the area you want to keep and press Ctrl + Shift + X to crop to it.
+how do i show gridlines in paint | ctrl g paint => Press Ctrl + G to show or hide gridlines in Paint, which helps with pixel art. Ctrl + R shows rulers.
+how do i change the canvas size in paint | ctrl e paint => Press Ctrl + E in Paint to open Image properties and type the width and height.
+# tag: tech.shortcuts.art
+how do i swap colors in photoshop | x key swap colors => Press X to swap the foreground and background colors, and D to reset them to black and white. It works in Photoshop, GIMP and Krita.
+how do i change brush size with keys | bracket keys brush size => Press [ to make the brush smaller and ] to make it bigger in Photoshop, Krita and GIMP.
+how do i duplicate a layer in photoshop | ctrl j photoshop => Press Ctrl + J to duplicate the layer, or copy just the selected area into a new layer.
+how do i resize something in photoshop | ctrl t free transform => Press Ctrl + T for Free Transform, then drag the corners. Press Enter to confirm.
+how do i deselect in photoshop | ctrl d deselect => Press Ctrl + D to drop the selection in Photoshop or Photopea.
+how do i invert a selection | ctrl shift i invert => Press Ctrl + Shift + I in Photoshop, or Ctrl + I in GIMP, to select everything except what was selected.
+how do i fit the image to the screen in photoshop | ctrl 0 photoshop => Press Ctrl + 0 to fit the whole image in the window and Ctrl + 1 for 100 percent zoom.
+how do i pan around in photoshop | space bar hand tool => Hold Space and drag to move around the canvas, then let go to return to your tool.
+how do i make a new layer in photoshop | ctrl shift n photoshop => Press Ctrl + Shift + N to make a new layer. In Photoshop it opens a box to name it first.
+how do i export in gimp | ctrl shift e gimp => Press Ctrl + Shift + E to Export As a PNG or JPG. Ctrl + S only saves GIMP's own XCF file.
+what is photopea | free photoshop in browser => Photopea is a free web app that looks and works much like Photoshop, with most of the same shortcuts. It can open PSD files.
+# tag: tech.shortcuts.design
+how do i draw a rectangle in figma | r key figma => Press R for a rectangle, O for an ellipse, T for text, F for a frame and P for the pen tool.
+how do i add auto layout in figma | shift a figma => Select the layers and press Shift + A to wrap them in an auto layout frame.
+how do i zoom to fit in figma | shift 1 figma => Press Shift + 1 to zoom to fit everything, and Shift + 2 to zoom to what you selected.
+how do i make a component in figma | ctrl alt k figma => Select the layers and press Ctrl + Alt + K to create a component you can reuse.
+how do i group things in figma | ctrl g figma => Press Ctrl + G to group selected layers and Ctrl + Shift + G to ungroup. On Mac use Command.
+how do i add text in canva with a key | t key canva => In Canva press T for a text box, R for a rectangle, C for a circle and L for a line.
+how do i duplicate something in canva | ctrl d canva => Select the element and press Ctrl + D (Command + D on Mac) to duplicate it.
+# tag: tech.shortcuts.video
+how do i cut a clip in premiere pro | c razor tool premiere => Press C for the Razor tool and click to cut, or press Ctrl + K to cut at the playhead. Press V to go back to the Selection tool.
+how do i ripple trim in premiere | q and w premiere => Press Q to trim from the playhead back to the previous edit and W to trim to the next edit, closing the gap either way.
+how do i show keyframes in after effects | u key after effects => Select a layer and press U to show every property that has keyframes.
+how do i open position in after effects | p key after effects => Select a layer and press P for Position, S for Scale, R for Rotation, T for Opacity and A for Anchor Point.
+how do i play and scrub in video editors | j k l keys => In Premiere, Resolve and many editors, L plays forward, J plays backward and K stops. Press L or J again to go faster.
+how do i set hotkeys in obs | obs hotkeys => OBS has no recording hotkeys by default. Open Settings, Hotkeys, click the box next to Start Recording or a scene and press the keys you want.

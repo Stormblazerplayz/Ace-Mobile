@@ -1,0 +1,117 @@
+# Extra Swift and SwiftUI: language corners, SwiftData queries, system frameworks and more how-tos, written by hand for Ace.
+# tag: coding.swift.extra
+what is asyncsequence | async sequence swift | for await loop swift => An `AsyncSequence` gives values over time, and you loop over it with `for await value in sequence`. Examples include `URL.lines` and `NotificationCenter.default.notifications(named:)`.
+what is asyncstream | asyncstream swift | make my own async sequence => `AsyncStream` lets you build your own async sequence: you get a continuation and call `continuation.yield(value)` to send values and `continuation.finish()` to end.
+what is a continuation in swift | withcheckedcontinuation | turn callback into async swift => `withCheckedContinuation` (or the throwing version) wraps old completion-handler code so you can `await` it. You must resume the continuation exactly once.
+what is task.detached | detached task swift | task detached vs task => `Task { }` inherits the actor and priority of where it starts, while `Task.detached { }` starts fresh with none. Prefer plain `Task` unless you have a reason.
+how do i cancel a task in swift | task cancel swift | stop async work swift => Keep the `Task` in a variable and call `task.cancel()`. The work should check `Task.isCancelled` or call `try Task.checkCancellation()` to actually stop.
+what is continuousclock | clock in swift | measure time async swift => `ContinuousClock().measure { ... }` returns how long some code took as a `Duration`. Clocks also power `Task.sleep(for:)`.
+how do i sleep for half a second in swift | task sleep milliseconds | short delay async swift => `try await Task.sleep(for: .milliseconds(500))` pauses an async function without blocking the thread.
+what is rethrows in swift | rethrows keyword | rethrows vs throws => A `rethrows` function only throws if the closure you pass it throws, so calling it with a non-throwing closure needs no `try`. `map` works like this.
+what is localizederror | localized error swift | custom error message swift => Make your error type conform to `LocalizedError` and give it an `errorDescription` so `error.localizedDescription` shows a friendly message.
+how do i make a custom error in swift | my own error type swift | enum error swift => Make an enum that conforms to `Error`, like `enum GameError: Error { case noLives, levelLocked }`, then `throw GameError.noLives`.
+what is defer used for in swift | defer example swift | cleanup code swift => `defer { }` runs its code when the surrounding block ends, however it ends, which is handy for closing files or resetting a flag.
+what is optionset | option set swift | bit flags swift => `OptionSet` is a struct of flags you combine like a set, such as `[.bold, .italic]`. Each option is a bit in a raw integer value.
+what is private(set) | private set swift | read only from outside swift => `private(set) var score = 0` lets other code read the property but only the type itself change it.
+what is the @available attribute | @available swift | mark api as deprecated swift => `@available(iOS 17, *)` says a function needs iOS 17 or newer, and `@available(*, deprecated, message: "Use newThing")` marks your own API as deprecated.
+how do i check the ios version in code | if #available | ios version check swift => `if #available(iOS 17, *) { newWay() } else { oldWay() }` runs code only on new enough systems.
+what is conditional compilation in swift | #if debug swift | compiler directives swift => `#if DEBUG ... #endif` includes code only in debug builds. `#if os(iOS)` and `#if canImport(UIKit)` check the platform.
+how do i check if running in the simulator swift | targetenvironment simulator | simulator only code => `#if targetEnvironment(simulator)` includes code only when building for the simulator.
+what is dump in swift | dump function swift | print object details swift => `dump(value)` prints a value and all its nested properties, which is more detailed than `print`.
+what is debugprint | debugprint swift | print with quotes swift => `debugPrint` prints the debug form of a value, so strings show with quotes and escapes, useful for spotting hidden spaces.
+what is mirror in swift | reflection swift | list properties swift => `Mirror(reflecting: value).children` lets you look at a value's stored properties at runtime. It is mostly for debugging tools.
+get type of variable swift | find out what type something is at runtime swift => `type(of: value)` returns the actual runtime type, like `Int.self` or your class name.
+conditional cast swift | what does as question mark mean swift | as bang vs as question swift => `as?` tries to cast and gives an optional (nil if it fails), `as!` crashes if it fails, and plain `as` is for casts that always work.
+check type swift | test if a value is a certain class swift => `if node is SKSpriteNode` checks whether a value is of a type without casting it.
+what is anyobject | anyobject swift | class only protocol => `AnyObject` means any class instance. A protocol marked `: AnyObject` can only be adopted by classes, which lets you use `weak` with it.
+what is hashable hash(into:) | custom hash swift | hasher swift => Swift writes `hash(into:)` for you when all stored properties are Hashable. Write it yourself to hash only some fields with `hasher.combine(id)`.
+what is customdebugstringconvertible | debugdescription swift | debug description => Conform and add `var debugDescription: String` to control how a value looks in the debugger and in `debugPrint`.
+what is expressiblebystringliteral | literal protocols swift | create type from literal => Protocols like `ExpressibleByStringLiteral` and `ExpressibleByIntegerLiteral` let your type be made directly from a literal, like `let c: Color = "red"`.
+what is callasfunction | callasfunction swift => A type with a `callAsFunction` method can be called like a function, so `scorer(5)` runs `scorer.callAsFunction(5)`.
+what is dynamicmemberlookup | @dynamicmemberlookup | dynamic member swift => `@dynamicMemberLookup` lets `value.anything` compile by sending the name to a `subscript(dynamicMember:)`. It is used by bindings and wrappers.
+what is protocol composition | two protocols swift | protocol & protocol => `Codable & Identifiable` is a type that must conform to both protocols. `Codable` itself is just `Encodable & Decodable`.
+what is a class method in swift | class func swift | class vs static func => `class func` is a type method that subclasses can override; `static func` is one that cannot be overridden.
+what is super.init | call super init swift | init in subclass swift => In a subclass init, set your own new properties first, then call `super.init(...)`, then you can use `self` normally.
+override method swift | replace parent method in subclass swift => A subclass writes `override func update()` to replace a parent's method, and can call `super.update()` to run the parent's version too.
+what is first(where:) in swift | find first match swift | first where array => `players.first(where: { $0.score > 100 })` returns the first matching item, or nil.
+what is dropfirst in swift | drop first swift | skip first items swift => `items.dropFirst()` gives everything except the first item, and `dropLast(2)` drops the last two. They return slices.
+what is reduce(into:) | build dictionary with reduce => `reduce(into: [:]) { counts, word in counts[word, default: 0] += 1 }` builds a result by changing it in place, which is faster for dictionaries and arrays.
+how do i get the max by a property in swift | max by swift | highest score player swift => `players.max(by: { $0.score < $1.score })` returns the player with the highest score as an optional.
+how do i check if all items match in swift | allsatisfy example | every item swift => `scores.allSatisfy { $0 >= 50 }` is true if every score is at least 50.
+how do i check if any item matches in swift | does at least one array item match swift => `items.contains { $0.isBroken }` is true if at least one item matches.
+how do i split an array into chunks swift | chunk array swift | groups of items swift => Use `stride(from: 0, to: items.count, by: size).map { Array(items[$0..<min($0 + size, items.count)]) }`. The swift-algorithms package also has `chunks(ofCount:)`.
+how do i combine two arrays into pairs swift | zip two arrays swift | pair items swift => `zip(names, scores)` pairs items up so you can loop `for (name, score) in zip(names, scores)`.
+how do i check if a character is a letter swift | isletter swift | character type checks => `Character` has `isLetter`, `isNumber`, `isWhitespace`, `isUppercase` and `isPunctuation`.
+how do i get unicode values in swift | unicodescalars swift | character code swift => `"A".unicodeScalars.first!.value` gives 65. `Character("A").asciiValue` gives an optional UInt8.
+how do i repeat a string in swift | string repeating swift | repeat text swift => `String(repeating: "ab", count: 3)` gives "ababab".
+how do i pad a string in swift | padding swift | leading zeros swift => `String(format: "%03d", 7)` gives "007", and `"7".padding(toLength: 3, withPad: " ", startingAt: 0)` pads on the right.
+how do i reverse a string in swift | reverse string swift | backwards text swift => `String(text.reversed())` reverses the characters.
+how do i build a url with query items swift | urlcomponents | url parameters swift => Use `URLComponents`: set `scheme`, `host` and `path`, then `queryItems = [URLQueryItem(name: "q", value: "cats")]`, and read `.url`.
+how do i post json in swift | urlrequest post | send json swift => Make a `URLRequest`, set `httpMethod = "POST"`, set the `Content-Type` header to `application/json`, put `JSONEncoder().encode(body)` in `httpBody`, then call `URLSession.shared.data(for:)`.
+how do i check the http status code swift | httpurlresponse | status code swift => Cast the response: `if let http = response as? HTTPURLResponse, http.statusCode == 200 { ... }`.
+how do i decode json with different key names swift | codingkeys | snake case json swift => Add an `enum CodingKeys: String, CodingKey` mapping names, or set `decoder.keyDecodingStrategy = .convertFromSnakeCase`.
+how do i decode dates from json swift | json date decoding | datedecodingstrategy => Set `decoder.dateDecodingStrategy = .iso8601` for dates like "2025-07-01T10:00:00Z".
+how do i pretty print json in swift | json pretty swift | formatted json output => Set `encoder.outputFormatting = [.prettyPrinted, .sortedKeys]` before encoding.
+what is data in swift | bytes in swift => `Data` holds raw bytes, like a downloaded file or encoded JSON. `String(decoding: data, as: UTF8.self)` turns it into text.
+how do i save a file in the documents folder swift | write file swift => Get `URL.documentsDirectory.appending(path: "save.json")` and call `try data.write(to: url)`. Read it back with `Data(contentsOf: url)`.
+what is a swiftdata predicate | #predicate swift | filter swiftdata query => `#Predicate<Task> { $0.isDone == false }` builds a filter that SwiftData turns into a database query. Use it in `@Query(filter:)`.
+how do i sort a swiftdata query | query sort swiftdata | sortdescriptor => `@Query(sort: \Task.date, order: .reverse) var tasks: [Task]` loads items sorted by date, newest first.
+what is fetchdescriptor | fetch descriptor swiftdata | fetch outside view swiftdata => `FetchDescriptor<Task>(predicate:sortBy:)` describes a fetch you run yourself with `try context.fetch(descriptor)`, outside of `@Query`.
+how do i delete an item in swiftdata | swiftdata delete | remove model swiftdata => Call `modelContext.delete(item)`. Get the context in a view with `@Environment(\.modelContext) private var modelContext`.
+how do i add an item in swiftdata | swiftdata insert | save new model swiftdata => `modelContext.insert(Task(title: "Homework"))` adds it. SwiftData autosaves, or you can call `try modelContext.save()`.
+what is @relationship in swiftdata | swiftdata relationship | one to many swiftdata => `@Relationship(deleteRule: .cascade) var levels: [Level]` links models, and the cascade rule deletes the levels when the parent is deleted.
+what is @attribute unique | unique swiftdata | swiftdata unique id => `@Attribute(.unique) var id: String` makes SwiftData keep only one model with that value, updating instead of duplicating.
+what is @transient in swiftdata | transient property | not saved swiftdata => `@Transient` marks a property that SwiftData should not store, like a temporary animation flag.
+how do i preview swiftdata in swiftui | modelcontainer in memory | swiftdata preview => Give the preview `.modelContainer(for: Task.self, inMemory: true)` so it uses a throwaway database.
+what is the observation framework | import observation | how @observable works => The Observation framework powers `@Observable`: SwiftUI tracks exactly which properties a view reads and redraws only when those change.
+what is @observationignored | ignore property observable | not tracked observable => `@ObservationIgnored` marks a property in an `@Observable` class that should not trigger view updates.
+what is redacted in swiftui | placeholder loading swiftui | redacted placeholder => `.redacted(reason: .placeholder)` draws views as grey blocks, nice for loading skeletons.
+what is contentshape in swiftui | tap empty space swiftui | contentshape rectangle => `.contentShape(Rectangle())` makes the whole frame tappable, including empty transparent areas.
+what is fileimporter | file importer swiftui | open file picker swiftui => `.fileImporter(isPresented:allowedContentTypes:)` shows the Files picker so the user can choose a file to open.
+what is fileexporter | save file swiftui | export file swiftui => `.fileExporter` shows a picker so the user can save a document your app made to Files.
+what is onkeypress | onkeypress swiftui | keyboard input swiftui game => `.onKeyPress(.space) { jump(); return .handled }` reacts to hardware keyboard keys (iOS 17+). The view must have focus.
+what is keyboardshortcut | keyboard shortcut swiftui | command key shortcut => `.keyboardShortcut("s", modifiers: .command)` on a Button lets people press Command S on an iPad keyboard or Mac.
+how do i blur a view in swiftui | blur swiftui | frosted glass swiftui => `.blur(radius: 10)` blurs a view, and backgrounds like `.background(.ultraThinMaterial)` give a frosted glass look.
+what is a material in swiftui | ultrathinmaterial | material background swiftui => Materials like `.thinMaterial` and `.regularMaterial` are translucent blurred backgrounds that adapt to light and dark mode.
+how do i rotate a view in swiftui | rotationeffect example | spin a view swiftui => `.rotationEffect(.degrees(45))` rotates a view. Animate the angle with `withAnimation` to make it spin.
+how do i flip a card in swiftui | rotation3deffect | 3d flip swiftui => `.rotation3DEffect(.degrees(angle), axis: (x: 0, y: 1, z: 0))` turns a view around the vertical axis for a card flip.
+how do i make a view bounce in swiftui | bounce animation swiftui | spring bounce => Use `withAnimation(.bouncy) { scale = 1.2 }` or `.spring(duration:bounce:)` to give a springy bounce.
+what is symboleffect | animate sf symbol | symbol effect swiftui => `.symbolEffect(.bounce, value: count)` animates an SF Symbol when the value changes (iOS 17+).
+what is contenttransition | numeric text animation | number changes animation swiftui => `.contentTransition(.numericText())` animates digits rolling when a number in a Text changes inside an animation.
+how do i make a progress bar in swiftui | progress bar swiftui | health bar swiftui => `ProgressView(value: hp, total: 100)` draws a bar. For a game health bar, a `Capsule` with a width based on hp also works.
+how do i make a circle progress ring swiftui | circular progress | ring chart swiftui => Draw `Circle().trim(from: 0, to: progress).stroke(lineWidth: 10)` and rotate it by -90 degrees so it starts at the top.
+how do i draw a line in swiftui | path line swiftui | draw line swiftui => `Path { p in p.move(to: a); p.addLine(to: b) }.stroke(.blue, lineWidth: 3)` draws a line.
+how do i make a custom shape in swiftui | shape protocol swiftui | draw triangle swiftui => Make a struct that conforms to `Shape` and write `func path(in rect: CGRect) -> Path` that draws inside the rect.
+how do i tile an image in swiftui | resizable tile | repeat background image => `Image("brick").resizable(resizingMode: .tile)` repeats the image to fill the space.
+how do i keep an image's shape in swiftui | scaledtofit => Add `.resizable()` then `.scaledToFit()` to fit inside the frame or `.scaledToFill()` to fill it and crop.
+how do i use a tint color in swiftui | accent color swiftui => `.tint(.orange)` changes the color of buttons, toggles and links inside a view. Set the app's AccentColor in the asset catalog for everywhere.
+how do i disable a button in swiftui | grey out button => `.disabled(name.isEmpty)` turns off a button (or any control) while the condition is true.
+how do i show a confirmation before delete swiftui | confirm delete swiftui | are you sure dialog => Set a state flag when delete is tapped and attach `.confirmationDialog` or `.alert` with a destructive button that does the delete.
+how do i dismiss a view from inside it swiftui | environment dismiss | close current view => Add `@Environment(\.dismiss) private var dismiss` and call `dismiss()` to close a sheet or go back.
+how do i open a url in swiftui | environment openurl | open link from code swiftui => Use `@Environment(\.openURL) private var openURL` and call `openURL(url)`, or use a `Link` view.
+what is tipkit | tips in ios apps | tipkit swiftui => TipKit (iOS 17+) shows little hint bubbles for features. Make a struct conforming to `Tip` and show it with `TipView` or `.popoverTip`.
+what is corelocation | get user location ios | location permission swift => Core Location finds the device's location. Use `CLLocationManager`, ask permission, and add a usage description to Info.plist.
+what is coremotion | accelerometer ios | tilt controls swift => Core Motion reads the accelerometer and gyroscope with `CMMotionManager`, useful for tilt controls in games.
+what is avfoundation | audio and video framework => AVFoundation plays and records audio and video, using classes like `AVAudioPlayer` and `AVPlayer`.
+how do i play background music in a loop swift | loop music swift | numberofloops => Set `player.numberOfLoops = -1` on an `AVAudioPlayer` to loop forever, then call `play()`.
+how do i speak text in swift | avspeechsynthesizer | text to speech ios => Make an `AVSpeechSynthesizer` (keep it alive in a property) and call `speak(AVSpeechUtterance(string: "Hello"))`.
+what is the photos framework | photokit | save image to photos swift => PhotoKit reads and saves to the photo library. For picking photos, `PhotosPicker` in SwiftUI is simpler and needs no full library permission.
+what is pencilkit | apple pencil drawing app | pkcanvasview => PencilKit gives you `PKCanvasView`, a ready-made drawing canvas with the Apple Pencil tool picker. Wrap it with UIViewRepresentable for SwiftUI.
+what is arkit | augmented reality ios | ar app swift => ARKit tracks the camera and the world so you can place 3D content in real space, usually shown with RealityKit.
+what is core ml | machine learning ios | ml model in app => Core ML runs trained machine learning models on the device. Create ML on the Mac can train simple image or text models without code.
+what is the vision framework | vision ios | detect text in image swift => Vision does image analysis on device, like recognizing text, faces or barcodes in a photo.
+what is swift testing | @test swift | import testing => Swift Testing is the newer test framework (Xcode 16): mark functions with `@Test` and check results with `#expect(a == b)`. It runs alongside XCTest.
+what is xctassertequal | xctest assert | xctest example => In XCTest, a test class subclasses `XCTestCase`, test methods start with `test`, and you check with `XCTAssertEqual(result, 4)`.
+how do i test async code in swift | async test swift | await in test => Mark the test `async` and use `await` inside it; both Swift Testing and XCTest support async test functions.
+what is swift-algorithms | swift algorithms package | extra sequence functions => Apple's swift-algorithms package adds handy functions like `chunks(ofCount:)`, `combinations(ofCount:)`, `uniqued()` and `windows(ofCount:)`.
+what is swift-collections | deque swift | ordereddictionary swift => Apple's swift-collections package adds types like `Deque`, `OrderedSet`, `OrderedDictionary` and `Heap`.
+what does cannot find type in scope mean swift | undefined type swift => The name is misspelled, the file is not in the target, or you forgot an import. Check spelling and the file's Target Membership.
+what does missing argument for parameter mean swift | missing argument label | missing parameter swift => You called a function without a required argument. Add it with its label, like `move(to: point)`.
+what does incorrect argument label mean swift | wrong argument label | argument label error => The label you wrote does not match the function's definition. Use the exact labels shown in autocomplete.
+what does value of type has no member mean swift | has no member swift | no member error => That type does not have that property or method. Check spelling, capitals, and whether the variable is the type you think.
+what does instance member cannot be used on type mean | instance member on type swift | static vs instance error => You used a normal property on the type itself, like `Player.score`. Use an instance, `player.score`, or make it `static`.
+what does closure containing a declaration cannot be used with result builder mean | declaration in viewbuilder | var inside body => You declared something SwiftUI's body builder cannot hold. Move the code into a computed property, a function or `.onAppear`.
+what does type () cannot conform to view mean | () cannot conform to view | void in body swiftui => You put a normal statement, like `print` or `x += 1`, directly in a view body. Move it into an action, `.onAppear` or `.task`.
+what does mutating method on immutable value mean | cannot use mutating member | let struct mutate error => You called a mutating method on a `let` struct. Change it to `var`, or inside a SwiftUI view store it with `@State`.
+what does reference to captured var in concurrently executing code mean | captured var concurrent | sendable capture error => A `var` is shared with async code that may run at the same time. Copy it to a `let` first, or keep the data inside an actor.
+what does non sendable type passed mean swift | sendable error swift | sending risks data races => A value that is not safe to share between threads crosses into another actor or task. Make it a struct of Sendable values, or keep the work on one actor like `@MainActor`.

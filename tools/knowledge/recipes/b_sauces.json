@@ -1,0 +1,1977 @@
+{
+ "recipes": [
+  {
+   "id": "pizza-sauce",
+   "name": "Pizza sauce",
+   "aliases": [
+    "pizza sauce",
+    "homemade pizza sauce",
+    "easy pizza sauce",
+    "pizza tomato sauce",
+    "no cook pizza sauce"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "crushed tomatoes",
+    "garlic",
+    "oregano",
+    "olive oil"
+   ],
+   "ingredients": [
+    "1 can (15 oz / 425 g) crushed tomatoes",
+    "1 tablespoon olive oil",
+    "1 garlic clove, finely grated",
+    "1 teaspoon dried oregano",
+    "1/2 teaspoon dried basil",
+    "1/2 teaspoon sugar",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Stir everything together in a bowl.",
+    "Taste and add more salt or sugar if needed.",
+    "For a thicker, deeper sauce, simmer it in a small pot for 10 minutes, stirring. Ask an adult to help.",
+    "Let cool before spreading on pizza dough. This covers 2 large pizzas."
+   ]
+  },
+  {
+   "id": "marinara-sauce",
+   "name": "Marinara sauce",
+   "aliases": [
+    "marinara",
+    "marinara sauce",
+    "tomato sauce",
+    "pasta sauce",
+    "red sauce",
+    "spaghetti sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "tomatoes",
+    "garlic",
+    "olive oil",
+    "basil"
+   ],
+   "ingredients": [
+    "1 can (28 oz / 794 g) crushed tomatoes",
+    "3 tablespoons olive oil",
+    "4 garlic cloves, thinly sliced",
+    "1/2 teaspoon dried oregano",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon red pepper flakes (optional)",
+    "6 fresh basil leaves"
+   ],
+   "steps": [
+    "Warm the olive oil and garlic in a pot over medium low heat for 2 minutes, until the garlic sizzles but does not brown. Ask an adult to help.",
+    "Pour in the tomatoes carefully, they may spatter.",
+    "Stir in the oregano, salt and pepper flakes.",
+    "Simmer for 20 minutes, stirring now and then, until a little thicker.",
+    "Tear in the basil and taste for salt."
+   ]
+  },
+  {
+   "id": "alfredo-sauce",
+   "name": "Alfredo sauce",
+   "aliases": [
+    "alfredo sauce",
+    "homemade alfredo sauce",
+    "fettuccine alfredo sauce",
+    "white pasta sauce",
+    "creamy parmesan sauce"
+   ],
+   "category": "Sauce",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "heavy cream",
+    "butter",
+    "parmesan",
+    "garlic"
+   ],
+   "ingredients": [
+    "4 tablespoons (55 g) butter",
+    "2 garlic cloves, minced",
+    "1 1/2 cups (360 ml) heavy cream",
+    "1 cup (100 g) finely grated parmesan",
+    "1/4 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "Pinch of nutmeg"
+   ],
+   "steps": [
+    "Melt the butter in a pan over medium heat and cook the garlic for 1 minute. Ask an adult to help.",
+    "Pour in the cream and simmer gently for 3 to 4 minutes, until a little thick.",
+    "Take it off the heat and stir in the parmesan a handful at a time until smooth.",
+    "Season with salt, pepper and nutmeg.",
+    "Toss with 12 oz (340 g) cooked fettuccine right away. It thickens as it sits."
+   ]
+  },
+  {
+   "id": "brown-gravy",
+   "name": "Brown gravy",
+   "aliases": [
+    "gravy",
+    "brown gravy",
+    "beef gravy",
+    "homemade gravy",
+    "easy gravy",
+    "gravy for mashed potatoes"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "butter",
+    "flour",
+    "beef broth",
+    "worcestershire"
+   ],
+   "ingredients": [
+    "4 tablespoons (55 g) butter or pan drippings",
+    "1/4 cup (30 g) all-purpose flour",
+    "2 cups (480 ml) beef or chicken broth",
+    "1 teaspoon Worcestershire sauce",
+    "1/2 teaspoon onion powder",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Melt the butter in a pan over medium heat. Ask an adult to help.",
+    "Whisk in the flour and cook for 2 to 3 minutes, whisking, until golden brown.",
+    "Slowly whisk in the broth so no lumps form.",
+    "Add the Worcestershire and onion powder.",
+    "Simmer for 3 to 5 minutes, whisking, until thick.",
+    "Season with salt and pepper."
+   ]
+  },
+  {
+   "id": "mushroom-gravy",
+   "name": "Mushroom gravy",
+   "aliases": [
+    "mushroom gravy",
+    "vegetarian gravy",
+    "vegan gravy",
+    "meatless gravy"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "25 min",
+   "main": [
+    "mushrooms",
+    "butter",
+    "flour",
+    "vegetable broth",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "3 tablespoons butter or olive oil",
+    "8 oz (225 g) mushrooms, finely chopped",
+    "1 small onion, finely chopped",
+    "1 garlic clove, minced",
+    "3 tablespoons all-purpose flour",
+    "2 cups (480 ml) vegetable broth",
+    "1 tablespoon soy sauce",
+    "1/2 teaspoon dried thyme",
+    "Pepper"
+   ],
+   "steps": [
+    "Melt the butter in a pan over medium high heat. Ask an adult to help.",
+    "Cook the mushrooms and onion for 6 to 8 minutes, until browned.",
+    "Add the garlic and flour and stir for 1 minute.",
+    "Slowly stir in the broth, soy sauce and thyme.",
+    "Simmer for 5 minutes, stirring, until thick. Season with pepper."
+   ]
+  },
+  {
+   "id": "teriyaki-sauce",
+   "name": "Teriyaki sauce",
+   "aliases": [
+    "teriyaki sauce",
+    "teriyaki",
+    "homemade teriyaki",
+    "teriyaki glaze",
+    "teriyaki marinade"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "soy sauce",
+    "brown sugar",
+    "honey",
+    "garlic",
+    "ginger"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) soy sauce",
+    "1/4 cup (60 ml) water",
+    "1/4 cup (55 g) packed brown sugar",
+    "2 tablespoons honey",
+    "1 tablespoon rice vinegar or mirin",
+    "2 garlic cloves, minced",
+    "1 teaspoon grated ginger",
+    "1 tablespoon cornstarch mixed with 2 tablespoons cold water"
+   ],
+   "steps": [
+    "Put the soy sauce, water, brown sugar, honey, vinegar, garlic and ginger in a small pot.",
+    "Bring to a simmer over medium heat, stirring. Ask an adult to help.",
+    "Stir the cornstarch mix again and pour it in.",
+    "Simmer for 1 to 2 minutes, stirring, until thick and glossy.",
+    "Use on chicken, salmon or stir fries. Keeps in the fridge for a week."
+   ]
+  },
+  {
+   "id": "bbq-sauce",
+   "name": "Barbecue sauce",
+   "aliases": [
+    "bbq sauce",
+    "barbecue sauce",
+    "barbeque sauce",
+    "homemade bbq sauce",
+    "sweet bbq sauce"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "20 min",
+   "main": [
+    "ketchup",
+    "brown sugar",
+    "vinegar",
+    "molasses",
+    "smoked paprika"
+   ],
+   "ingredients": [
+    "1 cup (240 g) ketchup",
+    "1/3 cup (75 g) packed brown sugar",
+    "2 tablespoons apple cider vinegar",
+    "1 tablespoon Worcestershire sauce",
+    "1 tablespoon molasses",
+    "1 teaspoon yellow mustard",
+    "1 teaspoon smoked paprika",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Whisk everything in a small pot.",
+    "Bring to a simmer over medium heat. Ask an adult to help, it bubbles and spits.",
+    "Simmer on low for 10 to 15 minutes, stirring often, until thick.",
+    "Let cool. It keeps in the fridge up to 2 weeks."
+   ]
+  },
+  {
+   "id": "ranch-dressing",
+   "name": "Ranch dressing",
+   "aliases": [
+    "ranch",
+    "ranch dressing",
+    "homemade ranch",
+    "ranch dip",
+    "buttermilk ranch"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "mayonnaise",
+    "sour cream",
+    "buttermilk",
+    "dill",
+    "garlic powder"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) mayonnaise",
+    "1/2 cup (120 g) sour cream",
+    "1/3 cup (80 ml) buttermilk",
+    "1 tablespoon chopped fresh dill or 1 teaspoon dried",
+    "1 tablespoon chopped chives",
+    "1 tablespoon chopped parsley",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1/4 teaspoon salt and a pinch of pepper",
+    "1 teaspoon lemon juice"
+   ],
+   "steps": [
+    "Whisk everything together in a bowl.",
+    "Add more buttermilk for a thinner dressing, or less for a thick dip.",
+    "Chill for 30 minutes so the flavors mix.",
+    "Keeps in the fridge for 1 week."
+   ]
+  },
+  {
+   "id": "honey-mustard",
+   "name": "Honey mustard sauce",
+   "aliases": [
+    "honey mustard",
+    "honey mustard sauce",
+    "honey mustard dressing",
+    "honey mustard dip"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "honey",
+    "mustard",
+    "mayonnaise",
+    "lemon"
+   ],
+   "ingredients": [
+    "1/4 cup (60 g) mayonnaise",
+    "2 tablespoons yellow mustard",
+    "1 tablespoon Dijon mustard",
+    "3 tablespoons honey",
+    "1 teaspoon lemon juice",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Put everything in a small bowl.",
+    "Whisk until smooth.",
+    "Taste and add more honey for sweeter or mustard for tangier.",
+    "Great for dipping chicken nuggets and pretzels."
+   ]
+  },
+  {
+   "id": "caesar-dressing",
+   "name": "Caesar dressing",
+   "aliases": [
+    "caesar dressing",
+    "homemade caesar dressing",
+    "easy caesar dressing",
+    "egg free caesar dressing"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "mayonnaise",
+    "parmesan",
+    "lemon",
+    "garlic",
+    "worcestershire"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) mayonnaise",
+    "1/4 cup (25 g) finely grated parmesan",
+    "2 tablespoons lemon juice",
+    "1 teaspoon Dijon mustard",
+    "1 teaspoon Worcestershire sauce",
+    "1 small garlic clove, grated",
+    "1 teaspoon anchovy paste (optional)",
+    "2 tablespoons olive oil",
+    "1 to 2 tablespoons water",
+    "Black pepper"
+   ],
+   "steps": [
+    "Whisk the mayo, parmesan, lemon juice, mustard, Worcestershire, garlic and anchovy paste.",
+    "Slowly whisk in the olive oil.",
+    "Add water a little at a time until it pours.",
+    "Season with pepper. This version uses mayo, so there are no raw eggs."
+   ]
+  },
+  {
+   "id": "balsamic-vinaigrette",
+   "name": "Balsamic vinaigrette",
+   "aliases": [
+    "balsamic vinaigrette",
+    "balsamic dressing",
+    "vinaigrette",
+    "oil and vinegar dressing"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "5 min",
+   "main": [
+    "balsamic vinegar",
+    "olive oil",
+    "dijon mustard",
+    "honey"
+   ],
+   "ingredients": [
+    "1/4 cup (60 ml) balsamic vinegar",
+    "1/2 cup (120 ml) olive oil",
+    "1 teaspoon Dijon mustard",
+    "1 teaspoon honey",
+    "1 small garlic clove, grated",
+    "1/2 teaspoon salt and a pinch of pepper"
+   ],
+   "steps": [
+    "Put everything in a jar.",
+    "Screw the lid on tight.",
+    "Shake hard for 30 seconds, until creamy.",
+    "Shake again before each use. Keeps in the fridge for 1 week."
+   ]
+  },
+  {
+   "id": "italian-dressing",
+   "name": "Italian dressing",
+   "aliases": [
+    "italian dressing",
+    "homemade italian dressing",
+    "zesty italian dressing",
+    "italian vinaigrette"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "10 min",
+   "main": [
+    "olive oil",
+    "red wine vinegar",
+    "oregano",
+    "garlic"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) olive oil",
+    "1/4 cup (60 ml) red wine vinegar",
+    "1 tablespoon lemon juice",
+    "1 garlic clove, minced",
+    "1 teaspoon dried oregano",
+    "1/2 teaspoon dried basil",
+    "1/4 teaspoon red pepper flakes",
+    "1 teaspoon sugar",
+    "1/2 teaspoon salt",
+    "1 tablespoon grated parmesan"
+   ],
+   "steps": [
+    "Put everything in a jar.",
+    "Close the lid and shake for 30 seconds.",
+    "Let sit for 5 minutes so the herbs soften.",
+    "Shake again before using."
+   ]
+  },
+  {
+   "id": "thousand-island-dressing",
+   "name": "Thousand Island dressing",
+   "aliases": [
+    "thousand island",
+    "thousand island dressing",
+    "1000 island dressing",
+    "russian dressing"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "mayonnaise",
+    "ketchup",
+    "relish",
+    "onion"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) mayonnaise",
+    "2 tablespoons ketchup",
+    "1 tablespoon sweet pickle relish",
+    "1 tablespoon finely minced onion",
+    "1 teaspoon white vinegar",
+    "1 teaspoon sugar",
+    "Pinch of salt and pepper"
+   ],
+   "steps": [
+    "Put everything in a bowl.",
+    "Stir until smooth and pink.",
+    "Chill until ready to use."
+   ]
+  },
+  {
+   "id": "blue-cheese-dressing",
+   "name": "Blue cheese dressing",
+   "aliases": [
+    "blue cheese dressing",
+    "bleu cheese dressing",
+    "blue cheese dip",
+    "chunky blue cheese"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "blue cheese",
+    "sour cream",
+    "mayonnaise",
+    "buttermilk"
+   ],
+   "ingredients": [
+    "1/2 cup (120 g) sour cream",
+    "1/4 cup (60 g) mayonnaise",
+    "1/4 cup (60 ml) buttermilk",
+    "1 tablespoon lemon juice",
+    "1/2 teaspoon Worcestershire sauce",
+    "1/4 teaspoon garlic powder",
+    "3/4 cup (85 g) crumbled blue cheese",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Whisk the sour cream, mayo, buttermilk, lemon juice, Worcestershire and garlic powder.",
+    "Stir in the blue cheese, mashing a little of it.",
+    "Season with salt and pepper.",
+    "Chill for 30 minutes. Great with wings and celery."
+   ]
+  },
+  {
+   "id": "sesame-ginger-dressing",
+   "name": "Sesame ginger dressing",
+   "aliases": [
+    "sesame ginger dressing",
+    "asian dressing",
+    "sesame dressing",
+    "ginger sesame dressing"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "rice vinegar",
+    "soy sauce",
+    "sesame oil",
+    "ginger",
+    "honey"
+   ],
+   "ingredients": [
+    "3 tablespoons rice vinegar",
+    "2 tablespoons soy sauce",
+    "1 tablespoon sesame oil",
+    "2 tablespoons vegetable oil",
+    "1 tablespoon honey",
+    "1 teaspoon grated ginger",
+    "1 small garlic clove, grated",
+    "1 teaspoon toasted sesame seeds"
+   ],
+   "steps": [
+    "Put everything in a jar.",
+    "Shake hard for 30 seconds.",
+    "Use on salads, slaw or cold noodles."
+   ]
+  },
+  {
+   "id": "ginger-carrot-dressing",
+   "name": "Ginger carrot dressing",
+   "aliases": [
+    "ginger carrot dressing",
+    "japanese ginger dressing",
+    "hibachi salad dressing",
+    "carrot ginger dressing"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "carrot",
+    "ginger",
+    "rice vinegar",
+    "soy sauce",
+    "sesame oil"
+   ],
+   "ingredients": [
+    "1 large carrot (about 100 g), peeled and chopped",
+    "2 tablespoons chopped onion",
+    "1 tablespoon chopped fresh ginger",
+    "3 tablespoons rice vinegar",
+    "1 tablespoon soy sauce",
+    "1 tablespoon sesame oil",
+    "1/4 cup (60 ml) vegetable oil",
+    "1 teaspoon honey or sugar",
+    "2 tablespoons water"
+   ],
+   "steps": [
+    "Put everything in a blender.",
+    "Blend for 30 to 60 seconds, until mostly smooth but still a little chunky.",
+    "Pour over iceberg lettuce like at a Japanese steakhouse.",
+    "Keeps in the fridge for 5 days."
+   ]
+  },
+  {
+   "id": "tzatziki",
+   "name": "Tzatziki",
+   "aliases": [
+    "tzatziki",
+    "tzatziki sauce",
+    "cucumber yogurt sauce",
+    "greek yogurt dip",
+    "gyro sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "greek yogurt",
+    "cucumber",
+    "garlic",
+    "dill",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 cup (240 g) Greek yogurt",
+    "1/2 cucumber",
+    "1 small garlic clove, grated",
+    "1 tablespoon olive oil",
+    "1 tablespoon lemon juice",
+    "1 tablespoon chopped fresh dill or mint",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Grate the cucumber on a box grater, keeping fingers clear.",
+    "Squeeze the grated cucumber in a clean towel to get the water out.",
+    "Stir the cucumber into the yogurt with the garlic, olive oil, lemon juice, dill and salt.",
+    "Chill for 10 minutes."
+   ]
+  },
+  {
+   "id": "raita",
+   "name": "Cucumber raita",
+   "aliases": [
+    "raita",
+    "cucumber raita",
+    "yogurt raita",
+    "indian yogurt sauce",
+    "mint raita"
+   ],
+   "category": "Sauce",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "yogurt",
+    "cucumber",
+    "cumin",
+    "mint"
+   ],
+   "ingredients": [
+    "1 cup (240 g) plain yogurt",
+    "1/2 cucumber, grated and squeezed",
+    "1/4 teaspoon ground roasted cumin",
+    "1/4 teaspoon salt",
+    "1 tablespoon chopped mint or cilantro"
+   ],
+   "steps": [
+    "Whisk the yogurt until smooth.",
+    "Stir in the cucumber, cumin and salt.",
+    "Sprinkle with mint.",
+    "Serve cold with curries, biryani or spicy food. It cools your mouth."
+   ]
+  },
+  {
+   "id": "tahini-sauce",
+   "name": "Lemon tahini sauce",
+   "aliases": [
+    "tahini sauce",
+    "tahini dressing",
+    "lemon tahini",
+    "tarator",
+    "falafel sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "tahini",
+    "lemon",
+    "garlic",
+    "water"
+   ],
+   "ingredients": [
+    "1/2 cup (120 g) tahini",
+    "1/4 cup (60 ml) lemon juice",
+    "1 small garlic clove, grated",
+    "1/2 teaspoon salt",
+    "1/4 to 1/2 cup (60 to 120 ml) ice water"
+   ],
+   "steps": [
+    "Stir the tahini, lemon juice, garlic and salt. It will get thick and clumpy. That is normal.",
+    "Whisk in the ice water a spoonful at a time.",
+    "Keep going until it is smooth, pale and pourable.",
+    "Drizzle on falafel, roasted vegetables or salads."
+   ]
+  },
+  {
+   "id": "cheddar-cheese-sauce",
+   "name": "Cheddar cheese sauce",
+   "aliases": [
+    "cheese sauce",
+    "nacho cheese",
+    "nacho cheese sauce",
+    "cheddar cheese sauce",
+    "cheese sauce for broccoli"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "cheddar",
+    "milk",
+    "butter",
+    "flour"
+   ],
+   "ingredients": [
+    "2 tablespoons butter",
+    "2 tablespoons all-purpose flour",
+    "1 cup (240 ml) milk",
+    "2 cups (225 g) shredded cheddar",
+    "1/4 teaspoon salt",
+    "1/4 teaspoon paprika or chili powder"
+   ],
+   "steps": [
+    "Melt the butter in a pot over medium heat and whisk in the flour for 1 minute. Ask an adult to help.",
+    "Slowly whisk in the milk and cook for 2 to 3 minutes, until it thickens.",
+    "Turn the heat to low and stir in the cheese a handful at a time until melted.",
+    "Stir in the salt and paprika.",
+    "Pour over nachos, broccoli, fries or pasta."
+   ]
+  },
+  {
+   "id": "bechamel-sauce",
+   "name": "Bechamel white sauce",
+   "aliases": [
+    "bechamel",
+    "bechamel sauce",
+    "white sauce",
+    "basic white sauce",
+    "lasagna white sauce"
+   ],
+   "category": "Sauce",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "butter",
+    "flour",
+    "milk",
+    "nutmeg"
+   ],
+   "ingredients": [
+    "2 tablespoons butter",
+    "2 tablespoons all-purpose flour",
+    "1 1/2 cups (360 ml) milk, warmed",
+    "1/4 teaspoon salt",
+    "Pinch of nutmeg"
+   ],
+   "steps": [
+    "Melt the butter in a pot over medium heat. Ask an adult to help.",
+    "Whisk in the flour and cook for 1 to 2 minutes, until bubbly but not brown.",
+    "Pour in the warm milk a little at a time, whisking all the time so no lumps form.",
+    "Simmer for 4 to 5 minutes, whisking, until thick enough to coat a spoon.",
+    "Season with salt and nutmeg. Stir in grated cheese to make a cheese sauce."
+   ]
+  },
+  {
+   "id": "hot-fudge-sauce",
+   "name": "Hot fudge sauce",
+   "aliases": [
+    "hot fudge",
+    "hot fudge sauce",
+    "fudge sauce",
+    "hot fudge topping",
+    "chocolate fudge sauce"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "chocolate",
+    "heavy cream",
+    "corn syrup",
+    "brown sugar",
+    "cocoa"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) heavy cream",
+    "1/4 cup (80 ml) light corn syrup",
+    "1/4 cup (55 g) packed brown sugar",
+    "2 tablespoons unsweetened cocoa powder",
+    "6 oz (170 g) semisweet chocolate, chopped",
+    "1 tablespoon butter",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Put the cream, corn syrup, brown sugar and cocoa in a small pot.",
+    "Bring to a simmer over medium heat, whisking, and cook for 1 to 2 minutes. Ask an adult to help.",
+    "Take it off the heat and add the chocolate and butter.",
+    "Let sit for 1 minute, then whisk until smooth and glossy.",
+    "Stir in the vanilla and salt. Serve warm over ice cream."
+   ]
+  },
+  {
+   "id": "caramel-sauce",
+   "name": "Salted caramel sauce",
+   "aliases": [
+    "caramel sauce",
+    "salted caramel",
+    "salted caramel sauce",
+    "caramel topping",
+    "homemade caramel"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "20 min",
+   "main": [
+    "sugar",
+    "butter",
+    "heavy cream",
+    "salt"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "6 tablespoons (85 g) butter, cubed, at room temperature",
+    "1/2 cup (120 ml) heavy cream, at room temperature",
+    "1 teaspoon vanilla extract",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "An adult should make this. Melted sugar is much hotter than boiling water and sticks to skin.",
+    "Heat the sugar in a heavy pot over medium heat, stirring with a heatproof spatula, for 5 to 8 minutes, until melted and amber.",
+    "Add the butter. It will bubble up hard. Stir until melted.",
+    "Slowly pour in the cream while stirring. It bubbles again.",
+    "Boil for 1 minute, then take it off the heat and stir in the vanilla and salt.",
+    "Let cool for 10 minutes. It thickens as it cools."
+   ]
+  },
+  {
+   "id": "chocolate-syrup",
+   "name": "Chocolate syrup",
+   "aliases": [
+    "chocolate syrup",
+    "chocolate sauce",
+    "homemade chocolate syrup",
+    "chocolate milk syrup"
+   ],
+   "category": "Sauce",
+   "servings": 12,
+   "time": "15 min",
+   "main": [
+    "cocoa",
+    "sugar",
+    "water",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1/2 cup (45 g) unsweetened cocoa powder",
+    "1 cup (200 g) sugar",
+    "1 cup (240 ml) water",
+    "Pinch of salt",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Whisk the cocoa, sugar, water and salt in a small pot.",
+    "Bring to a boil over medium heat, whisking. Ask an adult to help.",
+    "Simmer for 3 to 5 minutes, until a little thick.",
+    "Take it off the heat and stir in the vanilla.",
+    "Let cool. It thickens more in the fridge. Stir 2 tablespoons into a glass of milk to make chocolate milk."
+   ]
+  },
+  {
+   "id": "strawberry-sauce",
+   "name": "Strawberry sauce",
+   "aliases": [
+    "strawberry sauce",
+    "strawberry topping",
+    "strawberry syrup",
+    "strawberry compote"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "strawberries",
+    "sugar",
+    "lemon"
+   ],
+   "ingredients": [
+    "2 cups (300 g) strawberries, chopped",
+    "1/4 cup (50 g) sugar",
+    "1 tablespoon lemon juice",
+    "1 teaspoon cornstarch mixed with 1 tablespoon water (optional, for thicker sauce)"
+   ],
+   "steps": [
+    "Put the strawberries, sugar and lemon juice in a small pot.",
+    "Simmer over medium heat for 8 to 10 minutes, stirring and mashing a little, until saucy. Ask an adult to help.",
+    "Stir in the cornstarch mix and cook for 1 minute more if you want it thicker.",
+    "Serve warm or cold on ice cream, cheesecake or waffles."
+   ]
+  },
+  {
+   "id": "lemon-curd",
+   "name": "Lemon curd",
+   "aliases": [
+    "lemon curd",
+    "lemon spread",
+    "lemon filling",
+    "lemon cheese"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "2 hr 20 min",
+   "main": [
+    "lemon",
+    "sugar",
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) lemon juice",
+    "1 tablespoon lemon zest",
+    "3/4 cup (150 g) sugar",
+    "3 large eggs",
+    "1/2 cup (115 g) butter, cubed"
+   ],
+   "steps": [
+    "Whisk the lemon juice, zest, sugar and eggs in a heavy pot until smooth.",
+    "Add the butter and cook over medium low heat, whisking all the time. Ask an adult to help.",
+    "Cook for 8 to 10 minutes, until thick enough to coat a spoon and it reaches 170°F (77°C). Do not let it boil.",
+    "Pour through a strainer into a jar.",
+    "Press plastic wrap onto the top and chill for 2 hours, until set."
+   ]
+  },
+  {
+   "id": "custard-sauce",
+   "name": "Vanilla custard sauce",
+   "aliases": [
+    "custard sauce",
+    "creme anglaise",
+    "pouring custard",
+    "vanilla custard",
+    "custard"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "milk",
+    "cream",
+    "egg yolk",
+    "sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) milk",
+    "1 cup (240 ml) heavy cream",
+    "4 large egg yolks",
+    "1/3 cup (65 g) sugar",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Heat the milk and cream in a pot until steaming. Ask an adult to help.",
+    "Whisk the yolks and sugar in a bowl.",
+    "Slowly whisk the hot milk into the yolks, then pour it all back into the pot.",
+    "Cook on low, stirring all the time, for 6 to 8 minutes, until it coats a spoon and reaches 170°F (77°C). Do not let it boil.",
+    "Strain into a jug and stir in the vanilla.",
+    "Serve warm over pies, crumbles and puddings."
+   ]
+  },
+  {
+   "id": "cranberry-sauce",
+   "name": "Cranberry sauce",
+   "aliases": [
+    "cranberry sauce",
+    "homemade cranberry sauce",
+    "fresh cranberry sauce",
+    "cranberry relish"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "2 hr 20 min",
+   "main": [
+    "cranberries",
+    "sugar",
+    "orange juice"
+   ],
+   "ingredients": [
+    "12 oz (340 g) fresh or frozen cranberries",
+    "1 cup (200 g) sugar",
+    "1 cup (240 ml) water or orange juice",
+    "1 teaspoon orange zest"
+   ],
+   "steps": [
+    "Stir the sugar and water in a pot over medium heat until the sugar dissolves. Ask an adult to help.",
+    "Add the cranberries and bring to a boil.",
+    "Simmer for 10 minutes, stirring now and then, until most berries pop.",
+    "Stir in the zest.",
+    "Let cool for 15 minutes, then chill for 2 hours. It sets as it cools."
+   ]
+  },
+  {
+   "id": "homemade-applesauce",
+   "name": "Homemade applesauce",
+   "aliases": [
+    "applesauce",
+    "apple sauce",
+    "homemade applesauce",
+    "cinnamon applesauce",
+    "chunky applesauce"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "35 min",
+   "main": [
+    "apples",
+    "water",
+    "cinnamon",
+    "lemon"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) apples, about 7, peeled, cored and chopped",
+    "1/2 cup (120 ml) water or apple juice",
+    "1 to 3 tablespoons sugar (optional)",
+    "1/2 teaspoon ground cinnamon",
+    "1 tablespoon lemon juice"
+   ],
+   "steps": [
+    "Peel, core and chop the apples. Ask an adult to help with the knife.",
+    "Put everything in a pot, cover and bring to a simmer.",
+    "Cook for 15 to 20 minutes, stirring now and then, until the apples are very soft.",
+    "Mash with a potato masher for chunky sauce, or blend for smooth.",
+    "Serve warm or chilled. Keeps in the fridge for a week."
+   ]
+  },
+  {
+   "id": "sweet-and-sour-sauce",
+   "name": "Sweet and sour sauce",
+   "aliases": [
+    "sweet and sour sauce",
+    "sweet and sour",
+    "sweet n sour sauce",
+    "sweet sour dipping sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "pineapple juice",
+    "rice vinegar",
+    "brown sugar",
+    "ketchup"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) pineapple juice",
+    "1/3 cup (80 ml) rice vinegar",
+    "1/4 cup (55 g) packed brown sugar",
+    "3 tablespoons ketchup",
+    "1 tablespoon soy sauce",
+    "1 tablespoon cornstarch mixed with 2 tablespoons water"
+   ],
+   "steps": [
+    "Whisk the pineapple juice, vinegar, brown sugar, ketchup and soy sauce in a small pot.",
+    "Bring to a simmer over medium heat. Ask an adult to help.",
+    "Stir in the cornstarch mix.",
+    "Simmer for 1 to 2 minutes, until thick and shiny.",
+    "Use as a dip or toss with crispy chicken."
+   ]
+  },
+  {
+   "id": "stir-fry-sauce",
+   "name": "All-purpose stir fry sauce",
+   "aliases": [
+    "stir fry sauce",
+    "stirfry sauce",
+    "all purpose stir fry sauce",
+    "chinese brown sauce"
+   ],
+   "category": "Sauce",
+   "servings": 4,
+   "time": "5 min",
+   "main": [
+    "soy sauce",
+    "oyster sauce",
+    "honey",
+    "garlic",
+    "cornstarch"
+   ],
+   "ingredients": [
+    "1/4 cup (60 ml) soy sauce",
+    "1/4 cup (60 ml) chicken broth or water",
+    "1 tablespoon oyster sauce",
+    "1 tablespoon honey or brown sugar",
+    "1 tablespoon rice vinegar",
+    "1 teaspoon sesame oil",
+    "2 garlic cloves, minced",
+    "1 teaspoon grated ginger",
+    "1 tablespoon cornstarch"
+   ],
+   "steps": [
+    "Put everything in a jar.",
+    "Close it and shake until the cornstarch dissolves.",
+    "Pour into your stir fry for the last 1 to 2 minutes of cooking, stirring until thick and glossy. Ask an adult to help at the hot pan.",
+    "Shake again right before using, the cornstarch sinks."
+   ]
+  },
+  {
+   "id": "peanut-sauce",
+   "name": "Peanut sauce",
+   "aliases": [
+    "peanut sauce",
+    "satay sauce",
+    "thai peanut sauce",
+    "peanut dipping sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "peanut butter",
+    "soy sauce",
+    "lime",
+    "honey",
+    "ginger"
+   ],
+   "ingredients": [
+    "1/2 cup (130 g) creamy peanut butter",
+    "2 tablespoons soy sauce",
+    "1 tablespoon honey",
+    "1 tablespoon lime juice",
+    "1 teaspoon sesame oil",
+    "1 small garlic clove, grated",
+    "1 teaspoon grated ginger",
+    "1/4 to 1/2 cup (60 to 120 ml) hot water",
+    "1 teaspoon sriracha (optional)"
+   ],
+   "steps": [
+    "Put everything except the water in a bowl.",
+    "Whisk in the hot water a little at a time until smooth and pourable.",
+    "Taste and add more lime or honey.",
+    "Serve with summer rolls, noodles, chicken skewers or vegetables."
+   ]
+  },
+  {
+   "id": "spicy-mayo",
+   "name": "Spicy mayo",
+   "aliases": [
+    "spicy mayo",
+    "sriracha mayo",
+    "spicy mayonnaise",
+    "sushi sauce",
+    "bang bang sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "mayonnaise",
+    "sriracha",
+    "lime"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) mayonnaise",
+    "1 to 2 tablespoons sriracha",
+    "1 teaspoon lime juice",
+    "1/2 teaspoon sesame oil"
+   ],
+   "steps": [
+    "Put the mayo in a small bowl.",
+    "Stir in 1 tablespoon sriracha, the lime juice and sesame oil.",
+    "Taste and add more sriracha if you want it spicier.",
+    "Drizzle on sushi bowls, burgers or fries."
+   ]
+  },
+  {
+   "id": "garlic-aioli",
+   "name": "Easy garlic aioli",
+   "aliases": [
+    "aioli",
+    "garlic aioli",
+    "garlic mayo",
+    "easy aioli",
+    "garlic dipping sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "mayonnaise",
+    "garlic",
+    "lemon",
+    "olive oil"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) mayonnaise",
+    "1 garlic clove, finely grated",
+    "1 tablespoon lemon juice",
+    "1 tablespoon olive oil",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Stir everything together in a small bowl.",
+    "Let sit for 10 minutes so the garlic flavor spreads.",
+    "Serve with fries, sandwiches or roasted vegetables. Using mayo means no raw egg."
+   ]
+  },
+  {
+   "id": "tartar-sauce",
+   "name": "Tartar sauce",
+   "aliases": [
+    "tartar sauce",
+    "tartare sauce",
+    "fish sauce dip",
+    "tartar dip"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "mayonnaise",
+    "pickles",
+    "lemon",
+    "dill"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) mayonnaise",
+    "2 tablespoons dill pickle relish or finely chopped pickles",
+    "1 tablespoon lemon juice",
+    "1 teaspoon capers, chopped (optional)",
+    "1 tablespoon chopped fresh dill",
+    "Pinch of salt and pepper"
+   ],
+   "steps": [
+    "Stir everything together in a small bowl.",
+    "Chill until ready to use.",
+    "Serve with fish sticks, fried fish or crab cakes."
+   ]
+  },
+  {
+   "id": "cocktail-sauce",
+   "name": "Shrimp cocktail sauce",
+   "aliases": [
+    "cocktail sauce",
+    "shrimp cocktail sauce",
+    "seafood sauce",
+    "shrimp sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "ketchup",
+    "horseradish",
+    "lemon",
+    "worcestershire"
+   ],
+   "ingredients": [
+    "1/2 cup (120 g) ketchup",
+    "1 to 2 tablespoons prepared horseradish",
+    "1 tablespoon lemon juice",
+    "1/2 teaspoon Worcestershire sauce",
+    "Dash of hot sauce (optional)"
+   ],
+   "steps": [
+    "Stir everything together.",
+    "Start with 1 tablespoon horseradish and add more if you want it stronger.",
+    "Chill and serve with cold cooked shrimp."
+   ]
+  },
+  {
+   "id": "burger-sauce",
+   "name": "Special burger sauce",
+   "aliases": [
+    "burger sauce",
+    "special sauce",
+    "secret sauce",
+    "big mac sauce",
+    "fry sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "mayonnaise",
+    "ketchup",
+    "mustard",
+    "pickle relish"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) mayonnaise",
+    "2 tablespoons ketchup",
+    "1 tablespoon yellow mustard",
+    "2 tablespoons sweet pickle relish",
+    "1 teaspoon pickle juice or white vinegar",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1/2 teaspoon paprika"
+   ],
+   "steps": [
+    "Stir everything together in a bowl.",
+    "Chill for 30 minutes if you have time, so the flavors blend.",
+    "Spread on burgers or use as a dip for fries."
+   ]
+  },
+  {
+   "id": "red-enchilada-sauce",
+   "name": "Red enchilada sauce",
+   "aliases": [
+    "enchilada sauce",
+    "red enchilada sauce",
+    "homemade enchilada sauce",
+    "mild enchilada sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "chili powder",
+    "tomato paste",
+    "broth",
+    "flour",
+    "cumin"
+   ],
+   "ingredients": [
+    "2 tablespoons vegetable oil",
+    "2 tablespoons all-purpose flour",
+    "3 tablespoons mild chili powder",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon dried oregano",
+    "2 tablespoons tomato paste",
+    "2 cups (480 ml) chicken or vegetable broth",
+    "1/2 teaspoon salt",
+    "1 teaspoon apple cider vinegar"
+   ],
+   "steps": [
+    "Heat the oil in a pot over medium heat. Ask an adult to help.",
+    "Whisk in the flour and spices and cook for 1 minute, stirring.",
+    "Stir in the tomato paste.",
+    "Slowly whisk in the broth.",
+    "Simmer for 5 to 7 minutes, until a little thick.",
+    "Stir in the salt and vinegar. Makes enough for one 9 by 13 inch pan of enchiladas."
+   ]
+  },
+  {
+   "id": "salsa-verde",
+   "name": "Salsa verde",
+   "aliases": [
+    "salsa verde",
+    "green salsa",
+    "tomatillo salsa",
+    "verde sauce",
+    "roasted tomatillo salsa"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "30 min",
+   "main": [
+    "tomatillos",
+    "jalapeno",
+    "onion",
+    "cilantro",
+    "lime"
+   ],
+   "ingredients": [
+    "1 lb (450 g) tomatillos, husks removed and rinsed",
+    "1/2 onion, cut in chunks",
+    "1 or 2 jalapenos, seeds removed for mild",
+    "2 garlic cloves, peeled",
+    "1/2 cup cilantro",
+    "1 tablespoon lime juice",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Turn on the oven broiler. Ask an adult to help.",
+    "Put the tomatillos, onion, jalapenos and garlic on a foil-lined sheet.",
+    "Broil for 5 to 7 minutes, until charred, then flip and broil for 5 minutes more.",
+    "Let cool for 10 minutes.",
+    "Blend with the cilantro, lime juice and salt until mostly smooth."
+   ]
+  },
+  {
+   "id": "mango-salsa",
+   "name": "Mango salsa",
+   "aliases": [
+    "mango salsa",
+    "fresh mango salsa",
+    "mango pico",
+    "tropical salsa"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "mango",
+    "red bell pepper",
+    "red onion",
+    "cilantro",
+    "lime"
+   ],
+   "ingredients": [
+    "2 ripe mangoes, diced",
+    "1/2 red bell pepper, diced",
+    "1/4 red onion, finely diced",
+    "1 small jalapeno, seeded and minced (optional)",
+    "1/4 cup chopped cilantro",
+    "2 tablespoons lime juice",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Have an adult help peel and dice the mango and vegetables.",
+    "Put everything in a bowl.",
+    "Stir gently.",
+    "Serve with chips, fish tacos or grilled chicken."
+   ]
+  },
+  {
+   "id": "taco-seasoning",
+   "name": "Taco seasoning",
+   "aliases": [
+    "taco seasoning",
+    "homemade taco seasoning",
+    "taco spice mix",
+    "taco spices"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "5 min",
+   "main": [
+    "chili powder",
+    "cumin",
+    "paprika",
+    "garlic powder",
+    "onion powder"
+   ],
+   "ingredients": [
+    "1 tablespoon chili powder",
+    "1 1/2 teaspoons ground cumin",
+    "1 teaspoon paprika",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1/2 teaspoon dried oregano",
+    "1 teaspoon salt",
+    "1/2 teaspoon black pepper",
+    "1/4 teaspoon red pepper flakes (optional)"
+   ],
+   "steps": [
+    "Stir all the spices together in a small bowl.",
+    "Store in a jar with a lid.",
+    "Use about 2 tablespoons with 1 lb (450 g) cooked ground meat and 1/2 cup water, then simmer for 5 minutes."
+   ]
+  },
+  {
+   "id": "buffalo-sauce",
+   "name": "Buffalo sauce",
+   "aliases": [
+    "buffalo sauce",
+    "buffalo wing sauce",
+    "wing sauce",
+    "hot wing sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "hot sauce",
+    "butter",
+    "garlic powder",
+    "honey"
+   ],
+   "ingredients": [
+    "1/2 cup (120 ml) cayenne pepper hot sauce",
+    "1/3 cup (75 g) butter",
+    "1 tablespoon honey (optional)",
+    "1/2 teaspoon Worcestershire sauce",
+    "1/4 teaspoon garlic powder"
+   ],
+   "steps": [
+    "Put everything in a small pot over low heat. Ask an adult to help.",
+    "Whisk for 2 to 3 minutes, until the butter melts and it is smooth.",
+    "Toss with wings, cauliflower or chicken tenders."
+   ]
+  },
+  {
+   "id": "honey-garlic-sauce",
+   "name": "Honey garlic sauce",
+   "aliases": [
+    "honey garlic sauce",
+    "honey garlic glaze",
+    "sticky honey garlic sauce",
+    "garlic honey sauce"
+   ],
+   "category": "Sauce",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "honey",
+    "soy sauce",
+    "garlic",
+    "butter"
+   ],
+   "ingredients": [
+    "1/3 cup (115 g) honey",
+    "1/4 cup (60 ml) soy sauce",
+    "4 garlic cloves, minced",
+    "1 tablespoon butter",
+    "1 tablespoon rice vinegar",
+    "1 teaspoon cornstarch mixed with 1 tablespoon water"
+   ],
+   "steps": [
+    "Melt the butter in a small pot and cook the garlic for 30 seconds. Ask an adult to help.",
+    "Stir in the honey, soy sauce and vinegar and bring to a simmer.",
+    "Stir in the cornstarch mix and simmer for 1 minute, until sticky.",
+    "Brush on chicken, salmon or shrimp."
+   ]
+  },
+  {
+   "id": "dumpling-dipping-sauce",
+   "name": "Dumpling dipping sauce",
+   "aliases": [
+    "dumpling sauce",
+    "dumpling dipping sauce",
+    "potsticker sauce",
+    "gyoza sauce",
+    "soy dipping sauce"
+   ],
+   "category": "Sauce",
+   "servings": 4,
+   "time": "5 min",
+   "main": [
+    "soy sauce",
+    "rice vinegar",
+    "sesame oil",
+    "green onion"
+   ],
+   "ingredients": [
+    "3 tablespoons soy sauce",
+    "1 tablespoon rice vinegar or black vinegar",
+    "1 teaspoon sesame oil",
+    "1 teaspoon sugar",
+    "1 green onion, thinly sliced",
+    "1 small garlic clove, minced (optional)",
+    "1/2 teaspoon chili oil (optional)"
+   ],
+   "steps": [
+    "Stir the soy sauce, vinegar, sesame oil and sugar until the sugar dissolves.",
+    "Add the green onion, garlic and chili oil.",
+    "Serve in small bowls for dipping dumplings and spring rolls."
+   ]
+  },
+  {
+   "id": "mint-chutney",
+   "name": "Green mint chutney",
+   "aliases": [
+    "mint chutney",
+    "green chutney",
+    "cilantro mint chutney",
+    "hari chutney",
+    "pudina chutney"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "cilantro",
+    "mint",
+    "ginger",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 cup packed cilantro, with tender stems",
+    "1/2 cup packed mint leaves",
+    "1 small green chili, seeded (optional)",
+    "1 inch piece ginger, peeled",
+    "1 tablespoon lemon juice",
+    "1/2 teaspoon sugar",
+    "1/2 teaspoon salt",
+    "2 to 4 tablespoons water"
+   ],
+   "steps": [
+    "Put everything in a blender with 2 tablespoons water.",
+    "Blend until smooth, scraping down and adding water as needed.",
+    "Taste for salt and lemon.",
+    "Stir 2 tablespoons into 1/2 cup yogurt for a creamy dip."
+   ]
+  },
+  {
+   "id": "tamarind-chutney",
+   "name": "Tamarind chutney",
+   "aliases": [
+    "tamarind chutney",
+    "imli chutney",
+    "saunth",
+    "sweet chutney",
+    "tamarind sauce"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "25 min",
+   "main": [
+    "tamarind",
+    "brown sugar",
+    "cumin",
+    "ginger"
+   ],
+   "ingredients": [
+    "2 tablespoons tamarind concentrate",
+    "1 cup (240 ml) water",
+    "1/2 cup (100 g) jaggery or packed brown sugar",
+    "1/2 teaspoon ground roasted cumin",
+    "1/2 teaspoon ground ginger",
+    "1/4 teaspoon chili powder",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Put everything in a small pot and stir.",
+    "Bring to a simmer over medium heat. Ask an adult to help.",
+    "Simmer for 10 to 12 minutes, stirring, until syrupy. It thickens more as it cools.",
+    "Let cool and serve with samosas, pakoras and chaat."
+   ]
+  },
+  {
+   "id": "homemade-ketchup",
+   "name": "Homemade ketchup",
+   "aliases": [
+    "ketchup",
+    "homemade ketchup",
+    "tomato ketchup",
+    "catsup"
+   ],
+   "category": "Sauce",
+   "servings": 12,
+   "time": "1 hr 20 min",
+   "main": [
+    "tomato paste",
+    "vinegar",
+    "sugar",
+    "onion powder"
+   ],
+   "ingredients": [
+    "1 can (6 oz / 170 g) tomato paste",
+    "1/2 cup (120 ml) water",
+    "1/4 cup (60 ml) apple cider vinegar",
+    "1/4 cup (50 g) sugar",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon onion powder",
+    "1/4 teaspoon garlic powder",
+    "Pinch of ground allspice or cloves"
+   ],
+   "steps": [
+    "Whisk everything in a small pot.",
+    "Bring to a simmer over medium low heat. Ask an adult to help, it spatters.",
+    "Simmer for 10 minutes, stirring often.",
+    "Let cool, then chill for 1 hour. Keeps in the fridge for 2 weeks."
+   ]
+  },
+  {
+   "id": "dulce-de-leche",
+   "name": "Dulce de leche",
+   "aliases": [
+    "dulce de leche",
+    "cajeta",
+    "milk caramel",
+    "caramelized condensed milk"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "2 hr",
+   "main": [
+    "sweetened condensed milk",
+    "salt"
+   ],
+   "ingredients": [
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "Pinch of salt",
+    "Hot water for the water bath"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Pour the condensed milk into a 9 inch pie plate and stir in the salt. Never heat an unopened can, it can burst.",
+    "Cover tightly with foil.",
+    "Set it in a bigger pan and have an adult pour hot water halfway up the pie plate.",
+    "Bake for 1 hour 15 minutes to 1 hour 30 minutes, until thick and caramel brown. Add water to the pan if it gets low.",
+    "Whisk until smooth and let cool for 15 minutes."
+   ]
+  },
+  {
+   "id": "olive-tapenade",
+   "name": "Olive tapenade",
+   "aliases": [
+    "tapenade",
+    "olive tapenade",
+    "olive spread",
+    "black olive tapenade"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "10 min",
+   "main": [
+    "kalamata olives",
+    "capers",
+    "garlic",
+    "olive oil",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 cup (150 g) pitted kalamata olives",
+    "1 tablespoon capers, drained",
+    "1 small garlic clove",
+    "2 tablespoons parsley leaves",
+    "1 tablespoon lemon juice",
+    "3 tablespoons olive oil",
+    "2 anchovy fillets (optional)"
+   ],
+   "steps": [
+    "Put everything in a food processor.",
+    "Pulse 8 to 10 times, scraping down the sides, until finely chopped but not smooth.",
+    "Spread on toasted baguette or crackers."
+   ]
+  },
+  {
+   "id": "fruit-salsa",
+   "name": "Fruit salsa",
+   "aliases": [
+    "fruit salsa",
+    "sweet salsa",
+    "berry salsa",
+    "fruit salsa with cinnamon chips"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "strawberries",
+    "kiwi",
+    "apple",
+    "blueberries",
+    "honey"
+   ],
+   "ingredients": [
+    "1 cup (150 g) diced strawberries",
+    "1 kiwi, peeled and diced",
+    "1 apple, diced",
+    "1/2 cup (75 g) blueberries",
+    "1 tablespoon honey",
+    "1 tablespoon orange or lime juice"
+   ],
+   "steps": [
+    "Have an adult help dice the fruit small.",
+    "Put all the fruit in a bowl.",
+    "Drizzle with honey and juice and stir gently.",
+    "Serve with cinnamon sugar tortilla chips."
+   ]
+  },
+  {
+   "id": "blueberry-syrup",
+   "name": "Blueberry syrup",
+   "aliases": [
+    "blueberry syrup",
+    "blueberry sauce",
+    "blueberry topping",
+    "blueberry compote",
+    "pancake syrup"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "blueberries",
+    "sugar",
+    "lemon"
+   ],
+   "ingredients": [
+    "2 cups (300 g) blueberries, fresh or frozen",
+    "1/2 cup (100 g) sugar",
+    "1/4 cup (60 ml) water",
+    "1 tablespoon lemon juice",
+    "1 teaspoon cornstarch mixed with 1 tablespoon water (optional)"
+   ],
+   "steps": [
+    "Put the blueberries, sugar, water and lemon juice in a small pot.",
+    "Simmer over medium heat for 8 to 10 minutes, until the berries burst. Ask an adult to help.",
+    "Stir in the cornstarch mix for a thicker sauce and cook for 1 minute.",
+    "Pour warm over pancakes, waffles or ice cream."
+   ]
+  },
+  {
+   "id": "honey-butter",
+   "name": "Cinnamon honey butter",
+   "aliases": [
+    "honey butter",
+    "cinnamon honey butter",
+    "whipped honey butter",
+    "cinnamon butter"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "5 min",
+   "main": [
+    "butter",
+    "honey",
+    "cinnamon",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "2 tablespoons honey",
+    "2 tablespoons powdered sugar",
+    "1/4 teaspoon ground cinnamon",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Put everything in a bowl.",
+    "Beat with a mixer for 2 minutes, until light and fluffy.",
+    "Spread on warm rolls, cornbread or sweet potatoes."
+   ]
+  },
+  {
+   "id": "yum-yum-sauce",
+   "name": "Yum yum sauce",
+   "aliases": [
+    "yum yum sauce",
+    "hibachi sauce",
+    "japanese white sauce",
+    "steakhouse white sauce"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "1 hr 5 min",
+   "main": [
+    "mayonnaise",
+    "tomato paste",
+    "butter",
+    "garlic powder",
+    "paprika"
+   ],
+   "ingredients": [
+    "1 cup (225 g) mayonnaise",
+    "1 tablespoon tomato paste or ketchup",
+    "1 tablespoon butter, melted",
+    "1 teaspoon sugar",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon paprika",
+    "1 tablespoon rice vinegar",
+    "1 to 2 tablespoons water"
+   ],
+   "steps": [
+    "Whisk everything together until smooth.",
+    "Add water until it drizzles.",
+    "Chill for 1 hour so the flavors blend.",
+    "Serve with fried rice, grilled chicken and vegetables."
+   ]
+  },
+  {
+   "id": "lemon-butter-sauce",
+   "name": "Lemon butter sauce",
+   "aliases": [
+    "lemon butter sauce",
+    "lemon garlic butter sauce",
+    "lemon butter",
+    "butter sauce for fish"
+   ],
+   "category": "Sauce",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "butter",
+    "lemon",
+    "garlic",
+    "broth"
+   ],
+   "ingredients": [
+    "4 tablespoons (55 g) cold butter, cubed",
+    "1 garlic clove, minced",
+    "1/4 cup (60 ml) chicken or vegetable broth",
+    "2 tablespoons lemon juice",
+    "1/4 teaspoon lemon zest",
+    "1 tablespoon chopped parsley",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Melt 1 cube of butter in a small pan and cook the garlic for 30 seconds. Ask an adult to help.",
+    "Add the broth and lemon juice and simmer for 2 minutes.",
+    "Turn off the heat and whisk in the rest of the butter one cube at a time until creamy.",
+    "Stir in the zest, parsley and salt. Spoon over fish, chicken or vegetables."
+   ]
+  },
+  {
+   "id": "poppy-seed-dressing",
+   "name": "Poppy seed dressing",
+   "aliases": [
+    "poppy seed dressing",
+    "poppyseed dressing",
+    "creamy poppy seed dressing",
+    "sweet poppy seed dressing"
+   ],
+   "category": "Sauce",
+   "servings": 8,
+   "time": "5 min",
+   "main": [
+    "oil",
+    "vinegar",
+    "honey",
+    "poppy seeds",
+    "mayonnaise"
+   ],
+   "ingredients": [
+    "1/3 cup (80 ml) vegetable oil",
+    "3 tablespoons apple cider vinegar",
+    "3 tablespoons honey or sugar",
+    "2 tablespoons mayonnaise",
+    "1 teaspoon Dijon mustard",
+    "1/2 teaspoon onion powder",
+    "1 tablespoon poppy seeds",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Put everything in a jar.",
+    "Shake hard for 30 seconds, until creamy.",
+    "Pour over spinach salads and fruit salads."
+   ]
+  },
+  {
+   "id": "lemon-vinaigrette",
+   "name": "Lemon vinaigrette",
+   "aliases": [
+    "lemon vinaigrette",
+    "lemon dressing",
+    "lemon olive oil dressing",
+    "lemon dijon dressing"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "lemon",
+    "olive oil",
+    "dijon mustard",
+    "honey"
+   ],
+   "ingredients": [
+    "1/3 cup (80 ml) olive oil",
+    "3 tablespoons lemon juice",
+    "1 teaspoon lemon zest",
+    "1 teaspoon Dijon mustard",
+    "1 teaspoon honey",
+    "1/4 teaspoon salt and a pinch of pepper"
+   ],
+   "steps": [
+    "Put everything in a jar.",
+    "Shake until mixed and a little creamy.",
+    "Use on greens, grain salads or roasted vegetables."
+   ]
+  },
+  {
+   "id": "lime-crema",
+   "name": "Lime crema",
+   "aliases": [
+    "lime crema",
+    "mexican crema",
+    "taco crema",
+    "chipotle crema",
+    "sour cream sauce"
+   ],
+   "category": "Sauce",
+   "servings": 6,
+   "time": "5 min",
+   "main": [
+    "sour cream",
+    "lime",
+    "mayonnaise",
+    "salt"
+   ],
+   "ingredients": [
+    "1/2 cup (120 g) sour cream",
+    "2 tablespoons mayonnaise",
+    "1 tablespoon lime juice",
+    "1/2 teaspoon lime zest",
+    "Pinch of salt",
+    "1 teaspoon adobo sauce from canned chipotles (optional, for chipotle crema)"
+   ],
+   "steps": [
+    "Whisk everything together.",
+    "Add a teaspoon of water if you want it thinner for drizzling.",
+    "Drizzle over tacos, burrito bowls and nachos."
+   ]
+  }
+ ]
+}

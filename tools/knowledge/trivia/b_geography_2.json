@@ -1,0 +1,2513 @@
+{
+ "questions": [
+  {
+   "id": "geography-1194",
+   "category": "Geography",
+   "q": "Which is the largest of Japan's main islands?",
+   "choices": [
+    "Kyushu",
+    "Hokkaido",
+    "Honshu",
+    "Shikoku"
+   ],
+   "answer": 2,
+   "fact": "Tokyo, Osaka and Kyoto are all on Honshu."
+  },
+  {
+   "id": "geography-1195",
+   "category": "Geography",
+   "q": "Which country is made up of more than 17,000 islands?",
+   "choices": [
+    "Japan",
+    "Greece",
+    "Philippines",
+    "Indonesia"
+   ],
+   "answer": 3,
+   "fact": "Indonesia stretches across more than 5,000 kilometers of ocean."
+  },
+  {
+   "id": "geography-1196",
+   "category": "Geography",
+   "q": "Which country does Easter Island belong to?",
+   "choices": [
+    "France",
+    "Peru",
+    "New Zealand",
+    "Chile"
+   ],
+   "answer": 3,
+   "fact": "Easter Island is one of the most remote inhabited islands in the world."
+  },
+  {
+   "id": "geography-1197",
+   "category": "Geography",
+   "q": "Which country do the Galápagos Islands belong to?",
+   "choices": [
+    "Chile",
+    "Peru",
+    "Colombia",
+    "Ecuador"
+   ],
+   "answer": 3,
+   "fact": "Charles Darwin's visit to the Galápagos in 1835 helped shape his ideas about evolution."
+  },
+  {
+   "id": "geography-1198",
+   "category": "Geography",
+   "q": "Which island country lies just south of India?",
+   "choices": [
+    "Sri Lanka",
+    "Madagascar",
+    "Maldives",
+    "Mauritius"
+   ],
+   "answer": 0,
+   "fact": "Sri Lanka is sometimes called the Teardrop of India because of its shape."
+  },
+  {
+   "id": "geography-1199",
+   "category": "Geography",
+   "q": "Which island country is known as the Land of Fire and Ice?",
+   "choices": [
+    "Norway",
+    "Greenland",
+    "Iceland",
+    "Japan"
+   ],
+   "answer": 2,
+   "fact": "Iceland has active volcanoes right next to huge glaciers."
+  },
+  {
+   "id": "geography-1200",
+   "category": "Geography",
+   "q": "Which country is known as the Emerald Isle because of its green fields?",
+   "choices": [
+    "Ireland",
+    "New Zealand",
+    "Scotland",
+    "Iceland"
+   ],
+   "answer": 0,
+   "fact": "Ireland stays green because it gets a lot of rain all year."
+  },
+  {
+   "id": "geography-1201",
+   "category": "Geography",
+   "q": "As of 2025, which country has the most people?",
+   "choices": [
+    "China",
+    "India",
+    "United States",
+    "Indonesia"
+   ],
+   "answer": 1,
+   "fact": "India passed China as the country with the most people in 2023."
+  },
+  {
+   "id": "geography-1202",
+   "category": "Geography",
+   "q": "Which is the largest country in South America by area?",
+   "choices": [
+    "Peru",
+    "Brazil",
+    "Colombia",
+    "Argentina"
+   ],
+   "answer": 1,
+   "fact": "Brazil borders every country in South America except Chile and Ecuador."
+  },
+  {
+   "id": "geography-1203",
+   "category": "Geography",
+   "q": "Which is the largest country in Africa by area?",
+   "choices": [
+    "Nigeria",
+    "Sudan",
+    "Algeria",
+    "Egypt"
+   ],
+   "answer": 2,
+   "fact": "Most of Algeria is covered by the Sahara Desert."
+  },
+  {
+   "id": "geography-1204",
+   "category": "Geography",
+   "q": "As of 2025, which country has the most people in Africa?",
+   "choices": [
+    "Egypt",
+    "Nigeria",
+    "Ethiopia",
+    "South Africa"
+   ],
+   "answer": 1,
+   "fact": "Nigeria's biggest city, Lagos, is one of the largest cities in Africa."
+  },
+  {
+   "id": "geography-1205",
+   "category": "Geography",
+   "q": "Which country has the longest coastline in the world?",
+   "choices": [
+    "Australia",
+    "Russia",
+    "Canada",
+    "Indonesia"
+   ],
+   "answer": 2,
+   "fact": "Canada's coastline is so long because of its thousands of islands."
+  },
+  {
+   "id": "geography-1206",
+   "category": "Geography",
+   "q": "Which country has more lakes than any other?",
+   "choices": [
+    "Finland",
+    "Russia",
+    "Canada",
+    "United States"
+   ],
+   "answer": 2,
+   "fact": "Canada has more lakes than the rest of the world's countries combined."
+  },
+  {
+   "id": "geography-1207",
+   "category": "Geography",
+   "q": "Which country is completely surrounded by South Africa?",
+   "choices": [
+    "Lesotho",
+    "Botswana",
+    "Namibia",
+    "Eswatini"
+   ],
+   "answer": 0,
+   "fact": "All of Lesotho is more than 1,000 meters above sea level."
+  },
+  {
+   "id": "geography-1208",
+   "category": "Geography",
+   "q": "Which of these South American countries has no coastline?",
+   "choices": [
+    "Bolivia",
+    "Chile",
+    "Peru",
+    "Ecuador"
+   ],
+   "answer": 0,
+   "fact": "Bolivia and Paraguay are the only landlocked countries in South America."
+  },
+  {
+   "id": "geography-1209",
+   "category": "Geography",
+   "q": "Which country is called the Land of the Rising Sun?",
+   "choices": [
+    "China",
+    "Japan",
+    "Thailand",
+    "South Korea"
+   ],
+   "answer": 1,
+   "fact": "The Japanese name for Japan, Nihon, means \"origin of the sun\"."
+  },
+  {
+   "id": "geography-1210",
+   "category": "Geography",
+   "q": "Which country has a red maple leaf on its flag?",
+   "choices": [
+    "Austria",
+    "Denmark",
+    "Canada",
+    "Switzerland"
+   ],
+   "answer": 2,
+   "fact": "Canada's maple leaf flag was first raised in 1965."
+  },
+  {
+   "id": "geography-1211",
+   "category": "Geography",
+   "q": "Which country's flag is green with a red circle?",
+   "choices": [
+    "Japan",
+    "Brazil",
+    "Bangladesh",
+    "Pakistan"
+   ],
+   "answer": 2,
+   "fact": "The red circle stands for the sun rising over Bengal."
+  },
+  {
+   "id": "geography-1212",
+   "category": "Geography",
+   "q": "Which country's flag has a green cedar tree in the middle?",
+   "choices": [
+    "Cyprus",
+    "Canada",
+    "Israel",
+    "Lebanon"
+   ],
+   "answer": 3,
+   "fact": "The cedar of Lebanon is mentioned in ancient writings thousands of years old."
+  },
+  {
+   "id": "geography-1213",
+   "category": "Geography",
+   "q": "Which part of the United Kingdom has a red dragon on its flag?",
+   "choices": [
+    "Scotland",
+    "England",
+    "Wales",
+    "Northern Ireland"
+   ],
+   "answer": 2,
+   "fact": "The red dragon has been a symbol of Wales for more than 1,000 years."
+  },
+  {
+   "id": "geography-1214",
+   "category": "Geography",
+   "q": "How many stars are on the flag of the United States?",
+   "choices": [
+    "52",
+    "13",
+    "50",
+    "48"
+   ],
+   "answer": 2,
+   "fact": "Each star stands for one of the 50 US states."
+  },
+  {
+   "id": "geography-1215",
+   "category": "Geography",
+   "q": "Which country has a flag that is not a rectangle?",
+   "choices": [
+    "Nepal",
+    "Bhutan",
+    "India",
+    "Tibet"
+   ],
+   "answer": 0,
+   "fact": "Nepal's flag is made of two stacked triangles."
+  },
+  {
+   "id": "geography-1216",
+   "category": "Geography",
+   "q": "Which two countries have square flags?",
+   "choices": [
+    "Japan and Canada",
+    "Nepal and Bhutan",
+    "Switzerland and Vatican City",
+    "Denmark and Norway"
+   ],
+   "answer": 2,
+   "fact": "Both square flags are red or yellow and white."
+  },
+  {
+   "id": "geography-1217",
+   "category": "Geography",
+   "q": "Which country's flag shows an eagle eating a snake on a cactus?",
+   "choices": [
+    "Albania",
+    "Spain",
+    "Peru",
+    "Mexico"
+   ],
+   "answer": 3,
+   "fact": "The picture comes from an Aztec legend about where to build their capital."
+  },
+  {
+   "id": "geography-1218",
+   "category": "Geography",
+   "q": "Which country's flag has a blue globe with stars and the words \"Ordem e Progresso\"?",
+   "choices": [
+    "Portugal",
+    "Angola",
+    "Argentina",
+    "Brazil"
+   ],
+   "answer": 3,
+   "fact": "The words mean \"Order and Progress\" in Portuguese."
+  },
+  {
+   "id": "geography-1219",
+   "category": "Geography",
+   "q": "What is the blue wheel in the middle of India's flag called?",
+   "choices": [
+    "Dharma Star",
+    "Sun Wheel",
+    "Ashoka Chakra",
+    "Lotus Ring"
+   ],
+   "answer": 2,
+   "fact": "The wheel has 24 spokes."
+  },
+  {
+   "id": "geography-1220",
+   "category": "Geography",
+   "q": "Which country's flag has a white cross on a red background?",
+   "choices": [
+    "Switzerland",
+    "Denmark",
+    "Sweden",
+    "England"
+   ],
+   "answer": 0,
+   "fact": "The Red Cross symbol is the Swiss flag with its colors swapped."
+  },
+  {
+   "id": "geography-1221",
+   "category": "Geography",
+   "q": "Which country's flag is red with a white cross that is shifted toward the left?",
+   "choices": [
+    "Finland",
+    "Denmark",
+    "Norway",
+    "Switzerland"
+   ],
+   "answer": 1,
+   "fact": "Denmark's flag is often said to be the oldest national flag still in use."
+  },
+  {
+   "id": "geography-1222",
+   "category": "Geography",
+   "q": "Which country's flag is blue with a yellow cross?",
+   "choices": [
+    "Finland",
+    "Denmark",
+    "Sweden",
+    "Ukraine"
+   ],
+   "answer": 2,
+   "fact": "Sweden celebrates its National Day and Flag Day on June 6."
+  },
+  {
+   "id": "geography-1223",
+   "category": "Geography",
+   "q": "Which country is home to the city of Marrakesh?",
+   "choices": [
+    "Morocco",
+    "Egypt",
+    "Algeria",
+    "Tunisia"
+   ],
+   "answer": 0,
+   "fact": "Marrakesh's main square becomes a giant outdoor market and food court every evening."
+  },
+  {
+   "id": "geography-1224",
+   "category": "Geography",
+   "q": "In which country is the city of Dubai?",
+   "choices": [
+    "Saudi Arabia",
+    "United Arab Emirates",
+    "Oman",
+    "Qatar"
+   ],
+   "answer": 1,
+   "fact": "Dubai has an indoor ski slope inside a shopping mall."
+  },
+  {
+   "id": "geography-1225",
+   "category": "Geography",
+   "q": "Which tiny country sits high in the Pyrenees between Spain and France?",
+   "choices": [
+    "Andorra",
+    "San Marino",
+    "Monaco",
+    "Liechtenstein"
+   ],
+   "answer": 0,
+   "fact": "Andorra has no airport and no train station."
+  },
+  {
+   "id": "geography-1226",
+   "category": "Geography",
+   "q": "Which tiny country is completely surrounded by Italy, other than Vatican City?",
+   "choices": [
+    "Malta",
+    "San Marino",
+    "Monaco",
+    "Andorra"
+   ],
+   "answer": 1,
+   "fact": "San Marino claims to be the oldest republic in the world, founded in AD 301."
+  },
+  {
+   "id": "geography-1227",
+   "category": "Geography",
+   "q": "Which tiny country on the French Riviera is famous for its Formula 1 race?",
+   "choices": [
+    "Andorra",
+    "Monaco",
+    "Luxembourg",
+    "Liechtenstein"
+   ],
+   "answer": 1,
+   "fact": "Monaco is the second-smallest country in the world."
+  },
+  {
+   "id": "geography-1228",
+   "category": "Geography",
+   "q": "Which tiny country sits between Switzerland and Austria?",
+   "choices": [
+    "Liechtenstein",
+    "Monaco",
+    "Andorra",
+    "Luxembourg"
+   ],
+   "answer": 0,
+   "fact": "Liechtenstein is one of only two countries in the world that are doubly landlocked."
+  },
+  {
+   "id": "geography-1229",
+   "category": "Geography",
+   "q": "Which island city-state sits at the southern tip of the Malay Peninsula?",
+   "choices": [
+    "Singapore",
+    "Hong Kong",
+    "Brunei",
+    "Macau"
+   ],
+   "answer": 0,
+   "fact": "Singapore's name comes from Sanskrit words meaning \"lion city\"."
+  },
+  {
+   "id": "geography-1230",
+   "category": "Geography",
+   "q": "Which country is known as the Land of a Thousand Lakes, though it has many more than that?",
+   "choices": [
+    "Canada",
+    "Norway",
+    "Sweden",
+    "Finland"
+   ],
+   "answer": 3,
+   "fact": "Finland actually has about 188,000 lakes."
+  },
+  {
+   "id": "geography-1231",
+   "category": "Geography",
+   "q": "Which country is famous for its fjords and has the midnight sun in summer?",
+   "choices": [
+    "Spain",
+    "Portugal",
+    "Norway",
+    "Italy"
+   ],
+   "answer": 2,
+   "fact": "In northern Norway, the sun doesn't set at all for weeks in summer."
+  },
+  {
+   "id": "geography-1232",
+   "category": "Geography",
+   "q": "Which two countries share the longest land border in the world?",
+   "choices": [
+    "Canada and United States",
+    "Russia and China",
+    "Argentina and Chile",
+    "India and Bangladesh"
+   ],
+   "answer": 0,
+   "fact": "The border between Canada and the United States is about 8,900 kilometers long."
+  },
+  {
+   "id": "geography-1233",
+   "category": "Geography",
+   "q": "Which country do the Māori people come from?",
+   "choices": [
+    "Hawaii",
+    "New Zealand",
+    "Fiji",
+    "Australia"
+   ],
+   "answer": 1,
+   "fact": "The Māori haka is a powerful war dance often performed before rugby games."
+  },
+  {
+   "id": "geography-1234",
+   "category": "Geography",
+   "q": "Which two countries share the island of Hispaniola?",
+   "choices": [
+    "Cuba and Jamaica",
+    "Trinidad and Tobago",
+    "Haiti and Dominican Republic",
+    "Puerto Rico and Cuba"
+   ],
+   "answer": 2,
+   "fact": "The Dominican Republic takes up about two thirds of the island."
+  },
+  {
+   "id": "geography-1235",
+   "category": "Geography",
+   "q": "Which country is home to Transylvania, the region linked with the Dracula legend?",
+   "choices": [
+    "Bulgaria",
+    "Serbia",
+    "Romania",
+    "Hungary"
+   ],
+   "answer": 2,
+   "fact": "Bran Castle in Transylvania is often called Dracula's Castle."
+  },
+  {
+   "id": "geography-1236",
+   "category": "Geography",
+   "q": "Which country is shaped a bit like a long, thin chili pepper along South America's west coast?",
+   "choices": [
+    "Argentina",
+    "Ecuador",
+    "Chile",
+    "Peru"
+   ],
+   "answer": 2,
+   "fact": "Chile is about 4,300 kilometers long but on average only about 175 kilometers wide."
+  },
+  {
+   "id": "geography-1237",
+   "category": "Geography",
+   "q": "As of 2025, how many member countries does the United Nations have?",
+   "choices": [
+    "150",
+    "177",
+    "193",
+    "205"
+   ],
+   "answer": 2,
+   "fact": "South Sudan became the newest UN member in 2011."
+  },
+  {
+   "id": "geography-1238",
+   "category": "Geography",
+   "q": "How many countries make up the United Kingdom?",
+   "choices": [
+    "6",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "fact": "The four countries are England, Scotland, Wales and Northern Ireland."
+  },
+  {
+   "id": "geography-1239",
+   "category": "Geography",
+   "q": "How many states does Australia have?",
+   "choices": [
+    "6",
+    "8",
+    "10",
+    "5"
+   ],
+   "answer": 0,
+   "fact": "Australia also has two main mainland territories, including the one with its capital, Canberra."
+  },
+  {
+   "id": "geography-1240",
+   "category": "Geography",
+   "q": "How many provinces does Canada have?",
+   "choices": [
+    "13",
+    "10",
+    "8",
+    "12"
+   ],
+   "answer": 1,
+   "fact": "Canada also has three territories in the north."
+  },
+  {
+   "id": "geography-1241",
+   "category": "Geography",
+   "q": "Which is the largest Canadian province by area?",
+   "choices": [
+    "British Columbia",
+    "Quebec",
+    "Ontario",
+    "Alberta"
+   ],
+   "answer": 1,
+   "fact": "Quebec is almost three times the size of mainland France."
+  },
+  {
+   "id": "geography-1242",
+   "category": "Geography",
+   "q": "What are the two official languages of Canada?",
+   "choices": [
+    "French and Spanish",
+    "English and German",
+    "English and French",
+    "English and Spanish"
+   ],
+   "answer": 2,
+   "fact": "About one in five Canadians speaks French as their first language."
+  },
+  {
+   "id": "geography-1243",
+   "category": "Geography",
+   "q": "What is the main language spoken in Argentina?",
+   "choices": [
+    "Spanish",
+    "Italian",
+    "English",
+    "Portuguese"
+   ],
+   "answer": 0,
+   "fact": "Argentine Spanish has its own accent, with \"ll\" often sounding like \"sh\"."
+  },
+  {
+   "id": "geography-1244",
+   "category": "Geography",
+   "q": "What is the main language spoken in Egypt?",
+   "choices": [
+    "Turkish",
+    "Egyptian",
+    "French",
+    "Arabic"
+   ],
+   "answer": 3,
+   "fact": "The ancient Egyptian language is no longer spoken in daily life, but a form of it survives in church services."
+  },
+  {
+   "id": "geography-1245",
+   "category": "Geography",
+   "q": "What is the main language spoken in Iran?",
+   "choices": [
+    "Turkish",
+    "Persian",
+    "Arabic",
+    "Urdu"
+   ],
+   "answer": 1,
+   "fact": "Persian is also called Farsi, and it is written with a form of the Arabic alphabet."
+  },
+  {
+   "id": "geography-1246",
+   "category": "Geography",
+   "q": "Which language is widely spoken across East Africa, in countries like Kenya and Tanzania?",
+   "choices": [
+    "Swahili",
+    "Yoruba",
+    "Zulu",
+    "Amharic"
+   ],
+   "answer": 0,
+   "fact": "The word safari comes from Swahili and means \"journey\"."
+  },
+  {
+   "id": "geography-1247",
+   "category": "Geography",
+   "q": "How many national languages does Switzerland have?",
+   "choices": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ],
+   "answer": 1,
+   "fact": "Switzerland's languages are German, French, Italian and Romansh."
+  },
+  {
+   "id": "geography-1248",
+   "category": "Geography",
+   "q": "Which language has the most native speakers in the world?",
+   "choices": [
+    "Spanish",
+    "Mandarin Chinese",
+    "English",
+    "Hindi"
+   ],
+   "answer": 1,
+   "fact": "As of 2025, more than 900 million people speak Mandarin as their first language."
+  },
+  {
+   "id": "geography-1249",
+   "category": "Geography",
+   "q": "What is the main language spoken in Austria?",
+   "choices": [
+    "French",
+    "German",
+    "Hungarian",
+    "Austrian"
+   ],
+   "answer": 1,
+   "fact": "Austrians speak German with their own words, like \"Jänner\" for January."
+  },
+  {
+   "id": "geography-1250",
+   "category": "Geography",
+   "q": "What is the currency of Japan?",
+   "choices": [
+    "Ringgit",
+    "Yen",
+    "Won",
+    "Yuan"
+   ],
+   "answer": 1,
+   "fact": "The 5 yen coin has a hole in the middle."
+  },
+  {
+   "id": "geography-1251",
+   "category": "Geography",
+   "q": "What is the currency of the United Kingdom?",
+   "choices": [
+    "Franc",
+    "Dollar",
+    "Pound sterling",
+    "Euro"
+   ],
+   "answer": 2,
+   "fact": "The pound is the oldest currency still in use, going back more than 1,200 years."
+  },
+  {
+   "id": "geography-1252",
+   "category": "Geography",
+   "q": "What is the currency of India?",
+   "choices": [
+    "Rupee",
+    "Taka",
+    "Dinar",
+    "Rupiah"
+   ],
+   "answer": 0,
+   "fact": "The Indian rupee got its own symbol, ₹, in 2010."
+  },
+  {
+   "id": "geography-1253",
+   "category": "Geography",
+   "q": "What is the currency of Mexico?",
+   "choices": [
+    "Dollar",
+    "Real",
+    "Bolívar",
+    "Peso"
+   ],
+   "answer": 3,
+   "fact": "The peso's symbol, $, was used before the US dollar adopted it."
+  },
+  {
+   "id": "geography-1254",
+   "category": "Geography",
+   "q": "What is the currency of Russia?",
+   "choices": [
+    "Krone",
+    "Złoty",
+    "Ruble",
+    "Hryvnia"
+   ],
+   "answer": 2,
+   "fact": "One ruble is divided into 100 kopecks."
+  },
+  {
+   "id": "geography-1255",
+   "category": "Geography",
+   "q": "What is the currency of South Korea?",
+   "choices": [
+    "Won",
+    "Yuan",
+    "Yen",
+    "Baht"
+   ],
+   "answer": 0,
+   "fact": "The most common South Korean coins are 10, 50, 100 and 500 won."
+  },
+  {
+   "id": "geography-1256",
+   "category": "Geography",
+   "q": "What is the currency of Brazil?",
+   "choices": [
+    "Escudo",
+    "Cruzado",
+    "Peso",
+    "Real"
+   ],
+   "answer": 3,
+   "fact": "Brazil's real banknotes show animals like the jaguar and the golden lion tamarin."
+  },
+  {
+   "id": "geography-1257",
+   "category": "Geography",
+   "q": "What is the currency of China?",
+   "choices": [
+    "Yuan",
+    "Dong",
+    "Won",
+    "Yen"
+   ],
+   "answer": 0,
+   "fact": "China's currency is officially called the renminbi, and the yuan is its main unit."
+  },
+  {
+   "id": "geography-1258",
+   "category": "Geography",
+   "q": "What is the currency of Switzerland?",
+   "choices": [
+    "Euro",
+    "Swiss mark",
+    "Krona",
+    "Swiss franc"
+   ],
+   "answer": 3,
+   "fact": "Switzerland is surrounded by euro countries but kept its own franc."
+  },
+  {
+   "id": "geography-1259",
+   "category": "Geography",
+   "q": "What is the currency of Thailand?",
+   "choices": [
+    "Kip",
+    "Rupee",
+    "Baht",
+    "Dong"
+   ],
+   "answer": 2,
+   "fact": "Thai banknotes all show a picture of the king."
+  },
+  {
+   "id": "geography-1260",
+   "category": "Geography",
+   "q": "Which is the largest US state by area?",
+   "choices": [
+    "California",
+    "Montana",
+    "Texas",
+    "Alaska"
+   ],
+   "answer": 3,
+   "fact": "Alaska is more than twice as big as Texas."
+  },
+  {
+   "id": "geography-1261",
+   "category": "Geography",
+   "q": "Which is the smallest US state by area?",
+   "choices": [
+    "Rhode Island",
+    "Vermont",
+    "Delaware",
+    "Connecticut"
+   ],
+   "answer": 0,
+   "fact": "Rhode Island could fit into Alaska more than 400 times."
+  },
+  {
+   "id": "geography-1262",
+   "category": "Geography",
+   "q": "Which US state is nicknamed the Sunshine State?",
+   "choices": [
+    "California",
+    "Hawaii",
+    "Florida",
+    "Arizona"
+   ],
+   "answer": 2,
+   "fact": "Florida grows most of the oranges used for orange juice in the United States."
+  },
+  {
+   "id": "geography-1263",
+   "category": "Geography",
+   "q": "Which US state is nicknamed the Lone Star State?",
+   "choices": [
+    "Nevada",
+    "Texas",
+    "Arizona",
+    "Oklahoma"
+   ],
+   "answer": 1,
+   "fact": "The nickname comes from the single star on the Texas flag."
+  },
+  {
+   "id": "geography-1264",
+   "category": "Geography",
+   "q": "Which US state is nicknamed the Golden State?",
+   "choices": [
+    "Nevada",
+    "California",
+    "Alaska",
+    "Colorado"
+   ],
+   "answer": 1,
+   "fact": "The name comes from the gold rush and the state's golden poppies."
+  },
+  {
+   "id": "geography-1265",
+   "category": "Geography",
+   "q": "Which US state is nicknamed the Empire State?",
+   "choices": [
+    "Pennsylvania",
+    "Massachusetts",
+    "New Jersey",
+    "New York"
+   ],
+   "answer": 3,
+   "fact": "The famous Empire State Building in New York City is named after the nickname."
+  },
+  {
+   "id": "geography-1266",
+   "category": "Geography",
+   "q": "Which US state is made up entirely of islands?",
+   "choices": [
+    "Hawaii",
+    "Florida",
+    "Alaska",
+    "Rhode Island"
+   ],
+   "answer": 0,
+   "fact": "Hawaii's Big Island is still growing because of lava from its volcanoes."
+  },
+  {
+   "id": "geography-1267",
+   "category": "Geography",
+   "q": "Which US state is shaped like a mitten?",
+   "choices": [
+    "Michigan",
+    "Wisconsin",
+    "Ohio",
+    "Minnesota"
+   ],
+   "answer": 0,
+   "fact": "People in Michigan often point to a spot on their hand to show where they live."
+  },
+  {
+   "id": "geography-1268",
+   "category": "Geography",
+   "q": "Which US state is nicknamed the Grand Canyon State?",
+   "choices": [
+    "Utah",
+    "Arizona",
+    "Colorado",
+    "New Mexico"
+   ],
+   "answer": 1,
+   "fact": "Arizona does not switch to daylight saving time, except in the Navajo Nation."
+  },
+  {
+   "id": "geography-1269",
+   "category": "Geography",
+   "q": "As of 2025, which US state has the most people?",
+   "choices": [
+    "Texas",
+    "Florida",
+    "California",
+    "New York"
+   ],
+   "answer": 2,
+   "fact": "About one in nine Americans lives in California."
+  },
+  {
+   "id": "geography-1270",
+   "category": "Geography",
+   "q": "Which of these states touches the Four Corners, where four states meet?",
+   "choices": [
+    "Texas",
+    "Utah",
+    "Nevada",
+    "Kansas"
+   ],
+   "answer": 1,
+   "fact": "At the Four Corners, Utah, Colorado, Arizona and New Mexico meet at one point."
+  },
+  {
+   "id": "geography-1271",
+   "category": "Geography",
+   "q": "In which US state is most of Yellowstone National Park?",
+   "choices": [
+    "Colorado",
+    "Idaho",
+    "Wyoming",
+    "Montana"
+   ],
+   "answer": 2,
+   "fact": "Yellowstone became the world's first national park in 1872."
+  },
+  {
+   "id": "geography-1272",
+   "category": "Geography",
+   "q": "In which US state is Mount Rushmore?",
+   "choices": [
+    "Wyoming",
+    "Montana",
+    "South Dakota",
+    "North Dakota"
+   ],
+   "answer": 2,
+   "fact": "Each face on Mount Rushmore is about 18 meters tall."
+  },
+  {
+   "id": "geography-1273",
+   "category": "Geography",
+   "q": "In which US city is the Space Needle?",
+   "choices": [
+    "Denver",
+    "Portland",
+    "Seattle",
+    "San Francisco"
+   ],
+   "answer": 2,
+   "fact": "The Space Needle was built for the 1962 World's Fair."
+  },
+  {
+   "id": "geography-1274",
+   "category": "Geography",
+   "q": "In which US city is the Gateway Arch?",
+   "choices": [
+    "Cincinnati",
+    "Kansas City",
+    "St. Louis",
+    "Chicago"
+   ],
+   "answer": 2,
+   "fact": "The Gateway Arch is 192 meters tall and just as wide at its base."
+  },
+  {
+   "id": "geography-1275",
+   "category": "Geography",
+   "q": "What does DC stand for in Washington, DC?",
+   "choices": [
+    "Democratic Center",
+    "District of Columbia",
+    "Department of Congress",
+    "Downtown Capital"
+   ],
+   "answer": 1,
+   "fact": "Washington, DC is not part of any state."
+  },
+  {
+   "id": "geography-1276",
+   "category": "Geography",
+   "q": "In which US state is the Great Salt Lake?",
+   "choices": [
+    "Utah",
+    "Arizona",
+    "Nevada",
+    "Idaho"
+   ],
+   "answer": 0,
+   "fact": "The Great Salt Lake is saltier than the ocean, so people float easily in it."
+  },
+  {
+   "id": "geography-1277",
+   "category": "Geography",
+   "q": "In which US state are the Everglades?",
+   "choices": [
+    "Georgia",
+    "Louisiana",
+    "Texas",
+    "Florida"
+   ],
+   "answer": 3,
+   "fact": "The Everglades is the only place where alligators and crocodiles live side by side in the wild."
+  },
+  {
+   "id": "geography-1278",
+   "category": "Geography",
+   "q": "Which US city is nicknamed the Big Apple?",
+   "choices": [
+    "Chicago",
+    "Boston",
+    "New York City",
+    "Los Angeles"
+   ],
+   "answer": 2,
+   "fact": "The nickname became popular through jazz musicians and a 1970s tourism campaign."
+  },
+  {
+   "id": "geography-1279",
+   "category": "Geography",
+   "q": "Which US city is nicknamed the Windy City?",
+   "choices": [
+    "Boston",
+    "Denver",
+    "Chicago",
+    "Seattle"
+   ],
+   "answer": 2,
+   "fact": "Chicago isn't actually the windiest city in the US, and some say the nickname came from boastful politicians."
+  },
+  {
+   "id": "geography-1280",
+   "category": "Geography",
+   "q": "Which US city's name means \"the angels\" in Spanish?",
+   "choices": [
+    "Los Angeles",
+    "San Diego",
+    "Las Vegas",
+    "San Francisco"
+   ],
+   "answer": 0,
+   "fact": "Los Angeles has more people than any other city in California."
+  },
+  {
+   "id": "geography-1281",
+   "category": "Geography",
+   "q": "Which US state has the most active volcanoes?",
+   "choices": [
+    "Alaska",
+    "Washington",
+    "Oregon",
+    "Hawaii"
+   ],
+   "answer": 0,
+   "fact": "Alaska has more than 50 volcanoes that have erupted in recorded history."
+  },
+  {
+   "id": "geography-1282",
+   "category": "Geography",
+   "q": "Which US state is known as the Bluegrass State?",
+   "choices": [
+    "Ohio",
+    "Tennessee",
+    "Kentucky",
+    "Virginia"
+   ],
+   "answer": 2,
+   "fact": "Kentucky's famous horse race, the Kentucky Derby, has been held since 1875."
+  },
+  {
+   "id": "geography-1283",
+   "category": "Geography",
+   "q": "Which city is nicknamed the City of Light?",
+   "choices": [
+    "New York City",
+    "Paris",
+    "London",
+    "Las Vegas"
+   ],
+   "answer": 1,
+   "fact": "Paris was one of the first big cities to light its streets with gas lamps."
+  },
+  {
+   "id": "geography-1284",
+   "category": "Geography",
+   "q": "Which city is split between Europe and Asia?",
+   "choices": [
+    "Istanbul",
+    "Moscow",
+    "Athens",
+    "Cairo"
+   ],
+   "answer": 0,
+   "fact": "Istanbul was called Byzantium and then Constantinople in the past."
+  },
+  {
+   "id": "geography-1285",
+   "category": "Geography",
+   "q": "Which city is famous for its canals and gondolas?",
+   "choices": [
+    "Bruges",
+    "Florence",
+    "Amsterdam",
+    "Venice"
+   ],
+   "answer": 3,
+   "fact": "Venice has no cars on its islands; people get around by boat or on foot."
+  },
+  {
+   "id": "geography-1286",
+   "category": "Geography",
+   "q": "What is the great bell inside London's Elizabeth Tower called?",
+   "choices": [
+    "Big Ben",
+    "Great Tom",
+    "Liberty Bell",
+    "Old Bob"
+   ],
+   "answer": 0,
+   "fact": "Many people call the whole clock tower Big Ben, but the name belongs to the bell."
+  },
+  {
+   "id": "geography-1287",
+   "category": "Geography",
+   "q": "In which Italian city is the famous Leaning Tower?",
+   "choices": [
+    "Pisa",
+    "Rome",
+    "Florence",
+    "Venice"
+   ],
+   "answer": 0,
+   "fact": "The tower started to lean while it was still being built, because the ground beneath it is soft."
+  },
+  {
+   "id": "geography-1288",
+   "category": "Geography",
+   "q": "Which city has the giant statue of Christ the Redeemer on a mountain?",
+   "choices": [
+    "Rio de Janeiro",
+    "Mexico City",
+    "Lisbon",
+    "Buenos Aires"
+   ],
+   "answer": 0,
+   "fact": "The statue is about 30 meters tall and its arms stretch about 28 meters."
+  },
+  {
+   "id": "geography-1289",
+   "category": "Geography",
+   "q": "In which city is the famous Opera House with roofs shaped like sails?",
+   "choices": [
+    "Auckland",
+    "Sydney",
+    "Cape Town",
+    "Melbourne"
+   ],
+   "answer": 1,
+   "fact": "The Sydney Opera House roofs are covered with more than one million tiles."
+  },
+  {
+   "id": "geography-1290",
+   "category": "Geography",
+   "q": "In which Indian city is the Taj Mahal?",
+   "choices": [
+    "New Delhi",
+    "Jaipur",
+    "Agra",
+    "Mumbai"
+   ],
+   "answer": 2,
+   "fact": "The Taj Mahal seems to change color from pink to white to gold during the day."
+  },
+  {
+   "id": "geography-1291",
+   "category": "Geography",
+   "q": "As of 2025, which city has the tallest building in the world?",
+   "choices": [
+    "Shanghai",
+    "Dubai",
+    "Kuala Lumpur",
+    "New York City"
+   ],
+   "answer": 1,
+   "fact": "The Burj Khalifa in Dubai is about 828 meters tall."
+  },
+  {
+   "id": "geography-1292",
+   "category": "Geography",
+   "q": "In which city is the Kremlin?",
+   "choices": [
+    "Kyiv",
+    "Moscow",
+    "Saint Petersburg",
+    "Minsk"
+   ],
+   "answer": 1,
+   "fact": "Kremlin means \"fortress inside a city\" in Russian."
+  },
+  {
+   "id": "geography-1293",
+   "category": "Geography",
+   "q": "In which country is Neuschwanstein, the castle that inspired Disney's Sleeping Beauty Castle?",
+   "choices": [
+    "Austria",
+    "Switzerland",
+    "France",
+    "Germany"
+   ],
+   "answer": 3,
+   "fact": "King Ludwig II built Neuschwanstein in the 1800s but lived there only a few months."
+  },
+  {
+   "id": "geography-1294",
+   "category": "Geography",
+   "q": "In which country is Stonehenge?",
+   "choices": [
+    "Scotland",
+    "England",
+    "Ireland",
+    "France"
+   ],
+   "answer": 1,
+   "fact": "Stonehenge is on Salisbury Plain in the county of Wiltshire."
+  },
+  {
+   "id": "geography-1295",
+   "category": "Geography",
+   "q": "In which city is the Sagrada Família church, still being built after more than 140 years?",
+   "choices": [
+    "Rome",
+    "Barcelona",
+    "Madrid",
+    "Lisbon"
+   ],
+   "answer": 1,
+   "fact": "Work on the Sagrada Família started in 1882, and the architect Antoni Gaudí spent decades on it."
+  },
+  {
+   "id": "geography-1296",
+   "category": "Geography",
+   "q": "In which city is the Forbidden City palace?",
+   "choices": [
+    "Shanghai",
+    "Beijing",
+    "Seoul",
+    "Tokyo"
+   ],
+   "answer": 1,
+   "fact": "Ordinary people were not allowed inside the Forbidden City for about 500 years."
+  },
+  {
+   "id": "geography-1297",
+   "category": "Geography",
+   "q": "In which city is the Brandenburg Gate?",
+   "choices": [
+    "Munich",
+    "Vienna",
+    "Hamburg",
+    "Berlin"
+   ],
+   "answer": 3,
+   "fact": "The Brandenburg Gate became a symbol of German unity after the Berlin Wall came down."
+  },
+  {
+   "id": "geography-1298",
+   "category": "Geography",
+   "q": "In which country is Uluru, the giant red rock also called Ayers Rock?",
+   "choices": [
+    "Australia",
+    "New Zealand",
+    "South Africa",
+    "United States"
+   ],
+   "answer": 0,
+   "fact": "Uluru is sacred to the local Aboriginal people, the Anangu."
+  },
+  {
+   "id": "geography-1299",
+   "category": "Geography",
+   "q": "In which city is Hagia Sophia, a building that has been a church, a mosque and a museum?",
+   "choices": [
+    "Rome",
+    "Athens",
+    "Cairo",
+    "Istanbul"
+   ],
+   "answer": 3,
+   "fact": "Hagia Sophia was finished in AD 537, and its giant dome amazed people for centuries."
+  },
+  {
+   "id": "geography-1300",
+   "category": "Geography",
+   "q": "In which Spanish city is the Alhambra palace?",
+   "choices": [
+    "Seville",
+    "Granada",
+    "Barcelona",
+    "Madrid"
+   ],
+   "answer": 1,
+   "fact": "The Alhambra was built by Moorish rulers and is covered in detailed tile and carved patterns."
+  },
+  {
+   "id": "geography-1301",
+   "category": "Geography",
+   "q": "In which city is the Louvre, the museum that holds the Mona Lisa?",
+   "choices": [
+    "London",
+    "Paris",
+    "Madrid",
+    "Rome"
+   ],
+   "answer": 1,
+   "fact": "The Louvre is the most visited art museum in the world."
+  },
+  {
+   "id": "geography-1302",
+   "category": "Geography",
+   "q": "In which country are the famous Pyramids of Giza?",
+   "choices": [
+    "Jordan",
+    "Mexico",
+    "Sudan",
+    "Egypt"
+   ],
+   "answer": 3,
+   "fact": "Giza is right next to Egypt's capital, Cairo."
+  },
+  {
+   "id": "geography-1303",
+   "category": "Geography",
+   "q": "In which country is the ancient city of Petra?",
+   "choices": [
+    "Turkey",
+    "Israel",
+    "Egypt",
+    "Jordan"
+   ],
+   "answer": 3,
+   "fact": "Petra was named one of the New Seven Wonders of the World in 2007."
+  },
+  {
+   "id": "geography-1304",
+   "category": "Geography",
+   "q": "In which country is the Great Wall?",
+   "choices": [
+    "Japan",
+    "Korea",
+    "Mongolia",
+    "China"
+   ],
+   "answer": 3,
+   "fact": "The Great Wall, with all its branches, is more than 20,000 kilometers long."
+  },
+  {
+   "id": "geography-1305",
+   "category": "Geography",
+   "q": "In which Canadian city is the CN Tower?",
+   "choices": [
+    "Vancouver",
+    "Toronto",
+    "Calgary",
+    "Montreal"
+   ],
+   "answer": 1,
+   "fact": "The CN Tower has a glass floor where you can look straight down 342 meters."
+  },
+  {
+   "id": "geography-1306",
+   "category": "Geography",
+   "q": "In which city do people climb the Spanish Steps and toss coins into the Trevi Fountain?",
+   "choices": [
+    "Florence",
+    "Barcelona",
+    "Madrid",
+    "Rome"
+   ],
+   "answer": 3,
+   "fact": "About 3,000 euros in coins are thrown into the Trevi Fountain each day, and the money goes to charity."
+  },
+  {
+   "id": "geography-1307",
+   "category": "Geography",
+   "q": "In which city are the Petronas Twin Towers?",
+   "choices": [
+    "Bangkok",
+    "Jakarta",
+    "Kuala Lumpur",
+    "Singapore"
+   ],
+   "answer": 2,
+   "fact": "A sky bridge connects the two towers on their 41st and 42nd floors."
+  },
+  {
+   "id": "geography-1308",
+   "category": "Geography",
+   "q": "What are the imaginary lines on a map that run from the North Pole to the South Pole called?",
+   "choices": [
+    "Lines of longitude",
+    "Contour lines",
+    "Tropics",
+    "Lines of latitude"
+   ],
+   "answer": 0,
+   "fact": "Lines of longitude are also called meridians."
+  },
+  {
+   "id": "geography-1309",
+   "category": "Geography",
+   "q": "Through which place in London does the Prime Meridian pass?",
+   "choices": [
+    "Wimbledon",
+    "Westminster",
+    "Greenwich",
+    "Camden"
+   ],
+   "answer": 2,
+   "fact": "Visitors to Greenwich can stand with one foot in each hemisphere."
+  },
+  {
+   "id": "geography-1310",
+   "category": "Geography",
+   "q": "At what latitude is the Equator?",
+   "choices": [
+    "90 degrees",
+    "0 degrees",
+    "180 degrees",
+    "45 degrees"
+   ],
+   "answer": 1,
+   "fact": "The North Pole is at 90 degrees north latitude."
+  },
+  {
+   "id": "geography-1311",
+   "category": "Geography",
+   "q": "Which line of latitude lies about 23.5 degrees south of the Equator?",
+   "choices": [
+    "Tropic of Capricorn",
+    "Tropic of Cancer",
+    "Arctic Circle",
+    "Prime Meridian"
+   ],
+   "answer": 0,
+   "fact": "The Tropic of Capricorn passes through Australia, South America and southern Africa."
+  },
+  {
+   "id": "geography-1312",
+   "category": "Geography",
+   "q": "Which line of latitude lies about 23.5 degrees north of the Equator?",
+   "choices": [
+    "Tropic of Capricorn",
+    "Prime Meridian",
+    "Antarctic Circle",
+    "Tropic of Cancer"
+   ],
+   "answer": 3,
+   "fact": "The Tropic of Cancer passes through Mexico, Egypt, India and China."
+  },
+  {
+   "id": "geography-1313",
+   "category": "Geography",
+   "q": "In which ocean is most of the International Date Line?",
+   "choices": [
+    "Indian Ocean",
+    "Arctic Ocean",
+    "Atlantic Ocean",
+    "Pacific Ocean"
+   ],
+   "answer": 3,
+   "fact": "If you cross the International Date Line going west, you skip ahead one day."
+  },
+  {
+   "id": "geography-1314",
+   "category": "Geography",
+   "q": "What is the box on a map that explains what its symbols mean called?",
+   "choices": [
+    "Grid",
+    "Legend",
+    "Compass rose",
+    "Scale"
+   ],
+   "answer": 1,
+   "fact": "A map legend is also called a key."
+  },
+  {
+   "id": "geography-1315",
+   "category": "Geography",
+   "q": "What is the drawing on a map that shows north, south, east and west called?",
+   "choices": [
+    "Compass rose",
+    "Legend",
+    "Grid",
+    "Scale bar"
+   ],
+   "answer": 0,
+   "fact": "Old compass roses were often drawn with fancy points that looked like flower petals."
+  },
+  {
+   "id": "geography-1316",
+   "category": "Geography",
+   "q": "What do contour lines on a map show?",
+   "choices": [
+    "Country borders",
+    "Roads",
+    "Height of the land",
+    "Ocean currents"
+   ],
+   "answer": 2,
+   "fact": "When contour lines are close together, the land is steep."
+  },
+  {
+   "id": "geography-1317",
+   "category": "Geography",
+   "q": "Which two hemispheres is Australia in?",
+   "choices": [
+    "Southern and Eastern",
+    "Southern and Western",
+    "Northern and Western",
+    "Northern and Eastern"
+   ],
+   "answer": 0,
+   "fact": "Australia is entirely south of the Equator and east of the Prime Meridian."
+  },
+  {
+   "id": "geography-1318",
+   "category": "Geography",
+   "q": "Which hemisphere are all 50 US states in, north or south?",
+   "choices": [
+    "Northern",
+    "Neither",
+    "Both northern and southern",
+    "Southern"
+   ],
+   "answer": 0,
+   "fact": "All 50 US states, even Hawaii, are north of the Equator."
+  },
+  {
+   "id": "geography-1319",
+   "category": "Geography",
+   "q": "What does a map projection do?",
+   "choices": [
+    "Measures rainfall",
+    "Shows only oceans",
+    "Shows the round Earth on a flat surface",
+    "Shows the weather"
+   ],
+   "answer": 2,
+   "fact": "Every flat map stretches something, which is why Greenland looks huge on many maps."
+  },
+  {
+   "id": "geography-1320",
+   "category": "Geography",
+   "q": "What type of map shows the height of mountains and valleys?",
+   "choices": [
+    "Political map",
+    "Road map",
+    "Climate map",
+    "Topographic map"
+   ],
+   "answer": 3,
+   "fact": "Hikers use topographic maps to plan routes and see how steep a trail will be."
+  },
+  {
+   "id": "geography-1321",
+   "category": "Geography",
+   "q": "What is a map that shows borders between countries and states called?",
+   "choices": [
+    "Weather map",
+    "Relief map",
+    "Physical map",
+    "Political map"
+   ],
+   "answer": 3,
+   "fact": "Political maps usually color each country differently so they stand out."
+  },
+  {
+   "id": "geography-1322",
+   "category": "Geography",
+   "q": "Which instrument has a magnetic needle that points north?",
+   "choices": [
+    "Sextant",
+    "Compass",
+    "Barometer",
+    "Thermometer"
+   ],
+   "answer": 1,
+   "fact": "A compass points to magnetic north, which is not exactly the same spot as the North Pole."
+  },
+  {
+   "id": "geography-1323",
+   "category": "Geography",
+   "q": "Which African country has the famous Serengeti plains, known for the great wildebeest migration?",
+   "choices": [
+    "Morocco",
+    "Tanzania",
+    "Ghana",
+    "Egypt"
+   ],
+   "answer": 1,
+   "fact": "More than a million wildebeest move across the Serengeti each year looking for fresh grass."
+  },
+  {
+   "id": "geography-1324",
+   "category": "Geography",
+   "q": "Which European country is famous for windmills, tulips and wooden shoes?",
+   "choices": [
+    "Netherlands",
+    "Belgium",
+    "Switzerland",
+    "Denmark"
+   ],
+   "answer": 0,
+   "fact": "About a quarter of the Netherlands is below sea level."
+  },
+  {
+   "id": "geography-1325",
+   "category": "Geography",
+   "q": "In which country would you find the city of Kyoto with its many temples?",
+   "choices": [
+    "South Korea",
+    "Vietnam",
+    "Japan",
+    "China"
+   ],
+   "answer": 2,
+   "fact": "Kyoto was spared from bombing in World War II because of its cultural treasures."
+  },
+  {
+   "id": "geography-1326",
+   "category": "Geography",
+   "q": "What do people call the high, flat grasslands of Argentina?",
+   "choices": [
+    "Prairie",
+    "Savanna",
+    "Pampas",
+    "Steppes"
+   ],
+   "answer": 2,
+   "fact": "Cowboys called gauchos herd cattle on the Pampas."
+  },
+  {
+   "id": "geography-1327",
+   "category": "Geography",
+   "q": "What are the huge grasslands of central Russia and Kazakhstan called?",
+   "choices": [
+    "Pampas",
+    "Tundra",
+    "Steppes",
+    "Savanna"
+   ],
+   "answer": 2,
+   "fact": "Horse riders like the Mongols once crossed the steppes on their great journeys."
+  },
+  {
+   "id": "geography-1328",
+   "category": "Geography",
+   "q": "What is the cold, treeless land of the far north called?",
+   "choices": [
+    "Savanna",
+    "Tundra",
+    "Taiga",
+    "Steppe"
+   ],
+   "answer": 1,
+   "fact": "Under the tundra lies permafrost, ground that stays frozen all year."
+  },
+  {
+   "id": "geography-1329",
+   "category": "Geography",
+   "q": "What is the huge northern forest of pine and spruce trees that circles the Arctic called?",
+   "choices": [
+    "Rainforest",
+    "Taiga",
+    "Tundra",
+    "Savanna"
+   ],
+   "answer": 1,
+   "fact": "The taiga is the largest land biome in the world."
+  },
+  {
+   "id": "geography-1330",
+   "category": "Geography",
+   "q": "Which rainforest is the largest in the world?",
+   "choices": [
+    "Daintree rainforest",
+    "Congo rainforest",
+    "Borneo rainforest",
+    "Amazon rainforest"
+   ],
+   "answer": 3,
+   "fact": "The Amazon rainforest spreads across nine countries."
+  },
+  {
+   "id": "geography-1331",
+   "category": "Geography",
+   "q": "Which country has most of the Amazon rainforest?",
+   "choices": [
+    "Venezuela",
+    "Brazil",
+    "Colombia",
+    "Peru"
+   ],
+   "answer": 1,
+   "fact": "About 60 percent of the Amazon rainforest is in Brazil."
+  },
+  {
+   "id": "geography-1332",
+   "category": "Geography",
+   "q": "Which region in the far north of Scandinavia is famous for reindeer herding by the Sámi people?",
+   "choices": [
+    "Lapland",
+    "Patagonia",
+    "Bavaria",
+    "Siberia"
+   ],
+   "answer": 0,
+   "fact": "Finland's part of Lapland is often called the home of Santa Claus."
+  },
+  {
+   "id": "geography-1333",
+   "category": "Geography",
+   "q": "Which region at the southern tip of South America is shared by Argentina and Chile?",
+   "choices": [
+    "Amazonia",
+    "Pampas",
+    "Patagonia",
+    "Lapland"
+   ],
+   "answer": 2,
+   "fact": "Patagonia has glaciers, huge mountains and very strong winds."
+  },
+  {
+   "id": "geography-1334",
+   "category": "Geography",
+   "q": "Which huge region of Russia east of the Ural Mountains is known for its freezing winters?",
+   "choices": [
+    "Siberia",
+    "Patagonia",
+    "Mongolia",
+    "Lapland"
+   ],
+   "answer": 0,
+   "fact": "The village of Oymyakon in Siberia is one of the coldest places where people live year round."
+  },
+  {
+   "id": "geography-1335",
+   "category": "Geography",
+   "q": "Which country has more time zones on its mainland than any other?",
+   "choices": [
+    "United States",
+    "Canada",
+    "Russia",
+    "China"
+   ],
+   "answer": 2,
+   "fact": "Russia stretches across 11 time zones."
+  },
+  {
+   "id": "geography-1336",
+   "category": "Geography",
+   "q": "Even though China is very wide, how many official time zones does it use?",
+   "choices": [
+    "5",
+    "4",
+    "3",
+    "1"
+   ],
+   "answer": 3,
+   "fact": "All of China uses Beijing time, so the sun can rise very late in the far west."
+  },
+  {
+   "id": "geography-1337",
+   "category": "Geography",
+   "q": "What is the lowest point on land on Earth?",
+   "choices": [
+    "Caspian Sea shore",
+    "Dead Sea shore",
+    "Grand Canyon",
+    "Death Valley"
+   ],
+   "answer": 1,
+   "fact": "The shore of the Dead Sea is more than 400 meters below sea level."
+  },
+  {
+   "id": "geography-1338",
+   "category": "Geography",
+   "q": "In which ocean is the Mariana Trench, the deepest part of the ocean?",
+   "choices": [
+    "Pacific Ocean",
+    "Indian Ocean",
+    "Atlantic Ocean",
+    "Arctic Ocean"
+   ],
+   "answer": 0,
+   "fact": "The Mariana Trench is about 11,000 meters deep, deeper than Mount Everest is tall."
+  },
+  {
+   "id": "geography-1339",
+   "category": "Geography",
+   "q": "Which mountain range has the 10 highest mountains in the world?",
+   "choices": [
+    "Alps",
+    "Andes",
+    "Rocky Mountains",
+    "Himalayas and Karakoram"
+   ],
+   "answer": 3,
+   "fact": "All mountains over 8,000 meters tall are in Asia."
+  },
+  {
+   "id": "geography-1340",
+   "category": "Geography",
+   "q": "Which country has the most volcanoes that have erupted in recorded history?",
+   "choices": [
+    "Italy",
+    "Chile",
+    "Iceland",
+    "Indonesia"
+   ],
+   "answer": 3,
+   "fact": "Indonesia sits on the Ring of Fire, where many earthquakes and eruptions happen."
+  },
+  {
+   "id": "geography-1341",
+   "category": "Geography",
+   "q": "What is the ring of volcanoes and earthquake zones around the Pacific Ocean called?",
+   "choices": [
+    "Ring of Fire",
+    "Lava Loop",
+    "Pacific Belt",
+    "Volcano Arc"
+   ],
+   "answer": 0,
+   "fact": "About three quarters of the world's active volcanoes are in the Ring of Fire."
+  },
+  {
+   "id": "geography-1342",
+   "category": "Geography",
+   "q": "Which famous road in Germany has no general speed limit on many stretches?",
+   "choices": [
+    "Champs-Élysées",
+    "Route 66",
+    "Autobahn",
+    "Silk Road"
+   ],
+   "answer": 2,
+   "fact": "Some parts of the Autobahn do have speed limits, especially near cities."
+  },
+  {
+   "id": "geography-1343",
+   "category": "Geography",
+   "q": "Which famous avenue in Paris leads to the Arc de Triomphe?",
+   "choices": [
+    "Las Ramblas",
+    "Fifth Avenue",
+    "Broadway",
+    "Champs-Élysées"
+   ],
+   "answer": 3,
+   "fact": "The Tour de France bike race usually finishes on the Champs-Élysées."
+  },
+  {
+   "id": "geography-1344",
+   "category": "Geography",
+   "q": "Which famous old highway in the United States ran from Chicago to Los Angeles?",
+   "choices": [
+    "Lincoln Highway",
+    "Interstate 95",
+    "Route 66",
+    "Pacific Coast Highway"
+   ],
+   "answer": 2,
+   "fact": "Route 66 was nicknamed the Mother Road."
+  },
+  {
+   "id": "geography-1345",
+   "category": "Geography",
+   "q": "Which country is known for having more sheep than people?",
+   "choices": [
+    "New Zealand",
+    "Mexico",
+    "Egypt",
+    "Japan"
+   ],
+   "answer": 0,
+   "fact": "As of 2025, New Zealand has about four or five sheep for every person."
+  },
+  {
+   "id": "geography-1346",
+   "category": "Geography",
+   "q": "Which European country is shaped a bit like a hexagon, so its people call it L'Hexagone?",
+   "choices": [
+    "France",
+    "Spain",
+    "Germany",
+    "Poland"
+   ],
+   "answer": 0,
+   "fact": "France also has overseas regions in places like the Caribbean and the Indian Ocean."
+  },
+  {
+   "id": "geography-1347",
+   "category": "Geography",
+   "q": "Which country is home to the city of Casablanca?",
+   "choices": [
+    "Algeria",
+    "Tunisia",
+    "Egypt",
+    "Morocco"
+   ],
+   "answer": 3,
+   "fact": "Casablanca means \"white house\" in Spanish."
+  },
+  {
+   "id": "geography-1348",
+   "category": "Geography",
+   "q": "What is the name of the narrow strip of land that connects North and South America?",
+   "choices": [
+    "Isthmus of Panama",
+    "Strait of Magellan",
+    "Gulf of Mexico",
+    "Yucatán Peninsula"
+   ],
+   "answer": 0,
+   "fact": "The Isthmus of Panama formed about 3 million years ago, joining the two continents."
+  },
+  {
+   "id": "geography-1349",
+   "category": "Geography",
+   "q": "Which body of water lies between Australia and New Zealand?",
+   "choices": [
+    "Tasman Sea",
+    "Coral Sea",
+    "Arafura Sea",
+    "Timor Sea"
+   ],
+   "answer": 0,
+   "fact": "It is named after the Dutch explorer Abel Tasman."
+  },
+  {
+   "id": "geography-1350",
+   "category": "Geography",
+   "q": "Which sea is home to Australia's Great Barrier Reef?",
+   "choices": [
+    "Red Sea",
+    "Coral Sea",
+    "Java Sea",
+    "Tasman Sea"
+   ],
+   "answer": 1,
+   "fact": "The Coral Sea is named after its huge coral reefs."
+  },
+  {
+   "id": "geography-1351",
+   "category": "Geography",
+   "q": "Which sea in northern Europe is bordered by Sweden, Finland, Poland and Germany?",
+   "choices": [
+    "Black Sea",
+    "North Sea",
+    "Baltic Sea",
+    "Barents Sea"
+   ],
+   "answer": 2,
+   "fact": "The Baltic Sea has low saltiness because many rivers pour fresh water into it."
+  },
+  {
+   "id": "geography-1352",
+   "category": "Geography",
+   "q": "Which bay in Canada is so big it is sometimes called an inland sea?",
+   "choices": [
+    "Hudson Bay",
+    "James Bay",
+    "Bay of Fundy",
+    "Baffin Bay"
+   ],
+   "answer": 0,
+   "fact": "Polar bears hunt seals on the ice of Hudson Bay in winter."
+  },
+  {
+   "id": "geography-1353",
+   "category": "Geography",
+   "q": "Which bay in Canada has the highest tides in the world?",
+   "choices": [
+    "Bay of Bengal",
+    "Hudson Bay",
+    "Chesapeake Bay",
+    "Bay of Fundy"
+   ],
+   "answer": 3,
+   "fact": "The tide in the Bay of Fundy can rise and fall by about 16 meters."
+  },
+  {
+   "id": "geography-1354",
+   "category": "Geography",
+   "q": "Which bay between India and Myanmar is the largest bay in the world?",
+   "choices": [
+    "Hudson Bay",
+    "Bay of Bengal",
+    "Bay of Fundy",
+    "Bay of Biscay"
+   ],
+   "answer": 1,
+   "fact": "Many big rivers, including the Ganges, flow into the Bay of Bengal."
+  },
+  {
+   "id": "geography-1355",
+   "category": "Geography",
+   "q": "Which country is Bora Bora part of?",
+   "choices": [
+    "New Zealand",
+    "Fiji",
+    "Hawaii, United States",
+    "French Polynesia, France"
+   ],
+   "answer": 3,
+   "fact": "Bora Bora is famous for hotel rooms built on stilts over the lagoon."
+  },
+  {
+   "id": "geography-1356",
+   "category": "Geography",
+   "q": "Which country owns the Canary Islands off the coast of Africa?",
+   "choices": [
+    "Italy",
+    "Portugal",
+    "Spain",
+    "Morocco"
+   ],
+   "answer": 2,
+   "fact": "The Canary Islands were named after dogs, from the Latin word canis, not after birds."
+  },
+  {
+   "id": "geography-1357",
+   "category": "Geography",
+   "q": "Which country owns the Azores islands in the Atlantic?",
+   "choices": [
+    "United Kingdom",
+    "Portugal",
+    "Spain",
+    "France"
+   ],
+   "answer": 1,
+   "fact": "The Azores are volcanic islands about 1,400 kilometers west of Portugal."
+  },
+  {
+   "id": "geography-1358",
+   "category": "Geography",
+   "q": "Which European country does the Faroe Islands belong to?",
+   "choices": [
+    "United Kingdom",
+    "Norway",
+    "Denmark",
+    "Iceland"
+   ],
+   "answer": 2,
+   "fact": "The Faroe Islands have about 18 islands and more sheep than people."
+  },
+  {
+   "id": "geography-1359",
+   "category": "Geography",
+   "q": "Which US territory in the Caribbean has San Juan as its capital?",
+   "choices": [
+    "US Virgin Islands",
+    "Cuba",
+    "Jamaica",
+    "Puerto Rico"
+   ],
+   "answer": 3,
+   "fact": "People born in Puerto Rico are US citizens."
+  },
+  {
+   "id": "geography-1360",
+   "category": "Geography",
+   "q": "Which US territory in the Pacific has the motto \"Where America's Day Begins\"?",
+   "choices": [
+    "Hawaii",
+    "Puerto Rico",
+    "Guam",
+    "American Samoa"
+   ],
+   "answer": 2,
+   "fact": "Guam is on the far side of the International Date Line, so its day starts before the rest of the US."
+  },
+  {
+   "id": "geography-1361",
+   "category": "Geography",
+   "q": "Which country has the largest Muslim population in the world?",
+   "choices": [
+    "Saudi Arabia",
+    "Pakistan",
+    "Egypt",
+    "Indonesia"
+   ],
+   "answer": 3,
+   "fact": "As of 2025, Indonesia has more than 230 million Muslims."
+  },
+  {
+   "id": "geography-1362",
+   "category": "Geography",
+   "q": "Which African river is the deepest river in the world?",
+   "choices": [
+    "Zambezi",
+    "Niger",
+    "Nile",
+    "Congo River"
+   ],
+   "answer": 3,
+   "fact": "Parts of the Congo River are more than 220 meters deep."
+  },
+  {
+   "id": "geography-1363",
+   "category": "Geography",
+   "q": "Which river flows through Baghdad?",
+   "choices": [
+    "Euphrates",
+    "Tigris",
+    "Jordan",
+    "Nile"
+   ],
+   "answer": 1,
+   "fact": "The Tigris and Euphrates join together in southern Iraq before reaching the Persian Gulf."
+  },
+  {
+   "id": "geography-1364",
+   "category": "Geography",
+   "q": "Which city in the Netherlands has more bicycles than people?",
+   "choices": [
+    "Berlin",
+    "Paris",
+    "Amsterdam",
+    "London"
+   ],
+   "answer": 2,
+   "fact": "Amsterdam has more than 1,200 bridges over its canals."
+  },
+  {
+   "id": "geography-1365",
+   "category": "Geography",
+   "q": "Which country is often said to have the most islands in the world?",
+   "choices": [
+    "Sweden",
+    "Philippines",
+    "Indonesia",
+    "Greece"
+   ],
+   "answer": 0,
+   "fact": "Sweden has more than 260,000 islands, though most are tiny and empty."
+  },
+  {
+   "id": "geography-1366",
+   "category": "Geography",
+   "q": "Which is the largest country by area that lies completely inside Europe?",
+   "choices": [
+    "Germany",
+    "Ukraine",
+    "France",
+    "Spain"
+   ],
+   "answer": 1,
+   "fact": "Russia is bigger, but most of Russia's land is in Asia."
+  },
+  {
+   "id": "geography-1367",
+   "category": "Geography",
+   "q": "Which East African country did Winston Churchill call the Pearl of Africa?",
+   "choices": [
+    "Uganda",
+    "Kenya",
+    "Tanzania",
+    "Rwanda"
+   ],
+   "answer": 0,
+   "fact": "Uganda is home to about half of the world's mountain gorillas."
+  },
+  {
+   "id": "geography-1368",
+   "category": "Geography",
+   "q": "Which country's largest city is Johannesburg?",
+   "choices": [
+    "Botswana",
+    "Namibia",
+    "South Africa",
+    "Zimbabwe"
+   ],
+   "answer": 2,
+   "fact": "Johannesburg grew very fast after gold was discovered there in 1886."
+  },
+  {
+   "id": "geography-1369",
+   "category": "Geography",
+   "q": "Which Indian city is home to the Bollywood film industry?",
+   "choices": [
+    "New Delhi",
+    "Chennai",
+    "Mumbai",
+    "Kolkata"
+   ],
+   "answer": 2,
+   "fact": "The name Bollywood mixes Bombay, Mumbai's old name, with Hollywood."
+  },
+  {
+   "id": "geography-1370",
+   "category": "Geography",
+   "q": "Which mountain range stretches across Morocco, Algeria and Tunisia?",
+   "choices": [
+    "Alps",
+    "Atlas Mountains",
+    "Pyrenees",
+    "Zagros Mountains"
+   ],
+   "answer": 1,
+   "fact": "In Greek myths, the giant Atlas held up the sky, and the mountains were named after him."
+  },
+  {
+   "id": "geography-1371",
+   "category": "Geography",
+   "q": "What is the highest mountain in the British Isles?",
+   "choices": [
+    "Scafell Pike",
+    "Slieve Donard",
+    "Snowdon",
+    "Ben Nevis"
+   ],
+   "answer": 3,
+   "fact": "Ben Nevis is in Scotland and is about 1,345 meters tall."
+  },
+  {
+   "id": "geography-1372",
+   "category": "Geography",
+   "q": "What is the longest river in the United Kingdom?",
+   "choices": [
+    "Severn",
+    "Mersey",
+    "Trent",
+    "Thames"
+   ],
+   "answer": 0,
+   "fact": "The Severn is about 354 kilometers long and starts in the mountains of Wales."
+  },
+  {
+   "id": "geography-1373",
+   "category": "Geography",
+   "q": "In which country is the Okavango Delta, a river delta that ends in the desert instead of the sea?",
+   "choices": [
+    "Kenya",
+    "Egypt",
+    "Botswana",
+    "Nigeria"
+   ],
+   "answer": 2,
+   "fact": "The Okavango floods every year and draws huge numbers of elephants and other animals."
+  },
+  {
+   "id": "geography-1374",
+   "category": "Geography",
+   "q": "In which country is the Yucatán Peninsula, home to many Maya ruins?",
+   "choices": [
+    "Cuba",
+    "Guatemala",
+    "Mexico",
+    "Peru"
+   ],
+   "answer": 2,
+   "fact": "Scientists think the asteroid that helped wipe out the dinosaurs hit near the Yucatán."
+  },
+  {
+   "id": "geography-1375",
+   "category": "Geography",
+   "q": "Which peninsula do Spain and Portugal share?",
+   "choices": [
+    "Italian Peninsula",
+    "Scandinavian Peninsula",
+    "Balkan Peninsula",
+    "Iberian Peninsula"
+   ],
+   "answer": 3,
+   "fact": "The tiny British territory of Gibraltar is also on the Iberian Peninsula."
+  },
+  {
+   "id": "geography-1376",
+   "category": "Geography",
+   "q": "Which three countries make up Scandinavia?",
+   "choices": [
+    "Finland, Norway and Sweden",
+    "Denmark, Norway and Sweden",
+    "Norway, Sweden and Iceland",
+    "Denmark, Finland and Iceland"
+   ],
+   "answer": 1,
+   "fact": "Finland and Iceland are often grouped with them as the Nordic countries."
+  },
+  {
+   "id": "geography-1377",
+   "category": "Geography",
+   "q": "Which three countries are known together as the Benelux?",
+   "choices": [
+    "Bulgaria, Netherlands and Lithuania",
+    "Belgium, Netherlands and Luxembourg",
+    "Britain, Netherlands and Luxembourg",
+    "Belgium, Norway and Latvia"
+   ],
+   "answer": 1,
+   "fact": "Benelux is made from the first letters of each country's name."
+  },
+  {
+   "id": "geography-1378",
+   "category": "Geography",
+   "q": "Into which ocean does the Amazon River flow?",
+   "choices": [
+    "Atlantic Ocean",
+    "Indian Ocean",
+    "Pacific Ocean",
+    "Southern Ocean"
+   ],
+   "answer": 0,
+   "fact": "The Amazon starts in the Andes, only about 160 kilometers from the Pacific, but flows the other way."
+  },
+  {
+   "id": "geography-1379",
+   "category": "Geography",
+   "q": "What are people from the Netherlands called?",
+   "choices": [
+    "Danish",
+    "Hollandic",
+    "Netherish",
+    "Dutch"
+   ],
+   "answer": 3,
+   "fact": "The Dutch language is closely related to German and English."
+  },
+  {
+   "id": "geography-1380",
+   "category": "Geography",
+   "q": "Which European capital city sits on the Vltava River?",
+   "choices": [
+    "Warsaw",
+    "Budapest",
+    "Vienna",
+    "Prague"
+   ],
+   "answer": 3,
+   "fact": "Prague's Charles Bridge across the Vltava is lined with 30 statues."
+  },
+  {
+   "id": "geography-1381",
+   "category": "Geography",
+   "q": "What is the longest mountain range on land in the world?",
+   "choices": [
+    "Himalayas",
+    "Rocky Mountains",
+    "Ural Mountains",
+    "Andes"
+   ],
+   "answer": 3,
+   "fact": "The Andes run about 7,000 kilometers along the west side of South America."
+  },
+  {
+   "id": "geography-1382",
+   "category": "Geography",
+   "q": "Which river forms much of the border between Germany and Poland?",
+   "choices": [
+    "Rhine",
+    "Vistula",
+    "Oder",
+    "Danube"
+   ],
+   "answer": 2,
+   "fact": "Along with the Neisse River, the Oder marks almost the whole German and Polish border."
+  },
+  {
+   "id": "geography-1383",
+   "category": "Geography",
+   "q": "Which famous hiking trail runs from Georgia to Maine?",
+   "choices": [
+    "Appalachian Trail",
+    "Oregon Trail",
+    "Continental Divide Trail",
+    "Pacific Crest Trail"
+   ],
+   "answer": 0,
+   "fact": "Hiking the whole Appalachian Trail, about 3,500 kilometers, usually takes five to seven months."
+  },
+  {
+   "id": "geography-1384",
+   "category": "Geography",
+   "q": "What is the capital of the German state of Bavaria?",
+   "choices": [
+    "Nuremberg",
+    "Stuttgart",
+    "Frankfurt",
+    "Munich"
+   ],
+   "answer": 3,
+   "fact": "Munich hosts the famous Oktoberfest festival every year."
+  },
+  {
+   "id": "geography-1385",
+   "category": "Geography",
+   "q": "Which Australian city is the capital of the state of Victoria?",
+   "choices": [
+    "Brisbane",
+    "Adelaide",
+    "Melbourne",
+    "Sydney"
+   ],
+   "answer": 2,
+   "fact": "Melbourne was Australia's capital from 1901 until 1927, while Canberra was being built."
+  },
+  {
+   "id": "geography-1386",
+   "category": "Geography",
+   "q": "Which country is home to the Black Forest, famous for cuckoo clocks and cake?",
+   "choices": [
+    "France",
+    "Germany",
+    "Austria",
+    "Switzerland"
+   ],
+   "answer": 1,
+   "fact": "The Black Forest got its name from its thick, dark pine and fir trees."
+  }
+ ]
+}

@@ -1,0 +1,1181 @@
+{
+ "entries": [
+  {
+   "en": "parents",
+   "also": [],
+   "t": {
+    "es": "padres",
+    "fr": "parents",
+    "de": "Eltern",
+    "it": "genitori",
+    "pt": "pais",
+    "ja": "両親",
+    "zh": "父母",
+    "ko": "부모님",
+    "hi": "माता-पिता",
+    "ar": "الوالدين",
+    "ru": "родители",
+    "nl": "ouders"
+   },
+   "say": {
+    "ja": "ryoushin",
+    "zh": "fùmǔ",
+    "ko": "bumonim",
+    "hi": "maata-pita",
+    "ar": "al-waalidayn",
+    "ru": "roditeli"
+   }
+  },
+  {
+   "en": "son",
+   "also": [],
+   "t": {
+    "es": "hijo",
+    "fr": "fils",
+    "de": "Sohn",
+    "it": "figlio",
+    "pt": "filho",
+    "ja": "息子",
+    "zh": "儿子",
+    "ko": "아들",
+    "hi": "बेटा",
+    "ar": "ابن",
+    "ru": "сын",
+    "nl": "zoon"
+   },
+   "say": {
+    "ja": "musuko",
+    "zh": "érzi",
+    "ko": "adeul",
+    "hi": "beta",
+    "ar": "ibn",
+    "ru": "syn"
+   }
+  },
+  {
+   "en": "daughter",
+   "also": [],
+   "t": {
+    "es": "hija",
+    "fr": "fille",
+    "de": "Tochter",
+    "it": "figlia",
+    "pt": "filha",
+    "ja": "娘",
+    "zh": "女儿",
+    "ko": "딸",
+    "hi": "बेटी",
+    "ar": "ابنة",
+    "ru": "дочь",
+    "nl": "dochter"
+   },
+   "say": {
+    "ja": "musume",
+    "zh": "nǚ'ér",
+    "ko": "ttal",
+    "hi": "beti",
+    "ar": "ibna",
+    "ru": "doch"
+   }
+  },
+  {
+   "en": "cousin",
+   "also": [],
+   "t": {
+    "es": "primo/a",
+    "fr": "cousin(e)",
+    "de": "Cousin/e",
+    "it": "cugino/a",
+    "pt": "primo/a",
+    "ja": "いとこ",
+    "zh": "表兄弟姐妹",
+    "ko": "사촌",
+    "hi": "चचेरा भाई / बहन",
+    "ar": "ابن العم / بنت العم",
+    "ru": "двоюродный брат / сестра",
+    "nl": "neef / nicht"
+   },
+   "say": {
+    "ja": "itoko",
+    "zh": "biǎo xiōngdì jiěmèi",
+    "ko": "sachon",
+    "hi": "chachera bhaai / bahan",
+    "ar": "ibn al-'amm / bint al-'amm",
+    "ru": "dvoyurodny brat / sestra"
+   }
+  },
+  {
+   "en": "husband",
+   "also": [],
+   "t": {
+    "es": "esposo",
+    "fr": "mari",
+    "de": "Ehemann",
+    "it": "marito",
+    "pt": "marido",
+    "ja": "夫",
+    "zh": "丈夫",
+    "ko": "남편",
+    "hi": "पति",
+    "ar": "زوج",
+    "ru": "муж",
+    "nl": "man"
+   },
+   "say": {
+    "ja": "otto",
+    "zh": "zhàngfu",
+    "ko": "nampyeon",
+    "hi": "pati",
+    "ar": "zawj",
+    "ru": "muzh"
+   }
+  },
+  {
+   "en": "wife",
+   "also": [],
+   "t": {
+    "es": "esposa",
+    "fr": "femme",
+    "de": "Ehefrau",
+    "it": "moglie",
+    "pt": "esposa",
+    "ja": "妻",
+    "zh": "妻子",
+    "ko": "아내",
+    "hi": "पत्नी",
+    "ar": "زوجة",
+    "ru": "жена",
+    "nl": "vrouw"
+   },
+   "say": {
+    "ja": "tsuma",
+    "zh": "qīzi",
+    "ko": "anae",
+    "hi": "patni",
+    "ar": "zawja",
+    "ru": "zhena"
+   }
+  },
+  {
+   "en": "twins",
+   "also": [],
+   "t": {
+    "es": "gemelos",
+    "fr": "jumeaux",
+    "de": "Zwillinge",
+    "it": "gemelli",
+    "pt": "gêmeos",
+    "ja": "双子",
+    "zh": "双胞胎",
+    "ko": "쌍둥이",
+    "hi": "जुड़वाँ",
+    "ar": "توأم",
+    "ru": "близнецы",
+    "nl": "tweeling"
+   },
+   "say": {
+    "ja": "futago",
+    "zh": "shuāngbāotāi",
+    "ko": "ssangdungi",
+    "hi": "judvaan",
+    "ar": "taw'am",
+    "ru": "bliznetsy"
+   }
+  },
+  {
+   "en": "older brother",
+   "also": [
+    "big brother"
+   ],
+   "t": {
+    "es": "hermano mayor",
+    "fr": "grand frère",
+    "de": "großer Bruder",
+    "it": "fratello maggiore",
+    "pt": "irmão mais velho",
+    "ja": "兄",
+    "zh": "哥哥",
+    "ko": "형 / 오빠",
+    "hi": "बड़ा भाई",
+    "ar": "الأخ الأكبر",
+    "ru": "старший брат",
+    "nl": "grote broer"
+   },
+   "say": {
+    "ja": "ani",
+    "zh": "gēge",
+    "ko": "hyeong / oppa",
+    "hi": "bada bhaai",
+    "ar": "al-akh al-akbar",
+    "ru": "starshy brat"
+   }
+  },
+  {
+   "en": "younger brother",
+   "also": [
+    "little brother"
+   ],
+   "t": {
+    "es": "hermano menor",
+    "fr": "petit frère",
+    "de": "kleiner Bruder",
+    "it": "fratello minore",
+    "pt": "irmão mais novo",
+    "ja": "弟",
+    "zh": "弟弟",
+    "ko": "남동생",
+    "hi": "छोटा भाई",
+    "ar": "الأخ الأصغر",
+    "ru": "младший брат",
+    "nl": "kleine broer"
+   },
+   "say": {
+    "ja": "otouto",
+    "zh": "dìdi",
+    "ko": "namdongsaeng",
+    "hi": "chhota bhaai",
+    "ar": "al-akh al-asghar",
+    "ru": "mladshy brat"
+   }
+  },
+  {
+   "en": "older sister",
+   "also": [
+    "big sister"
+   ],
+   "t": {
+    "es": "hermana mayor",
+    "fr": "grande sœur",
+    "de": "große Schwester",
+    "it": "sorella maggiore",
+    "pt": "irmã mais velha",
+    "ja": "姉",
+    "zh": "姐姐",
+    "ko": "누나 / 언니",
+    "hi": "बड़ी बहन",
+    "ar": "الأخت الكبرى",
+    "ru": "старшая сестра",
+    "nl": "grote zus"
+   },
+   "say": {
+    "ja": "ane",
+    "zh": "jiějie",
+    "ko": "nuna / eonni",
+    "hi": "badi bahan",
+    "ar": "al-ukht al-kubra",
+    "ru": "starshaya sestra"
+   }
+  },
+  {
+   "en": "younger sister",
+   "also": [
+    "little sister"
+   ],
+   "t": {
+    "es": "hermana menor",
+    "fr": "petite sœur",
+    "de": "kleine Schwester",
+    "it": "sorella minore",
+    "pt": "irmã mais nova",
+    "ja": "妹",
+    "zh": "妹妹",
+    "ko": "여동생",
+    "hi": "छोटी बहन",
+    "ar": "الأخت الصغرى",
+    "ru": "младшая сестра",
+    "nl": "kleine zus"
+   },
+   "say": {
+    "ja": "imouto",
+    "zh": "mèimei",
+    "ko": "yeodongsaeng",
+    "hi": "chhoti bahan",
+    "ar": "al-ukht as-sughra",
+    "ru": "mladshaya sestra"
+   }
+  },
+  {
+   "en": "grandparents",
+   "also": [],
+   "t": {
+    "es": "abuelos",
+    "fr": "grands-parents",
+    "de": "Großeltern",
+    "it": "nonni",
+    "pt": "avós",
+    "ja": "祖父母",
+    "zh": "祖父母",
+    "ko": "조부모님",
+    "hi": "दादा-दादी",
+    "ar": "الأجداد",
+    "ru": "бабушка и дедушка",
+    "nl": "grootouders"
+   },
+   "say": {
+    "ja": "sofubo",
+    "zh": "zǔfùmǔ",
+    "ko": "jobumonim",
+    "hi": "daada-daadi",
+    "ar": "al-ajdaad",
+    "ru": "babushka i dedushka"
+   }
+  },
+  {
+   "en": "man",
+   "also": [],
+   "t": {
+    "es": "hombre",
+    "fr": "homme",
+    "de": "Mann",
+    "it": "uomo",
+    "pt": "homem",
+    "ja": "男の人",
+    "zh": "男人",
+    "ko": "남자",
+    "hi": "आदमी",
+    "ar": "رجل",
+    "ru": "мужчина",
+    "nl": "man"
+   },
+   "say": {
+    "ja": "otoko no hito",
+    "zh": "nánrén",
+    "ko": "namja",
+    "hi": "aadmi",
+    "ar": "rajul",
+    "ru": "muzhchina"
+   }
+  },
+  {
+   "en": "woman",
+   "also": [],
+   "t": {
+    "es": "mujer",
+    "fr": "femme",
+    "de": "Frau",
+    "it": "donna",
+    "pt": "mulher",
+    "ja": "女の人",
+    "zh": "女人",
+    "ko": "여자",
+    "hi": "औरत",
+    "ar": "امرأة",
+    "ru": "женщина",
+    "nl": "vrouw"
+   },
+   "say": {
+    "ja": "onna no hito",
+    "zh": "nǚrén",
+    "ko": "yeoja",
+    "hi": "aurat",
+    "ar": "imra'a",
+    "ru": "zhenshchina"
+   }
+  },
+  {
+   "en": "people",
+   "also": [],
+   "t": {
+    "es": "gente",
+    "fr": "gens",
+    "de": "Leute",
+    "it": "gente",
+    "pt": "pessoas",
+    "ja": "人々",
+    "zh": "人们",
+    "ko": "사람들",
+    "hi": "लोग",
+    "ar": "ناس",
+    "ru": "люди",
+    "nl": "mensen"
+   },
+   "say": {
+    "ja": "hitobito",
+    "zh": "rénmen",
+    "ko": "saramdeul",
+    "hi": "log",
+    "ar": "naas",
+    "ru": "lyudi"
+   }
+  },
+  {
+   "en": "person",
+   "also": [],
+   "t": {
+    "es": "persona",
+    "fr": "personne",
+    "de": "Person",
+    "it": "persona",
+    "pt": "pessoa",
+    "ja": "人",
+    "zh": "人",
+    "ko": "사람",
+    "hi": "व्यक्ति",
+    "ar": "شخص",
+    "ru": "человек",
+    "nl": "persoon"
+   },
+   "say": {
+    "ja": "hito",
+    "zh": "rén",
+    "ko": "saram",
+    "hi": "vyakti",
+    "ar": "shakhs",
+    "ru": "chelovek"
+   }
+  },
+  {
+   "en": "neighbor",
+   "also": [
+    "neighbour"
+   ],
+   "t": {
+    "es": "vecino/a",
+    "fr": "voisin(e)",
+    "de": "Nachbar/in",
+    "it": "vicino/a",
+    "pt": "vizinho/a",
+    "ja": "隣の人",
+    "zh": "邻居",
+    "ko": "이웃",
+    "hi": "पड़ोसी",
+    "ar": "جار / جارة",
+    "ru": "сосед / соседка",
+    "nl": "buurman / buurvrouw"
+   },
+   "say": {
+    "ja": "tonari no hito",
+    "zh": "línjū",
+    "ko": "iut",
+    "hi": "padosi",
+    "ar": "jaar / jaara",
+    "ru": "sosed / sosedka"
+   }
+  },
+  {
+   "en": "boyfriend",
+   "also": [],
+   "t": {
+    "es": "novio",
+    "fr": "petit ami",
+    "de": "Freund",
+    "it": "fidanzato",
+    "pt": "namorado",
+    "ja": "彼氏",
+    "zh": "男朋友",
+    "ko": "남자 친구",
+    "hi": "बॉयफ़्रेंड",
+    "ar": "حبيب",
+    "ru": "парень",
+    "nl": "vriend"
+   },
+   "say": {
+    "ja": "kareshi",
+    "zh": "nánpéngyou",
+    "ko": "namja chingu",
+    "hi": "boyfrend",
+    "ar": "habeeb",
+    "ru": "paren"
+   }
+  },
+  {
+   "en": "girlfriend",
+   "also": [],
+   "t": {
+    "es": "novia",
+    "fr": "petite amie",
+    "de": "Freundin",
+    "it": "fidanzata",
+    "pt": "namorada",
+    "ja": "彼女",
+    "zh": "女朋友",
+    "ko": "여자 친구",
+    "hi": "गर्लफ़्रेंड",
+    "ar": "حبيبة",
+    "ru": "девушка",
+    "nl": "vriendin"
+   },
+   "say": {
+    "ja": "kanojo",
+    "zh": "nǚpéngyou",
+    "ko": "yeoja chingu",
+    "hi": "garlfrend",
+    "ar": "habeeba",
+    "ru": "devushka"
+   }
+  },
+  {
+   "en": "doctor",
+   "also": [],
+   "t": {
+    "es": "médico/a",
+    "fr": "médecin",
+    "de": "Arzt / Ärztin",
+    "it": "medico",
+    "pt": "médico/a",
+    "ja": "医者",
+    "zh": "医生",
+    "ko": "의사",
+    "hi": "डॉक्टर",
+    "ar": "طبيب / طبيبة",
+    "ru": "врач",
+    "nl": "dokter"
+   },
+   "say": {
+    "ja": "isha",
+    "zh": "yīshēng",
+    "ko": "uisa",
+    "hi": "doktar",
+    "ar": "tabeeb / tabeeba",
+    "ru": "vrach"
+   }
+  },
+  {
+   "en": "nurse",
+   "also": [],
+   "t": {
+    "es": "enfermero/a",
+    "fr": "infirmier / infirmière",
+    "de": "Krankenpfleger / Krankenschwester",
+    "it": "infermiere/a",
+    "pt": "enfermeiro/a",
+    "ja": "看護師",
+    "zh": "护士",
+    "ko": "간호사",
+    "hi": "नर्स",
+    "ar": "ممرض / ممرضة",
+    "ru": "медсестра",
+    "nl": "verpleegkundige"
+   },
+   "say": {
+    "ja": "kangoshi",
+    "zh": "hùshi",
+    "ko": "ganhosa",
+    "hi": "nars",
+    "ar": "mumarrid / mumarrida",
+    "ru": "medsestra"
+   }
+  },
+  {
+   "en": "dentist",
+   "also": [],
+   "t": {
+    "es": "dentista",
+    "fr": "dentiste",
+    "de": "Zahnarzt / Zahnärztin",
+    "it": "dentista",
+    "pt": "dentista",
+    "ja": "歯医者",
+    "zh": "牙医",
+    "ko": "치과 의사",
+    "hi": "दाँतों का डॉक्टर",
+    "ar": "طبيب أسنان",
+    "ru": "стоматолог",
+    "nl": "tandarts"
+   },
+   "say": {
+    "ja": "haisha",
+    "zh": "yáyī",
+    "ko": "chikwa uisa",
+    "hi": "daanton ka doktar",
+    "ar": "tabeeb asnaan",
+    "ru": "stomatolog"
+   }
+  },
+  {
+   "en": "police officer",
+   "also": [
+    "policeman",
+    "cop"
+   ],
+   "t": {
+    "es": "policía",
+    "fr": "policier",
+    "de": "Polizist/in",
+    "it": "poliziotto",
+    "pt": "policial",
+    "ja": "警察官",
+    "zh": "警察",
+    "ko": "경찰관",
+    "hi": "पुलिसवाला",
+    "ar": "شرطي",
+    "ru": "полицейский",
+    "nl": "politieagent"
+   },
+   "say": {
+    "ja": "keisatsukan",
+    "zh": "jǐngchá",
+    "ko": "gyeongchalgwan",
+    "hi": "pulisvaala",
+    "ar": "shurti",
+    "ru": "politseysky"
+   }
+  },
+  {
+   "en": "firefighter",
+   "also": [
+    "fireman"
+   ],
+   "t": {
+    "es": "bombero/a",
+    "fr": "pompier",
+    "de": "Feuerwehrmann / Feuerwehrfrau",
+    "it": "vigile del fuoco",
+    "pt": "bombeiro/a",
+    "ja": "消防士",
+    "zh": "消防员",
+    "ko": "소방관",
+    "hi": "दमकलकर्मी",
+    "ar": "رجل إطفاء",
+    "ru": "пожарный",
+    "nl": "brandweerman"
+   },
+   "say": {
+    "ja": "shouboushi",
+    "zh": "xiāofángyuán",
+    "ko": "sobanggwan",
+    "hi": "damkalkarmi",
+    "ar": "rajul itfaa'",
+    "ru": "pozharny"
+   }
+  },
+  {
+   "en": "chef",
+   "also": [],
+   "t": {
+    "es": "cocinero/a",
+    "fr": "cuisinier / cuisinière",
+    "de": "Koch / Köchin",
+    "it": "cuoco/a",
+    "pt": "cozinheiro/a",
+    "ja": "料理人",
+    "zh": "厨师",
+    "ko": "요리사",
+    "hi": "रसोइया",
+    "ar": "طباخ / طباخة",
+    "ru": "повар",
+    "nl": "kok"
+   },
+   "say": {
+    "ja": "ryourinin",
+    "zh": "chúshī",
+    "ko": "yorisa",
+    "hi": "rasoiya",
+    "ar": "tabbaakh / tabbaakha",
+    "ru": "povar"
+   }
+  },
+  {
+   "en": "farmer",
+   "also": [],
+   "t": {
+    "es": "granjero/a",
+    "fr": "agriculteur / agricultrice",
+    "de": "Bauer / Bäuerin",
+    "it": "contadino/a",
+    "pt": "fazendeiro/a",
+    "ja": "農家",
+    "zh": "农民",
+    "ko": "농부",
+    "hi": "किसान",
+    "ar": "مزارع",
+    "ru": "фермер",
+    "nl": "boer"
+   },
+   "say": {
+    "ja": "nouka",
+    "zh": "nóngmín",
+    "ko": "nongbu",
+    "hi": "kisaan",
+    "ar": "muzaari'",
+    "ru": "fermer"
+   }
+  },
+  {
+   "en": "driver",
+   "also": [],
+   "t": {
+    "es": "conductor/a",
+    "fr": "chauffeur",
+    "de": "Fahrer/in",
+    "it": "autista",
+    "pt": "motorista",
+    "ja": "運転手",
+    "zh": "司机",
+    "ko": "운전사",
+    "hi": "ड्राइवर",
+    "ar": "سائق",
+    "ru": "водитель",
+    "nl": "chauffeur"
+   },
+   "say": {
+    "ja": "untenshu",
+    "zh": "sījī",
+    "ko": "unjeonsa",
+    "hi": "draaivar",
+    "ar": "saa'iq",
+    "ru": "voditel"
+   }
+  },
+  {
+   "en": "pilot",
+   "also": [],
+   "t": {
+    "es": "piloto",
+    "fr": "pilote",
+    "de": "Pilot/in",
+    "it": "pilota",
+    "pt": "piloto",
+    "ja": "パイロット",
+    "zh": "飞行员",
+    "ko": "조종사",
+    "hi": "पायलट",
+    "ar": "طيار",
+    "ru": "пилот",
+    "nl": "piloot"
+   },
+   "say": {
+    "ja": "pairotto",
+    "zh": "fēixíngyuán",
+    "ko": "jojongsa",
+    "hi": "paailat",
+    "ar": "tayyaar",
+    "ru": "pilot"
+   }
+  },
+  {
+   "en": "scientist",
+   "also": [],
+   "t": {
+    "es": "científico/a",
+    "fr": "scientifique",
+    "de": "Wissenschaftler/in",
+    "it": "scienziato/a",
+    "pt": "cientista",
+    "ja": "科学者",
+    "zh": "科学家",
+    "ko": "과학자",
+    "hi": "वैज्ञानिक",
+    "ar": "عالم / عالمة",
+    "ru": "учёный",
+    "nl": "wetenschapper"
+   },
+   "say": {
+    "ja": "kagakusha",
+    "zh": "kēxuéjiā",
+    "ko": "gwahakja",
+    "hi": "vaigyaanik",
+    "ar": "'aalim / 'aalima",
+    "ru": "uchyony"
+   }
+  },
+  {
+   "en": "engineer",
+   "also": [],
+   "t": {
+    "es": "ingeniero/a",
+    "fr": "ingénieur(e)",
+    "de": "Ingenieur/in",
+    "it": "ingegnere",
+    "pt": "engenheiro/a",
+    "ja": "エンジニア",
+    "zh": "工程师",
+    "ko": "엔지니어",
+    "hi": "इंजीनियर",
+    "ar": "مهندس / مهندسة",
+    "ru": "инженер",
+    "nl": "ingenieur"
+   },
+   "say": {
+    "ja": "enjinia",
+    "zh": "gōngchéngshī",
+    "ko": "enjinieo",
+    "hi": "injeeniyar",
+    "ar": "muhandis / muhandisa",
+    "ru": "inzhener"
+   }
+  },
+  {
+   "en": "artist",
+   "also": [],
+   "t": {
+    "es": "artista",
+    "fr": "artiste",
+    "de": "Künstler/in",
+    "it": "artista",
+    "pt": "artista",
+    "ja": "芸術家",
+    "zh": "艺术家",
+    "ko": "예술가",
+    "hi": "कलाकार",
+    "ar": "فنان / فنانة",
+    "ru": "художник",
+    "nl": "kunstenaar"
+   },
+   "say": {
+    "ja": "geijutsuka",
+    "zh": "yìshùjiā",
+    "ko": "yesulga",
+    "hi": "kalaakaar",
+    "ar": "fannaan / fannaana",
+    "ru": "khudozhnik"
+   }
+  },
+  {
+   "en": "singer",
+   "also": [],
+   "t": {
+    "es": "cantante",
+    "fr": "chanteur / chanteuse",
+    "de": "Sänger/in",
+    "it": "cantante",
+    "pt": "cantor/a",
+    "ja": "歌手",
+    "zh": "歌手",
+    "ko": "가수",
+    "hi": "गायक / गायिका",
+    "ar": "مغني / مغنية",
+    "ru": "певец / певица",
+    "nl": "zanger / zangeres"
+   },
+   "say": {
+    "ja": "kashu",
+    "zh": "gēshǒu",
+    "ko": "gasu",
+    "hi": "gaayak / gaayika",
+    "ar": "mughanni / mughanniya",
+    "ru": "pevets / pevitsa"
+   }
+  },
+  {
+   "en": "programmer",
+   "also": [
+    "coder"
+   ],
+   "t": {
+    "es": "programador/a",
+    "fr": "programmeur / programmeuse",
+    "de": "Programmierer/in",
+    "it": "programmatore / programmatrice",
+    "pt": "programador/a",
+    "ja": "プログラマー",
+    "zh": "程序员",
+    "ko": "프로그래머",
+    "hi": "प्रोग्रामर",
+    "ar": "مبرمج / مبرمجة",
+    "ru": "программист",
+    "nl": "programmeur"
+   },
+   "say": {
+    "ja": "puroguramaa",
+    "zh": "chéngxùyuán",
+    "ko": "peurogeuraemeo",
+    "hi": "prograamar",
+    "ar": "mubarmij / mubarmija",
+    "ru": "programmist"
+   }
+  },
+  {
+   "en": "astronaut",
+   "also": [],
+   "t": {
+    "es": "astronauta",
+    "fr": "astronaute",
+    "de": "Astronaut/in",
+    "it": "astronauta",
+    "pt": "astronauta",
+    "ja": "宇宙飛行士",
+    "zh": "宇航员",
+    "ko": "우주비행사",
+    "hi": "अंतरिक्ष यात्री",
+    "ar": "رائد فضاء",
+    "ru": "космонавт",
+    "nl": "astronaut"
+   },
+   "say": {
+    "ja": "uchuu hikoushi",
+    "zh": "yǔhángyuán",
+    "ko": "ujubihaengsa",
+    "hi": "antariksh yaatri",
+    "ar": "raa'id fadaa'",
+    "ru": "kosmonavt"
+   }
+  },
+  {
+   "en": "job",
+   "also": [],
+   "t": {
+    "es": "trabajo",
+    "fr": "travail",
+    "de": "Arbeit",
+    "it": "lavoro",
+    "pt": "trabalho",
+    "ja": "仕事",
+    "zh": "工作",
+    "ko": "일",
+    "hi": "नौकरी",
+    "ar": "عمل",
+    "ru": "работа",
+    "nl": "werk"
+   },
+   "say": {
+    "ja": "shigoto",
+    "zh": "gōngzuò",
+    "ko": "il",
+    "hi": "naukari",
+    "ar": "'amal",
+    "ru": "rabota"
+   }
+  },
+  {
+   "en": "what do you do",
+   "also": [
+    "what is your job"
+   ],
+   "t": {
+    "es": "¿A qué se dedica?",
+    "fr": "Qu'est-ce que vous faites dans la vie ?",
+    "de": "Was machen Sie beruflich?",
+    "it": "Che lavoro fa?",
+    "pt": "O que você faz?",
+    "ja": "お仕事は何ですか？",
+    "zh": "你做什么工作？",
+    "ko": "무슨 일 하세요?",
+    "hi": "आप क्या काम करते हैं?",
+    "ar": "ماذا تعمل؟",
+    "ru": "Кем вы работаете?",
+    "nl": "Wat doet u voor werk?"
+   },
+   "say": {
+    "ja": "oshigoto wa nan desu ka?",
+    "zh": "nǐ zuò shénme gōngzuò?",
+    "ko": "museun il haseyo?",
+    "hi": "aap kya kaam karte hain?",
+    "ar": "maadha ta'mal?",
+    "ru": "kem vy rabotayete?"
+   }
+  },
+  {
+   "en": "what do you want to be when you grow up",
+   "also": [
+    "what do you want to be"
+   ],
+   "t": {
+    "es": "¿Qué quieres ser de mayor?",
+    "fr": "Qu'est-ce que tu veux faire plus tard ?",
+    "de": "Was willst du später werden?",
+    "it": "Cosa vuoi fare da grande?",
+    "pt": "O que você quer ser quando crescer?",
+    "ja": "大きくなったら何になりたい？",
+    "zh": "你长大了想做什么？",
+    "ko": "커서 뭐가 되고 싶어?",
+    "hi": "बड़े होकर क्या बनना चाहते हो?",
+    "ar": "ماذا تريد أن تصبح عندما تكبر؟",
+    "ru": "Кем ты хочешь стать, когда вырастешь?",
+    "nl": "Wat wil je later worden?"
+   },
+   "say": {
+    "ja": "ookiku nattara nani ni naritai?",
+    "zh": "nǐ zhǎng dà le xiǎng zuò shénme?",
+    "ko": "keoseo mwoga doego sipeo?",
+    "hi": "bade hokar kya banna chaahte ho?",
+    "ar": "maadha tureed an tusbih 'indama takbar?",
+    "ru": "kem ty khochesh stat, kogda vyrastesh?"
+   }
+  },
+  {
+   "en": "when i grow up i want to be ...",
+   "also": [
+    "i want to be a"
+   ],
+   "t": {
+    "es": "De mayor quiero ser ...",
+    "fr": "Plus tard, je veux être ...",
+    "de": "Später will ich ... werden",
+    "it": "Da grande voglio fare ...",
+    "pt": "Quando crescer, quero ser ...",
+    "ja": "大きくなったら...になりたいです",
+    "zh": "我长大了想当...",
+    "ko": "커서 ...가 되고 싶어요",
+    "hi": "मैं बड़ा / बड़ी होकर ... बनना चाहता / चाहती हूँ",
+    "ar": "عندما أكبر أريد أن أصبح ...",
+    "ru": "Когда вырасту, я хочу стать ...",
+    "nl": "Later wil ik ... worden"
+   },
+   "say": {
+    "ja": "ookiku nattara ...ni naritai desu",
+    "zh": "wǒ zhǎng dà le xiǎng dāng ...",
+    "ko": "keoseo ...ga doego sipeoyo",
+    "hi": "main bada / badi hokar ... banna chaahta / chaahti hoon",
+    "ar": "'indama akbar ureed an usbih ...",
+    "ru": "kogda vyrastu, ya khochu stat ..."
+   }
+  },
+  {
+   "en": "this is my friend",
+   "also": [
+    "this is my friend ..."
+   ],
+   "t": {
+    "es": "Este es mi amigo/a",
+    "fr": "Voici mon ami(e)",
+    "de": "Das ist mein Freund / meine Freundin",
+    "it": "Questo è il mio amico / la mia amica",
+    "pt": "Este é meu amigo / Esta é minha amiga",
+    "ja": "友達の...です",
+    "zh": "这是我的朋友",
+    "ko": "제 친구예요",
+    "hi": "यह मेरा दोस्त / मेरी दोस्त है",
+    "ar": "هذا صديقي / هذه صديقتي",
+    "ru": "Это мой друг / моя подруга",
+    "nl": "Dit is mijn vriend / vriendin"
+   },
+   "say": {
+    "ja": "tomodachi no ... desu",
+    "zh": "zhè shì wǒ de péngyou",
+    "ko": "je chinguyeyo",
+    "hi": "yah mera dost / meri dost hai",
+    "ar": "haadha sadeeqi / haadhihi sadeeqati",
+    "ru": "eto moy drug / moya podruga"
+   }
+  },
+  {
+   "en": "this is my mom",
+   "also": [
+    "this is my mother"
+   ],
+   "t": {
+    "es": "Esta es mi mamá",
+    "fr": "Voici ma mère",
+    "de": "Das ist meine Mutter",
+    "it": "Questa è mia madre",
+    "pt": "Esta é minha mãe",
+    "ja": "母です",
+    "zh": "这是我妈妈",
+    "ko": "저희 엄마예요",
+    "hi": "यह मेरी माँ हैं",
+    "ar": "هذه أمي",
+    "ru": "Это моя мама",
+    "nl": "Dit is mijn moeder"
+   },
+   "say": {
+    "ja": "haha desu",
+    "zh": "zhè shì wǒ māma",
+    "ko": "jeohui eommayeyo",
+    "hi": "yah meri maan hain",
+    "ar": "haadhihi ummi",
+    "ru": "eto moya mama"
+   }
+  },
+  {
+   "en": "this is my dad",
+   "also": [
+    "this is my father"
+   ],
+   "t": {
+    "es": "Este es mi papá",
+    "fr": "Voici mon père",
+    "de": "Das ist mein Vater",
+    "it": "Questo è mio padre",
+    "pt": "Este é meu pai",
+    "ja": "父です",
+    "zh": "这是我爸爸",
+    "ko": "저희 아빠예요",
+    "hi": "यह मेरे पिता हैं",
+    "ar": "هذا أبي",
+    "ru": "Это мой папа",
+    "nl": "Dit is mijn vader"
+   },
+   "say": {
+    "ja": "chichi desu",
+    "zh": "zhè shì wǒ bàba",
+    "ko": "jeohui appayeyo",
+    "hi": "yah mere pita hain",
+    "ar": "haadha abi",
+    "ru": "eto moy papa"
+   }
+  },
+  {
+   "en": "i have a brother",
+   "also": [
+    "i have one brother"
+   ],
+   "t": {
+    "es": "Tengo un hermano",
+    "fr": "J'ai un frère",
+    "de": "Ich habe einen Bruder",
+    "it": "Ho un fratello",
+    "pt": "Tenho um irmão",
+    "ja": "兄弟が一人います",
+    "zh": "我有一个兄弟",
+    "ko": "남자 형제가 한 명 있어요",
+    "hi": "मेरा एक भाई है",
+    "ar": "عندي أخ",
+    "ru": "У меня есть брат",
+    "nl": "Ik heb een broer"
+   },
+   "say": {
+    "ja": "kyoudai ga hitori imasu",
+    "zh": "wǒ yǒu yí ge xiōngdi",
+    "ko": "namja hyeongjega han myeong isseoyo",
+    "hi": "mera ek bhaai hai",
+    "ar": "'indi akh",
+    "ru": "u menya yest brat"
+   }
+  },
+  {
+   "en": "i have a sister",
+   "also": [
+    "i have one sister"
+   ],
+   "t": {
+    "es": "Tengo una hermana",
+    "fr": "J'ai une sœur",
+    "de": "Ich habe eine Schwester",
+    "it": "Ho una sorella",
+    "pt": "Tenho uma irmã",
+    "ja": "姉妹が一人います",
+    "zh": "我有一个姐妹",
+    "ko": "여자 형제가 한 명 있어요",
+    "hi": "मेरी एक बहन है",
+    "ar": "عندي أخت",
+    "ru": "У меня есть сестра",
+    "nl": "Ik heb een zus"
+   },
+   "say": {
+    "ja": "shimai ga hitori imasu",
+    "zh": "wǒ yǒu yí ge jiěmèi",
+    "ko": "yeoja hyeongjega han myeong isseoyo",
+    "hi": "meri ek bahan hai",
+    "ar": "'indi ukht",
+    "ru": "u menya yest sestra"
+   }
+  },
+  {
+   "en": "i'm an only child",
+   "also": [],
+   "t": {
+    "es": "Soy hijo/a único/a",
+    "fr": "Je suis enfant unique",
+    "de": "Ich bin Einzelkind",
+    "it": "Sono figlio/a unico/a",
+    "pt": "Sou filho/a único/a",
+    "ja": "一人っ子です",
+    "zh": "我是独生子女",
+    "ko": "저는 외동이에요",
+    "hi": "मैं अकेली संतान हूँ",
+    "ar": "أنا الابن الوحيد / الابنة الوحيدة",
+    "ru": "Я единственный ребёнок",
+    "nl": "Ik ben enig kind"
+   },
+   "say": {
+    "ja": "hitorikko desu",
+    "zh": "wǒ shì dúshēng zǐnǚ",
+    "ko": "jeoneun oedongieyo",
+    "hi": "main akeli santaan hoon",
+    "ar": "ana al-ibn al-waheed / al-ibna al-waheeda",
+    "ru": "ya yedinstvenny rebyonok"
+   }
+  }
+ ]
+}

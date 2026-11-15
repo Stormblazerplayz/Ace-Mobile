@@ -1,0 +1,13 @@
+# tag: tech.privacy
+what is google location history | google maps timeline => Timeline saves places you've been if Location History is on. You can view, pause or delete it in Google Maps under Your Timeline.
+how do i turn off personalized ads | stop ads based on what i do => On Google, open My Ad Center and turn off personalized ads. On iPhone, open Settings, Privacy and Security, Apple Advertising.
+should i cover my webcam | webcam cover slider => A small slide cover is a cheap way to be sure nobody sees you, even though the light normally turns on when the camera is in use.
+what is a privacy screen filter | screen protector that hides screen from sides => A privacy filter darkens the screen when viewed from an angle, so people beside you can't read it. It makes the screen a little dimmer straight on.
+what is a data broker | companies that sell your info => Data brokers collect and sell info about people, like addresses and shopping habits. Some sites let you ask them to delete your info.
+does a photo show where it was taken | remove location from photo => Phone photos often save GPS location inside the file. On iPhone, tap Options when sharing and turn off Location before sending.
+how do i download all my data from google | google takeout => Google Takeout at takeout.google.com lets you download copies of your Gmail, Photos, Drive and more as zip files.
+what does a cookie banner mean | accept all cookies or reject => The banner asks if the site may use cookies for tracking and ads. Choosing reject or only necessary cookies still lets the site work in most cases.
+should my gaming profile be private | xbox playstation privacy settings => It's safer to make your profile visible to friends only and limit who can message you. Ask a parent to check the console's family settings with you.
+what is a vpn good for and not good for | does a vpn make me anonymous => A VPN hides your traffic from the local network and your internet provider, which helps on public Wi-Fi. It doesn't stop sites from knowing you when you sign in.
+how do i stop people finding me by my phone number | hide my number on apps => In apps like Discord, WhatsApp and Instagram, turn off finding you by phone number or contacts in privacy settings.
+what is two step verification on a game account | protect my epic account => Turn on two-factor in your Epic, Steam, PlayStation or Xbox account settings. It stops people who steal your password from logging in.

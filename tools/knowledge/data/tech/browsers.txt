@@ -1,0 +1,15 @@
+# tag: tech.browsers
+what is the brave browser | is brave a good browser => Brave is a free browser built on Chromium that blocks most ads and trackers by default. It runs Chrome extensions too.
+what is duckduckgo | is duckduckgo private => DuckDuckGo is a search engine that doesn't build a profile of your searches. It also makes a privacy browser app for phones and computers.
+what is the tor browser | is tor safe for kids => Tor Browser hides where you are by bouncing traffic through several volunteer computers, which makes it slow. It also reaches hidden sites full of scams and illegal stuff, so kids don't need it.
+what is opera gx | gaming web browser => Opera GX is a browser made for gamers, with limits on how much RAM and CPU it uses plus Discord and Twitch in a sidebar.
+what is the arc browser | arc vertical tabs => Arc is a browser that keeps tabs in a sidebar and lets you split the window into spaces. As of 2025 its makers had moved their focus to a newer browser called Dia.
+what is microsoft edge | should i use edge or chrome => Edge is Microsoft's browser that comes with Windows. It's built on the same Chromium base as Chrome, so sites and Chrome extensions work the same.
+what is firefox | firefox vs chrome => Firefox is a free browser from the nonprofit Mozilla. It uses its own engine instead of Chromium and has strong privacy settings.
+what is the chromium browser | chromium web browser => Chromium is the open-source project that Chrome, Edge, Brave, Opera and Vivaldi are built on. They share the same engine, so sites work the same in all of them.
+what is a browser engine | blink gecko webkit => A browser engine turns website code into the page you see. Chrome and Edge use Blink, Firefox uses Gecko and Safari uses WebKit.
+which web browser should i use | best browser for a gaming pc => Any major browser works well. Chrome and Edge are popular, Firefox is great for privacy and Brave blocks ads out of the box, so pick the one you like.
+why does chrome use so much ram | browser using too much memory => Each tab and extension runs as its own process, which uses memory but keeps one crash from taking down everything. Close tabs you don't need and turn on Memory Saver.
+what is the vivaldi browser | very customizable browser => Vivaldi is a Chromium-based browser you can customize a lot, with tab stacks, a built-in mail app and notes.
+how do i import bookmarks into a new browser | move bookmarks to another browser => Most browsers have an import option in settings that copies bookmarks, history and saved passwords from another browser on the same computer.
+can i use a different browser on iphone | chrome on iphone => Yes, you can install Chrome, Firefox or others from the App Store and set one as the default in Settings. Outside the EU they all still run on Safari's WebKit engine.

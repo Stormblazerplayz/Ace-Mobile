@@ -1,0 +1,15 @@
+# tag: tech.linux.extra
+what is raspberry pi imager | put os on raspberry pi sd card => Raspberry Pi Imager is the official free tool that writes Raspberry Pi OS or other systems to a microSD card. Its settings let you set Wi-Fi, a username and SSH before the first boot.
+what is a headless raspberry pi | use a pi without a monitor => Headless means running a Pi with no screen, keyboard or mouse and controlling it from another computer over SSH or VNC.
+what power supply does a raspberry pi 5 need | pi 5 low voltage warning => The Pi 5 wants a 5 V, 5 A USB-C supply, like the official 27 W one. Weaker phone chargers can cause low-power warnings and limit USB power.
+does a raspberry pi 5 need a cooler | raspberry pi overheating => It runs fine for light jobs, but under heavy load it slows down when hot. The official Active Cooler or a case with a fan keeps it at full speed.
+what is the raspberry pi 500 | pi 500 keyboard computer => The Raspberry Pi 500 is a Pi 5 built into a keyboard, so you just add a screen, mouse and power for a full little computer.
+what is a raspberry pi zero | tiny raspberry pi => The Pi Zero 2 W is a tiny, cheap Pi with Wi-Fi, good for small projects like cameras or sensors where size and power matter more than speed.
+what is retropie | retro games on raspberry pi => RetroPie turns a Raspberry Pi into a retro game console with a menu for emulators. You need your own legally owned game files.
+why won't my raspberry pi boot | pi rainbow screen or no boot => Re-flash the microSD card with Raspberry Pi Imager, try another card and a proper power supply, and check the green activity light for blink codes.
+what is raspberry pi connect | control pi from browser => Raspberry Pi Connect is a free service that lets you reach your Pi's desktop or terminal from a web browser anywhere, without setting up port forwarding.
+what is linux mint | linux mint for beginners => Linux Mint is a beginner-friendly Linux distro with a Windows-like layout, good for reviving old computers.
+what is bazzite | gaming linux distro => Bazzite is a Linux distro made for gaming, with Steam and handheld support built in, a lot like SteamOS for regular PCs and handhelds.
+what is fedora linux | fedora vs ubuntu => Fedora is a Linux distro backed by Red Hat that gets newer software quickly. Ubuntu changes more slowly and has more beginner guides.
+what is flatpak | install apps on any linux => Flatpak is a way to install apps that work on most Linux distros, usually from the Flathub store, with each app kept in its own sandbox.
+what is wayland | wayland vs x11 => Wayland is the newer system Linux desktops use to draw windows, replacing the old X11. It's smoother and more secure, though some older apps still need X11 support.

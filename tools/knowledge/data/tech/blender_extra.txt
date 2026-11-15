@@ -1,0 +1,12 @@
+# tag: tech.blender.extra
+what is rigify | auto rig a character blender => Rigify is an add-on that comes with Blender. Add a human metarig, line its bones up with your character, then click Generate Rig to get a full animation rig.
+what is the child of constraint | pick up an object in animation blender => Child Of makes an object follow another like a parent, and you can keyframe its influence to grab and let go, like a hand picking up a cup.
+what is the action editor in blender | animation actions blender => The Action Editor is a mode of the Dope Sheet where you create, name and switch actions, which are saved animation clips like walk or jump.
+how do i break an object into pieces in blender | cell fracture => The Cell Fracture add-on, an extension in Blender 4.2 and later, splits a mesh into chunks you can drop with rigid body physics.
+what is a linked duplicate in blender | alt d blender => Alt + D makes a copy that shares the same mesh data, so editing one changes all of them. Shift + D makes an independent copy.
+how do i move the camera like the viewport in blender | camera to view lock => Press N, open the View tab and tick Camera to View while looking through the camera. Moving the view then moves the camera.
+why are my textures pink in blender | blender missing textures => Pink means Blender can't find the image files. Use File, External Data, Find Missing Files and point it to the folder with the images.
+what is smart uv project | automatic uv unwrap blender => Smart UV Project in the U menu cuts seams automatically based on face angles. It's quick and works well for hard-surface objects.
+how do i paint on a model in blender | texture paint blender => Switch to the Texture Paint workspace. The model needs UVs and an image texture in its material, then you can paint right on it.
+how do i turn physics into keyframes in blender | bake action blender => Use Object, Animation, Bake Action to convert constraints or simulations into regular keyframes you can edit.
+what is light linking in blender | light only one object => Light linking, added in Blender 4.0, lets a light shine on only the objects you pick, which helps light a character without brightening the background.

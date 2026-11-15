@@ -1,0 +1,19 @@
+# tag: tech.compare
+ram vs vram | difference between ram and vram => RAM is the main memory the whole computer uses. VRAM is separate memory on the graphics card just for textures and frames in games.
+resolution vs aspect ratio | aspect ratio or resolution => Resolution is how many pixels a screen has, like 2560 by 1440. Aspect ratio is its shape, like 16:9, no matter how many pixels.
+wifi vs mobile data | should i use wifi or data => Wi-Fi connects through a nearby router and usually has no data limit. Mobile data comes from cell towers and may count against your plan, so use Wi-Fi when you can.
+format vs delete | difference between formatting and deleting => Deleting removes chosen files. Formatting wipes the whole drive and sets it up fresh, which removes everything on it.
+restart vs shut down | is restart better than shut down => On Windows, Restart fully reloads the system, which fixes more problems, while Shut Down with Fast Startup saves some state. Use Restart when troubleshooting.
+copy vs cut | difference between cut and copy => Copy keeps the original and makes a duplicate when you paste. Cut removes the original once you paste it somewhere else.
+zip vs rar vs 7z | which archive format => ZIP opens almost anywhere without extra apps. RAR and 7z can compress smaller, and 7-Zip opens all of them for free.
+browser vs search engine | is google a browser => A browser is the app you use to view websites, like Chrome or Safari. A search engine is a website that finds pages, like Google or Bing.
+encryption vs password | is a password encryption => A password proves who you are to get in. Encryption scrambles the data itself so it's unreadable without the key, even if someone steals it.
+algorithm vs ai | is every algorithm ai => An algorithm is any set of steps for solving a problem. AI uses algorithms that learn patterns from data instead of following only fixed rules.
+open source vs free software | is free the same as open source => Free means you don't pay. Open source means the code is public for anyone to read and change. Many open-source apps are free, but not all free apps are open source.
+streaming vs downloading | difference between stream and download => Streaming plays a video or song while it loads and doesn't keep a copy. Downloading saves the whole file so you can play it offline.
+bluetooth vs wifi | difference between bluetooth and wifi => Bluetooth connects nearby devices directly, like headphones, using little power. Wi-Fi connects devices to a network and the internet with much more speed and range.
+nfc vs bluetooth | difference between nfc and bluetooth => NFC works only when devices almost touch and sends tiny bits of data, like tap to pay. Bluetooth works across a room and streams things like music.
+gaming mouse vs regular mouse | is a gaming mouse worth it => Gaming mice have better sensors, lighter shells, faster wireless and extra buttons. For school work a regular mouse is fine, but for shooters a gaming mouse helps.
+icloud vs google drive | which cloud storage is better => iCloud works best inside Apple devices and backs them up automatically. Google Drive works the same on any device and gives more free space.
+twitch vs youtube for streaming | where should i stream => Twitch is built around live streaming and chatting. YouTube is better for being found later, since streams become videos people can search for.
+oled vs mini led | which is better oled or mini led => OLED pixels light themselves for perfect blacks and fast response. Mini LED uses many tiny backlights, getting brighter but with some glow around bright objects.

@@ -1,0 +1,44 @@
+# tag: civics.president
+what powers does the president have | what can the president do => The president leads the executive branch, commands the military, signs or vetoes bills, makes treaties with Senate approval, picks judges and cabinet members, and can pardon people for federal crimes.
+what is a pardon | can the president pardon people => A pardon is official forgiveness for a crime. The president can pardon people for federal crimes, which cancels their punishment. Governors can pardon for state crimes.
+what is an inauguration | what happens at an inauguration => An inauguration is the ceremony where a new president takes the oath of office. It happens on January 20 after an election, usually at the US Capitol.
+who swears in the president | who gives the president the oath | who does the oath of office => The chief justice of the Supreme Court usually gives the oath of office to a new president, though any judge or official who can give oaths may do it.
+what is the line of succession | who becomes president if the president dies => If the president dies, resigns or is removed, the vice president becomes president. Next in line are the Speaker of the House, then the president pro tempore of the Senate, then cabinet members starting with the secretary of state.
+how old do you have to be to be president | what are the requirements to be president => To be president, you must be at least 35 years old, a natural born US citizen, and have lived in the US for at least 14 years.
+how much does the president get paid | what is the presidents salary => The US president is paid $400,000 a year, a salary set in 2001. The president also gets a home, travel and staff.
+what is the west wing | explain the west wing => The West Wing is the part of the White House where the president and top staff work, including the Oval Office and the Cabinet Room.
+what is camp david | explain camp david => Camp David is the president's country retreat in the mountains of Maryland. Famous peace talks between Egypt and Israel took place there in 1978.
+what is the secret service | explain the secret service => The Secret Service is the federal agency that protects the president, vice president, their families, former presidents and visiting leaders. It was first created in 1865 to fight fake money.
+what is an executive order | explain an executive order => An executive order is an official direction from the president to the federal government on how to carry out laws. It doesn't need Congress's approval but can be challenged in court.
+who was the only president to serve more than two terms | what is the only president to serve more than two terms famous for => Franklin D. Roosevelt was the only president elected more than twice. He won four elections, in 1932, 1936, 1940 and 1944, and died in office in 1945.
+who was the only president not elected as president or vice president | what is the only president not elected as president or vice president famous for => Gerald Ford was the only president never elected as president or vice president. He was appointed vice president in 1973 and became president when Nixon resigned in 1974.
+# tag: civics.agencies
+what is the department of education | explain the department of education => The Department of Education is a federal department, created in 1979, that gives money to schools, runs student aid for college, and collects data about education.
+what does the department of the treasury do | what is the treasury => The Treasury Department manages the government's money. It collects taxes through the IRS, pays the government's bills and makes coins and paper money.
+what is the department of justice | explain the department of justice => The Department of Justice enforces federal laws and is led by the attorney general. The FBI is part of it.
+who is the attorney general | what is the attorney general famous for => The attorney general is the head of the Department of Justice and the main lawyer for the US government.
+what is the cia | explain the cia => The CIA, or Central Intelligence Agency, gathers information about foreign countries to help keep the US safe. It was created in 1947.
+what is the epa | explain the epa => The EPA, or Environmental Protection Agency, protects people's health and the environment by setting rules about clean air, clean water and pollution. It was created in 1970.
+what is the fda | explain the fda => The FDA, or Food and Drug Administration, makes sure food is safe and medicines work and are safe before they are sold.
+what is the cdc | explain the cdc => The CDC, or Centers for Disease Control and Prevention, is a US agency in Atlanta that tracks and fights diseases and helps keep people healthy.
+what is fema | explain fema => FEMA, the Federal Emergency Management Agency, helps people before, during and after disasters like hurricanes, floods and earthquakes.
+what is the post office | what is the usps => The United States Postal Service delivers mail to every address in the country. Benjamin Franklin was the first postmaster general in 1775.
+what is the peace corps | explain the peace corps => The Peace Corps is a US program started by President Kennedy in 1961 that sends volunteers to help communities in other countries with things like teaching and health.
+what is medicare | explain medicare => Medicare is a US government health insurance program, started in 1965, mostly for people 65 and older.
+what is the department of homeland security | explain the department of homeland security => The Department of Homeland Security was created in 2002 after the September 11 attacks to protect the US from threats. It includes groups like the Coast Guard and TSA.
+what is the tsa | explain the tsa => The TSA, or Transportation Security Administration, screens passengers and bags at US airports. It was created after the September 11, 2001, attacks.
+what is the coast guard | explain the coast guard => The Coast Guard protects US coasts and waterways, rescues people at sea and enforces laws on the water. It traces back to 1790.
+# tag: civics.money
+what is the federal budget | explain the federal budget => The federal budget is the government's plan for how much money to collect and spend each year. Congress has to pass it, and the president signs it.
+what is a government shutdown | explain a government shutdown => A government shutdown happens when Congress and the president don't agree on a budget in time. Some government offices close until a deal is reached.
+# tag: civics.citizenship
+what is a green card | explain a green card => A green card is an official document that lets someone from another country live and work in the US permanently.
+what is a passport | explain a passport => A passport is an official document from your government that proves who you are and lets you travel to other countries.
+what is an immigrant | explain an immigrant => An immigrant is a person who moves to another country to live there. The US is often called a nation of immigrants.
+what is ellis island | explain ellis island => Ellis Island in New York Harbor was the main entry point for immigrants to the US from 1892 to 1954. About 12 million people came through it.
+what is angel island | explain angel island => Angel Island in San Francisco Bay was an immigration station from 1910 to 1940. Many Chinese immigrants were held there for weeks or months because of unfair laws.
+# tag: civics.symbols
+what is the national motto of the us | explain the national motto of the us => "In God We Trust" became the official US national motto in 1956. "E pluribus unum," meaning "out of many, one," is a traditional motto on the Great Seal.
+how many times has the us flag changed | how many versions of the us flag => The US flag has had 27 official versions as stars were added for new states. The current 50 star flag became official on July 4, 1960, after Hawaii became a state.
+what is america the beautiful | explain america the beautiful => "America the Beautiful" is a patriotic song with words by Katharine Lee Bates, written in 1893 after she visited Pikes Peak in Colorado.
+who is lady liberty | what is lady liberty famous for => Lady Liberty is a nickname for the Statue of Liberty, a gift from France dedicated in 1886. She holds a torch and a tablet with the date of the Declaration of Independence.

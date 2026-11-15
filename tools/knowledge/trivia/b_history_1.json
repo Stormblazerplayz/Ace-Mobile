@@ -1,0 +1,2500 @@
+{
+ "questions": [
+  {
+   "id": "history-1001",
+   "category": "History",
+   "q": "Who became the first emperor of Rome?",
+   "choices": [
+    "Nero",
+    "Caligula",
+    "Augustus",
+    "Julius Caesar"
+   ],
+   "answer": 2,
+   "fact": "Augustus, who was born with the name Octavian, became Rome's first emperor in 27 BC."
+  },
+  {
+   "id": "history-1002",
+   "category": "History",
+   "q": "Which wonder of the ancient world was a giant lighthouse in Egypt?",
+   "choices": [
+    "Temple of Artemis",
+    "Colossus of Rhodes",
+    "Lighthouse of Alexandria",
+    "Hanging Gardens of Babylon"
+   ],
+   "answer": 2,
+   "fact": "The Lighthouse of Alexandria stood on the island of Pharos and was one of the tallest buildings of the ancient world."
+  },
+  {
+   "id": "history-1003",
+   "category": "History",
+   "q": "Which of the Seven Wonders of the Ancient World is the only one still standing?",
+   "choices": [
+    "Colossus of Rhodes",
+    "Statue of Zeus at Olympia",
+    "Great Pyramid of Giza",
+    "Lighthouse of Alexandria"
+   ],
+   "answer": 2,
+   "fact": "The Great Pyramid was built about 4,500 years ago for the pharaoh Khufu."
+  },
+  {
+   "id": "history-1004",
+   "category": "History",
+   "q": "What were the picture symbols used for writing in ancient Egypt called?",
+   "choices": [
+    "Runes",
+    "Glyphoglyphs",
+    "Emojis",
+    "Hieroglyphs"
+   ],
+   "answer": 3,
+   "fact": "Hieroglyphs could be written left to right, right to left, or top to bottom."
+  },
+  {
+   "id": "history-1005",
+   "category": "History",
+   "q": "Which stone helped experts finally read Egyptian hieroglyphs?",
+   "choices": [
+    "Stone of Scone",
+    "Blarney Stone",
+    "Rosetta Stone",
+    "Plymouth Rock"
+   ],
+   "answer": 2,
+   "fact": "The Rosetta Stone has the same message in three scripts, which helped Jean-François Champollion crack hieroglyphs in 1822."
+  },
+  {
+   "id": "history-1006",
+   "category": "History",
+   "q": "Which young pharaoh's tomb was found almost untouched in 1922?",
+   "choices": [
+    "Tutankhamun",
+    "Akhenaten",
+    "Ramses II",
+    "Khufu"
+   ],
+   "answer": 0,
+   "fact": "Howard Carter found King Tut's tomb in the Valley of the Kings, packed with golden treasures."
+  },
+  {
+   "id": "history-1007",
+   "category": "History",
+   "q": "What wedge-shaped writing was invented in ancient Mesopotamia?",
+   "choices": [
+    "Sanskrit",
+    "Cuneiform",
+    "Braille",
+    "Hieroglyphs"
+   ],
+   "answer": 1,
+   "fact": "Cuneiform was pressed into wet clay tablets with the end of a cut reed."
+  },
+  {
+   "id": "history-1008",
+   "category": "History",
+   "q": "Which river did farming in ancient Egypt depend on?",
+   "choices": [
+    "Jordan",
+    "Tigris",
+    "Euphrates",
+    "Nile"
+   ],
+   "answer": 3,
+   "fact": "The Nile flooded every year and left rich black soil behind for growing crops."
+  },
+  {
+   "id": "history-1009",
+   "category": "History",
+   "q": "Which Greek city-state was famous for its tough warriors?",
+   "choices": [
+    "Delphi",
+    "Corinth",
+    "Sparta",
+    "Athens"
+   ],
+   "answer": 2,
+   "fact": "Spartan boys started their military training at about age 7."
+  },
+  {
+   "id": "history-1010",
+   "category": "History",
+   "q": "In which ancient Greek city did democracy first develop?",
+   "choices": [
+    "Rome",
+    "Athens",
+    "Sparta",
+    "Troy"
+   ],
+   "answer": 1,
+   "fact": "Athenian democracy began around 508 BC, but only free adult men were allowed to vote."
+  },
+  {
+   "id": "history-1011",
+   "category": "History",
+   "q": "Which Macedonian king built a huge empire before he died at age 32?",
+   "choices": [
+    "Xerxes",
+    "Alexander the Great",
+    "Darius the Great",
+    "Philip II"
+   ],
+   "answer": 1,
+   "fact": "Alexander's empire stretched from Greece all the way to the edge of India."
+  },
+  {
+   "id": "history-1012",
+   "category": "History",
+   "q": "Which Carthaginian general crossed the Alps with war elephants to attack Rome?",
+   "choices": [
+    "Scipio",
+    "Hannibal",
+    "Attila",
+    "Spartacus"
+   ],
+   "answer": 1,
+   "fact": "Hannibal crossed the Alps in 218 BC, and many of his elephants did not survive the cold."
+  },
+  {
+   "id": "history-1013",
+   "category": "History",
+   "q": "What were the fighters who battled to entertain crowds in Roman arenas called?",
+   "choices": [
+    "Knights",
+    "Vikings",
+    "Gladiators",
+    "Samurai"
+   ],
+   "answer": 2,
+   "fact": "Many gladiators were enslaved people or prisoners, but the best ones became as famous as sports stars."
+  },
+  {
+   "id": "history-1014",
+   "category": "History",
+   "q": "What is the name of the giant ancient arena in the middle of Rome?",
+   "choices": [
+    "Parthenon",
+    "Pantheon",
+    "Acropolis",
+    "Colosseum"
+   ],
+   "answer": 3,
+   "fact": "The Colosseum was finished in AD 80 and could hold around 50,000 people."
+  },
+  {
+   "id": "history-1015",
+   "category": "History",
+   "q": "Which Roman leader was killed on the Ides of March in 44 BC?",
+   "choices": [
+    "Augustus",
+    "Julius Caesar",
+    "Nero",
+    "Marcus Aurelius"
+   ],
+   "answer": 1,
+   "fact": "The Ides of March is another name for March 15."
+  },
+  {
+   "id": "history-1016",
+   "category": "History",
+   "q": "What language did the ancient Romans speak?",
+   "choices": [
+    "Gaelic",
+    "Italian",
+    "Greek",
+    "Latin"
+   ],
+   "answer": 3,
+   "fact": "Latin is the root of Spanish, French, Italian, Portuguese and Romanian."
+  },
+  {
+   "id": "history-1017",
+   "category": "History",
+   "q": "According to legend, which city was captured by soldiers hiding inside a wooden horse?",
+   "choices": [
+    "Sparta",
+    "Athens",
+    "Carthage",
+    "Troy"
+   ],
+   "answer": 3,
+   "fact": "The story of the Trojan Horse comes from ancient Greek myths and poems."
+  },
+  {
+   "id": "history-1018",
+   "category": "History",
+   "q": "Who led the Huns in their attacks on the Roman Empire?",
+   "choices": [
+    "Hannibal",
+    "Charlemagne",
+    "Attila",
+    "Genghis Khan"
+   ],
+   "answer": 2,
+   "fact": "Attila was so feared that Romans called him the Scourge of God."
+  },
+  {
+   "id": "history-1019",
+   "category": "History",
+   "q": "Which Mongol leader founded the Mongol Empire in 1206?",
+   "choices": [
+    "Kublai Khan",
+    "Tamerlane",
+    "Attila",
+    "Genghis Khan"
+   ],
+   "answer": 3,
+   "fact": "At its biggest, the Mongol Empire was the largest connected land empire in history."
+  },
+  {
+   "id": "history-1020",
+   "category": "History",
+   "q": "Which grandson of Genghis Khan started the Yuan dynasty in China?",
+   "choices": [
+    "Ogedei Khan",
+    "Kublai Khan",
+    "Timur",
+    "Batu Khan"
+   ],
+   "answer": 1,
+   "fact": "The traveler Marco Polo wrote about visiting the court of Kublai Khan."
+  },
+  {
+   "id": "history-1021",
+   "category": "History",
+   "q": "Which Italian traveler wrote about his journey to China in the 1200s?",
+   "choices": [
+    "Galileo Galilei",
+    "Christopher Columbus",
+    "Marco Polo",
+    "Amerigo Vespucci"
+   ],
+   "answer": 2,
+   "fact": "Marco Polo said he spent about 17 years in China working for Kublai Khan."
+  },
+  {
+   "id": "history-1022",
+   "category": "History",
+   "q": "What was the famous network of trade routes between China and the Mediterranean called?",
+   "choices": [
+    "Route 66",
+    "Oregon Trail",
+    "Appian Way",
+    "Silk Road"
+   ],
+   "answer": 3,
+   "fact": "The Silk Road carried silk, spices, ideas and even inventions like paper between East and West."
+  },
+  {
+   "id": "history-1023",
+   "category": "History",
+   "q": "During which Chinese dynasty was most of the Great Wall we see today built?",
+   "choices": [
+    "Han",
+    "Qin",
+    "Tang",
+    "Ming"
+   ],
+   "answer": 3,
+   "fact": "Most of the wall that tourists visit today was built during the Ming dynasty, which ruled from 1368 to 1644."
+  },
+  {
+   "id": "history-1024",
+   "category": "History",
+   "q": "Who was the first emperor of a united China?",
+   "choices": [
+    "Confucius",
+    "Sun Yat-sen",
+    "Kublai Khan",
+    "Qin Shi Huang"
+   ],
+   "answer": 3,
+   "fact": "The name China may come from Qin, which is said like \"chin\"."
+  },
+  {
+   "id": "history-1025",
+   "category": "History",
+   "q": "What is the army of clay soldiers buried with China's first emperor called?",
+   "choices": [
+    "Terracotta Army",
+    "Jade Legion",
+    "Bronze Brigade",
+    "Stone Guard"
+   ],
+   "answer": 0,
+   "fact": "Farmers digging a well found it in 1974, and it has more than 8,000 figures."
+  },
+  {
+   "id": "history-1026",
+   "category": "History",
+   "q": "Which Chinese thinker taught about respect, family and good behavior about 2,500 years ago?",
+   "choices": [
+    "Confucius",
+    "Sun Tzu",
+    "Mencius",
+    "Laozi"
+   ],
+   "answer": 0,
+   "fact": "The sayings of Confucius were collected by his students in a book called the Analects."
+  },
+  {
+   "id": "history-1027",
+   "category": "History",
+   "q": "Which ancient Chinese general is said to have written The Art of War?",
+   "choices": [
+    "Sun Tzu",
+    "Cao Cao",
+    "Confucius",
+    "Zhuge Liang"
+   ],
+   "answer": 0,
+   "fact": "The Art of War is still read today by athletes, business leaders and game players."
+  },
+  {
+   "id": "history-1028",
+   "category": "History",
+   "q": "Which empire built Machu Picchu high in the Andes?",
+   "choices": [
+    "Olmec",
+    "Maya",
+    "Aztec",
+    "Inca"
+   ],
+   "answer": 3,
+   "fact": "Machu Picchu was built in the 1400s and became world famous after the explorer Hiram Bingham visited it in 1911."
+  },
+  {
+   "id": "history-1029",
+   "category": "History",
+   "q": "What was the capital city of the Aztec Empire?",
+   "choices": [
+    "Chichen Itza",
+    "Tenochtitlan",
+    "Cusco",
+    "Teotihuacan"
+   ],
+   "answer": 1,
+   "fact": "Mexico City is built on top of the ruins of Tenochtitlan, which sat on an island in a lake."
+  },
+  {
+   "id": "history-1030",
+   "category": "History",
+   "q": "Which civilization built the great pyramid city of Chichen Itza in Mexico?",
+   "choices": [
+    "Maya",
+    "Aztec",
+    "Toltec",
+    "Inca"
+   ],
+   "answer": 0,
+   "fact": "On the spring and fall equinoxes, shadows make a snake shape slither down the side of its main pyramid."
+  },
+  {
+   "id": "history-1031",
+   "category": "History",
+   "q": "Which Spanish conquistador brought down the Aztec Empire?",
+   "choices": [
+    "Hernando de Soto",
+    "Ponce de León",
+    "Hernán Cortés",
+    "Francisco Pizarro"
+   ],
+   "answer": 2,
+   "fact": "Cortés and his local allies captured Tenochtitlan in 1521."
+  },
+  {
+   "id": "history-1032",
+   "category": "History",
+   "q": "Which Spanish conquistador conquered the Inca Empire?",
+   "choices": [
+    "Juan Ponce de León",
+    "Hernán Cortés",
+    "Vasco Núñez de Balboa",
+    "Francisco Pizarro"
+   ],
+   "answer": 3,
+   "fact": "Pizarro captured the Inca emperor Atahualpa in 1532."
+  },
+  {
+   "id": "history-1033",
+   "category": "History",
+   "q": "What was the capital of the Inca Empire?",
+   "choices": [
+    "Lima",
+    "Cusco",
+    "Quito",
+    "La Paz"
+   ],
+   "answer": 1,
+   "fact": "Cusco is still a busy city in Peru, and some of its streets have walls built by the Inca."
+  },
+  {
+   "id": "history-1034",
+   "category": "History",
+   "q": "What did the Inca use their knotted strings, called quipus, for?",
+   "choices": [
+    "Tying up boats",
+    "Keeping records and counting",
+    "Playing music",
+    "Catching fish"
+   ],
+   "answer": 1,
+   "fact": "The Inca had no written alphabet, so quipus helped them track numbers like taxes and harvests."
+  },
+  {
+   "id": "history-1035",
+   "category": "History",
+   "q": "Which seafaring raiders from Scandinavia attacked coasts across Europe from about 800 to 1050?",
+   "choices": [
+    "Huns",
+    "Mongols",
+    "Vikings",
+    "Celts"
+   ],
+   "answer": 2,
+   "fact": "Vikings were also traders and explorers who sailed as far as North America."
+  },
+  {
+   "id": "history-1036",
+   "category": "History",
+   "q": "Which Viking explorer reached North America around the year 1000?",
+   "choices": [
+    "Harald Hardrada",
+    "Erik the Red",
+    "Ragnar Lothbrok",
+    "Leif Erikson"
+   ],
+   "answer": 3,
+   "fact": "Leif called the land Vinland, and a Viking site has been found in Newfoundland, Canada."
+  },
+  {
+   "id": "history-1037",
+   "category": "History",
+   "q": "Which battle in 1066 led to the Norman conquest of England?",
+   "choices": [
+    "Battle of Hastings",
+    "Battle of Bosworth",
+    "Battle of Agincourt",
+    "Battle of Waterloo"
+   ],
+   "answer": 0,
+   "fact": "William the Conqueror won the battle and was crowned King of England on Christmas Day 1066."
+  },
+  {
+   "id": "history-1038",
+   "category": "History",
+   "q": "Which long embroidered cloth tells the story of the Norman conquest of England?",
+   "choices": [
+    "Domesday Book",
+    "Book of Kells",
+    "Shroud of Turin",
+    "Bayeux Tapestry"
+   ],
+   "answer": 3,
+   "fact": "The Bayeux Tapestry is nearly 70 meters long and even shows Halley's Comet."
+  },
+  {
+   "id": "history-1039",
+   "category": "History",
+   "q": "What was the deadly plague that swept across Europe in the 1300s called?",
+   "choices": [
+    "Great Fever",
+    "Spanish flu",
+    "Black Death",
+    "Red Plague"
+   ],
+   "answer": 2,
+   "fact": "The Black Death killed somewhere between a third and half of all the people in Europe."
+  },
+  {
+   "id": "history-1040",
+   "category": "History",
+   "q": "What were the wars fought over the Holy Land between Christian and Muslim armies in the Middle Ages called?",
+   "choices": [
+    "Hundred Years' War",
+    "Crusades",
+    "Wars of the Roses",
+    "Thirty Years' War"
+   ],
+   "answer": 1,
+   "fact": "The First Crusade began in 1096."
+  },
+  {
+   "id": "history-1041",
+   "category": "History",
+   "q": "Which French teenager led armies during the Hundred Years' War?",
+   "choices": [
+    "Catherine de' Medici",
+    "Joan of Arc",
+    "Eleanor of Aquitaine",
+    "Marie Antoinette"
+   ],
+   "answer": 1,
+   "fact": "Joan was about 17 when she helped end the siege of Orléans in 1429."
+  },
+  {
+   "id": "history-1042",
+   "category": "History",
+   "q": "How long did the Hundred Years' War between England and France actually last?",
+   "choices": [
+    "116 years",
+    "99 years",
+    "100 years",
+    "85 years"
+   ],
+   "answer": 0,
+   "fact": "The Hundred Years' War ran from 1337 to 1453, with long breaks in the fighting."
+  },
+  {
+   "id": "history-1043",
+   "category": "History",
+   "q": "What was the medieval system where lords gave land to people in return for loyalty and service?",
+   "choices": [
+    "Democracy",
+    "Feudalism",
+    "Capitalism",
+    "Communism"
+   ],
+   "answer": 1,
+   "fact": "At the bottom of the feudal system were peasants called serfs who worked the land."
+  },
+  {
+   "id": "history-1044",
+   "category": "History",
+   "q": "In the Middle Ages, what was a boy called when he first began training to become a knight?",
+   "choices": [
+    "Jester",
+    "Baron",
+    "Friar",
+    "Page"
+   ],
+   "answer": 3,
+   "fact": "Pages started training around age 7 and became squires at about 14."
+  },
+  {
+   "id": "history-1045",
+   "category": "History",
+   "q": "What was the time of rebirth in art and learning that began in Italy in the 1300s called?",
+   "choices": [
+    "Enlightenment",
+    "Reformation",
+    "Renaissance",
+    "Industrial Revolution"
+   ],
+   "answer": 2,
+   "fact": "Renaissance is a French word that means rebirth."
+  },
+  {
+   "id": "history-1046",
+   "category": "History",
+   "q": "Who painted the ceiling of the Sistine Chapel?",
+   "choices": [
+    "Leonardo da Vinci",
+    "Donatello",
+    "Raphael",
+    "Michelangelo"
+   ],
+   "answer": 3,
+   "fact": "Michelangelo spent about four years, from 1508 to 1512, painting the huge ceiling."
+  },
+  {
+   "id": "history-1047",
+   "category": "History",
+   "q": "Who started the Protestant Reformation by writing his 95 Theses in 1517?",
+   "choices": [
+    "Henry VIII",
+    "Erasmus",
+    "John Calvin",
+    "Martin Luther"
+   ],
+   "answer": 3,
+   "fact": "The new printing press helped Luther's ideas spread quickly across Europe."
+  },
+  {
+   "id": "history-1048",
+   "category": "History",
+   "q": "Which English king had six wives?",
+   "choices": [
+    "James I",
+    "Henry VIII",
+    "Richard III",
+    "Edward VI"
+   ],
+   "answer": 1,
+   "fact": "A rhyme helps people remember their fates: divorced, beheaded, died, divorced, beheaded, survived."
+  },
+  {
+   "id": "history-1049",
+   "category": "History",
+   "q": "Which queen ruled England when the Spanish Armada was defeated in 1588?",
+   "choices": [
+    "Elizabeth I",
+    "Anne",
+    "Victoria",
+    "Mary I"
+   ],
+   "answer": 0,
+   "fact": "Elizabeth I ruled for 44 years and never married."
+  },
+  {
+   "id": "history-1050",
+   "category": "History",
+   "q": "Who wrote the play Romeo and Juliet?",
+   "choices": [
+    "Geoffrey Chaucer",
+    "Charles Dickens",
+    "William Shakespeare",
+    "Christopher Marlowe"
+   ],
+   "answer": 2,
+   "fact": "Shakespeare also wrote 154 poems called sonnets."
+  },
+  {
+   "id": "history-1051",
+   "category": "History",
+   "q": "What was the name of the London theater where many of Shakespeare's plays were performed?",
+   "choices": [
+    "Globe Theatre",
+    "Royal Albert Hall",
+    "London Palladium",
+    "Old Vic"
+   ],
+   "answer": 0,
+   "fact": "A rebuilt Globe Theatre opened near the original site in 1997."
+  },
+  {
+   "id": "history-1052",
+   "category": "History",
+   "q": "Which Portuguese explorer reached India by sailing around Africa in 1498?",
+   "choices": [
+    "Vasco da Gama",
+    "John Cabot",
+    "Ferdinand Magellan",
+    "Christopher Columbus"
+   ],
+   "answer": 0,
+   "fact": "Vasco da Gama's route let Europeans trade for spices without crossing land."
+  },
+  {
+   "id": "history-1053",
+   "category": "History",
+   "q": "Which country paid for Christopher Columbus's voyage in 1492?",
+   "choices": [
+    "Spain",
+    "Portugal",
+    "England",
+    "Italy"
+   ],
+   "answer": 0,
+   "fact": "Queen Isabella and King Ferdinand of Spain agreed to pay for the trip after Portugal said no."
+  },
+  {
+   "id": "history-1054",
+   "category": "History",
+   "q": "What was the name of the ship that carried the Pilgrims to America in 1620?",
+   "choices": [
+    "Endeavour",
+    "Mayflower",
+    "Santa María",
+    "Beagle"
+   ],
+   "answer": 1,
+   "fact": "The Pilgrims founded Plymouth Colony in what is now Massachusetts."
+  },
+  {
+   "id": "history-1055",
+   "category": "History",
+   "q": "What was the first permanent English settlement in North America?",
+   "choices": [
+    "Boston",
+    "Plymouth",
+    "Jamestown",
+    "Roanoke"
+   ],
+   "answer": 2,
+   "fact": "Jamestown was founded in Virginia in 1607."
+  },
+  {
+   "id": "history-1056",
+   "category": "History",
+   "q": "Which English colony is known as the Lost Colony because its settlers vanished?",
+   "choices": [
+    "Jamestown",
+    "Salem",
+    "Roanoke",
+    "Plymouth"
+   ],
+   "answer": 2,
+   "fact": "When help finally arrived, the only clue was the word \"CROATOAN\" carved into a post."
+  },
+  {
+   "id": "history-1057",
+   "category": "History",
+   "q": "Which Powhatan woman is famous for her connection to the Jamestown colonists?",
+   "choices": [
+    "Pocahontas",
+    "Tecumseh",
+    "Sacagawea",
+    "Squanto"
+   ],
+   "answer": 0,
+   "fact": "Pocahontas later traveled to England, where she died in 1617."
+  },
+  {
+   "id": "history-1058",
+   "category": "History",
+   "q": "In what year was the US Declaration of Independence adopted?",
+   "choices": [
+    "1789",
+    "1776",
+    "1765",
+    "1812"
+   ],
+   "answer": 1,
+   "fact": "It was adopted on July 4, 1776, which is why Americans celebrate on the Fourth of July."
+  },
+  {
+   "id": "history-1059",
+   "category": "History",
+   "q": "In 1773, what did American colonists dump into Boston Harbor to protest taxes?",
+   "choices": [
+    "Salt",
+    "Sugar",
+    "Tea",
+    "Coffee"
+   ],
+   "answer": 2,
+   "fact": "Colonists threw 342 chests of British tea into the water during the Boston Tea Party."
+  },
+  {
+   "id": "history-1060",
+   "category": "History",
+   "q": "Who made a famous midnight ride in 1775 to warn that British soldiers were coming?",
+   "choices": [
+    "Benjamin Franklin",
+    "John Hancock",
+    "Samuel Adams",
+    "Paul Revere"
+   ],
+   "answer": 3,
+   "fact": "Paul Revere was a silversmith, and other riders also helped spread the warning that night."
+  },
+  {
+   "id": "history-1061",
+   "category": "History",
+   "q": "Who commanded the Continental Army during the American Revolution?",
+   "choices": [
+    "John Adams",
+    "George Washington",
+    "Alexander Hamilton",
+    "Benjamin Franklin"
+   ],
+   "answer": 1,
+   "fact": "Washington spent the hard winter of 1777 to 1778 with his troops at Valley Forge."
+  },
+  {
+   "id": "history-1062",
+   "category": "History",
+   "q": "Which country gave the Statue of Liberty to the United States as a gift?",
+   "choices": [
+    "France",
+    "Italy",
+    "England",
+    "Spain"
+   ],
+   "answer": 0,
+   "fact": "The statue was shipped across the ocean in 350 pieces and dedicated in 1886."
+  },
+  {
+   "id": "history-1063",
+   "category": "History",
+   "q": "Which famous American document begins with the words \"We the People\"?",
+   "choices": [
+    "Emancipation Proclamation",
+    "Gettysburg Address",
+    "Declaration of Independence",
+    "US Constitution"
+   ],
+   "answer": 3,
+   "fact": "The US Constitution was signed in 1787 and is the oldest written national constitution still in use."
+  },
+  {
+   "id": "history-1064",
+   "category": "History",
+   "q": "What are the first ten amendments to the US Constitution called?",
+   "choices": [
+    "Magna Carta",
+    "Articles of Confederation",
+    "Federalist Papers",
+    "Bill of Rights"
+   ],
+   "answer": 3,
+   "fact": "The Bill of Rights protects freedoms like free speech and freedom of religion."
+  },
+  {
+   "id": "history-1065",
+   "category": "History",
+   "q": "Which US president bought the huge Louisiana Territory from France in 1803?",
+   "choices": [
+    "Thomas Jefferson",
+    "James Madison",
+    "John Adams",
+    "George Washington"
+   ],
+   "answer": 0,
+   "fact": "The Louisiana Purchase roughly doubled the size of the United States."
+  },
+  {
+   "id": "history-1066",
+   "category": "History",
+   "q": "Which two explorers led an expedition across the American West starting in 1804?",
+   "choices": [
+    "Lewis and Clark",
+    "Marquette and Joliet",
+    "Burke and Wills",
+    "Stanley and Livingstone"
+   ],
+   "answer": 0,
+   "fact": "A Shoshone woman named Sacagawea helped guide them and translate."
+  },
+  {
+   "id": "history-1067",
+   "category": "History",
+   "q": "Who was the US president during the American Civil War?",
+   "choices": [
+    "Abraham Lincoln",
+    "Theodore Roosevelt",
+    "Ulysses S. Grant",
+    "Andrew Jackson"
+   ],
+   "answer": 0,
+   "fact": "Lincoln was the tallest US president, at about 6 feet 4 inches."
+  },
+  {
+   "id": "history-1068",
+   "category": "History",
+   "q": "Which famous Lincoln speech begins with \"Four score and seven years ago\"?",
+   "choices": [
+    "Farewell Address",
+    "Inaugural Address",
+    "Emancipation Proclamation",
+    "Gettysburg Address"
+   ],
+   "answer": 3,
+   "fact": "The Gettysburg Address is fewer than 300 words long and took about two minutes to give."
+  },
+  {
+   "id": "history-1069",
+   "category": "History",
+   "q": "In what year did the American Civil War end?",
+   "choices": [
+    "1861",
+    "1876",
+    "1865",
+    "1850"
+   ],
+   "answer": 2,
+   "fact": "The war ended when General Robert E. Lee surrendered at Appomattox Court House in April 1865."
+  },
+  {
+   "id": "history-1070",
+   "category": "History",
+   "q": "Which woman escaped slavery and then led many others to freedom on the Underground Railroad?",
+   "choices": [
+    "Harriet Tubman",
+    "Clara Barton",
+    "Sojourner Truth",
+    "Rosa Parks"
+   ],
+   "answer": 0,
+   "fact": "Harriet Tubman made about 13 trips and guided around 70 people to freedom."
+  },
+  {
+   "id": "history-1071",
+   "category": "History",
+   "q": "Which man escaped slavery and became a famous speaker and writer against it?",
+   "choices": [
+    "W. E. B. Du Bois",
+    "Nat Turner",
+    "Booker T. Washington",
+    "Frederick Douglass"
+   ],
+   "answer": 3,
+   "fact": "Frederick Douglass taught himself to read even though it was illegal for enslaved people."
+  },
+  {
+   "id": "history-1072",
+   "category": "History",
+   "q": "In which US state did a famous gold rush begin in 1848?",
+   "choices": [
+    "Colorado",
+    "Alaska",
+    "California",
+    "Texas"
+   ],
+   "answer": 2,
+   "fact": "People who rushed there in 1849 were nicknamed the forty-niners."
+  },
+  {
+   "id": "history-1073",
+   "category": "History",
+   "q": "What was the name of the long trail many pioneers used to travel west by wagon in the 1800s?",
+   "choices": [
+    "Appalachian Trail",
+    "Oregon Trail",
+    "Pan-American Highway",
+    "Route 66"
+   ],
+   "answer": 1,
+   "fact": "The Oregon Trail was about 2,000 miles long and took around five months to travel."
+  },
+  {
+   "id": "history-1074",
+   "category": "History",
+   "q": "In what year was the first railroad across the United States completed?",
+   "choices": [
+    "1869",
+    "1825",
+    "1901",
+    "1849"
+   ],
+   "answer": 0,
+   "fact": "A golden spike was tapped into the track at Promontory Summit, Utah, to finish it."
+  },
+  {
+   "id": "history-1075",
+   "category": "History",
+   "q": "Which woman refused to give up her bus seat in Montgomery, Alabama, in 1955?",
+   "choices": [
+    "Ruby Bridges",
+    "Rosa Parks",
+    "Harriet Tubman",
+    "Coretta Scott King"
+   ],
+   "answer": 1,
+   "fact": "Her arrest led to the Montgomery bus boycott, which lasted more than a year."
+  },
+  {
+   "id": "history-1076",
+   "category": "History",
+   "q": "Which country did the United States buy Alaska from in 1867?",
+   "choices": [
+    "Russia",
+    "Spain",
+    "Canada",
+    "Britain"
+   ],
+   "answer": 0,
+   "fact": "The US paid about 7.2 million dollars, which works out to about two cents an acre."
+  },
+  {
+   "id": "history-1077",
+   "category": "History",
+   "q": "What 1929 event helped start the Great Depression?",
+   "choices": [
+    "World War I",
+    "Stock market crash",
+    "The Titanic sinking",
+    "The Dust Bowl"
+   ],
+   "answer": 1,
+   "fact": "The crash began in October 1929, and millions of people lost their jobs in the years after."
+  },
+  {
+   "id": "history-1078",
+   "category": "History",
+   "q": "Which US president created the New Deal programs during the Great Depression?",
+   "choices": [
+    "Woodrow Wilson",
+    "Theodore Roosevelt",
+    "Franklin D. Roosevelt",
+    "Herbert Hoover"
+   ],
+   "answer": 2,
+   "fact": "Franklin D. Roosevelt is the only US president who was elected four times."
+  },
+  {
+   "id": "history-1079",
+   "category": "History",
+   "q": "Whose assassination in 1914 sparked World War I?",
+   "choices": [
+    "Tsar Nicholas II",
+    "Archduke Franz Ferdinand",
+    "King George V",
+    "Kaiser Wilhelm II"
+   ],
+   "answer": 1,
+   "fact": "Franz Ferdinand was the heir to the throne of Austria-Hungary and was shot in Sarajevo."
+  },
+  {
+   "id": "history-1080",
+   "category": "History",
+   "q": "In what year did World War I end?",
+   "choices": [
+    "1921",
+    "1918",
+    "1919",
+    "1914"
+   ],
+   "answer": 1,
+   "fact": "The fighting stopped at 11 a.m. on November 11, 1918."
+  },
+  {
+   "id": "history-1081",
+   "category": "History",
+   "q": "What were the long ditches that soldiers fought from in World War I called?",
+   "choices": [
+    "Tunnels",
+    "Moats",
+    "Trenches",
+    "Bunkers"
+   ],
+   "answer": 2,
+   "fact": "The strip of land between enemy trenches was called No Man's Land."
+  },
+  {
+   "id": "history-1082",
+   "category": "History",
+   "q": "In what year did World War II begin?",
+   "choices": [
+    "1941",
+    "1935",
+    "1914",
+    "1939"
+   ],
+   "answer": 3,
+   "fact": "The war started in Europe when Germany invaded Poland on September 1, 1939."
+  },
+  {
+   "id": "history-1083",
+   "category": "History",
+   "q": "Which attack on December 7, 1941 brought the United States into World War II?",
+   "choices": [
+    "Hiroshima",
+    "Midway",
+    "D-Day",
+    "Pearl Harbor"
+   ],
+   "answer": 3,
+   "fact": "Pearl Harbor is a naval base in Hawaii."
+  },
+  {
+   "id": "history-1084",
+   "category": "History",
+   "q": "What was the code name for the Allied invasion of Normandy in 1944?",
+   "choices": [
+    "Operation Torch",
+    "Operation Barbarossa",
+    "Operation Overlord",
+    "Operation Market Garden"
+   ],
+   "answer": 2,
+   "fact": "The landings on June 6, 1944 are known as D-Day."
+  },
+  {
+   "id": "history-1085",
+   "category": "History",
+   "q": "Who was the British prime minister for most of World War II?",
+   "choices": [
+    "Winston Churchill",
+    "David Lloyd George",
+    "Clement Attlee",
+    "Neville Chamberlain"
+   ],
+   "answer": 0,
+   "fact": "Churchill was also a painter and won the Nobel Prize in Literature in 1953."
+  },
+  {
+   "id": "history-1086",
+   "category": "History",
+   "q": "Which Jewish girl wrote a diary while hiding from the Nazis in Amsterdam?",
+   "choices": [
+    "Corrie ten Boom",
+    "Helen Keller",
+    "Anne Frank",
+    "Malala Yousafzai"
+   ],
+   "answer": 2,
+   "fact": "Anne Frank's diary has been translated into more than 70 languages."
+  },
+  {
+   "id": "history-1087",
+   "category": "History",
+   "q": "Which world organization was founded in 1945 to help keep peace between countries?",
+   "choices": [
+    "NATO",
+    "League of Nations",
+    "United Nations",
+    "European Union"
+   ],
+   "answer": 2,
+   "fact": "The United Nations has its headquarters in New York City."
+  },
+  {
+   "id": "history-1088",
+   "category": "History",
+   "q": "What was the long period of tension between the United States and the Soviet Union after World War II called?",
+   "choices": [
+    "Hundred Years' War",
+    "Space War",
+    "Great War",
+    "Cold War"
+   ],
+   "answer": 3,
+   "fact": "It was called cold because the two superpowers never fought each other directly."
+  },
+  {
+   "id": "history-1089",
+   "category": "History",
+   "q": "Which tense standoff in 1962 brought the world close to nuclear war?",
+   "choices": [
+    "Suez Crisis",
+    "Bay of Pigs",
+    "Cuban Missile Crisis",
+    "Berlin Airlift"
+   ],
+   "answer": 2,
+   "fact": "The crisis lasted 13 days and ended when the Soviet Union agreed to remove its missiles from Cuba."
+  },
+  {
+   "id": "history-1090",
+   "category": "History",
+   "q": "Who became South Africa's first Black president in 1994?",
+   "choices": [
+    "Thabo Mbeki",
+    "Jacob Zuma",
+    "Desmond Tutu",
+    "Nelson Mandela"
+   ],
+   "answer": 3,
+   "fact": "Mandela spent 27 years in prison before he was freed in 1990."
+  },
+  {
+   "id": "history-1091",
+   "category": "History",
+   "q": "Which Indian leader used peaceful protest to help win independence from Britain?",
+   "choices": [
+    "Jawaharlal Nehru",
+    "Mahatma Gandhi",
+    "Subhas Chandra Bose",
+    "Indira Gandhi"
+   ],
+   "answer": 1,
+   "fact": "Gandhi led the famous Salt March in 1930, walking about 240 miles to the sea."
+  },
+  {
+   "id": "history-1092",
+   "category": "History",
+   "q": "In what year did India gain independence from Britain?",
+   "choices": [
+    "1960",
+    "1947",
+    "1950",
+    "1919"
+   ],
+   "answer": 1,
+   "fact": "India celebrates Independence Day every year on August 15."
+  },
+  {
+   "id": "history-1093",
+   "category": "History",
+   "q": "What was the capital city of the Byzantine Empire?",
+   "choices": [
+    "Athens",
+    "Rome",
+    "Constantinople",
+    "Alexandria"
+   ],
+   "answer": 2,
+   "fact": "Constantinople is called Istanbul today."
+  },
+  {
+   "id": "history-1094",
+   "category": "History",
+   "q": "In what year did Constantinople fall to the Ottoman Turks?",
+   "choices": [
+    "1453",
+    "1215",
+    "1066",
+    "1492"
+   ],
+   "answer": 0,
+   "fact": "The Ottomans used enormous cannons to break through the city's thick walls."
+  },
+  {
+   "id": "history-1095",
+   "category": "History",
+   "q": "Which French leader crowned himself emperor in 1804?",
+   "choices": [
+    "Napoleon Bonaparte",
+    "Charlemagne",
+    "Louis XVI",
+    "Louis XIV"
+   ],
+   "answer": 0,
+   "fact": "Napoleon was not as short as people joke; he was about average height for his time."
+  },
+  {
+   "id": "history-1096",
+   "category": "History",
+   "q": "In which battle was Napoleon finally defeated in 1815?",
+   "choices": [
+    "Hastings",
+    "Waterloo",
+    "Austerlitz",
+    "Trafalgar"
+   ],
+   "answer": 1,
+   "fact": "Waterloo is in Belgium, and losing there ended Napoleon's rule for good."
+  },
+  {
+   "id": "history-1097",
+   "category": "History",
+   "q": "Which Paris prison was stormed on July 14, 1789, at the start of the French Revolution?",
+   "choices": [
+    "Bastille",
+    "Louvre",
+    "Versailles",
+    "Notre-Dame"
+   ],
+   "answer": 0,
+   "fact": "July 14 is now France's national holiday, often called Bastille Day."
+  },
+  {
+   "id": "history-1098",
+   "category": "History",
+   "q": "Which French queen was executed during the French Revolution?",
+   "choices": [
+    "Joan of Arc",
+    "Marie Antoinette",
+    "Josephine",
+    "Catherine de' Medici"
+   ],
+   "answer": 1,
+   "fact": "Marie Antoinette was born in Austria and was executed in 1793."
+  },
+  {
+   "id": "history-1099",
+   "category": "History",
+   "q": "Which machine powered factories and trains during the Industrial Revolution?",
+   "choices": [
+    "Electric motor",
+    "Windmill",
+    "Steam engine",
+    "Gas turbine"
+   ],
+   "answer": 2,
+   "fact": "James Watt made big improvements to the steam engine in the 1760s and 1770s."
+  },
+  {
+   "id": "history-1100",
+   "category": "History",
+   "q": "In which country did the Industrial Revolution begin?",
+   "choices": [
+    "Germany",
+    "Britain",
+    "France",
+    "United States"
+   ],
+   "answer": 1,
+   "fact": "Britain had lots of coal and iron, which helped its factories grow fast in the 1700s."
+  },
+  {
+   "id": "history-1101",
+   "category": "History",
+   "q": "Which queen ruled Britain from 1837 to 1901?",
+   "choices": [
+    "Queen Anne",
+    "Queen Victoria",
+    "Queen Mary II",
+    "Queen Elizabeth I"
+   ],
+   "answer": 1,
+   "fact": "Victoria ruled for 63 years, and the whole era is named after her."
+  },
+  {
+   "id": "history-1102",
+   "category": "History",
+   "q": "Who led the first expedition to reach the South Pole, in 1911?",
+   "choices": [
+    "Roald Amundsen",
+    "Robert Peary",
+    "Ernest Shackleton",
+    "Robert Falcon Scott"
+   ],
+   "answer": 0,
+   "fact": "Amundsen's Norwegian team used sled dogs and beat Scott's British team by about five weeks."
+  },
+  {
+   "id": "history-1103",
+   "category": "History",
+   "q": "What was the name of Ernest Shackleton's ship that was crushed by Antarctic ice?",
+   "choices": [
+    "Discovery",
+    "Endurance",
+    "Terra Nova",
+    "Titanic"
+   ],
+   "answer": 1,
+   "fact": "Every member of the crew survived, and the wreck was found on the seafloor in 2022."
+  },
+  {
+   "id": "history-1104",
+   "category": "History",
+   "q": "Which two climbers were the first confirmed to reach the top of Mount Everest, in 1953?",
+   "choices": [
+    "Edmund Hillary and Tenzing Norgay",
+    "Reinhold Messner and Peter Habeler",
+    "George Mallory and Andrew Irvine",
+    "Roald Amundsen and Robert Scott"
+   ],
+   "answer": 0,
+   "fact": "Hillary was from New Zealand and Tenzing Norgay was a Sherpa from Nepal."
+  },
+  {
+   "id": "history-1105",
+   "category": "History",
+   "q": "In which city was a wall built in 1961 to split it into East and West?",
+   "choices": [
+    "Berlin",
+    "Vienna",
+    "Warsaw",
+    "Moscow"
+   ],
+   "answer": 0,
+   "fact": "People in Berlin were split from family and friends for 28 years."
+  },
+  {
+   "id": "history-1106",
+   "category": "History",
+   "q": "Which country was ruled by emperors called czars until 1917?",
+   "choices": [
+    "Germany",
+    "Austria",
+    "Russia",
+    "Turkey"
+   ],
+   "answer": 2,
+   "fact": "The word czar, also spelled tsar, comes from the Roman name Caesar."
+  },
+  {
+   "id": "history-1107",
+   "category": "History",
+   "q": "Who led the Bolsheviks when they took over Russia in 1917?",
+   "choices": [
+    "Vladimir Lenin",
+    "Leon Trotsky",
+    "Nicholas II",
+    "Joseph Stalin"
+   ],
+   "answer": 0,
+   "fact": "After the revolution, Russia became part of the Soviet Union in 1922."
+  },
+  {
+   "id": "history-1108",
+   "category": "History",
+   "q": "Which Soviet leader introduced a policy called glasnost, meaning openness?",
+   "choices": [
+    "Joseph Stalin",
+    "Mikhail Gorbachev",
+    "Boris Yeltsin",
+    "Nikita Khrushchev"
+   ],
+   "answer": 1,
+   "fact": "Gorbachev won the Nobel Peace Prize in 1990."
+  },
+  {
+   "id": "history-1109",
+   "category": "History",
+   "q": "In what year did the Soviet Union break apart?",
+   "choices": [
+    "1991",
+    "1989",
+    "2000",
+    "1985"
+   ],
+   "answer": 0,
+   "fact": "The Soviet Union split into 15 separate countries, with Russia as the largest."
+  },
+  {
+   "id": "history-1110",
+   "category": "History",
+   "q": "About how long ago was building started on Stonehenge?",
+   "choices": [
+    "About 5,000 years ago",
+    "About 500 years ago",
+    "About 1,000 years ago",
+    "About 50,000 years ago"
+   ],
+   "answer": 0,
+   "fact": "Some of Stonehenge's smaller stones were brought from Wales, about 150 miles away."
+  },
+  {
+   "id": "history-1111",
+   "category": "History",
+   "q": "Which Egyptian queen ruled as pharaoh and was often shown wearing a fake beard?",
+   "choices": [
+    "Hatshepsut",
+    "Nefertari",
+    "Nefertiti",
+    "Cleopatra"
+   ],
+   "answer": 0,
+   "fact": "The beard was a sign of a pharaoh's power, so Hatshepsut wore one in statues and pictures."
+  },
+  {
+   "id": "history-1112",
+   "category": "History",
+   "q": "What did ancient Egyptians make their paper-like writing sheets from?",
+   "choices": [
+    "Bamboo",
+    "Animal bones",
+    "Clay",
+    "Papyrus"
+   ],
+   "answer": 3,
+   "fact": "The word paper comes from papyrus, a reed that grew along the Nile."
+  },
+  {
+   "id": "history-1113",
+   "category": "History",
+   "q": "What is preserving a body the way the ancient Egyptians did called?",
+   "choices": [
+    "Fossilization",
+    "Petrification",
+    "Mummification",
+    "Cremation"
+   ],
+   "answer": 2,
+   "fact": "Egyptians removed the organs and used a salt called natron to dry the body before wrapping it."
+  },
+  {
+   "id": "history-1114",
+   "category": "History",
+   "q": "Which ancient Greek poet is said to have composed the Iliad and the Odyssey?",
+   "choices": [
+    "Sophocles",
+    "Aesop",
+    "Homer",
+    "Plato"
+   ],
+   "answer": 2,
+   "fact": "The Odyssey tells how the hero Odysseus spent 10 years trying to get home after the Trojan War."
+  },
+  {
+   "id": "history-1115",
+   "category": "History",
+   "q": "Which Greek philosopher was a teacher of Alexander the Great?",
+   "choices": [
+    "Plato",
+    "Socrates",
+    "Aristotle",
+    "Pythagoras"
+   ],
+   "answer": 2,
+   "fact": "Aristotle wrote about almost everything, from animals and plants to poetry and politics."
+  },
+  {
+   "id": "history-1116",
+   "category": "History",
+   "q": "Which Greek philosopher was Plato's teacher?",
+   "choices": [
+    "Socrates",
+    "Archimedes",
+    "Aristotle",
+    "Homer"
+   ],
+   "answer": 0,
+   "fact": "Socrates never wrote any books, so we know his ideas mostly from Plato."
+  },
+  {
+   "id": "history-1117",
+   "category": "History",
+   "q": "At which site in Greece were the ancient Olympic Games held?",
+   "choices": [
+    "Sparta",
+    "Delphi",
+    "Olympia",
+    "Athens"
+   ],
+   "answer": 2,
+   "fact": "The ancient Games were held in honor of Zeus, and a giant statue of him stood at Olympia."
+  },
+  {
+   "id": "history-1118",
+   "category": "History",
+   "q": "Who was the Roman god of war?",
+   "choices": [
+    "Mars",
+    "Neptune",
+    "Jupiter",
+    "Mercury"
+   ],
+   "answer": 0,
+   "fact": "The month of March is named after Mars."
+  },
+  {
+   "id": "history-1119",
+   "category": "History",
+   "q": "Who was the king of the gods in ancient Greek myths?",
+   "choices": [
+    "Poseidon",
+    "Apollo",
+    "Zeus",
+    "Hades"
+   ],
+   "answer": 2,
+   "fact": "Zeus was said to live on Mount Olympus and to throw lightning bolts."
+  },
+  {
+   "id": "history-1120",
+   "category": "History",
+   "q": "Which Roman emperor ordered a long wall built across northern Britain?",
+   "choices": [
+    "Caligula",
+    "Nero",
+    "Hadrian",
+    "Augustus"
+   ],
+   "answer": 2,
+   "fact": "Work on Hadrian's Wall started in AD 122, and parts of it still stand today."
+  },
+  {
+   "id": "history-1121",
+   "category": "History",
+   "q": "What was a large unit of about 5,000 Roman soldiers called?",
+   "choices": [
+    "Legion",
+    "Battalion",
+    "Platoon",
+    "Phalanx"
+   ],
+   "answer": 0,
+   "fact": "Roman legionaries could march around 20 miles in a day carrying heavy packs."
+  },
+  {
+   "id": "history-1122",
+   "category": "History",
+   "q": "Which Roman emperor moved the capital to the city of Constantinople?",
+   "choices": [
+    "Augustus",
+    "Constantine the Great",
+    "Hadrian",
+    "Julius Caesar"
+   ],
+   "answer": 1,
+   "fact": "Constantine named the city after himself in AD 330."
+  },
+  {
+   "id": "history-1123",
+   "category": "History",
+   "q": "In what year is the Western Roman Empire usually said to have fallen?",
+   "choices": [
+    "800",
+    "1453",
+    "476",
+    "79"
+   ],
+   "answer": 2,
+   "fact": "In 476 the last Western Roman emperor, a teenager named Romulus Augustulus, was removed from power."
+  },
+  {
+   "id": "history-1124",
+   "category": "History",
+   "q": "What is a water-filled ditch around a castle called?",
+   "choices": [
+    "Drawbridge",
+    "Moat",
+    "Turret",
+    "Keep"
+   ],
+   "answer": 1,
+   "fact": "Some moats were dry ditches, and some even had sharp stakes at the bottom."
+  },
+  {
+   "id": "history-1125",
+   "category": "History",
+   "q": "Who wrote The Canterbury Tales in the 1300s?",
+   "choices": [
+    "William Shakespeare",
+    "Thomas Malory",
+    "Geoffrey Chaucer",
+    "John Milton"
+   ],
+   "answer": 2,
+   "fact": "The Canterbury Tales are stories told by pilgrims on their way to the city of Canterbury."
+  },
+  {
+   "id": "history-1126",
+   "category": "History",
+   "q": "Which legendary outlaw lived in Sherwood Forest and robbed the rich to give to the poor?",
+   "choices": [
+    "Dick Turpin",
+    "King Arthur",
+    "Robin Hood",
+    "William Tell"
+   ],
+   "answer": 2,
+   "fact": "Sherwood Forest is in Nottinghamshire, England, and an ancient oak there is called the Major Oak."
+  },
+  {
+   "id": "history-1127",
+   "category": "History",
+   "q": "Which Scottish hero fought the English in the 1290s and was the subject of the film Braveheart?",
+   "choices": [
+    "Robert the Bruce",
+    "Bonnie Prince Charlie",
+    "Rob Roy",
+    "William Wallace"
+   ],
+   "answer": 3,
+   "fact": "Wallace won a famous victory at the Battle of Stirling Bridge in 1297."
+  },
+  {
+   "id": "history-1128",
+   "category": "History",
+   "q": "In what year did the Great Fire of London happen?",
+   "choices": [
+    "1666",
+    "1766",
+    "1066",
+    "1566"
+   ],
+   "answer": 0,
+   "fact": "The fire started in a bakery on Pudding Lane and burned for about four days."
+  },
+  {
+   "id": "history-1129",
+   "category": "History",
+   "q": "What was the title of the military rulers who controlled Japan for hundreds of years?",
+   "choices": [
+    "Shogun",
+    "Sultan",
+    "Ninja",
+    "Daimyo"
+   ],
+   "answer": 0,
+   "fact": "The last shogunate came to an end in 1868 when power went back to the emperor."
+  },
+  {
+   "id": "history-1130",
+   "category": "History",
+   "q": "What was the code of honor that samurai followed called?",
+   "choices": [
+    "Bushido",
+    "Kendo",
+    "Origami",
+    "Ikebana"
+   ],
+   "answer": 0,
+   "fact": "Bushido means \"the way of the warrior\" and valued loyalty, courage and honor."
+  },
+  {
+   "id": "history-1131",
+   "category": "History",
+   "q": "Which warrior queen of the Iceni tribe led a revolt against the Romans in Britain?",
+   "choices": [
+    "Matilda",
+    "Cleopatra",
+    "Zenobia",
+    "Boudica"
+   ],
+   "answer": 3,
+   "fact": "Boudica's army burned the Roman town of Londinium, which later became London."
+  },
+  {
+   "id": "history-1132",
+   "category": "History",
+   "q": "Which king of Mali is famous for being one of the richest people who ever lived?",
+   "choices": [
+    "Shaka",
+    "Menelik II",
+    "Sundiata Keita",
+    "Mansa Musa"
+   ],
+   "answer": 3,
+   "fact": "On his trip to Mecca in 1324, Mansa Musa handed out so much gold that its price dropped in Cairo."
+  },
+  {
+   "id": "history-1133",
+   "category": "History",
+   "q": "Which city in Mali was a great center of trade and learning in the 1300s and 1400s?",
+   "choices": [
+    "Marrakesh",
+    "Zanzibar",
+    "Timbuktu",
+    "Cairo"
+   ],
+   "answer": 2,
+   "fact": "Timbuktu's old libraries held thousands of handwritten books on science, math and law."
+  },
+  {
+   "id": "history-1134",
+   "category": "History",
+   "q": "Which ancient African kingdom built pyramids in what is now Sudan?",
+   "choices": [
+    "Ethiopia",
+    "Kush",
+    "Carthage",
+    "Zulu"
+   ],
+   "answer": 1,
+   "fact": "Sudan has more ancient pyramids than Egypt, though they are smaller and steeper."
+  },
+  {
+   "id": "history-1135",
+   "category": "History",
+   "q": "Which stone city in southern Africa gave its name to a modern country?",
+   "choices": [
+    "Axum",
+    "Timbuktu",
+    "Great Zimbabwe",
+    "Carthage"
+   ],
+   "answer": 2,
+   "fact": "Its stone walls were built without any mortar holding the stones together."
+  },
+  {
+   "id": "history-1136",
+   "category": "History",
+   "q": "Who made the first solo nonstop flight across the Atlantic Ocean, in 1927?",
+   "choices": [
+    "Amelia Earhart",
+    "Charles Lindbergh",
+    "Howard Hughes",
+    "Chuck Yeager"
+   ],
+   "answer": 1,
+   "fact": "Lindbergh flew from New York to Paris in about 33 and a half hours in his plane, the Spirit of St. Louis."
+  },
+  {
+   "id": "history-1137",
+   "category": "History",
+   "q": "What 1863 order by President Lincoln declared enslaved people in the Confederate states to be free?",
+   "choices": [
+    "Monroe Doctrine",
+    "Emancipation Proclamation",
+    "Gettysburg Address",
+    "Bill of Rights"
+   ],
+   "answer": 1,
+   "fact": "Slavery was fully ended in the US by the 13th Amendment in 1865."
+  },
+  {
+   "id": "history-1138",
+   "category": "History",
+   "q": "Which Spanish explorer became the first European to see the Pacific Ocean from the Americas, in 1513?",
+   "choices": [
+    "Hernán Cortés",
+    "Ferdinand Magellan",
+    "Amerigo Vespucci",
+    "Vasco Núñez de Balboa"
+   ],
+   "answer": 3,
+   "fact": "Balboa crossed the jungles of Panama to reach the Pacific coast."
+  },
+  {
+   "id": "history-1139",
+   "category": "History",
+   "q": "Which city was the first to be hit by an atomic bomb in war?",
+   "choices": [
+    "Nagasaki",
+    "Osaka",
+    "Tokyo",
+    "Hiroshima"
+   ],
+   "answer": 3,
+   "fact": "The bomb was dropped on August 6, 1945, and a second hit Nagasaki three days later."
+  },
+  {
+   "id": "history-1140",
+   "category": "History",
+   "q": "Which nurse became famous for caring for soldiers in the Crimean War?",
+   "choices": [
+    "Edith Cavell",
+    "Florence Nightingale",
+    "Mary Seacole",
+    "Clara Barton"
+   ],
+   "answer": 1,
+   "fact": "Florence Nightingale was called the Lady with the Lamp because she checked on soldiers at night."
+  },
+  {
+   "id": "history-1141",
+   "category": "History",
+   "q": "Who led the revolution that took power in Cuba in 1959?",
+   "choices": [
+    "Fidel Castro",
+    "Che Guevara",
+    "Simón Bolívar",
+    "Hugo Chávez"
+   ],
+   "answer": 0,
+   "fact": "Fidel Castro led Cuba for almost 50 years."
+  },
+  {
+   "id": "history-1142",
+   "category": "History",
+   "q": "Which empire lasted from about 1299 to 1922 and was ruled by sultans?",
+   "choices": [
+    "Persian Empire",
+    "Byzantine Empire",
+    "Ottoman Empire",
+    "Mughal Empire"
+   ],
+   "answer": 2,
+   "fact": "At its largest, the Ottoman Empire controlled lands in Europe, Asia and Africa."
+  },
+  {
+   "id": "history-1143",
+   "category": "History",
+   "q": "What were the kings of ancient Egypt called?",
+   "choices": [
+    "Emperors",
+    "Pharaohs",
+    "Czars",
+    "Sultans"
+   ],
+   "answer": 1,
+   "fact": "The word pharaoh comes from an Egyptian phrase meaning \"great house\"."
+  },
+  {
+   "id": "history-1144",
+   "category": "History",
+   "q": "Which ancient people of Mesopotamia created the first known writing system?",
+   "choices": [
+    "Sumerians",
+    "Greeks",
+    "Romans",
+    "Celts"
+   ],
+   "answer": 0,
+   "fact": "The Sumerians started writing more than 5,000 years ago, mostly to keep track of trade."
+  },
+  {
+   "id": "history-1145",
+   "category": "History",
+   "q": "Which ancient king of Babylon created one of the oldest written sets of laws?",
+   "choices": [
+    "Hammurabi",
+    "Nebuchadnezzar",
+    "Darius",
+    "Cyrus"
+   ],
+   "answer": 0,
+   "fact": "Hammurabi's laws were carved on a tall black stone pillar that is now in a museum in Paris."
+  },
+  {
+   "id": "history-1146",
+   "category": "History",
+   "q": "What do we call the time before people kept written records?",
+   "choices": [
+    "Middle Ages",
+    "Renaissance",
+    "Antiquity",
+    "Prehistory"
+   ],
+   "answer": 3,
+   "fact": "Most of what we know about prehistory comes from tools, bones and cave paintings."
+  },
+  {
+   "id": "history-1147",
+   "category": "History",
+   "q": "Which cave in France is famous for animal paintings about 17,000 years old?",
+   "choices": [
+    "Lascaux",
+    "Chauvet",
+    "Altamira",
+    "Mammoth Cave"
+   ],
+   "answer": 0,
+   "fact": "Lascaux was found in 1940 by teenagers following their dog."
+  },
+  {
+   "id": "history-1148",
+   "category": "History",
+   "q": "Which war from 1950 to 1953 was fought between North and South in an East Asian country?",
+   "choices": [
+    "Vietnam War",
+    "Boxer Rebellion",
+    "Korean War",
+    "Gulf War"
+   ],
+   "answer": 2,
+   "fact": "The Korean War ended with an armistice, not a peace treaty, so the two sides never officially made peace."
+  },
+  {
+   "id": "history-1149",
+   "category": "History",
+   "q": "Which long war in Southeast Asia did the United States pull its troops out of in 1973?",
+   "choices": [
+    "Gulf War",
+    "Vietnam War",
+    "Spanish-American War",
+    "Korean War"
+   ],
+   "answer": 1,
+   "fact": "The war ended in 1975 when North Vietnam captured Saigon, now called Ho Chi Minh City."
+  },
+  {
+   "id": "history-1150",
+   "category": "History",
+   "q": "Which ancient statue in Egypt has the body of a lion and the head of a human?",
+   "choices": [
+    "Colossus of Memnon",
+    "Karnak Lion",
+    "Abu Simbel",
+    "Great Sphinx"
+   ],
+   "answer": 3,
+   "fact": "The Great Sphinx of Giza is about 73 meters long and was carved from one huge piece of rock."
+  },
+  {
+   "id": "history-1151",
+   "category": "History",
+   "q": "Who was the first woman to become prime minister of the United Kingdom?",
+   "choices": [
+    "Theresa May",
+    "Queen Elizabeth II",
+    "Margaret Thatcher",
+    "Indira Gandhi"
+   ],
+   "answer": 2,
+   "fact": "Margaret Thatcher became prime minister in 1979 and was nicknamed the Iron Lady."
+  },
+  {
+   "id": "history-1152",
+   "category": "History",
+   "q": "Who was the first US president to live in the White House?",
+   "choices": [
+    "Thomas Jefferson",
+    "George Washington",
+    "James Madison",
+    "John Adams"
+   ],
+   "answer": 3,
+   "fact": "John Adams moved in in 1800, before the building was even finished."
+  },
+  {
+   "id": "history-1153",
+   "category": "History",
+   "q": "In 1893, which country became the first self-governing nation to let women vote in national elections?",
+   "choices": [
+    "United States",
+    "United Kingdom",
+    "New Zealand",
+    "France"
+   ],
+   "answer": 2,
+   "fact": "A petition for women's voting rights in New Zealand was signed by about 32,000 people."
+  },
+  {
+   "id": "history-1154",
+   "category": "History",
+   "q": "In what year did the 19th Amendment give women in the United States the right to vote?",
+   "choices": [
+    "1945",
+    "1920",
+    "1865",
+    "1776"
+   ],
+   "answer": 1,
+   "fact": "Women had campaigned for the right to vote for more than 70 years before it passed."
+  },
+  {
+   "id": "history-1155",
+   "category": "History",
+   "q": "Which ancient civilization built the planned city of Mohenjo-daro?",
+   "choices": [
+    "Aztec",
+    "Babylonian",
+    "Indus Valley Civilization",
+    "Maya"
+   ],
+   "answer": 2,
+   "fact": "Mohenjo-daro had covered drains and brick houses about 4,500 years ago."
+  },
+  {
+   "id": "history-1156",
+   "category": "History",
+   "q": "Which Indian emperor turned to Buddhism and peace after a bloody war?",
+   "choices": [
+    "Akbar",
+    "Shah Jahan",
+    "Ashoka",
+    "Babur"
+   ],
+   "answer": 2,
+   "fact": "The lion statue on top of one of Ashoka's pillars is now India's national emblem."
+  },
+  {
+   "id": "history-1157",
+   "category": "History",
+   "q": "Which Mughal emperor built the Taj Mahal?",
+   "choices": [
+    "Aurangzeb",
+    "Shah Jahan",
+    "Babur",
+    "Akbar"
+   ],
+   "answer": 1,
+   "fact": "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal."
+  },
+  {
+   "id": "history-1158",
+   "category": "History",
+   "q": "Which king united the Hawaiian Islands under one rule?",
+   "choices": [
+    "Kalakaua",
+    "Liliuokalani",
+    "Kaumualii",
+    "Kamehameha I"
+   ],
+   "answer": 3,
+   "fact": "Kamehameha I brought all the islands under his rule by 1810."
+  },
+  {
+   "id": "history-1159",
+   "category": "History",
+   "q": "Which British captain mapped the east coast of Australia in 1770?",
+   "choices": [
+    "William Bligh",
+    "James Cook",
+    "Abel Tasman",
+    "Francis Drake"
+   ],
+   "answer": 1,
+   "fact": "Cook sailed on a ship called the Endeavour."
+  },
+  {
+   "id": "history-1160",
+   "category": "History",
+   "q": "In what year did the First Fleet of British ships arrive in Australia?",
+   "choices": [
+    "1788",
+    "1810",
+    "1901",
+    "1770"
+   ],
+   "answer": 0,
+   "fact": "Australia Day on January 26 marks the day the First Fleet arrived at Sydney Cove."
+  },
+  {
+   "id": "history-1161",
+   "category": "History",
+   "q": "Which Zulu king built a powerful kingdom in southern Africa in the early 1800s?",
+   "choices": [
+    "Mansa Musa",
+    "Cetshwayo",
+    "Menelik II",
+    "Shaka"
+   ],
+   "answer": 3,
+   "fact": "Shaka changed how Zulu warriors fought by using short stabbing spears and new formations."
+  },
+  {
+   "id": "history-1162",
+   "category": "History",
+   "q": "Which dictator led Nazi Germany during World War II?",
+   "choices": [
+    "Francisco Franco",
+    "Adolf Hitler",
+    "Benito Mussolini",
+    "Joseph Stalin"
+   ],
+   "answer": 1,
+   "fact": "Hitler's Nazi regime murdered six million Jewish people in the Holocaust."
+  },
+  {
+   "id": "history-1163",
+   "category": "History",
+   "q": "What was the line of forts that France built along its border with Germany before World War II?",
+   "choices": [
+    "Siegfried Line",
+    "Iron Curtain",
+    "Maginot Line",
+    "Hadrian's Wall"
+   ],
+   "answer": 2,
+   "fact": "German armies went around the Maginot Line by going through Belgium in 1940."
+  },
+  {
+   "id": "history-1164",
+   "category": "History",
+   "q": "From which French beach town were more than 300,000 Allied soldiers rescued by boat in 1940?",
+   "choices": [
+    "Calais",
+    "Normandy",
+    "Dunkirk",
+    "Marseille"
+   ],
+   "answer": 2,
+   "fact": "Hundreds of small private boats, like fishing boats and yachts, helped with the rescue."
+  },
+  {
+   "id": "history-1165",
+   "category": "History",
+   "q": "What machine did Germany use to send secret coded messages in World War II?",
+   "choices": [
+    "Morse",
+    "Enigma",
+    "Colossus",
+    "Cipher Box"
+   ],
+   "answer": 1,
+   "fact": "Enigma had rotors that scrambled each letter, and its settings changed every day."
+  },
+  {
+   "id": "history-1166",
+   "category": "History",
+   "q": "Which US general led the Allied forces on D-Day and later became president?",
+   "choices": [
+    "Douglas MacArthur",
+    "Dwight D. Eisenhower",
+    "Ulysses S. Grant",
+    "George Patton"
+   ],
+   "answer": 1,
+   "fact": "Eisenhower was nicknamed Ike and served two terms as president."
+  },
+  {
+   "id": "history-1167",
+   "category": "History",
+   "q": "The most famous US Marine code talkers of World War II spoke which language?",
+   "choices": [
+    "Navajo",
+    "Latin",
+    "Gaelic",
+    "Spanish"
+   ],
+   "answer": 0,
+   "fact": "The Navajo code was never broken by the enemy during the war."
+  },
+  {
+   "id": "history-1168",
+   "category": "History",
+   "q": "Which US president resigned in 1974 because of the Watergate scandal?",
+   "choices": [
+    "Gerald Ford",
+    "Lyndon B. Johnson",
+    "Richard Nixon",
+    "Jimmy Carter"
+   ],
+   "answer": 2,
+   "fact": "Nixon is the only US president who has ever resigned."
+  },
+  {
+   "id": "history-1169",
+   "category": "History",
+   "q": "Which US president was assassinated in Dallas in 1963?",
+   "choices": [
+    "Abraham Lincoln",
+    "William McKinley",
+    "John F. Kennedy",
+    "James Garfield"
+   ],
+   "answer": 2,
+   "fact": "Kennedy was 43 when he took office, the youngest person ever elected US president."
+  },
+  {
+   "id": "history-1170",
+   "category": "History",
+   "q": "Who was the first US president to be impeached?",
+   "choices": [
+    "Ulysses S. Grant",
+    "Andrew Johnson",
+    "Bill Clinton",
+    "Richard Nixon"
+   ],
+   "answer": 1,
+   "fact": "Andrew Johnson was impeached in 1868 and kept his job by just one vote in the Senate."
+  },
+  {
+   "id": "history-1171",
+   "category": "History",
+   "q": "Which US president is the teddy bear named after?",
+   "choices": [
+    "Theodore Roosevelt",
+    "William Taft",
+    "Woodrow Wilson",
+    "Franklin D. Roosevelt"
+   ],
+   "answer": 0,
+   "fact": "On a 1902 hunting trip, Roosevelt refused to shoot a bear that had been tied up, and a toymaker named a bear after him."
+  },
+  {
+   "id": "history-1172",
+   "category": "History",
+   "q": "Which US president was a Hollywood movie actor before getting into politics?",
+   "choices": [
+    "Jimmy Carter",
+    "Gerald Ford",
+    "Ronald Reagan",
+    "Richard Nixon"
+   ],
+   "answer": 2,
+   "fact": "Ronald Reagan acted in more than 50 films before becoming governor of California."
+  },
+  {
+   "id": "history-1173",
+   "category": "History",
+   "q": "Who was the first African American president of the United States?",
+   "choices": [
+    "Barack Obama",
+    "Colin Powell",
+    "Joe Biden",
+    "Jesse Jackson"
+   ],
+   "answer": 0,
+   "fact": "Barack Obama was born in Hawaii and was elected in 2008."
+  },
+  {
+   "id": "history-1174",
+   "category": "History",
+   "q": "Which three-day battle in 1863 was a turning point of the American Civil War?",
+   "choices": [
+    "Battle of Bull Run",
+    "Battle of Yorktown",
+    "Battle of the Alamo",
+    "Battle of Gettysburg"
+   ],
+   "answer": 3,
+   "fact": "Around 50,000 soldiers were killed, wounded or captured at Gettysburg in Pennsylvania."
+  },
+  {
+   "id": "history-1175",
+   "category": "History",
+   "q": "Who was the top general of the Confederate army in the American Civil War?",
+   "choices": [
+    "Stonewall Jackson",
+    "Ulysses S. Grant",
+    "William T. Sherman",
+    "Robert E. Lee"
+   ],
+   "answer": 3,
+   "fact": "After the war, Lee became president of a college in Virginia."
+  },
+  {
+   "id": "history-1176",
+   "category": "History",
+   "q": "Where did the British army surrender in 1781, ending the main fighting of the American Revolution?",
+   "choices": [
+    "Lexington",
+    "Gettysburg",
+    "Yorktown",
+    "Bunker Hill"
+   ],
+   "answer": 2,
+   "fact": "The French navy helped trap the British army at Yorktown, Virginia."
+  },
+  {
+   "id": "history-1177",
+   "category": "History",
+   "q": "During which war did British troops burn the White House?",
+   "choices": [
+    "Civil War",
+    "War of 1812",
+    "American Revolution",
+    "Mexican-American War"
+   ],
+   "answer": 1,
+   "fact": "First Lady Dolley Madison saved a famous portrait of George Washington before the fire in 1814."
+  },
+  {
+   "id": "history-1178",
+   "category": "History",
+   "q": "What was the forced removal of the Cherokee people from their homelands in the 1830s called?",
+   "choices": [
+    "Great Migration",
+    "Long Walk Home",
+    "Trail of Tears",
+    "Oregon Trail"
+   ],
+   "answer": 2,
+   "fact": "Thousands of Cherokee people died on the long journey west to what is now Oklahoma."
+  },
+  {
+   "id": "history-1179",
+   "category": "History",
+   "q": "Which Texas mission was the site of a famous battle in 1836?",
+   "choices": [
+    "Fort McHenry",
+    "Fort Sumter",
+    "The Alamo",
+    "San Juan Hill"
+   ],
+   "answer": 2,
+   "fact": "Davy Crockett and Jim Bowie died defending the Alamo, and \"Remember the Alamo!\" became a battle cry."
+  },
+  {
+   "id": "history-1180",
+   "category": "History",
+   "q": "Which 1954 Supreme Court case ruled that separating schools by race was against the Constitution?",
+   "choices": [
+    "Roe v. Wade",
+    "Marbury v. Madison",
+    "Plessy v. Ferguson",
+    "Brown v. Board of Education"
+   ],
+   "answer": 3,
+   "fact": "The decision overturned the idea of \"separate but equal\" in public schools."
+  },
+  {
+   "id": "history-1181",
+   "category": "History",
+   "q": "Which 6-year-old girl became the first Black student at an all-white school in New Orleans in 1960?",
+   "choices": [
+    "Rosa Parks",
+    "Maya Angelou",
+    "Ruby Dee",
+    "Ruby Bridges"
+   ],
+   "answer": 3,
+   "fact": "US marshals walked Ruby Bridges to school every day to keep her safe."
+  },
+  {
+   "id": "history-1182",
+   "category": "History",
+   "q": "What was the disaster in the 1930s when huge dust storms swept across the Great Plains called?",
+   "choices": [
+    "Dust Bowl",
+    "Sand Sea",
+    "Black Blizzard Year",
+    "Great Drought"
+   ],
+   "answer": 0,
+   "fact": "Poor farming methods and drought let the wind blow away the topsoil from millions of acres."
+  },
+  {
+   "id": "history-1183",
+   "category": "History",
+   "q": "Which island in New York Harbor processed millions of immigrants arriving in America?",
+   "choices": [
+    "Staten Island",
+    "Ellis Island",
+    "Rhode Island",
+    "Long Island"
+   ],
+   "answer": 1,
+   "fact": "About 12 million immigrants passed through Ellis Island between 1892 and 1954."
+  },
+  {
+   "id": "history-1184",
+   "category": "History",
+   "q": "In which city did the first Ferris wheel spin at the 1893 World's Fair?",
+   "choices": [
+    "New York City",
+    "Chicago",
+    "London",
+    "Paris"
+   ],
+   "answer": 1,
+   "fact": "The first Ferris wheel was about 80 meters tall and was built to rival the Eiffel Tower."
+  },
+  {
+   "id": "history-1185",
+   "category": "History",
+   "q": "What nickname is given to the 1920s in America, a time of jazz music and flappers?",
+   "choices": [
+    "Roaring Twenties",
+    "Golden Twenties",
+    "Gilded Age",
+    "Swinging Sixties"
+   ],
+   "answer": 0,
+   "fact": "Jazz, radio and movies became hugely popular during the Roaring Twenties."
+  },
+  {
+   "id": "history-1186",
+   "category": "History",
+   "q": "What was the US ban on making and selling alcohol from 1920 to 1933 called?",
+   "choices": [
+    "Dry Law",
+    "Temperance Act",
+    "Abolition",
+    "Prohibition"
+   ],
+   "answer": 3,
+   "fact": "Prohibition led to secret bars called speakeasies and a rise in gangsters like Al Capone."
+  },
+  {
+   "id": "history-1187",
+   "category": "History",
+   "q": "Which British ocean liner was sunk by a German submarine in 1915?",
+   "choices": [
+    "Titanic",
+    "Queen Mary",
+    "Britannic",
+    "Lusitania"
+   ],
+   "answer": 3,
+   "fact": "The sinking killed nearly 1,200 people and turned many Americans against Germany."
+  },
+  {
+   "id": "history-1188",
+   "category": "History",
+   "q": "Which treaty officially ended World War I in 1919?",
+   "choices": [
+    "Treaty of Versailles",
+    "Treaty of Paris",
+    "Treaty of Ghent",
+    "Treaty of Rome"
+   ],
+   "answer": 0,
+   "fact": "It was signed in the Hall of Mirrors at the Palace of Versailles near Paris."
+  },
+  {
+   "id": "history-1189",
+   "category": "History",
+   "q": "Which world peace group was formed after World War I but failed to stop World War II?",
+   "choices": [
+    "United Nations",
+    "League of Nations",
+    "Red Cross",
+    "NATO"
+   ],
+   "answer": 1,
+   "fact": "The United States never joined the League of Nations."
+  },
+  {
+   "id": "history-1190",
+   "category": "History",
+   "q": "Who was the fascist dictator of Italy during World War II?",
+   "choices": [
+    "Benito Mussolini",
+    "Adolf Hitler",
+    "Victor Emmanuel III",
+    "Francisco Franco"
+   ],
+   "answer": 0,
+   "fact": "Mussolini called himself Il Duce, which means \"the leader\"."
+  },
+  {
+   "id": "history-1191",
+   "category": "History",
+   "q": "Which huge World War II battle in the Soviet Union lasted from 1942 to early 1943?",
+   "choices": [
+    "Battle of Britain",
+    "Battle of the Bulge",
+    "Battle of Midway",
+    "Battle of Stalingrad"
+   ],
+   "answer": 3,
+   "fact": "Stalingrad was one of the bloodiest battles in history and a turning point against Germany."
+  },
+  {
+   "id": "history-1192",
+   "category": "History",
+   "q": "Which naval battle in June 1942 was a major turning point in the Pacific?",
+   "choices": [
+    "Battle of Jutland",
+    "Battle of Trafalgar",
+    "Battle of Midway",
+    "Battle of Hastings"
+   ],
+   "answer": 2,
+   "fact": "At Midway, the US Navy sank four Japanese aircraft carriers."
+  }
+ ]
+}

@@ -57,7 +57,7 @@ final class RecipeTests: XCTestCase {
 
     func testRecipeBookIsGood() {
         let all = RecipeBook.all
-        XCTAssertGreaterThanOrEqual(all.count, 40, "recipes.json should have at least 40 recipes")
+        XCTAssertGreaterThanOrEqual(all.count, 1000, "recipes.json should have at least 1000 recipes")
         XCTAssertEqual(Set(all.map(\.id)).count, all.count, "Two recipes share an id")
         for r in all {
             XCTAssertFalse(r.ingredients.isEmpty, "\(r.id) has no ingredients")

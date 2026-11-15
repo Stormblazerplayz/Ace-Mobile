@@ -1,0 +1,8 @@
+# tag: tech.printing.extra2
+what is a support interface | support interface layers => Interface layers are dense layers at the top of supports where they touch the model, giving overhangs a smoother underside and easier removal.
+what is a skirt in 3d printing | skirt vs brim => A skirt is a loop printed around the model without touching it, to prime the nozzle. A brim touches the model to help it stick.
+what is a scarf seam | hide seam on prints => A scarf seam slopes the start and end of each loop so they overlap gradually, making the seam much harder to see. Bambu Studio and OrcaSlicer have it.
+what is a height range modifier | change settings at a certain height => A height range modifier changes settings like infill or layer height for just one section of the model's height.
+what is a support enforcer | force supports in one spot => A support enforcer is a shape or painted area that forces supports where the slicer wouldn't add them on its own.
+what is printables | prusa model site => Printables is Prusa's free model site with lots of designs, contests and remix tools. Models work with any printer.
+what is meshmixer | edit stl for free => Meshmixer is a free Autodesk tool for repairing, cutting and sculpting STL meshes. It isn't updated anymore but still works for quick fixes.

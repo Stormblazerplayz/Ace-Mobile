@@ -1,0 +1,33 @@
+# How much each enchantment level does, Minecraft Java Edition 1.21. Hand-written.
+
+# tag: minecraft.enchantments
+how much damage does sharpness add | how much does sharpness 5 add | sharpness levels damage => In Java Edition, Sharpness adds 0.5 damage per level plus 0.5 more, so Sharpness I adds 1 and Sharpness V adds 3 damage (1.5 hearts) to every hit.
+how much damage does smite add | how much does smite 5 add => Smite adds 2.5 damage per level against undead mobs like zombies, skeletons and the Wither, so Smite V adds 12.5 damage.
+how much damage does bane of arthropods add | bane of arthropods 5 damage => Bane of Arthropods adds 2.5 damage per level against spiders, bees, silverfish and endermites, and slows them down.
+how much does protection 4 reduce damage | how much does protection reduce damage => Each level of Protection reduces most damage by 4 percent, so a full set of Protection IV armor cuts damage by 64 percent. Enchantment protection stops at 80 percent in total.
+how much does feather falling 4 help | how much does feather falling reduce fall damage => Each level of Feather Falling reduces fall damage by 12 percent, so Feather Falling IV cuts it by 48 percent, and more when combined with Protection.
+how much does blast protection reduce damage | how much does fire protection 4 help | does projectile protection stop arrows => Fire, Blast and Projectile Protection each reduce their kind of damage by 8 percent per level, so level IV cuts it by 32 percent per armor piece.
+how much faster does efficiency 5 mine | efficiency levels speed | how fast is efficiency 5 => Efficiency adds the level squared plus 1 to mining speed, so Efficiency V adds 26. With a netherite or diamond pickaxe it lets you instantly break stone and similar blocks.
+how much extra damage does power give | power 5 bow damage | power levels bow => Power adds 25 percent arrow damage per level plus 25 percent more, so Power V gives 150 percent extra damage.
+how does unbreaking work | how much does unbreaking 3 help => For tools and weapons, Unbreaking gives each use a chance to not lose durability, so Unbreaking III makes them last about 4 times longer on average. It helps armor less.
+how much does mending repair | how does mending work with xp => Mending uses experience orbs you pick up to repair the item, at 2 durability per experience point, instead of adding the XP to your level.
+how much more does looting 3 give | how does looting work => Looting raises the maximum number of drops by 1 per level and slightly raises the chance of rare drops, like wither skeleton skulls.
+how much does fortune 3 give | how does fortune work on diamonds => On ores like diamond and coal, Fortune III gives about 2.2 times as many drops on average and up to 4 from one ore.
+how long does respiration let you breathe | how long can you breathe with respiration 3 => Respiration adds about 15 seconds of breathing time underwater per level, and it also makes your vision clearer underwater.
+how fast does depth strider make you | is depth strider 3 worth it => Depth Strider makes you move faster underwater. Each level cuts water slowdown by a third, so Depth Strider III lets you walk underwater about as fast as on land.
+how much damage does thorns do | how does thorns work => Thorns gives a 15 percent chance per level to hurt an attacker by 1 to 4 damage when they hit you, but it uses up extra armor durability.
+how long does fire aspect burn | how long does fire aspect 2 set mobs on fire => Fire Aspect sets the mob you hit on fire for 4 seconds per level, so Fire Aspect II burns for 8 seconds.
+how does sweeping edge work | how much damage does sweeping edge 3 do => Sweeping Edge makes sweep attacks hit nearby mobs harder: 50 percent of your attack damage at level I, 67 percent at II and 75 percent at III.
+how much faster does lure catch fish | is lure 3 good => Each level of Lure cuts the wait for a fish to bite by 5 seconds.
+how does luck of the sea work | does luck of the sea give more treasure => Luck of the Sea raises your chance of fishing up treasure, like enchanted books, name tags and saddles, and lowers the chance of junk.
+how fast does quick charge make a crossbow | quick charge 3 load time => Each level of Quick Charge cuts the crossbow's load time by a quarter second, from 1.25 seconds down to 0.5 seconds at Quick Charge III.
+how many mobs can piercing go through | piercing 4 how many mobs => Piercing lets an arrow go through one extra mob per level, so Piercing IV hits up to 5 mobs, and it lets you pick the arrows back up.
+how much damage does impaling add | does impaling work on land | impaling 5 damage => In Java Edition, Impaling adds 2.5 damage per level, but only against water mobs like guardians, drowned, fish and squid.
+how does loyalty work | how fast does loyalty 3 come back => Loyalty makes a thrown trident fly back to you, and higher levels make it return faster. It even works if you throw it into the void, as long as you're close enough.
+how does riptide work | when does riptide work => Riptide launches you forward when you throw your trident, but only when you're in water or out in the rain. Higher levels launch you farther.
+how much faster does swift sneak make you | swift sneak 3 speed => Swift Sneak raises your sneaking speed by 15 percent of walking speed per level, so Swift Sneak III lets you sneak at 75 percent of normal speed instead of 30 percent.
+how much damage does density 5 add | how does density enchantment work => Density adds 0.5 damage for every block you fall per level before a mace smash attack, so higher falls hit much harder.
+how much armor does breach ignore | breach 4 armor => Breach makes a mace ignore 15 percent of the target's armor per level, which is good against heavily armored mobs and players.
+how high does wind burst launch you | wind burst 3 height => Wind Burst launches you back up into the air after a mace smash attack, higher with each level, so you can smash again and again.
+how big is frost walker | how big is the frost walker circle => Frost Walker freezes water under you into frosted ice as you walk, in a circle that gets bigger with each level. It also stops magma blocks from hurting you.
+how far does punch knock mobs back | punch 2 knockback => Punch knocks mobs back farther when your arrows hit them, adding about 3 blocks per level.

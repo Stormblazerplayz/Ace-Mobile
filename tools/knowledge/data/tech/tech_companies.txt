@@ -1,0 +1,25 @@
+# tag: tech.companies
+what does nvidia make | what is nvidia => Nvidia makes GeForce graphics cards for gaming and powerful chips used to train AI. It was founded in 1993.
+what does amd make | what is amd => AMD makes Ryzen CPUs and Radeon graphics cards. It also designs the chips inside the PS5 and Xbox Series consoles.
+what does intel make | what is intel => Intel makes Core processors for PCs and laptops, plus Arc graphics cards. It was founded in 1968 and is one of the oldest chip companies.
+what does microsoft make | who started microsoft => Microsoft makes Windows, Office, Xbox and the Azure cloud, and owns Minecraft and GitHub. Bill Gates and Paul Allen founded it in 1975.
+who started google | what is alphabet => Google was founded in 1998 by Larry Page and Sergey Brin. Its parent company Alphabet also owns YouTube and Android.
+what does samsung make | what is samsung => Samsung is a South Korean company that makes Galaxy phones, TVs, monitors and many of the memory chips and SSDs inside computers.
+what does sony make | what is sony => Sony is a Japanese company that makes PlayStation, cameras, headphones and TVs, and the camera sensors in many phones.
+what is bambu lab | who makes the bambu a1 => Bambu Lab is a Chinese 3D printer company founded in 2020. It makes the A1, P1 and X1 printers known for being fast and easy to use.
+what is dji | who makes dji drones => DJI is a Chinese company and the biggest maker of camera drones. It also makes Osmo gimbals, action cameras and microphones.
+what is blackmagic design | who makes davinci resolve => Blackmagic Design is an Australian company that makes DaVinci Resolve, cinema cameras and video gear for streaming and TV.
+what does logitech make | what is logitech g => Logitech makes mice, keyboards, webcams and headsets. Logitech G is its gaming brand.
+what does razer make | razer brand => Razer makes gaming mice, keyboards, headsets and laptops, known for its green triple-snake logo.
+what does corsair make | corsair brand => Corsair makes PC parts like RAM, power supplies, cases and coolers, plus gaming keyboards and mice. It also owns Elgato.
+what does elgato make | elgato brand => Elgato makes gear for streamers and creators, like Stream Decks, capture cards, key lights and microphones.
+what does asus make | what is rog => ASUS is a Taiwanese company that makes motherboards, graphics cards, laptops and monitors. ROG, Republic of Gamers, is its gaming brand.
+what does msi make | msi brand => MSI is a Taiwanese company that makes motherboards, graphics cards, gaming laptops and monitors.
+what does gigabyte make | what is aorus => Gigabyte is a Taiwanese company that makes motherboards, graphics cards and monitors. AORUS is its gaming brand.
+what is tsmc | who makes computer chips => TSMC is a Taiwanese company that manufactures chips designed by others, including Apple, Nvidia and AMD. It's the world's biggest chip factory company.
+what is arm the company | who designs arm chips => Arm is a British company that designs the chip blueprints used in almost every phone. Companies like Apple and Qualcomm build chips from its designs.
+what is qualcomm | what are snapdragon chips => Qualcomm makes Snapdragon chips used in many Android phones, VR headsets and some Windows laptops, plus phone modems.
+what does meta own | what is meta company => Meta owns Facebook, Instagram, WhatsApp and Threads, and makes Quest VR headsets. It was called Facebook until 2021.
+what does adobe make | what is creative cloud => Adobe makes creative apps like Photoshop, Premiere Pro, After Effects and Illustrator, sold as a Creative Cloud subscription.
+what does autodesk make | autodesk software => Autodesk makes design software like Fusion, AutoCAD, Maya and 3ds Max, used for engineering, games and films.
+who makes blender | what is the blender foundation => Blender is made by the Blender Foundation, a nonprofit in Amsterdam, with help from volunteers and donations. That's why it's free.

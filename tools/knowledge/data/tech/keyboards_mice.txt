@@ -1,0 +1,20 @@
+# tag: tech.peripherals.input
+what do red brown and blue switches mean | red switches vs blue switches => On many keyboards red means linear, brown means tactile and blue means clicky. Colors aren't a strict rule, so check the brand's description.
+what is a switch tester | try keyboard switches => A switch tester is a small board with several switch types so you can feel them before buying a whole keyboard.
+what is a low profile keyboard | flat keyboard switches => Low-profile keyboards use shorter switches and keycaps, so they sit flatter like a laptop keyboard and need less wrist bend.
+what is an optical switch keyboard | optical vs mechanical switch => Optical switches use a light beam to register presses instead of metal contacts, so they don't need debounce and can't get chatter from worn contacts.
+what is debounce time | keyboard chatter => Debounce is a short wait a keyboard uses so one press isn't counted twice. Chatter, when one press types two letters, often means a worn or dirty switch.
+what is qmk and via | program my keyboard => QMK is free firmware for custom keyboards, and VIA is an app that lets you remap keys and layers on supported boards without coding.
+what is snap tap | what is socd on a keyboard => Snap Tap, also called SOCD, makes the keyboard use the most recent of two opposite keys, like A and D, for quicker strafing. As of 2025, some games such as Counter-Strike 2 block it.
+what are lubed switches | why lube keyboard switches => Lube is a thin grease on switch parts that makes them smoother and quieter. Many keyboards come pre-lubed.
+what is a keyboard wrist rest | do i need a wrist rest => A wrist rest supports your hands in front of a tall keyboard. Rest your palms on it during breaks rather than pressing your wrists while typing.
+what is a mouse bungee | mouse cable holder => A mouse bungee holds the cable up so it doesn't drag on the desk. You don't need one with a wireless mouse.
+what is a vertical mouse | ergonomic mouse => A vertical mouse holds your hand in a handshake position, which can feel more comfortable on the wrist. It's usually less precise for gaming.
+what is onboard memory on a mouse | save mouse settings => Onboard memory saves your DPI and button settings in the mouse, so they work on any computer without the brand's app running.
+what is angle snapping | should i turn off angle snapping => Angle snapping straightens your mouse lines automatically. Gamers usually turn it off because it changes how your aim moves.
+what is motion sync on a mouse | motion sync => Motion Sync lines up the sensor's readings with the polling rate for slightly smoother tracking, adding a tiny bit of delay. Either setting is fine.
+what is a fight stick | arcade stick for fighting games => A fight stick is an arcade-style controller with a joystick and big buttons, popular for fighting games.
+what is gyro aiming | aim by moving the controller => Gyro aiming lets you fine-tune aim by tilting the controller, using its motion sensors. Switch and PlayStation controllers support it, and Steam Input can add it on PC.
+what are trigger stops | hair trigger locks => Trigger stops shorten how far a controller's triggers travel, so you can fire faster in shooters.
+what is a 3.5mm vs usb headset | which headset connection => A 3.5 mm headset plugs into the audio jack and uses your PC's sound, while a USB headset has its own sound chip and often extra software features.
+what is a numpad for | do i need a number pad => A number pad makes typing lots of numbers faster, like in spreadsheets, and Blender uses it for camera views. Gamers often skip it for more mouse space.

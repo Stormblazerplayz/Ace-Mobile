@@ -1,0 +1,43 @@
+# tag: tech.shortcuts.office
+how do i make text bold | ctrl b bold | bold shortcut => Select the text and press Ctrl + B (Command + B on Mac) to make it bold. Ctrl + I makes italics and Ctrl + U underlines.
+how do i add a link to text | ctrl k link | make words into a link => Select the words and press Ctrl + K (Command + K on Mac), paste the web address and press Enter. This works in Word, Google Docs and many apps.
+how do i center text in word | ctrl e word => Select the text and press Ctrl + E in Word to center it. Ctrl + L aligns left, Ctrl + R aligns right and Ctrl + J justifies.
+how do i center text in google docs | ctrl shift e docs => Press Ctrl + Shift + E in Google Docs to center. Ctrl + Shift + L is left, Ctrl + Shift + R is right, and Ctrl + Shift + J is justify.
+how do i make a bullet list in google docs | ctrl shift 8 => Press Ctrl + Shift + 8 in Google Docs for a bulleted list and Ctrl + Shift + 7 for a numbered list.
+how do i start a bullet list fast | type dash space list => In Word and Google Docs, type * or - then a space at the start of a line to begin a bulleted list. Type 1. and a space for a numbered list.
+how do i make a heading in google docs | ctrl alt 1 docs => Press Ctrl + Alt + 1 for Heading 1, Ctrl + Alt + 2 for Heading 2, and so on. Ctrl + Alt + 0 goes back to normal text.
+how do i add a comment in google docs | ctrl alt m => Select text and press Ctrl + Alt + M to add a comment in Google Docs or Word.
+how do i see the word count in google docs | ctrl shift c docs => Press Ctrl + Shift + C in Google Docs to see the word count. Tick Display word count while typing to keep it on screen.
+how do i see the word count in word | word count microsoft word => Look at the bottom left of the Word window, or click Review, then Word Count, for words, characters and pages.
+how do i see all google docs shortcuts | ctrl slash docs => Press Ctrl + / in Google Docs, Sheets or Slides to see the keyboard shortcut list.
+how do i type with my voice in google docs | ctrl shift s voice typing => Press Ctrl + Shift + S in Google Docs in Chrome to start voice typing, then speak. You can also find it in Tools, Voice typing.
+how do i see version history in google docs | ctrl alt shift h => Press Ctrl + Alt + Shift + H to open Version history, where you can see and restore older versions.
+how do i clear formatting in google docs | ctrl backslash docs => Select the text and press Ctrl + \ to remove formatting in Google Docs. In Word, Ctrl + Space clears character formatting.
+how do i make text bigger with keys | ctrl shift period docs | increase font size shortcut => In Google Docs press Ctrl + Shift + . (period) to grow text and Ctrl + Shift + , (comma) to shrink it. In Word use Ctrl + Shift + > and Ctrl + Shift + <.
+how do i type superscript | ctrl period docs | how do i write x squared => In Google Docs press Ctrl + . for superscript and Ctrl + , for subscript. In Word press Ctrl + Shift + = for superscript and Ctrl + = for subscript.
+how do i add a page break | ctrl enter page break => Press Ctrl + Enter in Word or Google Docs to start a new page.
+how do i make a new line without a new paragraph | shift enter line break => Press Shift + Enter to add a line break that stays in the same paragraph.
+how do i find and replace words | ctrl h replace => Press Ctrl + H in Word, Google Docs and Sheets to find a word and replace it, one at a time or all at once.
+how do i check spelling in word | f7 spell check => Press F7 in Word to run spelling and grammar check. In Google Docs press Ctrl + Alt + X.
+how do i change capital letters in word | shift f3 word => Select text and press Shift + F3 in Word to cycle through lowercase, UPPERCASE and Capitalize Each Word.
+how do i insert today's date in excel | ctrl semicolon excel => Press Ctrl + ; in Excel or Google Sheets to type the date into a cell. Ctrl + Shift + ; adds the time.
+how do i edit a cell in excel | f2 excel => Select the cell and press F2 to edit what's inside instead of replacing it.
+how do i add up a column in excel | alt equals excel | autosum shortcut => Click the cell under the numbers and press Alt + = in Excel to insert a SUM formula, then press Enter.
+how do i add a filter in excel | ctrl shift l excel => Click in your data and press Ctrl + Shift + L in Excel to add filter arrows to the header row.
+how do i make a table in excel | ctrl t excel => Click in your data and press Ctrl + T to turn it into a table with filters and banded rows.
+how do i jump to the end of my data in excel | ctrl arrow excel => Press Ctrl + an arrow key to jump to the last filled cell in that direction.
+how do i select a whole row or column in excel | shift space excel | ctrl space excel => Press Shift + Space to select the row and Ctrl + Space to select the column.
+how do i fill a formula down in excel | ctrl d excel => Select the cell with the formula and the cells below, then press Ctrl + D to fill down. Ctrl + R fills right.
+how do i lock a cell reference in excel | f4 excel | dollar signs in formula => While typing a formula, click the reference and press F4 to add $ signs, like $A$1, so it doesn't change when copied.
+how do i open format cells in excel | ctrl 1 excel => Select cells and press Ctrl + 1 to open Format Cells for number style, borders and colors.
+how do i add a new line inside an excel cell | alt enter excel => Press Alt + Enter while typing in an Excel cell to start a new line inside the same cell.
+how do i see formulas instead of results in excel | ctrl backtick excel => Press Ctrl + ` (backtick) in Excel to show the formulas in every cell. Press it again to go back.
+how do i switch sheets in excel | ctrl page down => Press Ctrl + Page Down for the next sheet and Ctrl + Page Up for the one before.
+how do i start a powerpoint slideshow | f5 powerpoint => Press F5 to present from the first slide, or Shift + F5 to start from the slide you're on. Press Esc to end.
+how do i black out the screen during a presentation | b key powerpoint => Press B during a PowerPoint slideshow to turn the screen black and W to turn it white. Press the key again to come back.
+how do i add a new slide | ctrl m slides => Press Ctrl + M in PowerPoint or Google Slides to add a new slide.
+how do i paste just the formatting in word | format painter shortcut => Click text with the formatting you want, press Ctrl + Shift + C, select other text and press Ctrl + Shift + V to paste the formatting.
+how do i share a google doc | let a friend edit my doc => Click the Share button at the top right, type the person's email, pick Viewer, Commenter or Editor, and click Send. Only share school work with people you know.
+how do i download a google doc as a word file | export google doc => In Google Docs click File, Download, and pick Microsoft Word (.docx) or PDF Document.
+how do i use google docs offline | google docs without internet => In Google Drive settings turn on Offline, then in a doc click File, Make available offline. You need the Google Docs Offline extension in Chrome.
+how do i add a table of contents in google docs | contents page google docs => Use headings for your sections, then click Insert, Table of contents, and pick a style. Refresh it after changing headings.

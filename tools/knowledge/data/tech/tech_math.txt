@@ -1,0 +1,16 @@
+# tag: tech.math
+how long to download 100gb at 100mbps | download time calculator => About 2 hours and 15 minutes. 100 GB is 800,000 megabits, and at 100 megabits per second that's 8,000 seconds, a bit more in real life.
+how do i work out download time | download time formula => Turn the size into megabits by multiplying megabytes by 8, then divide by your speed in Mbps to get seconds. Real downloads are often a little slower.
+how long to download 50gb at 300mbps | 50 gigabyte download time => About 22 to 25 minutes. 50 GB is 400,000 megabits, divided by 300 Mbps is about 1,333 seconds.
+how much does it cost to run a gaming pc | pc electricity cost => Multiply the watts by hours and divide by 1,000 to get kWh, then times your electricity price. A 400 W gaming session for 3 hours uses 1.2 kWh.
+how do i convert mah to wh | mah to watt hours => Multiply mAh by the voltage and divide by 1,000. A 10,000 mAh power bank at 3.7 V holds 37 Wh.
+how do i convert watts to amps | watts volts amps formula => Divide watts by volts. A 60 W charger at 20 V supplies 3 amps.
+how many photos fit on 128gb | photos per gigabyte => Around 25,000 to 40,000 phone photos at 3 to 5 MB each, minus space used by the system and apps.
+how many minutes of 4k fit on a 128gb card | 4k recording time sd card => Roughly 2 to 5 hours, depending on bitrate. At 100 Mbps, an hour of video is about 45 GB.
+how do i convert mbps to mb s | megabits to megabytes => Divide Mbps by 8 to get MB/s. A 400 Mbps connection downloads about 50 MB per second at best.
+what is a kilobyte exactly | 1000 vs 1024 bytes => Officially, a kilobyte is 1,000 bytes and a kibibyte (KiB) is 1,024 bytes. Windows uses the 1,024 version but still writes KB, MB and GB.
+how long will my lipo last in a drone | flight time estimate => Rough flight time in minutes is battery capacity in amp-hours times 60, divided by average amps drawn, then use only about 80 percent to stay safe.
+how much vram does 4k need | vram for 4k gaming => As of 2025, many new games want 12 to 16 GB of VRAM at 4K with high textures, while 8 GB is tight even at 1440p in some games.
+how many frames is a 10 second video at 30fps | frames in a video math => 300 frames. Multiply the seconds by the frame rate.
+how do i work out a monitor's ppi | pixels per inch formula => Use the diagonal pixel count divided by the screen size in inches. A 27 inch 1440p monitor is about 109 PPI.
+how much filament for a print | filament weight estimate => The slicer tells you the grams after slicing. A 1 kg spool makes about 330 meters of 1.75 mm PLA.

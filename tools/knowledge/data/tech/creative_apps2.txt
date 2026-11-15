@@ -1,0 +1,15 @@
+# tag: tech.apps.creative2
+what is ibis paint x | ibispaint drawing app => ibisPaint X is a free drawing app for phones and tablets with lots of brushes, layers and comic tools. It shows ads unless you pay to remove them.
+what is medibang paint | free comic drawing app => MediBang Paint is a free drawing app for comics and manga on computers, tablets and phones, with panel and screentone tools.
+what is aseprite | pixel art editor => Aseprite is a paid app made for pixel art and sprite animation, with onion skin, layers and sprite sheet export. Its source code is public, so people can build it for free.
+what is piskel | free online pixel art => Piskel is a free pixel art and animation editor that runs in your browser, good for making small sprites and GIFs.
+what is paint.net | paint dot net => Paint.NET is a free Windows image editor with layers and effects, simpler than Photoshop or GIMP and much more powerful than Paint.
+what is ffmpeg | convert video with command line => FFmpeg is a free command-line tool that converts, cuts and compresses video and audio. Many apps use it behind the scenes.
+what is streamlabs | streamlabs vs obs => Streamlabs Desktop is a streaming app built on OBS with built-in themes, alerts and widgets. It's easier at first but uses more resources and pushes paid features.
+what is voicemeeter | mix audio sources on pc => Voicemeeter is a free virtual audio mixer for Windows that combines and routes mics, game sound and music, popular with streamers.
+what is streamer.bot | stream automation tool => Streamer.bot is a free Windows app that automates streams, like changing OBS scenes or playing sounds when chat types a command.
+what is a sprite sheet | sprite atlas => A sprite sheet is one image holding many frames or sprites in a grid. Games cut out each frame, which is faster than loading lots of separate pictures.
+what is a tileset | tiled map editor => A tileset is a sheet of small square images like grass, walls and water used to build 2D levels. Tiled is a free editor for painting maps from tilesets.
+what is live2d | 2d vtuber model => Live2D is software that makes a flat 2D drawing move in 3D-like ways, used for most 2D VTuber avatars. The art has to be split into many layers first.
+what is rpg maker | make an rpg without coding => RPG Maker is a paid engine for making classic 2D role-playing games with maps, events and battles, mostly without coding.
+what is pico-8 | fantasy console => PICO-8 is a paid fantasy console, a pretend retro computer for making tiny games in Lua with built-in sprite, map and music editors.

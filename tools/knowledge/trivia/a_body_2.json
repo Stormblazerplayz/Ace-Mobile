@@ -1,0 +1,2370 @@
+{
+ "questions": [
+  {
+   "id": "human-body-1201",
+   "category": "Human Body",
+   "q": "Which body system carries oxygen and nutrients around the body?",
+   "choices": [
+    "Digestive system",
+    "Skeletal system",
+    "Nervous system",
+    "Circulatory system"
+   ],
+   "answer": 3,
+   "fact": "The circulatory system includes the heart, blood and blood vessels."
+  },
+  {
+   "id": "human-body-1202",
+   "category": "Human Body",
+   "q": "Which body system breaks down food into nutrients?",
+   "choices": [
+    "Respiratory system",
+    "Nervous system",
+    "Immune system",
+    "Digestive system"
+   ],
+   "answer": 3,
+   "fact": "The digestive system includes the mouth, stomach and intestines."
+  },
+  {
+   "id": "human-body-1203",
+   "category": "Human Body",
+   "q": "Which body system includes the lungs and windpipe?",
+   "choices": [
+    "Respiratory system",
+    "Digestive system",
+    "Circulatory system",
+    "Muscular system"
+   ],
+   "answer": 0,
+   "fact": "The respiratory system brings in oxygen and gets rid of carbon dioxide."
+  },
+  {
+   "id": "human-body-1204",
+   "category": "Human Body",
+   "q": "Which body system removes liquid waste from the blood?",
+   "choices": [
+    "Respiratory system",
+    "Skeletal system",
+    "Endocrine system",
+    "Urinary system"
+   ],
+   "answer": 3,
+   "fact": "The kidneys filter about 150 liters of blood every day."
+  },
+  {
+   "id": "human-body-1205",
+   "category": "Human Body",
+   "q": "Which body system includes the skin, hair and nails?",
+   "choices": [
+    "Muscular system",
+    "Nervous system",
+    "Integumentary system",
+    "Immune system"
+   ],
+   "answer": 2,
+   "fact": "Integument means a covering."
+  },
+  {
+   "id": "human-body-1206",
+   "category": "Human Body",
+   "q": "About how much does an adult's skin weigh?",
+   "choices": [
+    "About 400 grams",
+    "About 20 kilograms",
+    "About 4 kilograms",
+    "About 40 grams"
+   ],
+   "answer": 2,
+   "fact": "That makes skin heavier than any single internal organ."
+  },
+  {
+   "id": "human-body-1207",
+   "category": "Human Body",
+   "q": "What helps keep skin safe from sunburn?",
+   "choices": [
+    "Staying wet",
+    "Sunscreen, hats and shade",
+    "Eating sugar",
+    "Wearing dark sunglasses only"
+   ],
+   "answer": 1,
+   "fact": "Sunscreen should be put on again every couple of hours outside."
+  },
+  {
+   "id": "human-body-1208",
+   "category": "Human Body",
+   "q": "What is the condition called when the body gets dangerously hot?",
+   "choices": [
+    "Frostbite",
+    "Hypothermia",
+    "Heatstroke",
+    "Dehydration only"
+   ],
+   "answer": 2,
+   "fact": "Rest in the shade, drink water and get help if someone shows signs of heatstroke."
+  },
+  {
+   "id": "human-body-1209",
+   "category": "Human Body",
+   "q": "What is it called when the body gets dangerously cold?",
+   "choices": [
+    "Hypothermia",
+    "Hyperthermia",
+    "Heatstroke",
+    "Fever"
+   ],
+   "answer": 0,
+   "fact": "Shivering is your body's way of making heat by moving muscles quickly."
+  },
+  {
+   "id": "human-body-1210",
+   "category": "Human Body",
+   "q": "What is frostbite?",
+   "choices": [
+    "Freezing of skin and tissue in extreme cold",
+    "A bite from a winter insect",
+    "A cold drink headache",
+    "A snow allergy"
+   ],
+   "answer": 0,
+   "fact": "Fingers, toes, ears and noses are most at risk of frostbite."
+  },
+  {
+   "id": "human-body-1211",
+   "category": "Human Body",
+   "q": "Why do you shiver when you are cold?",
+   "choices": [
+    "Muscles shake to make heat",
+    "Your bones are rattling",
+    "Your blood is freezing",
+    "To scare off the cold"
+   ],
+   "answer": 0,
+   "fact": "Shivering can increase the heat your body makes several times over."
+  },
+  {
+   "id": "human-body-1212",
+   "category": "Human Body",
+   "q": "Why does your face turn red when you are embarrassed or hot?",
+   "choices": [
+    "Your skin gets sunburned",
+    "You are holding your breath",
+    "Blood vessels near the skin widen",
+    "Your heart turns red"
+   ],
+   "answer": 2,
+   "fact": "This helps your body release heat."
+  },
+  {
+   "id": "human-body-1213",
+   "category": "Human Body",
+   "q": "What do your kidneys make from waste and extra water?",
+   "choices": [
+    "Bile",
+    "Saliva",
+    "Urine",
+    "Sweat"
+   ],
+   "answer": 2,
+   "fact": "Your kidneys clean all your blood many times every day."
+  },
+  {
+   "id": "human-body-1214",
+   "category": "Human Body",
+   "q": "What is the yellow color in urine from?",
+   "choices": [
+    "Food coloring",
+    "Lemon juice",
+    "Vitamins only",
+    "A substance made when old red blood cells break down"
+   ],
+   "answer": 3,
+   "fact": "Drinking more water makes urine lighter in color."
+  },
+  {
+   "id": "human-body-1215",
+   "category": "Human Body",
+   "q": "What does the gallbladder store?",
+   "choices": [
+    "Urine",
+    "Blood",
+    "Bile",
+    "Saliva"
+   ],
+   "answer": 2,
+   "fact": "People can live without a gallbladder."
+  },
+  {
+   "id": "human-body-1216",
+   "category": "Human Body",
+   "q": "What organ do you use to think?",
+   "choices": [
+    "Heart",
+    "Brain",
+    "Liver",
+    "Stomach"
+   ],
+   "answer": 1,
+   "fact": "Ancient Egyptians thought the heart did the thinking and threw away the brain during mummification."
+  },
+  {
+   "id": "human-body-1217",
+   "category": "Human Body",
+   "q": "Can you live without your appendix?",
+   "choices": [
+    "No",
+    "Yes",
+    "Only for a year",
+    "Only if you are an adult"
+   ],
+   "answer": 1,
+   "fact": "Scientists think the appendix may store helpful gut bacteria."
+  },
+  {
+   "id": "human-body-1218",
+   "category": "Human Body",
+   "q": "How many lungs do people have?",
+   "choices": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "fact": "Together, your lungs have a surface area about the size of half a tennis court."
+  },
+  {
+   "id": "human-body-1219",
+   "category": "Human Body",
+   "q": "About how many breaths does a resting adult take per minute?",
+   "choices": [
+    "About 2",
+    "About 100",
+    "About 60 to 80",
+    "About 12 to 20"
+   ],
+   "answer": 3,
+   "fact": "Kids usually breathe a bit faster than adults."
+  },
+  {
+   "id": "human-body-1220",
+   "category": "Human Body",
+   "q": "What happens to your heart rate when you exercise?",
+   "choices": [
+    "It goes down",
+    "It goes up",
+    "It stops",
+    "It stays exactly the same"
+   ],
+   "answer": 1,
+   "fact": "Exercise makes your heart stronger over time."
+  },
+  {
+   "id": "human-body-1221",
+   "category": "Human Body",
+   "q": "Why is regular exercise good for your body?",
+   "choices": [
+    "It makes you shorter",
+    "It strengthens your heart, lungs, muscles and bones",
+    "It stops you from needing sleep",
+    "It turns fat into bone"
+   ],
+   "answer": 1,
+   "fact": "Kids should aim for about an hour of active play every day."
+  },
+  {
+   "id": "human-body-1222",
+   "category": "Human Body",
+   "q": "What happens to muscles when you exercise them often?",
+   "choices": [
+    "They disappear",
+    "They turn into fat",
+    "They get stronger",
+    "They stop working"
+   ],
+   "answer": 2,
+   "fact": "Tiny tears in muscle fibers repair and grow back stronger."
+  },
+  {
+   "id": "human-body-1223",
+   "category": "Human Body",
+   "q": "What causes the sore feeling in muscles a day or two after hard exercise?",
+   "choices": [
+    "Broken bones",
+    "Tiny muscle fiber damage being repaired",
+    "Too much water",
+    "A cold"
+   ],
+   "answer": 1,
+   "fact": "Soreness usually goes away in a few days."
+  },
+  {
+   "id": "human-body-1224",
+   "category": "Human Body",
+   "q": "What is a cramp?",
+   "choices": [
+    "A broken bone",
+    "A cut",
+    "A bruise",
+    "A sudden, painful tightening of a muscle"
+   ],
+   "answer": 3,
+   "fact": "Stretching the muscle gently can help a cramp go away."
+  },
+  {
+   "id": "human-body-1225",
+   "category": "Human Body",
+   "q": "What is the heel bone called?",
+   "choices": [
+    "Tibia",
+    "Patella",
+    "Calcaneus",
+    "Talus"
+   ],
+   "answer": 2,
+   "fact": "The heel bone is the largest bone in the foot."
+  },
+  {
+   "id": "human-body-1226",
+   "category": "Human Body",
+   "q": "How many bones are in one human foot?",
+   "choices": [
+    "5",
+    "12",
+    "26",
+    "52"
+   ],
+   "answer": 2,
+   "fact": "Your two feet together have 52 bones, about a quarter of all your bones."
+  },
+  {
+   "id": "human-body-1227",
+   "category": "Human Body",
+   "q": "What is the arch of your foot for?",
+   "choices": [
+    "Absorbing shock and helping you walk",
+    "Holding your toes on",
+    "Storing fat",
+    "Nothing"
+   ],
+   "answer": 0,
+   "fact": "The arch acts like a spring with every step."
+  },
+  {
+   "id": "human-body-1228",
+   "category": "Human Body",
+   "q": "What are the tough, thick patches of skin that form from rubbing called?",
+   "choices": [
+    "Blisters",
+    "Freckles",
+    "Moles",
+    "Calluses"
+   ],
+   "answer": 3,
+   "fact": "Guitar players often get calluses on their fingertips."
+  },
+  {
+   "id": "human-body-1229",
+   "category": "Human Body",
+   "q": "What is a blister?",
+   "choices": [
+    "A bubble of fluid under the skin from rubbing or burns",
+    "A broken bone",
+    "A bug",
+    "A type of hair"
+   ],
+   "answer": 0,
+   "fact": "The fluid protects the skin underneath while it heals."
+  },
+  {
+   "id": "human-body-1230",
+   "category": "Human Body",
+   "q": "What is the white part of your eye called?",
+   "choices": [
+    "Cornea",
+    "Sclera",
+    "Iris",
+    "Pupil"
+   ],
+   "answer": 1,
+   "fact": "The sclera is tough and helps protect the eye."
+  },
+  {
+   "id": "human-body-1231",
+   "category": "Human Body",
+   "q": "What is the part of the eye that focuses light onto the retina?",
+   "choices": [
+    "Pupil",
+    "Iris",
+    "Eyelid",
+    "Lens"
+   ],
+   "answer": 3,
+   "fact": "As people get older, the lens gets stiffer, so many need reading glasses."
+  },
+  {
+   "id": "human-body-1232",
+   "category": "Human Body",
+   "q": "What is a cataract?",
+   "choices": [
+    "A big waterfall in the eye",
+    "A cloudy lens in the eye",
+    "A type of eye color",
+    "A blind spot"
+   ],
+   "answer": 1,
+   "fact": "Cataracts can be fixed by replacing the lens with an artificial one."
+  },
+  {
+   "id": "human-body-1233",
+   "category": "Human Body",
+   "q": "What do eyelashes do?",
+   "choices": [
+    "Help you see colors",
+    "Keep dust and dirt out of your eyes",
+    "Make tears",
+    "Help you hear"
+   ],
+   "answer": 1,
+   "fact": "Eyelashes fall out and grow back every few months."
+  },
+  {
+   "id": "human-body-1234",
+   "category": "Human Body",
+   "q": "What are eyebrows good for?",
+   "choices": [
+    "Keeping sweat and rain out of your eyes",
+    "Helping you smell",
+    "Hearing",
+    "Nothing at all"
+   ],
+   "answer": 0,
+   "fact": "Eyebrows also help show feelings like surprise or anger."
+  },
+  {
+   "id": "human-body-1235",
+   "category": "Human Body",
+   "q": "What is your nose's sense of smell called?",
+   "choices": [
+    "Olfaction",
+    "Gustation",
+    "Audition",
+    "Vision"
+   ],
+   "answer": 0,
+   "fact": "The smell sensors are in a small patch high inside your nose."
+  },
+  {
+   "id": "human-body-1236",
+   "category": "Human Body",
+   "q": "What do the tiny hairs inside your nose do?",
+   "choices": [
+    "Help you smell",
+    "Trap dust and germs",
+    "Keep your nose warm",
+    "Make mucus"
+   ],
+   "answer": 1,
+   "fact": "Mucus also traps dirt so it does not reach your lungs."
+  },
+  {
+   "id": "human-body-1237",
+   "category": "Human Body",
+   "q": "What is the outer part of your ear that you can see called?",
+   "choices": [
+    "Cochlea",
+    "Eardrum",
+    "Anvil",
+    "Pinna"
+   ],
+   "answer": 3,
+   "fact": "The pinna is shaped to funnel sound into your ear canal."
+  },
+  {
+   "id": "human-body-1238",
+   "category": "Human Body",
+   "q": "What is the sense of taste called in science?",
+   "choices": [
+    "Olfaction",
+    "Gustation",
+    "Vision",
+    "Touch"
+   ],
+   "answer": 1,
+   "fact": "Your taste buds are mostly on the tiny bumps on your tongue, called papillae."
+  },
+  {
+   "id": "human-body-1239",
+   "category": "Human Body",
+   "q": "What kind of doctor takes care of children?",
+   "choices": [
+    "Pediatrician",
+    "Dentist",
+    "Veterinarian",
+    "Cardiologist"
+   ],
+   "answer": 0,
+   "fact": "Pediatric comes from a Greek word for child."
+  },
+  {
+   "id": "human-body-1240",
+   "category": "Human Body",
+   "q": "What kind of doctor specializes in the heart?",
+   "choices": [
+    "Cardiologist",
+    "Dermatologist",
+    "Neurologist",
+    "Podiatrist"
+   ],
+   "answer": 0,
+   "fact": "Cardio comes from the Greek word for heart."
+  },
+  {
+   "id": "human-body-1241",
+   "category": "Human Body",
+   "q": "What kind of doctor specializes in skin?",
+   "choices": [
+    "Cardiologist",
+    "Dermatologist",
+    "Orthodontist",
+    "Optometrist"
+   ],
+   "answer": 1,
+   "fact": "Dermatologists help with rashes, acne and checking moles."
+  },
+  {
+   "id": "human-body-1242",
+   "category": "Human Body",
+   "q": "What kind of doctor specializes in the brain and nerves?",
+   "choices": [
+    "Cardiologist",
+    "Pediatrician",
+    "Neurologist",
+    "Dentist"
+   ],
+   "answer": 2,
+   "fact": "Neuro comes from the Greek word for nerve."
+  },
+  {
+   "id": "human-body-1243",
+   "category": "Human Body",
+   "q": "What kind of dentist straightens teeth with braces?",
+   "choices": [
+    "Podiatrist",
+    "Optometrist",
+    "Surgeon",
+    "Orthodontist"
+   ],
+   "answer": 3,
+   "fact": "Ortho means straight in Greek."
+  },
+  {
+   "id": "human-body-1244",
+   "category": "Human Body",
+   "q": "What kind of doctor specializes in feet?",
+   "choices": [
+    "Podiatrist",
+    "Pediatrician",
+    "Dermatologist",
+    "Neurologist"
+   ],
+   "answer": 0,
+   "fact": "Pod comes from the Greek word for foot."
+  },
+  {
+   "id": "human-body-1245",
+   "category": "Human Body",
+   "q": "What machine uses strong magnets to take detailed pictures inside the body?",
+   "choices": [
+    "X-ray machine",
+    "Stethoscope",
+    "MRI scanner",
+    "Thermometer"
+   ],
+   "answer": 2,
+   "fact": "MRI stands for magnetic resonance imaging."
+  },
+  {
+   "id": "human-body-1246",
+   "category": "Human Body",
+   "q": "What do doctors use to look inside your ears?",
+   "choices": [
+    "Stethoscope",
+    "Otoscope",
+    "Microscope",
+    "Telescope"
+   ],
+   "answer": 1,
+   "fact": "Oto comes from the Greek word for ear."
+  },
+  {
+   "id": "human-body-1247",
+   "category": "Human Body",
+   "q": "What is a cast used for?",
+   "choices": [
+    "Keeping a cut clean",
+    "Warming a sore muscle",
+    "Holding a broken bone still while it heals",
+    "Measuring height"
+   ],
+   "answer": 2,
+   "fact": "Broken bones in kids often heal in about four to eight weeks."
+  },
+  {
+   "id": "human-body-1248",
+   "category": "Human Body",
+   "q": "Which ancient Greek doctor is called the father of medicine?",
+   "choices": [
+    "Aristotle",
+    "Hippocrates",
+    "Galen",
+    "Archimedes"
+   ],
+   "answer": 1,
+   "fact": "Many new doctors still take an oath named after him."
+  },
+  {
+   "id": "human-body-1249",
+   "category": "Human Body",
+   "q": "Who is known as the founder of modern nursing?",
+   "choices": [
+    "Clara Barton",
+    "Marie Curie",
+    "Mary Seacole",
+    "Florence Nightingale"
+   ],
+   "answer": 3,
+   "fact": "She was called the Lady with the Lamp because she checked on soldiers at night."
+  },
+  {
+   "id": "human-body-1250",
+   "category": "Human Body",
+   "q": "In what year did the first successful human heart transplant happen?",
+   "choices": [
+    "1900",
+    "1945",
+    "1999",
+    "1967"
+   ],
+   "answer": 3,
+   "fact": "Surgeon Christiaan Barnard performed it in South Africa."
+  },
+  {
+   "id": "human-body-1251",
+   "category": "Human Body",
+   "q": "What do we call a doctor who performs operations?",
+   "choices": [
+    "Pharmacist",
+    "Therapist",
+    "Surgeon",
+    "Nurse"
+   ],
+   "answer": 2,
+   "fact": "Surgeons wear masks and gloves to keep germs out of the patient's body."
+  },
+  {
+   "id": "human-body-1252",
+   "category": "Human Body",
+   "q": "What is an X-ray mostly used to look at?",
+   "choices": [
+    "Bones",
+    "Thoughts",
+    "Blood type",
+    "Hair color"
+   ],
+   "answer": 0,
+   "fact": "Bones block X-rays and show up white on the picture."
+  },
+  {
+   "id": "human-body-1253",
+   "category": "Human Body",
+   "q": "What do you call medicine that kills bacteria?",
+   "choices": [
+    "Antibiotic",
+    "Antiviral",
+    "Vaccine",
+    "Vitamin"
+   ],
+   "answer": 0,
+   "fact": "Taking the whole course of antibiotics, as a doctor says, helps stop bacteria from coming back."
+  },
+  {
+   "id": "human-body-1254",
+   "category": "Human Body",
+   "q": "What is first aid?",
+   "choices": [
+    "A doctor's surgery",
+    "A type of medicine",
+    "Basic care given right away to someone hurt or sick",
+    "The first patient of the day"
+   ],
+   "answer": 2,
+   "fact": "Knowing simple first aid can help in an emergency before help arrives."
+  },
+  {
+   "id": "human-body-1255",
+   "category": "Human Body",
+   "q": "What should you do first for a small cut?",
+   "choices": [
+    "Rub dirt on it",
+    "Ignore it forever",
+    "Put ice cream on it",
+    "Wash it with clean water"
+   ],
+   "answer": 3,
+   "fact": "Then cover it with a clean bandage."
+  },
+  {
+   "id": "human-body-1256",
+   "category": "Human Body",
+   "q": "What should you do for a minor burn?",
+   "choices": [
+    "Put butter on it",
+    "Put ice directly on it for an hour",
+    "Pop any blisters",
+    "Cool it under cool running water"
+   ],
+   "answer": 3,
+   "fact": "Butter and ice can actually make burns worse."
+  },
+  {
+   "id": "human-body-1257",
+   "category": "Human Body",
+   "q": "What should you do if someone is choking and cannot breathe or talk?",
+   "choices": [
+    "Get help and give abdominal thrusts if trained",
+    "Give them water",
+    "Wait for it to pass",
+    "Make them lie down and sleep"
+   ],
+   "answer": 0,
+   "fact": "Abdominal thrusts are also called the Heimlich maneuver."
+  },
+  {
+   "id": "human-body-1258",
+   "category": "Human Body",
+   "q": "What number do you call for emergencies in the United States?",
+   "choices": [
+    "911",
+    "411",
+    "999",
+    "112"
+   ],
+   "answer": 0,
+   "fact": "In the United Kingdom it is 999, and in much of Europe it is 112."
+  },
+  {
+   "id": "human-body-1259",
+   "category": "Human Body",
+   "q": "What is CPR used for?",
+   "choices": [
+    "Healing broken bones",
+    "Helping someone whose heart has stopped",
+    "Stopping sneezes",
+    "Treating sunburn"
+   ],
+   "answer": 1,
+   "fact": "CPR stands for cardiopulmonary resuscitation."
+  },
+  {
+   "id": "human-body-1260",
+   "category": "Human Body",
+   "q": "What is a nosebleed?",
+   "choices": [
+    "A broken nose always",
+    "A sign of a cold only",
+    "A type of sneeze",
+    "Bleeding from tiny blood vessels inside the nose"
+   ],
+   "answer": 3,
+   "fact": "Lean forward and pinch the soft part of your nose to stop a nosebleed."
+  },
+  {
+   "id": "human-body-1261",
+   "category": "Human Body",
+   "q": "What is a concussion?",
+   "choices": [
+    "A broken arm",
+    "A bad cold",
+    "A sprained ankle",
+    "A brain injury from a hit to the head"
+   ],
+   "answer": 3,
+   "fact": "Wearing a helmet for biking and skating helps protect your brain."
+  },
+  {
+   "id": "human-body-1262",
+   "category": "Human Body",
+   "q": "Why should you wear a helmet when biking?",
+   "choices": [
+    "To protect your brain if you fall",
+    "To keep your hair neat",
+    "To go faster",
+    "To stay warm"
+   ],
+   "answer": 0,
+   "fact": "Helmets greatly lower the chance of serious head injury in a crash."
+  },
+  {
+   "id": "human-body-1263",
+   "category": "Human Body",
+   "q": "Why should you not look at screens right before bed?",
+   "choices": [
+    "Bright light can make it harder to fall asleep",
+    "Screens make your eyes change color",
+    "Screens give you a fever",
+    "It makes you grow slower overnight"
+   ],
+   "answer": 0,
+   "fact": "Blue-rich light from screens can lower melatonin, the sleep hormone."
+  },
+  {
+   "id": "human-body-1264",
+   "category": "Human Body",
+   "q": "What is the voice box's pair of folds that vibrate to make sound?",
+   "choices": [
+    "Tonsils",
+    "Uvula",
+    "Eardrums",
+    "Vocal cords"
+   ],
+   "answer": 3,
+   "fact": "Vocal cords get longer and thicker during the teen years, which deepens voices."
+  },
+  {
+   "id": "human-body-1265",
+   "category": "Human Body",
+   "q": "Why does your voice sound different on a recording?",
+   "choices": [
+    "Recorders change voices on purpose",
+    "Your ears are blocked when you talk",
+    "You usually hear your voice through your bones too",
+    "Your voice changes every day"
+   ],
+   "answer": 2,
+   "fact": "Sound traveling through your skull makes your voice seem deeper to you."
+  },
+  {
+   "id": "human-body-1266",
+   "category": "Human Body",
+   "q": "What part of the body makes up your Adam's apple?",
+   "choices": [
+    "A bone in your neck",
+    "A swallowed apple seed",
+    "Cartilage around the larynx",
+    "A muscle"
+   ],
+   "answer": 2,
+   "fact": "Everyone has one, but it often sticks out more after puberty."
+  },
+  {
+   "id": "human-body-1267",
+   "category": "Human Body",
+   "q": "What is the fastest-healing part of the body?",
+   "choices": [
+    "The skin on your back",
+    "Bones",
+    "The inside of the mouth",
+    "Your knees"
+   ],
+   "answer": 2,
+   "fact": "Mouth cuts often heal in just a few days."
+  },
+  {
+   "id": "human-body-1268",
+   "category": "Human Body",
+   "q": "What is the strongest bone in the body?",
+   "choices": [
+    "Skull",
+    "Femur",
+    "Rib",
+    "Spine"
+   ],
+   "answer": 1,
+   "fact": "The femur can support about 30 times the weight of your body."
+  },
+  {
+   "id": "human-body-1269",
+   "category": "Human Body",
+   "q": "What percentage of your body weight is your skeleton, roughly?",
+   "choices": [
+    "About 1 percent",
+    "About 50 percent",
+    "About 80 percent",
+    "About 15 percent"
+   ],
+   "answer": 3,
+   "fact": "Bones are light for how strong they are, because they are partly hollow and full of marrow."
+  },
+  {
+   "id": "human-body-1270",
+   "category": "Human Body",
+   "q": "How many senses do people usually say we have?",
+   "choices": [
+    "5",
+    "3",
+    "7",
+    "10"
+   ],
+   "answer": 0,
+   "fact": "Scientists say there are actually many more, like balance and temperature."
+  },
+  {
+   "id": "human-body-1271",
+   "category": "Human Body",
+   "q": "What are the five classic senses?",
+   "choices": [
+    "Sight, hearing, smell, taste and touch",
+    "Sight, sound, sleep, speech and smile",
+    "Hearing, walking, eating, seeing and talking",
+    "Taste, color, music, smell and heat"
+   ],
+   "answer": 0,
+   "fact": "Each sense sends signals to a different part of the brain."
+  },
+  {
+   "id": "human-body-1272",
+   "category": "Human Body",
+   "q": "What part of the brain handles vision?",
+   "choices": [
+    "The frontal lobe at the front",
+    "The cerebellum",
+    "The occipital lobe at the back",
+    "The brain stem"
+   ],
+   "answer": 2,
+   "fact": "That is why a hard hit to the back of the head can make you see stars."
+  },
+  {
+   "id": "human-body-1273",
+   "category": "Human Body",
+   "q": "What part of the brain helps with planning and decision-making?",
+   "choices": [
+    "Occipital lobe",
+    "Frontal lobe",
+    "Brain stem",
+    "Cerebellum"
+   ],
+   "answer": 1,
+   "fact": "The frontal lobe keeps developing until people are in their twenties."
+  },
+  {
+   "id": "human-body-1274",
+   "category": "Human Body",
+   "q": "What is the space between the two halves of the brain connected by?",
+   "choices": [
+    "Spinal cord",
+    "Brain stem",
+    "Corpus callosum",
+    "Cochlea"
+   ],
+   "answer": 2,
+   "fact": "This thick band of nerves lets the left and right halves share information."
+  },
+  {
+   "id": "human-body-1275",
+   "category": "Human Body",
+   "q": "What is short-term memory?",
+   "choices": [
+    "Remembering your whole childhood",
+    "Holding information for a short time, like a phone number",
+    "Memory in your muscles",
+    "Forgetting everything"
+   ],
+   "answer": 1,
+   "fact": "Most people can hold about seven things in short-term memory at once."
+  },
+  {
+   "id": "human-body-1276",
+   "category": "Human Body",
+   "q": "What is muscle memory?",
+   "choices": [
+    "Memory stored in muscles",
+    "Forgetting how to move",
+    "Getting better at movements through practice",
+    "A muscle disease"
+   ],
+   "answer": 2,
+   "fact": "Practice builds brain pathways that make movements like riding a bike automatic."
+  },
+  {
+   "id": "human-body-1277",
+   "category": "Human Body",
+   "q": "Which hand do about 90 percent of people prefer to write with?",
+   "choices": [
+    "Left hand",
+    "Both equally",
+    "Right hand",
+    "Neither"
+   ],
+   "answer": 2,
+   "fact": "About 1 in 10 people is left-handed."
+  },
+  {
+   "id": "human-body-1278",
+   "category": "Human Body",
+   "q": "What is it called when someone can use both hands equally well?",
+   "choices": [
+    "Left-handed",
+    "Right-handed",
+    "Double-jointed",
+    "Ambidextrous"
+   ],
+   "answer": 3,
+   "fact": "True ambidexterity is quite rare."
+  },
+  {
+   "id": "human-body-1279",
+   "category": "Human Body",
+   "q": "What is double-jointed really?",
+   "choices": [
+    "Having two joints in one place",
+    "Having extra bones",
+    "Having extra-flexible ligaments",
+    "Having no joints"
+   ],
+   "answer": 2,
+   "fact": "Doctors call it hypermobility."
+  },
+  {
+   "id": "human-body-1280",
+   "category": "Human Body",
+   "q": "What is the dimple in your upper lip under your nose called?",
+   "choices": [
+    "Philtrum",
+    "Septum",
+    "Uvula",
+    "Columella"
+   ],
+   "answer": 0,
+   "fact": "Everyone has a philtrum, and scientists are still not sure if it has a purpose."
+  },
+  {
+   "id": "human-body-1281",
+   "category": "Human Body",
+   "q": "What is the wall that divides the two nostrils called?",
+   "choices": [
+    "Philtrum",
+    "Cartilage plate",
+    "Septum",
+    "Bridge"
+   ],
+   "answer": 2,
+   "fact": "The septum is made of cartilage and bone."
+  },
+  {
+   "id": "human-body-1282",
+   "category": "Human Body",
+   "q": "What is the belly button's medical name?",
+   "choices": [
+    "Uvula",
+    "Septum",
+    "Patella",
+    "Navel"
+   ],
+   "answer": 3,
+   "fact": "It marks where the umbilical cord was attached before you were born."
+  },
+  {
+   "id": "human-body-1283",
+   "category": "Human Body",
+   "q": "What are the colored rings or patterns in your iris unique like?",
+   "choices": [
+    "A tooth",
+    "A fingerprint",
+    "A hair",
+    "A nail"
+   ],
+   "answer": 1,
+   "fact": "Some security systems scan people's irises to identify them."
+  },
+  {
+   "id": "human-body-1284",
+   "category": "Human Body",
+   "q": "What determines your eye color?",
+   "choices": [
+    "The color of your blood",
+    "What you eat",
+    "Your hair color",
+    "How much melanin is in your iris"
+   ],
+   "answer": 3,
+   "fact": "Brown is the most common eye color in the world."
+  },
+  {
+   "id": "human-body-1285",
+   "category": "Human Body",
+   "q": "What is the most common eye color in the world?",
+   "choices": [
+    "Blue",
+    "Brown",
+    "Green",
+    "Gray"
+   ],
+   "answer": 1,
+   "fact": "Green is one of the rarest eye colors."
+  },
+  {
+   "id": "human-body-1286",
+   "category": "Human Body",
+   "q": "Why do many babies' eyes change color in their first year?",
+   "choices": [
+    "Babies paint their eyes",
+    "Their eyes are replaced",
+    "Light bleaches them",
+    "Melanin builds up in the iris over time"
+   ],
+   "answer": 3,
+   "fact": "Many babies born with blue eyes end up with brown or green eyes."
+  },
+  {
+   "id": "human-body-1287",
+   "category": "Human Body",
+   "q": "What is a mole on the skin?",
+   "choices": [
+    "A small animal under the skin",
+    "A bruise",
+    "A small cluster of pigment cells",
+    "A scar"
+   ],
+   "answer": 2,
+   "fact": "It is good to show a doctor any mole that changes shape, size or color."
+  },
+  {
+   "id": "human-body-1288",
+   "category": "Human Body",
+   "q": "What is acne?",
+   "choices": [
+    "An allergy to chocolate",
+    "A type of sunburn",
+    "Clogged pores that form pimples",
+    "A rash from cold weather"
+   ],
+   "answer": 2,
+   "fact": "Acne is very common during the teen years."
+  },
+  {
+   "id": "human-body-1289",
+   "category": "Human Body",
+   "q": "What is dandruff?",
+   "choices": [
+    "Lice eggs",
+    "Flakes of dead skin from the scalp",
+    "Dust from the air",
+    "Dried shampoo"
+   ],
+   "answer": 1,
+   "fact": "Dandruff is not caused by being dirty."
+  },
+  {
+   "id": "human-body-1290",
+   "category": "Human Body",
+   "q": "What are head lice?",
+   "choices": [
+    "Dandruff",
+    "Pieces of dust",
+    "Tiny insects that live in hair and feed on blood from the scalp",
+    "A type of fungus"
+   ],
+   "answer": 2,
+   "fact": "Lice cannot fly or jump, they crawl from head to head."
+  },
+  {
+   "id": "human-body-1291",
+   "category": "Human Body",
+   "q": "What is athlete's foot?",
+   "choices": [
+    "A sports injury to the ankle",
+    "A broken toe",
+    "Very strong feet",
+    "A fungus infection of the skin on the feet"
+   ],
+   "answer": 3,
+   "fact": "Keeping feet dry and changing socks helps prevent it."
+  },
+  {
+   "id": "human-body-1292",
+   "category": "Human Body",
+   "q": "What are warts caused by?",
+   "choices": [
+    "Toads",
+    "A virus",
+    "Bad luck",
+    "Eating too much candy"
+   ],
+   "answer": 1,
+   "fact": "Touching a toad does not give you warts."
+  },
+  {
+   "id": "human-body-1293",
+   "category": "Human Body",
+   "q": "What is asthma?",
+   "choices": [
+    "A broken lung",
+    "A type of cold",
+    "An allergy to water",
+    "A condition where the airways swell and narrow, making breathing hard"
+   ],
+   "answer": 3,
+   "fact": "Many people with asthma use an inhaler to open their airways."
+  },
+  {
+   "id": "human-body-1294",
+   "category": "Human Body",
+   "q": "What is diabetes?",
+   "choices": [
+    "A bone disease",
+    "A condition where the body has trouble controlling blood sugar",
+    "A type of cold",
+    "An eye problem only"
+   ],
+   "answer": 1,
+   "fact": "Insulin helps sugar move from the blood into cells for energy."
+  },
+  {
+   "id": "human-body-1295",
+   "category": "Human Body",
+   "q": "Which scientists first used insulin to treat diabetes in 1922?",
+   "choices": [
+    "Watson and Crick",
+    "Louis Pasteur and Robert Koch",
+    "Frederick Banting and Charles Best",
+    "Marie and Pierre Curie"
+   ],
+   "answer": 2,
+   "fact": "Before insulin, type 1 diabetes was almost always deadly."
+  },
+  {
+   "id": "human-body-1296",
+   "category": "Human Body",
+   "q": "What does a pacemaker do?",
+   "choices": [
+    "Measures your speed",
+    "Helps the heart keep a steady beat",
+    "Helps you run faster",
+    "Cleans the blood"
+   ],
+   "answer": 1,
+   "fact": "A pacemaker is a small device placed under the skin."
+  },
+  {
+   "id": "human-body-1297",
+   "category": "Human Body",
+   "q": "What is an organ donor?",
+   "choices": [
+    "Someone who gives an organ to help another person",
+    "A doctor who studies organs",
+    "A musical organ player",
+    "Someone who sells medicine"
+   ],
+   "answer": 0,
+   "fact": "One donor can save several lives."
+  },
+  {
+   "id": "human-body-1298",
+   "category": "Human Body",
+   "q": "What is the main job of the skin?",
+   "choices": [
+    "Protecting the body from germs, sun and water loss",
+    "Pumping blood",
+    "Digesting food",
+    "Thinking"
+   ],
+   "answer": 0,
+   "fact": "Skin also helps control body temperature through sweating."
+  },
+  {
+   "id": "human-body-1299",
+   "category": "Human Body",
+   "q": "What part of the skin makes oil to keep it soft?",
+   "choices": [
+    "Sweat glands",
+    "Hair shafts",
+    "Nerve endings",
+    "Oil glands"
+   ],
+   "answer": 3,
+   "fact": "The scientific name is sebaceous glands."
+  },
+  {
+   "id": "human-body-1300",
+   "category": "Human Body",
+   "q": "How often does your body replace the outer layer of skin?",
+   "choices": [
+    "Every day",
+    "About every month or two",
+    "Every 10 years",
+    "Never"
+   ],
+   "answer": 1,
+   "fact": "New skin cells form deep in the epidermis and slowly move up to the surface."
+  },
+  {
+   "id": "human-body-1301",
+   "category": "Human Body",
+   "q": "What do we call the tiny openings in the skin where sweat comes out?",
+   "choices": [
+    "Follicles",
+    "Freckles",
+    "Moles",
+    "Pores"
+   ],
+   "answer": 3,
+   "fact": "You have millions of sweat pores over your body."
+  },
+  {
+   "id": "human-body-1302",
+   "category": "Human Body",
+   "q": "What helps you grip things with your fingertips?",
+   "choices": [
+    "The ridges of your fingerprints",
+    "Fingernails only",
+    "Hair on your fingers",
+    "Sweat only"
+   ],
+   "answer": 0,
+   "fact": "The ridges may also help you feel textures better."
+  },
+  {
+   "id": "human-body-1303",
+   "category": "Human Body",
+   "q": "What does saliva contain that starts breaking down starch?",
+   "choices": [
+    "An enzyme called amylase",
+    "Stomach acid",
+    "Bile",
+    "Vitamin C"
+   ],
+   "answer": 0,
+   "fact": "If you chew a cracker for a long time, it starts to taste sweeter because starch turns into sugar."
+  },
+  {
+   "id": "human-body-1304",
+   "category": "Human Body",
+   "q": "About how big is an empty stomach?",
+   "choices": [
+    "About the size of a pea",
+    "About the size of a fist",
+    "About the size of a basketball",
+    "About the size of a car"
+   ],
+   "answer": 1,
+   "fact": "The stomach can stretch to hold about 1 to 1.5 liters of food."
+  },
+  {
+   "id": "human-body-1305",
+   "category": "Human Body",
+   "q": "What is the ring of muscle that keeps stomach acid out of the esophagus?",
+   "choices": [
+    "A villus",
+    "A valve made of bone",
+    "An alveolus",
+    "A sphincter"
+   ],
+   "answer": 3,
+   "fact": "When it does not close well, acid can rise and cause heartburn."
+  },
+  {
+   "id": "human-body-1306",
+   "category": "Human Body",
+   "q": "What is heartburn?",
+   "choices": [
+    "A problem with the heart",
+    "Stomach acid rising into the esophagus",
+    "Eating spicy food in the heart",
+    "A fever"
+   ],
+   "answer": 1,
+   "fact": "Despite its name, heartburn has nothing to do with the heart."
+  },
+  {
+   "id": "human-body-1307",
+   "category": "Human Body",
+   "q": "What does burping release?",
+   "choices": [
+    "Food from the lungs",
+    "Extra blood",
+    "Saliva",
+    "Swallowed air and gas from the stomach"
+   ],
+   "answer": 3,
+   "fact": "Fizzy drinks make people burp because of the gas in them."
+  },
+  {
+   "id": "human-body-1308",
+   "category": "Human Body",
+   "q": "Which body system includes lymph nodes and lymph vessels?",
+   "choices": [
+    "Skeletal system",
+    "Digestive system",
+    "Lymphatic system",
+    "Respiratory system"
+   ],
+   "answer": 2,
+   "fact": "The lymphatic system carries fluid and helps fight infections."
+  },
+  {
+   "id": "human-body-1309",
+   "category": "Human Body",
+   "q": "How many kidneys do most people have?",
+   "choices": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "answer": 2,
+   "fact": "Kidneys sit near your back, just under your ribs."
+  },
+  {
+   "id": "human-body-1310",
+   "category": "Human Body",
+   "q": "What are the tiny filtering units in your kidneys called?",
+   "choices": [
+    "Neurons",
+    "Alveoli",
+    "Nephrons",
+    "Villi"
+   ],
+   "answer": 2,
+   "fact": "Each kidney has about a million nephrons."
+  },
+  {
+   "id": "human-body-1311",
+   "category": "Human Body",
+   "q": "Which organs help control the amount of water in your body?",
+   "choices": [
+    "Kidneys",
+    "Lungs",
+    "Eyes",
+    "Ears"
+   ],
+   "answer": 0,
+   "fact": "When you drink a lot, your kidneys make more urine."
+  },
+  {
+   "id": "human-body-1312",
+   "category": "Human Body",
+   "q": "Why do you need to go to the bathroom more when it is cold?",
+   "choices": [
+    "Cold water freezes inside you",
+    "Your bladder shrinks forever",
+    "Your body sends more fluid to the kidneys",
+    "Your muscles melt"
+   ],
+   "answer": 2,
+   "fact": "When blood vessels in your skin tighten to save heat, more fluid goes to the kidneys."
+  },
+  {
+   "id": "human-body-1313",
+   "category": "Human Body",
+   "q": "What is the growth spurt that happens to many kids as they become teenagers part of?",
+   "choices": [
+    "Puberty",
+    "Hibernation",
+    "Metamorphosis",
+    "Migration"
+   ],
+   "answer": 0,
+   "fact": "Growth plates near the ends of bones allow kids to grow taller."
+  },
+  {
+   "id": "human-body-1314",
+   "category": "Human Body",
+   "q": "What are the areas near the ends of kids' long bones where growth happens called?",
+   "choices": [
+    "Bone caps",
+    "Marrow pits",
+    "Growth plates",
+    "Joint rings"
+   ],
+   "answer": 2,
+   "fact": "Growth plates close in the late teens, and then you stop getting taller."
+  },
+  {
+   "id": "human-body-1315",
+   "category": "Human Body",
+   "q": "Are you taller in the morning or at night?",
+   "choices": [
+    "Morning",
+    "Night",
+    "Always the same",
+    "Only on weekends"
+   ],
+   "answer": 0,
+   "fact": "During the day, the cushions between your vertebrae get squeezed a little."
+  },
+  {
+   "id": "human-body-1316",
+   "category": "Human Body",
+   "q": "What are the cushions between the bones of the spine called?",
+   "choices": [
+    "Ligaments",
+    "Tendons",
+    "Valves",
+    "Discs"
+   ],
+   "answer": 3,
+   "fact": "Discs act like shock absorbers when you walk, run and jump."
+  },
+  {
+   "id": "human-body-1317",
+   "category": "Human Body",
+   "q": "What is it called when someone's spine curves sideways?",
+   "choices": [
+    "Arthritis",
+    "Asthma",
+    "Scoliosis",
+    "Anemia"
+   ],
+   "answer": 2,
+   "fact": "Doctors often check kids' backs for scoliosis because it can appear during growth spurts."
+  },
+  {
+   "id": "human-body-1318",
+   "category": "Human Body",
+   "q": "What is arthritis?",
+   "choices": [
+    "A broken bone",
+    "A skin rash",
+    "Pain and swelling in the joints",
+    "A lung disease"
+   ],
+   "answer": 2,
+   "fact": "Arthritis is more common in older people, but kids can get it too."
+  },
+  {
+   "id": "human-body-1319",
+   "category": "Human Body",
+   "q": "What are the two main tubes that branch from the windpipe into the lungs called?",
+   "choices": [
+    "Bronchi",
+    "Alveoli",
+    "Capillaries",
+    "Ureters"
+   ],
+   "answer": 0,
+   "fact": "They keep branching into smaller tubes like an upside-down tree."
+  },
+  {
+   "id": "human-body-1320",
+   "category": "Human Body",
+   "q": "Why is smoking harmful to the lungs?",
+   "choices": [
+    "It makes lungs too strong",
+    "It cleans the lungs",
+    "It damages lung tissue and can cause diseases like cancer",
+    "It is only harmful to teeth"
+   ],
+   "answer": 2,
+   "fact": "Lungs can slowly heal after someone stops smoking."
+  },
+  {
+   "id": "human-body-1321",
+   "category": "Human Body",
+   "q": "Why do you breathe faster when you exercise?",
+   "choices": [
+    "Your lungs get smaller",
+    "Your muscles need more oxygen",
+    "You are too cold",
+    "Your brain is bored"
+   ],
+   "answer": 1,
+   "fact": "Your heart beats faster too, to deliver the oxygen."
+  },
+  {
+   "id": "human-body-1322",
+   "category": "Human Body",
+   "q": "What does the word cardio mean?",
+   "choices": [
+    "Lung",
+    "Bone",
+    "Heart",
+    "Brain"
+   ],
+   "answer": 2,
+   "fact": "Cardio exercise, like running and swimming, makes your heart stronger."
+  },
+  {
+   "id": "human-body-1323",
+   "category": "Human Body",
+   "q": "What sound does your heart make through a stethoscope?",
+   "choices": [
+    "Tick-tock",
+    "Lub-dub",
+    "Beep-beep",
+    "Thump-whoosh only"
+   ],
+   "answer": 1,
+   "fact": "The two sounds come from two sets of valves closing."
+  },
+  {
+   "id": "human-body-1324",
+   "category": "Human Body",
+   "q": "How long does it take blood to travel around your whole body?",
+   "choices": [
+    "About one hour",
+    "About one minute",
+    "About one day",
+    "About one second"
+   ],
+   "answer": 1,
+   "fact": "At rest, your heart pumps about 5 liters of blood a minute."
+  },
+  {
+   "id": "human-body-1325",
+   "category": "Human Body",
+   "q": "What carries messages through your body in the nervous system?",
+   "choices": [
+    "Electrical and chemical signals",
+    "Air bubbles",
+    "Blood cells",
+    "Sound waves"
+   ],
+   "answer": 0,
+   "fact": "Neurons pass signals using tiny pulses of electricity and chemicals."
+  },
+  {
+   "id": "human-body-1326",
+   "category": "Human Body",
+   "q": "What is the gap between two nerve cells called?",
+   "choices": [
+    "Axon",
+    "Synapse",
+    "Dendrite",
+    "Nucleus"
+   ],
+   "answer": 1,
+   "fact": "Chemical messengers jump across the synapse to pass on a signal."
+  },
+  {
+   "id": "human-body-1327",
+   "category": "Human Body",
+   "q": "What is the long tail of a nerve cell that carries signals away called?",
+   "choices": [
+    "Dendrite",
+    "Synapse",
+    "Nucleus",
+    "Axon"
+   ],
+   "answer": 3,
+   "fact": "Some axons are covered in a fatty layer that makes signals travel faster."
+  },
+  {
+   "id": "human-body-1328",
+   "category": "Human Body",
+   "q": "What are the two main parts of the nervous system?",
+   "choices": [
+    "Upper and lower",
+    "Fast and slow",
+    "Central and peripheral",
+    "Left and right"
+   ],
+   "answer": 2,
+   "fact": "The central nervous system is the brain and spinal cord."
+  },
+  {
+   "id": "human-body-1329",
+   "category": "Human Body",
+   "q": "What do pain signals help you do?",
+   "choices": [
+    "Grow taller",
+    "Digest food",
+    "Protect your body from harm",
+    "See colors"
+   ],
+   "answer": 2,
+   "fact": "People who cannot feel pain often get hurt without noticing."
+  },
+  {
+   "id": "human-body-1330",
+   "category": "Human Body",
+   "q": "What is the name of the thin tubes that carry tears from your eyes into your nose?",
+   "choices": [
+    "Tear ducts",
+    "Ureters",
+    "Bronchi",
+    "Sinuses"
+   ],
+   "answer": 0,
+   "fact": "That is why your nose runs when you cry."
+  },
+  {
+   "id": "human-body-1331",
+   "category": "Human Body",
+   "q": "What are the air-filled spaces in the bones around your nose called?",
+   "choices": [
+    "Sinuses",
+    "Alveoli",
+    "Ventricles",
+    "Ducts"
+   ],
+   "answer": 0,
+   "fact": "When sinuses get swollen during a cold, your face can feel stuffy and sore."
+  },
+  {
+   "id": "human-body-1332",
+   "category": "Human Body",
+   "q": "What are the two lower chambers of the heart called?",
+   "choices": [
+    "Ventricles",
+    "Atria",
+    "Valves",
+    "Aortas"
+   ],
+   "answer": 0,
+   "fact": "The two upper chambers are called atria."
+  },
+  {
+   "id": "human-body-1333",
+   "category": "Human Body",
+   "q": "What are the two upper chambers of the heart called?",
+   "choices": [
+    "Atria",
+    "Ventricles",
+    "Lobes",
+    "Valves"
+   ],
+   "answer": 0,
+   "fact": "Blood flows into the atria and then down into the ventricles."
+  },
+  {
+   "id": "human-body-1334",
+   "category": "Human Body",
+   "q": "Which blood vessel brings blood from the body back into the heart?",
+   "choices": [
+    "Vena cava",
+    "Aorta",
+    "Carotid artery",
+    "Pulmonary artery"
+   ],
+   "answer": 0,
+   "fact": "The vena cava is the largest vein in the body."
+  },
+  {
+   "id": "human-body-1335",
+   "category": "Human Body",
+   "q": "What are the arteries in your neck that carry blood to your brain called?",
+   "choices": [
+    "Carotid arteries",
+    "Femoral arteries",
+    "Pulmonary veins",
+    "Coronary veins"
+   ],
+   "answer": 0,
+   "fact": "You can feel a pulse in your neck from the carotid arteries."
+  },
+  {
+   "id": "human-body-1336",
+   "category": "Human Body",
+   "q": "What are the blood vessels that feed the heart muscle itself called?",
+   "choices": [
+    "Carotid arteries",
+    "Coronary arteries",
+    "Pulmonary veins",
+    "Capillary rings"
+   ],
+   "answer": 1,
+   "fact": "When a coronary artery gets blocked, it can cause a heart attack."
+  },
+  {
+   "id": "human-body-1337",
+   "category": "Human Body",
+   "q": "What is a heart attack?",
+   "choices": [
+    "When the heart is broken by sadness",
+    "When the heart beats too slowly for fun",
+    "When the heart moves to the other side",
+    "When blood flow to part of the heart muscle is blocked"
+   ],
+   "answer": 3,
+   "fact": "Calling emergency services right away is very important during a heart attack."
+  },
+  {
+   "id": "human-body-1338",
+   "category": "Human Body",
+   "q": "About how much of your blood is made of red blood cells?",
+   "choices": [
+    "About 1 percent",
+    "About 90 percent",
+    "About 40 to 45 percent",
+    "None"
+   ],
+   "answer": 2,
+   "fact": "Doctors call this percentage the hematocrit."
+  },
+  {
+   "id": "human-body-1339",
+   "category": "Human Body",
+   "q": "Which are the most common cells in your blood?",
+   "choices": [
+    "White blood cells",
+    "Platelets",
+    "Nerve cells",
+    "Red blood cells"
+   ],
+   "answer": 3,
+   "fact": "There are millions of red blood cells in a single tiny drop of blood."
+  },
+  {
+   "id": "human-body-1340",
+   "category": "Human Body",
+   "q": "What shape is a red blood cell?",
+   "choices": [
+    "A perfect ball",
+    "A long string",
+    "A disc dented in the middle on both sides",
+    "A square"
+   ],
+   "answer": 2,
+   "fact": "This shape gives it lots of surface area to carry oxygen and lets it bend through tiny vessels."
+  },
+  {
+   "id": "human-body-1341",
+   "category": "Human Body",
+   "q": "What do red blood cells lack that most other cells have?",
+   "choices": [
+    "A nucleus",
+    "A membrane",
+    "Water",
+    "Protein"
+   ],
+   "answer": 0,
+   "fact": "Without a nucleus, there is more room to carry oxygen."
+  },
+  {
+   "id": "human-body-1342",
+   "category": "Human Body",
+   "q": "What is it called when white blood cells eat germs?",
+   "choices": [
+    "Phagocytosis",
+    "Photosynthesis",
+    "Peristalsis",
+    "Respiration"
+   ],
+   "answer": 0,
+   "fact": "Phagocytosis means cell eating."
+  },
+  {
+   "id": "human-body-1343",
+   "category": "Human Body",
+   "q": "What is inflammation?",
+   "choices": [
+    "Redness, heat and swelling as the body fights injury or germs",
+    "A type of sunburn only",
+    "A broken bone",
+    "A cold drink feeling"
+   ],
+   "answer": 0,
+   "fact": "Inflammation is a sign that your immune system is at work."
+  },
+  {
+   "id": "human-body-1344",
+   "category": "Human Body",
+   "q": "Why do cuts sometimes get swollen and red?",
+   "choices": [
+    "The skin is angry",
+    "Bones are moving",
+    "Water leaks from the brain",
+    "Extra blood brings in immune cells to fight germs"
+   ],
+   "answer": 3,
+   "fact": "If redness spreads or it gets very painful, a doctor should check it."
+  },
+  {
+   "id": "human-body-1345",
+   "category": "Human Body",
+   "q": "What is pus?",
+   "choices": [
+    "Old blood",
+    "Melted fat",
+    "Dead white blood cells and germs from an infection",
+    "Saliva"
+   ],
+   "answer": 2,
+   "fact": "Pus is a sign that your body has been fighting bacteria."
+  },
+  {
+   "id": "human-body-1346",
+   "category": "Human Body",
+   "q": "What does a vaccine usually contain?",
+   "choices": [
+    "Live, dangerous germs at full strength",
+    "A harmless piece or weakened form of a germ",
+    "Vitamins only",
+    "Sugar water"
+   ],
+   "answer": 1,
+   "fact": "It lets your body practice fighting a germ safely."
+  },
+  {
+   "id": "human-body-1347",
+   "category": "Human Body",
+   "q": "What is herd immunity?",
+   "choices": [
+    "When cows protect people",
+    "When you are immune to animals",
+    "When a group gets sick together",
+    "When enough people are immune that a disease cannot spread easily"
+   ],
+   "answer": 3,
+   "fact": "It helps protect babies and people who cannot get certain vaccines."
+  },
+  {
+   "id": "human-body-1348",
+   "category": "Human Body",
+   "q": "What do we call a disease that spreads from person to person?",
+   "choices": [
+    "Genetic",
+    "Chronic",
+    "Allergic",
+    "Contagious"
+   ],
+   "answer": 3,
+   "fact": "Colds, flu and chickenpox are contagious diseases."
+  },
+  {
+   "id": "human-body-1349",
+   "category": "Human Body",
+   "q": "What is a disease spreading around the whole world at once called?",
+   "choices": [
+    "Epidemic",
+    "Pandemic",
+    "Outbreak",
+    "Endemic"
+   ],
+   "answer": 1,
+   "fact": "The COVID-19 pandemic began in late 2019."
+  },
+  {
+   "id": "human-body-1350",
+   "category": "Human Body",
+   "q": "What does a thermometer in a doctor's office measure?",
+   "choices": [
+    "Blood pressure",
+    "Body temperature",
+    "Heart rate",
+    "Weight"
+   ],
+   "answer": 1,
+   "fact": "Some thermometers measure temperature in the ear or on the forehead."
+  },
+  {
+   "id": "human-body-1351",
+   "category": "Human Body",
+   "q": "Which joint is the largest in the human body?",
+   "choices": [
+    "Elbow",
+    "Shoulder",
+    "Knee",
+    "Wrist"
+   ],
+   "answer": 2,
+   "fact": "The knee joins the femur, tibia and kneecap."
+  },
+  {
+   "id": "human-body-1352",
+   "category": "Human Body",
+   "q": "Which joint in the body can move the most freely?",
+   "choices": [
+    "Knee",
+    "Elbow",
+    "Shoulder",
+    "Ankle"
+   ],
+   "answer": 2,
+   "fact": "Because it moves so freely, the shoulder is also the joint that dislocates most often."
+  },
+  {
+   "id": "human-body-1353",
+   "category": "Human Body",
+   "q": "What is a dislocation?",
+   "choices": [
+    "A broken bone",
+    "A cut on the skin",
+    "A lost tooth",
+    "When a bone pops out of its joint"
+   ],
+   "answer": 3,
+   "fact": "A doctor can usually pop the bone back into place."
+  },
+  {
+   "id": "human-body-1354",
+   "category": "Human Body",
+   "q": "What is the fluid in joints that keeps them moving smoothly?",
+   "choices": [
+    "Plasma",
+    "Saliva",
+    "Bile",
+    "Synovial fluid"
+   ],
+   "answer": 3,
+   "fact": "It works like oil in a machine's hinges."
+  },
+  {
+   "id": "human-body-1355",
+   "category": "Human Body",
+   "q": "What is the cracking sound when you crack your knuckles?",
+   "choices": [
+    "Gas bubbles in joint fluid",
+    "Bones breaking",
+    "Muscles snapping",
+    "Tendons tearing"
+   ],
+   "answer": 0,
+   "fact": "Studies have not found that knuckle cracking causes arthritis."
+  },
+  {
+   "id": "human-body-1356",
+   "category": "Human Body",
+   "q": "Which part of the body contains about 22 bones fused or joined together?",
+   "choices": [
+    "Hand",
+    "Foot",
+    "Spine",
+    "Skull"
+   ],
+   "answer": 3,
+   "fact": "Only one of these bones, the lower jaw, can move."
+  },
+  {
+   "id": "human-body-1357",
+   "category": "Human Body",
+   "q": "What is the largest bone in the face?",
+   "choices": [
+    "Lower jawbone",
+    "Nose bone",
+    "Cheekbone",
+    "Forehead"
+   ],
+   "answer": 0,
+   "fact": "The lower jaw, or mandible, is also the strongest bone in the face."
+  },
+  {
+   "id": "human-body-1358",
+   "category": "Human Body",
+   "q": "What is the outer covering of a bone called?",
+   "choices": [
+    "Periosteum",
+    "Marrow",
+    "Cartilage",
+    "Enamel"
+   ],
+   "answer": 0,
+   "fact": "The periosteum has nerves, which is why breaking a bone hurts so much."
+  },
+  {
+   "id": "human-body-1359",
+   "category": "Human Body",
+   "q": "What is the spongy part inside the ends of long bones called?",
+   "choices": [
+    "Spongy bone",
+    "Compact bone",
+    "Enamel",
+    "Cartilage"
+   ],
+   "answer": 0,
+   "fact": "Spongy bone is light but strong, like a honeycomb."
+  },
+  {
+   "id": "human-body-1360",
+   "category": "Human Body",
+   "q": "What do we call bone tissue that is hard, dense and on the outside of bones?",
+   "choices": [
+    "Spongy bone",
+    "Marrow",
+    "Ligament",
+    "Compact bone"
+   ],
+   "answer": 3,
+   "fact": "Compact bone makes up most of the weight of your skeleton."
+  },
+  {
+   "id": "human-body-1361",
+   "category": "Human Body",
+   "q": "Which vitamin and mineral together help build strong bones?",
+   "choices": [
+    "Vitamin C and iron",
+    "Vitamin D and calcium",
+    "Vitamin K and zinc",
+    "Vitamin A and sodium"
+   ],
+   "answer": 1,
+   "fact": "Weight-bearing exercise like running and jumping also helps make bones stronger."
+  },
+  {
+   "id": "human-body-1362",
+   "category": "Human Body",
+   "q": "What happens to your bones when you jump and run often?",
+   "choices": [
+    "They get stronger",
+    "They get weaker",
+    "They get shorter",
+    "Nothing happens"
+   ],
+   "answer": 0,
+   "fact": "Bones respond to stress by adding more bone tissue."
+  },
+  {
+   "id": "human-body-1363",
+   "category": "Human Body",
+   "q": "Which muscle lets you close your eyelids?",
+   "choices": [
+    "Biceps",
+    "Diaphragm",
+    "Masseter",
+    "Orbicularis oculi"
+   ],
+   "answer": 3,
+   "fact": "This ring-shaped muscle surrounds each eye."
+  },
+  {
+   "id": "human-body-1364",
+   "category": "Human Body",
+   "q": "Which is the longest muscle in the human body?",
+   "choices": [
+    "Sartorius",
+    "Biceps",
+    "Gluteus maximus",
+    "Deltoid"
+   ],
+   "answer": 0,
+   "fact": "The sartorius runs across the front of the thigh from the hip to the knee."
+  },
+  {
+   "id": "human-body-1365",
+   "category": "Human Body",
+   "q": "Which is the smallest muscle in the human body?",
+   "choices": [
+    "Biceps",
+    "Stapedius",
+    "Tongue",
+    "Diaphragm"
+   ],
+   "answer": 1,
+   "fact": "The stapedius is in the middle ear and is only about 1 millimeter long."
+  },
+  {
+   "id": "human-body-1366",
+   "category": "Human Body",
+   "q": "What is the tongue made of?",
+   "choices": [
+    "One bone",
+    "Several muscles working together",
+    "Cartilage",
+    "Fat"
+   ],
+   "answer": 1,
+   "fact": "The tongue's muscles let it change shape for talking, eating and swallowing."
+  },
+  {
+   "id": "human-body-1367",
+   "category": "Human Body",
+   "q": "What is unique about each person's tongue?",
+   "choices": [
+    "It has bones",
+    "It can taste only one flavor",
+    "Its print is unique, like a fingerprint",
+    "It never moves"
+   ],
+   "answer": 2,
+   "fact": "Scientists have studied tongue prints as a way to identify people."
+  },
+  {
+   "id": "human-body-1368",
+   "category": "Human Body",
+   "q": "What happens to the pupils of your eyes in a dark room?",
+   "choices": [
+    "They get smaller",
+    "They disappear",
+    "They turn red",
+    "They get bigger"
+   ],
+   "answer": 3,
+   "fact": "Bigger pupils let in more light so you can see better in the dark."
+  },
+  {
+   "id": "human-body-1369",
+   "category": "Human Body",
+   "q": "How long does it take your eyes to fully adjust to the dark?",
+   "choices": [
+    "About 20 to 30 minutes",
+    "About 1 second",
+    "About 3 hours",
+    "They never adjust"
+   ],
+   "answer": 0,
+   "fact": "That is why astronomers avoid bright lights before stargazing."
+  },
+  {
+   "id": "human-body-1370",
+   "category": "Human Body",
+   "q": "Why do some people need glasses to read as they get older?",
+   "choices": [
+    "Their eyes get bigger",
+    "The lens of the eye gets stiffer",
+    "Their eyelids get heavier",
+    "Their eye color changes"
+   ],
+   "answer": 1,
+   "fact": "This condition is called presbyopia."
+  },
+  {
+   "id": "human-body-1371",
+   "category": "Human Body",
+   "q": "What is the medical name for being nearsighted?",
+   "choices": [
+    "Myopia",
+    "Presbyopia",
+    "Astigmatism",
+    "Glaucoma"
+   ],
+   "answer": 0,
+   "fact": "Spending time outdoors in daylight may help lower kids' chances of becoming nearsighted."
+  },
+  {
+   "id": "human-body-1372",
+   "category": "Human Body",
+   "q": "What is the name for a blurry vision problem caused by an unevenly curved cornea?",
+   "choices": [
+    "Myopia",
+    "Astigmatism",
+    "Cataract",
+    "Color blindness"
+   ],
+   "answer": 1,
+   "fact": "Glasses or contact lenses can correct astigmatism."
+  },
+  {
+   "id": "human-body-1373",
+   "category": "Human Body",
+   "q": "What is the special alphabet of raised dots that lets blind people read by touch?",
+   "choices": [
+    "Morse code",
+    "Sign language",
+    "Braille",
+    "Hieroglyphics"
+   ],
+   "answer": 2,
+   "fact": "Louis Braille invented it in the 1820s when he was a teenager."
+  },
+  {
+   "id": "human-body-1374",
+   "category": "Human Body",
+   "q": "What is the language that uses hand shapes and movements, used by many deaf people?",
+   "choices": [
+    "Braille",
+    "Morse code",
+    "Semaphore",
+    "Sign language"
+   ],
+   "answer": 3,
+   "fact": "There are many sign languages around the world, like American Sign Language and British Sign Language."
+  },
+  {
+   "id": "human-body-1375",
+   "category": "Human Body",
+   "q": "What device helps some people with hearing loss hear better?",
+   "choices": [
+    "Stethoscope",
+    "Hearing aid",
+    "Microscope",
+    "Telescope"
+   ],
+   "answer": 1,
+   "fact": "A cochlear implant is another device that can help people who are deeply deaf."
+  },
+  {
+   "id": "human-body-1376",
+   "category": "Human Body",
+   "q": "What happens to your hearing if you listen to very loud music for a long time?",
+   "choices": [
+    "It gets better",
+    "Nothing happens",
+    "It can be permanently damaged",
+    "Your ears grow"
+   ],
+   "answer": 2,
+   "fact": "Keeping headphone volume at a moderate level helps protect your hearing."
+  },
+  {
+   "id": "human-body-1377",
+   "category": "Human Body",
+   "q": "What is the name of the clear jelly that fills most of the eyeball?",
+   "choices": [
+    "Plasma",
+    "Vitreous humor",
+    "Saliva",
+    "Bile"
+   ],
+   "answer": 1,
+   "fact": "Tiny clumps in this jelly cast shadows on the retina that look like floating specks, called floaters."
+  },
+  {
+   "id": "human-body-1378",
+   "category": "Human Body",
+   "q": "What do you call the small, round muscle at the bottom of the stomach that lets food into the small intestine?",
+   "choices": [
+    "Diaphragm",
+    "Pyloric sphincter",
+    "Epiglottis",
+    "Uvula"
+   ],
+   "answer": 1,
+   "fact": "It opens a little at a time so food moves out of the stomach slowly."
+  },
+  {
+   "id": "human-body-1379",
+   "category": "Human Body",
+   "q": "What is the main job of the large blood vessel called the pulmonary artery?",
+   "choices": [
+    "Carrying blood from the heart to the lungs",
+    "Carrying blood to the brain",
+    "Carrying food to the stomach",
+    "Carrying air to the heart"
+   ],
+   "answer": 0,
+   "fact": "Unlike most arteries, it carries blood that is low in oxygen."
+  },
+  {
+   "id": "human-body-1380",
+   "category": "Human Body",
+   "q": "What is the body's natural painkiller chemical, released during exercise?",
+   "choices": [
+    "Insulin",
+    "Endorphins",
+    "Bile",
+    "Keratin"
+   ],
+   "answer": 1,
+   "fact": "Endorphins can give people a happy feeling after a good workout."
+  },
+  {
+   "id": "human-body-1381",
+   "category": "Human Body",
+   "q": "Which chemical messenger helps you feel happy and calm and is made mostly in your gut?",
+   "choices": [
+    "Adrenaline",
+    "Serotonin",
+    "Insulin",
+    "Cortisol"
+   ],
+   "answer": 1,
+   "fact": "Most of the body's serotonin is actually made in the digestive system."
+  },
+  {
+   "id": "human-body-1382",
+   "category": "Human Body",
+   "q": "What is the stress hormone your body makes when you are under pressure?",
+   "choices": [
+    "Cortisol",
+    "Melatonin",
+    "Insulin",
+    "Serotonin"
+   ],
+   "answer": 0,
+   "fact": "Short bursts of cortisol help you focus, but too much stress for too long is not healthy."
+  }
+ ]
+}

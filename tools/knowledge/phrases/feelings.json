@@ -1,0 +1,617 @@
+{
+ "entries": [
+  {
+   "en": "surprised",
+   "also": [],
+   "t": {
+    "es": "sorprendido/a",
+    "fr": "surpris(e)",
+    "de": "überrascht",
+    "it": "sorpreso/a",
+    "pt": "surpreso/a",
+    "ja": "驚いた",
+    "zh": "惊讶",
+    "ko": "놀랐어요",
+    "hi": "हैरान",
+    "ar": "متفاجئ / متفاجئة",
+    "ru": "удивлён / удивлена",
+    "nl": "verrast"
+   },
+   "say": {
+    "ja": "odoroita",
+    "zh": "jīngyà",
+    "ko": "nollasseoyo",
+    "hi": "hairaan",
+    "ar": "mutafaaji' / mutafaaji'a",
+    "ru": "udivlyon / udivlena"
+   }
+  },
+  {
+   "en": "proud",
+   "also": [],
+   "t": {
+    "es": "orgulloso/a",
+    "fr": "fier / fière",
+    "de": "stolz",
+    "it": "orgoglioso/a",
+    "pt": "orgulhoso/a",
+    "ja": "誇らしい",
+    "zh": "自豪",
+    "ko": "자랑스러워요",
+    "hi": "गर्वित",
+    "ar": "فخور / فخورة",
+    "ru": "гордый / гордая",
+    "nl": "trots"
+   },
+   "say": {
+    "ja": "hokorashii",
+    "zh": "zìháo",
+    "ko": "jarangseureowoyo",
+    "hi": "garvit",
+    "ar": "fakhoor / fakhoora",
+    "ru": "gordy / gordaya"
+   }
+  },
+  {
+   "en": "lonely",
+   "also": [],
+   "t": {
+    "es": "solo/a",
+    "fr": "seul(e)",
+    "de": "einsam",
+    "it": "solo/a",
+    "pt": "sozinho/a",
+    "ja": "寂しい",
+    "zh": "孤独",
+    "ko": "외로워요",
+    "hi": "अकेला / अकेली",
+    "ar": "وحيد / وحيدة",
+    "ru": "одинокий / одинокая",
+    "nl": "eenzaam"
+   },
+   "say": {
+    "ja": "sabishii",
+    "zh": "gūdú",
+    "ko": "oerowoyo",
+    "hi": "akela / akeli",
+    "ar": "waheed / waheeda",
+    "ru": "odinoky / odinokaya"
+   }
+  },
+  {
+   "en": "shy",
+   "also": [],
+   "t": {
+    "es": "tímido/a",
+    "fr": "timide",
+    "de": "schüchtern",
+    "it": "timido/a",
+    "pt": "tímido/a",
+    "ja": "恥ずかしがり屋",
+    "zh": "害羞",
+    "ko": "수줍어요",
+    "hi": "शर्मीला / शर्मीली",
+    "ar": "خجول / خجولة",
+    "ru": "застенчивый / застенчивая",
+    "nl": "verlegen"
+   },
+   "say": {
+    "ja": "hazukashigariya",
+    "zh": "hàixiū",
+    "ko": "sujubeoyo",
+    "hi": "sharmeela / sharmeeli",
+    "ar": "khajool / khajoola",
+    "ru": "zastenchivy / zastenchivaya"
+   }
+  },
+  {
+   "en": "calm",
+   "also": [],
+   "t": {
+    "es": "tranquilo/a",
+    "fr": "calme",
+    "de": "ruhig",
+    "it": "calmo/a",
+    "pt": "calmo/a",
+    "ja": "落ち着いている",
+    "zh": "冷静",
+    "ko": "침착해요",
+    "hi": "शांत",
+    "ar": "هادئ / هادئة",
+    "ru": "спокойный / спокойная",
+    "nl": "kalm"
+   },
+   "say": {
+    "ja": "ochitsuite iru",
+    "zh": "lěngjìng",
+    "ko": "chimchakaeyo",
+    "hi": "shaant",
+    "ar": "haadi' / haadi'a",
+    "ru": "spokoyny / spokoynaya"
+   }
+  },
+  {
+   "en": "confused",
+   "also": [],
+   "t": {
+    "es": "confundido/a",
+    "fr": "confus(e)",
+    "de": "verwirrt",
+    "it": "confuso/a",
+    "pt": "confuso/a",
+    "ja": "混乱している",
+    "zh": "糊涂",
+    "ko": "헷갈려요",
+    "hi": "उलझन में",
+    "ar": "مرتبك / مرتبكة",
+    "ru": "запутался / запуталась",
+    "nl": "in de war"
+   },
+   "say": {
+    "ja": "konran shite iru",
+    "zh": "hútu",
+    "ko": "hetgallyeoyo",
+    "hi": "uljhan mein",
+    "ar": "murtabik / murtabika",
+    "ru": "zaputalsya / zaputalas"
+   }
+  },
+  {
+   "en": "embarrassed",
+   "also": [],
+   "t": {
+    "es": "avergonzado/a",
+    "fr": "gêné(e)",
+    "de": "verlegen",
+    "it": "imbarazzato/a",
+    "pt": "envergonhado/a",
+    "ja": "恥ずかしい",
+    "zh": "不好意思",
+    "ko": "창피해요",
+    "hi": "शर्मिंदा",
+    "ar": "محرج / محرجة",
+    "ru": "смущён / смущена",
+    "nl": "beschaamd"
+   },
+   "say": {
+    "ja": "hazukashii",
+    "zh": "bù hǎoyìsi",
+    "ko": "changpihaeyo",
+    "hi": "sharminda",
+    "ar": "muhraj / muhraja",
+    "ru": "smushchyon / smushchena"
+   }
+  },
+  {
+   "en": "i'm happy",
+   "also": [],
+   "t": {
+    "es": "Estoy feliz",
+    "fr": "Je suis content(e)",
+    "de": "Ich bin glücklich",
+    "it": "Sono felice",
+    "pt": "Estou feliz",
+    "ja": "うれしいです",
+    "zh": "我很开心",
+    "ko": "기뻐요",
+    "hi": "मैं ख़ुश हूँ",
+    "ar": "أنا سعيد / سعيدة",
+    "ru": "Я счастлив / счастлива",
+    "nl": "Ik ben blij"
+   },
+   "say": {
+    "ja": "ureshii desu",
+    "zh": "wǒ hěn kāixīn",
+    "ko": "gippeoyo",
+    "hi": "main khush hoon",
+    "ar": "ana sa'eed / sa'eeda",
+    "ru": "ya schastliv / schastliva"
+   }
+  },
+  {
+   "en": "i'm sad",
+   "also": [],
+   "t": {
+    "es": "Estoy triste",
+    "fr": "Je suis triste",
+    "de": "Ich bin traurig",
+    "it": "Sono triste",
+    "pt": "Estou triste",
+    "ja": "悲しいです",
+    "zh": "我很难过",
+    "ko": "슬퍼요",
+    "hi": "मैं उदास हूँ",
+    "ar": "أنا حزين / حزينة",
+    "ru": "Мне грустно",
+    "nl": "Ik ben verdrietig"
+   },
+   "say": {
+    "ja": "kanashii desu",
+    "zh": "wǒ hěn nánguò",
+    "ko": "seulpeoyo",
+    "hi": "main udaas hoon",
+    "ar": "ana hazeen / hazeena",
+    "ru": "mne grustno"
+   }
+  },
+  {
+   "en": "i'm bored",
+   "also": [],
+   "t": {
+    "es": "Estoy aburrido/a",
+    "fr": "Je m'ennuie",
+    "de": "Mir ist langweilig",
+    "it": "Mi annoio",
+    "pt": "Estou entediado/a",
+    "ja": "退屈です",
+    "zh": "我好无聊",
+    "ko": "심심해요",
+    "hi": "मैं बोर हो रहा / रही हूँ",
+    "ar": "أشعر بالملل",
+    "ru": "Мне скучно",
+    "nl": "Ik verveel me"
+   },
+   "say": {
+    "ja": "taikutsu desu",
+    "zh": "wǒ hǎo wúliáo",
+    "ko": "simsimhaeyo",
+    "hi": "main bor ho raha / rahi hoon",
+    "ar": "ash'ur bil-malal",
+    "ru": "mne skuchno"
+   }
+  },
+  {
+   "en": "i'm excited",
+   "also": [],
+   "t": {
+    "es": "Estoy emocionado/a",
+    "fr": "J'ai hâte",
+    "de": "Ich freue mich so",
+    "it": "Sono emozionato/a",
+    "pt": "Estou animado/a",
+    "ja": "わくわくしています",
+    "zh": "我很兴奋",
+    "ko": "너무 신나요",
+    "hi": "मैं बहुत उत्साहित हूँ",
+    "ar": "أنا متحمس / متحمسة",
+    "ru": "Я в восторге",
+    "nl": "Ik heb er zin in"
+   },
+   "say": {
+    "ja": "wakuwaku shite imasu",
+    "zh": "wǒ hěn xīngfèn",
+    "ko": "neomu sinnayo",
+    "hi": "main bahut utsaahit hoon",
+    "ar": "ana mutahammis / mutahammisa",
+    "ru": "ya v vostorge"
+   }
+  },
+  {
+   "en": "i'm cold",
+   "also": [
+    "i feel cold"
+   ],
+   "t": {
+    "es": "Tengo frío",
+    "fr": "J'ai froid",
+    "de": "Mir ist kalt",
+    "it": "Ho freddo",
+    "pt": "Estou com frio",
+    "ja": "寒いです",
+    "zh": "我很冷",
+    "ko": "추워요",
+    "hi": "मुझे ठंड लग रही है",
+    "ar": "أشعر بالبرد",
+    "ru": "Мне холодно",
+    "nl": "Ik heb het koud"
+   },
+   "say": {
+    "ja": "samui desu",
+    "zh": "wǒ hěn lěng",
+    "ko": "chuwoyo",
+    "hi": "mujhe thand lag rahi hai",
+    "ar": "ash'ur bil-bard",
+    "ru": "mne kholodno"
+   }
+  },
+  {
+   "en": "i'm hot",
+   "also": [
+    "i feel hot"
+   ],
+   "t": {
+    "es": "Tengo calor",
+    "fr": "J'ai chaud",
+    "de": "Mir ist heiß",
+    "it": "Ho caldo",
+    "pt": "Estou com calor",
+    "ja": "暑いです",
+    "zh": "我很热",
+    "ko": "더워요",
+    "hi": "मुझे गर्मी लग रही है",
+    "ar": "أشعر بالحر",
+    "ru": "Мне жарко",
+    "nl": "Ik heb het warm"
+   },
+   "say": {
+    "ja": "atsui desu",
+    "zh": "wǒ hěn rè",
+    "ko": "deowoyo",
+    "hi": "mujhe garmi lag rahi hai",
+    "ar": "ash'ur bil-harr",
+    "ru": "mne zharko"
+   }
+  },
+  {
+   "en": "i'm sleepy",
+   "also": [],
+   "t": {
+    "es": "Tengo sueño",
+    "fr": "J'ai sommeil",
+    "de": "Ich bin müde",
+    "it": "Ho sonno",
+    "pt": "Estou com sono",
+    "ja": "眠いです",
+    "zh": "我困了",
+    "ko": "졸려요",
+    "hi": "मुझे नींद आ रही है",
+    "ar": "أنا نعسان / نعسانة",
+    "ru": "Я хочу спать",
+    "nl": "Ik heb slaap"
+   },
+   "say": {
+    "ja": "nemui desu",
+    "zh": "wǒ kùn le",
+    "ko": "jollyeoyo",
+    "hi": "mujhe neend aa rahi hai",
+    "ar": "ana na'saan / na'saana",
+    "ru": "ya khochu spat"
+   }
+  },
+  {
+   "en": "i'm worried",
+   "also": [],
+   "t": {
+    "es": "Estoy preocupado/a",
+    "fr": "Je suis inquiet / inquiète",
+    "de": "Ich mache mir Sorgen",
+    "it": "Sono preoccupato/a",
+    "pt": "Estou preocupado/a",
+    "ja": "心配です",
+    "zh": "我很担心",
+    "ko": "걱정돼요",
+    "hi": "मुझे चिंता है",
+    "ar": "أنا قلق / قلقة",
+    "ru": "Я волнуюсь",
+    "nl": "Ik maak me zorgen"
+   },
+   "say": {
+    "ja": "shinpai desu",
+    "zh": "wǒ hěn dānxīn",
+    "ko": "geokjeongdwaeyo",
+    "hi": "mujhe chinta hai",
+    "ar": "ana qaliq / qaliqa",
+    "ru": "ya volnuyus"
+   }
+  },
+  {
+   "en": "i'm nervous",
+   "also": [],
+   "t": {
+    "es": "Estoy nervioso/a",
+    "fr": "Je suis nerveux / nerveuse",
+    "de": "Ich bin nervös",
+    "it": "Sono nervoso/a",
+    "pt": "Estou nervoso/a",
+    "ja": "緊張しています",
+    "zh": "我很紧张",
+    "ko": "긴장돼요",
+    "hi": "मुझे घबराहट हो रही है",
+    "ar": "أنا متوتر / متوترة",
+    "ru": "Я нервничаю",
+    "nl": "Ik ben zenuwachtig"
+   },
+   "say": {
+    "ja": "kinchou shite imasu",
+    "zh": "wǒ hěn jǐnzhāng",
+    "ko": "ginjangdwaeyo",
+    "hi": "mujhe ghabraahat ho rahi hai",
+    "ar": "ana mutawattir / mutawattira",
+    "ru": "ya nervnichayu"
+   }
+  },
+  {
+   "en": "i'm busy",
+   "also": [],
+   "t": {
+    "es": "Estoy ocupado/a",
+    "fr": "Je suis occupé(e)",
+    "de": "Ich bin beschäftigt",
+    "it": "Sono occupato/a",
+    "pt": "Estou ocupado/a",
+    "ja": "忙しいです",
+    "zh": "我很忙",
+    "ko": "바빠요",
+    "hi": "मैं व्यस्त हूँ",
+    "ar": "أنا مشغول / مشغولة",
+    "ru": "Я занят / занята",
+    "nl": "Ik heb het druk"
+   },
+   "say": {
+    "ja": "isogashii desu",
+    "zh": "wǒ hěn máng",
+    "ko": "bappayo",
+    "hi": "main vyast hoon",
+    "ar": "ana mashghool / mashghoola",
+    "ru": "ya zanyat / zanyata"
+   }
+  },
+  {
+   "en": "i feel better",
+   "also": [
+    "i'm feeling better"
+   ],
+   "t": {
+    "es": "Me siento mejor",
+    "fr": "Je me sens mieux",
+    "de": "Mir geht es besser",
+    "it": "Mi sento meglio",
+    "pt": "Estou me sentindo melhor",
+    "ja": "良くなりました",
+    "zh": "我好多了",
+    "ko": "좀 나아졌어요",
+    "hi": "मैं अब बेहतर महसूस कर रहा / रही हूँ",
+    "ar": "أشعر بتحسن",
+    "ru": "Мне лучше",
+    "nl": "Ik voel me beter"
+   },
+   "say": {
+    "ja": "yoku narimashita",
+    "zh": "wǒ hǎo duō le",
+    "ko": "jom naajyeosseoyo",
+    "hi": "main ab behtar mahsoos kar raha / rahi hoon",
+    "ar": "ash'ur bi-tahassun",
+    "ru": "mne luchshe"
+   }
+  },
+  {
+   "en": "i'm so happy for you",
+   "also": [
+    "happy for you"
+   ],
+   "t": {
+    "es": "Me alegro mucho por ti",
+    "fr": "Je suis très content(e) pour toi",
+    "de": "Ich freue mich so für dich",
+    "it": "Sono molto felice per te",
+    "pt": "Fico muito feliz por você",
+    "ja": "本当によかったですね",
+    "zh": "我真为你高兴",
+    "ko": "정말 잘됐어요",
+    "hi": "मैं आपके लिए बहुत ख़ुश हूँ",
+    "ar": "أنا سعيد جدا من أجلك",
+    "ru": "Я так рад / рада за тебя",
+    "nl": "Ik ben zo blij voor je"
+   },
+   "say": {
+    "ja": "hontou ni yokatta desu ne",
+    "zh": "wǒ zhēn wèi nǐ gāoxìng",
+    "ko": "jeongmal jaldwaesseoyo",
+    "hi": "main aapke liye bahut khush hoon",
+    "ar": "ana sa'eed jiddan min ajlik",
+    "ru": "ya tak rad / rada za tebya"
+   }
+  },
+  {
+   "en": "i'm proud of you",
+   "also": [],
+   "t": {
+    "es": "Estoy orgulloso/a de ti",
+    "fr": "Je suis fier / fière de toi",
+    "de": "Ich bin stolz auf dich",
+    "it": "Sono orgoglioso/a di te",
+    "pt": "Tenho orgulho de você",
+    "ja": "あなたを誇りに思います",
+    "zh": "我为你骄傲",
+    "ko": "정말 자랑스러워요",
+    "hi": "मुझे आप पर गर्व है",
+    "ar": "أنا فخور بك",
+    "ru": "Я горжусь тобой",
+    "nl": "Ik ben trots op je"
+   },
+   "say": {
+    "ja": "anata o hokori ni omoimasu",
+    "zh": "wǒ wèi nǐ jiāo'ào",
+    "ko": "jeongmal jarangseureowoyo",
+    "hi": "mujhe aap par garv hai",
+    "ar": "ana fakhoor bik",
+    "ru": "ya gorzhus toboy"
+   }
+  },
+  {
+   "en": "that's ok",
+   "also": [
+    "it's okay",
+    "it's fine",
+    "that's fine"
+   ],
+   "t": {
+    "es": "No pasa nada",
+    "fr": "Ce n'est pas grave",
+    "de": "Das macht nichts",
+    "it": "Non fa niente",
+    "pt": "Tudo bem",
+    "ja": "大丈夫です",
+    "zh": "没关系",
+    "ko": "괜찮아요",
+    "hi": "कोई बात नहीं",
+    "ar": "لا بأس",
+    "ru": "Ничего страшного",
+    "nl": "Geeft niet"
+   },
+   "say": {
+    "ja": "daijoubu desu",
+    "zh": "méi guānxi",
+    "ko": "gwaenchanayo",
+    "hi": "koi baat nahin",
+    "ar": "la ba's",
+    "ru": "nichego strashnogo"
+   }
+  },
+  {
+   "en": "i'm having fun",
+   "also": [],
+   "t": {
+    "es": "Me estoy divirtiendo",
+    "fr": "Je m'amuse bien",
+    "de": "Ich habe Spaß",
+    "it": "Mi sto divertendo",
+    "pt": "Estou me divertindo",
+    "ja": "楽しいです",
+    "zh": "我玩得很开心",
+    "ko": "재미있어요",
+    "hi": "मुझे मज़ा आ रहा है",
+    "ar": "أنا أستمتع",
+    "ru": "Мне весело",
+    "nl": "Ik heb plezier"
+   },
+   "say": {
+    "ja": "tanoshii desu",
+    "zh": "wǒ wán de hěn kāixīn",
+    "ko": "jaemiisseoyo",
+    "hi": "mujhe maza aa raha hai",
+    "ar": "ana astamti'",
+    "ru": "mne veselo"
+   }
+  },
+  {
+   "en": "i'm scared of ...",
+   "also": [
+    "i am scared of",
+    "i'm afraid of"
+   ],
+   "t": {
+    "es": "Tengo miedo de ...",
+    "fr": "J'ai peur de ...",
+    "de": "Ich habe Angst vor ...",
+    "it": "Ho paura di ...",
+    "pt": "Tenho medo de ...",
+    "ja": "...が怖いです",
+    "zh": "我怕...",
+    "ko": "...가 무서워요",
+    "hi": "मुझे ... से डर लगता है",
+    "ar": "أخاف من ...",
+    "ru": "Я боюсь ...",
+    "nl": "Ik ben bang voor ..."
+   },
+   "say": {
+    "ja": "...ga kowai desu",
+    "zh": "wǒ pà ...",
+    "ko": "...ga museowoyo",
+    "hi": "mujhe ... se dar lagta hai",
+    "ar": "akhaaf min ...",
+    "ru": "ya boyus ..."
+   }
+  }
+ ]
+}

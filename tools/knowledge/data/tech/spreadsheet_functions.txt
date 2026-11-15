@@ -1,0 +1,26 @@
+# tag: tech.office.functions
+how do i get the first few letters of a cell | left function excel => Use =LEFT(A1, 3) to get the first 3 characters. RIGHT does the same from the end, and MID takes characters from the middle.
+how do i count the letters in a cell | len function => Use =LEN(A1) to count how many characters are in a cell, including spaces.
+how do i remove extra spaces in a spreadsheet | trim function => Use =TRIM(A1) to remove spaces at the start and end and squash double spaces between words into one.
+how do i make text capital in a spreadsheet | upper lower proper => =UPPER(A1) makes all capitals, =LOWER(A1) makes all lowercase and =PROPER(A1) capitalizes the first letter of each word.
+how do i count cells with two conditions | count rows matching several rules => Use COUNTIFS with pairs of range and condition, like =COUNTIFS(A:A, "Red", B:B, ">10") to count red items over 10.
+how do i add numbers with two conditions | total only rows matching several rules => Use SUMIFS with the sum range first, then pairs of range and condition, like =SUMIFS(C:C, A:A, "Red", B:B, "Large").
+how do i check two things in an if formula | and or in excel => Put AND or OR inside IF, like =IF(AND(A1>5, B1="Yes"), "Go", "Stop"). AND needs both true, OR needs just one.
+what is index match | index match vs vlookup => INDEX MATCH looks up a value like VLOOKUP but can search any column in any direction: =INDEX(C:C, MATCH("Sam", A:A, 0)). XLOOKUP is simpler if you have it.
+how do i format a number inside text | text function excel => Use TEXT to format a number as text, like =TEXT(A1, "0.00") or =TEXT(A1, "dd/mm/yyyy"), handy when joining numbers into sentences.
+how do i always round up in excel | roundup formula => =ROUNDUP(A1, 0) always rounds up to a whole number and =ROUNDDOWN always rounds down. ROUND rounds to the nearest.
+how do i find the remainder in a spreadsheet | mod function => =MOD(A1, 2) gives the remainder after dividing. A result of 0 means the number is even.
+how do i rank scores in a spreadsheet | rank function => Use =RANK(A1, A:A) to show where a value places in a list, with 1 for the biggest by default.
+how do i find the second biggest number | large function excel => =LARGE(A:A, 2) gives the second biggest value, and =SMALL(A:A, 2) gives the second smallest.
+how do i find the median in a spreadsheet | median formula excel => Use =MEDIAN(A1:A20) for the middle value and =MODE(A1:A20) for the most common one.
+how do i count workdays between dates | networkdays => =NETWORKDAYS(start, end) counts weekdays between two dates, skipping weekends. You can add a list of holidays too.
+how do i get the day of the week from a date | weekday function => =WEEKDAY(A1) gives a number for the day, or use =TEXT(A1, "dddd") to show the day's name.
+how do i flip rows and columns in a spreadsheet | transpose data => Copy the cells, then use Paste Special and tick Transpose. The TRANSPOSE function does it with a formula.
+how do i pull data from another google sheet | importrange => Use =IMPORTRANGE("sheet link", "Sheet1!A1:C10"). The first time, click Allow access to connect the two files.
+what is arrayformula in google sheets | apply formula to whole column => ARRAYFORMULA makes one formula work on a whole range at once, like =ARRAYFORMULA(A2:A*B2:B), so you don't copy it down.
+what is the query function in google sheets | sheets query => QUERY filters and sorts data using simple commands, like =QUERY(A:C, "select A, C where B > 10").
+how do i put a picture in a google sheets cell | image function => Use =IMAGE("link to picture") or Insert > Image > Image in cell to put a picture inside a cell.
+how do i make a clickable link in a cell | hyperlink function => Use =HYPERLINK("https://example.com", "Click here") to show friendly text that opens a link.
+how do i make a list of numbers automatically | sequence function => =SEQUENCE(10) fills 1 to 10 down a column. You can also type 1 and 2, select both and drag the fill handle.
+what is a named range | name cells in excel => A named range gives cells a name like Prices, so formulas read =SUM(Prices) instead of a range of letters and numbers.
+what is goal seek in excel | work backward to an answer => Goal Seek changes one cell until a formula reaches the result you want. Find it under Data > What-If Analysis.

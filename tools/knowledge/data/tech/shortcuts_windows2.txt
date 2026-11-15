@@ -1,0 +1,17 @@
+# tag: tech.shortcuts.windows2
+how do i select text to the end of a line | shift end => Press Shift + End to select from the cursor to the end of the line, and Shift + Home to select to the start.
+how do i select a word at a time | ctrl shift arrow => Press Ctrl + Shift + Left or Right Arrow to select one word at a time.
+how do i delete the word after the cursor | ctrl delete => Press Ctrl + Delete to erase the next word to the right of the cursor.
+how do i stretch a window to full height | windows shift up => Press Win + Shift + Up Arrow to stretch the window from the top to the bottom of the screen, keeping its width.
+how do i minimize a window with keys | windows down arrow => Press Win + Down Arrow to restore a maximized window, and press it again to minimize it.
+how do i restore minimized windows | windows shift m => Press Win + Shift + M to bring back windows you minimized with Win + M.
+how do i open a second copy of an app | shift click taskbar => Shift + click an app on the taskbar, or press Win + Shift + its number, to open a new window of it.
+how do i run a taskbar app as admin | ctrl shift click taskbar => Hold Ctrl + Shift and click the app on the taskbar to open it as administrator.
+how do i open the jump list with keys | windows alt number => Press Win + Alt + a number to open the jump list of that taskbar app, showing recent files.
+how do i open the window menu | alt space => Press Alt + Space to open the active window's menu with Restore, Move, Size, Minimize, Maximize and Close.
+how do i move a window with the keyboard | move window arrow keys => Press Alt + Space, choose Move, then use the arrow keys. Press Enter when it's in place.
+how do i cycle windows in the order i opened them | alt esc => Press Alt + Esc to cycle through windows in the order they were opened, without the switcher screen.
+how do i close a document tab in an app | ctrl f4 => Press Ctrl + F4 to close the active document or tab in many apps, while Alt + F4 closes the whole app.
+how do i turn on color filters with a shortcut | windows ctrl c filter => After turning on the keyboard shortcut in Settings, Accessibility, Color filters, press Win + Ctrl + C to switch color filters on and off.
+how do i close the magnifier | windows esc magnifier => Press Win + Esc to turn off Magnifier, and Win + Minus to zoom it back out.
+how do i open the search in windows 11 | windows q => Press Win + Q or Win + S to open Windows search.

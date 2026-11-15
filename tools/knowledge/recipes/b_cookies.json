@@ -1,0 +1,1795 @@
+{
+ "recipes": [
+  {
+   "id": "peanut-butter-cookies",
+   "name": "Peanut butter cookies",
+   "aliases": [
+    "peanut butter cookies",
+    "peanut butter cookie",
+    "pb cookies",
+    "criss cross cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "peanut butter",
+    "butter",
+    "sugar",
+    "egg",
+    "flour"
+   ],
+   "ingredients": [
+    "1 1/4 cups (160 g) all-purpose flour",
+    "3/4 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "1/2 cup (130 g) creamy peanut butter",
+    "1/2 cup (100 g) sugar, plus 2 tablespoons for rolling",
+    "1/2 cup (110 g) packed brown sugar",
+    "1 large egg",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Whisk the flour, baking soda and salt in a bowl.",
+    "Beat the butter, peanut butter, sugar and brown sugar in a big bowl until creamy.",
+    "Beat in the egg and vanilla.",
+    "Stir in the flour mix until no dry flour shows.",
+    "Roll the dough into 1 1/4 inch balls and roll them in the extra sugar.",
+    "Put them on a baking sheet 2 inches apart and press each one with a fork to make a criss cross.",
+    "Bake for 9 to 11 minutes, until the edges are just golden.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "oatmeal-raisin-cookies",
+   "name": "Oatmeal raisin cookies",
+   "aliases": [
+    "oatmeal raisin cookies",
+    "oatmeal raisin cookie",
+    "oat raisin cookies",
+    "oatmeal cookies",
+    "oatmeal cookie"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "35 min",
+   "main": [
+    "oats",
+    "raisins",
+    "butter",
+    "brown sugar",
+    "flour"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1 cup (220 g) packed brown sugar",
+    "1/2 cup (100 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1 teaspoon ground cinnamon",
+    "1/2 teaspoon salt",
+    "3 cups (270 g) old-fashioned rolled oats",
+    "1 cup (150 g) raisins"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter, brown sugar and sugar in a big bowl until creamy.",
+    "Beat in the eggs one at a time, then the vanilla.",
+    "Whisk the flour, baking soda, cinnamon and salt in another bowl, then stir it into the butter mix.",
+    "Stir in the oats and raisins.",
+    "Drop rounded tablespoons of dough onto a baking sheet, 2 inches apart.",
+    "Bake for 10 to 12 minutes, until the edges are golden and the middles still look a little soft.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "snickerdoodles",
+   "name": "Snickerdoodles",
+   "aliases": [
+    "snickerdoodles",
+    "snickerdoodle",
+    "cinnamon sugar cookies",
+    "cinnamon cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "35 min",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "cinnamon",
+    "cream of tartar"
+   ],
+   "ingredients": [
+    "2 3/4 cups (345 g) all-purpose flour",
+    "2 teaspoons cream of tartar",
+    "1 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1 cup (225 g) butter, softened",
+    "1 1/2 cups (300 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "For rolling: 3 tablespoons sugar mixed with 1 tablespoon ground cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Whisk the flour, cream of tartar, baking soda and salt in a bowl.",
+    "Beat the butter and sugar in a big bowl for 2 minutes, until light and fluffy.",
+    "Beat in the eggs and vanilla.",
+    "Stir in the flour mix until a soft dough forms.",
+    "Roll the dough into 1 1/2 inch balls and roll each ball in the cinnamon sugar.",
+    "Put them on a baking sheet 2 inches apart.",
+    "Bake for 8 to 10 minutes, until set at the edges and puffed in the middle.",
+    "Let cool for 5 minutes on the sheet. They sink and crinkle as they cool."
+   ]
+  },
+  {
+   "id": "double-chocolate-cookies",
+   "name": "Double chocolate cookies",
+   "aliases": [
+    "double chocolate cookies",
+    "double chocolate chip cookies",
+    "chocolate cookies",
+    "chocolate cookie",
+    "triple chocolate cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "cocoa",
+    "chocolate chips",
+    "butter",
+    "sugar",
+    "flour"
+   ],
+   "ingredients": [
+    "1 1/4 cups (160 g) all-purpose flour",
+    "1/2 cup (45 g) unsweetened cocoa powder",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "1 cup (225 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2/3 cup (145 g) packed brown sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (255 g) chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Whisk the flour, cocoa, baking soda and salt in a bowl.",
+    "Beat the butter, sugar and brown sugar in a big bowl until creamy.",
+    "Beat in the eggs and vanilla.",
+    "Stir in the flour mix, then the chocolate chips.",
+    "Scoop 2 tablespoon balls onto a baking sheet, 2 inches apart.",
+    "Bake for 9 to 11 minutes. They should still look soft in the middle.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "white-chocolate-macadamia-cookies",
+   "name": "White chocolate macadamia cookies",
+   "aliases": [
+    "white chocolate macadamia cookies",
+    "white chocolate macadamia nut cookies",
+    "macadamia cookies",
+    "white chip macadamia cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "white chocolate",
+    "macadamia nuts",
+    "butter",
+    "brown sugar",
+    "flour"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "3/4 cup (170 g) butter, softened",
+    "3/4 cup (165 g) packed brown sugar",
+    "1/2 cup (100 g) sugar",
+    "1 large egg plus 1 egg yolk",
+    "2 teaspoons vanilla extract",
+    "1 cup (170 g) white chocolate chips",
+    "1 cup (135 g) macadamia nuts, roughly chopped"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Whisk the flour, baking soda and salt in a bowl.",
+    "Beat the butter, brown sugar and sugar until creamy.",
+    "Beat in the egg, egg yolk and vanilla.",
+    "Stir in the flour mix, then the white chocolate chips and nuts.",
+    "Scoop 2 tablespoon balls onto a baking sheet, 2 inches apart.",
+    "Bake for 10 to 12 minutes, until the edges are light golden.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "candy-coated-chocolate-cookies",
+   "name": "Candy-coated chocolate cookies",
+   "aliases": [
+    "m and m cookies",
+    "m and ms cookies",
+    "mms cookies",
+    "candy cookies",
+    "rainbow candy cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "candy-coated chocolates",
+    "butter",
+    "brown sugar",
+    "flour",
+    "egg"
+   ],
+   "ingredients": [
+    "2 1/4 cups (280 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "1 cup (225 g) butter, softened",
+    "3/4 cup (165 g) packed brown sugar",
+    "1/2 cup (100 g) sugar",
+    "2 large eggs",
+    "2 teaspoons vanilla extract",
+    "1 1/2 cups (300 g) candy-coated chocolate pieces"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Whisk the flour, baking soda and salt in a bowl.",
+    "Beat the butter, brown sugar and sugar until creamy, then beat in the eggs and vanilla.",
+    "Stir in the flour mix.",
+    "Stir in 1 cup of the candies and save the rest.",
+    "Scoop 2 tablespoon balls onto a baking sheet, 2 inches apart, and press a few extra candies on top of each.",
+    "Bake for 10 to 12 minutes, until the edges are golden.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "molasses-cookies",
+   "name": "Chewy molasses cookies",
+   "aliases": [
+    "molasses cookies",
+    "molasses cookie",
+    "ginger molasses cookies",
+    "ginger cookies",
+    "gingersnaps",
+    "ginger snaps"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "35 min",
+   "main": [
+    "molasses",
+    "ginger",
+    "butter",
+    "flour",
+    "sugar"
+   ],
+   "ingredients": [
+    "2 1/4 cups (280 g) all-purpose flour",
+    "2 teaspoons baking soda",
+    "2 teaspoons ground ginger",
+    "1 teaspoon ground cinnamon",
+    "1/4 teaspoon ground cloves",
+    "1/4 teaspoon salt",
+    "3/4 cup (170 g) butter, softened",
+    "1 cup (200 g) sugar, plus 1/4 cup (50 g) for rolling",
+    "1 large egg",
+    "1/4 cup (85 g) molasses"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Whisk the flour, baking soda, ginger, cinnamon, cloves and salt in a bowl.",
+    "Beat the butter and 1 cup of sugar until fluffy.",
+    "Beat in the egg and molasses.",
+    "Stir in the flour mix.",
+    "Roll the dough into 1 inch balls and roll them in the extra sugar.",
+    "Put them on a baking sheet 2 inches apart.",
+    "Bake for 8 to 10 minutes, until the tops crack. Bake 2 minutes longer for crisp ginger snaps.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "gingerbread-cookies",
+   "name": "Gingerbread cookies",
+   "aliases": [
+    "gingerbread cookies",
+    "gingerbread men",
+    "gingerbread man",
+    "gingerbread cookie",
+    "gingerbread people"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 45 min",
+   "main": [
+    "flour",
+    "molasses",
+    "ginger",
+    "butter",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "3 cups (375 g) all-purpose flour",
+    "1 tablespoon ground ginger",
+    "1 1/2 teaspoons ground cinnamon",
+    "1/4 teaspoon ground cloves",
+    "1 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "3/4 cup (170 g) butter, softened",
+    "3/4 cup (165 g) packed brown sugar",
+    "1 large egg",
+    "1/2 cup (170 g) molasses",
+    "1 teaspoon vanilla extract",
+    "Icing: 1 cup (120 g) powdered sugar mixed with 1 to 2 tablespoons milk"
+   ],
+   "steps": [
+    "Whisk the flour, spices, baking soda and salt in a bowl.",
+    "Beat the butter and brown sugar until fluffy, then beat in the egg, molasses and vanilla.",
+    "Stir in the flour mix until a dough forms.",
+    "Split the dough in half, flatten each half into a disk and wrap it.",
+    "Chill for 1 hour.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Roll the dough 1/4 inch thick on a floured counter and cut out shapes.",
+    "Put them on a lined baking sheet 1 inch apart.",
+    "Bake for 8 to 10 minutes, until the edges are firm.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack.",
+    "Decorate with the icing once they are completely cool."
+   ]
+  },
+  {
+   "id": "shortbread",
+   "name": "Scottish shortbread",
+   "aliases": [
+    "shortbread",
+    "shortbread cookies",
+    "scottish shortbread",
+    "butter shortbread",
+    "shortbread fingers"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr",
+   "main": [
+    "butter",
+    "sugar",
+    "flour"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1/2 cup (100 g) sugar, plus a little for sprinkling",
+    "1/4 teaspoon salt",
+    "2 cups (250 g) all-purpose flour"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Beat the butter, sugar and salt until creamy.",
+    "Stir in the flour until it comes together as a soft dough.",
+    "Press the dough evenly into an 8 by 8 inch pan.",
+    "Prick it all over with a fork and sprinkle with a little sugar.",
+    "Bake for 35 to 40 minutes, until pale golden at the edges.",
+    "Cut it into 16 bars while still warm. Ask an adult to help.",
+    "Let cool for 20 minutes in the pan before lifting out the bars."
+   ]
+  },
+  {
+   "id": "thumbprint-cookies",
+   "name": "Jam thumbprint cookies",
+   "aliases": [
+    "thumbprint cookies",
+    "thumbprint cookie",
+    "jam thumbprints",
+    "jam cookies",
+    "jam drops"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "35 min",
+   "main": [
+    "butter",
+    "flour",
+    "sugar",
+    "jam",
+    "egg yolk"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "2/3 cup (135 g) sugar",
+    "2 large egg yolks",
+    "1 teaspoon vanilla extract",
+    "2 cups (250 g) all-purpose flour",
+    "1/4 teaspoon salt",
+    "1/2 cup (160 g) jam, any flavor"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter and sugar until creamy, then beat in the egg yolks and vanilla.",
+    "Stir in the flour and salt.",
+    "Roll the dough into 1 inch balls and put them on a baking sheet 1 inch apart.",
+    "Press your thumb into the middle of each ball to make a dent.",
+    "Fill each dent with about 1/2 teaspoon of jam.",
+    "Bake for 12 to 14 minutes, until the edges are light golden.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "no-bake-cookies",
+   "name": "No-bake chocolate oat cookies",
+   "aliases": [
+    "no bake cookies",
+    "no bake chocolate cookies",
+    "chocolate oat cookies",
+    "preacher cookies",
+    "boiled cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "45 min",
+   "main": [
+    "oats",
+    "peanut butter",
+    "cocoa",
+    "sugar",
+    "butter"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter",
+    "2 cups (400 g) sugar",
+    "1/2 cup (120 ml) milk",
+    "1/4 cup (20 g) unsweetened cocoa powder",
+    "1/2 cup (130 g) peanut butter",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "3 cups (270 g) quick oats"
+   ],
+   "steps": [
+    "Line 2 baking sheets with wax paper.",
+    "Put the butter, sugar, milk and cocoa in a pot over medium heat. Ask an adult to help, the mix gets very hot.",
+    "Bring it to a rolling boil, then boil for 1 minute without stirring.",
+    "Take the pot off the heat and stir in the peanut butter, vanilla and salt until smooth.",
+    "Stir in the oats.",
+    "Drop spoonfuls onto the wax paper.",
+    "Let set for 30 minutes at room temperature."
+   ]
+  },
+  {
+   "id": "monster-cookies",
+   "name": "Monster cookies",
+   "aliases": [
+    "monster cookies",
+    "monster cookie",
+    "peanut butter oatmeal cookies",
+    "monster oat cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "oats",
+    "peanut butter",
+    "candy-coated chocolates",
+    "chocolate chips",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "1 cup (260 g) peanut butter",
+    "1 cup (220 g) packed brown sugar",
+    "1/2 cup (100 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "3 cups (270 g) old-fashioned rolled oats",
+    "3/4 cup (130 g) chocolate chips",
+    "3/4 cup (150 g) candy-coated chocolate pieces"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter, peanut butter, brown sugar and sugar until creamy.",
+    "Beat in the eggs, vanilla, baking soda and salt.",
+    "Stir in the oats, chocolate chips and candies. There is no flour in these.",
+    "Scoop 2 tablespoon balls onto a baking sheet, 2 inches apart, and flatten them a little.",
+    "Bake for 10 to 12 minutes, until the edges are golden.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "lemon-crinkle-cookies",
+   "name": "Lemon crinkle cookies",
+   "aliases": [
+    "lemon crinkle cookies",
+    "lemon cookies",
+    "lemon cookie",
+    "lemon crinkles"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "lemon",
+    "butter",
+    "sugar",
+    "flour",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "1 cup (200 g) sugar",
+    "1 large egg",
+    "1 tablespoon lemon zest",
+    "2 tablespoons lemon juice",
+    "1/2 teaspoon vanilla extract",
+    "1 3/4 cups (220 g) all-purpose flour",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1/2 cup (60 g) powdered sugar for rolling"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter and sugar until fluffy.",
+    "Beat in the egg, lemon zest, lemon juice and vanilla.",
+    "Stir in the flour, baking powder, baking soda and salt.",
+    "Roll the dough into 1 inch balls and roll them thickly in the powdered sugar.",
+    "Put them on a baking sheet 2 inches apart.",
+    "Bake for 9 to 11 minutes, until the bottoms are just golden.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "chocolate-crinkle-cookies",
+   "name": "Chocolate crinkle cookies",
+   "aliases": [
+    "chocolate crinkle cookies",
+    "chocolate crinkles",
+    "crinkle cookies",
+    "crinkle cookie"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "4 hr 30 min",
+   "main": [
+    "cocoa",
+    "sugar",
+    "egg",
+    "flour",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1 cup (90 g) unsweetened cocoa powder",
+    "2 cups (400 g) sugar",
+    "1/2 cup (120 ml) vegetable oil",
+    "4 large eggs",
+    "2 teaspoons vanilla extract",
+    "2 cups (250 g) all-purpose flour",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1/2 cup (60 g) powdered sugar for rolling"
+   ],
+   "steps": [
+    "Mix the cocoa, sugar and oil in a big bowl.",
+    "Beat in the eggs one at a time, then the vanilla.",
+    "Stir in the flour, baking powder and salt.",
+    "Cover and chill for 4 hours, until firm.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Roll the dough into 1 inch balls and roll them thickly in the powdered sugar.",
+    "Put them on a lined baking sheet 2 inches apart.",
+    "Bake for 10 to 12 minutes, until puffed and cracked.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "snowball-cookies",
+   "name": "Snowball cookies",
+   "aliases": [
+    "snowball cookies",
+    "snowballs",
+    "russian tea cakes",
+    "mexican wedding cookies",
+    "polvorones",
+    "butterballs"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "45 min",
+   "main": [
+    "butter",
+    "flour",
+    "pecans",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1/2 cup (60 g) powdered sugar, plus 1 cup (120 g) for rolling",
+    "1 teaspoon vanilla extract",
+    "2 1/4 cups (280 g) all-purpose flour",
+    "1/4 teaspoon salt",
+    "3/4 cup (85 g) pecans or walnuts, finely chopped"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Beat the butter, 1/2 cup powdered sugar and vanilla until creamy.",
+    "Stir in the flour, salt and nuts until a dough forms.",
+    "Roll the dough into 1 inch balls and put them on a baking sheet.",
+    "Bake for 10 to 12 minutes, until set but not brown.",
+    "Let cool for 5 minutes, then roll the warm cookies in powdered sugar.",
+    "Let cool completely, then roll them in powdered sugar again."
+   ]
+  },
+  {
+   "id": "oatmeal-chocolate-chip-cookies",
+   "name": "Oatmeal chocolate chip cookies",
+   "aliases": [
+    "oatmeal chocolate chip cookies",
+    "oat chocolate chip cookies",
+    "oatmeal chip cookies",
+    "chocolate oatmeal cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "oats",
+    "chocolate chips",
+    "butter",
+    "brown sugar",
+    "flour"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1 cup (220 g) packed brown sugar",
+    "1/2 cup (100 g) sugar",
+    "2 large eggs",
+    "2 teaspoons vanilla extract",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "3 cups (270 g) old-fashioned rolled oats",
+    "1 1/2 cups (255 g) chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter, brown sugar and sugar until creamy.",
+    "Beat in the eggs and vanilla.",
+    "Stir in the flour, baking soda and salt.",
+    "Stir in the oats and chocolate chips.",
+    "Drop rounded tablespoons onto a baking sheet, 2 inches apart.",
+    "Bake for 10 to 12 minutes, until golden at the edges.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "peanut-butter-blossoms",
+   "name": "Peanut butter blossoms",
+   "aliases": [
+    "peanut butter blossoms",
+    "blossom cookies",
+    "kiss cookies",
+    "chocolate kiss cookies",
+    "blossoms"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "40 min",
+   "main": [
+    "peanut butter",
+    "chocolate kisses",
+    "butter",
+    "sugar",
+    "flour"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (195 g) creamy peanut butter",
+    "1/3 cup (65 g) sugar, plus 1/4 cup (50 g) for rolling",
+    "1/3 cup (75 g) packed brown sugar",
+    "1 large egg",
+    "2 tablespoons milk",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "36 chocolate kiss candies, unwrapped"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Beat the butter, peanut butter, sugar and brown sugar until fluffy.",
+    "Beat in the egg, milk and vanilla.",
+    "Stir in the flour, baking soda and salt.",
+    "Roll into 1 inch balls, roll them in the extra sugar and put them on a baking sheet.",
+    "Bake for 8 to 10 minutes, until light golden.",
+    "Right away, press a chocolate kiss into the middle of each cookie. The cookie cracks around it.",
+    "Let cool for 1 hour so the chocolate sets."
+   ]
+  },
+  {
+   "id": "sprinkle-cookies",
+   "name": "Funfetti sprinkle cookies",
+   "aliases": [
+    "funfetti cookies",
+    "sprinkle cookies",
+    "sprinkle cookie",
+    "birthday cookies",
+    "confetti cookies",
+    "rainbow sprinkle cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "30 min",
+   "main": [
+    "butter",
+    "sugar",
+    "flour",
+    "sprinkles",
+    "egg"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "1 large egg",
+    "2 teaspoons vanilla extract",
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 teaspoon cornstarch",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1/2 cup (80 g) rainbow sprinkles"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter and sugar until fluffy.",
+    "Beat in the egg and vanilla.",
+    "Stir in the flour, cornstarch, baking soda and salt.",
+    "Gently stir in the sprinkles.",
+    "Roll into 1 1/2 inch balls and put them on a baking sheet 2 inches apart.",
+    "Bake for 9 to 11 minutes, until the edges are set but the tops are still pale.",
+    "Let cool for 5 minutes on the sheet, then move them to a wire rack."
+   ]
+  },
+  {
+   "id": "coconut-macaroons",
+   "name": "Coconut macaroons",
+   "aliases": [
+    "coconut macaroons",
+    "macaroons",
+    "coconut macaroon",
+    "coconut cookies"
+   ],
+   "category": "Dessert",
+   "servings": 20,
+   "time": "35 min",
+   "main": [
+    "coconut",
+    "sweetened condensed milk",
+    "egg white"
+   ],
+   "ingredients": [
+    "5 1/3 cups (400 g) sweetened shredded coconut",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1 teaspoon vanilla extract",
+    "2 large egg whites",
+    "1/4 teaspoon salt",
+    "4 oz (115 g) chocolate for dipping (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Line a baking sheet with parchment paper.",
+    "Mix the coconut, condensed milk and vanilla in a big bowl.",
+    "Beat the egg whites and salt in a clean bowl until stiff peaks form.",
+    "Gently fold the egg whites into the coconut mix.",
+    "Scoop 2 tablespoon mounds onto the baking sheet.",
+    "Bake for 22 to 25 minutes, until golden on the outside.",
+    "Let cool for 30 minutes, then dip the bottoms in melted chocolate if you like."
+   ]
+  },
+  {
+   "id": "meringue-cookies",
+   "name": "Meringue cookies",
+   "aliases": [
+    "meringue cookies",
+    "meringues",
+    "meringue kisses",
+    "meringue cookie",
+    "baked meringues"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "2 hr 30 min",
+   "main": [
+    "egg white",
+    "sugar",
+    "cream of tartar"
+   ],
+   "ingredients": [
+    "3 large egg whites, at room temperature",
+    "1/4 teaspoon cream of tartar",
+    "3/4 cup (150 g) sugar",
+    "1 teaspoon vanilla extract",
+    "Food coloring (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 225°F (110°C). Ask an adult to help.",
+    "Line 2 baking sheets with parchment paper.",
+    "Beat the egg whites and cream of tartar until foamy.",
+    "Add the sugar 1 tablespoon at a time while beating on high.",
+    "Beat until stiff, glossy peaks form and the sugar has dissolved. Beat in the vanilla and coloring.",
+    "Pipe or spoon small mounds onto the sheets.",
+    "Bake for 1 hour 30 minutes, until dry and they lift off the paper easily.",
+    "Turn off the oven and leave them inside for 1 hour to dry more."
+   ]
+  },
+  {
+   "id": "almond-biscotti",
+   "name": "Almond biscotti",
+   "aliases": [
+    "biscotti",
+    "almond biscotti",
+    "cantucci",
+    "italian biscotti"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "flour",
+    "sugar",
+    "egg",
+    "almonds"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "3/4 cup (150 g) sugar",
+    "1 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "3 large eggs",
+    "1 teaspoon vanilla extract",
+    "1/2 teaspoon almond extract",
+    "1 cup (140 g) whole almonds, roughly chopped"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Whisk the flour, sugar, baking powder and salt in a big bowl.",
+    "Beat the eggs and both extracts in a small bowl, then stir them into the flour mix.",
+    "Stir in the almonds. The dough will be sticky.",
+    "Shape it into 2 logs about 12 inches long and 2 inches wide on a lined baking sheet.",
+    "Bake for 25 to 30 minutes, until firm and light golden.",
+    "Let cool for 10 minutes, then cut the logs into 1/2 inch slices with a serrated knife. Ask an adult to help.",
+    "Lay the slices cut side down and bake for 10 minutes.",
+    "Flip them and bake for 10 minutes more, until dry and crisp."
+   ]
+  },
+  {
+   "id": "anzac-biscuits",
+   "name": "Anzac biscuits",
+   "aliases": [
+    "anzac biscuits",
+    "anzac cookies",
+    "anzac biscuit",
+    "oat coconut cookies"
+   ],
+   "category": "Dessert",
+   "servings": 20,
+   "time": "30 min",
+   "main": [
+    "oats",
+    "coconut",
+    "golden syrup",
+    "butter",
+    "flour"
+   ],
+   "ingredients": [
+    "1 cup (90 g) rolled oats",
+    "1 cup (125 g) all-purpose flour",
+    "3/4 cup (60 g) unsweetened shredded coconut",
+    "3/4 cup (165 g) packed brown sugar",
+    "1/2 cup (115 g) butter",
+    "2 tablespoons golden syrup or light corn syrup",
+    "1 teaspoon baking soda",
+    "2 tablespoons boiling water"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Mix the oats, flour, coconut and brown sugar in a big bowl.",
+    "Melt the butter and syrup in a small pot over low heat.",
+    "Mix the baking soda with the boiling water and stir it into the butter. It will foam. Ask an adult to help.",
+    "Pour the butter mix into the dry mix and stir well.",
+    "Roll tablespoons of dough into balls, put them on a lined baking sheet and flatten them a little.",
+    "Bake for 12 to 15 minutes, until golden.",
+    "Let cool for 10 minutes on the sheet. They crisp up as they cool."
+   ]
+  },
+  {
+   "id": "alfajores",
+   "name": "Alfajores",
+   "aliases": [
+    "alfajores",
+    "alfajor",
+    "dulce de leche cookies",
+    "dulce de leche sandwich cookies"
+   ],
+   "category": "Dessert",
+   "servings": 15,
+   "time": "1 hr 30 min",
+   "main": [
+    "cornstarch",
+    "butter",
+    "dulce de leche",
+    "flour",
+    "coconut"
+   ],
+   "ingredients": [
+    "1 1/4 cups (160 g) cornstarch",
+    "3/4 cup (95 g) all-purpose flour",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "1/3 cup (65 g) sugar",
+    "2 large egg yolks",
+    "1 teaspoon vanilla extract",
+    "1 teaspoon lemon zest",
+    "3/4 cup (230 g) dulce de leche",
+    "1/3 cup (25 g) shredded coconut for rolling"
+   ],
+   "steps": [
+    "Whisk the cornstarch, flour, baking powder and salt.",
+    "Beat the butter and sugar until creamy, then beat in the yolks, vanilla and lemon zest.",
+    "Stir in the dry mix until a soft dough forms. Wrap it and chill for 30 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Roll the dough 1/4 inch thick and cut 2 inch circles.",
+    "Bake on a lined sheet for 10 to 12 minutes. They should stay pale.",
+    "Let cool for 20 minutes. They are fragile, so handle gently.",
+    "Spread dulce de leche on half the cookies and top with the others.",
+    "Roll the edges in coconut."
+   ]
+  },
+  {
+   "id": "speculoos-cookies",
+   "name": "Speculoos spice cookies",
+   "aliases": [
+    "speculoos",
+    "speculoos cookies",
+    "speculaas",
+    "biscoff cookies",
+    "spice cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "brown sugar",
+    "butter",
+    "cinnamon",
+    "flour"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "1 tablespoon ground cinnamon",
+    "1/2 teaspoon ground ginger",
+    "1/4 teaspoon ground nutmeg",
+    "1/4 teaspoon ground cloves",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "3/4 cup (170 g) butter, softened",
+    "1 cup (220 g) packed dark brown sugar",
+    "1 large egg"
+   ],
+   "steps": [
+    "Whisk the flour, spices, baking soda and salt.",
+    "Beat the butter and brown sugar until creamy, then beat in the egg.",
+    "Stir in the flour mix. Flatten the dough into a disk, wrap it and chill for 1 hour.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Roll the dough 1/8 inch thick and cut into rectangles or shapes.",
+    "Bake on a lined sheet for 10 to 12 minutes, until browned at the edges.",
+    "Let cool on a wire rack. They get crisp as they cool."
+   ]
+  },
+  {
+   "id": "blondies",
+   "name": "Blondies",
+   "aliases": [
+    "blondies",
+    "blondie",
+    "butterscotch brownies",
+    "vanilla brownies",
+    "chocolate chip blondies"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "45 min",
+   "main": [
+    "butter",
+    "brown sugar",
+    "egg",
+    "flour",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, melted",
+    "1 cup (220 g) packed brown sugar",
+    "1 large egg",
+    "2 teaspoons vanilla extract",
+    "1 cup (125 g) all-purpose flour",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (85 g) chocolate chips or butterscotch chips"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line an 8 by 8 inch pan with parchment paper.",
+    "Stir the melted butter and brown sugar together.",
+    "Stir in the egg and vanilla.",
+    "Stir in the flour, baking powder and salt, then the chips.",
+    "Spread the batter in the pan.",
+    "Bake for 22 to 25 minutes, until golden and just set in the middle.",
+    "Let cool for 30 minutes, then cut into squares."
+   ]
+  },
+  {
+   "id": "lemon-bars",
+   "name": "Lemon bars",
+   "aliases": [
+    "lemon bars",
+    "lemon squares",
+    "lemon bar",
+    "lemon slice"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "2 hr 30 min",
+   "main": [
+    "lemon",
+    "butter",
+    "flour",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "Crust: 1/2 cup (115 g) butter, softened, 1/4 cup (30 g) powdered sugar, 1 cup (125 g) all-purpose flour, pinch of salt",
+    "1 cup (200 g) sugar",
+    "2 tablespoons all-purpose flour",
+    "2 large eggs",
+    "1/3 cup (80 ml) lemon juice",
+    "1 teaspoon lemon zest",
+    "Powdered sugar for dusting"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line an 8 by 8 inch pan with parchment paper.",
+    "Mix the crust ingredients until crumbly and press into the pan.",
+    "Bake for 15 to 18 minutes, until light golden.",
+    "Whisk the sugar, flour, eggs, lemon juice and zest until smooth.",
+    "Pour the lemon mix over the hot crust.",
+    "Bake for 18 to 20 minutes, until the filling no longer jiggles.",
+    "Let cool for 30 minutes, then chill for 1 hour.",
+    "Dust with powdered sugar and cut into squares."
+   ]
+  },
+  {
+   "id": "magic-cookie-bars",
+   "name": "Magic cookie bars",
+   "aliases": [
+    "magic cookie bars",
+    "seven layer bars",
+    "7 layer bars",
+    "hello dollies",
+    "magic bars"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "45 min",
+   "main": [
+    "graham crackers",
+    "sweetened condensed milk",
+    "chocolate chips",
+    "coconut"
+   ],
+   "ingredients": [
+    "1 1/2 cups (150 g) graham cracker crumbs",
+    "1/2 cup (115 g) butter, melted",
+    "1 can (14 oz / 397 g) sweetened condensed milk",
+    "1 cup (170 g) chocolate chips",
+    "1 cup (170 g) butterscotch chips",
+    "1 1/3 cups (100 g) sweetened shredded coconut",
+    "1 cup (115 g) chopped walnuts or pecans"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Mix the crumbs and melted butter and press into a 9 by 13 inch pan.",
+    "Pour the condensed milk evenly over the crust.",
+    "Sprinkle on the chocolate chips, butterscotch chips, coconut and nuts.",
+    "Press everything down gently with a fork.",
+    "Bake for 25 minutes, until golden on top.",
+    "Let cool completely before cutting into bars."
+   ]
+  },
+  {
+   "id": "no-bake-peanut-butter-bars",
+   "name": "No-bake peanut butter bars",
+   "aliases": [
+    "no bake peanut butter bars",
+    "peanut butter bars",
+    "chocolate peanut butter bars",
+    "peanut butter squares"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 20 min",
+   "main": [
+    "peanut butter",
+    "butter",
+    "graham crackers",
+    "powdered sugar",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, melted",
+    "2 cups (200 g) graham cracker crumbs",
+    "2 cups (240 g) powdered sugar",
+    "1 cup (260 g) peanut butter, plus 4 tablespoons for the topping",
+    "1 1/2 cups (255 g) chocolate chips"
+   ],
+   "steps": [
+    "Line a 9 by 13 inch pan with parchment paper.",
+    "Mix the melted butter, crumbs, powdered sugar and 1 cup peanut butter.",
+    "Press the mix evenly into the pan.",
+    "Microwave the chocolate chips and 4 tablespoons peanut butter for 30 seconds at a time, stirring, until smooth.",
+    "Spread the chocolate over the peanut butter layer.",
+    "Chill for 1 hour, until firm.",
+    "Let sit for 10 minutes, then cut into bars."
+   ]
+  },
+  {
+   "id": "millionaire-shortbread",
+   "name": "Millionaire shortbread",
+   "aliases": [
+    "millionaire shortbread",
+    "caramel shortbread",
+    "caramel slice",
+    "millionaire bars",
+    "caramel bars"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "3 hr",
+   "main": [
+    "butter",
+    "flour",
+    "sweetened condensed milk",
+    "chocolate",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "Base: 1 cup (125 g) all-purpose flour, 1/4 cup (50 g) sugar, 1/2 cup (115 g) butter, softened",
+    "Caramel: 1/2 cup (115 g) butter, 1/2 cup (110 g) packed brown sugar, 1 can (14 oz / 397 g) sweetened condensed milk",
+    "Topping: 7 oz (200 g) milk chocolate, chopped"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line an 8 by 8 inch pan with parchment paper.",
+    "Rub the base ingredients together, press into the pan and prick with a fork.",
+    "Bake for 20 to 25 minutes, until light golden. Let cool.",
+    "Put the caramel ingredients in a pot over medium heat. Ask an adult to help, hot caramel burns.",
+    "Stir all the time for 8 to 10 minutes, until thick and golden.",
+    "Pour the caramel over the base and chill for 1 hour.",
+    "Melt the chocolate in the microwave for 30 seconds at a time, stirring each time, and spread it over the caramel.",
+    "Chill for 1 hour, then cut into squares with a hot knife."
+   ]
+  },
+  {
+   "id": "nanaimo-bars",
+   "name": "Nanaimo bars",
+   "aliases": [
+    "nanaimo bars",
+    "nanaimo bar",
+    "nanaimo squares",
+    "canadian bars"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "2 hr 30 min",
+   "main": [
+    "graham crackers",
+    "coconut",
+    "cocoa",
+    "custard powder",
+    "chocolate"
+   ],
+   "ingredients": [
+    "Base: 1/2 cup (115 g) butter, 1/4 cup (50 g) sugar, 5 tablespoons cocoa powder, 1 egg, beaten",
+    "1 1/2 cups (150 g) graham cracker crumbs",
+    "1 cup (75 g) shredded coconut",
+    "1/2 cup (55 g) finely chopped walnuts",
+    "Middle: 1/2 cup (115 g) butter, softened, 3 tablespoons milk, 2 tablespoons custard powder, 2 cups (240 g) powdered sugar",
+    "Top: 4 oz (115 g) semisweet chocolate and 2 tablespoons butter"
+   ],
+   "steps": [
+    "Put the base butter, sugar and cocoa in a heatproof bowl over a pot of simmering water. Ask an adult to help.",
+    "Stir until melted, then whisk in the egg and cook for 2 to 3 minutes, stirring, until thick.",
+    "Stir in the crumbs, coconut and walnuts, and press into a lined 8 by 8 inch pan. Chill for 30 minutes.",
+    "Beat the middle layer ingredients until smooth and spread over the base. Chill for 30 minutes.",
+    "Melt the chocolate and butter together and spread over the top.",
+    "Chill for 1 hour, then cut with a hot knife."
+   ]
+  },
+  {
+   "id": "oatmeal-jam-bars",
+   "name": "Oatmeal jam bars",
+   "aliases": [
+    "oatmeal jam bars",
+    "jam bars",
+    "raspberry oat bars",
+    "crumble bars",
+    "jam crumble bars"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr",
+   "main": [
+    "oats",
+    "flour",
+    "butter",
+    "brown sugar",
+    "jam"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 cups (135 g) rolled oats",
+    "3/4 cup (165 g) packed brown sugar",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "3/4 cup (170 g) butter, melted",
+    "1 cup (320 g) raspberry or strawberry jam"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line an 8 by 8 inch pan with parchment paper.",
+    "Mix the flour, oats, brown sugar, baking soda and salt, then stir in the melted butter.",
+    "Press 2/3 of the mix into the pan.",
+    "Spread the jam over it, leaving a small border.",
+    "Sprinkle the rest of the crumbs on top.",
+    "Bake for 30 to 35 minutes, until golden.",
+    "Let cool completely before cutting."
+   ]
+  },
+  {
+   "id": "smores-bars",
+   "name": "S'mores bars",
+   "aliases": [
+    "smores bars",
+    "smore bars",
+    "smores cookie bars",
+    "campfire bars"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr",
+   "main": [
+    "graham crackers",
+    "chocolate",
+    "marshmallow creme",
+    "butter",
+    "flour"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "1/4 cup (50 g) sugar",
+    "1/2 cup (110 g) packed brown sugar",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "1 1/3 cups (170 g) all-purpose flour",
+    "3/4 cup (75 g) graham cracker crumbs",
+    "1 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "3 milk chocolate bars (1.55 oz / 44 g each)",
+    "1 jar (7 oz / 200 g) marshmallow creme"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter, sugar and brown sugar, then beat in the egg and vanilla.",
+    "Stir in the flour, crumbs, baking powder and salt.",
+    "Press half the dough into a lined 8 by 8 inch pan.",
+    "Lay the chocolate bars on top, then spread on the marshmallow creme.",
+    "Flatten small pieces of the rest of the dough and lay them over the marshmallow.",
+    "Bake for 30 to 35 minutes, until golden.",
+    "Let cool completely before cutting."
+   ]
+  },
+  {
+   "id": "cream-cheese-brownies",
+   "name": "Cream cheese brownies",
+   "aliases": [
+    "cream cheese brownies",
+    "cheesecake brownies",
+    "swirl brownies",
+    "cream cheese swirl brownies"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "1 hr 10 min",
+   "main": [
+    "chocolate",
+    "butter",
+    "cream cheese",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter",
+    "4 oz (115 g) semisweet chocolate, chopped",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "2/3 cup (85 g) all-purpose flour",
+    "1/4 teaspoon salt",
+    "Swirl: 8 oz (225 g) cream cheese, softened, 1/4 cup (50 g) sugar, 1 egg yolk, 1/2 teaspoon vanilla"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line an 8 by 8 inch pan with parchment paper.",
+    "Microwave the butter and chocolate for 30 seconds at a time, stirring, until smooth.",
+    "Stir in the sugar, then the eggs and vanilla, then the flour and salt.",
+    "Beat the swirl ingredients until smooth.",
+    "Spread most of the brownie batter in the pan, drop spoonfuls of the swirl on top, then the rest of the batter.",
+    "Drag a knife through to make swirls.",
+    "Bake for 30 to 35 minutes, until the swirl is set.",
+    "Let cool for 1 hour, then chill before cutting."
+   ]
+  },
+  {
+   "id": "edible-cookie-dough",
+   "name": "Edible cookie dough",
+   "aliases": [
+    "edible cookie dough",
+    "safe cookie dough",
+    "cookie dough",
+    "eggless cookie dough",
+    "cookie dough bites"
+   ],
+   "category": "Dessert",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "flour",
+    "butter",
+    "brown sugar",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "1 cup (125 g) all-purpose flour",
+    "1/2 cup (115 g) butter, softened",
+    "1/2 cup (110 g) packed brown sugar",
+    "2 tablespoons milk",
+    "1 teaspoon vanilla extract",
+    "1/4 teaspoon salt",
+    "1/2 cup (85 g) mini chocolate chips"
+   ],
+   "steps": [
+    "Raw flour can carry germs, so heat it first. Microwave the flour in a bowl for 30 seconds at a time, stirring, until it reaches 165°F (74°C) on a thermometer, about 90 seconds total.",
+    "Let the flour cool for 10 minutes.",
+    "Beat the butter and brown sugar until creamy.",
+    "Stir in the milk, vanilla and salt.",
+    "Stir in the flour, then the chocolate chips.",
+    "Eat with a spoon, or roll into balls and chill for 30 minutes. There is no egg, so it is safe to eat."
+   ]
+  },
+  {
+   "id": "pumpkin-bars",
+   "name": "Pumpkin bars",
+   "aliases": [
+    "pumpkin bars",
+    "pumpkin bar",
+    "pumpkin sheet cake",
+    "pumpkin squares"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "pumpkin",
+    "flour",
+    "sugar",
+    "egg",
+    "cream cheese"
+   ],
+   "ingredients": [
+    "4 large eggs",
+    "1 2/3 cups (330 g) sugar",
+    "1 cup (240 ml) vegetable oil",
+    "1 can (15 oz / 425 g) pumpkin puree",
+    "2 cups (250 g) all-purpose flour",
+    "2 teaspoons baking powder",
+    "1 teaspoon baking soda",
+    "2 teaspoons ground cinnamon",
+    "1/2 teaspoon salt",
+    "Frosting: 8 oz (225 g) cream cheese, 1/2 cup (115 g) butter, 2 cups (240 g) powdered sugar, 1 teaspoon vanilla"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 10 by 15 inch rimmed pan.",
+    "Beat the eggs, sugar, oil and pumpkin.",
+    "Stir in the flour, baking powder, baking soda, cinnamon and salt.",
+    "Spread in the pan.",
+    "Bake for 25 to 30 minutes, until a toothpick comes out clean.",
+    "Let cool for 1 hour.",
+    "Beat the frosting ingredients until smooth, spread over the cake and cut into bars."
+   ]
+  },
+  {
+   "id": "skillet-cookie",
+   "name": "Skillet chocolate chip cookie",
+   "aliases": [
+    "skillet cookie",
+    "pizookie",
+    "giant cookie",
+    "cast iron cookie",
+    "skillet chocolate chip cookie"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "butter",
+    "brown sugar",
+    "flour",
+    "egg",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, melted",
+    "1/2 cup (110 g) packed brown sugar",
+    "1/4 cup (50 g) sugar",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "1 1/4 cups (160 g) all-purpose flour",
+    "1/2 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "1 cup (170 g) chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 10 inch oven-safe skillet.",
+    "Stir the melted butter, brown sugar and sugar, then stir in the egg and vanilla.",
+    "Stir in the flour, baking soda and salt, then the chocolate chips.",
+    "Press the dough evenly into the skillet.",
+    "Bake for 20 to 25 minutes, until golden at the edges and soft in the middle.",
+    "Let cool for 10 minutes. The skillet stays very hot, so use oven mitts. Serve with ice cream."
+   ]
+  },
+  {
+   "id": "chocolate-sandwich-cookies",
+   "name": "Chocolate sandwich cookies",
+   "aliases": [
+    "chocolate sandwich cookies",
+    "homemade oreos",
+    "cream filled cookies",
+    "sandwich cookies"
+   ],
+   "category": "Dessert",
+   "servings": 20,
+   "time": "1 hr 15 min",
+   "main": [
+    "cocoa",
+    "flour",
+    "butter",
+    "sugar",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1 1/4 cups (160 g) all-purpose flour",
+    "1/2 cup (45 g) unsweetened cocoa powder",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "1 large egg",
+    "Filling: 1/4 cup (55 g) butter, 1/4 cup (50 g) shortening, 2 cups (240 g) powdered sugar, 2 teaspoons vanilla"
+   ],
+   "steps": [
+    "Whisk the flour, cocoa, baking soda and salt.",
+    "Beat the butter and sugar, then beat in the egg. Stir in the dry mix.",
+    "Wrap the dough and chill for 30 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Roll the dough 1/8 inch thick and cut 2 inch circles.",
+    "Bake on a lined sheet for 8 to 10 minutes.",
+    "Let cool completely.",
+    "Beat the filling ingredients until smooth.",
+    "Spread filling on half the cookies and press the others on top."
+   ]
+  },
+  {
+   "id": "pecan-sandies",
+   "name": "Pecan sandies",
+   "aliases": [
+    "pecan sandies",
+    "pecan shortbread cookies",
+    "pecan cookies",
+    "sandies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "butter",
+    "pecans",
+    "flour",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1/2 cup (60 g) powdered sugar",
+    "1/4 cup (55 g) packed brown sugar",
+    "1 teaspoon vanilla extract",
+    "2 cups (250 g) all-purpose flour",
+    "1/4 teaspoon salt",
+    "1 cup (115 g) pecans, finely chopped"
+   ],
+   "steps": [
+    "Beat the butter, powdered sugar, brown sugar and vanilla until creamy.",
+    "Stir in the flour, salt and pecans.",
+    "Shape the dough into a 2 inch wide log, wrap it and chill for 1 hour.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Slice the log into 1/4 inch rounds and put them on a baking sheet.",
+    "Bake for 12 to 15 minutes, until golden at the edges.",
+    "Let cool on a wire rack."
+   ]
+  },
+  {
+   "id": "brownie-cookies",
+   "name": "Brownie cookies",
+   "aliases": [
+    "brownie cookies",
+    "brownie cookie",
+    "fudgy chocolate cookies",
+    "crackle top cookies"
+   ],
+   "category": "Dessert",
+   "servings": 20,
+   "time": "40 min",
+   "main": [
+    "chocolate",
+    "sugar",
+    "egg",
+    "butter",
+    "flour"
+   ],
+   "ingredients": [
+    "8 oz (225 g) semisweet chocolate, chopped",
+    "1/4 cup (55 g) butter",
+    "2 large eggs",
+    "3/4 cup (150 g) sugar",
+    "1 teaspoon vanilla extract",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 tablespoons cocoa powder",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "1 cup (170 g) chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Microwave the chocolate and butter for 30 seconds at a time, stirring, until smooth. Let cool for 5 minutes.",
+    "Beat the eggs and sugar for 3 minutes, until pale and thick.",
+    "Beat in the chocolate and vanilla.",
+    "Stir in the flour, cocoa, baking powder and salt, then the chips.",
+    "Let the batter rest for 10 minutes so it thickens.",
+    "Scoop 2 tablespoon mounds onto a lined sheet, 2 inches apart.",
+    "Bake for 10 to 12 minutes, until shiny and cracked on top.",
+    "Let cool for 10 minutes on the sheet."
+   ]
+  },
+  {
+   "id": "black-and-white-cookies",
+   "name": "Black and white cookies",
+   "aliases": [
+    "black and white cookies",
+    "black and white cookie",
+    "half moon cookies",
+    "new york black and white cookies"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "buttermilk",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "1/2 teaspoon lemon zest",
+    "1 3/4 cups (220 g) all-purpose flour",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1/2 cup (120 ml) buttermilk",
+    "Icing: 3 cups (360 g) powdered sugar, 3 to 4 tablespoons milk, 1 tablespoon light corn syrup, 3 tablespoons cocoa powder"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Beat the butter and sugar, then beat in the egg, vanilla and lemon zest.",
+    "Stir in half the flour, baking soda and salt, then the buttermilk, then the rest of the flour.",
+    "Scoop 1/4 cup mounds onto lined sheets, 3 inches apart.",
+    "Bake for 13 to 15 minutes, until the edges are golden. Let cool completely.",
+    "Mix the powdered sugar, milk and corn syrup into a thick, smooth icing.",
+    "Spread white icing over the flat bottom side of half of each cookie.",
+    "Stir the cocoa into the rest of the icing, adding a little milk, and spread it on the other halves.",
+    "Let set for 30 minutes."
+   ]
+  },
+  {
+   "id": "chinese-almond-cookies",
+   "name": "Chinese almond cookies",
+   "aliases": [
+    "chinese almond cookies",
+    "almond cookies",
+    "almond cookie",
+    "lunar new year cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "35 min",
+   "main": [
+    "flour",
+    "almond flour",
+    "butter",
+    "sugar",
+    "almonds"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1/2 cup (50 g) almond flour",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "3/4 cup (170 g) butter, softened",
+    "2/3 cup (135 g) sugar",
+    "1 large egg, plus 1 yolk for brushing",
+    "1 1/2 teaspoons almond extract",
+    "24 whole almonds"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Whisk the flour, almond flour, baking soda and salt.",
+    "Beat the butter and sugar, then beat in the egg and almond extract.",
+    "Stir in the dry mix.",
+    "Roll 1 inch balls, put them on a lined sheet and flatten each one a little.",
+    "Press an almond into each and brush with the beaten yolk.",
+    "Bake for 13 to 15 minutes, until golden.",
+    "Let cool on a wire rack."
+   ]
+  },
+  {
+   "id": "chocolate-cutout-cookies",
+   "name": "Chocolate cutout cookies",
+   "aliases": [
+    "chocolate cutout cookies",
+    "chocolate rolled cookies",
+    "chocolate sugar cookies",
+    "cocoa cutout cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "cocoa",
+    "flour",
+    "butter",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "2 1/2 cups (315 g) all-purpose flour",
+    "3/4 cup (65 g) unsweetened cocoa powder",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "1 cup (225 g) butter, softened",
+    "1 1/4 cups (250 g) sugar",
+    "1 large egg",
+    "2 teaspoons vanilla extract"
+   ],
+   "steps": [
+    "Whisk the flour, cocoa, baking powder and salt.",
+    "Beat the butter and sugar, then beat in the egg and vanilla.",
+    "Stir in the flour mix, split into 2 disks, wrap and chill for 1 hour.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Roll 1/4 inch thick on a lightly floured counter and cut shapes.",
+    "Bake on a lined sheet for 8 to 10 minutes, until the tops look dry.",
+    "Let cool for 5 minutes on the sheet, then decorate once cool."
+   ]
+  },
+  {
+   "id": "sugar-cookie-bars",
+   "name": "Frosted sugar cookie bars",
+   "aliases": [
+    "sugar cookie bars",
+    "frosted sugar cookie bars",
+    "sugar cookie bar",
+    "pink sugar cookie bars"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "1 hr 30 min",
+   "main": [
+    "butter",
+    "sugar",
+    "flour",
+    "egg",
+    "sour cream"
+   ],
+   "ingredients": [
+    "1 cup (225 g) butter, softened",
+    "1 1/2 cups (300 g) sugar",
+    "2 large eggs",
+    "1/2 cup (120 g) sour cream",
+    "2 teaspoons vanilla extract",
+    "3 cups (375 g) all-purpose flour",
+    "1 teaspoon baking powder",
+    "1/2 teaspoon salt",
+    "Frosting: 1/2 cup (115 g) butter, 3 cups (360 g) powdered sugar, 3 tablespoons milk, 1 teaspoon vanilla, food coloring",
+    "Sprinkles"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Grease a 10 by 15 inch rimmed pan.",
+    "Beat the butter and sugar, then beat in the eggs, sour cream and vanilla.",
+    "Stir in the flour, baking powder and salt.",
+    "Spread the dough evenly in the pan.",
+    "Bake for 15 to 20 minutes, until the edges are just golden.",
+    "Let cool for 1 hour.",
+    "Beat the frosting ingredients, spread on top and add sprinkles. Cut into bars."
+   ]
+  },
+  {
+   "id": "lace-cookies",
+   "name": "Florentine lace cookies",
+   "aliases": [
+    "lace cookies",
+    "florentines",
+    "oatmeal lace cookies",
+    "florentine cookies"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "35 min",
+   "main": [
+    "butter",
+    "brown sugar",
+    "oats",
+    "chocolate"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter",
+    "1/2 cup (110 g) packed brown sugar",
+    "2 tablespoons light corn syrup",
+    "2 tablespoons heavy cream",
+    "1/4 cup (30 g) all-purpose flour",
+    "1 cup (90 g) quick oats",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "3 oz (85 g) chocolate, melted, for drizzling"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Melt the butter, brown sugar, corn syrup and cream in a pot over medium heat, stirring, until it just boils. Ask an adult to help.",
+    "Take it off the heat and stir in the flour, oats, vanilla and salt.",
+    "Drop level teaspoons onto parchment-lined sheets, 3 inches apart. They spread a lot.",
+    "Bake for 8 to 10 minutes, until bubbly and golden brown.",
+    "Let cool for 5 minutes on the sheet, until firm enough to move.",
+    "Drizzle with melted chocolate."
+   ]
+  }
+ ]
+}

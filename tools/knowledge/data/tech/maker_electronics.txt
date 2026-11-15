@@ -1,0 +1,24 @@
+# tag: tech.maker.electronics
+which arduino should i start with | best beginner arduino => The Arduino Uno is the classic beginner board with lots of tutorials. The Nano is smaller for projects, and the Uno R4 is a newer, faster version.
+what is gpio | gpio pins meaning => GPIO (general purpose input/output) pins on a board can read signals, like a button, or send them, like lighting an LED.
+what is a servo motor | how do servos work => A servo is a motor with built-in position control. You send a PWM signal and it turns to an angle, usually 0 to 180 degrees. Great for robot arms and steering.
+what is a dc motor driver | l298n or tb6612 => A motor driver lets a microcontroller control motors that need more current than its pins can give, including direction and speed. The TB6612FNG is more efficient than the old L298N.
+why can't i power motors from arduino pins | arduino servo resets => Motors draw much more current than board pins or the USB port can safely give, causing resets or damage. Power them from a separate battery or supply and connect the grounds together.
+what is 3.3v vs 5v logic | will 5v damage my esp32 => Boards run at different logic voltages. The ESP32 and Raspberry Pi use 3.3 V and can be damaged by 5 V signals. Use a level shifter or voltage divider between them.
+what is an ultrasonic sensor | hc sr04 => The HC-SR04 ultrasonic sensor sends a sound pulse and times the echo to measure distance, from about 2 cm to a few meters. It's common for robot obstacle avoidance.
+what is a lidar sensor for robots | robot lidar => A spinning LiDAR sensor measures distances all around the robot with a laser, building a 2D map so it can navigate and avoid obstacles.
+multimeter probes com port | check voltage with a multimeter => A multimeter measures voltage, current and resistance. Set the dial to the right mode and range, put the black probe on COM, and touch the probes across the part you're checking.
+how do i solder safely | soldering tips for beginners => Use a stand for the iron, work with good airflow, wear safety glasses, and wash your hands after. Heat the joint, then feed solder into it, not onto the iron. Have an adult nearby when learning.
+what temperature for soldering | soldering iron temp => Around 330 to 370 C works for most leaded or lead-free solder on small electronics. Higher temps can damage parts and pads.
+what is flux | why use flux when soldering => Flux cleans metal as it heats so solder flows and sticks properly. Most solder wire has flux inside; extra flux helps tricky joints.
+how do i design my own pcb | kicad pcb ordering => A PCB is a board with copper paths that connect components neatly and permanently. Hobbyists design them in free tools like KiCad and order them online.
+what battery should i use for a robot | robot power options => Small robots often use AA packs or 18650 Li-ion cells with a protection board. LiPos give lots of power but need careful charging. Always match voltage to your parts.
+why did my board get hot | wiring shorted arduino => A short is when power flows straight to ground without going through a part, causing heat, smoke or damage. Unplug immediately and check your wiring.
+what is a pull up resistor | button reads random values => A pull-up resistor holds a pin at a steady HIGH when a button isn't pressed, so it doesn't float randomly. Arduino has INPUT_PULLUP built in.
+what is a potentiometer used for in projects | knob input arduino => A potentiometer is a knob that changes resistance. Wired as a voltage divider, an analog pin reads its position, handy for speed or volume controls.
+what is a capacitor for | why put capacitor near motor => Capacitors store and release charge quickly, smoothing voltage dips. A capacitor across the power near servos or motors helps stop resets.
+what is a robot chassis | robot car kit => A chassis is the robot's body that holds motors, wheels, battery and boards. Kits are a great start, and you can 3D print your own later.
+what is pid control | pid robot => PID control adjusts output based on error now (P), past error (I) and how fast it's changing (D). It's used to balance robots, follow lines and hold motor speeds.
+what is ros | robot operating system => ROS (Robot Operating System) is a set of open source tools and libraries for building robot software, used on Linux computers like a Raspberry Pi or Jetson.
+what is a nvidia jetson | jetson for robots => NVIDIA Jetson boards are small computers with GPUs for running AI vision on robots and drones, like detecting objects from a camera in real time.
+what is an encoder on a motor | wheel encoder => An encoder counts how far a motor has turned, so a robot knows how far each wheel moved and can drive straight or measure distance.

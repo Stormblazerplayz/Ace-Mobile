@@ -1,0 +1,55 @@
+# tag: body.skin
+what does skin do | why do we have skin | what is the job of skin => Skin protects you from germs, sun and injury, keeps water in, helps control your temperature with sweat, and lets you feel touch, heat and pain.
+how many layers of skin are there | what are the layers of skin => Skin has three main layers: the epidermis on top, the dermis in the middle with nerves, blood vessels and sweat glands, and a fatty layer underneath.
+how often does your skin replace itself | do we shed skin => You shed tens of thousands of dead skin cells every minute. Your outer skin replaces itself about every month or so, and a lot of household dust is old skin.
+how much does skin weigh | how big is your skin => An adult's skin weighs around 3 to 4 kg and would cover about 2 square metres if laid flat.
+what gives skin its color | why do people have different skin colors => Skin color comes mostly from melanin, a pigment made by skin cells. People whose ancestors lived in sunnier places tend to have more melanin, which protects against UV rays.
+why do we get a tan | what is a suntan => Tanning is your skin making extra melanin to protect itself after sun damage. A tan is a sign of damage, not health.
+what is sunburn | why does sunburn hurt => Sunburn is skin damage from the sun's ultraviolet rays. The skin gets red, hot and sore, and bad burns blister. Sunburns as a kid raise the risk of skin cancer later.
+what spf sunscreen should i use | how often should you put on sunscreen => Use a broad-spectrum sunscreen of at least SPF 30. Put it on 15 minutes before going out and again every 2 hours, and after swimming or sweating.
+what are freckles | why do people get freckles => Freckles are small spots with extra melanin. They come out more with sun exposure and are more common in people with light skin and red hair.
+what are moles | when should you worry about a mole => Moles are clusters of pigment cells. Most are harmless, but tell an adult and see a doctor if one changes shape, size or color, bleeds or looks uneven.
+why do we get wrinkly fingers in water | why do fingers prune in the bath => Fingers wrinkle in water because nerves tell blood vessels to shrink. Scientists think the wrinkles may help grip wet things, like tire treads.
+why do cuts itch when healing | why do scabs itch => As a cut heals, new skin forms and nerves send itchy signals. Try not to scratch or pick the scab, which can slow healing and cause scars.
+what is a scar | why do scars form => A scar is made of thick collagen your body lays down to repair a deep wound. It looks different from normal skin and often fades over time.
+what are pimples | why do we get acne | what causes zits => Pimples happen when pores get clogged with oil and dead skin, and bacteria grow there. They're very common during puberty because hormones make skin oilier.
+is it bad to pop pimples | should i pop my zits | what happens if you pop a pimple => Yes. Popping pimples can push germs deeper, cause infections and leave scars. It's better to leave them or ask a doctor about treatments.
+why do we get warts | are warts contagious => Warts are caused by a virus that infects the top layer of skin. They can spread by touch, so don't pick them. Many go away on their own, and pharmacies sell treatments.
+what are blisters | why do blisters fill with water => A blister is a bubble of fluid that protects damaged skin underneath, often from rubbing or burns. Don't pop it. Cover it with a bandage and let it heal.
+what is eczema | why is my skin so itchy and red => Eczema is a common condition that makes skin dry, red and very itchy. Moisturizing a lot, short lukewarm showers and doctor-prescribed creams help.
+why does skin get dry in winter | how do i stop dry skin in winter => Cold outside air and dry indoor heating pull moisture from your skin. Moisturizing lotion, shorter warm showers and drinking water help.
+what is body odor | why do armpits smell => Sweat itself has almost no smell. Body odor happens when bacteria on your skin break down sweat, especially in armpits. It often starts at puberty.
+how many sweat glands do we have | where do we sweat the most => You have about 2 to 4 million sweat glands. Your palms and the soles of your feet have the most per square centimetre.
+what is a callus | why do you get calluses => A callus is thick, hard skin that forms where something rubs a lot, like from guitar strings or tight shoes. It protects the skin underneath.
+
+# tag: body.hair-nails
+why do we have hair | what is hair for => Hair keeps your head warm, protects it from sun, and eyebrows and eyelashes keep sweat and dust out of your eyes. Hair also helps you feel things touching your skin.
+what is hair made of | what are nails made of => Hair and nails are both made of keratin, a tough protein. The part you can see is dead, which is why cutting it doesn't hurt.
+how many hairs are on your head | how many hairs does a person have => Most people have about 100,000 hairs on their head. Redheads usually have fewer and blondes more.
+how many hairs do you lose a day | is it normal to lose hair => It's normal to lose about 50 to 100 hairs a day. New ones grow to replace them.
+why does hair turn gray | why do old people have gray hair => Hair turns gray when the cells that make pigment slow down and stop with age. Genes mostly decide when it starts.
+what makes hair curly or straight | why is my hair curly => The shape of each hair follicle decides it. Round follicles make straight hair, and oval or flat follicles make wavy or curly hair. Your genes decide follicle shape.
+why do some people have red hair | how rare is red hair => Red hair comes from a different form of a gene called MC1R. Only about 1 to 2 percent of people worldwide have natural red hair.
+why do men go bald | what causes baldness => Most baldness is inherited and caused by hormones that make hair follicles shrink over time. It's much more common in men, but women can lose hair too.
+why do fingernails grow faster than toenails | how fast do toenails grow => Fingernails grow about 3 mm a month, two to three times faster than toenails, possibly because hands get more blood flow and use.
+what are the white spots on my nails | why do i have white marks on my fingernails => Small white spots on nails are usually from tiny bumps to the nail as it grew. They're harmless and grow out over time.
+why do we have eyebrows | what are eyebrows for => Eyebrows keep sweat and rain from running into your eyes and help show expressions like surprise and anger.
+why do we have armpit hair | why does body hair grow at puberty => Body hair in places like armpits grows during puberty because of hormones. It may reduce friction and help spread natural scents.
+does shaving make hair grow back thicker | is it true shaved hair grows back darker => No. Shaved hair can feel coarse because it's cut straight across, but shaving doesn't change how thick, dark or fast it grows.
+what is dandruff | why do i have flakes in my hair => Dandruff is flaky skin on your scalp, often caused by a yeast that lives on everyone's skin. Dandruff shampoos usually help.
+
+# tag: body.teeth
+what are teeth made of | what is tooth enamel => The outer layer of your teeth, enamel, is the hardest substance in your body. Under it is dentin, and in the center is the pulp with nerves and blood vessels.
+what are the types of teeth | what are incisors canines and molars => Incisors are flat front teeth for biting, canines are pointy for tearing, premolars help crush, and molars at the back grind food.
+when do kids lose their baby teeth | when do baby teeth fall out => Kids usually start losing baby teeth around age 6, starting with the front teeth, and finish by about age 12.
+what makes baby teeth come out | how do baby teeth get loose | do adult teeth push out baby teeth => As adult teeth grow underneath, they press on the roots of baby teeth, which dissolve. The baby tooth loosens and falls out to make room.
+what are wisdom teeth | why do we have wisdom teeth => Wisdom teeth are the last molars at the very back, usually coming in between ages 17 and 25. Our ancestors had bigger jaws for them, but many people now need them removed.
+what is a cavity | how do you get cavities => A cavity is a hole in a tooth. Bacteria in plaque eat sugar and make acid that dissolves enamel, so brushing, flossing and less sugary snacking help prevent them.
+what is plaque | what is tartar => Plaque is a sticky film of bacteria that forms on teeth every day. If it's not brushed away, it hardens into tartar, which only a dentist can remove.
+what is fluoride | why is fluoride in toothpaste => Fluoride is a mineral that makes enamel stronger and helps repair early tooth damage. That's why it's in toothpaste and many water supplies.
+how often should you go to the dentist | how many times a year should i see a dentist => Most kids should see a dentist about every 6 months for a checkup and cleaning.
+why do we need braces | how do braces work => Braces gently push teeth into straighter positions over months or years using wires and brackets or clear aligners. Straight teeth are easier to clean and help your bite.
+can teeth heal themselves | do cavities go away => Enamel can't grow back, so a cavity won't heal by itself. Very early weak spots can be strengthened with fluoride, but real cavities need a filling.
+are sports drinks bad for your teeth | does soda ruin teeth => Soda, sports drinks and juice have sugar and acid that can wear down enamel. Drinking water is best, and if you have them, drink with meals rather than sipping all day.
+why are my teeth sensitive to cold | why does ice cream hurt my teeth => Sensitive teeth often happen when enamel wears thin or gums pull back, exposing the dentin, which has tiny tubes leading to nerves. A dentist can help.
+how many teeth does a person have in total | how many teeth do you get in your life => Over a lifetime you get 20 baby teeth and up to 32 adult teeth, 52 in total.

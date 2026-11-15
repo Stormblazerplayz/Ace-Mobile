@@ -1,0 +1,21 @@
+# tag: tech.apps.discord
+what is the discord soundboard | play sounds in discord voice => The soundboard lets you play short sound clips in a voice channel. Click the soundboard button while in voice, and servers can upload their own sounds.
+how do i add custom emojis to my discord server | upload emoji discord => Open Server Settings > Emoji and click Upload Emoji. You need the right permission, and servers have a limited number of slots that grow with boosts.
+what is a discord server boost | discord boost levels => Boosting is when Nitro members support a server. Enough boosts unlock perks like more emoji slots, better stream quality and bigger uploads for everyone.
+how do i leave a discord server | quit a server discord => Right-click the server icon, or tap its name on mobile, and choose Leave Server.
+how do i reply to a specific message in discord | discord reply button => Hover over the message and click Reply, or swipe on mobile. Your reply shows a link back to the original message.
+how do i search messages in discord | find old discord message => Use the search box at the top right. Filters like from:, in: and has:image narrow it down.
+what is streamer mode on discord | hide my info while streaming => Streamer Mode hides personal info like your email, connected accounts and invite links while you stream. Turn it on in User Settings > Streamer Mode.
+how do i hide what game i'm playing on discord | turn off activity status => Go to User Settings > Activity Privacy and turn off sharing your detected activities.
+how do i make an event in discord | discord scheduled event => Click the server name and choose Create Event. Pick a voice channel or location, a time and a description, and members can mark themselves interested.
+how do i make a poll in discord | discord poll => Click the plus button next to the message box and choose Create Poll. Add a question, answers and how long it runs.
+how do i make server folders in discord | group discord servers => Drag one server icon on top of another to make a folder. You can name and color the folder by right-clicking it.
+how do i limit how many people join a voice channel | discord user limit => Edit the voice channel and set a User Limit. Members with the right permissions can still join when it's full.
+how do i change voice channel region in discord | discord voice lag => Edit the voice channel and set Region Override to a server close to everyone. Automatic usually picks well.
+how do i turn on two factor on discord | discord 2fa => Go to User Settings > My Account and enable an authenticator app. Save the backup codes somewhere safe in case you lose your phone.
+how do i change discord to light mode | discord theme => Go to User Settings > Appearance and pick a theme. You can also change the message display and text size there.
+how do i stop gifs playing automatically in discord | discord reduced motion => Go to User Settings > Accessibility and turn off automatic GIF playing, or turn on Reduced Motion.
+what are discord activities | play games in discord voice => Activities are mini games and watch-together apps you can start in a voice call. Click the rocket button in a voice channel.
+can i use discord on ps5 or xbox | discord voice on console => Yes, you can join Discord voice chats on PlayStation and Xbox after linking your Discord account in the console settings or the Discord app.
+what is server verification level | stop spam joins discord => The verification level makes new members meet rules, like having a verified email, before they can chat. Set it in your server's safety settings.
+how do i hide muted channels in discord | hide muted channels => Right-click the server icon and choose Hide Muted Channels, which hides channels you've muted from the list.

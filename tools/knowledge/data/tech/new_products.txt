@@ -1,0 +1,25 @@
+# tag: tech.products.recent
+what is the iphone air | thinnest iphone => The iPhone Air came out in September 2025 as Apple's thinnest iPhone, about 5.6 mm thick, with a single rear camera.
+what iphones came out in 2025 | iphone 17 lineup => In September 2025 Apple released the iPhone 17, iPhone Air, iPhone 17 Pro and 17 Pro Max. The base iPhone 17 got a 120 Hz ProMotion screen for the first time.
+what is apple liquid glass design | apple new design 2025 => Liquid Glass is the see-through, glassy design Apple introduced in 2025 for buttons, menus and the dock across iOS 26, iPadOS 26 and macOS Tahoe.
+what is the rtx 5090 | nvidia fastest gpu 2025 => The RTX 5090, released in January 2025, is NVIDIA's top RTX 50 card with 32 GB of GDDR7 memory. It can draw about 575 W, so it needs a big power supply.
+what is intel core ultra | intel arrow lake => Core Ultra is Intel's newer CPU brand. The desktop Core Ultra 200S chips from late 2024 use the LGA 1851 socket and only DDR5 memory.
+what is the apple m5 chip | m5 ipad pro => The M5 came out in October 2025 in the iPad Pro, the 14-inch MacBook Pro and Vision Pro, with a faster GPU built for AI tasks.
+what did valve announce in 2025 | steam machine and steam frame => In November 2025 Valve announced the Steam Machine, a small SteamOS gaming PC, the Steam Frame, a wireless VR headset, and a new Steam Controller.
+what is the difference between quest 3 and quest 3s | quest 3s vs quest 3 => Both use the same chip and play the same games. Quest 3 has sharper pancake lenses and a slimmer front, while Quest 3S is cheaper with older-style lenses.
+what is the pixel 10 | google pixel 10 features => Google's Pixel 10 came out in August 2025 with the Tensor G5 chip, a telephoto camera on the base model and built-in magnets for Qi2 accessories.
+what is the galaxy s25 | samsung s25 => Samsung's Galaxy S25 phones came out in early 2025 with the Snapdragon 8 Elite chip in every country and Galaxy AI features.
+when did android 16 come out | android 16 release => Android 16 came out in June 2025, earlier in the year than usual, starting with Pixel phones.
+what is new in airpods pro 3 | airpods pro 3 features => AirPods Pro 3, released in September 2025, have stronger noise cancelling, a heart rate sensor for workouts and Live Translation.
+what are airpods 4 | airpods 4 with noise cancellation => AirPods 4 came out in September 2024 with an open fit and no ear tips. One version adds active noise cancellation.
+what are google ai overviews | ai summary on top of google search => AI Overviews are AI-written summaries at the top of some Google results. They can be wrong, so check the linked sources for anything important.
+what is google ai mode | ai mode search tab => AI Mode is a chat-style tab in Google Search where you ask follow-up questions and get AI answers with links.
+when did gpt-5 come out | gpt 5 release => OpenAI released GPT-5 in August 2025 and made it the main model in ChatGPT.
+what is veo 3 | google ai video with sound => Veo 3 is Google's AI video model from 2025 that makes short clips with matching sound, like voices and effects.
+what is nano banana | gemini image editing => Nano Banana was the nickname for Google's Gemini 2.5 Flash Image model from 2025, popular for editing photos with text instructions while keeping people's faces consistent.
+what is sora 2 | openai video app => Sora 2 is OpenAI's AI video model from late 2025 that makes clips with sound, along with a Sora app for sharing them. As with any AI video, be careful with fakes of real people.
+when did blender 5 come out | blender 5.0 => Blender 5.0 came out in November 2025. Blender 4.5, from July 2025, is a long-term support version that gets fixes for two years.
+what is the bambu h2d | bambu dual nozzle printer => The Bambu Lab H2D from 2025 is a large enclosed printer with two nozzles for multi-material prints, plus optional laser and cutting modules.
+what is the dji osmo 360 | dji 360 camera => The Osmo 360 is DJI's first 360 camera, released in 2025, competing with Insta360's X series.
+what is the dji mini 5 pro | mini 5 pro camera => The DJI Mini 5 Pro from 2025 is a small camera drone with a larger 1-inch sensor for better low-light video.
+why did ram prices go up in 2025 | ddr5 got expensive => Late in 2025, memory makers sent much of their supply to AI data centers, so prices for DDR5 and SSDs jumped quickly.

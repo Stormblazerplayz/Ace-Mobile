@@ -1,0 +1,26 @@
+# tag: science.formulas
+how do you calculate density | density formula | density equals mass over volume => Density = mass ÷ volume. A block with a mass of 600 g and a volume of 200 cm³ has a density of 3 g/cm³. Anything denser than water (1 g/cm³) sinks in it.
+how do you calculate force | force formula => Force = mass × acceleration (F = ma), Newton's second law. Pushing a 2 kg cart to accelerate at 3 m/s² takes 6 newtons.
+weight formula | w equals mg => Weight = mass × gravitational field strength (W = mg). On Earth, g is about 9.8 N/kg, so a 50 kg person weighs about 490 newtons.
+how do you calculate gravitational potential energy | potential energy equals mgh => Gravitational potential energy = mass × g × height. Lifting a 2 kg book 1.5 m up on Earth gives it about 29 joules.
+electrical power formula | p equals iv => Electrical power = current × voltage (P = IV). A 2 amp current at 12 volts uses 24 watts.
+how do you calculate electrical energy | energy equals power times time | how to calculate energy used => Energy = power × time. A 2,000 W heater running for 3 hours uses 6 kilowatt hours of energy.
+how do you calculate the moment of a force | moment formula | turning effect formula => Moment = force × perpendicular distance from the pivot. A 10 N push 0.5 m from a hinge makes a moment of 5 N m.
+how do you calculate average speed with stops | average speed vs instantaneous speed | average speed formula => Average speed is the total distance ÷ total time, including stops. Instantaneous speed is how fast you're going at one moment, like a speedometer reading.
+how do you calculate mechanical advantage | mechanical advantage formula | lever advantage => Mechanical advantage = output force ÷ input force. If a lever lets 100 N lift 400 N, its mechanical advantage is 4.
+how do you calculate heat energy | specific heat formula | q equals mc delta t => Heat energy = mass × specific heat capacity × temperature change. Warming 1 kg of water by 10 °C takes about 42,000 joules.
+concentration formula | grams per liter => Concentration = amount of solute ÷ volume of solution. Dissolving 20 g of salt to make 0.5 L of solution gives 40 g/L.
+how do you calculate magnification | magnification formula | image size over actual size => Magnification = image size ÷ actual size. A 5 mm drawing of a 0.05 mm cell is 100 times magnified.
+how do you calculate population density | population density biology | organisms per area => Population density = number of organisms ÷ area. 40 daisies in a 10 m² patch is 4 daisies per square meter.
+kinetic energy formula with example | half m v squared => Kinetic energy = ½ × mass × speed². A 2 kg ball moving at 3 m/s has ½ × 2 × 9 = 9 joules.
+what are the formulas of common ions | polyatomic ions list | common polyatomic ions => Common polyatomic ions are hydroxide (OH⁻), nitrate (NO3⁻), carbonate (CO3²⁻), sulfate (SO4²⁻), phosphate (PO4³⁻), ammonium (NH4⁺) and bicarbonate (HCO3⁻).
+what is the formula of the sulfate ion | sulfate ion charge | so4 2 minus => The sulfate ion is SO4²⁻: one sulfur atom and four oxygen atoms with a charge of 2 minus.
+what is the formula of the nitrate ion | nitrate ion charge | no3 minus => The nitrate ion is NO3⁻: one nitrogen atom and three oxygen atoms with a charge of 1 minus.
+what is the formula of the carbonate ion | carbonate ion charge | co3 2 minus => The carbonate ion is CO3²⁻: one carbon atom and three oxygen atoms with a charge of 2 minus.
+what is the formula of the hydroxide ion | hydroxide ion charge | oh minus => The hydroxide ion is OH⁻: one oxygen and one hydrogen with a charge of 1 minus. Bases release it in water.
+what is the formula of the ammonium ion | ammonium ion charge | nh4 plus => The ammonium ion is NH4⁺: one nitrogen and four hydrogens with a charge of 1 plus. It acts like a metal ion in salts like ammonium chloride.
+what is the formula of the phosphate ion | phosphate ion charge | po4 3 minus => The phosphate ion is PO4³⁻: one phosphorus and four oxygen atoms with a charge of 3 minus. It's part of DNA and bones.
+how do you write the formula of an ionic compound | criss cross method | balancing ion charges => Make the charges add up to zero. Aluminium (3+) and oxide (2−) need two Al and three O, so aluminium oxide is Al2O3. Swapping the charge numbers, the criss-cross method, gets you there.
+what are the charges of ions by group | ion charges periodic table | group 1 ion charge => Group 1 metals form 1+ ions, group 2 form 2+, and aluminium forms 3+. Group 15 forms 3− ions, group 16 forms 2−, and group 17 (halogens) forms 1−.
+how do you count atoms in a formula | how many atoms in ca(oh)2 | brackets in chemical formulas => Small numbers count the atom before them, and a number after brackets multiplies everything inside. Ca(OH)2 has 1 calcium, 2 oxygen and 2 hydrogen atoms, 5 in all.
+what does the big number in front of a formula mean | coefficient in chemistry | 2h2o meaning => The big number in front, called a coefficient, tells how many molecules or units there are. 2H2O means two water molecules: 4 hydrogen and 2 oxygen atoms in total.

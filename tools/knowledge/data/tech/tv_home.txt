@@ -1,0 +1,27 @@
+# tag: tech.tv
+what is motion smoothing on a tv | soap opera effect => Motion smoothing adds fake frames to make video look extra smooth, which makes movies look like soap operas. Turn it off for films and games. Brands call it TruMotion, Auto Motion Plus or Motionflow.
+what picture mode should i use on my tv | filmmaker mode => Use Filmmaker Mode or Cinema for movies, which shows them as the director intended, and Game mode for games to cut input lag. Vivid looks bright in stores but too harsh at home.
+what is allm on a tv | auto low latency mode => ALLM lets a console or PC tell the TV to switch into Game mode automatically when you start playing.
+what is hdmi cec | tv remote controls everything => HDMI-CEC lets one remote control devices over HDMI, like turning on the TV when you start a console. Brands call it Anynet+, Bravia Sync or SimpLink.
+what is qled | qled vs oled tv => QLED is an LCD TV with a quantum dot layer for brighter, richer colors. OLED has perfect blacks because each pixel makes its own light, while QLED and mini-LED get brighter.
+what size tv should i get for my room | tv viewing distance => A common guide is to sit about 1 to 1.5 times the screen size away for 4K. A 65 inch TV works well from roughly 1.7 to 2.5 meters.
+how fast does internet need to be for 4k streaming | netflix 4k speed => Netflix recommends at least 15 Mbps for 4K. Each extra stream in the house needs its own share of bandwidth.
+how do i sign in to youtube on my tv | youtube tv code => Open YouTube on the TV and choose Sign in. It shows a code to enter on your phone or computer, or you can sign in by linking your phone.
+how do i cast youtube to my tv | youtube cast button => With the phone and TV on the same Wi-Fi, tap the cast button in the YouTube app and pick the TV.
+what is a fire tv stick | amazon fire stick => The Fire TV Stick is Amazon's streaming stick that plugs into a TV's HDMI port to run apps like Netflix and YouTube.
+why does my tv have no sound | tv sound not working => Check the TV isn't muted, the audio output is set to TV speakers or your soundbar, and HDMI cables are firmly in. Restart the TV by unplugging it for a minute.
+why is the sound out of sync on my tv | lip sync delay tv => Turn off extra sound processing and set the soundbar or TV audio delay (often called AV Sync or Lip Sync) until voices match. Restarting the app can also fix it.
+how do i turn on subtitles on my tv | closed captions tv => Most streaming apps have a speech bubble or Audio and Subtitles button during playback. TV menus also have a Captions or Subtitles setting under Accessibility.
+how do i update my smart tv | tv software update => Open the TV's Settings, Support or System, and choose Software Update. Turn on automatic updates so apps keep working.
+why is my smart tv so slow | smart tv lagging => Smart TVs have weak processors. Uninstall apps you don't use, clear app caches, update the software, or add a streaming stick for a faster experience.
+how do i set parental controls on a tv | tv content lock => Most smart TVs have a PIN lock and age ratings in Settings, under Parental Controls or Child Lock. Streaming apps also have kids profiles.
+what is a projector | projector lumens => A projector shines a big picture onto a wall or screen. Lumens measure brightness, and a dark room makes even a cheap projector look much better.
+what is throw ratio on a projector | short throw projector => Throw ratio says how far a projector must be from the wall for a picture size. Short throw projectors make a big picture from close up.
+what is dolby atmos | atmos sound => Dolby Atmos is a surround format that adds sound from above. Soundbars with up-firing speakers and many headphones can play it.
+what is a universal remote | universal remote explained => A universal remote can control many devices, like the TV, soundbar and streaming box, from one remote.
+why won't my tv remote work | tv remote not working => Try new batteries, remove anything blocking the sensor, and re-pair it if it's a Bluetooth remote. A phone camera can see an infrared remote's light flicker when you press a button.
+can i use airplay on a non apple tv | airplay on samsung lg => Many recent Samsung, LG, Sony and other TVs support AirPlay 2, so you can mirror an iPhone or iPad without an Apple TV.
+how do i connect a pc to my tv | pc to tv hdmi => Plug an HDMI cable from the graphics card into the TV, then press Win + P to choose Duplicate or Extend. Turn on the TV's Game mode and PC mode if it has one.
+what is an hdmi switch | more hdmi ports => An HDMI switch lets several devices share one HDMI port on a TV. Get one that supports the resolution and refresh rate your devices need.
+what is an hdmi splitter | hdmi splitter explained => An HDMI splitter sends one source to two screens at once. It's the opposite of a switch.
+what is a smart display | google nest hub => A smart display is a smart speaker with a screen, like a Nest Hub or Echo Show, for timers, video calls, recipes and smart home controls.

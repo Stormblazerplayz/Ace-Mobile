@@ -1,0 +1,1961 @@
+{
+ "format": "ace-recipes/1",
+ "recipes": [
+  {
+   "id": "pancakes",
+   "name": "Fluffy pancakes",
+   "aliases": [
+    "pancakes",
+    "pancake",
+    "buttermilk pancakes",
+    "hotcakes",
+    "flapjacks"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "flour",
+    "egg",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "2 tablespoons sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1 1/4 cups (300 ml) milk",
+    "1 large egg",
+    "3 tablespoons (45 g) butter, melted, plus more for the pan"
+   ],
+   "steps": [
+    "Whisk the flour, sugar, baking powder and salt in a big bowl.",
+    "In another bowl, whisk the milk, egg and melted butter.",
+    "Pour the wet mix into the dry mix and stir until just combined. A few lumps are fine.",
+    "Let the batter rest for 5 minutes.",
+    "Heat a frying pan over medium heat and melt a little butter in it.",
+    "Pour 1/4 cup of batter into the pan for each pancake.",
+    "Cook for 2 to 3 minutes, until bubbles pop on top.",
+    "Flip and cook for 1 to 2 minutes more, until golden."
+   ]
+  },
+  {
+   "id": "waffles",
+   "name": "Crispy waffles",
+   "aliases": [
+    "waffles",
+    "waffle",
+    "homemade waffles",
+    "belgian waffles"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "flour",
+    "egg",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "2 tablespoons sugar",
+    "1 tablespoon baking powder",
+    "1/2 teaspoon salt",
+    "2 large eggs",
+    "1 3/4 cups (420 ml) milk",
+    "1/2 cup (115 g) butter, melted",
+    "1 teaspoon vanilla extract",
+    "Cooking spray for the iron"
+   ],
+   "steps": [
+    "Turn on the waffle iron to heat up.",
+    "Whisk the flour, sugar, baking powder and salt in a big bowl.",
+    "In another bowl, whisk the eggs, milk, melted butter and vanilla.",
+    "Pour the wet mix into the dry mix and stir until just combined.",
+    "Spray the waffle iron with cooking spray.",
+    "Pour batter into the middle of the iron, about 1/2 cup, and close the lid.",
+    "Cook for 4 to 5 minutes, until golden and the steam stops.",
+    "Lift the waffle out with a fork and repeat with the rest of the batter."
+   ]
+  },
+  {
+   "id": "french-toast",
+   "name": "French toast",
+   "aliases": [
+    "french toast",
+    "eggy bread",
+    "french toasts",
+    "cinnamon french toast"
+   ],
+   "category": "Breakfast",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "bread",
+    "egg",
+    "milk",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "8 thick slices bread (a day old works best)",
+    "4 large eggs",
+    "1 cup (240 ml) milk",
+    "1 tablespoon sugar",
+    "1 teaspoon ground cinnamon",
+    "1 teaspoon vanilla extract",
+    "1 pinch salt",
+    "2 tablespoons (30 g) butter for the pan",
+    "Maple syrup or fruit to serve"
+   ],
+   "steps": [
+    "Whisk the eggs, milk, sugar, cinnamon, vanilla and salt in a shallow dish.",
+    "Melt a little butter in a frying pan over medium heat.",
+    "Dip a slice of bread in the egg mix and turn it to soak both sides.",
+    "Lay the bread in the pan.",
+    "Cook for 2 to 3 minutes, until the bottom is golden.",
+    "Flip and cook for 2 to 3 minutes more.",
+    "Repeat with the rest of the bread, adding butter as needed.",
+    "Serve with maple syrup or fruit."
+   ]
+  },
+  {
+   "id": "scrambled-eggs",
+   "name": "Soft scrambled eggs",
+   "aliases": [
+    "scrambled eggs",
+    "scrambled egg",
+    "eggs",
+    "scrambled"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "egg",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "4 large eggs",
+    "2 tablespoons milk",
+    "1 pinch salt",
+    "1 pinch pepper",
+    "1 tablespoon (15 g) butter"
+   ],
+   "steps": [
+    "Crack the eggs into a bowl.",
+    "Add the milk, salt and pepper and whisk until smooth.",
+    "Melt the butter in a nonstick pan over medium-low heat.",
+    "Pour in the eggs.",
+    "Cook for 2 to 3 minutes, slowly pushing the eggs from the edges to the middle with a spatula.",
+    "Take the pan off the heat while the eggs still look a little wet.",
+    "Serve right away."
+   ]
+  },
+  {
+   "id": "omelette",
+   "name": "Cheese omelette",
+   "aliases": [
+    "omelette",
+    "omelet",
+    "omelettes",
+    "omelets",
+    "cheese omelette"
+   ],
+   "category": "Breakfast",
+   "servings": 1,
+   "time": "10 min",
+   "main": [
+    "egg",
+    "cheese",
+    "butter"
+   ],
+   "ingredients": [
+    "3 large eggs",
+    "1 tablespoon milk",
+    "1 pinch salt",
+    "1 pinch pepper",
+    "1 tablespoon (15 g) butter",
+    "1/4 cup (30 g) shredded cheese",
+    "Optional: chopped ham, spinach or cooked mushrooms"
+   ],
+   "steps": [
+    "Whisk the eggs, milk, salt and pepper in a bowl.",
+    "Melt the butter in a small nonstick pan over medium heat.",
+    "Pour in the eggs.",
+    "Cook for 2 minutes, until the edges start to set.",
+    "Push the edges in with a spatula so the runny egg flows underneath.",
+    "Sprinkle the cheese and any fillings over one half.",
+    "Cook for 1 minute more, until the top is almost set.",
+    "Fold the omelette in half and slide it onto a plate."
+   ]
+  },
+  {
+   "id": "overnight-oats",
+   "name": "Overnight oats",
+   "aliases": [
+    "overnight oats",
+    "overnight oat",
+    "oats",
+    "overnight oatmeal",
+    "cold oats"
+   ],
+   "category": "Breakfast",
+   "servings": 1,
+   "time": "5 min plus overnight",
+   "main": [
+    "oat",
+    "milk",
+    "yogurt"
+   ],
+   "ingredients": [
+    "1/2 cup (45 g) rolled oats",
+    "1/2 cup (120 ml) milk",
+    "1/4 cup (60 g) plain or vanilla yogurt",
+    "1 teaspoon chia seeds (optional)",
+    "1 to 2 teaspoons honey or maple syrup",
+    "1 pinch ground cinnamon",
+    "Fruit to top, like berries or banana"
+   ],
+   "steps": [
+    "Put the oats in a jar or small container.",
+    "Add the milk, yogurt, chia seeds, honey and cinnamon.",
+    "Stir well so there are no dry oats.",
+    "Put the lid on.",
+    "Refrigerate overnight.",
+    "Stir, add your fruit on top and eat it cold."
+   ]
+  },
+  {
+   "id": "smoothie",
+   "name": "Berry banana smoothie",
+   "aliases": [
+    "smoothie",
+    "smoothies",
+    "fruit smoothie",
+    "berry smoothie",
+    "banana smoothie"
+   ],
+   "category": "Breakfast",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "banana",
+    "berry",
+    "yogurt",
+    "milk"
+   ],
+   "ingredients": [
+    "1 ripe banana",
+    "1 cup (150 g) frozen mixed berries",
+    "1/2 cup (120 g) plain or vanilla yogurt",
+    "1 cup (240 ml) milk",
+    "1 tablespoon honey (optional)"
+   ],
+   "steps": [
+    "Peel the banana and break it into pieces.",
+    "Put the banana, berries, yogurt, milk and honey in a blender.",
+    "Put the lid on tight.",
+    "Blend for 30 to 60 seconds, until smooth.",
+    "Pour into two glasses and serve."
+   ]
+  },
+  {
+   "id": "banana-bread",
+   "name": "Banana bread",
+   "aliases": [
+    "banana bread",
+    "banana loaf",
+    "banana breads",
+    "banana cake"
+   ],
+   "category": "Breakfast",
+   "servings": 10,
+   "time": "1 hr 15 min",
+   "main": [
+    "banana",
+    "flour",
+    "egg",
+    "butter",
+    "sugar"
+   ],
+   "ingredients": [
+    "3 very ripe bananas",
+    "1/3 cup (75 g) butter, melted",
+    "3/4 cup (150 g) sugar or brown sugar",
+    "1 large egg, beaten",
+    "1 teaspoon vanilla extract",
+    "1 teaspoon baking soda",
+    "1 pinch salt",
+    "1 1/2 cups (190 g) all-purpose flour"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease a 9 by 5 inch loaf pan with butter.",
+    "Mash the bananas in a big bowl with a fork.",
+    "Stir in the melted butter.",
+    "Stir in the sugar, egg and vanilla.",
+    "Sprinkle the baking soda and salt over the mix and stir.",
+    "Stir in the flour until just combined.",
+    "Pour the batter into the pan.",
+    "Bake for 55 to 65 minutes, until a toothpick in the middle comes out clean.",
+    "Let cool for 10 minutes in the pan, then lift it out onto a rack."
+   ]
+  },
+  {
+   "id": "grilled-cheese",
+   "name": "Grilled cheese sandwich",
+   "aliases": [
+    "grilled cheese",
+    "grilled cheese sandwich",
+    "cheese toastie",
+    "toastie",
+    "grilled cheeses"
+   ],
+   "category": "Lunch",
+   "servings": 1,
+   "time": "10 min",
+   "main": [
+    "bread",
+    "cheese",
+    "butter"
+   ],
+   "ingredients": [
+    "2 slices bread",
+    "1 tablespoon (15 g) soft butter",
+    "2 slices cheddar or American cheese"
+   ],
+   "steps": [
+    "Spread butter on one side of each slice of bread.",
+    "Put one slice butter side down in a cold frying pan.",
+    "Lay the cheese on top, then the other slice with the butter side up.",
+    "Turn the heat to medium-low.",
+    "Cook for 3 to 4 minutes, until the bottom is golden.",
+    "Flip the sandwich with a spatula.",
+    "Cook for 2 to 3 minutes more, until the cheese melts.",
+    "Cut in half and serve."
+   ]
+  },
+  {
+   "id": "quesadilla",
+   "name": "Cheese quesadilla",
+   "aliases": [
+    "quesadilla",
+    "quesadillas",
+    "cheese quesadilla",
+    "chicken quesadilla"
+   ],
+   "category": "Lunch",
+   "servings": 1,
+   "time": "10 min",
+   "main": [
+    "tortilla",
+    "cheese",
+    "chicken",
+    "bean"
+   ],
+   "ingredients": [
+    "2 flour tortillas (8 inch)",
+    "3/4 cup (85 g) shredded cheese",
+    "Optional: 1/2 cup cooked shredded chicken or black beans",
+    "Salsa and sour cream to serve"
+   ],
+   "steps": [
+    "Lay one tortilla in a cold frying pan.",
+    "Sprinkle the cheese and any fillings over it.",
+    "Put the other tortilla on top.",
+    "Turn the heat to medium.",
+    "Cook for 2 to 3 minutes, until golden underneath.",
+    "Flip it carefully with a big spatula.",
+    "Cook for 2 minutes more, until the cheese is melted.",
+    "Slide it onto a board and cut into 4 wedges.",
+    "Serve with salsa and sour cream."
+   ]
+  },
+  {
+   "id": "mac-and-cheese",
+   "name": "Stovetop mac and cheese",
+   "aliases": [
+    "mac and cheese",
+    "macaroni and cheese",
+    "mac n cheese",
+    "mac & cheese",
+    "macaroni cheese"
+   ],
+   "category": "Lunch",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "pasta",
+    "cheese",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "8 oz (225 g) elbow macaroni",
+    "2 tablespoons (30 g) butter",
+    "2 tablespoons all-purpose flour",
+    "1 1/2 cups (360 ml) milk",
+    "2 cups (200 g) shredded cheddar cheese",
+    "1/2 teaspoon salt",
+    "1 pinch pepper",
+    "Salt for the pasta water"
+   ],
+   "steps": [
+    "Fill a big pot with water, add a big pinch of salt and bring it to a boil.",
+    "Add the macaroni and boil for 7 to 8 minutes, until tender.",
+    "Drain the macaroni in a colander.",
+    "Melt the butter in the empty pot over medium heat.",
+    "Whisk in the flour and cook for 1 minute, whisking.",
+    "Slowly whisk in the milk.",
+    "Simmer for 3 to 5 minutes, stirring, until it thickens.",
+    "Take the pot off the heat and stir in the cheese, salt and pepper.",
+    "Stir in the macaroni and serve."
+   ]
+  },
+  {
+   "id": "tuna-sandwich",
+   "name": "Tuna sandwich",
+   "aliases": [
+    "tuna sandwich",
+    "tuna sandwiches",
+    "tuna salad sandwich",
+    "tuna mayo",
+    "tuna salad"
+   ],
+   "category": "Lunch",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "tuna",
+    "bread",
+    "mayonnaise"
+   ],
+   "ingredients": [
+    "1 can (5 oz / 140 g) tuna",
+    "3 tablespoons mayonnaise",
+    "1 teaspoon lemon juice",
+    "1 tablespoon finely chopped pickle or celery (optional)",
+    "1 pinch salt",
+    "1 pinch pepper",
+    "4 slices bread",
+    "2 lettuce leaves"
+   ],
+   "steps": [
+    "Open the can of tuna and drain off the liquid.",
+    "Put the tuna in a bowl and break it up with a fork.",
+    "Add the mayonnaise, lemon juice, pickle, salt and pepper and stir.",
+    "Spread the tuna on 2 slices of bread.",
+    "Add a lettuce leaf to each.",
+    "Top with the other bread and cut in half."
+   ]
+  },
+  {
+   "id": "guacamole",
+   "name": "Guacamole",
+   "aliases": [
+    "guacamole",
+    "guac",
+    "avocado dip",
+    "guacamole dip"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "avocado",
+    "lime",
+    "tomato",
+    "onion"
+   ],
+   "ingredients": [
+    "3 ripe avocados",
+    "1 lime, juiced",
+    "1/2 teaspoon salt",
+    "1/4 cup (40 g) finely chopped onion",
+    "1 small tomato, diced",
+    "2 tablespoons chopped cilantro",
+    "1/2 jalapeno, seeds removed, finely chopped (optional)",
+    "Tortilla chips to serve"
+   ],
+   "steps": [
+    "Cut the avocados in half and take out the pits. Ask an adult to help.",
+    "Scoop the avocado into a bowl with a spoon.",
+    "Mash it with a fork until a bit chunky.",
+    "Stir in the lime juice and salt.",
+    "Chop the onion, tomato, cilantro and jalapeno into small pieces.",
+    "Stir them into the avocado.",
+    "Taste and add more salt or lime if you like.",
+    "Serve with tortilla chips."
+   ]
+  },
+  {
+   "id": "hummus",
+   "name": "Hummus",
+   "aliases": [
+    "hummus",
+    "houmous",
+    "chickpea dip",
+    "humus"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "chickpea",
+    "tahini",
+    "lemon",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 can (15 oz / 425 g) chickpeas, liquid saved",
+    "1/4 cup (60 g) tahini",
+    "3 tablespoons lemon juice",
+    "1 small garlic clove, peeled",
+    "2 tablespoons olive oil, plus more to serve",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon ground cumin (optional)",
+    "2 to 4 tablespoons chickpea liquid or cold water"
+   ],
+   "steps": [
+    "Drain the chickpeas over a bowl to save the liquid.",
+    "Put the tahini and lemon juice in a food processor.",
+    "Blend for 1 minute, until creamy.",
+    "Add the chickpeas, garlic, olive oil, salt and cumin.",
+    "Blend for 1 to 2 minutes, scraping down the sides once.",
+    "Add the chickpea liquid a spoonful at a time while blending, until smooth.",
+    "Spoon into a bowl and drizzle with a little olive oil."
+   ]
+  },
+  {
+   "id": "popcorn",
+   "name": "Stovetop popcorn",
+   "aliases": [
+    "popcorn",
+    "pop corn",
+    "popcorns",
+    "stovetop popcorn",
+    "buttered popcorn"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "popcorn",
+    "oil",
+    "butter",
+    "salt"
+   ],
+   "ingredients": [
+    "3 tablespoons vegetable or coconut oil",
+    "1/2 cup (100 g) popcorn kernels",
+    "1/2 teaspoon salt",
+    "2 tablespoons (30 g) butter, melted (optional)"
+   ],
+   "steps": [
+    "Put the oil and 3 kernels in a big pot and cover it with the lid. Ask an adult to help.",
+    "Heat over medium-high heat for 2 to 3 minutes, until the 3 kernels pop.",
+    "Add the rest of the kernels in one layer and put the lid back on.",
+    "Take the pot off the heat and let it sit for 30 seconds.",
+    "Put the pot back on the heat.",
+    "Cook for 2 to 3 minutes, gently shaking the pot, until the popping slows down.",
+    "Pour the popcorn into a big bowl right away.",
+    "Toss with the melted butter and salt."
+   ]
+  },
+  {
+   "id": "nachos",
+   "name": "Cheesy nachos",
+   "aliases": [
+    "nachos",
+    "nacho",
+    "cheesy nachos",
+    "loaded nachos",
+    "sheet pan nachos"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "tortilla chip",
+    "cheese",
+    "bean",
+    "salsa"
+   ],
+   "ingredients": [
+    "1 bag (10 oz / 285 g) tortilla chips",
+    "2 cups (200 g) shredded cheddar or Mexican-style cheese",
+    "1 can (15 oz / 425 g) black beans, drained and rinsed",
+    "1/2 cup (120 g) salsa",
+    "Optional: sour cream, guacamole, sliced jalapenos"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Line a baking sheet with foil or parchment paper.",
+    "Spread half the chips on the sheet.",
+    "Sprinkle half the cheese and half the beans over the chips.",
+    "Add the rest of the chips, beans and cheese on top.",
+    "Bake for 7 to 10 minutes, until the cheese melts.",
+    "Let cool for 2 minutes.",
+    "Top with salsa, sour cream and guacamole."
+   ]
+  },
+  {
+   "id": "fruit-salad",
+   "name": "Fruit salad",
+   "aliases": [
+    "fruit salad",
+    "fruit salads",
+    "fruit cup",
+    "mixed fruit"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "strawberry",
+    "grape",
+    "banana",
+    "kiwi",
+    "pineapple",
+    "blueberry"
+   ],
+   "ingredients": [
+    "2 cups (300 g) strawberries",
+    "1 cup (150 g) blueberries",
+    "2 cups (300 g) seedless grapes",
+    "2 kiwis",
+    "1 cup (165 g) pineapple chunks",
+    "2 bananas",
+    "1 tablespoon honey",
+    "1 tablespoon lime juice"
+   ],
+   "steps": [
+    "Wash the strawberries, blueberries and grapes.",
+    "Cut the tops off the strawberries and cut them into quarters. Ask an adult to help.",
+    "Cut the grapes in half.",
+    "Peel the kiwis and bananas and slice them.",
+    "Put all the fruit in a big bowl.",
+    "Stir the honey and lime juice together in a cup.",
+    "Pour it over the fruit and toss gently.",
+    "Chill for 30 minutes before serving."
+   ]
+  },
+  {
+   "id": "salsa",
+   "name": "Fresh tomato salsa",
+   "aliases": [
+    "salsa",
+    "fresh salsa",
+    "tomato salsa",
+    "pico de gallo",
+    "salsa fresca"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "tomato",
+    "onion",
+    "lime",
+    "cilantro"
+   ],
+   "ingredients": [
+    "4 ripe tomatoes (about 1 lb / 450 g)",
+    "1/2 small onion",
+    "1 jalapeno (optional)",
+    "1/4 cup (10 g) cilantro leaves",
+    "1 lime, juiced",
+    "1/2 teaspoon salt",
+    "Tortilla chips to serve"
+   ],
+   "steps": [
+    "Dice the tomatoes into small pieces. Ask an adult to help.",
+    "Finely chop the onion and cilantro.",
+    "Cut the jalapeno open, scrape out the seeds and chop it very small.",
+    "Put everything in a bowl.",
+    "Add the lime juice and salt and stir.",
+    "Chill for 15 minutes so the flavors mix.",
+    "Taste, add more salt if needed, and serve with chips."
+   ]
+  },
+  {
+   "id": "spaghetti-bolognese",
+   "name": "Spaghetti bolognese",
+   "aliases": [
+    "spaghetti bolognese",
+    "spaghetti",
+    "bolognese",
+    "spag bol",
+    "meat sauce",
+    "spaghetti with meat sauce"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "pasta",
+    "beef",
+    "tomato",
+    "onion",
+    "carrot"
+   ],
+   "ingredients": [
+    "1 tablespoon olive oil",
+    "1 onion",
+    "1 carrot",
+    "1 celery stalk",
+    "2 garlic cloves",
+    "1 lb (450 g) ground beef",
+    "2 tablespoons tomato paste",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1 teaspoon dried oregano",
+    "1 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "12 oz (340 g) spaghetti",
+    "Grated parmesan to serve"
+   ],
+   "steps": [
+    "Finely chop the onion, carrot, celery and garlic. Ask an adult to help.",
+    "Heat the oil in a big pot over medium heat.",
+    "Add the vegetables and cook for 5 to 7 minutes, until soft.",
+    "Add the beef and cook for 5 to 7 minutes, breaking it up, until no pink is left.",
+    "Stir in the tomato paste, crushed tomatoes, oregano, salt and pepper.",
+    "Simmer for 30 minutes, stirring now and then.",
+    "Bring a big pot of salted water to a boil.",
+    "Add the spaghetti and boil for 9 to 11 minutes, until tender.",
+    "Drain the spaghetti in a colander.",
+    "Serve the sauce over the spaghetti with parmesan on top."
+   ]
+  },
+  {
+   "id": "tacos",
+   "name": "Beef tacos",
+   "aliases": [
+    "tacos",
+    "taco",
+    "beef tacos",
+    "taco night",
+    "ground beef tacos"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "beef",
+    "tortilla",
+    "cheese",
+    "lettuce",
+    "tomato"
+   ],
+   "ingredients": [
+    "1 tablespoon vegetable oil",
+    "1 lb (450 g) ground beef",
+    "1 tablespoon chili powder",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1/2 teaspoon paprika",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon dried oregano",
+    "2/3 cup (160 ml) water",
+    "8 taco shells or small tortillas",
+    "2 cups shredded lettuce",
+    "1 tomato",
+    "1 cup (100 g) shredded cheese",
+    "Sour cream and salsa to serve"
+   ],
+   "steps": [
+    "Shred the lettuce and dice the tomato. Ask an adult to help.",
+    "Heat the oil in a big frying pan over medium-high heat.",
+    "Add the beef and cook for 6 to 8 minutes, breaking it up, until browned.",
+    "Spoon off any extra fat into a heatproof cup.",
+    "Stir in all the spices, the salt and the water.",
+    "Simmer for 5 minutes, until most of the liquid is gone.",
+    "Wrap the tortillas in a damp paper towel and microwave for 30 seconds.",
+    "Fill the shells with beef, lettuce, tomato and cheese.",
+    "Add sour cream and salsa on top."
+   ]
+  },
+  {
+   "id": "homemade-pizza",
+   "name": "Homemade pizza",
+   "aliases": [
+    "pizza",
+    "pizzas",
+    "homemade pizza",
+    "pizza dough",
+    "cheese pizza",
+    "pepperoni pizza"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr 45 min",
+   "main": [
+    "flour",
+    "yeast",
+    "cheese",
+    "tomato"
+   ],
+   "ingredients": [
+    "3 cups (375 g) all-purpose or bread flour",
+    "1 packet (2 1/4 teaspoons / 7 g) instant yeast",
+    "1 teaspoon sugar",
+    "1 1/2 teaspoons salt",
+    "1 cup (240 ml) warm water (110°F / 43°C)",
+    "2 tablespoons olive oil, plus more for the pans",
+    "1 cup (240 ml) pizza sauce",
+    "2 cups (225 g) shredded mozzarella",
+    "Toppings you like, such as pepperoni or peppers"
+   ],
+   "steps": [
+    "Mix the flour, yeast, sugar and salt in a big bowl.",
+    "Add the warm water and olive oil and stir into a shaggy dough.",
+    "Knead on a floured counter for 5 to 8 minutes, until smooth and stretchy.",
+    "Put the dough in an oiled bowl and cover it.",
+    "Let rise for 1 hour, until doubled.",
+    "Heat the oven to 475°F (245°C). Ask an adult to help.",
+    "Split the dough in two and stretch each half into a 12 inch circle on an oiled pan.",
+    "Spread on the sauce, then the cheese and toppings.",
+    "Bake for 12 to 15 minutes, until the crust is golden and the cheese bubbles.",
+    "Let cool for 5 minutes before slicing."
+   ]
+  },
+  {
+   "id": "chicken-nuggets",
+   "name": "Baked chicken nuggets",
+   "aliases": [
+    "chicken nuggets",
+    "chicken nugget",
+    "nuggets",
+    "nugget",
+    "chicken bites"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "chicken",
+    "egg",
+    "breadcrumb",
+    "cheese"
+   ],
+   "ingredients": [
+    "1 lb (450 g) boneless skinless chicken breasts",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 large eggs, beaten",
+    "1 cup (60 g) panko breadcrumbs",
+    "1/2 cup (50 g) grated parmesan",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon paprika",
+    "1/2 teaspoon salt",
+    "Cooking spray"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Line a baking sheet with parchment paper and spray it with oil.",
+    "Cut the chicken into 1 1/2 inch pieces.",
+    "Put the flour in one bowl, the eggs in another bowl, and mix the panko, parmesan, spices and salt in a third.",
+    "Dip each piece in flour, then egg, then the crumb mix, and lay it on the sheet.",
+    "Spray the tops with oil and wash your hands well.",
+    "Bake for 8 minutes.",
+    "Flip the nuggets and bake for 7 to 10 minutes more, until golden and 165°F (74°C) inside.",
+    "Let cool for 5 minutes before eating."
+   ]
+  },
+  {
+   "id": "fried-rice",
+   "name": "Egg fried rice",
+   "aliases": [
+    "fried rice",
+    "egg fried rice",
+    "veggie fried rice",
+    "chinese fried rice"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "rice",
+    "egg",
+    "pea",
+    "carrot",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "3 cups (500 g) cold cooked rice, best from the day before",
+    "2 tablespoons vegetable oil",
+    "2 large eggs, beaten",
+    "1 cup (140 g) frozen peas and carrots",
+    "3 green onions",
+    "2 garlic cloves",
+    "3 tablespoons soy sauce",
+    "1 teaspoon sesame oil"
+   ],
+   "steps": [
+    "Slice the green onions and finely chop the garlic. Ask an adult to help.",
+    "Heat 1 tablespoon of the oil in a big pan or wok over medium-high heat.",
+    "Pour in the eggs and cook for 1 to 2 minutes, stirring, until just set.",
+    "Move the eggs to a plate.",
+    "Add the rest of the oil, the peas and carrots, the garlic and half the green onions.",
+    "Cook for 2 minutes, stirring.",
+    "Add the rice and cook for 3 to 4 minutes, breaking up clumps, until hot.",
+    "Stir in the soy sauce, sesame oil, eggs and the rest of the green onions."
+   ]
+  },
+  {
+   "id": "chicken-stir-fry",
+   "name": "Chicken stir fry",
+   "aliases": [
+    "chicken stir fry",
+    "stir fry",
+    "stir-fry",
+    "stirfry",
+    "chicken stirfry"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "chicken",
+    "broccoli",
+    "pepper",
+    "carrot",
+    "soy sauce",
+    "rice"
+   ],
+   "ingredients": [
+    "1 lb (450 g) boneless skinless chicken breast",
+    "2 tablespoons cornstarch, divided",
+    "2 tablespoons vegetable oil",
+    "1 red bell pepper",
+    "2 cups (150 g) small broccoli florets",
+    "1 carrot",
+    "2 garlic cloves, finely chopped",
+    "1 teaspoon grated fresh ginger",
+    "1/4 cup (60 ml) soy sauce",
+    "1/4 cup (60 ml) water or chicken broth",
+    "1 tablespoon honey",
+    "1 teaspoon sesame oil",
+    "Cooked rice to serve"
+   ],
+   "steps": [
+    "Cut the chicken into thin strips and the pepper and carrot into thin slices. Ask an adult to help.",
+    "Toss the chicken with 1 tablespoon of the cornstarch.",
+    "Whisk the soy sauce, water, honey, sesame oil and the rest of the cornstarch in a small bowl.",
+    "Heat 1 tablespoon of the oil in a big pan over medium-high heat.",
+    "Add the chicken and cook for 5 to 6 minutes, until no pink is left inside.",
+    "Move the chicken to a plate.",
+    "Add the rest of the oil and the vegetables and cook for 3 to 4 minutes, until crisp-tender.",
+    "Add the garlic and ginger and cook for 30 seconds.",
+    "Add the chicken and sauce and cook for 1 to 2 minutes, stirring, until the sauce thickens.",
+    "Serve over rice."
+   ]
+  },
+  {
+   "id": "burgers",
+   "name": "Classic cheeseburgers",
+   "aliases": [
+    "burgers",
+    "burger",
+    "hamburger",
+    "hamburgers",
+    "cheeseburger",
+    "cheeseburgers"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "beef",
+    "bun",
+    "cheese",
+    "tomato",
+    "lettuce"
+   ],
+   "ingredients": [
+    "1 1/3 lb (600 g) ground beef (80/20)",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "4 slices cheese (optional)",
+    "4 burger buns",
+    "Lettuce leaves",
+    "1 tomato",
+    "1/2 onion",
+    "Ketchup and mustard"
+   ],
+   "steps": [
+    "Slice the tomato and onion. Ask an adult to help.",
+    "Divide the beef into 4 balls and flatten each into a patty about 3/4 inch thick.",
+    "Press a small dent in the middle of each patty with your thumb.",
+    "Sprinkle both sides with salt and pepper, then wash your hands.",
+    "Heat a heavy frying pan over medium-high heat.",
+    "Cook the patties for 4 minutes.",
+    "Flip and cook for 3 minutes.",
+    "Put a slice of cheese on each, cover the pan, and cook for 1 minute more, until 160°F (71°C) inside.",
+    "Put each patty on a bun with lettuce, tomato, onion, ketchup and mustard."
+   ]
+  },
+  {
+   "id": "meatballs",
+   "name": "Baked meatballs in tomato sauce",
+   "aliases": [
+    "meatballs",
+    "meatball",
+    "italian meatballs",
+    "meatballs in sauce",
+    "spaghetti and meatballs"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "beef",
+    "egg",
+    "breadcrumb",
+    "cheese",
+    "tomato"
+   ],
+   "ingredients": [
+    "1/2 cup (50 g) dry breadcrumbs",
+    "1/4 cup (60 ml) milk",
+    "1 lb (450 g) ground beef",
+    "1 large egg",
+    "1/4 cup (25 g) grated parmesan",
+    "1 garlic clove, grated",
+    "1 teaspoon dried Italian seasoning",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "3 cups (720 ml) marinara sauce",
+    "Cooked spaghetti or rolls to serve"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Line a baking sheet with parchment paper.",
+    "Mix the breadcrumbs and milk in a big bowl and let soak for 5 minutes.",
+    "Add the beef, egg, parmesan, garlic, seasoning, salt and pepper and mix gently with your hands.",
+    "Roll into 1 1/2 inch balls and set them on the sheet, then wash your hands.",
+    "Bake for 18 to 20 minutes, until browned and 160°F (71°C) inside.",
+    "Warm the sauce in a big pot over medium heat.",
+    "Add the meatballs and simmer for 10 minutes.",
+    "Serve over spaghetti or in rolls."
+   ]
+  },
+  {
+   "id": "chili",
+   "name": "Beef and bean chili",
+   "aliases": [
+    "chili",
+    "chilli",
+    "chili con carne",
+    "beef chili",
+    "bean chili"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "beef",
+    "bean",
+    "tomato",
+    "onion",
+    "pepper"
+   ],
+   "ingredients": [
+    "1 tablespoon vegetable oil",
+    "1 onion",
+    "1 bell pepper",
+    "3 garlic cloves",
+    "1 lb (450 g) ground beef",
+    "2 tablespoons chili powder",
+    "1 teaspoon ground cumin",
+    "1 teaspoon dried oregano",
+    "1 teaspoon salt",
+    "2 tablespoons tomato paste",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1 can (15 oz / 425 g) kidney beans, drained",
+    "1 can (15 oz / 425 g) black beans, drained",
+    "1 cup (240 ml) beef broth or water",
+    "Shredded cheese and sour cream to serve"
+   ],
+   "steps": [
+    "Chop the onion, bell pepper and garlic. Ask an adult to help.",
+    "Heat the oil in a big pot over medium heat.",
+    "Add the onion and pepper and cook for 5 minutes, until soft.",
+    "Add the beef and garlic and cook for 6 to 8 minutes, breaking it up, until browned.",
+    "Stir in the chili powder, cumin, oregano, salt and tomato paste and cook for 1 minute.",
+    "Add the tomatoes, beans and broth and stir.",
+    "Bring to a boil, then turn the heat down to low.",
+    "Simmer for 45 minutes, stirring now and then.",
+    "Taste, add more salt if needed, and serve with cheese and sour cream."
+   ]
+  },
+  {
+   "id": "chicken-noodle-soup",
+   "name": "Chicken noodle soup",
+   "aliases": [
+    "chicken noodle soup",
+    "chicken soup",
+    "noodle soup",
+    "chicken noodle"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "chicken",
+    "noodle",
+    "carrot",
+    "celery",
+    "onion"
+   ],
+   "ingredients": [
+    "1 tablespoon olive oil or butter",
+    "1 onion",
+    "2 carrots",
+    "2 celery stalks",
+    "2 garlic cloves",
+    "8 cups (2 liters) chicken broth",
+    "1 lb (450 g) boneless skinless chicken breasts",
+    "1 teaspoon dried thyme",
+    "1 bay leaf",
+    "2 cups (115 g) wide egg noodles",
+    "Salt and pepper",
+    "2 tablespoons chopped parsley (optional)"
+   ],
+   "steps": [
+    "Chop the onion, carrots, celery and garlic. Ask an adult to help.",
+    "Heat the oil in a big pot over medium heat.",
+    "Add the vegetables and cook for 5 to 7 minutes, until soft.",
+    "Add the broth, thyme, bay leaf and whole chicken breasts.",
+    "Bring to a boil, then turn the heat down to low.",
+    "Simmer for 15 to 20 minutes, until the chicken is 165°F (74°C) inside.",
+    "Lift the chicken onto a plate and shred it with two forks.",
+    "Add the noodles to the pot and simmer for 6 to 8 minutes, until tender.",
+    "Stir the chicken back in, take out the bay leaf, and add salt, pepper and parsley."
+   ]
+  },
+  {
+   "id": "tomato-soup",
+   "name": "Creamy tomato soup",
+   "aliases": [
+    "tomato soup",
+    "cream of tomato soup",
+    "creamy tomato soup",
+    "tomato soups"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "tomato",
+    "onion",
+    "butter",
+    "cream"
+   ],
+   "ingredients": [
+    "2 tablespoons (30 g) butter",
+    "1 onion",
+    "2 garlic cloves",
+    "1 can (28 oz / 800 g) whole peeled tomatoes",
+    "2 cups (480 ml) chicken or vegetable broth",
+    "1 teaspoon sugar",
+    "1/2 teaspoon salt",
+    "1/2 cup (120 ml) heavy cream",
+    "Fresh basil (optional)"
+   ],
+   "steps": [
+    "Chop the onion and garlic. Ask an adult to help.",
+    "Melt the butter in a big pot over medium heat.",
+    "Add the onion and cook for 5 to 7 minutes, until soft.",
+    "Add the garlic and cook for 1 minute.",
+    "Add the tomatoes with their juice, the broth, sugar and salt.",
+    "Simmer for 20 minutes, stirring now and then.",
+    "Blend the soup in the pot with a stick blender until smooth.",
+    "Stir in the cream, taste, and add more salt if needed."
+   ]
+  },
+  {
+   "id": "baked-salmon",
+   "name": "Lemon garlic baked salmon",
+   "aliases": [
+    "baked salmon",
+    "salmon",
+    "oven salmon",
+    "lemon salmon",
+    "salmon fillet"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "salmon",
+    "lemon",
+    "garlic"
+   ],
+   "ingredients": [
+    "4 salmon fillets (6 oz / 170 g each)",
+    "2 tablespoons olive oil or melted butter",
+    "2 garlic cloves, grated",
+    "1 lemon",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 teaspoon dried dill or parsley"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Line a baking dish with foil or parchment paper.",
+    "Pat the salmon dry and lay it skin side down in the dish.",
+    "Mix the oil, garlic, juice of half the lemon, salt, pepper and dill in a small bowl.",
+    "Brush the mix over the salmon and lay thin lemon slices on top.",
+    "Bake for 12 to 15 minutes, until it flakes with a fork and is 145°F (63°C) inside.",
+    "Let rest for 3 minutes before serving."
+   ]
+  },
+  {
+   "id": "roast-chicken",
+   "name": "Roast chicken",
+   "aliases": [
+    "roast chicken",
+    "roasted chicken",
+    "whole chicken",
+    "roast chickens",
+    "sunday roast"
+   ],
+   "category": "Dinner",
+   "servings": 5,
+   "time": "1 hr 45 min",
+   "main": [
+    "chicken",
+    "lemon",
+    "garlic",
+    "onion"
+   ],
+   "ingredients": [
+    "1 whole chicken (4 to 5 lb / 1.8 to 2.3 kg)",
+    "2 tablespoons olive oil or soft butter",
+    "1 1/2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "1 teaspoon dried thyme",
+    "1 lemon, cut in half",
+    "4 garlic cloves",
+    "1 onion, cut in quarters"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Take out any bag from inside the chicken and pat it dry with paper towels.",
+    "Put the chicken breast side up in a roasting pan.",
+    "Rub the oil all over and sprinkle with salt, pepper and thyme.",
+    "Put the lemon, garlic and onion inside the chicken.",
+    "Wash your hands and anything that touched the raw chicken.",
+    "Roast for 1 hour 15 minutes, until the thickest part of the thigh is 165°F (74°C).",
+    "Let rest for 15 minutes before carving."
+   ]
+  },
+  {
+   "id": "garlic-bread",
+   "name": "Garlic bread",
+   "aliases": [
+    "garlic bread",
+    "garlic toast",
+    "cheesy garlic bread",
+    "garlic breads"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "20 min",
+   "main": [
+    "bread",
+    "butter",
+    "garlic",
+    "cheese"
+   ],
+   "ingredients": [
+    "1 loaf French or Italian bread (about 1 lb / 450 g)",
+    "1/2 cup (115 g) soft butter",
+    "4 garlic cloves, grated (or 1 teaspoon garlic powder)",
+    "2 tablespoons chopped parsley",
+    "1/4 teaspoon salt",
+    "1/4 cup (25 g) grated parmesan (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Mix the butter, garlic, parsley and salt in a bowl.",
+    "Cut the loaf in half the long way.",
+    "Spread the garlic butter over the cut sides and sprinkle with parmesan.",
+    "Lay the bread cut side up on a baking sheet.",
+    "Bake for 10 to 12 minutes, until the edges are golden.",
+    "Let cool for 2 minutes before slicing."
+   ]
+  },
+  {
+   "id": "mashed-potatoes",
+   "name": "Creamy mashed potatoes",
+   "aliases": [
+    "mashed potatoes",
+    "mashed potato",
+    "mash",
+    "mashed spuds",
+    "potato mash"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "potato",
+    "butter",
+    "milk"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) Yukon Gold or russet potatoes",
+    "1 tablespoon salt for the water",
+    "1/2 cup (115 g) butter",
+    "3/4 cup (180 ml) milk",
+    "Salt and pepper to taste"
+   ],
+   "steps": [
+    "Peel the potatoes and cut them into 2 inch chunks. Ask an adult to help.",
+    "Put them in a big pot, cover with cold water and add the salt.",
+    "Bring to a boil over high heat, then turn it down to medium.",
+    "Simmer for 15 to 20 minutes, until a fork slides in easily.",
+    "Drain the potatoes and put them back in the pot.",
+    "Microwave the milk and butter in a jug for 1 minute, until the butter melts.",
+    "Mash the potatoes with a masher.",
+    "Stir in the milk and butter, then add salt and pepper to taste."
+   ]
+  },
+  {
+   "id": "roast-vegetables",
+   "name": "Roast vegetables",
+   "aliases": [
+    "roast vegetables",
+    "roasted vegetables",
+    "roast veg",
+    "roasted veggies",
+    "oven vegetables"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "potato",
+    "carrot",
+    "pepper",
+    "onion",
+    "zucchini"
+   ],
+   "ingredients": [
+    "1 lb (450 g) potatoes",
+    "2 carrots",
+    "1 red bell pepper",
+    "1 red onion",
+    "1 zucchini",
+    "3 tablespoons olive oil",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 teaspoon dried thyme or Italian seasoning",
+    "1/2 teaspoon garlic powder"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Cut the potatoes and carrots into 1 inch pieces.",
+    "Cut the pepper, onion and zucchini into bigger 1 1/2 inch pieces.",
+    "Toss the potatoes and carrots with 2 tablespoons of oil, the salt, pepper, herbs and garlic powder on a big baking sheet.",
+    "Roast for 15 minutes.",
+    "Toss the pepper, onion and zucchini with the rest of the oil.",
+    "Add them to the pan and stir everything together.",
+    "Roast for 20 to 25 minutes, until browned and tender."
+   ]
+  },
+  {
+   "id": "caesar-salad",
+   "name": "Caesar salad",
+   "aliases": [
+    "caesar salad",
+    "caesar",
+    "chicken caesar",
+    "caesar salads"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "lettuce",
+    "cheese",
+    "bread",
+    "lemon"
+   ],
+   "ingredients": [
+    "3 cups (100 g) bread cubes",
+    "2 tablespoons olive oil",
+    "1 pinch salt",
+    "1/2 cup (115 g) mayonnaise",
+    "2 tablespoons lemon juice",
+    "1/3 cup (30 g) grated parmesan, plus more to serve",
+    "1 garlic clove, grated",
+    "1 teaspoon Dijon mustard",
+    "1 teaspoon Worcestershire sauce",
+    "1 pinch pepper",
+    "2 heads romaine lettuce"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Toss the bread cubes with the olive oil and salt on a baking sheet.",
+    "Bake for 10 to 12 minutes, until golden and crisp.",
+    "Whisk the mayonnaise, lemon juice, parmesan, garlic, mustard, Worcestershire sauce and pepper in a bowl.",
+    "Wash and dry the lettuce and tear it into bite-size pieces.",
+    "Toss the lettuce with the dressing in a big bowl.",
+    "Top with the croutons and more parmesan."
+   ]
+  },
+  {
+   "id": "chocolate-chip-cookies",
+   "name": "Chocolate chip cookies",
+   "aliases": [
+    "chocolate chip cookies",
+    "chocolate chip cookie",
+    "choc chip cookies",
+    "cookies",
+    "cookie"
+   ],
+   "category": "Dessert",
+   "servings": 30,
+   "time": "30 min",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "egg",
+    "chocolate"
+   ],
+   "ingredients": [
+    "2 1/4 cups (280 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1 teaspoon salt",
+    "1 cup (225 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "3/4 cup (165 g) packed brown sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "2 cups (340 g) chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Whisk the flour, baking soda and salt in a bowl.",
+    "Beat the butter, sugar and brown sugar in a big bowl until creamy.",
+    "Beat in the eggs one at a time, then the vanilla.",
+    "Slowly stir in the flour mix.",
+    "Stir in the chocolate chips.",
+    "Scoop balls of dough about 2 tablespoons big onto a baking sheet, 2 inches apart.",
+    "Bake for 9 to 11 minutes, until the edges are golden.",
+    "Let cool for 2 minutes on the sheet.",
+    "Move the cookies to a wire rack."
+   ]
+  },
+  {
+   "id": "brownies",
+   "name": "Fudgy brownies",
+   "aliases": [
+    "brownies",
+    "brownie",
+    "chocolate brownies",
+    "fudge brownies"
+   ],
+   "category": "Dessert",
+   "servings": 16,
+   "time": "45 min",
+   "main": [
+    "chocolate",
+    "butter",
+    "sugar",
+    "egg",
+    "flour"
+   ],
+   "ingredients": [
+    "1/2 cup (115 g) butter",
+    "1 cup (200 g) sugar",
+    "2 large eggs",
+    "1 teaspoon vanilla extract",
+    "1/3 cup (30 g) unsweetened cocoa powder",
+    "1/2 cup (65 g) all-purpose flour",
+    "1/4 teaspoon salt",
+    "1/4 teaspoon baking powder",
+    "1/2 cup (85 g) chocolate chips (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease an 8 by 8 inch pan and line it with parchment paper.",
+    "Put the butter in a big microwave-safe bowl and microwave for 45 to 60 seconds, until melted.",
+    "Stir in the sugar, eggs and vanilla.",
+    "Add the cocoa, flour, salt and baking powder and stir until just combined.",
+    "Stir in the chocolate chips.",
+    "Spread the batter evenly in the pan.",
+    "Bake for 25 to 30 minutes, until a toothpick in the middle comes out with a few moist crumbs.",
+    "Let cool for 30 minutes before cutting into squares."
+   ]
+  },
+  {
+   "id": "vanilla-cupcakes",
+   "name": "Vanilla cupcakes",
+   "aliases": [
+    "vanilla cupcakes",
+    "vanilla cupcake",
+    "cupcakes",
+    "cupcake",
+    "fairy cakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "1 hr 30 min",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "egg",
+    "milk"
+   ],
+   "ingredients": [
+    "1 1/2 cups (190 g) all-purpose flour",
+    "1 1/2 teaspoons baking powder",
+    "1/4 teaspoon salt",
+    "1/2 cup (115 g) butter, softened",
+    "3/4 cup (150 g) sugar",
+    "2 large eggs",
+    "2 teaspoons vanilla extract",
+    "1/2 cup (120 ml) milk",
+    "Frosting: 1/2 cup (115 g) soft butter, 2 cups (240 g) powdered sugar, 2 tablespoons milk, 1 teaspoon vanilla"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with paper liners.",
+    "Whisk the flour, baking powder and salt in a bowl.",
+    "Beat the butter and sugar in a big bowl until light and fluffy.",
+    "Beat in the eggs and vanilla.",
+    "Mix in half the flour mix, then the milk, then the rest of the flour mix.",
+    "Fill each liner about 2/3 full.",
+    "Bake for 18 to 20 minutes, until a toothpick in the middle comes out clean.",
+    "Let cool for 1 hour.",
+    "Beat the frosting ingredients until smooth and spread it on the cupcakes."
+   ]
+  },
+  {
+   "id": "banana-muffins",
+   "name": "Banana muffins",
+   "aliases": [
+    "banana muffins",
+    "banana muffin",
+    "muffins",
+    "muffin"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "40 min",
+   "main": [
+    "banana",
+    "flour",
+    "egg",
+    "butter",
+    "sugar"
+   ],
+   "ingredients": [
+    "3 ripe bananas",
+    "1/3 cup (75 g) butter, melted",
+    "3/4 cup (150 g) sugar or brown sugar",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon ground cinnamon",
+    "1/4 teaspoon salt",
+    "1 1/2 cups (190 g) all-purpose flour"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Line a 12-cup muffin pan with paper liners.",
+    "Mash the bananas in a big bowl with a fork.",
+    "Stir in the melted butter, sugar, egg and vanilla.",
+    "Sprinkle the baking soda, cinnamon and salt over the mix and stir.",
+    "Stir in the flour until just combined.",
+    "Spoon the batter into the liners, about 3/4 full.",
+    "Bake for 20 to 25 minutes, until a toothpick in the middle comes out clean.",
+    "Let cool for 10 minutes in the pan."
+   ]
+  },
+  {
+   "id": "sugar-cookies",
+   "name": "Sugar cookies",
+   "aliases": [
+    "sugar cookies",
+    "sugar cookie",
+    "soft sugar cookies",
+    "butter cookies"
+   ],
+   "category": "Dessert",
+   "servings": 48,
+   "time": "30 min",
+   "main": [
+    "flour",
+    "butter",
+    "sugar",
+    "egg"
+   ],
+   "ingredients": [
+    "2 3/4 cups (345 g) all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon baking powder",
+    "1/4 teaspoon salt",
+    "1 cup (225 g) butter, softened",
+    "1 1/2 cups (300 g) sugar",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "1/4 cup (50 g) extra sugar for rolling"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Whisk the flour, baking soda, baking powder and salt in a bowl.",
+    "Beat the butter and sugar in a big bowl until smooth.",
+    "Beat in the egg and vanilla.",
+    "Slowly stir in the flour mix.",
+    "Roll the dough into 1 tablespoon balls and roll each ball in the extra sugar.",
+    "Set them 2 inches apart on an ungreased baking sheet.",
+    "Bake for 8 to 10 minutes, until the edges are just light golden.",
+    "Let cool for 2 minutes on the sheet.",
+    "Move the cookies to a wire rack."
+   ]
+  },
+  {
+   "id": "crispy-rice-treats",
+   "name": "Crispy rice treats",
+   "aliases": [
+    "crispy rice treats",
+    "rice crispy treats",
+    "rice crispy treat",
+    "marshmallow treats",
+    "crispy treats"
+   ],
+   "category": "Dessert",
+   "servings": 24,
+   "time": "15 min plus cooling",
+   "main": [
+    "marshmallow",
+    "cereal",
+    "butter"
+   ],
+   "ingredients": [
+    "3 tablespoons (45 g) butter, plus more for the pan",
+    "1 bag (10 oz / 283 g) mini marshmallows, about 6 cups",
+    "6 cups (160 g) crispy rice cereal"
+   ],
+   "steps": [
+    "Grease a 9 by 13 inch pan with butter.",
+    "Melt the butter in a big pot over low heat.",
+    "Add the marshmallows and cook for 3 to 4 minutes, stirring, until melted.",
+    "Take the pot off the heat.",
+    "Stir in the cereal until it is all coated.",
+    "Press the mix evenly into the pan with a buttered spatula.",
+    "Let cool for 30 minutes.",
+    "Cut into 24 squares. Ask an adult to help."
+   ]
+  },
+  {
+   "id": "no-bake-cheesecake",
+   "name": "No-bake cheesecake",
+   "aliases": [
+    "no-bake cheesecake",
+    "no bake cheesecake",
+    "cheesecake",
+    "cheesecakes",
+    "easy cheesecake"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "20 min plus 6 hr chilling",
+   "main": [
+    "cream cheese",
+    "cream",
+    "graham cracker",
+    "butter",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 1/2 cups (150 g) graham cracker crumbs",
+    "6 tablespoons (85 g) butter, melted",
+    "2 tablespoons sugar",
+    "16 oz (450 g) cream cheese, softened",
+    "2/3 cup (80 g) powdered sugar",
+    "1 teaspoon vanilla extract",
+    "1 tablespoon lemon juice",
+    "1 cup (240 ml) cold heavy cream",
+    "Berries to serve (optional)"
+   ],
+   "steps": [
+    "Mix the cracker crumbs, melted butter and sugar in a bowl.",
+    "Press the crumbs firmly into the bottom and sides of a 9 inch pie plate.",
+    "Chill for 15 minutes.",
+    "Whip the cold cream in a bowl until it holds stiff peaks.",
+    "In another bowl, beat the cream cheese, powdered sugar, vanilla and lemon juice until smooth.",
+    "Gently fold the whipped cream into the cream cheese mix.",
+    "Spread the filling over the crust.",
+    "Chill for 6 hours, until firm.",
+    "Slice and top with berries. Ask an adult to help."
+   ]
+  },
+  {
+   "id": "apple-crumble",
+   "name": "Apple crumble",
+   "aliases": [
+    "apple crumble",
+    "apple crisp",
+    "apple crumbles",
+    "crumble",
+    "apple crisps"
+   ],
+   "category": "Dessert",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "apple",
+    "oat",
+    "flour",
+    "butter",
+    "sugar"
+   ],
+   "ingredients": [
+    "6 medium apples (about 2 lb / 900 g)",
+    "2 tablespoons sugar",
+    "1 tablespoon lemon juice",
+    "1 teaspoon ground cinnamon",
+    "1 tablespoon all-purpose flour",
+    "Topping: 1 cup (125 g) all-purpose flour",
+    "1/2 cup (45 g) rolled oats",
+    "1/2 cup (100 g) packed brown sugar",
+    "1/2 teaspoon ground cinnamon",
+    "1 pinch salt",
+    "1/2 cup (115 g) cold butter, cut in cubes"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Peel the apples, cut out the cores and slice them thin.",
+    "Toss the apples with the sugar, lemon juice, cinnamon and flour in an 8 by 8 inch baking dish.",
+    "Mix the topping flour, oats, brown sugar, cinnamon and salt in a bowl.",
+    "Rub the butter into the topping with your fingertips until it looks like crumbs.",
+    "Sprinkle the topping over the apples.",
+    "Bake for 40 to 45 minutes, until golden and bubbling.",
+    "Let cool for 10 minutes before serving."
+   ]
+  },
+  {
+   "id": "chocolate-cake",
+   "name": "Chocolate cake",
+   "aliases": [
+    "chocolate cake",
+    "chocolate cakes",
+    "choc cake",
+    "chocolate layer cake",
+    "chocolate birthday cake",
+    "birthday cake",
+    "cake",
+    "cakes"
+   ],
+   "category": "Dessert",
+   "servings": 12,
+   "time": "2 hr (with cooling)",
+   "main": [
+    "cocoa",
+    "flour",
+    "sugar",
+    "egg",
+    "milk",
+    "butter"
+   ],
+   "ingredients": [
+    "2 cups (400 g) sugar",
+    "1 3/4 cups (220 g) all-purpose flour",
+    "3/4 cup (65 g) unsweetened cocoa powder",
+    "1 1/2 teaspoons baking powder",
+    "1 1/2 teaspoons baking soda",
+    "1 teaspoon salt",
+    "2 large eggs",
+    "1 cup (240 ml) milk",
+    "1/2 cup (120 ml) vegetable oil",
+    "2 teaspoons vanilla extract",
+    "1 cup (240 ml) boiling water",
+    "Frosting: 1/2 cup (115 g) soft butter",
+    "Frosting: 2/3 cup (55 g) unsweetened cocoa powder",
+    "Frosting: 3 cups (360 g) powdered sugar",
+    "Frosting: 1/3 cup (80 ml) milk",
+    "Frosting: 1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Grease two 9 inch round cake pans (or one 9 by 13 inch pan), dust them with flour and line the bottoms with parchment paper.",
+    "In a big bowl, whisk the sugar, flour, cocoa, baking powder, baking soda and salt.",
+    "Add the eggs, milk, oil and vanilla, and beat with a mixer on medium speed for 2 minutes.",
+    "Have an adult pour in the boiling water, and stir it in. The batter will be very thin, and that's normal.",
+    "Pour the batter evenly into the pans.",
+    "Bake for 30 to 35 minutes, until a toothpick in the middle comes out clean. A 9 by 13 inch pan needs 35 to 40 minutes.",
+    "Let the cakes cool in the pans for 10 minutes, then turn them out onto a wire rack.",
+    "Let them cool completely for about 1 hour before frosting, or the frosting will melt.",
+    "For the frosting, beat the soft butter until smooth, then beat in the cocoa.",
+    "Add the powdered sugar a little at a time, with a splash of the milk between each, until it's thick and spreadable. Stir in the vanilla.",
+    "Put one cake on a plate, spread frosting on top, add the second cake, then frost the top and sides."
+   ]
+  },
+  {
+   "id": "chocolate-mug-cake",
+   "name": "Chocolate mug cake",
+   "aliases": [
+    "mug cake",
+    "chocolate mug cake",
+    "microwave cake",
+    "mug cakes",
+    "cake in a mug"
+   ],
+   "category": "Dessert",
+   "servings": 1,
+   "time": "5 min",
+   "main": [
+    "chocolate",
+    "flour",
+    "sugar",
+    "milk"
+   ],
+   "ingredients": [
+    "1/4 cup (30 g) all-purpose flour",
+    "2 tablespoons unsweetened cocoa powder",
+    "2 to 3 tablespoons sugar",
+    "1/4 teaspoon baking powder",
+    "1 pinch salt",
+    "3 tablespoons milk",
+    "2 tablespoons vegetable oil",
+    "1/4 teaspoon vanilla extract",
+    "1 tablespoon chocolate chips"
+   ],
+   "steps": [
+    "Get out a big microwave-safe mug, at least 12 oz (350 ml).",
+    "Stir the flour, cocoa, sugar, baking powder and salt in the mug with a fork.",
+    "Add the milk, oil and vanilla and stir until there are no dry spots.",
+    "Drop the chocolate chips on top.",
+    "Microwave for 70 to 90 seconds, until the top looks set.",
+    "Let cool for 2 minutes. The mug will be hot."
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "Homemade lemonade",
+   "aliases": [
+    "lemonade",
+    "homemade lemonade",
+    "fresh lemonade",
+    "lemonades",
+    "lemon drink"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "15 min plus chilling",
+   "main": [
+    "lemon",
+    "sugar",
+    "water"
+   ],
+   "ingredients": [
+    "1 cup (200 g) sugar",
+    "1 cup (240 ml) water for the syrup",
+    "1 cup (240 ml) fresh lemon juice, from 5 to 6 lemons",
+    "4 cups (950 ml) cold water",
+    "Ice and lemon slices to serve"
+   ],
+   "steps": [
+    "Put the sugar and 1 cup of water in a small pot.",
+    "Heat over medium heat for 3 to 5 minutes, stirring, until the sugar dissolves.",
+    "Let cool for 20 minutes.",
+    "Cut the lemons in half. Ask an adult to help.",
+    "Squeeze the juice and pour it through a strainer to catch the seeds.",
+    "Pour the syrup, lemon juice and cold water into a pitcher and stir.",
+    "Chill for 1 hour.",
+    "Serve over ice with lemon slices."
+   ]
+  },
+  {
+   "id": "hot-chocolate",
+   "name": "Hot chocolate",
+   "aliases": [
+    "hot chocolate",
+    "hot cocoa",
+    "cocoa",
+    "hot chocolates",
+    "drinking chocolate"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "milk",
+    "cocoa",
+    "chocolate",
+    "sugar"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) milk",
+    "2 tablespoons unsweetened cocoa powder",
+    "2 to 3 tablespoons sugar",
+    "1 pinch salt",
+    "1/4 cup (45 g) chocolate chips (optional)",
+    "1/4 teaspoon vanilla extract",
+    "Marshmallows or whipped cream to serve"
+   ],
+   "steps": [
+    "Whisk the cocoa, sugar, salt and a splash of the milk in a small pot into a smooth paste.",
+    "Whisk in the rest of the milk.",
+    "Heat over medium heat for 4 to 5 minutes, whisking, until steaming. Do not let it boil.",
+    "Stir in the chocolate chips and vanilla until melted.",
+    "Pour into mugs and top with marshmallows or whipped cream."
+   ]
+  },
+  {
+   "id": "bread-rolls",
+   "name": "Soft dinner rolls",
+   "aliases": [
+    "dinner rolls",
+    "bread rolls",
+    "rolls",
+    "bread dough",
+    "homemade rolls",
+    "bread roll"
+   ],
+   "category": "Baking",
+   "servings": 12,
+   "time": "2 hr 15 min",
+   "main": [
+    "flour",
+    "yeast",
+    "milk",
+    "butter",
+    "egg"
+   ],
+   "ingredients": [
+    "3 1/2 cups (440 g) all-purpose or bread flour, plus more if sticky",
+    "1 packet (2 1/4 teaspoons / 7 g) instant yeast",
+    "2 tablespoons sugar",
+    "1 teaspoon salt",
+    "1 cup (240 ml) warm milk (110°F / 43°C)",
+    "1 large egg",
+    "3 tablespoons (45 g) butter, softened",
+    "1 tablespoon melted butter for brushing"
+   ],
+   "steps": [
+    "Mix the flour, yeast, sugar and salt in a big bowl.",
+    "Add the warm milk, egg and soft butter and stir into a shaggy dough.",
+    "Knead on a floured counter for 8 to 10 minutes, until smooth and springy.",
+    "Put the dough in a greased bowl and cover it.",
+    "Let rise for 1 hour, until doubled.",
+    "Grease a 9 by 13 inch pan, divide the dough into 12 pieces and roll each into a ball in the pan.",
+    "Cover and let rise for 30 to 45 minutes, until puffy.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Bake for 20 to 25 minutes, until golden brown.",
+    "Brush the hot rolls with melted butter."
+   ]
+  }
+ ]
+}

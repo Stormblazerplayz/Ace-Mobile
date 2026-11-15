@@ -1,0 +1,22 @@
+# tag: tech.android
+how do i take a screenshot on android | android screenshot buttons => On most Android phones, press the power and volume down buttons at the same time. Samsung phones also let you swipe the edge of your hand across the screen if Palm swipe is on.
+how do i screen record on android | android screen recorder => Swipe down twice from the top to open Quick Settings and tap Screen record. If it's missing, tap the pencil to edit tiles and drag it in.
+how do i update my android phone | android software update => Open Settings, then System, Software update (or Software update directly on Samsung), and tap Check for update.
+how do i free up space on android | android storage full => Open Settings, Storage to see what uses space. The Files by Google app also finds junk files, duplicates and big videos to delete.
+how do i turn on developer options android | build number tap 7 times => Open Settings, About phone, and tap Build number seven times. Developer options then appear in System settings. Don't change settings there unless you know what they do.
+how do i transfer files from android to pc | android usb file transfer => Plug the phone in with USB, swipe down the notification that says charging via USB, and choose File transfer. The phone then shows in File Explorer.
+how do i find my lost android phone | google find my device => Go to google.com/android/find or use the Find Hub (Find My Device) app on another phone, signed in with the same Google account. You can ring it, lock it or see it on a map.
+how do i back up my android phone | google one backup => Open Settings, Google, Backup (or System, Backup) and turn on Backup by Google One. It saves apps, contacts, settings and, with Google Photos, your pictures.
+how do i install apps safely on android | should i install apk files => Use the Google Play Store. Installing APK files from random websites can bring malware, so leave Install unknown apps turned off.
+how do i turn off google assistant or gemini button | stop assistant on power button => Open Settings and search Side button or Press and hold power button, then change what the long press does.
+how do i set up digital wellbeing | android screen time => Open Settings, Digital Wellbeing and parental controls. It shows screen time and lets you set app timers and a Bedtime mode.
+what is family link | google family link => Family Link is Google's app for parents to manage a kid's Android or Chromebook, with screen time limits, app approvals and location.
+how do i force restart an android phone | android phone frozen => Press and hold the power button for 10 to 30 seconds. On many Samsung phones, hold power and volume down together until it restarts.
+how do i clear app cache on android | app keeps crashing android => Open Settings, Apps, pick the app, Storage, and tap Clear cache. Clear storage resets the app completely and may sign you out.
+how do i connect my android to my windows pc | phone link android => Install the Phone Link app on Windows and Link to Windows on Android, then sign in to the same Microsoft account to see texts and photos on the PC.
+how do i use quick share on android | send files to nearby android => Open a file, tap Share, then Quick Share, and pick the nearby device. Quick Share also works with Windows PCs that have the Quick Share app.
+what is samsung dex | phone as a computer samsung => DeX turns some Samsung phones and tablets into a desktop-style screen with windows when connected to a monitor or used on the tablet itself.
+how do i change the default apps on android | default browser android => Open Settings, Apps, Default apps, and pick the browser, phone app or launcher you want.
+how do i check battery health on android | android battery info => It depends on the phone. Many show it in Settings, Battery, Battery health. On Samsung, the Samsung Members app can run a battery test.
+what is a chromebook | chromebook vs laptop => A Chromebook runs ChromeOS, which is mostly built around the Chrome browser, web apps and Android apps. It's simple and cheap but can't run most Windows programs or big PC games.
+how do i screenshot on a chromebook | chromebook screenshot keys => Press Ctrl + Show windows (the key with boxes) for a full screenshot, or Ctrl + Shift + Show windows to open the screen capture tool.

@@ -1,0 +1,81 @@
+# More geometry: triangle centers and theorems, parallel lines, circles, quadrilateral properties, constructions, symmetry. Written by hand.
+# tag: school.math.triangles
+triangle median definition | median in geometry => A median of a triangle is a segment from a corner to the midpoint of the opposite side. Every triangle has three, and they meet at the centroid.
+what is a centroid | center of mass of a triangle | where do the medians meet => The centroid is where a triangle's three medians meet. It's the balance point, and it sits 2/3 of the way from each corner to the opposite side's midpoint.
+what is a circumcenter | where do perpendicular bisectors meet | center of the circumscribed circle => The circumcenter is where the perpendicular bisectors of a triangle's sides meet. It's the same distance from all three corners, so it's the center of the circle through them.
+what is an incenter | where do angle bisectors meet in a triangle | center of the inscribed circle => The incenter is where a triangle's three angle bisectors meet. It's the same distance from all three sides, so it's the center of the circle that fits inside.
+what is an orthocenter | where do the altitudes meet | orthocenter of a triangle => The orthocenter is where a triangle's three altitudes (or their extensions) meet. In a right triangle it's at the right-angle corner.
+what are the 4 centers of a triangle | triangle centers | centroid circumcenter incenter orthocenter => The main ones are the centroid (medians), circumcenter (perpendicular bisectors), incenter (angle bisectors) and orthocenter (altitudes). In an equilateral triangle all four are the same point.
+what is a midsegment of a triangle | triangle midsegment theorem | midline of a triangle => A midsegment joins the midpoints of two sides. It's parallel to the third side and exactly half as long.
+what is sss | side side side congruence | sss rule triangles => SSS says that if all three sides of one triangle equal the three sides of another, the triangles are congruent.
+what is sas | side angle side congruence | sas rule triangles => SAS says two triangles are congruent if two sides and the angle between them match.
+what is asa | asa rule triangles => ASA says two triangles are congruent if two angles and the side between them match.
+what is aas | aas rule triangles => AAS says two triangles are congruent if two angles and a side not between them match.
+what is hl theorem | hypotenuse leg theorem | hl congruence => HL says two right triangles are congruent if their hypotenuses match and one pair of legs match.
+why doesn't ssa prove congruence | is ssa a congruence rule | why is there no ass rule => SSA (two sides and an angle not between them) doesn't always work, because the third side can swing to make two different triangles. The one exception is right triangles, covered by HL.
+what is cpctc | corresponding parts of congruent triangles | what does cpctc stand for => CPCTC means "Corresponding Parts of Congruent Triangles are Congruent". Once you prove two triangles congruent, you can say their matching sides and angles are equal.
+what is the isosceles triangle theorem | base angles theorem | are the base angles of an isosceles triangle equal => Yes. In an isosceles triangle, the two angles opposite the equal sides (the base angles) are equal, and the reverse is also true.
+why do the angles of a triangle add up to 180 | proof triangle angles 180 | triangle angle sum proof => Draw a line through one corner parallel to the opposite side. The three angles along that line match the triangle's angles (alternate angles) and make a straight line, which is 180°.
+what is the hinge theorem | longer side opposite bigger angle => In any triangle, the longest side is opposite the largest angle and the shortest side is opposite the smallest angle.
+# tag: school.math.parallel-lines
+what angles are equal when lines are parallel | parallel lines angle rules | angles formed by a transversal => When a transversal crosses two parallel lines, corresponding angles are equal, alternate interior angles are equal, alternate exterior angles are equal, and same-side interior angles add to 180°.
+what are alternate exterior angles | define alternate exterior angles | alternate exterior angles equal => Alternate exterior angles are outside the two lines and on opposite sides of the transversal. When the lines are parallel, they are equal.
+what are same side interior angles | co interior angles | consecutive interior angles => Same-side (co-interior) angles are between the two lines on the same side of the transversal. When the lines are parallel, they add up to 180°.
+what are f z and c angles | z angles | f angles c angles => They're nicknames from the letter shapes: F angles are corresponding (equal), Z angles are alternate (equal), and C or U angles are co-interior (add to 180°), when the lines are parallel.
+how do you prove lines are parallel | converse of corresponding angles | how to show two lines are parallel => Show that a pair of corresponding or alternate angles is equal, or that same-side interior angles add to 180°. Then the lines must be parallel.
+# tag: school.math.circles
+what is the tangent radius theorem | is a tangent perpendicular to the radius | tangent and radius angle => A tangent to a circle is perpendicular to the radius at the point where it touches, so they make a 90° angle.
+what is the two tangent theorem | tangents from a point | are two tangents from a point equal => Two tangent segments drawn to a circle from the same outside point are equal in length.
+inscribed angle half the central angle | angle at the center is twice => An inscribed angle is half the central angle that cuts off the same arc. If the central angle is 80°, the inscribed angle is 40°.
+what are angles in the same segment | angles subtended by the same arc | inscribed angles on the same arc => Inscribed angles that cut off the same arc are equal.
+what is a secant | define secant line | secant of a circle => A secant is a line that crosses a circle at two points. The part inside the circle is a chord.
+what is a segment of a circle | circle segment vs sector | define segment of a circle => A segment of a circle is the region between a chord and its arc. A sector is a "pizza slice" between two radii.
+what is a major and minor arc | major arc vs minor arc | define minor arc => A minor arc is less than half the circle (under 180°); a major arc is more than half. A semicircle is exactly 180°.
+what is an annulus | shape between two circles | ring shape area => An annulus is the ring between two circles with the same center. Its area is π(R² - r²), the big circle's area minus the small one's.
+how many degrees is a quarter circle | what is a quadrant of a circle | quarter circle area => A quarter circle (quadrant) is 90° of the circle, and its area is πr²/4.
+does a perpendicular from the center bisect a chord | chord bisector theorem | perpendicular to a chord => Yes. A line from a circle's center perpendicular to a chord cuts the chord exactly in half.
+# tag: school.math.quadrilaterals
+what are the properties of a parallelogram | parallelogram rules | parallelogram diagonals => In a parallelogram, opposite sides are parallel and equal, opposite angles are equal, neighboring angles add to 180°, and the diagonals cut each other in half.
+what are the properties of a rectangle | do rectangle diagonals bisect each other => A rectangle has four right angles and opposite sides equal and parallel. Its diagonals are equal in length and bisect each other.
+what are the properties of a rhombus | rhombus diagonals | are rhombus diagonals perpendicular => A rhombus has four equal sides and opposite sides parallel. Its diagonals bisect each other at right angles and also bisect the corner angles.
+what are the properties of a square | square properties geometry => A square has four equal sides and four right angles. Its diagonals are equal, cross at right angles, bisect each other, and split the corners into 45° angles.
+what are the properties of a kite | kite diagonals | kite angles => A kite has two pairs of equal neighboring sides. Its diagonals are perpendicular, and one pair of opposite angles is equal.
+what is an isosceles trapezoid | isosceles trapezoid properties | trapezoid with equal legs => An isosceles trapezoid has non-parallel sides (legs) of equal length. Its base angles are equal and its diagonals are equal.
+quadrilateral angle sum | angles in a 4 sided shape => The four angles of any quadrilateral add up to 360°, because a diagonal splits it into two triangles of 180° each.
+is a square a rhombus | is a rhombus a square | is every square a rhombus => Every square is a rhombus (four equal sides), but a rhombus is a square only if its angles are right angles.
+is a rectangle a parallelogram | is a square a parallelogram | is a rhombus a parallelogram => Yes, rectangles, squares and rhombuses are all parallelograms, since both pairs of opposite sides are parallel.
+what is the quadrilateral family tree | quadrilateral hierarchy | how are quadrilaterals related => Parallelograms include rectangles and rhombuses, and a square is both a rectangle and a rhombus. Trapezoids and kites are separate branches (in the usual US definition, a trapezoid has exactly one pair of parallel sides).
+what is the difference between a trapezoid and a trapezium | trapezium meaning | trapezium vs trapezoid => In the US a trapezoid has one pair of parallel sides. In the UK and many other countries, that same shape is called a trapezium.
+# tag: school.math.constructions
+what is a geometric construction | compass and straightedge | what tools do you use for constructions => A construction is drawing shapes exactly using only a compass and a straightedge (a ruler without using its markings).
+how do you bisect a line segment with a compass | how to find the middle of a line with a compass => Open the compass wider than half the segment. Draw arcs above and below from each end, then join the two points where the arcs cross. That line bisects the segment at a right angle.
+how do you bisect an angle with a compass | construct an angle bisector | how to cut an angle in half => From the vertex, draw an arc crossing both arms. From those two points, draw arcs that cross inside the angle. A line from the vertex through that crossing bisects the angle.
+how do you construct an equilateral triangle | equilateral triangle with a compass | draw an equilateral triangle construction => Draw a segment AB. With the compass set to AB, draw arcs from A and from B; they cross at C. Join A, B and C.
+how do you construct a hexagon in a circle | hexagon with a compass | draw a regular hexagon => Draw a circle and keep the same compass width. Step around the circle marking arcs; it fits exactly six times. Join the six points.
+how do you construct a 60 degree angle | 60 degree angle with a compass | construct a 30 degree angle => Draw an arc from the vertex, then an arc of the same size from where it crosses the line. Joining the vertex to the crossing gives 60°. Bisect it to get 30°.
+how do you construct a perpendicular from a point | perpendicular line through a point | drop a perpendicular => From the point, draw an arc that crosses the line twice. From those two crossings, draw arcs that meet on the other side. Join the point to that meeting point.
+# tag: school.math.symmetry
+how many lines of symmetry does a square have | lines of symmetry in a square | square symmetry => A square has 4 lines of symmetry: 2 through opposite corners and 2 through the midpoints of opposite sides. Its rotational symmetry is order 4.
+how many lines of symmetry does a rectangle have | rectangle symmetry | lines of symmetry rectangle => A non-square rectangle has 2 lines of symmetry, through the midpoints of opposite sides. Its diagonals are not lines of symmetry.
+how many lines of symmetry does a circle have | circle symmetry | does a circle have infinite lines of symmetry => A circle has infinitely many lines of symmetry: every line through its center works.
+how many lines of symmetry does an equilateral triangle have | equilateral triangle symmetry | triangle lines of symmetry => An equilateral triangle has 3 lines of symmetry and rotational symmetry of order 3. An isosceles triangle has 1, and a scalene triangle has none.
+how many lines of symmetry does a regular polygon have | regular polygon symmetry rule | lines of symmetry in a hexagon => A regular polygon with n sides has n lines of symmetry and rotational symmetry of order n. A regular hexagon has 6 of each.
+how many lines of symmetry does a parallelogram have | does a parallelogram have symmetry | parallelogram rotational symmetry => A parallelogram that isn't a rectangle or rhombus has no lines of symmetry, but it has rotational symmetry of order 2.
+what is order of rotational symmetry | how do you find order of rotation | rotational symmetry order => It's how many times a shape looks the same during one full turn. A square looks the same 4 times, so its order is 4. A shape with no rotational symmetry has order 1.
+what is plane symmetry | symmetry in 3d shapes | how many planes of symmetry does a cube have => Plane symmetry means a 3D shape can be sliced into two mirror halves. A cube has 9 planes of symmetry.
+# tag: school.math.shapes
+what is an ellipse | define ellipse | oval vs ellipse => An ellipse is a stretched circle: the set of points whose distances to two fixed points (foci) add to the same total. "Oval" is a looser everyday word for egg-like shapes.
+what is a semicircle | define semicircle | half a circle shape => A semicircle is half a circle, cut along a diameter. Its curved edge is half the circumference.
+what is a crescent shape | crescent moon shape | crescent in math => A crescent is the curved shape left when one circle overlaps part of another, like a thin Moon.
+what is a cone | define cone shape | cone in math => A cone has a circular base and a curved surface that narrows to a point called the apex, like an ice cream cone. Its volume is ⅓πr²h.
+what is a hemisphere in math | define hemisphere shape | half a sphere => A hemisphere is half a sphere, cut through its center. Its volume is 2/3πr³.
+what is a torus | donut shape in math | define torus => A torus is a donut or ring shape, made by spinning a circle around a line that doesn't cross it.
+what is a frustum | cut off cone | define frustum => A frustum is what's left of a cone or pyramid when the top is sliced off parallel to the base, like a lampshade or bucket.
+what is a net of a 3d shape | how do you draw a net | define net in math => A net is a flat pattern that folds up into a 3D shape. A cube has 11 different nets, each made of 6 squares.
+what is the difference between 2d and 3d shapes | 2d vs 3d | flat vs solid shapes => 2D shapes are flat, with length and width only, like squares and circles. 3D shapes are solid, with length, width and height, like cubes and spheres.
+what is a cuboid | cuboid vs rectangular prism | define cuboid => A cuboid is another name for a rectangular prism, a box with 6 rectangular faces.
+12 sided shape name | twelve sided polygon => A dodecagon is a polygon with 12 sides. Each angle of a regular dodecagon is 150°.
+what is a golden rectangle | golden rectangle ratio | how to make a golden rectangle => A golden rectangle has sides in the golden ratio, about 1.618 to 1. Cutting a square off one end leaves a smaller golden rectangle.
+how do scale factors affect area and volume | scale factor area volume | if you double the sides what happens to area => If lengths are multiplied by k, areas are multiplied by k² and volumes by k³. Doubling every side makes the area 4 times and the volume 8 times bigger.
+what are 3d coordinates | x y z axes | how do you plot a point in 3d => 3D coordinates add a third axis, z, for height or depth. A point is written (x, y, z), like (2, 3, 5).
+how do you find the distance on a number line | distance between two numbers | distance between negative numbers => Subtract and take the absolute value. The distance between -3 and 5 is |5 - (-3)| = 8.

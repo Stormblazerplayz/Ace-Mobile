@@ -1,0 +1,5 @@
+# tag: tech.tv.extra
+what is acr on a smart tv | does my tv track what i watch => Many smart TVs use ACR to recognize what's on screen, even from consoles, and use it for ads. Turn off options like viewing information or smart interactivity in the TV's privacy settings.
+can i connect bluetooth headphones to my tv | wireless headphones on tv => Many smart TVs support Bluetooth headphones in their sound settings. Older ones may need a Bluetooth transmitter plugged into the headphone or optical port.
+what is a 4k blu ray | is blu ray better than streaming => A 4K Blu-ray disc holds much more data than a stream, so picture and sound look better in dark or fast scenes. It needs a 4K Blu-ray player or an Xbox Series X or PS5 with a disc drive.
+why are only some of my tv's hdmi ports 120hz | which hdmi port for ps5 => Many TVs have only one or two full HDMI 2.1 ports for 4K 120 Hz. Check labels like 4K 120 or the manual and plug the console or PC into one of those.

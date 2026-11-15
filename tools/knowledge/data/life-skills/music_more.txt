@@ -1,0 +1,35 @@
+# tag: music.instruments
+what is a double bass | upright bass | double bass vs bass guitar => The double bass is the largest, lowest instrument in the string family, played standing or on a tall stool, with a bow or plucked. It's common in orchestras and jazz.
+what is a harp | how many strings does a harp have | pedal harp => A concert pedal harp has 47 strings and seven pedals that change the pitch of strings. Red strings mark C and black or blue strings mark F so harpists can find notes.
+what is an oboe | oboe sound | oboe tuning orchestra => The oboe is a double reed woodwind with a bright, piercing sound. Orchestras usually tune to the oboe's A because its pitch is steady and easy to hear.
+what is a bassoon | bassoon vs oboe | low woodwind => The bassoon is a large double reed woodwind with a low, rich sound. Its tube is about 2.5 m long, folded in half.
+what is a saxophone | is a saxophone brass or woodwind | types of saxophones => The saxophone is a woodwind, even though it's made of brass, because it uses a reed. Common types are soprano, alto, tenor and baritone. It was invented by Adolphe Sax in the 1840s.
+what is a timpani | kettle drums | timpani tuning => Timpani are large kettle shaped drums that can be tuned to specific notes, often using a foot pedal. They're the main drums in an orchestra.
+what is a banjo | banjo sound | banjo strings => A banjo has a round drum like body with a skin head that gives it a bright, twangy sound. It's important in bluegrass, folk and country. Most have 4 or 5 strings.
+what is a mandolin | mandolin vs ukulele | mandolin strings => A mandolin is a small string instrument with 8 strings in 4 pairs, tuned like a violin and played with a pick. It's used in bluegrass and folk.
+what is an accordion | how does an accordion work | accordion music => An accordion has bellows the player squeezes and pulls to push air over metal reeds, with keys or buttons to choose notes. It's used in polka, tango, folk and zydeco.
+what is a didgeridoo | didgeridoo origin | circular breathing => The didgeridoo is a long wooden wind instrument from Aboriginal Australians, at least 1,000 years old. Players use circular breathing to keep a continuous drone.
+what is a djembe | djembe drum | west african drum => The djembe is a goblet shaped hand drum from West Africa. Players hit the center for a deep bass tone and the edge for higher tones and slaps.
+what are tabla drums | tabla india | indian drums => Tabla are a pair of hand drums from India, a smaller wooden one and a larger metal one, played with fingers and palms to create complex rhythms.
+what is a pipe organ | how does a pipe organ work | largest instrument organ => A pipe organ pushes air through pipes of different sizes, each making one pitch. Large organs have thousands of pipes, several keyboards and pedals for the feet.
+what is an electric drum kit | electronic drums | e drums vs acoustic => Electronic drums use pads with sensors that trigger sounds through a module, so you can play quietly with headphones. They're great for practicing at home.
+what is a guitar amp | guitar amplifier | do electric guitars need an amp => Electric guitars need an amplifier to be heard because their pickups make a small electrical signal. Amps can add effects like distortion and reverb.
+what are guitar pedals | effects pedals | distortion pedal => Guitar pedals change the sound, like distortion and overdrive for grit, delay for echoes, reverb for space, wah for vowel sounds, and chorus for a shimmery effect.
+what is a pickup on a guitar | single coil vs humbucker | guitar pickups => Pickups are magnets wrapped in wire that turn string vibrations into an electrical signal. Single coil pickups sound bright, and humbuckers sound fuller and less noisy.
+what is a 12 string guitar | 12 string guitar sound | twelve string => A 12 string guitar has six pairs of strings, giving a full, shimmering sound. The lower pairs include an octave string.
+what is a left handed guitar | can lefties play guitar | left handed instruments => Left handed guitars are mirror images of regular ones. Some lefties play right handed or restring a regular guitar upside down. Many famous guitarists were lefties.
+# tag: music.genres
+what is bluegrass | bluegrass music | bluegrass instruments => Bluegrass is American roots music from Appalachia, played on acoustic instruments like banjo, fiddle, mandolin, guitar and upright bass, with fast picking and high harmonies.
+what is soul music | soul music history | motown => Soul music grew from gospel and R&B in the 1950s and 1960s. Motown, a Detroit record label, produced hits by artists like Stevie Wonder, The Supremes and Marvin Gaye.
+what is funk music | funk music history | funk bass => Funk, from the 1960s and 1970s, focuses on a strong groove, syncopated bass lines and tight rhythms. James Brown is called the Godfather of Soul and helped create funk.
+what is disco | disco music | disco era => Disco was dance music popular in the 1970s with a steady four on the floor beat, strings and lush production, played in dance clubs.
+what is grunge | grunge music | seattle sound => Grunge was a rock style from Seattle in the late 1980s and early 1990s, with distorted guitars and angsty lyrics. Nirvana and Pearl Jam were leading bands.
+what is indie music | indie meaning | indie vs mainstream => Indie originally meant music released by independent labels instead of major ones. It now also describes a range of alternative styles.
+what is house music | techno vs house | electronic dance genres => House music started in Chicago in the 1980s with a four on the floor beat around 120 to 130 BPM. Techno started in Detroit and tends to be more mechanical and repetitive.
+what is dubstep | dubstep music | wobble bass => Dubstep is an electronic genre from London in the early 2000s, known for heavy bass, wobbly sounds and half time drums, usually around 140 BPM.
+what is drum and bass | dnb music | jungle music => Drum and bass is an electronic genre from the UK with fast breakbeat drums around 160 to 180 BPM and deep bass lines.
+what is synthwave | retrowave | 80s inspired music => Synthwave is electronic music inspired by 1980s movie soundtracks and video games, using vintage synth sounds.
+what is afrobeats | afrobeats music | african pop => Afrobeats is a popular music style from West Africa, especially Nigeria and Ghana, mixing African rhythms with pop, hip hop and dancehall. Artists like Burna Boy and Wizkid are well known.
+what is reggaeton | reggaeton beat | dembow rhythm => Reggaeton is a Latin music style from Puerto Rico and Panama with a dembow drum rhythm, mixing reggae, hip hop and Latin music. Bad Bunny and Daddy Yankee are famous artists.
+what is ska | ska music | ska upbeat => Ska began in Jamaica in the late 1950s, with an upbeat rhythm stressing the offbeat, and led to rocksteady and reggae.
+what is opera singing | opera voice | why opera singers are loud => Opera singers train to project over a full orchestra without microphones, using strong breath support and resonance. Operas are often sung in Italian, German or French.

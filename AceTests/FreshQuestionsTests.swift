@@ -11,6 +11,7 @@ final class FreshQuestionsTests: XCTestCase {
         let file = try JSONDecoder().decode(SmartnessTests.CaseFile.self, from: Data(contentsOf: url))
         XCTAssertEqual(file.cases.count, 50)
         let brain = Brain()
+        brain.bank.loadKnowledgeNow()
         var score = 0
         var misses: [String] = []
         for c in file.cases {

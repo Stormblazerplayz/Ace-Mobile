@@ -1,0 +1,2513 @@
+{
+ "questions": [
+  {
+   "id": "technology-1195",
+   "category": "Technology",
+   "q": "Which princess does Mario often rescue?",
+   "choices": [
+    "Princess Rosalina",
+    "Princess Zelda",
+    "Princess Peach",
+    "Princess Daisy"
+   ],
+   "answer": 2,
+   "fact": "In some older games outside Japan, she was called Princess Toadstool."
+  },
+  {
+   "id": "technology-1196",
+   "category": "Technology",
+   "q": "What is the name of the hero in The Legend of Zelda games?",
+   "choices": [
+    "Zelda",
+    "Ganon",
+    "Link",
+    "Navi"
+   ],
+   "answer": 2,
+   "fact": "Lots of people mix them up, but Zelda is the princess, not the hero."
+  },
+  {
+   "id": "technology-1197",
+   "category": "Technology",
+   "q": "In which fictional kingdom are most Legend of Zelda games set?",
+   "choices": [
+    "Hyrule",
+    "Mushroom Kingdom",
+    "Kanto",
+    "Dream Land"
+   ],
+   "answer": 0,
+   "fact": "Hyrule's map is very different in almost every Zelda game."
+  },
+  {
+   "id": "technology-1198",
+   "category": "Technology",
+   "q": "Which blue hedgehog is Sega's mascot?",
+   "choices": [
+    "Knuckles",
+    "Tails",
+    "Sonic",
+    "Shadow"
+   ],
+   "answer": 2,
+   "fact": "Sonic's blue color was chosen to match Sega's logo."
+  },
+  {
+   "id": "technology-1199",
+   "category": "Technology",
+   "q": "What is the name of the red ghost in Pac-Man?",
+   "choices": [
+    "Clyde",
+    "Pinky",
+    "Inky",
+    "Blinky"
+   ],
+   "answer": 3,
+   "fact": "Blinky chases Pac-Man directly, while each other ghost has its own way of hunting him."
+  },
+  {
+   "id": "technology-1200",
+   "category": "Technology",
+   "q": "What is said to have inspired Pac-Man's shape?",
+   "choices": [
+    "A coin",
+    "A cookie",
+    "A pizza with a slice missing",
+    "A full moon"
+   ],
+   "answer": 2,
+   "fact": "Designer Toru Iwatani said the pizza idea came to him at lunch."
+  },
+  {
+   "id": "technology-1201",
+   "category": "Technology",
+   "q": "In which country was Tetris created, in 1985?",
+   "choices": [
+    "United States",
+    "United Kingdom",
+    "Soviet Union",
+    "Japan"
+   ],
+   "answer": 2,
+   "fact": "Alexey Pajitnov created Tetris, and the name mixes \"tetra\", meaning four, with tennis, his favorite sport."
+  },
+  {
+   "id": "technology-1202",
+   "category": "Technology",
+   "q": "Which Pokémon is number 001 in the National Pokédex?",
+   "choices": [
+    "Charmander",
+    "Mew",
+    "Bulbasaur",
+    "Pikachu"
+   ],
+   "answer": 2,
+   "fact": "Bulbasaur is a Grass and Poison type."
+  },
+  {
+   "id": "technology-1203",
+   "category": "Technology",
+   "q": "What type of Pokémon is Pikachu?",
+   "choices": [
+    "Electric",
+    "Fairy",
+    "Normal",
+    "Fire"
+   ],
+   "answer": 0,
+   "fact": "Pikachu's name mixes Japanese sounds for a spark and a mouse squeak."
+  },
+  {
+   "id": "technology-1204",
+   "category": "Technology",
+   "q": "Who created Pokémon, inspired by his childhood hobby of collecting bugs?",
+   "choices": [
+    "Satoshi Tajiri",
+    "Masahiro Sakurai",
+    "Shigeru Miyamoto",
+    "Hideo Kojima"
+   ],
+   "answer": 0,
+   "fact": "Satoshi Tajiri liked the idea of trading creatures between two Game Boys using a link cable."
+  },
+  {
+   "id": "technology-1205",
+   "category": "Technology",
+   "q": "Which game designer created Super Mario and The Legend of Zelda?",
+   "choices": [
+    "Satoshi Tajiri",
+    "Shigeru Miyamoto",
+    "Hideo Kojima",
+    "Gunpei Yokoi"
+   ],
+   "answer": 1,
+   "fact": "Miyamoto said Zelda was inspired by exploring caves and forests as a kid."
+  },
+  {
+   "id": "technology-1206",
+   "category": "Technology",
+   "q": "Which company makes Fortnite?",
+   "choices": [
+    "Mojang",
+    "Activision",
+    "Epic Games",
+    "Valve"
+   ],
+   "answer": 2,
+   "fact": "In Fortnite Battle Royale, players jump out of a flying Battle Bus to start each match."
+  },
+  {
+   "id": "technology-1207",
+   "category": "Technology",
+   "q": "Which popular game engine is made by Epic Games?",
+   "choices": [
+    "Unreal Engine",
+    "Source",
+    "Unity",
+    "Godot"
+   ],
+   "answer": 0,
+   "fact": "Unreal Engine is also used to make TV shows and movies."
+  },
+  {
+   "id": "technology-1208",
+   "category": "Technology",
+   "q": "Which game engine uses the C# programming language for scripts?",
+   "choices": [
+    "GameMaker",
+    "Unreal Engine",
+    "Unity",
+    "Godot"
+   ],
+   "answer": 2,
+   "fact": "Hit games like Among Us and Hollow Knight were made with Unity."
+  },
+  {
+   "id": "technology-1209",
+   "category": "Technology",
+   "q": "Which free, open-source game engine uses its own language called GDScript?",
+   "choices": [
+    "Godot",
+    "Unity",
+    "Unreal Engine",
+    "CryEngine"
+   ],
+   "answer": 0,
+   "fact": "GDScript looks a lot like Python."
+  },
+  {
+   "id": "technology-1210",
+   "category": "Technology",
+   "q": "Which video game series stars a super soldier called Master Chief?",
+   "choices": [
+    "Call of Duty",
+    "Halo",
+    "Destiny",
+    "Gears of War"
+   ],
+   "answer": 1,
+   "fact": "The first Halo game launched with the original Xbox in 2001."
+  },
+  {
+   "id": "technology-1211",
+   "category": "Technology",
+   "q": "In what year was the Nintendo Switch 2 released?",
+   "choices": [
+    "2024",
+    "2023",
+    "2025",
+    "2026"
+   ],
+   "answer": 2,
+   "fact": "The original Nintendo Switch came out in 2017."
+  },
+  {
+   "id": "technology-1212",
+   "category": "Technology",
+   "q": "Which simple tennis-like game from 1972 was one of the first hit video games?",
+   "choices": [
+    "Space Invaders",
+    "Tetris",
+    "Asteroids",
+    "Pong"
+   ],
+   "answer": 3,
+   "fact": "Pong was made by Atari, and its first test machine stopped working because it was stuffed with coins."
+  },
+  {
+   "id": "technology-1213",
+   "category": "Technology",
+   "q": "In what year did the original Game Boy come out in Japan?",
+   "choices": [
+    "1999",
+    "1989",
+    "1985",
+    "1995"
+   ],
+   "answer": 1,
+   "fact": "Tetris came packed with the Game Boy in many countries."
+  },
+  {
+   "id": "technology-1214",
+   "category": "Technology",
+   "q": "What does NES stand for?",
+   "choices": [
+    "New Electronic Screen",
+    "Nintendo Extra Station",
+    "Next Era System",
+    "Nintendo Entertainment System"
+   ],
+   "answer": 3,
+   "fact": "In Japan, the NES was called the Famicom, short for Family Computer."
+  },
+  {
+   "id": "technology-1215",
+   "category": "Technology",
+   "q": "Which pink Nintendo hero can inhale enemies and copy their powers?",
+   "choices": [
+    "Jigglypuff",
+    "Yoshi",
+    "Kirby",
+    "Toad"
+   ],
+   "answer": 2,
+   "fact": "Kirby's creator first drew him as a placeholder, but the team liked him so much they kept him."
+  },
+  {
+   "id": "technology-1216",
+   "category": "Technology",
+   "q": "Which Nintendo game series has you live in a village or on an island with animal neighbors?",
+   "choices": [
+    "Animal Crossing",
+    "Pikmin",
+    "Splatoon",
+    "Kirby"
+   ],
+   "answer": 0,
+   "fact": "Animal Crossing runs on a real-time clock, so holidays in the game match real holidays."
+  },
+  {
+   "id": "technology-1217",
+   "category": "Technology",
+   "q": "Which company runs the Steam game store for PC?",
+   "choices": [
+    "Microsoft",
+    "Valve",
+    "Ubisoft",
+    "Epic Games"
+   ],
+   "answer": 1,
+   "fact": "Steam launched in 2003, first as a way to update Valve's own games."
+  },
+  {
+   "id": "technology-1218",
+   "category": "Technology",
+   "q": "Which company made the hit game Among Us?",
+   "choices": [
+    "Epic Games",
+    "Nintendo",
+    "Mojang",
+    "Innersloth"
+   ],
+   "answer": 3,
+   "fact": "Among Us came out in 2018 but became hugely popular in 2020."
+  },
+  {
+   "id": "technology-1219",
+   "category": "Technology",
+   "q": "What is the name of Nintendo's green dinosaur who often carries Mario?",
+   "choices": [
+    "Yoshi",
+    "Rex",
+    "Bowser",
+    "Dino"
+   ],
+   "answer": 0,
+   "fact": "Yoshi can stick out his long tongue to eat enemies and turn them into eggs."
+  },
+  {
+   "id": "technology-1220",
+   "category": "Technology",
+   "q": "What is the name of the spiky turtle king who keeps kidnapping Princess Peach?",
+   "choices": [
+    "Ganon",
+    "Bowser",
+    "Eggman",
+    "Wario"
+   ],
+   "answer": 1,
+   "fact": "In Japan, Bowser is called King Koopa."
+  },
+  {
+   "id": "technology-1221",
+   "category": "Technology",
+   "q": "Which villain in the Sonic games is a mad scientist with a big mustache?",
+   "choices": [
+    "Doctor Eggman",
+    "Bowser",
+    "Ganondorf",
+    "Doctor Wily"
+   ],
+   "answer": 0,
+   "fact": "Doctor Eggman's original name outside Japan was Dr. Robotnik."
+  },
+  {
+   "id": "technology-1222",
+   "category": "Technology",
+   "q": "In which video game do players go to Hogwarts?",
+   "choices": [
+    "Zelda",
+    "Fable",
+    "Elden Ring",
+    "Hogwarts Legacy"
+   ],
+   "answer": 3,
+   "fact": "Hogwarts Legacy is set in the 1800s, long before Harry Potter's time."
+  },
+  {
+   "id": "technology-1223",
+   "category": "Technology",
+   "q": "Which Japanese company makes the Pokémon video games with Game Freak?",
+   "choices": [
+    "Capcom",
+    "Sony",
+    "Nintendo",
+    "Sega"
+   ],
+   "answer": 2,
+   "fact": "The Pokémon Company is partly owned by Nintendo, Game Freak and Creatures."
+  },
+  {
+   "id": "technology-1224",
+   "category": "Technology",
+   "q": "Which arcade game from 1978 had players shoot at rows of descending aliens?",
+   "choices": [
+    "Space Invaders",
+    "Pac-Man",
+    "Galaga",
+    "Asteroids"
+   ],
+   "answer": 0,
+   "fact": "Space Invaders was so popular in Japan that it was said to cause a shortage of 100 yen coins, a claim many now doubt."
+  },
+  {
+   "id": "technology-1225",
+   "category": "Technology",
+   "q": "Which video game console line is made by Sega and included the Genesis?",
+   "choices": [
+    "Atari",
+    "Nintendo",
+    "Sony",
+    "Sega"
+   ],
+   "answer": 3,
+   "fact": "The Genesis was called the Mega Drive outside North America."
+  },
+  {
+   "id": "technology-1226",
+   "category": "Technology",
+   "q": "In Among Us, what are the players secretly trying to kill the crew called?",
+   "choices": [
+    "Impostors",
+    "Spies",
+    "Traitors",
+    "Aliens"
+   ],
+   "answer": 0,
+   "fact": "Crewmates win by finishing tasks or voting out every impostor."
+  },
+  {
+   "id": "technology-1227",
+   "category": "Technology",
+   "q": "In Fortnite, what is winning a Battle Royale match called?",
+   "choices": [
+    "Top Spot",
+    "Victory Royale",
+    "Final Stand",
+    "Battle Crown"
+   ],
+   "answer": 1,
+   "fact": "Up to 100 players drop onto the island at the start of a match."
+  },
+  {
+   "id": "technology-1228",
+   "category": "Technology",
+   "q": "In Super Mario games, what item makes Mario bigger?",
+   "choices": [
+    "Super Mushroom",
+    "Feather",
+    "Super Star",
+    "Fire Flower"
+   ],
+   "answer": 0,
+   "fact": "The Super Star makes Mario invincible for a short time."
+  },
+  {
+   "id": "technology-1229",
+   "category": "Technology",
+   "q": "In The Legend of Zelda: Breath of the Wild, what is the main villain called?",
+   "choices": [
+    "Calamity Ganon",
+    "Majora",
+    "Dark Link",
+    "Vaati"
+   ],
+   "answer": 0,
+   "fact": "Breath of the Wild was released in 2017 alongside the Nintendo Switch."
+  },
+  {
+   "id": "technology-1230",
+   "category": "Technology",
+   "q": "Which classic falling-block puzzle game has pieces called tetrominoes?",
+   "choices": [
+    "Candy Crush",
+    "Dr. Mario",
+    "Puyo Puyo",
+    "Tetris"
+   ],
+   "answer": 3,
+   "fact": "Every tetromino is made of exactly four squares."
+  },
+  {
+   "id": "technology-1231",
+   "category": "Technology",
+   "q": "What does FDM stand for in 3D printing?",
+   "choices": [
+    "Filament drawing machine",
+    "Full detail mode",
+    "Fused deposition modeling",
+    "Fast digital making"
+   ],
+   "answer": 2,
+   "fact": "FDM printers build objects one thin layer of melted plastic at a time."
+  },
+  {
+   "id": "technology-1232",
+   "category": "Technology",
+   "q": "Which popular 3D printing plastic is made from plants like corn?",
+   "choices": [
+    "ABS",
+    "Nylon",
+    "PLA",
+    "PETG"
+   ],
+   "answer": 2,
+   "fact": "PLA melts at a lower temperature than most other printing plastics, so it's easy to print."
+  },
+  {
+   "id": "technology-1233",
+   "category": "Technology",
+   "q": "Which file type is most often used to share 3D models for printing?",
+   "choices": [
+    "DOCX",
+    "MP3",
+    "GIF",
+    "STL"
+   ],
+   "answer": 3,
+   "fact": "STL files describe a model's surface using lots of tiny triangles."
+  },
+  {
+   "id": "technology-1234",
+   "category": "Technology",
+   "q": "What is the software that turns a 3D model into instructions for a 3D printer called?",
+   "choices": [
+    "Slicer",
+    "Compiler",
+    "Renderer",
+    "Browser"
+   ],
+   "answer": 0,
+   "fact": "Slicers cut the model into hundreds of thin layers."
+  },
+  {
+   "id": "technology-1235",
+   "category": "Technology",
+   "q": "What is the instruction language most 3D printers read?",
+   "choices": [
+    "HTML",
+    "Morse code",
+    "G-code",
+    "QR code"
+   ],
+   "answer": 2,
+   "fact": "G-code was first made for computer-controlled milling machines."
+  },
+  {
+   "id": "technology-1236",
+   "category": "Technology",
+   "q": "In 3D printing, what is infill?",
+   "choices": [
+    "The pattern printed inside a part",
+    "The color of the plastic",
+    "The printer's cooling fan",
+    "The glue on the bed"
+   ],
+   "answer": 0,
+   "fact": "Less infill saves plastic and time, but makes parts weaker."
+  },
+  {
+   "id": "technology-1237",
+   "category": "Technology",
+   "q": "Which free, open-source program is popular for 3D modeling and animation?",
+   "choices": [
+    "Excel",
+    "Blender",
+    "Paint",
+    "Photoshop"
+   ],
+   "answer": 1,
+   "fact": "Blender has been used to make animated short films and even parts of big movies."
+  },
+  {
+   "id": "technology-1238",
+   "category": "Technology",
+   "q": "Which company makes the video editing program DaVinci Resolve?",
+   "choices": [
+    "Blackmagic Design",
+    "Apple",
+    "Adobe",
+    "Microsoft"
+   ],
+   "answer": 0,
+   "fact": "DaVinci Resolve started as a professional tool for adjusting colors in films."
+  },
+  {
+   "id": "technology-1239",
+   "category": "Technology",
+   "q": "At how many frames per second are most movies filmed?",
+   "choices": [
+    "24",
+    "120",
+    "10",
+    "60"
+   ],
+   "answer": 0,
+   "fact": "Movie cameras have used about 24 frames per second since the late 1920s."
+  },
+  {
+   "id": "technology-1240",
+   "category": "Technology",
+   "q": "In video editing, what does rendering mean?",
+   "choices": [
+    "Taking photos",
+    "Deleting clips",
+    "Creating the final video file",
+    "Recording sound"
+   ],
+   "answer": 2,
+   "fact": "Rendering can take a long time for long videos with lots of effects."
+  },
+  {
+   "id": "technology-1241",
+   "category": "Technology",
+   "q": "What is a drone with four spinning rotors called?",
+   "choices": [
+    "Helicopter",
+    "Quadcopter",
+    "Biplane",
+    "Tricopter"
+   ],
+   "answer": 1,
+   "fact": "Quadcopters steer by changing how fast each of their four rotors spins."
+  },
+  {
+   "id": "technology-1242",
+   "category": "Technology",
+   "q": "What does FPV mean in drone flying?",
+   "choices": [
+    "First-person view",
+    "Fast propeller velocity",
+    "Flight power value",
+    "Full panoramic video"
+   ],
+   "answer": 0,
+   "fact": "FPV pilots wear goggles that show live video from the drone's camera."
+  },
+  {
+   "id": "technology-1243",
+   "category": "Technology",
+   "q": "Which company makes the Galaxy line of smartphones?",
+   "choices": [
+    "Sony",
+    "Apple",
+    "Google",
+    "Samsung"
+   ],
+   "answer": 3,
+   "fact": "Samsung started in 1938 as a small trading company selling dried fish and vegetables."
+  },
+  {
+   "id": "technology-1244",
+   "category": "Technology",
+   "q": "Which robot vacuum, first sold in 2002, became one of the best-known home robots?",
+   "choices": [
+    "Tidy Bot",
+    "VacuuMax",
+    "Dyson Ball",
+    "Roomba"
+   ],
+   "answer": 3,
+   "fact": "Roomba was made by iRobot, a company that also built robots for exploring and bomb disposal."
+  },
+  {
+   "id": "technology-1245",
+   "category": "Technology",
+   "q": "In what year were barcodes first used to scan a product at a store checkout?",
+   "choices": [
+    "1974",
+    "1984",
+    "1994",
+    "1954"
+   ],
+   "answer": 0,
+   "fact": "The first item scanned was a pack of chewing gum in Ohio."
+  },
+  {
+   "id": "technology-1246",
+   "category": "Technology",
+   "q": "In which country was the QR code invented?",
+   "choices": [
+    "United States",
+    "Japan",
+    "South Korea",
+    "Germany"
+   ],
+   "answer": 1,
+   "fact": "QR codes were first made in 1994 to track car parts, and QR stands for Quick Response."
+  },
+  {
+   "id": "technology-1247",
+   "category": "Technology",
+   "q": "Who is Bluetooth wireless technology named after?",
+   "choices": [
+    "Its inventor",
+    "A blue whale",
+    "A dentist",
+    "A Viking king"
+   ],
+   "answer": 3,
+   "fact": "King Harald Bluetooth united parts of Denmark and Norway, and the logo mixes his initials in runes."
+  },
+  {
+   "id": "technology-1248",
+   "category": "Technology",
+   "q": "Who helped invent the Game Boy and also created the Metroid series?",
+   "choices": [
+    "Shigeru Miyamoto",
+    "Satoshi Tajiri",
+    "Gunpei Yokoi",
+    "Hideo Kojima"
+   ],
+   "answer": 2,
+   "fact": "Gunpei Yokoi's idea was to use older, cheaper technology in clever new ways."
+  },
+  {
+   "id": "technology-1249",
+   "category": "Technology",
+   "q": "Which company made the Walkman, a portable music player from 1979?",
+   "choices": [
+    "Nintendo",
+    "Apple",
+    "Panasonic",
+    "Sony"
+   ],
+   "answer": 3,
+   "fact": "The first Walkman played cassette tapes and had two headphone jacks so friends could share."
+  },
+  {
+   "id": "technology-1250",
+   "category": "Technology",
+   "q": "Which Apple music player, released in 2001, could hold \"1,000 songs in your pocket\"?",
+   "choices": [
+    "iPod",
+    "iMac",
+    "iPhone",
+    "Apple TV"
+   ],
+   "answer": 0,
+   "fact": "The iPod's famous click wheel let people scroll through long song lists."
+  },
+  {
+   "id": "technology-1251",
+   "category": "Technology",
+   "q": "Which company makes Chromebooks' operating system, ChromeOS?",
+   "choices": [
+    "Apple",
+    "Dell",
+    "Google",
+    "Microsoft"
+   ],
+   "answer": 2,
+   "fact": "Chromebooks are popular in schools because they are cheap and easy to manage."
+  },
+  {
+   "id": "technology-1252",
+   "category": "Technology",
+   "q": "What is the name of Android's app store?",
+   "choices": [
+    "Microsoft Store",
+    "Google Play",
+    "Steam",
+    "App Store"
+   ],
+   "answer": 1,
+   "fact": "Google Play used to be called the Android Market."
+  },
+  {
+   "id": "technology-1253",
+   "category": "Technology",
+   "q": "What does a computer's cooling fan mainly do?",
+   "choices": [
+    "Makes the computer faster",
+    "Removes heat from parts",
+    "Cleans the dust",
+    "Charges the battery"
+   ],
+   "answer": 1,
+   "fact": "If dust clogs the fans, a computer can get hot and slow down."
+  },
+  {
+   "id": "technology-1254",
+   "category": "Technology",
+   "q": "What is a \"bug\" in a video game that players use to do something unintended called, like walking through walls?",
+   "choices": [
+    "Power-up",
+    "Easter egg",
+    "Glitch",
+    "Cheat code"
+   ],
+   "answer": 2,
+   "fact": "Speedrunners often use glitches to finish games as fast as possible."
+  },
+  {
+   "id": "technology-1255",
+   "category": "Technology",
+   "q": "What is a hidden surprise or secret message put in a game or app on purpose called?",
+   "choices": [
+    "Glitch",
+    "Mod",
+    "Patch",
+    "Easter egg"
+   ],
+   "answer": 3,
+   "fact": "One of the first famous Easter eggs was a hidden room in the 1980 Atari game Adventure."
+  },
+  {
+   "id": "technology-1256",
+   "category": "Technology",
+   "q": "What is a fan-made change or add-on to a video game called?",
+   "choices": [
+    "Mod",
+    "Demo",
+    "Port",
+    "Patch"
+   ],
+   "answer": 0,
+   "fact": "Minecraft Java Edition has a huge modding community."
+  },
+  {
+   "id": "technology-1257",
+   "category": "Technology",
+   "q": "What is an update that fixes bugs in a game or app called?",
+   "choices": [
+    "Skin",
+    "Mod",
+    "Clone",
+    "Patch"
+   ],
+   "answer": 3,
+   "fact": "The name comes from the old days, when programmers literally patched holes in punched paper tape."
+  },
+  {
+   "id": "technology-1258",
+   "category": "Technology",
+   "q": "What is playing through a game as fast as possible called?",
+   "choices": [
+    "Farming",
+    "Speedrunning",
+    "Grinding",
+    "Camping"
+   ],
+   "answer": 1,
+   "fact": "Some speedrunners hold world records measured down to the thousandth of a second."
+  },
+  {
+   "id": "technology-1259",
+   "category": "Technology",
+   "q": "In video games, what is repeating the same task over and over to earn experience or items called?",
+   "choices": [
+    "Glitching",
+    "Modding",
+    "Grinding",
+    "Speedrunning"
+   ],
+   "answer": 2,
+   "fact": "Many RPGs need a little grinding to make your character strong enough for a boss."
+  },
+  {
+   "id": "technology-1260",
+   "category": "Technology",
+   "q": "What does it mean to \"respawn\" in a video game?",
+   "choices": [
+    "Restart the console",
+    "Come back to life after being defeated",
+    "Pause the game",
+    "Change your character's outfit"
+   ],
+   "answer": 1,
+   "fact": "Many games give you a few seconds of protection right after you respawn."
+  },
+  {
+   "id": "technology-1261",
+   "category": "Technology",
+   "q": "Which German engineer built the Z3 in 1941, one of the first programmable computers?",
+   "choices": [
+    "Alan Turing",
+    "John von Neumann",
+    "Konrad Zuse",
+    "Charles Babbage"
+   ],
+   "answer": 2,
+   "fact": "Konrad Zuse built some of his early computers in his parents' living room."
+  },
+  {
+   "id": "technology-1262",
+   "category": "Technology",
+   "q": "What was Colossus, built in Britain during World War II?",
+   "choices": [
+    "A giant tank",
+    "A radar tower",
+    "An early electronic computer for breaking codes",
+    "A battleship"
+   ],
+   "answer": 2,
+   "fact": "Colossus was kept secret for decades after the war."
+  },
+  {
+   "id": "technology-1263",
+   "category": "Technology",
+   "q": "What does the computer word \"bit\" come from?",
+   "choices": [
+    "Basic item",
+    "Big integer",
+    "Byte item",
+    "Binary digit"
+   ],
+   "answer": 3,
+   "fact": "A bit can only be 0 or 1."
+  },
+  {
+   "id": "technology-1264",
+   "category": "Technology",
+   "q": "Which Apple computer, launched in 1984, helped make the mouse popular?",
+   "choices": [
+    "Apple II",
+    "iMac",
+    "Macintosh",
+    "Lisa Pro"
+   ],
+   "answer": 2,
+   "fact": "The Macintosh was introduced with a famous Super Bowl TV ad."
+  },
+  {
+   "id": "technology-1265",
+   "category": "Technology",
+   "q": "In what year did Microsoft release the first version of Windows?",
+   "choices": [
+    "2001",
+    "1995",
+    "1985",
+    "1975"
+   ],
+   "answer": 2,
+   "fact": "Windows 95 later made the Start button famous."
+  },
+  {
+   "id": "technology-1266",
+   "category": "Technology",
+   "q": "Which company makes the Firefox web browser?",
+   "choices": [
+    "Apple",
+    "Mozilla",
+    "Microsoft",
+    "Google"
+   ],
+   "answer": 1,
+   "fact": "The name Firefox is another name for the red panda."
+  },
+  {
+   "id": "technology-1267",
+   "category": "Technology",
+   "q": "What was the name of the very first web browser?",
+   "choices": [
+    "Internet Explorer",
+    "WorldWideWeb",
+    "Netscape",
+    "Mosaic"
+   ],
+   "answer": 1,
+   "fact": "Tim Berners-Lee wrote it in 1990 and later renamed it Nexus."
+  },
+  {
+   "id": "technology-1268",
+   "category": "Technology",
+   "q": "At which European research lab was the World Wide Web invented?",
+   "choices": [
+    "Bell Labs",
+    "CERN",
+    "NASA",
+    "MIT"
+   ],
+   "answer": 1,
+   "fact": "CERN is on the border of France and Switzerland and is also famous for its giant particle collider."
+  },
+  {
+   "id": "technology-1269",
+   "category": "Technology",
+   "q": "What is the # symbol called when it's used to tag topics on social media?",
+   "choices": [
+    "Hashtag",
+    "Sharp",
+    "Number sign",
+    "Pound tag"
+   ],
+   "answer": 0,
+   "fact": "The first hashtag on Twitter was suggested in 2007."
+  },
+  {
+   "id": "technology-1270",
+   "category": "Technology",
+   "q": "Who came up with the word \"meme\" in 1976, long before internet memes?",
+   "choices": [
+    "Tim Berners-Lee",
+    "Elon Musk",
+    "Mark Zuckerberg",
+    "Richard Dawkins"
+   ],
+   "answer": 3,
+   "fact": "Dawkins used it to describe ideas that spread from person to person."
+  },
+  {
+   "id": "technology-1271",
+   "category": "Technology",
+   "q": "What are web cookies?",
+   "choices": [
+    "Snacks for programmers",
+    "Computer viruses",
+    "Pop-up ads",
+    "Small files websites save in your browser"
+   ],
+   "answer": 3,
+   "fact": "Cookies help websites remember things like your login and settings."
+  },
+  {
+   "id": "technology-1272",
+   "category": "Technology",
+   "q": "What is a CAPTCHA meant to check?",
+   "choices": [
+    "Your password strength",
+    "Your age",
+    "Your internet speed",
+    "That you are a human, not a bot"
+   ],
+   "answer": 3,
+   "fact": "The T in CAPTCHA stands for Turing, after the computer scientist Alan Turing."
+  },
+  {
+   "id": "technology-1273",
+   "category": "Technology",
+   "q": "What does Mbps stand for when measuring internet speed?",
+   "choices": [
+    "Million bytes per screen",
+    "Megabits per second",
+    "Mega bandwidth per second",
+    "Megabytes per second"
+   ],
+   "answer": 1,
+   "fact": "There are 8 bits in a byte, so 80 Mbps downloads about 10 megabytes each second."
+  },
+  {
+   "id": "technology-1274",
+   "category": "Technology",
+   "q": "How does fiber optic cable carry data?",
+   "choices": [
+    "As radio signals",
+    "As pulses of light through thin glass",
+    "As sound waves",
+    "As water pressure"
+   ],
+   "answer": 1,
+   "fact": "A single fiber optic strand is about as thin as a human hair."
+  },
+  {
+   "id": "technology-1275",
+   "category": "Technology",
+   "q": "How does most internet data travel between continents?",
+   "choices": [
+    "Through cables on the ocean floor",
+    "By airplane",
+    "Through satellites only",
+    "Through radio towers on islands"
+   ],
+   "answer": 0,
+   "fact": "Hundreds of undersea cables cross the world's oceans."
+  },
+  {
+   "id": "technology-1276",
+   "category": "Technology",
+   "q": "What does the G stand for in 5G phone networks?",
+   "choices": [
+    "Generation",
+    "Global",
+    "Gadget",
+    "Gigabyte"
+   ],
+   "answer": 0,
+   "fact": "5G is the fifth generation of mobile networks."
+  },
+  {
+   "id": "technology-1277",
+   "category": "Technology",
+   "q": "Which company makes the Kindle e-reader?",
+   "choices": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Sony"
+   ],
+   "answer": 0,
+   "fact": "The first Kindle sold out in about five and a half hours in 2007."
+  },
+  {
+   "id": "technology-1278",
+   "category": "Technology",
+   "q": "What does VR stand for?",
+   "choices": [
+    "Virtual reality",
+    "Video recorder",
+    "Very real",
+    "Visual replay"
+   ],
+   "answer": 0,
+   "fact": "VR headsets show a slightly different picture to each eye to create a 3D effect."
+  },
+  {
+   "id": "technology-1279",
+   "category": "Technology",
+   "q": "What kind of technology adds digital images on top of the real world, like in Pokémon GO?",
+   "choices": [
+    "Holography",
+    "Augmented reality",
+    "Artificial intelligence",
+    "Virtual reality"
+   ],
+   "answer": 1,
+   "fact": "Pokémon GO came out in 2016 and was made by a company called Niantic."
+  },
+  {
+   "id": "technology-1280",
+   "category": "Technology",
+   "q": "What does a LiDAR sensor on a self-driving car use to measure distance?",
+   "choices": [
+    "Magnets",
+    "Pulses of laser light",
+    "Sound waves",
+    "Heat"
+   ],
+   "answer": 1,
+   "fact": "Some iPhone Pro and iPad Pro models have a small LiDAR sensor too."
+  },
+  {
+   "id": "technology-1281",
+   "category": "Technology",
+   "q": "Which kind of rechargeable battery is used in most phones and laptops?",
+   "choices": [
+    "Alkaline",
+    "Lead-acid",
+    "Nickel-cadmium",
+    "Lithium-ion"
+   ],
+   "answer": 3,
+   "fact": "The 2019 Nobel Prize in Chemistry was given for developing lithium-ion batteries."
+  },
+  {
+   "id": "technology-1282",
+   "category": "Technology",
+   "q": "Which Hollywood actress also helped invent a radio technique that later helped make Wi-Fi and Bluetooth possible?",
+   "choices": [
+    "Judy Garland",
+    "Hedy Lamarr",
+    "Marilyn Monroe",
+    "Audrey Hepburn"
+   ],
+   "answer": 1,
+   "fact": "Hedy Lamarr's frequency-hopping idea was patented in 1942."
+  },
+  {
+   "id": "technology-1283",
+   "category": "Technology",
+   "q": "Which 1962 game, made at MIT, was one of the first video games?",
+   "choices": [
+    "Spacewar!",
+    "Asteroids",
+    "Pong",
+    "Tetris"
+   ],
+   "answer": 0,
+   "fact": "Spacewar! ran on a computer that was about the size of a few refrigerators."
+  },
+  {
+   "id": "technology-1284",
+   "category": "Technology",
+   "q": "Which famously bad 1982 Atari game had its cartridges buried in a New Mexico landfill?",
+   "choices": [
+    "Pac-Man",
+    "Pitfall!",
+    "E.T. the Extra-Terrestrial",
+    "Space Invaders"
+   ],
+   "answer": 2,
+   "fact": "Diggers found the buried cartridges in 2014, and some sold as collector's items."
+  },
+  {
+   "id": "technology-1285",
+   "category": "Technology",
+   "q": "Which famous button code starts with up, up, down, down?",
+   "choices": [
+    "Nintendo Code",
+    "Cheat Chain",
+    "Konami Code",
+    "Arcade Combo"
+   ],
+   "answer": 2,
+   "fact": "The full code is up, up, down, down, left, right, left, right, B, A."
+  },
+  {
+   "id": "technology-1286",
+   "category": "Technology",
+   "q": "What does D-pad stand for on a game controller?",
+   "choices": [
+    "Digital pad",
+    "Directional pad",
+    "Dual pad",
+    "Double pad"
+   ],
+   "answer": 1,
+   "fact": "The cross-shaped D-pad was first used on Nintendo's Game and Watch handhelds."
+  },
+  {
+   "id": "technology-1287",
+   "category": "Technology",
+   "q": "In Roblox, what is an obby?",
+   "choices": [
+    "An obstacle course game",
+    "A building tool",
+    "A type of pet",
+    "A trading system"
+   ],
+   "answer": 0,
+   "fact": "Obbies are some of the most popular games for new Roblox creators to build."
+  },
+  {
+   "id": "technology-1288",
+   "category": "Technology",
+   "q": "In Roblox Studio, which service stores objects that both the server and players' devices can see?",
+   "choices": [
+    "ReplicatedStorage",
+    "ServerScriptService",
+    "ServerStorage",
+    "StarterPack"
+   ],
+   "answer": 0,
+   "fact": "ModuleScripts that both sides need are often kept in ReplicatedStorage."
+  },
+  {
+   "id": "technology-1289",
+   "category": "Technology",
+   "q": "In Roblox, which event fires when a new player joins the game?",
+   "choices": [
+    "Workspace.Spawned",
+    "Players.PlayerAdded",
+    "Players.PlayerJoined",
+    "game.Started"
+   ],
+   "answer": 1,
+   "fact": "Scripts often use PlayerAdded to set up leaderboards and saved data."
+  },
+  {
+   "id": "technology-1290",
+   "category": "Technology",
+   "q": "In Roblox, which event fires when something touches a part?",
+   "choices": [
+    "Hit",
+    "Touched",
+    "Collided",
+    "Clicked"
+   ],
+   "answer": 1,
+   "fact": "Touched is often used for lava blocks, checkpoints and coins."
+  },
+  {
+   "id": "technology-1291",
+   "category": "Technology",
+   "q": "In Roblox Lua, what does the word \"local\" do before a variable?",
+   "choices": [
+    "Saves it forever",
+    "Makes the variable only exist in that part of the code",
+    "Deletes it",
+    "Makes it visible to all players"
+   ],
+   "answer": 1,
+   "fact": "Using local variables makes scripts faster and avoids naming mix-ups."
+  },
+  {
+   "id": "technology-1292",
+   "category": "Technology",
+   "q": "Which Roblox service is used to save player data between game sessions?",
+   "choices": [
+    "MemoryService",
+    "DataStoreService",
+    "PlayerDataService",
+    "SaveService"
+   ],
+   "answer": 1,
+   "fact": "DataStores can't be used in Studio unless you turn on API access in the game settings."
+  },
+  {
+   "id": "technology-1293",
+   "category": "Technology",
+   "q": "In Roblox, what must a folder inside a player be named for its values to show on the built-in leaderboard?",
+   "choices": [
+    "leaderstats",
+    "playerstats",
+    "stats",
+    "scoreboard"
+   ],
+   "answer": 0,
+   "fact": "The name has to be all lowercase, exactly \"leaderstats\"."
+  },
+  {
+   "id": "technology-1294",
+   "category": "Technology",
+   "q": "In Lua, what do two dots (..) do between two strings?",
+   "choices": [
+    "Divide them",
+    "Compare them",
+    "Join them together",
+    "Comment them out"
+   ],
+   "answer": 2,
+   "fact": "For example, \"Hello \" .. \"Storm\" makes \"Hello Storm\"."
+  },
+  {
+   "id": "technology-1295",
+   "category": "Technology",
+   "q": "In Lua, which value means \"nothing\" or \"no value\"?",
+   "choices": [
+    "nil",
+    "void",
+    "null",
+    "none"
+   ],
+   "answer": 0,
+   "fact": "Setting a table entry to nil removes it from the table."
+  },
+  {
+   "id": "technology-1296",
+   "category": "Technology",
+   "q": "In Lua, what does ~= mean?",
+   "choices": [
+    "Equal to",
+    "Not equal to",
+    "Greater than",
+    "About equal to"
+   ],
+   "answer": 1,
+   "fact": "Many other languages use != for not equal instead."
+  },
+  {
+   "id": "technology-1297",
+   "category": "Technology",
+   "q": "In Lua, what does the # symbol in front of a table or string give you?",
+   "choices": [
+    "Its length",
+    "Its type",
+    "Its first item",
+    "A comment"
+   ],
+   "answer": 0,
+   "fact": "For example, #\"hello\" is 5."
+  },
+  {
+   "id": "technology-1298",
+   "category": "Technology",
+   "q": "In Roblox Lua, what does task.wait(1) do?",
+   "choices": [
+    "Ends the script",
+    "Repeats the code once",
+    "Waits for 1 player",
+    "Pauses the script for about 1 second"
+   ],
+   "answer": 3,
+   "fact": "task.wait replaced the older wait function because it is more accurate."
+  },
+  {
+   "id": "technology-1299",
+   "category": "Technology",
+   "q": "In Roblox, what does a CFrame store?",
+   "choices": [
+    "A player's name",
+    "A sound",
+    "A color",
+    "A position and a rotation"
+   ],
+   "answer": 3,
+   "fact": "CFrame is short for coordinate frame."
+  },
+  {
+   "id": "technology-1300",
+   "category": "Technology",
+   "q": "In Roblox, what three numbers does a Vector3 hold?",
+   "choices": [
+    "Red, green and blue",
+    "Width, color and speed",
+    "X, Y and Z",
+    "Health, speed and jump"
+   ],
+   "answer": 2,
+   "fact": "In Roblox, Y is the up and down direction."
+  },
+  {
+   "id": "technology-1301",
+   "category": "Technology",
+   "q": "In Roblox, what does setting a part's Transparency to 1 do?",
+   "choices": [
+    "Makes it solid",
+    "Makes it bounce",
+    "Makes it glow",
+    "Makes it invisible"
+   ],
+   "answer": 3,
+   "fact": "A Transparency of 0 is fully solid, and 0.5 is half see-through."
+  },
+  {
+   "id": "technology-1302",
+   "category": "Technology",
+   "q": "In Roblox, what happens when a part's CanCollide is set to false?",
+   "choices": [
+    "It can't be clicked",
+    "It turns invisible",
+    "It falls through the floor",
+    "Things can pass through it"
+   ],
+   "answer": 3,
+   "fact": "Pair CanCollide false with Anchored true to make a ghost block that floats."
+  },
+  {
+   "id": "technology-1303",
+   "category": "Technology",
+   "q": "In Python, what does the len() function give you?",
+   "choices": [
+    "A random number",
+    "The largest number",
+    "The last item",
+    "The length of something, like a list or string"
+   ],
+   "answer": 3,
+   "fact": "len(\"Minecraft\") gives 9."
+  },
+  {
+   "id": "technology-1304",
+   "category": "Technology",
+   "q": "In Python, which keyword is used to create a function?",
+   "choices": [
+    "function",
+    "func",
+    "def",
+    "make"
+   ],
+   "answer": 2,
+   "fact": "def is short for define."
+  },
+  {
+   "id": "technology-1305",
+   "category": "Technology",
+   "q": "In Python, what does the input() function do?",
+   "choices": [
+    "Ends the program",
+    "Prints text",
+    "Gets text typed by the user",
+    "Opens a file"
+   ],
+   "answer": 2,
+   "fact": "input() always gives back text, so you may need int() to turn it into a number."
+  },
+  {
+   "id": "technology-1306",
+   "category": "Technology",
+   "q": "In Python, which brackets are used to make a list?",
+   "choices": [
+    "Angle brackets < >",
+    "Round brackets ( )",
+    "Square brackets [ ]",
+    "Curly braces { }"
+   ],
+   "answer": 2,
+   "fact": "Curly braces in Python make a dictionary or a set."
+  },
+  {
+   "id": "technology-1307",
+   "category": "Technology",
+   "q": "In Python, what does \"import random\" let you do?",
+   "choices": [
+    "Use random numbers and choices",
+    "Speed up your code",
+    "Draw graphics",
+    "Connect to the internet"
+   ],
+   "answer": 0,
+   "fact": "random.randint(1, 6) acts like rolling a die."
+  },
+  {
+   "id": "technology-1308",
+   "category": "Technology",
+   "q": "In Python, what does the % operator give you?",
+   "choices": [
+    "Multiplication",
+    "The remainder after dividing",
+    "A percentage",
+    "A square root"
+   ],
+   "answer": 1,
+   "fact": "10 % 3 gives 1, because 10 divided by 3 leaves 1 left over."
+  },
+  {
+   "id": "technology-1309",
+   "category": "Technology",
+   "q": "In Python, what does // do?",
+   "choices": [
+    "Divides and rounds down to a whole number",
+    "Divides by 2",
+    "Multiplies twice",
+    "Starts a comment"
+   ],
+   "answer": 0,
+   "fact": "7 // 2 gives 3."
+  },
+  {
+   "id": "technology-1310",
+   "category": "Technology",
+   "q": "In Python, what does the keyword elif mean?",
+   "choices": [
+    "Else if",
+    "Exit if",
+    "Every line if",
+    "End loop if"
+   ],
+   "answer": 0,
+   "fact": "You can use as many elif checks as you want after an if."
+  },
+  {
+   "id": "technology-1311",
+   "category": "Technology",
+   "q": "In Swift, which keyword creates a constant that can't change?",
+   "choices": [
+    "var",
+    "const",
+    "fixed",
+    "let"
+   ],
+   "answer": 3,
+   "fact": "In Swift, var creates a variable that can change."
+  },
+  {
+   "id": "technology-1312",
+   "category": "Technology",
+   "q": "What is Apple's framework for building app screens with Swift code called?",
+   "choices": [
+    "AppBuilder",
+    "UIKit Pro",
+    "SwiftUI",
+    "Cocoa Touch Studio"
+   ],
+   "answer": 2,
+   "fact": "SwiftUI was introduced in 2019."
+  },
+  {
+   "id": "technology-1313",
+   "category": "Technology",
+   "q": "What is the name of Apple's app for building iPhone, iPad and Mac apps?",
+   "choices": [
+    "Swift Studio",
+    "Android Studio",
+    "Xcode",
+    "Visual Studio"
+   ],
+   "answer": 2,
+   "fact": "Xcode is free to download on a Mac."
+  },
+  {
+   "id": "technology-1314",
+   "category": "Technology",
+   "q": "Who created the C++ programming language?",
+   "choices": [
+    "Dennis Ritchie",
+    "Guido van Rossum",
+    "James Gosling",
+    "Bjarne Stroustrup"
+   ],
+   "answer": 3,
+   "fact": "Bjarne Stroustrup started working on C++ in 1979."
+  },
+  {
+   "id": "technology-1315",
+   "category": "Technology",
+   "q": "What does HTML stand for?",
+   "choices": [
+    "Home Tool Making Language",
+    "HyperText Markup Language",
+    "Hyperlink Text Machine Language",
+    "High Tech Modern Language"
+   ],
+   "answer": 1,
+   "fact": "HTML uses tags in angle brackets, like <p> for a paragraph."
+  },
+  {
+   "id": "technology-1316",
+   "category": "Technology",
+   "q": "Which HTML tag is used to make a link?",
+   "choices": [
+    "<url>",
+    "<a>",
+    "<link>",
+    "<href>"
+   ],
+   "answer": 1,
+   "fact": "The a stands for anchor."
+  },
+  {
+   "id": "technology-1317",
+   "category": "Technology",
+   "q": "What is SQL used for?",
+   "choices": [
+    "Playing music",
+    "Drawing pictures",
+    "Working with data in databases",
+    "Building game levels"
+   ],
+   "answer": 2,
+   "fact": "SQL stands for Structured Query Language."
+  },
+  {
+   "id": "technology-1318",
+   "category": "Technology",
+   "q": "What is JSON?",
+   "choices": [
+    "A video format",
+    "A programming language for robots",
+    "A type of computer virus",
+    "A text format for storing and sharing data"
+   ],
+   "answer": 3,
+   "fact": "JSON stands for JavaScript Object Notation, and it uses curly braces and quotes."
+  },
+  {
+   "id": "technology-1319",
+   "category": "Technology",
+   "q": "Which university created the Scratch coding language for kids?",
+   "choices": [
+    "MIT",
+    "Stanford",
+    "Oxford",
+    "Harvard"
+   ],
+   "answer": 0,
+   "fact": "Scratch's mascot is an orange cat."
+  },
+  {
+   "id": "technology-1320",
+   "category": "Technology",
+   "q": "Which old kids' coding language used a turtle that drew lines on the screen?",
+   "choices": [
+    "Fortran",
+    "Logo",
+    "Pascal",
+    "BASIC"
+   ],
+   "answer": 1,
+   "fact": "Some schools once used a real robot turtle that drew on paper on the floor."
+  },
+  {
+   "id": "technology-1321",
+   "category": "Technology",
+   "q": "What does ASCII do?",
+   "choices": [
+    "Stores music",
+    "Gives each letter and symbol a number",
+    "Draws 3D shapes",
+    "Speeds up the internet"
+   ],
+   "answer": 1,
+   "fact": "In ASCII, a capital A is the number 65."
+  },
+  {
+   "id": "technology-1322",
+   "category": "Technology",
+   "q": "What does encryption do to data?",
+   "choices": [
+    "Deletes it",
+    "Makes it bigger",
+    "Scrambles it so only the right people can read it",
+    "Prints it"
+   ],
+   "answer": 2,
+   "fact": "Messaging apps use encryption to keep chats private."
+  },
+  {
+   "id": "technology-1323",
+   "category": "Technology",
+   "q": "What are artificial neural networks loosely inspired by?",
+   "choices": [
+    "City maps",
+    "The human brain",
+    "Spider webs",
+    "Fishing nets"
+   ],
+   "answer": 1,
+   "fact": "Neural networks are made of layers of simple connected units that work together."
+  },
+  {
+   "id": "technology-1324",
+   "category": "Technology",
+   "q": "Which IBM computer beat world chess champion Garry Kasparov in 1997?",
+   "choices": [
+    "Watson",
+    "AlphaGo",
+    "Deep Blue",
+    "HAL 9000"
+   ],
+   "answer": 2,
+   "fact": "Kasparov had beaten an earlier version of Deep Blue in 1996."
+  },
+  {
+   "id": "technology-1325",
+   "category": "Technology",
+   "q": "Which AI program beat top Go player Lee Sedol in 2016?",
+   "choices": [
+    "Siri",
+    "Deep Blue",
+    "Watson",
+    "AlphaGo"
+   ],
+   "answer": 3,
+   "fact": "AlphaGo was made by DeepMind, a company owned by Google."
+  },
+  {
+   "id": "technology-1326",
+   "category": "Technology",
+   "q": "Which company makes Spot, a robot dog that can climb stairs?",
+   "choices": [
+    "Boston Dynamics",
+    "iRobot",
+    "Sony",
+    "Tesla"
+   ],
+   "answer": 0,
+   "fact": "Sony makes a different robot dog called Aibo."
+  },
+  {
+   "id": "technology-1327",
+   "category": "Technology",
+   "q": "Which famous walking humanoid robot was made by Honda?",
+   "choices": [
+    "Optimus",
+    "Pepper",
+    "ASIMO",
+    "Atlas"
+   ],
+   "answer": 2,
+   "fact": "ASIMO could walk, run and climb stairs, and it was retired in 2022."
+  },
+  {
+   "id": "technology-1328",
+   "category": "Technology",
+   "q": "Which two main radio bands does home Wi-Fi usually use?",
+   "choices": [
+    "50 Hz and 60 Hz",
+    "2.4 GHz and 5 GHz",
+    "100 GHz and 200 GHz",
+    "1 MHz and 2 MHz"
+   ],
+   "answer": 1,
+   "fact": "The 2.4 GHz band reaches farther, but 5 GHz is usually faster."
+  },
+  {
+   "id": "technology-1329",
+   "category": "Technology",
+   "q": "What kind of cable plugs a computer straight into a router for a wired internet connection?",
+   "choices": [
+    "Power cable",
+    "HDMI cable",
+    "Ethernet cable",
+    "Aux cable"
+   ],
+   "answer": 2,
+   "fact": "Wired Ethernet usually gives lower ping than Wi-Fi for online gaming."
+  },
+  {
+   "id": "technology-1330",
+   "category": "Technology",
+   "q": "What does NFC let a phone do, like paying by tapping?",
+   "choices": [
+    "Charge faster",
+    "Talk to devices that are very close",
+    "Take 3D photos",
+    "Make satellite calls"
+   ],
+   "answer": 1,
+   "fact": "NFC stands for Near Field Communication, and it works only a few centimeters away."
+  },
+  {
+   "id": "technology-1331",
+   "category": "Technology",
+   "q": "What does PC stand for?",
+   "choices": [
+    "Primary console",
+    "Program center",
+    "Power computer",
+    "Personal computer"
+   ],
+   "answer": 3,
+   "fact": "IBM's 1981 IBM PC helped make the name popular."
+  },
+  {
+   "id": "technology-1332",
+   "category": "Technology",
+   "q": "What does it mean to \"boot\" a computer?",
+   "choices": [
+    "Clean the screen",
+    "Kick it",
+    "Start it up",
+    "Delete files"
+   ],
+   "answer": 2,
+   "fact": "The word comes from \"bootstrapping\", meaning to start something up by itself."
+  },
+  {
+   "id": "technology-1333",
+   "category": "Technology",
+   "q": "What is the main circuit board that connects all the parts of a computer called?",
+   "choices": [
+    "Dashboard",
+    "Motherboard",
+    "Clipboard",
+    "Keyboard"
+   ],
+   "answer": 1,
+   "fact": "The CPU, RAM and graphics card all plug into the motherboard."
+  },
+  {
+   "id": "technology-1334",
+   "category": "Technology",
+   "q": "What is overclocking?",
+   "choices": [
+    "Setting the wrong time",
+    "Updating the screen",
+    "Turning off the fans",
+    "Running a chip faster than its normal speed"
+   ],
+   "answer": 3,
+   "fact": "Overclocking makes more heat, so it needs better cooling."
+  },
+  {
+   "id": "technology-1335",
+   "category": "Technology",
+   "q": "Which of these is the largest amount of data?",
+   "choices": [
+    "Megabyte",
+    "Gigabyte",
+    "Terabyte",
+    "Kilobyte"
+   ],
+   "answer": 2,
+   "fact": "A terabyte is about 1,000 gigabytes."
+  },
+  {
+   "id": "technology-1336",
+   "category": "Technology",
+   "q": "What is a device driver?",
+   "choices": [
+    "Software that lets the computer talk to hardware",
+    "A type of screwdriver",
+    "A person who fixes cars",
+    "A video game"
+   ],
+   "answer": 0,
+   "fact": "Updating graphics card drivers can make games run better."
+  },
+  {
+   "id": "technology-1337",
+   "category": "Technology",
+   "q": "What is the famous Windows error screen called when the whole computer crashes?",
+   "choices": [
+    "Red Ring of Doom",
+    "Blue Screen of Death",
+    "Black Hole Error",
+    "Green Screen Glitch"
+   ],
+   "answer": 1,
+   "fact": "In 2025, Microsoft started changing the Windows 11 crash screen from blue to black."
+  },
+  {
+   "id": "technology-1338",
+   "category": "Technology",
+   "q": "Who invented the first practical typewriter with a QWERTY keyboard, in the 1860s and 1870s?",
+   "choices": [
+    "Thomas Edison",
+    "Samuel Morse",
+    "Christopher Latham Sholes",
+    "Alexander Graham Bell"
+   ],
+   "answer": 2,
+   "fact": "Sholes arranged the keys partly to stop the metal arms inside from jamming."
+  },
+  {
+   "id": "technology-1339",
+   "category": "Technology",
+   "q": "What did inventor Garrett Morgan create in 1923 to make roads safer?",
+   "choices": [
+    "A three-position traffic signal",
+    "Seat belts",
+    "Headlights",
+    "Speed bumps"
+   ],
+   "answer": 0,
+   "fact": "Garrett Morgan also invented a safety hood that helped firefighters breathe in smoke."
+  },
+  {
+   "id": "technology-1340",
+   "category": "Technology",
+   "q": "Which bouncy toy was discovered when a scientist was trying to make a substitute for rubber?",
+   "choices": [
+    "Silly Putty",
+    "Play-Doh",
+    "Slinky",
+    "Yo-yo"
+   ],
+   "answer": 0,
+   "fact": "Silly Putty can bounce like a ball, stretch like taffy and snap if pulled fast."
+  },
+  {
+   "id": "technology-1341",
+   "category": "Technology",
+   "q": "Which modeling clay toy was first sold as a wallpaper cleaner?",
+   "choices": [
+    "Plasticine",
+    "Slime",
+    "Play-Doh",
+    "Silly Putty"
+   ],
+   "answer": 2,
+   "fact": "Play-Doh started being sold as a toy in the 1950s."
+  },
+  {
+   "id": "technology-1342",
+   "category": "Technology",
+   "q": "Which US president is the only one to have received a patent?",
+   "choices": [
+    "Thomas Jefferson",
+    "Abraham Lincoln",
+    "Theodore Roosevelt",
+    "Jimmy Carter"
+   ],
+   "answer": 1,
+   "fact": "Lincoln's invention was a device to help boats float over shallow water."
+  },
+  {
+   "id": "technology-1343",
+   "category": "Technology",
+   "q": "Which Founding Father invented the lightning rod and bifocal glasses?",
+   "choices": [
+    "Benjamin Franklin",
+    "George Washington",
+    "Thomas Jefferson",
+    "John Adams"
+   ],
+   "answer": 0,
+   "fact": "Franklin also invented a stove and never patented his inventions, so everyone could use them."
+  },
+  {
+   "id": "technology-1344",
+   "category": "Technology",
+   "q": "Who made the first airplane flight across the English Channel, in 1909?",
+   "choices": [
+    "Louis Blériot",
+    "Charles Lindbergh",
+    "Amelia Earhart",
+    "Orville Wright"
+   ],
+   "answer": 0,
+   "fact": "Blériot's flight took about 36 minutes."
+  },
+  {
+   "id": "technology-1345",
+   "category": "Technology",
+   "q": "Which British and French supersonic passenger jet flew from 1976 to 2003?",
+   "choices": [
+    "Spitfire",
+    "Concorde",
+    "Boeing 747",
+    "Airbus A380"
+   ],
+   "answer": 1,
+   "fact": "Concorde could fly from London to New York in about three and a half hours."
+  },
+  {
+   "id": "technology-1346",
+   "category": "Technology",
+   "q": "What does Mach 1 mean?",
+   "choices": [
+    "100 kilometers per hour",
+    "The speed of sound",
+    "The speed of light",
+    "Top speed of a car"
+   ],
+   "answer": 1,
+   "fact": "Mach numbers are named after the Austrian scientist Ernst Mach."
+  },
+  {
+   "id": "technology-1347",
+   "category": "Technology",
+   "q": "Who was the first pilot to fly faster than the speed of sound, in 1947?",
+   "choices": [
+    "Howard Hughes",
+    "Neil Armstrong",
+    "Amelia Earhart",
+    "Chuck Yeager"
+   ],
+   "answer": 3,
+   "fact": "Yeager's rocket plane, the Bell X-1, was named Glamorous Glennis after his wife."
+  },
+  {
+   "id": "technology-1348",
+   "category": "Technology",
+   "q": "Which jumbo jet with a hump on top was nicknamed the Queen of the Skies?",
+   "choices": [
+    "Boeing 737",
+    "Concorde",
+    "Boeing 747",
+    "Airbus A380"
+   ],
+   "answer": 2,
+   "fact": "The 747 first flew in 1969, and Boeing built more than 1,500 of them."
+  },
+  {
+   "id": "technology-1349",
+   "category": "Technology",
+   "q": "What is the largest passenger airplane ever built?",
+   "choices": [
+    "Boeing 747",
+    "Boeing 777",
+    "Concorde",
+    "Airbus A380"
+   ],
+   "answer": 3,
+   "fact": "The Airbus A380 has two full decks running its whole length."
+  },
+  {
+   "id": "technology-1350",
+   "category": "Technology",
+   "q": "Which country opened the first high-speed bullet train line, in 1964?",
+   "choices": [
+    "China",
+    "Japan",
+    "France",
+    "Germany"
+   ],
+   "answer": 1,
+   "fact": "The Shinkansen opened just before the 1964 Tokyo Olympics."
+  },
+  {
+   "id": "technology-1351",
+   "category": "Technology",
+   "q": "What makes maglev trains float above their track?",
+   "choices": [
+    "Wheels on rails",
+    "Magnets",
+    "Air jets",
+    "Water"
+   ],
+   "answer": 1,
+   "fact": "Maglev is short for magnetic levitation."
+  },
+  {
+   "id": "technology-1352",
+   "category": "Technology",
+   "q": "What was the name of George and Robert Stephenson's famous 1829 steam locomotive?",
+   "choices": [
+    "Iron Horse",
+    "Rocket",
+    "Puffing Billy",
+    "Flying Scotsman"
+   ],
+   "answer": 1,
+   "fact": "Rocket won a contest to choose the engine for a new railway between Liverpool and Manchester."
+  },
+  {
+   "id": "technology-1353",
+   "category": "Technology",
+   "q": "How many wool blocks do you need to craft a bed in Minecraft?",
+   "choices": [
+    "2",
+    "6",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "fact": "Sleeping in a bed skips the night and sets your spawn point."
+  },
+  {
+   "id": "technology-1354",
+   "category": "Technology",
+   "q": "Which Minecraft helmet, made from turtle scutes, lets you breathe longer underwater?",
+   "choices": [
+    "Prismarine helmet",
+    "Turtle shell",
+    "Diving helmet",
+    "Conduit cap"
+   ],
+   "answer": 1,
+   "fact": "Baby turtles drop scutes when they grow up."
+  },
+  {
+   "id": "technology-1355",
+   "category": "Technology",
+   "q": "Which block can't be broken in Minecraft Survival mode?",
+   "choices": [
+    "Bedrock",
+    "Reinforced stone",
+    "Ancient debris",
+    "Obsidian"
+   ],
+   "answer": 0,
+   "fact": "Bedrock forms the very bottom layer of the Overworld."
+  },
+  {
+   "id": "technology-1356",
+   "category": "Technology",
+   "q": "How many hearts of health does a Minecraft player have when fully healed?",
+   "choices": [
+    "8",
+    "5",
+    "10",
+    "20"
+   ],
+   "answer": 2,
+   "fact": "Each heart equals two health points, so a full bar is 20 points."
+  },
+  {
+   "id": "technology-1357",
+   "category": "Technology",
+   "q": "Which block do you use to make potions in Minecraft?",
+   "choices": [
+    "Enchanting table",
+    "Furnace",
+    "Brewing stand",
+    "Cauldron"
+   ],
+   "answer": 2,
+   "fact": "Brewing stands run on blaze powder."
+  },
+  {
+   "id": "technology-1358",
+   "category": "Technology",
+   "q": "Which Minecraft mob drops blaze rods?",
+   "choices": [
+    "Blaze",
+    "Wither skeleton",
+    "Magma cube",
+    "Ghast"
+   ],
+   "answer": 0,
+   "fact": "Blazes spawn in Nether fortresses."
+  },
+  {
+   "id": "technology-1359",
+   "category": "Technology",
+   "q": "Which Minecraft item lets you glide through the air like wings?",
+   "choices": [
+    "Glider",
+    "Feather boots",
+    "Phantom cape",
+    "Elytra"
+   ],
+   "answer": 3,
+   "fact": "Elytra are found in End cities, often on an End ship."
+  },
+  {
+   "id": "technology-1360",
+   "category": "Technology",
+   "q": "What does a Totem of Undying do in Minecraft?",
+   "choices": [
+    "Makes you invisible",
+    "Summons a pet",
+    "Saves you from dying once",
+    "Gives unlimited arrows"
+   ],
+   "answer": 2,
+   "fact": "Totems of Undying are dropped by Evokers."
+  },
+  {
+   "id": "technology-1361",
+   "category": "Technology",
+   "q": "What is special about an Ender chest in Minecraft?",
+   "choices": [
+    "It can only hold one item",
+    "Every Ender chest you use shares the same items",
+    "It holds lava",
+    "It explodes when opened"
+   ],
+   "answer": 1,
+   "fact": "Each player has their own private Ender chest storage."
+  },
+  {
+   "id": "technology-1362",
+   "category": "Technology",
+   "q": "Which famous Roblox death sound was removed in 2022?",
+   "choices": [
+    "Ouch",
+    "Oof",
+    "Bonk",
+    "Yikes"
+   ],
+   "answer": 1,
+   "fact": "The sound was replaced after a dispute over who owned the rights to it."
+  },
+  {
+   "id": "technology-1363",
+   "category": "Technology",
+   "q": "What does MMO stand for in gaming?",
+   "choices": [
+    "Multi map option",
+    "Mega mission online",
+    "Many moving objects",
+    "Massively multiplayer online"
+   ],
+   "answer": 3,
+   "fact": "In an MMO, thousands of players can share the same game world."
+  },
+  {
+   "id": "technology-1364",
+   "category": "Technology",
+   "q": "What does PvP stand for in gaming?",
+   "choices": [
+    "Points versus power",
+    "Play versus pause",
+    "Party versus party",
+    "Player versus player"
+   ],
+   "answer": 3,
+   "fact": "The opposite is PvE, player versus environment."
+  },
+  {
+   "id": "technology-1365",
+   "category": "Technology",
+   "q": "In gaming slang, what is a \"noob\"?",
+   "choices": [
+    "A beginner",
+    "A cheater",
+    "A boss",
+    "A champion"
+   ],
+   "answer": 0,
+   "fact": "Noob comes from the older word \"newbie\"."
+  },
+  {
+   "id": "technology-1366",
+   "category": "Technology",
+   "q": "Which Nintendo fighting game series brings together characters like Mario, Link and Pikachu?",
+   "choices": [
+    "Street Fighter",
+    "Mario Party",
+    "Tekken",
+    "Super Smash Bros."
+   ],
+   "answer": 3,
+   "fact": "Super Smash Bros. Ultimate has more than 80 fighters."
+  },
+  {
+   "id": "technology-1367",
+   "category": "Technology",
+   "q": "Which cozy farming game was made almost completely by one developer, Eric Barone?",
+   "choices": [
+    "Minecraft",
+    "Stardew Valley",
+    "Animal Crossing",
+    "Harvest Moon"
+   ],
+   "answer": 1,
+   "fact": "Eric Barone spent about four and a half years making Stardew Valley by himself."
+  },
+  {
+   "id": "technology-1368",
+   "category": "Technology",
+   "q": "Which Nintendo game has squid kids called Inklings who shoot colorful ink?",
+   "choices": [
+    "Metroid",
+    "Pikmin",
+    "Splatoon",
+    "Kirby"
+   ],
+   "answer": 2,
+   "fact": "In Splatoon's main mode, the team that covers the most ground in ink wins."
+  },
+  {
+   "id": "technology-1369",
+   "category": "Technology",
+   "q": "In Mario Kart, which item is famous for zooming to hit the racer in first place?",
+   "choices": [
+    "Red Shell",
+    "Banana",
+    "Bob-omb",
+    "Spiny Shell"
+   ],
+   "answer": 3,
+   "fact": "The Spiny Shell is often called the blue shell because of its color."
+  },
+  {
+   "id": "technology-1370",
+   "category": "Technology",
+   "q": "Which game is basically soccer played with rocket-powered cars?",
+   "choices": [
+    "Car Ball Arena",
+    "Rocket League",
+    "Mario Kart",
+    "Turbo Soccer"
+   ],
+   "answer": 1,
+   "fact": "Rocket League first came out in 2015."
+  },
+  {
+   "id": "technology-1371",
+   "category": "Technology",
+   "q": "Which game was the first known to be played in space, on a Game Boy in 1993?",
+   "choices": [
+    "Pokémon Red",
+    "Tetris",
+    "Super Mario Land",
+    "Pong"
+   ],
+   "answer": 1,
+   "fact": "A Russian cosmonaut took the Game Boy aboard the Mir space station."
+  },
+  {
+   "id": "technology-1372",
+   "category": "Technology",
+   "q": "Which company invented the compact disc together with Sony?",
+   "choices": [
+    "Samsung",
+    "Philips",
+    "Apple",
+    "Panasonic"
+   ],
+   "answer": 1,
+   "fact": "The first CD albums went on sale in 1982."
+  },
+  {
+   "id": "technology-1373",
+   "category": "Technology",
+   "q": "What does DVD stand for?",
+   "choices": [
+    "Direct View Display",
+    "Dual Video Disk",
+    "Digital Video Drive",
+    "Digital Versatile Disc"
+   ],
+   "answer": 3,
+   "fact": "A DVD holds about seven times more data than a CD."
+  },
+  {
+   "id": "technology-1374",
+   "category": "Technology",
+   "q": "What was the first item ever sold on eBay, in 1995?",
+   "choices": [
+    "A teddy bear",
+    "A used car",
+    "A broken laser pointer",
+    "A baseball card"
+   ],
+   "answer": 2,
+   "fact": "The founder was surprised and asked the buyer if they knew it was broken; the buyer collected broken laser pointers."
+  },
+  {
+   "id": "technology-1375",
+   "category": "Technology",
+   "q": "What does \"wiki\" mean in the Hawaiian language?",
+   "choices": [
+    "Smart",
+    "Book",
+    "Share",
+    "Quick"
+   ],
+   "answer": 3,
+   "fact": "Wikipedia, launched in 2001, takes its name from wiki and encyclopedia."
+  },
+  {
+   "id": "technology-1376",
+   "category": "Technology",
+   "q": "In what year was the first iPad released?",
+   "choices": [
+    "2005",
+    "2010",
+    "2013",
+    "2007"
+   ],
+   "answer": 1,
+   "fact": "Apple sold 300,000 iPads on the first day."
+  },
+  {
+   "id": "technology-1377",
+   "category": "Technology",
+   "q": "What is the name of Apple's stylus for drawing on an iPad?",
+   "choices": [
+    "iStylus",
+    "Magic Marker",
+    "Apple Pencil",
+    "Apple Pen"
+   ],
+   "answer": 2,
+   "fact": "The first Apple Pencil came out in 2015."
+  },
+  {
+   "id": "technology-1378",
+   "category": "Technology",
+   "q": "What does AirDrop do on Apple devices?",
+   "choices": [
+    "Sends files wirelessly to nearby Apple devices",
+    "Drops apps from the store",
+    "Turns on airplane mode",
+    "Prints photos"
+   ],
+   "answer": 0,
+   "fact": "AirDrop uses both Bluetooth and Wi-Fi to find devices and send files."
+  },
+  {
+   "id": "technology-1379",
+   "category": "Technology",
+   "q": "Which company owns Instagram and WhatsApp?",
+   "choices": [
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Apple"
+   ],
+   "answer": 1,
+   "fact": "Meta was called Facebook until it changed its company name in 2021."
+  },
+  {
+   "id": "technology-1380",
+   "category": "Technology",
+   "q": "In Roblox Studio, what file extension does a saved place file usually have?",
+   "choices": [
+    ".lua",
+    ".rbxl",
+    ".exe",
+    ".rblx"
+   ],
+   "answer": 1,
+   "fact": "Models can be saved on their own as .rbxm files."
+  },
+  {
+   "id": "technology-1381",
+   "category": "Technology",
+   "q": "What does Wi-Fi stand for?",
+   "choices": [
+    "It doesn't really stand for anything",
+    "Wireless Fidelity",
+    "Wide Internet",
+    "Wired Fiber"
+   ],
+   "answer": 0,
+   "fact": "The name Wi-Fi was made up by a branding company in 1999 because it sounded catchy."
+  },
+  {
+   "id": "technology-1382",
+   "category": "Technology",
+   "q": "Which company made the hit puzzle game Candy Crush Saga?",
+   "choices": [
+    "Zynga",
+    "King",
+    "Supercell",
+    "Rovio"
+   ],
+   "answer": 1,
+   "fact": "Candy Crush Saga came out in 2012 and has been downloaded billions of times."
+  },
+  {
+   "id": "technology-1383",
+   "category": "Technology",
+   "q": "Which company made Angry Birds, released in 2009?",
+   "choices": [
+    "Supercell",
+    "King",
+    "Mojang",
+    "Rovio"
+   ],
+   "answer": 3,
+   "fact": "Rovio is based in Finland."
+  },
+  {
+   "id": "technology-1384",
+   "category": "Technology",
+   "q": "Which game company from Finland made Clash of Clans and Brawl Stars?",
+   "choices": [
+    "Rovio",
+    "Mojang",
+    "Supercell",
+    "King"
+   ],
+   "answer": 2,
+   "fact": "Supercell's games are played mostly on phones and tablets."
+  },
+  {
+   "id": "technology-1385",
+   "category": "Technology",
+   "q": "Which game has players build and defend a village while training troops like Barbarians and Archers?",
+   "choices": [
+    "Clash of Clans",
+    "Brawl Stars",
+    "Roblox",
+    "Minecraft"
+   ],
+   "answer": 0,
+   "fact": "Clash of Clans was released in 2012."
+  },
+  {
+   "id": "technology-1386",
+   "category": "Technology",
+   "q": "In Minecraft, what does the Silk Touch enchantment do?",
+   "choices": [
+    "Lets you walk on water",
+    "Makes mobs friendly",
+    "Mines blocks without breaking them into drops",
+    "Makes tools never break"
+   ],
+   "answer": 2,
+   "fact": "With Silk Touch you can collect blocks like grass blocks and glass."
+  },
+  {
+   "id": "technology-1387",
+   "category": "Technology",
+   "q": "In Minecraft, which enchantment makes tools last longer by not always losing durability?",
+   "choices": [
+    "Fortune",
+    "Efficiency",
+    "Unbreaking",
+    "Mending"
+   ],
+   "answer": 2,
+   "fact": "Mending is different: it repairs items using experience orbs."
+  }
+ ]
+}

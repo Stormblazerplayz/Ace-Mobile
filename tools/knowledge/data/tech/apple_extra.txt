@@ -1,0 +1,14 @@
+# tag: tech.apple.extra
+how do i make a shared album | share photos with friends iphone => In Photos, go to Albums, tap the plus and choose New Shared Album, then invite people. Shared albums don't use your iCloud storage.
+what is communication safety on iphone | blur bad images for kids => Communication Safety blurs photos and videos that may contain nudity in Messages, AirDrop and FaceTime and offers ways to get help. It's on by default for kids in Family Sharing.
+what do i do if my iphone update is stuck | software update frozen => Keep it on power and Wi-Fi and give it time. If nothing moves for over an hour, force restart it, or update it from a computer with Finder or the Apple Devices app.
+why is face id not working | face id stopped working => Check nothing covers the top of the screen, restart, and make sure Face ID is on in Settings. If it still fails, reset Face ID and set it up again, or get it checked.
+what is fall detection on apple watch | watch calls help if i fall => If the watch senses a hard fall and you don't respond for about a minute, it calls emergency services and messages your emergency contacts.
+what is the airpods hearing test | check my hearing with airpods => AirPods Pro 2 and later can run a short hearing test from the Health app, and the results can set them up as a hearing aid for mild to moderate loss in supported countries.
+what is the vitals app on apple watch | overnight health stats watch => Vitals shows heart rate, breathing rate, wrist temperature, blood oxygen and sleep from overnight and flags anything unusual compared with your normal.
+what is the journal app iphone | apple journal => Journal is Apple's free diary app. It suggests things to write about from your photos, workouts and places, and can be locked with Face ID.
+what is live voicemail | see voicemail as it's left => Live Voicemail shows a live transcript on screen while someone leaves a voicemail, and you can pick up if you want to talk.
+what is game mode on iphone | iphone gaming performance mode => Game Mode turns on automatically when you play a game, cutting background activity and lowering Bluetooth delay for controllers and AirPods.
+what is apple arcade | apple arcade games => Apple Arcade is a game subscription with hundreds of games that have no ads or in-app purchases, playable on iPhone, iPad, Mac and Apple TV.
+what does restore purchases mean | get back what i bought in an app => Restore Purchases re-downloads things you already paid for with the same Apple Account, like a premium unlock, without paying again.
+i forgot my screen time passcode | reset screen time code => Go to Settings, Screen Time, Change Screen Time Passcode, then Forgot Passcode, and sign in with the Apple Account that set it. On a kid's device, a parent resets it.

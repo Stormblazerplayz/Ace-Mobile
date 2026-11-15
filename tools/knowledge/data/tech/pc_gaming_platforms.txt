@@ -1,0 +1,11 @@
+# tag: tech.gaming.platforms
+what is kernel anti cheat | riot vanguard => Kernel anti-cheat, like Riot Vanguard, runs deep inside Windows to catch cheats other programs can't see. It's very powerful, so only install it for games from companies you trust.
+where are pc game saves stored | find my game save files => Many are in Documents, My Games, in Saved Games in your user folder, or in AppData. Type %appdata% or %localappdata% in the Explorer address bar to look. PCGamingWiki lists each game's spot.
+what is humble bundle | pay what you want games => Humble Bundle sells bundles of games, books and software for a low price, with part of the money going to charity. Keys usually go to Steam.
+what is steam next fest | free demos on steam => Steam Next Fest is a week-long event a few times a year where hundreds of upcoming games release free demos to try.
+what is a steam playtest | request access playtest => A Playtest lets developers invite players to try a game before release. Click Request Access on the store page and you'll get it if picked.
+what is a region locked game key | key doesn't work in my country => Some keys only activate in certain countries. Buying from your own region's store avoids it, and using a VPN to get around it can break store rules.
+how do i check if game servers are down | is the game down or is it me => Check the game's official social accounts or status page, or a site like Downdetector. If lots of people report problems, it's the servers, not your setup.
+what is a day one patch | update on release day => A day one patch is an update released on launch day to fix bugs found after the game was finished. Download it before playing.
+how do i link my epic account to my console | connect accounts for progress => Sign in at the Epic Games website, open Account, then Apps and Accounts, and connect your PlayStation, Xbox or Nintendo account. Some games then share progress.
+what is pcgamingwiki | fix pc game problems site => PCGamingWiki is a free wiki with fixes, save locations and settings tweaks for thousands of PC games.

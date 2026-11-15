@@ -1,0 +1,14 @@
+# tag: tech.windows.admin
+what is the path environment variable | add a folder to path windows => PATH is a list of folders Windows searches for programs you type in a terminal. Edit it by searching Start for environment variables and opening Path under User variables.
+what is services.msc | windows services window => Services.msc opens a list of background services. You can see which are running and set them to start automatically, manually or not at all, but leave unfamiliar ones alone.
+what is task scheduler | run a program at a set time windows => Task Scheduler runs programs or scripts automatically at times or events you choose, like at startup or every night.
+what is credential manager | where does windows save passwords => Credential Manager stores saved sign-ins Windows and some apps use, like network shares. Open it from the Start menu to view or remove them.
+what is dynamic lock | lock pc when phone walks away => Dynamic lock locks your PC when a paired Bluetooth phone goes out of range. Turn it on in Settings, Accounts, Sign-in options.
+what is a repair install of windows | in place upgrade keep files => A repair install runs Windows setup from inside Windows and chooses to keep files and apps. It replaces system files without wiping your stuff.
+what is hyper-v | hyper v windows => Hyper-V is Microsoft's built-in virtual machine tool, found in Windows Pro and higher. It lets you run another operating system in a window.
+what is virtualbox | free virtual machine app => VirtualBox is a free app that runs virtual machines, so you can try Linux or an older Windows without touching your real system.
+what is diskpart | diskpart clean => Diskpart is a command-line tool for managing disks and partitions. Commands like clean erase a whole drive instantly, so double check the disk number first.
+what is optimizations for windowed games | windowed game optimization setting => This Windows 11 setting improves latency and enables Auto HDR and VRR for games running in windowed or borderless mode. Find it in Display, Graphics settings.
+what is vbs on windows 11 | virtualization based security gaming => VBS uses virtualization to protect Windows memory from attacks. It can cost a few percent of performance in some games, but it's a real security feature.
+what is performance monitor | perfmon windows => Performance Monitor tracks detailed counters like CPU, disk and memory over time and can save reports. Type perfmon in Start to open it.
+what is storage spaces | combine drives into one windows => Storage Spaces pools several drives into one space and can mirror them so a single drive failing doesn't lose your files.

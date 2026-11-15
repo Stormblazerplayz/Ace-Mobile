@@ -1,0 +1,22 @@
+# tag: tech.consoles.features
+what is game help on ps5 | ps5 hints => Game Help shows hints and video guides for some games right from the PS5 control center. It needs a PlayStation Plus membership.
+what are activities on ps5 | ps5 activity cards => Activities are cards that jump you straight into a specific level, mission or mode in supported PS5 games, skipping menus.
+what is tempest 3d audio | ps5 3d audio => Tempest 3D Audio is the PS5's surround sound system that makes sounds seem to come from above, behind and around you, best with headphones.
+what is dualsense haptic feedback | ps5 controller vibration => The DualSense uses detailed haptic motors that can feel like rain, footsteps or textures, instead of a simple rumble.
+what is the dualsense edge | ps5 pro controller => The DualSense Edge is Sony's premium controller with back buttons, swappable stick modules and adjustable triggers.
+can ps5 play ps4 games | ps5 backward compatibility => Yes, the PS5 plays almost all PS4 games, and many run better. It can't play PS3 discs, though some older games are on PlayStation Plus.
+can xbox series x play xbox 360 games | xbox backward compatibility => Xbox Series X and S play nearly all Xbox One games and hundreds of Xbox 360 and original Xbox games, often with better performance.
+what is smart delivery on xbox | xbox one to series upgrade => Smart Delivery gives you the best version of a game for your Xbox, so buying it once covers both Xbox One and Series X|S where supported.
+what is gamerscore | xbox achievements points => Gamerscore is the total points from your Xbox achievements. It shows on your profile but doesn't unlock anything.
+how do playstation trophies work | platinum trophy => PlayStation games give bronze, silver and gold trophies for goals, and a platinum trophy for earning all the rest in a game.
+what is the ps5 digital edition | ps5 without disc drive => The Digital Edition has no disc drive, so you can only download games. The newer PS5 models can add a detachable disc drive later.
+what is ps vr2 | playstation vr2 => PS VR2 is Sony's virtual reality headset for PS5, with eye tracking and high-resolution OLED screens. It can also work on PC with an adapter.
+what is the xbox elite controller | elite series 2 => The Xbox Elite Series 2 is a premium controller with back paddles, adjustable stick tension and swappable parts.
+what is the steam deck oled | steam deck oled vs lcd => The Steam Deck OLED has a brighter, more colorful OLED screen, longer battery life and faster Wi-Fi than the original LCD model.
+how do i lower power use on steam deck | steam deck tdp limit => Open the Quick Access menu, go to Performance and set a frame limit or lower the TDP limit. This makes the battery last much longer.
+how do i show fps on steam deck | steam deck performance overlay => Open the Quick Access menu, go to Performance and set the overlay level. Level 1 shows FPS and higher levels show temps and usage.
+what is a steam deck dock | connect steam deck to tv => A dock connects the Steam Deck to a TV or monitor, power, USB devices and Ethernet, turning it into a mini console.
+what is the rog ally | rog ally vs steam deck => The ROG Ally is a Windows handheld gaming PC from ASUS. It runs any PC launcher, but Windows can feel clunkier on a small screen than SteamOS.
+what is the legion go | lenovo legion go => The Legion Go is Lenovo's handheld gaming PC with detachable controllers and a big screen. Some versions run SteamOS instead of Windows.
+what is armoury crate on the rog ally | ally settings app => Armoury Crate is ASUS's app on the ROG Ally for performance modes, controller settings and game library.
+what is a party chat on console | xbox party => A party is a voice chat group that stays together while you play different games or switch between them.

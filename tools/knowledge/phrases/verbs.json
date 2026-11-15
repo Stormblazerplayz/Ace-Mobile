@@ -1,0 +1,1661 @@
+{
+ "entries": [
+  {
+   "en": "give",
+   "also": [
+    "to give"
+   ],
+   "t": {
+    "es": "dar",
+    "fr": "donner",
+    "de": "geben",
+    "it": "dare",
+    "pt": "dar",
+    "ja": "あげる",
+    "zh": "给",
+    "ko": "주다",
+    "hi": "देना",
+    "ar": "يعطي",
+    "ru": "давать",
+    "nl": "geven"
+   },
+   "say": {
+    "ja": "ageru",
+    "zh": "gěi",
+    "ko": "juda",
+    "hi": "dena",
+    "ar": "yu'ti",
+    "ru": "davat"
+   }
+  },
+  {
+   "en": "take",
+   "also": [
+    "to take"
+   ],
+   "t": {
+    "es": "tomar",
+    "fr": "prendre",
+    "de": "nehmen",
+    "it": "prendere",
+    "pt": "pegar",
+    "ja": "取る",
+    "zh": "拿",
+    "ko": "가지다",
+    "hi": "लेना",
+    "ar": "يأخذ",
+    "ru": "брать",
+    "nl": "nemen"
+   },
+   "say": {
+    "ja": "toru",
+    "zh": "ná",
+    "ko": "gajida",
+    "hi": "lena",
+    "ar": "ya'khudh",
+    "ru": "brat"
+   }
+  },
+  {
+   "en": "make",
+   "also": [
+    "to make"
+   ],
+   "t": {
+    "es": "hacer",
+    "fr": "faire",
+    "de": "machen",
+    "it": "fare",
+    "pt": "fazer",
+    "ja": "作る",
+    "zh": "做",
+    "ko": "만들다",
+    "hi": "बनाना",
+    "ar": "يصنع",
+    "ru": "делать",
+    "nl": "maken"
+   },
+   "say": {
+    "ja": "tsukuru",
+    "zh": "zuò",
+    "ko": "mandeulda",
+    "hi": "banaana",
+    "ar": "yasna'",
+    "ru": "delat"
+   }
+  },
+  {
+   "en": "know",
+   "also": [
+    "to know"
+   ],
+   "t": {
+    "es": "saber",
+    "fr": "savoir",
+    "de": "wissen",
+    "it": "sapere",
+    "pt": "saber",
+    "ja": "知る",
+    "zh": "知道",
+    "ko": "알다",
+    "hi": "जानना",
+    "ar": "يعرف",
+    "ru": "знать",
+    "nl": "weten"
+   },
+   "say": {
+    "ja": "shiru",
+    "zh": "zhīdào",
+    "ko": "alda",
+    "hi": "jaanna",
+    "ar": "ya'rif",
+    "ru": "znat"
+   }
+  },
+  {
+   "en": "think",
+   "also": [
+    "to think"
+   ],
+   "t": {
+    "es": "pensar",
+    "fr": "penser",
+    "de": "denken",
+    "it": "pensare",
+    "pt": "pensar",
+    "ja": "考える",
+    "zh": "想",
+    "ko": "생각하다",
+    "hi": "सोचना",
+    "ar": "يفكر",
+    "ru": "думать",
+    "nl": "denken"
+   },
+   "say": {
+    "ja": "kangaeru",
+    "zh": "xiǎng",
+    "ko": "saenggakhada",
+    "hi": "sochna",
+    "ar": "yufakkir",
+    "ru": "dumat"
+   }
+  },
+  {
+   "en": "understand",
+   "also": [
+    "to understand"
+   ],
+   "t": {
+    "es": "entender",
+    "fr": "comprendre",
+    "de": "verstehen",
+    "it": "capire",
+    "pt": "entender",
+    "ja": "分かる",
+    "zh": "懂",
+    "ko": "이해하다",
+    "hi": "समझना",
+    "ar": "يفهم",
+    "ru": "понимать",
+    "nl": "begrijpen"
+   },
+   "say": {
+    "ja": "wakaru",
+    "zh": "dǒng",
+    "ko": "ihaehada",
+    "hi": "samajhna",
+    "ar": "yafham",
+    "ru": "ponimat"
+   }
+  },
+  {
+   "en": "learn",
+   "also": [
+    "to learn"
+   ],
+   "t": {
+    "es": "aprender",
+    "fr": "apprendre",
+    "de": "lernen",
+    "it": "imparare",
+    "pt": "aprender",
+    "ja": "習う",
+    "zh": "学",
+    "ko": "배우다",
+    "hi": "सीखना",
+    "ar": "يتعلم",
+    "ru": "учиться",
+    "nl": "leren"
+   },
+   "say": {
+    "ja": "narau",
+    "zh": "xué",
+    "ko": "baeuda",
+    "hi": "seekhna",
+    "ar": "yata'allam",
+    "ru": "uchitsya"
+   }
+  },
+  {
+   "en": "teach",
+   "also": [
+    "to teach"
+   ],
+   "t": {
+    "es": "enseñar",
+    "fr": "enseigner",
+    "de": "unterrichten",
+    "it": "insegnare",
+    "pt": "ensinar",
+    "ja": "教える",
+    "zh": "教",
+    "ko": "가르치다",
+    "hi": "पढ़ाना",
+    "ar": "يعلم",
+    "ru": "учить",
+    "nl": "lesgeven"
+   },
+   "say": {
+    "ja": "oshieru",
+    "zh": "jiāo",
+    "ko": "gareuchida",
+    "hi": "padhaana",
+    "ar": "yu'allim",
+    "ru": "uchit"
+   }
+  },
+  {
+   "en": "study",
+   "also": [
+    "to study"
+   ],
+   "t": {
+    "es": "estudiar",
+    "fr": "étudier",
+    "de": "lernen",
+    "it": "studiare",
+    "pt": "estudar",
+    "ja": "勉強する",
+    "zh": "学习",
+    "ko": "공부하다",
+    "hi": "पढ़ाई करना",
+    "ar": "يدرس",
+    "ru": "учиться",
+    "nl": "studeren"
+   },
+   "say": {
+    "ja": "benkyou suru",
+    "zh": "xuéxí",
+    "ko": "gongbuhada",
+    "hi": "padhaai karna",
+    "ar": "yadrus",
+    "ru": "uchitsya"
+   }
+  },
+  {
+   "en": "work",
+   "also": [
+    "to work"
+   ],
+   "t": {
+    "es": "trabajar",
+    "fr": "travailler",
+    "de": "arbeiten",
+    "it": "lavorare",
+    "pt": "trabalhar",
+    "ja": "働く",
+    "zh": "工作",
+    "ko": "일하다",
+    "hi": "काम करना",
+    "ar": "يعمل",
+    "ru": "работать",
+    "nl": "werken"
+   },
+   "say": {
+    "ja": "hataraku",
+    "zh": "gōngzuò",
+    "ko": "ilhada",
+    "hi": "kaam karna",
+    "ar": "ya'mal",
+    "ru": "rabotat"
+   }
+  },
+  {
+   "en": "cook",
+   "also": [
+    "to cook"
+   ],
+   "t": {
+    "es": "cocinar",
+    "fr": "cuisiner",
+    "de": "kochen",
+    "it": "cucinare",
+    "pt": "cozinhar",
+    "ja": "料理する",
+    "zh": "做饭",
+    "ko": "요리하다",
+    "hi": "खाना बनाना",
+    "ar": "يطبخ",
+    "ru": "готовить",
+    "nl": "koken"
+   },
+   "say": {
+    "ja": "ryouri suru",
+    "zh": "zuòfàn",
+    "ko": "yorihada",
+    "hi": "khaana banaana",
+    "ar": "yatbukh",
+    "ru": "gotovit"
+   }
+  },
+  {
+   "en": "wash",
+   "also": [
+    "to wash"
+   ],
+   "t": {
+    "es": "lavar",
+    "fr": "laver",
+    "de": "waschen",
+    "it": "lavare",
+    "pt": "lavar",
+    "ja": "洗う",
+    "zh": "洗",
+    "ko": "씻다",
+    "hi": "धोना",
+    "ar": "يغسل",
+    "ru": "мыть",
+    "nl": "wassen"
+   },
+   "say": {
+    "ja": "arau",
+    "zh": "xǐ",
+    "ko": "ssitda",
+    "hi": "dhona",
+    "ar": "yaghsil",
+    "ru": "myt"
+   }
+  },
+  {
+   "en": "sit",
+   "also": [
+    "to sit",
+    "sit down"
+   ],
+   "t": {
+    "es": "sentarse",
+    "fr": "s'asseoir",
+    "de": "sich setzen",
+    "it": "sedersi",
+    "pt": "sentar",
+    "ja": "座る",
+    "zh": "坐",
+    "ko": "앉다",
+    "hi": "बैठना",
+    "ar": "يجلس",
+    "ru": "сидеть",
+    "nl": "zitten"
+   },
+   "say": {
+    "ja": "suwaru",
+    "zh": "zuò",
+    "ko": "anda",
+    "hi": "baithna",
+    "ar": "yajlis",
+    "ru": "sidet"
+   }
+  },
+  {
+   "en": "stand",
+   "also": [
+    "to stand",
+    "stand up"
+   ],
+   "t": {
+    "es": "estar de pie",
+    "fr": "être debout",
+    "de": "stehen",
+    "it": "stare in piedi",
+    "pt": "ficar de pé",
+    "ja": "立つ",
+    "zh": "站",
+    "ko": "서다",
+    "hi": "खड़ा होना",
+    "ar": "يقف",
+    "ru": "стоять",
+    "nl": "staan"
+   },
+   "say": {
+    "ja": "tatsu",
+    "zh": "zhàn",
+    "ko": "seoda",
+    "hi": "khada hona",
+    "ar": "yaqif",
+    "ru": "stoyat"
+   }
+  },
+  {
+   "en": "jump",
+   "also": [
+    "to jump"
+   ],
+   "t": {
+    "es": "saltar",
+    "fr": "sauter",
+    "de": "springen",
+    "it": "saltare",
+    "pt": "pular",
+    "ja": "跳ぶ",
+    "zh": "跳",
+    "ko": "뛰다",
+    "hi": "कूदना",
+    "ar": "يقفز",
+    "ru": "прыгать",
+    "nl": "springen"
+   },
+   "say": {
+    "ja": "tobu",
+    "zh": "tiào",
+    "ko": "ttwida",
+    "hi": "koodna",
+    "ar": "yaqfiz",
+    "ru": "prygat"
+   }
+  },
+  {
+   "en": "climb",
+   "also": [
+    "to climb"
+   ],
+   "t": {
+    "es": "trepar",
+    "fr": "grimper",
+    "de": "klettern",
+    "it": "arrampicarsi",
+    "pt": "escalar",
+    "ja": "登る",
+    "zh": "爬",
+    "ko": "오르다",
+    "hi": "चढ़ना",
+    "ar": "يتسلق",
+    "ru": "лазить",
+    "nl": "klimmen"
+   },
+   "say": {
+    "ja": "noboru",
+    "zh": "pá",
+    "ko": "oreuda",
+    "hi": "chadhna",
+    "ar": "yatasallaq",
+    "ru": "lazit"
+   }
+  },
+  {
+   "en": "fly",
+   "also": [
+    "to fly"
+   ],
+   "t": {
+    "es": "volar",
+    "fr": "voler",
+    "de": "fliegen",
+    "it": "volare",
+    "pt": "voar",
+    "ja": "飛ぶ",
+    "zh": "飞",
+    "ko": "날다",
+    "hi": "उड़ना",
+    "ar": "يطير",
+    "ru": "летать",
+    "nl": "vliegen"
+   },
+   "say": {
+    "ja": "tobu",
+    "zh": "fēi",
+    "ko": "nalda",
+    "hi": "udna",
+    "ar": "yateer",
+    "ru": "letat"
+   }
+  },
+  {
+   "en": "drive",
+   "also": [
+    "to drive"
+   ],
+   "t": {
+    "es": "manejar",
+    "fr": "conduire",
+    "de": "fahren",
+    "it": "guidare",
+    "pt": "dirigir",
+    "ja": "運転する",
+    "zh": "开车",
+    "ko": "운전하다",
+    "hi": "गाड़ी चलाना",
+    "ar": "يقود",
+    "ru": "водить",
+    "nl": "rijden"
+   },
+   "say": {
+    "ja": "unten suru",
+    "zh": "kāichē",
+    "ko": "unjeonhada",
+    "hi": "gaadi chalaana",
+    "ar": "yaqood",
+    "ru": "vodit"
+   }
+  },
+  {
+   "en": "ride a bike",
+   "also": [
+    "to ride a bike"
+   ],
+   "t": {
+    "es": "andar en bicicleta",
+    "fr": "faire du vélo",
+    "de": "Fahrrad fahren",
+    "it": "andare in bicicletta",
+    "pt": "andar de bicicleta",
+    "ja": "自転車に乗る",
+    "zh": "骑自行车",
+    "ko": "자전거를 타다",
+    "hi": "साइकिल चलाना",
+    "ar": "يركب الدراجة",
+    "ru": "кататься на велосипеде",
+    "nl": "fietsen"
+   },
+   "say": {
+    "ja": "jitensha ni noru",
+    "zh": "qí zìxíngchē",
+    "ko": "jajeongeoreul tada",
+    "hi": "saaikil chalaana",
+    "ar": "yarkab ad-darraaja",
+    "ru": "katatsya na velosipede"
+   }
+  },
+  {
+   "en": "draw",
+   "also": [
+    "to draw"
+   ],
+   "t": {
+    "es": "dibujar",
+    "fr": "dessiner",
+    "de": "zeichnen",
+    "it": "disegnare",
+    "pt": "desenhar",
+    "ja": "描く",
+    "zh": "画画",
+    "ko": "그리다",
+    "hi": "चित्र बनाना",
+    "ar": "يرسم",
+    "ru": "рисовать",
+    "nl": "tekenen"
+   },
+   "say": {
+    "ja": "kaku",
+    "zh": "huà huà",
+    "ko": "geurida",
+    "hi": "chitra banaana",
+    "ar": "yarsum",
+    "ru": "risovat"
+   }
+  },
+  {
+   "en": "paint",
+   "also": [
+    "to paint"
+   ],
+   "t": {
+    "es": "pintar",
+    "fr": "peindre",
+    "de": "malen",
+    "it": "dipingere",
+    "pt": "pintar",
+    "ja": "塗る",
+    "zh": "涂色",
+    "ko": "칠하다",
+    "hi": "रंगना",
+    "ar": "يلون",
+    "ru": "красить",
+    "nl": "schilderen"
+   },
+   "say": {
+    "ja": "nuru",
+    "zh": "túsè",
+    "ko": "chilhada",
+    "hi": "rangna",
+    "ar": "yulawwin",
+    "ru": "krasit"
+   }
+  },
+  {
+   "en": "laugh",
+   "also": [
+    "to laugh"
+   ],
+   "t": {
+    "es": "reír",
+    "fr": "rire",
+    "de": "lachen",
+    "it": "ridere",
+    "pt": "rir",
+    "ja": "笑う",
+    "zh": "笑",
+    "ko": "웃다",
+    "hi": "हँसना",
+    "ar": "يضحك",
+    "ru": "смеяться",
+    "nl": "lachen"
+   },
+   "say": {
+    "ja": "warau",
+    "zh": "xiào",
+    "ko": "utda",
+    "hi": "hansna",
+    "ar": "yadhak",
+    "ru": "smeyatsya"
+   }
+  },
+  {
+   "en": "cry",
+   "also": [
+    "to cry"
+   ],
+   "t": {
+    "es": "llorar",
+    "fr": "pleurer",
+    "de": "weinen",
+    "it": "piangere",
+    "pt": "chorar",
+    "ja": "泣く",
+    "zh": "哭",
+    "ko": "울다",
+    "hi": "रोना",
+    "ar": "يبكي",
+    "ru": "плакать",
+    "nl": "huilen"
+   },
+   "say": {
+    "ja": "naku",
+    "zh": "kū",
+    "ko": "ulda",
+    "hi": "rona",
+    "ar": "yabki",
+    "ru": "plakat"
+   }
+  },
+  {
+   "en": "smile",
+   "also": [
+    "to smile"
+   ],
+   "t": {
+    "es": "sonreír",
+    "fr": "sourire",
+    "de": "lächeln",
+    "it": "sorridere",
+    "pt": "sorrir",
+    "ja": "ほほえむ",
+    "zh": "微笑",
+    "ko": "미소 짓다",
+    "hi": "मुस्कुराना",
+    "ar": "يبتسم",
+    "ru": "улыбаться",
+    "nl": "glimlachen"
+   },
+   "say": {
+    "ja": "hohoemu",
+    "zh": "wēixiào",
+    "ko": "miso jitda",
+    "hi": "muskuraana",
+    "ar": "yabtasim",
+    "ru": "ulybatsya"
+   }
+  },
+  {
+   "en": "look",
+   "also": [
+    "to look"
+   ],
+   "t": {
+    "es": "mirar",
+    "fr": "regarder",
+    "de": "schauen",
+    "it": "guardare",
+    "pt": "olhar",
+    "ja": "見る",
+    "zh": "看",
+    "ko": "보다",
+    "hi": "देखना",
+    "ar": "ينظر",
+    "ru": "смотреть",
+    "nl": "kijken"
+   },
+   "say": {
+    "ja": "miru",
+    "zh": "kàn",
+    "ko": "boda",
+    "hi": "dekhna",
+    "ar": "yandhur",
+    "ru": "smotret"
+   }
+  },
+  {
+   "en": "find",
+   "also": [
+    "to find"
+   ],
+   "t": {
+    "es": "encontrar",
+    "fr": "trouver",
+    "de": "finden",
+    "it": "trovare",
+    "pt": "encontrar",
+    "ja": "見つける",
+    "zh": "找到",
+    "ko": "찾다",
+    "hi": "ढूँढना",
+    "ar": "يجد",
+    "ru": "находить",
+    "nl": "vinden"
+   },
+   "say": {
+    "ja": "mitsukeru",
+    "zh": "zhǎodào",
+    "ko": "chatda",
+    "hi": "dhoondhna",
+    "ar": "yajid",
+    "ru": "nakhodit"
+   }
+  },
+  {
+   "en": "lose",
+   "also": [
+    "to lose"
+   ],
+   "t": {
+    "es": "perder",
+    "fr": "perdre",
+    "de": "verlieren",
+    "it": "perdere",
+    "pt": "perder",
+    "ja": "なくす",
+    "zh": "丢",
+    "ko": "잃다",
+    "hi": "खोना",
+    "ar": "يفقد",
+    "ru": "терять",
+    "nl": "verliezen"
+   },
+   "say": {
+    "ja": "nakusu",
+    "zh": "diū",
+    "ko": "ilda",
+    "hi": "khona",
+    "ar": "yafqid",
+    "ru": "teryat"
+   }
+  },
+  {
+   "en": "win",
+   "also": [
+    "to win"
+   ],
+   "t": {
+    "es": "ganar",
+    "fr": "gagner",
+    "de": "gewinnen",
+    "it": "vincere",
+    "pt": "ganhar",
+    "ja": "勝つ",
+    "zh": "赢",
+    "ko": "이기다",
+    "hi": "जीतना",
+    "ar": "يفوز",
+    "ru": "выигрывать",
+    "nl": "winnen"
+   },
+   "say": {
+    "ja": "katsu",
+    "zh": "yíng",
+    "ko": "igida",
+    "hi": "jeetna",
+    "ar": "yafooz",
+    "ru": "vyigryvat"
+   }
+  },
+  {
+   "en": "ask",
+   "also": [
+    "to ask"
+   ],
+   "t": {
+    "es": "preguntar",
+    "fr": "demander",
+    "de": "fragen",
+    "it": "chiedere",
+    "pt": "perguntar",
+    "ja": "聞く",
+    "zh": "问",
+    "ko": "묻다",
+    "hi": "पूछना",
+    "ar": "يسأل",
+    "ru": "спрашивать",
+    "nl": "vragen"
+   },
+   "say": {
+    "ja": "kiku",
+    "zh": "wèn",
+    "ko": "mutda",
+    "hi": "poochhna",
+    "ar": "yas'al",
+    "ru": "sprashivat"
+   }
+  },
+  {
+   "en": "call",
+   "also": [
+    "to call"
+   ],
+   "t": {
+    "es": "llamar",
+    "fr": "appeler",
+    "de": "anrufen",
+    "it": "chiamare",
+    "pt": "ligar",
+    "ja": "電話する",
+    "zh": "打电话",
+    "ko": "전화하다",
+    "hi": "फ़ोन करना",
+    "ar": "يتصل",
+    "ru": "звонить",
+    "nl": "bellen"
+   },
+   "say": {
+    "ja": "denwa suru",
+    "zh": "dǎ diànhuà",
+    "ko": "jeonhwahada",
+    "hi": "fon karna",
+    "ar": "yattasil",
+    "ru": "zvonit"
+   }
+  },
+  {
+   "en": "send",
+   "also": [
+    "to send"
+   ],
+   "t": {
+    "es": "enviar",
+    "fr": "envoyer",
+    "de": "schicken",
+    "it": "mandare",
+    "pt": "enviar",
+    "ja": "送る",
+    "zh": "发送",
+    "ko": "보내다",
+    "hi": "भेजना",
+    "ar": "يرسل",
+    "ru": "отправлять",
+    "nl": "sturen"
+   },
+   "say": {
+    "ja": "okuru",
+    "zh": "fāsòng",
+    "ko": "bonaeda",
+    "hi": "bhejna",
+    "ar": "yursil",
+    "ru": "otpravlyat"
+   }
+  },
+  {
+   "en": "bring",
+   "also": [
+    "to bring"
+   ],
+   "t": {
+    "es": "traer",
+    "fr": "apporter",
+    "de": "bringen",
+    "it": "portare",
+    "pt": "trazer",
+    "ja": "持ってくる",
+    "zh": "带来",
+    "ko": "가져오다",
+    "hi": "लाना",
+    "ar": "يحضر",
+    "ru": "приносить",
+    "nl": "brengen"
+   },
+   "say": {
+    "ja": "motte kuru",
+    "zh": "dàilái",
+    "ko": "gajyeooda",
+    "hi": "laana",
+    "ar": "yuhdir",
+    "ru": "prinosit"
+   }
+  },
+  {
+   "en": "carry",
+   "also": [
+    "to carry"
+   ],
+   "t": {
+    "es": "llevar",
+    "fr": "porter",
+    "de": "tragen",
+    "it": "portare",
+    "pt": "carregar",
+    "ja": "運ぶ",
+    "zh": "搬",
+    "ko": "나르다",
+    "hi": "उठाना",
+    "ar": "يحمل",
+    "ru": "нести",
+    "nl": "dragen"
+   },
+   "say": {
+    "ja": "hakobu",
+    "zh": "bān",
+    "ko": "nareuda",
+    "hi": "uthaana",
+    "ar": "yahmil",
+    "ru": "nesti"
+   }
+  },
+  {
+   "en": "push",
+   "also": [
+    "to push"
+   ],
+   "t": {
+    "es": "empujar",
+    "fr": "pousser",
+    "de": "drücken",
+    "it": "spingere",
+    "pt": "empurrar",
+    "ja": "押す",
+    "zh": "推",
+    "ko": "밀다",
+    "hi": "धक्का देना",
+    "ar": "يدفع",
+    "ru": "толкать",
+    "nl": "duwen"
+   },
+   "say": {
+    "ja": "osu",
+    "zh": "tuī",
+    "ko": "milda",
+    "hi": "dhakka dena",
+    "ar": "yadfa'",
+    "ru": "tolkat"
+   }
+  },
+  {
+   "en": "pull",
+   "also": [
+    "to pull"
+   ],
+   "t": {
+    "es": "jalar",
+    "fr": "tirer",
+    "de": "ziehen",
+    "it": "tirare",
+    "pt": "puxar",
+    "ja": "引く",
+    "zh": "拉",
+    "ko": "당기다",
+    "hi": "खींचना",
+    "ar": "يسحب",
+    "ru": "тянуть",
+    "nl": "trekken"
+   },
+   "say": {
+    "ja": "hiku",
+    "zh": "lā",
+    "ko": "danggida",
+    "hi": "kheenchna",
+    "ar": "yashab",
+    "ru": "tyanut"
+   }
+  },
+  {
+   "en": "throw",
+   "also": [
+    "to throw"
+   ],
+   "t": {
+    "es": "lanzar",
+    "fr": "lancer",
+    "de": "werfen",
+    "it": "lanciare",
+    "pt": "jogar",
+    "ja": "投げる",
+    "zh": "扔",
+    "ko": "던지다",
+    "hi": "फेंकना",
+    "ar": "يرمي",
+    "ru": "бросать",
+    "nl": "gooien"
+   },
+   "say": {
+    "ja": "nageru",
+    "zh": "rēng",
+    "ko": "deonjida",
+    "hi": "phenkna",
+    "ar": "yarmi",
+    "ru": "brosat"
+   }
+  },
+  {
+   "en": "catch",
+   "also": [
+    "to catch"
+   ],
+   "t": {
+    "es": "atrapar",
+    "fr": "attraper",
+    "de": "fangen",
+    "it": "prendere",
+    "pt": "pegar",
+    "ja": "捕まえる",
+    "zh": "接住",
+    "ko": "잡다",
+    "hi": "पकड़ना",
+    "ar": "يمسك",
+    "ru": "ловить",
+    "nl": "vangen"
+   },
+   "say": {
+    "ja": "tsukamaeru",
+    "zh": "jiēzhù",
+    "ko": "japda",
+    "hi": "pakadna",
+    "ar": "yumsik",
+    "ru": "lovit"
+   }
+  },
+  {
+   "en": "kick",
+   "also": [
+    "to kick"
+   ],
+   "t": {
+    "es": "patear",
+    "fr": "donner un coup de pied",
+    "de": "treten",
+    "it": "calciare",
+    "pt": "chutar",
+    "ja": "蹴る",
+    "zh": "踢",
+    "ko": "차다",
+    "hi": "लात मारना",
+    "ar": "يركل",
+    "ru": "пинать",
+    "nl": "schoppen"
+   },
+   "say": {
+    "ja": "keru",
+    "zh": "tī",
+    "ko": "chada",
+    "hi": "laat maarna",
+    "ar": "yarkul",
+    "ru": "pinat"
+   }
+  },
+  {
+   "en": "build",
+   "also": [
+    "to build"
+   ],
+   "t": {
+    "es": "construir",
+    "fr": "construire",
+    "de": "bauen",
+    "it": "costruire",
+    "pt": "construir",
+    "ja": "建てる",
+    "zh": "建造",
+    "ko": "짓다",
+    "hi": "बनाना",
+    "ar": "يبني",
+    "ru": "строить",
+    "nl": "bouwen"
+   },
+   "say": {
+    "ja": "tateru",
+    "zh": "jiànzào",
+    "ko": "jitda",
+    "hi": "banaana",
+    "ar": "yabni",
+    "ru": "stroit"
+   }
+  },
+  {
+   "en": "fix",
+   "also": [
+    "to fix",
+    "repair"
+   ],
+   "t": {
+    "es": "arreglar",
+    "fr": "réparer",
+    "de": "reparieren",
+    "it": "riparare",
+    "pt": "consertar",
+    "ja": "直す",
+    "zh": "修理",
+    "ko": "고치다",
+    "hi": "ठीक करना",
+    "ar": "يصلح",
+    "ru": "чинить",
+    "nl": "repareren"
+   },
+   "say": {
+    "ja": "naosu",
+    "zh": "xiūlǐ",
+    "ko": "gochida",
+    "hi": "theek karna",
+    "ar": "yuslih",
+    "ru": "chinit"
+   }
+  },
+  {
+   "en": "cut",
+   "also": [
+    "to cut"
+   ],
+   "t": {
+    "es": "cortar",
+    "fr": "couper",
+    "de": "schneiden",
+    "it": "tagliare",
+    "pt": "cortar",
+    "ja": "切る",
+    "zh": "切",
+    "ko": "자르다",
+    "hi": "काटना",
+    "ar": "يقطع",
+    "ru": "резать",
+    "nl": "snijden"
+   },
+   "say": {
+    "ja": "kiru",
+    "zh": "qiē",
+    "ko": "jareuda",
+    "hi": "kaatna",
+    "ar": "yaqta'",
+    "ru": "rezat"
+   }
+  },
+  {
+   "en": "remember",
+   "also": [
+    "to remember"
+   ],
+   "t": {
+    "es": "recordar",
+    "fr": "se souvenir",
+    "de": "sich erinnern",
+    "it": "ricordare",
+    "pt": "lembrar",
+    "ja": "覚えている",
+    "zh": "记得",
+    "ko": "기억하다",
+    "hi": "याद रखना",
+    "ar": "يتذكر",
+    "ru": "помнить",
+    "nl": "onthouden"
+   },
+   "say": {
+    "ja": "oboete iru",
+    "zh": "jìde",
+    "ko": "gieokhada",
+    "hi": "yaad rakhna",
+    "ar": "yatadhakkar",
+    "ru": "pomnit"
+   }
+  },
+  {
+   "en": "forget",
+   "also": [
+    "to forget"
+   ],
+   "t": {
+    "es": "olvidar",
+    "fr": "oublier",
+    "de": "vergessen",
+    "it": "dimenticare",
+    "pt": "esquecer",
+    "ja": "忘れる",
+    "zh": "忘记",
+    "ko": "잊다",
+    "hi": "भूलना",
+    "ar": "ينسى",
+    "ru": "забывать",
+    "nl": "vergeten"
+   },
+   "say": {
+    "ja": "wasureru",
+    "zh": "wàngjì",
+    "ko": "itda",
+    "hi": "bhoolna",
+    "ar": "yansa",
+    "ru": "zabyvat"
+   }
+  },
+  {
+   "en": "try",
+   "also": [
+    "to try"
+   ],
+   "t": {
+    "es": "intentar",
+    "fr": "essayer",
+    "de": "versuchen",
+    "it": "provare",
+    "pt": "tentar",
+    "ja": "やってみる",
+    "zh": "试",
+    "ko": "해 보다",
+    "hi": "कोशिश करना",
+    "ar": "يحاول",
+    "ru": "пробовать",
+    "nl": "proberen"
+   },
+   "say": {
+    "ja": "yatte miru",
+    "zh": "shì",
+    "ko": "hae boda",
+    "hi": "koshish karna",
+    "ar": "yuhaawil",
+    "ru": "probovat"
+   }
+  },
+  {
+   "en": "start",
+   "also": [
+    "to start",
+    "begin",
+    "to begin"
+   ],
+   "t": {
+    "es": "empezar",
+    "fr": "commencer",
+    "de": "anfangen",
+    "it": "iniziare",
+    "pt": "começar",
+    "ja": "始める",
+    "zh": "开始",
+    "ko": "시작하다",
+    "hi": "शुरू करना",
+    "ar": "يبدأ",
+    "ru": "начинать",
+    "nl": "beginnen"
+   },
+   "say": {
+    "ja": "hajimeru",
+    "zh": "kāishǐ",
+    "ko": "sijakhada",
+    "hi": "shuroo karna",
+    "ar": "yabda'",
+    "ru": "nachinat"
+   }
+  },
+  {
+   "en": "finish",
+   "also": [
+    "to finish",
+    "end"
+   ],
+   "t": {
+    "es": "terminar",
+    "fr": "finir",
+    "de": "beenden",
+    "it": "finire",
+    "pt": "terminar",
+    "ja": "終わる",
+    "zh": "结束",
+    "ko": "끝나다",
+    "hi": "ख़त्म करना",
+    "ar": "ينهي",
+    "ru": "заканчивать",
+    "nl": "afmaken"
+   },
+   "say": {
+    "ja": "owaru",
+    "zh": "jiéshù",
+    "ko": "kkeunnada",
+    "hi": "khatm karna",
+    "ar": "yunhi",
+    "ru": "zakanchivat"
+   }
+  },
+  {
+   "en": "live",
+   "also": [
+    "to live"
+   ],
+   "t": {
+    "es": "vivir",
+    "fr": "habiter",
+    "de": "wohnen",
+    "it": "abitare",
+    "pt": "morar",
+    "ja": "住む",
+    "zh": "住",
+    "ko": "살다",
+    "hi": "रहना",
+    "ar": "يسكن",
+    "ru": "жить",
+    "nl": "wonen"
+   },
+   "say": {
+    "ja": "sumu",
+    "zh": "zhù",
+    "ko": "salda",
+    "hi": "rahna",
+    "ar": "yaskun",
+    "ru": "zhit"
+   }
+  },
+  {
+   "en": "travel",
+   "also": [
+    "to travel"
+   ],
+   "t": {
+    "es": "viajar",
+    "fr": "voyager",
+    "de": "reisen",
+    "it": "viaggiare",
+    "pt": "viajar",
+    "ja": "旅行する",
+    "zh": "旅行",
+    "ko": "여행하다",
+    "hi": "यात्रा करना",
+    "ar": "يسافر",
+    "ru": "путешествовать",
+    "nl": "reizen"
+   },
+   "say": {
+    "ja": "ryokou suru",
+    "zh": "lǚxíng",
+    "ko": "yeohaenghada",
+    "hi": "yaatra karna",
+    "ar": "yusaafir",
+    "ru": "puteshestvovat"
+   }
+  },
+  {
+   "en": "visit",
+   "also": [
+    "to visit"
+   ],
+   "t": {
+    "es": "visitar",
+    "fr": "visiter",
+    "de": "besuchen",
+    "it": "visitare",
+    "pt": "visitar",
+    "ja": "訪ねる",
+    "zh": "参观",
+    "ko": "방문하다",
+    "hi": "मिलने जाना",
+    "ar": "يزور",
+    "ru": "посещать",
+    "nl": "bezoeken"
+   },
+   "say": {
+    "ja": "tazuneru",
+    "zh": "cānguān",
+    "ko": "bangmunhada",
+    "hi": "milne jaana",
+    "ar": "yazoor",
+    "ru": "poseshchat"
+   }
+  },
+  {
+   "en": "pay",
+   "also": [
+    "to pay"
+   ],
+   "t": {
+    "es": "pagar",
+    "fr": "payer",
+    "de": "bezahlen",
+    "it": "pagare",
+    "pt": "pagar",
+    "ja": "払う",
+    "zh": "付钱",
+    "ko": "내다",
+    "hi": "पैसे देना",
+    "ar": "يدفع",
+    "ru": "платить",
+    "nl": "betalen"
+   },
+   "say": {
+    "ja": "harau",
+    "zh": "fù qián",
+    "ko": "naeda",
+    "hi": "paise dena",
+    "ar": "yadfa'",
+    "ru": "platit"
+   }
+  },
+  {
+   "en": "sell",
+   "also": [
+    "to sell"
+   ],
+   "t": {
+    "es": "vender",
+    "fr": "vendre",
+    "de": "verkaufen",
+    "it": "vendere",
+    "pt": "vender",
+    "ja": "売る",
+    "zh": "卖",
+    "ko": "팔다",
+    "hi": "बेचना",
+    "ar": "يبيع",
+    "ru": "продавать",
+    "nl": "verkopen"
+   },
+   "say": {
+    "ja": "uru",
+    "zh": "mài",
+    "ko": "palda",
+    "hi": "bechna",
+    "ar": "yabee'",
+    "ru": "prodavat"
+   }
+  },
+  {
+   "en": "count",
+   "also": [
+    "to count"
+   ],
+   "t": {
+    "es": "contar",
+    "fr": "compter",
+    "de": "zählen",
+    "it": "contare",
+    "pt": "contar",
+    "ja": "数える",
+    "zh": "数",
+    "ko": "세다",
+    "hi": "गिनना",
+    "ar": "يعد",
+    "ru": "считать",
+    "nl": "tellen"
+   },
+   "say": {
+    "ja": "kazoeru",
+    "zh": "shǔ",
+    "ko": "seda",
+    "hi": "ginna",
+    "ar": "ya'udd",
+    "ru": "schitat"
+   }
+  },
+  {
+   "en": "choose",
+   "also": [
+    "to choose",
+    "pick"
+   ],
+   "t": {
+    "es": "elegir",
+    "fr": "choisir",
+    "de": "wählen",
+    "it": "scegliere",
+    "pt": "escolher",
+    "ja": "選ぶ",
+    "zh": "选",
+    "ko": "고르다",
+    "hi": "चुनना",
+    "ar": "يختار",
+    "ru": "выбирать",
+    "nl": "kiezen"
+   },
+   "say": {
+    "ja": "erabu",
+    "zh": "xuǎn",
+    "ko": "goreuda",
+    "hi": "chunna",
+    "ar": "yakhtaar",
+    "ru": "vybirat"
+   }
+  },
+  {
+   "en": "share",
+   "also": [
+    "to share"
+   ],
+   "t": {
+    "es": "compartir",
+    "fr": "partager",
+    "de": "teilen",
+    "it": "condividere",
+    "pt": "compartilhar",
+    "ja": "分ける",
+    "zh": "分享",
+    "ko": "나누다",
+    "hi": "बाँटना",
+    "ar": "يشارك",
+    "ru": "делиться",
+    "nl": "delen"
+   },
+   "say": {
+    "ja": "wakeru",
+    "zh": "fēnxiǎng",
+    "ko": "nanuda",
+    "hi": "baantna",
+    "ar": "yushaarik",
+    "ru": "delitsya"
+   }
+  },
+  {
+   "en": "need",
+   "also": [
+    "to need"
+   ],
+   "t": {
+    "es": "necesitar",
+    "fr": "avoir besoin de",
+    "de": "brauchen",
+    "it": "avere bisogno di",
+    "pt": "precisar",
+    "ja": "必要だ",
+    "zh": "需要",
+    "ko": "필요하다",
+    "hi": "ज़रूरत होना",
+    "ar": "يحتاج",
+    "ru": "нуждаться",
+    "nl": "nodig hebben"
+   },
+   "say": {
+    "ja": "hitsuyou da",
+    "zh": "xūyào",
+    "ko": "piryohada",
+    "hi": "zaroorat hona",
+    "ar": "yahtaaj",
+    "ru": "nuzhdatsya"
+   }
+  },
+  {
+   "en": "hear",
+   "also": [
+    "to hear"
+   ],
+   "t": {
+    "es": "oír",
+    "fr": "entendre",
+    "de": "hören",
+    "it": "sentire",
+    "pt": "ouvir",
+    "ja": "聞こえる",
+    "zh": "听见",
+    "ko": "듣다",
+    "hi": "सुनना",
+    "ar": "يسمع",
+    "ru": "слышать",
+    "nl": "horen"
+   },
+   "say": {
+    "ja": "kikoeru",
+    "zh": "tīngjiàn",
+    "ko": "deutda",
+    "hi": "sunna",
+    "ar": "yasma'",
+    "ru": "slyshat"
+   }
+  },
+  {
+   "en": "feel",
+   "also": [
+    "to feel"
+   ],
+   "t": {
+    "es": "sentir",
+    "fr": "sentir",
+    "de": "fühlen",
+    "it": "sentire",
+    "pt": "sentir",
+    "ja": "感じる",
+    "zh": "感觉",
+    "ko": "느끼다",
+    "hi": "महसूस करना",
+    "ar": "يشعر",
+    "ru": "чувствовать",
+    "nl": "voelen"
+   },
+   "say": {
+    "ja": "kanjiru",
+    "zh": "gǎnjué",
+    "ko": "neukkida",
+    "hi": "mahsoos karna",
+    "ar": "yash'ur",
+    "ru": "chuvstvovat"
+   }
+  },
+  {
+   "en": "hug",
+   "also": [
+    "to hug"
+   ],
+   "t": {
+    "es": "abrazar",
+    "fr": "faire un câlin",
+    "de": "umarmen",
+    "it": "abbracciare",
+    "pt": "abraçar",
+    "ja": "抱きしめる",
+    "zh": "拥抱",
+    "ko": "안다",
+    "hi": "गले लगाना",
+    "ar": "يعانق",
+    "ru": "обнимать",
+    "nl": "knuffelen"
+   },
+   "say": {
+    "ja": "dakishimeru",
+    "zh": "yōngbào",
+    "ko": "anda",
+    "hi": "gale lagaana",
+    "ar": "yu'aaniq",
+    "ru": "obnimat"
+   }
+  },
+  {
+   "en": "to help",
+   "also": [],
+   "t": {
+    "es": "ayudar",
+    "fr": "aider",
+    "de": "helfen",
+    "it": "aiutare",
+    "pt": "ajudar",
+    "ja": "手伝う",
+    "zh": "帮助",
+    "ko": "돕다",
+    "hi": "मदद करना",
+    "ar": "يساعد",
+    "ru": "помогать",
+    "nl": "helpen"
+   },
+   "say": {
+    "ja": "tetsudau",
+    "zh": "bāngzhù",
+    "ko": "dopda",
+    "hi": "madad karna",
+    "ar": "yusaa'id",
+    "ru": "pomogat"
+   }
+  }
+ ]
+}

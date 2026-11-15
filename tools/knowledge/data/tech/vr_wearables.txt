@@ -1,0 +1,19 @@
+# tag: tech.vr.wearables
+how do i cast my quest to a tv or phone | meta quest casting => Open the camera menu on the Quest and choose Cast, then pick a phone with the Meta Horizon app, a computer browser or a Chromecast TV.
+can sunlight damage a vr headset | vr lens sun burn => Yes. Sunlight through the lenses can focus like a magnifying glass and burn the screens in seconds. Never leave a headset facing a window.
+how do i clean vr headset lenses | clean quest lenses => Wipe the lenses gently with a dry microfiber cloth in circles from the middle out. Don't use liquids or paper towels, which can scratch.
+what is ipd in vr | adjust vr lens spacing => IPD is the distance between your pupils. Setting the headset's lenses to match it makes the image sharp and more comfortable.
+why does my quest say tracking lost | vr tracking lost => The cameras can't see enough detail. Turn on more lights, avoid very dark or plain rooms and wipe the tracking cameras on the outside.
+how long does a quest battery last | quest battery life => Usually about 2 to 3 hours of play. A battery strap or playing while plugged into a long cable gives more time.
+what is the meta horizon app | quest phone app => The Meta Horizon app on your phone sets up the Quest, installs games, manages parent settings and lets you watch casts.
+what is quest air link | wireless pc vr quest => Air Link streams PC VR games to a Quest over Wi-Fi, no cable needed. It works best with a 5 GHz or 6 GHz router close by and a PC on Ethernet.
+what is steam link for quest | steam vr on quest => Steam Link for Quest is a free app that streams SteamVR games from your PC to the headset wirelessly.
+what is virtual desktop vr | virtual desktop app => Virtual Desktop is a paid Quest app for streaming your PC desktop and PC VR games over Wi-Fi, known for smooth performance.
+what do the airpods case lights mean | airpods case light colors => Green means fully charged, amber means charging or less than one full charge, and flashing white means ready to pair.
+how do i reset my airpods | airpods factory reset => Put both AirPods in the case, open the lid and hold the button on the back until the light flashes amber then white. Then pair them again.
+how do i update airpods firmware | airpods update => AirPods update by themselves while charging in their case near an iPhone or iPad that's on Wi-Fi. You can check the version in Bluetooth settings.
+what is conversation awareness on airpods | airpods lower volume when talking => On supported AirPods, Conversation Awareness lowers your music and reduces noise cancelling when you start talking to someone.
+what is adaptive audio on airpods | adaptive mode airpods => Adaptive Audio mixes noise cancelling and transparency automatically based on how loud your surroundings are.
+how do i check my airpods battery | airpods battery level => Open the case near your iPhone or iPad to see a battery pop-up, or add the Batteries widget to your home screen.
+what is ear tip fit test | airpods pro tip size => In Bluetooth settings for AirPods Pro, the Ear Tip Fit Test checks if the tips seal well. A good seal improves bass and noise cancelling.
+what is hearing protection on airpods pro | airpods hearing health => Newer AirPods Pro can reduce loud environmental sounds to protect your hearing, and offer a hearing test with a supported iPhone.

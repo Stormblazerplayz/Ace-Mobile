@@ -1,0 +1,1838 @@
+{
+ "recipes": [
+  {
+   "id": "classic-meatloaf",
+   "name": "Classic meatloaf",
+   "aliases": [
+    "meatloaf",
+    "meat loaf",
+    "classic meatloaf",
+    "glazed meatloaf",
+    "beef meatloaf"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 20 min",
+   "main": [
+    "beef",
+    "breadcrumb",
+    "egg",
+    "ketchup",
+    "onion"
+   ],
+   "ingredients": [
+    "1 cup (60 g) panko or 3/4 cup (75 g) dry breadcrumbs",
+    "1/2 cup (120 ml) milk",
+    "2 lb (900 g) ground beef (85/15)",
+    "1 small onion, finely chopped",
+    "2 large eggs",
+    "2 garlic cloves, grated",
+    "1 tablespoon Worcestershire sauce",
+    "1 teaspoon dried thyme",
+    "1 1/2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "1/2 cup (120 ml) ketchup",
+    "2 tablespoons brown sugar",
+    "1 tablespoon apple cider vinegar"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Finely chop the onion.",
+    "Soak the breadcrumbs in the milk for 5 minutes.",
+    "Add the beef, onion, eggs, garlic, Worcestershire, thyme, salt and pepper and mix gently with your hands. Wash your hands after.",
+    "Shape into a loaf about 9 by 5 inches on a foil-lined baking sheet.",
+    "Mix the ketchup, brown sugar and vinegar and spread half over the loaf.",
+    "Bake for 45 minutes, then spread on the rest of the glaze.",
+    "Bake for 15 to 20 minutes more, until 160°F (71°C) in the middle.",
+    "Rest for 10 minutes before slicing."
+   ]
+  },
+  {
+   "id": "slow-cooker-pot-roast",
+   "name": "Slow cooker pot roast",
+   "aliases": [
+    "pot roast",
+    "slow cooker pot roast",
+    "crockpot pot roast",
+    "beef pot roast",
+    "chuck roast",
+    "yankee pot roast"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "8 hr 20 min",
+   "main": [
+    "beef",
+    "potato",
+    "carrot",
+    "onion"
+   ],
+   "ingredients": [
+    "3 to 4 lb (1.4 to 1.8 kg) beef chuck roast",
+    "1 1/2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "2 tablespoons vegetable oil",
+    "1 onion, cut in wedges",
+    "1 1/2 lb (680 g) baby potatoes",
+    "4 carrots, cut in 2 inch pieces",
+    "3 garlic cloves",
+    "1 cup (240 ml) beef broth",
+    "2 tablespoons tomato paste",
+    "1 tablespoon Worcestershire sauce",
+    "1 teaspoon dried thyme",
+    "2 tablespoons cornstarch mixed with 2 tablespoons cold water"
+   ],
+   "steps": [
+    "Pat the roast dry and season all over with salt and pepper.",
+    "Heat the oil in a big pan over medium-high heat and brown the roast for 4 minutes per side. Ask an adult to help, it spatters.",
+    "Put the potatoes, carrots, onion and garlic in the slow cooker and set the roast on top.",
+    "Whisk the broth, tomato paste, Worcestershire and thyme and pour it over.",
+    "Cover and cook on low for 8 to 9 hours, or on high for 5 to 6 hours, until the beef falls apart with a fork.",
+    "Lift the beef and vegetables onto a platter.",
+    "Pour the liquid into a pot, stir in the cornstarch mix and simmer for 2 minutes to make gravy."
+   ]
+  },
+  {
+   "id": "beef-stew",
+   "name": "Beef stew",
+   "aliases": [
+    "beef stew",
+    "stew",
+    "beef and potato stew",
+    "hearty beef stew",
+    "irish stew"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr 30 min",
+   "main": [
+    "beef",
+    "potato",
+    "carrot",
+    "onion"
+   ],
+   "ingredients": [
+    "2 lb (900 g) beef chuck, cut in 1 1/2 inch cubes",
+    "1 teaspoon salt, plus more to taste",
+    "1/2 teaspoon pepper",
+    "3 tablespoons all-purpose flour",
+    "3 tablespoons vegetable oil",
+    "1 onion, chopped",
+    "3 garlic cloves, chopped",
+    "2 tablespoons tomato paste",
+    "4 cups (960 ml) beef broth",
+    "1 tablespoon Worcestershire sauce",
+    "2 bay leaves",
+    "1 teaspoon dried thyme",
+    "1 1/2 lb (680 g) Yukon gold potatoes, in chunks",
+    "4 carrots, in chunks",
+    "1 cup (140 g) frozen peas"
+   ],
+   "steps": [
+    "Cut the beef and vegetables. Ask an adult to help.",
+    "Toss the beef with the salt, pepper and flour.",
+    "Heat 2 tablespoons of oil in a big pot over medium-high heat and brown the beef in 2 batches for 5 minutes each. Lift it out.",
+    "Add the rest of the oil and the onion and cook for 5 minutes. Add the garlic and tomato paste for 1 minute.",
+    "Add the broth, Worcestershire, bay leaves, thyme and beef and bring to a boil.",
+    "Cover and simmer on low for 1 hour 15 minutes.",
+    "Add the potatoes and carrots and simmer for 40 to 45 minutes more, until everything is tender.",
+    "Stir in the peas for 3 minutes, take out the bay leaves, and add salt to taste."
+   ]
+  },
+  {
+   "id": "chicken-pot-pie",
+   "name": "Chicken pot pie",
+   "aliases": [
+    "chicken pot pie",
+    "pot pie",
+    "chicken pie",
+    "chicken pot pies",
+    "creamy chicken pie"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "chicken",
+    "pie crust",
+    "carrot",
+    "pea",
+    "cream"
+   ],
+   "ingredients": [
+    "1/3 cup (75 g) butter",
+    "1 onion, chopped",
+    "2 carrots, chopped",
+    "2 celery stalks, chopped",
+    "1/3 cup (40 g) all-purpose flour",
+    "1 3/4 cups (420 ml) chicken broth",
+    "2/3 cup (160 ml) milk",
+    "1 teaspoon salt",
+    "1/2 teaspoon dried thyme",
+    "1/4 teaspoon pepper",
+    "3 cups (420 g) shredded cooked chicken",
+    "1 cup (140 g) frozen peas",
+    "2 refrigerated pie crusts",
+    "1 large egg, beaten"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Chop the onion, carrots and celery.",
+    "Melt the butter in a big pan over medium heat and cook the vegetables for 8 minutes.",
+    "Stir in the flour for 1 minute, then slowly whisk in the broth and milk.",
+    "Simmer for 3 to 4 minutes, until thick. Stir in the salt, thyme, pepper, chicken and peas.",
+    "Press one crust into a 9 inch deep pie dish and pour in the filling.",
+    "Lay the second crust on top, pinch the edges together and cut 4 slits in the top.",
+    "Brush with egg and bake for 30 to 35 minutes, until golden and bubbling. Put a sheet pan underneath to catch drips.",
+    "Cool for 15 minutes before cutting."
+   ]
+  },
+  {
+   "id": "chicken-and-dumplings",
+   "name": "Chicken and dumplings",
+   "aliases": [
+    "chicken and dumplings",
+    "chicken n dumplings",
+    "chicken dumplings",
+    "chicken and dumpling soup"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "flour",
+    "carrot",
+    "celery",
+    "broth"
+   ],
+   "ingredients": [
+    "2 tablespoons (30 g) butter",
+    "1 onion, chopped",
+    "2 carrots, chopped",
+    "2 celery stalks, chopped",
+    "1/4 cup (30 g) all-purpose flour, for the stew",
+    "6 cups (1.4 liters) chicken broth",
+    "1 1/2 lb (680 g) boneless skinless chicken thighs",
+    "1 teaspoon dried thyme",
+    "1/2 cup (120 ml) heavy cream or milk",
+    "2 cups (250 g) all-purpose flour, for the dumplings",
+    "1 tablespoon baking powder",
+    "1 teaspoon salt",
+    "3/4 cup (180 ml) milk, for the dumplings",
+    "3 tablespoons (45 g) butter, melted, for the dumplings"
+   ],
+   "steps": [
+    "Chop the vegetables. Ask an adult to help.",
+    "Melt the butter in a big pot over medium heat and cook the vegetables for 7 minutes.",
+    "Stir in 1/4 cup flour for 1 minute, then slowly whisk in the broth.",
+    "Add the whole chicken thighs and thyme and simmer for 20 minutes, until 165°F (74°C). Lift out, shred and put back with the cream.",
+    "For the dumplings, mix the flour, baking powder and salt, then stir in the milk and melted butter until just combined.",
+    "Drop heaping tablespoons of dough onto the simmering stew.",
+    "Cover and simmer for 15 minutes without lifting the lid, until the dumplings are fluffy and cooked through."
+   ]
+  },
+  {
+   "id": "southern-fried-chicken",
+   "name": "Buttermilk fried chicken",
+   "aliases": [
+    "fried chicken",
+    "southern fried chicken",
+    "buttermilk fried chicken",
+    "crispy fried chicken",
+    "kfc style chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr 30 min",
+   "main": [
+    "chicken",
+    "buttermilk",
+    "flour",
+    "oil"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken pieces (drumsticks and thighs)",
+    "2 cups (480 ml) buttermilk",
+    "2 teaspoons salt, divided",
+    "1 teaspoon hot sauce (optional)",
+    "2 cups (250 g) all-purpose flour",
+    "1 tablespoon paprika",
+    "1 teaspoon garlic powder",
+    "1 teaspoon onion powder",
+    "1/2 teaspoon pepper",
+    "1/2 teaspoon cayenne (optional)",
+    "Vegetable or peanut oil for frying"
+   ],
+   "steps": [
+    "Mix the buttermilk, 1 teaspoon salt and hot sauce and soak the chicken in it in the fridge for at least 1 hour, or overnight.",
+    "Mix the flour, the rest of the salt and the spices in a big bowl.",
+    "Lift each piece from the buttermilk, press it into the flour on all sides, and set it on a rack for 10 minutes.",
+    "An adult heats 1 1/2 inches of oil in a heavy pot to 350°F (175°C). Deep frying is for adults only.",
+    "Fry a few pieces at a time for 12 to 15 minutes, turning, until deep golden and 165°F (74°C) inside.",
+    "Drain on a rack over a sheet pan.",
+    "Let the oil cool completely before anyone moves the pot."
+   ]
+  },
+  {
+   "id": "oven-fried-chicken",
+   "name": "Crispy oven fried chicken",
+   "aliases": [
+    "oven fried chicken",
+    "baked fried chicken",
+    "crispy baked chicken",
+    "oven baked fried chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "buttermilk",
+    "cornflake",
+    "flour"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken drumsticks and thighs",
+    "1 cup (240 ml) buttermilk",
+    "1 teaspoon salt, plus 1 teaspoon for the coating",
+    "2 cups (60 g) cornflakes, crushed",
+    "1/2 cup (65 g) all-purpose flour",
+    "1 teaspoon paprika",
+    "1/2 teaspoon garlic powder",
+    "1/4 teaspoon pepper",
+    "3 tablespoons (45 g) butter, melted"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Soak the chicken in the buttermilk and 1 teaspoon salt for 15 minutes.",
+    "Set a wire rack on a foil-lined baking sheet and spray it with oil.",
+    "Mix the cornflakes, flour, paprika, garlic powder, pepper and the rest of the salt in a shallow dish.",
+    "Press each piece into the coating on all sides and set it on the rack. Wash your hands.",
+    "Drizzle the melted butter over the chicken.",
+    "Bake for 40 to 45 minutes, until golden and 165°F (74°C) inside."
+   ]
+  },
+  {
+   "id": "bbq-chicken-drumsticks",
+   "name": "Baked BBQ chicken drumsticks",
+   "aliases": [
+    "bbq chicken",
+    "barbecue chicken",
+    "bbq drumsticks",
+    "baked bbq chicken",
+    "chicken drumsticks",
+    "sticky drumsticks"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "55 min",
+   "main": [
+    "chicken",
+    "bbq sauce",
+    "paprika"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) chicken drumsticks (about 10)",
+    "1 tablespoon olive oil",
+    "1 teaspoon salt",
+    "1 teaspoon smoked paprika",
+    "1/2 teaspoon garlic powder",
+    "1/4 teaspoon pepper",
+    "3/4 cup (180 ml) barbecue sauce"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Line a baking sheet with foil and set a rack on it if you have one.",
+    "Toss the drumsticks with the oil, salt, paprika, garlic powder and pepper. Wash your hands.",
+    "Lay them on the rack and bake for 30 minutes.",
+    "Brush with half the barbecue sauce and bake for 10 minutes.",
+    "Turn them, brush with the rest of the sauce, and bake for 5 to 10 minutes more, until sticky and 175°F (79°C) inside. Drumsticks are safe at 165°F (74°C) but get more tender when cooked a little higher."
+   ]
+  },
+  {
+   "id": "baked-chicken-thighs",
+   "name": "Crispy baked chicken thighs",
+   "aliases": [
+    "baked chicken thighs",
+    "chicken thighs",
+    "crispy chicken thighs",
+    "oven chicken thighs",
+    "roasted chicken thighs"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "chicken",
+    "garlic",
+    "paprika"
+   ],
+   "ingredients": [
+    "8 bone-in, skin-on chicken thighs (about 3 lb / 1.4 kg)",
+    "1 tablespoon olive oil",
+    "1 1/2 teaspoons salt",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "1/2 teaspoon dried thyme",
+    "1/4 teaspoon pepper"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Pat the chicken very dry with paper towels so the skin gets crisp.",
+    "Rub with oil and sprinkle all over with the salt and spices. Wash your hands.",
+    "Lay skin side up on a foil-lined baking sheet with space between pieces.",
+    "Bake for 35 to 45 minutes, until the skin is crisp and the meat is 175°F (79°C) near the bone. That's above the safe 165°F (74°C) and makes thighs tender.",
+    "Rest for 5 minutes before serving."
+   ]
+  },
+  {
+   "id": "honey-garlic-chicken",
+   "name": "Honey garlic chicken",
+   "aliases": [
+    "honey garlic chicken",
+    "honey chicken",
+    "sticky honey chicken",
+    "garlic honey chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "chicken",
+    "honey",
+    "garlic",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless skinless chicken thighs",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "2 tablespoons cornstarch",
+    "1 tablespoon vegetable oil",
+    "4 garlic cloves, chopped",
+    "1/3 cup (80 ml) honey",
+    "3 tablespoons soy sauce",
+    "1 tablespoon rice vinegar",
+    "2 tablespoons water",
+    "Sesame seeds, green onion and cooked rice to serve"
+   ],
+   "steps": [
+    "Cut the chicken into bite-size pieces and chop the garlic. Ask an adult to help.",
+    "Toss the chicken with salt, pepper and cornstarch.",
+    "Heat the oil in a big pan over medium-high heat and cook the chicken for 6 to 8 minutes, turning, until golden and 165°F (74°C).",
+    "Turn the heat to medium and add the garlic for 30 seconds.",
+    "Add the honey, soy sauce, vinegar and water.",
+    "Simmer for 2 to 3 minutes, stirring, until the sauce is sticky and coats the chicken.",
+    "Top with sesame seeds and green onion and serve with rice."
+   ]
+  },
+  {
+   "id": "lemon-pepper-chicken",
+   "name": "Lemon pepper chicken",
+   "aliases": [
+    "lemon pepper chicken",
+    "lemon chicken",
+    "lemon pepper chicken breast",
+    "pan lemon chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "chicken",
+    "lemon",
+    "butter",
+    "pepper"
+   ],
+   "ingredients": [
+    "4 thin boneless skinless chicken breast cutlets (about 1 1/2 lb / 680 g)",
+    "1 teaspoon salt",
+    "1 1/2 teaspoons coarse black pepper",
+    "1/4 cup (30 g) all-purpose flour",
+    "2 tablespoons olive oil",
+    "2 tablespoons (30 g) butter",
+    "2 garlic cloves, chopped",
+    "1/2 cup (120 ml) chicken broth",
+    "1 lemon, zested and juiced"
+   ],
+   "steps": [
+    "Season the chicken with the salt, pepper and lemon zest, then dust with flour. Wash your hands.",
+    "Heat the oil in a big pan over medium-high heat.",
+    "Cook the chicken for 4 to 5 minutes per side, until golden and 165°F (74°C). Move to a plate.",
+    "Turn the heat to medium and melt the butter. Add the garlic for 30 seconds.",
+    "Add the broth and lemon juice and simmer for 2 minutes, scraping the pan.",
+    "Put the chicken back and spoon the sauce over it."
+   ]
+  },
+  {
+   "id": "shepherds-pie",
+   "name": "Shepherd's pie",
+   "aliases": [
+    "shepherds pie",
+    "cottage pie",
+    "shepherd pie",
+    "mince and mash pie",
+    "lamb shepherds pie"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "beef",
+    "potato",
+    "carrot",
+    "pea",
+    "onion"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) russet potatoes, peeled and cut in chunks",
+    "4 tablespoons (60 g) butter",
+    "1/2 cup (120 ml) milk",
+    "1 1/4 teaspoons salt, divided",
+    "1 tablespoon olive oil",
+    "1 onion, chopped",
+    "2 carrots, finely chopped",
+    "1 1/2 lb (680 g) ground lamb or beef (beef makes it a cottage pie)",
+    "2 tablespoons tomato paste",
+    "2 tablespoons all-purpose flour",
+    "1 cup (240 ml) beef broth",
+    "1 tablespoon Worcestershire sauce",
+    "1 teaspoon dried thyme",
+    "1 cup (140 g) frozen peas"
+   ],
+   "steps": [
+    "Boil the potatoes in salted water for 15 to 20 minutes, until soft. Drain and mash with the butter, milk and 1/2 teaspoon salt.",
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Chop the onion and carrots.",
+    "Heat the oil in a big pan over medium heat and cook the onion and carrots for 6 minutes.",
+    "Add the meat and cook for 7 to 8 minutes, breaking it up, until browned. Drain extra fat.",
+    "Stir in the tomato paste and flour for 1 minute, then add the broth, Worcestershire, thyme and the rest of the salt.",
+    "Simmer for 8 minutes, until thick. Stir in the peas.",
+    "Spread the filling in a 9 by 13 inch dish, spoon the mash on top and rough it up with a fork.",
+    "Bake for 25 minutes, until golden and bubbling."
+   ]
+  },
+  {
+   "id": "sloppy-joes",
+   "name": "Sloppy joes",
+   "aliases": [
+    "sloppy joes",
+    "sloppy joe",
+    "sloppy joe sandwiches",
+    "manwich",
+    "loose meat sandwich"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "30 min",
+   "main": [
+    "beef",
+    "ketchup",
+    "onion",
+    "bun"
+   ],
+   "ingredients": [
+    "1 tablespoon vegetable oil",
+    "1 onion, finely chopped",
+    "1/2 green bell pepper, finely chopped",
+    "1 1/2 lb (680 g) ground beef",
+    "2 garlic cloves, chopped",
+    "1 cup (240 ml) ketchup",
+    "1/2 cup (120 ml) water",
+    "1 tablespoon brown sugar",
+    "1 tablespoon Worcestershire sauce",
+    "1 teaspoon yellow mustard",
+    "1 teaspoon chili powder",
+    "1/2 teaspoon salt",
+    "6 hamburger buns, toasted"
+   ],
+   "steps": [
+    "Chop the onion, pepper and garlic. Ask an adult to help.",
+    "Heat the oil in a big pan over medium heat and cook the onion and pepper for 5 minutes.",
+    "Add the beef and garlic and cook for 7 to 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Stir in the ketchup, water, brown sugar, Worcestershire, mustard, chili powder and salt.",
+    "Simmer for 10 minutes, until thick.",
+    "Spoon onto toasted buns."
+   ]
+  },
+  {
+   "id": "french-dip",
+   "name": "French dip sandwiches",
+   "aliases": [
+    "french dip",
+    "french dip sandwich",
+    "beef dip",
+    "roast beef au jus",
+    "au jus sandwich"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "roast beef",
+    "roll",
+    "beef broth",
+    "cheese"
+   ],
+   "ingredients": [
+    "1 lb (450 g) thinly sliced deli roast beef",
+    "2 cups (480 ml) beef broth",
+    "1 tablespoon Worcestershire sauce",
+    "1 tablespoon soy sauce",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon dried thyme",
+    "1 tablespoon (15 g) butter",
+    "1 onion, thinly sliced (optional)",
+    "4 hoagie rolls, split",
+    "4 slices provolone or Swiss cheese"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Simmer the broth, Worcestershire, soy sauce, garlic powder and thyme for 5 minutes. This is the au jus.",
+    "Slice the onion and cook it in the butter over medium heat for 8 to 10 minutes, until soft and golden.",
+    "Dip the roast beef into the hot au jus for 30 seconds to warm it.",
+    "Pile the beef and onions into the rolls and top with cheese.",
+    "Bake open on a baking sheet for 5 minutes, until the cheese melts and the bread is toasty.",
+    "Close the sandwiches and serve with cups of au jus for dipping."
+   ]
+  },
+  {
+   "id": "slow-cooker-pulled-pork",
+   "name": "Slow cooker pulled pork",
+   "aliases": [
+    "pulled pork",
+    "slow cooker pulled pork",
+    "bbq pulled pork",
+    "pulled pork sandwiches",
+    "crockpot pulled pork"
+   ],
+   "category": "Dinner",
+   "servings": 10,
+   "time": "8 hr 20 min",
+   "main": [
+    "pork",
+    "bbq sauce",
+    "brown sugar",
+    "onion"
+   ],
+   "ingredients": [
+    "4 lb (1.8 kg) boneless pork shoulder (pork butt)",
+    "2 tablespoons brown sugar",
+    "1 tablespoon paprika",
+    "2 teaspoons salt",
+    "1 teaspoon garlic powder",
+    "1 teaspoon onion powder",
+    "1 teaspoon chili powder",
+    "1/2 teaspoon pepper",
+    "1 onion, sliced",
+    "1/2 cup (120 ml) apple cider vinegar or apple juice",
+    "1 1/2 cups (360 ml) barbecue sauce",
+    "Buns and coleslaw to serve"
+   ],
+   "steps": [
+    "Mix the brown sugar, paprika, salt and spices and rub it all over the pork. Wash your hands.",
+    "Put the onion in the slow cooker, set the pork on top and pour the vinegar around it.",
+    "Cover and cook on low for 8 to 10 hours, until the pork pulls apart easily and is about 200°F (93°C) inside.",
+    "Lift the pork onto a board and shred it with two forks. Throw away any big fat pieces.",
+    "Spoon off the fat from the liquid in the cooker.",
+    "Put the pork back with 1/2 cup of the liquid and the barbecue sauce and stir.",
+    "Serve on buns with coleslaw."
+   ]
+  },
+  {
+   "id": "oven-bbq-ribs",
+   "name": "Oven baked BBQ ribs",
+   "aliases": [
+    "bbq ribs",
+    "baby back ribs",
+    "oven ribs",
+    "pork ribs",
+    "barbecue ribs",
+    "baked ribs"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "3 hr",
+   "main": [
+    "pork rib",
+    "bbq sauce",
+    "brown sugar",
+    "paprika"
+   ],
+   "ingredients": [
+    "2 racks baby back pork ribs (about 4 lb / 1.8 kg)",
+    "2 tablespoons brown sugar",
+    "1 tablespoon smoked paprika",
+    "2 teaspoons salt",
+    "1 teaspoon garlic powder",
+    "1 teaspoon onion powder",
+    "1/2 teaspoon pepper",
+    "1 cup (240 ml) barbecue sauce"
+   ],
+   "steps": [
+    "Heat the oven to 275°F (135°C). Ask an adult to help.",
+    "Pull the thin papery skin off the bone side of each rack with a paper towel. An adult can loosen it with a butter knife.",
+    "Mix the brown sugar, paprika, salt and spices and rub it all over the ribs. Wash your hands.",
+    "Wrap each rack tightly in foil and set them on a baking sheet, meat side up.",
+    "Bake for 2 hours 30 minutes, until the meat is tender and pulls back from the bones.",
+    "Carefully open the foil (hot steam!) and brush the ribs with barbecue sauce.",
+    "Turn the oven to 425°F (220°C) and bake uncovered for 10 to 15 minutes, until sticky.",
+    "Rest for 5 minutes and cut between the bones."
+   ]
+  },
+  {
+   "id": "pan-seared-pork-chops",
+   "name": "Pan seared pork chops",
+   "aliases": [
+    "pork chops",
+    "pan seared pork chops",
+    "pork chop",
+    "fried pork chops",
+    "garlic butter pork chops"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "pork",
+    "butter",
+    "garlic",
+    "thyme"
+   ],
+   "ingredients": [
+    "4 bone-in or boneless pork chops, about 1 inch thick",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon paprika",
+    "1 tablespoon vegetable oil",
+    "2 tablespoons (30 g) butter",
+    "2 garlic cloves, smashed",
+    "2 sprigs fresh thyme or rosemary"
+   ],
+   "steps": [
+    "Take the chops out of the fridge 20 minutes early and pat them dry.",
+    "Season both sides with salt, pepper, garlic powder and paprika. Wash your hands.",
+    "Heat the oil in a heavy pan over medium-high heat. Ask an adult to help, it spatters.",
+    "Cook the chops for 4 to 5 minutes, until deep golden underneath.",
+    "Flip, add the butter, garlic and thyme, and cook for 3 to 5 minutes, spooning the butter over the chops, until 145°F (63°C) inside.",
+    "Rest for 5 minutes before serving."
+   ]
+  },
+  {
+   "id": "smothered-pork-chops",
+   "name": "Smothered pork chops",
+   "aliases": [
+    "smothered pork chops",
+    "pork chops and gravy",
+    "pork chops with onion gravy",
+    "southern pork chops"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "pork",
+    "onion",
+    "flour",
+    "broth"
+   ],
+   "ingredients": [
+    "4 bone-in pork chops, about 3/4 inch thick",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "1/2 cup (65 g) all-purpose flour, plus 2 tablespoons for the gravy",
+    "3 tablespoons vegetable oil",
+    "1 onion, thinly sliced",
+    "2 cups (480 ml) chicken broth",
+    "1/2 cup (120 ml) milk or cream"
+   ],
+   "steps": [
+    "Season the chops with salt, pepper, garlic powder and paprika, then coat in flour. Wash your hands.",
+    "Slice the onion. Ask an adult to help.",
+    "Heat the oil in a big pan over medium-high heat and brown the chops for 3 minutes per side. Move them to a plate.",
+    "Turn the heat to medium and cook the onion for 5 minutes.",
+    "Stir in 2 tablespoons flour for 1 minute, then whisk in the broth and milk.",
+    "Put the chops back, cover and simmer on low for 20 to 25 minutes, until tender and at least 145°F (63°C).",
+    "Serve with mashed potatoes or rice and plenty of gravy."
+   ]
+  },
+  {
+   "id": "roast-turkey-breast",
+   "name": "Roast turkey breast",
+   "aliases": [
+    "roast turkey breast",
+    "turkey breast",
+    "roasted turkey",
+    "thanksgiving turkey breast",
+    "oven turkey breast"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr",
+   "main": [
+    "turkey",
+    "butter",
+    "herb",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 bone-in turkey breast (5 to 6 lb / 2.3 to 2.7 kg)",
+    "4 tablespoons (60 g) soft butter",
+    "3 garlic cloves, grated",
+    "1 tablespoon chopped fresh herbs (sage, thyme, rosemary) or 1 teaspoon dried",
+    "2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "1 onion, cut in wedges",
+    "1 cup (240 ml) chicken broth"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Pat the turkey dry.",
+    "Mix the butter, garlic, herbs, salt and pepper.",
+    "Loosen the skin with your fingers and rub half the butter under it and the rest on top. Wash your hands.",
+    "Put the onion and broth in a roasting pan and set the turkey on top, skin side up.",
+    "Roast for 1 hour 30 minutes to 1 hour 45 minutes, until 165°F (74°C) in the thickest part. Cover loosely with foil if the skin gets too dark.",
+    "Rest for 15 minutes before an adult carves it."
+   ]
+  },
+  {
+   "id": "honey-glazed-ham",
+   "name": "Honey glazed ham",
+   "aliases": [
+    "glazed ham",
+    "honey glazed ham",
+    "baked ham",
+    "easter ham",
+    "christmas ham",
+    "spiral ham"
+   ],
+   "category": "Dinner",
+   "servings": 12,
+   "time": "2 hr 15 min",
+   "main": [
+    "ham",
+    "honey",
+    "brown sugar",
+    "mustard"
+   ],
+   "ingredients": [
+    "1 fully cooked spiral sliced ham (8 to 10 lb / 3.6 to 4.5 kg)",
+    "1/2 cup (120 ml) water",
+    "1/2 cup (100 g) brown sugar",
+    "1/3 cup (80 ml) honey",
+    "2 tablespoons Dijon mustard",
+    "2 tablespoons (30 g) butter",
+    "1/2 teaspoon ground cinnamon",
+    "1/4 teaspoon ground cloves"
+   ],
+   "steps": [
+    "Heat the oven to 325°F (165°C). Ask an adult to help.",
+    "Put the ham cut side down in a roasting pan and pour the water in the bottom.",
+    "Cover tightly with foil and bake for 1 hour 30 minutes, about 12 minutes per pound, until 120°F (49°C) inside.",
+    "Simmer the brown sugar, honey, mustard, butter and spices in a small pot for 2 minutes to make the glaze.",
+    "Uncover the ham, turn the oven to 400°F (200°C), and brush on half the glaze.",
+    "Bake for 10 minutes, brush on the rest, and bake for 10 minutes more, until sticky and 140°F (60°C) inside.",
+    "Rest for 10 minutes before serving."
+   ]
+  },
+  {
+   "id": "pan-seared-steak",
+   "name": "Pan seared steak",
+   "aliases": [
+    "steak",
+    "pan seared steak",
+    "how to cook steak",
+    "ribeye steak",
+    "sirloin steak",
+    "butter basted steak"
+   ],
+   "category": "Dinner",
+   "servings": 2,
+   "time": "25 min",
+   "main": [
+    "beef",
+    "butter",
+    "garlic",
+    "salt"
+   ],
+   "ingredients": [
+    "2 steaks like ribeye, strip or sirloin, about 1 inch thick",
+    "1 1/2 teaspoons coarse salt",
+    "1/2 teaspoon pepper",
+    "1 tablespoon vegetable oil",
+    "2 tablespoons (30 g) butter",
+    "2 garlic cloves, smashed",
+    "2 sprigs fresh thyme or rosemary"
+   ],
+   "steps": [
+    "Take the steaks out of the fridge 30 minutes early, pat dry, and season well with salt and pepper.",
+    "Heat a heavy cast iron pan over high heat for 3 minutes, then add the oil. Ask an adult to help, it smokes and spatters.",
+    "Lay the steaks in the pan away from you and cook for 3 to 4 minutes without moving them.",
+    "Flip and cook for 2 minutes.",
+    "Turn the heat to medium, add the butter, garlic and thyme, and spoon the butter over the steaks for 1 to 2 minutes.",
+    "Check with a thermometer: 130°F (54°C) for medium rare, 140°F (60°C) for medium, 145°F (63°C) to be fully safe by USDA rules.",
+    "Rest for 5 minutes, then slice across the grain."
+   ]
+  },
+  {
+   "id": "chicken-fried-steak",
+   "name": "Chicken fried steak with gravy",
+   "aliases": [
+    "chicken fried steak",
+    "country fried steak",
+    "cfs",
+    "fried steak and gravy"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "beef",
+    "flour",
+    "egg",
+    "milk"
+   ],
+   "ingredients": [
+    "4 cube steaks (about 1 1/2 lb / 680 g)",
+    "1 1/2 cups (190 g) all-purpose flour, plus 3 tablespoons for gravy",
+    "1 teaspoon salt",
+    "1 teaspoon pepper, plus more for gravy",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "2 large eggs",
+    "1/2 cup (120 ml) milk, plus 2 cups (480 ml) for gravy",
+    "Vegetable oil for frying"
+   ],
+   "steps": [
+    "Mix the flour, salt, pepper, garlic powder and paprika in a shallow dish.",
+    "Whisk the eggs and 1/2 cup milk in another dish.",
+    "Coat each steak in flour, then egg, then flour again, pressing it on. Wash your hands.",
+    "An adult heats 1/2 inch of oil in a big heavy pan over medium-high heat.",
+    "Fry the steaks for 3 to 4 minutes per side, until golden and cooked through. An adult should do the frying.",
+    "Drain on a rack and pour off all but 3 tablespoons of oil.",
+    "Whisk 3 tablespoons flour into the oil for 1 minute, then slowly whisk in 2 cups milk and simmer for 3 to 4 minutes, until thick. Add salt and lots of pepper.",
+    "Pour the gravy over the steaks."
+   ]
+  },
+  {
+   "id": "fish-and-chips",
+   "name": "Fish and chips",
+   "aliases": [
+    "fish and chips",
+    "fish n chips",
+    "beer battered fish",
+    "battered fish",
+    "fried fish and chips"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "cod",
+    "flour",
+    "potato",
+    "oil"
+   ],
+   "ingredients": [
+    "2 lb (900 g) russet potatoes, cut in thick fries",
+    "1 1/2 lb (680 g) cod or haddock fillets, cut in 4 pieces",
+    "1 cup (125 g) all-purpose flour, plus more for dusting",
+    "1/4 cup (30 g) cornstarch",
+    "1 teaspoon baking powder",
+    "1 teaspoon salt",
+    "1 cup (240 ml) cold sparkling water",
+    "Vegetable oil for frying",
+    "Lemon wedges, tartar sauce and malt vinegar to serve"
+   ],
+   "steps": [
+    "Cut the potatoes into thick fries and soak in cold water for 20 minutes. Dry them very well. Ask an adult to help.",
+    "An adult heats 2 inches of oil in a heavy pot to 325°F (165°C). Deep frying is for adults only.",
+    "Fry the potatoes in batches for 5 to 6 minutes, until soft but pale. Drain.",
+    "Heat the oil to 375°F (190°C).",
+    "Whisk the flour, cornstarch, baking powder, salt and sparkling water into a smooth batter.",
+    "Pat the fish dry, dust with flour, dip in batter and lower it gently into the oil away from you.",
+    "Fry for 4 to 6 minutes, until golden and the fish flakes and is 145°F (63°C). Drain on a rack.",
+    "Fry the potatoes again for 2 to 3 minutes, until crisp. Salt and serve with lemon and tartar sauce."
+   ]
+  },
+  {
+   "id": "baked-cod",
+   "name": "Lemon butter baked cod",
+   "aliases": [
+    "baked cod",
+    "baked fish",
+    "lemon butter cod",
+    "oven cod",
+    "white fish"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "cod",
+    "butter",
+    "lemon",
+    "breadcrumb"
+   ],
+   "ingredients": [
+    "4 cod fillets (6 oz / 170 g each)",
+    "3 tablespoons (45 g) butter, melted",
+    "2 garlic cloves, grated",
+    "1 lemon",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1/2 teaspoon paprika",
+    "1/3 cup (20 g) panko breadcrumbs",
+    "2 tablespoons chopped parsley"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Pat the fish dry and lay it in a baking dish.",
+    "Mix the butter, garlic, juice of half the lemon, salt and pepper and pour it over the fish.",
+    "Mix the panko with the paprika and sprinkle it on top.",
+    "Bake for 12 to 15 minutes, until the fish flakes easily and is 145°F (63°C).",
+    "Top with parsley and serve with lemon wedges."
+   ]
+  },
+  {
+   "id": "garlic-butter-shrimp",
+   "name": "Garlic butter shrimp",
+   "aliases": [
+    "garlic butter shrimp",
+    "garlic shrimp",
+    "butter shrimp",
+    "sauteed shrimp",
+    "lemon garlic shrimp"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "shrimp",
+    "butter",
+    "garlic",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) large shrimp, peeled and deveined",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 tablespoon olive oil",
+    "4 tablespoons (60 g) butter",
+    "5 garlic cloves, chopped",
+    "1 pinch chili flakes (optional)",
+    "1 tablespoon lemon juice",
+    "2 tablespoons chopped parsley"
+   ],
+   "steps": [
+    "Chop the garlic. Ask an adult to help.",
+    "Pat the shrimp dry and season with salt and pepper.",
+    "Heat the oil and 1 tablespoon butter in a big pan over medium-high heat.",
+    "Cook the shrimp in one layer for 1 to 2 minutes per side, until pink. Move to a plate.",
+    "Turn the heat to medium, add the rest of the butter, garlic and chili flakes and cook for 1 minute.",
+    "Add the shrimp back with the lemon juice and parsley and toss.",
+    "Serve over rice, pasta or with bread."
+   ]
+  },
+  {
+   "id": "shrimp-and-grits",
+   "name": "Shrimp and grits",
+   "aliases": [
+    "shrimp and grits",
+    "shrimp n grits",
+    "cajun shrimp and grits",
+    "lowcountry shrimp and grits"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "shrimp",
+    "grits",
+    "bacon",
+    "cheese"
+   ],
+   "ingredients": [
+    "4 cups (960 ml) water or chicken broth",
+    "1 cup (160 g) quick or old-fashioned grits",
+    "1 teaspoon salt",
+    "1 cup (100 g) shredded sharp cheddar",
+    "2 tablespoons (30 g) butter",
+    "4 slices bacon, chopped",
+    "1 lb (450 g) shrimp, peeled and deveined",
+    "1 teaspoon Cajun seasoning",
+    "2 garlic cloves, chopped",
+    "3 green onions, sliced",
+    "1 tablespoon lemon juice"
+   ],
+   "steps": [
+    "Bring the water and salt to a boil and slowly whisk in the grits.",
+    "Cook on low, stirring often, for 5 to 7 minutes for quick grits or 20 to 25 minutes for old-fashioned. Stir in the cheese and butter.",
+    "Chop the bacon, garlic and green onions. Ask an adult to help.",
+    "Cook the bacon in a pan over medium heat for 6 to 8 minutes, until crisp.",
+    "Toss the shrimp with Cajun seasoning and add to the bacon pan with the garlic.",
+    "Cook for 2 to 3 minutes, stirring, until the shrimp are pink.",
+    "Stir in the green onions and lemon juice and spoon over the grits."
+   ]
+  },
+  {
+   "id": "jambalaya",
+   "name": "Chicken and sausage jambalaya",
+   "aliases": [
+    "jambalaya",
+    "chicken jambalaya",
+    "sausage jambalaya",
+    "cajun rice",
+    "creole jambalaya"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "sausage",
+    "rice",
+    "pepper",
+    "tomato"
+   ],
+   "ingredients": [
+    "2 tablespoons vegetable oil",
+    "12 oz (340 g) andouille or smoked sausage, sliced",
+    "1 lb (450 g) boneless chicken thighs, cut in bite-size pieces",
+    "1 onion, chopped",
+    "1 green bell pepper, chopped",
+    "2 celery stalks, chopped",
+    "3 garlic cloves, chopped",
+    "2 teaspoons Cajun seasoning",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "1 1/2 cups (285 g) long grain white rice",
+    "3 cups (720 ml) chicken broth",
+    "1/2 lb (225 g) shrimp, peeled (optional)",
+    "3 green onions, sliced"
+   ],
+   "steps": [
+    "Slice and chop everything. Ask an adult to help.",
+    "Heat the oil in a big pot over medium-high heat and brown the sausage for 4 minutes. Lift it out.",
+    "Brown the chicken with 1 teaspoon of Cajun seasoning for 5 minutes. Lift it out.",
+    "Cook the onion, pepper and celery for 6 minutes. Add the garlic for 1 minute.",
+    "Add the tomatoes, rice, broth, the rest of the seasoning, sausage and chicken and bring to a boil.",
+    "Cover and simmer on low for 20 minutes without stirring.",
+    "Lay the shrimp on top, cover, and cook for 5 to 7 minutes, until the rice is tender, the shrimp are pink and the chicken is 165°F (74°C).",
+    "Fluff and top with green onions."
+   ]
+  },
+  {
+   "id": "chicken-sausage-gumbo",
+   "name": "Chicken and sausage gumbo",
+   "aliases": [
+    "gumbo",
+    "chicken gumbo",
+    "chicken and sausage gumbo",
+    "louisiana gumbo",
+    "cajun gumbo"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "2 hr",
+   "main": [
+    "chicken",
+    "sausage",
+    "flour",
+    "pepper",
+    "okra"
+   ],
+   "ingredients": [
+    "2/3 cup (160 ml) vegetable oil",
+    "2/3 cup (85 g) all-purpose flour",
+    "1 onion, chopped",
+    "1 green bell pepper, chopped",
+    "3 celery stalks, chopped",
+    "4 garlic cloves, chopped",
+    "8 cups (2 liters) chicken broth",
+    "2 lb (900 g) boneless chicken thighs, cut in pieces",
+    "12 oz (340 g) andouille sausage, sliced",
+    "2 teaspoons Cajun seasoning",
+    "2 bay leaves",
+    "1 cup (100 g) sliced okra (optional)",
+    "3 green onions, sliced",
+    "Cooked white rice to serve"
+   ],
+   "steps": [
+    "Chop the vegetables and cut the meat. Ask an adult to help.",
+    "Heat the oil in a big heavy pot over medium heat and whisk in the flour to make a roux.",
+    "Stir it constantly for 25 to 35 minutes, until it's the color of milk chocolate. Don't walk away, it burns easily and hot roux can burn skin, so an adult should help.",
+    "Add the onion, pepper and celery and cook for 5 minutes. Add the garlic for 1 minute.",
+    "Slowly whisk in the broth.",
+    "Add the chicken, sausage, Cajun seasoning, bay leaves and okra and bring to a boil.",
+    "Simmer for 1 hour, stirring now and then, skimming off fat from the top.",
+    "Take out the bay leaves, stir in the green onions and serve over rice."
+   ]
+  },
+  {
+   "id": "red-beans-and-rice",
+   "name": "Red beans and rice",
+   "aliases": [
+    "red beans and rice",
+    "red beans",
+    "louisiana red beans",
+    "cajun red beans",
+    "new orleans red beans"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr 30 min",
+   "main": [
+    "kidney bean",
+    "sausage",
+    "rice",
+    "pepper"
+   ],
+   "ingredients": [
+    "1 lb (450 g) dried red kidney beans, soaked overnight and drained",
+    "1 tablespoon vegetable oil",
+    "12 oz (340 g) smoked andouille sausage, sliced",
+    "1 onion, chopped",
+    "1 green bell pepper, chopped",
+    "2 celery stalks, chopped",
+    "4 garlic cloves, chopped",
+    "2 teaspoons Cajun seasoning",
+    "2 bay leaves",
+    "1 teaspoon dried thyme",
+    "8 cups (2 liters) water or chicken broth",
+    "1 teaspoon salt",
+    "Cooked white rice and green onions to serve"
+   ],
+   "steps": [
+    "Chop the vegetables and slice the sausage. Ask an adult to help.",
+    "Brown the sausage in the oil in a big pot over medium heat for 5 minutes.",
+    "Add the onion, pepper and celery and cook for 6 minutes. Add the garlic for 1 minute.",
+    "Add the beans, seasoning, bay leaves, thyme and water and bring to a boil. Boil hard for 10 minutes.",
+    "Turn the heat to low, cover partly and simmer for 1 hour 30 minutes to 2 hours, until the beans are very soft.",
+    "Mash some beans against the pot to make it creamy and add the salt.",
+    "Serve over rice with green onions."
+   ]
+  },
+  {
+   "id": "tater-tot-casserole",
+   "name": "Tater tot casserole",
+   "aliases": [
+    "tater tot casserole",
+    "tater tot hotdish",
+    "hotdish",
+    "tator tot casserole",
+    "tater tot bake"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "1 hr",
+   "main": [
+    "beef",
+    "tater tot",
+    "cheese",
+    "green bean"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) ground beef",
+    "1 onion, chopped",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 can (10.5 oz / 300 g) condensed cream of mushroom soup",
+    "1/2 cup (120 ml) milk",
+    "2 cups (250 g) frozen green beans or mixed vegetables",
+    "1 1/2 cups (150 g) shredded cheddar",
+    "1 bag (32 oz / 900 g) frozen tater tots"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Chop the onion.",
+    "Cook the beef and onion in a big pan over medium heat for 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Stir in the salt, pepper, soup, milk and vegetables.",
+    "Spread it in a 9 by 13 inch baking dish and sprinkle with the cheese.",
+    "Line the tater tots in rows over the top.",
+    "Bake for 40 to 45 minutes, until the tots are golden and crisp."
+   ]
+  },
+  {
+   "id": "chicken-broccoli-rice-casserole",
+   "name": "Cheesy chicken broccoli rice casserole",
+   "aliases": [
+    "chicken broccoli casserole",
+    "chicken and rice casserole",
+    "cheesy chicken rice",
+    "chicken broccoli rice bake"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "chicken",
+    "broccoli",
+    "rice",
+    "cheese"
+   ],
+   "ingredients": [
+    "1 cup (190 g) uncooked long grain white rice",
+    "2 1/4 cups (540 ml) chicken broth",
+    "1 can (10.5 oz / 300 g) condensed cream of chicken soup",
+    "1/2 cup (120 ml) milk",
+    "1 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1/2 teaspoon salt",
+    "1 1/2 lb (680 g) boneless chicken breasts, cut in bite-size pieces",
+    "3 cups (225 g) small broccoli florets",
+    "2 cups (200 g) shredded cheddar, divided"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Cut the chicken into bite-size pieces and wash your hands.",
+    "Mix the rice, broth, soup, milk, garlic powder, onion powder and salt in a 9 by 13 inch baking dish.",
+    "Stir in the chicken and 1 cup of the cheese.",
+    "Cover tightly with foil and bake for 45 minutes.",
+    "Uncover, stir in the broccoli, and sprinkle on the rest of the cheese.",
+    "Bake uncovered for 15 to 20 minutes more, until the rice is tender and the chicken is 165°F (74°C)."
+   ]
+  },
+  {
+   "id": "tuna-noodle-casserole",
+   "name": "Tuna noodle casserole",
+   "aliases": [
+    "tuna casserole",
+    "tuna noodle casserole",
+    "tuna bake",
+    "tuna noodle bake"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "tuna",
+    "egg noodle",
+    "pea",
+    "cheese"
+   ],
+   "ingredients": [
+    "8 oz (225 g) wide egg noodles",
+    "3 tablespoons (45 g) butter",
+    "1/2 onion, finely chopped",
+    "3 tablespoons all-purpose flour",
+    "2 cups (480 ml) milk",
+    "1/2 cup (120 ml) chicken broth",
+    "1 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 1/2 cups (150 g) shredded cheddar",
+    "2 cans (5 oz / 140 g each) tuna, drained",
+    "1 cup (140 g) frozen peas",
+    "1/2 cup (30 g) panko or crushed crackers"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Boil the noodles for 2 minutes less than the package says. Drain.",
+    "Melt the butter in a big pot over medium heat and cook the onion for 4 minutes.",
+    "Stir in the flour for 1 minute, then whisk in the milk and broth.",
+    "Simmer for 3 to 4 minutes, until thick. Stir in the salt, pepper and 1 cup of the cheese.",
+    "Fold in the noodles, tuna and peas.",
+    "Spread in a baking dish and top with the rest of the cheese and the panko.",
+    "Bake for 20 to 25 minutes, until bubbling and golden."
+   ]
+  },
+  {
+   "id": "one-pot-cheeseburger-pasta",
+   "name": "One pot cheeseburger pasta",
+   "aliases": [
+    "cheeseburger pasta",
+    "hamburger helper",
+    "homemade hamburger helper",
+    "one pot cheeseburger pasta",
+    "cheesy beef pasta"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "30 min",
+   "main": [
+    "beef",
+    "pasta",
+    "cheese",
+    "milk"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "1/2 onion, chopped",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "1 teaspoon salt",
+    "2 tablespoons tomato paste",
+    "2 cups (480 ml) beef broth",
+    "1 cup (240 ml) milk",
+    "8 oz (225 g) elbow macaroni",
+    "1 1/2 cups (150 g) shredded cheddar"
+   ],
+   "steps": [
+    "Chop the onion. Ask an adult to help.",
+    "Cook the beef and onion in a big pot over medium heat for 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Stir in the garlic powder, paprika, salt and tomato paste.",
+    "Add the broth, milk and macaroni and bring to a boil.",
+    "Cover, turn the heat to low and simmer for 10 to 12 minutes, stirring now and then, until the pasta is tender.",
+    "Take off the heat and stir in the cheese until melted."
+   ]
+  },
+  {
+   "id": "chili-mac",
+   "name": "Chili mac",
+   "aliases": [
+    "chili mac",
+    "chili mac and cheese",
+    "chilli mac",
+    "one pot chili mac"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "beef",
+    "pasta",
+    "bean",
+    "tomato",
+    "cheese"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "1 onion, chopped",
+    "2 garlic cloves, chopped",
+    "2 tablespoons chili powder",
+    "1 teaspoon ground cumin",
+    "1 teaspoon salt",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "1 can (15 oz / 425 g) kidney beans, drained",
+    "3 cups (720 ml) beef broth",
+    "8 oz (225 g) elbow macaroni",
+    "1 1/2 cups (150 g) shredded cheddar"
+   ],
+   "steps": [
+    "Chop the onion and garlic. Ask an adult to help.",
+    "Cook the beef and onion in a big pot over medium heat for 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Add the garlic, chili powder, cumin and salt and cook for 1 minute.",
+    "Add the tomatoes, beans, broth and macaroni and bring to a boil.",
+    "Cover and simmer for 12 to 14 minutes, stirring now and then, until the pasta is tender.",
+    "Stir in 1 cup of the cheese, top with the rest, and cover for 2 minutes to melt."
+   ]
+  },
+  {
+   "id": "frito-pie",
+   "name": "Frito pie",
+   "aliases": [
+    "frito pie",
+    "walking tacos",
+    "frito chili pie",
+    "chili frito pie",
+    "frito boats"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "beef",
+    "corn chip",
+    "bean",
+    "cheese"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "1 onion, chopped",
+    "2 tablespoons chili powder",
+    "1 teaspoon ground cumin",
+    "1 teaspoon salt",
+    "1 can (8 oz / 225 g) tomato sauce",
+    "1 can (15 oz / 425 g) pinto beans, drained",
+    "1/2 cup (120 ml) water",
+    "1 bag (9 oz / 255 g) corn chips like Fritos",
+    "1 1/2 cups (150 g) shredded cheddar",
+    "Sour cream, chopped onion and jalapenos to top"
+   ],
+   "steps": [
+    "Chop the onion. Ask an adult to help.",
+    "Cook the beef and half the onion over medium heat for 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Stir in the chili powder, cumin, salt, tomato sauce, beans and water.",
+    "Simmer for 15 minutes, until thick.",
+    "Spoon the chili over bowls of corn chips, or into small chip bags for walking tacos.",
+    "Top with cheese, sour cream, the rest of the onion and jalapenos."
+   ]
+  },
+  {
+   "id": "stuffed-bell-peppers",
+   "name": "Stuffed bell peppers",
+   "aliases": [
+    "stuffed peppers",
+    "stuffed bell peppers",
+    "beef stuffed peppers",
+    "gemista",
+    "stuffed capsicum"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "pepper",
+    "beef",
+    "rice",
+    "tomato",
+    "cheese"
+   ],
+   "ingredients": [
+    "6 bell peppers",
+    "1 lb (450 g) ground beef or turkey",
+    "1 onion, chopped",
+    "2 garlic cloves, chopped",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "1 cup (180 g) cooked rice",
+    "1 teaspoon Italian seasoning",
+    "1 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 cup (240 ml) tomato sauce",
+    "1 1/2 cups (170 g) shredded mozzarella or cheddar"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Cut the tops off the peppers and pull out the seeds.",
+    "Stand them in a baking dish. Trim the bottoms a little if they wobble, without making a hole.",
+    "Cook the meat and onion in a pan over medium heat for 8 minutes, until browned. Add the garlic for 1 minute.",
+    "Stir in the tomatoes, rice, seasoning, salt, pepper and half the cheese.",
+    "Fill the peppers and pour the tomato sauce around them.",
+    "Cover with foil and bake for 35 minutes.",
+    "Uncover, top with the rest of the cheese, and bake for 10 to 15 minutes more, until the peppers are tender."
+   ]
+  },
+  {
+   "id": "sheet-pan-sausage-and-veggies",
+   "name": "Sheet pan sausage and veggies",
+   "aliases": [
+    "sheet pan sausage",
+    "sausage and veggies",
+    "sheet pan dinner",
+    "sausage and potatoes",
+    "sausage tray bake"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "sausage",
+    "potato",
+    "pepper",
+    "broccoli"
+   ],
+   "ingredients": [
+    "1 lb (450 g) smoked sausage or kielbasa, sliced into coins",
+    "1 1/2 lb (680 g) baby potatoes, cut in half",
+    "2 bell peppers, cut in chunks",
+    "1 red onion, cut in wedges",
+    "2 cups (150 g) broccoli florets",
+    "3 tablespoons olive oil",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "1 teaspoon Italian seasoning",
+    "1 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Cut the sausage and vegetables.",
+    "Toss the potatoes with half the oil and seasonings on a big sheet pan and roast for 15 minutes.",
+    "Add the sausage, peppers, onion and broccoli and toss with the rest of the oil and seasonings.",
+    "Roast for 18 to 20 minutes more, stirring once, until the potatoes are tender and the sausage is browned."
+   ]
+  },
+  {
+   "id": "white-chicken-chili",
+   "name": "White chicken chili",
+   "aliases": [
+    "white chicken chili",
+    "white chili",
+    "chicken chili",
+    "white bean chicken chili"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "chicken",
+    "white bean",
+    "green chili",
+    "cream cheese"
+   ],
+   "ingredients": [
+    "1 tablespoon olive oil",
+    "1 onion, chopped",
+    "3 garlic cloves, chopped",
+    "2 cans (4 oz / 115 g each) diced green chilies",
+    "2 teaspoons ground cumin",
+    "1 teaspoon dried oregano",
+    "4 cups (960 ml) chicken broth",
+    "1 1/2 lb (680 g) boneless skinless chicken breasts",
+    "2 cans (15 oz / 425 g each) great northern or cannellini beans, drained",
+    "1 cup (150 g) frozen corn",
+    "4 oz (115 g) cream cheese, cubed",
+    "1 teaspoon salt",
+    "1 lime",
+    "Cilantro, avocado, sour cream and tortilla chips to serve"
+   ],
+   "steps": [
+    "Chop the onion and garlic. Ask an adult to help.",
+    "Heat the oil in a big pot over medium heat and cook the onion for 5 minutes.",
+    "Add the garlic, green chilies, cumin and oregano and cook for 1 minute.",
+    "Add the broth and whole chicken breasts and bring to a boil.",
+    "Simmer for 15 to 20 minutes, until the chicken is 165°F (74°C). Lift out and shred.",
+    "Mash 1 cup of the beans and add all the beans, corn, cream cheese and salt.",
+    "Stir until the cream cheese melts, then add the chicken and juice of the lime. Simmer for 5 minutes.",
+    "Top with cilantro, avocado, sour cream and chips."
+   ]
+  },
+  {
+   "id": "vegetarian-chili",
+   "name": "Three bean vegetarian chili",
+   "aliases": [
+    "vegetarian chili",
+    "veggie chili",
+    "bean chili vegetarian",
+    "three bean chili",
+    "vegan chili"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "bean",
+    "tomato",
+    "pepper",
+    "sweet potato",
+    "corn"
+   ],
+   "ingredients": [
+    "2 tablespoons olive oil",
+    "1 onion, chopped",
+    "2 bell peppers, chopped",
+    "1 sweet potato, cut in small cubes",
+    "4 garlic cloves, chopped",
+    "2 tablespoons chili powder",
+    "2 teaspoons ground cumin",
+    "1 teaspoon smoked paprika",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "1 can (15 oz / 425 g) black beans, drained",
+    "1 can (15 oz / 425 g) kidney beans, drained",
+    "1 can (15 oz / 425 g) pinto beans, drained",
+    "2 cups (480 ml) vegetable broth",
+    "1 cup (150 g) frozen corn",
+    "1 1/2 teaspoons salt"
+   ],
+   "steps": [
+    "Chop the vegetables. Ask an adult to help.",
+    "Heat the oil in a big pot over medium heat and cook the onion and peppers for 6 minutes.",
+    "Add the sweet potato, garlic and spices and cook for 2 minutes.",
+    "Add the tomatoes, beans and broth and bring to a boil.",
+    "Simmer for 25 to 30 minutes, until the sweet potato is tender.",
+    "Stir in the corn and salt and simmer for 5 minutes.",
+    "Serve with cheese, sour cream, avocado or cornbread."
+   ]
+  },
+  {
+   "id": "black-bean-burgers",
+   "name": "Black bean burgers",
+   "aliases": [
+    "black bean burgers",
+    "black bean burger",
+    "veggie burgers",
+    "veggie burger",
+    "bean burgers"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "black bean",
+    "breadcrumb",
+    "egg",
+    "cumin"
+   ],
+   "ingredients": [
+    "2 cans (15 oz / 425 g each) black beans, drained and patted dry",
+    "1/2 cup (50 g) dry breadcrumbs",
+    "1 large egg",
+    "1/2 cup (50 g) shredded cheddar or 1/4 cup (25 g) parmesan",
+    "1/4 onion, finely chopped",
+    "1 garlic clove, grated",
+    "1 teaspoon ground cumin",
+    "1 teaspoon chili powder",
+    "1/2 teaspoon salt",
+    "2 tablespoons vegetable oil",
+    "4 burger buns and your favorite toppings"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Spread the beans on a baking sheet and bake for 15 minutes to dry them out. This stops mushy burgers.",
+    "Mash the beans in a bowl, leaving some chunks.",
+    "Mix in the breadcrumbs, egg, cheese, onion, garlic, spices and salt.",
+    "Shape into 4 patties and chill for 10 minutes.",
+    "Heat the oil in a pan over medium heat and cook the patties for 4 to 5 minutes per side, until crisp and heated through.",
+    "Serve on buns with toppings."
+   ]
+  },
+  {
+   "id": "turkey-burgers",
+   "name": "Juicy turkey burgers",
+   "aliases": [
+    "turkey burgers",
+    "turkey burger",
+    "ground turkey burgers",
+    "healthy burgers"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "turkey",
+    "breadcrumb",
+    "onion",
+    "bun"
+   ],
+   "ingredients": [
+    "1 1/4 lb (570 g) ground turkey (93% lean)",
+    "1/4 cup (25 g) dry breadcrumbs",
+    "2 tablespoons grated onion",
+    "1 garlic clove, grated",
+    "1 tablespoon Worcestershire sauce",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 tablespoon vegetable oil",
+    "4 slices cheese (optional)",
+    "4 buns, lettuce, tomato and condiments"
+   ],
+   "steps": [
+    "Mix the turkey, breadcrumbs, onion, garlic, Worcestershire, salt and pepper gently. Wash your hands.",
+    "Shape into 4 patties about 3/4 inch thick with a small dent in the middle.",
+    "Heat the oil in a pan over medium heat.",
+    "Cook the patties for 5 to 6 minutes per side, until 165°F (74°C) inside. Turkey must be fully cooked.",
+    "Add cheese for the last minute and cover the pan to melt it.",
+    "Serve on buns with toppings."
+   ]
+  },
+  {
+   "id": "salisbury-steak",
+   "name": "Salisbury steak with mushroom gravy",
+   "aliases": [
+    "salisbury steak",
+    "hamburger steak",
+    "salisbury steaks",
+    "beef patties with gravy"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "beef",
+    "mushroom",
+    "onion",
+    "gravy"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) ground beef",
+    "1/3 cup (35 g) dry breadcrumbs",
+    "1 large egg",
+    "1 tablespoon ketchup",
+    "1 tablespoon Worcestershire sauce, plus 1 teaspoon for gravy",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 tablespoon vegetable oil",
+    "2 tablespoons (30 g) butter",
+    "1 onion, sliced",
+    "8 oz (225 g) mushrooms, sliced",
+    "2 tablespoons all-purpose flour",
+    "2 cups (480 ml) beef broth"
+   ],
+   "steps": [
+    "Mix the beef, breadcrumbs, egg, ketchup, Worcestershire, salt and pepper. Shape into 4 oval patties. Wash your hands.",
+    "Slice the onion and mushrooms. Ask an adult to help.",
+    "Heat the oil in a big pan over medium-high heat and brown the patties for 4 minutes per side. Move to a plate.",
+    "Melt the butter in the pan and cook the onion and mushrooms for 6 to 8 minutes, until browned.",
+    "Stir in the flour for 1 minute, then whisk in the broth and the extra Worcestershire.",
+    "Put the patties back, cover and simmer for 10 minutes, until 160°F (71°C) inside and the gravy is thick."
+   ]
+  },
+  {
+   "id": "toad-in-the-hole",
+   "name": "Toad in the hole",
+   "aliases": [
+    "toad in the hole",
+    "sausage yorkshire pudding",
+    "sausages in batter",
+    "toad in a hole"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "sausage",
+    "egg",
+    "flour",
+    "milk"
+   ],
+   "ingredients": [
+    "8 pork sausages",
+    "2 tablespoons vegetable oil",
+    "1 cup (125 g) all-purpose flour",
+    "1/2 teaspoon salt",
+    "4 large eggs",
+    "1 1/4 cups (300 ml) milk",
+    "Onion gravy to serve"
+   ],
+   "steps": [
+    "Whisk the flour, salt, eggs and milk into a smooth batter and let it rest for 15 minutes.",
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Put the oil and sausages in a 9 by 13 inch metal baking pan and bake for 10 minutes, until starting to brown.",
+    "Have an adult take out the hot pan and quickly pour the batter around the sausages. The oil must be very hot.",
+    "Bake for 25 to 30 minutes, until puffed, deep golden and the sausages are 160°F (71°C) inside. Don't open the oven for the first 20 minutes.",
+    "Serve right away with onion gravy."
+   ]
+  },
+  {
+   "id": "bangers-and-mash",
+   "name": "Bangers and mash with onion gravy",
+   "aliases": [
+    "bangers and mash",
+    "sausage and mash",
+    "sausages and mash",
+    "bangers n mash"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "sausage",
+    "potato",
+    "onion",
+    "butter"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) russet potatoes, peeled and cut in chunks",
+    "4 tablespoons (60 g) butter, divided",
+    "1/2 cup (120 ml) milk",
+    "1 teaspoon salt",
+    "8 pork sausages",
+    "1 tablespoon vegetable oil",
+    "2 onions, thinly sliced",
+    "1 tablespoon all-purpose flour",
+    "1 1/2 cups (360 ml) beef broth",
+    "1 teaspoon Worcestershire sauce"
+   ],
+   "steps": [
+    "Boil the potatoes in salted water for 15 to 20 minutes, until soft. Drain and mash with 3 tablespoons butter, the milk and salt.",
+    "Cook the sausages in the oil in a pan over medium-low heat for 15 to 18 minutes, turning, until browned and 160°F (71°C) inside.",
+    "Slice the onions. Ask an adult to help.",
+    "Move the sausages to a plate and cook the onions in the pan with the rest of the butter for 10 minutes, until soft and golden.",
+    "Stir in the flour for 1 minute, then add the broth and Worcestershire and simmer for 3 minutes.",
+    "Serve the sausages on the mash with lots of gravy."
+   ]
+  }
+ ]
+}

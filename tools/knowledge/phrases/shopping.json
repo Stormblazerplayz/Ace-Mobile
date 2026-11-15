@@ -1,0 +1,1217 @@
+{
+ "entries": [
+  {
+   "en": "money",
+   "also": [],
+   "t": {
+    "es": "dinero",
+    "fr": "argent",
+    "de": "Geld",
+    "it": "soldi",
+    "pt": "dinheiro",
+    "ja": "お金",
+    "zh": "钱",
+    "ko": "돈",
+    "hi": "पैसे",
+    "ar": "مال",
+    "ru": "деньги",
+    "nl": "geld"
+   },
+   "say": {
+    "ja": "okane",
+    "zh": "qián",
+    "ko": "don",
+    "hi": "paise",
+    "ar": "maal",
+    "ru": "dengi"
+   }
+  },
+  {
+   "en": "price",
+   "also": [],
+   "t": {
+    "es": "precio",
+    "fr": "prix",
+    "de": "Preis",
+    "it": "prezzo",
+    "pt": "preço",
+    "ja": "値段",
+    "zh": "价格",
+    "ko": "가격",
+    "hi": "दाम",
+    "ar": "سعر",
+    "ru": "цена",
+    "nl": "prijs"
+   },
+   "say": {
+    "ja": "nedan",
+    "zh": "jiàgé",
+    "ko": "gagyeok",
+    "hi": "daam",
+    "ar": "si'r",
+    "ru": "tsena"
+   }
+  },
+  {
+   "en": "cheap",
+   "also": [],
+   "t": {
+    "es": "barato",
+    "fr": "pas cher",
+    "de": "billig",
+    "it": "economico",
+    "pt": "barato",
+    "ja": "安い",
+    "zh": "便宜",
+    "ko": "싸요",
+    "hi": "सस्ता",
+    "ar": "رخيص",
+    "ru": "дешёвый",
+    "nl": "goedkoop"
+   },
+   "say": {
+    "ja": "yasui",
+    "zh": "piányi",
+    "ko": "ssayo",
+    "hi": "sasta",
+    "ar": "rakhees",
+    "ru": "deshyovy"
+   }
+  },
+  {
+   "en": "expensive",
+   "also": [],
+   "t": {
+    "es": "caro",
+    "fr": "cher",
+    "de": "teuer",
+    "it": "caro",
+    "pt": "caro",
+    "ja": "高い",
+    "zh": "贵",
+    "ko": "비싸요",
+    "hi": "महंगा",
+    "ar": "غالي",
+    "ru": "дорогой",
+    "nl": "duur"
+   },
+   "say": {
+    "ja": "takai",
+    "zh": "guì",
+    "ko": "bissayo",
+    "hi": "mahanga",
+    "ar": "ghaali",
+    "ru": "dorogoy"
+   }
+  },
+  {
+   "en": "it's too expensive",
+   "also": [
+    "that is too expensive",
+    "too expensive"
+   ],
+   "t": {
+    "es": "Es demasiado caro",
+    "fr": "C'est trop cher",
+    "de": "Das ist zu teuer",
+    "it": "È troppo caro",
+    "pt": "É muito caro",
+    "ja": "高すぎます",
+    "zh": "太贵了",
+    "ko": "너무 비싸요",
+    "hi": "यह बहुत महंगा है",
+    "ar": "هذا غالي جدا",
+    "ru": "Это слишком дорого",
+    "nl": "Het is te duur"
+   },
+   "say": {
+    "ja": "takasugimasu",
+    "zh": "tài guì le",
+    "ko": "neomu bissayo",
+    "hi": "yah bahut mahanga hai",
+    "ar": "haadha ghaali jiddan",
+    "ru": "eto slishkom dorogo"
+   }
+  },
+  {
+   "en": "can i pay by card",
+   "also": [
+    "do you take cards"
+   ],
+   "t": {
+    "es": "¿Puedo pagar con tarjeta?",
+    "fr": "Je peux payer par carte ?",
+    "de": "Kann ich mit Karte zahlen?",
+    "it": "Posso pagare con la carta?",
+    "pt": "Posso pagar com cartão?",
+    "ja": "カードで払えますか？",
+    "zh": "可以刷卡吗？",
+    "ko": "카드로 계산할 수 있어요?",
+    "hi": "क्या मैं कार्ड से पैसे दे सकता / सकती हूँ?",
+    "ar": "هل يمكنني الدفع بالبطاقة؟",
+    "ru": "Можно оплатить картой?",
+    "nl": "Kan ik met de kaart betalen?"
+   },
+   "say": {
+    "ja": "kaado de haraemasu ka?",
+    "zh": "kěyǐ shuākǎ ma?",
+    "ko": "kadeuro gyesanhal su isseoyo?",
+    "hi": "kya main kaard se paise de sakta / sakti hoon?",
+    "ar": "hal yumkinuni ad-daf' bil-bitaaqa?",
+    "ru": "mozhno oplatit kartoy?"
+   }
+  },
+  {
+   "en": "cash",
+   "also": [],
+   "t": {
+    "es": "efectivo",
+    "fr": "espèces",
+    "de": "Bargeld",
+    "it": "contanti",
+    "pt": "dinheiro vivo",
+    "ja": "現金",
+    "zh": "现金",
+    "ko": "현금",
+    "hi": "नकद",
+    "ar": "نقود",
+    "ru": "наличные",
+    "nl": "contant geld"
+   },
+   "say": {
+    "ja": "genkin",
+    "zh": "xiànjīn",
+    "ko": "hyeongeum",
+    "hi": "nakad",
+    "ar": "nuqood",
+    "ru": "nalichnye"
+   }
+  },
+  {
+   "en": "i'm just looking",
+   "also": [
+    "just looking"
+   ],
+   "t": {
+    "es": "Solo estoy mirando",
+    "fr": "Je regarde seulement",
+    "de": "Ich schaue mich nur um",
+    "it": "Sto solo guardando",
+    "pt": "Só estou olhando",
+    "ja": "見ているだけです",
+    "zh": "我只是看看",
+    "ko": "그냥 구경하고 있어요",
+    "hi": "मैं बस देख रहा / रही हूँ",
+    "ar": "أنا أتفرج فقط",
+    "ru": "Я просто смотрю",
+    "nl": "Ik kijk alleen even"
+   },
+   "say": {
+    "ja": "mite iru dake desu",
+    "zh": "wǒ zhǐshì kànkan",
+    "ko": "geunyang gugyeonghago isseoyo",
+    "hi": "main bas dekh raha / rahi hoon",
+    "ar": "ana atafarraj faqat",
+    "ru": "ya prosto smotryu"
+   }
+  },
+  {
+   "en": "i'll take it",
+   "also": [
+    "i will take it"
+   ],
+   "t": {
+    "es": "Me lo llevo",
+    "fr": "Je le prends",
+    "de": "Ich nehme es",
+    "it": "Lo prendo",
+    "pt": "Vou levar",
+    "ja": "これにします",
+    "zh": "我要这个",
+    "ko": "이걸로 할게요",
+    "hi": "मैं यह लूँगा / लूँगी",
+    "ar": "سآخذه",
+    "ru": "Я возьму это",
+    "nl": "Ik neem het"
+   },
+   "say": {
+    "ja": "kore ni shimasu",
+    "zh": "wǒ yào zhège",
+    "ko": "igeollo halgeyo",
+    "hi": "main yah loonga / loongi",
+    "ar": "sa-aakhudhuh",
+    "ru": "ya vozmu eto"
+   }
+  },
+  {
+   "en": "do you have a smaller one",
+   "also": [
+    "smaller please"
+   ],
+   "t": {
+    "es": "¿Tiene uno más pequeño?",
+    "fr": "Vous avez plus petit ?",
+    "de": "Haben Sie das kleiner?",
+    "it": "Ce l'ha più piccolo?",
+    "pt": "Tem um menor?",
+    "ja": "もっと小さいのはありますか？",
+    "zh": "有小一点的吗？",
+    "ko": "더 작은 거 있어요?",
+    "hi": "क्या इससे छोटा है?",
+    "ar": "هل عندك أصغر؟",
+    "ru": "У вас есть поменьше?",
+    "nl": "Heeft u een kleinere?"
+   },
+   "say": {
+    "ja": "motto chiisai no wa arimasu ka?",
+    "zh": "yǒu xiǎo yìdiǎn de ma?",
+    "ko": "deo jageun geo isseoyo?",
+    "hi": "kya isse chhota hai?",
+    "ar": "hal 'indak asghar?",
+    "ru": "u vas yest pomenshe?"
+   }
+  },
+  {
+   "en": "do you have a bigger one",
+   "also": [
+    "bigger please"
+   ],
+   "t": {
+    "es": "¿Tiene uno más grande?",
+    "fr": "Vous avez plus grand ?",
+    "de": "Haben Sie das größer?",
+    "it": "Ce l'ha più grande?",
+    "pt": "Tem um maior?",
+    "ja": "もっと大きいのはありますか？",
+    "zh": "有大一点的吗？",
+    "ko": "더 큰 거 있어요?",
+    "hi": "क्या इससे बड़ा है?",
+    "ar": "هل عندك أكبر؟",
+    "ru": "У вас есть побольше?",
+    "nl": "Heeft u een grotere?"
+   },
+   "say": {
+    "ja": "motto ookii no wa arimasu ka?",
+    "zh": "yǒu dà yìdiǎn de ma?",
+    "ko": "deo keun geo isseoyo?",
+    "hi": "kya isse bada hai?",
+    "ar": "hal 'indak akbar?",
+    "ru": "u vas yest pobolshe?"
+   }
+  },
+  {
+   "en": "can i try it on",
+   "also": [],
+   "t": {
+    "es": "¿Me lo puedo probar?",
+    "fr": "Je peux l'essayer ?",
+    "de": "Kann ich das anprobieren?",
+    "it": "Posso provarlo?",
+    "pt": "Posso experimentar?",
+    "ja": "試着してもいいですか？",
+    "zh": "我可以试穿吗？",
+    "ko": "입어 봐도 돼요?",
+    "hi": "क्या मैं इसे पहनकर देख सकता / सकती हूँ?",
+    "ar": "هل يمكنني تجربته؟",
+    "ru": "Можно примерить?",
+    "nl": "Mag ik het passen?"
+   },
+   "say": {
+    "ja": "shichaku shite mo ii desu ka?",
+    "zh": "wǒ kěyǐ shìchuān ma?",
+    "ko": "ibeo bwado dwaeyo?",
+    "hi": "kya main ise pahankar dekh sakta / sakti hoon?",
+    "ar": "hal yumkinuni tajribatuh?",
+    "ru": "mozhno primerit?"
+   }
+  },
+  {
+   "en": "size",
+   "also": [],
+   "t": {
+    "es": "talla",
+    "fr": "taille",
+    "de": "Größe",
+    "it": "taglia",
+    "pt": "tamanho",
+    "ja": "サイズ",
+    "zh": "尺码",
+    "ko": "사이즈",
+    "hi": "साइज़",
+    "ar": "مقاس",
+    "ru": "размер",
+    "nl": "maat"
+   },
+   "say": {
+    "ja": "saizu",
+    "zh": "chǐmǎ",
+    "ko": "saijeu",
+    "hi": "saaiz",
+    "ar": "maqaas",
+    "ru": "razmer"
+   }
+  },
+  {
+   "en": "receipt",
+   "also": [],
+   "t": {
+    "es": "recibo",
+    "fr": "reçu",
+    "de": "Quittung",
+    "it": "scontrino",
+    "pt": "recibo",
+    "ja": "レシート",
+    "zh": "收据",
+    "ko": "영수증",
+    "hi": "रसीद",
+    "ar": "إيصال",
+    "ru": "чек",
+    "nl": "bon"
+   },
+   "say": {
+    "ja": "reshiito",
+    "zh": "shōujù",
+    "ko": "yeongsujeung",
+    "hi": "raseed",
+    "ar": "eesaal",
+    "ru": "chek"
+   }
+  },
+  {
+   "en": "bag",
+   "also": [
+    "shopping bag"
+   ],
+   "t": {
+    "es": "bolsa",
+    "fr": "sac",
+    "de": "Tüte",
+    "it": "busta",
+    "pt": "sacola",
+    "ja": "袋",
+    "zh": "袋子",
+    "ko": "봉투",
+    "hi": "थैला",
+    "ar": "كيس",
+    "ru": "пакет",
+    "nl": "tas"
+   },
+   "say": {
+    "ja": "fukuro",
+    "zh": "dàizi",
+    "ko": "bongtu",
+    "hi": "thaila",
+    "ar": "kees",
+    "ru": "paket"
+   }
+  },
+  {
+   "en": "can i have a bag",
+   "also": [
+    "a bag please"
+   ],
+   "t": {
+    "es": "¿Me da una bolsa?",
+    "fr": "Je peux avoir un sac ?",
+    "de": "Kann ich eine Tüte haben?",
+    "it": "Posso avere una busta?",
+    "pt": "Pode me dar uma sacola?",
+    "ja": "袋をください",
+    "zh": "可以给我一个袋子吗？",
+    "ko": "봉투 주세요",
+    "hi": "एक थैला दीजिए",
+    "ar": "كيس من فضلك",
+    "ru": "Можно пакет?",
+    "nl": "Mag ik een tasje?"
+   },
+   "say": {
+    "ja": "fukuro o kudasai",
+    "zh": "kěyǐ gěi wǒ yí ge dàizi ma?",
+    "ko": "bongtu juseyo",
+    "hi": "ek thaila deejiye",
+    "ar": "kees min fadlak",
+    "ru": "mozhno paket?"
+   }
+  },
+  {
+   "en": "gift",
+   "also": [
+    "present"
+   ],
+   "t": {
+    "es": "regalo",
+    "fr": "cadeau",
+    "de": "Geschenk",
+    "it": "regalo",
+    "pt": "presente",
+    "ja": "プレゼント",
+    "zh": "礼物",
+    "ko": "선물",
+    "hi": "उपहार",
+    "ar": "هدية",
+    "ru": "подарок",
+    "nl": "cadeau"
+   },
+   "say": {
+    "ja": "purezento",
+    "zh": "lǐwù",
+    "ko": "seonmul",
+    "hi": "uphaar",
+    "ar": "hadiyya",
+    "ru": "podarok"
+   }
+  },
+  {
+   "en": "souvenir",
+   "also": [],
+   "t": {
+    "es": "recuerdo",
+    "fr": "souvenir",
+    "de": "Andenken",
+    "it": "souvenir",
+    "pt": "lembrança",
+    "ja": "お土産",
+    "zh": "纪念品",
+    "ko": "기념품",
+    "hi": "स्मृति चिह्न",
+    "ar": "تذكار",
+    "ru": "сувенир",
+    "nl": "souvenir"
+   },
+   "say": {
+    "ja": "omiyage",
+    "zh": "jìniànpǐn",
+    "ko": "ginyeompum",
+    "hi": "smriti chihn",
+    "ar": "tidhkaar",
+    "ru": "suvenir"
+   }
+  },
+  {
+   "en": "sale",
+   "also": [
+    "discount"
+   ],
+   "t": {
+    "es": "rebajas",
+    "fr": "soldes",
+    "de": "Ausverkauf",
+    "it": "saldi",
+    "pt": "promoção",
+    "ja": "セール",
+    "zh": "打折",
+    "ko": "세일",
+    "hi": "सेल",
+    "ar": "تخفيضات",
+    "ru": "распродажа",
+    "nl": "uitverkoop"
+   },
+   "say": {
+    "ja": "seeru",
+    "zh": "dǎzhé",
+    "ko": "seil",
+    "hi": "sel",
+    "ar": "takhfeedaat",
+    "ru": "rasprodazha"
+   }
+  },
+  {
+   "en": "clothes",
+   "also": [
+    "clothing"
+   ],
+   "t": {
+    "es": "ropa",
+    "fr": "vêtements",
+    "de": "Kleidung",
+    "it": "vestiti",
+    "pt": "roupa",
+    "ja": "服",
+    "zh": "衣服",
+    "ko": "옷",
+    "hi": "कपड़े",
+    "ar": "ملابس",
+    "ru": "одежда",
+    "nl": "kleren"
+   },
+   "say": {
+    "ja": "fuku",
+    "zh": "yīfu",
+    "ko": "ot",
+    "hi": "kapde",
+    "ar": "malaabis",
+    "ru": "odezhda"
+   }
+  },
+  {
+   "en": "t-shirt",
+   "also": [
+    "tshirt",
+    "tee"
+   ],
+   "t": {
+    "es": "camiseta",
+    "fr": "tee-shirt",
+    "de": "T-Shirt",
+    "it": "maglietta",
+    "pt": "camiseta",
+    "ja": "Tシャツ",
+    "zh": "T恤",
+    "ko": "티셔츠",
+    "hi": "टी-शर्ट",
+    "ar": "قميص",
+    "ru": "футболка",
+    "nl": "T-shirt"
+   },
+   "say": {
+    "ja": "tiishatsu",
+    "zh": "T xù",
+    "ko": "tisyeocheu",
+    "hi": "tee-shart",
+    "ar": "qamees",
+    "ru": "futbolka"
+   }
+  },
+  {
+   "en": "pants",
+   "also": [
+    "trousers"
+   ],
+   "t": {
+    "es": "pantalones",
+    "fr": "pantalon",
+    "de": "Hose",
+    "it": "pantaloni",
+    "pt": "calça",
+    "ja": "ズボン",
+    "zh": "裤子",
+    "ko": "바지",
+    "hi": "पैंट",
+    "ar": "بنطلون",
+    "ru": "брюки",
+    "nl": "broek"
+   },
+   "say": {
+    "ja": "zubon",
+    "zh": "kùzi",
+    "ko": "baji",
+    "hi": "paint",
+    "ar": "bantaloon",
+    "ru": "bryuki"
+   }
+  },
+  {
+   "en": "jeans",
+   "also": [],
+   "t": {
+    "es": "vaqueros",
+    "fr": "jean",
+    "de": "Jeans",
+    "it": "jeans",
+    "pt": "calça jeans",
+    "ja": "ジーンズ",
+    "zh": "牛仔裤",
+    "ko": "청바지",
+    "hi": "जींस",
+    "ar": "جينز",
+    "ru": "джинсы",
+    "nl": "spijkerbroek"
+   },
+   "say": {
+    "ja": "jiinzu",
+    "zh": "niúzǎikù",
+    "ko": "cheongbaji",
+    "hi": "jeens",
+    "ar": "jeenz",
+    "ru": "dzhinsy"
+   }
+  },
+  {
+   "en": "shorts",
+   "also": [],
+   "t": {
+    "es": "pantalones cortos",
+    "fr": "short",
+    "de": "kurze Hose",
+    "it": "pantaloncini",
+    "pt": "bermuda",
+    "ja": "半ズボン",
+    "zh": "短裤",
+    "ko": "반바지",
+    "hi": "निक्कर",
+    "ar": "شورت",
+    "ru": "шорты",
+    "nl": "korte broek"
+   },
+   "say": {
+    "ja": "hanzubon",
+    "zh": "duǎnkù",
+    "ko": "banbaji",
+    "hi": "nikkar",
+    "ar": "short",
+    "ru": "shorty"
+   }
+  },
+  {
+   "en": "dress",
+   "also": [],
+   "t": {
+    "es": "vestido",
+    "fr": "robe",
+    "de": "Kleid",
+    "it": "vestito",
+    "pt": "vestido",
+    "ja": "ワンピース",
+    "zh": "连衣裙",
+    "ko": "원피스",
+    "hi": "ड्रेस",
+    "ar": "فستان",
+    "ru": "платье",
+    "nl": "jurk"
+   },
+   "say": {
+    "ja": "wanpiisu",
+    "zh": "liányīqún",
+    "ko": "wonpiseu",
+    "hi": "dres",
+    "ar": "fustaan",
+    "ru": "platye"
+   }
+  },
+  {
+   "en": "skirt",
+   "also": [],
+   "t": {
+    "es": "falda",
+    "fr": "jupe",
+    "de": "Rock",
+    "it": "gonna",
+    "pt": "saia",
+    "ja": "スカート",
+    "zh": "裙子",
+    "ko": "치마",
+    "hi": "स्कर्ट",
+    "ar": "تنورة",
+    "ru": "юбка",
+    "nl": "rok"
+   },
+   "say": {
+    "ja": "sukaato",
+    "zh": "qúnzi",
+    "ko": "chima",
+    "hi": "skart",
+    "ar": "tannoora",
+    "ru": "yubka"
+   }
+  },
+  {
+   "en": "jacket",
+   "also": [],
+   "t": {
+    "es": "chaqueta",
+    "fr": "veste",
+    "de": "Jacke",
+    "it": "giacca",
+    "pt": "jaqueta",
+    "ja": "ジャケット",
+    "zh": "夹克",
+    "ko": "재킷",
+    "hi": "जैकेट",
+    "ar": "سترة",
+    "ru": "куртка",
+    "nl": "jack"
+   },
+   "say": {
+    "ja": "jaketto",
+    "zh": "jiákè",
+    "ko": "jaekit",
+    "hi": "jaiket",
+    "ar": "sutra",
+    "ru": "kurtka"
+   }
+  },
+  {
+   "en": "coat",
+   "also": [],
+   "t": {
+    "es": "abrigo",
+    "fr": "manteau",
+    "de": "Mantel",
+    "it": "cappotto",
+    "pt": "casaco",
+    "ja": "コート",
+    "zh": "大衣",
+    "ko": "코트",
+    "hi": "कोट",
+    "ar": "معطف",
+    "ru": "пальто",
+    "nl": "jas"
+   },
+   "say": {
+    "ja": "kooto",
+    "zh": "dàyī",
+    "ko": "koteu",
+    "hi": "kot",
+    "ar": "mi'taf",
+    "ru": "palto"
+   }
+  },
+  {
+   "en": "sweater",
+   "also": [
+    "jumper"
+   ],
+   "t": {
+    "es": "suéter",
+    "fr": "pull",
+    "de": "Pullover",
+    "it": "maglione",
+    "pt": "suéter",
+    "ja": "セーター",
+    "zh": "毛衣",
+    "ko": "스웨터",
+    "hi": "स्वेटर",
+    "ar": "كنزة",
+    "ru": "свитер",
+    "nl": "trui"
+   },
+   "say": {
+    "ja": "seetaa",
+    "zh": "máoyī",
+    "ko": "seuweteo",
+    "hi": "svetar",
+    "ar": "kanza",
+    "ru": "sviter"
+   }
+  },
+  {
+   "en": "hoodie",
+   "also": [],
+   "t": {
+    "es": "sudadera con capucha",
+    "fr": "sweat à capuche",
+    "de": "Kapuzenpulli",
+    "it": "felpa con cappuccio",
+    "pt": "moletom com capuz",
+    "ja": "パーカー",
+    "zh": "连帽衫",
+    "ko": "후드티",
+    "hi": "हुडी",
+    "ar": "هودي",
+    "ru": "толстовка",
+    "nl": "hoodie"
+   },
+   "say": {
+    "ja": "paakaa",
+    "zh": "liánmàoshān",
+    "ko": "hudeuti",
+    "hi": "hudi",
+    "ar": "hoodi",
+    "ru": "tolstovka"
+   }
+  },
+  {
+   "en": "shoes",
+   "also": [],
+   "t": {
+    "es": "zapatos",
+    "fr": "chaussures",
+    "de": "Schuhe",
+    "it": "scarpe",
+    "pt": "sapatos",
+    "ja": "靴",
+    "zh": "鞋",
+    "ko": "신발",
+    "hi": "जूते",
+    "ar": "أحذية",
+    "ru": "обувь",
+    "nl": "schoenen"
+   },
+   "say": {
+    "ja": "kutsu",
+    "zh": "xié",
+    "ko": "sinbal",
+    "hi": "joote",
+    "ar": "ahdhiya",
+    "ru": "obuv"
+   }
+  },
+  {
+   "en": "sneakers",
+   "also": [
+    "trainers",
+    "running shoes"
+   ],
+   "t": {
+    "es": "tenis",
+    "fr": "baskets",
+    "de": "Turnschuhe",
+    "it": "scarpe da ginnastica",
+    "pt": "tênis",
+    "ja": "スニーカー",
+    "zh": "运动鞋",
+    "ko": "운동화",
+    "hi": "स्पोर्ट्स शूज़",
+    "ar": "حذاء رياضي",
+    "ru": "кроссовки",
+    "nl": "sneakers"
+   },
+   "say": {
+    "ja": "suniikaa",
+    "zh": "yùndòngxié",
+    "ko": "undonghwa",
+    "hi": "sports shooz",
+    "ar": "hidhaa' riyaadi",
+    "ru": "krossovki"
+   }
+  },
+  {
+   "en": "socks",
+   "also": [],
+   "t": {
+    "es": "calcetines",
+    "fr": "chaussettes",
+    "de": "Socken",
+    "it": "calzini",
+    "pt": "meias",
+    "ja": "靴下",
+    "zh": "袜子",
+    "ko": "양말",
+    "hi": "मोज़े",
+    "ar": "جوارب",
+    "ru": "носки",
+    "nl": "sokken"
+   },
+   "say": {
+    "ja": "kutsushita",
+    "zh": "wàzi",
+    "ko": "yangmal",
+    "hi": "moze",
+    "ar": "jawaarib",
+    "ru": "noski"
+   }
+  },
+  {
+   "en": "hat",
+   "also": [],
+   "t": {
+    "es": "sombrero",
+    "fr": "chapeau",
+    "de": "Hut",
+    "it": "cappello",
+    "pt": "chapéu",
+    "ja": "帽子",
+    "zh": "帽子",
+    "ko": "모자",
+    "hi": "टोपी",
+    "ar": "قبعة",
+    "ru": "шляпа",
+    "nl": "hoed"
+   },
+   "say": {
+    "ja": "boushi",
+    "zh": "màozi",
+    "ko": "moja",
+    "hi": "topi",
+    "ar": "qubba'a",
+    "ru": "shlyapa"
+   }
+  },
+  {
+   "en": "cap",
+   "also": [
+    "baseball cap"
+   ],
+   "t": {
+    "es": "gorra",
+    "fr": "casquette",
+    "de": "Kappe",
+    "it": "cappellino",
+    "pt": "boné",
+    "ja": "キャップ",
+    "zh": "棒球帽",
+    "ko": "야구 모자",
+    "hi": "कैप",
+    "ar": "قبعة رياضية",
+    "ru": "кепка",
+    "nl": "pet"
+   },
+   "say": {
+    "ja": "kyappu",
+    "zh": "bàngqiúmào",
+    "ko": "yagu moja",
+    "hi": "kaip",
+    "ar": "qubba'a riyaadiyya",
+    "ru": "kepka"
+   }
+  },
+  {
+   "en": "gloves",
+   "also": [],
+   "t": {
+    "es": "guantes",
+    "fr": "gants",
+    "de": "Handschuhe",
+    "it": "guanti",
+    "pt": "luvas",
+    "ja": "手袋",
+    "zh": "手套",
+    "ko": "장갑",
+    "hi": "दस्ताने",
+    "ar": "قفازات",
+    "ru": "перчатки",
+    "nl": "handschoenen"
+   },
+   "say": {
+    "ja": "tebukuro",
+    "zh": "shǒutào",
+    "ko": "janggap",
+    "hi": "dastaane",
+    "ar": "quffaazaat",
+    "ru": "perchatki"
+   }
+  },
+  {
+   "en": "scarf",
+   "also": [],
+   "t": {
+    "es": "bufanda",
+    "fr": "écharpe",
+    "de": "Schal",
+    "it": "sciarpa",
+    "pt": "cachecol",
+    "ja": "マフラー",
+    "zh": "围巾",
+    "ko": "목도리",
+    "hi": "मफ़लर",
+    "ar": "وشاح",
+    "ru": "шарф",
+    "nl": "sjaal"
+   },
+   "say": {
+    "ja": "mafuraa",
+    "zh": "wéijīn",
+    "ko": "mokdori",
+    "hi": "maflar",
+    "ar": "wishaah",
+    "ru": "sharf"
+   }
+  },
+  {
+   "en": "glasses",
+   "also": [
+    "eyeglasses"
+   ],
+   "t": {
+    "es": "gafas",
+    "fr": "lunettes",
+    "de": "Brille",
+    "it": "occhiali",
+    "pt": "óculos",
+    "ja": "メガネ",
+    "zh": "眼镜",
+    "ko": "안경",
+    "hi": "चश्मा",
+    "ar": "نظارة",
+    "ru": "очки",
+    "nl": "bril"
+   },
+   "say": {
+    "ja": "megane",
+    "zh": "yǎnjìng",
+    "ko": "angyeong",
+    "hi": "chashma",
+    "ar": "nadhdhaara",
+    "ru": "ochki"
+   }
+  },
+  {
+   "en": "sunglasses",
+   "also": [],
+   "t": {
+    "es": "gafas de sol",
+    "fr": "lunettes de soleil",
+    "de": "Sonnenbrille",
+    "it": "occhiali da sole",
+    "pt": "óculos de sol",
+    "ja": "サングラス",
+    "zh": "太阳镜",
+    "ko": "선글라스",
+    "hi": "धूप का चश्मा",
+    "ar": "نظارة شمسية",
+    "ru": "солнечные очки",
+    "nl": "zonnebril"
+   },
+   "say": {
+    "ja": "sangurasu",
+    "zh": "tàiyángjìng",
+    "ko": "seongeullaseu",
+    "hi": "dhoop ka chashma",
+    "ar": "nadhdhaara shamsiyya",
+    "ru": "solnechnye ochki"
+   }
+  },
+  {
+   "en": "watch",
+   "also": [
+    "wristwatch"
+   ],
+   "t": {
+    "es": "reloj",
+    "fr": "montre",
+    "de": "Armbanduhr",
+    "it": "orologio",
+    "pt": "relógio",
+    "ja": "腕時計",
+    "zh": "手表",
+    "ko": "손목시계",
+    "hi": "घड़ी",
+    "ar": "ساعة",
+    "ru": "часы",
+    "nl": "horloge"
+   },
+   "say": {
+    "ja": "udedokei",
+    "zh": "shǒubiǎo",
+    "ko": "sonmoksigye",
+    "hi": "ghadi",
+    "ar": "saa'a",
+    "ru": "chasy"
+   }
+  },
+  {
+   "en": "umbrella",
+   "also": [],
+   "t": {
+    "es": "paraguas",
+    "fr": "parapluie",
+    "de": "Regenschirm",
+    "it": "ombrello",
+    "pt": "guarda-chuva",
+    "ja": "傘",
+    "zh": "雨伞",
+    "ko": "우산",
+    "hi": "छाता",
+    "ar": "مظلة",
+    "ru": "зонт",
+    "nl": "paraplu"
+   },
+   "say": {
+    "ja": "kasa",
+    "zh": "yǔsǎn",
+    "ko": "usan",
+    "hi": "chhaata",
+    "ar": "mithalla",
+    "ru": "zont"
+   }
+  },
+  {
+   "en": "wallet",
+   "also": [],
+   "t": {
+    "es": "cartera",
+    "fr": "portefeuille",
+    "de": "Geldbeutel",
+    "it": "portafoglio",
+    "pt": "carteira",
+    "ja": "財布",
+    "zh": "钱包",
+    "ko": "지갑",
+    "hi": "बटुआ",
+    "ar": "محفظة",
+    "ru": "кошелёк",
+    "nl": "portemonnee"
+   },
+   "say": {
+    "ja": "saifu",
+    "zh": "qiánbāo",
+    "ko": "jigap",
+    "hi": "batua",
+    "ar": "mihfadha",
+    "ru": "koshelyok"
+   }
+  },
+  {
+   "en": "pajamas",
+   "also": [
+    "pyjamas"
+   ],
+   "t": {
+    "es": "pijama",
+    "fr": "pyjama",
+    "de": "Schlafanzug",
+    "it": "pigiama",
+    "pt": "pijama",
+    "ja": "パジャマ",
+    "zh": "睡衣",
+    "ko": "잠옷",
+    "hi": "पजामा",
+    "ar": "بيجامة",
+    "ru": "пижама",
+    "nl": "pyjama"
+   },
+   "say": {
+    "ja": "pajama",
+    "zh": "shuìyī",
+    "ko": "jamot",
+    "hi": "pajaama",
+    "ar": "beejaama",
+    "ru": "pizhama"
+   }
+  },
+  {
+   "en": "swimsuit",
+   "also": [
+    "bathing suit"
+   ],
+   "t": {
+    "es": "traje de baño",
+    "fr": "maillot de bain",
+    "de": "Badeanzug",
+    "it": "costume da bagno",
+    "pt": "maiô",
+    "ja": "水着",
+    "zh": "泳衣",
+    "ko": "수영복",
+    "hi": "स्विमसूट",
+    "ar": "ملابس سباحة",
+    "ru": "купальник",
+    "nl": "badpak"
+   },
+   "say": {
+    "ja": "mizugi",
+    "zh": "yǒngyī",
+    "ko": "suyeongbok",
+    "hi": "svimsoot",
+    "ar": "malaabis sibaaha",
+    "ru": "kupalnik"
+   }
+  },
+  {
+   "en": "boots",
+   "also": [],
+   "t": {
+    "es": "botas",
+    "fr": "bottes",
+    "de": "Stiefel",
+    "it": "stivali",
+    "pt": "botas",
+    "ja": "ブーツ",
+    "zh": "靴子",
+    "ko": "부츠",
+    "hi": "बूट",
+    "ar": "جزمة",
+    "ru": "сапоги",
+    "nl": "laarzen"
+   },
+   "say": {
+    "ja": "buutsu",
+    "zh": "xuēzi",
+    "ko": "bucheu",
+    "hi": "boot",
+    "ar": "jazma",
+    "ru": "sapogi"
+   }
+  }
+ ]
+}

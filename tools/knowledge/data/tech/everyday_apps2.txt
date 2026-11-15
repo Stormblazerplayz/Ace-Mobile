@@ -1,0 +1,7 @@
+# tag: tech.apps.everyday2
+what is goodnotes | goodnotes vs notability => GoodNotes and Notability are iPad note apps for handwriting with Apple Pencil, marking up PDFs and organizing notebooks. Notability can also record audio synced to your notes.
+what is quizlet | quizlet flashcards => Quizlet is a study app for making flashcards and playing study games with them. Many classes share sets there.
+what is kahoot | how do i join a kahoot => Kahoot is a live quiz game teachers run on a big screen. You join at kahoot.it with the game PIN and answer on your device.
+what is talkback on android | android screen reader => TalkBack is Android's screen reader. It reads what's on screen aloud for people who can't see it well, and you turn it on in Accessibility settings.
+how do i convert units fast | unit converter on phone => Type something like 5 miles in km into Google or Spotlight on iPhone and it converts instantly. The Calculator app on iOS 18 and later also has unit conversion.
+what is a qr code generator | make my own qr code => QR code generators turn a link into a scannable code. Chrome can make one from the share menu for any page you're on.

@@ -1,0 +1,28 @@
+# Game genres, hand-written.
+
+# tag: games.genres
+what is a battle royale game | battle royale meaning | examples of battle royale => A battle royale drops lots of players into a shrinking map where the last one standing wins. Fortnite, PUBG, Apex Legends and Warzone are examples.
+what is a platformer | platformer games | what does platformer mean => A platformer is a game about running and jumping across platforms, like Super Mario Bros. or Celeste.
+what is a racing game | best racing games | racing game examples => Racing games are about driving fast and winning races, like Mario Kart, Forza Horizon, Gran Turismo and Rocket Racing.
+what is a fighting game | fighting game examples | 1v1 fighting games => Fighting games have players battle each other with moves and combos, like Super Smash Bros., Street Fighter and Tekken.
+what is a puzzle game | puzzle game examples | brain games => Puzzle games are about solving problems, like Tetris, Portal or Baba Is You.
+what is a strategy game | rts meaning | real time strategy => Strategy games are about planning and making smart decisions. Real-time strategy, or RTS, games like StarCraft happen live, while turn-based ones like Civilization wait for your move.
+what is a moba | what does moba mean | moba games => A MOBA, or multiplayer online battle arena, has two teams of heroes fighting to destroy the other team's base, like League of Legends or Dota 2.
+what is a survival game | survival games examples | survival crafting games => Survival games have you gather resources, craft tools and stay alive, like Minecraft survival mode, Terraria, Don't Starve or Subnautica.
+what is a horror game | scary games | horror game examples => Horror games are made to scare you with monsters, tension and jump scares, like Five Nights at Freddy's or Doors on Roblox.
+what is a simulation game | sim games | simulator game examples => Simulation games copy real activities, like flying planes, farming, driving or running a city, such as BeamNG.drive, Microsoft Flight Simulator or The Sims.
+what is a sports game | sports game examples | best sports games => Sports games are based on real sports, like EA Sports FC for soccer, NBA 2K for basketball and Madden for American football.
+what is a rhythm game | rhythm games examples | music games => Rhythm games have you press buttons to the beat of music, like Guitar Hero, Beat Saber or Fortnite Festival.
+what is a party game | party games examples => Party games are fun, quick games for groups, like Mario Party, Jackbox games and Among Us.
+what is a stealth game | stealth games examples | sneaking games => Stealth games reward sneaking past enemies without being seen, like Metal Gear Solid or Hitman.
+what is an adventure game | adventure games examples | action adventure meaning => Adventure games focus on exploring and story. Action-adventure games, like Zelda, mix that with fighting.
+what is a tower defense game | tower defense meaning | tower defense examples => In tower defense games you place towers along a path to stop waves of enemies, like Bloons TD or Tower Defense Simulator on Roblox.
+what is a city builder | city building games | city builder examples => City builders let you plan and grow a town or city, like Cities: Skylines or SimCity.
+cozy games | farming sim examples => Farming and cozy games are relaxing games about growing crops and making friends, like Stardew Valley and Animal Crossing.
+what is an idle game | clicker games | incremental game meaning => Idle or clicker games keep earning progress even when you aren't doing much, like Cookie Clicker. Many Roblox simulators use the same idea.
+what is a hero shooter | hero shooter meaning | hero shooter examples => A hero shooter is a team shooter where each character has special abilities, like Overwatch, Valorant or Marvel Rivals.
+what is an extraction shooter | extraction shooter meaning | escape from tarkov type games => In an extraction shooter you go in, grab loot and must escape alive to keep it, like Escape from Tarkov.
+what is a card game in video games | deck building games | digital card games => Digital card games have you build decks and battle with cards, like Hearthstone, Pokémon TCG Live or Slay the Spire.
+what is a visual novel | visual novel meaning | story games => A visual novel is a story game told with text and pictures, where you make choices that change what happens.
+what is a vr game | virtual reality games | vr game examples => VR games are played with a headset so it feels like you're inside the game, like Beat Saber or Gorilla Tag.
+what is gorilla tag | how do you play gorilla tag | gorilla tag vr => Gorilla Tag is a VR game where you move by swinging your arms like a gorilla and play tag with other players.

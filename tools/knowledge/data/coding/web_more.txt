@@ -1,0 +1,92 @@
+# More web: JavaScript how-tos, CSS layout tricks, JSON and Electron details, written by hand for Ace.
+# tag: coding.web.more
+how do i add an item to an array in javascript | push javascript | append to array js => `arr.push(x)` adds to the end and `arr.unshift(x)` adds to the start. Both change the array in place.
+how do i remove an item from an array in javascript | splice javascript | delete from array js => `arr.splice(index, 1)` removes one item at that index. To remove by value, use `arr.filter(function (x) { return x !== value; })` to make a new array.
+how do i find an item in an array javascript | indexof javascript => `arr.indexOf(x)` gives the position or -1, `arr.includes(x)` gives true or false, and `arr.find(fn)` returns the first item where fn returns true.
+how do i sort numbers in javascript | sort numbers js | javascript sort wrong => `arr.sort()` sorts as text, so 10 comes before 9. For numbers use `arr.sort(function (a, b) { return a - b; })`.
+how do i sum an array in javascript | sum array js | reduce sum javascript => `arr.reduce(function (total, x) { return total + x; }, 0)` adds every number, starting from 0.
+how do i copy an array in javascript | clone array js | copy array spread => `[...arr]` or `arr.slice()` makes a shallow copy. `structuredClone(arr)` makes a deep copy including nested objects.
+how do i check if something is an array in javascript | array.isarray => `Array.isArray(x)` returns true for arrays. `typeof` says "object" for arrays, so it cannot tell them apart.
+how do i join an array into a string javascript | join javascript | array to string js => `arr.join(", ")` makes one string with a comma and space between items.
+how do i make a string uppercase in javascript | touppercase | lowercase javascript => `text.toUpperCase()` and `text.toLowerCase()` return new strings in capitals or small letters.
+how do i check if a string contains text in javascript | includes string js | string has word javascript => `text.includes("cat")` returns true if the text appears. `startsWith` and `endsWith` check the ends.
+how do i replace text in javascript | replaceall javascript | string replace js => `text.replace("a", "b")` changes only the first match, while `text.replaceAll("a", "b")` changes every match.
+how do i trim spaces in javascript | trim js | remove whitespace javascript => `text.trim()` removes spaces and newlines from both ends.
+how do i get part of a string in javascript | slice string js | substring javascript => `text.slice(0, 5)` gives the first five characters. Negative numbers count from the end.
+repeat js | padstart javascript => `"ab".repeat(3)` gives "ababab", and `"7".padStart(3, "0")` gives "007".
+how do i get the length of an array or string in javascript | length js | how long is array javascript => Use `.length`, like `arr.length` or `text.length`. It is a property, so there are no brackets.
+how do i check the type of a value in javascript | typeof | type of variable js => `typeof x` gives a string like "number", "string", "boolean", "object", "function" or "undefined". It says "object" for null and arrays.
+number to string js | tostring javascript => `String(42)` or `(42).toString()` gives "42". `n.toFixed(2)` gives a string with exactly 2 decimals.
+how do i get the current date in javascript | new date javascript | date js => `new Date()` gives the date and time at that moment. `date.toLocaleDateString()` formats it for the user's language.
+how do i get a timestamp in javascript | date.now | milliseconds since 1970 js => `Date.now()` returns milliseconds since 1 January 1970, handy for timing and unique IDs.
+how do i wait in javascript | sleep javascript | delay js => There is no sleep. Use `setTimeout(fn, 1000)` to run code later, or inside an async function `await new Promise(function (r) { setTimeout(r, 1000); });`.
+how do i stop a setinterval | clearinterval | stop timer javascript => Save the id: `const id = setInterval(tick, 1000);` then call `clearInterval(id)` to stop it. `clearTimeout` stops a setTimeout.
+what is requestanimationframe | smooth animation js => `requestAnimationFrame(loop)` calls loop right before the next screen repaint, about 60 times a second, which is the right way to animate games in the browser.
+how do i get mouse position in javascript | mouse coordinates js | clientx clienty => In a mouse event, `event.clientX` and `event.clientY` give the position in the window. For a canvas, subtract `canvas.getBoundingClientRect()` left and top.
+how do i draw on a canvas in javascript | canvas 2d context | canvas drawing js => Get `const ctx = canvas.getContext("2d");` then use `ctx.fillStyle = "red"; ctx.fillRect(x, y, w, h);` or `ctx.drawImage(img, x, y)`.
+how do i clear a canvas | clearrect canvas | erase canvas js => `ctx.clearRect(0, 0, canvas.width, canvas.height)` clears the whole canvas, usually at the start of each frame.
+how do i play a sound in javascript | audio javascript | play mp3 in browser => `new Audio("jump.mp3").play()` plays a sound. Browsers only allow sound after the user has clicked or pressed a key on the page.
+how do i add an event listener | addeventlistener | listen for click js => `button.addEventListener("click", function () { ... });` runs the function every time the button is clicked.
+how do i remove an event listener | removeeventlistener | stop listening js => `el.removeEventListener("click", handler)` works only if you pass the same named function you added.
+what is event bubbling | bubbling javascript | stoppropagation => Events start at the clicked element and bubble up through its parents. `event.stopPropagation()` stops that, and listening on a parent lets one handler serve many children.
+what is event delegation | delegation js | one listener many buttons => Event delegation puts one listener on a parent and checks `event.target` to see which child was clicked, which also works for children added later.
+how do i show or hide an element with javascript | toggle visibility js | hide element javascript => Set `el.hidden = true`, or toggle a CSS class with `el.classList.toggle("hidden")` where the class has `display: none`.
+how do i change css with javascript | style property js | set color javascript => `el.style.color = "red"` sets one style. Toggling classes with `classList` keeps styles in your CSS file, which is usually cleaner.
+how do i get all elements with a class | queryselectorall | select many elements js => `document.querySelectorAll(".card")` returns all matches; loop over them with `forEach`.
+how do i get form data in javascript | formdata | read form inputs js => In the form's submit handler, `new FormData(form)` collects all named inputs; read one with `data.get("name")`.
+how do i redirect to another page javascript | location href | go to page js => `window.location.href = "page.html";` sends the browser to another page.
+how do i save an object in local storage | localstorage json | store object browser => Local storage holds strings, so use `localStorage.setItem("save", JSON.stringify(obj))` and `JSON.parse(localStorage.getItem("save"))` to read it back.
+how do i make a fetch post request | fetch post | send json fetch => `fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) })`.
+how do i handle fetch errors | fetch error handling | response.ok => fetch only rejects on network failure, so also check `if (!response.ok)` for errors like 404, and wrap awaits in try/catch.
+what is a json object vs javascript object | json vs js object | difference json and object => JSON is text with strict rules (double-quoted keys, no functions or comments). A JavaScript object is a live value in memory. Convert with `JSON.parse` and `JSON.stringify`.
+how do i pretty print json | json stringify indent | format json js => `JSON.stringify(obj, null, 2)` makes JSON with 2-space indentation that is easy to read.
+can json have comments | comments in json | json comment => No, standard JSON does not allow comments or trailing commas. Formats like JSON5 or JSONC (used by VS Code settings) allow them.
+what is a json array | array in json | list in json => A JSON array is a list in square brackets, like `[1, 2, 3]` or a list of objects. The whole JSON file can be an array.
+how do i read a json file in node | require json node | read json file node.js => In Node, `JSON.parse(fs.readFileSync("data.json", "utf8"))` reads and parses a file.
+what is the fs module | fs node | read file node => Node's `fs` module reads and writes files, like `fs.readFileSync(path, "utf8")` and `fs.writeFileSync(path, text)`. The `fs/promises` version works with await.
+what is the path module node | path.join | node path => `path.join(__dirname, "data", "save.json")` builds a file path that works on every operating system.
+what is process.argv | command line args node | node arguments => `process.argv` holds the command and its arguments; the arguments you typed start at index 2.
+import export javascript | type module => ES modules use `export` and `import` between files. In browsers use `<script type="module">`; in Node set `"type": "module"` in package.json or use .mjs files.
+what is commonjs | require vs import | module.exports => CommonJS is Node's older module system with `require()` and `module.exports`. ES modules with import and export are the modern standard.
+what is the difference between null and undefined in json | undefined in json | json undefined => JSON has null but no undefined. `JSON.stringify` drops properties whose value is undefined.
+what is a getter in javascript | class getter => A getter, written `get area() { ... }` in a class, runs code when you read `obj.area` like a property.
+what is inheritance in javascript | super js => `class Boss extends Enemy { }` makes Boss inherit Enemy's methods. Call `super()` in its constructor before using `this`.
+what is a static method in javascript | static js | class static => A `static` method belongs to the class itself, called like `MathUtils.clamp(x, 0, 1)`, not on an instance.
+what is a private field in javascript | # in javascript class | private js => Class fields starting with `#`, like `#health`, can only be used inside the class.
+what is strict mode | use strict => `"use strict";` turns on stricter rules that catch common mistakes, like using undeclared variables. Modules and classes are strict automatically.
+what is debugger statement | debugger js => Writing `debugger;` pauses the code at that line when dev tools are open, so you can inspect variables.
+how do i debug javascript in the browser | breakpoints browser | sources tab => Open dev tools (F12 or Cmd+Option+I), go to Sources, click a line number to add a breakpoint, then step through and inspect variables.
+what is the network tab | network tab dev tools | see requests browser => The Network tab lists every request a page makes, with status codes and responses, which helps debug failed fetches.
+what is the elements tab | edit html live => Right-click and choose Inspect to open the Elements tab, where you can see and live-edit a page's HTML and CSS.
+what is lighthouse | page speed test | lighthouse dev tools => Lighthouse, in Chrome's dev tools, tests a page for speed, accessibility and best practices and suggests fixes.
+how do i make a navbar in css | navigation bar css | menu bar html => Put links in a `<nav>` with a list, then use `display: flex` with `gap` and `justify-content: space-between` to lay them out in a row.
+how do i make a card layout css | cards css | card design html => Give each card padding, a border-radius, a subtle box-shadow, and place them in a CSS grid with `grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))`.
+how do i make a sticky header | position sticky | header stays at top => `position: sticky; top: 0;` keeps the header at the top while the page scrolls, inside its parent.
+how do i make an element fill the screen css | 100vh | full screen section => `min-height: 100vh` makes a section at least as tall as the window. `100dvh` adjusts for mobile browser bars.
+how do i make a button look nice css | button style css | style buttons => Add padding, a background color, `border: none`, `border-radius`, a `cursor: pointer`, and a `:hover` color change with a short transition.
+how do i make text not wrap css | white-space nowrap | ellipsis css => `white-space: nowrap; overflow: hidden; text-overflow: ellipsis;` keeps text on one line and adds ... when it is too long.
+how do i make an image responsive | max-width 100% | image fit css => `img { max-width: 100%; height: auto; }` stops images overflowing on small screens. `object-fit: cover` crops to fill a box.
+what is a media query | responsive breakpoint => `@media (max-width: 600px) { ... }` applies styles only on narrow screens, for responsive layouts.
+what is z-index | element on top => `z-index` decides which overlapping element is on top. It only works on positioned elements (not static) or flex and grid items.
+overflow hidden | scrollbar css => `overflow` controls content that does not fit: `hidden` cuts it off, `auto` adds a scrollbar when needed.
+what is display none vs visibility hidden | hide element css | display none => `display: none` removes the element from the layout. `visibility: hidden` hides it but keeps its space.
+what is a css reset | normalize css | reset styles => A CSS reset removes browser default margins and styles so your page looks the same everywhere. Many start with `* { box-sizing: border-box; margin: 0; }`.
+what is box-sizing border-box | box sizing | width includes padding => With `box-sizing: border-box`, an element's width includes its padding and border, which makes layouts much easier.
+what is a pseudo class | :hover :focus | pseudo class css => Pseudo-classes style elements in a state, like `:hover`, `:focus`, `:first-child` and `:nth-child(2)`.
+what is tailwind css | tailwind | utility css => Tailwind is a CSS framework of small utility classes you put in HTML, like `p-4 bg-blue-500 rounded`, instead of writing CSS files.
+what is sass | scss | css preprocessor => Sass (SCSS) adds nesting, mixins and functions to CSS and compiles to normal CSS. Modern CSS now has variables and nesting built in.
+what is an iframe | iframe html | embed page html => An `<iframe>` shows another web page inside yours, like an embedded video or map.
+label for input | accessible form => `<label for="name">Name</label>` links text to an input with that id, so clicking the label focuses the input and screen readers announce it.
+what is an svg | svg html | vector image web => SVG is a vector image format written as XML, which stays sharp at any size and can be styled with CSS.
+what is a data uri | data url | base64 image html => A data URI puts a file's contents straight in the address, like `data:image/png;base64,...`, for small images without separate files.
+what is the electron renderer process | renderer process | electron web page => Each BrowserWindow runs a renderer process showing your HTML, CSS and JavaScript. It should use the preload's exposed APIs rather than Node directly.
+what is contextbridge | contextbridge electron | exposeinmainworld => In a preload script, `contextBridge.exposeInMainWorld("api", { save: function (data) { return ipcRenderer.invoke("save", data); } })` safely gives the page a small API.
+what is ipcmain.handle | ipcrenderer.invoke | electron invoke => `ipcMain.handle("save", handler)` in main answers `ipcRenderer.invoke("save", data)` from the preload, and the renderer gets a promise with the result.
+electron-forge | electron builder => Electron Forge and electron-builder package your app into installers for Windows, Mac and Linux, and can set up auto updates.
+how do i make an electron window frameless | frameless window electron | custom title bar electron => Create the BrowserWindow with `frame: false` and add your own title bar in HTML with the CSS `-webkit-app-region: drag` on it.
+how do i show a notification in electron | electron notification | desktop notification => Use `new Notification({ title: "Done", body: "Saved" }).show()` from the main process, or the web Notification API in the renderer.
+how do i open a link in the browser from electron | shell.openexternal | open url electron => `shell.openExternal(url)` opens a web link in the user's normal browser. Only open https links you trust.
+how do i store settings in electron | electron settings | app.getpath userdata => Save a JSON file in `app.getPath("userData")`, the per-user folder for your app, or use a small library like electron-store.
+how do i add a menu in electron | electron menu | application menu => Build a menu with `Menu.buildFromTemplate([...])` and set it with `Menu.setApplicationMenu(menu)`.
+what is the difference between electron and tauri | small desktop app => Tauri builds desktop apps with a web UI too, but uses the system's web view and a Rust backend, so apps are much smaller than Electron's.
+what is a web view | webview | wkwebview => A web view is a component that shows web pages inside a native app, like WKWebView on iOS.

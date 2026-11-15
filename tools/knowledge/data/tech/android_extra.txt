@@ -1,0 +1,18 @@
+# tag: tech.android.extra
+what is bixby | samsung voice assistant => Bixby is Samsung's voice assistant on Galaxy phones, TVs and appliances. You can set the side button to open Bixby, Gemini or the power menu in Advanced features.
+what is samsung notes | notes app on galaxy => Samsung Notes is Samsung's note app with handwriting for the S Pen, PDF markup, voice recordings and syncing to a PC.
+what is live translate on samsung | translate phone calls galaxy => Live Translate is a Galaxy AI feature that translates phone calls in real time, showing and speaking the other person's words in your language.
+what is samsung kids | kid mode on galaxy tablet => Samsung Kids is a locked-down mode with approved apps, games and time limits, so a younger kid can use a Galaxy phone or tablet safely.
+what are modes and routines on samsung | automate galaxy settings => Modes and Routines changes settings automatically, like turning on Do Not Disturb at bedtime or a gaming mode when a game opens.
+what is auto blocker on samsung | block unknown apps galaxy => Auto Blocker blocks apps from unauthorized sources and suspicious commands over USB. It's in Security and privacy settings and is a good thing to leave on.
+what is device care on samsung | samsung optimize now => Device care, in Battery and device care settings, checks battery, storage and memory and has an Optimize now button that closes background apps and scans for problems.
+what is battery protection on samsung | stop charging at 80 percent => Battery protection stops charging around 80 to 85 percent to reduce wear, which helps the battery last more years.
+what is magic editor in google photos | move things in a photo ai => Magic Editor uses AI to move or resize people and objects, change the sky or fill in backgrounds in a photo.
+what is best take on pixel | fix closed eyes group photo => Best Take combines several group shots so you can swap in each person's best face, like one where they're smiling with eyes open.
+what is hold for me on pixel | phone waits on hold for me => Hold for Me lets a Pixel wait on hold during a call and alerts you when a real person picks up.
+what is material you on android | colors match my wallpaper => Material You picks colors from your wallpaper and uses them across menus, widgets and, if you turn on themed icons, your app icons.
+what is private space on android | hide apps android 15 => Private space, added in Android 15, is a separate locked area for apps you want hidden. Its apps disappear from recent apps and notifications when locked.
+what is theft detection lock on android | phone locks if snatched => Theft Detection Lock uses motion sensors and AI to lock the screen if someone grabs the phone and runs or rides off with it.
+should i root my android phone | rooting android => Rooting gives full control of the system, but it can break banking and game apps, void the warranty and weaken security. Most people are better off not rooting.
+what is f-droid | open source android app store => F-Droid is an app store with only free and open-source Android apps, installed from its website. Install only from its official site.
+how do i pair galaxy buds | connect galaxy buds => Open the case near a Galaxy phone and tap Connect in the pop-up. On other Android phones, use the Galaxy Wearable app.

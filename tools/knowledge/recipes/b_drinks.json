@@ -1,0 +1,1708 @@
+{
+ "recipes": [
+  {
+   "id": "strawberry-banana-smoothie",
+   "name": "Strawberry banana smoothie",
+   "aliases": [
+    "strawberry banana smoothie",
+    "strawberry smoothie",
+    "banana strawberry smoothie",
+    "pink smoothie"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "strawberries",
+    "banana",
+    "yogurt",
+    "milk"
+   ],
+   "ingredients": [
+    "1 1/2 cups (220 g) frozen strawberries",
+    "1 ripe banana",
+    "1/2 cup (120 g) vanilla yogurt",
+    "3/4 cup (180 ml) milk",
+    "1 teaspoon honey (optional)"
+   ],
+   "steps": [
+    "Put the milk and yogurt in the blender first.",
+    "Add the banana and strawberries.",
+    "Blend for 45 to 60 seconds, until smooth.",
+    "Add a splash more milk if it is too thick. Pour into 2 glasses."
+   ]
+  },
+  {
+   "id": "green-smoothie",
+   "name": "Green smoothie",
+   "aliases": [
+    "green smoothie",
+    "spinach smoothie",
+    "hulk smoothie",
+    "green monster smoothie"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "spinach",
+    "banana",
+    "pineapple",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (30 g) baby spinach",
+    "1 frozen banana, in chunks",
+    "1 cup (165 g) frozen pineapple or mango",
+    "1 cup (240 ml) milk or apple juice",
+    "1 tablespoon peanut butter or chia seeds (optional)"
+   ],
+   "steps": [
+    "Blend the spinach and milk first for 20 seconds, until no leaf bits are left.",
+    "Add the banana, pineapple and peanut butter.",
+    "Blend for 30 to 45 seconds, until smooth.",
+    "Pour and drink. The fruit hides the spinach taste."
+   ]
+  },
+  {
+   "id": "mango-smoothie",
+   "name": "Mango smoothie",
+   "aliases": [
+    "mango smoothie",
+    "tropical mango smoothie",
+    "mango banana smoothie",
+    "mango yogurt smoothie"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "mango",
+    "banana",
+    "yogurt",
+    "orange juice"
+   ],
+   "ingredients": [
+    "1 1/2 cups (250 g) frozen mango chunks",
+    "1/2 banana",
+    "1/2 cup (120 g) plain or vanilla yogurt",
+    "3/4 cup (180 ml) orange juice or milk"
+   ],
+   "steps": [
+    "Put the juice and yogurt in the blender.",
+    "Add the mango and banana.",
+    "Blend for 45 to 60 seconds, until thick and smooth.",
+    "Pour into 2 glasses."
+   ]
+  },
+  {
+   "id": "peanut-butter-banana-smoothie",
+   "name": "Peanut butter banana smoothie",
+   "aliases": [
+    "peanut butter banana smoothie",
+    "pb banana smoothie",
+    "peanut butter smoothie",
+    "elvis smoothie"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "peanut butter",
+    "banana",
+    "milk",
+    "oats"
+   ],
+   "ingredients": [
+    "2 frozen bananas, in chunks",
+    "2 tablespoons peanut butter",
+    "1 1/2 cups (360 ml) milk",
+    "2 tablespoons rolled oats (optional)",
+    "1 teaspoon honey",
+    "Pinch of cinnamon"
+   ],
+   "steps": [
+    "Put the milk in the blender.",
+    "Add the bananas, peanut butter, oats, honey and cinnamon.",
+    "Blend for 45 to 60 seconds, until smooth and creamy.",
+    "Pour into 2 glasses."
+   ]
+  },
+  {
+   "id": "blueberry-oat-smoothie",
+   "name": "Blueberry oat smoothie",
+   "aliases": [
+    "blueberry smoothie",
+    "blueberry oat smoothie",
+    "blueberry breakfast smoothie",
+    "purple smoothie"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "blueberries",
+    "oats",
+    "banana",
+    "yogurt",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (150 g) frozen blueberries",
+    "1/4 cup (25 g) rolled oats",
+    "1 banana",
+    "1/2 cup (120 g) Greek yogurt",
+    "1 cup (240 ml) milk",
+    "1 teaspoon honey"
+   ],
+   "steps": [
+    "Put the oats and milk in the blender and let sit for 2 minutes so the oats soften.",
+    "Add the blueberries, banana, yogurt and honey.",
+    "Blend for 60 seconds, until smooth.",
+    "Pour into 2 glasses."
+   ]
+  },
+  {
+   "id": "vanilla-milkshake",
+   "name": "Vanilla milkshake",
+   "aliases": [
+    "milkshake",
+    "vanilla milkshake",
+    "vanilla shake",
+    "milk shake",
+    "classic milkshake"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "vanilla ice cream",
+    "milk",
+    "vanilla"
+   ],
+   "ingredients": [
+    "3 cups (about 420 g) vanilla ice cream",
+    "3/4 cup (180 ml) cold milk",
+    "1/2 teaspoon vanilla extract",
+    "Whipped cream and a cherry for the top (optional)"
+   ],
+   "steps": [
+    "Let the ice cream soften on the counter for 5 minutes.",
+    "Put the milk, ice cream and vanilla in the blender.",
+    "Blend for 20 to 30 seconds, just until smooth. Too long makes it runny.",
+    "Pour into 2 glasses and top with whipped cream and a cherry."
+   ]
+  },
+  {
+   "id": "chocolate-milkshake",
+   "name": "Chocolate milkshake",
+   "aliases": [
+    "chocolate milkshake",
+    "chocolate shake",
+    "chocolate malt",
+    "chocolate malted milkshake"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "chocolate ice cream",
+    "milk",
+    "chocolate syrup"
+   ],
+   "ingredients": [
+    "3 cups (about 420 g) chocolate or vanilla ice cream",
+    "3/4 cup (180 ml) cold milk",
+    "3 tablespoons chocolate syrup",
+    "2 tablespoons malted milk powder (optional, for a malt)"
+   ],
+   "steps": [
+    "Let the ice cream soften on the counter for 5 minutes.",
+    "Put the milk, chocolate syrup, malt powder and ice cream in the blender.",
+    "Blend for 20 to 30 seconds, until smooth.",
+    "Pour into 2 glasses."
+   ]
+  },
+  {
+   "id": "strawberry-milkshake",
+   "name": "Strawberry milkshake",
+   "aliases": [
+    "strawberry milkshake",
+    "strawberry shake",
+    "pink milkshake",
+    "fresh strawberry shake"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "strawberries",
+    "vanilla ice cream",
+    "milk"
+   ],
+   "ingredients": [
+    "1 cup (150 g) strawberries, hulled",
+    "2 1/2 cups (about 350 g) vanilla ice cream",
+    "1/2 cup (120 ml) cold milk",
+    "1 tablespoon sugar (optional)"
+   ],
+   "steps": [
+    "Blend the strawberries and milk for 15 seconds.",
+    "Add the ice cream and sugar.",
+    "Blend for 20 to 30 seconds, until smooth.",
+    "Pour into 2 glasses."
+   ]
+  },
+  {
+   "id": "cookies-and-cream-milkshake",
+   "name": "Cookies and cream milkshake",
+   "aliases": [
+    "cookies and cream milkshake",
+    "oreo milkshake",
+    "oreo shake",
+    "cookie milkshake"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "vanilla ice cream",
+    "chocolate sandwich cookies",
+    "milk"
+   ],
+   "ingredients": [
+    "3 cups (about 420 g) vanilla ice cream",
+    "3/4 cup (180 ml) cold milk",
+    "6 chocolate sandwich cookies, plus 1 crushed for the top"
+   ],
+   "steps": [
+    "Let the ice cream soften on the counter for 5 minutes.",
+    "Blend the milk and ice cream for 15 seconds.",
+    "Add the 6 cookies and pulse 4 or 5 times, so there are still cookie bits.",
+    "Pour into 2 glasses and sprinkle the crushed cookie on top."
+   ]
+  },
+  {
+   "id": "peanut-butter-milkshake",
+   "name": "Peanut butter chocolate milkshake",
+   "aliases": [
+    "peanut butter milkshake",
+    "peanut butter shake",
+    "chocolate peanut butter shake",
+    "pb milkshake"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "vanilla ice cream",
+    "peanut butter",
+    "milk",
+    "chocolate syrup"
+   ],
+   "ingredients": [
+    "3 cups (about 420 g) vanilla ice cream",
+    "1/4 cup (65 g) creamy peanut butter",
+    "3/4 cup (180 ml) cold milk",
+    "2 tablespoons chocolate syrup"
+   ],
+   "steps": [
+    "Let the ice cream soften on the counter for 5 minutes.",
+    "Put everything in the blender.",
+    "Blend for 20 to 30 seconds, until smooth.",
+    "Pour into 2 glasses. Drizzle more chocolate syrup on top if you like."
+   ]
+  },
+  {
+   "id": "pink-lemonade",
+   "name": "Strawberry pink lemonade",
+   "aliases": [
+    "pink lemonade",
+    "strawberry lemonade",
+    "raspberry lemonade",
+    "fruit lemonade"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "lemons",
+    "strawberries",
+    "sugar",
+    "water"
+   ],
+   "ingredients": [
+    "1 cup (240 ml) fresh lemon juice, about 6 lemons",
+    "1 cup (150 g) strawberries or raspberries",
+    "3/4 cup (150 g) sugar",
+    "5 cups (1.2 L) cold water",
+    "Ice"
+   ],
+   "steps": [
+    "Squeeze the lemons. Ask an adult to help cut them.",
+    "Blend the berries, sugar and 1 cup of the water for 30 seconds, until smooth.",
+    "Pour through a strainer into a pitcher to catch the seeds.",
+    "Stir in the lemon juice and the rest of the water until the sugar dissolves.",
+    "Serve over ice."
+   ]
+  },
+  {
+   "id": "limeade",
+   "name": "Fresh limeade",
+   "aliases": [
+    "limeade",
+    "fresh limeade",
+    "lime drink",
+    "cherry limeade"
+   ],
+   "category": "Drink",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "limes",
+    "sugar",
+    "water"
+   ],
+   "ingredients": [
+    "3/4 cup (180 ml) fresh lime juice, about 7 limes",
+    "3/4 cup (150 g) sugar",
+    "4 cups (950 ml) cold water",
+    "Ice and lime slices",
+    "1/4 cup (60 ml) maraschino cherry juice (optional, for cherry limeade)"
+   ],
+   "steps": [
+    "Squeeze the limes. Ask an adult to help cut them.",
+    "Stir the sugar into 1 cup of the water until it dissolves.",
+    "Pour into a pitcher with the lime juice and the rest of the water.",
+    "Add cherry juice if you like.",
+    "Serve over ice with lime slices."
+   ]
+  },
+  {
+   "id": "mexican-hot-chocolate",
+   "name": "Mexican hot chocolate",
+   "aliases": [
+    "mexican hot chocolate",
+    "chocolate caliente",
+    "spiced hot chocolate",
+    "cinnamon hot chocolate"
+   ],
+   "category": "Drink",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "milk",
+    "chocolate",
+    "cinnamon",
+    "vanilla"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) milk",
+    "4 oz (115 g) Mexican chocolate or semisweet chocolate, chopped",
+    "2 tablespoons sugar (skip if using Mexican chocolate)",
+    "1/2 teaspoon ground cinnamon",
+    "1/2 teaspoon vanilla extract",
+    "Tiny pinch of cayenne (optional)"
+   ],
+   "steps": [
+    "Heat the milk in a pot over medium heat until steaming, about 5 minutes. Ask an adult to help.",
+    "Whisk in the chocolate, sugar and cinnamon.",
+    "Keep whisking for 2 to 3 minutes, until melted and frothy.",
+    "Stir in the vanilla and cayenne.",
+    "Pour into mugs carefully, it is hot."
+   ]
+  },
+  {
+   "id": "white-hot-chocolate",
+   "name": "White hot chocolate",
+   "aliases": [
+    "white hot chocolate",
+    "white chocolate drink",
+    "hot white chocolate",
+    "vanilla hot chocolate"
+   ],
+   "category": "Drink",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "milk",
+    "white chocolate",
+    "vanilla"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) milk",
+    "4 oz (115 g) white chocolate, chopped",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt",
+    "Whipped cream or mini marshmallows"
+   ],
+   "steps": [
+    "Heat the milk in a pot over medium low heat until steaming. Ask an adult to help.",
+    "Take it off the heat and whisk in the white chocolate until melted.",
+    "Stir in the vanilla and salt.",
+    "Pour into mugs and top with whipped cream or marshmallows."
+   ]
+  },
+  {
+   "id": "frozen-hot-chocolate",
+   "name": "Frozen hot chocolate",
+   "aliases": [
+    "frozen hot chocolate",
+    "frozen chocolate",
+    "iced hot chocolate",
+    "chocolate slushie"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "chocolate",
+    "cocoa",
+    "milk",
+    "ice"
+   ],
+   "ingredients": [
+    "3 oz (85 g) semisweet chocolate, chopped",
+    "2 tablespoons unsweetened cocoa powder",
+    "2 tablespoons sugar",
+    "1 1/2 cups (360 ml) milk",
+    "3 cups ice",
+    "Whipped cream"
+   ],
+   "steps": [
+    "Melt the chocolate in a microwave safe bowl in 20 second bursts, stirring each time.",
+    "Stir in the cocoa, sugar and 1/2 cup of the milk until smooth.",
+    "Pour into the blender with the rest of the milk and the ice.",
+    "Blend for 30 to 45 seconds, until slushy.",
+    "Pour into 2 tall glasses and top with whipped cream."
+   ]
+  },
+  {
+   "id": "sweet-iced-tea",
+   "name": "Southern sweet tea",
+   "aliases": [
+    "sweet tea",
+    "iced tea",
+    "southern sweet tea",
+    "sweet iced tea",
+    "homemade iced tea"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "black tea",
+    "sugar",
+    "water",
+    "lemon"
+   ],
+   "ingredients": [
+    "6 black tea bags",
+    "8 cups (1.9 L) water",
+    "3/4 cup (150 g) sugar",
+    "1/8 teaspoon baking soda (keeps it from tasting bitter)",
+    "Lemon slices and ice"
+   ],
+   "steps": [
+    "Have an adult boil 4 cups of the water and pour it over the tea bags and baking soda in a heatproof pitcher.",
+    "Steep for 10 minutes, then lift out the tea bags.",
+    "Stir in the sugar until it dissolves.",
+    "Add the other 4 cups of cold water.",
+    "Chill for 1 hour. Serve over ice with lemon. Tea has caffeine, so it is best earlier in the day."
+   ]
+  },
+  {
+   "id": "arnold-palmer",
+   "name": "Half and half tea lemonade",
+   "aliases": [
+    "arnold palmer",
+    "half and half drink",
+    "iced tea lemonade",
+    "tea lemonade"
+   ],
+   "category": "Drink",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "iced tea",
+    "lemon",
+    "sugar",
+    "water"
+   ],
+   "ingredients": [
+    "3 cups (720 ml) cold brewed black tea",
+    "1/2 cup (120 ml) fresh lemon juice",
+    "1/2 cup (100 g) sugar",
+    "2 1/2 cups (600 ml) cold water",
+    "Ice and lemon slices"
+   ],
+   "steps": [
+    "Stir the sugar into the water until it dissolves.",
+    "Stir in the lemon juice to make lemonade.",
+    "Fill glasses with ice.",
+    "Pour in half tea and half lemonade. It has some caffeine from the tea."
+   ]
+  },
+  {
+   "id": "horchata",
+   "name": "Horchata",
+   "aliases": [
+    "horchata",
+    "rice drink",
+    "mexican horchata",
+    "horchata de arroz",
+    "cinnamon rice milk"
+   ],
+   "category": "Drink",
+   "servings": 6,
+   "time": "8 hr 20 min",
+   "main": [
+    "rice",
+    "cinnamon",
+    "milk",
+    "sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 cup (200 g) long grain white rice",
+    "1 cinnamon stick, broken",
+    "4 cups (950 ml) water",
+    "1 cup (240 ml) milk",
+    "1/2 cup (100 g) sugar",
+    "1 teaspoon vanilla extract",
+    "Ground cinnamon for the top"
+   ],
+   "steps": [
+    "Put the rice, cinnamon stick and 2 cups of the water in a blender and blend for 1 minute.",
+    "Pour into a bowl, add the other 2 cups of water and soak overnight in the fridge.",
+    "Blend again for 1 to 2 minutes, until the rice is very fine.",
+    "Strain through a cloth or fine strainer into a pitcher, squeezing out the liquid.",
+    "Stir in the milk, sugar and vanilla.",
+    "Serve over ice with a sprinkle of cinnamon."
+   ]
+  },
+  {
+   "id": "watermelon-agua-fresca",
+   "name": "Watermelon agua fresca",
+   "aliases": [
+    "agua fresca",
+    "watermelon agua fresca",
+    "watermelon juice",
+    "agua de sandia",
+    "watermelon drink"
+   ],
+   "category": "Drink",
+   "servings": 6,
+   "time": "10 min",
+   "main": [
+    "watermelon",
+    "lime",
+    "sugar",
+    "water"
+   ],
+   "ingredients": [
+    "6 cups (900 g) seedless watermelon chunks",
+    "1 cup (240 ml) cold water",
+    "2 tablespoons lime juice",
+    "1 to 2 tablespoons sugar (optional)",
+    "Ice and mint"
+   ],
+   "steps": [
+    "Have an adult help cut the watermelon into chunks.",
+    "Blend the watermelon and water for 30 seconds, until smooth.",
+    "Strain into a pitcher if you want it smooth.",
+    "Stir in the lime juice and sugar.",
+    "Serve over ice with mint."
+   ]
+  },
+  {
+   "id": "jamaica-hibiscus-tea",
+   "name": "Agua de jamaica",
+   "aliases": [
+    "agua de jamaica",
+    "hibiscus tea",
+    "iced hibiscus tea",
+    "jamaica drink",
+    "sorrel drink"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "1 hr 30 min",
+   "main": [
+    "dried hibiscus flowers",
+    "sugar",
+    "water",
+    "lime"
+   ],
+   "ingredients": [
+    "1 cup (40 g) dried hibiscus flowers",
+    "8 cups (1.9 L) water",
+    "3/4 cup (150 g) sugar",
+    "1 cinnamon stick (optional)",
+    "2 tablespoons lime juice"
+   ],
+   "steps": [
+    "Have an adult bring 4 cups of the water to a boil in a pot.",
+    "Turn off the heat, add the hibiscus and cinnamon, and steep for 15 minutes.",
+    "Strain into a pitcher and stir in the sugar until it dissolves.",
+    "Add the other 4 cups of cold water and the lime juice.",
+    "Chill for 1 hour and serve over ice. It is caffeine free."
+   ]
+  },
+  {
+   "id": "mango-lassi",
+   "name": "Mango lassi",
+   "aliases": [
+    "mango lassi",
+    "lassi",
+    "indian mango drink",
+    "mango yogurt drink"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "mango",
+    "yogurt",
+    "milk",
+    "cardamom"
+   ],
+   "ingredients": [
+    "1 cup (250 g) mango pulp or chopped ripe mango",
+    "1 cup (240 g) plain yogurt",
+    "1/2 cup (120 ml) cold milk",
+    "1 to 2 tablespoons sugar",
+    "Pinch of ground cardamom",
+    "A few ice cubes"
+   ],
+   "steps": [
+    "Put everything in the blender.",
+    "Blend for 30 to 45 seconds, until smooth and frothy.",
+    "Taste and add more sugar if the mango is not very sweet.",
+    "Pour into 2 glasses and sprinkle with a little cardamom."
+   ]
+  },
+  {
+   "id": "masala-chai",
+   "name": "Masala chai",
+   "aliases": [
+    "chai",
+    "masala chai",
+    "chai tea",
+    "spiced tea",
+    "indian tea"
+   ],
+   "category": "Drink",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "black tea",
+    "milk",
+    "ginger",
+    "cardamom",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) water",
+    "1 inch piece ginger, sliced",
+    "4 cardamom pods, cracked",
+    "1 cinnamon stick",
+    "4 whole cloves",
+    "4 black tea bags or 4 teaspoons loose tea",
+    "2 cups (480 ml) milk",
+    "3 tablespoons sugar"
+   ],
+   "steps": [
+    "Put the water and spices in a pot and have an adult bring it to a boil.",
+    "Simmer for 5 minutes so the spices flavor the water.",
+    "Add the tea and simmer for 2 minutes.",
+    "Add the milk and sugar and heat until it almost boils, about 3 minutes. Watch it, milk boils over fast.",
+    "Strain into cups. Chai has caffeine, so try a small cup."
+   ]
+  },
+  {
+   "id": "golden-milk",
+   "name": "Golden milk",
+   "aliases": [
+    "golden milk",
+    "turmeric milk",
+    "haldi doodh",
+    "turmeric latte"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "milk",
+    "turmeric",
+    "cinnamon",
+    "ginger",
+    "honey"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) milk",
+    "1/2 teaspoon ground turmeric",
+    "1/4 teaspoon ground cinnamon",
+    "1/4 teaspoon ground ginger",
+    "Pinch of black pepper",
+    "1 tablespoon honey"
+   ],
+   "steps": [
+    "Whisk the milk and spices in a small pot.",
+    "Heat over medium low heat for 4 to 5 minutes, whisking, until steaming. Ask an adult to help.",
+    "Take off the heat and stir in the honey.",
+    "Pour into mugs. Turmeric stains, so wipe spills quickly."
+   ]
+  },
+  {
+   "id": "hot-apple-cider",
+   "name": "Hot spiced apple cider",
+   "aliases": [
+    "hot apple cider",
+    "spiced apple cider",
+    "warm apple cider",
+    "mulled cider",
+    "mulled apple juice"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "30 min",
+   "main": [
+    "apple cider",
+    "cinnamon",
+    "orange",
+    "cloves"
+   ],
+   "ingredients": [
+    "8 cups (1.9 L) apple cider or apple juice",
+    "1 orange, sliced",
+    "3 cinnamon sticks",
+    "6 whole cloves",
+    "3 allspice berries or a pinch of ground allspice",
+    "2 tablespoons brown sugar (optional)"
+   ],
+   "steps": [
+    "Put everything in a large pot.",
+    "Heat over medium heat until it starts to steam. Ask an adult to help.",
+    "Turn to low and simmer gently for 20 minutes. Do not let it boil.",
+    "Ladle into mugs through a strainer, leaving the spices behind."
+   ]
+  },
+  {
+   "id": "cooked-eggnog",
+   "name": "Cooked eggnog",
+   "aliases": [
+    "eggnog",
+    "egg nog",
+    "homemade eggnog",
+    "cooked eggnog",
+    "holiday eggnog"
+   ],
+   "category": "Drink",
+   "servings": 6,
+   "time": "4 hr 20 min",
+   "main": [
+    "milk",
+    "egg yolk",
+    "sugar",
+    "cream",
+    "nutmeg"
+   ],
+   "ingredients": [
+    "6 large egg yolks",
+    "1/2 cup (100 g) sugar",
+    "2 cups (480 ml) milk",
+    "1 cup (240 ml) heavy cream",
+    "1/2 teaspoon ground nutmeg, plus more for the top",
+    "1 teaspoon vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Whisk the yolks and sugar in a bowl until pale.",
+    "Heat the milk, cream and nutmeg in a pot until steaming. Ask an adult to help.",
+    "Slowly whisk the hot milk into the yolks, then pour it all back into the pot.",
+    "Cook on low, stirring all the time, for 5 to 7 minutes, until it reaches 160°F (71°C) and coats a spoon. This cooks the eggs so they are safe.",
+    "Strain into a pitcher and stir in the vanilla and salt.",
+    "Chill for 4 hours. Serve with a sprinkle of nutmeg."
+   ]
+  },
+  {
+   "id": "shirley-temple",
+   "name": "Shirley Temple",
+   "aliases": [
+    "shirley temple",
+    "kiddie cocktail",
+    "cherry ginger ale",
+    "grenadine soda"
+   ],
+   "category": "Drink",
+   "servings": 1,
+   "time": "5 min",
+   "main": [
+    "lemon lime soda",
+    "ginger ale",
+    "grenadine",
+    "cherry"
+   ],
+   "ingredients": [
+    "Ice",
+    "1/2 cup (120 ml) lemon lime soda",
+    "1/2 cup (120 ml) ginger ale",
+    "1 tablespoon grenadine",
+    "2 maraschino cherries",
+    "Orange slice (optional)"
+   ],
+   "steps": [
+    "Fill a tall glass with ice.",
+    "Pour in the lemon lime soda and ginger ale.",
+    "Slowly pour in the grenadine. It sinks and makes a red bottom.",
+    "Top with cherries and an orange slice."
+   ]
+  },
+  {
+   "id": "italian-soda",
+   "name": "Italian cream soda",
+   "aliases": [
+    "italian soda",
+    "italian cream soda",
+    "cream soda",
+    "flavored soda"
+   ],
+   "category": "Drink",
+   "servings": 1,
+   "time": "5 min",
+   "main": [
+    "sparkling water",
+    "flavored syrup",
+    "cream"
+   ],
+   "ingredients": [
+    "Ice",
+    "2 tablespoons flavored syrup, like strawberry, raspberry or vanilla",
+    "1 cup (240 ml) sparkling water or club soda",
+    "2 tablespoons half and half or heavy cream",
+    "Whipped cream (optional)"
+   ],
+   "steps": [
+    "Fill a tall glass with ice.",
+    "Pour in the syrup.",
+    "Add the sparkling water and stir gently.",
+    "Pour the cream over the top and watch it swirl. Add whipped cream if you like."
+   ]
+  },
+  {
+   "id": "party-fruit-punch",
+   "name": "Party fruit punch",
+   "aliases": [
+    "fruit punch",
+    "party punch",
+    "punch",
+    "red punch",
+    "kids party punch"
+   ],
+   "category": "Drink",
+   "servings": 20,
+   "time": "10 min",
+   "main": [
+    "fruit juice",
+    "pineapple juice",
+    "ginger ale",
+    "orange"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) cranberry or fruit punch juice",
+    "4 cups (950 ml) pineapple juice",
+    "2 cups (480 ml) orange juice",
+    "1/4 cup (60 ml) lime juice",
+    "6 cups (1.4 L) chilled ginger ale or lemon lime soda",
+    "Orange slices and berries"
+   ],
+   "steps": [
+    "Stir the juices together in a big punch bowl.",
+    "Right before serving, pour in the ginger ale so it stays fizzy.",
+    "Float the orange slices and berries on top.",
+    "Add ice or a frozen ring of juice to keep it cold."
+   ]
+  },
+  {
+   "id": "sherbet-punch",
+   "name": "Sherbet punch",
+   "aliases": [
+    "sherbet punch",
+    "rainbow sherbet punch",
+    "foamy punch",
+    "ice cream punch"
+   ],
+   "category": "Drink",
+   "servings": 20,
+   "time": "10 min",
+   "main": [
+    "sherbet",
+    "pineapple juice",
+    "lemon lime soda"
+   ],
+   "ingredients": [
+    "1/2 gallon (1.9 L) rainbow or lime sherbet",
+    "4 cups (950 ml) pineapple juice",
+    "8 cups (1.9 L) chilled lemon lime soda or ginger ale"
+   ],
+   "steps": [
+    "Pour the pineapple juice into a big punch bowl.",
+    "Add scoops of sherbet.",
+    "Slowly pour in the soda. It will foam up.",
+    "Serve right away in cups with a little sherbet in each."
+   ]
+  },
+  {
+   "id": "strawberry-slushie",
+   "name": "Strawberry slushie",
+   "aliases": [
+    "slushie",
+    "strawberry slushie",
+    "fruit slushie",
+    "slushy",
+    "strawberry slush"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "strawberries",
+    "ice",
+    "lemonade",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 1/2 cups (220 g) frozen strawberries",
+    "1 cup ice",
+    "1 cup (240 ml) cold lemonade or apple juice",
+    "1 tablespoon sugar (optional)"
+   ],
+   "steps": [
+    "Put the juice in the blender first.",
+    "Add the strawberries, ice and sugar.",
+    "Blend for 30 to 45 seconds, stopping to stir, until slushy.",
+    "Pour into 2 cups and eat with a spoon straw."
+   ]
+  },
+  {
+   "id": "orange-cream-drink",
+   "name": "Orange cream whip",
+   "aliases": [
+    "orange julius",
+    "orange whip",
+    "orange cream drink",
+    "orange creamsicle drink",
+    "orange dream"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "orange juice concentrate",
+    "milk",
+    "vanilla",
+    "ice"
+   ],
+   "ingredients": [
+    "1/2 can (6 oz / 175 ml) frozen orange juice concentrate",
+    "1 cup (240 ml) milk",
+    "1/2 cup (120 ml) water",
+    "2 tablespoons sugar",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups ice"
+   ],
+   "steps": [
+    "Put everything in the blender.",
+    "Blend for 30 to 45 seconds, until frothy and smooth.",
+    "Pour into 2 glasses right away. It tastes like a creamsicle."
+   ]
+  },
+  {
+   "id": "bubble-tea",
+   "name": "Milk tea with tapioca pearls",
+   "aliases": [
+    "bubble tea",
+    "boba",
+    "boba tea",
+    "milk tea",
+    "pearl milk tea",
+    "tapioca tea"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "30 min",
+   "main": [
+    "tapioca pearls",
+    "black tea",
+    "milk",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "1/2 cup (75 g) quick cook tapioca pearls",
+    "2 black tea bags",
+    "1 cup (240 ml) boiling water",
+    "3 tablespoons brown sugar",
+    "2 tablespoons hot water for the syrup",
+    "1 cup (240 ml) milk",
+    "Ice"
+   ],
+   "steps": [
+    "Have an adult boil a pot of water and cook the pearls as the package says, usually 5 to 7 minutes.",
+    "Steep the tea bags in 1 cup boiling water for 5 minutes, then remove and let the tea cool.",
+    "Stir the brown sugar into 2 tablespoons hot water to make syrup.",
+    "Drain the pearls and stir them into the syrup.",
+    "Spoon pearls into 2 glasses, add ice, tea and milk.",
+    "Use wide straws. Pearls can be a choking risk for little kids, so sip slowly. Tea has caffeine."
+   ]
+  },
+  {
+   "id": "chocolate-milk",
+   "name": "Chocolate milk",
+   "aliases": [
+    "chocolate milk",
+    "choc milk",
+    "homemade chocolate milk",
+    "cold chocolate milk"
+   ],
+   "category": "Drink",
+   "servings": 1,
+   "time": "5 min",
+   "main": [
+    "milk",
+    "cocoa",
+    "sugar",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 tablespoon unsweetened cocoa powder",
+    "1 tablespoon sugar",
+    "2 tablespoons hot water",
+    "1 cup (240 ml) cold milk",
+    "Drop of vanilla extract"
+   ],
+   "steps": [
+    "Stir the cocoa, sugar and hot water in a glass until smooth.",
+    "Pour in the cold milk and vanilla.",
+    "Stir well. Add ice if you like."
+   ]
+  },
+  {
+   "id": "strawberry-milk",
+   "name": "Fresh strawberry milk",
+   "aliases": [
+    "strawberry milk",
+    "korean strawberry milk",
+    "pink milk",
+    "fresh strawberry milk"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "strawberries",
+    "milk",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 cup (150 g) strawberries, finely chopped",
+    "2 tablespoons sugar",
+    "1 1/2 cups (360 ml) cold milk",
+    "Ice"
+   ],
+   "steps": [
+    "Stir the strawberries and sugar in a bowl.",
+    "Let sit for 10 minutes, until juicy.",
+    "Mash lightly with a fork.",
+    "Spoon into 2 glasses, add ice and pour in the milk.",
+    "Stir before drinking."
+   ]
+  },
+  {
+   "id": "banana-milk",
+   "name": "Korean style banana milk",
+   "aliases": [
+    "banana milk",
+    "korean banana milk",
+    "banana milk drink",
+    "sweet banana milk"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "banana",
+    "milk",
+    "honey",
+    "vanilla"
+   ],
+   "ingredients": [
+    "1 ripe banana",
+    "1 1/2 cups (360 ml) cold milk",
+    "1 tablespoon honey or sugar",
+    "1/4 teaspoon vanilla extract",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Put everything in the blender.",
+    "Blend for 30 seconds, until smooth.",
+    "Pour through a strainer for an extra smooth drink.",
+    "Serve cold."
+   ]
+  },
+  {
+   "id": "homemade-ginger-ale",
+   "name": "Homemade ginger ale",
+   "aliases": [
+    "ginger ale",
+    "homemade ginger ale",
+    "ginger soda",
+    "ginger syrup soda"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "50 min",
+   "main": [
+    "ginger",
+    "sugar",
+    "lemon",
+    "sparkling water"
+   ],
+   "ingredients": [
+    "1 cup (100 g) fresh ginger, thinly sliced",
+    "1 cup (200 g) sugar",
+    "1 cup (240 ml) water",
+    "1/4 cup (60 ml) lemon or lime juice",
+    "Sparkling water and ice"
+   ],
+   "steps": [
+    "Have an adult slice the ginger.",
+    "Simmer the ginger, sugar and water in a small pot for 10 minutes. Ask an adult to help.",
+    "Let it cool for 30 minutes, then strain and stir in the lemon juice.",
+    "For each glass, mix 3 tablespoons syrup with 1 cup sparkling water over ice.",
+    "Keep the syrup in the fridge for 2 weeks."
+   ]
+  },
+  {
+   "id": "cucumber-mint-water",
+   "name": "Cucumber mint water",
+   "aliases": [
+    "cucumber water",
+    "cucumber mint water",
+    "spa water",
+    "infused water",
+    "flavored water"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "1 hr 5 min",
+   "main": [
+    "cucumber",
+    "mint",
+    "lemon",
+    "water"
+   ],
+   "ingredients": [
+    "1/2 cucumber, thinly sliced",
+    "8 mint leaves",
+    "1/2 lemon, sliced",
+    "8 cups (1.9 L) cold water",
+    "Ice"
+   ],
+   "steps": [
+    "Have an adult slice the cucumber and lemon.",
+    "Put the cucumber, mint and lemon in a pitcher.",
+    "Fill with water and ice.",
+    "Chill for 1 hour so the flavor goes into the water. Refill the water once or twice."
+   ]
+  },
+  {
+   "id": "strawberry-basil-water",
+   "name": "Strawberry citrus water",
+   "aliases": [
+    "fruit water",
+    "strawberry water",
+    "berry infused water",
+    "citrus water"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "1 hr 5 min",
+   "main": [
+    "strawberries",
+    "orange",
+    "lime",
+    "water"
+   ],
+   "ingredients": [
+    "1 cup (150 g) strawberries, sliced",
+    "1 orange, sliced",
+    "1 lime, sliced",
+    "8 cups (1.9 L) cold water",
+    "A few basil or mint leaves (optional)"
+   ],
+   "steps": [
+    "Have an adult help slice the fruit.",
+    "Put the fruit and herbs in a big pitcher.",
+    "Pour in the cold water.",
+    "Chill for 1 hour, then serve over ice."
+   ]
+  },
+  {
+   "id": "root-beer-float",
+   "name": "Root beer float",
+   "aliases": [
+    "root beer float",
+    "ice cream float",
+    "black cow",
+    "coke float",
+    "soda float"
+   ],
+   "category": "Drink",
+   "servings": 1,
+   "time": "5 min",
+   "main": [
+    "root beer",
+    "vanilla ice cream"
+   ],
+   "ingredients": [
+    "2 scoops vanilla ice cream",
+    "1 cup (240 ml) cold root beer",
+    "Whipped cream (optional)",
+    "1 maraschino cherry (optional)"
+   ],
+   "steps": [
+    "Put the ice cream in a tall glass.",
+    "Pour the root beer down the side slowly. It foams a lot.",
+    "Top with whipped cream and a cherry.",
+    "Eat with a spoon and a straw."
+   ]
+  },
+  {
+   "id": "matcha-latte",
+   "name": "Iced matcha latte",
+   "aliases": [
+    "matcha latte",
+    "iced matcha latte",
+    "green tea latte",
+    "matcha milk"
+   ],
+   "category": "Drink",
+   "servings": 1,
+   "time": "5 min",
+   "main": [
+    "matcha",
+    "milk",
+    "honey",
+    "water"
+   ],
+   "ingredients": [
+    "1 teaspoon matcha powder",
+    "2 tablespoons warm water, not boiling",
+    "2 teaspoons honey or syrup",
+    "1 cup (240 ml) cold milk",
+    "Ice"
+   ],
+   "steps": [
+    "Sift the matcha into a small bowl.",
+    "Add the warm water and whisk fast in a zigzag for 30 seconds, until frothy with no lumps.",
+    "Stir in the honey.",
+    "Fill a glass with ice and milk, then pour the matcha on top.",
+    "Matcha has caffeine, so it is a morning or early afternoon drink."
+   ]
+  },
+  {
+   "id": "thai-iced-tea",
+   "name": "Thai iced tea",
+   "aliases": [
+    "thai iced tea",
+    "thai tea",
+    "cha yen",
+    "orange thai tea"
+   ],
+   "category": "Drink",
+   "servings": 4,
+   "time": "1 hr 20 min",
+   "main": [
+    "black tea",
+    "sweetened condensed milk",
+    "evaporated milk",
+    "star anise"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) water",
+    "6 black tea bags or 1/4 cup Thai tea mix",
+    "1 star anise and 1 cinnamon stick",
+    "1/2 cup (100 g) sugar",
+    "1/4 cup (75 g) sweetened condensed milk",
+    "1/2 cup (120 ml) evaporated milk or half and half",
+    "Ice"
+   ],
+   "steps": [
+    "Have an adult boil the water with the star anise and cinnamon.",
+    "Turn off the heat, add the tea and steep for 5 minutes, then strain.",
+    "Stir in the sugar and condensed milk until dissolved.",
+    "Chill for 1 hour.",
+    "Pour over glasses full of ice and top each with evaporated milk. Thai tea has caffeine."
+   ]
+  },
+  {
+   "id": "moroccan-mint-tea",
+   "name": "Moroccan mint tea",
+   "aliases": [
+    "moroccan mint tea",
+    "mint tea",
+    "atay",
+    "maghrebi mint tea"
+   ],
+   "category": "Drink",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "green tea",
+    "fresh mint",
+    "sugar",
+    "water"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) water",
+    "1 tablespoon loose green tea or 3 green tea bags",
+    "1 big handful fresh mint sprigs",
+    "3 to 4 tablespoons sugar"
+   ],
+   "steps": [
+    "Have an adult boil the water.",
+    "Put the tea in a teapot and pour in 1 cup of the boiling water, swirl and pour it out. This rinses the tea.",
+    "Add the mint and sugar, then the rest of the boiling water.",
+    "Steep for 4 to 5 minutes.",
+    "Pour into small glasses. Green tea has some caffeine."
+   ]
+  },
+  {
+   "id": "hot-mulled-juice",
+   "name": "Warm mulled cranberry juice",
+   "aliases": [
+    "mulled juice",
+    "wassail",
+    "hot cranberry punch",
+    "christmas punch",
+    "warm cranberry juice"
+   ],
+   "category": "Drink",
+   "servings": 8,
+   "time": "25 min",
+   "main": [
+    "cranberry juice",
+    "apple juice",
+    "orange",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) cranberry juice",
+    "4 cups (950 ml) apple juice",
+    "1 orange, sliced",
+    "2 cinnamon sticks",
+    "4 whole cloves",
+    "2 tablespoons honey"
+   ],
+   "steps": [
+    "Put everything in a large pot.",
+    "Heat over medium until steaming. Ask an adult to help.",
+    "Simmer on low for 15 minutes.",
+    "Ladle into mugs, leaving the spices in the pot."
+   ]
+  },
+  {
+   "id": "ayran",
+   "name": "Ayran yogurt drink",
+   "aliases": [
+    "ayran",
+    "doogh",
+    "salty yogurt drink",
+    "turkish yogurt drink"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "yogurt",
+    "water",
+    "salt",
+    "mint"
+   ],
+   "ingredients": [
+    "1 cup (240 g) plain whole milk yogurt",
+    "1 cup (240 ml) cold water",
+    "1/4 teaspoon salt",
+    "Pinch of dried mint (optional)",
+    "Ice"
+   ],
+   "steps": [
+    "Whisk the yogurt until smooth.",
+    "Whisk in the water and salt until frothy, or blend for 15 seconds.",
+    "Pour over ice and sprinkle with mint.",
+    "It is great with kebabs and spicy food."
+   ]
+  },
+  {
+   "id": "licuado-de-platano",
+   "name": "Licuado de platano",
+   "aliases": [
+    "licuado",
+    "licuado de platano",
+    "banana licuado",
+    "mexican banana shake"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "banana",
+    "milk",
+    "cinnamon",
+    "vanilla"
+   ],
+   "ingredients": [
+    "2 ripe bananas",
+    "2 cups (480 ml) cold milk",
+    "1 tablespoon sugar or honey",
+    "1/4 teaspoon ground cinnamon",
+    "1/2 teaspoon vanilla extract",
+    "4 ice cubes"
+   ],
+   "steps": [
+    "Put everything in the blender.",
+    "Blend for 30 to 45 seconds, until frothy.",
+    "Pour into 2 glasses.",
+    "Sprinkle a little more cinnamon on top."
+   ]
+  },
+  {
+   "id": "tamarind-agua-fresca",
+   "name": "Agua de tamarindo",
+   "aliases": [
+    "agua de tamarindo",
+    "tamarind drink",
+    "tamarind agua fresca",
+    "tamarind juice"
+   ],
+   "category": "Drink",
+   "servings": 6,
+   "time": "30 min",
+   "main": [
+    "tamarind",
+    "sugar",
+    "water",
+    "lime"
+   ],
+   "ingredients": [
+    "3 tablespoons tamarind concentrate or 8 oz (225 g) tamarind pods",
+    "6 cups (1.4 L) water",
+    "1/2 cup (100 g) sugar",
+    "1 tablespoon lime juice",
+    "Ice"
+   ],
+   "steps": [
+    "If using pods, peel them, have an adult simmer them in 2 cups of the water for 10 minutes, then let cool for 15 minutes.",
+    "Mash the soft pulp, then strain out the seeds and strings.",
+    "Stir the tamarind with the rest of the water and the sugar until dissolved.",
+    "Add the lime juice, taste and add more sugar if too sour.",
+    "Serve over ice."
+   ]
+  },
+  {
+   "id": "pineapple-coconut-smoothie",
+   "name": "Pineapple coconut smoothie",
+   "aliases": [
+    "pina colada smoothie",
+    "pineapple coconut smoothie",
+    "virgin pina colada",
+    "tropical smoothie"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "5 min",
+   "main": [
+    "pineapple",
+    "coconut milk",
+    "banana",
+    "ice"
+   ],
+   "ingredients": [
+    "1 1/2 cups (250 g) frozen pineapple chunks",
+    "1/2 banana",
+    "3/4 cup (180 ml) coconut milk",
+    "1/2 cup (120 ml) pineapple juice",
+    "1/2 cup ice"
+   ],
+   "steps": [
+    "Put the coconut milk and juice in the blender.",
+    "Add the pineapple, banana and ice.",
+    "Blend for 45 to 60 seconds, until smooth and thick.",
+    "Pour into 2 glasses. This one is alcohol free."
+   ]
+  },
+  {
+   "id": "vietnamese-iced-coffee",
+   "name": "Vietnamese iced coffee",
+   "aliases": [
+    "vietnamese iced coffee",
+    "ca phe sua da",
+    "iced coffee",
+    "condensed milk coffee"
+   ],
+   "category": "Drink",
+   "servings": 1,
+   "time": "10 min",
+   "main": [
+    "coffee",
+    "sweetened condensed milk",
+    "ice"
+   ],
+   "ingredients": [
+    "2 tablespoons ground dark roast coffee",
+    "1/2 cup (120 ml) boiling water",
+    "2 tablespoons sweetened condensed milk",
+    "Ice"
+   ],
+   "steps": [
+    "This drink is strong coffee, so it is for grown ups. Ask an adult before making it for yourself.",
+    "Put the condensed milk in the bottom of a glass.",
+    "Have an adult brew the coffee with the boiling water using a phin filter or pour over, about 5 minutes.",
+    "Stir the coffee into the condensed milk.",
+    "Pour over a glass full of ice."
+   ]
+  },
+  {
+   "id": "hot-vanilla-steamer",
+   "name": "Vanilla milk steamer",
+   "aliases": [
+    "steamer",
+    "vanilla steamer",
+    "warm vanilla milk",
+    "babyccino",
+    "milk steamer"
+   ],
+   "category": "Drink",
+   "servings": 2,
+   "time": "10 min",
+   "main": [
+    "milk",
+    "vanilla",
+    "honey",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) milk",
+    "1 tablespoon honey or maple syrup",
+    "1/2 teaspoon vanilla extract",
+    "Pinch of cinnamon"
+   ],
+   "steps": [
+    "Heat the milk in a small pot over medium low heat for 4 to 5 minutes, until steaming. Ask an adult to help.",
+    "Take it off the heat and stir in the honey and vanilla.",
+    "Whisk hard for 30 seconds to make it foamy.",
+    "Pour into mugs and sprinkle with cinnamon. It is caffeine free and nice before bed."
+   ]
+  },
+  {
+   "id": "sparkling-cranberry-punch",
+   "name": "Sparkling cranberry punch",
+   "aliases": [
+    "sparkling punch",
+    "cranberry punch",
+    "holiday punch",
+    "sparkling cranberry drink"
+   ],
+   "category": "Drink",
+   "servings": 12,
+   "time": "5 min",
+   "main": [
+    "cranberry juice",
+    "orange juice",
+    "sparkling water",
+    "cranberries"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) cranberry juice",
+    "2 cups (480 ml) orange juice",
+    "4 cups (950 ml) sparkling water or ginger ale",
+    "1 cup (100 g) fresh cranberries",
+    "Orange and lime slices"
+   ],
+   "steps": [
+    "Stir the juices together in a punch bowl.",
+    "Right before serving, pour in the sparkling water.",
+    "Float the cranberries and fruit slices on top.",
+    "Serve over ice."
+   ]
+  },
+  {
+   "id": "coconut-lime-cooler",
+   "name": "Coconut lime cooler",
+   "aliases": [
+    "coconut cooler",
+    "coconut lime drink",
+    "coconut water drink",
+    "tropical cooler"
+   ],
+   "category": "Drink",
+   "servings": 4,
+   "time": "5 min",
+   "main": [
+    "coconut water",
+    "lime",
+    "pineapple juice",
+    "mint"
+   ],
+   "ingredients": [
+    "2 cups (480 ml) coconut water",
+    "1 cup (240 ml) pineapple juice",
+    "2 tablespoons lime juice",
+    "1 tablespoon honey",
+    "Mint leaves and ice"
+   ],
+   "steps": [
+    "Stir the coconut water, pineapple juice, lime juice and honey in a pitcher until the honey dissolves.",
+    "Fill glasses with ice and mint.",
+    "Pour the cooler over the ice.",
+    "Serve cold."
+   ]
+  },
+  {
+   "id": "warm-cinnamon-atole",
+   "name": "Champurrado",
+   "aliases": [
+    "champurrado",
+    "atole",
+    "chocolate atole",
+    "mexican chocolate corn drink"
+   ],
+   "category": "Drink",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "masa harina",
+    "milk",
+    "chocolate",
+    "cinnamon",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "1/4 cup (30 g) masa harina",
+    "1 cup (240 ml) water",
+    "3 cups (720 ml) milk",
+    "2 oz (55 g) Mexican chocolate or semisweet chocolate, chopped",
+    "1/4 cup (55 g) brown sugar or piloncillo",
+    "1 cinnamon stick"
+   ],
+   "steps": [
+    "Whisk the masa harina into the water until smooth.",
+    "Heat the milk, chocolate, sugar and cinnamon in a pot over medium heat, stirring, until the chocolate melts. Ask an adult to help.",
+    "Slowly whisk in the masa mixture.",
+    "Simmer on low for 8 to 10 minutes, whisking often, until thick like a drinkable pudding.",
+    "Take out the cinnamon stick and pour into mugs carefully."
+   ]
+  }
+ ]
+}

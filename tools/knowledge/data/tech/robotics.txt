@@ -1,0 +1,25 @@
+# tag: tech.robotics
+what are mecanum wheels | mecanum vs omni wheels => Mecanum wheels have angled rollers that let a robot slide sideways and diagonally without turning. Omni wheels have rollers at right angles and are used in other layouts.
+what is a line follower robot | line sensor => A line follower uses infrared sensors under it to see a dark line on a light floor and steer to stay on it. It's a classic first robotics project.
+what are degrees of freedom on a robot arm | robot arm dof => Each joint that can move separately adds one degree of freedom. A human arm has about seven, and many hobby arms have four to six.
+what is a robot gripper | end effector => The gripper or end effector is the tool at the end of a robot arm, like claws, a suction cup or a magnet.
+what is a linear actuator | linear actuator explained => A linear actuator pushes and pulls in a straight line instead of spinning, like a motorized piston. Robots use them for lifting and pushing.
+what is gear ratio on a robot | torque vs speed gears => A gear ratio trades speed for strength. Bigger gears on the wheel side make the robot slower but able to push harder or climb.
+what is a micro bit | bbc micro bit => The micro:bit is a small, cheap board for learning coding, with buttons, LEDs, sensors and Bluetooth. You can program it with blocks, Python or JavaScript.
+what is lego spike prime | lego education robots => LEGO SPIKE Prime is a LEGO robotics kit with motors, sensors and a hub you program with Scratch-style blocks or Python. Many schools and FIRST LEGO League teams use it.
+what is vex iq | vex iq vs vex v5 => VEX IQ is a plastic snap-together robotics system for younger students, and VEX V5 uses metal parts for older competition teams.
+what is sphero | sphero robot ball => Sphero makes small app-controlled robot balls and kits that teach coding with blocks or JavaScript.
+what is combat robotics | battlebots for kids => Combat robotics builds robots to battle in an arena. Small classes like 150 gram antweights are popular with beginners, and events require safety rules and adult supervision.
+how do robot vacuums map rooms | slam robot vacuum => Many robot vacuums use lidar or cameras with SLAM (simultaneous localization and mapping) to build a map and know where they are in it.
+what is slam in robotics | slam in robotics explained => SLAM means simultaneous localization and mapping: a robot builds a map of an unknown place while tracking where it is in that map.
+what is a humanoid robot | humanoid robots 2025 => A humanoid robot is shaped like a person with arms and legs. Several companies were testing them for warehouse and factory work as of 2025.
+how do robot dogs walk | quadruped robot => Four-legged robots use motors in each joint, sensors and fast balance control to adjust every leg many times a second, so they can walk on rough ground.
+what is a robot's control loop | robot's control loop explained => A control loop reads sensors, decides what to do and drives the motors, over and over many times per second.
+what is an autonomous robot | autonomous vs remote control => An autonomous robot decides its own actions using sensors and code. A remote-controlled robot is driven by a person.
+what is computer vision for robots | robot camera vision => Robots use cameras and computer vision to recognize objects, read markers or follow colors. A Raspberry Pi with a camera and OpenCV is a common hobby setup.
+what is an apriltag | robot markers => AprilTags are square black-and-white markers like simple QR codes. Robots use cameras to spot them and figure out exactly where they are.
+what is a stepper driver | a4988 driver => A stepper driver like the A4988 or TMC2209 turns step signals into the power pulses a stepper motor needs. 3D printers use them too.
+what is a robot's brain board | which board for a robot => Arduino boards are great for simple motor and sensor control. A Raspberry Pi suits robots that need cameras, Wi-Fi or heavier code, and many robots use both.
+how do i make a robot drive straight | robot veers to one side => Use wheel encoders or an IMU and adjust each motor's speed while driving, because two motors are never exactly the same.
+what is a robot simulator | test robot code without hardware => Simulators like Webots or Gazebo let you test robot code in a virtual world before trying it on real hardware.
+what is first tech challenge | ftc robotics => FIRST Tech Challenge is a robotics competition for grades 7 to 12 where teams build and program robots for a yearly game.

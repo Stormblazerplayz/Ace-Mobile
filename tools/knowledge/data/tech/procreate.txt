@@ -1,0 +1,27 @@
+# tag: tech.procreate
+how do i make a new canvas in procreate | procreate canvas size => In the Gallery, tap the plus at the top right and pick a preset, or tap the folder-plus icon to set a custom width, height and DPI.
+what dpi should i use in procreate | procreate resolution for printing => Use 300 DPI for things you'll print. For screens only, 72 to 150 DPI is fine. Bigger canvases allow fewer layers.
+why can't i add more layers in procreate | layer limit procreate => Procreate limits layers based on canvas size and your iPad's memory. Make the canvas smaller or merge layers you're done with.
+how do i merge layers in procreate | combine layers procreate => Pinch two or more layers together in the Layers panel, or tap a layer and choose Merge Down.
+how do i group layers in procreate | procreate layer folder => Swipe right on several layers to select them, then tap Group at the top of the Layers panel.
+what are blend modes in procreate | layer blend mode => Tap the N next to a layer to change its blend mode, like Multiply for shadows, Screen or Add for glows, and Overlay for color effects.
+how do i change layer opacity in procreate | make a layer see through procreate => Tap the N on the layer and drag the Opacity slider. You can also tap with two fingers on a layer to adjust it by sliding.
+how do i lock a layer in procreate | protect a layer procreate => Swipe left on the layer and tap Lock, so you can't draw on or change it by accident.
+how do i make a reference layer in procreate | color fill under lineart => Tap your line art layer, choose Reference, then paint on another layer. Color Drop fills will use the line art's edges.
+how do i use a reference image in procreate | reference window => Tap the wrench, Canvas, and turn on Reference. Switch the floating window to Image and import a picture to look at while you draw.
+how do i turn on symmetry in procreate | drawing guide symmetry => Tap the wrench, Canvas, turn on Drawing Guide, tap Edit Drawing Guide, choose Symmetry, and turn on Assisted Drawing.
+how do i use the perspective guide in procreate | vanishing points procreate => In Edit Drawing Guide, choose Perspective and tap to place one, two or three vanishing points. Turn on Assisted Drawing to snap lines to them.
+how do i import brushes into procreate | install procreate brushes => Open a .brush or .brushset file from Files, Safari or AirDrop, and Procreate imports it into the Brush Library.
+how do i make my own brush in procreate | brush studio => Tap the plus in the Brush Library to open Brush Studio, or duplicate a brush and edit its shape, grain and settings.
+how do i add text in procreate | type words in procreate => Tap the wrench, Add, Add Text. Tap Edit Style to change the font, size and spacing.
+how do i use liquify in procreate | push and warp procreate => Tap the magic wand, then Liquify. Choose Push, Twirl, Pinch or Expand and drag on the canvas to warp the drawing.
+how do i use selection in procreate | select part of drawing => Tap the S-shaped ribbon icon and choose Automatic, Freehand, Rectangle or Ellipse, then move or transform the selection with the arrow tool.
+how do i flip my canvas in procreate | flip to check drawing => Tap the wrench, Canvas, Flip Canvas Horizontally. Flipping helps you spot mistakes in proportions.
+what is gradient map in procreate | gradient map in procreate explained => Gradient Map, under the magic wand, recolors your drawing based on how light or dark each part is. It's a quick way to try color moods.
+how do i make an animation in procreate | animation assist => Tap the wrench, Canvas, and turn on Animation Assist. Each layer becomes a frame, and onion skins show nearby frames.
+how do i export an animation from procreate | procreate gif => With Animation Assist on, tap the wrench, Share, and choose Animated GIF, PNG, MP4 or HEVC.
+how do i export a psd from procreate | procreate to photoshop => Tap the wrench, Share, and choose PSD to keep layers for Photoshop, Krita or other apps.
+how do i save a procreate color palette | import palette procreate => In the Colors panel, open Palettes and tap the plus to create a new one from a photo, file or camera.
+what is streamline in procreate brushes | streamline in procreate brushes explained => Streamline smooths out wobbly strokes. Higher values give smoother lines but feel slightly delayed.
+what is pressure curve in procreate | apple pencil pressure procreate => In Preferences, Pressure and Smoothing, you can change how hard you need to press for thick lines, to match your hand.
+how do i back up my procreate drawings | save procreate files => Export them from the Gallery as .procreate files to Files or iCloud Drive. Deleting Procreate deletes the artworks stored in it.

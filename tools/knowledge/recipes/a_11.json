@@ -1,0 +1,2170 @@
+{
+ "recipes": [
+  {
+   "id": "kung-pao-chicken",
+   "name": "Kung pao chicken",
+   "aliases": [
+    "kung pao chicken",
+    "kung pao",
+    "gong bao chicken",
+    "kung po chicken",
+    "kung pao chicken with peanuts"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "chicken",
+    "peanut",
+    "chili",
+    "soy sauce",
+    "vinegar"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken thighs, cut in 1/2 inch cubes",
+    "1 tablespoon soy sauce plus 1 tablespoon cornstarch, for the chicken",
+    "Sauce: 2 tablespoons soy sauce, 1 tablespoon black or rice vinegar, 1 tablespoon sugar, 1 teaspoon cornstarch, 3 tablespoons water",
+    "2 tablespoons vegetable oil",
+    "6 to 10 dried red chilies, cut in half (optional)",
+    "1 teaspoon Sichuan peppercorns (optional)",
+    "3 garlic cloves, sliced",
+    "1 tablespoon grated ginger",
+    "4 green onions, cut in 1/2 inch pieces",
+    "1/2 cup (70 g) roasted peanuts",
+    "Steamed rice"
+   ],
+   "steps": [
+    "Cut the chicken and slice the garlic. Ask an adult to help.",
+    "Mix the chicken with 1 tablespoon soy sauce and 1 tablespoon cornstarch. Wash your hands.",
+    "Stir the sauce ingredients together in a cup.",
+    "Heat the oil in a wok over medium heat and fry the chilies and peppercorns for 30 seconds, until fragrant. Don't let them burn.",
+    "Turn the heat to high, add the chicken and cook for 5 to 6 minutes, until golden and 165°F (74°C).",
+    "Add the garlic, ginger and green onions for 1 minute.",
+    "Stir the sauce again, pour it in and toss for 1 minute, until glossy.",
+    "Toss in the peanuts and serve with rice."
+   ]
+  },
+  {
+   "id": "sweet-and-sour-chicken",
+   "name": "Sweet and sour chicken",
+   "aliases": [
+    "sweet and sour chicken",
+    "sweet and sour pork",
+    "sweet n sour chicken",
+    "chinese sweet and sour chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "chicken",
+    "pineapple",
+    "pepper",
+    "ketchup",
+    "vinegar"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken breast, cut in 1 inch pieces",
+    "1/2 teaspoon salt",
+    "2 large eggs, beaten",
+    "3/4 cup (95 g) cornstarch",
+    "3 tablespoons vegetable oil",
+    "1 red and 1 green bell pepper, cut in chunks",
+    "1 onion, cut in chunks",
+    "1 can (20 oz / 565 g) pineapple chunks, drained, 1/2 cup juice saved",
+    "1/3 cup (80 ml) ketchup",
+    "1/3 cup (80 ml) rice or apple cider vinegar",
+    "1/3 cup (65 g) sugar",
+    "2 tablespoons soy sauce",
+    "1 tablespoon cornstarch mixed with 2 tablespoons water"
+   ],
+   "steps": [
+    "Cut the chicken and vegetables. Ask an adult to help.",
+    "Sprinkle the chicken with salt, dip in egg, then toss in cornstarch. Wash your hands.",
+    "Heat 2 tablespoons oil in a big pan over medium-high heat and cook the chicken in batches for 5 to 6 minutes, turning, until golden and 165°F (74°C). Lift out.",
+    "Add the rest of the oil and cook the peppers and onion for 3 minutes.",
+    "Add the pineapple juice, ketchup, vinegar, sugar and soy sauce and bring to a simmer.",
+    "Stir in the cornstarch mix and cook for 1 minute, until thick.",
+    "Add the chicken and pineapple and toss. Serve with rice."
+   ]
+  },
+  {
+   "id": "orange-chicken",
+   "name": "Orange chicken",
+   "aliases": [
+    "orange chicken",
+    "panda orange chicken",
+    "crispy orange chicken",
+    "chinese orange chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "chicken",
+    "orange",
+    "soy sauce",
+    "ginger",
+    "cornstarch"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken thighs, cut in 1 inch pieces",
+    "2 large eggs, beaten",
+    "3/4 cup (95 g) cornstarch",
+    "1/2 teaspoon salt",
+    "3 tablespoons vegetable oil",
+    "Sauce: 3/4 cup (180 ml) orange juice, zest of 1 orange, 1/3 cup (65 g) brown sugar, 3 tablespoons soy sauce, 2 tablespoons rice vinegar",
+    "2 garlic cloves, grated",
+    "1 teaspoon grated ginger",
+    "1 tablespoon cornstarch mixed with 2 tablespoons water",
+    "2 green onions, sliced, and sesame seeds"
+   ],
+   "steps": [
+    "Cut the chicken. Ask an adult to help.",
+    "Dip the chicken in egg, then toss in cornstarch and salt. Wash your hands.",
+    "Heat the oil in a big pan over medium-high heat and cook the chicken in batches for 6 to 7 minutes, turning, until crispy and 165°F (74°C). Drain on paper towels.",
+    "Wipe the pan and add the sauce ingredients, garlic and ginger. Simmer for 3 minutes.",
+    "Stir in the cornstarch mix and cook for 1 minute, until thick and glossy.",
+    "Toss the chicken in the sauce and top with green onions and sesame seeds."
+   ]
+  },
+  {
+   "id": "beef-and-broccoli",
+   "name": "Beef and broccoli",
+   "aliases": [
+    "beef and broccoli",
+    "beef broccoli",
+    "broccoli beef",
+    "chinese beef and broccoli"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "beef",
+    "broccoli",
+    "oyster sauce",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 lb (450 g) flank steak, thinly sliced across the grain",
+    "1 tablespoon soy sauce plus 1 tablespoon cornstarch, for the beef",
+    "4 cups (300 g) broccoli florets",
+    "2 tablespoons vegetable oil",
+    "3 garlic cloves, chopped",
+    "1 teaspoon grated ginger",
+    "Sauce: 3 tablespoons oyster sauce, 1 tablespoon soy sauce, 1 tablespoon brown sugar, 1 teaspoon cornstarch, 1/2 cup (120 ml) water or broth",
+    "1 teaspoon sesame oil",
+    "Steamed rice"
+   ],
+   "steps": [
+    "Slice the beef thinly. It's easier if it's half frozen. Ask an adult to help.",
+    "Toss the beef with 1 tablespoon soy sauce and the cornstarch.",
+    "Mix the sauce ingredients in a cup.",
+    "Steam or boil the broccoli for 2 minutes, until bright green. Drain.",
+    "Heat 1 tablespoon oil in a wok over high heat and sear the beef in one layer for 1 to 2 minutes per side. Lift out.",
+    "Add the rest of the oil, garlic and ginger for 30 seconds.",
+    "Add the sauce and simmer for 1 minute, until thick.",
+    "Add the beef and broccoli and toss. Drizzle with sesame oil and serve with rice."
+   ]
+  },
+  {
+   "id": "mapo-tofu",
+   "name": "Mapo tofu",
+   "aliases": [
+    "mapo tofu",
+    "mapo doufu",
+    "ma po tofu",
+    "spicy tofu with pork",
+    "sichuan tofu"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "tofu",
+    "pork",
+    "doubanjiang",
+    "sichuan pepper"
+   ],
+   "ingredients": [
+    "1 block (16 oz / 450 g) soft or medium tofu, cut in 1 inch cubes",
+    "1 tablespoon vegetable oil",
+    "6 oz (170 g) ground pork or beef",
+    "2 tablespoons doubanjiang (chili bean paste), or 1 tablespoon for less heat",
+    "1 tablespoon fermented black beans, chopped (optional)",
+    "3 garlic cloves, chopped",
+    "1 teaspoon grated ginger",
+    "1 cup (240 ml) chicken broth or water",
+    "1 tablespoon soy sauce",
+    "1 teaspoon sugar",
+    "1 tablespoon cornstarch mixed with 2 tablespoons water",
+    "1/2 teaspoon ground Sichuan peppercorns",
+    "2 green onions, sliced"
+   ],
+   "steps": [
+    "Cut the tofu gently and slide it into lightly salted simmering water for 2 minutes so it firms up. Drain. Ask an adult to help.",
+    "Heat the oil in a wok over medium-high heat and cook the pork for 3 to 4 minutes, until browned.",
+    "Add the doubanjiang, black beans, garlic and ginger and stir for 1 minute.",
+    "Add the broth, soy sauce and sugar and bring to a simmer.",
+    "Slide in the tofu and simmer for 4 minutes. Push it gently, don't stir hard.",
+    "Add the cornstarch mix in two parts and simmer for 1 minute, until thick.",
+    "Sprinkle with Sichuan pepper and green onions. Serve with rice."
+   ]
+  },
+  {
+   "id": "lo-mein",
+   "name": "Chicken lo mein",
+   "aliases": [
+    "lo mein",
+    "chicken lo mein",
+    "vegetable lo mein",
+    "lo mein noodles",
+    "takeout noodles"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "noodle",
+    "chicken",
+    "cabbage",
+    "carrot",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "12 oz (340 g) lo mein egg noodles or spaghetti",
+    "12 oz (340 g) boneless chicken, thinly sliced",
+    "2 tablespoons vegetable oil",
+    "2 garlic cloves, chopped",
+    "2 cups (140 g) shredded cabbage",
+    "1 carrot, cut in thin strips",
+    "1 cup (100 g) snow peas or bean sprouts",
+    "3 green onions, cut in pieces",
+    "Sauce: 3 tablespoons soy sauce, 1 tablespoon oyster sauce, 1 tablespoon dark soy sauce (optional), 2 teaspoons sugar, 2 teaspoons sesame oil"
+   ],
+   "steps": [
+    "Boil the noodles as the package says. Drain and rinse with cold water.",
+    "Slice the chicken and vegetables. Ask an adult to help.",
+    "Mix the sauce ingredients.",
+    "Heat 1 tablespoon oil in a wok over high heat and cook the chicken for 4 to 5 minutes, until 165°F (74°C). Lift out.",
+    "Add the rest of the oil and stir-fry the garlic, cabbage, carrot and snow peas for 2 to 3 minutes.",
+    "Add the noodles, chicken and sauce and toss for 2 minutes, until hot and coated.",
+    "Toss in the green onions and serve."
+   ]
+  },
+  {
+   "id": "chow-mein",
+   "name": "Crispy chow mein",
+   "aliases": [
+    "chow mein",
+    "crispy chow mein",
+    "hong kong chow mein",
+    "pan fried noodles",
+    "chicken chow mein"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "noodle",
+    "cabbage",
+    "bean sprout",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "12 oz (340 g) thin fresh chow mein noodles or steamed noodles",
+    "3 tablespoons vegetable oil, divided",
+    "8 oz (225 g) chicken or shrimp, thinly sliced (optional)",
+    "2 garlic cloves, chopped",
+    "2 cups (140 g) shredded cabbage",
+    "1 carrot, cut in thin strips",
+    "2 cups (200 g) bean sprouts",
+    "3 green onions, cut in pieces",
+    "Sauce: 2 tablespoons soy sauce, 1 tablespoon dark soy sauce, 1 tablespoon oyster sauce, 1 teaspoon sugar, 1 teaspoon sesame oil"
+   ],
+   "steps": [
+    "Loosen the noodles. If they're dry, boil them for 2 minutes and drain well.",
+    "Mix the sauce ingredients.",
+    "Heat 2 tablespoons oil in a big pan over medium-high heat. Spread the noodles flat and cook for 4 to 5 minutes, until crispy on the bottom. Flip and cook for 3 minutes more. An adult should help flip. Slide onto a plate.",
+    "Add the rest of the oil and cook the chicken for 4 minutes, until 165°F (74°C), or the shrimp for 2 minutes, until pink.",
+    "Add the garlic, cabbage and carrot for 2 minutes.",
+    "Add the bean sprouts, green onions and sauce and toss for 1 minute.",
+    "Pile the vegetables over the crispy noodles."
+   ]
+  },
+  {
+   "id": "char-siu",
+   "name": "Oven char siu pork",
+   "aliases": [
+    "char siu",
+    "chinese bbq pork",
+    "cha siu",
+    "barbecue pork",
+    "red roast pork"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 30 min",
+   "main": [
+    "pork",
+    "hoisin",
+    "honey",
+    "soy sauce",
+    "five spice"
+   ],
+   "ingredients": [
+    "2 lb (900 g) pork shoulder or tenderloin, cut in long strips 2 inches thick",
+    "3 tablespoons hoisin sauce",
+    "2 tablespoons soy sauce",
+    "2 tablespoons honey, plus 2 tablespoons for glazing",
+    "2 tablespoons sugar",
+    "1 tablespoon oyster sauce",
+    "1 teaspoon five spice powder",
+    "2 garlic cloves, grated",
+    "1 teaspoon red food coloring (optional)"
+   ],
+   "steps": [
+    "Mix the hoisin, soy sauce, 2 tablespoons honey, sugar, oyster sauce, five spice, garlic and food coloring.",
+    "Coat the pork and marinate in the fridge for at least 4 hours, or overnight. Wash your hands. Save some marinade in a separate cup for basting.",
+    "Heat the oven to 400°F (200°C). Put a rack over a foil-lined pan with 1 cup water in the pan.",
+    "Roast the pork on the rack for 25 minutes.",
+    "Brush with the saved marinade, flip, and roast for 20 minutes more, until 145°F (63°C) for tenderloin or 160°F (71°C) for shoulder.",
+    "Brush with honey and broil for 2 to 3 minutes, until sticky and charred at the edges. An adult should watch the broiler.",
+    "Rest for 10 minutes and slice. Serve with rice or in buns."
+   ]
+  },
+  {
+   "id": "tomato-egg-stir-fry",
+   "name": "Chinese tomato and egg",
+   "aliases": [
+    "tomato and egg",
+    "tomato egg stir fry",
+    "fan qie chao dan",
+    "chinese tomato eggs",
+    "tomato scrambled eggs"
+   ],
+   "category": "Dinner",
+   "servings": 3,
+   "time": "15 min",
+   "main": [
+    "egg",
+    "tomato",
+    "green onion",
+    "sugar"
+   ],
+   "ingredients": [
+    "5 large eggs",
+    "1/2 teaspoon salt, divided",
+    "3 tablespoons vegetable oil, divided",
+    "3 ripe tomatoes, cut in wedges",
+    "1 tablespoon ketchup (optional)",
+    "1 teaspoon sugar",
+    "1/4 cup (60 ml) water",
+    "2 green onions, sliced",
+    "Steamed rice"
+   ],
+   "steps": [
+    "Beat the eggs with 1/4 teaspoon salt.",
+    "Cut the tomatoes into wedges. Ask an adult to help.",
+    "Heat 2 tablespoons oil in a wok over medium-high heat and scramble the eggs for 1 minute, until just set but still soft. Lift out.",
+    "Add the rest of the oil and the tomatoes and cook for 2 to 3 minutes, until soft and juicy.",
+    "Add the ketchup, sugar, water and the rest of the salt and simmer for 1 minute.",
+    "Add the eggs back and fold gently for 30 seconds.",
+    "Top with green onions and serve over rice."
+   ]
+  },
+  {
+   "id": "mongolian-beef",
+   "name": "Mongolian beef",
+   "aliases": [
+    "mongolian beef",
+    "mongolian beef and rice",
+    "crispy mongolian beef",
+    "sweet soy beef"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "beef",
+    "brown sugar",
+    "soy sauce",
+    "green onion"
+   ],
+   "ingredients": [
+    "1 lb (450 g) flank steak, thinly sliced across the grain",
+    "1/3 cup (40 g) cornstarch",
+    "3 tablespoons vegetable oil",
+    "4 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "1/2 cup (120 ml) soy sauce (low sodium)",
+    "1/2 cup (120 ml) water",
+    "1/2 cup (100 g) brown sugar",
+    "1/2 teaspoon chili flakes (optional)",
+    "6 green onions, cut in 2 inch pieces"
+   ],
+   "steps": [
+    "Slice the beef thinly. Ask an adult to help.",
+    "Toss the beef in cornstarch to coat.",
+    "Heat 2 tablespoons oil in a big pan over medium-high heat and fry the beef in batches for 2 minutes per side, until crispy. Lift out.",
+    "Add the rest of the oil, garlic and ginger for 30 seconds.",
+    "Add the soy sauce, water, sugar and chili flakes and simmer for 4 to 5 minutes, until a little thick.",
+    "Add the beef and green onions and toss for 1 minute. Serve with rice."
+   ]
+  },
+  {
+   "id": "egg-foo-young",
+   "name": "Egg foo young",
+   "aliases": [
+    "egg foo young",
+    "egg foo yung",
+    "egg fu yung",
+    "chinese omelet",
+    "egg foo yong"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "egg",
+    "bean sprout",
+    "ham",
+    "gravy"
+   ],
+   "ingredients": [
+    "6 large eggs",
+    "1 cup (100 g) bean sprouts",
+    "1/2 cup (75 g) diced cooked ham, chicken or shrimp",
+    "3 green onions, sliced",
+    "1/4 cup (35 g) frozen peas",
+    "1/4 teaspoon salt",
+    "3 tablespoons vegetable oil",
+    "Gravy: 1 cup (240 ml) chicken broth, 1 tablespoon soy sauce, 1 tablespoon oyster sauce, 1 teaspoon sugar, 1 tablespoon cornstarch"
+   ],
+   "steps": [
+    "Beat the eggs with salt, then stir in the bean sprouts, ham, green onions and peas.",
+    "Whisk the gravy ingredients in a small pot and simmer for 2 minutes, stirring, until thick.",
+    "Heat 1 tablespoon oil in a frying pan over medium heat. Ask an adult to help with the hot oil.",
+    "Pour in 1/2 cup of the egg mix and cook for 2 minutes, until set on the bottom.",
+    "Flip and cook for 1 to 2 minutes more. Repeat with the rest, adding oil as needed.",
+    "Pour the gravy over the omelets and serve with rice."
+   ]
+  },
+  {
+   "id": "cantonese-steamed-fish",
+   "name": "Cantonese steamed fish",
+   "aliases": [
+    "steamed fish",
+    "cantonese steamed fish",
+    "ginger scallion fish",
+    "chinese steamed fish"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "fish",
+    "ginger",
+    "green onion",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) white fish fillets like cod, sea bass or tilapia",
+    "2 inch piece ginger, cut in thin matchsticks",
+    "4 green onions, cut in thin strips",
+    "1/4 teaspoon salt",
+    "3 tablespoons soy sauce",
+    "1 tablespoon water",
+    "1 teaspoon sugar",
+    "3 tablespoons vegetable oil",
+    "Cilantro sprigs"
+   ],
+   "steps": [
+    "Cut the ginger and green onions into thin strips. Ask an adult to help.",
+    "Put the fish on a heatproof plate, sprinkle with salt and top with half the ginger.",
+    "Set the plate on a rack in a wok or wide pot with boiling water underneath. Cover and steam for 8 to 10 minutes, until the fish flakes and is 145°F (63°C).",
+    "An adult lifts out the hot plate and pours off the liquid.",
+    "Warm the soy sauce, water and sugar and pour around the fish.",
+    "Top with the rest of the ginger, the green onions and cilantro.",
+    "An adult heats the oil until it just smokes and pours it over the green onions. It sizzles. Serve with rice."
+   ]
+  },
+  {
+   "id": "hong-shao-rou",
+   "name": "Hong shao rou red braised pork",
+   "aliases": [
+    "hong shao rou",
+    "red braised pork",
+    "chinese braised pork belly",
+    "red cooked pork",
+    "mao braised pork"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 45 min",
+   "main": [
+    "pork",
+    "soy sauce",
+    "sugar",
+    "star anise"
+   ],
+   "ingredients": [
+    "2 lb (900 g) skin-on pork belly, cut in 1 1/2 inch cubes",
+    "2 tablespoons vegetable oil",
+    "3 tablespoons sugar or rock sugar",
+    "4 slices ginger",
+    "3 green onions, cut in pieces",
+    "2 star anise",
+    "1 cinnamon stick",
+    "2 tablespoons soy sauce",
+    "1 tablespoon dark soy sauce",
+    "2 tablespoons Shaoxing wine or broth",
+    "2 1/2 cups (600 ml) hot water"
+   ],
+   "steps": [
+    "Cut the pork. Ask an adult to help.",
+    "Put the pork in a pot of cold water, bring to a boil and boil for 3 minutes. Drain and rinse.",
+    "Heat the oil and sugar in a heavy pot over medium-low heat for 3 to 4 minutes, until it turns amber. An adult should do this, melted sugar is very hot.",
+    "Add the pork and stir for 2 minutes to coat.",
+    "Add the ginger, green onions, star anise, cinnamon, soy sauces, wine and hot water.",
+    "Cover and simmer on low for 1 hour, stirring now and then.",
+    "Uncover, turn up the heat and cook for 10 to 15 minutes, stirring, until the sauce is thick and sticky. Serve with rice."
+   ]
+  },
+  {
+   "id": "three-cup-chicken",
+   "name": "Taiwanese three cup chicken",
+   "aliases": [
+    "three cup chicken",
+    "san bei ji",
+    "sanbeiji",
+    "taiwanese basil chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "chicken",
+    "basil",
+    "ginger",
+    "garlic",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "2 lb (900 g) boneless chicken thighs, cut in bite-size pieces",
+    "3 tablespoons sesame oil",
+    "2 inch piece ginger, thinly sliced",
+    "10 garlic cloves, peeled",
+    "4 dried red chilies (optional)",
+    "3 tablespoons soy sauce",
+    "1 tablespoon dark soy sauce",
+    "3 tablespoons rice wine or broth",
+    "1 tablespoon sugar",
+    "2 cups (40 g) Thai basil leaves"
+   ],
+   "steps": [
+    "Cut the chicken and slice the ginger. Ask an adult to help.",
+    "Heat the sesame oil in a wok or clay pot over medium heat and fry the ginger and garlic for 3 to 4 minutes, until golden.",
+    "Add the chilies and the chicken and cook for 5 minutes, until browned.",
+    "Add the soy sauces, rice wine and sugar.",
+    "Cover and simmer for 10 minutes, then uncover and cook for 3 to 5 minutes, until the sauce is sticky and the chicken is 165°F (74°C).",
+    "Turn off the heat and toss in the basil. Serve with rice."
+   ]
+  },
+  {
+   "id": "lu-rou-fan",
+   "name": "Lu rou fan braised pork rice",
+   "aliases": [
+    "lu rou fan",
+    "braised pork rice",
+    "taiwanese pork rice",
+    "minced pork rice",
+    "lu rou rice"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 30 min",
+   "main": [
+    "pork",
+    "shallot",
+    "soy sauce",
+    "egg",
+    "rice"
+   ],
+   "ingredients": [
+    "2 lb (900 g) pork belly or shoulder, cut in small 1/4 inch pieces",
+    "1 tablespoon vegetable oil",
+    "1/2 cup (60 g) fried shallots, or 4 shallots sliced and fried",
+    "3 garlic cloves, chopped",
+    "1/4 cup (60 ml) soy sauce",
+    "2 tablespoons dark soy sauce",
+    "2 tablespoons rice wine or broth",
+    "2 tablespoons sugar",
+    "1 teaspoon five spice powder",
+    "2 1/2 cups (600 ml) water",
+    "6 hard boiled eggs, peeled",
+    "Steamed rice and pickled vegetables"
+   ],
+   "steps": [
+    "Cut the pork into small pieces. Ask an adult to help.",
+    "Heat the oil in a pot over medium-high heat and cook the pork for 8 minutes, until it loses its pink and some fat melts.",
+    "Add the shallots and garlic for 2 minutes.",
+    "Add the soy sauces, rice wine, sugar and five spice and stir for 1 minute.",
+    "Add the water and eggs and bring to a boil.",
+    "Cover and simmer on low for 1 hour, stirring now and then, until the pork is very tender and the sauce is glossy.",
+    "Spoon the pork and sauce over rice with a halved egg on top."
+   ]
+  },
+  {
+   "id": "cumin-lamb",
+   "name": "Xinjiang cumin lamb",
+   "aliases": [
+    "cumin lamb",
+    "xinjiang lamb",
+    "cumin beef",
+    "zi ran yang rou",
+    "spicy cumin lamb"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "lamb",
+    "cumin",
+    "chili",
+    "onion"
+   ],
+   "ingredients": [
+    "1 lb (450 g) boneless lamb leg or shoulder, thinly sliced",
+    "1 tablespoon soy sauce",
+    "1 tablespoon cornstarch",
+    "3 tablespoons vegetable oil",
+    "1 1/2 tablespoons cumin seeds, lightly crushed",
+    "1 to 2 teaspoons chili flakes",
+    "1 onion, sliced",
+    "3 garlic cloves, chopped",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon sugar",
+    "1 handful cilantro"
+   ],
+   "steps": [
+    "Slice the lamb thinly. It's easier when half frozen. Ask an adult to help.",
+    "Toss the lamb with soy sauce and cornstarch.",
+    "Heat 2 tablespoons oil in a wok over high heat and sear the lamb in batches for 2 minutes, until browned. Lift out.",
+    "Add the rest of the oil and the onion for 2 minutes.",
+    "Add the garlic, cumin and chili flakes for 30 seconds.",
+    "Add the lamb, salt and sugar and toss for 1 minute.",
+    "Toss in the cilantro and serve with rice or flatbread."
+   ]
+  },
+  {
+   "id": "chicken-teriyaki",
+   "name": "Chicken teriyaki",
+   "aliases": [
+    "chicken teriyaki",
+    "teriyaki chicken",
+    "teriyaki chicken thighs",
+    "japanese teriyaki chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "chicken",
+    "soy sauce",
+    "mirin",
+    "sugar"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless skin-on or skinless chicken thighs",
+    "1/4 teaspoon salt",
+    "1 tablespoon vegetable oil",
+    "1/4 cup (60 ml) soy sauce",
+    "1/4 cup (60 ml) mirin",
+    "2 tablespoons sake or water",
+    "2 tablespoons sugar",
+    "1 teaspoon grated ginger (optional)",
+    "Sesame seeds and green onions"
+   ],
+   "steps": [
+    "Pat the chicken dry and sprinkle with salt.",
+    "Heat the oil in a frying pan over medium heat and put the chicken in skin side down.",
+    "Cook for 6 to 7 minutes, until golden. Flip and cook for 4 to 5 minutes more.",
+    "Mix the soy sauce, mirin, sake, sugar and ginger.",
+    "Wipe out extra fat, pour in the sauce and simmer for 3 to 4 minutes, spooning it over the chicken, until thick and glossy and the chicken is 165°F (74°C).",
+    "Slice the chicken. Ask an adult to help.",
+    "Top with sauce, sesame seeds and green onions. Serve with rice."
+   ]
+  },
+  {
+   "id": "chicken-katsu",
+   "name": "Chicken katsu",
+   "aliases": [
+    "chicken katsu",
+    "katsu chicken",
+    "japanese fried chicken cutlet",
+    "panko chicken",
+    "chicken katsu with tonkatsu sauce"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "chicken",
+    "panko",
+    "egg",
+    "cabbage"
+   ],
+   "ingredients": [
+    "2 large boneless chicken breasts, sliced in half to make 4 thin cutlets",
+    "1/2 teaspoon salt and 1/4 teaspoon pepper",
+    "1/2 cup (65 g) flour",
+    "2 large eggs, beaten",
+    "2 cups (100 g) panko",
+    "1/2 cup (120 ml) vegetable oil for shallow frying",
+    "Katsu sauce: 1/4 cup (60 ml) ketchup, 2 tablespoons Worcestershire sauce, 1 tablespoon soy sauce, 1 tablespoon sugar",
+    "Shredded cabbage and rice"
+   ],
+   "steps": [
+    "Slice the chicken into thin cutlets. Ask an adult to help.",
+    "Season with salt and pepper. Coat in flour, then egg, then panko, pressing it on. Wash your hands.",
+    "Heat the oil in a frying pan over medium heat. An adult should do the frying.",
+    "Fry 2 cutlets at a time for 4 to 5 minutes per side, until golden and 165°F (74°C).",
+    "Drain on a rack and rest for 3 minutes.",
+    "Mix the katsu sauce.",
+    "Slice and serve with cabbage, rice and sauce."
+   ]
+  },
+  {
+   "id": "japanese-curry",
+   "name": "Japanese chicken curry",
+   "aliases": [
+    "japanese curry",
+    "kare raisu",
+    "curry rice",
+    "japanese curry rice",
+    "golden curry",
+    "chicken curry rice"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "chicken",
+    "potato",
+    "carrot",
+    "curry roux",
+    "onion"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken thighs, cut in bite-size pieces",
+    "1 tablespoon vegetable oil",
+    "2 onions, cut in wedges",
+    "2 carrots, cut in chunks",
+    "2 potatoes, cut in chunks",
+    "4 cups (960 ml) water",
+    "1 box (3.5 oz / 100 g) Japanese curry roux, mild or medium",
+    "1 tablespoon ketchup",
+    "1 tablespoon honey or 1/2 grated apple",
+    "Steamed short grain rice"
+   ],
+   "steps": [
+    "Cut the chicken and vegetables. Ask an adult to help.",
+    "Heat the oil in a pot over medium heat and cook the onions for 5 minutes.",
+    "Add the chicken and cook for 4 minutes, until no longer pink outside.",
+    "Add the carrots, potatoes and water and bring to a boil. Skim off any foam.",
+    "Simmer for 15 to 20 minutes, until the vegetables are tender and the chicken is 165°F (74°C).",
+    "Turn off the heat, break in the curry roux and stir until it melts.",
+    "Add the ketchup and honey and simmer on low for 5 minutes, stirring, until thick.",
+    "Serve over rice."
+   ]
+  },
+  {
+   "id": "gyudon",
+   "name": "Gyudon beef bowl",
+   "aliases": [
+    "gyudon",
+    "beef bowl",
+    "japanese beef bowl",
+    "gyu don",
+    "beef and onion rice bowl"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "beef",
+    "onion",
+    "soy sauce",
+    "rice"
+   ],
+   "ingredients": [
+    "1 lb (450 g) very thinly sliced beef (shabu shabu or ribeye)",
+    "1 onion, thinly sliced",
+    "1 cup (240 ml) dashi or water",
+    "3 tablespoons soy sauce",
+    "2 tablespoons mirin",
+    "1 tablespoon sugar",
+    "1 tablespoon sake (optional)",
+    "4 cups (740 g) cooked short grain rice",
+    "Pickled red ginger, green onions and soft boiled eggs to serve"
+   ],
+   "steps": [
+    "Slice the onion. Ask an adult to help.",
+    "Simmer the dashi, soy sauce, mirin, sugar and sake in a pan.",
+    "Add the onion and simmer for 5 minutes, until soft.",
+    "Add the beef, pulling the slices apart, and simmer for 2 to 3 minutes, until cooked through. Skim any foam.",
+    "Spoon the beef, onion and some broth over bowls of rice.",
+    "Top with pickled ginger, green onions and an egg."
+   ]
+  },
+  {
+   "id": "oyakodon",
+   "name": "Oyakodon chicken and egg bowl",
+   "aliases": [
+    "oyakodon",
+    "chicken and egg bowl",
+    "oyako don",
+    "japanese chicken egg rice bowl"
+   ],
+   "category": "Dinner",
+   "servings": 2,
+   "time": "25 min",
+   "main": [
+    "chicken",
+    "egg",
+    "onion",
+    "dashi",
+    "rice"
+   ],
+   "ingredients": [
+    "8 oz (225 g) boneless chicken thighs, cut in small pieces",
+    "1/2 onion, thinly sliced",
+    "2/3 cup (160 ml) dashi or water",
+    "2 tablespoons soy sauce",
+    "2 tablespoons mirin",
+    "1 teaspoon sugar",
+    "3 large eggs, lightly beaten",
+    "2 cups (370 g) cooked short grain rice",
+    "1 green onion, sliced"
+   ],
+   "steps": [
+    "Cut the chicken and onion. Ask an adult to help.",
+    "Simmer the dashi, soy sauce, mirin and sugar in a small frying pan.",
+    "Add the onion and chicken and simmer for 6 to 7 minutes, until the chicken is 165°F (74°C).",
+    "Pour the eggs over in a circle. Cover and cook on low for 1 to 2 minutes, until just set but still soft.",
+    "Slide over bowls of hot rice and top with green onion."
+   ]
+  },
+  {
+   "id": "tonkatsu",
+   "name": "Tonkatsu pork cutlet",
+   "aliases": [
+    "tonkatsu",
+    "pork katsu",
+    "japanese pork cutlet",
+    "katsu pork",
+    "breaded pork cutlet"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "pork",
+    "panko",
+    "egg",
+    "cabbage"
+   ],
+   "ingredients": [
+    "4 boneless pork loin chops, 1/2 inch (1.3 cm) thick",
+    "1/2 teaspoon salt and 1/4 teaspoon pepper",
+    "1/2 cup (65 g) flour",
+    "2 large eggs, beaten",
+    "2 cups (100 g) panko",
+    "Vegetable oil for frying, about 1 inch (2.5 cm) deep",
+    "Tonkatsu sauce or katsu sauce",
+    "Shredded cabbage, lemon wedges and rice"
+   ],
+   "steps": [
+    "Snip the fat on the edges of the chops so they stay flat. Pound lightly. Ask an adult to help.",
+    "Season, then coat in flour, egg and panko. Wash your hands.",
+    "An adult heats the oil in a deep pan to 340°F (170°C). Hot oil is dangerous, so an adult does the frying.",
+    "Fry 2 chops at a time for 3 to 4 minutes per side, until golden and 145°F (63°C).",
+    "Drain on a rack and rest for 3 minutes.",
+    "Slice and serve with cabbage, rice, lemon and sauce."
+   ]
+  },
+  {
+   "id": "teriyaki-salmon",
+   "name": "Teriyaki salmon",
+   "aliases": [
+    "teriyaki salmon",
+    "salmon teriyaki",
+    "glazed salmon",
+    "japanese salmon"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "salmon",
+    "soy sauce",
+    "mirin",
+    "honey"
+   ],
+   "ingredients": [
+    "4 salmon fillets (6 oz / 170 g each)",
+    "1/4 teaspoon salt",
+    "1 tablespoon vegetable oil",
+    "3 tablespoons soy sauce",
+    "3 tablespoons mirin",
+    "1 tablespoon honey or sugar",
+    "1 tablespoon sake or water",
+    "1 teaspoon grated ginger",
+    "Sesame seeds, green onions and rice"
+   ],
+   "steps": [
+    "Pat the salmon dry and sprinkle with salt.",
+    "Mix the soy sauce, mirin, honey, sake and ginger.",
+    "Heat the oil in a frying pan over medium-high heat and cook the salmon skin side down for 4 minutes.",
+    "Flip and cook for 2 to 3 minutes.",
+    "Pour in the sauce and simmer for 1 to 2 minutes, spooning it over, until thick and the salmon is 145°F (63°C).",
+    "Top with sesame seeds and green onions. Serve with rice."
+   ]
+  },
+  {
+   "id": "yakitori",
+   "name": "Oven yakitori chicken skewers",
+   "aliases": [
+    "yakitori",
+    "chicken skewers",
+    "negima",
+    "japanese chicken skewers",
+    "grilled chicken skewers"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "chicken",
+    "green onion",
+    "soy sauce",
+    "mirin"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken thighs, cut in 1 inch pieces",
+    "1 bunch green onions (white and light green parts), cut in 1 inch pieces",
+    "Tare sauce: 1/3 cup (80 ml) soy sauce, 1/3 cup (80 ml) mirin, 2 tablespoons sake or water, 2 tablespoons sugar",
+    "Wooden skewers, soaked for 30 minutes",
+    "Shichimi or sesame seeds (optional)"
+   ],
+   "steps": [
+    "Simmer the tare ingredients in a small pot for 8 to 10 minutes, until slightly syrupy. Save a little in a separate cup for serving.",
+    "Cut the chicken and green onions. Ask an adult to help.",
+    "Thread chicken and green onion pieces onto the skewers, switching between them. Wash your hands.",
+    "Heat the broiler to high with the rack 6 inches from the heat. An adult should do this.",
+    "Broil the skewers on a foil-lined pan for 5 minutes per side.",
+    "Brush with tare and broil for 1 to 2 minutes more per side, until glazed and 165°F (74°C).",
+    "Brush with the saved tare and serve with rice."
+   ]
+  },
+  {
+   "id": "nikujaga",
+   "name": "Nikujaga meat and potatoes",
+   "aliases": [
+    "nikujaga",
+    "japanese meat and potatoes",
+    "niku jaga",
+    "japanese beef and potato stew"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "beef",
+    "potato",
+    "onion",
+    "carrot",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "8 oz (225 g) thinly sliced beef or pork",
+    "1 tablespoon vegetable oil",
+    "1 onion, cut in wedges",
+    "4 potatoes, cut in large chunks",
+    "1 carrot, cut in chunks",
+    "2 cups (480 ml) dashi or water",
+    "3 tablespoons soy sauce",
+    "3 tablespoons mirin",
+    "2 tablespoons sugar",
+    "1 tablespoon sake (optional)",
+    "1/2 cup (50 g) snow peas or green beans"
+   ],
+   "steps": [
+    "Cut the vegetables and beef. Ask an adult to help.",
+    "Heat the oil in a pot over medium heat and cook the beef for 2 minutes. Add the onion for 2 minutes.",
+    "Add the potatoes, carrot and dashi and bring to a boil. Skim the foam.",
+    "Add the sugar, mirin and sake and simmer for 5 minutes.",
+    "Add the soy sauce, lay a small lid or foil right on top of the food, and simmer for 15 to 20 minutes, until the potatoes are tender.",
+    "Add the snow peas for 2 minutes. Let it sit for 10 minutes so the flavors soak in."
+   ]
+  },
+  {
+   "id": "chicken-karaage",
+   "name": "Chicken karaage",
+   "aliases": [
+    "karaage",
+    "chicken karaage",
+    "japanese fried chicken",
+    "kara age",
+    "tori karaage"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "chicken",
+    "soy sauce",
+    "ginger",
+    "potato starch"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken thighs, cut in 1 1/2 inch pieces",
+    "2 tablespoons soy sauce",
+    "1 tablespoon sake or water",
+    "1 tablespoon grated ginger",
+    "2 garlic cloves, grated",
+    "1 teaspoon sesame oil",
+    "3/4 cup (95 g) potato starch or cornstarch",
+    "Vegetable oil for frying, about 1 1/2 inches (4 cm) deep",
+    "Lemon wedges and Japanese mayo"
+   ],
+   "steps": [
+    "Cut the chicken. Ask an adult to help.",
+    "Mix the chicken with soy sauce, sake, ginger, garlic and sesame oil. Marinate for 30 minutes. Wash your hands.",
+    "Toss the chicken in potato starch until coated.",
+    "An adult heats the oil in a deep pot to 340°F (170°C). Hot oil is dangerous, so an adult does all the frying.",
+    "Fry in batches for 4 minutes. Lift out and rest for 4 minutes.",
+    "Heat the oil to 375°F (190°C) and fry again for 1 minute, until extra crispy and 165°F (74°C).",
+    "Drain and serve with lemon and mayo."
+   ]
+  },
+  {
+   "id": "hambagu",
+   "name": "Hambagu Japanese hamburger steak",
+   "aliases": [
+    "hambagu",
+    "hambaagu",
+    "japanese hamburger steak",
+    "hamburg steak",
+    "japanese hamburger"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "beef",
+    "pork",
+    "onion",
+    "panko",
+    "sauce"
+   ],
+   "ingredients": [
+    "1 tablespoon (15 g) butter",
+    "1 onion, finely chopped",
+    "1/2 cup (25 g) panko soaked in 3 tablespoons milk",
+    "1 lb (450 g) ground beef, or half beef and half pork",
+    "1 large egg",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1/4 teaspoon nutmeg",
+    "1 tablespoon vegetable oil",
+    "Sauce: 1/4 cup (60 ml) ketchup, 3 tablespoons Worcestershire sauce, 2 tablespoons water, 1 tablespoon butter"
+   ],
+   "steps": [
+    "Chop the onion. Ask an adult to help.",
+    "Cook the onion in the butter over medium heat for 6 to 8 minutes, until soft and golden. Let it cool.",
+    "Mix the meat, onion, soaked panko, egg, salt, pepper and nutmeg. Wash your hands.",
+    "Shape into 4 oval patties about 3/4 inch thick and press a dip in the middle.",
+    "Heat the oil in a pan over medium heat and cook the patties for 4 minutes, until browned. Flip.",
+    "Add 2 tablespoons water, cover and cook on low for 6 to 8 minutes, until 160°F (71°C) inside.",
+    "Lift out the patties, add the sauce ingredients to the pan and simmer for 1 minute. Pour over the patties."
+   ]
+  },
+  {
+   "id": "bulgogi",
+   "name": "Beef bulgogi",
+   "aliases": [
+    "bulgogi",
+    "beef bulgogi",
+    "korean bbq beef",
+    "bulgogi beef",
+    "korean barbecue"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "beef",
+    "soy sauce",
+    "pear",
+    "garlic",
+    "sesame oil"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) ribeye or sirloin, very thinly sliced",
+    "1/4 cup (60 ml) soy sauce",
+    "1/2 Asian pear or apple, grated",
+    "2 tablespoons brown sugar",
+    "1 tablespoon sesame oil",
+    "4 garlic cloves, grated",
+    "1 teaspoon grated ginger",
+    "1/4 teaspoon black pepper",
+    "1/2 onion, thinly sliced",
+    "3 green onions, cut in pieces",
+    "1 tablespoon vegetable oil",
+    "Sesame seeds, rice and lettuce leaves"
+   ],
+   "steps": [
+    "Slice the beef very thinly. It's easier when half frozen. Ask an adult to help.",
+    "Mix the soy sauce, pear, sugar, sesame oil, garlic, ginger and pepper.",
+    "Add the beef, onion and green onions and marinate for 30 minutes. Wash your hands.",
+    "Heat the oil in a big pan over high heat.",
+    "Cook the beef in batches for 2 to 3 minutes, until browned and cooked through.",
+    "Sprinkle with sesame seeds and serve with rice and lettuce for wrapping."
+   ]
+  },
+  {
+   "id": "bibimbap",
+   "name": "Bibimbap",
+   "aliases": [
+    "bibimbap",
+    "bi bim bap",
+    "korean mixed rice",
+    "bibimbap bowl",
+    "dolsot bibimbap"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "rice",
+    "beef",
+    "egg",
+    "vegetable",
+    "gochujang"
+   ],
+   "ingredients": [
+    "4 cups (740 g) cooked short grain rice",
+    "8 oz (225 g) ground beef or thinly sliced beef",
+    "2 tablespoons soy sauce, divided",
+    "1 tablespoon sugar",
+    "2 tablespoons sesame oil, divided, plus more for serving",
+    "2 garlic cloves, grated",
+    "1 carrot, cut in thin strips",
+    "1 zucchini, cut in thin strips",
+    "4 cups (120 g) spinach",
+    "1 cup (100 g) bean sprouts",
+    "1 tablespoon vegetable oil",
+    "4 large eggs",
+    "Sauce: 3 tablespoons gochujang, 1 tablespoon sesame oil, 1 tablespoon sugar, 1 tablespoon water",
+    "Sesame seeds"
+   ],
+   "steps": [
+    "Cut the vegetables. Ask an adult to help.",
+    "Mix the beef with 1 tablespoon soy sauce, the sugar, 1 tablespoon sesame oil and garlic. Cook in a pan over medium-high heat for 5 minutes, until browned.",
+    "Blanch the spinach and bean sprouts in boiling water for 1 minute each. Drain and squeeze. Toss each with a little sesame oil and soy sauce.",
+    "Cook the carrot and zucchini separately in the vegetable oil for 2 minutes each, until just soft.",
+    "Fry the eggs for 2 to 3 minutes, keeping the yolks runny if you like.",
+    "Mix the sauce ingredients.",
+    "Put rice in each bowl and arrange the beef and vegetables on top in groups. Add an egg.",
+    "Add sauce and sesame seeds, then mix it all together to eat."
+   ]
+  },
+  {
+   "id": "korean-fried-chicken",
+   "name": "Korean fried chicken",
+   "aliases": [
+    "korean fried chicken",
+    "yangnyeom chicken",
+    "kfc korean",
+    "korean chicken wings",
+    "gochujang chicken"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "gochujang",
+    "honey",
+    "garlic",
+    "potato starch"
+   ],
+   "ingredients": [
+    "2 lb (900 g) chicken wings or boneless thigh pieces",
+    "1/2 teaspoon salt and 1/4 teaspoon pepper",
+    "1 teaspoon grated ginger",
+    "3/4 cup (95 g) potato starch or cornstarch",
+    "Vegetable oil for frying, about 2 inches (5 cm) deep",
+    "Sauce: 3 tablespoons gochujang, 3 tablespoons honey, 2 tablespoons ketchup, 1 tablespoon soy sauce, 3 garlic cloves grated, 1 tablespoon butter",
+    "Sesame seeds and chopped peanuts"
+   ],
+   "steps": [
+    "Season the chicken with salt, pepper and ginger. Toss in the starch. Wash your hands.",
+    "An adult heats the oil in a deep pot to 350°F (175°C). Hot oil is dangerous, so an adult does the frying.",
+    "Fry in batches for 8 to 10 minutes for wings or 5 to 6 minutes for boneless. Lift out and rest for 5 minutes.",
+    "Fry again at 375°F (190°C) for 2 to 3 minutes, until very crispy and 165°F (74°C).",
+    "Simmer the sauce ingredients in a big pan for 2 minutes, until bubbly.",
+    "Toss the chicken in the sauce and top with sesame seeds and peanuts."
+   ]
+  },
+  {
+   "id": "dak-galbi",
+   "name": "Dak galbi spicy chicken",
+   "aliases": [
+    "dak galbi",
+    "dakgalbi",
+    "spicy korean chicken",
+    "chuncheon dak galbi",
+    "korean spicy chicken stir fry"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "chicken",
+    "gochujang",
+    "cabbage",
+    "sweet potato",
+    "rice cake"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken thighs, cut in bite-size pieces",
+    "Sauce: 3 tablespoons gochujang, 1 tablespoon gochugaru (optional), 2 tablespoons soy sauce, 1 tablespoon sugar, 1 tablespoon honey, 3 garlic cloves grated, 1 teaspoon grated ginger",
+    "1 tablespoon vegetable oil",
+    "3 cups (210 g) cabbage, cut in pieces",
+    "1 small sweet potato, thinly sliced",
+    "1/2 onion, sliced",
+    "1 cup (150 g) rice cakes (tteok), soaked (optional)",
+    "4 perilla or sesame leaves, sliced (optional)",
+    "1 cup (100 g) shredded mozzarella (optional)"
+   ],
+   "steps": [
+    "Cut the chicken and vegetables. Ask an adult to help.",
+    "Mix the sauce, add the chicken and marinate for 20 minutes. Wash your hands.",
+    "Heat the oil in a big pan over medium heat.",
+    "Add the cabbage, sweet potato, onion and rice cakes, then the chicken on top.",
+    "Cook for 12 to 15 minutes, stirring often, until the sweet potato is tender and the chicken is 165°F (74°C).",
+    "Add the perilla leaves. For cheesy dak galbi, sprinkle on mozzarella, cover and cook for 2 minutes, until melted."
+   ]
+  },
+  {
+   "id": "galbi-jjim",
+   "name": "Galbi jjim braised short ribs",
+   "aliases": [
+    "galbi jjim",
+    "kalbi jjim",
+    "korean braised short ribs",
+    "braised short ribs",
+    "galbijjim"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr 30 min",
+   "main": [
+    "beef",
+    "short rib",
+    "soy sauce",
+    "pear",
+    "carrot"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in beef short ribs, cut in 2 inch pieces",
+    "1/2 cup (120 ml) soy sauce",
+    "1 Asian pear or apple, grated",
+    "1/2 onion, grated",
+    "3 tablespoons brown sugar",
+    "2 tablespoons honey",
+    "6 garlic cloves, grated",
+    "1 tablespoon grated ginger",
+    "2 tablespoons sesame oil",
+    "3 cups (720 ml) water",
+    "2 carrots, cut in chunks",
+    "1 daikon radish or 2 potatoes, cut in chunks",
+    "8 dried shiitake mushrooms, soaked (optional)",
+    "8 chestnuts and 6 jujubes (optional)"
+   ],
+   "steps": [
+    "Soak the ribs in cold water for 30 minutes to draw out blood, then drain.",
+    "Boil the ribs in a pot of water for 5 minutes. Drain and rinse. Ask an adult to help with the hot water.",
+    "Mix the soy sauce, pear, onion, sugar, honey, garlic, ginger and sesame oil.",
+    "Put the ribs, sauce and 3 cups water in a heavy pot and bring to a boil.",
+    "Cover and simmer on low for 1 hour 15 minutes.",
+    "Add the carrots, daikon, mushrooms, chestnuts and jujubes and simmer for 30 to 40 minutes, until the meat is very tender.",
+    "Uncover and simmer for 10 minutes to thicken the sauce. Skim off fat and serve with rice."
+   ]
+  },
+  {
+   "id": "jeyuk-bokkeum",
+   "name": "Jeyuk bokkeum spicy pork",
+   "aliases": [
+    "jeyuk bokkeum",
+    "spicy pork bulgogi",
+    "dwaeji bulgogi",
+    "korean spicy pork",
+    "jeyuk"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "pork",
+    "gochujang",
+    "onion",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) pork shoulder or belly, very thinly sliced",
+    "Sauce: 3 tablespoons gochujang, 1 tablespoon gochugaru, 2 tablespoons soy sauce, 1 tablespoon sugar, 1 tablespoon honey, 1 tablespoon sesame oil, 4 garlic cloves grated, 1 teaspoon grated ginger",
+    "1 onion, sliced",
+    "1 carrot, thinly sliced",
+    "3 green onions, cut in pieces",
+    "1 tablespoon vegetable oil",
+    "Sesame seeds, rice and lettuce"
+   ],
+   "steps": [
+    "Slice the pork and vegetables. Ask an adult to help.",
+    "Mix the sauce and toss the pork in it. Marinate for 20 minutes. Wash your hands.",
+    "Heat the oil in a big pan over medium-high heat.",
+    "Add the pork, onion and carrot and cook for 8 to 10 minutes, stirring, until the pork is cooked through and a little charred.",
+    "Toss in the green onions for 1 minute.",
+    "Top with sesame seeds and serve with rice and lettuce for wrapping."
+   ]
+  },
+  {
+   "id": "dakdoritang",
+   "name": "Dakdoritang spicy braised chicken",
+   "aliases": [
+    "dakdoritang",
+    "dak bokkeumtang",
+    "korean spicy chicken stew",
+    "spicy braised chicken",
+    "dakbokkeumtang"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "potato",
+    "carrot",
+    "gochujang",
+    "gochugaru"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) bone-in chicken pieces",
+    "2 potatoes, cut in large chunks",
+    "1 carrot, cut in chunks",
+    "1 onion, cut in chunks",
+    "2 cups (480 ml) water",
+    "Sauce: 2 tablespoons gochujang, 2 tablespoons gochugaru, 3 tablespoons soy sauce, 1 tablespoon sugar, 5 garlic cloves grated, 1 teaspoon grated ginger",
+    "3 green onions, cut in pieces",
+    "1 teaspoon sesame oil"
+   ],
+   "steps": [
+    "Cut the vegetables. Ask an adult to help.",
+    "Boil the chicken in water for 3 minutes, drain and rinse. This keeps the stew clear.",
+    "Mix the sauce ingredients.",
+    "Put the chicken, sauce and 2 cups water in a pot and bring to a boil.",
+    "Cover and simmer for 15 minutes.",
+    "Add the potatoes, carrot and onion and simmer for 20 to 25 minutes, until tender and the chicken is 165°F (74°C).",
+    "Add the green onions and sesame oil. Serve with rice. Use less gochugaru for milder heat."
+   ]
+  },
+  {
+   "id": "korean-beef-bowl",
+   "name": "Korean ground beef bowl",
+   "aliases": [
+    "korean beef bowl",
+    "korean ground beef",
+    "easy bulgogi bowl",
+    "ground beef bulgogi",
+    "korean beef and rice"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "beef",
+    "soy sauce",
+    "brown sugar",
+    "garlic",
+    "rice"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "1 tablespoon vegetable oil",
+    "4 garlic cloves, chopped",
+    "1 teaspoon grated ginger",
+    "1/3 cup (80 ml) soy sauce",
+    "1/4 cup (50 g) brown sugar",
+    "2 teaspoons sesame oil",
+    "1/2 teaspoon chili flakes or 1 teaspoon gochujang (optional)",
+    "4 green onions, sliced",
+    "Rice, cucumber, sesame seeds and fried eggs to serve"
+   ],
+   "steps": [
+    "Chop the garlic and slice the green onions. Ask an adult to help.",
+    "Heat the oil in a big pan over medium-high heat and cook the beef for 6 to 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Add the garlic and ginger for 1 minute.",
+    "Add the soy sauce, sugar, sesame oil and chili and simmer for 2 minutes.",
+    "Stir in most of the green onions.",
+    "Spoon over rice and top with cucumber, sesame seeds, the rest of the green onions and an egg."
+   ]
+  },
+  {
+   "id": "huli-huli-chicken",
+   "name": "Huli huli chicken",
+   "aliases": [
+    "huli huli chicken",
+    "hawaiian chicken",
+    "huli huli",
+    "hawaiian bbq chicken",
+    "pineapple chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "pineapple juice",
+    "soy sauce",
+    "brown sugar",
+    "ginger"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) boneless chicken thighs",
+    "1 cup (240 ml) pineapple juice",
+    "1/2 cup (120 ml) soy sauce",
+    "1/2 cup (100 g) brown sugar",
+    "1/3 cup (80 ml) ketchup",
+    "1 tablespoon grated ginger",
+    "4 garlic cloves, grated",
+    "1 tablespoon sriracha (optional)",
+    "Grilled pineapple and green onions to serve"
+   ],
+   "steps": [
+    "Whisk the pineapple juice, soy sauce, sugar, ketchup, ginger, garlic and sriracha. Save 1 cup in a separate pot for the glaze.",
+    "Pour the rest over the chicken and marinate in the fridge for at least 2 hours. Wash your hands.",
+    "Simmer the saved cup for 8 to 10 minutes, until syrupy.",
+    "Heat the oven to 425°F (220°C) or heat a grill to medium-high. An adult should run the grill.",
+    "Lay the chicken on a foil-lined pan and bake for 20 minutes, or grill for 5 to 6 minutes per side.",
+    "Brush with glaze and bake for 5 minutes more, until sticky and 165°F (74°C).",
+    "Serve with pineapple and green onions."
+   ]
+  },
+  {
+   "id": "slow-cooker-kalua-pork",
+   "name": "Slow cooker kalua pork",
+   "aliases": [
+    "kalua pork",
+    "kalua pig",
+    "slow cooker kalua pork",
+    "hawaiian pulled pork",
+    "crockpot kalua pork"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "10 hr",
+   "main": [
+    "pork",
+    "sea salt",
+    "liquid smoke",
+    "cabbage"
+   ],
+   "ingredients": [
+    "4 to 5 lb (1.8 to 2.3 kg) boneless pork shoulder",
+    "1 tablespoon coarse Hawaiian or sea salt",
+    "1 1/2 tablespoons liquid smoke",
+    "6 garlic cloves (optional)",
+    "1/2 cup (120 ml) water",
+    "1/2 head cabbage, cut in wedges (optional)",
+    "Rice and macaroni salad to serve"
+   ],
+   "steps": [
+    "Poke the pork all over with a fork and tuck in the garlic. Ask an adult to help.",
+    "Rub the salt all over the pork. Wash your hands.",
+    "Put the pork in the slow cooker and pour the liquid smoke and water over it.",
+    "Cover and cook on low for 9 to 10 hours, until it falls apart.",
+    "If you're using cabbage, add it for the last 30 to 45 minutes.",
+    "Shred the pork with two forks and stir it into the juices. Taste and add more salt if needed."
+   ]
+  },
+  {
+   "id": "slow-cooker-honey-garlic-chicken",
+   "name": "Slow cooker honey garlic chicken",
+   "aliases": [
+    "slow cooker honey garlic chicken",
+    "crockpot honey garlic chicken",
+    "honey garlic chicken thighs crockpot",
+    "sticky slow cooker chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "4 hr 15 min",
+   "main": [
+    "chicken",
+    "honey",
+    "soy sauce",
+    "garlic"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) boneless chicken thighs",
+    "1/2 cup (120 ml) honey",
+    "1/3 cup (80 ml) soy sauce",
+    "1/4 cup (60 ml) ketchup",
+    "6 garlic cloves, chopped",
+    "1 teaspoon grated ginger",
+    "1/2 teaspoon chili flakes (optional)",
+    "2 tablespoons cornstarch mixed with 3 tablespoons water",
+    "Sesame seeds, green onions and rice"
+   ],
+   "steps": [
+    "Chop the garlic. Ask an adult to help.",
+    "Put the chicken in the slow cooker.",
+    "Whisk the honey, soy sauce, ketchup, garlic, ginger and chili flakes and pour over.",
+    "Cover and cook on low for 4 hours, or on high for 2 hours 30 minutes, until 165°F (74°C).",
+    "Lift out the chicken. Stir the cornstarch mix into the sauce, cover and cook on high for 10 to 15 minutes, until thick.",
+    "Shred or slice the chicken, toss in the sauce, and top with sesame seeds and green onions."
+   ]
+  },
+  {
+   "id": "slow-cooker-teriyaki-chicken",
+   "name": "Slow cooker teriyaki chicken",
+   "aliases": [
+    "slow cooker teriyaki chicken",
+    "crockpot teriyaki chicken",
+    "teriyaki chicken bowls",
+    "shredded teriyaki chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "4 hr 15 min",
+   "main": [
+    "chicken",
+    "soy sauce",
+    "brown sugar",
+    "ginger"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) boneless chicken thighs or breasts",
+    "1/2 cup (120 ml) soy sauce",
+    "1/2 cup (100 g) brown sugar",
+    "1/4 cup (60 ml) rice vinegar",
+    "1/4 cup (60 ml) water or pineapple juice",
+    "4 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "3 tablespoons cornstarch mixed with 3 tablespoons water",
+    "Rice, steamed broccoli and sesame seeds"
+   ],
+   "steps": [
+    "Chop the garlic. Ask an adult to help.",
+    "Put the chicken in the slow cooker.",
+    "Whisk the soy sauce, sugar, vinegar, water, garlic and ginger and pour over.",
+    "Cover and cook on low for 4 hours, or on high for 2 hours 30 minutes, until 165°F (74°C).",
+    "Lift out the chicken and shred it.",
+    "Stir the cornstarch mix into the sauce, cover and cook on high for 10 to 15 minutes, until thick.",
+    "Toss the chicken in the sauce and serve over rice with broccoli."
+   ]
+  },
+  {
+   "id": "slow-cooker-beef-ragu",
+   "name": "Slow cooker beef ragu",
+   "aliases": [
+    "beef ragu",
+    "slow cooker beef ragu",
+    "shredded beef ragu",
+    "crockpot ragu",
+    "short rib ragu"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "8 hr 30 min",
+   "main": [
+    "beef",
+    "tomato",
+    "carrot",
+    "onion",
+    "pasta"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) boneless beef chuck roast, cut in 4 pieces",
+    "1 teaspoon salt and 1/2 teaspoon pepper",
+    "2 tablespoons olive oil",
+    "1 onion, finely chopped",
+    "2 carrots, finely chopped",
+    "2 celery stalks, finely chopped",
+    "4 garlic cloves, chopped",
+    "2 tablespoons tomato paste",
+    "1 can (28 oz / 795 g) crushed tomatoes",
+    "1/2 cup (120 ml) beef broth or red wine",
+    "2 bay leaves and 1 teaspoon dried oregano",
+    "1 1/2 lb (680 g) pappardelle or rigatoni",
+    "Grated parmesan"
+   ],
+   "steps": [
+    "Chop the vegetables. Ask an adult to help.",
+    "Season the beef and brown it in the oil in a big pan over medium-high heat for 3 minutes per side. Put it in the slow cooker.",
+    "Cook the onion, carrots and celery in the same pan for 5 minutes. Add the garlic and tomato paste for 1 minute.",
+    "Add everything to the slow cooker with the tomatoes, broth, bay leaves and oregano.",
+    "Cover and cook on low for 8 hours, until the beef shreds easily.",
+    "Shred the beef in the sauce with two forks and take out the bay leaves.",
+    "Boil the pasta as the package says, toss with the ragu and top with parmesan."
+   ]
+  },
+  {
+   "id": "slow-cooker-chile-verde",
+   "name": "Slow cooker chile verde",
+   "aliases": [
+    "chile verde",
+    "pork chile verde",
+    "green chile pork",
+    "slow cooker chile verde",
+    "chili verde"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "8 hr 15 min",
+   "main": [
+    "pork",
+    "tomatillo",
+    "green chile",
+    "onion",
+    "cilantro"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) boneless pork shoulder, cut in 2 inch chunks",
+    "1 1/2 teaspoons salt",
+    "1 teaspoon ground cumin",
+    "1 lb (450 g) tomatillos, husked and halved",
+    "2 poblano peppers, seeded and chopped",
+    "1 jalapeno, seeded (optional)",
+    "1 onion, chopped",
+    "4 garlic cloves",
+    "1 cup (20 g) cilantro",
+    "1/2 cup (120 ml) chicken broth",
+    "1 teaspoon dried oregano",
+    "Tortillas, rice and lime to serve"
+   ],
+   "steps": [
+    "Chop the peppers and onion. Ask an adult to help.",
+    "Blend the tomatillos, poblanos, jalapeno, onion, garlic, cilantro and broth until fairly smooth.",
+    "Season the pork with salt, cumin and oregano and put it in the slow cooker. Wash your hands.",
+    "Pour the sauce over the pork.",
+    "Cover and cook on low for 8 hours, until the pork falls apart.",
+    "Break up the pork a little and serve with tortillas, rice and lime."
+   ]
+  },
+  {
+   "id": "air-fryer-chicken-tenders",
+   "name": "Air fryer chicken tenders",
+   "aliases": [
+    "air fryer chicken tenders",
+    "crispy chicken strips",
+    "homemade chicken fingers",
+    "panko chicken tenders",
+    "air fried chicken strips"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "chicken",
+    "panko",
+    "egg",
+    "parmesan"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) chicken tenderloins",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon paprika",
+    "1/2 cup (65 g) flour",
+    "2 large eggs, beaten",
+    "1 1/2 cups (75 g) panko",
+    "1/4 cup (25 g) grated parmesan",
+    "Cooking spray",
+    "Honey mustard or ketchup for dipping"
+   ],
+   "steps": [
+    "Season the chicken with salt, garlic powder and paprika.",
+    "Mix the panko and parmesan.",
+    "Coat each tender in flour, then egg, then panko, pressing it on. Wash your hands.",
+    "Lay in the air fryer basket in one layer and spray with oil.",
+    "Air fry at 400°F (200°C) for 10 to 12 minutes, flipping halfway, until golden and 165°F (74°C).",
+    "Serve with dipping sauce."
+   ]
+  },
+  {
+   "id": "air-fryer-chicken-wings",
+   "name": "Air fryer chicken wings",
+   "aliases": [
+    "air fryer wings",
+    "air fryer chicken wings",
+    "crispy wings",
+    "chicken wings",
+    "buffalo wings"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "chicken wing",
+    "baking powder",
+    "salt",
+    "sauce"
+   ],
+   "ingredients": [
+    "2 lb (900 g) chicken wings, split into flats and drums",
+    "1 tablespoon baking powder (not baking soda)",
+    "1 teaspoon salt",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon pepper",
+    "1/2 cup (120 ml) buffalo, barbecue or honey garlic sauce",
+    "Celery and ranch to serve"
+   ],
+   "steps": [
+    "Pat the wings very dry with paper towels.",
+    "Toss with baking powder, salt, garlic powder and pepper. Wash your hands.",
+    "Lay in the air fryer basket in one layer.",
+    "Air fry at 380°F (195°C) for 12 minutes. Flip.",
+    "Turn up to 400°F (200°C) and air fry for 8 to 10 minutes more, until crispy and 165°F (74°C).",
+    "Toss with your favorite sauce and serve with celery and ranch."
+   ]
+  },
+  {
+   "id": "air-fryer-salmon",
+   "name": "Air fryer salmon",
+   "aliases": [
+    "air fryer salmon",
+    "air fried salmon",
+    "quick salmon",
+    "honey mustard salmon"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "salmon",
+    "olive oil",
+    "garlic",
+    "lemon"
+   ],
+   "ingredients": [
+    "4 salmon fillets (6 oz / 170 g each)",
+    "1 tablespoon olive oil",
+    "1 teaspoon paprika",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 tablespoon honey (optional)",
+    "Lemon wedges"
+   ],
+   "steps": [
+    "Pat the salmon dry and brush with oil.",
+    "Mix the paprika, garlic powder, salt and pepper and sprinkle on top. Drizzle with honey.",
+    "Lay the salmon skin side down in the air fryer basket.",
+    "Air fry at 400°F (200°C) for 7 to 9 minutes, until it flakes and is 145°F (63°C).",
+    "Serve with lemon wedges."
+   ]
+  },
+  {
+   "id": "air-fryer-pork-chops",
+   "name": "Air fryer pork chops",
+   "aliases": [
+    "air fryer pork chops",
+    "air fried pork chops",
+    "boneless pork chops air fryer",
+    "crispy pork chops"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "pork chop",
+    "paprika",
+    "brown sugar",
+    "garlic"
+   ],
+   "ingredients": [
+    "4 boneless pork chops, about 1 inch (2.5 cm) thick",
+    "1 tablespoon olive oil",
+    "1 tablespoon brown sugar",
+    "1 teaspoon paprika",
+    "1 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper"
+   ],
+   "steps": [
+    "Pat the pork chops dry and rub with oil.",
+    "Mix the sugar and spices and rub on both sides. Wash your hands.",
+    "Lay in the air fryer basket in one layer.",
+    "Air fry at 400°F (200°C) for 10 to 12 minutes, flipping halfway, until 145°F (63°C).",
+    "Rest for 5 minutes before cutting."
+   ]
+  },
+  {
+   "id": "air-fryer-fish-sticks",
+   "name": "Air fryer fish sticks",
+   "aliases": [
+    "fish sticks",
+    "air fryer fish sticks",
+    "homemade fish fingers",
+    "fish fingers",
+    "crispy fish sticks"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "fish",
+    "panko",
+    "egg",
+    "flour"
+   ],
+   "ingredients": [
+    "1 lb (450 g) cod or other firm white fish, cut in 1 x 3 inch strips",
+    "1/2 teaspoon salt",
+    "1/2 cup (65 g) flour",
+    "2 large eggs, beaten",
+    "1 1/2 cups (75 g) panko",
+    "1 teaspoon paprika",
+    "1/2 teaspoon garlic powder",
+    "Cooking spray",
+    "Tartar sauce and lemon to serve"
+   ],
+   "steps": [
+    "Cut the fish into strips. Ask an adult to help.",
+    "Season the fish with salt. Mix the panko, paprika and garlic powder.",
+    "Coat each strip in flour, egg, then panko. Wash your hands.",
+    "Lay in the air fryer basket in one layer and spray with oil.",
+    "Air fry at 400°F (200°C) for 8 to 10 minutes, flipping halfway, until golden and 145°F (63°C).",
+    "Serve with tartar sauce and lemon."
+   ]
+  },
+  {
+   "id": "air-fryer-coconut-shrimp",
+   "name": "Air fryer coconut shrimp",
+   "aliases": [
+    "coconut shrimp",
+    "air fryer coconut shrimp",
+    "crispy coconut shrimp",
+    "coconut prawns"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "shrimp",
+    "coconut",
+    "panko",
+    "egg"
+   ],
+   "ingredients": [
+    "1 lb (450 g) large shrimp, peeled and deveined, tails on",
+    "1/2 teaspoon salt",
+    "1/2 cup (65 g) flour",
+    "2 large eggs, beaten",
+    "3/4 cup (60 g) sweetened shredded coconut",
+    "3/4 cup (40 g) panko",
+    "Cooking spray",
+    "Sweet chili sauce for dipping"
+   ],
+   "steps": [
+    "Pat the shrimp dry and sprinkle with salt.",
+    "Mix the coconut and panko.",
+    "Coat each shrimp in flour, egg, then the coconut mix. Wash your hands.",
+    "Lay in the air fryer basket in one layer and spray with oil.",
+    "Air fry at 390°F (200°C) for 8 to 10 minutes, flipping halfway, until golden and pink inside.",
+    "Serve with sweet chili sauce."
+   ]
+  },
+  {
+   "id": "crispy-tofu-stir-fry",
+   "name": "Crispy tofu and vegetables",
+   "aliases": [
+    "tofu stir fry",
+    "crispy tofu",
+    "tofu and vegetables",
+    "vegetarian tofu stir fry",
+    "sticky sesame tofu"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "tofu",
+    "broccoli",
+    "pepper",
+    "soy sauce",
+    "cornstarch"
+   ],
+   "ingredients": [
+    "1 block (14 oz / 400 g) extra firm tofu, pressed for 15 minutes",
+    "2 tablespoons cornstarch",
+    "3 tablespoons vegetable oil, divided",
+    "3 cups (225 g) broccoli florets",
+    "1 red bell pepper, sliced",
+    "1 carrot, sliced",
+    "2 garlic cloves, chopped",
+    "Sauce: 3 tablespoons soy sauce, 2 tablespoons maple syrup or honey, 1 tablespoon rice vinegar, 1 teaspoon sesame oil, 1 teaspoon cornstarch, 1/4 cup (60 ml) water",
+    "Sesame seeds and rice"
+   ],
+   "steps": [
+    "Press the tofu between towels under a heavy pan for 15 minutes, then cut in cubes. Ask an adult to help cut the vegetables.",
+    "Toss the tofu in cornstarch.",
+    "Heat 2 tablespoons oil in a big pan over medium-high heat and fry the tofu for 8 to 10 minutes, turning, until crispy on all sides. Lift out.",
+    "Add the rest of the oil and stir-fry the broccoli, pepper and carrot for 4 minutes. Add the garlic for 30 seconds.",
+    "Mix the sauce, pour it in and cook for 1 minute, until thick.",
+    "Toss in the tofu and top with sesame seeds. Serve with rice."
+   ]
+  },
+  {
+   "id": "air-fryer-tofu",
+   "name": "Air fryer crispy tofu",
+   "aliases": [
+    "air fryer tofu",
+    "air fried tofu",
+    "crispy tofu cubes",
+    "baked tofu"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "tofu",
+    "soy sauce",
+    "cornstarch",
+    "sesame oil"
+   ],
+   "ingredients": [
+    "1 block (14 oz / 400 g) extra firm tofu, pressed for 15 minutes",
+    "1 tablespoon soy sauce",
+    "1 tablespoon sesame or vegetable oil",
+    "1/2 teaspoon garlic powder",
+    "1 tablespoon cornstarch",
+    "Peanut sauce or sweet chili sauce for dipping"
+   ],
+   "steps": [
+    "Press the tofu for 15 minutes and cut in 1 inch cubes. Ask an adult to help.",
+    "Toss the tofu with soy sauce, oil and garlic powder.",
+    "Sprinkle with cornstarch and toss gently until coated.",
+    "Lay in the air fryer basket in one layer.",
+    "Air fry at 400°F (200°C) for 12 to 15 minutes, shaking halfway, until crispy.",
+    "Serve with dipping sauce, over rice or in a bowl with vegetables."
+   ]
+  },
+  {
+   "id": "egg-roll-in-a-bowl",
+   "name": "Egg roll in a bowl",
+   "aliases": [
+    "egg roll in a bowl",
+    "unstuffed egg roll",
+    "crack slaw",
+    "egg roll bowl"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "pork",
+    "coleslaw mix",
+    "soy sauce",
+    "ginger"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground pork, chicken or turkey",
+    "1 tablespoon sesame oil",
+    "3 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "1 bag (14 oz / 400 g) coleslaw mix",
+    "1/4 cup (60 ml) soy sauce",
+    "1 tablespoon rice vinegar",
+    "1 teaspoon sriracha (optional)",
+    "3 green onions, sliced",
+    "Sesame seeds"
+   ],
+   "steps": [
+    "Chop the garlic and slice the green onions. Ask an adult to help.",
+    "Heat the oil in a big pan over medium-high heat and cook the meat for 6 to 8 minutes, breaking it up, until browned and cooked through (165°F / 74°C for chicken or turkey).",
+    "Add the garlic and ginger for 1 minute.",
+    "Add the coleslaw mix, soy sauce, vinegar and sriracha and cook for 4 to 5 minutes, until the cabbage is just tender.",
+    "Top with green onions and sesame seeds."
+   ]
+  },
+  {
+   "id": "sweet-potato-black-bean-tacos",
+   "name": "Sweet potato black bean tacos",
+   "aliases": [
+    "sweet potato tacos",
+    "sweet potato black bean tacos",
+    "vegetarian tacos",
+    "veggie tacos",
+    "black bean tacos"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "sweet potato",
+    "black bean",
+    "tortilla",
+    "avocado"
+   ],
+   "ingredients": [
+    "2 sweet potatoes, peeled and cut in 1/2 inch cubes",
+    "2 tablespoons olive oil",
+    "1 teaspoon chili powder",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon smoked paprika",
+    "3/4 teaspoon salt",
+    "1 can (15 oz / 425 g) black beans, drained",
+    "8 small corn or flour tortillas",
+    "1 avocado, sliced",
+    "Crumbled cotija or feta, cilantro and lime"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C).",
+    "Cut the sweet potatoes. Ask an adult to help.",
+    "Toss with oil, spices and salt and spread on a sheet pan.",
+    "Roast for 20 to 25 minutes, stirring once, until tender and browned.",
+    "Warm the black beans in a small pot for 3 minutes.",
+    "Warm the tortillas and fill with sweet potato, beans, avocado, cheese, cilantro and a squeeze of lime."
+   ]
+  },
+  {
+   "id": "stuffed-sweet-potatoes",
+   "name": "Stuffed sweet potatoes",
+   "aliases": [
+    "stuffed sweet potatoes",
+    "loaded sweet potatoes",
+    "twice baked sweet potatoes",
+    "sweet potato boats"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "sweet potato",
+    "black bean",
+    "corn",
+    "cheese"
+   ],
+   "ingredients": [
+    "4 medium sweet potatoes",
+    "1 can (15 oz / 425 g) black beans, drained",
+    "1 cup (150 g) corn",
+    "1/2 cup (120 ml) salsa",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon salt",
+    "1 cup (100 g) shredded cheddar or pepper jack",
+    "Sour cream, green onions and avocado to serve"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C).",
+    "Prick the sweet potatoes with a fork and bake on a sheet pan for 45 to 50 minutes, until soft.",
+    "Mix the beans, corn, salsa, cumin and salt.",
+    "An adult splits the hot potatoes open. Fluff the inside with a fork.",
+    "Spoon the bean mix in and top with cheese.",
+    "Bake for 5 to 8 minutes more, until the cheese melts.",
+    "Top with sour cream, green onions and avocado."
+   ]
+  },
+  {
+   "id": "lentil-bolognese",
+   "name": "Lentil bolognese",
+   "aliases": [
+    "lentil bolognese",
+    "vegetarian bolognese",
+    "vegan bolognese",
+    "lentil pasta sauce",
+    "meatless bolognese"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "lentil",
+    "tomato",
+    "carrot",
+    "pasta"
+   ],
+   "ingredients": [
+    "2 tablespoons olive oil",
+    "1 onion, finely chopped",
+    "1 carrot, finely chopped",
+    "1 celery stalk, finely chopped",
+    "3 garlic cloves, chopped",
+    "2 tablespoons tomato paste",
+    "1 cup (200 g) brown or green lentils, rinsed",
+    "1 can (28 oz / 795 g) crushed tomatoes",
+    "2 1/2 cups (600 ml) vegetable broth",
+    "1 teaspoon dried oregano and 1 bay leaf",
+    "1 teaspoon salt",
+    "1 lb (450 g) spaghetti or rigatoni",
+    "Grated parmesan and basil"
+   ],
+   "steps": [
+    "Chop the vegetables. Ask an adult to help.",
+    "Heat the oil in a pot over medium heat and cook the onion, carrot and celery for 8 minutes.",
+    "Add the garlic and tomato paste for 1 minute.",
+    "Add the lentils, tomatoes, broth, oregano, bay leaf and salt and bring to a boil.",
+    "Simmer for 30 to 35 minutes, stirring now and then, until the lentils are tender and the sauce is thick.",
+    "Boil the pasta as the package says and toss with the sauce. Top with parmesan and basil."
+   ]
+  },
+  {
+   "id": "sheet-pan-chicken-vegetables",
+   "name": "Sheet pan chicken and vegetables",
+   "aliases": [
+    "sheet pan chicken and vegetables",
+    "sheet pan chicken",
+    "one pan chicken dinner",
+    "roasted chicken and veggies"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "chicken",
+    "broccoli",
+    "potato",
+    "olive oil"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless chicken thighs or breasts, cut in 1 1/2 inch pieces",
+    "1 lb (450 g) baby potatoes, halved",
+    "3 cups (225 g) broccoli florets",
+    "1 red onion, cut in wedges",
+    "3 tablespoons olive oil",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "1 teaspoon dried Italian herbs",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 lemon"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C).",
+    "Cut the chicken and vegetables. Ask an adult to help.",
+    "Toss the potatoes with 1 tablespoon oil and a pinch of salt and roast for 15 minutes.",
+    "Toss the chicken, broccoli and onion with the rest of the oil and the seasonings. Wash your hands.",
+    "Add them to the pan with the potatoes and roast for 20 to 22 minutes, until the chicken is 165°F (74°C).",
+    "Squeeze the lemon over everything."
+   ]
+  }
+ ]
+}

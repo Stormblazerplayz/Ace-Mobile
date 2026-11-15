@@ -1,0 +1,19 @@
+# tag: tech.apps.photo
+what is a layer mask in photoshop | hide part of a layer => A layer mask hides parts of a layer without erasing them. Paint black on the mask to hide and white to bring back, so you can always fix mistakes.
+what is content aware fill | remove things in photoshop => Content-Aware Fill fills a selected area with matching background, removing objects. Select the object, then use Edit > Content-Aware Fill.
+what is an adjustment layer | non destructive edits photoshop => An adjustment layer changes color or brightness of the layers below without changing the pixels, so you can tweak or delete it later.
+what is lightroom | lightroom vs photoshop => Lightroom is Adobe's app for organizing and editing lots of photos with sliders for light and color. Photoshop is for detailed edits like removing or combining things.
+what is snapseed | free photo editor phone => Snapseed is a free photo editing app from Google with tools like healing, brush edits and selective adjustments.
+what is gimp | free photoshop alternative => GIMP is a free, open-source image editor for Windows, Mac and Linux with layers, masks and filters similar to Photoshop.
+what is krita | free drawing app pc => Krita is a free, open-source painting app for PC made by artists, with great brushes and animation tools. It's popular with drawing tablet users.
+what is affinity | affinity photo designer => Affinity is a set of design apps for photo editing, illustration and page layout, known as an alternative to Adobe.
+what is inkscape | free vector app => Inkscape is a free, open-source vector drawing app, similar to Illustrator, good for logos and laser cutting designs.
+what is illustrator | adobe illustrator used for => Illustrator is Adobe's vector design app for logos, icons and illustrations that stay sharp at any size.
+how do i remove a background in canva | canva background remover => Select the image, click Edit and choose Background Remover. It's part of Canva's paid plan, though Canva for Education accounts often include it.
+what is magic resize in canva | resize design canva => Magic Resize, or Resize, turns one design into other sizes, like an Instagram post into a YouTube thumbnail. It's a paid Canva feature.
+what is pixlr | pixlr editor => Pixlr is a free online photo editor that runs in your browser, with simple and advanced modes.
+how do i straighten a photo | fix crooked horizon photo => Most photo apps have a straighten or rotate slider in the crop tool. Line the grid up with the horizon and crop.
+what is the healing brush | spot healing => The healing brush paints over spots or marks by copying nearby texture and blending it in, great for dust and blemishes.
+what is non destructive editing | edit without ruining original => Non-destructive editing keeps your original image untouched, saving changes as adjustments you can undo anytime, like in Lightroom or with adjustment layers.
+what is a photo preset | lightroom presets => A preset is a saved set of edits you apply in one click to give photos a consistent look.
+what is the clone stamp tool | clone tool photoshop => The clone stamp copies one part of an image onto another exactly. Alt-click to pick the source, then paint where you want it.
