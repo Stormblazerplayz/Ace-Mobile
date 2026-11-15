@@ -54,6 +54,13 @@ final class Brain {
     private(set) var lastRecipe: RecipeCard?
     /// What a follow-up like "what about tomorrow" turned into, so the next follow-up builds on it.
     private var resolvedQuestion: String?
+    /// The game being played (trivia or 20 questions), if any.
+    private(set) var game: ActiveGame?
+    /// Changes with every new game question. Cards whose token doesn't match it are old and stop taking taps.
+    private(set) var gameToken = ""
+    private var gameSerial = 0
+    /// Trivia questions asked lately, so a new round brings new ones.
+    private var recentTrivia: [String] = []
 
     /// How sure the answer bank has to be to answer straight away.
     static let sure = 0.74
@@ -98,6 +105,11 @@ final class Brain {
             if Rx.matches(#"^(no|nope|nah|no thanks|do not|dont|cancel|never mind|nevermind|stop|n|leave it)( thanks| thank you)?$"#, t) {
                 return finish(BrainReply(text: Say.line(.homeCancelled), thoughts: thoughts, source: "home", mood: .idle), question: text)
             }
+        }
+
+        // Playing trivia or 20 questions: answers go to the game.
+        if game != nil, let r = playGame(text) {
+            return finish(r, question: text)
         }
 
         // Answering "do you mean A or B?"
@@ -642,6 +654,8 @@ final class Brain {
         pendingHome = nil
         lastRecipe = nil
         resolvedQuestion = nil
+        game = nil
+        gameToken = ""
     }
 
     /// Sets the recipe follow-ups change (for tests).
@@ -756,6 +770,8 @@ final class Brain {
         case .recipe: return "a recipe"
         case .recipeTweak: return "changing the recipe"
         case .script: return "a script"
+        case .translate, .translateList: return "translating"
+        case .game: return "a game"
         case .weather: return "the weather"
         case .check: return "a full check"
         case .battery: return "the battery"
@@ -943,6 +959,27 @@ final class Brain {
                 return BrainReply(text: Say.line(.scriptNeedOne, ["examples": TextKit.joinList(examples, last: "or")]), source: "Ace's script library")
             }
             return BrainReply(text: Say.line(.scriptNotFound, ["examples": TextKit.joinList(examples, last: "or")]), source: "Ace's script library", mood: .idle)
+
+        case .translate(let phrase, let code):
+            // Ace's phrasebook: everyday words and phrases in 12 languages, with no internet.
+            let language = Phrasebook.languageName(code)
+            guard let e = Phrasebook.find(phrase), let card = Phrasebook.card(e, code: code) else {
+                return BrainReply(text: Say.line(.translateUnknown, ["phrase": phrase, "language": language,
+                                                                     "examples": TextKit.joinList(Phrasebook.examples, last: "or")]),
+                                  source: "Ace's phrasebook", mood: .idle)
+            }
+            await think("Found \"\(e.en)\" in my \(language) phrasebook")
+            lastTopic = e.en
+            let shown = card.say.map { "\(card.text) (\($0))" } ?? card.text
+            return BrainReply(text: Say.line(.translated, ["phrase": e.en, "language": language, "text": shown]),
+                              cards: [.translation(card)], source: "Ace's phrasebook")
+
+        case .translateList:
+            return BrainReply(text: Say.line(.translateLanguages, ["languages": TextKit.joinList(Phrasebook.languages.map(\.name))]),
+                              source: "Ace's phrasebook")
+
+        case .game(let which):
+            return startGame(which)
 
         case .recipeTweak(let ask):
             guard let change = RecipeTweaks.parse(ask) else { return nil }
@@ -1161,6 +1198,141 @@ final class Brain {
             }
             return r.reply
         }
+    }
+
+    // MARK: Games
+
+    /// Starts trivia ("trivia" or "trivia:Space") or 20 questions ("twenty").
+    func startGame(_ which: String) -> BrainReply {
+        gameSerial += 1
+        if which == "twenty" {
+            let r = twentyMove(TwentyRound(), lead: Say.line(.twentyStart))
+            return r
+        }
+        let category = which.hasPrefix("trivia:") ? String(which.dropFirst(7)) : nil
+        let questions = Trivia.newRound(category: category, avoiding: Set(recentTrivia))
+        guard !questions.isEmpty else { return BrainReply(text: Say.line(.empty), mood: .idle) }
+        recentTrivia = Array((recentTrivia + questions.map(\.id)).suffix(120))
+        let round = TriviaRound(category: category, questions: questions)
+        let lead = Say.line(.triviaStart, ["count": "\(questions.count)", "topic": category?.lowercased() ?? "everything"])
+        return triviaNext(round, lead: lead)
+    }
+
+    /// An answer (or "stop") while a game is on. Nil when the message is about something else, so Ace answers that instead.
+    func playGame(_ text: String) -> BrainReply? {
+        guard let current = game else { return nil }
+        let t = TextKit.normalize(text).trimmingCharacters(in: CharacterSet(charactersIn: ".!? "))
+        let stop = Rx.matches(#"^(?:ok |okay )?(stop|quit|exit|end|done|i am done|i quit|stop playing|stop the game|end the game|quit the game|end game|game over|no more|that is enough|enough|never mind|nevermind|cancel|i do not want to play)(?: please| now| playing| the game| thanks| thank you)?$"#, t)
+        // Starting a new game, or a whole new request ("what's the weather in Paris"), isn't an answer.
+        var tappedChoice = false
+        if case .trivia(let round) = current, let q = round.current {
+            tappedChoice = q.choices.contains { TextKit.normalize($0) == t }
+        }
+        if !stop, !tappedChoice, let intent = IntentRouter.parse(text), intent.kind == "game" || t.split(separator: " ").count > 4 {
+            if case .twenty(let r) = current, r.step == .whatWasIt { endGame() }
+            return nil
+        }
+        switch current {
+        case .trivia(var round):
+            guard let q = round.current else { endGame(); return nil }
+            if stop {
+                endGame()
+                return BrainReply(text: Say.line(.triviaStopped, ["score": "\(round.score)", "total": "\(round.index)"]), source: "trivia", mood: .idle)
+            }
+            let answer = "\(Trivia.letter(q.answer)): \(q.choices[q.answer])"
+            let lead: String
+            if Rx.matches(#"^(?:skip|pass|next|next one|next question|i do not know|i dont know|dont know|do not know|no idea|i have no idea|idk|not sure|i am not sure|i give up|give up|tell me|tell me the answer|what is it|what is the answer)(?: please| one| question| it| this one)?$"#, t) {
+                lead = Say.line(.triviaSkipped, ["answer": answer])
+            } else if let i = Trivia.pick(text, for: q) {
+                if i == q.answer {
+                    round.score += 1
+                    lead = Say.line(.triviaRight, ["fact": q.fact])
+                } else {
+                    lead = Say.line(.triviaWrong, ["answer": answer, "fact": q.fact])
+                }
+            } else {
+                return nil
+            }
+            round.index += 1
+            return triviaNext(round, lead: lead)
+
+        case .twenty(var round):
+            if stop {
+                endGame()
+                return BrainReply(text: Say.line(.twentyStopped), source: "20 questions", mood: .idle)
+            }
+            switch round.step {
+            case .asking(let id):
+                guard let reply = TwentyQuestions.reply(text) else { return nil }
+                switch reply {
+                case .dontKnow: round.answers.append(TwentyQuestions.Answer(question: id, value: nil))
+                case .value(let v): round.answers.append(TwentyQuestions.Answer(question: id, value: v))
+                }
+                return twentyMove(round, lead: nil)
+            case .guessing(let name):
+                guard let reply = TwentyQuestions.reply(text) else { return nil }
+                if case .value(let v) = reply, v > 0.9 {
+                    endGame()
+                    return BrainReply(text: Say.line(.twentyWin, ["thing": name, "count": "\(round.used)"]), source: "20 questions", mood: .happy)
+                }
+                round.wrong.insert(name.lowercased())
+                return twentyMove(round, lead: Say.line(.twentyWrongGuess))
+            case .whatWasIt:
+                endGame()
+                guard let thing = TwentyQuestions.thingName(text) else { return nil }
+                // Remember it with your answers, so Ace can guess it next time.
+                let known = TwentyQuestions.allThings().first { $0.name.lowercased() == thing.lowercased() }
+                var answers = known?.answers ?? [:]
+                for a in round.answers { if let v = a.value { answers[a.question] = v } }
+                TwentyQuestions.learn(known?.name ?? thing, answers: answers)
+                return BrainReply(text: TextKit.capitalizeFirst(Say.line(.twentyLearned, ["thing": known?.name ?? thing])), source: "20 questions")
+            }
+        }
+    }
+
+    private func endGame() {
+        game = nil
+        gameToken = ""
+    }
+
+    /// The next trivia question, or the score when the round is over.
+    private func triviaNext(_ round: TriviaRound, lead: String?) -> BrainReply {
+        guard let q = round.current else {
+            endGame()
+            let done = Say.line(.triviaDone, ["score": "\(round.score)", "total": "\(round.questions.count)"])
+            return BrainReply(text: [lead, done].compactMap { $0 }.joined(separator: "\n\n"), source: "trivia", mood: .happy)
+        }
+        game = .trivia(round)
+        gameToken = "t\(gameSerial)-\(round.index)"
+        let line = Say.line(.triviaQuestion, ["number": "\(round.index + 1)", "question": Trivia.spoken(q)])
+        let card = TriviaCard(token: gameToken, number: round.index + 1, total: round.questions.count, category: q.category,
+                              question: q.q, choices: q.choices, score: round.score)
+        return BrainReply(text: [lead, line].compactMap { $0 }.joined(separator: "\n\n"), cards: [.trivia(card)], source: "trivia")
+    }
+
+    /// Ace's next 20 questions move: a question, a guess, or giving up and asking what it was.
+    private func twentyMove(_ round: TwentyRound, lead: String?) -> BrainReply {
+        var round = round
+        let line: String
+        switch TwentyQuestions.nextMove(round, things: TwentyQuestions.allThings()) {
+        case .ask(let q):
+            round.used += 1
+            round.step = .asking(q.id)
+            line = Say.line(.twentyQuestion, ["number": "\(round.used)", "question": q.ask])
+        case .guess(let name):
+            round.used += 1
+            round.step = .guessing(name)
+            line = Say.line(.twentyGuess, ["number": "\(round.used)", "thing": name])
+        case .giveUp:
+            round.step = .whatWasIt
+            game = .twenty(round)
+            gameToken = "w\(gameSerial)-ask"
+            return BrainReply(text: [lead, Say.line(.twentyLose)].compactMap { $0 }.joined(separator: " "), source: "20 questions")
+        }
+        game = .twenty(round)
+        gameToken = "w\(gameSerial)-\(round.used)"
+        let buttons = QuickReplies(token: gameToken, replies: ["Yes", "No", "Maybe", "I don't know"])
+        return BrainReply(text: [lead, line].compactMap { $0 }.joined(separator: "\n\n"), cards: [.quickReplies(buttons)], source: "20 questions")
     }
 
     // MARK: Calendar and reminders

@@ -77,14 +77,15 @@ final class SmartnessTests: XCTestCase {
             guard case .multi(let gotParts) = got, gotParts.count == parts.count else { return false }
             return zip(gotParts, parts).allSatisfy { passes($0.0, $0.1) }
         }
-        if let ids = e.bank {
-            switch got {
-            case .bank(let id), .weakBank(let id): return ids.contains(id)
-            default: return false
+        // With both bank and skill, either one counts (the translator or the answer bank can answer "how do you say hello in spanish").
+        if e.bank != nil || e.skill != nil {
+            if let ids = e.bank {
+                switch got {
+                case .bank(let id), .weakBank(let id): if ids.contains(id) { return true }
+                default: break
+                }
             }
-        }
-        if let skill = e.skill {
-            if case .skill(let kind) = got { return kind == skill }
+            if let skill = e.skill, case .skill(let kind) = got, kind == skill { return true }
             return false
         }
         if e.unknown == true {

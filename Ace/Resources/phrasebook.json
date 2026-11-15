@@ -1,0 +1,8091 @@
+{
+ "format": "ace-phrases/1",
+ "languages": [
+  {
+   "code": "es",
+   "name": "Spanish"
+  },
+  {
+   "code": "fr",
+   "name": "French"
+  },
+  {
+   "code": "de",
+   "name": "German"
+  },
+  {
+   "code": "it",
+   "name": "Italian"
+  },
+  {
+   "code": "pt",
+   "name": "Portuguese"
+  },
+  {
+   "code": "ja",
+   "name": "Japanese"
+  },
+  {
+   "code": "zh",
+   "name": "Chinese"
+  },
+  {
+   "code": "ko",
+   "name": "Korean"
+  },
+  {
+   "code": "hi",
+   "name": "Hindi"
+  },
+  {
+   "code": "ar",
+   "name": "Arabic"
+  },
+  {
+   "code": "ru",
+   "name": "Russian"
+  },
+  {
+   "code": "nl",
+   "name": "Dutch"
+  }
+ ],
+ "entries": [
+  {
+   "en": "hello",
+   "also": [
+    "hi there",
+    "hiya"
+   ],
+   "t": {
+    "es": "Hola",
+    "fr": "Bonjour",
+    "de": "Hallo",
+    "it": "Ciao",
+    "pt": "Olá",
+    "ja": "こんにちは",
+    "zh": "你好",
+    "ko": "안녕하세요",
+    "hi": "नमस्ते",
+    "ar": "مرحبا",
+    "ru": "Здравствуйте",
+    "nl": "Hallo"
+   },
+   "say": {
+    "ja": "konnichiwa",
+    "zh": "nǐ hǎo",
+    "ko": "annyeonghaseyo",
+    "hi": "namaste",
+    "ar": "marhaban",
+    "ru": "zdravstvuyte"
+   }
+  },
+  {
+   "en": "hi",
+   "also": [
+    "hey"
+   ],
+   "t": {
+    "es": "Hola",
+    "fr": "Salut",
+    "de": "Hi",
+    "it": "Ciao",
+    "pt": "Oi",
+    "ja": "やあ",
+    "zh": "嗨",
+    "ko": "안녕",
+    "hi": "हाय",
+    "ar": "أهلا",
+    "ru": "Привет",
+    "nl": "Hoi"
+   },
+   "say": {
+    "ja": "yaa",
+    "zh": "hāi",
+    "ko": "annyeong",
+    "hi": "haay",
+    "ar": "ahlan",
+    "ru": "privet"
+   }
+  },
+  {
+   "en": "goodbye",
+   "also": [
+    "good bye"
+   ],
+   "t": {
+    "es": "Adiós",
+    "fr": "Au revoir",
+    "de": "Auf Wiedersehen",
+    "it": "Arrivederci",
+    "pt": "Tchau",
+    "ja": "さようなら",
+    "zh": "再见",
+    "ko": "안녕히 가세요",
+    "hi": "अलविदा",
+    "ar": "مع السلامة",
+    "ru": "До свидания",
+    "nl": "Tot ziens"
+   },
+   "say": {
+    "ja": "sayounara",
+    "zh": "zàijiàn",
+    "ko": "annyeonghi gaseyo",
+    "hi": "alvida",
+    "ar": "ma'a as-salaama",
+    "ru": "do svidaniya"
+   }
+  },
+  {
+   "en": "bye",
+   "also": [
+    "bye bye"
+   ],
+   "t": {
+    "es": "Chao",
+    "fr": "Salut",
+    "de": "Tschüss",
+    "it": "Ciao",
+    "pt": "Tchau",
+    "ja": "バイバイ",
+    "zh": "拜拜",
+    "ko": "잘 가",
+    "hi": "बाय",
+    "ar": "باي",
+    "ru": "Пока",
+    "nl": "Doei"
+   },
+   "say": {
+    "ja": "baibai",
+    "zh": "bàibai",
+    "ko": "jal ga",
+    "hi": "baay",
+    "ar": "baay",
+    "ru": "poka"
+   }
+  },
+  {
+   "en": "good morning",
+   "also": [],
+   "t": {
+    "es": "Buenos días",
+    "fr": "Bonjour",
+    "de": "Guten Morgen",
+    "it": "Buongiorno",
+    "pt": "Bom dia",
+    "ja": "おはようございます",
+    "zh": "早上好",
+    "ko": "좋은 아침이에요",
+    "hi": "सुप्रभात",
+    "ar": "صباح الخير",
+    "ru": "Доброе утро",
+    "nl": "Goedemorgen"
+   },
+   "say": {
+    "ja": "ohayou gozaimasu",
+    "zh": "zǎoshang hǎo",
+    "ko": "joeun achimieyo",
+    "hi": "suprabhaat",
+    "ar": "sabaah al-khayr",
+    "ru": "dobroye utro"
+   }
+  },
+  {
+   "en": "good afternoon",
+   "also": [],
+   "t": {
+    "es": "Buenas tardes",
+    "fr": "Bonjour",
+    "de": "Guten Tag",
+    "it": "Buon pomeriggio",
+    "pt": "Boa tarde",
+    "ja": "こんにちは",
+    "zh": "下午好",
+    "ko": "안녕하세요",
+    "hi": "नमस्ते",
+    "ar": "مساء الخير",
+    "ru": "Добрый день",
+    "nl": "Goedemiddag"
+   },
+   "say": {
+    "ja": "konnichiwa",
+    "zh": "xiàwǔ hǎo",
+    "ko": "annyeonghaseyo",
+    "hi": "namaste",
+    "ar": "masaa' al-khayr",
+    "ru": "dobry den"
+   }
+  },
+  {
+   "en": "good evening",
+   "also": [],
+   "t": {
+    "es": "Buenas noches",
+    "fr": "Bonsoir",
+    "de": "Guten Abend",
+    "it": "Buonasera",
+    "pt": "Boa noite",
+    "ja": "こんばんは",
+    "zh": "晚上好",
+    "ko": "안녕하세요",
+    "hi": "शुभ संध्या",
+    "ar": "مساء الخير",
+    "ru": "Добрый вечер",
+    "nl": "Goedenavond"
+   },
+   "say": {
+    "ja": "konbanwa",
+    "zh": "wǎnshang hǎo",
+    "ko": "annyeonghaseyo",
+    "hi": "shubh sandhya",
+    "ar": "masaa' al-khayr",
+    "ru": "dobry vecher"
+   }
+  },
+  {
+   "en": "good night",
+   "also": [
+    "goodnight",
+    "night night"
+   ],
+   "t": {
+    "es": "Buenas noches",
+    "fr": "Bonne nuit",
+    "de": "Gute Nacht",
+    "it": "Buonanotte",
+    "pt": "Boa noite",
+    "ja": "おやすみなさい",
+    "zh": "晚安",
+    "ko": "안녕히 주무세요",
+    "hi": "शुभ रात्रि",
+    "ar": "ليلة سعيدة",
+    "ru": "Спокойной ночи",
+    "nl": "Welterusten"
+   },
+   "say": {
+    "ja": "oyasuminasai",
+    "zh": "wǎn'ān",
+    "ko": "annyeonghi jumuseyo",
+    "hi": "shubh raatri",
+    "ar": "layla sa'eeda",
+    "ru": "spokoynoy nochi"
+   }
+  },
+  {
+   "en": "how are you",
+   "also": [
+    "how are you doing",
+    "how's it going"
+   ],
+   "t": {
+    "es": "¿Cómo está?",
+    "fr": "Comment allez-vous ?",
+    "de": "Wie geht es Ihnen?",
+    "it": "Come sta?",
+    "pt": "Como vai?",
+    "ja": "お元気ですか？",
+    "zh": "你好吗？",
+    "ko": "어떻게 지내세요?",
+    "hi": "आप कैसे हैं?",
+    "ar": "كيف الحال؟",
+    "ru": "Как у вас дела?",
+    "nl": "Hoe gaat het?"
+   },
+   "say": {
+    "ja": "ogenki desu ka?",
+    "zh": "nǐ hǎo ma?",
+    "ko": "eotteoke jinaeseyo?",
+    "hi": "aap kaise hain?",
+    "ar": "kayf al-haal?",
+    "ru": "kak u vas dela?"
+   }
+  },
+  {
+   "en": "i'm fine",
+   "also": [
+    "i am fine",
+    "i'm good",
+    "i am good",
+    "i'm okay"
+   ],
+   "t": {
+    "es": "Estoy bien",
+    "fr": "Je vais bien",
+    "de": "Mir geht es gut",
+    "it": "Sto bene",
+    "pt": "Estou bem",
+    "ja": "元気です",
+    "zh": "我很好",
+    "ko": "잘 지내요",
+    "hi": "मैं ठीक हूँ",
+    "ar": "أنا بخير",
+    "ru": "Всё хорошо",
+    "nl": "Het gaat goed"
+   },
+   "say": {
+    "ja": "genki desu",
+    "zh": "wǒ hěn hǎo",
+    "ko": "jal jinaeyo",
+    "hi": "main theek hoon",
+    "ar": "ana bikhayr",
+    "ru": "vsyo khorosho"
+   }
+  },
+  {
+   "en": "nice to meet you",
+   "also": [
+    "pleased to meet you"
+   ],
+   "t": {
+    "es": "Mucho gusto",
+    "fr": "Enchanté(e)",
+    "de": "Freut mich",
+    "it": "Piacere",
+    "pt": "Muito prazer",
+    "ja": "はじめまして",
+    "zh": "很高兴认识你",
+    "ko": "만나서 반갑습니다",
+    "hi": "आपसे मिलकर ख़ुशी हुई",
+    "ar": "تشرفنا",
+    "ru": "Приятно познакомиться",
+    "nl": "Aangenaam"
+   },
+   "say": {
+    "ja": "hajimemashite",
+    "zh": "hěn gāoxìng rènshi nǐ",
+    "ko": "mannaseo bangapseumnida",
+    "hi": "aapse milkar khushi hui",
+    "ar": "tasharrafna",
+    "ru": "priyatno poznakomitsya"
+   }
+  },
+  {
+   "en": "my name is ...",
+   "also": [
+    "my name is",
+    "i am called",
+    "i'm called"
+   ],
+   "t": {
+    "es": "Me llamo ...",
+    "fr": "Je m'appelle ...",
+    "de": "Ich heiße ...",
+    "it": "Mi chiamo ...",
+    "pt": "Meu nome é ...",
+    "ja": "私の名前は...です",
+    "zh": "我叫...",
+    "ko": "제 이름은 ...입니다",
+    "hi": "मेरा नाम ... है",
+    "ar": "اسمي ...",
+    "ru": "Меня зовут ...",
+    "nl": "Ik heet ..."
+   },
+   "say": {
+    "ja": "watashi no namae wa ... desu",
+    "zh": "wǒ jiào ...",
+    "ko": "je ireumeun ...imnida",
+    "hi": "mera naam ... hai",
+    "ar": "ismi ...",
+    "ru": "menya zovut ..."
+   }
+  },
+  {
+   "en": "what is your name",
+   "also": [
+    "what's your name"
+   ],
+   "t": {
+    "es": "¿Cómo se llama?",
+    "fr": "Comment vous appelez-vous ?",
+    "de": "Wie heißen Sie?",
+    "it": "Come si chiama?",
+    "pt": "Qual é o seu nome?",
+    "ja": "お名前は何ですか？",
+    "zh": "你叫什么名字？",
+    "ko": "이름이 뭐예요?",
+    "hi": "आपका नाम क्या है?",
+    "ar": "ما اسمك؟",
+    "ru": "Как вас зовут?",
+    "nl": "Hoe heet u?"
+   },
+   "say": {
+    "ja": "onamae wa nan desu ka?",
+    "zh": "nǐ jiào shénme míngzi?",
+    "ko": "ireumi mwoyeyo?",
+    "hi": "aapka naam kya hai?",
+    "ar": "maa ismuk?",
+    "ru": "kak vas zovut?"
+   }
+  },
+  {
+   "en": "how old are you",
+   "also": [],
+   "t": {
+    "es": "¿Cuántos años tiene?",
+    "fr": "Quel âge avez-vous ?",
+    "de": "Wie alt sind Sie?",
+    "it": "Quanti anni ha?",
+    "pt": "Quantos anos você tem?",
+    "ja": "何歳ですか？",
+    "zh": "你几岁了？",
+    "ko": "몇 살이에요?",
+    "hi": "आपकी उम्र क्या है?",
+    "ar": "كم عمرك؟",
+    "ru": "Сколько вам лет?",
+    "nl": "Hoe oud bent u?"
+   },
+   "say": {
+    "ja": "nansai desu ka?",
+    "zh": "nǐ jǐ suì le?",
+    "ko": "myeot sarieyo?",
+    "hi": "aapki umr kya hai?",
+    "ar": "kam 'umruk?",
+    "ru": "skolko vam let?"
+   }
+  },
+  {
+   "en": "i am ... years old",
+   "also": [
+    "i'm ... years old"
+   ],
+   "t": {
+    "es": "Tengo ... años",
+    "fr": "J'ai ... ans",
+    "de": "Ich bin ... Jahre alt",
+    "it": "Ho ... anni",
+    "pt": "Tenho ... anos",
+    "ja": "...歳です",
+    "zh": "我...岁",
+    "ko": "저는 ...살이에요",
+    "hi": "मैं ... साल का / की हूँ",
+    "ar": "عمري ... سنة",
+    "ru": "Мне ... лет",
+    "nl": "Ik ben ... jaar oud"
+   },
+   "say": {
+    "ja": "...sai desu",
+    "zh": "wǒ ... suì",
+    "ko": "jeoneun ...sarieyo",
+    "hi": "main ... saal ka / ki hoon",
+    "ar": "'umri ... sana",
+    "ru": "mne ... let"
+   }
+  },
+  {
+   "en": "where are you from",
+   "also": [],
+   "t": {
+    "es": "¿De dónde es usted?",
+    "fr": "D'où venez-vous ?",
+    "de": "Woher kommen Sie?",
+    "it": "Di dov'è?",
+    "pt": "De onde você é?",
+    "ja": "どこから来ましたか？",
+    "zh": "你是哪里人？",
+    "ko": "어디에서 왔어요?",
+    "hi": "आप कहाँ से हैं?",
+    "ar": "من أين أنت؟",
+    "ru": "Откуда вы?",
+    "nl": "Waar komt u vandaan?"
+   },
+   "say": {
+    "ja": "doko kara kimashita ka?",
+    "zh": "nǐ shì nǎlǐ rén?",
+    "ko": "eodieseo wasseoyo?",
+    "hi": "aap kahaan se hain?",
+    "ar": "min ayna anta?",
+    "ru": "otkuda vy?"
+   }
+  },
+  {
+   "en": "i am from ...",
+   "also": [
+    "i'm from ..."
+   ],
+   "t": {
+    "es": "Soy de ...",
+    "fr": "Je viens de ...",
+    "de": "Ich komme aus ...",
+    "it": "Sono di ...",
+    "pt": "Sou de ...",
+    "ja": "...から来ました",
+    "zh": "我来自...",
+    "ko": "저는 ...에서 왔어요",
+    "hi": "मैं ... से हूँ",
+    "ar": "أنا من ...",
+    "ru": "Я из ...",
+    "nl": "Ik kom uit ..."
+   },
+   "say": {
+    "ja": "...kara kimashita",
+    "zh": "wǒ láizì ...",
+    "ko": "jeoneun ...eseo wasseoyo",
+    "hi": "main ... se hoon",
+    "ar": "ana min ...",
+    "ru": "ya iz ..."
+   }
+  },
+  {
+   "en": "see you later",
+   "also": [
+    "see ya",
+    "see you soon"
+   ],
+   "t": {
+    "es": "Hasta luego",
+    "fr": "À plus tard",
+    "de": "Bis später",
+    "it": "A dopo",
+    "pt": "Até mais",
+    "ja": "また後で",
+    "zh": "回头见",
+    "ko": "나중에 봐요",
+    "hi": "फिर मिलेंगे",
+    "ar": "أراك لاحقا",
+    "ru": "Увидимся",
+    "nl": "Tot later"
+   },
+   "say": {
+    "ja": "mata ato de",
+    "zh": "huítóu jiàn",
+    "ko": "najunge bwayo",
+    "hi": "phir milenge",
+    "ar": "araaka laahiqan",
+    "ru": "uvidimsya"
+   }
+  },
+  {
+   "en": "see you tomorrow",
+   "also": [],
+   "t": {
+    "es": "Hasta mañana",
+    "fr": "À demain",
+    "de": "Bis morgen",
+    "it": "A domani",
+    "pt": "Até amanhã",
+    "ja": "また明日",
+    "zh": "明天见",
+    "ko": "내일 봐요",
+    "hi": "कल मिलते हैं",
+    "ar": "أراك غدا",
+    "ru": "До завтра",
+    "nl": "Tot morgen"
+   },
+   "say": {
+    "ja": "mata ashita",
+    "zh": "míngtiān jiàn",
+    "ko": "naeil bwayo",
+    "hi": "kal milte hain",
+    "ar": "araaka ghadan",
+    "ru": "do zavtra"
+   }
+  },
+  {
+   "en": "please",
+   "also": [
+    "pls"
+   ],
+   "t": {
+    "es": "Por favor",
+    "fr": "S'il vous plaît",
+    "de": "Bitte",
+    "it": "Per favore",
+    "pt": "Por favor",
+    "ja": "お願いします",
+    "zh": "请",
+    "ko": "부탁합니다",
+    "hi": "कृपया",
+    "ar": "من فضلك",
+    "ru": "Пожалуйста",
+    "nl": "Alstublieft"
+   },
+   "say": {
+    "ja": "onegaishimasu",
+    "zh": "qǐng",
+    "ko": "butakamnida",
+    "hi": "kripya",
+    "ar": "min fadlak",
+    "ru": "pozhaluysta"
+   }
+  },
+  {
+   "en": "thank you",
+   "also": [
+    "thanks"
+   ],
+   "t": {
+    "es": "Gracias",
+    "fr": "Merci",
+    "de": "Danke",
+    "it": "Grazie",
+    "pt": "Obrigado/a",
+    "ja": "ありがとうございます",
+    "zh": "谢谢",
+    "ko": "감사합니다",
+    "hi": "धन्यवाद",
+    "ar": "شكرا",
+    "ru": "Спасибо",
+    "nl": "Dank u wel"
+   },
+   "say": {
+    "ja": "arigatou gozaimasu",
+    "zh": "xièxie",
+    "ko": "gamsahamnida",
+    "hi": "dhanyavaad",
+    "ar": "shukran",
+    "ru": "spasibo"
+   }
+  },
+  {
+   "en": "thank you very much",
+   "also": [
+    "thanks a lot",
+    "thank you so much"
+   ],
+   "t": {
+    "es": "Muchas gracias",
+    "fr": "Merci beaucoup",
+    "de": "Vielen Dank",
+    "it": "Grazie mille",
+    "pt": "Muito obrigado/a",
+    "ja": "どうもありがとうございます",
+    "zh": "非常感谢",
+    "ko": "정말 감사합니다",
+    "hi": "बहुत धन्यवाद",
+    "ar": "شكرا جزيلا",
+    "ru": "Большое спасибо",
+    "nl": "Hartelijk bedankt"
+   },
+   "say": {
+    "ja": "doumo arigatou gozaimasu",
+    "zh": "fēicháng gǎnxiè",
+    "ko": "jeongmal gamsahamnida",
+    "hi": "bahut dhanyavaad",
+    "ar": "shukran jazeelan",
+    "ru": "bolshoye spasibo"
+   }
+  },
+  {
+   "en": "you're welcome",
+   "also": [
+    "you are welcome",
+    "your welcome"
+   ],
+   "t": {
+    "es": "De nada",
+    "fr": "De rien",
+    "de": "Gern geschehen",
+    "it": "Prego",
+    "pt": "De nada",
+    "ja": "どういたしまして",
+    "zh": "不客气",
+    "ko": "천만에요",
+    "hi": "कोई बात नहीं",
+    "ar": "عفوا",
+    "ru": "Пожалуйста",
+    "nl": "Graag gedaan"
+   },
+   "say": {
+    "ja": "douitashimashite",
+    "zh": "bú kèqi",
+    "ko": "cheonmaneyo",
+    "hi": "koi baat nahin",
+    "ar": "'afwan",
+    "ru": "pozhaluysta"
+   }
+  },
+  {
+   "en": "sorry",
+   "also": [
+    "i'm sorry",
+    "i am sorry"
+   ],
+   "t": {
+    "es": "Lo siento",
+    "fr": "Désolé(e)",
+    "de": "Es tut mir leid",
+    "it": "Mi dispiace",
+    "pt": "Desculpe",
+    "ja": "ごめんなさい",
+    "zh": "对不起",
+    "ko": "죄송합니다",
+    "hi": "माफ़ कीजिए",
+    "ar": "آسف / آسفة",
+    "ru": "Простите",
+    "nl": "Het spijt me"
+   },
+   "say": {
+    "ja": "gomennasai",
+    "zh": "duìbuqǐ",
+    "ko": "joesonghamnida",
+    "hi": "maaf kijiye",
+    "ar": "aasif / aasifa",
+    "ru": "prostite"
+   }
+  },
+  {
+   "en": "excuse me",
+   "also": [
+    "pardon me"
+   ],
+   "t": {
+    "es": "Disculpe",
+    "fr": "Excusez-moi",
+    "de": "Entschuldigung",
+    "it": "Mi scusi",
+    "pt": "Com licença",
+    "ja": "すみません",
+    "zh": "不好意思",
+    "ko": "실례합니다",
+    "hi": "सुनिए",
+    "ar": "لو سمحت",
+    "ru": "Извините",
+    "nl": "Pardon"
+   },
+   "say": {
+    "ja": "sumimasen",
+    "zh": "bù hǎoyìsi",
+    "ko": "sillyehamnida",
+    "hi": "suniye",
+    "ar": "law samaht",
+    "ru": "izvinite"
+   }
+  },
+  {
+   "en": "no problem",
+   "also": [
+    "no worries"
+   ],
+   "t": {
+    "es": "No hay problema",
+    "fr": "Pas de problème",
+    "de": "Kein Problem",
+    "it": "Nessun problema",
+    "pt": "Sem problemas",
+    "ja": "大丈夫です",
+    "zh": "没问题",
+    "ko": "괜찮아요",
+    "hi": "कोई बात नहीं",
+    "ar": "لا مشكلة",
+    "ru": "Без проблем",
+    "nl": "Geen probleem"
+   },
+   "say": {
+    "ja": "daijoubu desu",
+    "zh": "méi wèntí",
+    "ko": "gwaenchanayo",
+    "hi": "koi baat nahin",
+    "ar": "laa mushkila",
+    "ru": "bez problem"
+   }
+  },
+  {
+   "en": "yes",
+   "also": [
+    "yeah",
+    "yep"
+   ],
+   "t": {
+    "es": "Sí",
+    "fr": "Oui",
+    "de": "Ja",
+    "it": "Sì",
+    "pt": "Sim",
+    "ja": "はい",
+    "zh": "是的",
+    "ko": "네",
+    "hi": "हाँ",
+    "ar": "نعم",
+    "ru": "Да",
+    "nl": "Ja"
+   },
+   "say": {
+    "ja": "hai",
+    "zh": "shì de",
+    "ko": "ne",
+    "hi": "haan",
+    "ar": "na'am",
+    "ru": "da"
+   }
+  },
+  {
+   "en": "no",
+   "also": [
+    "nope"
+   ],
+   "t": {
+    "es": "No",
+    "fr": "Non",
+    "de": "Nein",
+    "it": "No",
+    "pt": "Não",
+    "ja": "いいえ",
+    "zh": "不是",
+    "ko": "아니요",
+    "hi": "नहीं",
+    "ar": "لا",
+    "ru": "Нет",
+    "nl": "Nee"
+   },
+   "say": {
+    "ja": "iie",
+    "zh": "bú shì",
+    "ko": "aniyo",
+    "hi": "nahin",
+    "ar": "laa",
+    "ru": "net"
+   }
+  },
+  {
+   "en": "okay",
+   "also": [
+    "ok",
+    "alright",
+    "all right"
+   ],
+   "t": {
+    "es": "Está bien",
+    "fr": "D'accord",
+    "de": "In Ordnung",
+    "it": "Va bene",
+    "pt": "Tá bom",
+    "ja": "いいですよ",
+    "zh": "好的",
+    "ko": "좋아요",
+    "hi": "ठीक है",
+    "ar": "حسنا",
+    "ru": "Хорошо",
+    "nl": "Oké"
+   },
+   "say": {
+    "ja": "ii desu yo",
+    "zh": "hǎo de",
+    "ko": "joayo",
+    "hi": "theek hai",
+    "ar": "hasanan",
+    "ru": "khorosho"
+   }
+  },
+  {
+   "en": "maybe",
+   "also": [
+    "perhaps"
+   ],
+   "t": {
+    "es": "Quizás",
+    "fr": "Peut-être",
+    "de": "Vielleicht",
+    "it": "Forse",
+    "pt": "Talvez",
+    "ja": "たぶん",
+    "zh": "也许",
+    "ko": "아마",
+    "hi": "शायद",
+    "ar": "ربما",
+    "ru": "Может быть",
+    "nl": "Misschien"
+   },
+   "say": {
+    "ja": "tabun",
+    "zh": "yěxǔ",
+    "ko": "ama",
+    "hi": "shaayad",
+    "ar": "rubbamaa",
+    "ru": "mozhet byt"
+   }
+  },
+  {
+   "en": "of course",
+   "also": [
+    "sure"
+   ],
+   "t": {
+    "es": "Claro",
+    "fr": "Bien sûr",
+    "de": "Natürlich",
+    "it": "Certo",
+    "pt": "Claro",
+    "ja": "もちろん",
+    "zh": "当然",
+    "ko": "물론이죠",
+    "hi": "ज़रूर",
+    "ar": "طبعا",
+    "ru": "Конечно",
+    "nl": "Natuurlijk"
+   },
+   "say": {
+    "ja": "mochiron",
+    "zh": "dāngrán",
+    "ko": "mullonijyo",
+    "hi": "zaroor",
+    "ar": "tab'an",
+    "ru": "konechno"
+   }
+  },
+  {
+   "en": "one",
+   "also": [
+    "1"
+   ],
+   "t": {
+    "es": "uno",
+    "fr": "un",
+    "de": "eins",
+    "it": "uno",
+    "pt": "um",
+    "ja": "一",
+    "zh": "一",
+    "ko": "하나 / 일",
+    "hi": "एक",
+    "ar": "واحد",
+    "ru": "один",
+    "nl": "één"
+   },
+   "say": {
+    "ja": "ichi",
+    "zh": "yī",
+    "ko": "hana / il",
+    "hi": "ek",
+    "ar": "waahid",
+    "ru": "odin"
+   }
+  },
+  {
+   "en": "two",
+   "also": [
+    "2"
+   ],
+   "t": {
+    "es": "dos",
+    "fr": "deux",
+    "de": "zwei",
+    "it": "due",
+    "pt": "dois",
+    "ja": "二",
+    "zh": "二",
+    "ko": "둘 / 이",
+    "hi": "दो",
+    "ar": "اثنان",
+    "ru": "два",
+    "nl": "twee"
+   },
+   "say": {
+    "ja": "ni",
+    "zh": "èr",
+    "ko": "dul / i",
+    "hi": "do",
+    "ar": "ithnaan",
+    "ru": "dva"
+   }
+  },
+  {
+   "en": "three",
+   "also": [
+    "3"
+   ],
+   "t": {
+    "es": "tres",
+    "fr": "trois",
+    "de": "drei",
+    "it": "tre",
+    "pt": "três",
+    "ja": "三",
+    "zh": "三",
+    "ko": "셋 / 삼",
+    "hi": "तीन",
+    "ar": "ثلاثة",
+    "ru": "три",
+    "nl": "drie"
+   },
+   "say": {
+    "ja": "san",
+    "zh": "sān",
+    "ko": "set / sam",
+    "hi": "teen",
+    "ar": "thalaatha",
+    "ru": "tri"
+   }
+  },
+  {
+   "en": "four",
+   "also": [
+    "4"
+   ],
+   "t": {
+    "es": "cuatro",
+    "fr": "quatre",
+    "de": "vier",
+    "it": "quattro",
+    "pt": "quatro",
+    "ja": "四",
+    "zh": "四",
+    "ko": "넷 / 사",
+    "hi": "चार",
+    "ar": "أربعة",
+    "ru": "четыре",
+    "nl": "vier"
+   },
+   "say": {
+    "ja": "yon",
+    "zh": "sì",
+    "ko": "net / sa",
+    "hi": "chaar",
+    "ar": "arba'a",
+    "ru": "chetyre"
+   }
+  },
+  {
+   "en": "five",
+   "also": [
+    "5"
+   ],
+   "t": {
+    "es": "cinco",
+    "fr": "cinq",
+    "de": "fünf",
+    "it": "cinque",
+    "pt": "cinco",
+    "ja": "五",
+    "zh": "五",
+    "ko": "다섯 / 오",
+    "hi": "पाँच",
+    "ar": "خمسة",
+    "ru": "пять",
+    "nl": "vijf"
+   },
+   "say": {
+    "ja": "go",
+    "zh": "wǔ",
+    "ko": "daseot / o",
+    "hi": "paanch",
+    "ar": "khamsa",
+    "ru": "pyat"
+   }
+  },
+  {
+   "en": "six",
+   "also": [
+    "6"
+   ],
+   "t": {
+    "es": "seis",
+    "fr": "six",
+    "de": "sechs",
+    "it": "sei",
+    "pt": "seis",
+    "ja": "六",
+    "zh": "六",
+    "ko": "여섯 / 육",
+    "hi": "छह",
+    "ar": "ستة",
+    "ru": "шесть",
+    "nl": "zes"
+   },
+   "say": {
+    "ja": "roku",
+    "zh": "liù",
+    "ko": "yeoseot / yuk",
+    "hi": "chhah",
+    "ar": "sitta",
+    "ru": "shest"
+   }
+  },
+  {
+   "en": "seven",
+   "also": [
+    "7"
+   ],
+   "t": {
+    "es": "siete",
+    "fr": "sept",
+    "de": "sieben",
+    "it": "sette",
+    "pt": "sete",
+    "ja": "七",
+    "zh": "七",
+    "ko": "일곱 / 칠",
+    "hi": "सात",
+    "ar": "سبعة",
+    "ru": "семь",
+    "nl": "zeven"
+   },
+   "say": {
+    "ja": "nana",
+    "zh": "qī",
+    "ko": "ilgop / chil",
+    "hi": "saat",
+    "ar": "sab'a",
+    "ru": "sem"
+   }
+  },
+  {
+   "en": "eight",
+   "also": [
+    "8"
+   ],
+   "t": {
+    "es": "ocho",
+    "fr": "huit",
+    "de": "acht",
+    "it": "otto",
+    "pt": "oito",
+    "ja": "八",
+    "zh": "八",
+    "ko": "여덟 / 팔",
+    "hi": "आठ",
+    "ar": "ثمانية",
+    "ru": "восемь",
+    "nl": "acht"
+   },
+   "say": {
+    "ja": "hachi",
+    "zh": "bā",
+    "ko": "yeodeol / pal",
+    "hi": "aath",
+    "ar": "thamaaniya",
+    "ru": "vosem"
+   }
+  },
+  {
+   "en": "nine",
+   "also": [
+    "9"
+   ],
+   "t": {
+    "es": "nueve",
+    "fr": "neuf",
+    "de": "neun",
+    "it": "nove",
+    "pt": "nove",
+    "ja": "九",
+    "zh": "九",
+    "ko": "아홉 / 구",
+    "hi": "नौ",
+    "ar": "تسعة",
+    "ru": "девять",
+    "nl": "negen"
+   },
+   "say": {
+    "ja": "kyuu",
+    "zh": "jiǔ",
+    "ko": "ahop / gu",
+    "hi": "nau",
+    "ar": "tis'a",
+    "ru": "devyat"
+   }
+  },
+  {
+   "en": "ten",
+   "also": [
+    "10"
+   ],
+   "t": {
+    "es": "diez",
+    "fr": "dix",
+    "de": "zehn",
+    "it": "dieci",
+    "pt": "dez",
+    "ja": "十",
+    "zh": "十",
+    "ko": "열 / 십",
+    "hi": "दस",
+    "ar": "عشرة",
+    "ru": "десять",
+    "nl": "tien"
+   },
+   "say": {
+    "ja": "juu",
+    "zh": "shí",
+    "ko": "yeol / sip",
+    "hi": "das",
+    "ar": "'ashara",
+    "ru": "desyat"
+   }
+  },
+  {
+   "en": "eleven",
+   "also": [
+    "11"
+   ],
+   "t": {
+    "es": "once",
+    "fr": "onze",
+    "de": "elf",
+    "it": "undici",
+    "pt": "onze",
+    "ja": "十一",
+    "zh": "十一",
+    "ko": "열하나 / 십일",
+    "hi": "ग्यारह",
+    "ar": "أحد عشر",
+    "ru": "одиннадцать",
+    "nl": "elf"
+   },
+   "say": {
+    "ja": "juuichi",
+    "zh": "shíyī",
+    "ko": "yeolhana / sibil",
+    "hi": "gyaarah",
+    "ar": "ahada 'ashar",
+    "ru": "odinnadtsat"
+   }
+  },
+  {
+   "en": "twelve",
+   "also": [
+    "12"
+   ],
+   "t": {
+    "es": "doce",
+    "fr": "douze",
+    "de": "zwölf",
+    "it": "dodici",
+    "pt": "doze",
+    "ja": "十二",
+    "zh": "十二",
+    "ko": "열둘 / 십이",
+    "hi": "बारह",
+    "ar": "اثنا عشر",
+    "ru": "двенадцать",
+    "nl": "twaalf"
+   },
+   "say": {
+    "ja": "juuni",
+    "zh": "shí'èr",
+    "ko": "yeoldul / sibi",
+    "hi": "baarah",
+    "ar": "ithnaa 'ashar",
+    "ru": "dvenadtsat"
+   }
+  },
+  {
+   "en": "thirteen",
+   "also": [
+    "13"
+   ],
+   "t": {
+    "es": "trece",
+    "fr": "treize",
+    "de": "dreizehn",
+    "it": "tredici",
+    "pt": "treze",
+    "ja": "十三",
+    "zh": "十三",
+    "ko": "열셋 / 십삼",
+    "hi": "तेरह",
+    "ar": "ثلاثة عشر",
+    "ru": "тринадцать",
+    "nl": "dertien"
+   },
+   "say": {
+    "ja": "juusan",
+    "zh": "shísān",
+    "ko": "yeolset / sipsam",
+    "hi": "terah",
+    "ar": "thalaathata 'ashar",
+    "ru": "trinadtsat"
+   }
+  },
+  {
+   "en": "fourteen",
+   "also": [
+    "14"
+   ],
+   "t": {
+    "es": "catorce",
+    "fr": "quatorze",
+    "de": "vierzehn",
+    "it": "quattordici",
+    "pt": "catorze",
+    "ja": "十四",
+    "zh": "十四",
+    "ko": "열넷 / 십사",
+    "hi": "चौदह",
+    "ar": "أربعة عشر",
+    "ru": "четырнадцать",
+    "nl": "veertien"
+   },
+   "say": {
+    "ja": "juuyon",
+    "zh": "shísì",
+    "ko": "yeollet / sipsa",
+    "hi": "chaudah",
+    "ar": "arba'ata 'ashar",
+    "ru": "chetyrnadtsat"
+   }
+  },
+  {
+   "en": "fifteen",
+   "also": [
+    "15"
+   ],
+   "t": {
+    "es": "quince",
+    "fr": "quinze",
+    "de": "fünfzehn",
+    "it": "quindici",
+    "pt": "quinze",
+    "ja": "十五",
+    "zh": "十五",
+    "ko": "열다섯 / 십오",
+    "hi": "पंद्रह",
+    "ar": "خمسة عشر",
+    "ru": "пятнадцать",
+    "nl": "vijftien"
+   },
+   "say": {
+    "ja": "juugo",
+    "zh": "shíwǔ",
+    "ko": "yeoldaseot / sibo",
+    "hi": "pandrah",
+    "ar": "khamsata 'ashar",
+    "ru": "pyatnadtsat"
+   }
+  },
+  {
+   "en": "sixteen",
+   "also": [
+    "16"
+   ],
+   "t": {
+    "es": "dieciséis",
+    "fr": "seize",
+    "de": "sechzehn",
+    "it": "sedici",
+    "pt": "dezesseis",
+    "ja": "十六",
+    "zh": "十六",
+    "ko": "열여섯 / 십육",
+    "hi": "सोलह",
+    "ar": "ستة عشر",
+    "ru": "шестнадцать",
+    "nl": "zestien"
+   },
+   "say": {
+    "ja": "juuroku",
+    "zh": "shíliù",
+    "ko": "yeollyeoseot / simnyuk",
+    "hi": "solah",
+    "ar": "sittata 'ashar",
+    "ru": "shestnadtsat"
+   }
+  },
+  {
+   "en": "seventeen",
+   "also": [
+    "17"
+   ],
+   "t": {
+    "es": "diecisiete",
+    "fr": "dix-sept",
+    "de": "siebzehn",
+    "it": "diciassette",
+    "pt": "dezessete",
+    "ja": "十七",
+    "zh": "十七",
+    "ko": "열일곱 / 십칠",
+    "hi": "सत्रह",
+    "ar": "سبعة عشر",
+    "ru": "семнадцать",
+    "nl": "zeventien"
+   },
+   "say": {
+    "ja": "juunana",
+    "zh": "shíqī",
+    "ko": "yeorilgop / sipchil",
+    "hi": "satrah",
+    "ar": "sab'ata 'ashar",
+    "ru": "semnadtsat"
+   }
+  },
+  {
+   "en": "eighteen",
+   "also": [
+    "18"
+   ],
+   "t": {
+    "es": "dieciocho",
+    "fr": "dix-huit",
+    "de": "achtzehn",
+    "it": "diciotto",
+    "pt": "dezoito",
+    "ja": "十八",
+    "zh": "十八",
+    "ko": "열여덟 / 십팔",
+    "hi": "अठारह",
+    "ar": "ثمانية عشر",
+    "ru": "восемнадцать",
+    "nl": "achttien"
+   },
+   "say": {
+    "ja": "juuhachi",
+    "zh": "shíbā",
+    "ko": "yeollyeodeol / sippal",
+    "hi": "athaarah",
+    "ar": "thamaaniyata 'ashar",
+    "ru": "vosemnadtsat"
+   }
+  },
+  {
+   "en": "nineteen",
+   "also": [
+    "19"
+   ],
+   "t": {
+    "es": "diecinueve",
+    "fr": "dix-neuf",
+    "de": "neunzehn",
+    "it": "diciannove",
+    "pt": "dezenove",
+    "ja": "十九",
+    "zh": "十九",
+    "ko": "열아홉 / 십구",
+    "hi": "उन्नीस",
+    "ar": "تسعة عشر",
+    "ru": "девятнадцать",
+    "nl": "negentien"
+   },
+   "say": {
+    "ja": "juukyuu",
+    "zh": "shíjiǔ",
+    "ko": "yeorahop / sipgu",
+    "hi": "unnees",
+    "ar": "tis'ata 'ashar",
+    "ru": "devyatnadtsat"
+   }
+  },
+  {
+   "en": "twenty",
+   "also": [
+    "20"
+   ],
+   "t": {
+    "es": "veinte",
+    "fr": "vingt",
+    "de": "zwanzig",
+    "it": "venti",
+    "pt": "vinte",
+    "ja": "二十",
+    "zh": "二十",
+    "ko": "스물 / 이십",
+    "hi": "बीस",
+    "ar": "عشرون",
+    "ru": "двадцать",
+    "nl": "twintig"
+   },
+   "say": {
+    "ja": "nijuu",
+    "zh": "èrshí",
+    "ko": "seumul / isip",
+    "hi": "bees",
+    "ar": "'ishroon",
+    "ru": "dvadtsat"
+   }
+  },
+  {
+   "en": "thirty",
+   "also": [
+    "30"
+   ],
+   "t": {
+    "es": "treinta",
+    "fr": "trente",
+    "de": "dreißig",
+    "it": "trenta",
+    "pt": "trinta",
+    "ja": "三十",
+    "zh": "三十",
+    "ko": "서른 / 삼십",
+    "hi": "तीस",
+    "ar": "ثلاثون",
+    "ru": "тридцать",
+    "nl": "dertig"
+   },
+   "say": {
+    "ja": "sanjuu",
+    "zh": "sānshí",
+    "ko": "seoreun / samsip",
+    "hi": "tees",
+    "ar": "thalaathoon",
+    "ru": "tridtsat"
+   }
+  },
+  {
+   "en": "forty",
+   "also": [
+    "40"
+   ],
+   "t": {
+    "es": "cuarenta",
+    "fr": "quarante",
+    "de": "vierzig",
+    "it": "quaranta",
+    "pt": "quarenta",
+    "ja": "四十",
+    "zh": "四十",
+    "ko": "마흔 / 사십",
+    "hi": "चालीस",
+    "ar": "أربعون",
+    "ru": "сорок",
+    "nl": "veertig"
+   },
+   "say": {
+    "ja": "yonjuu",
+    "zh": "sìshí",
+    "ko": "maheun / sasip",
+    "hi": "chaalees",
+    "ar": "arba'oon",
+    "ru": "sorok"
+   }
+  },
+  {
+   "en": "fifty",
+   "also": [
+    "50"
+   ],
+   "t": {
+    "es": "cincuenta",
+    "fr": "cinquante",
+    "de": "fünfzig",
+    "it": "cinquanta",
+    "pt": "cinquenta",
+    "ja": "五十",
+    "zh": "五十",
+    "ko": "쉰 / 오십",
+    "hi": "पचास",
+    "ar": "خمسون",
+    "ru": "пятьдесят",
+    "nl": "vijftig"
+   },
+   "say": {
+    "ja": "gojuu",
+    "zh": "wǔshí",
+    "ko": "swin / osip",
+    "hi": "pachaas",
+    "ar": "khamsoon",
+    "ru": "pyatdesyat"
+   }
+  },
+  {
+   "en": "one hundred",
+   "also": [
+    "100",
+    "hundred",
+    "a hundred"
+   ],
+   "t": {
+    "es": "cien",
+    "fr": "cent",
+    "de": "hundert",
+    "it": "cento",
+    "pt": "cem",
+    "ja": "百",
+    "zh": "一百",
+    "ko": "백",
+    "hi": "सौ",
+    "ar": "مئة",
+    "ru": "сто",
+    "nl": "honderd"
+   },
+   "say": {
+    "ja": "hyaku",
+    "zh": "yìbǎi",
+    "ko": "baek",
+    "hi": "sau",
+    "ar": "mi'a",
+    "ru": "sto"
+   }
+  },
+  {
+   "en": "one thousand",
+   "also": [
+    "1000",
+    "1,000",
+    "thousand",
+    "a thousand"
+   ],
+   "t": {
+    "es": "mil",
+    "fr": "mille",
+    "de": "tausend",
+    "it": "mille",
+    "pt": "mil",
+    "ja": "千",
+    "zh": "一千",
+    "ko": "천",
+    "hi": "हज़ार",
+    "ar": "ألف",
+    "ru": "тысяча",
+    "nl": "duizend"
+   },
+   "say": {
+    "ja": "sen",
+    "zh": "yìqiān",
+    "ko": "cheon",
+    "hi": "hazaar",
+    "ar": "alf",
+    "ru": "tysyacha"
+   }
+  },
+  {
+   "en": "color",
+   "also": [
+    "colour"
+   ],
+   "t": {
+    "es": "color",
+    "fr": "couleur",
+    "de": "Farbe",
+    "it": "colore",
+    "pt": "cor",
+    "ja": "色",
+    "zh": "颜色",
+    "ko": "색깔",
+    "hi": "रंग",
+    "ar": "لون",
+    "ru": "цвет",
+    "nl": "kleur"
+   },
+   "say": {
+    "ja": "iro",
+    "zh": "yánsè",
+    "ko": "saekkal",
+    "hi": "rang",
+    "ar": "lawn",
+    "ru": "tsvet"
+   }
+  },
+  {
+   "en": "red",
+   "also": [],
+   "t": {
+    "es": "rojo",
+    "fr": "rouge",
+    "de": "rot",
+    "it": "rosso",
+    "pt": "vermelho",
+    "ja": "赤",
+    "zh": "红色",
+    "ko": "빨간색",
+    "hi": "लाल",
+    "ar": "أحمر",
+    "ru": "красный",
+    "nl": "rood"
+   },
+   "say": {
+    "ja": "aka",
+    "zh": "hóngsè",
+    "ko": "ppalgansaek",
+    "hi": "laal",
+    "ar": "ahmar",
+    "ru": "krasny"
+   }
+  },
+  {
+   "en": "blue",
+   "also": [],
+   "t": {
+    "es": "azul",
+    "fr": "bleu",
+    "de": "blau",
+    "it": "blu",
+    "pt": "azul",
+    "ja": "青",
+    "zh": "蓝色",
+    "ko": "파란색",
+    "hi": "नीला",
+    "ar": "أزرق",
+    "ru": "синий",
+    "nl": "blauw"
+   },
+   "say": {
+    "ja": "ao",
+    "zh": "lánsè",
+    "ko": "paransaek",
+    "hi": "neela",
+    "ar": "azraq",
+    "ru": "siniy"
+   }
+  },
+  {
+   "en": "green",
+   "also": [],
+   "t": {
+    "es": "verde",
+    "fr": "vert",
+    "de": "grün",
+    "it": "verde",
+    "pt": "verde",
+    "ja": "緑",
+    "zh": "绿色",
+    "ko": "초록색",
+    "hi": "हरा",
+    "ar": "أخضر",
+    "ru": "зелёный",
+    "nl": "groen"
+   },
+   "say": {
+    "ja": "midori",
+    "zh": "lǜsè",
+    "ko": "choroksaek",
+    "hi": "hara",
+    "ar": "akhdar",
+    "ru": "zelyony"
+   }
+  },
+  {
+   "en": "yellow",
+   "also": [],
+   "t": {
+    "es": "amarillo",
+    "fr": "jaune",
+    "de": "gelb",
+    "it": "giallo",
+    "pt": "amarelo",
+    "ja": "黄色",
+    "zh": "黄色",
+    "ko": "노란색",
+    "hi": "पीला",
+    "ar": "أصفر",
+    "ru": "жёлтый",
+    "nl": "geel"
+   },
+   "say": {
+    "ja": "kiiro",
+    "zh": "huángsè",
+    "ko": "noransaek",
+    "hi": "peela",
+    "ar": "asfar",
+    "ru": "zhyolty"
+   }
+  },
+  {
+   "en": "orange",
+   "also": [],
+   "t": {
+    "es": "naranja",
+    "fr": "orange",
+    "de": "orange",
+    "it": "arancione",
+    "pt": "laranja",
+    "ja": "オレンジ色",
+    "zh": "橙色",
+    "ko": "주황색",
+    "hi": "नारंगी",
+    "ar": "برتقالي",
+    "ru": "оранжевый",
+    "nl": "oranje"
+   },
+   "say": {
+    "ja": "orenji iro",
+    "zh": "chéngsè",
+    "ko": "juhwangsaek",
+    "hi": "naarangi",
+    "ar": "burtuqaali",
+    "ru": "oranzhevy"
+   }
+  },
+  {
+   "en": "purple",
+   "also": [
+    "violet"
+   ],
+   "t": {
+    "es": "morado",
+    "fr": "violet",
+    "de": "lila",
+    "it": "viola",
+    "pt": "roxo",
+    "ja": "紫",
+    "zh": "紫色",
+    "ko": "보라색",
+    "hi": "बैंगनी",
+    "ar": "بنفسجي",
+    "ru": "фиолетовый",
+    "nl": "paars"
+   },
+   "say": {
+    "ja": "murasaki",
+    "zh": "zǐsè",
+    "ko": "borasaek",
+    "hi": "baingani",
+    "ar": "banafsaji",
+    "ru": "fioletovy"
+   }
+  },
+  {
+   "en": "pink",
+   "also": [],
+   "t": {
+    "es": "rosa",
+    "fr": "rose",
+    "de": "rosa",
+    "it": "rosa",
+    "pt": "rosa",
+    "ja": "ピンク",
+    "zh": "粉色",
+    "ko": "분홍색",
+    "hi": "गुलाबी",
+    "ar": "وردي",
+    "ru": "розовый",
+    "nl": "roze"
+   },
+   "say": {
+    "ja": "pinku",
+    "zh": "fěnsè",
+    "ko": "bunhongsaek",
+    "hi": "gulaabi",
+    "ar": "wardi",
+    "ru": "rozovy"
+   }
+  },
+  {
+   "en": "black",
+   "also": [],
+   "t": {
+    "es": "negro",
+    "fr": "noir",
+    "de": "schwarz",
+    "it": "nero",
+    "pt": "preto",
+    "ja": "黒",
+    "zh": "黑色",
+    "ko": "검은색",
+    "hi": "काला",
+    "ar": "أسود",
+    "ru": "чёрный",
+    "nl": "zwart"
+   },
+   "say": {
+    "ja": "kuro",
+    "zh": "hēisè",
+    "ko": "geomeunsaek",
+    "hi": "kaala",
+    "ar": "aswad",
+    "ru": "chyorny"
+   }
+  },
+  {
+   "en": "white",
+   "also": [],
+   "t": {
+    "es": "blanco",
+    "fr": "blanc",
+    "de": "weiß",
+    "it": "bianco",
+    "pt": "branco",
+    "ja": "白",
+    "zh": "白色",
+    "ko": "흰색",
+    "hi": "सफ़ेद",
+    "ar": "أبيض",
+    "ru": "белый",
+    "nl": "wit"
+   },
+   "say": {
+    "ja": "shiro",
+    "zh": "báisè",
+    "ko": "huinsaek",
+    "hi": "safed",
+    "ar": "abyad",
+    "ru": "bely"
+   }
+  },
+  {
+   "en": "brown",
+   "also": [],
+   "t": {
+    "es": "marrón",
+    "fr": "marron",
+    "de": "braun",
+    "it": "marrone",
+    "pt": "marrom",
+    "ja": "茶色",
+    "zh": "棕色",
+    "ko": "갈색",
+    "hi": "भूरा",
+    "ar": "بني",
+    "ru": "коричневый",
+    "nl": "bruin"
+   },
+   "say": {
+    "ja": "chairo",
+    "zh": "zōngsè",
+    "ko": "galsaek",
+    "hi": "bhoora",
+    "ar": "bunni",
+    "ru": "korichnevy"
+   }
+  },
+  {
+   "en": "gray",
+   "also": [
+    "grey"
+   ],
+   "t": {
+    "es": "gris",
+    "fr": "gris",
+    "de": "grau",
+    "it": "grigio",
+    "pt": "cinza",
+    "ja": "灰色",
+    "zh": "灰色",
+    "ko": "회색",
+    "hi": "स्लेटी",
+    "ar": "رمادي",
+    "ru": "серый",
+    "nl": "grijs"
+   },
+   "say": {
+    "ja": "haiiro",
+    "zh": "huīsè",
+    "ko": "hoesaek",
+    "hi": "sleti",
+    "ar": "ramaadi",
+    "ru": "sery"
+   }
+  },
+  {
+   "en": "monday",
+   "also": [],
+   "t": {
+    "es": "lunes",
+    "fr": "lundi",
+    "de": "Montag",
+    "it": "lunedì",
+    "pt": "segunda-feira",
+    "ja": "月曜日",
+    "zh": "星期一",
+    "ko": "월요일",
+    "hi": "सोमवार",
+    "ar": "الاثنين",
+    "ru": "понедельник",
+    "nl": "maandag"
+   },
+   "say": {
+    "ja": "getsuyoubi",
+    "zh": "xīngqīyī",
+    "ko": "woryoil",
+    "hi": "somvaar",
+    "ar": "al-ithnayn",
+    "ru": "ponedelnik"
+   }
+  },
+  {
+   "en": "tuesday",
+   "also": [],
+   "t": {
+    "es": "martes",
+    "fr": "mardi",
+    "de": "Dienstag",
+    "it": "martedì",
+    "pt": "terça-feira",
+    "ja": "火曜日",
+    "zh": "星期二",
+    "ko": "화요일",
+    "hi": "मंगलवार",
+    "ar": "الثلاثاء",
+    "ru": "вторник",
+    "nl": "dinsdag"
+   },
+   "say": {
+    "ja": "kayoubi",
+    "zh": "xīngqī'èr",
+    "ko": "hwayoil",
+    "hi": "mangalvaar",
+    "ar": "ath-thulaathaa'",
+    "ru": "vtornik"
+   }
+  },
+  {
+   "en": "wednesday",
+   "also": [],
+   "t": {
+    "es": "miércoles",
+    "fr": "mercredi",
+    "de": "Mittwoch",
+    "it": "mercoledì",
+    "pt": "quarta-feira",
+    "ja": "水曜日",
+    "zh": "星期三",
+    "ko": "수요일",
+    "hi": "बुधवार",
+    "ar": "الأربعاء",
+    "ru": "среда",
+    "nl": "woensdag"
+   },
+   "say": {
+    "ja": "suiyoubi",
+    "zh": "xīngqīsān",
+    "ko": "suyoil",
+    "hi": "budhvaar",
+    "ar": "al-arbi'aa'",
+    "ru": "sreda"
+   }
+  },
+  {
+   "en": "thursday",
+   "also": [],
+   "t": {
+    "es": "jueves",
+    "fr": "jeudi",
+    "de": "Donnerstag",
+    "it": "giovedì",
+    "pt": "quinta-feira",
+    "ja": "木曜日",
+    "zh": "星期四",
+    "ko": "목요일",
+    "hi": "गुरुवार",
+    "ar": "الخميس",
+    "ru": "четверг",
+    "nl": "donderdag"
+   },
+   "say": {
+    "ja": "mokuyoubi",
+    "zh": "xīngqīsì",
+    "ko": "mogyoil",
+    "hi": "guruvaar",
+    "ar": "al-khamees",
+    "ru": "chetverg"
+   }
+  },
+  {
+   "en": "friday",
+   "also": [],
+   "t": {
+    "es": "viernes",
+    "fr": "vendredi",
+    "de": "Freitag",
+    "it": "venerdì",
+    "pt": "sexta-feira",
+    "ja": "金曜日",
+    "zh": "星期五",
+    "ko": "금요일",
+    "hi": "शुक्रवार",
+    "ar": "الجمعة",
+    "ru": "пятница",
+    "nl": "vrijdag"
+   },
+   "say": {
+    "ja": "kinyoubi",
+    "zh": "xīngqīwǔ",
+    "ko": "geumyoil",
+    "hi": "shukravaar",
+    "ar": "al-jum'a",
+    "ru": "pyatnitsa"
+   }
+  },
+  {
+   "en": "saturday",
+   "also": [],
+   "t": {
+    "es": "sábado",
+    "fr": "samedi",
+    "de": "Samstag",
+    "it": "sabato",
+    "pt": "sábado",
+    "ja": "土曜日",
+    "zh": "星期六",
+    "ko": "토요일",
+    "hi": "शनिवार",
+    "ar": "السبت",
+    "ru": "суббота",
+    "nl": "zaterdag"
+   },
+   "say": {
+    "ja": "doyoubi",
+    "zh": "xīngqīliù",
+    "ko": "toyoil",
+    "hi": "shanivaar",
+    "ar": "as-sabt",
+    "ru": "subbota"
+   }
+  },
+  {
+   "en": "sunday",
+   "also": [],
+   "t": {
+    "es": "domingo",
+    "fr": "dimanche",
+    "de": "Sonntag",
+    "it": "domenica",
+    "pt": "domingo",
+    "ja": "日曜日",
+    "zh": "星期天",
+    "ko": "일요일",
+    "hi": "रविवार",
+    "ar": "الأحد",
+    "ru": "воскресенье",
+    "nl": "zondag"
+   },
+   "say": {
+    "ja": "nichiyoubi",
+    "zh": "xīngqītiān",
+    "ko": "iryoil",
+    "hi": "ravivaar",
+    "ar": "al-ahad",
+    "ru": "voskresenye"
+   }
+  },
+  {
+   "en": "january",
+   "also": [],
+   "t": {
+    "es": "enero",
+    "fr": "janvier",
+    "de": "Januar",
+    "it": "gennaio",
+    "pt": "janeiro",
+    "ja": "一月",
+    "zh": "一月",
+    "ko": "일월",
+    "hi": "जनवरी",
+    "ar": "يناير",
+    "ru": "январь",
+    "nl": "januari"
+   },
+   "say": {
+    "ja": "ichigatsu",
+    "zh": "yīyuè",
+    "ko": "irwol",
+    "hi": "janvari",
+    "ar": "yanaayir",
+    "ru": "yanvar"
+   }
+  },
+  {
+   "en": "february",
+   "also": [],
+   "t": {
+    "es": "febrero",
+    "fr": "février",
+    "de": "Februar",
+    "it": "febbraio",
+    "pt": "fevereiro",
+    "ja": "二月",
+    "zh": "二月",
+    "ko": "이월",
+    "hi": "फ़रवरी",
+    "ar": "فبراير",
+    "ru": "февраль",
+    "nl": "februari"
+   },
+   "say": {
+    "ja": "nigatsu",
+    "zh": "èryuè",
+    "ko": "iwol",
+    "hi": "farvari",
+    "ar": "fibraayir",
+    "ru": "fevral"
+   }
+  },
+  {
+   "en": "march",
+   "also": [],
+   "t": {
+    "es": "marzo",
+    "fr": "mars",
+    "de": "März",
+    "it": "marzo",
+    "pt": "março",
+    "ja": "三月",
+    "zh": "三月",
+    "ko": "삼월",
+    "hi": "मार्च",
+    "ar": "مارس",
+    "ru": "март",
+    "nl": "maart"
+   },
+   "say": {
+    "ja": "sangatsu",
+    "zh": "sānyuè",
+    "ko": "samwol",
+    "hi": "maarch",
+    "ar": "maaris",
+    "ru": "mart"
+   }
+  },
+  {
+   "en": "april",
+   "also": [],
+   "t": {
+    "es": "abril",
+    "fr": "avril",
+    "de": "April",
+    "it": "aprile",
+    "pt": "abril",
+    "ja": "四月",
+    "zh": "四月",
+    "ko": "사월",
+    "hi": "अप्रैल",
+    "ar": "أبريل",
+    "ru": "апрель",
+    "nl": "april"
+   },
+   "say": {
+    "ja": "shigatsu",
+    "zh": "sìyuè",
+    "ko": "sawol",
+    "hi": "aprail",
+    "ar": "abreel",
+    "ru": "aprel"
+   }
+  },
+  {
+   "en": "may",
+   "also": [],
+   "t": {
+    "es": "mayo",
+    "fr": "mai",
+    "de": "Mai",
+    "it": "maggio",
+    "pt": "maio",
+    "ja": "五月",
+    "zh": "五月",
+    "ko": "오월",
+    "hi": "मई",
+    "ar": "مايو",
+    "ru": "май",
+    "nl": "mei"
+   },
+   "say": {
+    "ja": "gogatsu",
+    "zh": "wǔyuè",
+    "ko": "owol",
+    "hi": "mai",
+    "ar": "maayu",
+    "ru": "may"
+   }
+  },
+  {
+   "en": "june",
+   "also": [],
+   "t": {
+    "es": "junio",
+    "fr": "juin",
+    "de": "Juni",
+    "it": "giugno",
+    "pt": "junho",
+    "ja": "六月",
+    "zh": "六月",
+    "ko": "유월",
+    "hi": "जून",
+    "ar": "يونيو",
+    "ru": "июнь",
+    "nl": "juni"
+   },
+   "say": {
+    "ja": "rokugatsu",
+    "zh": "liùyuè",
+    "ko": "yuwol",
+    "hi": "joon",
+    "ar": "yoonyu",
+    "ru": "iyun"
+   }
+  },
+  {
+   "en": "july",
+   "also": [],
+   "t": {
+    "es": "julio",
+    "fr": "juillet",
+    "de": "Juli",
+    "it": "luglio",
+    "pt": "julho",
+    "ja": "七月",
+    "zh": "七月",
+    "ko": "칠월",
+    "hi": "जुलाई",
+    "ar": "يوليو",
+    "ru": "июль",
+    "nl": "juli"
+   },
+   "say": {
+    "ja": "shichigatsu",
+    "zh": "qīyuè",
+    "ko": "chirwol",
+    "hi": "julaai",
+    "ar": "yoolyu",
+    "ru": "iyul"
+   }
+  },
+  {
+   "en": "august",
+   "also": [],
+   "t": {
+    "es": "agosto",
+    "fr": "août",
+    "de": "August",
+    "it": "agosto",
+    "pt": "agosto",
+    "ja": "八月",
+    "zh": "八月",
+    "ko": "팔월",
+    "hi": "अगस्त",
+    "ar": "أغسطس",
+    "ru": "август",
+    "nl": "augustus"
+   },
+   "say": {
+    "ja": "hachigatsu",
+    "zh": "bāyuè",
+    "ko": "parwol",
+    "hi": "agast",
+    "ar": "aghustus",
+    "ru": "avgust"
+   }
+  },
+  {
+   "en": "september",
+   "also": [],
+   "t": {
+    "es": "septiembre",
+    "fr": "septembre",
+    "de": "September",
+    "it": "settembre",
+    "pt": "setembro",
+    "ja": "九月",
+    "zh": "九月",
+    "ko": "구월",
+    "hi": "सितंबर",
+    "ar": "سبتمبر",
+    "ru": "сентябрь",
+    "nl": "september"
+   },
+   "say": {
+    "ja": "kugatsu",
+    "zh": "jiǔyuè",
+    "ko": "guwol",
+    "hi": "sitambar",
+    "ar": "sibtambar",
+    "ru": "sentyabr"
+   }
+  },
+  {
+   "en": "october",
+   "also": [],
+   "t": {
+    "es": "octubre",
+    "fr": "octobre",
+    "de": "Oktober",
+    "it": "ottobre",
+    "pt": "outubro",
+    "ja": "十月",
+    "zh": "十月",
+    "ko": "시월",
+    "hi": "अक्टूबर",
+    "ar": "أكتوبر",
+    "ru": "октябрь",
+    "nl": "oktober"
+   },
+   "say": {
+    "ja": "juugatsu",
+    "zh": "shíyuè",
+    "ko": "siwol",
+    "hi": "aktoobar",
+    "ar": "oktoobar",
+    "ru": "oktyabr"
+   }
+  },
+  {
+   "en": "november",
+   "also": [],
+   "t": {
+    "es": "noviembre",
+    "fr": "novembre",
+    "de": "November",
+    "it": "novembre",
+    "pt": "novembro",
+    "ja": "十一月",
+    "zh": "十一月",
+    "ko": "십일월",
+    "hi": "नवंबर",
+    "ar": "نوفمبر",
+    "ru": "ноябрь",
+    "nl": "november"
+   },
+   "say": {
+    "ja": "juuichigatsu",
+    "zh": "shíyīyuè",
+    "ko": "sibirwol",
+    "hi": "navambar",
+    "ar": "nofambar",
+    "ru": "noyabr"
+   }
+  },
+  {
+   "en": "december",
+   "also": [],
+   "t": {
+    "es": "diciembre",
+    "fr": "décembre",
+    "de": "Dezember",
+    "it": "dicembre",
+    "pt": "dezembro",
+    "ja": "十二月",
+    "zh": "十二月",
+    "ko": "십이월",
+    "hi": "दिसंबर",
+    "ar": "ديسمبر",
+    "ru": "декабрь",
+    "nl": "december"
+   },
+   "say": {
+    "ja": "juunigatsu",
+    "zh": "shí'èryuè",
+    "ko": "sibiwol",
+    "hi": "disambar",
+    "ar": "disambar",
+    "ru": "dekabr"
+   }
+  },
+  {
+   "en": "day",
+   "also": [],
+   "t": {
+    "es": "día",
+    "fr": "jour",
+    "de": "Tag",
+    "it": "giorno",
+    "pt": "dia",
+    "ja": "日",
+    "zh": "天",
+    "ko": "날",
+    "hi": "दिन",
+    "ar": "يوم",
+    "ru": "день",
+    "nl": "dag"
+   },
+   "say": {
+    "ja": "hi",
+    "zh": "tiān",
+    "ko": "nal",
+    "hi": "din",
+    "ar": "yawm",
+    "ru": "den"
+   }
+  },
+  {
+   "en": "week",
+   "also": [],
+   "t": {
+    "es": "semana",
+    "fr": "semaine",
+    "de": "Woche",
+    "it": "settimana",
+    "pt": "semana",
+    "ja": "週",
+    "zh": "星期",
+    "ko": "주",
+    "hi": "हफ़्ता",
+    "ar": "أسبوع",
+    "ru": "неделя",
+    "nl": "week"
+   },
+   "say": {
+    "ja": "shuu",
+    "zh": "xīngqī",
+    "ko": "ju",
+    "hi": "hafta",
+    "ar": "usboo'",
+    "ru": "nedelya"
+   }
+  },
+  {
+   "en": "month",
+   "also": [],
+   "t": {
+    "es": "mes",
+    "fr": "mois",
+    "de": "Monat",
+    "it": "mese",
+    "pt": "mês",
+    "ja": "月",
+    "zh": "月",
+    "ko": "달",
+    "hi": "महीना",
+    "ar": "شهر",
+    "ru": "месяц",
+    "nl": "maand"
+   },
+   "say": {
+    "ja": "tsuki",
+    "zh": "yuè",
+    "ko": "dal",
+    "hi": "maheena",
+    "ar": "shahr",
+    "ru": "mesyats"
+   }
+  },
+  {
+   "en": "year",
+   "also": [],
+   "t": {
+    "es": "año",
+    "fr": "an",
+    "de": "Jahr",
+    "it": "anno",
+    "pt": "ano",
+    "ja": "年",
+    "zh": "年",
+    "ko": "해",
+    "hi": "साल",
+    "ar": "سنة",
+    "ru": "год",
+    "nl": "jaar"
+   },
+   "say": {
+    "ja": "toshi",
+    "zh": "nián",
+    "ko": "hae",
+    "hi": "saal",
+    "ar": "sana",
+    "ru": "god"
+   }
+  },
+  {
+   "en": "today",
+   "also": [],
+   "t": {
+    "es": "hoy",
+    "fr": "aujourd'hui",
+    "de": "heute",
+    "it": "oggi",
+    "pt": "hoje",
+    "ja": "今日",
+    "zh": "今天",
+    "ko": "오늘",
+    "hi": "आज",
+    "ar": "اليوم",
+    "ru": "сегодня",
+    "nl": "vandaag"
+   },
+   "say": {
+    "ja": "kyou",
+    "zh": "jīntiān",
+    "ko": "oneul",
+    "hi": "aaj",
+    "ar": "al-yawm",
+    "ru": "sevodnya"
+   }
+  },
+  {
+   "en": "tomorrow",
+   "also": [],
+   "t": {
+    "es": "mañana",
+    "fr": "demain",
+    "de": "morgen",
+    "it": "domani",
+    "pt": "amanhã",
+    "ja": "明日",
+    "zh": "明天",
+    "ko": "내일",
+    "hi": "कल",
+    "ar": "غدا",
+    "ru": "завтра",
+    "nl": "morgen"
+   },
+   "say": {
+    "ja": "ashita",
+    "zh": "míngtiān",
+    "ko": "naeil",
+    "hi": "kal",
+    "ar": "ghadan",
+    "ru": "zavtra"
+   }
+  },
+  {
+   "en": "yesterday",
+   "also": [],
+   "t": {
+    "es": "ayer",
+    "fr": "hier",
+    "de": "gestern",
+    "it": "ieri",
+    "pt": "ontem",
+    "ja": "昨日",
+    "zh": "昨天",
+    "ko": "어제",
+    "hi": "कल",
+    "ar": "أمس",
+    "ru": "вчера",
+    "nl": "gisteren"
+   },
+   "say": {
+    "ja": "kinou",
+    "zh": "zuótiān",
+    "ko": "eoje",
+    "hi": "kal",
+    "ar": "ams",
+    "ru": "vchera"
+   }
+  },
+  {
+   "en": "now",
+   "also": [
+    "right now"
+   ],
+   "t": {
+    "es": "ahora",
+    "fr": "maintenant",
+    "de": "jetzt",
+    "it": "adesso",
+    "pt": "agora",
+    "ja": "今",
+    "zh": "现在",
+    "ko": "지금",
+    "hi": "अभी",
+    "ar": "الآن",
+    "ru": "сейчас",
+    "nl": "nu"
+   },
+   "say": {
+    "ja": "ima",
+    "zh": "xiànzài",
+    "ko": "jigeum",
+    "hi": "abhi",
+    "ar": "al-aan",
+    "ru": "seychas"
+   }
+  },
+  {
+   "en": "morning",
+   "also": [],
+   "t": {
+    "es": "mañana",
+    "fr": "matin",
+    "de": "Morgen",
+    "it": "mattina",
+    "pt": "manhã",
+    "ja": "朝",
+    "zh": "早上",
+    "ko": "아침",
+    "hi": "सुबह",
+    "ar": "صباح",
+    "ru": "утро",
+    "nl": "ochtend"
+   },
+   "say": {
+    "ja": "asa",
+    "zh": "zǎoshang",
+    "ko": "achim",
+    "hi": "subah",
+    "ar": "sabaah",
+    "ru": "utro"
+   }
+  },
+  {
+   "en": "night",
+   "also": [],
+   "t": {
+    "es": "noche",
+    "fr": "nuit",
+    "de": "Nacht",
+    "it": "notte",
+    "pt": "noite",
+    "ja": "夜",
+    "zh": "晚上",
+    "ko": "밤",
+    "hi": "रात",
+    "ar": "ليل",
+    "ru": "ночь",
+    "nl": "nacht"
+   },
+   "say": {
+    "ja": "yoru",
+    "zh": "wǎnshang",
+    "ko": "bam",
+    "hi": "raat",
+    "ar": "layl",
+    "ru": "noch"
+   }
+  },
+  {
+   "en": "family",
+   "also": [],
+   "t": {
+    "es": "familia",
+    "fr": "famille",
+    "de": "Familie",
+    "it": "famiglia",
+    "pt": "família",
+    "ja": "家族",
+    "zh": "家人",
+    "ko": "가족",
+    "hi": "परिवार",
+    "ar": "عائلة",
+    "ru": "семья",
+    "nl": "familie"
+   },
+   "say": {
+    "ja": "kazoku",
+    "zh": "jiārén",
+    "ko": "gajok",
+    "hi": "parivaar",
+    "ar": "'aa'ila",
+    "ru": "semya"
+   }
+  },
+  {
+   "en": "mom",
+   "also": [
+    "mum",
+    "mommy",
+    "mother",
+    "mama"
+   ],
+   "t": {
+    "es": "mamá",
+    "fr": "maman",
+    "de": "Mama",
+    "it": "mamma",
+    "pt": "mãe",
+    "ja": "お母さん",
+    "zh": "妈妈",
+    "ko": "엄마",
+    "hi": "माँ",
+    "ar": "ماما",
+    "ru": "мама",
+    "nl": "mama"
+   },
+   "say": {
+    "ja": "okaasan",
+    "zh": "māma",
+    "ko": "eomma",
+    "hi": "maa",
+    "ar": "maama",
+    "ru": "mama"
+   }
+  },
+  {
+   "en": "dad",
+   "also": [
+    "daddy",
+    "father",
+    "papa"
+   ],
+   "t": {
+    "es": "papá",
+    "fr": "papa",
+    "de": "Papa",
+    "it": "papà",
+    "pt": "pai",
+    "ja": "お父さん",
+    "zh": "爸爸",
+    "ko": "아빠",
+    "hi": "पापा",
+    "ar": "بابا",
+    "ru": "папа",
+    "nl": "papa"
+   },
+   "say": {
+    "ja": "otousan",
+    "zh": "bàba",
+    "ko": "appa",
+    "hi": "paapa",
+    "ar": "baaba",
+    "ru": "papa"
+   }
+  },
+  {
+   "en": "brother",
+   "also": [],
+   "t": {
+    "es": "hermano",
+    "fr": "frère",
+    "de": "Bruder",
+    "it": "fratello",
+    "pt": "irmão",
+    "ja": "兄 / 弟",
+    "zh": "哥哥 / 弟弟",
+    "ko": "형 / 오빠 / 남동생",
+    "hi": "भाई",
+    "ar": "أخ",
+    "ru": "брат",
+    "nl": "broer"
+   },
+   "say": {
+    "ja": "ani / otouto",
+    "zh": "gēge / dìdi",
+    "ko": "hyeong / oppa / namdongsaeng",
+    "hi": "bhaai",
+    "ar": "akh",
+    "ru": "brat"
+   }
+  },
+  {
+   "en": "sister",
+   "also": [],
+   "t": {
+    "es": "hermana",
+    "fr": "sœur",
+    "de": "Schwester",
+    "it": "sorella",
+    "pt": "irmã",
+    "ja": "姉 / 妹",
+    "zh": "姐姐 / 妹妹",
+    "ko": "누나 / 언니 / 여동생",
+    "hi": "बहन",
+    "ar": "أخت",
+    "ru": "сестра",
+    "nl": "zus"
+   },
+   "say": {
+    "ja": "ane / imouto",
+    "zh": "jiějie / mèimei",
+    "ko": "nuna / eonni / yeodongsaeng",
+    "hi": "bahan",
+    "ar": "ukht",
+    "ru": "sestra"
+   }
+  },
+  {
+   "en": "grandma",
+   "also": [
+    "grandmother",
+    "granny",
+    "grandmom"
+   ],
+   "t": {
+    "es": "abuela",
+    "fr": "grand-mère",
+    "de": "Oma",
+    "it": "nonna",
+    "pt": "avó",
+    "ja": "おばあちゃん",
+    "zh": "奶奶 / 外婆",
+    "ko": "할머니",
+    "hi": "दादी / नानी",
+    "ar": "جدة",
+    "ru": "бабушка",
+    "nl": "oma"
+   },
+   "say": {
+    "ja": "obaachan",
+    "zh": "nǎinai / wàipó",
+    "ko": "halmeoni",
+    "hi": "daadi / naani",
+    "ar": "jadda",
+    "ru": "babushka"
+   }
+  },
+  {
+   "en": "grandpa",
+   "also": [
+    "grandfather",
+    "grandad",
+    "granddad"
+   ],
+   "t": {
+    "es": "abuelo",
+    "fr": "grand-père",
+    "de": "Opa",
+    "it": "nonno",
+    "pt": "avô",
+    "ja": "おじいちゃん",
+    "zh": "爷爷 / 外公",
+    "ko": "할아버지",
+    "hi": "दादा / नाना",
+    "ar": "جد",
+    "ru": "дедушка",
+    "nl": "opa"
+   },
+   "say": {
+    "ja": "ojiichan",
+    "zh": "yéye / wàigōng",
+    "ko": "harabeoji",
+    "hi": "daada / naana",
+    "ar": "jadd",
+    "ru": "dedushka"
+   }
+  },
+  {
+   "en": "uncle",
+   "also": [],
+   "t": {
+    "es": "tío",
+    "fr": "oncle",
+    "de": "Onkel",
+    "it": "zio",
+    "pt": "tio",
+    "ja": "おじさん",
+    "zh": "叔叔",
+    "ko": "삼촌",
+    "hi": "चाचा / मामा",
+    "ar": "عم / خال",
+    "ru": "дядя",
+    "nl": "oom"
+   },
+   "say": {
+    "ja": "ojisan",
+    "zh": "shūshu",
+    "ko": "samchon",
+    "hi": "chaacha / maama",
+    "ar": "'amm / khaal",
+    "ru": "dyadya"
+   }
+  },
+  {
+   "en": "aunt",
+   "also": [
+    "auntie"
+   ],
+   "t": {
+    "es": "tía",
+    "fr": "tante",
+    "de": "Tante",
+    "it": "zia",
+    "pt": "tia",
+    "ja": "おばさん",
+    "zh": "阿姨",
+    "ko": "이모 / 고모",
+    "hi": "चाची / मौसी",
+    "ar": "عمة / خالة",
+    "ru": "тётя",
+    "nl": "tante"
+   },
+   "say": {
+    "ja": "obasan",
+    "zh": "āyí",
+    "ko": "imo / gomo",
+    "hi": "chaachi / mausi",
+    "ar": "'amma / khaala",
+    "ru": "tyotya"
+   }
+  },
+  {
+   "en": "baby",
+   "also": [],
+   "t": {
+    "es": "bebé",
+    "fr": "bébé",
+    "de": "Baby",
+    "it": "bebè",
+    "pt": "bebê",
+    "ja": "赤ちゃん",
+    "zh": "宝宝",
+    "ko": "아기",
+    "hi": "शिशु",
+    "ar": "طفل رضيع",
+    "ru": "малыш",
+    "nl": "baby"
+   },
+   "say": {
+    "ja": "akachan",
+    "zh": "bǎobao",
+    "ko": "agi",
+    "hi": "shishu",
+    "ar": "tifl radee'",
+    "ru": "malysh"
+   }
+  },
+  {
+   "en": "kid",
+   "also": [
+    "child",
+    "children",
+    "kids"
+   ],
+   "t": {
+    "es": "niño",
+    "fr": "enfant",
+    "de": "Kind",
+    "it": "bambino",
+    "pt": "criança",
+    "ja": "子ども",
+    "zh": "孩子",
+    "ko": "아이",
+    "hi": "बच्चा",
+    "ar": "طفل",
+    "ru": "ребёнок",
+    "nl": "kind"
+   },
+   "say": {
+    "ja": "kodomo",
+    "zh": "háizi",
+    "ko": "ai",
+    "hi": "bachcha",
+    "ar": "tifl",
+    "ru": "rebyonok"
+   }
+  },
+  {
+   "en": "boy",
+   "also": [],
+   "t": {
+    "es": "chico",
+    "fr": "garçon",
+    "de": "Junge",
+    "it": "ragazzo",
+    "pt": "menino",
+    "ja": "男の子",
+    "zh": "男孩",
+    "ko": "남자아이",
+    "hi": "लड़का",
+    "ar": "ولد",
+    "ru": "мальчик",
+    "nl": "jongen"
+   },
+   "say": {
+    "ja": "otoko no ko",
+    "zh": "nánhái",
+    "ko": "namja ai",
+    "hi": "ladka",
+    "ar": "walad",
+    "ru": "malchik"
+   }
+  },
+  {
+   "en": "girl",
+   "also": [],
+   "t": {
+    "es": "chica",
+    "fr": "fille",
+    "de": "Mädchen",
+    "it": "ragazza",
+    "pt": "menina",
+    "ja": "女の子",
+    "zh": "女孩",
+    "ko": "여자아이",
+    "hi": "लड़की",
+    "ar": "بنت",
+    "ru": "девочка",
+    "nl": "meisje"
+   },
+   "say": {
+    "ja": "onna no ko",
+    "zh": "nǚhái",
+    "ko": "yeoja ai",
+    "hi": "ladki",
+    "ar": "bint",
+    "ru": "devochka"
+   }
+  },
+  {
+   "en": "friend",
+   "also": [],
+   "t": {
+    "es": "amigo/a",
+    "fr": "ami(e)",
+    "de": "Freund/in",
+    "it": "amico/a",
+    "pt": "amigo/a",
+    "ja": "友達",
+    "zh": "朋友",
+    "ko": "친구",
+    "hi": "दोस्त",
+    "ar": "صديق",
+    "ru": "друг",
+    "nl": "vriend/in"
+   },
+   "say": {
+    "ja": "tomodachi",
+    "zh": "péngyou",
+    "ko": "chingu",
+    "hi": "dost",
+    "ar": "sadeeq",
+    "ru": "drug"
+   }
+  },
+  {
+   "en": "best friend",
+   "also": [
+    "bff"
+   ],
+   "t": {
+    "es": "mejor amigo/a",
+    "fr": "meilleur(e) ami(e)",
+    "de": "bester Freund / beste Freundin",
+    "it": "migliore amico/a",
+    "pt": "melhor amigo/a",
+    "ja": "親友",
+    "zh": "最好的朋友",
+    "ko": "제일 친한 친구",
+    "hi": "सबसे अच्छा दोस्त",
+    "ar": "أعز صديق",
+    "ru": "лучший друг",
+    "nl": "beste vriend/in"
+   },
+   "say": {
+    "ja": "shin'yuu",
+    "zh": "zuì hǎo de péngyou",
+    "ko": "jeil chinhan chingu",
+    "hi": "sabse achchha dost",
+    "ar": "a'azz sadeeq",
+    "ru": "luchshy drug"
+   }
+  },
+  {
+   "en": "food",
+   "also": [],
+   "t": {
+    "es": "comida",
+    "fr": "nourriture",
+    "de": "Essen",
+    "it": "cibo",
+    "pt": "comida",
+    "ja": "食べ物",
+    "zh": "食物",
+    "ko": "음식",
+    "hi": "खाना",
+    "ar": "طعام",
+    "ru": "еда",
+    "nl": "eten"
+   },
+   "say": {
+    "ja": "tabemono",
+    "zh": "shíwù",
+    "ko": "eumsik",
+    "hi": "khaana",
+    "ar": "ta'aam",
+    "ru": "yeda"
+   }
+  },
+  {
+   "en": "water",
+   "also": [],
+   "t": {
+    "es": "agua",
+    "fr": "eau",
+    "de": "Wasser",
+    "it": "acqua",
+    "pt": "água",
+    "ja": "水",
+    "zh": "水",
+    "ko": "물",
+    "hi": "पानी",
+    "ar": "ماء",
+    "ru": "вода",
+    "nl": "water"
+   },
+   "say": {
+    "ja": "mizu",
+    "zh": "shuǐ",
+    "ko": "mul",
+    "hi": "paani",
+    "ar": "maa'",
+    "ru": "voda"
+   }
+  },
+  {
+   "en": "milk",
+   "also": [],
+   "t": {
+    "es": "leche",
+    "fr": "lait",
+    "de": "Milch",
+    "it": "latte",
+    "pt": "leite",
+    "ja": "牛乳",
+    "zh": "牛奶",
+    "ko": "우유",
+    "hi": "दूध",
+    "ar": "حليب",
+    "ru": "молоко",
+    "nl": "melk"
+   },
+   "say": {
+    "ja": "gyuunyuu",
+    "zh": "niúnǎi",
+    "ko": "uyu",
+    "hi": "doodh",
+    "ar": "haleeb",
+    "ru": "moloko"
+   }
+  },
+  {
+   "en": "juice",
+   "also": [],
+   "t": {
+    "es": "jugo",
+    "fr": "jus",
+    "de": "Saft",
+    "it": "succo",
+    "pt": "suco",
+    "ja": "ジュース",
+    "zh": "果汁",
+    "ko": "주스",
+    "hi": "जूस",
+    "ar": "عصير",
+    "ru": "сок",
+    "nl": "sap"
+   },
+   "say": {
+    "ja": "juusu",
+    "zh": "guǒzhī",
+    "ko": "juseu",
+    "hi": "joos",
+    "ar": "'aseer",
+    "ru": "sok"
+   }
+  },
+  {
+   "en": "bread",
+   "also": [],
+   "t": {
+    "es": "pan",
+    "fr": "pain",
+    "de": "Brot",
+    "it": "pane",
+    "pt": "pão",
+    "ja": "パン",
+    "zh": "面包",
+    "ko": "빵",
+    "hi": "ब्रेड",
+    "ar": "خبز",
+    "ru": "хлеб",
+    "nl": "brood"
+   },
+   "say": {
+    "ja": "pan",
+    "zh": "miànbāo",
+    "ko": "ppang",
+    "hi": "bred",
+    "ar": "khubz",
+    "ru": "khleb"
+   }
+  },
+  {
+   "en": "rice",
+   "also": [],
+   "t": {
+    "es": "arroz",
+    "fr": "riz",
+    "de": "Reis",
+    "it": "riso",
+    "pt": "arroz",
+    "ja": "ご飯",
+    "zh": "米饭",
+    "ko": "밥",
+    "hi": "चावल",
+    "ar": "أرز",
+    "ru": "рис",
+    "nl": "rijst"
+   },
+   "say": {
+    "ja": "gohan",
+    "zh": "mǐfàn",
+    "ko": "bap",
+    "hi": "chaawal",
+    "ar": "aruzz",
+    "ru": "ris"
+   }
+  },
+  {
+   "en": "egg",
+   "also": [
+    "eggs"
+   ],
+   "t": {
+    "es": "huevo",
+    "fr": "œuf",
+    "de": "Ei",
+    "it": "uovo",
+    "pt": "ovo",
+    "ja": "卵",
+    "zh": "鸡蛋",
+    "ko": "계란",
+    "hi": "अंडा",
+    "ar": "بيضة",
+    "ru": "яйцо",
+    "nl": "ei"
+   },
+   "say": {
+    "ja": "tamago",
+    "zh": "jīdàn",
+    "ko": "gyeran",
+    "hi": "anda",
+    "ar": "bayda",
+    "ru": "yaytso"
+   }
+  },
+  {
+   "en": "chicken",
+   "also": [],
+   "t": {
+    "es": "pollo",
+    "fr": "poulet",
+    "de": "Hähnchen",
+    "it": "pollo",
+    "pt": "frango",
+    "ja": "鶏肉",
+    "zh": "鸡肉",
+    "ko": "닭고기",
+    "hi": "चिकन",
+    "ar": "دجاج",
+    "ru": "курица",
+    "nl": "kip"
+   },
+   "say": {
+    "ja": "toriniku",
+    "zh": "jīròu",
+    "ko": "dakgogi",
+    "hi": "chikan",
+    "ar": "dajaaj",
+    "ru": "kuritsa"
+   }
+  },
+  {
+   "en": "fruit",
+   "also": [],
+   "t": {
+    "es": "fruta",
+    "fr": "fruit",
+    "de": "Obst",
+    "it": "frutta",
+    "pt": "fruta",
+    "ja": "果物",
+    "zh": "水果",
+    "ko": "과일",
+    "hi": "फल",
+    "ar": "فاكهة",
+    "ru": "фрукты",
+    "nl": "fruit"
+   },
+   "say": {
+    "ja": "kudamono",
+    "zh": "shuǐguǒ",
+    "ko": "gwail",
+    "hi": "phal",
+    "ar": "faakiha",
+    "ru": "frukty"
+   }
+  },
+  {
+   "en": "vegetables",
+   "also": [
+    "vegetable",
+    "veggies"
+   ],
+   "t": {
+    "es": "verduras",
+    "fr": "légumes",
+    "de": "Gemüse",
+    "it": "verdura",
+    "pt": "legumes",
+    "ja": "野菜",
+    "zh": "蔬菜",
+    "ko": "채소",
+    "hi": "सब्ज़ी",
+    "ar": "خضروات",
+    "ru": "овощи",
+    "nl": "groente"
+   },
+   "say": {
+    "ja": "yasai",
+    "zh": "shūcài",
+    "ko": "chaeso",
+    "hi": "sabzi",
+    "ar": "khadrawaat",
+    "ru": "ovoshchi"
+   }
+  },
+  {
+   "en": "apple",
+   "also": [],
+   "t": {
+    "es": "manzana",
+    "fr": "pomme",
+    "de": "Apfel",
+    "it": "mela",
+    "pt": "maçã",
+    "ja": "りんご",
+    "zh": "苹果",
+    "ko": "사과",
+    "hi": "सेब",
+    "ar": "تفاحة",
+    "ru": "яблоко",
+    "nl": "appel"
+   },
+   "say": {
+    "ja": "ringo",
+    "zh": "píngguǒ",
+    "ko": "sagwa",
+    "hi": "seb",
+    "ar": "tuffaaha",
+    "ru": "yabloko"
+   }
+  },
+  {
+   "en": "banana",
+   "also": [],
+   "t": {
+    "es": "plátano",
+    "fr": "banane",
+    "de": "Banane",
+    "it": "banana",
+    "pt": "banana",
+    "ja": "バナナ",
+    "zh": "香蕉",
+    "ko": "바나나",
+    "hi": "केला",
+    "ar": "موزة",
+    "ru": "банан",
+    "nl": "banaan"
+   },
+   "say": {
+    "ja": "banana",
+    "zh": "xiāngjiāo",
+    "ko": "banana",
+    "hi": "kela",
+    "ar": "mawza",
+    "ru": "banan"
+   }
+  },
+  {
+   "en": "orange fruit",
+   "also": [
+    "an orange"
+   ],
+   "t": {
+    "es": "naranja",
+    "fr": "orange",
+    "de": "Orange",
+    "it": "arancia",
+    "pt": "laranja",
+    "ja": "オレンジ",
+    "zh": "橙子",
+    "ko": "오렌지",
+    "hi": "संतरा",
+    "ar": "برتقالة",
+    "ru": "апельсин",
+    "nl": "sinaasappel"
+   },
+   "say": {
+    "ja": "orenji",
+    "zh": "chéngzi",
+    "ko": "orenji",
+    "hi": "santara",
+    "ar": "burtuqaala",
+    "ru": "apelsin"
+   }
+  },
+  {
+   "en": "pizza",
+   "also": [],
+   "t": {
+    "es": "pizza",
+    "fr": "pizza",
+    "de": "Pizza",
+    "it": "pizza",
+    "pt": "pizza",
+    "ja": "ピザ",
+    "zh": "披萨",
+    "ko": "피자",
+    "hi": "पिज़्ज़ा",
+    "ar": "بيتزا",
+    "ru": "пицца",
+    "nl": "pizza"
+   },
+   "say": {
+    "ja": "piza",
+    "zh": "pīsà",
+    "ko": "pija",
+    "hi": "pizza",
+    "ar": "beetza",
+    "ru": "pitstsa"
+   }
+  },
+  {
+   "en": "hamburger",
+   "also": [
+    "burger"
+   ],
+   "t": {
+    "es": "hamburguesa",
+    "fr": "hamburger",
+    "de": "Hamburger",
+    "it": "hamburger",
+    "pt": "hambúrguer",
+    "ja": "ハンバーガー",
+    "zh": "汉堡",
+    "ko": "햄버거",
+    "hi": "बर्गर",
+    "ar": "همبرغر",
+    "ru": "гамбургер",
+    "nl": "hamburger"
+   },
+   "say": {
+    "ja": "hanbaagaa",
+    "zh": "hànbǎo",
+    "ko": "haembeogeo",
+    "hi": "bargar",
+    "ar": "hamburghar",
+    "ru": "gamburger"
+   }
+  },
+  {
+   "en": "french fries",
+   "also": [
+    "fries",
+    "chips"
+   ],
+   "t": {
+    "es": "papas fritas",
+    "fr": "frites",
+    "de": "Pommes frites",
+    "it": "patatine fritte",
+    "pt": "batata frita",
+    "ja": "フライドポテト",
+    "zh": "薯条",
+    "ko": "감자튀김",
+    "hi": "फ़्रेंच फ़्राइज़",
+    "ar": "بطاطس مقلية",
+    "ru": "картошка фри",
+    "nl": "friet"
+   },
+   "say": {
+    "ja": "furaido poteto",
+    "zh": "shǔtiáo",
+    "ko": "gamjatwigim",
+    "hi": "french fraaiz",
+    "ar": "bataatis maqliyya",
+    "ru": "kartoshka fri"
+   }
+  },
+  {
+   "en": "ice cream",
+   "also": [],
+   "t": {
+    "es": "helado",
+    "fr": "glace",
+    "de": "Eis",
+    "it": "gelato",
+    "pt": "sorvete",
+    "ja": "アイスクリーム",
+    "zh": "冰淇淋",
+    "ko": "아이스크림",
+    "hi": "आइसक्रीम",
+    "ar": "آيس كريم",
+    "ru": "мороженое",
+    "nl": "ijs"
+   },
+   "say": {
+    "ja": "aisukuriimu",
+    "zh": "bīngqílín",
+    "ko": "aiseukeurim",
+    "hi": "aaiskreem",
+    "ar": "aayis kreem",
+    "ru": "morozhenoye"
+   }
+  },
+  {
+   "en": "chocolate",
+   "also": [],
+   "t": {
+    "es": "chocolate",
+    "fr": "chocolat",
+    "de": "Schokolade",
+    "it": "cioccolato",
+    "pt": "chocolate",
+    "ja": "チョコレート",
+    "zh": "巧克力",
+    "ko": "초콜릿",
+    "hi": "चॉकलेट",
+    "ar": "شوكولاتة",
+    "ru": "шоколад",
+    "nl": "chocolade"
+   },
+   "say": {
+    "ja": "chokoreeto",
+    "zh": "qiǎokèlì",
+    "ko": "chokollit",
+    "hi": "chaaklet",
+    "ar": "shokolaata",
+    "ru": "shokolad"
+   }
+  },
+  {
+   "en": "cake",
+   "also": [],
+   "t": {
+    "es": "pastel",
+    "fr": "gâteau",
+    "de": "Kuchen",
+    "it": "torta",
+    "pt": "bolo",
+    "ja": "ケーキ",
+    "zh": "蛋糕",
+    "ko": "케이크",
+    "hi": "केक",
+    "ar": "كعكة",
+    "ru": "торт",
+    "nl": "taart"
+   },
+   "say": {
+    "ja": "keeki",
+    "zh": "dàngāo",
+    "ko": "keikeu",
+    "hi": "kek",
+    "ar": "ka'ka",
+    "ru": "tort"
+   }
+  },
+  {
+   "en": "cookie",
+   "also": [
+    "cookies",
+    "biscuit"
+   ],
+   "t": {
+    "es": "galleta",
+    "fr": "biscuit",
+    "de": "Keks",
+    "it": "biscotto",
+    "pt": "biscoito",
+    "ja": "クッキー",
+    "zh": "饼干",
+    "ko": "쿠키",
+    "hi": "बिस्कुट",
+    "ar": "بسكويت",
+    "ru": "печенье",
+    "nl": "koekje"
+   },
+   "say": {
+    "ja": "kukkii",
+    "zh": "bǐnggān",
+    "ko": "kuki",
+    "hi": "biskut",
+    "ar": "baskaweet",
+    "ru": "pechenye"
+   }
+  },
+  {
+   "en": "candy",
+   "also": [
+    "sweets"
+   ],
+   "t": {
+    "es": "dulce",
+    "fr": "bonbon",
+    "de": "Süßigkeiten",
+    "it": "caramella",
+    "pt": "doce",
+    "ja": "お菓子",
+    "zh": "糖果",
+    "ko": "사탕",
+    "hi": "मिठाई",
+    "ar": "حلوى",
+    "ru": "конфета",
+    "nl": "snoep"
+   },
+   "say": {
+    "ja": "okashi",
+    "zh": "tángguǒ",
+    "ko": "satang",
+    "hi": "mithaai",
+    "ar": "halwaa",
+    "ru": "konfeta"
+   }
+  },
+  {
+   "en": "tea",
+   "also": [],
+   "t": {
+    "es": "té",
+    "fr": "thé",
+    "de": "Tee",
+    "it": "tè",
+    "pt": "chá",
+    "ja": "お茶",
+    "zh": "茶",
+    "ko": "차",
+    "hi": "चाय",
+    "ar": "شاي",
+    "ru": "чай",
+    "nl": "thee"
+   },
+   "say": {
+    "ja": "ocha",
+    "zh": "chá",
+    "ko": "cha",
+    "hi": "chaay",
+    "ar": "shaay",
+    "ru": "chay"
+   }
+  },
+  {
+   "en": "breakfast",
+   "also": [],
+   "t": {
+    "es": "desayuno",
+    "fr": "petit-déjeuner",
+    "de": "Frühstück",
+    "it": "colazione",
+    "pt": "café da manhã",
+    "ja": "朝ご飯",
+    "zh": "早餐",
+    "ko": "아침밥",
+    "hi": "नाश्ता",
+    "ar": "فطور",
+    "ru": "завтрак",
+    "nl": "ontbijt"
+   },
+   "say": {
+    "ja": "asagohan",
+    "zh": "zǎocān",
+    "ko": "achimbap",
+    "hi": "naashta",
+    "ar": "futoor",
+    "ru": "zavtrak"
+   }
+  },
+  {
+   "en": "lunch",
+   "also": [],
+   "t": {
+    "es": "almuerzo",
+    "fr": "déjeuner",
+    "de": "Mittagessen",
+    "it": "pranzo",
+    "pt": "almoço",
+    "ja": "昼ご飯",
+    "zh": "午餐",
+    "ko": "점심",
+    "hi": "दोपहर का खाना",
+    "ar": "غداء",
+    "ru": "обед",
+    "nl": "lunch"
+   },
+   "say": {
+    "ja": "hirugohan",
+    "zh": "wǔcān",
+    "ko": "jeomsim",
+    "hi": "dopahar ka khaana",
+    "ar": "ghadaa'",
+    "ru": "obed"
+   }
+  },
+  {
+   "en": "dinner",
+   "also": [
+    "supper"
+   ],
+   "t": {
+    "es": "cena",
+    "fr": "dîner",
+    "de": "Abendessen",
+    "it": "cena",
+    "pt": "jantar",
+    "ja": "晩ご飯",
+    "zh": "晚餐",
+    "ko": "저녁",
+    "hi": "रात का खाना",
+    "ar": "عشاء",
+    "ru": "ужин",
+    "nl": "avondeten"
+   },
+   "say": {
+    "ja": "bangohan",
+    "zh": "wǎncān",
+    "ko": "jeonyeok",
+    "hi": "raat ka khaana",
+    "ar": "'ashaa'",
+    "ru": "uzhin"
+   }
+  },
+  {
+   "en": "i'm hungry",
+   "also": [
+    "i am hungry",
+    "hungry"
+   ],
+   "t": {
+    "es": "Tengo hambre",
+    "fr": "J'ai faim",
+    "de": "Ich habe Hunger",
+    "it": "Ho fame",
+    "pt": "Estou com fome",
+    "ja": "お腹が空きました",
+    "zh": "我饿了",
+    "ko": "배고파요",
+    "hi": "मुझे भूख लगी है",
+    "ar": "أنا جائع / جائعة",
+    "ru": "Я хочу есть",
+    "nl": "Ik heb honger"
+   },
+   "say": {
+    "ja": "onaka ga sukimashita",
+    "zh": "wǒ è le",
+    "ko": "baegopayo",
+    "hi": "mujhe bhookh lagi hai",
+    "ar": "ana jaa'i' / jaa'i'a",
+    "ru": "ya khochu yest"
+   }
+  },
+  {
+   "en": "i'm thirsty",
+   "also": [
+    "i am thirsty",
+    "thirsty"
+   ],
+   "t": {
+    "es": "Tengo sed",
+    "fr": "J'ai soif",
+    "de": "Ich habe Durst",
+    "it": "Ho sete",
+    "pt": "Estou com sede",
+    "ja": "喉が渇きました",
+    "zh": "我渴了",
+    "ko": "목말라요",
+    "hi": "मुझे प्यास लगी है",
+    "ar": "أنا عطشان / عطشانة",
+    "ru": "Я хочу пить",
+    "nl": "Ik heb dorst"
+   },
+   "say": {
+    "ja": "nodo ga kawakimashita",
+    "zh": "wǒ kě le",
+    "ko": "mongmallayo",
+    "hi": "mujhe pyaas lagi hai",
+    "ar": "ana 'atshaan / 'atshaana",
+    "ru": "ya khochu pit"
+   }
+  },
+  {
+   "en": "delicious",
+   "also": [
+    "yummy",
+    "tasty"
+   ],
+   "t": {
+    "es": "delicioso",
+    "fr": "délicieux",
+    "de": "lecker",
+    "it": "buonissimo",
+    "pt": "delicioso",
+    "ja": "おいしい",
+    "zh": "好吃",
+    "ko": "맛있어요",
+    "hi": "स्वादिष्ट",
+    "ar": "لذيذ",
+    "ru": "вкусно",
+    "nl": "lekker"
+   },
+   "say": {
+    "ja": "oishii",
+    "zh": "hǎochī",
+    "ko": "masisseoyo",
+    "hi": "swaadisht",
+    "ar": "ladheedh",
+    "ru": "vkusno"
+   }
+  },
+  {
+   "en": "animal",
+   "also": [
+    "animals"
+   ],
+   "t": {
+    "es": "animal",
+    "fr": "animal",
+    "de": "Tier",
+    "it": "animale",
+    "pt": "animal",
+    "ja": "動物",
+    "zh": "动物",
+    "ko": "동물",
+    "hi": "जानवर",
+    "ar": "حيوان",
+    "ru": "животное",
+    "nl": "dier"
+   },
+   "say": {
+    "ja": "doubutsu",
+    "zh": "dòngwù",
+    "ko": "dongmul",
+    "hi": "jaanvar",
+    "ar": "hayawaan",
+    "ru": "zhivotnoye"
+   }
+  },
+  {
+   "en": "dog",
+   "also": [
+    "puppy",
+    "doggy"
+   ],
+   "t": {
+    "es": "perro",
+    "fr": "chien",
+    "de": "Hund",
+    "it": "cane",
+    "pt": "cachorro",
+    "ja": "犬",
+    "zh": "狗",
+    "ko": "개",
+    "hi": "कुत्ता",
+    "ar": "كلب",
+    "ru": "собака",
+    "nl": "hond"
+   },
+   "say": {
+    "ja": "inu",
+    "zh": "gǒu",
+    "ko": "gae",
+    "hi": "kutta",
+    "ar": "kalb",
+    "ru": "sobaka"
+   }
+  },
+  {
+   "en": "cat",
+   "also": [
+    "kitty",
+    "kitten"
+   ],
+   "t": {
+    "es": "gato",
+    "fr": "chat",
+    "de": "Katze",
+    "it": "gatto",
+    "pt": "gato",
+    "ja": "猫",
+    "zh": "猫",
+    "ko": "고양이",
+    "hi": "बिल्ली",
+    "ar": "قطة",
+    "ru": "кошка",
+    "nl": "kat"
+   },
+   "say": {
+    "ja": "neko",
+    "zh": "māo",
+    "ko": "goyangi",
+    "hi": "billi",
+    "ar": "qitta",
+    "ru": "koshka"
+   }
+  },
+  {
+   "en": "bird",
+   "also": [],
+   "t": {
+    "es": "pájaro",
+    "fr": "oiseau",
+    "de": "Vogel",
+    "it": "uccello",
+    "pt": "pássaro",
+    "ja": "鳥",
+    "zh": "鸟",
+    "ko": "새",
+    "hi": "चिड़िया",
+    "ar": "طائر",
+    "ru": "птица",
+    "nl": "vogel"
+   },
+   "say": {
+    "ja": "tori",
+    "zh": "niǎo",
+    "ko": "sae",
+    "hi": "chidiya",
+    "ar": "taa'ir",
+    "ru": "ptitsa"
+   }
+  },
+  {
+   "en": "fish",
+   "also": [],
+   "t": {
+    "es": "pez",
+    "fr": "poisson",
+    "de": "Fisch",
+    "it": "pesce",
+    "pt": "peixe",
+    "ja": "魚",
+    "zh": "鱼",
+    "ko": "물고기",
+    "hi": "मछली",
+    "ar": "سمكة",
+    "ru": "рыба",
+    "nl": "vis"
+   },
+   "say": {
+    "ja": "sakana",
+    "zh": "yú",
+    "ko": "mulgogi",
+    "hi": "machhli",
+    "ar": "samaka",
+    "ru": "ryba"
+   }
+  },
+  {
+   "en": "horse",
+   "also": [],
+   "t": {
+    "es": "caballo",
+    "fr": "cheval",
+    "de": "Pferd",
+    "it": "cavallo",
+    "pt": "cavalo",
+    "ja": "馬",
+    "zh": "马",
+    "ko": "말",
+    "hi": "घोड़ा",
+    "ar": "حصان",
+    "ru": "лошадь",
+    "nl": "paard"
+   },
+   "say": {
+    "ja": "uma",
+    "zh": "mǎ",
+    "ko": "mal",
+    "hi": "ghoda",
+    "ar": "hisaan",
+    "ru": "loshad"
+   }
+  },
+  {
+   "en": "cow",
+   "also": [],
+   "t": {
+    "es": "vaca",
+    "fr": "vache",
+    "de": "Kuh",
+    "it": "mucca",
+    "pt": "vaca",
+    "ja": "牛",
+    "zh": "牛",
+    "ko": "소",
+    "hi": "गाय",
+    "ar": "بقرة",
+    "ru": "корова",
+    "nl": "koe"
+   },
+   "say": {
+    "ja": "ushi",
+    "zh": "niú",
+    "ko": "so",
+    "hi": "gaay",
+    "ar": "baqara",
+    "ru": "korova"
+   }
+  },
+  {
+   "en": "pig",
+   "also": [],
+   "t": {
+    "es": "cerdo",
+    "fr": "cochon",
+    "de": "Schwein",
+    "it": "maiale",
+    "pt": "porco",
+    "ja": "豚",
+    "zh": "猪",
+    "ko": "돼지",
+    "hi": "सूअर",
+    "ar": "خنزير",
+    "ru": "свинья",
+    "nl": "varken"
+   },
+   "say": {
+    "ja": "buta",
+    "zh": "zhū",
+    "ko": "dwaeji",
+    "hi": "sooar",
+    "ar": "khinzeer",
+    "ru": "svinya"
+   }
+  },
+  {
+   "en": "rabbit",
+   "also": [
+    "bunny"
+   ],
+   "t": {
+    "es": "conejo",
+    "fr": "lapin",
+    "de": "Hase",
+    "it": "coniglio",
+    "pt": "coelho",
+    "ja": "うさぎ",
+    "zh": "兔子",
+    "ko": "토끼",
+    "hi": "खरगोश",
+    "ar": "أرنب",
+    "ru": "кролик",
+    "nl": "konijn"
+   },
+   "say": {
+    "ja": "usagi",
+    "zh": "tùzi",
+    "ko": "tokki",
+    "hi": "khargosh",
+    "ar": "arnab",
+    "ru": "krolik"
+   }
+  },
+  {
+   "en": "mouse",
+   "also": [],
+   "t": {
+    "es": "ratón",
+    "fr": "souris",
+    "de": "Maus",
+    "it": "topo",
+    "pt": "rato",
+    "ja": "ネズミ",
+    "zh": "老鼠",
+    "ko": "쥐",
+    "hi": "चूहा",
+    "ar": "فأر",
+    "ru": "мышь",
+    "nl": "muis"
+   },
+   "say": {
+    "ja": "nezumi",
+    "zh": "lǎoshǔ",
+    "ko": "jwi",
+    "hi": "chooha",
+    "ar": "fa'r",
+    "ru": "mysh"
+   }
+  },
+  {
+   "en": "lion",
+   "also": [],
+   "t": {
+    "es": "león",
+    "fr": "lion",
+    "de": "Löwe",
+    "it": "leone",
+    "pt": "leão",
+    "ja": "ライオン",
+    "zh": "狮子",
+    "ko": "사자",
+    "hi": "शेर",
+    "ar": "أسد",
+    "ru": "лев",
+    "nl": "leeuw"
+   },
+   "say": {
+    "ja": "raion",
+    "zh": "shīzi",
+    "ko": "saja",
+    "hi": "sher",
+    "ar": "asad",
+    "ru": "lev"
+   }
+  },
+  {
+   "en": "tiger",
+   "also": [],
+   "t": {
+    "es": "tigre",
+    "fr": "tigre",
+    "de": "Tiger",
+    "it": "tigre",
+    "pt": "tigre",
+    "ja": "トラ",
+    "zh": "老虎",
+    "ko": "호랑이",
+    "hi": "बाघ",
+    "ar": "نمر",
+    "ru": "тигр",
+    "nl": "tijger"
+   },
+   "say": {
+    "ja": "tora",
+    "zh": "lǎohǔ",
+    "ko": "horangi",
+    "hi": "baagh",
+    "ar": "nimr",
+    "ru": "tigr"
+   }
+  },
+  {
+   "en": "elephant",
+   "also": [],
+   "t": {
+    "es": "elefante",
+    "fr": "éléphant",
+    "de": "Elefant",
+    "it": "elefante",
+    "pt": "elefante",
+    "ja": "ゾウ",
+    "zh": "大象",
+    "ko": "코끼리",
+    "hi": "हाथी",
+    "ar": "فيل",
+    "ru": "слон",
+    "nl": "olifant"
+   },
+   "say": {
+    "ja": "zou",
+    "zh": "dàxiàng",
+    "ko": "kokkiri",
+    "hi": "haathi",
+    "ar": "feel",
+    "ru": "slon"
+   }
+  },
+  {
+   "en": "monkey",
+   "also": [],
+   "t": {
+    "es": "mono",
+    "fr": "singe",
+    "de": "Affe",
+    "it": "scimmia",
+    "pt": "macaco",
+    "ja": "サル",
+    "zh": "猴子",
+    "ko": "원숭이",
+    "hi": "बंदर",
+    "ar": "قرد",
+    "ru": "обезьяна",
+    "nl": "aap"
+   },
+   "say": {
+    "ja": "saru",
+    "zh": "hóuzi",
+    "ko": "wonsungi",
+    "hi": "bandar",
+    "ar": "qird",
+    "ru": "obezyana"
+   }
+  },
+  {
+   "en": "bear",
+   "also": [],
+   "t": {
+    "es": "oso",
+    "fr": "ours",
+    "de": "Bär",
+    "it": "orso",
+    "pt": "urso",
+    "ja": "クマ",
+    "zh": "熊",
+    "ko": "곰",
+    "hi": "भालू",
+    "ar": "دب",
+    "ru": "медведь",
+    "nl": "beer"
+   },
+   "say": {
+    "ja": "kuma",
+    "zh": "xióng",
+    "ko": "gom",
+    "hi": "bhaalu",
+    "ar": "dubb",
+    "ru": "medved"
+   }
+  },
+  {
+   "en": "snake",
+   "also": [],
+   "t": {
+    "es": "serpiente",
+    "fr": "serpent",
+    "de": "Schlange",
+    "it": "serpente",
+    "pt": "cobra",
+    "ja": "ヘビ",
+    "zh": "蛇",
+    "ko": "뱀",
+    "hi": "साँप",
+    "ar": "ثعبان",
+    "ru": "змея",
+    "nl": "slang"
+   },
+   "say": {
+    "ja": "hebi",
+    "zh": "shé",
+    "ko": "baem",
+    "hi": "saanp",
+    "ar": "thu'baan",
+    "ru": "zmeya"
+   }
+  },
+  {
+   "en": "shark",
+   "also": [],
+   "t": {
+    "es": "tiburón",
+    "fr": "requin",
+    "de": "Hai",
+    "it": "squalo",
+    "pt": "tubarão",
+    "ja": "サメ",
+    "zh": "鲨鱼",
+    "ko": "상어",
+    "hi": "शार्क",
+    "ar": "قرش",
+    "ru": "акула",
+    "nl": "haai"
+   },
+   "say": {
+    "ja": "same",
+    "zh": "shāyú",
+    "ko": "sangeo",
+    "hi": "shaark",
+    "ar": "qirsh",
+    "ru": "akula"
+   }
+  },
+  {
+   "en": "dinosaur",
+   "also": [],
+   "t": {
+    "es": "dinosaurio",
+    "fr": "dinosaure",
+    "de": "Dinosaurier",
+    "it": "dinosauro",
+    "pt": "dinossauro",
+    "ja": "恐竜",
+    "zh": "恐龙",
+    "ko": "공룡",
+    "hi": "डायनासोर",
+    "ar": "ديناصور",
+    "ru": "динозавр",
+    "nl": "dinosaurus"
+   },
+   "say": {
+    "ja": "kyouryuu",
+    "zh": "kǒnglóng",
+    "ko": "gongnyong",
+    "hi": "daayanaasor",
+    "ar": "dinaasoor",
+    "ru": "dinozavr"
+   }
+  },
+  {
+   "en": "head",
+   "also": [],
+   "t": {
+    "es": "cabeza",
+    "fr": "tête",
+    "de": "Kopf",
+    "it": "testa",
+    "pt": "cabeça",
+    "ja": "頭",
+    "zh": "头",
+    "ko": "머리",
+    "hi": "सिर",
+    "ar": "رأس",
+    "ru": "голова",
+    "nl": "hoofd"
+   },
+   "say": {
+    "ja": "atama",
+    "zh": "tóu",
+    "ko": "meori",
+    "hi": "sir",
+    "ar": "ra's",
+    "ru": "golova"
+   }
+  },
+  {
+   "en": "face",
+   "also": [],
+   "t": {
+    "es": "cara",
+    "fr": "visage",
+    "de": "Gesicht",
+    "it": "faccia",
+    "pt": "rosto",
+    "ja": "顔",
+    "zh": "脸",
+    "ko": "얼굴",
+    "hi": "चेहरा",
+    "ar": "وجه",
+    "ru": "лицо",
+    "nl": "gezicht"
+   },
+   "say": {
+    "ja": "kao",
+    "zh": "liǎn",
+    "ko": "eolgul",
+    "hi": "chehra",
+    "ar": "wajh",
+    "ru": "litso"
+   }
+  },
+  {
+   "en": "hair",
+   "also": [],
+   "t": {
+    "es": "pelo",
+    "fr": "cheveux",
+    "de": "Haare",
+    "it": "capelli",
+    "pt": "cabelo",
+    "ja": "髪",
+    "zh": "头发",
+    "ko": "머리카락",
+    "hi": "बाल",
+    "ar": "شعر",
+    "ru": "волосы",
+    "nl": "haar"
+   },
+   "say": {
+    "ja": "kami",
+    "zh": "tóufa",
+    "ko": "meorikarak",
+    "hi": "baal",
+    "ar": "sha'r",
+    "ru": "volosy"
+   }
+  },
+  {
+   "en": "eye",
+   "also": [
+    "eyes"
+   ],
+   "t": {
+    "es": "ojo",
+    "fr": "œil",
+    "de": "Auge",
+    "it": "occhio",
+    "pt": "olho",
+    "ja": "目",
+    "zh": "眼睛",
+    "ko": "눈",
+    "hi": "आँख",
+    "ar": "عين",
+    "ru": "глаз",
+    "nl": "oog"
+   },
+   "say": {
+    "ja": "me",
+    "zh": "yǎnjing",
+    "ko": "nun",
+    "hi": "aankh",
+    "ar": "'ayn",
+    "ru": "glaz"
+   }
+  },
+  {
+   "en": "ear",
+   "also": [
+    "ears"
+   ],
+   "t": {
+    "es": "oreja",
+    "fr": "oreille",
+    "de": "Ohr",
+    "it": "orecchio",
+    "pt": "orelha",
+    "ja": "耳",
+    "zh": "耳朵",
+    "ko": "귀",
+    "hi": "कान",
+    "ar": "أذن",
+    "ru": "ухо",
+    "nl": "oor"
+   },
+   "say": {
+    "ja": "mimi",
+    "zh": "ěrduo",
+    "ko": "gwi",
+    "hi": "kaan",
+    "ar": "udhun",
+    "ru": "ukho"
+   }
+  },
+  {
+   "en": "nose",
+   "also": [],
+   "t": {
+    "es": "nariz",
+    "fr": "nez",
+    "de": "Nase",
+    "it": "naso",
+    "pt": "nariz",
+    "ja": "鼻",
+    "zh": "鼻子",
+    "ko": "코",
+    "hi": "नाक",
+    "ar": "أنف",
+    "ru": "нос",
+    "nl": "neus"
+   },
+   "say": {
+    "ja": "hana",
+    "zh": "bízi",
+    "ko": "ko",
+    "hi": "naak",
+    "ar": "anf",
+    "ru": "nos"
+   }
+  },
+  {
+   "en": "mouth",
+   "also": [],
+   "t": {
+    "es": "boca",
+    "fr": "bouche",
+    "de": "Mund",
+    "it": "bocca",
+    "pt": "boca",
+    "ja": "口",
+    "zh": "嘴",
+    "ko": "입",
+    "hi": "मुँह",
+    "ar": "فم",
+    "ru": "рот",
+    "nl": "mond"
+   },
+   "say": {
+    "ja": "kuchi",
+    "zh": "zuǐ",
+    "ko": "ip",
+    "hi": "munh",
+    "ar": "fam",
+    "ru": "rot"
+   }
+  },
+  {
+   "en": "tooth",
+   "also": [
+    "teeth"
+   ],
+   "t": {
+    "es": "diente",
+    "fr": "dent",
+    "de": "Zahn",
+    "it": "dente",
+    "pt": "dente",
+    "ja": "歯",
+    "zh": "牙齿",
+    "ko": "이",
+    "hi": "दाँत",
+    "ar": "سن",
+    "ru": "зуб",
+    "nl": "tand"
+   },
+   "say": {
+    "ja": "ha",
+    "zh": "yáchǐ",
+    "ko": "i",
+    "hi": "daant",
+    "ar": "sinn",
+    "ru": "zub"
+   }
+  },
+  {
+   "en": "hand",
+   "also": [
+    "hands"
+   ],
+   "t": {
+    "es": "mano",
+    "fr": "main",
+    "de": "Hand",
+    "it": "mano",
+    "pt": "mão",
+    "ja": "手",
+    "zh": "手",
+    "ko": "손",
+    "hi": "हाथ",
+    "ar": "يد",
+    "ru": "рука",
+    "nl": "hand"
+   },
+   "say": {
+    "ja": "te",
+    "zh": "shǒu",
+    "ko": "son",
+    "hi": "haath",
+    "ar": "yad",
+    "ru": "ruka"
+   }
+  },
+  {
+   "en": "leg",
+   "also": [
+    "legs"
+   ],
+   "t": {
+    "es": "pierna",
+    "fr": "jambe",
+    "de": "Bein",
+    "it": "gamba",
+    "pt": "perna",
+    "ja": "脚",
+    "zh": "腿",
+    "ko": "다리",
+    "hi": "टाँग",
+    "ar": "ساق",
+    "ru": "нога",
+    "nl": "been"
+   },
+   "say": {
+    "ja": "ashi",
+    "zh": "tuǐ",
+    "ko": "dari",
+    "hi": "taang",
+    "ar": "saaq",
+    "ru": "noga"
+   }
+  },
+  {
+   "en": "foot",
+   "also": [
+    "feet"
+   ],
+   "t": {
+    "es": "pie",
+    "fr": "pied",
+    "de": "Fuß",
+    "it": "piede",
+    "pt": "pé",
+    "ja": "足",
+    "zh": "脚",
+    "ko": "발",
+    "hi": "पैर",
+    "ar": "قدم",
+    "ru": "стопа",
+    "nl": "voet"
+   },
+   "say": {
+    "ja": "ashi",
+    "zh": "jiǎo",
+    "ko": "bal",
+    "hi": "pair",
+    "ar": "qadam",
+    "ru": "stopa"
+   }
+  },
+  {
+   "en": "stomach",
+   "also": [
+    "belly",
+    "tummy"
+   ],
+   "t": {
+    "es": "barriga",
+    "fr": "ventre",
+    "de": "Bauch",
+    "it": "pancia",
+    "pt": "barriga",
+    "ja": "お腹",
+    "zh": "肚子",
+    "ko": "배",
+    "hi": "पेट",
+    "ar": "بطن",
+    "ru": "живот",
+    "nl": "buik"
+   },
+   "say": {
+    "ja": "onaka",
+    "zh": "dùzi",
+    "ko": "bae",
+    "hi": "pet",
+    "ar": "batn",
+    "ru": "zhivot"
+   }
+  },
+  {
+   "en": "heart",
+   "also": [],
+   "t": {
+    "es": "corazón",
+    "fr": "cœur",
+    "de": "Herz",
+    "it": "cuore",
+    "pt": "coração",
+    "ja": "心臓",
+    "zh": "心脏",
+    "ko": "심장",
+    "hi": "दिल",
+    "ar": "قلب",
+    "ru": "сердце",
+    "nl": "hart"
+   },
+   "say": {
+    "ja": "shinzou",
+    "zh": "xīnzàng",
+    "ko": "simjang",
+    "hi": "dil",
+    "ar": "qalb",
+    "ru": "serdtse"
+   }
+  },
+  {
+   "en": "teacher",
+   "also": [],
+   "t": {
+    "es": "profesor/a",
+    "fr": "professeur",
+    "de": "Lehrer/in",
+    "it": "insegnante",
+    "pt": "professor/a",
+    "ja": "先生",
+    "zh": "老师",
+    "ko": "선생님",
+    "hi": "शिक्षक",
+    "ar": "معلم",
+    "ru": "учитель",
+    "nl": "leraar"
+   },
+   "say": {
+    "ja": "sensei",
+    "zh": "lǎoshī",
+    "ko": "seonsaengnim",
+    "hi": "shikshak",
+    "ar": "mu'allim",
+    "ru": "uchitel"
+   }
+  },
+  {
+   "en": "student",
+   "also": [
+    "pupil"
+   ],
+   "t": {
+    "es": "estudiante",
+    "fr": "élève",
+    "de": "Schüler/in",
+    "it": "studente",
+    "pt": "aluno/a",
+    "ja": "生徒",
+    "zh": "学生",
+    "ko": "학생",
+    "hi": "छात्र",
+    "ar": "طالب",
+    "ru": "ученик",
+    "nl": "leerling"
+   },
+   "say": {
+    "ja": "seito",
+    "zh": "xuésheng",
+    "ko": "haksaeng",
+    "hi": "chhaatra",
+    "ar": "taalib",
+    "ru": "uchenik"
+   }
+  },
+  {
+   "en": "book",
+   "also": [],
+   "t": {
+    "es": "libro",
+    "fr": "livre",
+    "de": "Buch",
+    "it": "libro",
+    "pt": "livro",
+    "ja": "本",
+    "zh": "书",
+    "ko": "책",
+    "hi": "किताब",
+    "ar": "كتاب",
+    "ru": "книга",
+    "nl": "boek"
+   },
+   "say": {
+    "ja": "hon",
+    "zh": "shū",
+    "ko": "chaek",
+    "hi": "kitaab",
+    "ar": "kitaab",
+    "ru": "kniga"
+   }
+  },
+  {
+   "en": "pen",
+   "also": [],
+   "t": {
+    "es": "bolígrafo",
+    "fr": "stylo",
+    "de": "Kuli",
+    "it": "penna",
+    "pt": "caneta",
+    "ja": "ペン",
+    "zh": "笔",
+    "ko": "펜",
+    "hi": "पेन",
+    "ar": "قلم",
+    "ru": "ручка",
+    "nl": "pen"
+   },
+   "say": {
+    "ja": "pen",
+    "zh": "bǐ",
+    "ko": "pen",
+    "hi": "pen",
+    "ar": "qalam",
+    "ru": "ruchka"
+   }
+  },
+  {
+   "en": "pencil",
+   "also": [],
+   "t": {
+    "es": "lápiz",
+    "fr": "crayon",
+    "de": "Bleistift",
+    "it": "matita",
+    "pt": "lápis",
+    "ja": "鉛筆",
+    "zh": "铅笔",
+    "ko": "연필",
+    "hi": "पेंसिल",
+    "ar": "قلم رصاص",
+    "ru": "карандаш",
+    "nl": "potlood"
+   },
+   "say": {
+    "ja": "enpitsu",
+    "zh": "qiānbǐ",
+    "ko": "yeonpil",
+    "hi": "pensil",
+    "ar": "qalam rasaas",
+    "ru": "karandash"
+   }
+  },
+  {
+   "en": "backpack",
+   "also": [
+    "school bag",
+    "schoolbag"
+   ],
+   "t": {
+    "es": "mochila",
+    "fr": "sac à dos",
+    "de": "Rucksack",
+    "it": "zaino",
+    "pt": "mochila",
+    "ja": "リュック",
+    "zh": "书包",
+    "ko": "책가방",
+    "hi": "बस्ता",
+    "ar": "حقيبة ظهر",
+    "ru": "рюкзак",
+    "nl": "rugzak"
+   },
+   "say": {
+    "ja": "ryukku",
+    "zh": "shūbāo",
+    "ko": "chaekgabang",
+    "hi": "basta",
+    "ar": "haqeebat dhahr",
+    "ru": "ryukzak"
+   }
+  },
+  {
+   "en": "homework",
+   "also": [],
+   "t": {
+    "es": "tarea",
+    "fr": "devoirs",
+    "de": "Hausaufgaben",
+    "it": "compiti",
+    "pt": "lição de casa",
+    "ja": "宿題",
+    "zh": "作业",
+    "ko": "숙제",
+    "hi": "होमवर्क",
+    "ar": "واجب منزلي",
+    "ru": "домашнее задание",
+    "nl": "huiswerk"
+   },
+   "say": {
+    "ja": "shukudai",
+    "zh": "zuòyè",
+    "ko": "sukje",
+    "hi": "homvark",
+    "ar": "waajib manzili",
+    "ru": "domashneye zadaniye"
+   }
+  },
+  {
+   "en": "test",
+   "also": [
+    "exam",
+    "quiz"
+   ],
+   "t": {
+    "es": "examen",
+    "fr": "contrôle",
+    "de": "Test",
+    "it": "verifica",
+    "pt": "prova",
+    "ja": "テスト",
+    "zh": "考试",
+    "ko": "시험",
+    "hi": "परीक्षा",
+    "ar": "امتحان",
+    "ru": "контрольная",
+    "nl": "toets"
+   },
+   "say": {
+    "ja": "tesuto",
+    "zh": "kǎoshì",
+    "ko": "siheom",
+    "hi": "pareeksha",
+    "ar": "imtihaan",
+    "ru": "kontrolnaya"
+   }
+  },
+  {
+   "en": "computer",
+   "also": [
+    "laptop"
+   ],
+   "t": {
+    "es": "computadora",
+    "fr": "ordinateur",
+    "de": "Computer",
+    "it": "computer",
+    "pt": "computador",
+    "ja": "パソコン",
+    "zh": "电脑",
+    "ko": "컴퓨터",
+    "hi": "कंप्यूटर",
+    "ar": "كمبيوتر",
+    "ru": "компьютер",
+    "nl": "computer"
+   },
+   "say": {
+    "ja": "pasokon",
+    "zh": "diànnǎo",
+    "ko": "keompyuteo",
+    "hi": "kampyootar",
+    "ar": "kombyootar",
+    "ru": "kompyuter"
+   }
+  },
+  {
+   "en": "math",
+   "also": [
+    "maths",
+    "mathematics"
+   ],
+   "t": {
+    "es": "matemáticas",
+    "fr": "maths",
+    "de": "Mathe",
+    "it": "matematica",
+    "pt": "matemática",
+    "ja": "数学",
+    "zh": "数学",
+    "ko": "수학",
+    "hi": "गणित",
+    "ar": "رياضيات",
+    "ru": "математика",
+    "nl": "wiskunde"
+   },
+   "say": {
+    "ja": "suugaku",
+    "zh": "shùxué",
+    "ko": "suhak",
+    "hi": "ganit",
+    "ar": "riyaadiyyaat",
+    "ru": "matematika"
+   }
+  },
+  {
+   "en": "music",
+   "also": [],
+   "t": {
+    "es": "música",
+    "fr": "musique",
+    "de": "Musik",
+    "it": "musica",
+    "pt": "música",
+    "ja": "音楽",
+    "zh": "音乐",
+    "ko": "음악",
+    "hi": "संगीत",
+    "ar": "موسيقى",
+    "ru": "музыка",
+    "nl": "muziek"
+   },
+   "say": {
+    "ja": "ongaku",
+    "zh": "yīnyuè",
+    "ko": "eumak",
+    "hi": "sangeet",
+    "ar": "moosiqaa",
+    "ru": "muzyka"
+   }
+  },
+  {
+   "en": "art",
+   "also": [],
+   "t": {
+    "es": "arte",
+    "fr": "art",
+    "de": "Kunst",
+    "it": "arte",
+    "pt": "arte",
+    "ja": "美術",
+    "zh": "美术",
+    "ko": "미술",
+    "hi": "कला",
+    "ar": "فن",
+    "ru": "искусство",
+    "nl": "kunst"
+   },
+   "say": {
+    "ja": "bijutsu",
+    "zh": "měishù",
+    "ko": "misul",
+    "hi": "kala",
+    "ar": "fann",
+    "ru": "iskusstvo"
+   }
+  },
+  {
+   "en": "english",
+   "also": [
+    "english language"
+   ],
+   "t": {
+    "es": "inglés",
+    "fr": "anglais",
+    "de": "Englisch",
+    "it": "inglese",
+    "pt": "inglês",
+    "ja": "英語",
+    "zh": "英语",
+    "ko": "영어",
+    "hi": "अंग्रेज़ी",
+    "ar": "الإنجليزية",
+    "ru": "английский",
+    "nl": "Engels"
+   },
+   "say": {
+    "ja": "eigo",
+    "zh": "yīngyǔ",
+    "ko": "yeongeo",
+    "hi": "angrezi",
+    "ar": "al-injileeziyya",
+    "ru": "angliysky"
+   }
+  },
+  {
+   "en": "where is the bathroom",
+   "also": [
+    "where is the toilet",
+    "where is the restroom",
+    "where's the bathroom",
+    "where's the toilet"
+   ],
+   "t": {
+    "es": "¿Dónde está el baño?",
+    "fr": "Où sont les toilettes ?",
+    "de": "Wo ist die Toilette?",
+    "it": "Dov'è il bagno?",
+    "pt": "Onde fica o banheiro?",
+    "ja": "トイレはどこですか？",
+    "zh": "洗手间在哪里？",
+    "ko": "화장실이 어디예요?",
+    "hi": "बाथरूम कहाँ है?",
+    "ar": "أين الحمام؟",
+    "ru": "Где туалет?",
+    "nl": "Waar is het toilet?"
+   },
+   "say": {
+    "ja": "toire wa doko desu ka?",
+    "zh": "xǐshǒujiān zài nǎlǐ?",
+    "ko": "hwajangsiri eodiyeyo?",
+    "hi": "baathroom kahaan hai?",
+    "ar": "ayna al-hammaam?",
+    "ru": "gde tualet?"
+   }
+  },
+  {
+   "en": "how much is this",
+   "also": [
+    "how much does this cost",
+    "how much is it",
+    "how much does it cost"
+   ],
+   "t": {
+    "es": "¿Cuánto cuesta esto?",
+    "fr": "C'est combien ?",
+    "de": "Wie viel kostet das?",
+    "it": "Quanto costa?",
+    "pt": "Quanto custa isso?",
+    "ja": "これはいくらですか？",
+    "zh": "这个多少钱？",
+    "ko": "이거 얼마예요?",
+    "hi": "यह कितने का है?",
+    "ar": "بكم هذا؟",
+    "ru": "Сколько это стоит?",
+    "nl": "Hoeveel kost dit?"
+   },
+   "say": {
+    "ja": "kore wa ikura desu ka?",
+    "zh": "zhège duōshao qián?",
+    "ko": "igeo eolmayeyo?",
+    "hi": "yeh kitne ka hai?",
+    "ar": "bikam haadha?",
+    "ru": "skolko eto stoit?"
+   }
+  },
+  {
+   "en": "what time is it",
+   "also": [
+    "what's the time"
+   ],
+   "t": {
+    "es": "¿Qué hora es?",
+    "fr": "Quelle heure est-il ?",
+    "de": "Wie spät ist es?",
+    "it": "Che ore sono?",
+    "pt": "Que horas são?",
+    "ja": "今何時ですか？",
+    "zh": "现在几点？",
+    "ko": "지금 몇 시예요?",
+    "hi": "कितने बजे हैं?",
+    "ar": "كم الساعة؟",
+    "ru": "Который час?",
+    "nl": "Hoe laat is het?"
+   },
+   "say": {
+    "ja": "ima nanji desu ka?",
+    "zh": "xiànzài jǐ diǎn?",
+    "ko": "jigeum myeot siyeyo?",
+    "hi": "kitne baje hain?",
+    "ar": "kam as-saa'a?",
+    "ru": "kotory chas?"
+   }
+  },
+  {
+   "en": "do you speak english",
+   "also": [
+    "can you speak english"
+   ],
+   "t": {
+    "es": "¿Habla inglés?",
+    "fr": "Parlez-vous anglais ?",
+    "de": "Sprechen Sie Englisch?",
+    "it": "Parla inglese?",
+    "pt": "Você fala inglês?",
+    "ja": "英語を話せますか？",
+    "zh": "你会说英语吗？",
+    "ko": "영어 할 줄 아세요?",
+    "hi": "क्या आप अंग्रेज़ी बोलते हैं?",
+    "ar": "هل تتكلم الإنجليزية؟",
+    "ru": "Вы говорите по-английски?",
+    "nl": "Spreekt u Engels?"
+   },
+   "say": {
+    "ja": "eigo o hanasemasu ka?",
+    "zh": "nǐ huì shuō yīngyǔ ma?",
+    "ko": "yeongeo hal jul aseyo?",
+    "hi": "kya aap angrezi bolte hain?",
+    "ar": "hal tatakallam al-injileeziyya?",
+    "ru": "vy govorite po-angliyski?"
+   }
+  },
+  {
+   "en": "i don't understand",
+   "also": [
+    "i do not understand",
+    "i dont understand"
+   ],
+   "t": {
+    "es": "No entiendo",
+    "fr": "Je ne comprends pas",
+    "de": "Ich verstehe das nicht",
+    "it": "Non capisco",
+    "pt": "Não entendo",
+    "ja": "分かりません",
+    "zh": "我不明白",
+    "ko": "이해가 안 돼요",
+    "hi": "मुझे समझ नहीं आया",
+    "ar": "لا أفهم",
+    "ru": "Я не понимаю",
+    "nl": "Ik begrijp het niet"
+   },
+   "say": {
+    "ja": "wakarimasen",
+    "zh": "wǒ bù míngbai",
+    "ko": "ihaega an dwaeyo",
+    "hi": "mujhe samajh nahin aaya",
+    "ar": "laa afham",
+    "ru": "ya ne ponimayu"
+   }
+  },
+  {
+   "en": "i understand",
+   "also": [
+    "got it"
+   ],
+   "t": {
+    "es": "Entiendo",
+    "fr": "Je comprends",
+    "de": "Ich verstehe",
+    "it": "Capisco",
+    "pt": "Entendo",
+    "ja": "分かりました",
+    "zh": "我明白了",
+    "ko": "알겠어요",
+    "hi": "मुझे समझ आ गया",
+    "ar": "أفهم",
+    "ru": "Я понимаю",
+    "nl": "Ik begrijp het"
+   },
+   "say": {
+    "ja": "wakarimashita",
+    "zh": "wǒ míngbai le",
+    "ko": "algesseoyo",
+    "hi": "mujhe samajh aa gaya",
+    "ar": "afham",
+    "ru": "ya ponimayu"
+   }
+  },
+  {
+   "en": "can you repeat that",
+   "also": [
+    "please repeat",
+    "say that again",
+    "can you say that again"
+   ],
+   "t": {
+    "es": "¿Puede repetir, por favor?",
+    "fr": "Pouvez-vous répéter, s'il vous plaît ?",
+    "de": "Können Sie das bitte wiederholen?",
+    "it": "Può ripetere, per favore?",
+    "pt": "Pode repetir, por favor?",
+    "ja": "もう一度言ってください",
+    "zh": "请再说一遍",
+    "ko": "다시 말해 주세요",
+    "hi": "फिर से बोलिए",
+    "ar": "أعد من فضلك",
+    "ru": "Повторите, пожалуйста",
+    "nl": "Kunt u dat herhalen?"
+   },
+   "say": {
+    "ja": "mou ichido itte kudasai",
+    "zh": "qǐng zài shuō yí biàn",
+    "ko": "dasi malhae juseyo",
+    "hi": "phir se boliye",
+    "ar": "a'id min fadlak",
+    "ru": "povtorite, pozhaluysta"
+   }
+  },
+  {
+   "en": "can you speak slowly",
+   "also": [
+    "please speak slowly",
+    "speak slowly",
+    "slow down please"
+   ],
+   "t": {
+    "es": "¿Puede hablar más despacio?",
+    "fr": "Pouvez-vous parler plus lentement ?",
+    "de": "Können Sie bitte langsamer sprechen?",
+    "it": "Può parlare più lentamente?",
+    "pt": "Pode falar mais devagar?",
+    "ja": "ゆっくり話してください",
+    "zh": "请说慢一点",
+    "ko": "천천히 말해 주세요",
+    "hi": "धीरे बोलिए",
+    "ar": "تكلم ببطء من فضلك",
+    "ru": "Говорите медленнее, пожалуйста",
+    "nl": "Kunt u langzamer praten?"
+   },
+   "say": {
+    "ja": "yukkuri hanashite kudasai",
+    "zh": "qǐng shuō màn yìdiǎn",
+    "ko": "cheoncheonhi malhae juseyo",
+    "hi": "dheere boliye",
+    "ar": "takallam bibut' min fadlak",
+    "ru": "govorite medlenneye, pozhaluysta"
+   }
+  },
+  {
+   "en": "what is this",
+   "also": [
+    "what's this",
+    "what is that",
+    "what's that"
+   ],
+   "t": {
+    "es": "¿Qué es esto?",
+    "fr": "Qu'est-ce que c'est ?",
+    "de": "Was ist das?",
+    "it": "Che cos'è?",
+    "pt": "O que é isso?",
+    "ja": "これは何ですか？",
+    "zh": "这是什么？",
+    "ko": "이게 뭐예요?",
+    "hi": "यह क्या है?",
+    "ar": "ما هذا؟",
+    "ru": "Что это?",
+    "nl": "Wat is dit?"
+   },
+   "say": {
+    "ja": "kore wa nan desu ka?",
+    "zh": "zhè shì shénme?",
+    "ko": "ige mwoyeyo?",
+    "hi": "yeh kya hai?",
+    "ar": "maa haadha?",
+    "ru": "shto eto?"
+   }
+  },
+  {
+   "en": "can you help me",
+   "also": [
+    "help me please",
+    "could you help me"
+   ],
+   "t": {
+    "es": "¿Me puede ayudar?",
+    "fr": "Pouvez-vous m'aider ?",
+    "de": "Können Sie mir helfen?",
+    "it": "Mi può aiutare?",
+    "pt": "Você pode me ajudar?",
+    "ja": "手伝ってもらえますか？",
+    "zh": "你能帮我吗？",
+    "ko": "도와주실 수 있어요?",
+    "hi": "क्या आप मेरी मदद कर सकते हैं?",
+    "ar": "هل يمكنك مساعدتي؟",
+    "ru": "Вы можете мне помочь?",
+    "nl": "Kunt u me helpen?"
+   },
+   "say": {
+    "ja": "tetsudatte moraemasu ka?",
+    "zh": "nǐ néng bāng wǒ ma?",
+    "ko": "dowajusil su isseoyo?",
+    "hi": "kya aap meri madad kar sakte hain?",
+    "ar": "hal yumkinuka musaa'adati?",
+    "ru": "vy mozhete mne pomoch?"
+   }
+  },
+  {
+   "en": "help",
+   "also": [
+    "help me"
+   ],
+   "t": {
+    "es": "Ayuda",
+    "fr": "Au secours",
+    "de": "Hilfe",
+    "it": "Aiuto",
+    "pt": "Socorro",
+    "ja": "助けて",
+    "zh": "救命",
+    "ko": "도와주세요",
+    "hi": "बचाओ",
+    "ar": "النجدة",
+    "ru": "Помогите",
+    "nl": "Help"
+   },
+   "say": {
+    "ja": "tasukete",
+    "zh": "jiùmìng",
+    "ko": "dowajuseyo",
+    "hi": "bachaao",
+    "ar": "an-najda",
+    "ru": "pomogite"
+   }
+  },
+  {
+   "en": "where is ...",
+   "also": [
+    "where's ...",
+    "where is"
+   ],
+   "t": {
+    "es": "¿Dónde está ...?",
+    "fr": "Où est ... ?",
+    "de": "Wo ist ...?",
+    "it": "Dov'è ...?",
+    "pt": "Onde fica ...?",
+    "ja": "...はどこですか？",
+    "zh": "...在哪里？",
+    "ko": "...어디예요?",
+    "hi": "... कहाँ है?",
+    "ar": "أين ...؟",
+    "ru": "Где ...?",
+    "nl": "Waar is ...?"
+   },
+   "say": {
+    "ja": "...wa doko desu ka?",
+    "zh": "...zài nǎlǐ?",
+    "ko": "...eodiyeyo?",
+    "hi": "... kahaan hai?",
+    "ar": "ayna ...?",
+    "ru": "gde ...?"
+   }
+  },
+  {
+   "en": "i don't know",
+   "also": [
+    "i do not know",
+    "i dont know",
+    "dunno"
+   ],
+   "t": {
+    "es": "No sé",
+    "fr": "Je ne sais pas",
+    "de": "Ich weiß es nicht",
+    "it": "Non lo so",
+    "pt": "Não sei",
+    "ja": "知りません",
+    "zh": "我不知道",
+    "ko": "몰라요",
+    "hi": "मुझे नहीं पता",
+    "ar": "لا أعرف",
+    "ru": "Я не знаю",
+    "nl": "Ik weet het niet"
+   },
+   "say": {
+    "ja": "shirimasen",
+    "zh": "wǒ bù zhīdào",
+    "ko": "mollayo",
+    "hi": "mujhe nahin pata",
+    "ar": "laa a'rif",
+    "ru": "ya ne znayu"
+   }
+  },
+  {
+   "en": "who",
+   "also": [],
+   "t": {
+    "es": "quién",
+    "fr": "qui",
+    "de": "wer",
+    "it": "chi",
+    "pt": "quem",
+    "ja": "誰",
+    "zh": "谁",
+    "ko": "누구",
+    "hi": "कौन",
+    "ar": "من",
+    "ru": "кто",
+    "nl": "wie"
+   },
+   "say": {
+    "ja": "dare",
+    "zh": "shéi",
+    "ko": "nugu",
+    "hi": "kaun",
+    "ar": "man",
+    "ru": "kto"
+   }
+  },
+  {
+   "en": "what",
+   "also": [],
+   "t": {
+    "es": "qué",
+    "fr": "quoi",
+    "de": "was",
+    "it": "che cosa",
+    "pt": "o que",
+    "ja": "何",
+    "zh": "什么",
+    "ko": "뭐",
+    "hi": "क्या",
+    "ar": "ماذا",
+    "ru": "что",
+    "nl": "wat"
+   },
+   "say": {
+    "ja": "nani",
+    "zh": "shénme",
+    "ko": "mwo",
+    "hi": "kya",
+    "ar": "maadha",
+    "ru": "shto"
+   }
+  },
+  {
+   "en": "where",
+   "also": [],
+   "t": {
+    "es": "dónde",
+    "fr": "où",
+    "de": "wo",
+    "it": "dove",
+    "pt": "onde",
+    "ja": "どこ",
+    "zh": "哪里",
+    "ko": "어디",
+    "hi": "कहाँ",
+    "ar": "أين",
+    "ru": "где",
+    "nl": "waar"
+   },
+   "say": {
+    "ja": "doko",
+    "zh": "nǎlǐ",
+    "ko": "eodi",
+    "hi": "kahaan",
+    "ar": "ayna",
+    "ru": "gde"
+   }
+  },
+  {
+   "en": "when",
+   "also": [],
+   "t": {
+    "es": "cuándo",
+    "fr": "quand",
+    "de": "wann",
+    "it": "quando",
+    "pt": "quando",
+    "ja": "いつ",
+    "zh": "什么时候",
+    "ko": "언제",
+    "hi": "कब",
+    "ar": "متى",
+    "ru": "когда",
+    "nl": "wanneer"
+   },
+   "say": {
+    "ja": "itsu",
+    "zh": "shénme shíhou",
+    "ko": "eonje",
+    "hi": "kab",
+    "ar": "mataa",
+    "ru": "kogda"
+   }
+  },
+  {
+   "en": "why",
+   "also": [],
+   "t": {
+    "es": "por qué",
+    "fr": "pourquoi",
+    "de": "warum",
+    "it": "perché",
+    "pt": "por quê",
+    "ja": "どうして",
+    "zh": "为什么",
+    "ko": "왜",
+    "hi": "क्यों",
+    "ar": "لماذا",
+    "ru": "почему",
+    "nl": "waarom"
+   },
+   "say": {
+    "ja": "doushite",
+    "zh": "wèishénme",
+    "ko": "wae",
+    "hi": "kyon",
+    "ar": "limaadha",
+    "ru": "pochemu"
+   }
+  },
+  {
+   "en": "how",
+   "also": [],
+   "t": {
+    "es": "cómo",
+    "fr": "comment",
+    "de": "wie",
+    "it": "come",
+    "pt": "como",
+    "ja": "どうやって",
+    "zh": "怎么",
+    "ko": "어떻게",
+    "hi": "कैसे",
+    "ar": "كيف",
+    "ru": "как",
+    "nl": "hoe"
+   },
+   "say": {
+    "ja": "douyatte",
+    "zh": "zěnme",
+    "ko": "eotteoke",
+    "hi": "kaise",
+    "ar": "kayfa",
+    "ru": "kak"
+   }
+  },
+  {
+   "en": "happy",
+   "also": [
+    "glad"
+   ],
+   "t": {
+    "es": "feliz",
+    "fr": "heureux",
+    "de": "glücklich",
+    "it": "felice",
+    "pt": "feliz",
+    "ja": "嬉しい",
+    "zh": "开心",
+    "ko": "행복하다",
+    "hi": "ख़ुश",
+    "ar": "سعيد",
+    "ru": "счастливый",
+    "nl": "blij"
+   },
+   "say": {
+    "ja": "ureshii",
+    "zh": "kāixīn",
+    "ko": "haengbokhada",
+    "hi": "khush",
+    "ar": "sa'eed",
+    "ru": "schastlivy"
+   }
+  },
+  {
+   "en": "sad",
+   "also": [
+    "unhappy"
+   ],
+   "t": {
+    "es": "triste",
+    "fr": "triste",
+    "de": "traurig",
+    "it": "triste",
+    "pt": "triste",
+    "ja": "悲しい",
+    "zh": "难过",
+    "ko": "슬프다",
+    "hi": "उदास",
+    "ar": "حزين",
+    "ru": "грустный",
+    "nl": "verdrietig"
+   },
+   "say": {
+    "ja": "kanashii",
+    "zh": "nánguò",
+    "ko": "seulpeuda",
+    "hi": "udaas",
+    "ar": "hazeen",
+    "ru": "grustny"
+   }
+  },
+  {
+   "en": "angry",
+   "also": [
+    "mad"
+   ],
+   "t": {
+    "es": "enojado",
+    "fr": "en colère",
+    "de": "wütend",
+    "it": "arrabbiato",
+    "pt": "bravo",
+    "ja": "怒っている",
+    "zh": "生气",
+    "ko": "화나다",
+    "hi": "नाराज़",
+    "ar": "غاضب",
+    "ru": "сердитый",
+    "nl": "boos"
+   },
+   "say": {
+    "ja": "okotte iru",
+    "zh": "shēngqì",
+    "ko": "hwanada",
+    "hi": "naaraaz",
+    "ar": "ghaadib",
+    "ru": "serdity"
+   }
+  },
+  {
+   "en": "i'm scared",
+   "also": [
+    "i am scared",
+    "scared",
+    "i'm afraid",
+    "afraid"
+   ],
+   "t": {
+    "es": "Tengo miedo",
+    "fr": "J'ai peur",
+    "de": "Ich habe Angst",
+    "it": "Ho paura",
+    "pt": "Estou com medo",
+    "ja": "怖いです",
+    "zh": "我害怕",
+    "ko": "무서워요",
+    "hi": "मुझे डर लग रहा है",
+    "ar": "أنا خائف / خائفة",
+    "ru": "Мне страшно",
+    "nl": "Ik ben bang"
+   },
+   "say": {
+    "ja": "kowai desu",
+    "zh": "wǒ hàipà",
+    "ko": "museowoyo",
+    "hi": "mujhe dar lag raha hai",
+    "ar": "ana khaa'if / khaa'ifa",
+    "ru": "mne strashno"
+   }
+  },
+  {
+   "en": "i'm tired",
+   "also": [
+    "i am tired",
+    "tired"
+   ],
+   "t": {
+    "es": "Estoy cansado/a",
+    "fr": "Je suis fatigué(e)",
+    "de": "Ich bin müde",
+    "it": "Sono stanco/a",
+    "pt": "Estou cansado/a",
+    "ja": "疲れました",
+    "zh": "我累了",
+    "ko": "피곤해요",
+    "hi": "मैं थक गया / गई हूँ",
+    "ar": "أنا متعب / متعبة",
+    "ru": "Я устал / устала",
+    "nl": "Ik ben moe"
+   },
+   "say": {
+    "ja": "tsukaremashita",
+    "zh": "wǒ lèi le",
+    "ko": "pigonhaeyo",
+    "hi": "main thak gaya / gayi hoon",
+    "ar": "ana mut'ab / mut'aba",
+    "ru": "ya ustal / ustala"
+   }
+  },
+  {
+   "en": "i'm sick",
+   "also": [
+    "i am sick",
+    "sick",
+    "ill"
+   ],
+   "t": {
+    "es": "Estoy enfermo/a",
+    "fr": "Je suis malade",
+    "de": "Ich bin krank",
+    "it": "Sono malato/a",
+    "pt": "Estou doente",
+    "ja": "具合が悪いです",
+    "zh": "我生病了",
+    "ko": "아파요",
+    "hi": "मैं बीमार हूँ",
+    "ar": "أنا مريض / مريضة",
+    "ru": "Я болею",
+    "nl": "Ik ben ziek"
+   },
+   "say": {
+    "ja": "guai ga warui desu",
+    "zh": "wǒ shēngbìng le",
+    "ko": "apayo",
+    "hi": "main beemaar hoon",
+    "ar": "ana mareed / mareeda",
+    "ru": "ya boleyu"
+   }
+  },
+  {
+   "en": "i love you",
+   "also": [
+    "love you",
+    "i luv you"
+   ],
+   "t": {
+    "es": "Te quiero",
+    "fr": "Je t'aime",
+    "de": "Ich liebe dich",
+    "it": "Ti voglio bene",
+    "pt": "Eu te amo",
+    "ja": "愛してる",
+    "zh": "我爱你",
+    "ko": "사랑해요",
+    "hi": "मैं तुमसे प्यार करता / करती हूँ",
+    "ar": "أحبك",
+    "ru": "Я тебя люблю",
+    "nl": "Ik hou van je"
+   },
+   "say": {
+    "ja": "aishiteru",
+    "zh": "wǒ ài nǐ",
+    "ko": "saranghaeyo",
+    "hi": "main tumse pyaar karta / karti hoon",
+    "ar": "uhibbuk",
+    "ru": "ya tebya lyublyu"
+   }
+  },
+  {
+   "en": "i miss you",
+   "also": [
+    "miss you"
+   ],
+   "t": {
+    "es": "Te extraño",
+    "fr": "Tu me manques",
+    "de": "Ich vermisse dich",
+    "it": "Mi manchi",
+    "pt": "Estou com saudade de você",
+    "ja": "会いたいです",
+    "zh": "我想你",
+    "ko": "보고 싶어요",
+    "hi": "मुझे तुम्हारी याद आती है",
+    "ar": "اشتقت إليك",
+    "ru": "Я скучаю по тебе",
+    "nl": "Ik mis je"
+   },
+   "say": {
+    "ja": "aitai desu",
+    "zh": "wǒ xiǎng nǐ",
+    "ko": "bogo sipeoyo",
+    "hi": "mujhe tumhaari yaad aati hai",
+    "ar": "ishtaqtu ilayk",
+    "ru": "ya skuchayu po tebe"
+   }
+  },
+  {
+   "en": "i like it",
+   "also": [
+    "i like that"
+   ],
+   "t": {
+    "es": "Me gusta",
+    "fr": "Ça me plaît",
+    "de": "Das gefällt mir",
+    "it": "Mi piace",
+    "pt": "Eu gosto disso",
+    "ja": "好きです",
+    "zh": "我喜欢这个",
+    "ko": "마음에 들어요",
+    "hi": "मुझे यह पसंद है",
+    "ar": "يعجبني",
+    "ru": "Мне нравится",
+    "nl": "Ik vind het leuk"
+   },
+   "say": {
+    "ja": "suki desu",
+    "zh": "wǒ xǐhuan zhège",
+    "ko": "maeume deureoyo",
+    "hi": "mujhe yeh pasand hai",
+    "ar": "yu'jibuni",
+    "ru": "mne nravitsya"
+   }
+  },
+  {
+   "en": "i don't like it",
+   "also": [
+    "i do not like it",
+    "i don't like that"
+   ],
+   "t": {
+    "es": "No me gusta",
+    "fr": "Ça ne me plaît pas",
+    "de": "Das gefällt mir nicht",
+    "it": "Non mi piace",
+    "pt": "Eu não gosto disso",
+    "ja": "好きじゃないです",
+    "zh": "我不喜欢这个",
+    "ko": "마음에 안 들어요",
+    "hi": "मुझे यह पसंद नहीं है",
+    "ar": "لا يعجبني",
+    "ru": "Мне не нравится",
+    "nl": "Ik vind het niet leuk"
+   },
+   "say": {
+    "ja": "suki ja nai desu",
+    "zh": "wǒ bù xǐhuan zhège",
+    "ko": "maeume an deureoyo",
+    "hi": "mujhe yeh pasand nahin hai",
+    "ar": "laa yu'jibuni",
+    "ru": "mne ne nravitsya"
+   }
+  },
+  {
+   "en": "weather",
+   "also": [],
+   "t": {
+    "es": "tiempo",
+    "fr": "temps",
+    "de": "Wetter",
+    "it": "tempo",
+    "pt": "tempo",
+    "ja": "天気",
+    "zh": "天气",
+    "ko": "날씨",
+    "hi": "मौसम",
+    "ar": "طقس",
+    "ru": "погода",
+    "nl": "weer"
+   },
+   "say": {
+    "ja": "tenki",
+    "zh": "tiānqì",
+    "ko": "nalssi",
+    "hi": "mausam",
+    "ar": "taqs",
+    "ru": "pogoda"
+   }
+  },
+  {
+   "en": "sun",
+   "also": [],
+   "t": {
+    "es": "sol",
+    "fr": "soleil",
+    "de": "Sonne",
+    "it": "sole",
+    "pt": "sol",
+    "ja": "太陽",
+    "zh": "太阳",
+    "ko": "해",
+    "hi": "सूरज",
+    "ar": "شمس",
+    "ru": "солнце",
+    "nl": "zon"
+   },
+   "say": {
+    "ja": "taiyou",
+    "zh": "tàiyáng",
+    "ko": "hae",
+    "hi": "sooraj",
+    "ar": "shams",
+    "ru": "solntse"
+   }
+  },
+  {
+   "en": "rain",
+   "also": [],
+   "t": {
+    "es": "lluvia",
+    "fr": "pluie",
+    "de": "Regen",
+    "it": "pioggia",
+    "pt": "chuva",
+    "ja": "雨",
+    "zh": "雨",
+    "ko": "비",
+    "hi": "बारिश",
+    "ar": "مطر",
+    "ru": "дождь",
+    "nl": "regen"
+   },
+   "say": {
+    "ja": "ame",
+    "zh": "yǔ",
+    "ko": "bi",
+    "hi": "baarish",
+    "ar": "matar",
+    "ru": "dozhd"
+   }
+  },
+  {
+   "en": "snow",
+   "also": [],
+   "t": {
+    "es": "nieve",
+    "fr": "neige",
+    "de": "Schnee",
+    "it": "neve",
+    "pt": "neve",
+    "ja": "雪",
+    "zh": "雪",
+    "ko": "눈",
+    "hi": "बर्फ़",
+    "ar": "ثلج",
+    "ru": "снег",
+    "nl": "sneeuw"
+   },
+   "say": {
+    "ja": "yuki",
+    "zh": "xuě",
+    "ko": "nun",
+    "hi": "barf",
+    "ar": "thalj",
+    "ru": "sneg"
+   }
+  },
+  {
+   "en": "it's hot",
+   "also": [
+    "it is hot",
+    "it's hot outside"
+   ],
+   "t": {
+    "es": "Hace calor",
+    "fr": "Il fait chaud",
+    "de": "Es ist heiß",
+    "it": "Fa caldo",
+    "pt": "Está calor",
+    "ja": "暑いです",
+    "zh": "天气很热",
+    "ko": "더워요",
+    "hi": "गर्मी है",
+    "ar": "الجو حار",
+    "ru": "Жарко",
+    "nl": "Het is warm"
+   },
+   "say": {
+    "ja": "atsui desu",
+    "zh": "tiānqì hěn rè",
+    "ko": "deowoyo",
+    "hi": "garmi hai",
+    "ar": "al-jaww haarr",
+    "ru": "zharko"
+   }
+  },
+  {
+   "en": "it's cold",
+   "also": [
+    "it is cold",
+    "it's cold outside"
+   ],
+   "t": {
+    "es": "Hace frío",
+    "fr": "Il fait froid",
+    "de": "Es ist kalt",
+    "it": "Fa freddo",
+    "pt": "Está frio",
+    "ja": "寒いです",
+    "zh": "天气很冷",
+    "ko": "추워요",
+    "hi": "ठंड है",
+    "ar": "الجو بارد",
+    "ru": "Холодно",
+    "nl": "Het is koud"
+   },
+   "say": {
+    "ja": "samui desu",
+    "zh": "tiānqì hěn lěng",
+    "ko": "chuwoyo",
+    "hi": "thand hai",
+    "ar": "al-jaww baarid",
+    "ru": "kholodno"
+   }
+  },
+  {
+   "en": "it's raining",
+   "also": [
+    "it is raining"
+   ],
+   "t": {
+    "es": "Está lloviendo",
+    "fr": "Il pleut",
+    "de": "Es regnet",
+    "it": "Piove",
+    "pt": "Está chovendo",
+    "ja": "雨が降っています",
+    "zh": "下雨了",
+    "ko": "비가 와요",
+    "hi": "बारिश हो रही है",
+    "ar": "السماء تمطر",
+    "ru": "Идёт дождь",
+    "nl": "Het regent"
+   },
+   "say": {
+    "ja": "ame ga futte imasu",
+    "zh": "xià yǔ le",
+    "ko": "biga wayo",
+    "hi": "baarish ho rahi hai",
+    "ar": "as-samaa' tumtir",
+    "ru": "idyot dozhd"
+   }
+  },
+  {
+   "en": "it's sunny",
+   "also": [
+    "it is sunny"
+   ],
+   "t": {
+    "es": "Hace sol",
+    "fr": "Il y a du soleil",
+    "de": "Es ist sonnig",
+    "it": "C'è il sole",
+    "pt": "Está ensolarado",
+    "ja": "晴れです",
+    "zh": "出太阳了",
+    "ko": "날씨가 맑아요",
+    "hi": "धूप निकली है",
+    "ar": "الجو مشمس",
+    "ru": "Солнечно",
+    "nl": "Het is zonnig"
+   },
+   "say": {
+    "ja": "hare desu",
+    "zh": "chū tàiyáng le",
+    "ko": "nalssiga malgayo",
+    "hi": "dhoop nikli hai",
+    "ar": "al-jaww mushmis",
+    "ru": "solnechno"
+   }
+  },
+  {
+   "en": "hot",
+   "also": [],
+   "t": {
+    "es": "caliente",
+    "fr": "chaud",
+    "de": "heiß",
+    "it": "caldo",
+    "pt": "quente",
+    "ja": "熱い",
+    "zh": "热",
+    "ko": "뜨겁다",
+    "hi": "गरम",
+    "ar": "ساخن",
+    "ru": "горячий",
+    "nl": "heet"
+   },
+   "say": {
+    "ja": "atsui",
+    "zh": "rè",
+    "ko": "tteugeopda",
+    "hi": "garam",
+    "ar": "saakhin",
+    "ru": "goryachy"
+   }
+  },
+  {
+   "en": "cold",
+   "also": [],
+   "t": {
+    "es": "frío",
+    "fr": "froid",
+    "de": "kalt",
+    "it": "freddo",
+    "pt": "frio",
+    "ja": "冷たい",
+    "zh": "冷",
+    "ko": "차갑다",
+    "hi": "ठंडा",
+    "ar": "بارد",
+    "ru": "холодный",
+    "nl": "koud"
+   },
+   "say": {
+    "ja": "tsumetai",
+    "zh": "lěng",
+    "ko": "chagapda",
+    "hi": "thanda",
+    "ar": "baarid",
+    "ru": "kholodny"
+   }
+  },
+  {
+   "en": "tree",
+   "also": [
+    "trees"
+   ],
+   "t": {
+    "es": "árbol",
+    "fr": "arbre",
+    "de": "Baum",
+    "it": "albero",
+    "pt": "árvore",
+    "ja": "木",
+    "zh": "树",
+    "ko": "나무",
+    "hi": "पेड़",
+    "ar": "شجرة",
+    "ru": "дерево",
+    "nl": "boom"
+   },
+   "say": {
+    "ja": "ki",
+    "zh": "shù",
+    "ko": "namu",
+    "hi": "ped",
+    "ar": "shajara",
+    "ru": "derevo"
+   }
+  },
+  {
+   "en": "flower",
+   "also": [
+    "flowers"
+   ],
+   "t": {
+    "es": "flor",
+    "fr": "fleur",
+    "de": "Blume",
+    "it": "fiore",
+    "pt": "flor",
+    "ja": "花",
+    "zh": "花",
+    "ko": "꽃",
+    "hi": "फूल",
+    "ar": "زهرة",
+    "ru": "цветок",
+    "nl": "bloem"
+   },
+   "say": {
+    "ja": "hana",
+    "zh": "huā",
+    "ko": "kkot",
+    "hi": "phool",
+    "ar": "zahra",
+    "ru": "tsvetok"
+   }
+  },
+  {
+   "en": "sea",
+   "also": [
+    "ocean"
+   ],
+   "t": {
+    "es": "mar",
+    "fr": "mer",
+    "de": "Meer",
+    "it": "mare",
+    "pt": "mar",
+    "ja": "海",
+    "zh": "海",
+    "ko": "바다",
+    "hi": "समुद्र",
+    "ar": "بحر",
+    "ru": "море",
+    "nl": "zee"
+   },
+   "say": {
+    "ja": "umi",
+    "zh": "hǎi",
+    "ko": "bada",
+    "hi": "samudra",
+    "ar": "bahr",
+    "ru": "more"
+   }
+  },
+  {
+   "en": "eat",
+   "also": [
+    "to eat"
+   ],
+   "t": {
+    "es": "comer",
+    "fr": "manger",
+    "de": "essen",
+    "it": "mangiare",
+    "pt": "comer",
+    "ja": "食べる",
+    "zh": "吃",
+    "ko": "먹다",
+    "hi": "खाना",
+    "ar": "يأكل",
+    "ru": "есть",
+    "nl": "eten"
+   },
+   "say": {
+    "ja": "taberu",
+    "zh": "chī",
+    "ko": "meokda",
+    "hi": "khaana",
+    "ar": "ya'kul",
+    "ru": "yest"
+   }
+  },
+  {
+   "en": "drink",
+   "also": [
+    "to drink"
+   ],
+   "t": {
+    "es": "beber",
+    "fr": "boire",
+    "de": "trinken",
+    "it": "bere",
+    "pt": "beber",
+    "ja": "飲む",
+    "zh": "喝",
+    "ko": "마시다",
+    "hi": "पीना",
+    "ar": "يشرب",
+    "ru": "пить",
+    "nl": "drinken"
+   },
+   "say": {
+    "ja": "nomu",
+    "zh": "hē",
+    "ko": "masida",
+    "hi": "peena",
+    "ar": "yashrab",
+    "ru": "pit"
+   }
+  },
+  {
+   "en": "sleep",
+   "also": [
+    "to sleep"
+   ],
+   "t": {
+    "es": "dormir",
+    "fr": "dormir",
+    "de": "schlafen",
+    "it": "dormire",
+    "pt": "dormir",
+    "ja": "寝る",
+    "zh": "睡觉",
+    "ko": "자다",
+    "hi": "सोना",
+    "ar": "ينام",
+    "ru": "спать",
+    "nl": "slapen"
+   },
+   "say": {
+    "ja": "neru",
+    "zh": "shuìjiào",
+    "ko": "jada",
+    "hi": "sona",
+    "ar": "yanaam",
+    "ru": "spat"
+   }
+  },
+  {
+   "en": "play",
+   "also": [
+    "to play"
+   ],
+   "t": {
+    "es": "jugar",
+    "fr": "jouer",
+    "de": "spielen",
+    "it": "giocare",
+    "pt": "brincar",
+    "ja": "遊ぶ",
+    "zh": "玩",
+    "ko": "놀다",
+    "hi": "खेलना",
+    "ar": "يلعب",
+    "ru": "играть",
+    "nl": "spelen"
+   },
+   "say": {
+    "ja": "asobu",
+    "zh": "wán",
+    "ko": "nolda",
+    "hi": "khelna",
+    "ar": "yal'ab",
+    "ru": "igrat"
+   }
+  },
+  {
+   "en": "go",
+   "also": [
+    "to go"
+   ],
+   "t": {
+    "es": "ir",
+    "fr": "aller",
+    "de": "gehen",
+    "it": "andare",
+    "pt": "ir",
+    "ja": "行く",
+    "zh": "去",
+    "ko": "가다",
+    "hi": "जाना",
+    "ar": "يذهب",
+    "ru": "идти",
+    "nl": "gaan"
+   },
+   "say": {
+    "ja": "iku",
+    "zh": "qù",
+    "ko": "gada",
+    "hi": "jaana",
+    "ar": "yadh-hab",
+    "ru": "idti"
+   }
+  },
+  {
+   "en": "come",
+   "also": [
+    "to come"
+   ],
+   "t": {
+    "es": "venir",
+    "fr": "venir",
+    "de": "kommen",
+    "it": "venire",
+    "pt": "vir",
+    "ja": "来る",
+    "zh": "来",
+    "ko": "오다",
+    "hi": "आना",
+    "ar": "يأتي",
+    "ru": "приходить",
+    "nl": "komen"
+   },
+   "say": {
+    "ja": "kuru",
+    "zh": "lái",
+    "ko": "oda",
+    "hi": "aana",
+    "ar": "ya'ti",
+    "ru": "prikhodit"
+   }
+  },
+  {
+   "en": "like",
+   "also": [
+    "to like"
+   ],
+   "t": {
+    "es": "gustar",
+    "fr": "aimer",
+    "de": "mögen",
+    "it": "piacere",
+    "pt": "gostar",
+    "ja": "好き",
+    "zh": "喜欢",
+    "ko": "좋아하다",
+    "hi": "पसंद करना",
+    "ar": "يحب",
+    "ru": "нравиться",
+    "nl": "leuk vinden"
+   },
+   "say": {
+    "ja": "suki",
+    "zh": "xǐhuan",
+    "ko": "joahada",
+    "hi": "pasand karna",
+    "ar": "yuhibb",
+    "ru": "nravitsya"
+   }
+  },
+  {
+   "en": "love",
+   "also": [
+    "to love"
+   ],
+   "t": {
+    "es": "amar",
+    "fr": "aimer",
+    "de": "lieben",
+    "it": "amare",
+    "pt": "amar",
+    "ja": "愛する",
+    "zh": "爱",
+    "ko": "사랑하다",
+    "hi": "प्यार करना",
+    "ar": "يحب",
+    "ru": "любить",
+    "nl": "houden van"
+   },
+   "say": {
+    "ja": "aisuru",
+    "zh": "ài",
+    "ko": "saranghada",
+    "hi": "pyaar karna",
+    "ar": "yuhibb",
+    "ru": "lyubit"
+   }
+  },
+  {
+   "en": "want",
+   "also": [
+    "to want"
+   ],
+   "t": {
+    "es": "querer",
+    "fr": "vouloir",
+    "de": "wollen",
+    "it": "volere",
+    "pt": "querer",
+    "ja": "欲しい",
+    "zh": "想要",
+    "ko": "원하다",
+    "hi": "चाहना",
+    "ar": "يريد",
+    "ru": "хотеть",
+    "nl": "willen"
+   },
+   "say": {
+    "ja": "hoshii",
+    "zh": "xiǎng yào",
+    "ko": "wonhada",
+    "hi": "chaahna",
+    "ar": "yureed",
+    "ru": "khotet"
+   }
+  },
+  {
+   "en": "see",
+   "also": [
+    "to see"
+   ],
+   "t": {
+    "es": "ver",
+    "fr": "voir",
+    "de": "sehen",
+    "it": "vedere",
+    "pt": "ver",
+    "ja": "見る",
+    "zh": "看见",
+    "ko": "보다",
+    "hi": "देखना",
+    "ar": "يرى",
+    "ru": "видеть",
+    "nl": "zien"
+   },
+   "say": {
+    "ja": "miru",
+    "zh": "kànjiàn",
+    "ko": "boda",
+    "hi": "dekhna",
+    "ar": "yaraa",
+    "ru": "videt"
+   }
+  },
+  {
+   "en": "listen",
+   "also": [
+    "to listen"
+   ],
+   "t": {
+    "es": "escuchar",
+    "fr": "écouter",
+    "de": "zuhören",
+    "it": "ascoltare",
+    "pt": "escutar",
+    "ja": "聞く",
+    "zh": "听",
+    "ko": "듣다",
+    "hi": "सुनना",
+    "ar": "يستمع",
+    "ru": "слушать",
+    "nl": "luisteren"
+   },
+   "say": {
+    "ja": "kiku",
+    "zh": "tīng",
+    "ko": "deutda",
+    "hi": "sunna",
+    "ar": "yastami'",
+    "ru": "slushat"
+   }
+  },
+  {
+   "en": "speak",
+   "also": [
+    "to speak",
+    "talk",
+    "to talk"
+   ],
+   "t": {
+    "es": "hablar",
+    "fr": "parler",
+    "de": "sprechen",
+    "it": "parlare",
+    "pt": "falar",
+    "ja": "話す",
+    "zh": "说",
+    "ko": "말하다",
+    "hi": "बोलना",
+    "ar": "يتكلم",
+    "ru": "говорить",
+    "nl": "spreken"
+   },
+   "say": {
+    "ja": "hanasu",
+    "zh": "shuō",
+    "ko": "malhada",
+    "hi": "bolna",
+    "ar": "yatakallam",
+    "ru": "govorit"
+   }
+  },
+  {
+   "en": "read",
+   "also": [
+    "to read"
+   ],
+   "t": {
+    "es": "leer",
+    "fr": "lire",
+    "de": "lesen",
+    "it": "leggere",
+    "pt": "ler",
+    "ja": "読む",
+    "zh": "读",
+    "ko": "읽다",
+    "hi": "पढ़ना",
+    "ar": "يقرأ",
+    "ru": "читать",
+    "nl": "lezen"
+   },
+   "say": {
+    "ja": "yomu",
+    "zh": "dú",
+    "ko": "ikda",
+    "hi": "padhna",
+    "ar": "yaqra'",
+    "ru": "chitat"
+   }
+  },
+  {
+   "en": "write",
+   "also": [
+    "to write"
+   ],
+   "t": {
+    "es": "escribir",
+    "fr": "écrire",
+    "de": "schreiben",
+    "it": "scrivere",
+    "pt": "escrever",
+    "ja": "書く",
+    "zh": "写",
+    "ko": "쓰다",
+    "hi": "लिखना",
+    "ar": "يكتب",
+    "ru": "писать",
+    "nl": "schrijven"
+   },
+   "say": {
+    "ja": "kaku",
+    "zh": "xiě",
+    "ko": "sseuda",
+    "hi": "likhna",
+    "ar": "yaktub",
+    "ru": "pisat"
+   }
+  },
+  {
+   "en": "run",
+   "also": [
+    "to run"
+   ],
+   "t": {
+    "es": "correr",
+    "fr": "courir",
+    "de": "rennen",
+    "it": "correre",
+    "pt": "correr",
+    "ja": "走る",
+    "zh": "跑",
+    "ko": "달리다",
+    "hi": "दौड़ना",
+    "ar": "يركض",
+    "ru": "бегать",
+    "nl": "rennen"
+   },
+   "say": {
+    "ja": "hashiru",
+    "zh": "pǎo",
+    "ko": "dallida",
+    "hi": "daudna",
+    "ar": "yarkud",
+    "ru": "begat"
+   }
+  },
+  {
+   "en": "walk",
+   "also": [
+    "to walk"
+   ],
+   "t": {
+    "es": "caminar",
+    "fr": "marcher",
+    "de": "gehen",
+    "it": "camminare",
+    "pt": "andar",
+    "ja": "歩く",
+    "zh": "走",
+    "ko": "걷다",
+    "hi": "चलना",
+    "ar": "يمشي",
+    "ru": "ходить",
+    "nl": "lopen"
+   },
+   "say": {
+    "ja": "aruku",
+    "zh": "zǒu",
+    "ko": "geotda",
+    "hi": "chalna",
+    "ar": "yamshi",
+    "ru": "khodit"
+   }
+  },
+  {
+   "en": "swim",
+   "also": [
+    "to swim"
+   ],
+   "t": {
+    "es": "nadar",
+    "fr": "nager",
+    "de": "schwimmen",
+    "it": "nuotare",
+    "pt": "nadar",
+    "ja": "泳ぐ",
+    "zh": "游泳",
+    "ko": "수영하다",
+    "hi": "तैरना",
+    "ar": "يسبح",
+    "ru": "плавать",
+    "nl": "zwemmen"
+   },
+   "say": {
+    "ja": "oyogu",
+    "zh": "yóuyǒng",
+    "ko": "suyeonghada",
+    "hi": "tairna",
+    "ar": "yasbah",
+    "ru": "plavat"
+   }
+  },
+  {
+   "en": "dance",
+   "also": [
+    "to dance"
+   ],
+   "t": {
+    "es": "bailar",
+    "fr": "danser",
+    "de": "tanzen",
+    "it": "ballare",
+    "pt": "dançar",
+    "ja": "踊る",
+    "zh": "跳舞",
+    "ko": "춤추다",
+    "hi": "नाचना",
+    "ar": "يرقص",
+    "ru": "танцевать",
+    "nl": "dansen"
+   },
+   "say": {
+    "ja": "odoru",
+    "zh": "tiàowǔ",
+    "ko": "chumchuda",
+    "hi": "naachna",
+    "ar": "yarqus",
+    "ru": "tantsevat"
+   }
+  },
+  {
+   "en": "sing",
+   "also": [
+    "to sing"
+   ],
+   "t": {
+    "es": "cantar",
+    "fr": "chanter",
+    "de": "singen",
+    "it": "cantare",
+    "pt": "cantar",
+    "ja": "歌う",
+    "zh": "唱歌",
+    "ko": "노래하다",
+    "hi": "गाना",
+    "ar": "يغني",
+    "ru": "петь",
+    "nl": "zingen"
+   },
+   "say": {
+    "ja": "utau",
+    "zh": "chànggē",
+    "ko": "noraehada",
+    "hi": "gaana",
+    "ar": "yughanni",
+    "ru": "pet"
+   }
+  },
+  {
+   "en": "buy",
+   "also": [
+    "to buy"
+   ],
+   "t": {
+    "es": "comprar",
+    "fr": "acheter",
+    "de": "kaufen",
+    "it": "comprare",
+    "pt": "comprar",
+    "ja": "買う",
+    "zh": "买",
+    "ko": "사다",
+    "hi": "ख़रीदना",
+    "ar": "يشتري",
+    "ru": "покупать",
+    "nl": "kopen"
+   },
+   "say": {
+    "ja": "kau",
+    "zh": "mǎi",
+    "ko": "sada",
+    "hi": "khareedna",
+    "ar": "yashtari",
+    "ru": "pokupat"
+   }
+  },
+  {
+   "en": "wait",
+   "also": [
+    "wait a moment",
+    "wait a minute",
+    "one moment",
+    "just a moment"
+   ],
+   "t": {
+    "es": "Un momento",
+    "fr": "Un moment",
+    "de": "Einen Moment",
+    "it": "Un momento",
+    "pt": "Um momento",
+    "ja": "ちょっと待ってください",
+    "zh": "等一下",
+    "ko": "잠깐만요",
+    "hi": "एक मिनट",
+    "ar": "لحظة من فضلك",
+    "ru": "Подождите",
+    "nl": "Een moment"
+   },
+   "say": {
+    "ja": "chotto matte kudasai",
+    "zh": "děng yíxià",
+    "ko": "jamkkanmanyo",
+    "hi": "ek minat",
+    "ar": "lahza min fadlak",
+    "ru": "podozhdite"
+   }
+  },
+  {
+   "en": "big",
+   "also": [
+    "large",
+    "huge"
+   ],
+   "t": {
+    "es": "grande",
+    "fr": "grand",
+    "de": "groß",
+    "it": "grande",
+    "pt": "grande",
+    "ja": "大きい",
+    "zh": "大",
+    "ko": "크다",
+    "hi": "बड़ा",
+    "ar": "كبير",
+    "ru": "большой",
+    "nl": "groot"
+   },
+   "say": {
+    "ja": "ookii",
+    "zh": "dà",
+    "ko": "keuda",
+    "hi": "bada",
+    "ar": "kabeer",
+    "ru": "bolshoy"
+   }
+  },
+  {
+   "en": "small",
+   "also": [
+    "little",
+    "tiny"
+   ],
+   "t": {
+    "es": "pequeño",
+    "fr": "petit",
+    "de": "klein",
+    "it": "piccolo",
+    "pt": "pequeno",
+    "ja": "小さい",
+    "zh": "小",
+    "ko": "작다",
+    "hi": "छोटा",
+    "ar": "صغير",
+    "ru": "маленький",
+    "nl": "klein"
+   },
+   "say": {
+    "ja": "chiisai",
+    "zh": "xiǎo",
+    "ko": "jakda",
+    "hi": "chhota",
+    "ar": "sagheer",
+    "ru": "malenky"
+   }
+  },
+  {
+   "en": "good",
+   "also": [],
+   "t": {
+    "es": "bueno",
+    "fr": "bon",
+    "de": "gut",
+    "it": "buono",
+    "pt": "bom",
+    "ja": "いい",
+    "zh": "好",
+    "ko": "좋다",
+    "hi": "अच्छा",
+    "ar": "جيد",
+    "ru": "хороший",
+    "nl": "goed"
+   },
+   "say": {
+    "ja": "ii",
+    "zh": "hǎo",
+    "ko": "jota",
+    "hi": "achchha",
+    "ar": "jayyid",
+    "ru": "khoroshy"
+   }
+  },
+  {
+   "en": "bad",
+   "also": [],
+   "t": {
+    "es": "malo",
+    "fr": "mauvais",
+    "de": "schlecht",
+    "it": "cattivo",
+    "pt": "ruim",
+    "ja": "悪い",
+    "zh": "坏",
+    "ko": "나쁘다",
+    "hi": "बुरा",
+    "ar": "سيء",
+    "ru": "плохой",
+    "nl": "slecht"
+   },
+   "say": {
+    "ja": "warui",
+    "zh": "huài",
+    "ko": "nappeuda",
+    "hi": "bura",
+    "ar": "sayyi'",
+    "ru": "plokhoy"
+   }
+  },
+  {
+   "en": "new",
+   "also": [],
+   "t": {
+    "es": "nuevo",
+    "fr": "nouveau",
+    "de": "neu",
+    "it": "nuovo",
+    "pt": "novo",
+    "ja": "新しい",
+    "zh": "新",
+    "ko": "새롭다",
+    "hi": "नया",
+    "ar": "جديد",
+    "ru": "новый",
+    "nl": "nieuw"
+   },
+   "say": {
+    "ja": "atarashii",
+    "zh": "xīn",
+    "ko": "saeropda",
+    "hi": "naya",
+    "ar": "jadeed",
+    "ru": "novy"
+   }
+  },
+  {
+   "en": "old",
+   "also": [],
+   "t": {
+    "es": "viejo",
+    "fr": "vieux",
+    "de": "alt",
+    "it": "vecchio",
+    "pt": "velho",
+    "ja": "古い",
+    "zh": "旧 / 老",
+    "ko": "오래되다 / 늙다",
+    "hi": "पुराना",
+    "ar": "قديم",
+    "ru": "старый",
+    "nl": "oud"
+   },
+   "say": {
+    "ja": "furui",
+    "zh": "jiù / lǎo",
+    "ko": "oraedoeda / neukda",
+    "hi": "puraana",
+    "ar": "qadeem",
+    "ru": "stary"
+   }
+  },
+  {
+   "en": "fast",
+   "also": [
+    "quick"
+   ],
+   "t": {
+    "es": "rápido",
+    "fr": "rapide",
+    "de": "schnell",
+    "it": "veloce",
+    "pt": "rápido",
+    "ja": "速い",
+    "zh": "快",
+    "ko": "빠르다",
+    "hi": "तेज़",
+    "ar": "سريع",
+    "ru": "быстрый",
+    "nl": "snel"
+   },
+   "say": {
+    "ja": "hayai",
+    "zh": "kuài",
+    "ko": "ppareuda",
+    "hi": "tez",
+    "ar": "saree'",
+    "ru": "bystry"
+   }
+  },
+  {
+   "en": "beautiful",
+   "also": [
+    "pretty"
+   ],
+   "t": {
+    "es": "bonito",
+    "fr": "beau",
+    "de": "schön",
+    "it": "bello",
+    "pt": "bonito",
+    "ja": "きれい",
+    "zh": "漂亮",
+    "ko": "예쁘다",
+    "hi": "सुंदर",
+    "ar": "جميل",
+    "ru": "красивый",
+    "nl": "mooi"
+   },
+   "say": {
+    "ja": "kirei",
+    "zh": "piàoliang",
+    "ko": "yeppeuda",
+    "hi": "sundar",
+    "ar": "jameel",
+    "ru": "krasivy"
+   }
+  },
+  {
+   "en": "funny",
+   "also": [],
+   "t": {
+    "es": "gracioso",
+    "fr": "drôle",
+    "de": "lustig",
+    "it": "divertente",
+    "pt": "engraçado",
+    "ja": "面白い",
+    "zh": "好笑",
+    "ko": "웃기다",
+    "hi": "मज़ेदार",
+    "ar": "مضحك",
+    "ru": "смешной",
+    "nl": "grappig"
+   },
+   "say": {
+    "ja": "omoshiroi",
+    "zh": "hǎoxiào",
+    "ko": "utgida",
+    "hi": "mazedaar",
+    "ar": "mudhik",
+    "ru": "smeshnoy"
+   }
+  },
+  {
+   "en": "easy",
+   "also": [],
+   "t": {
+    "es": "fácil",
+    "fr": "facile",
+    "de": "einfach",
+    "it": "facile",
+    "pt": "fácil",
+    "ja": "簡単",
+    "zh": "容易",
+    "ko": "쉽다",
+    "hi": "आसान",
+    "ar": "سهل",
+    "ru": "лёгкий",
+    "nl": "makkelijk"
+   },
+   "say": {
+    "ja": "kantan",
+    "zh": "róngyì",
+    "ko": "swipda",
+    "hi": "aasaan",
+    "ar": "sahl",
+    "ru": "lyogky"
+   }
+  },
+  {
+   "en": "difficult",
+   "also": [
+    "hard"
+   ],
+   "t": {
+    "es": "difícil",
+    "fr": "difficile",
+    "de": "schwierig",
+    "it": "difficile",
+    "pt": "difícil",
+    "ja": "難しい",
+    "zh": "难",
+    "ko": "어렵다",
+    "hi": "मुश्किल",
+    "ar": "صعب",
+    "ru": "трудный",
+    "nl": "moeilijk"
+   },
+   "say": {
+    "ja": "muzukashii",
+    "zh": "nán",
+    "ko": "eoryeopda",
+    "hi": "mushkil",
+    "ar": "sa'b",
+    "ru": "trudny"
+   }
+  },
+  {
+   "en": "cool",
+   "also": [
+    "that's cool",
+    "so cool"
+   ],
+   "t": {
+    "es": "genial",
+    "fr": "cool",
+    "de": "cool",
+    "it": "forte",
+    "pt": "legal",
+    "ja": "かっこいい",
+    "zh": "酷",
+    "ko": "멋있다",
+    "hi": "बढ़िया",
+    "ar": "رائع",
+    "ru": "круто",
+    "nl": "gaaf"
+   },
+   "say": {
+    "ja": "kakkoii",
+    "zh": "kù",
+    "ko": "meositda",
+    "hi": "badhiya",
+    "ar": "raa'i'",
+    "ru": "kruto"
+   }
+  },
+  {
+   "en": "awesome",
+   "also": [
+    "amazing"
+   ],
+   "t": {
+    "es": "increíble",
+    "fr": "génial",
+    "de": "toll",
+    "it": "fantastico",
+    "pt": "incrível",
+    "ja": "すごい",
+    "zh": "太棒了",
+    "ko": "대박",
+    "hi": "शानदार",
+    "ar": "مذهل",
+    "ru": "потрясающе",
+    "nl": "geweldig"
+   },
+   "say": {
+    "ja": "sugoi",
+    "zh": "tài bàng le",
+    "ko": "daebak",
+    "hi": "shaandaar",
+    "ar": "mudhhil",
+    "ru": "potryasayushche"
+   }
+  },
+  {
+   "en": "home",
+   "also": [
+    "house"
+   ],
+   "t": {
+    "es": "casa",
+    "fr": "maison",
+    "de": "Haus",
+    "it": "casa",
+    "pt": "casa",
+    "ja": "家",
+    "zh": "家",
+    "ko": "집",
+    "hi": "घर",
+    "ar": "بيت",
+    "ru": "дом",
+    "nl": "huis"
+   },
+   "say": {
+    "ja": "ie",
+    "zh": "jiā",
+    "ko": "jip",
+    "hi": "ghar",
+    "ar": "bayt",
+    "ru": "dom"
+   }
+  },
+  {
+   "en": "school",
+   "also": [],
+   "t": {
+    "es": "escuela",
+    "fr": "école",
+    "de": "Schule",
+    "it": "scuola",
+    "pt": "escola",
+    "ja": "学校",
+    "zh": "学校",
+    "ko": "학교",
+    "hi": "स्कूल",
+    "ar": "مدرسة",
+    "ru": "школа",
+    "nl": "school"
+   },
+   "say": {
+    "ja": "gakkou",
+    "zh": "xuéxiào",
+    "ko": "hakgyo",
+    "hi": "skool",
+    "ar": "madrasa",
+    "ru": "shkola"
+   }
+  },
+  {
+   "en": "beach",
+   "also": [],
+   "t": {
+    "es": "playa",
+    "fr": "plage",
+    "de": "Strand",
+    "it": "spiaggia",
+    "pt": "praia",
+    "ja": "ビーチ",
+    "zh": "海滩",
+    "ko": "해변",
+    "hi": "समुद्र तट",
+    "ar": "شاطئ",
+    "ru": "пляж",
+    "nl": "strand"
+   },
+   "say": {
+    "ja": "biichi",
+    "zh": "hǎitān",
+    "ko": "haebyeon",
+    "hi": "samudra tat",
+    "ar": "shaati'",
+    "ru": "plyazh"
+   }
+  },
+  {
+   "en": "store",
+   "also": [
+    "shop"
+   ],
+   "t": {
+    "es": "tienda",
+    "fr": "magasin",
+    "de": "Geschäft",
+    "it": "negozio",
+    "pt": "loja",
+    "ja": "店",
+    "zh": "商店",
+    "ko": "가게",
+    "hi": "दुकान",
+    "ar": "متجر",
+    "ru": "магазин",
+    "nl": "winkel"
+   },
+   "say": {
+    "ja": "mise",
+    "zh": "shāngdiàn",
+    "ko": "gage",
+    "hi": "dukaan",
+    "ar": "matjar",
+    "ru": "magazin"
+   }
+  },
+  {
+   "en": "park",
+   "also": [],
+   "t": {
+    "es": "parque",
+    "fr": "parc",
+    "de": "Park",
+    "it": "parco",
+    "pt": "parque",
+    "ja": "公園",
+    "zh": "公园",
+    "ko": "공원",
+    "hi": "पार्क",
+    "ar": "حديقة",
+    "ru": "парк",
+    "nl": "park"
+   },
+   "say": {
+    "ja": "kouen",
+    "zh": "gōngyuán",
+    "ko": "gongwon",
+    "hi": "paark",
+    "ar": "hadeeqa",
+    "ru": "park"
+   }
+  },
+  {
+   "en": "hospital",
+   "also": [],
+   "t": {
+    "es": "hospital",
+    "fr": "hôpital",
+    "de": "Krankenhaus",
+    "it": "ospedale",
+    "pt": "hospital",
+    "ja": "病院",
+    "zh": "医院",
+    "ko": "병원",
+    "hi": "अस्पताल",
+    "ar": "مستشفى",
+    "ru": "больница",
+    "nl": "ziekenhuis"
+   },
+   "say": {
+    "ja": "byouin",
+    "zh": "yīyuàn",
+    "ko": "byeongwon",
+    "hi": "aspataal",
+    "ar": "mustashfaa",
+    "ru": "bolnitsa"
+   }
+  },
+  {
+   "en": "restaurant",
+   "also": [],
+   "t": {
+    "es": "restaurante",
+    "fr": "restaurant",
+    "de": "Restaurant",
+    "it": "ristorante",
+    "pt": "restaurante",
+    "ja": "レストラン",
+    "zh": "餐厅",
+    "ko": "식당",
+    "hi": "रेस्टोरेंट",
+    "ar": "مطعم",
+    "ru": "ресторан",
+    "nl": "restaurant"
+   },
+   "say": {
+    "ja": "resutoran",
+    "zh": "cāntīng",
+    "ko": "sikdang",
+    "hi": "restorent",
+    "ar": "mat'am",
+    "ru": "restoran"
+   }
+  },
+  {
+   "en": "bathroom",
+   "also": [
+    "toilet",
+    "restroom"
+   ],
+   "t": {
+    "es": "baño",
+    "fr": "toilettes",
+    "de": "Toilette",
+    "it": "bagno",
+    "pt": "banheiro",
+    "ja": "トイレ",
+    "zh": "洗手间",
+    "ko": "화장실",
+    "hi": "बाथरूम",
+    "ar": "حمام",
+    "ru": "туалет",
+    "nl": "toilet"
+   },
+   "say": {
+    "ja": "toire",
+    "zh": "xǐshǒujiān",
+    "ko": "hwajangsil",
+    "hi": "baathroom",
+    "ar": "hammaam",
+    "ru": "tualet"
+   }
+  },
+  {
+   "en": "city",
+   "also": [
+    "town"
+   ],
+   "t": {
+    "es": "ciudad",
+    "fr": "ville",
+    "de": "Stadt",
+    "it": "città",
+    "pt": "cidade",
+    "ja": "町",
+    "zh": "城市",
+    "ko": "도시",
+    "hi": "शहर",
+    "ar": "مدينة",
+    "ru": "город",
+    "nl": "stad"
+   },
+   "say": {
+    "ja": "machi",
+    "zh": "chéngshì",
+    "ko": "dosi",
+    "hi": "shahar",
+    "ar": "madeena",
+    "ru": "gorod"
+   }
+  },
+  {
+   "en": "zoo",
+   "also": [],
+   "t": {
+    "es": "zoológico",
+    "fr": "zoo",
+    "de": "Zoo",
+    "it": "zoo",
+    "pt": "zoológico",
+    "ja": "動物園",
+    "zh": "动物园",
+    "ko": "동물원",
+    "hi": "चिड़ियाघर",
+    "ar": "حديقة الحيوان",
+    "ru": "зоопарк",
+    "nl": "dierentuin"
+   },
+   "say": {
+    "ja": "doubutsuen",
+    "zh": "dòngwùyuán",
+    "ko": "dongmurwon",
+    "hi": "chidiyaghar",
+    "ar": "hadeeqat al-hayawaan",
+    "ru": "zoopark"
+   }
+  },
+  {
+   "en": "movie theater",
+   "also": [
+    "cinema",
+    "movies",
+    "movie theatre"
+   ],
+   "t": {
+    "es": "cine",
+    "fr": "cinéma",
+    "de": "Kino",
+    "it": "cinema",
+    "pt": "cinema",
+    "ja": "映画館",
+    "zh": "电影院",
+    "ko": "영화관",
+    "hi": "सिनेमाघर",
+    "ar": "سينما",
+    "ru": "кинотеатр",
+    "nl": "bioscoop"
+   },
+   "say": {
+    "ja": "eigakan",
+    "zh": "diànyǐngyuàn",
+    "ko": "yeonghwagwan",
+    "hi": "cinemaghar",
+    "ar": "sinamaa",
+    "ru": "kinoteatr"
+   }
+  },
+  {
+   "en": "here",
+   "also": [],
+   "t": {
+    "es": "aquí",
+    "fr": "ici",
+    "de": "hier",
+    "it": "qui",
+    "pt": "aqui",
+    "ja": "ここ",
+    "zh": "这里",
+    "ko": "여기",
+    "hi": "यहाँ",
+    "ar": "هنا",
+    "ru": "здесь",
+    "nl": "hier"
+   },
+   "say": {
+    "ja": "koko",
+    "zh": "zhèlǐ",
+    "ko": "yeogi",
+    "hi": "yahaan",
+    "ar": "hunaa",
+    "ru": "zdes"
+   }
+  },
+  {
+   "en": "there",
+   "also": [],
+   "t": {
+    "es": "allí",
+    "fr": "là",
+    "de": "dort",
+    "it": "lì",
+    "pt": "ali",
+    "ja": "そこ",
+    "zh": "那里",
+    "ko": "거기",
+    "hi": "वहाँ",
+    "ar": "هناك",
+    "ru": "там",
+    "nl": "daar"
+   },
+   "say": {
+    "ja": "soko",
+    "zh": "nàlǐ",
+    "ko": "geogi",
+    "hi": "vahaan",
+    "ar": "hunaak",
+    "ru": "tam"
+   }
+  },
+  {
+   "en": "soccer",
+   "also": [
+    "football"
+   ],
+   "t": {
+    "es": "fútbol",
+    "fr": "football",
+    "de": "Fußball",
+    "it": "calcio",
+    "pt": "futebol",
+    "ja": "サッカー",
+    "zh": "足球",
+    "ko": "축구",
+    "hi": "फ़ुटबॉल",
+    "ar": "كرة القدم",
+    "ru": "футбол",
+    "nl": "voetbal"
+   },
+   "say": {
+    "ja": "sakkaa",
+    "zh": "zúqiú",
+    "ko": "chukgu",
+    "hi": "futbol",
+    "ar": "kurat al-qadam",
+    "ru": "futbol"
+   }
+  },
+  {
+   "en": "video game",
+   "also": [
+    "video games",
+    "videogame"
+   ],
+   "t": {
+    "es": "videojuego",
+    "fr": "jeu vidéo",
+    "de": "Videospiel",
+    "it": "videogioco",
+    "pt": "videogame",
+    "ja": "ビデオゲーム",
+    "zh": "电子游戏",
+    "ko": "비디오 게임",
+    "hi": "वीडियो गेम",
+    "ar": "لعبة فيديو",
+    "ru": "видеоигра",
+    "nl": "videogame"
+   },
+   "say": {
+    "ja": "bideo geemu",
+    "zh": "diànzǐ yóuxì",
+    "ko": "bidio geim",
+    "hi": "veediyo gem",
+    "ar": "lu'bat fidyo",
+    "ru": "videoigra"
+   }
+  },
+  {
+   "en": "ball",
+   "also": [],
+   "t": {
+    "es": "pelota",
+    "fr": "ballon",
+    "de": "Ball",
+    "it": "palla",
+    "pt": "bola",
+    "ja": "ボール",
+    "zh": "球",
+    "ko": "공",
+    "hi": "गेंद",
+    "ar": "كرة",
+    "ru": "мяч",
+    "nl": "bal"
+   },
+   "say": {
+    "ja": "booru",
+    "zh": "qiú",
+    "ko": "gong",
+    "hi": "gend",
+    "ar": "kura",
+    "ru": "myach"
+   }
+  },
+  {
+   "en": "phone",
+   "also": [
+    "cell phone",
+    "mobile phone",
+    "telephone"
+   ],
+   "t": {
+    "es": "teléfono",
+    "fr": "téléphone",
+    "de": "Handy",
+    "it": "telefono",
+    "pt": "celular",
+    "ja": "電話",
+    "zh": "手机",
+    "ko": "핸드폰",
+    "hi": "फ़ोन",
+    "ar": "هاتف",
+    "ru": "телефон",
+    "nl": "telefoon"
+   },
+   "say": {
+    "ja": "denwa",
+    "zh": "shǒujī",
+    "ko": "haendeupon",
+    "hi": "fon",
+    "ar": "haatif",
+    "ru": "telefon"
+   }
+  },
+  {
+   "en": "car",
+   "also": [],
+   "t": {
+    "es": "carro",
+    "fr": "voiture",
+    "de": "Auto",
+    "it": "macchina",
+    "pt": "carro",
+    "ja": "車",
+    "zh": "汽车",
+    "ko": "자동차",
+    "hi": "गाड़ी",
+    "ar": "سيارة",
+    "ru": "машина",
+    "nl": "auto"
+   },
+   "say": {
+    "ja": "kuruma",
+    "zh": "qìchē",
+    "ko": "jadongcha",
+    "hi": "gaadi",
+    "ar": "sayyaara",
+    "ru": "mashina"
+   }
+  },
+  {
+   "en": "bus",
+   "also": [],
+   "t": {
+    "es": "autobús",
+    "fr": "bus",
+    "de": "Bus",
+    "it": "autobus",
+    "pt": "ônibus",
+    "ja": "バス",
+    "zh": "公交车",
+    "ko": "버스",
+    "hi": "बस",
+    "ar": "حافلة",
+    "ru": "автобус",
+    "nl": "bus"
+   },
+   "say": {
+    "ja": "basu",
+    "zh": "gōngjiāochē",
+    "ko": "beoseu",
+    "hi": "bas",
+    "ar": "haafila",
+    "ru": "avtobus"
+   }
+  },
+  {
+   "en": "airplane",
+   "also": [
+    "plane",
+    "aeroplane"
+   ],
+   "t": {
+    "es": "avión",
+    "fr": "avion",
+    "de": "Flugzeug",
+    "it": "aereo",
+    "pt": "avião",
+    "ja": "飛行機",
+    "zh": "飞机",
+    "ko": "비행기",
+    "hi": "हवाई जहाज़",
+    "ar": "طائرة",
+    "ru": "самолёт",
+    "nl": "vliegtuig"
+   },
+   "say": {
+    "ja": "hikouki",
+    "zh": "fēijī",
+    "ko": "bihaenggi",
+    "hi": "havaai jahaaz",
+    "ar": "taa'ira",
+    "ru": "samolyot"
+   }
+  },
+  {
+   "en": "train",
+   "also": [],
+   "t": {
+    "es": "tren",
+    "fr": "train",
+    "de": "Zug",
+    "it": "treno",
+    "pt": "trem",
+    "ja": "電車",
+    "zh": "火车",
+    "ko": "기차",
+    "hi": "ट्रेन",
+    "ar": "قطار",
+    "ru": "поезд",
+    "nl": "trein"
+   },
+   "say": {
+    "ja": "densha",
+    "zh": "huǒchē",
+    "ko": "gicha",
+    "hi": "tren",
+    "ar": "qitaar",
+    "ru": "poyezd"
+   }
+  },
+  {
+   "en": "happy birthday",
+   "also": [
+    "happy bday"
+   ],
+   "t": {
+    "es": "Feliz cumpleaños",
+    "fr": "Joyeux anniversaire",
+    "de": "Alles Gute zum Geburtstag",
+    "it": "Buon compleanno",
+    "pt": "Feliz aniversário",
+    "ja": "お誕生日おめでとうございます",
+    "zh": "生日快乐",
+    "ko": "생일 축하합니다",
+    "hi": "जन्मदिन मुबारक हो",
+    "ar": "عيد ميلاد سعيد",
+    "ru": "С днём рождения",
+    "nl": "Gefeliciteerd met je verjaardag"
+   },
+   "say": {
+    "ja": "otanjoubi omedetou gozaimasu",
+    "zh": "shēngrì kuàilè",
+    "ko": "saengil chukahamnida",
+    "hi": "janmadin mubaarak ho",
+    "ar": "'eed meelaad sa'eed",
+    "ru": "s dnyom rozhdeniya"
+   }
+  },
+  {
+   "en": "merry christmas",
+   "also": [
+    "happy christmas"
+   ],
+   "t": {
+    "es": "Feliz Navidad",
+    "fr": "Joyeux Noël",
+    "de": "Frohe Weihnachten",
+    "it": "Buon Natale",
+    "pt": "Feliz Natal",
+    "ja": "メリークリスマス",
+    "zh": "圣诞快乐",
+    "ko": "메리 크리스마스",
+    "hi": "क्रिसमस की शुभकामनाएँ",
+    "ar": "عيد ميلاد مجيد",
+    "ru": "С Рождеством",
+    "nl": "Vrolijk kerstfeest"
+   },
+   "say": {
+    "ja": "merii kurisumasu",
+    "zh": "shèngdàn kuàilè",
+    "ko": "meri keuriseumaseu",
+    "hi": "krismas ki shubhkaamnaayen",
+    "ar": "'eed meelaad majeed",
+    "ru": "s rozhdestvom"
+   }
+  },
+  {
+   "en": "happy new year",
+   "also": [],
+   "t": {
+    "es": "Feliz Año Nuevo",
+    "fr": "Bonne année",
+    "de": "Frohes neues Jahr",
+    "it": "Buon anno",
+    "pt": "Feliz Ano Novo",
+    "ja": "明けましておめでとうございます",
+    "zh": "新年快乐",
+    "ko": "새해 복 많이 받으세요",
+    "hi": "नया साल मुबारक हो",
+    "ar": "سنة سعيدة",
+    "ru": "С Новым годом",
+    "nl": "Gelukkig nieuwjaar"
+   },
+   "say": {
+    "ja": "akemashite omedetou gozaimasu",
+    "zh": "xīnnián kuàilè",
+    "ko": "saehae bok mani badeuseyo",
+    "hi": "naya saal mubaarak ho",
+    "ar": "sana sa'eeda",
+    "ru": "s novym godom"
+   }
+  },
+  {
+   "en": "good luck",
+   "also": [],
+   "t": {
+    "es": "Buena suerte",
+    "fr": "Bonne chance",
+    "de": "Viel Glück",
+    "it": "Buona fortuna",
+    "pt": "Boa sorte",
+    "ja": "頑張ってください",
+    "zh": "祝你好运",
+    "ko": "행운을 빌어요",
+    "hi": "शुभकामनाएँ",
+    "ar": "حظا سعيدا",
+    "ru": "Удачи",
+    "nl": "Veel succes"
+   },
+   "say": {
+    "ja": "ganbatte kudasai",
+    "zh": "zhù nǐ hǎoyùn",
+    "ko": "haenguneul bireoyo",
+    "hi": "shubhkaamnaayen",
+    "ar": "hazzan sa'eedan",
+    "ru": "udachi"
+   }
+  },
+  {
+   "en": "congratulations",
+   "also": [
+    "congrats"
+   ],
+   "t": {
+    "es": "Felicidades",
+    "fr": "Félicitations",
+    "de": "Herzlichen Glückwunsch",
+    "it": "Congratulazioni",
+    "pt": "Parabéns",
+    "ja": "おめでとうございます",
+    "zh": "恭喜",
+    "ko": "축하합니다",
+    "hi": "बधाई हो",
+    "ar": "مبروك",
+    "ru": "Поздравляю",
+    "nl": "Gefeliciteerd"
+   },
+   "say": {
+    "ja": "omedetou gozaimasu",
+    "zh": "gōngxǐ",
+    "ko": "chukahamnida",
+    "hi": "badhaai ho",
+    "ar": "mabrook",
+    "ru": "pozdravlyayu"
+   }
+  },
+  {
+   "en": "let's go",
+   "also": [
+    "let us go",
+    "lets go"
+   ],
+   "t": {
+    "es": "Vamos",
+    "fr": "Allons-y",
+    "de": "Los geht's",
+    "it": "Andiamo",
+    "pt": "Vamos",
+    "ja": "行きましょう",
+    "zh": "走吧",
+    "ko": "가요",
+    "hi": "चलो",
+    "ar": "هيا بنا",
+    "ru": "Пойдём",
+    "nl": "Laten we gaan"
+   },
+   "say": {
+    "ja": "ikimashou",
+    "zh": "zǒu ba",
+    "ko": "gayo",
+    "hi": "chalo",
+    "ar": "hayyaa binaa",
+    "ru": "poydyom"
+   }
+  },
+  {
+   "en": "be careful",
+   "also": [
+    "careful",
+    "watch out"
+   ],
+   "t": {
+    "es": "Cuidado",
+    "fr": "Attention",
+    "de": "Vorsicht",
+    "it": "Attenzione",
+    "pt": "Cuidado",
+    "ja": "気をつけてください",
+    "zh": "小心",
+    "ko": "조심하세요",
+    "hi": "ध्यान से",
+    "ar": "انتبه",
+    "ru": "Осторожно",
+    "nl": "Pas op"
+   },
+   "say": {
+    "ja": "ki o tsukete kudasai",
+    "zh": "xiǎoxīn",
+    "ko": "josimhaseyo",
+    "hi": "dhyaan se",
+    "ar": "intabih",
+    "ru": "ostorozhno"
+   }
+  },
+  {
+   "en": "stop",
+   "also": [],
+   "t": {
+    "es": "Alto",
+    "fr": "Stop",
+    "de": "Stopp",
+    "it": "Fermo",
+    "pt": "Pare",
+    "ja": "止まってください",
+    "zh": "停",
+    "ko": "멈추세요",
+    "hi": "रुकिए",
+    "ar": "توقف",
+    "ru": "Стоп",
+    "nl": "Stop"
+   },
+   "say": {
+    "ja": "tomatte kudasai",
+    "zh": "tíng",
+    "ko": "meomchuseyo",
+    "hi": "rukiye",
+    "ar": "tawaqqaf",
+    "ru": "stop"
+   }
+  },
+  {
+   "en": "good job",
+   "also": [
+    "well done",
+    "great job",
+    "nice job"
+   ],
+   "t": {
+    "es": "Buen trabajo",
+    "fr": "Bravo",
+    "de": "Gut gemacht",
+    "it": "Ben fatto",
+    "pt": "Muito bem",
+    "ja": "よくできました",
+    "zh": "做得好",
+    "ko": "잘했어요",
+    "hi": "शाबाश",
+    "ar": "أحسنت",
+    "ru": "Молодец",
+    "nl": "Goed gedaan"
+   },
+   "say": {
+    "ja": "yoku dekimashita",
+    "zh": "zuò de hǎo",
+    "ko": "jalhaesseoyo",
+    "hi": "shaabaash",
+    "ar": "ahsant",
+    "ru": "molodets"
+   }
+  },
+  {
+   "en": "me too",
+   "also": [],
+   "t": {
+    "es": "Yo también",
+    "fr": "Moi aussi",
+    "de": "Ich auch",
+    "it": "Anch'io",
+    "pt": "Eu também",
+    "ja": "私も",
+    "zh": "我也是",
+    "ko": "저도요",
+    "hi": "मैं भी",
+    "ar": "وأنا أيضا",
+    "ru": "Я тоже",
+    "nl": "Ik ook"
+   },
+   "say": {
+    "ja": "watashi mo",
+    "zh": "wǒ yě shì",
+    "ko": "jeodoyo",
+    "hi": "main bhi",
+    "ar": "wa ana aydan",
+    "ru": "ya tozhe"
+   }
+  },
+  {
+   "en": "i'm lost",
+   "also": [
+    "i am lost"
+   ],
+   "t": {
+    "es": "Estoy perdido/a",
+    "fr": "Je suis perdu(e)",
+    "de": "Ich habe mich verlaufen",
+    "it": "Mi sono perso/a",
+    "pt": "Estou perdido/a",
+    "ja": "道に迷いました",
+    "zh": "我迷路了",
+    "ko": "길을 잃었어요",
+    "hi": "मैं रास्ता भूल गया / गई हूँ",
+    "ar": "أنا تائه / تائهة",
+    "ru": "Я заблудился / заблудилась",
+    "nl": "Ik ben verdwaald"
+   },
+   "say": {
+    "ja": "michi ni mayoimashita",
+    "zh": "wǒ mílù le",
+    "ko": "gireul ireosseoyo",
+    "hi": "main raasta bhool gaya / gayi hoon",
+    "ar": "ana taa'ih / taa'iha",
+    "ru": "ya zabludilsya / zabludilas"
+   }
+  },
+  {
+   "en": "i would like ...",
+   "also": [
+    "i'd like ...",
+    "can i have ...",
+    "may i have ..."
+   ],
+   "t": {
+    "es": "Quisiera ...",
+    "fr": "Je voudrais ...",
+    "de": "Ich hätte gern ...",
+    "it": "Vorrei ...",
+    "pt": "Eu queria ...",
+    "ja": "...をください",
+    "zh": "我要...",
+    "ko": "...주세요",
+    "hi": "मुझे ... चाहिए",
+    "ar": "أريد ...",
+    "ru": "Можно ...?",
+    "nl": "Ik wil graag ..."
+   },
+   "say": {
+    "ja": "...o kudasai",
+    "zh": "wǒ yào ...",
+    "ko": "...juseyo",
+    "hi": "mujhe ... chaahiye",
+    "ar": "ureed ...",
+    "ru": "mozhno ...?"
+   }
+  }
+ ]
+}

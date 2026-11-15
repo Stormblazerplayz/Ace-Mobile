@@ -134,6 +134,24 @@ enum ReplyKey: String, CaseIterable {
     case scriptNotFound
     case scriptNeedOne
     case scriptList
+    case translated
+    case translateUnknown
+    case translateLanguages
+    case triviaStart
+    case triviaQuestion
+    case triviaRight
+    case triviaWrong
+    case triviaSkipped
+    case triviaDone
+    case triviaStopped
+    case twentyStart
+    case twentyQuestion
+    case twentyGuess
+    case twentyWin
+    case twentyWrongGuess
+    case twentyLose
+    case twentyLearned
+    case twentyStopped
     case yourName
 }
 

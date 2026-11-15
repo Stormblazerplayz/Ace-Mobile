@@ -978,5 +978,153 @@
   "opt": [],
   "orig": "I have {count} scripts built in, like {examples}. They're all in Settings under Scripts.",
   "note": "{count} like '35 Lua'; {examples} is a list joined with 'and'"
+ },
+ "translated": {
+  "req": [
+   "phrase",
+   "language",
+   "text"
+  ],
+  "opt": [],
+  "orig": "\"{phrase}\" in {language} is {text}.",
+  "note": "{phrase} is the English, {text} is the translation in its own script (like こんにちは). A card shows how to say it and a Say it button."
+ },
+ "translateUnknown": {
+  "req": [
+   "phrase",
+   "language",
+   "examples"
+  ],
+  "opt": [],
+  "orig": "I don't know how to say \"{phrase}\" in {language} yet. I know everyday words and phrases like {examples}.",
+  "note": "{examples} is a list like 'hello, thank you or where is the bathroom'"
+ },
+ "translateLanguages": {
+  "req": [
+   "languages"
+  ],
+  "opt": [],
+  "orig": "I can translate everyday words and phrases into {languages}.",
+  "note": "{languages} is a list of 12 language names joined with 'and'"
+ },
+ "triviaStart": {
+  "req": [
+   "count",
+   "topic"
+  ],
+  "opt": [],
+  "orig": "Let's play! {count} questions about {topic}. Tap an answer or say A, B, C or D.",
+  "note": "{topic} is a category like 'space' or the word 'everything'. The first question follows in the same message."
+ },
+ "triviaQuestion": {
+  "req": [
+   "number",
+   "question"
+  ],
+  "opt": [],
+  "orig": "Question {number}: {question}",
+  "note": "{question} already includes the choices"
+ },
+ "triviaRight": {
+  "req": [
+   "fact"
+  ],
+  "opt": [],
+  "orig": "Correct! {fact}",
+  "note": "{fact} is a full sentence"
+ },
+ "triviaWrong": {
+  "req": [
+   "answer",
+   "fact"
+  ],
+  "opt": [],
+  "orig": "Not quite, it's {answer}. {fact}",
+  "note": "{answer} like 'B: Mars'; {fact} is a full sentence"
+ },
+ "triviaSkipped": {
+  "req": [
+   "answer"
+  ],
+  "opt": [],
+  "orig": "No problem. The answer was {answer}.",
+  "note": "{answer} like 'B: Mars'"
+ },
+ "triviaDone": {
+  "req": [
+   "score",
+   "total"
+  ],
+  "opt": [],
+  "orig": "That's the end of the round! You got {score} out of {total}. Say trivia to play again.",
+  "note": "Round over"
+ },
+ "triviaStopped": {
+  "req": [
+   "score",
+   "total"
+  ],
+  "opt": [],
+  "orig": "Okay, we'll stop there. You got {score} out of {total}.",
+  "note": "They stopped the game early"
+ },
+ "twentyStart": {
+  "req": [],
+  "opt": [],
+  "orig": "Think of an animal, food, place or thing, and I'll guess it in 20 questions. Answer yes, no, maybe or I don't know.",
+  "note": "The first question follows in the same message"
+ },
+ "twentyQuestion": {
+  "req": [
+   "number",
+   "question"
+  ],
+  "opt": [],
+  "orig": "Question {number}: {question}",
+  "note": "{question} is a yes or no question like 'Is it alive?'"
+ },
+ "twentyGuess": {
+  "req": [
+   "number",
+   "thing"
+  ],
+  "opt": [],
+  "orig": "Question {number}: Is it {thing}?",
+  "note": "Ace's guess; {thing} like 'a dog'"
+ },
+ "twentyWin": {
+  "req": [
+   "thing",
+   "count"
+  ],
+  "opt": [],
+  "orig": "I got it! It was {thing}, in {count} questions.",
+  "note": "{count} is a number"
+ },
+ "twentyWrongGuess": {
+  "req": [],
+  "opt": [],
+  "orig": "Hmm, not that one. Let me keep going.",
+  "note": "Ace guessed wrong and keeps asking; the next question follows in the same message"
+ },
+ "twentyLose": {
+  "req": [],
+  "opt": [],
+  "orig": "You win! I'm stumped. What were you thinking of?",
+  "note": "Ace used all 20 questions or ran out of ideas"
+ },
+ "twentyLearned": {
+  "req": [
+   "thing"
+  ],
+  "opt": [],
+  "orig": "{thing}! Good one. I'll remember it for next time.",
+  "note": "{thing} like 'a hedgehog'"
+ },
+ "twentyStopped": {
+  "req": [],
+  "opt": [],
+  "orig": "Okay, game over. We can play again anytime.",
+  "note": "They stopped the game"
  }
 }

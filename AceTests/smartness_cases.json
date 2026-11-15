@@ -239,7 +239,8 @@
    "expect": {
     "bank": [
      "lang.thanks.how-do-you-say-thank-you-in-spanish"
-    ]
+    ],
+    "skill": "translate"
    }
   },
   {
@@ -790,7 +791,8 @@
    "expect": {
     "bank": [
      "lang.hello.how-do-you-say-hello-in-spanish"
-    ]
+    ],
+    "skill": "translate"
    }
   },
   {
@@ -1239,7 +1241,8 @@
    "expect": {
     "bank": [
      "lang.hello.how-do-you-say-hello-in-french"
-    ]
+    ],
+    "skill": "translate"
    },
    "context": [
     "how do you say hello in spanish"
@@ -1677,12 +1680,14 @@
      {
       "bank": [
        "lang.thanks.how-do-you-say-thank-you-in-french"
-      ]
+      ],
+      "skill": "translate"
      },
      {
       "bank": [
        "lang.bye.how-do-you-say-goodbye-in-spanish"
-      ]
+      ],
+      "skill": "translate"
      }
     ]
    }

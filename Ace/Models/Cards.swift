@@ -16,6 +16,16 @@ enum AceCard: Codable, Equatable {
     case power(PowerCard)
     case greeting(GreetingCard)
     case code(CodeCard)
+    case trivia(TriviaCard)
+    case translation(TranslationCard)
+    case quickReplies(QuickReplies)
+}
+
+/// Buttons that send a short answer ("Yes", "No"...), used by 20 questions.
+struct QuickReplies: Codable, Equatable {
+    /// Matches Brain.gameToken while these buttons still mean something.
+    var token: String
+    var replies: [String]
 }
 
 /// The first hello of the day: the date, what's on today, and a few quick things to ask.
