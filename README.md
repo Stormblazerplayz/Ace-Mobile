@@ -7,7 +7,7 @@ It runs on the iPad all by itself. PC sync with Nimbus is planned and stays off 
 ## What works in this version
 
 - **Orb island:** the orb sits at the top. When Ace checks things it stretches into a pill and two eyes look around. It also shows typing, thinking, talking, alert and happy moods.
-- **Ace V4 brain:** rules, a bank of 2,407 answers (7,690 ways to ask), Apple's on-device neural sentence matcher, a small intent classifier, math, unit conversion, dates, and web research with short summaries. You can see how it got each answer under "How I got this". It learns when you teach it ("no, the answer is ...").
+- **Ace V4 brain:** rules, a hand-made bank of 2,946 answers plus a knowledge pack of 57,215 more (about 60,000 answers and 199,000 ways to ask, on school subjects, coding, PC and tech help, everyday life, games and every country), Apple's on-device neural sentence matcher, a small intent classifier, math, unit conversion, dates, and web research with short summaries. You can see how it got each answer under "How I got this". It learns when you teach it ("no, the answer is ...").
 - **Nimbus calendar:** Ace makes a calendar called Nimbus first. It adds, changes, and deletes events only after you tap Yes.
 - **Checks:** battery, storage, memory, temperature, Wi-Fi, time, how long you've been away, what's next on your calendar, reminders, and Ace's own notifications. Tap the orb to check now.
 - **Daily greeting, bedtime tips, timers, reminders, recipes (with a checklist card), weather (7 days), and opening sites in an in-app browser tab.**
@@ -54,5 +54,17 @@ In App Store Connect, make an app with bundle id `com.stormblazerplayz.ace`. The
 ```bash
 python3 tools/build_qa_bank.py
 ```
+
+## Knowledge pack, games and scripts
+
+The big knowledge pack (`Ace/Resources/knowledge.acekb`, 5.5 MB compressed) and the bigger trivia (4,024 questions), 20 questions (668 things), phrasebook (1,194 phrases) and recipe (1,005) files are built from `tools/knowledge/` (see `tools/knowledge/README.md`):
+
+```bash
+pip install regex
+python3 tools/knowledge/check_data.py
+python3 tools/knowledge/build_knowledge.py
+```
+
+The 1,138 built-in scripts (Roblox Lua, C++ and Arduino, Python, Swift) live in `tools/scripts/` and are built with `python3 tools/build_scripts.py`. CI compiles or type-checks every one.
 
 Sounds and the icon come from `tools/make_sounds.py` and `tools/make_icon.py`.

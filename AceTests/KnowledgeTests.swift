@@ -25,7 +25,7 @@ final class KnowledgeTests: XCTestCase {
     }
 
     /// The lowest score that still passes. Raised once the pack is in, so it can't quietly get worse.
-    static let passMark = 0
+    static let passMark = 75
 
     func testKnowledgeQuestions() throws {
         let bundle = Bundle(for: KnowledgeTests.self)
