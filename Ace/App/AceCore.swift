@@ -46,6 +46,8 @@ final class AceCore: ObservableObject, BrainHost {
         brain.host = self
         applySoundSettings()
         setUpVoice()
+        // Siri, Shortcuts and widgets hand their asks to Ace here.
+        IntentInbox.shared.connect { [weak self] text in self?.send(text) }
     }
 
     // MARK: Talking to Ace

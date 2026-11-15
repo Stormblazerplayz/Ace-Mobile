@@ -66,8 +66,9 @@ enum HomeParser {
         }
 
         // Scenes
-        if let g = Rx.groups(polite + #"(?:run|start|activate|turn on|play|set|do)\s+(?:the\s+|my\s+)?(.+?)\s+(?:scene|mode)$"#, t),
-           !Rx.matches(#"^(hands ?free|dark|light|low power|airplane|focus|do not disturb|sound|silent|reader|reading|guided access|lost)$"#, g[0]) {
+        // "Focus mode" or "dark mode" are iPad settings, but "the focus scene" is a home scene.
+        if let g = Rx.groups(polite + #"(?:run|start|activate|turn on|play|set|do)\s+(?:the\s+|my\s+)?(.+?)\s+(scene|mode)$"#, t),
+           g[1] == "scene" || !Rx.matches(#"^(hands ?free|dark|light|low power|airplane|focus|do not disturb|sound|silent|reader|reading|guided access|lost)$"#, g[0]) {
             return HomeCommand(action: .scene(g[0]), target: "")
         }
         if let g = Rx.groups(#"^(movie (?:mode|time|night)|good ?night (?:mode|scene)|good morning (?:mode|scene)|party (?:mode|time)|i am (?:going|heading) to bed|i am leaving|i am home|i am back home)$"#, t) {
