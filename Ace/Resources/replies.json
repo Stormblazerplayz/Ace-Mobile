@@ -1,6 +1,6 @@
 {
  "format": "ace-replies/1",
- "count": 119,
+ "count": 128,
  "replies": {
   "alarm": {
    "required": [],
@@ -25,6 +25,34 @@
     "Apps can't set iPad Clock alarms, but a timer or a reminder from me will ring. Try \"remind me at 7am to get up\".",
     "Sorry, apps can't set iPad Clock alarms. I can set a timer or a reminder that rings, though. Try \"remind me at 7am to get up\".",
     "Apps can't set iPad Clock alarms. Want a timer or a reminder that rings? Try \"remind me at 7am to get up\"."
+   ]
+  },
+  "aliasIs": {
+   "required": [
+    "alias",
+    "thing"
+   ],
+   "say": [
+    "{alias} is your {thing}.",
+    "That's your {thing}! You named it {alias}.",
+    "{alias}? That's what you call your {thing}.",
+    "You told me {alias} is your {thing}.",
+    "{alias} is the name of your {thing}.",
+    "Easy one. {alias} is your {thing}.",
+    "Your {thing}! You call it {alias}.",
+    "{alias} is your {thing}, remember?",
+    "That would be your {thing}, {alias}.",
+    "{alias} means your {thing}.",
+    "I know this one: {alias} is your {thing}.",
+    "You named your {thing} {alias}.",
+    "{alias} is what you named your {thing}.",
+    "When you say {alias}, you mean your {thing}.",
+    "{alias}, aka your {thing}.",
+    "It's your {thing}. Its name is {alias}.",
+    "{alias} is your {thing}. Good name!",
+    "Your {thing} goes by {alias}.",
+    "You said {alias} is your {thing}.",
+    "{alias}? Your {thing}, of course."
    ]
   },
   "batteryCharging": {
@@ -2062,6 +2090,34 @@
     "There's nothing saved about you right now."
    ]
   },
+  "recipeBatch": {
+   "required": [
+    "name",
+    "amount"
+   ],
+   "say": [
+    "Here's {name} with {amount}. I changed all the amounts.",
+    "Done! {name}, now {amount}.",
+    "{name} with {amount}: all the amounts are updated.",
+    "Here you go: {name}, {amount}.",
+    "I made {name} {amount}. The amounts are all new.",
+    "{name} at {amount}. Every amount is changed.",
+    "Now {name} makes {amount}. I did the math.",
+    "Here's {name}, {amount} this time.",
+    "{name}, {amount}, with every amount changed.",
+    "Got it. {name} is now {amount}.",
+    "I changed {name} to {amount}. Check the new amounts.",
+    "Here's what you need for {name}, {amount}.",
+    "{name}, but {amount}. The amounts are updated.",
+    "All set: {name} with {amount}.",
+    "Here's {name} with the amounts for {amount}.",
+    "I redid the amounts for {name}: {amount}.",
+    "{name} now makes {amount}.",
+    "Okay! {name}, {amount}.",
+    "Here are the new amounts for {name}, {amount}.",
+    "I scaled {name} to {amount}."
+   ]
+  },
   "recipeFound": {
    "required": [
     "name",
@@ -2089,6 +2145,31 @@
     "Here's how to make {name}: {ingredients} ingredients and {steps} steps.",
     "{name} is ready to go: {ingredients} ingredients and {steps} steps.",
     "Let's make {name}! It has {ingredients} ingredients and {steps} steps."
+   ]
+  },
+  "recipeGuessedServings": {
+   "required": [],
+   "say": [
+    "The recipe didn't say how many it feeds, so I guessed 4.",
+    "It didn't say how many it serves, so I counted it as 4.",
+    "I didn't know how many it fed, so I guessed 4 people.",
+    "The recipe had no serving size, so I went with 4.",
+    "I guessed the first recipe feeds 4, since it didn't say.",
+    "No serving size was given, so I assumed 4.",
+    "It didn't list servings, so I treated it as serving 4.",
+    "I had to guess it served 4, because the recipe didn't say.",
+    "The servings weren't listed, so I used 4.",
+    "My guess is it fed 4 before, since it didn't say.",
+    "I started from 4 servings, because the recipe didn't say.",
+    "I didn't see how many it makes, so I guessed 4.",
+    "It didn't say how many people it's for, so I guessed 4.",
+    "I counted the first version as 4 servings, since it didn't say.",
+    "The recipe left out servings, so I went with 4 people.",
+    "Heads up: I guessed it served 4, because it didn't say.",
+    "It had no serving count, so I used 4 to start.",
+    "I guessed 4 servings, since the recipe didn't tell me.",
+    "Because the recipe didn't say how many it feeds, I guessed 4.",
+    "I went with 4 servings to start, since none were listed."
    ]
   },
   "recipeIdea": {
@@ -2147,6 +2228,31 @@
     "With {items} on hand, try {dishes}. Here's {first}."
    ]
   },
+  "recipeNeedOne": {
+   "required": [],
+   "say": [
+    "Ask me for a recipe first, then I can change it for you.",
+    "Which recipe? Ask me for one, then I can change it.",
+    "I need a recipe to change. Try \"recipe for pancakes\" first.",
+    "First pick a recipe, then I'll change it however you like.",
+    "There's no recipe open yet. Ask for one and I'll tweak it.",
+    "Tell me what you're making first, then I can change it.",
+    "I can change a recipe once you've asked me for one.",
+    "Ask for a recipe first, like \"how do I make tacos\", then I'll change it.",
+    "Pick a recipe first! Then I can make it bigger, spicier or veggie.",
+    "I don't have a recipe to change yet. Ask me for one.",
+    "Get a recipe from me first, then I'll change it for you.",
+    "Which dish? Ask me for its recipe, then I can tweak it.",
+    "Ask me how to make something first, then I can change the recipe.",
+    "No recipe yet! Ask for one and I'll adjust it.",
+    "I need to know the recipe first. Ask me for one.",
+    "Start with a recipe, then tell me how to change it.",
+    "Name a dish and I'll get the recipe, then I can change it.",
+    "Let's find a recipe first, then I'll tweak it for you.",
+    "There's nothing to change yet. Ask me for a recipe.",
+    "Ask for a recipe, then say how you want it changed."
+   ]
+  },
   "recipeNoIdeas": {
    "required": [
     "items"
@@ -2199,6 +2305,91 @@
     "No {dish} recipe here. Try another name, like \"pancakes\" or \"chicken curry\".",
     "I couldn't find a recipe for {dish}. Maybe call it something else, like \"pancakes\" or \"chicken curry\".",
     "I can't find a recipe for {dish}. Try another name, such as \"pancakes\" or \"chicken curry\"."
+   ]
+  },
+  "recipeScaled": {
+   "required": [
+    "name",
+    "people"
+   ],
+   "say": [
+    "Here's {name} for {people}. I changed all the amounts.",
+    "Done! {name}, now for {people}. All the amounts are updated.",
+    "{name} for {people}: I worked out the new amounts.",
+    "Here you go: {name} scaled to {people}.",
+    "I changed {name} to feed {people}. The amounts are all new.",
+    "{name}, enough for {people}. Every amount is changed.",
+    "Now {name} feeds {people}. I did the math on the amounts.",
+    "Here's {name}, made for {people}.",
+    "{name} for {people}, with every amount changed.",
+    "Got it. {name} now serves {people}.",
+    "I scaled {name} for {people}. Check the new amounts.",
+    "Here's how much you need to make {name} for {people}.",
+    "{name}, sized for {people}. The amounts are updated.",
+    "All set: {name} for {people}.",
+    "Here's {name} with amounts for {people}.",
+    "I redid the amounts so {name} feeds {people}.",
+    "{name} is now a recipe for {people}.",
+    "Okay! {name}, enough to feed {people}.",
+    "Here are the amounts for {name} for {people}.",
+    "I changed the recipe for {name} so it serves {people}."
+   ]
+  },
+  "recipeTweakNothing": {
+   "required": [
+    "name",
+    "change"
+   ],
+   "say": [
+    "{name} doesn't need changes to be {change}, so you can make it as it is.",
+    "Good news! {name} is already {change}.",
+    "{name} is {change} already, so there's nothing to change.",
+    "No changes needed: {name} is already {change}.",
+    "You can make {name} just like it is. It's already {change}.",
+    "{name} already works if you want it {change}.",
+    "I checked, and {name} is already {change}.",
+    "Nothing to swap! {name} is {change} as it is.",
+    "Your {name} is already {change} as it is.",
+    "That one's already {change}, so make {name} the normal way.",
+    "There's nothing in {name} to change for {change}.",
+    "{name} doesn't need any swaps to be {change}.",
+    "Lucky you, {name} is already {change}.",
+    "I didn't find anything to change. {name} is already {change}.",
+    "{name} is good to go as {change}, no swaps needed.",
+    "Make {name} as it is. It's already {change}.",
+    "{name} needs no changes to be {change}.",
+    "All good! {name} is already {change}.",
+    "I looked through {name}, and it's already {change}.",
+    "{name} as it is counts as {change}."
+   ]
+  },
+  "recipeTweaked": {
+   "required": [
+    "name",
+    "change",
+    "swaps"
+   ],
+   "say": [
+    "Here's a {change} version of {name}: {swaps}.",
+    "Done! {name}, made {change}: {swaps}.",
+    "I made {name} {change}. Here's what changed: {swaps}.",
+    "Here's {name}, but {change}: {swaps}.",
+    "{name}, the {change} way: {swaps}.",
+    "Okay! For a {change} {name}, use {swaps}.",
+    "I changed {name} to be {change}: {swaps}.",
+    "Here you go, a {change} {name}: {swaps}.",
+    "To make {name} {change}, I went with {swaps}.",
+    "A {change} {name}, coming up: {swaps}.",
+    "Got it. {name}, {change} style: {swaps}.",
+    "I made a {change} {name}. The changes: {swaps}.",
+    "Here's how to make {name} {change}: {swaps}.",
+    "{name} is now {change}: {swaps}.",
+    "Try this {change} {name}: {swaps}.",
+    "A {change} take on {name}: {swaps}.",
+    "I tweaked {name} so it's {change}: {swaps}.",
+    "All set, a {change} version of {name}: {swaps}.",
+    "Here's my {change} {name}: {swaps}.",
+    "For {name} that's {change}, use {swaps}."
    ]
   },
   "remembered": {
@@ -3047,6 +3238,37 @@
     "Which city is it? Say \"weather in\" and your city, and I'll remember it next time."
    ]
   },
+  "weatherDay": {
+   "required": [
+    "day",
+    "place",
+    "sky",
+    "high",
+    "low"
+   ],
+   "say": [
+    "{day} in {place}: {sky}, high {high}, low {low}{rain}.",
+    "{day} in {place} looks {sky}, with a high of {high} and a low of {low}{rain}.",
+    "Here's {day} in {place}: {sky}, up to {high} and down to {low}{rain}.",
+    "{day} should be {sky} in {place}. High {high}, low {low}{rain}.",
+    "In {place}, {day} looks {sky}: high of {high}, low of {low}{rain}.",
+    "Forecast for {day} in {place}: {sky}, {high} at the warmest, {low} at the coolest{rain}.",
+    "{day}, {place} gets {sky} weather. High {high}, low {low}{rain}.",
+    "Looks like {sky} for {day} in {place}, with a high of {high} and a low of {low}{rain}.",
+    "{day} in {place}: expect {sky}, a high of {high} and a low of {low}{rain}.",
+    "For {day} in {place}, it's {sky}. Highs of {high}, lows of {low}{rain}.",
+    "{place} on {day}: {sky}, high {high}, low {low}{rain}.",
+    "{day} looks {sky} in {place}. It'll reach {high} and drop to {low}{rain}.",
+    "The forecast says {sky} for {day} in {place}, high {high}, low {low}{rain}.",
+    "{day} in {place} is looking {sky}: {high} high, {low} low{rain}.",
+    "Expect {sky} skies in {place} for {day}. High {high}, low {low}{rain}.",
+    "{day} brings {sky} weather to {place}, with a high of {high} and a low of {low}{rain}.",
+    "Checking {day} in {place}: {sky}, high of {high}, low of {low}{rain}.",
+    "{day} in {place} will be {sky}. Top of {high}, bottom of {low}{rain}.",
+    "Here's the forecast for {day} in {place}: {sky}, {high} high and {low} low{rain}.",
+    "{day}'s weather in {place}: {sky}, high {high}, low {low}{rain}."
+   ]
+  },
   "weatherFail": {
    "required": [
     "city"
@@ -3129,6 +3351,33 @@
     "The forecast for today is a high of {high} and a low of {low}{rain}.",
     "Today will be between {low} and {high}{rain}.",
     "Today has a high of {high} and a low of {low}{rain}."
+   ]
+  },
+  "weatherTooFar": {
+   "required": [
+    "day"
+   ],
+   "say": [
+    "I can only see about a week ahead, so {day} is too far away for now.",
+    "{day} is too far ahead. My forecast only goes about a week.",
+    "I can't see {day} yet. The forecast only covers about 7 days.",
+    "That's too far out! I can check {day} once it's within a week.",
+    "My forecast stops at about a week, so {day} isn't in it yet.",
+    "{day} is beyond my forecast. Ask me again closer to the day.",
+    "Sorry, {day} is more than a week away, and that's as far as I can see.",
+    "The forecast doesn't reach {day} yet. Try again in a few days.",
+    "I only get about 7 days of forecast, and {day} is past that.",
+    "No forecast for {day} yet. It's too far ahead.",
+    "{day}? Too far away for the forecast. Ask me nearer the time.",
+    "I can't tell you {day} yet, because forecasts only go about a week.",
+    "{day} isn't in the forecast yet. It covers about a week.",
+    "That's past the end of my forecast. {day} is too far away.",
+    "Weather that far ahead is a guess, so I don't have {day} yet.",
+    "Check back closer to {day}. My forecast only reaches about a week.",
+    "{day} is out of range for now. I see about 7 days ahead.",
+    "I'd need a longer forecast for {day}. Mine stops at about a week.",
+    "Too early to tell for {day}. Ask me again later this week.",
+    "The forecast stops before {day}, so I can't say yet."
    ]
   },
   "yourName": {

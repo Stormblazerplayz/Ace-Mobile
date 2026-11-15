@@ -63,6 +63,55 @@ final class MemoryStore: ObservableObject {
             .map { $0.0 }
     }
 
+    /// Forgets everything.
+    func removeAll() {
+        facts.removeAll()
+        save()
+    }
+
+    /// Facts that contain the words, newest first (for the Memory page's search box).
+    func search(_ words: String) -> [MemoryFact] {
+        let w = words.trimmingCharacters(in: .whitespaces).lowercased()
+        let list = facts.reversed()
+        guard !w.isEmpty else { return Array(list) }
+        return list.filter { $0.text.lowercased().contains(w) }
+    }
+
+    /// Names you gave things: "my vacuum is called Mova" gives ["mova": "vacuum"].
+    var aliases: [String: String] { Self.aliases(in: facts.map(\.text)) }
+
+    /// Finds "my X is called Y", "my X's name is Y" and "Y is my X" in a list of facts.
+    nonisolated static func aliases(in texts: [String]) -> [String: String] {
+        var out: [String: String] = [:]
+        for text in texts {
+            let t = TextKit.normalize(text)
+            var pair: (alias: String, thing: String)?
+            if let g = Rx.groups(#"^(?:my|our) ([a-z][a-z ]*?) (?:is|are) (?:called|named) ([a-z0-9][a-z0-9 '\-]*)$"#, t) {
+                pair = (g[1], g[0])
+            } else if let g = Rx.groups(#"^(?:my|our) ([a-z][a-z ]*?)'s name is ([a-z0-9][a-z0-9 '\-]*)$"#, t) {
+                pair = (g[1], g[0])
+            } else if let g = Rx.groups(#"^([a-z0-9][a-z0-9 '\-]*?) is (?:my|our) ([a-z][a-z ]*?)(?:'s name)?$"#, t) {
+                pair = (g[0], g[1])
+            }
+            guard let p = pair else { continue }
+            let alias = p.alias.trimmingCharacters(in: .whitespaces)
+            var thing = p.thing.trimmingCharacters(in: .whitespaces)
+            for art in ["new ", "robot "] where thing.hasPrefix(art) && thing.count > art.count + 2 { thing = String(thing.dropFirst(art.count)) }
+            // Short words and words that aren't names ("it is my birthday") don't count.
+            guard alias.count >= 2, alias.split(separator: " ").count <= 3, !notNames.contains(alias),
+                  thing.split(separator: " ").count <= 3, !notNames.contains(thing), alias != thing,
+                  !Rx.matches(#"\b(favorite|favourite|fav|best|least|worst|lucky|first|last|least favorite)\b"#, thing) else { continue }
+            out[alias] = thing
+        }
+        return out
+    }
+
+    nonisolated private static let notNames: Set<String> = [
+        "it", "this", "that", "he", "she", "they", "there", "here", "what", "who", "today", "tomorrow", "tonight",
+        "favorite", "best", "the best", "name", "birthday", "fault", "turn", "job", "life", "dream", "goal", "plan",
+        "home", "house", "friend", "best friend", "the", "a", "an", "one", "mine", "ours",
+    ]
+
     func replaceAll(_ list: [MemoryFact]) {
         facts = list
         save()

@@ -50,6 +50,10 @@ final class Brain {
     private var toldModelMissing = false
     /// A home action waiting for a yes (Ace wasn't sure which device you meant).
     private var pendingHome: HomeCommand?
+    /// The last recipe Ace showed, so "make it spicier" or "for 8 people" can change it.
+    private(set) var lastRecipe: RecipeCard?
+    /// What a follow-up like "what about tomorrow" turned into, so the next follow-up builds on it.
+    private var resolvedQuestion: String?
 
     /// How sure the answer bank has to be to answer straight away.
     static let sure = 0.74
@@ -69,6 +73,7 @@ final class Brain {
         }
         let text = raw.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !text.isEmpty else { return BrainReply(text: Say.line(.empty)) }
+        resolvedQuestion = nil
 
         // Waiting for the right answer after "that's wrong"?
         if let q = awaitingAnswerFor {
@@ -145,8 +150,12 @@ final class Brain {
         // Never show or say a model's hidden thinking or control tags.
         r.text = TextKit.stripModelTags(r.text)
         if r.text.isEmpty && r.cards.isEmpty { r.text = Say.line(.empty) }
-        lastQuestion = question
+        lastQuestion = resolvedQuestion ?? question
+        resolvedQuestion = nil
         lastAnswer = r.text
+        for card in r.cards {
+            if case .recipe(let c) = card { lastRecipe = c }
+        }
         return r
     }
 
@@ -280,6 +289,27 @@ final class Brain {
         let norm = TextKit.normalize(text)
         guard !norm.isEmpty else { return .none }
 
+        // 0. Names you gave things ("my lamp is called Sunny"): "who is sunny", "turn on sunny".
+        if let host {
+            let aliases = host.memory.aliases
+            if let g = Rx.groups(#"^(?:what|who) (?:is|are) ([a-z0-9][a-z0-9 '\-]*)$"#, norm), aliases[g[0]] != nil {
+                notes.append("You gave something the name \"\(g[0])\"")
+                return .rule(.recall(g[0]))
+            }
+            if let swapped = Self.withAliases(text, aliases), let intent = IntentRouter.parse(swapped) {
+                // Only when the name is what the words were about: "turn on sunny" yes, "set the volume to max" no.
+                let plain = IntentRouter.parse(text)
+                var aboutTheName = plain == nil
+                if case .home(let h)? = plain {
+                    aboutTheName = aliases.keys.contains { h.target.contains($0) }
+                }
+                if aboutTheName {
+                    notes.append("You call it by a name, so I read it as \"\(swapped)\"")
+                    return .rule(intent)
+                }
+            }
+        }
+
         // 1. Rules.
         if let intent = IntentRouter.parse(text) {
             notes.append("Rule match: \(describe(intent))")
@@ -302,6 +332,7 @@ final class Brain {
             default: fits = false
             }
             if fits {
+                resolvedQuestion = f.question
                 notes.append("Sounds like a follow-up to \"\(lastQuestion)\", so I read it as \"\(f.question)\"")
                 notes += inner
                 return d
@@ -434,6 +465,29 @@ final class Brain {
 
         if let g = Rx.groups(#"^(?:and |ok |okay |so |now )?(?:what about|how about|what of|same for|same with|and for|and)\s+(.+)$"#, norm) {
             var x = g[0].trimmingCharacters(in: .whitespaces)
+            let lastIntent = IntentRouter.parse(lastQuestion)
+            // "what about tomorrow" after the weather: the same place, another day.
+            if case .weather(let place, let day)? = lastIntent {
+                let when = DayWords.find(in: x)
+                var newPlace = when?.rest ?? x
+                for p in ["in ", "for ", "at ", "on "] where newPlace.hasPrefix(p) { newPlace = String(newPlace.dropFirst(p.count)) }
+                if newPlace.isEmpty || ["there", "here", "then"].contains(newPlace) { newPlace = place ?? "" }
+                // "and is it windy" isn't a place, so leave that one to the other follow-up checks.
+                let looksLikePlace = newPlace.split(separator: " ").count <= 3
+                    && !Rx.matches(#"^(is|it|will|does|do|what|how|can|should|would|the|a|an|my|your|i|you|about)\b"#, newPlace)
+                if when != nil || looksLikePlace {
+                    var q = "what is the weather"
+                    if !newPlace.isEmpty { q += " in " + newPlace }
+                    if let d = when?.label ?? day, d != "today" { q += " " + d.lowercased() }
+                    return FollowUp(question: q, isAbout: true)
+                }
+            }
+            // "what about saturday" after "what do I have tomorrow": the same question, another day.
+            if DayWords.isOnlyDay(x), let li = lastIntent, li.kind == "calendarList" {
+                let base = DayWords.find(in: last)?.rest ?? last
+                let day = DayWords.find(in: x)?.label.lowercased() ?? x
+                return FollowUp(question: base + (DayWords.weekdays.contains(day) ? " on " : " ") + day, isAbout: true)
+            }
             for p in ["in ", "on ", "of ", "for ", "at ", "with "] where x.hasPrefix(p) { x = String(x.dropFirst(p.count)) }
             // Try the new thing in each place the subject could be, and keep the one that makes the best question.
             var best: (question: String, score: Double)?
@@ -586,6 +640,13 @@ final class Brain {
         awaitingAnswerFor = nil
         pendingChoices = []
         pendingHome = nil
+        lastRecipe = nil
+        resolvedQuestion = nil
+    }
+
+    /// Sets the recipe follow-ups change (for tests).
+    func noteRecipe(_ card: RecipeCard?) {
+        lastRecipe = card
     }
 
     private func understandOne(_ text: String) -> Understanding {
@@ -597,6 +658,27 @@ final class Brain {
         case .clarify(let a, let b): return .clarify([a.entry.id, b.entry.id])
         case .none: return .unknown
         }
+    }
+
+    /// "turn on sunny" -> "turn on the lamp", when you told Ace "my lamp is called Sunny". Nil when no name is in it.
+    nonisolated static func withAliases(_ text: String, _ aliases: [String: String]) -> String? {
+        guard !aliases.isEmpty else { return nil }
+        var t = TextKit.normalize(text)
+        var changed = false
+        for (alias, thing) in aliases.sorted(by: { $0.key.count > $1.key.count }) {
+            let pattern = #"(?<![a-z0-9'])(?:the |my )?"# + NSRegularExpression.escapedPattern(for: alias) + #"(?![a-z0-9])"#
+            guard t.range(of: pattern, options: .regularExpression) != nil else { continue }
+            t = t.replacingOccurrences(of: pattern, with: "the " + thing, options: .regularExpression)
+            changed = true
+        }
+        return changed ? t : nil
+    }
+
+    /// Gives back the words the way you typed them ("Mova", not "mova") when they can be found.
+    nonisolated static func originalCase(_ piece: String, in raw: String) -> String {
+        let clean = raw.replacingOccurrences(of: "’", with: "'")
+        guard let r = clean.range(of: piece, options: [.caseInsensitive]) else { return piece }
+        return String(clean[r])
     }
 
     // MARK: Answers
@@ -634,7 +716,7 @@ final class Brain {
     private func intent(for skill: IntentClassifier.Skill, text: String) -> Intent? {
         switch skill {
         case .recipe: return .recipe(Summarizer.topic(of: text))
-        case .weather: return .weather(place: nil)
+        case .weather: return .weather(place: nil, day: nil)
         case .timer: return DateParser.duration(in: text).map { .timer(seconds: $0.seconds, label: "Timer") }
         case .reminder: return .reminder(text: text)
         case .calendarAdd: return .calendarAdd(text: text)
@@ -672,6 +754,7 @@ final class Brain {
         case .openSite: return "opening a website"
         case .searchTab: return "a web search tab"
         case .recipe: return "a recipe"
+        case .recipeTweak: return "changing the recipe"
         case .weather: return "the weather"
         case .check: return "a full check"
         case .battery: return "the battery"
@@ -836,7 +919,29 @@ final class Brain {
             lastTopic = card.name
             return BrainReply(text: Say.line(.recipeFound, ["name": card.name, "ingredients": "\(card.ingredients.count)", "steps": "\(card.steps.count)"]), cards: [.recipe(card)], source: "web")
 
-        case .weather(let place):
+        case .recipeTweak(let ask):
+            guard let change = RecipeTweaks.parse(ask) else { return nil }
+            guard let base = lastRecipe else { return BrainReply(text: Say.line(.recipeNeedOne), mood: .idle) }
+            let r = RecipeTweaks.apply(change, to: base)
+            lastTopic = r.card.name
+            switch change {
+            case .people(let n):
+                let note = r.guessedServings ? " " + Say.line(.recipeGuessedServings) : ""
+                return BrainReply(text: Say.line(.recipeScaled, ["name": base.name, "people": "\(n) \(n == 1 ? "person" : "people")"]) + note,
+                                  cards: [.recipe(r.card)], source: "Ace's recipe book")
+            case .scale:
+                return BrainReply(text: Say.line(.recipeBatch, ["name": base.name, "amount": r.changes.first ?? "more"]),
+                                  cards: [.recipe(r.card)], source: "Ace's recipe book")
+            case .style(let style):
+                guard !r.changes.isEmpty else {
+                    let said = ["milder": "mild", "less sweet": "not too sweet", "healthier": "pretty healthy"][style] ?? style
+                    return BrainReply(text: Say.line(.recipeTweakNothing, ["name": base.name, "change": said]), mood: .idle)
+                }
+                return BrainReply(text: Say.line(.recipeTweaked, ["name": base.name, "change": style, "swaps": TextKit.joinList(Array(r.changes.prefix(3)))]),
+                                  cards: [.recipe(r.card)], source: "Ace's recipe book")
+            }
+
+        case .weather(let place, let day):
             let saved = UserDefaults.standard.string(forKey: "weatherCity")
             guard let city = place ?? saved, !city.isEmpty else {
                 return BrainReply(text: Say.line(.weatherAskCity), mood: .idle)
@@ -846,6 +951,19 @@ final class Brain {
                 return BrainReply(text: Say.line(.weatherFail, ["city": city]), mood: .idle)
             }
             UserDefaults.standard.set(city, forKey: "weatherCity")
+            // "weather tomorrow" or "weather on saturday": that day's forecast.
+            if let day, let when = DayWords.find(in: day), when.offset > 0 {
+                guard when.offset < card.days.count else {
+                    return BrainReply(text: Say.line(.weatherTooFar, ["day": when.label]), cards: [.weather(card)], source: "web", mood: .idle)
+                }
+                let f = card.days[when.offset]
+                let rain = f.rainChance.map { ", \($0)% chance of rain" } ?? ""
+                let text = Say.line(.weatherDay, ["day": TextKit.capitalizeFirst(when.label), "place": card.place,
+                                                  "sky": WebService.describe(code: f.code).text.lowercased(),
+                                                  "high": "\(Int(f.high.rounded()))\(card.unit)", "low": "\(Int(f.low.rounded()))\(card.unit)",
+                                                  "rain": rain])
+                return BrainReply(text: text, cards: [.weather(card)], source: "web")
+            }
             let d = WebService.describe(code: card.code)
             var s = Say.line(.weatherNow, ["temp": "\(Int(card.temperature.rounded()))\(card.unit)", "sky": d.text, "place": card.place])
             if let today = card.days.first {
@@ -914,7 +1032,8 @@ final class Brain {
             let a = host.sleepCoach.advice(now: now)
             return BrainReply(text: a.text)
 
-        case .remember(let fact):
+        case .remember(let said):
+            let fact = Self.originalCase(said, in: text)
             host.memory.add(fact)
             return BrainReply(text: Say.line(.remembered, ["fact": MemoryStore.youForm(fact)]), source: "memory")
 
@@ -926,6 +1045,9 @@ final class Brain {
         case .recall(let what):
             if ["name", "name again"].contains(what) {
                 return BrainReply(text: name.isEmpty ? Say.line(.noNameYet) : Say.line(.yourName, ["name": name]), source: "memory")
+            }
+            if let thing = host.memory.aliases[TextKit.normalize(what)] {
+                return BrainReply(text: Say.line(.aliasIs, ["alias": TextKit.capitalizeFirst(what), "thing": thing]), source: "memory")
             }
             if let f = host.memory.recall("my " + what).first {
                 return BrainReply(text: TextKit.capitalizeFirst(MemoryStore.youForm(f.text)) + ".", source: "memory")
@@ -1121,19 +1243,14 @@ final class Brain {
         var start = Date()
         var end = c.date(byAdding: .day, value: 1, to: today)!
         var label = "today"
-        if t.contains("tomorrow") {
-            start = c.date(byAdding: .day, value: 1, to: today)!
-            end = c.date(byAdding: .day, value: 2, to: today)!
-            label = "tomorrow"
+        if let day = DayWords.find(in: t), day.offset > 0 || day.label == "this weekend" {
+            // "tomorrow", "on saturday", "this weekend".
+            start = c.date(byAdding: .day, value: day.offset, to: today)!
+            end = c.date(byAdding: .day, value: day.length, to: start)!
+            label = DayWords.weekdays.contains(day.label.lowercased()) ? "on " + day.label : day.label
         } else if t.contains("week") {
             end = c.date(byAdding: .day, value: 7, to: today)!
             label = "in the next 7 days"
-        } else if t.contains("weekend") {
-            let weekday = c.component(.weekday, from: today)
-            let toSat = (7 - weekday + 7) % 7
-            start = c.date(byAdding: .day, value: toSat, to: today)!
-            end = c.date(byAdding: .day, value: 2, to: start)!
-            label = "this weekend"
         } else if t.contains("next") || t.contains("coming up") {
             end = c.date(byAdding: .day, value: 30, to: today)!
             let events = cal.events(from: start, to: end, nimbusOnly: false)

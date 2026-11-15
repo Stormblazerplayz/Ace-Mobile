@@ -113,7 +113,6 @@ struct SettingsView: View {
                     Label("PC Sync with Nimbus", systemImage: "desktopcomputer")
                     Label("Pictures straight into LFM3 Omni", systemImage: "photo.badge.plus")
                     Label("Screenshot and file search", systemImage: "doc.text.magnifyingglass")
-                    Label("Hands-free voice", systemImage: "mic")
                 }
                 .foregroundStyle(AceTheme.muted)
 
@@ -157,30 +156,28 @@ struct SettingsView: View {
     }
 }
 
-/// The facts Ace remembers, with swipe to forget.
+/// What Ace remembers: a short summary here, and the full Memory page one tap away.
 struct MemorySection: View {
     @ObservedObject var memory: MemoryStore
     let bank: QABank
 
     var body: some View {
         Section {
-            if memory.facts.isEmpty {
-                Text("Nothing yet. Say \"remember that...\" and I'll keep it here.")
-                    .foregroundStyle(AceTheme.muted)
-            }
-            ForEach(memory.facts) { fact in
-                Text(fact.text)
-            }
-            .onDelete { offsets in
-                let list = offsets.map { memory.facts[$0] }
-                for f in list { memory.remove(f) }
+            NavigationLink {
+                MemoryView(memory: memory)
+            } label: {
+                LabeledContent {
+                    Text("\(memory.facts.count)")
+                } label: {
+                    Label("Memories", systemImage: "brain.head.profile")
+                }
             }
             LabeledContent("Answers I know", value: "\(bank.entries.count)")
             LabeledContent("Answers I learned", value: "\(max(0, bank.entries.count - bank.builtinCount))")
         } header: {
             Text("What Ace remembers")
         } footer: {
-            Text("Swipe a memory to forget it.")
+            Text("Open Memories to see, search, add or forget things.")
         }
     }
 }
