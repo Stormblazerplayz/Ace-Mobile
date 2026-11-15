@@ -719,7 +719,8 @@ final class Brain {
             let w = words[i]
             // A word the knowledge pack uses only a few times ("capitol") can still be a typo of a common one ("capital").
             let own = bank.spellingFrequency(w)
-            guard w.count >= 4, w.allSatisfy({ $0.isLetter }), !Self.ruleWords.contains(w), bank.wordFrequency(w) == 0, own <= 5,
+            // Three-letter words too ("eet"), but only ones Ace has never seen anywhere.
+            guard w.count >= 4 || (w.count == 3 && own == 0), w.allSatisfy({ $0.isLetter }), !Self.ruleWords.contains(w), bank.wordFrequency(w) == 0, own <= 5,
                   !TextKit.stopwords.contains(w) else { continue }
             let maxDistance = w.count >= 8 ? 2 : 1
             var found: [String: (d: Int, f: Int)] = [:]
@@ -870,8 +871,52 @@ final class Brain {
                      "what is the name of": "what is", "what do you call": "what is", "is called": "is",
                      "how much is": "what is", "which is": "what is", "name the": "what is the"]
         for (a, b) in swaps { t = t.replacingOccurrences(of: " \(a) ", with: " \(b) ") }
+        t = t.replacingOccurrences(of: #"\s+"#, with: " ", options: .regularExpression).trimmingCharacters(in: .whitespaces)
+        for p in Self.sayItAnotherWay {
+            t = t.replacingOccurrences(of: p.pattern, with: p.with, options: .regularExpression)
+        }
         return t.replacingOccurrences(of: #"\s+"#, with: " ", options: .regularExpression).trimmingCharacters(in: .whitespaces)
     }
+
+    /// Everyday ways of asking that the answer bank says differently ("known as" is "called",
+    /// "turn to ice" is "freeze"). Only used when the plain question didn't find a sure answer.
+    static let sayItAnotherWay: [(pattern: String, with: String)] = [
+        // "pluto still counts as a planet right" -> "is pluto a planet"
+        (#"^((?!(?:what|which|how|who|whose|where|when|why|is that|is this|is it)\b)[a-z0-9]+(?: [a-z0-9]+){2,})\s+(?:right|correct|or not|am i right|is that right|yeah)$"#, "$1"),
+        (#"^(?:an? |the )?([a-z]+) (?:still )?(?:counts?|is classed|is counted|classed|counted) as (an?|the) ([a-z]+)$"#, "is a $1 $2 $3"),
+        // "what's a baby monkey known as" -> "what is a baby monkey called"
+        (#"\b(?:known as|named|referred to as)$"#, "called"),
+        // "what is lots of frogs together" -> "what is a group of frogs"
+        (#"\b(?:lots|a lot|a bunch|loads|tons|many|a few) of ([a-z]+) (?:together|in a group)\b"#, "a group of $1"),
+        // "which star is nearest to us" -> "which star is nearest"
+        (#"\s+(?:to|from) (?:us|earth|the earth|our planet)$"#, ""),
+        // "at what temp does water turn to ice" -> "... freeze"
+        (#"\b(?:turn|turns|change|changes|become|becomes) (?:in)?to (?:ice|solid)\b"#, "freeze"),
+        (#"\b(?:turn|turns|change|changes) (?:in)?to (?:steam|gas|vapor)\b"#, "boil"),
+        // "what age is planet earth" -> "how old is planet earth"
+        (#"\bwhat age (is|are|was)\b"#, "how old $1"),
+        // "how many years can a turtle live" -> "how long do a turtle live"
+        (#"\bhow many (?:years|yrs) (?:can|do|does|will|could) (.+?) live\b"#, "how long do $1 live"),
+        (#"\bhow long (?:can|will|could|does) (.+?) live\b"#, "how long do $1 live"),
+        // "what food do pandas like" -> "what do pandas eat"
+        (#"^what (?:food|foods|kind of food|stuff) (?:do|does) ([a-z ]+?)(?: like| love| eat| need| enjoy)?(?: to eat)?$"#, "what do $1 eat"),
+        // "am i supposed to drink" -> "should i drink"
+        (#"\b(?:am i|are we|are you|is a person|are people) (?:supposed|meant) to\b"#, "should i"),
+        (#"^(.+ .+ .+?)\s+(?:each|every|per|a) day$"#, "$1"),
+        // "why do people yawn" -> "why do we yawn"
+        (#"^why (?:do|does) (?:people|humans|a person|kids|you|your body|our body|the body) "#, "why do we "),
+        // "how many continents does the world have" -> "how many continents are there"
+        (#"\bhow many ([a-z ]+?) (?:does|do) (?:the )?(?:world|earth|planet|planet earth) have$"#, "how many $1 are there"),
+        // "how does rain happen" -> "what causes rain"
+        (#"^how (?:does|do) ([a-z ]+?) happen$"#, "what causes $1"),
+        // "the english alphabet" -> "the alphabet"
+        (#"\benglish alphabet\b"#, "alphabet"),
+        // "the space station" -> "the iss"
+        (#"\b(?:the )?(?:international )?space station\b"#, "the iss"),
+        // "what's a bug in programming", "what does the cloud mean on computers"
+        (#"\s+(?:in|on|for) (?:programming|coding|computers?|computing|tech|technology)$"#, ""),
+        (#"^what does (?:the |a |an )?([a-z ]+?) mean$"#, "what is $1"),
+    ]
 
     private func intent(for skill: IntentClassifier.Skill, text: String) -> Intent? {
         switch skill {

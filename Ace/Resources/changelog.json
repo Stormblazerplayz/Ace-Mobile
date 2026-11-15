@@ -1,6 +1,14 @@
 {
  "builds": [
   {
+   "build": 56,
+   "date": "2026-11-15",
+   "items": [
+    "Understands more questions said in your own words, like \"what's a baby frog known as\" or \"how many years can a dog live\".",
+    "Fixes more short typos, like \"eet\" for \"eat\"."
+   ]
+  },
+  {
    "build": 55,
    "date": "2026-11-15",
    "items": [
