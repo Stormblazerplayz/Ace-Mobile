@@ -1,0 +1,39 @@
+# Nintendo game series facts, hand-written. Release years are the first release (usually Japan) unless noted.
+
+# tag: games.nintendo
+what was the first 3d mario game | what is super mario 64 => Super Mario 64 came out in 1996 for the Nintendo 64. It was Mario's first 3D adventure, where you collect Power Stars inside Princess Peach's castle.
+what is super mario galaxy | when did mario galaxy come out => Super Mario Galaxy came out in 2007 for the Wii. Mario flies between tiny planets with their own gravity, and it got a sequel, Super Mario Galaxy 2, in 2010.
+what is super mario sunshine | when did mario sunshine come out => Super Mario Sunshine came out in 2002 for the GameCube. Mario cleans up Isle Delfino using F.L.U.D.D., a water-spraying backpack.
+what is super mario 3d world | what is bowser's fury => Super Mario 3D World came out on the Wii U in 2013 and lets up to 4 players play together, with the Cat Suit power-up. The 2021 Switch version added Bowser's Fury, a separate open-world adventure.
+what is super mario world | when did super mario world come out => Super Mario World came out in 1990 for the Super Nintendo. It introduced Yoshi, whom Mario can ride.
+what is super mario bros 3 | when did mario 3 come out => Super Mario Bros. 3 came out on the NES in 1988 in Japan and 1990 in North America. It added a world map and power-ups like the Super Leaf and Tanooki Suit.
+what is super mario maker 2 | can you make your own mario levels => Super Mario Maker 2 is a 2019 Switch game where you build your own Mario levels and play levels made by players around the world.
+what is paper mario | what is mario and luigi rpg => Paper Mario and Mario & Luigi are role-playing game series starring Mario, with turn-based battles where you time button presses to do more damage.
+when did mario kart start | what was the first mario kart => The first Mario Kart was Super Mario Kart, released in 1992 for the Super Nintendo.
+what is mario kart 8 deluxe | is mario kart 8 deluxe the best selling switch game => Mario Kart 8 Deluxe came out on the Switch in 2017 and is the best-selling Switch game, with more than 60 million copies sold.
+what does the super horn do in mario kart | how do you stop a blue shell => The Super Horn blasts away nearby racers and items, and it is one of the few ways to destroy a Spiny (blue) Shell before it hits you.
+what does a red shell do in mario kart | what does a green shell do => A green shell flies straight and bounces off walls, while a red shell chases the racer in front of you. You can block both by holding an item like a banana behind your kart.
+how many coins can you hold in mario kart | what do coins do in mario kart => In Mario Kart 8 Deluxe you can hold up to 10 coins, and each one makes your kart a little faster.
+what is a lightning bolt in mario kart | what does the lightning do => The lightning bolt shrinks every other racer, slowing them down and making them drop their items for a few seconds.
+when did the first zelda game come out | what was the first legend of zelda => The first Legend of Zelda game came out in 1986 for the Famicom in Japan and in 1987 on the NES in North America.
+what is ocarina of time | when did ocarina of time come out => The Legend of Zelda: Ocarina of Time came out in 1998 for the Nintendo 64. It was Zelda's first 3D game and is often called one of the greatest games ever made.
+what is the wind waker | when did wind waker come out => The Legend of Zelda: The Wind Waker came out in 2002 for the GameCube. It has a cartoon art style and you sail across a big ocean.
+what is twilight princess | what is skyward sword => Twilight Princess came out in 2006 on the GameCube and Wii, where Link can turn into a wolf. Skyward Sword came out in 2011 on the Wii and tells the origin of the Master Sword.
+what is majora's mask | majoras mask moon => Majora's Mask came out in 2000 for the Nintendo 64. Link has three days to stop a moon from crashing into the world, and he can reset time with the Song of Time.
+what is a link to the past | what are the zelda games in order of release => A Link to the Past came out in 1991 on the Super Nintendo. Big Zelda games by release include Ocarina of Time (1998), Wind Waker (2002), Twilight Princess (2006), Breath of the Wild (2017) and Tears of the Kingdom (2023).
+who is kirby | who created kirby | when did kirby come out => Kirby is a round pink hero who inhales enemies and copies their powers. He was created by Masahiro Sakurai at HAL Laboratory, and his first game, Kirby's Dream Land, came out in 1992.
+what is metroid | is samus a girl => Samus Aran is the bounty hunter star of the Metroid series, which began in 1986. Many players were surprised at the end of the first game to learn that Samus is a woman.
+what was donkey kong | when did donkey kong come out | who was jumpman => Donkey Kong was a 1981 arcade game where a hero called Jumpman climbs to save a woman from a giant ape. Jumpman was later renamed Mario.
+what is donkey kong country | who are diddy kong and dixie kong => Donkey Kong Country came out in 1994 for the Super Nintendo, made by Rare. Donkey Kong teams up with his buddies Diddy Kong and later Dixie Kong.
+when did smash bros come out | what was the first smash bros => The first Super Smash Bros. came out in 1999 for the Nintendo 64. It was followed by Melee (2001), Brawl (2008), the 3DS and Wii U versions (2014) and Ultimate (2018).
+who is sora in smash | who was the last smash ultimate fighter => Sora from Kingdom Hearts was the final DLC fighter added to Super Smash Bros. Ultimate, in October 2021.
+when did animal crossing start | what was the first animal crossing => The first Animal Crossing came out in 2001 for the Nintendo 64 in Japan, and on the GameCube in other countries in 2002.
+when did splatoon come out | what was the first splatoon => The first Splatoon came out in 2015 for the Wii U. Splatoon 2 followed on the Switch in 2017 and Splatoon 3 in 2022.
+what is a turf war in splatoon | how do you win turf war => Turf War is Splatoon's main mode: two teams of four have 3 minutes to cover the most ground in their team's ink color.
+what is pikmin | when did pikmin come out => Pikmin is a strategy series where Captain Olimar and others lead tiny plant creatures to carry treasures and fight. The first game came out in 2001 for the GameCube.
+what is fire emblem | what kind of game is fire emblem => Fire Emblem is a turn-based tactics series where you move units on a grid map. In classic mode, units that fall in battle are gone for good.
+what is xenoblade chronicles | what kind of game is xenoblade => Xenoblade Chronicles is a big role-playing game series by Monolith Soft with huge open areas to explore.
+what is metroid prime | when did metroid prime come out => Metroid Prime came out in 2002 for the GameCube and played Metroid from Samus's first-person view. Metroid Prime 4: Beyond was released in December 2025 for Switch and Switch 2.
+what is the nes | what was the famicom => The NES, or Nintendo Entertainment System, came out in 1983 in Japan as the Famicom and in 1985 in North America. It helped bring video games back after the 1983 crash.
+what was the nintendo 64 | when did the n64 come out => The Nintendo 64 came out in 1996 and was famous for games like Super Mario 64, Ocarina of Time, GoldenEye 007 and Mario Kart 64.
+who are the koopalings | how many koopalings are there => The Koopalings are 7 of Bowser's minions who often serve as bosses: Larry, Morton, Wendy, Iggy, Roy, Lemmy and Ludwig.

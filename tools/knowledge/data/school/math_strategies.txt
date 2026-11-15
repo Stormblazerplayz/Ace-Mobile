@@ -1,0 +1,33 @@
+# Mental math strategies and a few more math terms. Written by hand.
+# tag: school.math.mental-math
+what is the doubling and halving strategy | double and halve multiplication | doubling and halving trick => Double one factor and halve the other, and the product stays the same. 16 × 5 becomes 8 × 10 = 80, which is easier.
+what is the compensation strategy | compensation in addition | adjust and compensate math => Change a number to make it easier, then fix the answer. For 48 + 27, add 50 + 27 = 77, then take away the extra 2 to get 75.
+what is the make a ten strategy | making ten to add | make 10 addition => Break one number so the other reaches 10 first. For 8 + 5, take 2 from the 5 to make 10, then add the 3 left over: 13.
+what is the near doubles strategy | doubles plus one | near doubles addition => Use a double you know, then adjust. 6 + 7 is double 6 (12) plus 1, which is 13.
+what is the break apart strategy | splitting strategy | partial sums => Split numbers by place value and add the parts. 34 + 25 = (30 + 20) + (4 + 5) = 50 + 9 = 59.
+what are partial products | partial products method | partial products multiplication => Multiply each place-value part separately, then add. For 23 × 4: 20 × 4 = 80 and 3 × 4 = 12, so 80 + 12 = 92.
+how do you multiply by 4 in your head | quick way to multiply by 4 | times 4 trick => Double the number, then double again. 4 × 17: double 17 is 34, double 34 is 68.
+quick way to multiply by 25 | times 25 trick => Multiply by 100, then divide by 4, since 25 is a quarter of 100. 25 × 36 = 3,600 ÷ 4 = 900.
+how do you divide by 5 in your head | quick way to divide by 5 | dividing by 5 trick => Double the number, then divide by 10. 85 ÷ 5: double 85 is 170, and 170 ÷ 10 = 17.
+how do you find 10 percent in your head | quick way to find 10 percent | 10 percent of a number => Move the decimal point one place to the left. 10% of 340 is 34, and 10% of 7.50 is 0.75.
+what is the percent swap trick | is x percent of y the same as y percent of x | percent of trick => Yes, x% of y equals y% of x. So 8% of 25 is the same as 25% of 8, which is 2.
+how do you count up to subtract | counting up subtraction | subtract by adding on => Count up from the smaller number to the bigger one. For 62 - 48: 48 to 50 is 2, 50 to 62 is 12, so the difference is 14.
+how do you add numbers left to right | front end addition | adding from the left => Add the biggest places first and keep a running total. 356 + 427: 300 + 400 = 700, then 50 + 20 = 70 (770), then 6 + 7 = 13, giving 783.
+how do you multiply two numbers close to 100 | multiply near 100 trick | 97 times 96 trick => Find how far each is below 100 (3 and 4). Subtract either distance from the other number (97 - 4 = 93) and multiply the distances (12): 97 × 96 = 9,312.
+how do you square a number close to 50 | squaring numbers near 50 | 52 squared trick => For 50 + n, the answer is (25 + n) hundreds plus n². 52² = 2,700 + 4 = 2,704.
+how do you check a multiplication answer | ways to check multiplication | check your product => Estimate first, check the last digit (7 × 8 ends in 6, so 47 × 38 must end in 6), or divide the answer by one factor to get the other.
+# tag: school.math.terms
+what is a linear pair of angles | linear pair | linear pair postulate => A linear pair is two adjacent angles that form a straight line. They are always supplementary, adding to 180°.
+what is the geometric mean | geometric mean formula | how do you find the geometric mean => The geometric mean of two numbers is the square root of their product. The geometric mean of 4 and 9 is √36 = 6.
+what is the constant of proportionality | how do you find the constant of proportionality | k in y equals kx => In a proportional relationship y = kx, the constant k is y ÷ x, the same for every pair. If 3 pens cost $6, k = 2, or $2 per pen.
+what are complementary events | complement of an event | probability of an event not happening => An event and its complement cover every outcome, so their probabilities add to 1. If P(rain) = 0.3, P(no rain) = 0.7.
+what is a perfect square trinomial | perfect square trinomial formula | how to spot a perfect square trinomial => It's a trinomial that factors as a binomial squared: a² + 2ab + b² = (a + b)². For example, x² + 6x + 9 = (x + 3)².
+what is a rational exponent | what does an exponent of one half mean => A fractional exponent means a root. x^(1/2) is the square root of x, x^(1/3) is the cube root, and 8^(2/3) is (cube root of 8)² = 4.
+what is interval notation | how do you write interval notation | brackets vs parentheses in intervals => Interval notation writes a range of numbers with its ends. A bracket includes the end and a parenthesis doesn't: [2, 5) means 2 up to 5, including 2 but not 5.
+what is the angle bisector theorem | angle bisector theorem triangles | triangle angle bisector proportion => An angle bisector of a triangle divides the opposite side into two parts in the same ratio as the other two sides.
+what is a power of ten | powers of ten examples | what does 10 to the 3rd mean => A power of ten is 10 multiplied by itself some number of times: 10¹ = 10, 10² = 100, 10³ = 1,000. The exponent tells how many zeros.
+what is a multi step word problem | how do you solve multi step word problems | steps for word problems => Read it twice, find what's being asked, list what you know, and break it into smaller steps. Solve each step, then check that the final answer makes sense.
+what is a ten frame | ten frame math | how to use a ten frame => A ten frame is a 2-by-5 grid of boxes used with counters to show numbers up to 10, helping young students see how close a number is to 10.
+what are base ten blocks | base 10 blocks names | units rods flats and cubes => Base ten blocks show place value: a unit cube is 1, a rod is 10, a flat is 100 and a big cube is 1,000.
+what is a hundreds chart | hundred chart patterns | how to use a 100 chart => A hundreds chart shows 1 to 100 in rows of ten. Moving down one row adds 10, and moving right adds 1, which shows place-value patterns.
+what is an open number line | empty number line | open number line strategy => An open number line has no marked numbers; you add only the jumps you need, like jumping from 38 to 40 to 70 to 73 to add 35.

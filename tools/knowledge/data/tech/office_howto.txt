@@ -1,0 +1,91 @@
+# tag: tech.office.sheets
+how do i write a formula in a spreadsheet | start a formula in excel => Click a cell and type an equals sign first, like =A1+B1, then press Enter. Formulas work the same way in Excel and Google Sheets.
+how do i add numbers in excel | sum formula => Use =SUM(A1:A10) to add every number from A1 to A10. The colon means everything in between.
+how do i find the average in excel | average formula sheets => Use =AVERAGE(B2:B20) to get the mean of those cells. Blank cells are skipped, but cells with 0 count.
+how do i find the biggest number in a list in excel | max and min formula => Use =MAX(A1:A50) for the largest and =MIN(A1:A50) for the smallest value in a range.
+how do i count cells in excel | counta vs count => =COUNT(A:A) counts cells with numbers, and =COUNTA(A:A) counts any cell that isn't empty, including text.
+how do i use an if formula | if function excel => =IF(A1>=50,"Pass","Fail") checks a condition and shows the first result if true and the second if false. Text results go in quotes.
+how do i count cells that match something | countif formula => =COUNTIF(A:A,"Win") counts how many cells say Win. You can also use conditions like ">10".
+how do i add only some numbers in excel | sumif formula => =SUMIF(A:A,"Robux",B:B) adds the numbers in column B only on rows where column A says Robux.
+what is vlookup | how does vlookup work => =VLOOKUP(value, table, column number, FALSE) finds a value in the first column of a table and returns something from the same row. Use FALSE for an exact match.
+what is xlookup | xlookup vs vlookup => =XLOOKUP(what, where to look, what to return) is a newer, easier lookup in Excel 365 and Google Sheets. It can look left and defaults to an exact match.
+how do i hide errors in a formula | iferror formula => Wrap the formula in IFERROR, like =IFERROR(A1/B1,0), to show 0 or any text instead of an error.
+how do i join text from two cells | concatenate in sheets => Use =A1&" "&B1 to join two cells with a space, or =CONCAT(A1,B1). TEXTJOIN can join a whole range with a separator.
+how do i round a number in excel | round formula => =ROUND(A1,2) rounds to 2 decimal places. ROUNDUP and ROUNDDOWN always round one direction.
+how do i get a random number in excel | randbetween => =RANDBETWEEN(1,100) gives a random whole number from 1 to 100. It changes every time the sheet recalculates.
+how do i show the date with a formula | today function => =TODAY() shows the date and =NOW() shows the date and time. Both update automatically.
+how do i count days between two dates in excel | days between dates formula => Subtract them, like =B1-A1, and format the result as a number. =DAYS(B1,A1) does the same.
+how do i get a list without duplicates | unique function => =UNIQUE(A2:A100) lists each different value once. It works in Google Sheets and Excel 365.
+how do i filter data with a formula | filter function sheets => =FILTER(A2:C100, C2:C100>10) shows only the rows where column C is over 10. It updates when the data changes.
+how do i sort with a formula | sort function sheets => =SORT(A2:B50, 2, FALSE) sorts that range by its second column, largest first. Use TRUE for smallest first.
+how do i translate text in google sheets | googletranslate formula => =GOOGLETRANSLATE(A1,"en","es") translates cell A1 from English to Spanish. It only works in Google Sheets.
+what does div 0 mean in excel | #div/0 error => #DIV/0! means a formula divided by zero or an empty cell. Fix the divisor or wrap the formula in IFERROR.
+what does #n/a mean in a spreadsheet | n/a error vlookup => #N/A means a lookup couldn't find the value. Check spelling, extra spaces, and that numbers aren't stored as text.
+what does #ref mean in excel | ref error => #REF! means a formula points to a cell that no longer exists, often because a row or column was deleted.
+what does #name mean in excel | name error => #NAME? means the spreadsheet doesn't recognize a word in the formula, usually a typo in the function name or text missing quotes.
+what does #value mean in excel | value error => #VALUE! means the formula got the wrong kind of data, like trying to add text to a number.
+why does my excel cell show hashtags | #### in cell => The column is too narrow to show the number or date. Double-click the right edge of the column header to widen it.
+why is my formula showing as text | formula not calculating => The cell may be formatted as Text, or there's a space or apostrophe before the equals sign. Set the format to Automatic or General and retype it.
+what is a cell reference | a1 notation => A cell reference like B3 means column B, row 3. A range like A1:C5 means the whole block from A1 to C5.
+what is an absolute reference | $a$1 meaning => Dollar signs, like $A$1, lock a reference so it doesn't change when you copy the formula. $A1 locks only the column and A$1 only the row.
+how do i make a chart in google sheets | graph in sheets => Select your data, then choose Insert, Chart. Change the chart type and colors in the Chart editor on the right.
+how do i make a chart in excel | excel graph => Select the data, open the Insert tab and pick a chart type, or use Recommended Charts to see suggestions.
+which chart should i use | pie vs bar chart => Use a bar or column chart to compare amounts, a line chart for change over time, and a pie chart only for parts of one whole with a few slices.
+how do i freeze the top row in excel | keep header row visible => In Excel, open View, Freeze Panes, Freeze Top Row. In Google Sheets, choose View, Freeze, 1 row.
+how do i sort a column in google sheets | sort a to z sheets => Select the data, then choose Data, Sort range, and pick the column and A to Z or Z to A. Tick that the data has a header row if it does.
+how do i add a dropdown list in google sheets | data validation dropdown => Select the cells and choose Insert, Dropdown, then type the options. In Excel, use Data, Data Validation and choose List.
+how do i add a checkbox in google sheets | tick box in sheets => Select the cells and choose Insert, Checkbox. A ticked box counts as TRUE in formulas.
+how do i color cells automatically | conditional formatting => Select the cells and choose Format, Conditional formatting in Sheets, or Home, Conditional Formatting in Excel. Set a rule like greater than 100 and pick a color.
+how do i merge cells in excel | merge and center => Select the cells and click Merge and Center on the Home tab in Excel, or Format, Merge cells in Google Sheets. Only the top-left cell's value is kept.
+how do i wrap text in a cell | text wrap sheets => In Excel, click Wrap Text on the Home tab. In Google Sheets, choose Format, Wrapping, Wrap.
+percent format in sheets | format cells as percentage => Select the cells and click the percent button on the toolbar. A value of 0.25 shows as 25%.
+how do i show money in a spreadsheet | currency format => Select the cells and click the currency button, or open Format, Number, Currency to pick the symbol.
+what is a pivot table | pivot table explained => A pivot table summarizes big data, like totals per category, without formulas. Select the data and choose Insert, Pivot table, then drag fields into rows and values.
+what is a sparkline | sparkline in sheets => A sparkline is a tiny chart inside one cell. In Google Sheets use =SPARKLINE(A1:J1).
+how do i remove duplicate rows in google sheets | delete duplicates => Select the data and choose Data, Data cleanup, Remove duplicates. In Excel, it's Data, Remove Duplicates.
+how do i split text into columns | split names into two columns => In Google Sheets choose Data, Split text to columns. In Excel use Data, Text to Columns, or the =SPLIT formula in Sheets.
+how do i protect a sheet so others can't edit | lock cells google sheets => In Google Sheets, choose Data, Protect sheets and ranges. In Excel, open the Review tab and choose Protect Sheet.
+how do i print a spreadsheet on one page | fit to page excel => In Excel's print settings, choose Fit Sheet on One Page. In Google Sheets, pick Fit to width or Fit to page in the print scale options.
+how do i make a budget in a spreadsheet | simple budget sheet => Make columns for Item, Category and Amount, list money in and out, and use =SUM for totals. Subtract spending from income to see what's left.
+how do i track my game stats in a spreadsheet | k/d tracker sheet => Put one match per row with columns like date, kills, deaths and result, then use AVERAGE and COUNTIF for stats and a line chart to see progress.
+# tag: tech.office.docs
+how do i add page numbers in google docs | page numbers docs => Choose Insert, Page numbers and pick where they go. In Word, open the Insert tab and click Page Number.
+how do i add a header in google docs | header and footer docs => Double-click the top or bottom margin of a page, or choose Insert, Headers and footers.
+how do i change line spacing in google docs | double space docs => Click the line and paragraph spacing button on the toolbar and pick Single, 1.5 or Double. In Word it's on the Home tab.
+how do i change margins in google docs | page setup docs => Choose File, Page setup and type new margins. In Word, open the Layout tab and click Margins.
+how do i make one page landscape in google docs | landscape docs => Choose File, Page setup and pick Landscape to change the whole document. For one page, insert a section break first and apply it to that section.
+how do i make columns in google docs | two columns docs => Choose Format, Columns and pick 2 or 3. In Word, it's Layout, Columns.
+how do i add a footnote in google docs | footnote docs => Put the cursor where you want it and choose Insert, Footnote, or press Ctrl + Alt + F.
+how do i add citations in google docs | bibliography docs => Choose Tools, Citations, pick MLA, APA or Chicago, add your sources, then insert them in the text and add a bibliography.
+how do i add more fonts to google docs | more fonts docs => Click the font menu and choose More fonts at the top to add any Google Font to your list.
+how do i wrap text around a picture in docs | image wrap docs => Click the image and choose Wrap text in the bar under it. In Word, click the image and use the Layout Options button.
+how do i draw in google docs | insert drawing docs => Choose Insert, Drawing, New to make shapes, arrows and text boxes, then click Save and close.
+what is suggesting mode in google docs | suggest edits docs => Suggesting mode turns your edits into suggestions the owner can accept or reject. Switch to it with the pencil button at the top right.
+what is track changes in word | word track changes => Track Changes on the Review tab marks every edit so others can accept or reject them, like Suggesting mode in Google Docs.
+how do i use a template in google docs | docs templates => Open docs.google.com and pick from the Template gallery at the top, like a report, letter or resume.
+how do i check spelling in google docs | spell check docs => Misspelled words get a red underline. Right-click to fix them, or choose Tools, Spelling and grammar to check the whole document.
+how do i insert a special character in docs | symbols google docs => Choose Insert, Special characters and search or draw the symbol you need, like an arrow or degree sign.
+how do i make a document dark mode | dark theme google docs => The Google Docs app on phones and tablets has a dark theme in Settings. On a computer, Docs doesn't have its own dark mode, though some browsers can force one.
+how do i turn a doc into a pdf | save docs as pdf => In Google Docs choose File, Download, PDF. In Word choose File, Save As and pick PDF.
+how do i see who edited my google doc | who changed my doc => Open File, Version history, See version history. Each version shows who made changes, in their own color.
+how do i restore an old version of a google doc | undo big changes docs => Open File, Version history, See version history, pick an older version and click Restore this version.
+how do i copy formatting in google docs | paint format docs => Click the text with the style you want, click the paint format roller on the toolbar, then click or select the text to change.
+how do i make a hanging indent in google docs | hanging indent for works cited => Select the text, choose Format, Align and indent, Indentation options, and set Special indent to Hanging.
+how do i use the explore button in google docs | research in docs => Older Docs had an Explore tool for searching the web and images from inside a document, but Google has removed most of it. Open a new tab to research instead.
+how do i make a word document read to me | read aloud word => In Word, open the Review tab and click Read Aloud. In Edge you can also use Read aloud on web pages and PDFs.
+how do i dictate in word | dictate microsoft word => On the Home tab in Word, click Dictate and start speaking, or press Win + H in Windows for voice typing anywhere.
+# tag: tech.office.slides
+how do i add a transition in google slides | slide transition => Choose Slide, Transition, then pick an effect and speed in the panel. Click Apply to all slides to use it everywhere.
+how do i animate text in google slides | slides animation => Select the text or object, choose Insert, Animation, pick an effect and set it to happen on click or after the previous one.
+how do i add speaker notes | presenter notes slides => Type in the speaker notes box under each slide. In Google Slides use Presenter view while presenting to see them.
+how do i add a video to google slides | youtube in slides => Choose Insert, Video, then search YouTube, paste a link, or pick a video from Google Drive.
+how do i add audio to google slides | music in slides => Upload the audio file to Google Drive, then choose Insert, Audio and pick it. You can set it to play automatically.
+how do i change the theme in google slides | slide design => Click Theme on the toolbar or choose Slide, Change theme, and pick one from the panel.
+what is morph in powerpoint | morph transition => Morph is a PowerPoint transition that smoothly animates objects that appear on both slides, so moving or resizing them looks like motion.
+what is designer in powerpoint | design ideas powerpoint => Designer suggests slide layouts for your text and pictures. Click Designer on the Home or Design tab to see ideas, if your version has it.
+how do i export slides as a video | powerpoint to mp4 => In PowerPoint, choose File, Export, Create a Video. Google Slides can't export video directly, so screen record the presentation instead.
+how do i print slides with notes | print speaker notes => In PowerPoint's print settings, change Full Page Slides to Notes Pages. In Google Slides, choose File, Print preview and pick 1 slide with notes.
+how do i make a good presentation | presentation tips => Use one idea per slide, a few words instead of paragraphs, big pictures, and readable fonts. Practice out loud so you can talk instead of reading.
+how do i make a slideshow loop | loop presentation => In Google Slides, click the arrow next to Slideshow and choose Auto-play, then Loop. In PowerPoint, open Set Up Slide Show and tick Loop continuously.
+how do i make a quiz in google forms | google forms quiz => Create a form, open Settings and turn on Make this a quiz. Add questions, set the answer key and points for each.
+how do i see google forms answers | form responses => Open the form and click the Responses tab to see a summary, or link it to a Google Sheet to see every answer.

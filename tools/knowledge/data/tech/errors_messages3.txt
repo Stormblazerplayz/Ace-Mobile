@@ -1,0 +1,13 @@
+# tag: tech.errors.more3
+what does dxgi error device hung mean | dxgi_error_device_removed => The graphics card stopped responding to the game. Update or clean-reinstall the GPU driver, remove any GPU overclock or undervolt, and check the PSU cables. If it keeps happening, the card may be unstable.
+what does err connection refused mean | site refused to connect => The site's server, or something in between like a proxy or firewall, turned the connection away. Check the address, turn off any proxy or VPN, and try again later.
+what does error 401 mean | 401 unauthorized => 401 means you need to sign in to see that page, or your sign-in expired. Sign in again or refresh.
+what does ethernet doesn't have a valid ip configuration mean | ethernet no valid ip => The PC didn't get an address from the router. Restart the router and PC, try another cable or port, and run the network reset in Settings, Network and internet, Advanced.
+what does default gateway is not available mean | wifi keeps dropping gateway error => Windows lost contact with the router. Update the network adapter driver, turn off power saving for the adapter in Device Manager, and restart the router.
+what does system thread exception not handled mean | system_thread_exception_not_handled => A driver crashed the system. The blue screen often names the driver file, so update or roll back that driver, often the graphics or network one.
+what does driver power state failure mean | blue screen after sleep => A driver didn't wake up or sleep properly. Update chipset, GPU and network drivers, and try turning off Fast Startup.
+what does overclocking failed mean on boot | overclock failed please enter setup => The board reset settings after unstable RAM or CPU tuning. Enter the BIOS, load defaults or a gentler EXPO or XMP profile, and save.
+what is error 0x80070643 | windows update 0x80070643 => It's a general install failure, often from the Windows Recovery partition being too small for an update. Microsoft's support pages list fixes, and some updates can be skipped safely.
+what does error 0xc0000142 mean | application unable to start 0xc0000142 => The app failed to load a needed file. Restart, reinstall the app, update Visual C++ redistributables and run sfc /scannow.
+what is runtime broker | runtime broker using cpu => Runtime Broker is a Windows process that checks app permissions. It normally uses little CPU, and a restart usually fixes it if it gets busy.
+what is wmi provider host | wmi using cpu => WMI Provider Host lets programs ask Windows for system info. High CPU from it usually means another app, like monitoring software, is asking too often.

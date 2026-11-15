@@ -1,0 +1,13 @@
+# tag: tech.files.formats2
+what is an avif image | avif vs webp => AVIF is a newer image format that's often even smaller than WebP at the same quality. Modern browsers support it, but some older apps can't open it.
+what is a dng file | apple proraw dng => DNG is Adobe's open raw photo format. iPhone ProRAW photos are saved as DNG, keeping lots of detail for editing.
+what is a webm video | open webm file => WebM is an open video format used a lot on the web. VLC and most browsers play it, and Resolve may need you to convert it first.
+what is an srt file | subtitle file format => An SRT file is a plain text subtitle file with numbered lines, start and end times and the words to show.
+what is a vcf file | vcard contact file => A VCF or vCard file holds contact info like names and phone numbers. Opening it on a phone adds the contact.
+what is a glb file | gltf vs glb => glTF is a modern 3D format for the web and games. GLB is the single-file version that packs the model, textures and animation together.
+what is a usdz file | ar model file iphone => USDZ is Apple's 3D file for AR. On iPhone or iPad, tap one to place the model in your room with Quick Look.
+what is a midi file | mid file music => A MIDI file stores notes, timing and instruments, not real sound, like sheet music for computers. It plays through a synth or music app.
+what is a drp file | davinci resolve project file => A DRP file is an exported DaVinci Resolve project. Import it in the Project Manager. A DRA is a whole archived project with media.
+what is a .tmp file | can i delete tmp files => TMP files are temporary files apps make while working. Old ones in the temp folder are safe to delete when the app is closed.
+what is a .url file | internet shortcut file => A .url file is a Windows shortcut to a web page. Double-clicking it opens the link in your browser, so only open ones you trust.
+what is an xlsx file | open excel file without excel => XLSX is the Excel spreadsheet format. Google Sheets, Numbers and LibreOffice can open it for free.

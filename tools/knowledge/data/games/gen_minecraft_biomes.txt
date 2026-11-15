@@ -22,7 +22,6 @@ what dimension is the crimson forest in | is the crimson forest in the nether =>
 does it rain in the dark forest | does it snow in dark forest | dark forest weather minecraft | can it rain in a dark forest biome => Yes, it rains in the dark forest biome.
 what is in a dark forest biome | what can you find in the dark forest | what spawns in the dark forest biome | tell me about the dark forest biome => The dark forest biome has thick dark oak trees, big mushrooms and woodland mansions.
 does it rain in the deep cold ocean | does it snow in deep cold ocean | deep cold ocean weather minecraft | can it rain in a deep cold ocean biome => Yes, it rains in the deep cold ocean biome.
-what is in a deep dark biome | what can you find in the deep dark | what spawns in the deep dark biome | tell me about the deep dark biome => The deep dark biome has sculk blocks, sculk shriekers, the Warden and ancient cities, deep underground.
 does it rain in the deep frozen ocean | does it snow in deep frozen ocean | deep frozen ocean weather minecraft | can it rain in a deep frozen ocean biome => Yes, it rains in the deep frozen ocean biome.
 does it rain in the deep lukewarm ocean | does it snow in deep lukewarm ocean | deep lukewarm ocean weather minecraft | can it rain in a deep lukewarm ocean biome => Yes, it rains in the deep lukewarm ocean biome.
 does it rain in the deep ocean | does it snow in deep ocean | deep ocean weather minecraft | can it rain in a deep ocean biome => Yes, it rains in the deep ocean biome.
@@ -93,7 +92,6 @@ what is in a swamp biome | what can you find in the swamp | what spawns in the s
 does it rain in the taiga | does it snow in taiga | taiga weather minecraft | can it rain in a taiga biome => Yes, it rains in the taiga biome.
 what is in a taiga biome | what can you find in the taiga | what spawns in the taiga biome | tell me about the taiga biome => The taiga biome has spruce trees, ferns, sweet berry bushes, wolves, foxes and villages.
 what is in the end biome | what is in a the end biome | what can you find in the the end | what spawns in the the end biome | tell me about the the end biome => The End biome is the main End island with obsidian towers and the Ender Dragon.
-what dimension is the the end in | is the the end in the nether => The the end biome is in the End.
 does it rain in the warm ocean | does it snow in warm ocean | warm ocean weather minecraft | can it rain in a warm ocean biome => Yes, it rains in the warm ocean biome.
 what is in a warm ocean biome | what can you find in the warm ocean | what spawns in the warm ocean biome | tell me about the warm ocean biome => The warm ocean biome has coral reefs, sea pickles, tropical fish and pufferfish.
 what is in a warped forest biome | what can you find in the warped forest | what spawns in the warped forest biome | tell me about the warped forest biome => The warped forest biome has blue warped fungi and lots of endermen, and it's one of the safest Nether biomes.

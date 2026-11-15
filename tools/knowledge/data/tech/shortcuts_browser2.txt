@@ -1,0 +1,11 @@
+# tag: tech.shortcuts.browser2
+how do i go to my homepage with keys | alt home browser => Press Alt + Home in Chrome or Edge to open your homepage in the tab you're on.
+how do i find the next match on a page | ctrl g find next => After Ctrl + F, press Enter or Ctrl + G for the next match and Shift + Enter or Ctrl + Shift + G for the previous one.
+how do i move a tab left or right with keys | ctrl shift page up => In Chrome, press Ctrl + Shift + Page Up or Page Down to move the tab left or right.
+how do i open the chrome profile menu | ctrl shift m chrome => Press Ctrl + Shift + M in Chrome to switch between profiles or open a guest window.
+how do i turn on vertical tabs in edge | ctrl shift comma edge => Press Ctrl + Shift + , in Edge to switch vertical tabs on or off.
+how do i open a private window in firefox | ctrl shift p firefox => Press Ctrl + Shift + P in Firefox for a private window. Chrome and Edge use Ctrl + Shift + N.
+how do i open a private window in safari | command shift n safari => Press Command + Shift + N in Safari on a Mac to open a private window.
+what is caret browsing | f7 browser => Pressing F7 turns on caret browsing, which puts a text cursor on web pages so you can select text with the keyboard. Press F7 again to turn it off.
+how do i open a link in a new window | shift click link => Shift + click a link to open it in a new browser window.
+how do i search the web from the address bar quickly | ctrl k search browser => Press Ctrl + K or Ctrl + E in Chrome or Edge to jump to the address bar ready for a search.

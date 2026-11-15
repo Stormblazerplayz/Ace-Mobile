@@ -1140,7 +1140,7 @@ what is the electron configuration of thallium | thallium electron configuration
 how many valence electrons does thallium have | thallium valence electrons | outer electrons in thallium => Thallium has 3 valence electrons, the electrons in its outer shell.
 is thallium radioactive | does thallium have radiation | does thallium give off radiation => No, thallium is not radioactive in its normal form. It has at least one stable isotope.
 what is the atomic mass of lead | lead atomic mass | atomic weight of lead | how heavy is a lead atom | whats the mass of lead on the periodic table => The atomic mass of lead is about 207.2 u (atomic mass units). That's the average mass of its atoms as found in nature.
-what group is lead in | what period is lead in | where is lead on the periodic table | lead group and period => Lead is in group 14 and period 6 of the periodic table, in the p-block.
+what period is lead in | where is lead on the periodic table | lead group and period => Lead is in group 14 and period 6 of the periodic table, in the p-block.
 is lead a metal | what type of element is lead | is lead a metal or nonmetal | what family is lead in | lead element category => Yes, lead is a metal. It's a post-transition metal (sometimes called a poor metal).
 how many protons does lead have | how many electrons does lead have | lead protons and electrons | number of protons in lead => Lead has 82 protons in its nucleus. A neutral lead atom also has 82 electrons.
 how many neutrons does lead have | number of neutrons in lead | lead neutrons => Most lead atoms are lead-208 (about 52% of it in nature), which has 126 neutrons. Other isotopes of lead have different numbers of neutrons.

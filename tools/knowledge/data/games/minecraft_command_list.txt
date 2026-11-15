@@ -1,0 +1,54 @@
+# What each Minecraft Java Edition command does, hand-written for 1.21.6. Command list checked against
+# PrismarineJS minecraft-data (MIT) pc/1.21.6 commands.json.
+
+# tag: minecraft.commands
+/advancement command | how to use /advancement => /advancement grants or revokes advancements. For example, /advancement grant @s everything gives you all of them, and /advancement revoke @s everything takes them away.
+what does the attribute command do | /attribute command | how to use /attribute => /attribute reads or changes a mob's or player's attributes, like max health, speed or size. For example, /attribute @s minecraft:scale base set 2 makes you twice as big.
+/ban command | what is /ban-ip => /ban stops a player from joining a server, and /ban-ip bans their IP address. /pardon and /pardon-ip undo them, and /banlist shows who is banned.
+what does the bossbar command do | /bossbar command | how to make a custom boss bar => /bossbar creates and controls custom boss bars at the top of the screen. For example, /bossbar add mybar "Hello" makes one, and /bossbar set mybar players @a shows it to everyone.
+/clear command | how to use /clear => /clear removes items from a player's inventory. /clear on its own empties yours, and /clear @s minecraft:dirt removes only dirt.
+/clone command | how to use /clone => /clone copies blocks from one area to another. You give two corners of the area and then the corner where the copy should go, like /clone 0 64 0 10 70 10 20 64 0.
+/damage command | how to use /damage => /damage hurts an entity by an exact amount, like /damage @s 5 to take 5 damage (2.5 hearts). You can also pick a damage type, like fall or fire.
+what does the data command do | /data command | how to use /data => /data reads and changes the NBT data of blocks, entities and storage. For example, /data get entity @s shows your own player data.
+what does the datapack command do | /datapack command | how to turn on a data pack => /datapack lists, enables and disables data packs in a world. /datapack list shows them all.
+what does the debug command do | /debug command => /debug starts or stops a short performance profile of the game, mainly used by server owners and modders.
+what does the deop command do | /deop command | how to remove op => /deop takes away operator permissions from a player, so they can't use cheat commands anymore. /op gives them back.
+what does the dialog command do | /dialog command => /dialog shows a custom dialog screen to a player, a feature added in Java Edition 1.21.6 mainly for map makers and servers.
+/effect command | how to use /effect => /effect gives or clears status effects. For example, /effect give @s minecraft:speed 60 1 gives Speed II for 60 seconds, and /effect clear @s removes all effects.
+what does the execute command do | /execute command | what is execute as => /execute runs another command with changed conditions, like as a different entity, at another position or only if something is true. For example, /execute as @a at @s run summon lightning_bolt.
+what does the experience command do | /xp command | how to use /experience => /experience, or /xp, adds, sets or checks experience. For example, /xp add @s 30 levels gives you 30 levels.
+what does the fill command do | /fill command => /fill fills a box between two corners with a block, like /fill ~ ~ ~ ~10 ~5 ~10 stone. It can also make hollow boxes or replace one block with another.
+what does the forceload command do | /forceload command | how to keep chunks loaded => /forceload keeps chunks loaded even when no player is nearby, so farms and redstone keep running. For example, /forceload add ~ ~ loads the chunk you're in.
+what does the function command do | /function command => /function runs a list of commands saved in a data pack function file, like /function mypack:start.
+what does the gamerule command do | /gamerule command | list of gamerules => /gamerule changes world rules, like keepInventory, doDaylightCycle or mobGriefing. Type /gamerule and press Tab to see every rule in your version.
+what does the give command do | /give command => /give puts items into a player's inventory, like /give @s minecraft:diamond 64.
+what does the item command do | /item command | how to use /item replace => /item changes items in inventory slots, chests and armor slots. For example, /item replace entity @s armor.head with minecraft:diamond_helmet puts a helmet on you.
+what does the locate command do | /locate command | how to use /locate => /locate finds the nearest structure, biome or point of interest. For example, /locate structure minecraft:village_plains or /locate biome minecraft:jungle.
+what does the loot command do | /loot command => /loot drops or gives the items from a loot table, like the loot a mob drops or a chest holds. Map makers use it for custom rewards.
+what does the me command do | /me command => /me shows an action message in chat, like /me is mining, which appears as your name followed by the text.
+/msg command | /tell command | /w command => /msg, /tell and /w all send a private message to one player, like /msg Steve hi.
+what does the perf command do | /perf command => /perf records 10 seconds of server performance data. It is used to find lag on dedicated servers.
+/place command | how to spawn a structure with a command => /place puts a feature, structure or template in the world, like /place structure minecraft:village_plains or /place feature minecraft:oak.
+what does the publish command do | /publish command => /publish opens your single-player world to your local network, like the Open to LAN button.
+what does the random command do | /random command => /random rolls a random number, like /random roll 1..6 for a dice roll that everyone in chat can see.
+what does the return command do | /return command => /return stops a function early and can send back a value. It is used inside data pack functions.
+what does the rotate command do | /rotate command => /rotate changes which way an entity is facing, added in Java Edition 1.21.2. For example, /rotate @s 90 0 turns you to face west.
+what does the save-all command do | /save-all command | what is /save-off => /save-all saves the server world right away. /save-off turns off automatic saving and /save-on turns it back on.
+what does the say command do | /say command => /say sends a message to everyone in chat with your name in square brackets.
+what does the schedule command do | /schedule command => /schedule runs a data pack function after a delay, like /schedule function mypack:boom 5s.
+what does the setidletimeout command do | /setidletimeout command => /setidletimeout kicks players on a server who stay idle for the number of minutes you set.
+what does the setworldspawn command do | /setworldspawn command => /setworldspawn sets the world spawn point where new players appear, like /setworldspawn ~ ~ ~.
+what does the spectate command do | /spectate command => /spectate makes a player in spectator mode see through another entity's eyes, like /spectate @e[type=bee,limit=1].
+what does the stop command do | /stop command => /stop saves and shuts down a server.
+what does the tag command do | /tag command => /tag adds or removes labels on entities, like /tag @s add hero, so other commands can target @e[tag=hero].
+what does the team command do | /team command | what is /teammsg => /team makes teams, sets their colors and turns friendly fire on or off. /teammsg, or /tm, sends a message only to your team.
+what does the teleport command do | /tp command | /teleport command => /teleport, or /tp, moves you or other entities, like /tp @s 100 64 100 or /tp @s Steve to go to another player.
+what does the tellraw command do | /tellraw command => /tellraw sends a fancy chat message using JSON text, with colors and clickable parts, like /tellraw @a {"text":"Hi","color":"gold"}.
+what does the test command do | /test command => /test runs automated game tests, added in Java Edition 1.21.5 for developers and data pack makers.
+/tick command | how to slow down the game => /tick controls the game speed. /tick rate 40 doubles it, /tick freeze stops the world and /tick step 1 moves it forward one tick.
+what does the time command do | /time command => /time changes or checks the time of day, like /time set day, /time set night or /time add 1000.
+what does the transfer command do | /transfer command => /transfer sends a player to a different server address, added in Java Edition 1.20.5 for server networks.
+what does the trigger command do | /trigger command => /trigger lets players without cheats change a special scoreboard objective, so map makers can add buttons in chat.
+what does the version command do | /version command => /version shows which Minecraft server version is running.
+what does the waypoint command do | /waypoint command => /waypoint changes how players and entities show up on the locator bar, added in Java Edition 1.21.6.
+what does the weather command do | /weather command => /weather changes the weather to clear, rain or thunder, like /weather clear.

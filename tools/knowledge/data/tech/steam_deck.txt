@@ -1,0 +1,17 @@
+# tag: tech.steamdeck
+how do i take a screenshot on steam deck | steam deck screenshot button => Hold the Steam button and press R1. Screenshots show up in the Media section of the Steam menu.
+what is the quick access menu on steam deck | steam deck three dots button => The ... button opens Quick Access with notifications, friends, settings like brightness and the Performance tab.
+how do i cap fps on steam deck | steam deck frame limit => In Quick Access, open Performance and set the Framerate Limit, like 40 or 30, to keep games smooth and save battery.
+how long does the steam deck battery last | steam deck battery tips => It ranges from under 2 hours in big 3D games to 8 or more in small games. Capping FPS, lowering brightness and using a power limit helps a lot.
+how do i add a microsd card to steam deck | steam deck sd card format => Put the card in the slot on the bottom edge, then go to Settings, Storage and format it. New games can then install to it.
+how do i add non steam games to steam deck | play epic games on steam deck => In Desktop Mode, install the game or a launcher like Heroic, then in Steam choose Add a Non-Steam Game to My Library so it shows up in Game Mode.
+how do i bring up the keyboard on steam deck | steam deck on screen keyboard => Press the Steam button and X together to show the on-screen keyboard. You can also type with the trackpads.
+what are the back buttons on steam deck | steam deck l4 r4 => The four back grip buttons, L4, L5, R4 and R5, do nothing by default. Assign them to any action in the game's controller settings.
+how do i turn on gyro aiming on steam deck | steam deck gyro => Open the game's controller settings, edit the layout, go to Gyro and set it to act as a mouse or joystick, often only while you touch the right stick.
+how do i update my steam deck | steamos update => Open Settings, System and click Check for updates. Steam client updates show there too.
+how do i reset a steam deck | factory reset steam deck => In Settings, System, choose Factory Reset. It wipes the internal drive, so make sure saves are in Steam Cloud first.
+how do i upgrade steam deck storage | replace steam deck ssd => You can swap the internal drive for a 2230 size M.2 NVMe SSD, then reinstall SteamOS from a recovery USB. Follow a guide like iFixit's, since it means opening the case.
+can i install windows on steam deck | steam deck windows drivers => Yes, Valve provides Windows drivers, but you lose SteamOS features like quick sleep and the simple game mode, so most people stay on SteamOS.
+what is heroic games launcher | epic and gog on linux => Heroic is a free launcher for Linux and Steam Deck that installs and runs games from Epic Games and GOG.
+what is emudeck | emulators on steam deck => EmuDeck is a free tool that sets up emulators on Steam Deck. You still need your own legally dumped games and system files.
+what is decky loader | steam deck plugins => Decky Loader is an unofficial plugin system that adds extra features to the Quick Access menu. It isn't made by Valve, so plugins may break after updates.

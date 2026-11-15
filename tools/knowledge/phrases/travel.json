@@ -1,0 +1,1944 @@
+{
+ "entries": [
+  {
+   "en": "left",
+   "also": [],
+   "t": {
+    "es": "izquierda",
+    "fr": "gauche",
+    "de": "links",
+    "it": "sinistra",
+    "pt": "esquerda",
+    "ja": "左",
+    "zh": "左",
+    "ko": "왼쪽",
+    "hi": "बाएँ",
+    "ar": "يسار",
+    "ru": "налево",
+    "nl": "links"
+   },
+   "say": {
+    "ja": "hidari",
+    "zh": "zuǒ",
+    "ko": "oenjjok",
+    "hi": "baayen",
+    "ar": "yasaar",
+    "ru": "nalevo"
+   }
+  },
+  {
+   "en": "right",
+   "also": [
+    "to the right"
+   ],
+   "t": {
+    "es": "derecha",
+    "fr": "droite",
+    "de": "rechts",
+    "it": "destra",
+    "pt": "direita",
+    "ja": "右",
+    "zh": "右",
+    "ko": "오른쪽",
+    "hi": "दाएँ",
+    "ar": "يمين",
+    "ru": "направо",
+    "nl": "rechts"
+   },
+   "say": {
+    "ja": "migi",
+    "zh": "yòu",
+    "ko": "oreunjjok",
+    "hi": "daayen",
+    "ar": "yameen",
+    "ru": "napravo"
+   }
+  },
+  {
+   "en": "straight ahead",
+   "also": [
+    "go straight"
+   ],
+   "t": {
+    "es": "todo recto",
+    "fr": "tout droit",
+    "de": "geradeaus",
+    "it": "sempre dritto",
+    "pt": "em frente",
+    "ja": "まっすぐ",
+    "zh": "一直走",
+    "ko": "직진",
+    "hi": "सीधे",
+    "ar": "على طول",
+    "ru": "прямо",
+    "nl": "rechtdoor"
+   },
+   "say": {
+    "ja": "massugu",
+    "zh": "yìzhí zǒu",
+    "ko": "jikjin",
+    "hi": "seedhe",
+    "ar": "'ala tool",
+    "ru": "pryamo"
+   }
+  },
+  {
+   "en": "turn left",
+   "also": [],
+   "t": {
+    "es": "Gire a la izquierda",
+    "fr": "Tournez à gauche",
+    "de": "Biegen Sie links ab",
+    "it": "Giri a sinistra",
+    "pt": "Vire à esquerda",
+    "ja": "左に曲がってください",
+    "zh": "左转",
+    "ko": "왼쪽으로 가세요",
+    "hi": "बाएँ मुड़िए",
+    "ar": "انعطف يسارا",
+    "ru": "Поверните налево",
+    "nl": "Ga linksaf"
+   },
+   "say": {
+    "ja": "hidari ni magatte kudasai",
+    "zh": "zuǒ zhuǎn",
+    "ko": "oenjjogeuro gaseyo",
+    "hi": "baayen mudiye",
+    "ar": "in'atif yasaaran",
+    "ru": "povernite nalevo"
+   }
+  },
+  {
+   "en": "turn right",
+   "also": [],
+   "t": {
+    "es": "Gire a la derecha",
+    "fr": "Tournez à droite",
+    "de": "Biegen Sie rechts ab",
+    "it": "Giri a destra",
+    "pt": "Vire à direita",
+    "ja": "右に曲がってください",
+    "zh": "右转",
+    "ko": "오른쪽으로 가세요",
+    "hi": "दाएँ मुड़िए",
+    "ar": "انعطف يمينا",
+    "ru": "Поверните направо",
+    "nl": "Ga rechtsaf"
+   },
+   "say": {
+    "ja": "migi ni magatte kudasai",
+    "zh": "yòu zhuǎn",
+    "ko": "oreunjjogeuro gaseyo",
+    "hi": "daayen mudiye",
+    "ar": "in'atif yameenan",
+    "ru": "povernite napravo"
+   }
+  },
+  {
+   "en": "near",
+   "also": [
+    "nearby",
+    "close by"
+   ],
+   "t": {
+    "es": "cerca",
+    "fr": "près",
+    "de": "in der Nähe",
+    "it": "vicino",
+    "pt": "perto",
+    "ja": "近い",
+    "zh": "近",
+    "ko": "가까워요",
+    "hi": "पास",
+    "ar": "قريب",
+    "ru": "близко",
+    "nl": "dichtbij"
+   },
+   "say": {
+    "ja": "chikai",
+    "zh": "jìn",
+    "ko": "gakkawoyo",
+    "hi": "paas",
+    "ar": "qareeb",
+    "ru": "blizko"
+   }
+  },
+  {
+   "en": "far",
+   "also": [
+    "far away"
+   ],
+   "t": {
+    "es": "lejos",
+    "fr": "loin",
+    "de": "weit",
+    "it": "lontano",
+    "pt": "longe",
+    "ja": "遠い",
+    "zh": "远",
+    "ko": "멀어요",
+    "hi": "दूर",
+    "ar": "بعيد",
+    "ru": "далеко",
+    "nl": "ver"
+   },
+   "say": {
+    "ja": "tooi",
+    "zh": "yuǎn",
+    "ko": "meoreoyo",
+    "hi": "door",
+    "ar": "ba'eed",
+    "ru": "daleko"
+   }
+  },
+  {
+   "en": "is it far",
+   "also": [
+    "is it far from here"
+   ],
+   "t": {
+    "es": "¿Está lejos?",
+    "fr": "C'est loin ?",
+    "de": "Ist es weit?",
+    "it": "È lontano?",
+    "pt": "É longe?",
+    "ja": "遠いですか？",
+    "zh": "远吗？",
+    "ko": "멀어요?",
+    "hi": "क्या यह दूर है?",
+    "ar": "هل هو بعيد؟",
+    "ru": "Это далеко?",
+    "nl": "Is het ver?"
+   },
+   "say": {
+    "ja": "tooi desu ka?",
+    "zh": "yuǎn ma?",
+    "ko": "meoreoyo?",
+    "hi": "kya yah door hai?",
+    "ar": "hal huwa ba'eed?",
+    "ru": "eto daleko?"
+   }
+  },
+  {
+   "en": "is it near here",
+   "also": [
+    "is it close"
+   ],
+   "t": {
+    "es": "¿Está cerca de aquí?",
+    "fr": "C'est près d'ici ?",
+    "de": "Ist es hier in der Nähe?",
+    "it": "È qui vicino?",
+    "pt": "É perto daqui?",
+    "ja": "この近くですか？",
+    "zh": "在附近吗？",
+    "ko": "이 근처예요?",
+    "hi": "क्या यह यहाँ पास में है?",
+    "ar": "هل هو قريب من هنا؟",
+    "ru": "Это рядом?",
+    "nl": "Is het hier in de buurt?"
+   },
+   "say": {
+    "ja": "kono chikaku desu ka?",
+    "zh": "zài fùjìn ma?",
+    "ko": "i geuncheoyeyo?",
+    "hi": "kya yah yahaan paas mein hai?",
+    "ar": "hal huwa qareeb min huna?",
+    "ru": "eto ryadom?"
+   }
+  },
+  {
+   "en": "how do i get to ...",
+   "also": [
+    "how do i get there"
+   ],
+   "t": {
+    "es": "¿Cómo llego a ...?",
+    "fr": "Comment aller à ... ?",
+    "de": "Wie komme ich zu ...?",
+    "it": "Come arrivo a ...?",
+    "pt": "Como chego a ...?",
+    "ja": "...へはどう行けばいいですか？",
+    "zh": "去...怎么走？",
+    "ko": "...에 어떻게 가요?",
+    "hi": "... कैसे जाऊँ?",
+    "ar": "كيف أصل إلى ...؟",
+    "ru": "Как пройти к ...?",
+    "nl": "Hoe kom ik bij ...?"
+   },
+   "say": {
+    "ja": "...e wa dou ikeba ii desu ka?",
+    "zh": "qù ... zěnme zǒu?",
+    "ko": "...e eotteoke gayo?",
+    "hi": "... kaise jaaoon?",
+    "ar": "kayfa asil ila ...?",
+    "ru": "kak proyti k ...?"
+   }
+  },
+  {
+   "en": "can you show me on the map",
+   "also": [
+    "show me on the map"
+   ],
+   "t": {
+    "es": "¿Me lo puede mostrar en el mapa?",
+    "fr": "Vous pouvez me montrer sur la carte ?",
+    "de": "Können Sie es mir auf der Karte zeigen?",
+    "it": "Me lo può mostrare sulla cartina?",
+    "pt": "Pode me mostrar no mapa?",
+    "ja": "地図で教えてもらえますか？",
+    "zh": "能在地图上指给我看吗？",
+    "ko": "지도에서 보여 주실 수 있어요?",
+    "hi": "क्या आप नक्शे पर दिखा सकते हैं?",
+    "ar": "هل يمكنك أن تريني على الخريطة؟",
+    "ru": "Покажите на карте, пожалуйста",
+    "nl": "Kunt u het op de kaart laten zien?"
+   },
+   "say": {
+    "ja": "chizu de oshiete moraemasu ka?",
+    "zh": "néng zài dìtú shang zhǐ gěi wǒ kàn ma?",
+    "ko": "jidoeseo boyeo jusil su isseoyo?",
+    "hi": "kya aap nakshe par dikha sakte hain?",
+    "ar": "hal yumkinuka an turiyani 'ala al-khareeta?",
+    "ru": "pokazhite na karte, pozhaluysta"
+   }
+  },
+  {
+   "en": "street",
+   "also": [],
+   "t": {
+    "es": "calle",
+    "fr": "rue",
+    "de": "Straße",
+    "it": "strada",
+    "pt": "rua",
+    "ja": "通り",
+    "zh": "街道",
+    "ko": "거리",
+    "hi": "सड़क",
+    "ar": "شارع",
+    "ru": "улица",
+    "nl": "straat"
+   },
+   "say": {
+    "ja": "toori",
+    "zh": "jiēdào",
+    "ko": "geori",
+    "hi": "sadak",
+    "ar": "shaari'",
+    "ru": "ulitsa"
+   }
+  },
+  {
+   "en": "corner",
+   "also": [],
+   "t": {
+    "es": "esquina",
+    "fr": "coin",
+    "de": "Ecke",
+    "it": "angolo",
+    "pt": "esquina",
+    "ja": "角",
+    "zh": "拐角",
+    "ko": "모퉁이",
+    "hi": "कोना",
+    "ar": "زاوية",
+    "ru": "угол",
+    "nl": "hoek"
+   },
+   "say": {
+    "ja": "kado",
+    "zh": "guǎijiǎo",
+    "ko": "motungi",
+    "hi": "kona",
+    "ar": "zaawiya",
+    "ru": "ugol"
+   }
+  },
+  {
+   "en": "traffic light",
+   "also": [
+    "traffic lights"
+   ],
+   "t": {
+    "es": "semáforo",
+    "fr": "feu",
+    "de": "Ampel",
+    "it": "semaforo",
+    "pt": "semáforo",
+    "ja": "信号",
+    "zh": "红绿灯",
+    "ko": "신호등",
+    "hi": "ट्रैफ़िक लाइट",
+    "ar": "إشارة المرور",
+    "ru": "светофор",
+    "nl": "stoplicht"
+   },
+   "say": {
+    "ja": "shingou",
+    "zh": "hónglǜdēng",
+    "ko": "sinhodeung",
+    "hi": "traifik laait",
+    "ar": "ishaarat al-muroor",
+    "ru": "svetofor"
+   }
+  },
+  {
+   "en": "bridge",
+   "also": [],
+   "t": {
+    "es": "puente",
+    "fr": "pont",
+    "de": "Brücke",
+    "it": "ponte",
+    "pt": "ponte",
+    "ja": "橋",
+    "zh": "桥",
+    "ko": "다리",
+    "hi": "पुल",
+    "ar": "جسر",
+    "ru": "мост",
+    "nl": "brug"
+   },
+   "say": {
+    "ja": "hashi",
+    "zh": "qiáo",
+    "ko": "dari",
+    "hi": "pul",
+    "ar": "jisr",
+    "ru": "most"
+   }
+  },
+  {
+   "en": "station",
+   "also": [],
+   "t": {
+    "es": "estación",
+    "fr": "gare",
+    "de": "Bahnhof",
+    "it": "stazione",
+    "pt": "estação",
+    "ja": "駅",
+    "zh": "车站",
+    "ko": "역",
+    "hi": "स्टेशन",
+    "ar": "محطة",
+    "ru": "станция",
+    "nl": "station"
+   },
+   "say": {
+    "ja": "eki",
+    "zh": "chēzhàn",
+    "ko": "yeok",
+    "hi": "steshan",
+    "ar": "mahatta",
+    "ru": "stantsiya"
+   }
+  },
+  {
+   "en": "train station",
+   "also": [
+    "railway station"
+   ],
+   "t": {
+    "es": "estación de tren",
+    "fr": "gare",
+    "de": "Bahnhof",
+    "it": "stazione ferroviaria",
+    "pt": "estação de trem",
+    "ja": "駅",
+    "zh": "火车站",
+    "ko": "기차역",
+    "hi": "रेलवे स्टेशन",
+    "ar": "محطة القطار",
+    "ru": "железнодорожный вокзал",
+    "nl": "treinstation"
+   },
+   "say": {
+    "ja": "eki",
+    "zh": "huǒchēzhàn",
+    "ko": "gichayeok",
+    "hi": "relve steshan",
+    "ar": "mahattat al-qitaar",
+    "ru": "zheleznodorozhny vokzal"
+   }
+  },
+  {
+   "en": "bus stop",
+   "also": [],
+   "t": {
+    "es": "parada de autobús",
+    "fr": "arrêt de bus",
+    "de": "Bushaltestelle",
+    "it": "fermata dell'autobus",
+    "pt": "ponto de ônibus",
+    "ja": "バス停",
+    "zh": "公交车站",
+    "ko": "버스 정류장",
+    "hi": "बस स्टॉप",
+    "ar": "موقف الحافلات",
+    "ru": "автобусная остановка",
+    "nl": "bushalte"
+   },
+   "say": {
+    "ja": "basutei",
+    "zh": "gōngjiāochē zhàn",
+    "ko": "beoseu jeongnyujang",
+    "hi": "bas stop",
+    "ar": "mawqif al-haafilaat",
+    "ru": "avtobusnaya ostanovka"
+   }
+  },
+  {
+   "en": "subway",
+   "also": [
+    "metro",
+    "underground"
+   ],
+   "t": {
+    "es": "metro",
+    "fr": "métro",
+    "de": "U-Bahn",
+    "it": "metropolitana",
+    "pt": "metrô",
+    "ja": "地下鉄",
+    "zh": "地铁",
+    "ko": "지하철",
+    "hi": "मेट्रो",
+    "ar": "مترو الأنفاق",
+    "ru": "метро",
+    "nl": "metro"
+   },
+   "say": {
+    "ja": "chikatetsu",
+    "zh": "dìtiě",
+    "ko": "jihacheol",
+    "hi": "metro",
+    "ar": "metro al-anfaaq",
+    "ru": "metro"
+   }
+  },
+  {
+   "en": "airport",
+   "also": [],
+   "t": {
+    "es": "aeropuerto",
+    "fr": "aéroport",
+    "de": "Flughafen",
+    "it": "aeroporto",
+    "pt": "aeroporto",
+    "ja": "空港",
+    "zh": "机场",
+    "ko": "공항",
+    "hi": "हवाई अड्डा",
+    "ar": "مطار",
+    "ru": "аэропорт",
+    "nl": "vliegveld"
+   },
+   "say": {
+    "ja": "kuukou",
+    "zh": "jīchǎng",
+    "ko": "gonghang",
+    "hi": "havaai adda",
+    "ar": "mataar",
+    "ru": "aeroport"
+   }
+  },
+  {
+   "en": "taxi",
+   "also": [
+    "cab"
+   ],
+   "t": {
+    "es": "taxi",
+    "fr": "taxi",
+    "de": "Taxi",
+    "it": "taxi",
+    "pt": "táxi",
+    "ja": "タクシー",
+    "zh": "出租车",
+    "ko": "택시",
+    "hi": "टैक्सी",
+    "ar": "سيارة أجرة",
+    "ru": "такси",
+    "nl": "taxi"
+   },
+   "say": {
+    "ja": "takushii",
+    "zh": "chūzūchē",
+    "ko": "taeksi",
+    "hi": "taiksi",
+    "ar": "sayyaarat ujra",
+    "ru": "taksi"
+   }
+  },
+  {
+   "en": "boat",
+   "also": [],
+   "t": {
+    "es": "barco",
+    "fr": "bateau",
+    "de": "Boot",
+    "it": "barca",
+    "pt": "barco",
+    "ja": "船",
+    "zh": "船",
+    "ko": "배",
+    "hi": "नाव",
+    "ar": "قارب",
+    "ru": "лодка",
+    "nl": "boot"
+   },
+   "say": {
+    "ja": "fune",
+    "zh": "chuán",
+    "ko": "bae",
+    "hi": "naav",
+    "ar": "qaarib",
+    "ru": "lodka"
+   }
+  },
+  {
+   "en": "bicycle",
+   "also": [
+    "bike"
+   ],
+   "t": {
+    "es": "bicicleta",
+    "fr": "vélo",
+    "de": "Fahrrad",
+    "it": "bicicletta",
+    "pt": "bicicleta",
+    "ja": "自転車",
+    "zh": "自行车",
+    "ko": "자전거",
+    "hi": "साइकिल",
+    "ar": "دراجة",
+    "ru": "велосипед",
+    "nl": "fiets"
+   },
+   "say": {
+    "ja": "jitensha",
+    "zh": "zìxíngchē",
+    "ko": "jajeongeo",
+    "hi": "saaikil",
+    "ar": "darraaja",
+    "ru": "velosiped"
+   }
+  },
+  {
+   "en": "ticket",
+   "also": [],
+   "t": {
+    "es": "boleto",
+    "fr": "billet",
+    "de": "Fahrkarte",
+    "it": "biglietto",
+    "pt": "bilhete",
+    "ja": "切符",
+    "zh": "票",
+    "ko": "표",
+    "hi": "टिकट",
+    "ar": "تذكرة",
+    "ru": "билет",
+    "nl": "kaartje"
+   },
+   "say": {
+    "ja": "kippu",
+    "zh": "piào",
+    "ko": "pyo",
+    "hi": "tikat",
+    "ar": "tadhkira",
+    "ru": "bilet"
+   }
+  },
+  {
+   "en": "passport",
+   "also": [],
+   "t": {
+    "es": "pasaporte",
+    "fr": "passeport",
+    "de": "Reisepass",
+    "it": "passaporto",
+    "pt": "passaporte",
+    "ja": "パスポート",
+    "zh": "护照",
+    "ko": "여권",
+    "hi": "पासपोर्ट",
+    "ar": "جواز سفر",
+    "ru": "паспорт",
+    "nl": "paspoort"
+   },
+   "say": {
+    "ja": "pasupooto",
+    "zh": "hùzhào",
+    "ko": "yeogwon",
+    "hi": "paasport",
+    "ar": "jawaaz safar",
+    "ru": "pasport"
+   }
+  },
+  {
+   "en": "suitcase",
+   "also": [
+    "luggage"
+   ],
+   "t": {
+    "es": "maleta",
+    "fr": "valise",
+    "de": "Koffer",
+    "it": "valigia",
+    "pt": "mala",
+    "ja": "スーツケース",
+    "zh": "行李箱",
+    "ko": "여행 가방",
+    "hi": "सूटकेस",
+    "ar": "حقيبة سفر",
+    "ru": "чемодан",
+    "nl": "koffer"
+   },
+   "say": {
+    "ja": "suutsukeesu",
+    "zh": "xínglixiāng",
+    "ko": "yeohaeng gabang",
+    "hi": "sootkes",
+    "ar": "haqeebat safar",
+    "ru": "chemodan"
+   }
+  },
+  {
+   "en": "hotel",
+   "also": [],
+   "t": {
+    "es": "hotel",
+    "fr": "hôtel",
+    "de": "Hotel",
+    "it": "albergo",
+    "pt": "hotel",
+    "ja": "ホテル",
+    "zh": "酒店",
+    "ko": "호텔",
+    "hi": "होटल",
+    "ar": "فندق",
+    "ru": "гостиница",
+    "nl": "hotel"
+   },
+   "say": {
+    "ja": "hoteru",
+    "zh": "jiǔdiàn",
+    "ko": "hotel",
+    "hi": "hotal",
+    "ar": "funduq",
+    "ru": "gostinitsa"
+   }
+  },
+  {
+   "en": "room",
+   "also": [],
+   "t": {
+    "es": "habitación",
+    "fr": "chambre",
+    "de": "Zimmer",
+    "it": "camera",
+    "pt": "quarto",
+    "ja": "部屋",
+    "zh": "房间",
+    "ko": "방",
+    "hi": "कमरा",
+    "ar": "غرفة",
+    "ru": "комната",
+    "nl": "kamer"
+   },
+   "say": {
+    "ja": "heya",
+    "zh": "fángjiān",
+    "ko": "bang",
+    "hi": "kamra",
+    "ar": "ghurfa",
+    "ru": "komnata"
+   }
+  },
+  {
+   "en": "key",
+   "also": [],
+   "t": {
+    "es": "llave",
+    "fr": "clé",
+    "de": "Schlüssel",
+    "it": "chiave",
+    "pt": "chave",
+    "ja": "鍵",
+    "zh": "钥匙",
+    "ko": "열쇠",
+    "hi": "चाबी",
+    "ar": "مفتاح",
+    "ru": "ключ",
+    "nl": "sleutel"
+   },
+   "say": {
+    "ja": "kagi",
+    "zh": "yàoshi",
+    "ko": "yeolsoe",
+    "hi": "chaabi",
+    "ar": "miftaah",
+    "ru": "klyuch"
+   }
+  },
+  {
+   "en": "map of the city",
+   "also": [
+    "city map"
+   ],
+   "t": {
+    "es": "plano de la ciudad",
+    "fr": "plan de la ville",
+    "de": "Stadtplan",
+    "it": "pianta della città",
+    "pt": "mapa da cidade",
+    "ja": "市内地図",
+    "zh": "城市地图",
+    "ko": "시내 지도",
+    "hi": "शहर का नक्शा",
+    "ar": "خريطة المدينة",
+    "ru": "карта города",
+    "nl": "stadsplattegrond"
+   },
+   "say": {
+    "ja": "shinai chizu",
+    "zh": "chéngshì dìtú",
+    "ko": "sinae jido",
+    "hi": "shahar ka naksha",
+    "ar": "khareetat al-madeena",
+    "ru": "karta goroda"
+   }
+  },
+  {
+   "en": "entrance",
+   "also": [
+    "way in"
+   ],
+   "t": {
+    "es": "entrada",
+    "fr": "entrée",
+    "de": "Eingang",
+    "it": "entrata",
+    "pt": "entrada",
+    "ja": "入口",
+    "zh": "入口",
+    "ko": "입구",
+    "hi": "प्रवेश",
+    "ar": "مدخل",
+    "ru": "вход",
+    "nl": "ingang"
+   },
+   "say": {
+    "ja": "iriguchi",
+    "zh": "rùkǒu",
+    "ko": "ipgu",
+    "hi": "pravesh",
+    "ar": "madkhal",
+    "ru": "vkhod"
+   }
+  },
+  {
+   "en": "exit",
+   "also": [
+    "way out"
+   ],
+   "t": {
+    "es": "salida",
+    "fr": "sortie",
+    "de": "Ausgang",
+    "it": "uscita",
+    "pt": "saída",
+    "ja": "出口",
+    "zh": "出口",
+    "ko": "출구",
+    "hi": "निकास",
+    "ar": "مخرج",
+    "ru": "выход",
+    "nl": "uitgang"
+   },
+   "say": {
+    "ja": "deguchi",
+    "zh": "chūkǒu",
+    "ko": "chulgu",
+    "hi": "nikaas",
+    "ar": "makhraj",
+    "ru": "vykhod"
+   }
+  },
+  {
+   "en": "open",
+   "also": [],
+   "t": {
+    "es": "abierto",
+    "fr": "ouvert",
+    "de": "geöffnet",
+    "it": "aperto",
+    "pt": "aberto",
+    "ja": "営業中",
+    "zh": "营业中",
+    "ko": "영업 중",
+    "hi": "खुला",
+    "ar": "مفتوح",
+    "ru": "открыто",
+    "nl": "open"
+   },
+   "say": {
+    "ja": "eigyouchuu",
+    "zh": "yíngyè zhōng",
+    "ko": "yeongeop jung",
+    "hi": "khula",
+    "ar": "maftooh",
+    "ru": "otkryto"
+   }
+  },
+  {
+   "en": "closed",
+   "also": [],
+   "t": {
+    "es": "cerrado",
+    "fr": "fermé",
+    "de": "geschlossen",
+    "it": "chiuso",
+    "pt": "fechado",
+    "ja": "閉店",
+    "zh": "关门",
+    "ko": "영업 종료",
+    "hi": "बंद",
+    "ar": "مغلق",
+    "ru": "закрыто",
+    "nl": "gesloten"
+   },
+   "say": {
+    "ja": "heiten",
+    "zh": "guānmén",
+    "ko": "yeongeop jongnyo",
+    "hi": "band",
+    "ar": "mughlaq",
+    "ru": "zakryto"
+   }
+  },
+  {
+   "en": "where is the station",
+   "also": [],
+   "t": {
+    "es": "¿Dónde está la estación?",
+    "fr": "Où est la gare ?",
+    "de": "Wo ist der Bahnhof?",
+    "it": "Dov'è la stazione?",
+    "pt": "Onde fica a estação?",
+    "ja": "駅はどこですか？",
+    "zh": "车站在哪里？",
+    "ko": "역이 어디예요?",
+    "hi": "स्टेशन कहाँ है?",
+    "ar": "أين المحطة؟",
+    "ru": "Где вокзал?",
+    "nl": "Waar is het station?"
+   },
+   "say": {
+    "ja": "eki wa doko desu ka?",
+    "zh": "chēzhàn zài nǎli?",
+    "ko": "yeogi eodiyeyo?",
+    "hi": "steshan kahaan hai?",
+    "ar": "ayna al-mahatta?",
+    "ru": "gde vokzal?"
+   }
+  },
+  {
+   "en": "where is the bus stop",
+   "also": [],
+   "t": {
+    "es": "¿Dónde está la parada de autobús?",
+    "fr": "Où est l'arrêt de bus ?",
+    "de": "Wo ist die Bushaltestelle?",
+    "it": "Dov'è la fermata dell'autobus?",
+    "pt": "Onde fica o ponto de ônibus?",
+    "ja": "バス停はどこですか？",
+    "zh": "公交车站在哪里？",
+    "ko": "버스 정류장이 어디예요?",
+    "hi": "बस स्टॉप कहाँ है?",
+    "ar": "أين موقف الحافلات؟",
+    "ru": "Где автобусная остановка?",
+    "nl": "Waar is de bushalte?"
+   },
+   "say": {
+    "ja": "basutei wa doko desu ka?",
+    "zh": "gōngjiāochē zhàn zài nǎli?",
+    "ko": "beoseu jeongnyujangi eodiyeyo?",
+    "hi": "bas stop kahaan hai?",
+    "ar": "ayna mawqif al-haafilaat?",
+    "ru": "gde avtobusnaya ostanovka?"
+   }
+  },
+  {
+   "en": "one ticket please",
+   "also": [
+    "a ticket please"
+   ],
+   "t": {
+    "es": "Un boleto, por favor",
+    "fr": "Un billet, s'il vous plaît",
+    "de": "Eine Fahrkarte, bitte",
+    "it": "Un biglietto, per favore",
+    "pt": "Um bilhete, por favor",
+    "ja": "切符を一枚ください",
+    "zh": "请给我一张票",
+    "ko": "표 한 장 주세요",
+    "hi": "एक टिकट दीजिए",
+    "ar": "تذكرة واحدة من فضلك",
+    "ru": "Один билет, пожалуйста",
+    "nl": "Eén kaartje, alstublieft"
+   },
+   "say": {
+    "ja": "kippu o ichimai kudasai",
+    "zh": "qǐng gěi wǒ yì zhāng piào",
+    "ko": "pyo han jang juseyo",
+    "hi": "ek tikat deejiye",
+    "ar": "tadhkira waahida min fadlak",
+    "ru": "odin bilet, pozhaluysta"
+   }
+  },
+  {
+   "en": "when does the train leave",
+   "also": [
+    "what time does the train leave"
+   ],
+   "t": {
+    "es": "¿A qué hora sale el tren?",
+    "fr": "À quelle heure part le train ?",
+    "de": "Wann fährt der Zug ab?",
+    "it": "A che ora parte il treno?",
+    "pt": "A que horas sai o trem?",
+    "ja": "電車は何時に出ますか？",
+    "zh": "火车几点开？",
+    "ko": "기차가 몇 시에 출발해요?",
+    "hi": "ट्रेन कब छूटेगी?",
+    "ar": "متى يغادر القطار؟",
+    "ru": "Когда отправляется поезд?",
+    "nl": "Wanneer vertrekt de trein?"
+   },
+   "say": {
+    "ja": "densha wa nanji ni demasu ka?",
+    "zh": "huǒchē jǐ diǎn kāi?",
+    "ko": "gichaga myeot sie chulbalhaeyo?",
+    "hi": "tren kab chhootegi?",
+    "ar": "mata yughaadir al-qitaar?",
+    "ru": "kogda otpravlyayetsya poyezd?"
+   }
+  },
+  {
+   "en": "does this bus go to ...",
+   "also": [
+    "does this bus go to"
+   ],
+   "t": {
+    "es": "¿Este autobús va a ...?",
+    "fr": "Ce bus va à ... ?",
+    "de": "Fährt dieser Bus nach ...?",
+    "it": "Questo autobus va a ...?",
+    "pt": "Este ônibus vai para ...?",
+    "ja": "このバスは...に行きますか？",
+    "zh": "这辆公交车去...吗？",
+    "ko": "이 버스 ...에 가요?",
+    "hi": "क्या यह बस ... जाती है?",
+    "ar": "هل تذهب هذه الحافلة إلى ...؟",
+    "ru": "Этот автобус идёт до ...?",
+    "nl": "Gaat deze bus naar ...?"
+   },
+   "say": {
+    "ja": "kono basu wa ...ni ikimasu ka?",
+    "zh": "zhè liàng gōngjiāochē qù ... ma?",
+    "ko": "i beoseu ...e gayo?",
+    "hi": "kya yah bas ... jaati hai?",
+    "ar": "hal tadh-hab haadhihi al-haafila ila ...?",
+    "ru": "etot avtobus idyot do ...?"
+   }
+  },
+  {
+   "en": "please take me to ...",
+   "also": [
+    "take me to"
+   ],
+   "t": {
+    "es": "Lléveme a ..., por favor",
+    "fr": "Emmenez-moi à ..., s'il vous plaît",
+    "de": "Bringen Sie mich bitte zu ...",
+    "it": "Mi porti a ..., per favore",
+    "pt": "Me leve para ..., por favor",
+    "ja": "...までお願いします",
+    "zh": "请带我去...",
+    "ko": "...로 가 주세요",
+    "hi": "मुझे ... ले चलिए",
+    "ar": "خذني إلى ... من فضلك",
+    "ru": "Отвезите меня в ..., пожалуйста",
+    "nl": "Breng me naar ..., alstublieft"
+   },
+   "say": {
+    "ja": "...made onegai shimasu",
+    "zh": "qǐng dài wǒ qù ...",
+    "ko": "...ro ga juseyo",
+    "hi": "mujhe ... le chaliye",
+    "ar": "khudhni ila ... min fadlak",
+    "ru": "otvezite menya v ..., pozhaluysta"
+   }
+  },
+  {
+   "en": "stop here please",
+   "also": [
+    "stop here"
+   ],
+   "t": {
+    "es": "Pare aquí, por favor",
+    "fr": "Arrêtez-vous ici, s'il vous plaît",
+    "de": "Halten Sie hier, bitte",
+    "it": "Si fermi qui, per favore",
+    "pt": "Pare aqui, por favor",
+    "ja": "ここで止めてください",
+    "zh": "请在这里停",
+    "ko": "여기서 세워 주세요",
+    "hi": "यहाँ रोकिए",
+    "ar": "توقف هنا من فضلك",
+    "ru": "Остановите здесь, пожалуйста",
+    "nl": "Stop hier, alstublieft"
+   },
+   "say": {
+    "ja": "koko de tomete kudasai",
+    "zh": "qǐng zài zhèlǐ tíng",
+    "ko": "yeogiseo sewo juseyo",
+    "hi": "yahaan rokiye",
+    "ar": "tawaqqaf huna min fadlak",
+    "ru": "ostanovite zdes, pozhaluysta"
+   }
+  },
+  {
+   "en": "i have a reservation",
+   "also": [
+    "i have a booking"
+   ],
+   "t": {
+    "es": "Tengo una reserva",
+    "fr": "J'ai une réservation",
+    "de": "Ich habe eine Reservierung",
+    "it": "Ho una prenotazione",
+    "pt": "Tenho uma reserva",
+    "ja": "予約しています",
+    "zh": "我有预订",
+    "ko": "예약했어요",
+    "hi": "मेरी बुकिंग है",
+    "ar": "عندي حجز",
+    "ru": "У меня бронь",
+    "nl": "Ik heb een reservering"
+   },
+   "say": {
+    "ja": "yoyaku shite imasu",
+    "zh": "wǒ yǒu yùdìng",
+    "ko": "yeyakhaesseoyo",
+    "hi": "meri buking hai",
+    "ar": "'indi hajz",
+    "ru": "u menya bron"
+   }
+  },
+  {
+   "en": "do you have a room",
+   "also": [
+    "is there a room available"
+   ],
+   "t": {
+    "es": "¿Tiene una habitación libre?",
+    "fr": "Vous avez une chambre ?",
+    "de": "Haben Sie ein Zimmer frei?",
+    "it": "Avete una camera libera?",
+    "pt": "Tem um quarto disponível?",
+    "ja": "部屋は空いていますか？",
+    "zh": "有房间吗？",
+    "ko": "방 있어요?",
+    "hi": "क्या कमरा खाली है?",
+    "ar": "هل لديكم غرفة؟",
+    "ru": "У вас есть свободный номер?",
+    "nl": "Heeft u een kamer vrij?"
+   },
+   "say": {
+    "ja": "heya wa aite imasu ka?",
+    "zh": "yǒu fángjiān ma?",
+    "ko": "bang isseoyo?",
+    "hi": "kya kamra khaali hai?",
+    "ar": "hal ladaykum ghurfa?",
+    "ru": "u vas yest svobodny nomer?"
+   }
+  },
+  {
+   "en": "where are you staying",
+   "also": [
+    "where is your hotel"
+   ],
+   "t": {
+    "es": "¿Dónde se aloja?",
+    "fr": "Où logez-vous ?",
+    "de": "Wo übernachten Sie?",
+    "it": "Dove alloggia?",
+    "pt": "Onde você está hospedado/a?",
+    "ja": "どこに泊まっていますか？",
+    "zh": "你住在哪里？",
+    "ko": "어디에 묵고 계세요?",
+    "hi": "आप कहाँ ठहरे हैं?",
+    "ar": "أين تقيم؟",
+    "ru": "Где вы остановились?",
+    "nl": "Waar verblijft u?"
+   },
+   "say": {
+    "ja": "doko ni tomatte imasu ka?",
+    "zh": "nǐ zhù zài nǎli?",
+    "ko": "eodie mukgo gyeseyo?",
+    "hi": "aap kahaan thahre hain?",
+    "ar": "ayna tuqeem?",
+    "ru": "gde vy ostanovilis?"
+   }
+  },
+  {
+   "en": "i'm on vacation",
+   "also": [
+    "i am on holiday"
+   ],
+   "t": {
+    "es": "Estoy de vacaciones",
+    "fr": "Je suis en vacances",
+    "de": "Ich bin im Urlaub",
+    "it": "Sono in vacanza",
+    "pt": "Estou de férias",
+    "ja": "休暇中です",
+    "zh": "我在度假",
+    "ko": "휴가 중이에요",
+    "hi": "मैं छुट्टी पर हूँ",
+    "ar": "أنا في إجازة",
+    "ru": "Я в отпуске",
+    "nl": "Ik ben op vakantie"
+   },
+   "say": {
+    "ja": "kyuuka chuu desu",
+    "zh": "wǒ zài dùjià",
+    "ko": "hyuga jungieyo",
+    "hi": "main chhutti par hoon",
+    "ar": "ana fi ijaaza",
+    "ru": "ya v otpuske"
+   }
+  },
+  {
+   "en": "i'm a tourist",
+   "also": [],
+   "t": {
+    "es": "Soy turista",
+    "fr": "Je suis touriste",
+    "de": "Ich bin Tourist/in",
+    "it": "Sono un/una turista",
+    "pt": "Sou turista",
+    "ja": "観光客です",
+    "zh": "我是游客",
+    "ko": "저는 관광객이에요",
+    "hi": "मैं पर्यटक हूँ",
+    "ar": "أنا سائح / سائحة",
+    "ru": "Я турист / туристка",
+    "nl": "Ik ben toerist"
+   },
+   "say": {
+    "ja": "kankoukyaku desu",
+    "zh": "wǒ shì yóukè",
+    "ko": "jeoneun gwangwanggaegieyo",
+    "hi": "main paryatak hoon",
+    "ar": "ana saa'ih / saa'iha",
+    "ru": "ya turist / turistka"
+   }
+  },
+  {
+   "en": "trip",
+   "also": [
+    "journey"
+   ],
+   "t": {
+    "es": "viaje",
+    "fr": "voyage",
+    "de": "Reise",
+    "it": "viaggio",
+    "pt": "viagem",
+    "ja": "旅行",
+    "zh": "旅行",
+    "ko": "여행",
+    "hi": "यात्रा",
+    "ar": "رحلة",
+    "ru": "поездка",
+    "nl": "reis"
+   },
+   "say": {
+    "ja": "ryokou",
+    "zh": "lǚxíng",
+    "ko": "yeohaeng",
+    "hi": "yaatra",
+    "ar": "rihla",
+    "ru": "poyezdka"
+   }
+  },
+  {
+   "en": "have a good trip",
+   "also": [
+    "bon voyage",
+    "safe travels"
+   ],
+   "t": {
+    "es": "Buen viaje",
+    "fr": "Bon voyage",
+    "de": "Gute Reise",
+    "it": "Buon viaggio",
+    "pt": "Boa viagem",
+    "ja": "よい旅を",
+    "zh": "一路平安",
+    "ko": "즐거운 여행 되세요",
+    "hi": "आपकी यात्रा शुभ हो",
+    "ar": "رحلة سعيدة",
+    "ru": "Счастливого пути",
+    "nl": "Goede reis"
+   },
+   "say": {
+    "ja": "yoi tabi o",
+    "zh": "yílù píng'ān",
+    "ko": "jeulgeoun yeohaeng doeseyo",
+    "hi": "aapki yaatra shubh ho",
+    "ar": "rihla sa'eeda",
+    "ru": "schastlivogo puti"
+   }
+  },
+  {
+   "en": "north",
+   "also": [],
+   "t": {
+    "es": "norte",
+    "fr": "nord",
+    "de": "Norden",
+    "it": "nord",
+    "pt": "norte",
+    "ja": "北",
+    "zh": "北",
+    "ko": "북쪽",
+    "hi": "उत्तर",
+    "ar": "شمال",
+    "ru": "север",
+    "nl": "noorden"
+   },
+   "say": {
+    "ja": "kita",
+    "zh": "běi",
+    "ko": "bukjjok",
+    "hi": "uttar",
+    "ar": "shamaal",
+    "ru": "sever"
+   }
+  },
+  {
+   "en": "south",
+   "also": [],
+   "t": {
+    "es": "sur",
+    "fr": "sud",
+    "de": "Süden",
+    "it": "sud",
+    "pt": "sul",
+    "ja": "南",
+    "zh": "南",
+    "ko": "남쪽",
+    "hi": "दक्षिण",
+    "ar": "جنوب",
+    "ru": "юг",
+    "nl": "zuiden"
+   },
+   "say": {
+    "ja": "minami",
+    "zh": "nán",
+    "ko": "namjjok",
+    "hi": "dakshin",
+    "ar": "janoob",
+    "ru": "yug"
+   }
+  },
+  {
+   "en": "east",
+   "also": [],
+   "t": {
+    "es": "este",
+    "fr": "est",
+    "de": "Osten",
+    "it": "est",
+    "pt": "leste",
+    "ja": "東",
+    "zh": "东",
+    "ko": "동쪽",
+    "hi": "पूर्व",
+    "ar": "شرق",
+    "ru": "восток",
+    "nl": "oosten"
+   },
+   "say": {
+    "ja": "higashi",
+    "zh": "dōng",
+    "ko": "dongjjok",
+    "hi": "poorv",
+    "ar": "sharq",
+    "ru": "vostok"
+   }
+  },
+  {
+   "en": "west",
+   "also": [],
+   "t": {
+    "es": "oeste",
+    "fr": "ouest",
+    "de": "Westen",
+    "it": "ovest",
+    "pt": "oeste",
+    "ja": "西",
+    "zh": "西",
+    "ko": "서쪽",
+    "hi": "पश्चिम",
+    "ar": "غرب",
+    "ru": "запад",
+    "nl": "westen"
+   },
+   "say": {
+    "ja": "nishi",
+    "zh": "xī",
+    "ko": "seojjok",
+    "hi": "pashchim",
+    "ar": "gharb",
+    "ru": "zapad"
+   }
+  },
+  {
+   "en": "country",
+   "also": [],
+   "t": {
+    "es": "país",
+    "fr": "pays",
+    "de": "Land",
+    "it": "paese",
+    "pt": "país",
+    "ja": "国",
+    "zh": "国家",
+    "ko": "나라",
+    "hi": "देश",
+    "ar": "بلد",
+    "ru": "страна",
+    "nl": "land"
+   },
+   "say": {
+    "ja": "kuni",
+    "zh": "guójiā",
+    "ko": "nara",
+    "hi": "desh",
+    "ar": "balad",
+    "ru": "strana"
+   }
+  },
+  {
+   "en": "village",
+   "also": [],
+   "t": {
+    "es": "pueblo",
+    "fr": "village",
+    "de": "Dorf",
+    "it": "villaggio",
+    "pt": "aldeia",
+    "ja": "村",
+    "zh": "村子",
+    "ko": "마을",
+    "hi": "गाँव",
+    "ar": "قرية",
+    "ru": "деревня",
+    "nl": "dorp"
+   },
+   "say": {
+    "ja": "mura",
+    "zh": "cūnzi",
+    "ko": "maeul",
+    "hi": "gaanv",
+    "ar": "qarya",
+    "ru": "derevnya"
+   }
+  },
+  {
+   "en": "mountain",
+   "also": [],
+   "t": {
+    "es": "montaña",
+    "fr": "montagne",
+    "de": "Berg",
+    "it": "montagna",
+    "pt": "montanha",
+    "ja": "山",
+    "zh": "山",
+    "ko": "산",
+    "hi": "पहाड़",
+    "ar": "جبل",
+    "ru": "гора",
+    "nl": "berg"
+   },
+   "say": {
+    "ja": "yama",
+    "zh": "shān",
+    "ko": "san",
+    "hi": "pahaad",
+    "ar": "jabal",
+    "ru": "gora"
+   }
+  },
+  {
+   "en": "river",
+   "also": [],
+   "t": {
+    "es": "río",
+    "fr": "rivière",
+    "de": "Fluss",
+    "it": "fiume",
+    "pt": "rio",
+    "ja": "川",
+    "zh": "河",
+    "ko": "강",
+    "hi": "नदी",
+    "ar": "نهر",
+    "ru": "река",
+    "nl": "rivier"
+   },
+   "say": {
+    "ja": "kawa",
+    "zh": "hé",
+    "ko": "gang",
+    "hi": "nadi",
+    "ar": "nahr",
+    "ru": "reka"
+   }
+  },
+  {
+   "en": "lake",
+   "also": [],
+   "t": {
+    "es": "lago",
+    "fr": "lac",
+    "de": "See",
+    "it": "lago",
+    "pt": "lago",
+    "ja": "湖",
+    "zh": "湖",
+    "ko": "호수",
+    "hi": "झील",
+    "ar": "بحيرة",
+    "ru": "озеро",
+    "nl": "meer"
+   },
+   "say": {
+    "ja": "mizuumi",
+    "zh": "hú",
+    "ko": "hosu",
+    "hi": "jheel",
+    "ar": "buhayra",
+    "ru": "ozero"
+   }
+  },
+  {
+   "en": "island",
+   "also": [],
+   "t": {
+    "es": "isla",
+    "fr": "île",
+    "de": "Insel",
+    "it": "isola",
+    "pt": "ilha",
+    "ja": "島",
+    "zh": "岛",
+    "ko": "섬",
+    "hi": "द्वीप",
+    "ar": "جزيرة",
+    "ru": "остров",
+    "nl": "eiland"
+   },
+   "say": {
+    "ja": "shima",
+    "zh": "dǎo",
+    "ko": "seom",
+    "hi": "dveep",
+    "ar": "jazeera",
+    "ru": "ostrov"
+   }
+  },
+  {
+   "en": "forest",
+   "also": [
+    "woods"
+   ],
+   "t": {
+    "es": "bosque",
+    "fr": "forêt",
+    "de": "Wald",
+    "it": "foresta",
+    "pt": "floresta",
+    "ja": "森",
+    "zh": "森林",
+    "ko": "숲",
+    "hi": "जंगल",
+    "ar": "غابة",
+    "ru": "лес",
+    "nl": "bos"
+   },
+   "say": {
+    "ja": "mori",
+    "zh": "sēnlín",
+    "ko": "sup",
+    "hi": "jangal",
+    "ar": "ghaaba",
+    "ru": "les"
+   }
+  },
+  {
+   "en": "museum",
+   "also": [],
+   "t": {
+    "es": "museo",
+    "fr": "musée",
+    "de": "Museum",
+    "it": "museo",
+    "pt": "museu",
+    "ja": "博物館",
+    "zh": "博物馆",
+    "ko": "박물관",
+    "hi": "संग्रहालय",
+    "ar": "متحف",
+    "ru": "музей",
+    "nl": "museum"
+   },
+   "say": {
+    "ja": "hakubutsukan",
+    "zh": "bówùguǎn",
+    "ko": "bangmulgwan",
+    "hi": "sangrahaalay",
+    "ar": "mathaf",
+    "ru": "muzey"
+   }
+  },
+  {
+   "en": "bank",
+   "also": [],
+   "t": {
+    "es": "banco",
+    "fr": "banque",
+    "de": "Bank",
+    "it": "banca",
+    "pt": "banco",
+    "ja": "銀行",
+    "zh": "银行",
+    "ko": "은행",
+    "hi": "बैंक",
+    "ar": "بنك",
+    "ru": "банк",
+    "nl": "bank"
+   },
+   "say": {
+    "ja": "ginkou",
+    "zh": "yínháng",
+    "ko": "eunhaeng",
+    "hi": "baink",
+    "ar": "bank",
+    "ru": "bank"
+   }
+  },
+  {
+   "en": "pharmacy",
+   "also": [
+    "drugstore",
+    "chemist"
+   ],
+   "t": {
+    "es": "farmacia",
+    "fr": "pharmacie",
+    "de": "Apotheke",
+    "it": "farmacia",
+    "pt": "farmácia",
+    "ja": "薬局",
+    "zh": "药店",
+    "ko": "약국",
+    "hi": "दवा की दुकान",
+    "ar": "صيدلية",
+    "ru": "аптека",
+    "nl": "apotheek"
+   },
+   "say": {
+    "ja": "yakkyoku",
+    "zh": "yàodiàn",
+    "ko": "yakguk",
+    "hi": "dava ki dukaan",
+    "ar": "saydaliyya",
+    "ru": "apteka"
+   }
+  },
+  {
+   "en": "post office",
+   "also": [],
+   "t": {
+    "es": "oficina de correos",
+    "fr": "bureau de poste",
+    "de": "Post",
+    "it": "ufficio postale",
+    "pt": "correio",
+    "ja": "郵便局",
+    "zh": "邮局",
+    "ko": "우체국",
+    "hi": "डाकघर",
+    "ar": "مكتب البريد",
+    "ru": "почта",
+    "nl": "postkantoor"
+   },
+   "say": {
+    "ja": "yuubinkyoku",
+    "zh": "yóujú",
+    "ko": "ucheguk",
+    "hi": "daakghar",
+    "ar": "maktab al-bareed",
+    "ru": "pochta"
+   }
+  },
+  {
+   "en": "police station",
+   "also": [],
+   "t": {
+    "es": "comisaría",
+    "fr": "commissariat",
+    "de": "Polizeiwache",
+    "it": "commissariato",
+    "pt": "delegacia",
+    "ja": "警察署",
+    "zh": "派出所",
+    "ko": "경찰서",
+    "hi": "पुलिस स्टेशन",
+    "ar": "مركز الشرطة",
+    "ru": "полицейский участок",
+    "nl": "politiebureau"
+   },
+   "say": {
+    "ja": "keisatsusho",
+    "zh": "pàichūsuǒ",
+    "ko": "gyeongchalseo",
+    "hi": "pulis steshan",
+    "ar": "markaz ash-shurta",
+    "ru": "politseysky uchastok"
+   }
+  },
+  {
+   "en": "supermarket",
+   "also": [],
+   "t": {
+    "es": "supermercado",
+    "fr": "supermarché",
+    "de": "Supermarkt",
+    "it": "supermercato",
+    "pt": "supermercado",
+    "ja": "スーパー",
+    "zh": "超市",
+    "ko": "슈퍼마켓",
+    "hi": "सुपरमार्केट",
+    "ar": "سوبر ماركت",
+    "ru": "супермаркет",
+    "nl": "supermarkt"
+   },
+   "say": {
+    "ja": "suupaa",
+    "zh": "chāoshì",
+    "ko": "syupeomaket",
+    "hi": "supermaarket",
+    "ar": "soobar maarkit",
+    "ru": "supermarket"
+   }
+  },
+  {
+   "en": "market",
+   "also": [],
+   "t": {
+    "es": "mercado",
+    "fr": "marché",
+    "de": "Markt",
+    "it": "mercato",
+    "pt": "mercado",
+    "ja": "市場",
+    "zh": "市场",
+    "ko": "시장",
+    "hi": "बाज़ार",
+    "ar": "سوق",
+    "ru": "рынок",
+    "nl": "markt"
+   },
+   "say": {
+    "ja": "ichiba",
+    "zh": "shìchǎng",
+    "ko": "sijang",
+    "hi": "baazaar",
+    "ar": "sooq",
+    "ru": "rynok"
+   }
+  },
+  {
+   "en": "church",
+   "also": [],
+   "t": {
+    "es": "iglesia",
+    "fr": "église",
+    "de": "Kirche",
+    "it": "chiesa",
+    "pt": "igreja",
+    "ja": "教会",
+    "zh": "教堂",
+    "ko": "교회",
+    "hi": "चर्च",
+    "ar": "كنيسة",
+    "ru": "церковь",
+    "nl": "kerk"
+   },
+   "say": {
+    "ja": "kyoukai",
+    "zh": "jiàotáng",
+    "ko": "gyohoe",
+    "hi": "charch",
+    "ar": "kaneesa",
+    "ru": "tserkov"
+   }
+  },
+  {
+   "en": "temple",
+   "also": [],
+   "t": {
+    "es": "templo",
+    "fr": "temple",
+    "de": "Tempel",
+    "it": "tempio",
+    "pt": "templo",
+    "ja": "お寺",
+    "zh": "寺庙",
+    "ko": "절",
+    "hi": "मंदिर",
+    "ar": "معبد",
+    "ru": "храм",
+    "nl": "tempel"
+   },
+   "say": {
+    "ja": "otera",
+    "zh": "sìmiào",
+    "ko": "jeol",
+    "hi": "mandir",
+    "ar": "ma'bad",
+    "ru": "khram"
+   }
+  },
+  {
+   "en": "mosque",
+   "also": [],
+   "t": {
+    "es": "mezquita",
+    "fr": "mosquée",
+    "de": "Moschee",
+    "it": "moschea",
+    "pt": "mesquita",
+    "ja": "モスク",
+    "zh": "清真寺",
+    "ko": "모스크",
+    "hi": "मस्जिद",
+    "ar": "مسجد",
+    "ru": "мечеть",
+    "nl": "moskee"
+   },
+   "say": {
+    "ja": "mosuku",
+    "zh": "qīngzhēnsì",
+    "ko": "moseukeu",
+    "hi": "masjid",
+    "ar": "masjid",
+    "ru": "mechet"
+   }
+  },
+  {
+   "en": "playground",
+   "also": [],
+   "t": {
+    "es": "parque infantil",
+    "fr": "aire de jeux",
+    "de": "Spielplatz",
+    "it": "parco giochi",
+    "pt": "parquinho",
+    "ja": "遊び場",
+    "zh": "游乐场",
+    "ko": "놀이터",
+    "hi": "खेल का मैदान",
+    "ar": "ملعب أطفال",
+    "ru": "детская площадка",
+    "nl": "speeltuin"
+   },
+   "say": {
+    "ja": "asobiba",
+    "zh": "yóulèchǎng",
+    "ko": "noriteo",
+    "hi": "khel ka maidaan",
+    "ar": "mal'ab atfaal",
+    "ru": "detskaya ploshchadka"
+   }
+  },
+  {
+   "en": "swimming pool",
+   "also": [
+    "pool"
+   ],
+   "t": {
+    "es": "piscina",
+    "fr": "piscine",
+    "de": "Schwimmbad",
+    "it": "piscina",
+    "pt": "piscina",
+    "ja": "プール",
+    "zh": "游泳池",
+    "ko": "수영장",
+    "hi": "स्विमिंग पूल",
+    "ar": "مسبح",
+    "ru": "бассейн",
+    "nl": "zwembad"
+   },
+   "say": {
+    "ja": "puuru",
+    "zh": "yóuyǒngchí",
+    "ko": "suyeongjang",
+    "hi": "sviming pool",
+    "ar": "masbah",
+    "ru": "basseyn"
+   }
+  },
+  {
+   "en": "amusement park",
+   "also": [
+    "theme park"
+   ],
+   "t": {
+    "es": "parque de diversiones",
+    "fr": "parc d'attractions",
+    "de": "Freizeitpark",
+    "it": "parco divertimenti",
+    "pt": "parque de diversões",
+    "ja": "遊園地",
+    "zh": "游乐园",
+    "ko": "놀이공원",
+    "hi": "मनोरंजन पार्क",
+    "ar": "مدينة ملاهي",
+    "ru": "парк аттракционов",
+    "nl": "pretpark"
+   },
+   "say": {
+    "ja": "yuuenchi",
+    "zh": "yóulèyuán",
+    "ko": "norigongwon",
+    "hi": "manoranjan paark",
+    "ar": "madeenat malaahi",
+    "ru": "park attraktsionov"
+   }
+  }
+ ]
+}

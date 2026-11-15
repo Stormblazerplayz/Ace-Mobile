@@ -1,0 +1,55 @@
+# Grades 4 to 6 math methods and ideas: place value, operations, measurement, time, money, data. Written by hand.
+# tag: school.math.operations
+what is an array in math | multiplication array | how do arrays show multiplication => An array is objects in equal rows and columns. 3 rows of 5 dots shows 3 × 5 = 15, and turning it sideways shows 5 × 3 is the same.
+what is the area model for multiplication | area model multiplication | how to multiply with an area model => Split each number into parts, draw a rectangle grid, multiply each part, and add. For 23 × 14: 20 × 10 + 20 × 4 + 3 × 10 + 3 × 4 = 200 + 80 + 30 + 12 = 322.
+what is a fact family | fact family math | example of a fact family => A fact family is a set of related facts using the same three numbers. For 3, 4 and 12: 3 × 4 = 12, 4 × 3 = 12, 12 ÷ 3 = 4 and 12 ÷ 4 = 3.
+what is a number bond | number bonds | number bonds to 10 => A number bond shows how a number splits into two parts, like 10 = 7 + 3. Knowing bonds to 10 and 100 makes mental math faster.
+what is regrouping in math | what is carrying in addition | how do you carry in addition => Regrouping (carrying) happens when a column adds to 10 or more. Write the ones digit and carry the tens digit to the next column: in 47 + 38, 7 + 8 = 15, write 5 and carry 1.
+how do you borrow in subtraction | what is borrowing in math | subtraction with regrouping => When the top digit is smaller, take 1 from the next column to the left and add 10 to this digit. In 52 - 17, borrow to make 12 - 7 = 5, then 4 - 1 = 3, so 35.
+how do you subtract across zeros | subtracting from 1000 | borrowing across zeros => Borrow from the first nonzero digit to the left, turning the zeros into 9s. For 400 - 128, think 399 - 128 + 1 = 272.
+how do you remember long division steps | dad mom sister brother | does mcdonalds sell cheeseburgers => The steps are Divide, Multiply, Subtract, Bring down. Memory sentences like "Does McDonald's Sell Cheeseburgers" or "Dad, Mom, Sister, Brother" help.
+what do you do with a remainder in a word problem | remainder word problems | interpreting the remainder => It depends on the question. If 26 kids ride in vans of 8, you need 4 vans (round up). If you ask how many full bags of 8 you can make from 26 apples, it's 3 (drop the remainder).
+how do you write a remainder as a fraction | remainder as a decimal | turning a remainder into a fraction => Put the remainder over the divisor. 17 ÷ 5 = 3 remainder 2, which is 3 2/5, or 3.4.
+what is the standard algorithm | standard algorithm for multiplication | standard algorithm meaning => The standard algorithm is the usual column method you write on paper, lining up digits by place value and working right to left with carrying or borrowing.
+what is skip counting | skip count by 3 | how does skip counting help => Skip counting is counting by a number other than 1, like 5, 10, 15, 20. It's a stepping stone to learning times tables.
+what happens when you add two odd numbers | odd plus odd | even and odd rules => Even + even = even, odd + odd = even, and even + odd = odd. For multiplying, the product is odd only if both numbers are odd.
+how do you know if a number is even or odd | is a number even or odd => Look at the last digit. If it's 0, 2, 4, 6 or 8, the number is even; if it's 1, 3, 5, 7 or 9, it's odd.
+what is a multiplicative comparison | times as many | how many times as much => It compares by multiplying. "Sam has 4 times as many cards as Jo, who has 6" means Sam has 4 × 6 = 24 cards.
+function machine | what is the rule in an in out table => An input-output table shows numbers going into a rule and coming out. If 2 → 7, 3 → 9 and 4 → 11, the rule is "multiply by 2, add 3".
+what is the inverse operation | inverse operations | opposite of multiplication => Inverse operations undo each other. Addition and subtraction are inverses, and so are multiplication and division. You can use them to check answers.
+why can't you divide by zero | what is anything divided by 0 => Division by zero is undefined. 12 ÷ 3 = 4 because 3 × 4 = 12, but no number times 0 gives 12, so 12 ÷ 0 has no answer. However, 0 ÷ 12 = 0.
+what is a number divided by itself | anything divided by itself | why is 5 divided by 5 equal to 1 => Any number (except 0) divided by itself equals 1, because it fits into itself exactly once.
+# tag: school.math.place-value
+how do you compare big numbers | comparing whole numbers | which number is bigger => First compare how many digits they have. If they have the same number, compare digit by digit from the left: 45,821 > 45,617 because 8 > 6 in the hundreds place.
+how do you order numbers from least to greatest | ordering numbers | least to greatest => Line up the numbers by place value and compare from the left, starting with the biggest place. Write them from smallest to largest.
+how do you write a number in words | writing numbers in words | how to write 4567 in words => Read each group of three digits and add its place name. 4,567 is "four thousand, five hundred sixty-seven". Use hyphens for numbers like twenty-one to ninety-nine.
+what does the comma mean in big numbers | why put commas in numbers | comma in 1,000 => Commas split big numbers into groups of three digits from the right (ones, thousands, millions), making them easier to read. Some countries use spaces or dots instead.
+what is the value of a digit | digit value vs place value | value of the 7 in 4721 => A digit's value is the digit times its place. In 4,721, the 7 is in the hundreds place, so its value is 700.
+what is the thousandths place | how many places after the decimal | tenths hundredths thousandths => After the decimal point come tenths, hundredths, then thousandths. In 3.456, the 6 is in the thousandths place and is worth 6/1000.
+how do you put decimals on a number line | decimals on a number line | locating 0.7 on a number line => Split the space between two whole numbers into 10 equal parts for tenths. 0.7 is the 7th mark after 0. For hundredths, split each tenth into 10 again.
+how do you put fractions on a number line | fractions on a number line | where is 3/4 on a number line => Split the space from 0 to 1 into as many equal parts as the denominator, then count the numerator. For 3/4, split into 4 parts and count 3.
+what are benchmark fractions | benchmark fractions meaning | using 0 1/2 and 1 to compare => Benchmark fractions are easy ones like 0, 1/2 and 1 used to compare others. 3/8 is less than 1/2, and 5/8 is more, so 3/8 < 5/8 quickly.
+# tag: school.math.time
+how to tell time | reading a clock with hands => The short hand shows the hour and the long hand shows minutes. Each number on the clock means 5 minutes for the long hand, so the long hand on 4 means 20 minutes past.
+what does quarter past mean | what is quarter to | half past meaning => Quarter past means 15 minutes after the hour, half past means 30 minutes after, and quarter to means 15 minutes before the next hour. So quarter to 3 is 2:45.
+am vs pm | is 12 pm noon or midnight => AM is from midnight to just before noon, and PM is from noon to just before midnight. 12 PM is noon and 12 AM is midnight. AM and PM come from Latin words meaning before and after midday.
+how many days are in each month | how to remember days in each month | thirty days hath september => April, June, September and November have 30 days. February has 28 (29 in a leap year), and the rest have 31. The knuckle trick works too: knuckles are 31-day months.
+# tag: school.math.money
+what are us coins worth | how much is a quarter dime nickel | value of coins => A penny is 1¢, a nickel 5¢, a dime 10¢, a quarter 25¢, a half dollar 50¢ and a dollar coin 100¢.
+how do you count coins | counting money | how to add up coins => Start with the coins worth the most and count up. Two quarters, one dime and three pennies: 25, 50, 60, 61, 62, 63, so 63¢.
+how do you write money amounts | dollars and cents notation | how to write 5 dollars and 7 cents => Use a dollar sign and two decimal places for cents: $5.07. Cents alone can use the ¢ sign, like 45¢ = $0.45.
+how do you make a budget for a project | money word problems | how to work out how much you can buy => Divide the money you have by the price of one item and round down. With $20 and items at $3, you can buy 6 (that's $18) with $2 left over.
+# tag: school.math.measurement
+how do you read a ruler | reading inches on a ruler | what are the small lines on a ruler => On an inch ruler, the longest lines are whole inches, then halves, quarters, eighths and often sixteenths. The line midway between two inch marks is 1/2 inch.
+how do you read a centimeter ruler | reading mm on a ruler | cm and mm on a ruler => On a metric ruler, numbered lines are centimeters and each small line is a millimeter. There are 10 mm in each cm, so 4 cm and 3 small lines is 4.3 cm.
+what are benchmarks for measurement | estimating length | how long is a meter => Handy benchmarks: a fingernail is about 1 cm wide, a doorknob is about 1 m off the floor, a paper clip weighs about 1 gram, and a big water bottle holds about 1 liter.
+what is capacity in math | define capacity | capacity units => Capacity is how much a container can hold, measured in units like milliliters, liters, cups and gallons.
+how do you measure temperature | celsius and fahrenheit | how to read a thermometer => Read the number at the top of the liquid or the digital display. Water freezes at 0°C (32°F) and boils at 100°C (212°F) at sea level.
+what is precision in measurement | accuracy vs precision | how precise is a measurement => Accuracy is how close a measurement is to the true value. Precision is how fine or consistent it is; measuring to the nearest millimeter is more precise than to the nearest centimeter.
+# tag: school.math.data
+what is a pictograph | pictogram key | how to read a pictograph => A pictograph uses pictures to show data. A key tells what each picture is worth. If one smiley = 4 students, then 3½ smileys means 3 × 4 + 2 = 14 students.
+what is a line plot | how do you make a line plot | line plot with fractions => A line plot marks each data value with an X above a number line. It's good for small data sets and can show fractions like 1/4, 1/2 and 3/4 inch.
+what is a frequency in math | define frequency in data | frequency meaning statistics => Frequency is how often a value appears in a data set. If 5 students chose pizza, pizza has a frequency of 5.
+how do you read a double bar graph | double bar graph | comparing two sets of bars => A double bar graph shows two bars per category, with a key telling which color is which group. Compare the bars side by side within each category.
+what is a survey | how do you make a survey | survey in math => A survey asks people questions to collect data. Good surveys ask clear, fair questions to a group that represents the people you want to learn about.
+what is the scale on a graph | how to choose a graph scale | graph intervals => The scale is the set of numbers along an axis, counting by equal steps (intervals). Choose steps so your biggest value fits, like counting by 5s or 10s.

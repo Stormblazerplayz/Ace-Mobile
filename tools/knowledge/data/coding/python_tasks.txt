@@ -1,0 +1,122 @@
+# Python how-tos for everyday coding tasks, written by hand for Ace.
+# tag: coding.python.tasks
+how do i find the smallest number in a list python | min of list python | lowest value python => `min(numbers)` gives the smallest and `max(numbers)` the largest. Pass `default=0` so an empty list does not raise an error.
+how do i find the position of the biggest number python | index of max python | argmax list python => `numbers.index(max(numbers))` gives the index of the largest value (the first one if there are ties).
+how do i round down in python | floor python | round down number python => `math.floor(2.7)` gives 2, and `int(2.7)` also gives 2 but rounds toward zero for negatives. `//` does floor division.
+round up number python | always round up a decimal python => `math.ceil(2.1)` gives 3.
+why does round(2.5) give 2 in python | bankers rounding python | round half even => Python rounds halves to the nearest even number, so `round(2.5)` is 2 and `round(3.5)` is 4. Use the decimal module with ROUND_HALF_UP for school-style rounding.
+how do i get the square root in python | sqrt python | square root python => `math.sqrt(16)` gives 4.0, and `16 ** 0.5` works too. `math.isqrt(17)` gives the whole-number square root, 4.
+how do i get pi in python | math.pi | pi python => `math.pi` is about 3.14159. `math.tau` is 2 times pi.
+how do i use powers in python | raise number to a power python => `2 ** 10` gives 1024, and `pow(2, 10, 1000)` gives the result modulo 1000 quickly.
+how do i check if a number is a whole number python | is integer python | float is whole => `(7.0).is_integer()` is True. For input text, try `int(text)` inside try/except.
+how do i make a number positive python | absolute python | abs value python => `abs(-5)` gives 5.
+how do i add up numbers from 1 to n python | sum range python | sum 1 to 100 python => `sum(range(1, n + 1))` adds 1 to n. The formula `n * (n + 1) // 2` gives the same instantly.
+how do i get the factorial in python | factorial python | n factorial python => `math.factorial(5)` gives 120.
+how do i get the greatest common divisor in python | gcd python | lowest common multiple python => `math.gcd(12, 18)` gives 6, and `math.lcm(4, 6)` gives 12 (Python 3.9+).
+how do i convert celsius to fahrenheit python | temperature converter python | c to f python => `f = c * 9 / 5 + 32`, and back with `c = (f - 32) * 5 / 9`.
+how do i calculate the distance between two points python | distance formula python | math.dist => `math.dist((x1, y1), (x2, y2))` gives the straight-line distance, or `math.hypot(x2 - x1, y2 - y1)`.
+how do i get the angle between two points python | atan2 python | angle python => `math.degrees(math.atan2(y2 - y1, x2 - x1))` gives the angle in degrees from the first point to the second.
+how do i make a multiplication table in python | times table python | multiplication grid python => Use two nested loops: `for i in range(1, 11): print(*(i * j for j in range(1, 11)))`.
+how do i print a pattern of stars in python | star pyramid python | print triangle python => `for i in range(1, 6): print("*" * i)` prints a growing triangle. Use `" " * (5 - i)` in front to center it.
+how do i print a list nicely python | print list without brackets | print items on lines => `print(*items, sep="\n")` prints each item on its own line, and `print(", ".join(map(str, items)))` prints them with commas.
+how do i check if a list has duplicates python | any repeated values => `len(items) != len(set(items))` is True when something repeats (items must be hashable).
+which items repeat python | repeated items python => `[x for x, n in Counter(items).items() if n > 1]` lists values that appear more than once, using `collections.Counter`.
+how do i find common items in two lists python | intersection of lists python | items in both lists => `set(a) & set(b)` gives items in both. Wrap in `list()` or `sorted()` if you need a list.
+how do i find items in one list but not another python | list difference python | missing items python => `set(a) - set(b)` gives what is in a but not b.
+how do i rotate a list in python | shift list python | rotate items python => `items[k:] + items[:k]` rotates left by k. A `collections.deque` has a `rotate` method too.
+how do i insert at the start of a list python | prepend list python | add to front list python => `items.insert(0, x)` adds to the front. For lots of front inserts, use `collections.deque` and `appendleft`.
+how do i remove the first item of a list python | pop first python | remove front list => `items.pop(0)` removes and returns the first item. `deque.popleft()` is faster for queues.
+how do i remove all of one value from a list python | remove all occurrences python | filter out value => `items = [x for x in items if x != value]` makes a list without that value.
+how do i count true values in a list python | count trues python | how many are true => `sum(flags)` counts True values, since True counts as 1.
+how do i make a list of letters python | alphabet python | a to z list => `list(string.ascii_lowercase)` gives a to z. `string.ascii_uppercase` gives capitals.
+how do i get every other item in a list python | every second item => `items[::2]` takes every second item starting at the first; `items[1::2]` starts at the second.
+how do i sort a list of strings ignoring case python | case insensitive sort python | sort lowercase => `sorted(words, key=str.lower)` sorts without caring about capitals.
+how do i sort by length in python | sort words by length | key len python => `sorted(words, key=len)` sorts shortest to longest. Add `reverse=True` for longest first.
+how do i get the first letter of each word python | initials python | acronym python => `"".join(w[0] for w in text.split()).upper()` turns "portable network graphics" into "PNG".
+how do i capitalize every word python | title case python | capitalize each word => `text.title()` capitalizes each word. `string.capwords(text)` handles apostrophes more nicely.
+how do i reverse the words in a sentence python | reverse word order python | backwards sentence => `" ".join(text.split()[::-1])` reverses the order of the words.
+how do i check if a string is all letters python | isalpha python | only letters python => `text.isalpha()` is True if every character is a letter and there is at least one.
+how do i check if a string is all digits python | isdigit python | only numbers python => `text.isdigit()` is True for strings like "123". It is False for "-5" or "3.2", so use try and int or float for those.
+how do i remove a character from a string python | delete char python | remove letter string => `text.replace("x", "")` removes every x, since strings cannot be changed in place.
+how do i get the last character of a string python | last letter python | string last char => `text[-1]` gives the last character, and `text[-3:]` the last three.
+how do i insert text into a string python | insert into string python | string insert => Build a new string with slices: `text[:i] + "new" + text[i:]`.
+how do i count how many times a word appears python | count substring python => `text.count("the")` counts non-overlapping appearances. Lowercase both first to ignore capitals.
+how do i find the position of text in a string python | index of substring => `text.find("cat")` gives the index or -1 if missing; `text.index("cat")` raises ValueError instead.
+how do i wrap long text in python | textwrap python | wrap lines python => `textwrap.fill(text, width=40)` breaks text into lines no longer than 40 characters.
+how do i center text in python | ljust rjust => `"Hi".center(20, "*")` centers text in 20 characters; `ljust` and `rjust` align left and right.
+how do i make a random string python | random letters python | random code python => `"".join(random.choices(string.ascii_letters + string.digits, k=8))` gives an 8-character random string. Use the secrets module for passwords.
+how do i make a unique id in python | uuid python | random id python => `str(uuid.uuid4())` gives a random unique ID like '3f2b...'.
+how do i check if a file is empty python | empty file python | file size python => `os.path.getsize(path) == 0` or `Path(path).stat().st_size == 0` is True for an empty file.
+how do i append to a file in python | append mode python | add line to file => Open with mode "a": `with open("log.txt", "a") as f: f.write("new line\n")` adds to the end without erasing.
+how do i delete a file in python | remove file python | os remove => `os.remove(path)` or `Path(path).unlink()` deletes a file. `unlink(missing_ok=True)` does not complain if it is already gone.
+how do i make a folder in python | create directory python | mkdir python => `Path("saves").mkdir(parents=True, exist_ok=True)` makes the folder (and any parents) and does not fail if it exists.
+how do i copy a file in python | shutil copy | duplicate file python => `shutil.copy("a.txt", "b.txt")` copies a file. `shutil.copytree` copies a whole folder.
+how do i move a file in python | shutil move | rename file python => `shutil.move("a.txt", "folder/a.txt")` moves it, and `Path("a.txt").rename("b.txt")` renames it.
+how do i find all files of a type python | find png files python => `list(Path(".").glob("*.png"))` finds PNGs in a folder; `rglob("*.png")` searches subfolders too.
+how do i get a file extension in python | file extension python | suffix pathlib => `Path("photo.jpg").suffix` gives ".jpg" and `.stem` gives "photo".
+how do i get the home folder in python | home directory python | user folder python => `Path.home()` gives the user's home folder, like /Users/sam or C:\Users\Sam.
+how do i open a website from python | webbrowser open | open link python => `webbrowser.open("https://example.com")` opens the page in the default browser.
+script arguments | read words typed after python script name => `sys.argv` is a list: `sys.argv[0]` is the script name and the rest are the words typed after it. argparse makes proper options.
+how do i read a file into a dictionary python | key value file python | parse config file => Loop over lines, split each on the first `=` with `line.split("=", 1)`, strip spaces, and store them in a dict. JSON or configparser is often easier.
+how do i write a csv file in python | save csv python => `with open("out.csv", "w", newline="") as f: w = csv.writer(f); w.writerow(["name", "score"])`.
+how do i read a csv into dictionaries python | csv dictreader | csv with headers python => `csv.DictReader(f)` gives each row as a dict using the header row as keys, like `row["name"]`.
+how do i make a timestamp string python | datetime now format | file name with date python => `datetime.now().strftime("%Y-%m-%d_%H-%M")` gives text like 2025-07-01_14-30, safe for file names.
+how do i turn a string into a date python | strptime python | parse date python => `datetime.strptime("2025-07-01", "%Y-%m-%d")` turns text into a datetime. `date.fromisoformat("2025-07-01")` also works for that format.
+how do i find how many days until a date python | days until python | countdown to date python => `(date(2025, 12, 25) - date.today()).days` gives the number of days left.
+how do i get someone's age from a birthday python | age calculator python | calculate age => Subtract the years, then subtract 1 more if this year's birthday has not happened yet: `today.year - born.year - ((today.month, today.day) < (born.month, born.day))`.
+how do i check if a year is a leap year python | leap year python | isleap => `calendar.isleap(2024)` returns True. The rule is: divisible by 4, except centuries unless divisible by 400.
+how do i print a calendar in python | calendar module python => `print(calendar.month(2025, 7))` prints a text calendar for July 2025.
+how do i time a function in python | time function python | how long does code take => `start = time.perf_counter()` before and `time.perf_counter() - start` after gives seconds. `timeit` is better for tiny snippets.
+how do i run code after a delay python | delay python | run later python => In a simple script, `time.sleep(2)` then the code. In GUIs use the toolkit's timer, like tkinter's `after`, so the window does not freeze.
+how do i make a class print nicely python | __str__ example | print object python => Add `def __str__(self): return f"Player {self.name} ({self.hp} hp)"` so `print(player)` shows something readable.
+__eq__ example | objects equal python => By default two objects are only equal if they are the same object. Define `__eq__`, or use a dataclass, which writes it for you.
+how do i sort objects in python | sort list of objects python | sort by attribute => `sorted(players, key=lambda p: p.score)` or `key=operator.attrgetter("score")`.
+how do i count instances of a class python | class counter python | count objects created => Use a class attribute: `count = 0` in the class and `Player.count += 1` inside `__init__`.
+how do i make a constant in python | constants python | final variable python => Python has no true constants. Write the name in ALL_CAPS by convention, and `typing.Final` lets type checkers warn if it changes.
+how do i make a singleton in python | singleton python | one instance python => The simplest Python singleton is a module: modules are only loaded once, so a variable in a module is shared everywhere that imports it.
+how do i make a simple event system python | callbacks python | observer python => Keep a list of functions, add to it with a `subscribe` function, and call each one in a `fire` function with the event data.
+how do i make a state machine in python | state machine python | game states python => Keep a `state` variable (or an Enum), and in your loop use `match state:` or if/elif to run the code for each state and switch states on events.
+how do i use match case in python | match statement example | switch in python => `match command:` with `case "go": ...`, `case "quit": ...` and `case _:` for anything else (Python 3.10+). It can also match lists and dicts.
+concurrency python simple | threads or async python => For waiting tasks like downloads, use asyncio or threads. For heavy number crunching, use multiprocessing so each task gets its own CPU core.
+get web page python | fetch url python => `requests.get(url, timeout=10).text` gives the page's HTML (after `pip install requests`). The built-in `urllib.request.urlopen` works too.
+requests json | download json data from a website python => `data = requests.get(url, timeout=10).json()` downloads and parses JSON in one step. Check `response.status_code` for errors.
+how do i parse html in python | html parsing python => BeautifulSoup (`pip install beautifulsoup4`) parses HTML so you can find elements, like `soup.find_all("a")`. Only scrape sites that allow it.
+qrcode library | make qr python => With `pip install qrcode`, `qrcode.make("https://example.com").save("qr.png")` saves a QR code image.
+how do i make a chart in python | plot graph python | matplotlib line chart => With matplotlib: `import matplotlib.pyplot as plt`, then `plt.plot(xs, ys)`, `plt.title("Scores")` and `plt.show()`.
+how do i make a bar chart in python | matplotlib bar => `plt.bar(names, scores)` then `plt.show()` draws a bar chart with matplotlib.
+how do i save a chart as an image python | savefig python | export plot => `plt.savefig("chart.png", dpi=150)` saves the figure. Call it before `plt.show()`.
+how do i read an image's pixels in python | pillow pixels | get pixel color python => With Pillow, `img = Image.open("a.png").convert("RGB")` then `img.getpixel((x, y))` gives an (R, G, B) tuple.
+how do i make an image black and white in python | grayscale python | convert image grey => `Image.open("a.png").convert("L").save("gray.png")` saves a grayscale copy with Pillow.
+how do i make a gif in python | animated gif python | save frames gif => With Pillow, save the first frame with `save("out.gif", save_all=True, append_images=frames[1:], duration=100, loop=0)`.
+how do i play a sound in python | playsound python | sound effects python => In games use pygame's mixer. For simple scripts, libraries like simpleaudio or playsound can play a WAV file.
+how do i make text to speech offline python | speak text python => `pyttsx3` (`pip install pyttsx3`) speaks text offline using your computer's voices: `engine = pyttsx3.init(); engine.say("Hi"); engine.runAndWait()`.
+how do i control the mouse and keyboard with python | automate clicks python => `pyautogui` can move the mouse, click and type for you. Move the mouse to a screen corner to trigger its failsafe and stop it.
+how do i make a desktop notification python | plyer | notify python => Libraries like plyer can show system notifications from a script. On Mac, osascript can also do it.
+how do i copy to clipboard python | clipboard python | pyperclip => `pyperclip.copy("text")` puts text on the clipboard and `pyperclip.paste()` reads it.
+how do i hide a password while typing python | getpass example | secret input python => `getpass.getpass("Password: ")` reads input without showing it on screen.
+how do i hash a password in python | hash password python | bcrypt python => Use a slow password hash like `hashlib.scrypt` or the bcrypt library with a random salt. Plain md5 or sha256 alone is too fast for passwords.
+how do i make a simple encryption in python | encrypt text python | cryptography fernet => For real encryption use the cryptography library's Fernet: generate a key, then `Fernet(key).encrypt(data)`. Homemade ciphers are just for fun.
+how do i check what operating system python | detect os python | platform system => `platform.system()` returns "Windows", "Darwin" (Mac) or "Linux".
+how do i run python every few minutes | repeat script python | loop with sleep => Use a loop with `time.sleep(300)`, or schedule the script with Task Scheduler on Windows or cron on Mac and Linux.
+how do i make a python program into an app | exe from python | pyinstaller exe => PyInstaller (`pyinstaller --onefile game.py`) bundles your script and Python into one program people can run without installing Python.
+how do i share my python project | share python code | publish python project => Put it on GitHub with a README and requirements.txt so others can install what it needs and run it.
+how do i make my python code faster without changing much | python performance tips => Use built-in functions and comprehensions, pick the right data structure (sets and dicts for lookups), avoid repeated work in loops, and profile to find the slow part.
+how do i use numpy instead of loops | vectorize python | numpy speed => Put numbers in a numpy array and do math on the whole array at once, like `arr * 2`, which is far faster than a Python loop.
+how do i read a big file without running out of memory python | read file in chunks | large file python => Loop over the file line by line with `for line in f:`, which reads one line at a time instead of the whole file.
+how do i stop a python script with a key | keyboardinterrupt catch => Press Ctrl+C in the terminal. Catch `KeyboardInterrupt` with try/except to clean up and exit politely.
+how do i make python wait for a key press | press any key python | wait key python => `input("Press Enter to continue...")` waits for Enter. Single key presses without Enter need extra libraries or msvcrt on Windows.
+how do i clear a list in python | empty a list python | clear list => `items.clear()` empties the list in place, so other references see the empty list too.
+how do i check if a variable exists in python | variable defined python | check variable exists => Usually you should set it to None first. If you must, `"name" in locals()` or `globals()` checks, but that is rarely good design.
+how do i convert a list to a set and back python | list to set python | set to list python => `set(items)` removes duplicates; `list(that_set)` turns it back into a list, though order is not kept.
+string to list python | list from string => `list("abc")` gives ['a', 'b', 'c'], and `"a b c".split()` gives ['a', 'b', 'c'] by words.
+how do i convert a dictionary to a list python | dict to list python | dict items to list => `list(d.items())` gives (key, value) pairs, `list(d)` gives the keys and `list(d.values())` the values.
+how do i get a random key from a dictionary python | random dict key | random choice dict => `random.choice(list(d))` picks a random key.
+how do i loop backwards in python | reverse loop python | count down loop python => `for i in range(10, 0, -1):` counts down from 10 to 1, and `for x in reversed(items):` loops a list backwards.
+how do i loop with an index and value python | index and value python | loop index python => `for i, x in enumerate(items):` gives each item with its index.
+how do i skip the first item in a loop python | skip first python | loop from second item => `for x in items[1:]:` starts at the second item.
+how do i exit a nested loop python | break out of two loops | nested break python => Put the loops in a function and `return`, or set a flag and check it in the outer loop.
+how do i make a function return nothing python | return none python | function without return => A function without a return statement, or with a bare `return`, gives back None.
+how do i give a function an optional argument python | optional parameter python | default parameter python => Give it a default: `def greet(name="friend"):`. Callers can then leave it out.
+how do i pass a function to another function python | function as argument python | higher order python => Pass its name without brackets: `apply(double, 5)` where `def apply(f, x): return f(x)`.
+how do i document a function python | docstring example => Put a triple-quoted string as the first line inside the function. `help(func)` shows it.
+how do i write a test with pytest | pytest example => Make a file test_math.py with `def test_add(): assert add(2, 2) == 4`, then run `pytest` in the terminal.

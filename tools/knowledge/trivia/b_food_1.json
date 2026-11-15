@@ -1,0 +1,2487 @@
+{
+ "questions": [
+  {
+   "id": "food-1001",
+   "category": "Food",
+   "q": "Which country do tacos come from?",
+   "choices": [
+    "Spain",
+    "Mexico",
+    "United States",
+    "Peru"
+   ],
+   "answer": 1,
+   "fact": "Tacos were eaten in Mexico long before the Spanish arrived, often filled with small fish."
+  },
+  {
+   "id": "food-1002",
+   "category": "Food",
+   "q": "Kimchi, a spicy fermented cabbage dish, is a national food of which country?",
+   "choices": [
+    "Japan",
+    "Thailand",
+    "China",
+    "South Korea"
+   ],
+   "answer": 3,
+   "fact": "Many Korean families make big batches of kimchi together in late autumn, a tradition called kimjang."
+  },
+  {
+   "id": "food-1003",
+   "category": "Food",
+   "q": "Which country does the stir-fried noodle dish pad thai come from?",
+   "choices": [
+    "China",
+    "Vietnam",
+    "Thailand",
+    "Malaysia"
+   ],
+   "answer": 2,
+   "fact": "Pad thai became popular in Thailand in the 1930s and 1940s."
+  },
+  {
+   "id": "food-1004",
+   "category": "Food",
+   "q": "Which country is famous for pho, a noodle soup with broth and herbs?",
+   "choices": [
+    "Korea",
+    "Japan",
+    "Vietnam",
+    "Thailand"
+   ],
+   "answer": 2,
+   "fact": "Pho is often eaten for breakfast in Vietnam."
+  },
+  {
+   "id": "food-1005",
+   "category": "Food",
+   "q": "Which country is famous for fish and chips?",
+   "choices": [
+    "Norway",
+    "United Kingdom",
+    "France",
+    "Australia"
+   ],
+   "answer": 1,
+   "fact": "Fish and chips were so important in Britain that they were not rationed during World War II."
+  },
+  {
+   "id": "food-1006",
+   "category": "Food",
+   "q": "Which country is famous for haggis, made with sheep's heart, liver and lungs?",
+   "choices": [
+    "Ireland",
+    "Scotland",
+    "Wales",
+    "Iceland"
+   ],
+   "answer": 1,
+   "fact": "Haggis is traditionally eaten on Burns Night, January 25."
+  },
+  {
+   "id": "food-1007",
+   "category": "Food",
+   "q": "Poutine, fries topped with cheese curds and gravy, comes from which country?",
+   "choices": [
+    "United States",
+    "Canada",
+    "France",
+    "Belgium"
+   ],
+   "answer": 1,
+   "fact": "Poutine was first served in the province of Quebec in the 1950s."
+  },
+  {
+   "id": "food-1008",
+   "category": "Food",
+   "q": "Pierogi, filled dumplings, are a famous food of which country?",
+   "choices": [
+    "Greece",
+    "Italy",
+    "Spain",
+    "Poland"
+   ],
+   "answer": 3,
+   "fact": "Pierogi can be filled with potato, cheese, cabbage, meat or even fruit."
+  },
+  {
+   "id": "food-1009",
+   "category": "Food",
+   "q": "Goulash, a stew seasoned with paprika, comes from which country?",
+   "choices": [
+    "Hungary",
+    "Austria",
+    "Germany",
+    "Russia"
+   ],
+   "answer": 0,
+   "fact": "Goulash was first cooked by Hungarian cattle herders in big kettles over open fires."
+  },
+  {
+   "id": "food-1010",
+   "category": "Food",
+   "q": "Moussaka, a baked dish of eggplant and meat, is famous in which country?",
+   "choices": [
+    "Italy",
+    "Greece",
+    "India",
+    "Mexico"
+   ],
+   "answer": 1,
+   "fact": "Greek moussaka is usually topped with a thick, creamy white sauce."
+  },
+  {
+   "id": "food-1011",
+   "category": "Food",
+   "q": "Which crispy fried balls made from chickpeas or fava beans are popular across the Middle East?",
+   "choices": [
+    "Croquettes",
+    "Samosas",
+    "Falafel",
+    "Arancini"
+   ],
+   "answer": 2,
+   "fact": "Falafel is often stuffed inside pita bread with salad and tahini sauce."
+  },
+  {
+   "id": "food-1012",
+   "category": "Food",
+   "q": "Which noodle soup is hugely popular in Japan but first came from China?",
+   "choices": [
+    "Udon",
+    "Ramen",
+    "Soba",
+    "Pho"
+   ],
+   "answer": 1,
+   "fact": "Japan has a museum all about ramen in Yokohama."
+  },
+  {
+   "id": "food-1013",
+   "category": "Food",
+   "q": "What is the name of the small Chinese dishes, like dumplings and buns, often served with tea?",
+   "choices": [
+    "Sushi",
+    "Mezze",
+    "Dim sum",
+    "Tapas"
+   ],
+   "answer": 2,
+   "fact": "Dim sum is a big part of Cantonese food from southern China."
+  },
+  {
+   "id": "food-1014",
+   "category": "Food",
+   "q": "Which famous roast duck dish is named after China's capital?",
+   "choices": [
+    "Sichuan duck",
+    "Peking duck",
+    "Shanghai duck",
+    "Canton duck"
+   ],
+   "answer": 1,
+   "fact": "Peking is an old spelling of Beijing."
+  },
+  {
+   "id": "food-1015",
+   "category": "Food",
+   "q": "What is the thin, dried seaweed used to wrap sushi rolls called?",
+   "choices": [
+    "Nori",
+    "Kelp",
+    "Wakame",
+    "Kombu"
+   ],
+   "answer": 0,
+   "fact": "Nori is made by pressing seaweed into thin sheets, a bit like making paper."
+  },
+  {
+   "id": "food-1016",
+   "category": "Food",
+   "q": "What is most of the green \"wasabi\" served with sushi outside Japan actually made from?",
+   "choices": [
+    "Spinach",
+    "Avocado",
+    "Green chili",
+    "Horseradish"
+   ],
+   "answer": 3,
+   "fact": "Real wasabi is a rare plant that is hard to grow, so most restaurants use horseradish colored green."
+  },
+  {
+   "id": "food-1017",
+   "category": "Food",
+   "q": "What is tempura?",
+   "choices": [
+    "Raw fish on rice",
+    "Food dipped in light batter and deep-fried",
+    "A rice cake",
+    "A noodle soup"
+   ],
+   "answer": 1,
+   "fact": "Portuguese traders and missionaries are thought to have brought the idea of tempura to Japan in the 1500s."
+  },
+  {
+   "id": "food-1018",
+   "category": "Food",
+   "q": "What is miso made from?",
+   "choices": [
+    "Rice flour",
+    "Seaweed",
+    "Fermented soybeans",
+    "Fish bones"
+   ],
+   "answer": 2,
+   "fact": "Miso soup is eaten at many Japanese breakfasts."
+  },
+  {
+   "id": "food-1019",
+   "category": "Food",
+   "q": "What are edamame?",
+   "choices": [
+    "Baby peas",
+    "Seaweed snacks",
+    "Young green soybeans",
+    "Rice balls"
+   ],
+   "answer": 2,
+   "fact": "Edamame are often boiled in their pods with salt and popped out to eat."
+  },
+  {
+   "id": "food-1020",
+   "category": "Food",
+   "q": "Which Korean dish is a bowl of rice topped with vegetables, meat, an egg and chili paste, all mixed together?",
+   "choices": [
+    "Tteokbokki",
+    "Bulgogi",
+    "Bibimbap",
+    "Japchae"
+   ],
+   "answer": 2,
+   "fact": "Bibimbap means \"mixed rice\" in Korean."
+  },
+  {
+   "id": "food-1021",
+   "category": "Food",
+   "q": "Which Peruvian dish is made of raw fish \"cooked\" in lime or lemon juice?",
+   "choices": [
+    "Sushi",
+    "Ceviche",
+    "Gravlax",
+    "Poke"
+   ],
+   "answer": 1,
+   "fact": "The acid in citrus juice changes the fish's proteins, a little like heat does."
+  },
+  {
+   "id": "food-1022",
+   "category": "Food",
+   "q": "Which black bean and pork stew is a national dish of Brazil?",
+   "choices": [
+    "Cassoulet",
+    "Feijoada",
+    "Chili",
+    "Paella"
+   ],
+   "answer": 1,
+   "fact": "Feijoada is often served on Saturdays in Brazil with rice, greens and orange slices."
+  },
+  {
+   "id": "food-1023",
+   "category": "Food",
+   "q": "Which corn cakes are a daily food in Venezuela and Colombia?",
+   "choices": [
+    "Arepas",
+    "Pupusas",
+    "Tortillas",
+    "Tamales"
+   ],
+   "answer": 0,
+   "fact": "Arepas can be grilled, baked or fried and split open to hold fillings."
+  },
+  {
+   "id": "food-1024",
+   "category": "Food",
+   "q": "Which fried dough sticks, often dipped in hot chocolate, are a classic treat in Spain?",
+   "choices": [
+    "Beignets",
+    "Funnel cakes",
+    "Churros",
+    "Donuts"
+   ],
+   "answer": 2,
+   "fact": "In Spain, churros and chocolate are a popular breakfast."
+  },
+  {
+   "id": "food-1025",
+   "category": "Food",
+   "q": "What is the name for small Spanish dishes shared as snacks or a meal?",
+   "choices": [
+    "Tapas",
+    "Dim sum",
+    "Antipasti",
+    "Mezze"
+   ],
+   "answer": 0,
+   "fact": "Tapa means \"lid\" or \"cover\" in Spanish, and one story says bars covered drinks with a slice of bread."
+  },
+  {
+   "id": "food-1026",
+   "category": "Food",
+   "q": "Which cold tomato soup comes from southern Spain?",
+   "choices": [
+    "Minestrone",
+    "Gazpacho",
+    "Bisque",
+    "Borscht"
+   ],
+   "answer": 1,
+   "fact": "Gazpacho is a refreshing summer soup from Andalusia."
+  },
+  {
+   "id": "food-1027",
+   "category": "Food",
+   "q": "Which fermented cabbage dish is especially popular in Germany?",
+   "choices": [
+    "Sauerkraut",
+    "Coleslaw",
+    "Kimchi",
+    "Pickled beets"
+   ],
+   "answer": 0,
+   "fact": "Sauerkraut means \"sour cabbage\" in German."
+  },
+  {
+   "id": "food-1028",
+   "category": "Food",
+   "q": "Which country is famous for cheese fondue, where you dip bread into melted cheese?",
+   "choices": [
+    "Netherlands",
+    "Belgium",
+    "France",
+    "Switzerland"
+   ],
+   "answer": 3,
+   "fact": "Tradition says if you drop your bread in the fondue pot, you have to do a silly forfeit."
+  },
+  {
+   "id": "food-1029",
+   "category": "Food",
+   "q": "Which long, thin French bread was added to UNESCO's list of cultural heritage in 2022?",
+   "choices": [
+    "Ciabatta",
+    "Croissant",
+    "Baguette",
+    "Brioche"
+   ],
+   "answer": 2,
+   "fact": "French bakeries make billions of baguettes each year."
+  },
+  {
+   "id": "food-1030",
+   "category": "Food",
+   "q": "What are thin French pancakes called?",
+   "choices": [
+    "Blinis",
+    "Galettes",
+    "Waffles",
+    "Crêpes"
+   ],
+   "answer": 3,
+   "fact": "Savory buckwheat crêpes from Brittany are often called galettes."
+  },
+  {
+   "id": "food-1031",
+   "category": "Food",
+   "q": "What are escargots, a famous French dish?",
+   "choices": [
+    "Oysters",
+    "Frog legs",
+    "Mushrooms",
+    "Snails"
+   ],
+   "answer": 3,
+   "fact": "Escargots are usually cooked with garlic, butter and parsley."
+  },
+  {
+   "id": "food-1032",
+   "category": "Food",
+   "q": "Which vegetable stew from the south of France shares its name with a Pixar movie?",
+   "choices": [
+    "Bouillabaisse",
+    "Pot-au-feu",
+    "Cassoulet",
+    "Ratatouille"
+   ],
+   "answer": 3,
+   "fact": "Ratatouille usually has eggplant, zucchini, peppers, tomatoes and onions."
+  },
+  {
+   "id": "food-1033",
+   "category": "Food",
+   "q": "Which creamy Italian rice dish is stirred slowly while adding broth?",
+   "choices": [
+    "Pilaf",
+    "Biryani",
+    "Paella",
+    "Risotto"
+   ],
+   "answer": 3,
+   "fact": "Risotto is made with short-grain rice like Arborio, which releases starch to make it creamy."
+  },
+  {
+   "id": "food-1034",
+   "category": "Food",
+   "q": "What does the name of the Italian dessert tiramisu mean?",
+   "choices": [
+    "Pick me up",
+    "Little cloud",
+    "Coffee cake",
+    "Sweet dream"
+   ],
+   "answer": 0,
+   "fact": "Tiramisu has coffee-soaked biscuits, which may be where the \"pick me up\" name comes from."
+  },
+  {
+   "id": "food-1035",
+   "category": "Food",
+   "q": "Which green Italian sauce is made from basil, pine nuts, garlic, cheese and olive oil?",
+   "choices": [
+    "Gremolata",
+    "Pesto",
+    "Salsa verde",
+    "Chimichurri"
+   ],
+   "answer": 1,
+   "fact": "Pesto comes from Genoa, and its name comes from an Italian word for pounding."
+  },
+  {
+   "id": "food-1036",
+   "category": "Food",
+   "q": "Traditional mozzarella di bufala is made from the milk of which animal?",
+   "choices": [
+    "Camel",
+    "Water buffalo",
+    "Goat",
+    "Sheep"
+   ],
+   "answer": 1,
+   "fact": "Water buffalo milk has more fat than cow's milk, which makes the cheese very creamy."
+  },
+  {
+   "id": "food-1037",
+   "category": "Food",
+   "q": "Which famous hard Italian cheese has the full name Parmigiano-Reggiano?",
+   "choices": [
+    "Provolone",
+    "Pecorino",
+    "Parmesan",
+    "Gorgonzola"
+   ],
+   "answer": 2,
+   "fact": "Wheels of Parmigiano-Reggiano weigh around 40 kilograms each."
+  },
+  {
+   "id": "food-1038",
+   "category": "Food",
+   "q": "Pizza Margherita is said to be named after which person?",
+   "choices": [
+    "A queen of Italy",
+    "A pizza maker's daughter",
+    "A famous chef",
+    "An opera singer"
+   ],
+   "answer": 0,
+   "fact": "Its red tomato, white mozzarella and green basil match the colors of the Italian flag."
+  },
+  {
+   "id": "food-1039",
+   "category": "Food",
+   "q": "Which salty white cheese, often made from sheep's milk, is famous in Greece?",
+   "choices": [
+    "Brie",
+    "Gouda",
+    "Cheddar",
+    "Feta"
+   ],
+   "answer": 3,
+   "fact": "Feta is stored in salty water called brine to keep it fresh."
+  },
+  {
+   "id": "food-1040",
+   "category": "Food",
+   "q": "Which Greek dip is made from yogurt, cucumber and garlic?",
+   "choices": [
+    "Guacamole",
+    "Tzatziki",
+    "Baba ghanoush",
+    "Hummus"
+   ],
+   "answer": 1,
+   "fact": "Tzatziki is often served with grilled meat and pita bread."
+  },
+  {
+   "id": "food-1041",
+   "category": "Food",
+   "q": "Which sweet pastry is made from layers of thin dough, chopped nuts and honey or syrup?",
+   "choices": [
+    "Cannoli",
+    "Éclair",
+    "Strudel",
+    "Baklava"
+   ],
+   "answer": 3,
+   "fact": "Baklava was a famous treat in the kitchens of the Ottoman sultans."
+  },
+  {
+   "id": "food-1042",
+   "category": "Food",
+   "q": "What is the meat roasted on a tall turning spit and shaved off in thin slices for wraps called in the Middle East?",
+   "choices": [
+    "Kebab skewers",
+    "Shawarma",
+    "Meatballs",
+    "Schnitzel"
+   ],
+   "answer": 1,
+   "fact": "Similar dishes are called döner kebab in Turkey and gyros in Greece."
+  },
+  {
+   "id": "food-1043",
+   "category": "Food",
+   "q": "Couscous, a staple of North Africa, is made from what?",
+   "choices": [
+    "Potatoes",
+    "Semolina wheat",
+    "Corn",
+    "Rice"
+   ],
+   "answer": 1,
+   "fact": "Couscous is steamed rather than boiled in traditional North African cooking."
+  },
+  {
+   "id": "food-1044",
+   "category": "Food",
+   "q": "What is the cone-shaped clay pot used to cook slow stews in Morocco called?",
+   "choices": [
+    "Dutch oven",
+    "Paella pan",
+    "Tagine",
+    "Wok"
+   ],
+   "answer": 2,
+   "fact": "The cone shape lets steam rise, cool and drip back down to keep food moist."
+  },
+  {
+   "id": "food-1045",
+   "category": "Food",
+   "q": "Which spicy tomato rice dish is a favorite across West Africa, with friendly rivalry between Ghana and Nigeria?",
+   "choices": [
+    "Biryani",
+    "Paella",
+    "Jollof rice",
+    "Fried rice"
+   ],
+   "answer": 2,
+   "fact": "Fans in Ghana and Nigeria argue playfully about which country makes the best jollof."
+  },
+  {
+   "id": "food-1046",
+   "category": "Food",
+   "q": "What spongy flatbread from Ethiopia is used as both a plate and a spoon?",
+   "choices": [
+    "Injera",
+    "Pita",
+    "Tortilla",
+    "Naan"
+   ],
+   "answer": 0,
+   "fact": "Injera is made from teff, a tiny grain that grows in the Ethiopian highlands."
+  },
+  {
+   "id": "food-1047",
+   "category": "Food",
+   "q": "Which dark, salty spread made from yeast extract is an Australian favorite?",
+   "choices": [
+    "Peanut butter",
+    "Vegemite",
+    "Marmite",
+    "Nutella"
+   ],
+   "answer": 1,
+   "fact": "Vegemite was created in 1922, and Australians usually spread it very thinly on toast."
+  },
+  {
+   "id": "food-1048",
+   "category": "Food",
+   "q": "Which meringue dessert with fruit on top is claimed by both Australia and New Zealand?",
+   "choices": [
+    "Pavlova",
+    "Eton mess",
+    "Trifle",
+    "Lamington"
+   ],
+   "answer": 0,
+   "fact": "It was named after the Russian ballerina Anna Pavlova."
+  },
+  {
+   "id": "food-1049",
+   "category": "Food",
+   "q": "Which Indian rice dish is cooked in layers with spices and often meat?",
+   "choices": [
+    "Biryani",
+    "Risotto",
+    "Paella",
+    "Pilaf"
+   ],
+   "answer": 0,
+   "fact": "Biryani is often flavored with saffron, which turns some of the rice golden."
+  },
+  {
+   "id": "food-1050",
+   "category": "Food",
+   "q": "What is naan?",
+   "choices": [
+    "A lentil stew",
+    "A type of rice",
+    "A flatbread baked in a clay oven",
+    "A spicy soup"
+   ],
+   "answer": 2,
+   "fact": "Naan dough is slapped onto the hot inside wall of a clay oven called a tandoor."
+  },
+  {
+   "id": "food-1051",
+   "category": "Food",
+   "q": "What is a samosa?",
+   "choices": [
+    "A rice pudding",
+    "A yogurt drink",
+    "A spicy soup",
+    "A fried pastry filled with spiced potatoes or meat"
+   ],
+   "answer": 3,
+   "fact": "Samosas are usually shaped like triangles."
+  },
+  {
+   "id": "food-1052",
+   "category": "Food",
+   "q": "What are bagels boiled in water before?",
+   "choices": [
+    "Frying",
+    "Baking",
+    "Freezing",
+    "Slicing"
+   ],
+   "answer": 1,
+   "fact": "Boiling gives bagels their shiny, chewy crust."
+  },
+  {
+   "id": "food-1053",
+   "category": "Food",
+   "q": "Which German city is the frankfurter sausage named after?",
+   "choices": [
+    "Hamburg",
+    "Munich",
+    "Frankfurt",
+    "Berlin"
+   ],
+   "answer": 2,
+   "fact": "Hot dogs in the United States grew out of the frankfurter."
+  },
+  {
+   "id": "food-1054",
+   "category": "Food",
+   "q": "Buffalo wings were first made in which US city?",
+   "choices": [
+    "Buffalo, Wyoming",
+    "Chicago",
+    "Nashville",
+    "Buffalo, New York"
+   ],
+   "answer": 3,
+   "fact": "Buffalo wings are said to have been first served at the Anchor Bar in 1964."
+  },
+  {
+   "id": "food-1055",
+   "category": "Food",
+   "q": "Which US city is famous for cheesesteak sandwiches?",
+   "choices": [
+    "Boston",
+    "Philadelphia",
+    "Pittsburgh",
+    "New York City"
+   ],
+   "answer": 1,
+   "fact": "A Philly cheesesteak has thin slices of beef with melted cheese on a long roll."
+  },
+  {
+   "id": "food-1056",
+   "category": "Food",
+   "q": "Which US city is famous for deep-dish pizza?",
+   "choices": [
+    "Boston",
+    "New York City",
+    "Detroit",
+    "Chicago"
+   ],
+   "answer": 3,
+   "fact": "Deep-dish pizza is baked in a tall pan, with the sauce often on top of the cheese."
+  },
+  {
+   "id": "food-1057",
+   "category": "Food",
+   "q": "Which thick stew from Louisiana is often made with okra, shrimp and sausage?",
+   "choices": [
+    "Chowder",
+    "Chili",
+    "Goulash",
+    "Gumbo"
+   ],
+   "answer": 3,
+   "fact": "Gumbo may come from a West African word for okra."
+  },
+  {
+   "id": "food-1058",
+   "category": "Food",
+   "q": "Who invented nachos in 1943?",
+   "choices": [
+    "Ignacio Anaya",
+    "Taco Bell",
+    "Hernán Cortés",
+    "Caesar Cardini"
+   ],
+   "answer": 0,
+   "fact": "Nachos were named after their inventor, whose nickname was Nacho."
+  },
+  {
+   "id": "food-1059",
+   "category": "Food",
+   "q": "In which country was the Caesar salad invented?",
+   "choices": [
+    "Greece",
+    "United States",
+    "Italy",
+    "Mexico"
+   ],
+   "answer": 3,
+   "fact": "Restaurant owner Caesar Cardini is said to have created it in Tijuana in 1924."
+  },
+  {
+   "id": "food-1060",
+   "category": "Food",
+   "q": "Who invented the chocolate chip cookie in the 1930s?",
+   "choices": [
+    "Julia Child",
+    "Betty Crocker",
+    "Ruth Wakefield",
+    "Milton Hershey"
+   ],
+   "answer": 2,
+   "fact": "Ruth Wakefield ran the Toll House Inn in Massachusetts."
+  },
+  {
+   "id": "food-1061",
+   "category": "Food",
+   "q": "Which frozen treat was invented by an 11-year-old who left a drink with a stirring stick outside on a cold night?",
+   "choices": [
+    "Snow cone",
+    "Frozen yogurt",
+    "Popsicle",
+    "Ice cream sandwich"
+   ],
+   "answer": 2,
+   "fact": "Frank Epperson made his discovery in 1905 and patented it years later."
+  },
+  {
+   "id": "food-1062",
+   "category": "Food",
+   "q": "The sandwich is named after an English noble with what title?",
+   "choices": [
+    "Earl of Sandwich",
+    "Duke of Bread",
+    "Lord of Lunch",
+    "King of Toast"
+   ],
+   "answer": 0,
+   "fact": "The story says the Earl wanted a meal he could eat with one hand while playing cards."
+  },
+  {
+   "id": "food-1063",
+   "category": "Food",
+   "q": "Where did ice cream cones become famous in 1904?",
+   "choices": [
+    "An Italian circus",
+    "A London bakery",
+    "A New York hot dog stand",
+    "The St. Louis World's Fair"
+   ],
+   "answer": 3,
+   "fact": "One story says an ice cream seller ran out of dishes and a waffle seller next door rolled up cones."
+  },
+  {
+   "id": "food-1064",
+   "category": "Food",
+   "q": "Cotton candy, also called fairy floss, was co-invented in 1897 by someone with which job?",
+   "choices": [
+    "Dentist",
+    "Farmer",
+    "Teacher",
+    "Firefighter"
+   ],
+   "answer": 0,
+   "fact": "William Morrison, a dentist, created a cotton candy machine with a candy maker."
+  },
+  {
+   "id": "food-1065",
+   "category": "Food",
+   "q": "Which famous fizzy drink was invented by a pharmacist in Atlanta in 1886?",
+   "choices": [
+    "Dr Pepper",
+    "Pepsi",
+    "Coca-Cola",
+    "Sprite"
+   ],
+   "answer": 2,
+   "fact": "John Pemberton first sold it as a medicine-like drink at a pharmacy soda fountain."
+  },
+  {
+   "id": "food-1066",
+   "category": "Food",
+   "q": "Ketchup is thought to come from a sauce in Asia made from what?",
+   "choices": [
+    "Tomatoes",
+    "Fermented fish",
+    "Mushrooms",
+    "Mangoes"
+   ],
+   "answer": 1,
+   "fact": "Tomatoes were added to ketchup much later, in the 1800s."
+  },
+  {
+   "id": "food-1067",
+   "category": "Food",
+   "q": "What are the two main ingredients in mayonnaise?",
+   "choices": [
+    "Butter and sugar",
+    "Vinegar and salt",
+    "Egg yolks and oil",
+    "Milk and flour"
+   ],
+   "answer": 2,
+   "fact": "The egg yolk helps the oil and liquid mix smoothly instead of separating."
+  },
+  {
+   "id": "food-1068",
+   "category": "Food",
+   "q": "What is soy sauce made from?",
+   "choices": [
+    "Fish bones",
+    "Mushrooms",
+    "Squid ink",
+    "Fermented soybeans and wheat"
+   ],
+   "answer": 3,
+   "fact": "Soy sauce has been made in China for more than 2,000 years."
+  },
+  {
+   "id": "food-1069",
+   "category": "Food",
+   "q": "Which spicy chili sauce is named after a town in Thailand?",
+   "choices": [
+    "Gochujang",
+    "Sriracha",
+    "Tabasco",
+    "Harissa"
+   ],
+   "answer": 1,
+   "fact": "The town is called Si Racha, on the coast of the Gulf of Thailand."
+  },
+  {
+   "id": "food-1070",
+   "category": "Food",
+   "q": "What does the Spanish word \"salsa\" mean?",
+   "choices": [
+    "Dance",
+    "Sauce",
+    "Tomato",
+    "Spicy"
+   ],
+   "answer": 1,
+   "fact": "In English, salsa usually means a tomato and chili sauce, but in Spanish it can mean any sauce."
+  },
+  {
+   "id": "food-1071",
+   "category": "Food",
+   "q": "Which spice is the most expensive in the world by weight?",
+   "choices": [
+    "Cinnamon",
+    "Vanilla",
+    "Black pepper",
+    "Saffron"
+   ],
+   "answer": 3,
+   "fact": "Saffron threads are picked by hand from crocus flowers, and each flower has only three."
+  },
+  {
+   "id": "food-1072",
+   "category": "Food",
+   "q": "Vanilla comes from the seed pods of which kind of plant?",
+   "choices": [
+    "Orchid",
+    "Bean bush",
+    "Palm tree",
+    "Rose"
+   ],
+   "answer": 0,
+   "fact": "Most vanilla orchids are pollinated by hand, one flower at a time."
+  },
+  {
+   "id": "food-1073",
+   "category": "Food",
+   "q": "What is black pepper made from?",
+   "choices": [
+    "Ground tree bark",
+    "Crushed seeds of a flower",
+    "Dried chili peppers",
+    "Dried berries of a vine"
+   ],
+   "answer": 3,
+   "fact": "Black, white and green peppercorns all come from the same plant."
+  },
+  {
+   "id": "food-1074",
+   "category": "Food",
+   "q": "Which spice gives curry its bright yellow color?",
+   "choices": [
+    "Cumin",
+    "Turmeric",
+    "Paprika",
+    "Saffron"
+   ],
+   "answer": 1,
+   "fact": "Turmeric is a root, related to ginger."
+  },
+  {
+   "id": "food-1075",
+   "category": "Food",
+   "q": "Which two spices come from the same fruit of one tree?",
+   "choices": [
+    "Pepper and paprika",
+    "Cumin and coriander",
+    "Cinnamon and cloves",
+    "Nutmeg and mace"
+   ],
+   "answer": 3,
+   "fact": "Nutmeg is the seed, and mace is the lacy red covering around it."
+  },
+  {
+   "id": "food-1076",
+   "category": "Food",
+   "q": "What are cloves, the spice?",
+   "choices": [
+    "Dried flower buds",
+    "Tree bark",
+    "Dried berries",
+    "Tiny seeds"
+   ],
+   "answer": 0,
+   "fact": "Cloves are so strong that dentists once used clove oil to numb toothaches."
+  },
+  {
+   "id": "food-1077",
+   "category": "Food",
+   "q": "Which part of the ginger plant do we usually eat?",
+   "choices": [
+    "The underground stem",
+    "The flower",
+    "The seeds",
+    "The leaves"
+   ],
+   "answer": 0,
+   "fact": "It looks like a root, but ginger is really an underground stem called a rhizome."
+  },
+  {
+   "id": "food-1078",
+   "category": "Food",
+   "q": "What is used to measure how spicy a chili pepper is?",
+   "choices": [
+    "Richter scale",
+    "Beaufort scale",
+    "Scoville scale",
+    "Fahrenheit scale"
+   ],
+   "answer": 2,
+   "fact": "A sweet bell pepper scores zero on the Scoville scale."
+  },
+  {
+   "id": "food-1079",
+   "category": "Food",
+   "q": "Which chemical makes chili peppers taste hot?",
+   "choices": [
+    "Chlorophyll",
+    "Capsaicin",
+    "Citric acid",
+    "Caffeine"
+   ],
+   "answer": 1,
+   "fact": "Drinking milk helps with chili burn better than water does."
+  },
+  {
+   "id": "food-1080",
+   "category": "Food",
+   "q": "As of 2025, which pepper holds the record as the world's hottest?",
+   "choices": [
+    "Ghost pepper",
+    "Habanero",
+    "Carolina Reaper",
+    "Pepper X"
+   ],
+   "answer": 3,
+   "fact": "Pepper X was named the world's hottest pepper by Guinness World Records in 2023."
+  },
+  {
+   "id": "food-1081",
+   "category": "Food",
+   "q": "Which spice is made by drying and grinding red peppers and is popular in Hungary?",
+   "choices": [
+    "Paprika",
+    "Turmeric",
+    "Nutmeg",
+    "Cumin"
+   ],
+   "answer": 0,
+   "fact": "Paprika can be sweet, hot or smoked."
+  },
+  {
+   "id": "food-1082",
+   "category": "Food",
+   "q": "What is a single piece of a garlic bulb called?",
+   "choices": [
+    "Segment",
+    "Bud",
+    "Pod",
+    "Clove"
+   ],
+   "answer": 3,
+   "fact": "A garlic bulb usually has about 10 to 20 cloves."
+  },
+  {
+   "id": "food-1083",
+   "category": "Food",
+   "q": "Which herb is a main ingredient in pesto and is common in Italian cooking?",
+   "choices": [
+    "Rosemary",
+    "Basil",
+    "Mint",
+    "Dill"
+   ],
+   "answer": 1,
+   "fact": "Basil is part of the mint family."
+  },
+  {
+   "id": "food-1084",
+   "category": "Food",
+   "q": "Which herb, loved by some and said to taste like soap to others, is also called coriander?",
+   "choices": [
+    "Cilantro",
+    "Dill",
+    "Basil",
+    "Parsley"
+   ],
+   "answer": 0,
+   "fact": "Some people's genes make cilantro taste soapy to them."
+  },
+  {
+   "id": "food-1085",
+   "category": "Food",
+   "q": "Which seeds are ground to make tahini?",
+   "choices": [
+    "Sunflower seeds",
+    "Poppy seeds",
+    "Pumpkin seeds",
+    "Sesame seeds"
+   ],
+   "answer": 3,
+   "fact": "Tahini is one of the main ingredients in hummus."
+  },
+  {
+   "id": "food-1086",
+   "category": "Food",
+   "q": "Which islands in Indonesia were famous as the Spice Islands?",
+   "choices": [
+    "Canary Islands",
+    "Faroe Islands",
+    "Maluku Islands",
+    "Galápagos Islands"
+   ],
+   "answer": 2,
+   "fact": "European traders once sailed halfway around the world for the nutmeg and cloves grown there."
+  },
+  {
+   "id": "food-1087",
+   "category": "Food",
+   "q": "Which of these is a true berry, according to botanists?",
+   "choices": [
+    "Banana",
+    "Raspberry",
+    "Strawberry",
+    "Blackberry"
+   ],
+   "answer": 0,
+   "fact": "Botanically, strawberries and raspberries aren't true berries, but bananas, grapes and even tomatoes are."
+  },
+  {
+   "id": "food-1088",
+   "category": "Food",
+   "q": "How does a pineapple grow?",
+   "choices": [
+    "Hanging from a tall tree",
+    "On a climbing vine",
+    "From the middle of a leafy plant on the ground",
+    "Underground like a potato"
+   ],
+   "answer": 2,
+   "fact": "A pineapple plant usually takes about two years to grow one pineapple."
+  },
+  {
+   "id": "food-1089",
+   "category": "Food",
+   "q": "Which spiky fruit from Southeast Asia is so smelly it's banned on some trains and in some hotels?",
+   "choices": [
+    "Dragon fruit",
+    "Jackfruit",
+    "Durian",
+    "Rambutan"
+   ],
+   "answer": 2,
+   "fact": "Durian is often called the king of fruits."
+  },
+  {
+   "id": "food-1090",
+   "category": "Food",
+   "q": "What grows on the bottom of a fruit called a cashew apple?",
+   "choices": [
+    "Walnut",
+    "Pistachio",
+    "Almond",
+    "Cashew nut"
+   ],
+   "answer": 3,
+   "fact": "Cashews are always sold shelled, because their shells contain an oil that irritates skin."
+  },
+  {
+   "id": "food-1091",
+   "category": "Food",
+   "q": "Almonds are the seeds of a fruit closely related to which fruit?",
+   "choices": [
+    "Orange",
+    "Banana",
+    "Apple",
+    "Peach"
+   ],
+   "answer": 3,
+   "fact": "Almonds, peaches, cherries and plums are all in the same plant family."
+  },
+  {
+   "id": "food-1092",
+   "category": "Food",
+   "q": "Which fruit was renamed after a New Zealand bird?",
+   "choices": [
+    "Tamarillo",
+    "Feijoa",
+    "Kiwifruit",
+    "Passion fruit"
+   ],
+   "answer": 2,
+   "fact": "Kiwifruit came from China, where it was once called the Chinese gooseberry."
+  },
+  {
+   "id": "food-1093",
+   "category": "Food",
+   "q": "Which banana variety is the one most often sold in grocery stores?",
+   "choices": [
+    "Plantain",
+    "Cavendish",
+    "Lady Finger",
+    "Gros Michel"
+   ],
+   "answer": 1,
+   "fact": "Cavendish bananas are grown from cuttings, so they are almost all genetic copies of each other."
+  },
+  {
+   "id": "food-1094",
+   "category": "Food",
+   "q": "Why do apples float in water?",
+   "choices": [
+    "They are about a quarter air",
+    "They have oil inside",
+    "They are hollow",
+    "Their skin is waxy"
+   ],
+   "answer": 0,
+   "fact": "That's why bobbing for apples works."
+  },
+  {
+   "id": "food-1095",
+   "category": "Food",
+   "q": "Granny Smith and Fuji are types of which fruit?",
+   "choices": [
+    "Apple",
+    "Plum",
+    "Grape",
+    "Pear"
+   ],
+   "answer": 0,
+   "fact": "Granny Smith apples were first grown by a woman named Maria Ann Smith in Australia in the 1860s."
+  },
+  {
+   "id": "food-1096",
+   "category": "Food",
+   "q": "Which fruit is the national fruit of India?",
+   "choices": [
+    "Guava",
+    "Banana",
+    "Papaya",
+    "Mango"
+   ],
+   "answer": 3,
+   "fact": "India grows more mangoes than any other country."
+  },
+  {
+   "id": "food-1097",
+   "category": "Food",
+   "q": "Prunes are dried versions of which fruit?",
+   "choices": [
+    "Cherries",
+    "Figs",
+    "Grapes",
+    "Plums"
+   ],
+   "answer": 3,
+   "fact": "It takes about three pounds of fresh plums to make one pound of prunes."
+  },
+  {
+   "id": "food-1098",
+   "category": "Food",
+   "q": "Pickles are usually made from which vegetable?",
+   "choices": [
+    "Green beans",
+    "Zucchini",
+    "Cucumbers",
+    "Carrots"
+   ],
+   "answer": 2,
+   "fact": "Pickling in salty or vinegary water has kept food from spoiling for thousands of years."
+  },
+  {
+   "id": "food-1099",
+   "category": "Food",
+   "q": "In which part of the world were potatoes first grown?",
+   "choices": [
+    "India",
+    "The Andes mountains of South America",
+    "Ireland",
+    "Russia"
+   ],
+   "answer": 1,
+   "fact": "People in Peru have grown potatoes for more than 7,000 years."
+  },
+  {
+   "id": "food-1100",
+   "category": "Food",
+   "q": "Tomatoes first came from which part of the world?",
+   "choices": [
+    "Italy",
+    "China",
+    "The Americas",
+    "Africa"
+   ],
+   "answer": 2,
+   "fact": "Italian food had no tomatoes until they arrived from the Americas in the 1500s."
+  },
+  {
+   "id": "food-1101",
+   "category": "Food",
+   "q": "Corn was first grown thousands of years ago in which country?",
+   "choices": [
+    "Mexico",
+    "China",
+    "Spain",
+    "Egypt"
+   ],
+   "answer": 0,
+   "fact": "Corn was bred from a wild grass called teosinte, which had tiny cobs."
+  },
+  {
+   "id": "food-1102",
+   "category": "Food",
+   "q": "What color were most cultivated carrots before orange carrots became common?",
+   "choices": [
+    "Purple or yellow",
+    "Black",
+    "Pink",
+    "Blue"
+   ],
+   "answer": 0,
+   "fact": "Orange carrots became popular in the Netherlands in the 1600s."
+  },
+  {
+   "id": "food-1103",
+   "category": "Food",
+   "q": "Broccoli, cabbage, kale and cauliflower were all bred from which wild plant?",
+   "choices": [
+    "Wild grass",
+    "Wild lettuce",
+    "Wild cabbage",
+    "Wild spinach"
+   ],
+   "answer": 2,
+   "fact": "Farmers chose different parts to grow bigger, like leaves for kale and flower buds for broccoli."
+  },
+  {
+   "id": "food-1104",
+   "category": "Food",
+   "q": "Which part of the rhubarb plant should you never eat?",
+   "choices": [
+    "The leaves",
+    "The pink skin",
+    "The stalks",
+    "The roots"
+   ],
+   "answer": 0,
+   "fact": "Rhubarb leaves contain a lot of oxalic acid, which can make people sick."
+  },
+  {
+   "id": "food-1105",
+   "category": "Food",
+   "q": "Which vegetable is named after a city in Belgium?",
+   "choices": [
+    "Antwerp peas",
+    "Belgian carrots",
+    "Ghent beans",
+    "Brussels sprouts"
+   ],
+   "answer": 3,
+   "fact": "Brussels sprouts look like tiny cabbages, and they're related to cabbages too."
+  },
+  {
+   "id": "food-1106",
+   "category": "Food",
+   "q": "Which rare fungi, found underground, are often sniffed out by dogs or pigs?",
+   "choices": [
+    "Morels",
+    "Portobellos",
+    "Chanterelles",
+    "Truffles"
+   ],
+   "answer": 3,
+   "fact": "Some white truffles have sold for thousands of dollars each."
+  },
+  {
+   "id": "food-1107",
+   "category": "Food",
+   "q": "Which grain is the main food for more than half of the world's people?",
+   "choices": [
+    "Oats",
+    "Rice",
+    "Wheat",
+    "Corn"
+   ],
+   "answer": 1,
+   "fact": "Rice is grown on every continent except Antarctica."
+  },
+  {
+   "id": "food-1108",
+   "category": "Food",
+   "q": "Quinoa, a popular healthy food, comes from which mountain region?",
+   "choices": [
+    "The Alps",
+    "The Rockies",
+    "The Andes",
+    "The Himalayas"
+   ],
+   "answer": 2,
+   "fact": "Quinoa is actually a seed, not a true grain."
+  },
+  {
+   "id": "food-1109",
+   "category": "Food",
+   "q": "Which protein in wheat makes dough stretchy?",
+   "choices": [
+    "Gluten",
+    "Fiber",
+    "Starch",
+    "Yeast"
+   ],
+   "answer": 0,
+   "fact": "People with celiac disease can't eat gluten."
+  },
+  {
+   "id": "food-1110",
+   "category": "Food",
+   "q": "Which small, flat legumes are used to make the Indian dish dal?",
+   "choices": [
+    "Lentils",
+    "Lima beans",
+    "Peas",
+    "Soybeans"
+   ],
+   "answer": 0,
+   "fact": "Lentils cook quickly and don't need soaking like many dried beans do."
+  },
+  {
+   "id": "food-1111",
+   "category": "Food",
+   "q": "What is another name for chickpeas?",
+   "choices": [
+    "Navy beans",
+    "Lima beans",
+    "Kidney beans",
+    "Garbanzo beans"
+   ],
+   "answer": 3,
+   "fact": "Chickpeas have been grown in the Middle East for about 10,000 years."
+  },
+  {
+   "id": "food-1112",
+   "category": "Food",
+   "q": "As of 2025, which country produces the most olive oil?",
+   "choices": [
+    "Spain",
+    "Greece",
+    "Italy",
+    "Turkey"
+   ],
+   "answer": 0,
+   "fact": "Spain often makes nearly half of the world's olive oil."
+  },
+  {
+   "id": "food-1113",
+   "category": "Food",
+   "q": "Why have archaeologists found honey in ancient Egyptian tombs that was still safe to eat?",
+   "choices": [
+    "Honey almost never spoils",
+    "It was mixed with salt",
+    "It was kept in gold jars",
+    "It was frozen"
+   ],
+   "answer": 0,
+   "fact": "Honey is low in water and slightly acidic, so germs can't grow in it."
+  },
+  {
+   "id": "food-1114",
+   "category": "Food",
+   "q": "About how many liters of maple sap are boiled down to make one liter of maple syrup?",
+   "choices": [
+    "About 40",
+    "About 100",
+    "About 2",
+    "About 10"
+   ],
+   "answer": 0,
+   "fact": "Canada, especially Quebec, makes most of the world's maple syrup."
+  },
+  {
+   "id": "food-1115",
+   "category": "Food",
+   "q": "Table sugar mostly comes from which two plants?",
+   "choices": [
+    "Corn and wheat",
+    "Apples and grapes",
+    "Sugarcane and sugar beets",
+    "Maple trees and palm trees"
+   ],
+   "answer": 2,
+   "fact": "Sugarcane is a giant tropical grass that can grow taller than a basketball hoop."
+  },
+  {
+   "id": "food-1116",
+   "category": "Food",
+   "q": "What gas do baking soda and baking powder release to make cakes rise?",
+   "choices": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Nitrogen",
+    "Helium"
+   ],
+   "answer": 0,
+   "fact": "The gas makes tiny bubbles in the batter that get trapped as it bakes."
+  },
+  {
+   "id": "food-1117",
+   "category": "Food",
+   "q": "Which plant root is used to make tapioca?",
+   "choices": [
+    "Yam",
+    "Potato",
+    "Taro",
+    "Cassava"
+   ],
+   "answer": 3,
+   "fact": "Cassava must be cooked properly, because raw cassava can contain harmful chemicals."
+  },
+  {
+   "id": "food-1118",
+   "category": "Food",
+   "q": "Which fruit is about 92 percent water?",
+   "choices": [
+    "Banana",
+    "Watermelon",
+    "Coconut",
+    "Avocado"
+   ],
+   "answer": 1,
+   "fact": "Watermelons are related to cucumbers, pumpkins and squash."
+  },
+  {
+   "id": "food-1119",
+   "category": "Food",
+   "q": "On long voyages, sailors ate citrus fruit to prevent which disease?",
+   "choices": [
+    "Scurvy",
+    "Measles",
+    "Malaria",
+    "Chickenpox"
+   ],
+   "answer": 0,
+   "fact": "British sailors were nicknamed \"limeys\" because they were given lime juice."
+  },
+  {
+   "id": "food-1120",
+   "category": "Food",
+   "q": "Which fruit is famous for being high in potassium?",
+   "choices": [
+    "Apple",
+    "Banana",
+    "Blueberry",
+    "Lemon"
+   ],
+   "answer": 1,
+   "fact": "Bananas are also a good source of quick energy for athletes."
+  },
+  {
+   "id": "food-1121",
+   "category": "Food",
+   "q": "Which red berries are harvested by flooding the fields so the berries float?",
+   "choices": [
+    "Cherries",
+    "Strawberries",
+    "Cranberries",
+    "Raspberries"
+   ],
+   "answer": 2,
+   "fact": "Good cranberries bounce, and some farms test them by bouncing them."
+  },
+  {
+   "id": "food-1122",
+   "category": "Food",
+   "q": "In which country did the wild ancestors of today's apples come from?",
+   "choices": [
+    "France",
+    "United States",
+    "England",
+    "Kazakhstan"
+   ],
+   "answer": 3,
+   "fact": "The name of Kazakhstan's biggest city, Almaty, is linked to the word for apple."
+  },
+  {
+   "id": "food-1123",
+   "category": "Food",
+   "q": "What color is a bell pepper before it ripens?",
+   "choices": [
+    "Green",
+    "Purple",
+    "Red",
+    "Yellow"
+   ],
+   "answer": 0,
+   "fact": "Red bell peppers are usually just green peppers left on the plant longer to ripen."
+  },
+  {
+   "id": "food-1124",
+   "category": "Food",
+   "q": "An ear of corn almost always has an even number of what?",
+   "choices": [
+    "Husks",
+    "Leaves",
+    "Rows of kernels",
+    "Silk strands"
+   ],
+   "answer": 2,
+   "fact": "Most ears of corn have about 16 rows of kernels."
+  },
+  {
+   "id": "food-1125",
+   "category": "Food",
+   "q": "In the 1800s, many Europeans feared which fruit might be poisonous?",
+   "choices": [
+    "Tomato",
+    "Orange",
+    "Apple",
+    "Banana"
+   ],
+   "answer": 0,
+   "fact": "Some plates were made with lead, and acidic tomatoes pulled lead out, which may have made people sick."
+  },
+  {
+   "id": "food-1126",
+   "category": "Food",
+   "q": "Which mold gives blue cheese its blue veins?",
+   "choices": [
+    "Moss",
+    "Yeast",
+    "Penicillium",
+    "Seaweed"
+   ],
+   "answer": 2,
+   "fact": "It's related to the mold that the medicine penicillin was first made from."
+  },
+  {
+   "id": "food-1127",
+   "category": "Food",
+   "q": "What is the Hawaiian dish poke made from?",
+   "choices": [
+    "Grilled chicken",
+    "Taro paste",
+    "Raw fish cut into cubes",
+    "Roasted pork"
+   ],
+   "answer": 2,
+   "fact": "Poke means \"to slice\" or \"cut crosswise\" in Hawaiian."
+  },
+  {
+   "id": "food-1128",
+   "category": "Food",
+   "q": "Which plant gives us the sweet, starchy staple that Hawaiians mash into poi?",
+   "choices": [
+    "Yam",
+    "Potato",
+    "Taro",
+    "Cassava"
+   ],
+   "answer": 2,
+   "fact": "Taro leaves are also eaten, but they must be cooked first."
+  },
+  {
+   "id": "food-1129",
+   "category": "Food",
+   "q": "What is the edible part of an artichoke?",
+   "choices": [
+    "A leafy stem",
+    "A seed",
+    "A flower bud",
+    "A root"
+   ],
+   "answer": 2,
+   "fact": "If an artichoke is left to bloom, it turns into a big purple flower."
+  },
+  {
+   "id": "food-1130",
+   "category": "Food",
+   "q": "Which green fruit has the nickname \"alligator pear\"?",
+   "choices": [
+    "Green apple",
+    "Lime",
+    "Kiwi",
+    "Avocado"
+   ],
+   "answer": 3,
+   "fact": "Its bumpy green skin looks a bit like alligator skin."
+  },
+  {
+   "id": "food-1131",
+   "category": "Food",
+   "q": "Which tropical fruit has bright pink skin and white or red flesh with tiny black seeds?",
+   "choices": [
+    "Lychee",
+    "Guava",
+    "Papaya",
+    "Dragon fruit"
+   ],
+   "answer": 3,
+   "fact": "Dragon fruit grows on a kind of cactus."
+  },
+  {
+   "id": "food-1132",
+   "category": "Food",
+   "q": "Coconuts grow on which kind of tree?",
+   "choices": [
+    "Palm tree",
+    "Maple tree",
+    "Oak tree",
+    "Pine tree"
+   ],
+   "answer": 0,
+   "fact": "A coconut can float across oceans and sprout on a faraway beach."
+  },
+  {
+   "id": "food-1133",
+   "category": "Food",
+   "q": "What are the holes in Swiss cheese called?",
+   "choices": [
+    "Windows",
+    "Bubbles",
+    "Pockets",
+    "Eyes"
+   ],
+   "answer": 3,
+   "fact": "The holes form when bacteria in the cheese give off gas as it ages."
+  },
+  {
+   "id": "food-1134",
+   "category": "Food",
+   "q": "Which cheese, named after a village in England, is often dyed orange?",
+   "choices": [
+    "Gouda",
+    "Brie",
+    "Swiss",
+    "Cheddar"
+   ],
+   "answer": 3,
+   "fact": "The orange color usually comes from annatto, a natural dye from a tree seed."
+  },
+  {
+   "id": "food-1135",
+   "category": "Food",
+   "q": "How is yogurt made?",
+   "choices": [
+    "Bacteria ferment milk",
+    "Milk is boiled with sugar",
+    "Milk is frozen",
+    "Cream is whipped"
+   ],
+   "answer": 0,
+   "fact": "The bacteria turn milk sugar into lactic acid, which makes yogurt thick and tangy."
+  },
+  {
+   "id": "food-1136",
+   "category": "Food",
+   "q": "What is ghee, used a lot in Indian cooking?",
+   "choices": [
+    "Rice flour",
+    "Clarified butter",
+    "Coconut milk",
+    "Yogurt sauce"
+   ],
+   "answer": 1,
+   "fact": "Ghee is butter that has been cooked to remove the water and milk solids."
+  },
+  {
+   "id": "food-1137",
+   "category": "Food",
+   "q": "What decides whether a chicken's eggs are brown or white?",
+   "choices": [
+    "The breed of hen",
+    "What the hen eats",
+    "The weather",
+    "How old the egg is"
+   ],
+   "answer": 0,
+   "fact": "Brown and white eggs have the same taste and nutrition."
+  },
+  {
+   "id": "food-1138",
+   "category": "Food",
+   "q": "How can you tell a very fresh egg in a bowl of water?",
+   "choices": [
+    "It spins",
+    "It sinks and lies flat",
+    "It floats on top",
+    "It turns the water cloudy"
+   ],
+   "answer": 1,
+   "fact": "Older eggs have a bigger air pocket inside, so they start to tilt up or float."
+  },
+  {
+   "id": "food-1139",
+   "category": "Food",
+   "q": "What is caviar?",
+   "choices": [
+    "Mushroom paste",
+    "Fish eggs",
+    "Black beans",
+    "Tiny olives"
+   ],
+   "answer": 1,
+   "fact": "The most famous caviar comes from sturgeon, a fish that has been around since the time of the dinosaurs."
+  },
+  {
+   "id": "food-1140",
+   "category": "Food",
+   "q": "Which squeaky cheese from Cyprus is great for grilling because it doesn't melt easily?",
+   "choices": [
+    "Cheddar",
+    "Halloumi",
+    "Mozzarella",
+    "Brie"
+   ],
+   "answer": 1,
+   "fact": "Halloumi squeaks against your teeth when you chew it."
+  },
+  {
+   "id": "food-1141",
+   "category": "Food",
+   "q": "What is paneer?",
+   "choices": [
+    "A type of bread",
+    "A rice dish",
+    "A fresh cheese used in Indian cooking",
+    "A spicy sauce"
+   ],
+   "answer": 2,
+   "fact": "Paneer doesn't melt when heated, so it's often cubed and cooked in curries."
+  },
+  {
+   "id": "food-1142",
+   "category": "Food",
+   "q": "What does the name of the Italian cheese ricotta mean?",
+   "choices": [
+    "Little cheese",
+    "Recooked",
+    "Rich cream",
+    "Soft white"
+   ],
+   "answer": 1,
+   "fact": "Ricotta is made by heating the whey left over from making other cheeses."
+  },
+  {
+   "id": "food-1143",
+   "category": "Food",
+   "q": "What is sashimi?",
+   "choices": [
+    "Fried shrimp",
+    "Thin slices of raw fish without rice",
+    "Rice rolls with seaweed",
+    "A noodle soup"
+   ],
+   "answer": 1,
+   "fact": "Sushi always includes vinegared rice, but sashimi doesn't."
+  },
+  {
+   "id": "food-1144",
+   "category": "Food",
+   "q": "What sea animal is calamari made from?",
+   "choices": [
+    "Octopus",
+    "Jellyfish",
+    "Squid",
+    "Shrimp"
+   ],
+   "answer": 2,
+   "fact": "Calamari is the Italian word for squid."
+  },
+  {
+   "id": "food-1145",
+   "category": "Food",
+   "q": "Bacon usually comes from which part of a pig?",
+   "choices": [
+    "Leg",
+    "Head",
+    "Belly",
+    "Shoulder"
+   ],
+   "answer": 2,
+   "fact": "In the UK, back bacon from the pig's back is also very common."
+  },
+  {
+   "id": "food-1146",
+   "category": "Food",
+   "q": "What is deer meat called?",
+   "choices": [
+    "Pork",
+    "Venison",
+    "Mutton",
+    "Veal"
+   ],
+   "answer": 1,
+   "fact": "The word venison once meant any meat from hunted animals."
+  },
+  {
+   "id": "food-1147",
+   "category": "Food",
+   "q": "What is beef jerky?",
+   "choices": [
+    "Ground meat patties",
+    "Smoked fish",
+    "Dried strips of meat",
+    "Pickled sausage"
+   ],
+   "answer": 2,
+   "fact": "The word jerky comes from a Quechua word, ch'arki, from South America."
+  },
+  {
+   "id": "food-1148",
+   "category": "Food",
+   "q": "Which pizza topping is an American creation, even though it sounds Italian?",
+   "choices": [
+    "Salami",
+    "Prosciutto",
+    "Pepperoni",
+    "Mozzarella"
+   ],
+   "answer": 2,
+   "fact": "As of 2025, pepperoni is the most popular pizza topping in the United States."
+  },
+  {
+   "id": "food-1149",
+   "category": "Food",
+   "q": "Which Italian ham is dry-cured and sliced paper thin?",
+   "choices": [
+    "Chorizo",
+    "Bologna",
+    "Pepperoni",
+    "Prosciutto"
+   ],
+   "answer": 3,
+   "fact": "Prosciutto di Parma is cured for at least a year."
+  },
+  {
+   "id": "food-1150",
+   "category": "Food",
+   "q": "Which canned meat is so popular in Hawaii that it's used in sushi-like snacks called musubi?",
+   "choices": [
+    "Spam",
+    "Tuna",
+    "Vienna sausages",
+    "Corned beef"
+   ],
+   "answer": 0,
+   "fact": "Hawaii eats more Spam per person than any other US state."
+  },
+  {
+   "id": "food-1151",
+   "category": "Food",
+   "q": "What does \"al dente\" mean when cooking pasta?",
+   "choices": [
+    "Raw in the middle",
+    "Burnt",
+    "Very soft",
+    "Firm to the bite"
+   ],
+   "answer": 3,
+   "fact": "Al dente is Italian for \"to the tooth\"."
+  },
+  {
+   "id": "food-1152",
+   "category": "Food",
+   "q": "What does it mean to sauté food?",
+   "choices": [
+    "Bake it slowly",
+    "Boil it in water",
+    "Freeze it",
+    "Fry it quickly in a little fat"
+   ],
+   "answer": 3,
+   "fact": "Sauté comes from a French word meaning \"to jump\", because the food jumps in the hot pan."
+  },
+  {
+   "id": "food-1153",
+   "category": "Food",
+   "q": "What does it mean to cut vegetables julienne?",
+   "choices": [
+    "Into thin matchstick strips",
+    "Into tiny cubes",
+    "Into big chunks",
+    "Into rings"
+   ],
+   "answer": 0,
+   "fact": "Julienne carrots are often used in salads and stir-fries."
+  },
+  {
+   "id": "food-1154",
+   "category": "Food",
+   "q": "What does the French cooking phrase \"mise en place\" mean?",
+   "choices": [
+    "Everything in its place",
+    "Mix and taste",
+    "Put it in the pan",
+    "Meal for the family"
+   ],
+   "answer": 0,
+   "fact": "Chefs prepare and measure all their ingredients before they start cooking."
+  },
+  {
+   "id": "food-1155",
+   "category": "Food",
+   "q": "What is blanching vegetables?",
+   "choices": [
+    "Frying them in butter",
+    "Roasting them until black",
+    "Eating them raw",
+    "Boiling them briefly, then cooling them in ice water"
+   ],
+   "answer": 3,
+   "fact": "Blanching helps vegetables keep their bright color."
+  },
+  {
+   "id": "food-1156",
+   "category": "Food",
+   "q": "What is it called when sugar is heated until it turns brown and tasty?",
+   "choices": [
+    "Fermentation",
+    "Caramelization",
+    "Crystallization",
+    "Evaporation"
+   ],
+   "answer": 1,
+   "fact": "Caramel starts to form at around 170 degrees Celsius."
+  },
+  {
+   "id": "food-1157",
+   "category": "Food",
+   "q": "What is the browning reaction that gives toast, roasted meat and cookies their tasty flavor?",
+   "choices": [
+    "Rusting",
+    "Maillard reaction",
+    "Photosynthesis",
+    "Melting"
+   ],
+   "answer": 1,
+   "fact": "It's named after Louis-Camille Maillard, a French scientist who described it in 1912."
+  },
+  {
+   "id": "food-1158",
+   "category": "Food",
+   "q": "What is sous vide cooking?",
+   "choices": [
+    "Cooking sealed food in a warm water bath",
+    "Deep-frying",
+    "Cooking with a blowtorch",
+    "Cooking on a grill"
+   ],
+   "answer": 0,
+   "fact": "Sous vide means \"under vacuum\" in French."
+  },
+  {
+   "id": "food-1159",
+   "category": "Food",
+   "q": "What is a roux, used to thicken sauces?",
+   "choices": [
+    "Blended vegetables",
+    "Whipped egg whites",
+    "Cooked flour and fat",
+    "Boiled sugar"
+   ],
+   "answer": 2,
+   "fact": "Gumbo often starts with a dark roux cooked until it's the color of chocolate."
+  },
+  {
+   "id": "food-1160",
+   "category": "Food",
+   "q": "How many \"mother sauces\" are there in classic French cooking?",
+   "choices": [
+    "3",
+    "10",
+    "7",
+    "5"
+   ],
+   "answer": 3,
+   "fact": "The five mother sauces are béchamel, velouté, espagnole, tomato and hollandaise."
+  },
+  {
+   "id": "food-1161",
+   "category": "Food",
+   "q": "Which classic French white sauce is made from milk, butter and flour?",
+   "choices": [
+    "Pesto",
+    "Hollandaise",
+    "Béchamel",
+    "Gravy"
+   ],
+   "answer": 2,
+   "fact": "Béchamel is used in many lasagna and macaroni and cheese recipes."
+  },
+  {
+   "id": "food-1162",
+   "category": "Food",
+   "q": "What is the tall white hat worn by chefs called?",
+   "choices": [
+    "Bonnet",
+    "Toque",
+    "Beret",
+    "Fez"
+   ],
+   "answer": 1,
+   "fact": "Legend says the 100 pleats on a toque stand for 100 ways to cook an egg."
+  },
+  {
+   "id": "food-1163",
+   "category": "Food",
+   "q": "What does \"sous chef\" mean in a kitchen?",
+   "choices": [
+    "The owner",
+    "The person who washes dishes",
+    "The dessert chef",
+    "The second in charge under the head chef"
+   ],
+   "answer": 3,
+   "fact": "Sous means \"under\" in French."
+  },
+  {
+   "id": "food-1164",
+   "category": "Food",
+   "q": "What is the highest number of Michelin stars a restaurant can get?",
+   "choices": [
+    "4",
+    "5",
+    "10",
+    "3"
+   ],
+   "answer": 3,
+   "fact": "The Michelin Guide was started by a tire company in 1900 to encourage people to drive more."
+  },
+  {
+   "id": "food-1165",
+   "category": "Food",
+   "q": "What is the savory \"fifth taste\", found in foods like mushrooms, cheese and soy sauce?",
+   "choices": [
+    "Umami",
+    "Bitter",
+    "Tangy",
+    "Spicy"
+   ],
+   "answer": 0,
+   "fact": "A Japanese scientist named Kikunae Ikeda named umami in 1908."
+  },
+  {
+   "id": "food-1166",
+   "category": "Food",
+   "q": "What is a wok?",
+   "choices": [
+    "A soup ladle",
+    "A round-bottomed pan used for stir-frying",
+    "A clay oven",
+    "A rice cooker"
+   ],
+   "answer": 1,
+   "fact": "A wok's shape lets food be tossed quickly over very high heat."
+  },
+  {
+   "id": "food-1167",
+   "category": "Food",
+   "q": "What is a tandoor?",
+   "choices": [
+    "A flatbread",
+    "A clay oven",
+    "A spice blend",
+    "A rice dish"
+   ],
+   "answer": 1,
+   "fact": "Tandoors can get hotter than 400 degrees Celsius."
+  },
+  {
+   "id": "food-1168",
+   "category": "Food",
+   "q": "In Japan, why is it rude to stand chopsticks upright in a bowl of rice?",
+   "choices": [
+    "It wastes rice",
+    "It's bad for the chopsticks",
+    "It looks like an offering at a funeral",
+    "It means you're angry"
+   ],
+   "answer": 2,
+   "fact": "Passing food from chopsticks to chopsticks is also avoided for the same reason."
+  },
+  {
+   "id": "food-1169",
+   "category": "Food",
+   "q": "Why does a pressure cooker cook food faster?",
+   "choices": [
+    "It spins the food",
+    "It uses magnets",
+    "It raises the boiling point of water",
+    "It adds oxygen"
+   ],
+   "answer": 2,
+   "fact": "Inside a pressure cooker, water can reach about 120 degrees Celsius before boiling."
+  },
+  {
+   "id": "food-1170",
+   "category": "Food",
+   "q": "Why do people add salt to the ice when making homemade ice cream?",
+   "choices": [
+    "It makes the ice colder",
+    "It adds flavor",
+    "It keeps the bag from leaking",
+    "It stops the ice from melting at all"
+   ],
+   "answer": 0,
+   "fact": "Salty ice water can get several degrees below the normal freezing point."
+  },
+  {
+   "id": "food-1171",
+   "category": "Food",
+   "q": "What dessert is made by whipping egg whites and sugar into a stiff foam and baking it?",
+   "choices": [
+    "Pudding",
+    "Mousse cake",
+    "Meringue",
+    "Custard"
+   ],
+   "answer": 2,
+   "fact": "A copper bowl helps egg whites whip into a more stable foam."
+  },
+  {
+   "id": "food-1172",
+   "category": "Food",
+   "q": "Which seaweed-based ingredient is used as a vegetarian replacement for gelatin?",
+   "choices": [
+    "Kelp flakes",
+    "Spirulina",
+    "Agar",
+    "Nori"
+   ],
+   "answer": 2,
+   "fact": "Agar sets firm even at room temperature."
+  },
+  {
+   "id": "food-1173",
+   "category": "Food",
+   "q": "What is the process of heating milk to kill germs called?",
+   "choices": [
+    "Pasteurization",
+    "Homogenization",
+    "Fermentation",
+    "Distillation"
+   ],
+   "answer": 0,
+   "fact": "It's named after the French scientist Louis Pasteur."
+  },
+  {
+   "id": "food-1174",
+   "category": "Food",
+   "q": "What are the colorful French cookies made from almond flour and meringue called?",
+   "choices": [
+    "Éclairs",
+    "Macarons",
+    "Madeleines",
+    "Macaroons"
+   ],
+   "answer": 1,
+   "fact": "Macaroons, with two O's, are a different cookie usually made with coconut."
+  },
+  {
+   "id": "food-1175",
+   "category": "Food",
+   "q": "What does the name of the dessert crème brûlée mean?",
+   "choices": [
+    "Golden custard",
+    "French pudding",
+    "Sweet milk",
+    "Burnt cream"
+   ],
+   "answer": 3,
+   "fact": "The top is covered with sugar and burned with a small torch to make a crunchy crust."
+  },
+  {
+   "id": "food-1176",
+   "category": "Food",
+   "q": "What is mochi?",
+   "choices": [
+    "A Japanese rice cake made from pounded sticky rice",
+    "A fish cake",
+    "A noodle dish",
+    "A green tea drink"
+   ],
+   "answer": 0,
+   "fact": "Mochi is pounded with big wooden mallets in a ceremony called mochitsuki."
+  },
+  {
+   "id": "food-1177",
+   "category": "Food",
+   "q": "Which three flavors make up Neapolitan ice cream?",
+   "choices": [
+    "Vanilla, banana and caramel",
+    "Mint, chocolate and cherry",
+    "Chocolate, vanilla and strawberry",
+    "Coffee, chocolate and lemon"
+   ],
+   "answer": 2,
+   "fact": "It's named after Naples, Italy, the hometown of the immigrants who made layered ice cream popular in the US."
+  },
+  {
+   "id": "food-1178",
+   "category": "Food",
+   "q": "What three things make a classic s'more?",
+   "choices": [
+    "Ice cream, cookies and sprinkles",
+    "Marshmallow, chocolate and graham crackers",
+    "Peanut butter, jelly and bread",
+    "Caramel, apples and nuts"
+   ],
+   "answer": 1,
+   "fact": "The name s'more comes from \"some more\", because people always want another one."
+  },
+  {
+   "id": "food-1179",
+   "category": "Food",
+   "q": "Marshmallows were first made from the root of which plant?",
+   "choices": [
+    "Dandelion",
+    "Licorice",
+    "Ginger",
+    "Mallow"
+   ],
+   "answer": 3,
+   "fact": "Ancient Egyptians made a honey treat with mallow root sap."
+  },
+  {
+   "id": "food-1180",
+   "category": "Food",
+   "q": "Which company invented the first gummy bears, in Germany in 1922?",
+   "choices": [
+    "Nestlé",
+    "Haribo",
+    "Mars",
+    "Hershey"
+   ],
+   "answer": 1,
+   "fact": "Haribo's name comes from its founder, Hans Riegel, and the city of Bonn."
+  },
+  {
+   "id": "food-1181",
+   "category": "Food",
+   "q": "In which country were fortune cookies most likely invented?",
+   "choices": [
+    "United States",
+    "Japan",
+    "Korea",
+    "China"
+   ],
+   "answer": 0,
+   "fact": "Fortune cookies are rarely served in China, and they are probably based on a Japanese cracker."
+  },
+  {
+   "id": "food-1182",
+   "category": "Food",
+   "q": "In which US city were brownies said to be first made, in 1893?",
+   "choices": [
+    "New York City",
+    "Atlanta",
+    "Boston",
+    "Chicago"
+   ],
+   "answer": 3,
+   "fact": "The first brownies were made at the Palmer House Hotel for the World's Columbian Exposition."
+  },
+  {
+   "id": "food-1183",
+   "category": "Food",
+   "q": "Which kind of chocolate contains no cocoa solids at all?",
+   "choices": [
+    "Dark chocolate",
+    "Baking chocolate",
+    "Milk chocolate",
+    "White chocolate"
+   ],
+   "answer": 3,
+   "fact": "White chocolate is made from cocoa butter, sugar and milk."
+  },
+  {
+   "id": "food-1184",
+   "category": "Food",
+   "q": "In which country was milk chocolate invented, in 1875?",
+   "choices": [
+    "Switzerland",
+    "United States",
+    "Belgium",
+    "Mexico"
+   ],
+   "answer": 0,
+   "fact": "Daniel Peter worked with his neighbor, Henri Nestlé, to get the milk just right."
+  },
+  {
+   "id": "food-1185",
+   "category": "Food",
+   "q": "As of 2025, which country is usually ranked as eating the most chocolate per person?",
+   "choices": [
+    "United States",
+    "Japan",
+    "Switzerland",
+    "Brazil"
+   ],
+   "answer": 2,
+   "fact": "People in Switzerland eat around 10 kilograms of chocolate each per year."
+  },
+  {
+   "id": "food-1186",
+   "category": "Food",
+   "q": "What did the Aztecs sometimes use cacao beans as?",
+   "choices": [
+    "Money",
+    "Game pieces",
+    "Building blocks",
+    "Jewelry"
+   ],
+   "answer": 0,
+   "fact": "Aztec chocolate drinks were bitter and spicy, not sweet."
+  },
+  {
+   "id": "food-1187",
+   "category": "Food",
+   "q": "In which country was tea first drunk?",
+   "choices": [
+    "India",
+    "Japan",
+    "China",
+    "England"
+   ],
+   "answer": 2,
+   "fact": "A legend says a leaf fell into an emperor's hot water about 5,000 years ago."
+  },
+  {
+   "id": "food-1188",
+   "category": "Food",
+   "q": "According to legend, who discovered coffee after noticing his animals got very energetic?",
+   "choices": [
+    "A goat herder",
+    "A fisherman",
+    "A shepherd's dog",
+    "A camel driver"
+   ],
+   "answer": 0,
+   "fact": "The story of the goat herder Kaldi comes from Ethiopia."
+  },
+  {
+   "id": "food-1189",
+   "category": "Food",
+   "q": "As of 2025, which country is usually ranked as drinking the most coffee per person?",
+   "choices": [
+    "Italy",
+    "Brazil",
+    "Finland",
+    "United States"
+   ],
+   "answer": 2,
+   "fact": "Finns drink about 12 kilograms of coffee per person each year."
+  },
+  {
+   "id": "food-1190",
+   "category": "Food",
+   "q": "What is matcha?",
+   "choices": [
+    "Powdered green tea",
+    "Rice milk",
+    "Fruit juice",
+    "Black coffee"
+   ],
+   "answer": 0,
+   "fact": "In matcha, you drink the whole ground tea leaf instead of just water soaked with leaves."
+  },
+  {
+   "id": "food-1191",
+   "category": "Food",
+   "q": "Bubble tea, with chewy tapioca pearls, was invented in which place?",
+   "choices": [
+    "Thailand",
+    "Japan",
+    "Taiwan",
+    "South Korea"
+   ],
+   "answer": 2,
+   "fact": "Bubble tea became popular in Taiwan in the 1980s."
+  }
+ ]
+}

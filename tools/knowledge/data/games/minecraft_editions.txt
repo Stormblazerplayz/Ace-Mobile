@@ -1,0 +1,59 @@
+# Minecraft editions, Bedrock vs Java differences, history and spin-offs, hand-written.
+
+# tag: minecraft.editions
+what devices can play java edition | is java edition on console | where can you play java => Java Edition runs on Windows, Mac and Linux computers only.
+what devices can play bedrock edition | is minecraft on ipad | where can you play bedrock => Bedrock Edition runs on Windows, iPhone, iPad, Android, Xbox, PlayStation and Nintendo Switch.
+can java and bedrock players play together | crossplay java and bedrock | can i join a bedrock friend from java => Not officially. Bedrock players can play with each other on any device, and Java players with Java players. Some servers use a plugin called Geyser to let both join.
+do you get bedrock when you buy java | java and bedrock bundle | minecraft for pc includes => Yes. Since 2022, buying Minecraft for PC gives you both Java Edition and Bedrock Edition for Windows.
+what is the minecraft marketplace | bedrock marketplace | what are minecoins => The Marketplace is a Bedrock store for skins, maps, texture packs and add-ons made by creators, paid for with Minecoins.
+what are add-ons in bedrock | bedrock mods | can you mod bedrock => Bedrock doesn't support full mods like Java does, but it has add-ons that change mobs, items and textures, many from the Marketplace.
+is combat different in bedrock | bedrock pvp vs java pvp | attack cooldown bedrock => Yes. Java has an attack cooldown since 1.9, so you time your hits. Bedrock has no cooldown, so you can click as fast as you want.
+does bedrock have sweeping edge | sweeping edge bedrock | bedrock sword enchantments => No, Sweeping Edge is only in Java Edition because Bedrock doesn't have the sweep attack.
+is the wither stronger in bedrock | wither health bedrock vs java | bedrock wither => Yes. The Wither has 600 health in Bedrock and 300 in Java, and the Bedrock one has extra attacks.
+does impaling work differently in bedrock | impaling bedrock vs java | trident damage bedrock => In Bedrock, Impaling does extra damage to any mob in water or rain. In Java it only does extra damage to water mobs.
+what can you hold in your offhand in bedrock | offhand bedrock | dual wield bedrock => Java lets you hold any item in your off hand. Bedrock only allows some items there, like shields, totems, arrows, maps, firework rockets and nautilus shells.
+does bedrock have redstone quasi connectivity | redstone differences bedrock java | is redstone the same on bedrock => No. Bedrock redstone doesn't have quasi connectivity, and pistons and timings work a little differently, so some Java builds don't work on Bedrock.
+are seeds the same on java and bedrock | same seed java bedrock | do seeds work on both editions => Since 1.18 the same seed makes mostly the same terrain and biomes on both, but structures like villages can be in different places.
+which edition runs better | is bedrock faster than java | java or bedrock fps => Bedrock usually runs smoother on weaker devices because it's written in C++. Java Edition is written in Java but can run fast with mods like Sodium.
+what programming language is minecraft written in | what language is java edition coded in | bedrock code language => Java Edition is written in Java, and Bedrock Edition is written in C++.
+what is minecraft education | minecraft education edition | is minecraft education free => Minecraft Education is a version for schools with lessons, chemistry features and coding tools. Schools get it with a license, often through Microsoft 365.
+what is pocket edition | is pocket edition the same as bedrock | minecraft pe => Pocket Edition was the old name for Minecraft on phones and tablets. It became part of Bedrock Edition in 2017.
+what is minecraft legacy console edition | xbox 360 minecraft | old console minecraft => Legacy Console Edition was the version on Xbox 360, PS3, Wii U and older consoles. It stopped getting updates and was replaced by Bedrock.
+
+# tag: minecraft.history
+who created minecraft | who is notch => Markus Persson, known as Notch, created Minecraft. He released the first version in May 2009.
+when did minecraft come out | when was minecraft released | how old is minecraft => The first version came out in May 2009, and the full 1.0 release was on November 18, 2011.
+who owns minecraft | did microsoft buy minecraft | how much did microsoft pay for minecraft => Microsoft owns Minecraft. It bought Mojang, the company that makes it, in 2014 for 2.5 billion dollars.
+what is mojang | who makes minecraft now | mojang studios => Mojang Studios is the Swedish game company that makes Minecraft. It's owned by Microsoft.
+who is jeb | who is the lead developer of minecraft | jens bergensten => Jens Bergensten, known as Jeb, became Minecraft's lead developer in late 2011, taking over from Notch.
+how many copies has minecraft sold | is minecraft the best selling game | minecraft sales => Minecraft is the best-selling video game ever, with more than 300 million copies sold as of 2023.
+what was the first minecraft update | what was minecraft classic | minecraft alpha and beta => Minecraft started as Classic in 2009, then went through Indev, Infdev, Alpha and Beta before the full 1.0 release in 2011.
+what was the nether update | when did the nether update come out | minecraft 1.16 => The Nether Update was version 1.16 in June 2020. It added netherite, piglins, hoglins, bastions and new Nether biomes.
+what was the caves and cliffs update | when did caves and cliffs come out | minecraft 1.17 and 1.18 => Caves and Cliffs came in two parts: 1.17 in June 2021 added copper, goats and axolotls, and 1.18 in November 2021 added huge caves, taller mountains and the deeper world.
+what was the wild update | minecraft 1.19 | when did the warden come out => The Wild Update was version 1.19 in June 2022. It added the Warden, the Deep Dark, ancient cities, frogs, mangrove swamps and the allay.
+what was trails and tales | minecraft 1.20 | when did cherry blossoms come out => Trails and Tales was version 1.20 in June 2023. It added cherry groves, camels, sniffers, archaeology, armor trims and bamboo wood.
+what was tricky trials | minecraft 1.21 | when did the mace come out => Tricky Trials was version 1.21 in June 2024. It added trial chambers, the breeze, the mace, the crafter, the bogged and copper bulbs.
+what was the update aquatic | minecraft 1.13 | when were dolphins added => Update Aquatic was version 1.13 in 2018. It added dolphins, turtles, tridents, drowned, coral reefs, shipwrecks and phantoms.
+what was village and pillage | minecraft 1.14 | when were pillagers added => Village and Pillage was version 1.14 in April 2019. It added pillagers, raids, new villages, villager jobs, pandas and foxes.
+what was buzzy bees | minecraft 1.15 | when were bees added => Buzzy Bees was version 1.15 in December 2019. It added bees, beehives, honey and honeycomb.
+what are minecraft game drops | why are there smaller updates now | what is a drop in minecraft => Since late 2024, Mojang releases smaller updates called game drops a few times a year instead of one giant update.
+what was the garden awakens drop | minecraft 1.21.4 | when was the creaking added => The Garden Awakens was version 1.21.4 in December 2024. It added the pale garden, pale oak, the creaking and resin.
+what was the spring to life drop | minecraft 1.21.5 | when were firefly bushes added => Spring to Life was version 1.21.5 in March 2025. It added new pig, cow and chicken variants, firefly bushes, leaf litter and wildflowers.
+what was chase the skies | minecraft 1.21.6 | when was the happy ghast added => Chase the Skies was version 1.21.6 in June 2025. It added the happy ghast, dried ghast blocks, harnesses and new leads.
+what was the copper age drop | minecraft 1.21.9 | when was the copper golem added => The Copper Age was version 1.21.9 in September 2025. It added the copper golem, copper tools and armor, copper chests and shelves.
+what was bundles of bravery | minecraft 1.21.2 | when were bundles added => Bundles of Bravery was version 1.21.2 in October 2024. It made bundles craftable in normal survival.
+what is the mob vote | what mobs won the mob vote | does minecraft still have a mob vote => The mob vote let players pick a new mob each year. Winners included the glow squid in 2020, the allay in 2021, the sniffer in 2022 and the armadillo in 2023. Mojang stopped the vote after 2023.
+what is minecraft live | what was minecon | minecraft live event => Minecraft Live is Mojang's yearly show where they reveal upcoming updates. It used to be called MineCon.
+is herobrine real | who is herobrine | is herobrine in minecraft => No, Herobrine is a creepypasta myth about a ghost Steve with white eyes. He was never in the game, and patch notes joke that he was removed.
+why do creepers look like that | how was the creeper made | was the creeper a pig => The creeper came from a mistake: Notch tried to make a pig but swapped the height and length numbers, making a tall, thin mob.
+who are steve and alex | default minecraft skins | minecraft default characters => Steve and Alex are Minecraft's classic default skins. Since Java 1.19.3 there are 7 more default skins: Sunny, Kai, Zuri, Efe, Makena, Noor and Ari.
+who made the minecraft music | minecraft soundtrack composer | who is c418 => C418, whose real name is Daniel Rosenfeld, made Minecraft's original music, like Sweden and Wet Hands. Lena Raine and others composed newer songs like Pigstep.
+what is a minecraft movie | when did the minecraft movie come out | who is in the minecraft movie => A Minecraft Movie came out in April 2025. Jack Black played Steve and Jason Momoa played Garrett.
+is minecraft dungeons fun | minecraft dungeons game => Minecraft Dungeons is a 2020 dungeon crawler game where you fight through levels with up to 4 players to stop the Arch-Illager.
+what is minecraft legends | minecraft legends game | is minecraft legends still updated => Minecraft Legends is a 2023 action strategy game where you lead mobs against the piglins. Mojang stopped making new content for it in 2024.
+what is minecraft story mode | who made minecraft story mode | minecraft story mode game => Minecraft: Story Mode is an episode-based story game made by Telltale Games, first released in 2015.
+what was minecraft earth | is minecraft earth still playable | minecraft earth ar => Minecraft Earth was an augmented reality phone game from 2019. It shut down in June 2021.
+what is the far lands | far lands minecraft | do the far lands still exist => The Far Lands were glitchy, broken terrain about 12.5 million blocks out in old versions. They were removed in Beta 1.8.
+what was the first mob in minecraft | first minecraft mobs | oldest mob in minecraft => The first mobs came in 2009 with the Survival Test of Minecraft Classic: zombies, skeletons, creepers, spiders, pigs and sheep.
+what was the first block in minecraft | first blocks ever | oldest block in minecraft => The very first blocks in the first version were grass blocks and cobblestone.
+what does the end poem say | what is the end poem | who wrote the end poem => The End Poem is the text that scrolls after you beat the Ender Dragon. Julian Gough wrote it, and it talks about the player and the meaning of the game.

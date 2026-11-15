@@ -1,5 +1,5 @@
 # tag: tech.troubleshoot.slow
-why is my pc so slow | my computer is really slow | how do i make my pc faster => Restart it first. Then turn off startup apps, check Task Manager for anything using lots of CPU, memory or disk, free up drive space, update Windows and drivers, and run a virus scan.
+why is my pc so slow | how do i make my pc faster => Restart it first. Then turn off startup apps, check Task Manager for anything using lots of CPU, memory or disk, free up drive space, update Windows and drivers, and run a virus scan.
 why is my pc slow after startup | slow for the first few minutes => Startup apps, Windows Update and Defender scans all run right after you sign in. Turn off startup apps you don't need and give it a minute.
 why is my disk at 100 percent | disk usage 100 task manager => Something is reading or writing a lot, often Windows Update, Defender, OneDrive or a game launcher. Sort Task Manager by Disk to find it. On an old hard drive, upgrading to an SSD fixes this most.
 why is my ram always full | high memory usage windows => Windows uses spare RAM to cache things, which is normal. If it's over 90 percent and slow, close browser tabs and apps you don't need. 16 GB is the minimum for gaming as of 2025, and 32 GB is comfy.

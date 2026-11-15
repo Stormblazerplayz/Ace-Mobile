@@ -1,0 +1,1818 @@
+{
+ "entries": [
+  {
+   "en": "classroom",
+   "also": [],
+   "t": {
+    "es": "aula",
+    "fr": "salle de classe",
+    "de": "Klassenzimmer",
+    "it": "aula",
+    "pt": "sala de aula",
+    "ja": "教室",
+    "zh": "教室",
+    "ko": "교실",
+    "hi": "कक्षा",
+    "ar": "فصل دراسي",
+    "ru": "класс",
+    "nl": "klaslokaal"
+   },
+   "say": {
+    "ja": "kyoushitsu",
+    "zh": "jiàoshì",
+    "ko": "gyosil",
+    "hi": "kaksha",
+    "ar": "fasl diraasi",
+    "ru": "klass"
+   }
+  },
+  {
+   "en": "class",
+   "also": [
+    "lesson"
+   ],
+   "t": {
+    "es": "clase",
+    "fr": "cours",
+    "de": "Unterricht",
+    "it": "lezione",
+    "pt": "aula",
+    "ja": "授業",
+    "zh": "课",
+    "ko": "수업",
+    "hi": "क्लास",
+    "ar": "درس",
+    "ru": "урок",
+    "nl": "les"
+   },
+   "say": {
+    "ja": "jugyou",
+    "zh": "kè",
+    "ko": "sueop",
+    "hi": "klaas",
+    "ar": "dars",
+    "ru": "urok"
+   }
+  },
+  {
+   "en": "desk",
+   "also": [],
+   "t": {
+    "es": "escritorio",
+    "fr": "bureau",
+    "de": "Schreibtisch",
+    "it": "scrivania",
+    "pt": "escrivaninha",
+    "ja": "机",
+    "zh": "书桌",
+    "ko": "책상",
+    "hi": "डेस्क",
+    "ar": "مكتب",
+    "ru": "письменный стол",
+    "nl": "bureau"
+   },
+   "say": {
+    "ja": "tsukue",
+    "zh": "shūzhuō",
+    "ko": "chaeksang",
+    "hi": "desk",
+    "ar": "maktab",
+    "ru": "pismenny stol"
+   }
+  },
+  {
+   "en": "chair",
+   "also": [],
+   "t": {
+    "es": "silla",
+    "fr": "chaise",
+    "de": "Stuhl",
+    "it": "sedia",
+    "pt": "cadeira",
+    "ja": "椅子",
+    "zh": "椅子",
+    "ko": "의자",
+    "hi": "कुर्सी",
+    "ar": "كرسي",
+    "ru": "стул",
+    "nl": "stoel"
+   },
+   "say": {
+    "ja": "isu",
+    "zh": "yǐzi",
+    "ko": "uija",
+    "hi": "kursi",
+    "ar": "kursi",
+    "ru": "stul"
+   }
+  },
+  {
+   "en": "table",
+   "also": [],
+   "t": {
+    "es": "mesa",
+    "fr": "table",
+    "de": "Tisch",
+    "it": "tavolo",
+    "pt": "mesa",
+    "ja": "テーブル",
+    "zh": "桌子",
+    "ko": "탁자",
+    "hi": "मेज़",
+    "ar": "طاولة",
+    "ru": "стол",
+    "nl": "tafel"
+   },
+   "say": {
+    "ja": "teeburu",
+    "zh": "zhuōzi",
+    "ko": "takja",
+    "hi": "mez",
+    "ar": "taawila",
+    "ru": "stol"
+   }
+  },
+  {
+   "en": "notebook",
+   "also": [],
+   "t": {
+    "es": "cuaderno",
+    "fr": "cahier",
+    "de": "Heft",
+    "it": "quaderno",
+    "pt": "caderno",
+    "ja": "ノート",
+    "zh": "笔记本",
+    "ko": "공책",
+    "hi": "कॉपी",
+    "ar": "دفتر",
+    "ru": "тетрадь",
+    "nl": "schrift"
+   },
+   "say": {
+    "ja": "nooto",
+    "zh": "bǐjìběn",
+    "ko": "gongchaek",
+    "hi": "kopi",
+    "ar": "daftar",
+    "ru": "tetrad"
+   }
+  },
+  {
+   "en": "eraser",
+   "also": [
+    "rubber"
+   ],
+   "t": {
+    "es": "goma de borrar",
+    "fr": "gomme",
+    "de": "Radiergummi",
+    "it": "gomma",
+    "pt": "borracha",
+    "ja": "消しゴム",
+    "zh": "橡皮",
+    "ko": "지우개",
+    "hi": "रबर",
+    "ar": "ممحاة",
+    "ru": "ластик",
+    "nl": "gum"
+   },
+   "say": {
+    "ja": "keshigomu",
+    "zh": "xiàngpí",
+    "ko": "jiugae",
+    "hi": "rabar",
+    "ar": "mimhaat",
+    "ru": "lastik"
+   }
+  },
+  {
+   "en": "ruler",
+   "also": [],
+   "t": {
+    "es": "regla",
+    "fr": "règle",
+    "de": "Lineal",
+    "it": "righello",
+    "pt": "régua",
+    "ja": "定規",
+    "zh": "尺子",
+    "ko": "자",
+    "hi": "स्केल",
+    "ar": "مسطرة",
+    "ru": "линейка",
+    "nl": "liniaal"
+   },
+   "say": {
+    "ja": "jougi",
+    "zh": "chǐzi",
+    "ko": "ja",
+    "hi": "skel",
+    "ar": "mistara",
+    "ru": "lineyka"
+   }
+  },
+  {
+   "en": "scissors",
+   "also": [],
+   "t": {
+    "es": "tijeras",
+    "fr": "ciseaux",
+    "de": "Schere",
+    "it": "forbici",
+    "pt": "tesoura",
+    "ja": "はさみ",
+    "zh": "剪刀",
+    "ko": "가위",
+    "hi": "कैंची",
+    "ar": "مقص",
+    "ru": "ножницы",
+    "nl": "schaar"
+   },
+   "say": {
+    "ja": "hasami",
+    "zh": "jiǎndāo",
+    "ko": "gawi",
+    "hi": "kainchi",
+    "ar": "miqass",
+    "ru": "nozhnitsy"
+   }
+  },
+  {
+   "en": "glue",
+   "also": [],
+   "t": {
+    "es": "pegamento",
+    "fr": "colle",
+    "de": "Kleber",
+    "it": "colla",
+    "pt": "cola",
+    "ja": "のり",
+    "zh": "胶水",
+    "ko": "풀",
+    "hi": "गोंद",
+    "ar": "صمغ",
+    "ru": "клей",
+    "nl": "lijm"
+   },
+   "say": {
+    "ja": "nori",
+    "zh": "jiāoshuǐ",
+    "ko": "pul",
+    "hi": "gond",
+    "ar": "samgh",
+    "ru": "kley"
+   }
+  },
+  {
+   "en": "paper",
+   "also": [],
+   "t": {
+    "es": "papel",
+    "fr": "papier",
+    "de": "Papier",
+    "it": "carta",
+    "pt": "papel",
+    "ja": "紙",
+    "zh": "纸",
+    "ko": "종이",
+    "hi": "कागज़",
+    "ar": "ورق",
+    "ru": "бумага",
+    "nl": "papier"
+   },
+   "say": {
+    "ja": "kami",
+    "zh": "zhǐ",
+    "ko": "jongi",
+    "hi": "kaagaz",
+    "ar": "waraq",
+    "ru": "bumaga"
+   }
+  },
+  {
+   "en": "calculator",
+   "also": [],
+   "t": {
+    "es": "calculadora",
+    "fr": "calculatrice",
+    "de": "Taschenrechner",
+    "it": "calcolatrice",
+    "pt": "calculadora",
+    "ja": "電卓",
+    "zh": "计算器",
+    "ko": "계산기",
+    "hi": "कैलकुलेटर",
+    "ar": "آلة حاسبة",
+    "ru": "калькулятор",
+    "nl": "rekenmachine"
+   },
+   "say": {
+    "ja": "dentaku",
+    "zh": "jìsuànqì",
+    "ko": "gyesangi",
+    "hi": "kailkuletar",
+    "ar": "aala haasiba",
+    "ru": "kalkulyator"
+   }
+  },
+  {
+   "en": "dictionary",
+   "also": [],
+   "t": {
+    "es": "diccionario",
+    "fr": "dictionnaire",
+    "de": "Wörterbuch",
+    "it": "dizionario",
+    "pt": "dicionário",
+    "ja": "辞書",
+    "zh": "词典",
+    "ko": "사전",
+    "hi": "शब्दकोश",
+    "ar": "قاموس",
+    "ru": "словарь",
+    "nl": "woordenboek"
+   },
+   "say": {
+    "ja": "jisho",
+    "zh": "cídiǎn",
+    "ko": "sajeon",
+    "hi": "shabdkosh",
+    "ar": "qaamoos",
+    "ru": "slovar"
+   }
+  },
+  {
+   "en": "library",
+   "also": [],
+   "t": {
+    "es": "biblioteca",
+    "fr": "bibliothèque",
+    "de": "Bibliothek",
+    "it": "biblioteca",
+    "pt": "biblioteca",
+    "ja": "図書館",
+    "zh": "图书馆",
+    "ko": "도서관",
+    "hi": "पुस्तकालय",
+    "ar": "مكتبة",
+    "ru": "библиотека",
+    "nl": "bibliotheek"
+   },
+   "say": {
+    "ja": "toshokan",
+    "zh": "túshūguǎn",
+    "ko": "doseogwan",
+    "hi": "pustakaalay",
+    "ar": "maktaba",
+    "ru": "biblioteka"
+   }
+  },
+  {
+   "en": "science",
+   "also": [],
+   "t": {
+    "es": "ciencias",
+    "fr": "sciences",
+    "de": "Naturwissenschaften",
+    "it": "scienze",
+    "pt": "ciências",
+    "ja": "理科",
+    "zh": "科学",
+    "ko": "과학",
+    "hi": "विज्ञान",
+    "ar": "علوم",
+    "ru": "наука",
+    "nl": "wetenschap"
+   },
+   "say": {
+    "ja": "rika",
+    "zh": "kēxué",
+    "ko": "gwahak",
+    "hi": "vigyaan",
+    "ar": "'uloom",
+    "ru": "nauka"
+   }
+  },
+  {
+   "en": "history",
+   "also": [],
+   "t": {
+    "es": "historia",
+    "fr": "histoire",
+    "de": "Geschichte",
+    "it": "storia",
+    "pt": "história",
+    "ja": "歴史",
+    "zh": "历史",
+    "ko": "역사",
+    "hi": "इतिहास",
+    "ar": "تاريخ",
+    "ru": "история",
+    "nl": "geschiedenis"
+   },
+   "say": {
+    "ja": "rekishi",
+    "zh": "lìshǐ",
+    "ko": "yeoksa",
+    "hi": "itihaas",
+    "ar": "taareekh",
+    "ru": "istoriya"
+   }
+  },
+  {
+   "en": "geography",
+   "also": [],
+   "t": {
+    "es": "geografía",
+    "fr": "géographie",
+    "de": "Erdkunde",
+    "it": "geografia",
+    "pt": "geografia",
+    "ja": "地理",
+    "zh": "地理",
+    "ko": "지리",
+    "hi": "भूगोल",
+    "ar": "جغرافيا",
+    "ru": "география",
+    "nl": "aardrijkskunde"
+   },
+   "say": {
+    "ja": "chiri",
+    "zh": "dìlǐ",
+    "ko": "jiri",
+    "hi": "bhoogol",
+    "ar": "jughraafya",
+    "ru": "geografiya"
+   }
+  },
+  {
+   "en": "reading",
+   "also": [],
+   "t": {
+    "es": "lectura",
+    "fr": "lecture",
+    "de": "Lesen",
+    "it": "lettura",
+    "pt": "leitura",
+    "ja": "読書",
+    "zh": "阅读",
+    "ko": "독서",
+    "hi": "पढ़ना",
+    "ar": "قراءة",
+    "ru": "чтение",
+    "nl": "lezen"
+   },
+   "say": {
+    "ja": "dokusho",
+    "zh": "yuèdú",
+    "ko": "dokseo",
+    "hi": "padhna",
+    "ar": "qiraa'a",
+    "ru": "chteniye"
+   }
+  },
+  {
+   "en": "physical education",
+   "also": [
+    "pe",
+    "gym class"
+   ],
+   "t": {
+    "es": "educación física",
+    "fr": "éducation physique",
+    "de": "Sport",
+    "it": "educazione fisica",
+    "pt": "educação física",
+    "ja": "体育",
+    "zh": "体育",
+    "ko": "체육",
+    "hi": "शारीरिक शिक्षा",
+    "ar": "تربية بدنية",
+    "ru": "физкультура",
+    "nl": "gym"
+   },
+   "say": {
+    "ja": "taiiku",
+    "zh": "tǐyù",
+    "ko": "cheyuk",
+    "hi": "shaareerik shiksha",
+    "ar": "tarbiya badaniyya",
+    "ru": "fizkultura"
+   }
+  },
+  {
+   "en": "recess",
+   "also": [
+    "break time"
+   ],
+   "t": {
+    "es": "recreo",
+    "fr": "récréation",
+    "de": "Pause",
+    "it": "ricreazione",
+    "pt": "recreio",
+    "ja": "休み時間",
+    "zh": "课间休息",
+    "ko": "쉬는 시간",
+    "hi": "आधी छुट्टी",
+    "ar": "استراحة",
+    "ru": "перемена",
+    "nl": "pauze"
+   },
+   "say": {
+    "ja": "yasumi jikan",
+    "zh": "kèjiān xiūxi",
+    "ko": "swineun sigan",
+    "hi": "aadhi chhutti",
+    "ar": "istiraaha",
+    "ru": "peremena"
+   }
+  },
+  {
+   "en": "principal",
+   "also": [
+    "headteacher"
+   ],
+   "t": {
+    "es": "director/a",
+    "fr": "directeur / directrice",
+    "de": "Schulleiter/in",
+    "it": "preside",
+    "pt": "diretor/a",
+    "ja": "校長先生",
+    "zh": "校长",
+    "ko": "교장 선생님",
+    "hi": "प्रधानाचार्य",
+    "ar": "مدير المدرسة",
+    "ru": "директор",
+    "nl": "directeur"
+   },
+   "say": {
+    "ja": "kouchou sensei",
+    "zh": "xiàozhǎng",
+    "ko": "gyojang seonsaengnim",
+    "hi": "pradhaanaachaarya",
+    "ar": "mudeer al-madrasa",
+    "ru": "direktor"
+   }
+  },
+  {
+   "en": "classmate",
+   "also": [],
+   "t": {
+    "es": "compañero/a de clase",
+    "fr": "camarade de classe",
+    "de": "Mitschüler/in",
+    "it": "compagno/a di classe",
+    "pt": "colega de classe",
+    "ja": "クラスメート",
+    "zh": "同学",
+    "ko": "반 친구",
+    "hi": "सहपाठी",
+    "ar": "زميل في الصف",
+    "ru": "одноклассник",
+    "nl": "klasgenoot"
+   },
+   "say": {
+    "ja": "kurasumeeto",
+    "zh": "tóngxué",
+    "ko": "ban chingu",
+    "hi": "sahpaathi",
+    "ar": "zameel fi as-saff",
+    "ru": "odnoklassnik"
+   }
+  },
+  {
+   "en": "question",
+   "also": [],
+   "t": {
+    "es": "pregunta",
+    "fr": "question",
+    "de": "Frage",
+    "it": "domanda",
+    "pt": "pergunta",
+    "ja": "質問",
+    "zh": "问题",
+    "ko": "질문",
+    "hi": "सवाल",
+    "ar": "سؤال",
+    "ru": "вопрос",
+    "nl": "vraag"
+   },
+   "say": {
+    "ja": "shitsumon",
+    "zh": "wèntí",
+    "ko": "jilmun",
+    "hi": "savaal",
+    "ar": "su'aal",
+    "ru": "vopros"
+   }
+  },
+  {
+   "en": "answer",
+   "also": [],
+   "t": {
+    "es": "respuesta",
+    "fr": "réponse",
+    "de": "Antwort",
+    "it": "risposta",
+    "pt": "resposta",
+    "ja": "答え",
+    "zh": "答案",
+    "ko": "대답",
+    "hi": "जवाब",
+    "ar": "جواب",
+    "ru": "ответ",
+    "nl": "antwoord"
+   },
+   "say": {
+    "ja": "kotae",
+    "zh": "dá'àn",
+    "ko": "daedap",
+    "hi": "javaab",
+    "ar": "jawaab",
+    "ru": "otvet"
+   }
+  },
+  {
+   "en": "grade",
+   "also": [
+    "mark"
+   ],
+   "t": {
+    "es": "nota",
+    "fr": "note",
+    "de": "Note",
+    "it": "voto",
+    "pt": "nota",
+    "ja": "成績",
+    "zh": "成绩",
+    "ko": "성적",
+    "hi": "अंक",
+    "ar": "درجة",
+    "ru": "оценка",
+    "nl": "cijfer"
+   },
+   "say": {
+    "ja": "seiseki",
+    "zh": "chéngjì",
+    "ko": "seongjeok",
+    "hi": "ank",
+    "ar": "daraja",
+    "ru": "otsenka"
+   }
+  },
+  {
+   "en": "subject",
+   "also": [
+    "school subject"
+   ],
+   "t": {
+    "es": "asignatura",
+    "fr": "matière",
+    "de": "Fach",
+    "it": "materia",
+    "pt": "matéria",
+    "ja": "教科",
+    "zh": "科目",
+    "ko": "과목",
+    "hi": "विषय",
+    "ar": "مادة",
+    "ru": "предмет",
+    "nl": "vak"
+   },
+   "say": {
+    "ja": "kyouka",
+    "zh": "kēmù",
+    "ko": "gwamok",
+    "hi": "vishay",
+    "ar": "maadda",
+    "ru": "predmet"
+   }
+  },
+  {
+   "en": "page",
+   "also": [],
+   "t": {
+    "es": "página",
+    "fr": "page",
+    "de": "Seite",
+    "it": "pagina",
+    "pt": "página",
+    "ja": "ページ",
+    "zh": "页",
+    "ko": "페이지",
+    "hi": "पेज",
+    "ar": "صفحة",
+    "ru": "страница",
+    "nl": "bladzijde"
+   },
+   "say": {
+    "ja": "peeji",
+    "zh": "yè",
+    "ko": "peiji",
+    "hi": "pej",
+    "ar": "safha",
+    "ru": "stranitsa"
+   }
+  },
+  {
+   "en": "word",
+   "also": [],
+   "t": {
+    "es": "palabra",
+    "fr": "mot",
+    "de": "Wort",
+    "it": "parola",
+    "pt": "palavra",
+    "ja": "言葉",
+    "zh": "词",
+    "ko": "단어",
+    "hi": "शब्द",
+    "ar": "كلمة",
+    "ru": "слово",
+    "nl": "woord"
+   },
+   "say": {
+    "ja": "kotoba",
+    "zh": "cí",
+    "ko": "daneo",
+    "hi": "shabd",
+    "ar": "kalima",
+    "ru": "slovo"
+   }
+  },
+  {
+   "en": "sentence",
+   "also": [],
+   "t": {
+    "es": "oración",
+    "fr": "phrase",
+    "de": "Satz",
+    "it": "frase",
+    "pt": "frase",
+    "ja": "文",
+    "zh": "句子",
+    "ko": "문장",
+    "hi": "वाक्य",
+    "ar": "جملة",
+    "ru": "предложение",
+    "nl": "zin"
+   },
+   "say": {
+    "ja": "bun",
+    "zh": "jùzi",
+    "ko": "munjang",
+    "hi": "vaakya",
+    "ar": "jumla",
+    "ru": "predlozheniye"
+   }
+  },
+  {
+   "en": "language",
+   "also": [],
+   "t": {
+    "es": "idioma",
+    "fr": "langue",
+    "de": "Sprache",
+    "it": "lingua",
+    "pt": "idioma",
+    "ja": "言語",
+    "zh": "语言",
+    "ko": "언어",
+    "hi": "भाषा",
+    "ar": "لغة",
+    "ru": "язык",
+    "nl": "taal"
+   },
+   "say": {
+    "ja": "gengo",
+    "zh": "yǔyán",
+    "ko": "eoneo",
+    "hi": "bhaasha",
+    "ar": "lugha",
+    "ru": "yazyk"
+   }
+  },
+  {
+   "en": "alphabet",
+   "also": [],
+   "t": {
+    "es": "alfabeto",
+    "fr": "alphabet",
+    "de": "Alphabet",
+    "it": "alfabeto",
+    "pt": "alfabeto",
+    "ja": "アルファベット",
+    "zh": "字母",
+    "ko": "알파벳",
+    "hi": "वर्णमाला",
+    "ar": "الأبجدية",
+    "ru": "алфавит",
+    "nl": "alfabet"
+   },
+   "say": {
+    "ja": "arufabetto",
+    "zh": "zìmǔ",
+    "ko": "alpabet",
+    "hi": "varnamaala",
+    "ar": "al-abjadiyya",
+    "ru": "alfavit"
+   }
+  },
+  {
+   "en": "board",
+   "also": [
+    "whiteboard",
+    "blackboard"
+   ],
+   "t": {
+    "es": "pizarra",
+    "fr": "tableau",
+    "de": "Tafel",
+    "it": "lavagna",
+    "pt": "quadro",
+    "ja": "黒板",
+    "zh": "黑板",
+    "ko": "칠판",
+    "hi": "बोर्ड",
+    "ar": "سبورة",
+    "ru": "доска",
+    "nl": "bord"
+   },
+   "say": {
+    "ja": "kokuban",
+    "zh": "hēibǎn",
+    "ko": "chilpan",
+    "hi": "bord",
+    "ar": "sabboora",
+    "ru": "doska"
+   }
+  },
+  {
+   "en": "pencil case",
+   "also": [],
+   "t": {
+    "es": "estuche",
+    "fr": "trousse",
+    "de": "Federmäppchen",
+    "it": "astuccio",
+    "pt": "estojo",
+    "ja": "筆箱",
+    "zh": "笔袋",
+    "ko": "필통",
+    "hi": "पेंसिल बॉक्स",
+    "ar": "مقلمة",
+    "ru": "пенал",
+    "nl": "etui"
+   },
+   "say": {
+    "ja": "fudebako",
+    "zh": "bǐdài",
+    "ko": "piltong",
+    "hi": "pensil boks",
+    "ar": "miqlama",
+    "ru": "penal"
+   }
+  },
+  {
+   "en": "marker",
+   "also": [
+    "felt tip"
+   ],
+   "t": {
+    "es": "rotulador",
+    "fr": "feutre",
+    "de": "Filzstift",
+    "it": "pennarello",
+    "pt": "caneta hidrográfica",
+    "ja": "マーカー",
+    "zh": "记号笔",
+    "ko": "마커",
+    "hi": "मार्कर",
+    "ar": "قلم تحديد",
+    "ru": "маркер",
+    "nl": "viltstift"
+   },
+   "say": {
+    "ja": "maakaa",
+    "zh": "jìhàobǐ",
+    "ko": "makeo",
+    "hi": "maarkar",
+    "ar": "qalam tahdeed",
+    "ru": "marker"
+   }
+  },
+  {
+   "en": "map",
+   "also": [],
+   "t": {
+    "es": "mapa",
+    "fr": "carte",
+    "de": "Karte",
+    "it": "cartina",
+    "pt": "mapa",
+    "ja": "地図",
+    "zh": "地图",
+    "ko": "지도",
+    "hi": "नक्शा",
+    "ar": "خريطة",
+    "ru": "карта",
+    "nl": "kaart"
+   },
+   "say": {
+    "ja": "chizu",
+    "zh": "dìtú",
+    "ko": "jido",
+    "hi": "naksha",
+    "ar": "khareeta",
+    "ru": "karta"
+   }
+  },
+  {
+   "en": "school bus",
+   "also": [],
+   "t": {
+    "es": "autobús escolar",
+    "fr": "bus scolaire",
+    "de": "Schulbus",
+    "it": "scuolabus",
+    "pt": "ônibus escolar",
+    "ja": "スクールバス",
+    "zh": "校车",
+    "ko": "스쿨버스",
+    "hi": "स्कूल बस",
+    "ar": "حافلة مدرسية",
+    "ru": "школьный автобус",
+    "nl": "schoolbus"
+   },
+   "say": {
+    "ja": "sukuuru basu",
+    "zh": "xiàochē",
+    "ko": "seukulbeoseu",
+    "hi": "skool bas",
+    "ar": "haafila madrasiyya",
+    "ru": "shkolny avtobus"
+   }
+  },
+  {
+   "en": "uniform",
+   "also": [
+    "school uniform"
+   ],
+   "t": {
+    "es": "uniforme",
+    "fr": "uniforme",
+    "de": "Uniform",
+    "it": "divisa",
+    "pt": "uniforme",
+    "ja": "制服",
+    "zh": "校服",
+    "ko": "교복",
+    "hi": "वर्दी",
+    "ar": "زي مدرسي",
+    "ru": "форма",
+    "nl": "uniform"
+   },
+   "say": {
+    "ja": "seifuku",
+    "zh": "xiàofú",
+    "ko": "gyobok",
+    "hi": "vardi",
+    "ar": "ziyy madrasi",
+    "ru": "forma"
+   }
+  },
+  {
+   "en": "summer vacation",
+   "also": [
+    "summer holidays"
+   ],
+   "t": {
+    "es": "vacaciones de verano",
+    "fr": "vacances d'été",
+    "de": "Sommerferien",
+    "it": "vacanze estive",
+    "pt": "férias de verão",
+    "ja": "夏休み",
+    "zh": "暑假",
+    "ko": "여름 방학",
+    "hi": "गर्मी की छुट्टियाँ",
+    "ar": "العطلة الصيفية",
+    "ru": "летние каникулы",
+    "nl": "zomervakantie"
+   },
+   "say": {
+    "ja": "natsuyasumi",
+    "zh": "shǔjià",
+    "ko": "yeoreum banghak",
+    "hi": "garmi ki chhuttiyaan",
+    "ar": "al-'utla as-sayfiyya",
+    "ru": "letniye kanikuly"
+   }
+  },
+  {
+   "en": "university",
+   "also": [
+    "college"
+   ],
+   "t": {
+    "es": "universidad",
+    "fr": "université",
+    "de": "Universität",
+    "it": "università",
+    "pt": "universidade",
+    "ja": "大学",
+    "zh": "大学",
+    "ko": "대학교",
+    "hi": "विश्वविद्यालय",
+    "ar": "جامعة",
+    "ru": "университет",
+    "nl": "universiteit"
+   },
+   "say": {
+    "ja": "daigaku",
+    "zh": "dàxué",
+    "ko": "daehakgyo",
+    "hi": "vishvavidyaalay",
+    "ar": "jaami'a",
+    "ru": "universitet"
+   }
+  },
+  {
+   "en": "spanish",
+   "also": [],
+   "t": {
+    "es": "español",
+    "fr": "espagnol",
+    "de": "Spanisch",
+    "it": "spagnolo",
+    "pt": "espanhol",
+    "ja": "スペイン語",
+    "zh": "西班牙语",
+    "ko": "스페인어",
+    "hi": "स्पेनिश",
+    "ar": "الإسبانية",
+    "ru": "испанский",
+    "nl": "Spaans"
+   },
+   "say": {
+    "ja": "supeingo",
+    "zh": "xībānyáyǔ",
+    "ko": "seupeineo",
+    "hi": "spenish",
+    "ar": "al-isbaaniyya",
+    "ru": "ispansky"
+   }
+  },
+  {
+   "en": "french",
+   "also": [],
+   "t": {
+    "es": "francés",
+    "fr": "français",
+    "de": "Französisch",
+    "it": "francese",
+    "pt": "francês",
+    "ja": "フランス語",
+    "zh": "法语",
+    "ko": "프랑스어",
+    "hi": "फ़्रेंच",
+    "ar": "الفرنسية",
+    "ru": "французский",
+    "nl": "Frans"
+   },
+   "say": {
+    "ja": "furansugo",
+    "zh": "fǎyǔ",
+    "ko": "peurangseueo",
+    "hi": "french",
+    "ar": "al-faransiyya",
+    "ru": "frantsuzsky"
+   }
+  },
+  {
+   "en": "german",
+   "also": [],
+   "t": {
+    "es": "alemán",
+    "fr": "allemand",
+    "de": "Deutsch",
+    "it": "tedesco",
+    "pt": "alemão",
+    "ja": "ドイツ語",
+    "zh": "德语",
+    "ko": "독일어",
+    "hi": "जर्मन",
+    "ar": "الألمانية",
+    "ru": "немецкий",
+    "nl": "Duits"
+   },
+   "say": {
+    "ja": "doitsugo",
+    "zh": "déyǔ",
+    "ko": "dogireo",
+    "hi": "jarman",
+    "ar": "al-almaaniyya",
+    "ru": "nemetsky"
+   }
+  },
+  {
+   "en": "japanese",
+   "also": [],
+   "t": {
+    "es": "japonés",
+    "fr": "japonais",
+    "de": "Japanisch",
+    "it": "giapponese",
+    "pt": "japonês",
+    "ja": "日本語",
+    "zh": "日语",
+    "ko": "일본어",
+    "hi": "जापानी",
+    "ar": "اليابانية",
+    "ru": "японский",
+    "nl": "Japans"
+   },
+   "say": {
+    "ja": "nihongo",
+    "zh": "rìyǔ",
+    "ko": "ilboneo",
+    "hi": "jaapaani",
+    "ar": "al-yaabaaniyya",
+    "ru": "yaponsky"
+   }
+  },
+  {
+   "en": "chinese",
+   "also": [],
+   "t": {
+    "es": "chino",
+    "fr": "chinois",
+    "de": "Chinesisch",
+    "it": "cinese",
+    "pt": "chinês",
+    "ja": "中国語",
+    "zh": "中文",
+    "ko": "중국어",
+    "hi": "चीनी",
+    "ar": "الصينية",
+    "ru": "китайский",
+    "nl": "Chinees"
+   },
+   "say": {
+    "ja": "chuugokugo",
+    "zh": "zhōngwén",
+    "ko": "junggugeo",
+    "hi": "cheeni",
+    "ar": "as-seeniyya",
+    "ru": "kitaysky"
+   }
+  },
+  {
+   "en": "korean",
+   "also": [],
+   "t": {
+    "es": "coreano",
+    "fr": "coréen",
+    "de": "Koreanisch",
+    "it": "coreano",
+    "pt": "coreano",
+    "ja": "韓国語",
+    "zh": "韩语",
+    "ko": "한국어",
+    "hi": "कोरियाई",
+    "ar": "الكورية",
+    "ru": "корейский",
+    "nl": "Koreaans"
+   },
+   "say": {
+    "ja": "kankokugo",
+    "zh": "hányǔ",
+    "ko": "hangugeo",
+    "hi": "koriyaai",
+    "ar": "al-kooriyya",
+    "ru": "koreysky"
+   }
+  },
+  {
+   "en": "russian",
+   "also": [],
+   "t": {
+    "es": "ruso",
+    "fr": "russe",
+    "de": "Russisch",
+    "it": "russo",
+    "pt": "russo",
+    "ja": "ロシア語",
+    "zh": "俄语",
+    "ko": "러시아어",
+    "hi": "रूसी",
+    "ar": "الروسية",
+    "ru": "русский",
+    "nl": "Russisch"
+   },
+   "say": {
+    "ja": "roshiago",
+    "zh": "éyǔ",
+    "ko": "reosiaeo",
+    "hi": "roosi",
+    "ar": "ar-roosiyya",
+    "ru": "russky"
+   }
+  },
+  {
+   "en": "italian",
+   "also": [],
+   "t": {
+    "es": "italiano",
+    "fr": "italien",
+    "de": "Italienisch",
+    "it": "italiano",
+    "pt": "italiano",
+    "ja": "イタリア語",
+    "zh": "意大利语",
+    "ko": "이탈리아어",
+    "hi": "इतालवी",
+    "ar": "الإيطالية",
+    "ru": "итальянский",
+    "nl": "Italiaans"
+   },
+   "say": {
+    "ja": "itariago",
+    "zh": "yìdàlìyǔ",
+    "ko": "itariaeo",
+    "hi": "itaalvi",
+    "ar": "al-eetaaliyya",
+    "ru": "italyansky"
+   }
+  },
+  {
+   "en": "portuguese",
+   "also": [],
+   "t": {
+    "es": "portugués",
+    "fr": "portugais",
+    "de": "Portugiesisch",
+    "it": "portoghese",
+    "pt": "português",
+    "ja": "ポルトガル語",
+    "zh": "葡萄牙语",
+    "ko": "포르투갈어",
+    "hi": "पुर्तगाली",
+    "ar": "البرتغالية",
+    "ru": "португальский",
+    "nl": "Portugees"
+   },
+   "say": {
+    "ja": "porutogarugo",
+    "zh": "pútáoyáyǔ",
+    "ko": "poreutugareo",
+    "hi": "purtagaali",
+    "ar": "al-burtughaaliyya",
+    "ru": "portugalsky"
+   }
+  },
+  {
+   "en": "arabic",
+   "also": [],
+   "t": {
+    "es": "árabe",
+    "fr": "arabe",
+    "de": "Arabisch",
+    "it": "arabo",
+    "pt": "árabe",
+    "ja": "アラビア語",
+    "zh": "阿拉伯语",
+    "ko": "아랍어",
+    "hi": "अरबी",
+    "ar": "العربية",
+    "ru": "арабский",
+    "nl": "Arabisch"
+   },
+   "say": {
+    "ja": "arabiago",
+    "zh": "ālābóyǔ",
+    "ko": "arabeo",
+    "hi": "arabi",
+    "ar": "al-'arabiyya",
+    "ru": "arabsky"
+   }
+  },
+  {
+   "en": "hindi",
+   "also": [],
+   "t": {
+    "es": "hindi",
+    "fr": "hindi",
+    "de": "Hindi",
+    "it": "hindi",
+    "pt": "híndi",
+    "ja": "ヒンディー語",
+    "zh": "印地语",
+    "ko": "힌디어",
+    "hi": "हिंदी",
+    "ar": "الهندية",
+    "ru": "хинди",
+    "nl": "Hindi"
+   },
+   "say": {
+    "ja": "hindiigo",
+    "zh": "yìndìyǔ",
+    "ko": "hindieo",
+    "hi": "hindi",
+    "ar": "al-hindiyya",
+    "ru": "khindi"
+   }
+  },
+  {
+   "en": "dutch",
+   "also": [],
+   "t": {
+    "es": "neerlandés",
+    "fr": "néerlandais",
+    "de": "Niederländisch",
+    "it": "olandese",
+    "pt": "holandês",
+    "ja": "オランダ語",
+    "zh": "荷兰语",
+    "ko": "네덜란드어",
+    "hi": "डच",
+    "ar": "الهولندية",
+    "ru": "нидерландский",
+    "nl": "Nederlands"
+   },
+   "say": {
+    "ja": "orandago",
+    "zh": "hélányǔ",
+    "ko": "nedeollandeueo",
+    "hi": "dach",
+    "ar": "al-hoolandiyya",
+    "ru": "niderlandsky"
+   }
+  },
+  {
+   "en": "i have a question",
+   "also": [],
+   "t": {
+    "es": "Tengo una pregunta",
+    "fr": "J'ai une question",
+    "de": "Ich habe eine Frage",
+    "it": "Ho una domanda",
+    "pt": "Tenho uma pergunta",
+    "ja": "質問があります",
+    "zh": "我有一个问题",
+    "ko": "질문이 있어요",
+    "hi": "मेरा एक सवाल है",
+    "ar": "عندي سؤال",
+    "ru": "У меня вопрос",
+    "nl": "Ik heb een vraag"
+   },
+   "say": {
+    "ja": "shitsumon ga arimasu",
+    "zh": "wǒ yǒu yí ge wèntí",
+    "ko": "jilmuni isseoyo",
+    "hi": "mera ek savaal hai",
+    "ar": "'indi su'aal",
+    "ru": "u menya vopros"
+   }
+  },
+  {
+   "en": "can i go to the bathroom",
+   "also": [
+    "may i go to the bathroom",
+    "can i go to the toilet"
+   ],
+   "t": {
+    "es": "¿Puedo ir al baño?",
+    "fr": "Je peux aller aux toilettes ?",
+    "de": "Darf ich auf die Toilette gehen?",
+    "it": "Posso andare in bagno?",
+    "pt": "Posso ir ao banheiro?",
+    "ja": "トイレに行ってもいいですか？",
+    "zh": "我可以去洗手间吗？",
+    "ko": "화장실에 가도 돼요?",
+    "hi": "क्या मैं बाथरूम जा सकता / सकती हूँ?",
+    "ar": "هل يمكنني الذهاب إلى الحمام؟",
+    "ru": "Можно выйти в туалет?",
+    "nl": "Mag ik naar de wc?"
+   },
+   "say": {
+    "ja": "toire ni itte mo ii desu ka?",
+    "zh": "wǒ kěyǐ qù xǐshǒujiān ma?",
+    "ko": "hwajangsire gado dwaeyo?",
+    "hi": "kya main baathroom ja sakta / sakti hoon?",
+    "ar": "hal yumkinuni adh-dhahaab ila al-hammaam?",
+    "ru": "mozhno vyyti v tualet?"
+   }
+  },
+  {
+   "en": "may i come in",
+   "also": [
+    "can i come in"
+   ],
+   "t": {
+    "es": "¿Puedo pasar?",
+    "fr": "Je peux entrer ?",
+    "de": "Darf ich reinkommen?",
+    "it": "Posso entrare?",
+    "pt": "Posso entrar?",
+    "ja": "入ってもいいですか？",
+    "zh": "我可以进来吗？",
+    "ko": "들어가도 돼요?",
+    "hi": "क्या मैं अंदर आ सकता / सकती हूँ?",
+    "ar": "هل يمكنني الدخول؟",
+    "ru": "Можно войти?",
+    "nl": "Mag ik binnenkomen?"
+   },
+   "say": {
+    "ja": "haitte mo ii desu ka?",
+    "zh": "wǒ kěyǐ jìnlai ma?",
+    "ko": "deureogado dwaeyo?",
+    "hi": "kya main andar aa sakta / sakti hoon?",
+    "ar": "hal yumkinuni ad-dukhool?",
+    "ru": "mozhno voyti?"
+   }
+  },
+  {
+   "en": "i forgot my homework",
+   "also": [],
+   "t": {
+    "es": "Olvidé mi tarea",
+    "fr": "J'ai oublié mes devoirs",
+    "de": "Ich habe meine Hausaufgaben vergessen",
+    "it": "Ho dimenticato i compiti",
+    "pt": "Esqueci minha lição de casa",
+    "ja": "宿題を忘れました",
+    "zh": "我忘了带作业",
+    "ko": "숙제를 잊어버렸어요",
+    "hi": "मैं अपना होमवर्क भूल गया / गई",
+    "ar": "نسيت واجبي",
+    "ru": "Я забыл / забыла домашнее задание",
+    "nl": "Ik ben mijn huiswerk vergeten"
+   },
+   "say": {
+    "ja": "shukudai o wasuremashita",
+    "zh": "wǒ wàng le dài zuòyè",
+    "ko": "sukjereul ijeobeoryeosseoyo",
+    "hi": "main apna homvark bhool gaya / gayi",
+    "ar": "naseetu waajibi",
+    "ru": "ya zabyl / zabyla domashneye zadaniye"
+   }
+  },
+  {
+   "en": "i finished",
+   "also": [
+    "i'm done",
+    "i am finished"
+   ],
+   "t": {
+    "es": "Ya terminé",
+    "fr": "J'ai fini",
+    "de": "Ich bin fertig",
+    "it": "Ho finito",
+    "pt": "Terminei",
+    "ja": "終わりました",
+    "zh": "我做完了",
+    "ko": "다 했어요",
+    "hi": "मैंने ख़त्म कर लिया",
+    "ar": "انتهيت",
+    "ru": "Я закончил / закончила",
+    "nl": "Ik ben klaar"
+   },
+   "say": {
+    "ja": "owarimashita",
+    "zh": "wǒ zuò wán le",
+    "ko": "da haesseoyo",
+    "hi": "maine khatm kar liya",
+    "ar": "intahaytu",
+    "ru": "ya zakonchil / zakonchila"
+   }
+  },
+  {
+   "en": "i don't know the answer",
+   "also": [],
+   "t": {
+    "es": "No sé la respuesta",
+    "fr": "Je ne connais pas la réponse",
+    "de": "Ich weiß die Antwort nicht",
+    "it": "Non so la risposta",
+    "pt": "Não sei a resposta",
+    "ja": "答えが分かりません",
+    "zh": "我不知道答案",
+    "ko": "답을 모르겠어요",
+    "hi": "मुझे जवाब नहीं पता",
+    "ar": "لا أعرف الإجابة",
+    "ru": "Я не знаю ответа",
+    "nl": "Ik weet het antwoord niet"
+   },
+   "say": {
+    "ja": "kotae ga wakarimasen",
+    "zh": "wǒ bù zhīdào dá'àn",
+    "ko": "dabeul moreugesseoyo",
+    "hi": "mujhe javaab nahin pata",
+    "ar": "laa a'rif al-ijaaba",
+    "ru": "ya ne znayu otveta"
+   }
+  },
+  {
+   "en": "which page",
+   "also": [
+    "what page"
+   ],
+   "t": {
+    "es": "¿Qué página?",
+    "fr": "Quelle page ?",
+    "de": "Welche Seite?",
+    "it": "Che pagina?",
+    "pt": "Qual página?",
+    "ja": "何ページですか？",
+    "zh": "第几页？",
+    "ko": "몇 페이지예요?",
+    "hi": "कौन सा पेज?",
+    "ar": "أي صفحة؟",
+    "ru": "Какая страница?",
+    "nl": "Welke bladzijde?"
+   },
+   "say": {
+    "ja": "nan peeji desu ka?",
+    "zh": "dì jǐ yè?",
+    "ko": "myeot peijiyeyo?",
+    "hi": "kaun sa pej?",
+    "ar": "ayyu safha?",
+    "ru": "kakaya stranitsa?"
+   }
+  },
+  {
+   "en": "can you help me with my homework",
+   "also": [
+    "help me with my homework"
+   ],
+   "t": {
+    "es": "¿Me ayuda con mi tarea?",
+    "fr": "Vous pouvez m'aider avec mes devoirs ?",
+    "de": "Können Sie mir bei den Hausaufgaben helfen?",
+    "it": "Mi aiuta con i compiti?",
+    "pt": "Você pode me ajudar com a lição de casa?",
+    "ja": "宿題を手伝ってもらえますか？",
+    "zh": "你能帮我做作业吗？",
+    "ko": "숙제 좀 도와주실 수 있어요?",
+    "hi": "क्या आप मेरे होमवर्क में मदद कर सकते हैं?",
+    "ar": "هل يمكنك مساعدتي في واجبي؟",
+    "ru": "Вы можете помочь мне с домашним заданием?",
+    "nl": "Kunt u me helpen met mijn huiswerk?"
+   },
+   "say": {
+    "ja": "shukudai o tetsudatte moraemasu ka?",
+    "zh": "nǐ néng bāng wǒ zuò zuòyè ma?",
+    "ko": "sukje jom dowajusil su isseoyo?",
+    "hi": "kya aap mere homvark mein madad kar sakte hain?",
+    "ar": "hal yumkinuka musaa'adati fi waajibi?",
+    "ru": "vy mozhete pomoch mne s domashnim zadaniyem?"
+   }
+  },
+  {
+   "en": "i'm ready",
+   "also": [],
+   "t": {
+    "es": "Estoy listo/a",
+    "fr": "Je suis prêt(e)",
+    "de": "Ich bin bereit",
+    "it": "Sono pronto/a",
+    "pt": "Estou pronto/a",
+    "ja": "準備できました",
+    "zh": "我准备好了",
+    "ko": "준비됐어요",
+    "hi": "मैं तैयार हूँ",
+    "ar": "أنا جاهز / جاهزة",
+    "ru": "Я готов / готова",
+    "nl": "Ik ben er klaar voor"
+   },
+   "say": {
+    "ja": "junbi dekimashita",
+    "zh": "wǒ zhǔnbèi hǎo le",
+    "ko": "junbidwaesseoyo",
+    "hi": "main taiyaar hoon",
+    "ar": "ana jaahiz / jaahiza",
+    "ru": "ya gotov / gotova"
+   }
+  },
+  {
+   "en": "be quiet",
+   "also": [
+    "quiet please"
+   ],
+   "t": {
+    "es": "Silencio, por favor",
+    "fr": "Silence, s'il vous plaît",
+    "de": "Ruhe bitte",
+    "it": "Silenzio, per favore",
+    "pt": "Silêncio, por favor",
+    "ja": "静かにしてください",
+    "zh": "请安静",
+    "ko": "조용히 해 주세요",
+    "hi": "कृपया शांत रहिए",
+    "ar": "الهدوء من فضلك",
+    "ru": "Тише, пожалуйста",
+    "nl": "Stil, alstublieft"
+   },
+   "say": {
+    "ja": "shizuka ni shite kudasai",
+    "zh": "qǐng ānjìng",
+    "ko": "joyonghi hae juseyo",
+    "hi": "kripya shaant rahiye",
+    "ar": "al-hudoo' min fadlak",
+    "ru": "tishe, pozhaluysta"
+   }
+  },
+  {
+   "en": "raise your hand",
+   "also": [],
+   "t": {
+    "es": "Levante la mano",
+    "fr": "Levez la main",
+    "de": "Heben Sie die Hand",
+    "it": "Alzi la mano",
+    "pt": "Levante a mão",
+    "ja": "手を挙げてください",
+    "zh": "请举手",
+    "ko": "손을 드세요",
+    "hi": "हाथ उठाइए",
+    "ar": "ارفع يدك",
+    "ru": "Поднимите руку",
+    "nl": "Steek uw hand op"
+   },
+   "say": {
+    "ja": "te o agete kudasai",
+    "zh": "qǐng jǔshǒu",
+    "ko": "soneul deuseyo",
+    "hi": "haath uthaaiye",
+    "ar": "irfa' yadak",
+    "ru": "podnimite ruku"
+   }
+  },
+  {
+   "en": "what does this word mean",
+   "also": [],
+   "t": {
+    "es": "¿Qué significa esta palabra?",
+    "fr": "Que veut dire ce mot ?",
+    "de": "Was bedeutet dieses Wort?",
+    "it": "Cosa significa questa parola?",
+    "pt": "O que significa esta palavra?",
+    "ja": "この言葉はどういう意味ですか？",
+    "zh": "这个词是什么意思？",
+    "ko": "이 단어는 무슨 뜻이에요?",
+    "hi": "इस शब्द का क्या मतलब है?",
+    "ar": "ما معنى هذه الكلمة؟",
+    "ru": "Что значит это слово?",
+    "nl": "Wat betekent dit woord?"
+   },
+   "say": {
+    "ja": "kono kotoba wa dou iu imi desu ka?",
+    "zh": "zhège cí shì shénme yìsi?",
+    "ko": "i daneoneun museun tteusieyo?",
+    "hi": "is shabd ka kya matlab hai?",
+    "ar": "ma ma'na haadhihi al-kalima?",
+    "ru": "chto znachit eto slovo?"
+   }
+  },
+  {
+   "en": "i'm learning ...",
+   "also": [
+    "i am learning"
+   ],
+   "t": {
+    "es": "Estoy aprendiendo ...",
+    "fr": "J'apprends ...",
+    "de": "Ich lerne ...",
+    "it": "Sto imparando ...",
+    "pt": "Estou aprendendo ...",
+    "ja": "...を勉強しています",
+    "zh": "我在学...",
+    "ko": "...를 배우고 있어요",
+    "hi": "मैं ... सीख रहा / रही हूँ",
+    "ar": "أنا أتعلم ...",
+    "ru": "Я учу ...",
+    "nl": "Ik leer ..."
+   },
+   "say": {
+    "ja": "...o benkyou shite imasu",
+    "zh": "wǒ zài xué ...",
+    "ko": "...reul baeugo isseoyo",
+    "hi": "main ... seekh raha / rahi hoon",
+    "ar": "ana ata'allam ...",
+    "ru": "ya uchu ..."
+   }
+  },
+  {
+   "en": "i speak a little ...",
+   "also": [
+    "i speak a little"
+   ],
+   "t": {
+    "es": "Hablo un poco de ...",
+    "fr": "Je parle un peu ...",
+    "de": "Ich spreche ein bisschen ...",
+    "it": "Parlo un po' di ...",
+    "pt": "Falo um pouco de ...",
+    "ja": "...を少し話せます",
+    "zh": "我会说一点...",
+    "ko": "...를 조금 할 줄 알아요",
+    "hi": "मैं थोड़ी ... बोलता / बोलती हूँ",
+    "ar": "أتكلم قليلا من ...",
+    "ru": "Я немного говорю по-...",
+    "nl": "Ik spreek een beetje ..."
+   },
+   "say": {
+    "ja": "...o sukoshi hanasemasu",
+    "zh": "wǒ huì shuō yìdiǎn ...",
+    "ko": "...reul jogeum hal jul arayo",
+    "hi": "main thodi ... bolta / bolti hoon",
+    "ar": "atakallam qaleelan min ...",
+    "ru": "ya nemnogo govoryu po-..."
+   }
+  },
+  {
+   "en": "open your book",
+   "also": [
+    "open your books"
+   ],
+   "t": {
+    "es": "Abra su libro",
+    "fr": "Ouvrez votre livre",
+    "de": "Öffnen Sie Ihr Buch",
+    "it": "Apra il libro",
+    "pt": "Abra o livro",
+    "ja": "本を開いてください",
+    "zh": "请打开书",
+    "ko": "책을 펴세요",
+    "hi": "अपनी किताब खोलिए",
+    "ar": "افتح كتابك",
+    "ru": "Откройте книгу",
+    "nl": "Open uw boek"
+   },
+   "say": {
+    "ja": "hon o hiraite kudasai",
+    "zh": "qǐng dǎkāi shū",
+    "ko": "chaegeul pyeoseyo",
+    "hi": "apni kitaab kholiye",
+    "ar": "iftah kitaabak",
+    "ru": "otkroyte knigu"
+   }
+  },
+  {
+   "en": "let's study together",
+   "also": [],
+   "t": {
+    "es": "Estudiemos juntos",
+    "fr": "Étudions ensemble",
+    "de": "Lernen wir zusammen",
+    "it": "Studiamo insieme",
+    "pt": "Vamos estudar juntos",
+    "ja": "一緒に勉強しましょう",
+    "zh": "我们一起学习吧",
+    "ko": "같이 공부해요",
+    "hi": "चलो साथ में पढ़ते हैं",
+    "ar": "لندرس معا",
+    "ru": "Давайте учиться вместе",
+    "nl": "Laten we samen leren"
+   },
+   "say": {
+    "ja": "issho ni benkyou shimashou",
+    "zh": "wǒmen yìqǐ xuéxí ba",
+    "ko": "gachi gongbuhaeyo",
+    "hi": "chalo saath mein padhte hain",
+    "ar": "linadrus ma'an",
+    "ru": "davayte uchitsya vmeste"
+   }
+  },
+  {
+   "en": "i have a test tomorrow",
+   "also": [],
+   "t": {
+    "es": "Mañana tengo un examen",
+    "fr": "J'ai un contrôle demain",
+    "de": "Ich habe morgen einen Test",
+    "it": "Domani ho una verifica",
+    "pt": "Tenho prova amanhã",
+    "ja": "明日テストがあります",
+    "zh": "我明天有考试",
+    "ko": "내일 시험이 있어요",
+    "hi": "कल मेरी परीक्षा है",
+    "ar": "عندي امتحان غدا",
+    "ru": "У меня завтра контрольная",
+    "nl": "Ik heb morgen een toets"
+   },
+   "say": {
+    "ja": "ashita tesuto ga arimasu",
+    "zh": "wǒ míngtiān yǒu kǎoshì",
+    "ko": "naeil siheomi isseoyo",
+    "hi": "kal meri pareeksha hai",
+    "ar": "'indi imtihaan ghadan",
+    "ru": "u menya zavtra kontrolnaya"
+   }
+  }
+ ]
+}

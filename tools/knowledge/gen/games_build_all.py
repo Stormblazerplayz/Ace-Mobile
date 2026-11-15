@@ -9,7 +9,8 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ORDER = ["games_mc_recipes.py", "games_mc_mobs.py", "games_mc_data.py", "games_pokemon.py"]
+ORDER = ["games_mc_recipes.py", "games_mc_mobs.py", "games_mc_data.py", "games_mc_extra.py", "games_pokemon.py",
+         "games_pokemon_size.py"]
 
 for name in ORDER:
     print(f"== {name}")

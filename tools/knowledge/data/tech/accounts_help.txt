@@ -1,0 +1,10 @@
+# tag: tech.accounts
+what do i do if my game account got hacked | someone stole my account => Use the site's official Forgot password or account recovery page, change your email password too, turn on 2FA and contact the game's support. Tell a parent, and never pay anyone who offers to recover it.
+i forgot my password what do i do | reset a forgotten password => Click Forgot password on the real sign-in page and follow the link sent to your email or phone. Type the site's address yourself instead of using links from messages.
+why am i locked out of my account | too many wrong password tries => Sites lock accounts for a while after several wrong tries to stop guessing attacks. Wait the time it says or use the official recovery option.
+how do i appeal a ban in a game | my account got banned unfairly => Use the game's official support or appeal page, explain calmly what happened and give details like dates. Never use sites that promise unbans for money.
+what is a shadowban | why is no one seeing my posts => A shadowban is when a platform quietly hides your posts or limits who sees them without telling you, often for spammy behavior. Following the rules and waiting usually fixes it.
+what if the birthday on my account is wrong | change age on account => Many services don't let you change your birthday yourself, so contact support with a parent. Always give your real age, since age settings turn on safety protections.
+how do i delete an account i don't use | close old accounts => Look in the account's settings for Delete account, or search the site's help pages. Deleting old accounts means less of your info could leak.
+how do i change my username | rename my account => Most apps let you change it in profile or account settings. Some limit how often, like once every few weeks, and some old names become free for others to take.
+what are terms of service | do i have to read terms and conditions => Terms of service are the rules you agree to when using an app, like age limits and what gets you banned. Skim the important parts, or ask a parent to check them with you.

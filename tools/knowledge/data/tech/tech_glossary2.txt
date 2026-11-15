@@ -1,0 +1,24 @@
+# tag: tech.glossary2
+what is throughput | throughput vs latency => Throughput is how much data or work gets done per second, like download speed. Latency is how long one thing takes to arrive, like ping.
+what is a teraflop | what does tflops mean => A teraflop is a trillion math operations per second. It's often used to compare GPUs, but it doesn't directly tell you game performance across different brands.
+what is a silicon wafer | how are chips made => Chips are made on thin round slices of pure silicon called wafers. Hundreds of chips are printed on each wafer with light, then cut apart.
+what is chip binning | why are some cpus faster than others from the same line => Chips from the same wafer turn out slightly different. Makers test and sort them, selling the best ones as faster models, which is called binning.
+what is underclocking | lower cpu speed => Underclocking runs a chip slower than normal to cut heat, noise and power use. It's the opposite of overclocking.
+what is thermal design power | what does tdp mean => TDP is roughly how much heat a chip is designed to give off under typical load, in watts. It helps you pick a cooler, though real power use can go higher.
+what is microled | microled vs oled => MicroLED is a display where every pixel is its own tiny LED, giving OLED-like contrast with more brightness. As of 2025 it's still very expensive and rare.
+what is a proximity sensor | why does my phone screen turn off on calls => A proximity sensor detects when something is close, like your face during a call, and turns off the screen so you don't tap buttons with your cheek.
+what is an ambient light sensor | how does auto brightness work => An ambient light sensor measures the light around you, so the screen can get brighter outside and dimmer in the dark.
+what is z wave | z wave smart home => Z-Wave is a low-power wireless system for smart home devices like locks and sensors. It needs a hub and works separately from Wi-Fi.
+what is the 6ghz wifi band | wifi 6e band => The 6 GHz band, used by Wi-Fi 6E and Wi-Fi 7, has lots of uncrowded space for fast speeds, but it doesn't reach as far through walls.
+what is coaxial cable | coax cable internet => Coaxial cable is a round cable with a copper center, used for cable TV and cable internet. It screws into the modem.
+what is a wireless access point | access point vs router => An access point adds Wi-Fi to a wired network. A router directs traffic and usually has an access point built in.
+what is shareware | shareware vs freeware => Shareware lets you try a program for free, often with limits, and asks you to pay to keep using it. Freeware is completely free.
+what is saas | software as a service => SaaS means software you use through the internet with a subscription, like Google Docs or Canva, instead of installing and buying it once.
+what is uptime | 99.9 percent uptime => Uptime is how much of the time a service is working. 99.9 percent uptime still allows about 9 hours of downtime a year.
+what is a dvi port | dvi cable => DVI is an older video connector mostly found on old monitors and graphics cards. HDMI and DisplayPort replaced it.
+what is an apu | apu vs cpu => An APU is AMD's name for a processor with strong built-in graphics, like the chips in many handheld PCs and consoles.
+what is risc vs cisc | risc processor => RISC chips, like ARM, use simple instructions that run fast and efficiently. CISC chips, like x86, use more complex instructions. Both can be very fast.
+what is rom | rom vs ram => ROM is read-only memory that keeps data without power, like firmware. RAM is fast temporary memory that clears when power is off.
+what is l1 cache | cpu cache levels => CPU cache is tiny super-fast memory inside the processor. L1 is the smallest and fastest, L2 is bigger, and L3 is the largest and shared between cores.
+what is rasterization | rasterization vs ray tracing => Rasterization turns 3D triangles into pixels very quickly and is how most games are drawn. Ray tracing simulates light rays for more realistic lighting but costs more performance.
+what is lens flare | lens flare effect => Lens flare is the streaks and circles of light a camera lens makes when pointed near a bright light. Games and editors add it as an effect.

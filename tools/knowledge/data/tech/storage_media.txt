@@ -1,0 +1,23 @@
+# tag: tech.storage.cards
+what do sd card speed classes mean | v30 u3 class 10 => Symbols like Class 10, U3 and V30 show the minimum write speed. V30 means at least 30 MB/s, enough for 4K video in most drones and cameras.
+what does a2 mean on a microsd card | a1 vs a2 => A1 and A2 ratings show how fast a card runs apps, which matters for phones and handhelds. A2 is faster for small random reads and writes.
+what sd card do i need for a drone | drone sd card => Most camera drones need a microSD card rated U3 or V30 for 4K video. Check the drone's manual for the maximum card size it supports.
+what is sdxc vs sdhc | sd card sizes => SDHC cards hold up to 32 GB and SDXC cards hold from 64 GB up to 2 TB. Older devices may not read SDXC.
+how do i spot a fake sd card | fake microsd capacity => Fake cards claim huge sizes but lose data once you fill them. Buy from trusted stores, and test new cards with a tool like H2testw on Windows.
+what is microsd express | microsd express explained => microSD Express cards use a PCIe connection for much faster speeds, up to around 900 MB/s. The Switch 2 requires them for games.
+how do i format an sd card for a camera | format in camera => Format the card in the camera or drone itself before first use. It sets the card up exactly how that device likes it.
+what is a card reader | sd card reader => A card reader plugs into USB so a computer can read SD or microSD cards. USB-C readers also work with iPads.
+what is an external ssd | external ssd vs hdd => An external SSD is fast, small and tough, great for video projects and games. External hard drives are slower and fragile but cheaper per terabyte, good for backups.
+what is an ssd enclosure | m.2 usb enclosure => An enclosure turns a spare M.2 SSD into a fast external USB drive. Match the enclosure to the SSD type, usually NVMe.
+can i edit video straight from an external drive | edit from external ssd => Yes, a fast external SSD on USB 3.2 or Thunderbolt is fine for editing, even 4K. Hard drives can be too slow for smooth playback.
+can i play games from an external drive | install steam games on usb ssd => Yes, Steam and other launchers can install games to an external SSD. Load times are slower over older USB, but it works.
+how do i recover deleted files from a usb or sd card | undelete files => Stop using the card right away so nothing overwrites the files, then try a recovery tool like PhotoRec or the maker's recovery software. Success isn't guaranteed.
+what should i do if a drive is clicking | clicking hard drive => A clicking hard drive is often failing. Copy important files off it right away, then replace it.
+how long do usb sticks and sd cards last | flash storage lifespan => They can last years but do wear out and can fail without warning. Never keep your only copy of important files on one.
+what is a cloud backup service | online backup => A cloud backup service automatically copies your files to secure servers, so you can restore them if your device is lost or broken.
+how much space does 4k video take | 4k file size per minute => It depends on the bitrate. Phone 4K at 60 fps often uses around 400 MB per minute, so an hour can take over 20 GB.
+how much space does a photo take | photo file size => A typical phone photo is about 2 to 5 MB as HEIC or JPEG, while RAW photos can be 25 MB or more each.
+how big are modern games | game install size => Many big games take 50 to 150 GB, and some go over 200 GB with updates. A 2 TB SSD is a comfortable size for a gaming PC.
+how do i organize my project files | folder structure for videos => Make one folder per project with subfolders like Footage, Audio, Music, Graphics and Exports, and name files with dates or version numbers.
+why should i name files with versions | file versioning v1 v2 => Saving as project_v1, project_v2 lets you go back if something breaks. It's a simple form of backup for creative work.
+what is a raid array | raid 0 vs raid 1 => RAID combines drives. RAID 0 splits data for speed but loses everything if one drive fails. RAID 1 mirrors two drives so one can fail safely. RAID isn't a real backup.

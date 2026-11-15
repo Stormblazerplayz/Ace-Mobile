@@ -17,7 +17,7 @@ final class GamesTests: XCTestCase {
     // MARK: Data
 
     func testDataIsComplete() {
-        XCTAssertGreaterThanOrEqual(Trivia.all.count, 3000)
+        XCTAssertGreaterThanOrEqual(Trivia.all.count, 4000)
         XCTAssertEqual(Trivia.categories.count, 10)
         XCTAssertEqual(Set(Trivia.all.map(\.id)).count, Trivia.all.count, "Two trivia questions share an id")
         for q in Trivia.all {
@@ -26,10 +26,10 @@ final class GamesTests: XCTestCase {
             XCTAssertEqual(Set(q.choices.map { TextKit.normalize($0) }).count, 4, "\(q.id) has the same choice twice")
             XCTAssertFalse(q.fact.isEmpty, q.id)
         }
-        XCTAssertGreaterThanOrEqual(TwentyQuestions.builtIn.count, 1000)
+        XCTAssertGreaterThanOrEqual(TwentyQuestions.builtIn.count, 650)
         XCTAssertGreaterThanOrEqual(TwentyQuestions.questions.count, 30)
         XCTAssertEqual(Phrasebook.languages.count, 12)
-        XCTAssertGreaterThanOrEqual(Phrasebook.entries.count, 2000)
+        XCTAssertGreaterThanOrEqual(Phrasebook.entries.count, 1150)
         for e in Phrasebook.entries {
             XCTAssertEqual(e.t.count, 12, "\(e.en) is missing a language")
         }

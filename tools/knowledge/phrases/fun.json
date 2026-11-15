@@ -1,0 +1,1322 @@
+{
+ "entries": [
+  {
+   "en": "basketball",
+   "also": [],
+   "t": {
+    "es": "baloncesto",
+    "fr": "basket",
+    "de": "Basketball",
+    "it": "pallacanestro",
+    "pt": "basquete",
+    "ja": "バスケットボール",
+    "zh": "篮球",
+    "ko": "농구",
+    "hi": "बास्केटबॉल",
+    "ar": "كرة السلة",
+    "ru": "баскетбол",
+    "nl": "basketbal"
+   },
+   "say": {
+    "ja": "basukettobooru",
+    "zh": "lánqiú",
+    "ko": "nonggu",
+    "hi": "baasketbol",
+    "ar": "kurat as-salla",
+    "ru": "basketbol"
+   }
+  },
+  {
+   "en": "baseball",
+   "also": [],
+   "t": {
+    "es": "béisbol",
+    "fr": "baseball",
+    "de": "Baseball",
+    "it": "baseball",
+    "pt": "beisebol",
+    "ja": "野球",
+    "zh": "棒球",
+    "ko": "야구",
+    "hi": "बेसबॉल",
+    "ar": "البيسبول",
+    "ru": "бейсбол",
+    "nl": "honkbal"
+   },
+   "say": {
+    "ja": "yakyuu",
+    "zh": "bàngqiú",
+    "ko": "yagu",
+    "hi": "besbol",
+    "ar": "al-beesbool",
+    "ru": "beysbol"
+   }
+  },
+  {
+   "en": "tennis",
+   "also": [],
+   "t": {
+    "es": "tenis",
+    "fr": "tennis",
+    "de": "Tennis",
+    "it": "tennis",
+    "pt": "tênis",
+    "ja": "テニス",
+    "zh": "网球",
+    "ko": "테니스",
+    "hi": "टेनिस",
+    "ar": "التنس",
+    "ru": "теннис",
+    "nl": "tennis"
+   },
+   "say": {
+    "ja": "tenisu",
+    "zh": "wǎngqiú",
+    "ko": "teniseu",
+    "hi": "tenis",
+    "ar": "at-tenis",
+    "ru": "tennis"
+   }
+  },
+  {
+   "en": "volleyball",
+   "also": [],
+   "t": {
+    "es": "voleibol",
+    "fr": "volley",
+    "de": "Volleyball",
+    "it": "pallavolo",
+    "pt": "vôlei",
+    "ja": "バレーボール",
+    "zh": "排球",
+    "ko": "배구",
+    "hi": "वॉलीबॉल",
+    "ar": "الكرة الطائرة",
+    "ru": "волейбол",
+    "nl": "volleybal"
+   },
+   "say": {
+    "ja": "bareebooru",
+    "zh": "páiqiú",
+    "ko": "baegu",
+    "hi": "volibol",
+    "ar": "al-kura at-taa'ira",
+    "ru": "voleybol"
+   }
+  },
+  {
+   "en": "american football",
+   "also": [],
+   "t": {
+    "es": "fútbol americano",
+    "fr": "football américain",
+    "de": "American Football",
+    "it": "football americano",
+    "pt": "futebol americano",
+    "ja": "アメリカンフットボール",
+    "zh": "美式足球",
+    "ko": "미식축구",
+    "hi": "अमेरिकी फ़ुटबॉल",
+    "ar": "كرة القدم الأمريكية",
+    "ru": "американский футбол",
+    "nl": "American football"
+   },
+   "say": {
+    "ja": "amerikan futtobooru",
+    "zh": "Měishì zúqiú",
+    "ko": "misikchukgu",
+    "hi": "amreeki futbol",
+    "ar": "kurat al-qadam al-amreekiyya",
+    "ru": "amerikansky futbol"
+   }
+  },
+  {
+   "en": "hockey",
+   "also": [
+    "ice hockey"
+   ],
+   "t": {
+    "es": "hockey sobre hielo",
+    "fr": "hockey sur glace",
+    "de": "Eishockey",
+    "it": "hockey su ghiaccio",
+    "pt": "hóquei no gelo",
+    "ja": "アイスホッケー",
+    "zh": "冰球",
+    "ko": "아이스하키",
+    "hi": "आइस हॉकी",
+    "ar": "هوكي الجليد",
+    "ru": "хоккей",
+    "nl": "ijshockey"
+   },
+   "say": {
+    "ja": "aisu hokkee",
+    "zh": "bīngqiú",
+    "ko": "aiseuhaki",
+    "hi": "aais hoki",
+    "ar": "hokey al-jaleed",
+    "ru": "khokkey"
+   }
+  },
+  {
+   "en": "swimming",
+   "also": [],
+   "t": {
+    "es": "natación",
+    "fr": "natation",
+    "de": "Schwimmen",
+    "it": "nuoto",
+    "pt": "natação",
+    "ja": "水泳",
+    "zh": "游泳",
+    "ko": "수영",
+    "hi": "तैराकी",
+    "ar": "سباحة",
+    "ru": "плавание",
+    "nl": "zwemmen"
+   },
+   "say": {
+    "ja": "suiei",
+    "zh": "yóuyǒng",
+    "ko": "suyeong",
+    "hi": "tairaaki",
+    "ar": "sibaaha",
+    "ru": "plavaniye"
+   }
+  },
+  {
+   "en": "skateboard",
+   "also": [
+    "skateboarding"
+   ],
+   "t": {
+    "es": "monopatín",
+    "fr": "skate",
+    "de": "Skateboard",
+    "it": "skateboard",
+    "pt": "skate",
+    "ja": "スケートボード",
+    "zh": "滑板",
+    "ko": "스케이트보드",
+    "hi": "स्केटबोर्ड",
+    "ar": "لوح تزلج",
+    "ru": "скейтборд",
+    "nl": "skateboard"
+   },
+   "say": {
+    "ja": "sukeetoboodo",
+    "zh": "huábǎn",
+    "ko": "seukeiteubodeu",
+    "hi": "sketbord",
+    "ar": "lawh tazalluj",
+    "ru": "skeytbord"
+   }
+  },
+  {
+   "en": "skiing",
+   "also": [],
+   "t": {
+    "es": "esquí",
+    "fr": "ski",
+    "de": "Skifahren",
+    "it": "sci",
+    "pt": "esqui",
+    "ja": "スキー",
+    "zh": "滑雪",
+    "ko": "스키",
+    "hi": "स्कीइंग",
+    "ar": "تزلج على الثلج",
+    "ru": "лыжи",
+    "nl": "skiën"
+   },
+   "say": {
+    "ja": "sukii",
+    "zh": "huáxuě",
+    "ko": "seuki",
+    "hi": "skeeing",
+    "ar": "tazalluj 'ala ath-thalj",
+    "ru": "lyzhi"
+   }
+  },
+  {
+   "en": "team",
+   "also": [],
+   "t": {
+    "es": "equipo",
+    "fr": "équipe",
+    "de": "Mannschaft",
+    "it": "squadra",
+    "pt": "time",
+    "ja": "チーム",
+    "zh": "队",
+    "ko": "팀",
+    "hi": "टीम",
+    "ar": "فريق",
+    "ru": "команда",
+    "nl": "team"
+   },
+   "say": {
+    "ja": "chiimu",
+    "zh": "duì",
+    "ko": "tim",
+    "hi": "teem",
+    "ar": "fareeq",
+    "ru": "komanda"
+   }
+  },
+  {
+   "en": "match",
+   "also": [
+    "sports game"
+   ],
+   "t": {
+    "es": "partido",
+    "fr": "match",
+    "de": "Spiel",
+    "it": "partita",
+    "pt": "jogo",
+    "ja": "試合",
+    "zh": "比赛",
+    "ko": "경기",
+    "hi": "मैच",
+    "ar": "مباراة",
+    "ru": "матч",
+    "nl": "wedstrijd"
+   },
+   "say": {
+    "ja": "shiai",
+    "zh": "bǐsài",
+    "ko": "gyeonggi",
+    "hi": "maich",
+    "ar": "mubaaraa",
+    "ru": "match"
+   }
+  },
+  {
+   "en": "goal",
+   "also": [],
+   "t": {
+    "es": "gol",
+    "fr": "but",
+    "de": "Tor",
+    "it": "gol",
+    "pt": "gol",
+    "ja": "ゴール",
+    "zh": "进球",
+    "ko": "골",
+    "hi": "गोल",
+    "ar": "هدف",
+    "ru": "гол",
+    "nl": "doelpunt"
+   },
+   "say": {
+    "ja": "gooru",
+    "zh": "jìnqiú",
+    "ko": "gol",
+    "hi": "gol",
+    "ar": "hadaf",
+    "ru": "gol"
+   }
+  },
+  {
+   "en": "we won",
+   "also": [],
+   "t": {
+    "es": "Ganamos",
+    "fr": "On a gagné",
+    "de": "Wir haben gewonnen",
+    "it": "Abbiamo vinto",
+    "pt": "Ganhamos",
+    "ja": "勝った",
+    "zh": "我们赢了",
+    "ko": "우리가 이겼어요",
+    "hi": "हम जीत गए",
+    "ar": "فزنا",
+    "ru": "Мы выиграли",
+    "nl": "We hebben gewonnen"
+   },
+   "say": {
+    "ja": "katta",
+    "zh": "wǒmen yíng le",
+    "ko": "uriga igyeosseoyo",
+    "hi": "ham jeet gaye",
+    "ar": "fuzna",
+    "ru": "my vyigrali"
+   }
+  },
+  {
+   "en": "we lost",
+   "also": [],
+   "t": {
+    "es": "Perdimos",
+    "fr": "On a perdu",
+    "de": "Wir haben verloren",
+    "it": "Abbiamo perso",
+    "pt": "Perdemos",
+    "ja": "負けた",
+    "zh": "我们输了",
+    "ko": "우리가 졌어요",
+    "hi": "हम हार गए",
+    "ar": "خسرنا",
+    "ru": "Мы проиграли",
+    "nl": "We hebben verloren"
+   },
+   "say": {
+    "ja": "maketa",
+    "zh": "wǒmen shū le",
+    "ko": "uriga jyeosseoyo",
+    "hi": "ham haar gaye",
+    "ar": "khasirna",
+    "ru": "my proigrali"
+   }
+  },
+  {
+   "en": "who won",
+   "also": [
+    "who is winning"
+   ],
+   "t": {
+    "es": "¿Quién ganó?",
+    "fr": "Qui a gagné ?",
+    "de": "Wer hat gewonnen?",
+    "it": "Chi ha vinto?",
+    "pt": "Quem ganhou?",
+    "ja": "誰が勝ちましたか？",
+    "zh": "谁赢了？",
+    "ko": "누가 이겼어요?",
+    "hi": "कौन जीता?",
+    "ar": "من فاز؟",
+    "ru": "Кто выиграл?",
+    "nl": "Wie heeft er gewonnen?"
+   },
+   "say": {
+    "ja": "dare ga kachimashita ka?",
+    "zh": "shéi yíng le?",
+    "ko": "nuga igyeosseoyo?",
+    "hi": "kaun jeeta?",
+    "ar": "man faaz?",
+    "ru": "kto vyigral?"
+   }
+  },
+  {
+   "en": "what's the score",
+   "also": [],
+   "t": {
+    "es": "¿Cómo van?",
+    "fr": "Quel est le score ?",
+    "de": "Wie steht es?",
+    "it": "Quanto stanno?",
+    "pt": "Quanto está o jogo?",
+    "ja": "何対何ですか？",
+    "zh": "比分是多少？",
+    "ko": "몇 대 몇이에요?",
+    "hi": "स्कोर क्या है?",
+    "ar": "كم النتيجة؟",
+    "ru": "Какой счёт?",
+    "nl": "Wat is de stand?"
+   },
+   "say": {
+    "ja": "nan tai nan desu ka?",
+    "zh": "bǐfēn shì duōshao?",
+    "ko": "myeot dae myeochieyo?",
+    "hi": "skor kya hai?",
+    "ar": "kam an-nateeja?",
+    "ru": "kakoy schyot?"
+   }
+  },
+  {
+   "en": "my turn",
+   "also": [
+    "it's my turn"
+   ],
+   "t": {
+    "es": "Me toca",
+    "fr": "C'est mon tour",
+    "de": "Ich bin dran",
+    "it": "Tocca a me",
+    "pt": "É a minha vez",
+    "ja": "私の番です",
+    "zh": "轮到我了",
+    "ko": "내 차례예요",
+    "hi": "मेरी बारी",
+    "ar": "دوري",
+    "ru": "Моя очередь",
+    "nl": "Ik ben aan de beurt"
+   },
+   "say": {
+    "ja": "watashi no ban desu",
+    "zh": "lún dào wǒ le",
+    "ko": "nae charyeyeyo",
+    "hi": "meri baari",
+    "ar": "dawri",
+    "ru": "moya ochered"
+   }
+  },
+  {
+   "en": "your turn",
+   "also": [
+    "it's your turn"
+   ],
+   "t": {
+    "es": "Te toca",
+    "fr": "C'est ton tour",
+    "de": "Du bist dran",
+    "it": "Tocca a te",
+    "pt": "É a sua vez",
+    "ja": "あなたの番です",
+    "zh": "轮到你了",
+    "ko": "네 차례예요",
+    "hi": "तुम्हारी बारी",
+    "ar": "دورك",
+    "ru": "Твоя очередь",
+    "nl": "Jij bent aan de beurt"
+   },
+   "say": {
+    "ja": "anata no ban desu",
+    "zh": "lún dào nǐ le",
+    "ko": "ne charyeyeyo",
+    "hi": "tumhaari baari",
+    "ar": "dawrak",
+    "ru": "tvoya ochered"
+   }
+  },
+  {
+   "en": "i won",
+   "also": [
+    "i win"
+   ],
+   "t": {
+    "es": "Gané",
+    "fr": "J'ai gagné",
+    "de": "Ich habe gewonnen",
+    "it": "Ho vinto",
+    "pt": "Ganhei",
+    "ja": "勝った",
+    "zh": "我赢了",
+    "ko": "내가 이겼어요",
+    "hi": "मैं जीत गया / गई",
+    "ar": "فزت",
+    "ru": "Я выиграл / выиграла",
+    "nl": "Ik heb gewonnen"
+   },
+   "say": {
+    "ja": "katta",
+    "zh": "wǒ yíng le",
+    "ko": "naega igyeosseoyo",
+    "hi": "main jeet gaya / gayi",
+    "ar": "fuztu",
+    "ru": "ya vyigral / vyigrala"
+   }
+  },
+  {
+   "en": "good game",
+   "also": [
+    "gg"
+   ],
+   "t": {
+    "es": "Buen partido",
+    "fr": "Bien joué",
+    "de": "Gutes Spiel",
+    "it": "Bella partita",
+    "pt": "Bom jogo",
+    "ja": "ナイスゲーム",
+    "zh": "打得好",
+    "ko": "좋은 경기였어요",
+    "hi": "अच्छा खेल",
+    "ar": "مباراة جيدة",
+    "ru": "Хорошая игра",
+    "nl": "Goed gespeeld"
+   },
+   "say": {
+    "ja": "naisu geemu",
+    "zh": "dǎ de hǎo",
+    "ko": "joeun gyeonggiyeosseoyo",
+    "hi": "achchha khel",
+    "ar": "mubaaraa jayyida",
+    "ru": "khoroshaya igra"
+   }
+  },
+  {
+   "en": "nice shot",
+   "also": [
+    "good shot"
+   ],
+   "t": {
+    "es": "Buen tiro",
+    "fr": "Joli tir",
+    "de": "Schöner Schuss",
+    "it": "Bel tiro",
+    "pt": "Belo chute",
+    "ja": "ナイスショット",
+    "zh": "好球",
+    "ko": "나이스 샷",
+    "hi": "शानदार शॉट",
+    "ar": "تسديدة رائعة",
+    "ru": "Отличный удар",
+    "nl": "Mooi schot"
+   },
+   "say": {
+    "ja": "naisu shotto",
+    "zh": "hǎo qiú",
+    "ko": "naiseu syat",
+    "hi": "shaandaar shot",
+    "ar": "tasdeeda raa'i'a",
+    "ru": "otlichny udar"
+   }
+  },
+  {
+   "en": "let's play",
+   "also": [],
+   "t": {
+    "es": "Vamos a jugar",
+    "fr": "On joue ?",
+    "de": "Lass uns spielen",
+    "it": "Giochiamo",
+    "pt": "Vamos brincar",
+    "ja": "遊びましょう",
+    "zh": "我们一起玩吧",
+    "ko": "같이 놀아요",
+    "hi": "चलो खेलते हैं",
+    "ar": "هيا نلعب",
+    "ru": "Давай играть",
+    "nl": "Laten we spelen"
+   },
+   "say": {
+    "ja": "asobimashou",
+    "zh": "wǒmen yìqǐ wán ba",
+    "ko": "gachi norayo",
+    "hi": "chalo khelte hain",
+    "ar": "hayya nal'ab",
+    "ru": "davay igrat"
+   }
+  },
+  {
+   "en": "can i play too",
+   "also": [
+    "can i join"
+   ],
+   "t": {
+    "es": "¿Puedo jugar yo también?",
+    "fr": "Je peux jouer aussi ?",
+    "de": "Darf ich mitspielen?",
+    "it": "Posso giocare anch'io?",
+    "pt": "Posso brincar também?",
+    "ja": "私も遊んでもいいですか？",
+    "zh": "我也可以玩吗？",
+    "ko": "저도 같이 놀아도 돼요?",
+    "hi": "क्या मैं भी खेल सकता / सकती हूँ?",
+    "ar": "هل يمكنني اللعب أيضا؟",
+    "ru": "Можно мне тоже поиграть?",
+    "nl": "Mag ik meedoen?"
+   },
+   "say": {
+    "ja": "watashi mo asonde mo ii desu ka?",
+    "zh": "wǒ yě kěyǐ wán ma?",
+    "ko": "jeodo gachi norado dwaeyo?",
+    "hi": "kya main bhi khel sakta / sakti hoon?",
+    "ar": "hal yumkinuni al-la'ib aydan?",
+    "ru": "mozhno mne tozhe poigrat?"
+   }
+  },
+  {
+   "en": "hobby",
+   "also": [],
+   "t": {
+    "es": "pasatiempo",
+    "fr": "passe-temps",
+    "de": "Hobby",
+    "it": "hobby",
+    "pt": "passatempo",
+    "ja": "趣味",
+    "zh": "爱好",
+    "ko": "취미",
+    "hi": "शौक़",
+    "ar": "هواية",
+    "ru": "хобби",
+    "nl": "hobby"
+   },
+   "say": {
+    "ja": "shumi",
+    "zh": "àihào",
+    "ko": "chwimi",
+    "hi": "shauq",
+    "ar": "hiwaaya",
+    "ru": "khobbi"
+   }
+  },
+  {
+   "en": "what are your hobbies",
+   "also": [
+    "what's your hobby"
+   ],
+   "t": {
+    "es": "¿Cuáles son sus pasatiempos?",
+    "fr": "Quels sont vos passe-temps ?",
+    "de": "Was sind Ihre Hobbys?",
+    "it": "Quali sono i suoi hobby?",
+    "pt": "Quais são seus passatempos?",
+    "ja": "趣味は何ですか？",
+    "zh": "你的爱好是什么？",
+    "ko": "취미가 뭐예요?",
+    "hi": "आपके शौक़ क्या हैं?",
+    "ar": "ما هي هواياتك؟",
+    "ru": "Какое у вас хобби?",
+    "nl": "Wat zijn uw hobby's?"
+   },
+   "say": {
+    "ja": "shumi wa nan desu ka?",
+    "zh": "nǐ de àihào shì shénme?",
+    "ko": "chwimiga mwoyeyo?",
+    "hi": "aapke shauq kya hain?",
+    "ar": "ma hiya hiwaayaatuk?",
+    "ru": "kakoye u vas khobbi?"
+   }
+  },
+  {
+   "en": "i like to draw",
+   "also": [
+    "i like drawing"
+   ],
+   "t": {
+    "es": "Me gusta dibujar",
+    "fr": "J'aime dessiner",
+    "de": "Ich zeichne gern",
+    "it": "Mi piace disegnare",
+    "pt": "Gosto de desenhar",
+    "ja": "絵を描くのが好きです",
+    "zh": "我喜欢画画",
+    "ko": "그림 그리는 걸 좋아해요",
+    "hi": "मुझे चित्र बनाना पसंद है",
+    "ar": "أحب الرسم",
+    "ru": "Я люблю рисовать",
+    "nl": "Ik teken graag"
+   },
+   "say": {
+    "ja": "e o kaku no ga suki desu",
+    "zh": "wǒ xǐhuan huàhuà",
+    "ko": "geurim geurineun geol joahaeyo",
+    "hi": "mujhe chitra banaana pasand hai",
+    "ar": "uhibb ar-rasm",
+    "ru": "ya lyublyu risovat"
+   }
+  },
+  {
+   "en": "i like to play video games",
+   "also": [
+    "i like video games",
+    "i like gaming"
+   ],
+   "t": {
+    "es": "Me gustan los videojuegos",
+    "fr": "J'aime les jeux vidéo",
+    "de": "Ich spiele gern Videospiele",
+    "it": "Mi piacciono i videogiochi",
+    "pt": "Gosto de videogames",
+    "ja": "ゲームが好きです",
+    "zh": "我喜欢玩电子游戏",
+    "ko": "게임하는 걸 좋아해요",
+    "hi": "मुझे वीडियो गेम खेलना पसंद है",
+    "ar": "أحب ألعاب الفيديو",
+    "ru": "Я люблю видеоигры",
+    "nl": "Ik game graag"
+   },
+   "say": {
+    "ja": "geemu ga suki desu",
+    "zh": "wǒ xǐhuan wán diànzǐ yóuxì",
+    "ko": "geimhaneun geol joahaeyo",
+    "hi": "mujhe veediyo gem khelna pasand hai",
+    "ar": "uhibb al'aab al-feedyo",
+    "ru": "ya lyublyu videoigry"
+   }
+  },
+  {
+   "en": "i like reading",
+   "also": [
+    "i like to read"
+   ],
+   "t": {
+    "es": "Me gusta leer",
+    "fr": "J'aime lire",
+    "de": "Ich lese gern",
+    "it": "Mi piace leggere",
+    "pt": "Gosto de ler",
+    "ja": "読書が好きです",
+    "zh": "我喜欢看书",
+    "ko": "책 읽는 걸 좋아해요",
+    "hi": "मुझे पढ़ना पसंद है",
+    "ar": "أحب القراءة",
+    "ru": "Я люблю читать",
+    "nl": "Ik lees graag"
+   },
+   "say": {
+    "ja": "dokusho ga suki desu",
+    "zh": "wǒ xǐhuan kàn shū",
+    "ko": "chaek ingneun geol joahaeyo",
+    "hi": "mujhe padhna pasand hai",
+    "ar": "uhibb al-qiraa'a",
+    "ru": "ya lyublyu chitat"
+   }
+  },
+  {
+   "en": "game console",
+   "also": [
+    "console"
+   ],
+   "t": {
+    "es": "consola",
+    "fr": "console",
+    "de": "Spielkonsole",
+    "it": "console",
+    "pt": "console",
+    "ja": "ゲーム機",
+    "zh": "游戏机",
+    "ko": "게임기",
+    "hi": "गेम कंसोल",
+    "ar": "جهاز ألعاب",
+    "ru": "игровая приставка",
+    "nl": "spelcomputer"
+   },
+   "say": {
+    "ja": "geemuki",
+    "zh": "yóuxìjī",
+    "ko": "geimgi",
+    "hi": "gem kansol",
+    "ar": "jihaaz al'aab",
+    "ru": "igrovaya pristavka"
+   }
+  },
+  {
+   "en": "controller",
+   "also": [
+    "game controller"
+   ],
+   "t": {
+    "es": "mando",
+    "fr": "manette",
+    "de": "Controller",
+    "it": "controller",
+    "pt": "controle",
+    "ja": "コントローラー",
+    "zh": "手柄",
+    "ko": "컨트롤러",
+    "hi": "कंट्रोलर",
+    "ar": "يد التحكم",
+    "ru": "джойстик",
+    "nl": "controller"
+   },
+   "say": {
+    "ja": "kontorooraa",
+    "zh": "shǒubǐng",
+    "ko": "keonteurolleo",
+    "hi": "kantrolar",
+    "ar": "yad at-tahakkum",
+    "ru": "dzhoystik"
+   }
+  },
+  {
+   "en": "level",
+   "also": [],
+   "t": {
+    "es": "nivel",
+    "fr": "niveau",
+    "de": "Level",
+    "it": "livello",
+    "pt": "nível",
+    "ja": "レベル",
+    "zh": "关卡",
+    "ko": "레벨",
+    "hi": "लेवल",
+    "ar": "مستوى",
+    "ru": "уровень",
+    "nl": "level"
+   },
+   "say": {
+    "ja": "reberu",
+    "zh": "guānkǎ",
+    "ko": "rebel",
+    "hi": "leval",
+    "ar": "mustawa",
+    "ru": "uroven"
+   }
+  },
+  {
+   "en": "player",
+   "also": [],
+   "t": {
+    "es": "jugador/a",
+    "fr": "joueur / joueuse",
+    "de": "Spieler/in",
+    "it": "giocatore / giocatrice",
+    "pt": "jogador/a",
+    "ja": "プレイヤー",
+    "zh": "玩家",
+    "ko": "플레이어",
+    "hi": "खिलाड़ी",
+    "ar": "لاعب / لاعبة",
+    "ru": "игрок",
+    "nl": "speler"
+   },
+   "say": {
+    "ja": "pureiyaa",
+    "zh": "wánjiā",
+    "ko": "peulleieo",
+    "hi": "khilaadi",
+    "ar": "laa'ib / laa'iba",
+    "ru": "igrok"
+   }
+  },
+  {
+   "en": "game over",
+   "also": [],
+   "t": {
+    "es": "fin del juego",
+    "fr": "partie terminée",
+    "de": "Spiel vorbei",
+    "it": "game over",
+    "pt": "fim de jogo",
+    "ja": "ゲームオーバー",
+    "zh": "游戏结束",
+    "ko": "게임 오버",
+    "hi": "गेम ओवर",
+    "ar": "انتهت اللعبة",
+    "ru": "игра окончена",
+    "nl": "game over"
+   },
+   "say": {
+    "ja": "geemu oobaa",
+    "zh": "yóuxì jiéshù",
+    "ko": "geim obeo",
+    "hi": "gem ovar",
+    "ar": "intahat al-lu'ba",
+    "ru": "igra okonchena"
+   }
+  },
+  {
+   "en": "board game",
+   "also": [],
+   "t": {
+    "es": "juego de mesa",
+    "fr": "jeu de société",
+    "de": "Brettspiel",
+    "it": "gioco da tavolo",
+    "pt": "jogo de tabuleiro",
+    "ja": "ボードゲーム",
+    "zh": "桌游",
+    "ko": "보드게임",
+    "hi": "बोर्ड गेम",
+    "ar": "لعبة لوحية",
+    "ru": "настольная игра",
+    "nl": "bordspel"
+   },
+   "say": {
+    "ja": "boodo geemu",
+    "zh": "zhuōyóu",
+    "ko": "bodeugeim",
+    "hi": "bord gem",
+    "ar": "lu'ba lawhiyya",
+    "ru": "nastolnaya igra"
+   }
+  },
+  {
+   "en": "cards",
+   "also": [
+    "playing cards"
+   ],
+   "t": {
+    "es": "cartas",
+    "fr": "cartes",
+    "de": "Karten",
+    "it": "carte",
+    "pt": "cartas",
+    "ja": "トランプ",
+    "zh": "扑克牌",
+    "ko": "카드",
+    "hi": "ताश",
+    "ar": "ورق اللعب",
+    "ru": "карты",
+    "nl": "kaarten"
+   },
+   "say": {
+    "ja": "toranpu",
+    "zh": "pūkèpái",
+    "ko": "kadeu",
+    "hi": "taash",
+    "ar": "waraq al-la'ib",
+    "ru": "karty"
+   }
+  },
+  {
+   "en": "chess",
+   "also": [],
+   "t": {
+    "es": "ajedrez",
+    "fr": "échecs",
+    "de": "Schach",
+    "it": "scacchi",
+    "pt": "xadrez",
+    "ja": "チェス",
+    "zh": "国际象棋",
+    "ko": "체스",
+    "hi": "शतरंज",
+    "ar": "شطرنج",
+    "ru": "шахматы",
+    "nl": "schaken"
+   },
+   "say": {
+    "ja": "chesu",
+    "zh": "guójì xiàngqí",
+    "ko": "cheseu",
+    "hi": "shatranj",
+    "ar": "shatranj",
+    "ru": "shakhmaty"
+   }
+  },
+  {
+   "en": "puzzle",
+   "also": [
+    "jigsaw"
+   ],
+   "t": {
+    "es": "rompecabezas",
+    "fr": "puzzle",
+    "de": "Puzzle",
+    "it": "puzzle",
+    "pt": "quebra-cabeça",
+    "ja": "パズル",
+    "zh": "拼图",
+    "ko": "퍼즐",
+    "hi": "पहेली",
+    "ar": "أحجية",
+    "ru": "пазл",
+    "nl": "puzzel"
+   },
+   "say": {
+    "ja": "pazuru",
+    "zh": "pīntú",
+    "ko": "peojeul",
+    "hi": "paheli",
+    "ar": "uhjiyya",
+    "ru": "pazl"
+   }
+  },
+  {
+   "en": "toy",
+   "also": [],
+   "t": {
+    "es": "juguete",
+    "fr": "jouet",
+    "de": "Spielzeug",
+    "it": "giocattolo",
+    "pt": "brinquedo",
+    "ja": "おもちゃ",
+    "zh": "玩具",
+    "ko": "장난감",
+    "hi": "खिलौना",
+    "ar": "لعبة",
+    "ru": "игрушка",
+    "nl": "speelgoed"
+   },
+   "say": {
+    "ja": "omocha",
+    "zh": "wánjù",
+    "ko": "jangnangam",
+    "hi": "khilauna",
+    "ar": "lu'ba",
+    "ru": "igrushka"
+   }
+  },
+  {
+   "en": "drawing",
+   "also": [],
+   "t": {
+    "es": "dibujo",
+    "fr": "dessin",
+    "de": "Zeichnung",
+    "it": "disegno",
+    "pt": "desenho",
+    "ja": "絵",
+    "zh": "画",
+    "ko": "그림",
+    "hi": "चित्र",
+    "ar": "رسم",
+    "ru": "рисунок",
+    "nl": "tekening"
+   },
+   "say": {
+    "ja": "e",
+    "zh": "huà",
+    "ko": "geurim",
+    "hi": "chitra",
+    "ar": "rasm",
+    "ru": "risunok"
+   }
+  },
+  {
+   "en": "song",
+   "also": [],
+   "t": {
+    "es": "canción",
+    "fr": "chanson",
+    "de": "Lied",
+    "it": "canzone",
+    "pt": "música",
+    "ja": "歌",
+    "zh": "歌",
+    "ko": "노래",
+    "hi": "गाना",
+    "ar": "أغنية",
+    "ru": "песня",
+    "nl": "liedje"
+   },
+   "say": {
+    "ja": "uta",
+    "zh": "gē",
+    "ko": "norae",
+    "hi": "gaana",
+    "ar": "ughniya",
+    "ru": "pesnya"
+   }
+  },
+  {
+   "en": "movie",
+   "also": [
+    "film"
+   ],
+   "t": {
+    "es": "película",
+    "fr": "film",
+    "de": "Film",
+    "it": "film",
+    "pt": "filme",
+    "ja": "映画",
+    "zh": "电影",
+    "ko": "영화",
+    "hi": "फ़िल्म",
+    "ar": "فيلم",
+    "ru": "фильм",
+    "nl": "film"
+   },
+   "say": {
+    "ja": "eiga",
+    "zh": "diànyǐng",
+    "ko": "yeonghwa",
+    "hi": "film",
+    "ar": "film",
+    "ru": "film"
+   }
+  },
+  {
+   "en": "cartoon",
+   "also": [
+    "cartoons"
+   ],
+   "t": {
+    "es": "dibujos animados",
+    "fr": "dessin animé",
+    "de": "Zeichentrickfilm",
+    "it": "cartone animato",
+    "pt": "desenho animado",
+    "ja": "アニメ",
+    "zh": "动画片",
+    "ko": "만화 영화",
+    "hi": "कार्टून",
+    "ar": "رسوم متحركة",
+    "ru": "мультфильм",
+    "nl": "tekenfilm"
+   },
+   "say": {
+    "ja": "anime",
+    "zh": "dònghuàpiàn",
+    "ko": "manhwa yeonghwa",
+    "hi": "kaartoon",
+    "ar": "rusoom mutaharrika",
+    "ru": "multfilm"
+   }
+  },
+  {
+   "en": "comic book",
+   "also": [
+    "comics",
+    "manga"
+   ],
+   "t": {
+    "es": "cómic",
+    "fr": "bande dessinée",
+    "de": "Comic",
+    "it": "fumetto",
+    "pt": "história em quadrinhos",
+    "ja": "漫画",
+    "zh": "漫画",
+    "ko": "만화책",
+    "hi": "कॉमिक",
+    "ar": "قصص مصورة",
+    "ru": "комикс",
+    "nl": "stripboek"
+   },
+   "say": {
+    "ja": "manga",
+    "zh": "mànhuà",
+    "ko": "manhwachaek",
+    "hi": "komik",
+    "ar": "qisas musawwara",
+    "ru": "komiks"
+   }
+  },
+  {
+   "en": "guitar",
+   "also": [],
+   "t": {
+    "es": "guitarra",
+    "fr": "guitare",
+    "de": "Gitarre",
+    "it": "chitarra",
+    "pt": "violão",
+    "ja": "ギター",
+    "zh": "吉他",
+    "ko": "기타",
+    "hi": "गिटार",
+    "ar": "غيتار",
+    "ru": "гитара",
+    "nl": "gitaar"
+   },
+   "say": {
+    "ja": "gitaa",
+    "zh": "jítā",
+    "ko": "gita",
+    "hi": "gitaar",
+    "ar": "geetaar",
+    "ru": "gitara"
+   }
+  },
+  {
+   "en": "piano",
+   "also": [],
+   "t": {
+    "es": "piano",
+    "fr": "piano",
+    "de": "Klavier",
+    "it": "pianoforte",
+    "pt": "piano",
+    "ja": "ピアノ",
+    "zh": "钢琴",
+    "ko": "피아노",
+    "hi": "पियानो",
+    "ar": "بيانو",
+    "ru": "пианино",
+    "nl": "piano"
+   },
+   "say": {
+    "ja": "piano",
+    "zh": "gāngqín",
+    "ko": "piano",
+    "hi": "piyaano",
+    "ar": "byaano",
+    "ru": "pianino"
+   }
+  },
+  {
+   "en": "drums",
+   "also": [],
+   "t": {
+    "es": "batería",
+    "fr": "batterie",
+    "de": "Schlagzeug",
+    "it": "batteria",
+    "pt": "bateria",
+    "ja": "ドラム",
+    "zh": "鼓",
+    "ko": "드럼",
+    "hi": "ड्रम",
+    "ar": "طبول",
+    "ru": "барабаны",
+    "nl": "drums"
+   },
+   "say": {
+    "ja": "doramu",
+    "zh": "gǔ",
+    "ko": "deureom",
+    "hi": "dram",
+    "ar": "tubool",
+    "ru": "barabany"
+   }
+  },
+  {
+   "en": "camping",
+   "also": [],
+   "t": {
+    "es": "acampada",
+    "fr": "camping",
+    "de": "Camping",
+    "it": "campeggio",
+    "pt": "acampamento",
+    "ja": "キャンプ",
+    "zh": "露营",
+    "ko": "캠핑",
+    "hi": "कैंपिंग",
+    "ar": "تخييم",
+    "ru": "поход",
+    "nl": "kamperen"
+   },
+   "say": {
+    "ja": "kyanpu",
+    "zh": "lùyíng",
+    "ko": "kaemping",
+    "hi": "kaimping",
+    "ar": "takhyeem",
+    "ru": "pokhod"
+   }
+  },
+  {
+   "en": "party",
+   "also": [],
+   "t": {
+    "es": "fiesta",
+    "fr": "fête",
+    "de": "Party",
+    "it": "festa",
+    "pt": "festa",
+    "ja": "パーティー",
+    "zh": "派对",
+    "ko": "파티",
+    "hi": "पार्टी",
+    "ar": "حفلة",
+    "ru": "вечеринка",
+    "nl": "feest"
+   },
+   "say": {
+    "ja": "paatii",
+    "zh": "pàiduì",
+    "ko": "pati",
+    "hi": "paarti",
+    "ar": "hafla",
+    "ru": "vecherinka"
+   }
+  },
+  {
+   "en": "birthday party",
+   "also": [],
+   "t": {
+    "es": "fiesta de cumpleaños",
+    "fr": "fête d'anniversaire",
+    "de": "Geburtstagsparty",
+    "it": "festa di compleanno",
+    "pt": "festa de aniversário",
+    "ja": "誕生日パーティー",
+    "zh": "生日派对",
+    "ko": "생일 파티",
+    "hi": "जन्मदिन की पार्टी",
+    "ar": "حفلة عيد ميلاد",
+    "ru": "день рождения",
+    "nl": "verjaardagsfeest"
+   },
+   "say": {
+    "ja": "tanjoubi paatii",
+    "zh": "shēngrì pàiduì",
+    "ko": "saengil pati",
+    "hi": "janmdin ki paarti",
+    "ar": "haflat 'eed meelaad",
+    "ru": "den rozhdeniya"
+   }
+  }
+ ]
+}

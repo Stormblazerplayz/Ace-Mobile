@@ -1,0 +1,1564 @@
+{
+ "entries": [
+  {
+   "en": "wind",
+   "also": [],
+   "t": {
+    "es": "viento",
+    "fr": "vent",
+    "de": "Wind",
+    "it": "vento",
+    "pt": "vento",
+    "ja": "風",
+    "zh": "风",
+    "ko": "바람",
+    "hi": "हवा",
+    "ar": "ريح",
+    "ru": "ветер",
+    "nl": "wind"
+   },
+   "say": {
+    "ja": "kaze",
+    "zh": "fēng",
+    "ko": "baram",
+    "hi": "hava",
+    "ar": "reeh",
+    "ru": "veter"
+   }
+  },
+  {
+   "en": "cloud",
+   "also": [
+    "clouds"
+   ],
+   "t": {
+    "es": "nube",
+    "fr": "nuage",
+    "de": "Wolke",
+    "it": "nuvola",
+    "pt": "nuvem",
+    "ja": "雲",
+    "zh": "云",
+    "ko": "구름",
+    "hi": "बादल",
+    "ar": "سحابة",
+    "ru": "облако",
+    "nl": "wolk"
+   },
+   "say": {
+    "ja": "kumo",
+    "zh": "yún",
+    "ko": "gureum",
+    "hi": "baadal",
+    "ar": "sahaaba",
+    "ru": "oblako"
+   }
+  },
+  {
+   "en": "storm",
+   "also": [],
+   "t": {
+    "es": "tormenta",
+    "fr": "tempête",
+    "de": "Sturm",
+    "it": "tempesta",
+    "pt": "tempestade",
+    "ja": "嵐",
+    "zh": "暴风雨",
+    "ko": "폭풍",
+    "hi": "तूफ़ान",
+    "ar": "عاصفة",
+    "ru": "буря",
+    "nl": "storm"
+   },
+   "say": {
+    "ja": "arashi",
+    "zh": "bàofēngyǔ",
+    "ko": "pokpung",
+    "hi": "toofaan",
+    "ar": "'aasifa",
+    "ru": "burya"
+   }
+  },
+  {
+   "en": "thunder",
+   "also": [],
+   "t": {
+    "es": "trueno",
+    "fr": "tonnerre",
+    "de": "Donner",
+    "it": "tuono",
+    "pt": "trovão",
+    "ja": "雷",
+    "zh": "雷",
+    "ko": "천둥",
+    "hi": "गरज",
+    "ar": "رعد",
+    "ru": "гром",
+    "nl": "donder"
+   },
+   "say": {
+    "ja": "kaminari",
+    "zh": "léi",
+    "ko": "cheondung",
+    "hi": "garaj",
+    "ar": "ra'd",
+    "ru": "grom"
+   }
+  },
+  {
+   "en": "lightning",
+   "also": [],
+   "t": {
+    "es": "relámpago",
+    "fr": "éclair",
+    "de": "Blitz",
+    "it": "fulmine",
+    "pt": "relâmpago",
+    "ja": "稲妻",
+    "zh": "闪电",
+    "ko": "번개",
+    "hi": "बिजली",
+    "ar": "برق",
+    "ru": "молния",
+    "nl": "bliksem"
+   },
+   "say": {
+    "ja": "inazuma",
+    "zh": "shǎndiàn",
+    "ko": "beongae",
+    "hi": "bijli",
+    "ar": "barq",
+    "ru": "molniya"
+   }
+  },
+  {
+   "en": "rainbow",
+   "also": [],
+   "t": {
+    "es": "arcoíris",
+    "fr": "arc-en-ciel",
+    "de": "Regenbogen",
+    "it": "arcobaleno",
+    "pt": "arco-íris",
+    "ja": "虹",
+    "zh": "彩虹",
+    "ko": "무지개",
+    "hi": "इंद्रधनुष",
+    "ar": "قوس قزح",
+    "ru": "радуга",
+    "nl": "regenboog"
+   },
+   "say": {
+    "ja": "niji",
+    "zh": "cǎihóng",
+    "ko": "mujigae",
+    "hi": "indradhanush",
+    "ar": "qaws quzah",
+    "ru": "raduga"
+   }
+  },
+  {
+   "en": "fog",
+   "also": [],
+   "t": {
+    "es": "niebla",
+    "fr": "brouillard",
+    "de": "Nebel",
+    "it": "nebbia",
+    "pt": "neblina",
+    "ja": "霧",
+    "zh": "雾",
+    "ko": "안개",
+    "hi": "कोहरा",
+    "ar": "ضباب",
+    "ru": "туман",
+    "nl": "mist"
+   },
+   "say": {
+    "ja": "kiri",
+    "zh": "wù",
+    "ko": "angae",
+    "hi": "kohra",
+    "ar": "dabaab",
+    "ru": "tuman"
+   }
+  },
+  {
+   "en": "ice",
+   "also": [],
+   "t": {
+    "es": "hielo",
+    "fr": "glace",
+    "de": "Eis",
+    "it": "ghiaccio",
+    "pt": "gelo",
+    "ja": "氷",
+    "zh": "冰",
+    "ko": "얼음",
+    "hi": "बर्फ़",
+    "ar": "جليد",
+    "ru": "лёд",
+    "nl": "ijs"
+   },
+   "say": {
+    "ja": "koori",
+    "zh": "bīng",
+    "ko": "eoreum",
+    "hi": "barf",
+    "ar": "jaleed",
+    "ru": "lyod"
+   }
+  },
+  {
+   "en": "sky",
+   "also": [],
+   "t": {
+    "es": "cielo",
+    "fr": "ciel",
+    "de": "Himmel",
+    "it": "cielo",
+    "pt": "céu",
+    "ja": "空",
+    "zh": "天空",
+    "ko": "하늘",
+    "hi": "आसमान",
+    "ar": "سماء",
+    "ru": "небо",
+    "nl": "lucht"
+   },
+   "say": {
+    "ja": "sora",
+    "zh": "tiānkōng",
+    "ko": "haneul",
+    "hi": "aasmaan",
+    "ar": "samaa'",
+    "ru": "nebo"
+   }
+  },
+  {
+   "en": "moon",
+   "also": [],
+   "t": {
+    "es": "luna",
+    "fr": "lune",
+    "de": "Mond",
+    "it": "luna",
+    "pt": "lua",
+    "ja": "月",
+    "zh": "月亮",
+    "ko": "달",
+    "hi": "चाँद",
+    "ar": "قمر",
+    "ru": "луна",
+    "nl": "maan"
+   },
+   "say": {
+    "ja": "tsuki",
+    "zh": "yuèliang",
+    "ko": "dal",
+    "hi": "chaand",
+    "ar": "qamar",
+    "ru": "luna"
+   }
+  },
+  {
+   "en": "star",
+   "also": [
+    "stars"
+   ],
+   "t": {
+    "es": "estrella",
+    "fr": "étoile",
+    "de": "Stern",
+    "it": "stella",
+    "pt": "estrela",
+    "ja": "星",
+    "zh": "星星",
+    "ko": "별",
+    "hi": "तारा",
+    "ar": "نجمة",
+    "ru": "звезда",
+    "nl": "ster"
+   },
+   "say": {
+    "ja": "hoshi",
+    "zh": "xīngxing",
+    "ko": "byeol",
+    "hi": "taara",
+    "ar": "najma",
+    "ru": "zvezda"
+   }
+  },
+  {
+   "en": "earth",
+   "also": [
+    "the earth",
+    "planet earth"
+   ],
+   "t": {
+    "es": "Tierra",
+    "fr": "Terre",
+    "de": "Erde",
+    "it": "Terra",
+    "pt": "Terra",
+    "ja": "地球",
+    "zh": "地球",
+    "ko": "지구",
+    "hi": "पृथ्वी",
+    "ar": "الأرض",
+    "ru": "Земля",
+    "nl": "aarde"
+   },
+   "say": {
+    "ja": "chikyuu",
+    "zh": "dìqiú",
+    "ko": "jigu",
+    "hi": "prithvi",
+    "ar": "al-ard",
+    "ru": "zemlya"
+   }
+  },
+  {
+   "en": "planet",
+   "also": [],
+   "t": {
+    "es": "planeta",
+    "fr": "planète",
+    "de": "Planet",
+    "it": "pianeta",
+    "pt": "planeta",
+    "ja": "惑星",
+    "zh": "行星",
+    "ko": "행성",
+    "hi": "ग्रह",
+    "ar": "كوكب",
+    "ru": "планета",
+    "nl": "planeet"
+   },
+   "say": {
+    "ja": "wakusei",
+    "zh": "xíngxīng",
+    "ko": "haengseong",
+    "hi": "grah",
+    "ar": "kawkab",
+    "ru": "planeta"
+   }
+  },
+  {
+   "en": "space",
+   "also": [
+    "outer space"
+   ],
+   "t": {
+    "es": "espacio",
+    "fr": "espace",
+    "de": "Weltraum",
+    "it": "spazio",
+    "pt": "espaço",
+    "ja": "宇宙",
+    "zh": "太空",
+    "ko": "우주",
+    "hi": "अंतरिक्ष",
+    "ar": "الفضاء",
+    "ru": "космос",
+    "nl": "ruimte"
+   },
+   "say": {
+    "ja": "uchuu",
+    "zh": "tàikōng",
+    "ko": "uju",
+    "hi": "antariksh",
+    "ar": "al-fadaa'",
+    "ru": "kosmos"
+   }
+  },
+  {
+   "en": "grass",
+   "also": [],
+   "t": {
+    "es": "césped",
+    "fr": "herbe",
+    "de": "Gras",
+    "it": "erba",
+    "pt": "grama",
+    "ja": "草",
+    "zh": "草",
+    "ko": "풀",
+    "hi": "घास",
+    "ar": "عشب",
+    "ru": "трава",
+    "nl": "gras"
+   },
+   "say": {
+    "ja": "kusa",
+    "zh": "cǎo",
+    "ko": "pul",
+    "hi": "ghaas",
+    "ar": "'ushb",
+    "ru": "trava"
+   }
+  },
+  {
+   "en": "leaf",
+   "also": [
+    "leaves"
+   ],
+   "t": {
+    "es": "hoja",
+    "fr": "feuille",
+    "de": "Blatt",
+    "it": "foglia",
+    "pt": "folha",
+    "ja": "葉っぱ",
+    "zh": "叶子",
+    "ko": "잎",
+    "hi": "पत्ता",
+    "ar": "ورقة شجر",
+    "ru": "лист",
+    "nl": "blad"
+   },
+   "say": {
+    "ja": "happa",
+    "zh": "yèzi",
+    "ko": "ip",
+    "hi": "patta",
+    "ar": "waraqat shajar",
+    "ru": "list"
+   }
+  },
+  {
+   "en": "rock",
+   "also": [
+    "stone"
+   ],
+   "t": {
+    "es": "piedra",
+    "fr": "pierre",
+    "de": "Stein",
+    "it": "sasso",
+    "pt": "pedra",
+    "ja": "石",
+    "zh": "石头",
+    "ko": "돌",
+    "hi": "पत्थर",
+    "ar": "حجر",
+    "ru": "камень",
+    "nl": "steen"
+   },
+   "say": {
+    "ja": "ishi",
+    "zh": "shítou",
+    "ko": "dol",
+    "hi": "patthar",
+    "ar": "hajar",
+    "ru": "kamen"
+   }
+  },
+  {
+   "en": "sand",
+   "also": [],
+   "t": {
+    "es": "arena",
+    "fr": "sable",
+    "de": "Sand",
+    "it": "sabbia",
+    "pt": "areia",
+    "ja": "砂",
+    "zh": "沙子",
+    "ko": "모래",
+    "hi": "रेत",
+    "ar": "رمل",
+    "ru": "песок",
+    "nl": "zand"
+   },
+   "say": {
+    "ja": "suna",
+    "zh": "shāzi",
+    "ko": "morae",
+    "hi": "ret",
+    "ar": "raml",
+    "ru": "pesok"
+   }
+  },
+  {
+   "en": "desert",
+   "also": [],
+   "t": {
+    "es": "desierto",
+    "fr": "désert",
+    "de": "Wüste",
+    "it": "deserto",
+    "pt": "deserto",
+    "ja": "砂漠",
+    "zh": "沙漠",
+    "ko": "사막",
+    "hi": "रेगिस्तान",
+    "ar": "صحراء",
+    "ru": "пустыня",
+    "nl": "woestijn"
+   },
+   "say": {
+    "ja": "sabaku",
+    "zh": "shāmò",
+    "ko": "samak",
+    "hi": "registaan",
+    "ar": "sahraa'",
+    "ru": "pustynya"
+   }
+  },
+  {
+   "en": "volcano",
+   "also": [],
+   "t": {
+    "es": "volcán",
+    "fr": "volcan",
+    "de": "Vulkan",
+    "it": "vulcano",
+    "pt": "vulcão",
+    "ja": "火山",
+    "zh": "火山",
+    "ko": "화산",
+    "hi": "ज्वालामुखी",
+    "ar": "بركان",
+    "ru": "вулкан",
+    "nl": "vulkaan"
+   },
+   "say": {
+    "ja": "kazan",
+    "zh": "huǒshān",
+    "ko": "hwasan",
+    "hi": "jvaalaamukhi",
+    "ar": "burkaan",
+    "ru": "vulkan"
+   }
+  },
+  {
+   "en": "garden",
+   "also": [],
+   "t": {
+    "es": "jardín",
+    "fr": "jardin",
+    "de": "Garten",
+    "it": "giardino",
+    "pt": "jardim",
+    "ja": "庭",
+    "zh": "花园",
+    "ko": "정원",
+    "hi": "बगीचा",
+    "ar": "حديقة",
+    "ru": "сад",
+    "nl": "tuin"
+   },
+   "say": {
+    "ja": "niwa",
+    "zh": "huāyuán",
+    "ko": "jeongwon",
+    "hi": "bageecha",
+    "ar": "hadeeqa",
+    "ru": "sad"
+   }
+  },
+  {
+   "en": "it's windy",
+   "also": [],
+   "t": {
+    "es": "Hace viento",
+    "fr": "Il y a du vent",
+    "de": "Es ist windig",
+    "it": "C'è vento",
+    "pt": "Está ventando",
+    "ja": "風が強いです",
+    "zh": "风很大",
+    "ko": "바람이 많이 불어요",
+    "hi": "हवा चल रही है",
+    "ar": "الجو عاصف",
+    "ru": "Ветрено",
+    "nl": "Het waait"
+   },
+   "say": {
+    "ja": "kaze ga tsuyoi desu",
+    "zh": "fēng hěn dà",
+    "ko": "barami mani bureoyo",
+    "hi": "hava chal rahi hai",
+    "ar": "al-jaww 'aasif",
+    "ru": "vetreno"
+   }
+  },
+  {
+   "en": "it's snowing",
+   "also": [],
+   "t": {
+    "es": "Está nevando",
+    "fr": "Il neige",
+    "de": "Es schneit",
+    "it": "Nevica",
+    "pt": "Está nevando",
+    "ja": "雪が降っています",
+    "zh": "下雪了",
+    "ko": "눈이 와요",
+    "hi": "बर्फ़ गिर रही है",
+    "ar": "إنها تثلج",
+    "ru": "Идёт снег",
+    "nl": "Het sneeuwt"
+   },
+   "say": {
+    "ja": "yuki ga futte imasu",
+    "zh": "xià xuě le",
+    "ko": "nuni wayo",
+    "hi": "barf gir rahi hai",
+    "ar": "innaha tuthlij",
+    "ru": "idyot sneg"
+   }
+  },
+  {
+   "en": "it's cloudy",
+   "also": [],
+   "t": {
+    "es": "Está nublado",
+    "fr": "Le temps est nuageux",
+    "de": "Es ist bewölkt",
+    "it": "È nuvoloso",
+    "pt": "Está nublado",
+    "ja": "曇っています",
+    "zh": "阴天",
+    "ko": "흐려요",
+    "hi": "बादल छाए हैं",
+    "ar": "الجو غائم",
+    "ru": "Облачно",
+    "nl": "Het is bewolkt"
+   },
+   "say": {
+    "ja": "kumotte imasu",
+    "zh": "yīntiān",
+    "ko": "heuryeoyo",
+    "hi": "baadal chhaaye hain",
+    "ar": "al-jaww ghaa'im",
+    "ru": "oblachno"
+   }
+  },
+  {
+   "en": "it's a nice day",
+   "also": [
+    "nice weather",
+    "it's a beautiful day"
+   ],
+   "t": {
+    "es": "Hace buen día",
+    "fr": "Il fait beau",
+    "de": "Es ist schönes Wetter",
+    "it": "È una bella giornata",
+    "pt": "O dia está bonito",
+    "ja": "いい天気ですね",
+    "zh": "今天天气真好",
+    "ko": "날씨가 좋네요",
+    "hi": "आज मौसम अच्छा है",
+    "ar": "الجو جميل اليوم",
+    "ru": "Хорошая погода",
+    "nl": "Het is mooi weer"
+   },
+   "say": {
+    "ja": "ii tenki desu ne",
+    "zh": "jīntiān tiānqì zhēn hǎo",
+    "ko": "nalssiga jonneyo",
+    "hi": "aaj mausam achchha hai",
+    "ar": "al-jaww jameel al-yawm",
+    "ru": "khoroshaya pogoda"
+   }
+  },
+  {
+   "en": "what's the weather like",
+   "also": [
+    "how is the weather"
+   ],
+   "t": {
+    "es": "¿Qué tiempo hace?",
+    "fr": "Quel temps fait-il ?",
+    "de": "Wie ist das Wetter?",
+    "it": "Che tempo fa?",
+    "pt": "Como está o tempo?",
+    "ja": "天気はどうですか？",
+    "zh": "天气怎么样？",
+    "ko": "날씨가 어때요?",
+    "hi": "मौसम कैसा है?",
+    "ar": "كيف الطقس؟",
+    "ru": "Какая погода?",
+    "nl": "Hoe is het weer?"
+   },
+   "say": {
+    "ja": "tenki wa dou desu ka?",
+    "zh": "tiānqì zěnmeyàng?",
+    "ko": "nalssiga eottaeyo?",
+    "hi": "mausam kaisa hai?",
+    "ar": "kayfa at-taqs?",
+    "ru": "kakaya pogoda?"
+   }
+  },
+  {
+   "en": "will it rain tomorrow",
+   "also": [
+    "is it going to rain"
+   ],
+   "t": {
+    "es": "¿Va a llover mañana?",
+    "fr": "Il va pleuvoir demain ?",
+    "de": "Regnet es morgen?",
+    "it": "Domani pioverà?",
+    "pt": "Vai chover amanhã?",
+    "ja": "明日は雨が降りますか？",
+    "zh": "明天会下雨吗？",
+    "ko": "내일 비 와요?",
+    "hi": "क्या कल बारिश होगी?",
+    "ar": "هل ستمطر غدا؟",
+    "ru": "Завтра будет дождь?",
+    "nl": "Gaat het morgen regenen?"
+   },
+   "say": {
+    "ja": "ashita wa ame ga furimasu ka?",
+    "zh": "míngtiān huì xià yǔ ma?",
+    "ko": "naeil bi wayo?",
+    "hi": "kya kal baarish hogi?",
+    "ar": "hal satumtir ghadan?",
+    "ru": "zavtra budet dozhd?"
+   }
+  },
+  {
+   "en": "duck",
+   "also": [],
+   "t": {
+    "es": "pato",
+    "fr": "canard",
+    "de": "Ente",
+    "it": "anatra",
+    "pt": "pato",
+    "ja": "アヒル",
+    "zh": "鸭子",
+    "ko": "오리",
+    "hi": "बत्तख़",
+    "ar": "بطة",
+    "ru": "утка",
+    "nl": "eend"
+   },
+   "say": {
+    "ja": "ahiru",
+    "zh": "yāzi",
+    "ko": "ori",
+    "hi": "battakh",
+    "ar": "batta",
+    "ru": "utka"
+   }
+  },
+  {
+   "en": "sheep",
+   "also": [],
+   "t": {
+    "es": "oveja",
+    "fr": "mouton",
+    "de": "Schaf",
+    "it": "pecora",
+    "pt": "ovelha",
+    "ja": "羊",
+    "zh": "羊",
+    "ko": "양",
+    "hi": "भेड़",
+    "ar": "خروف",
+    "ru": "овца",
+    "nl": "schaap"
+   },
+   "say": {
+    "ja": "hitsuji",
+    "zh": "yáng",
+    "ko": "yang",
+    "hi": "bhed",
+    "ar": "kharoof",
+    "ru": "ovtsa"
+   }
+  },
+  {
+   "en": "goat",
+   "also": [],
+   "t": {
+    "es": "cabra",
+    "fr": "chèvre",
+    "de": "Ziege",
+    "it": "capra",
+    "pt": "cabra",
+    "ja": "ヤギ",
+    "zh": "山羊",
+    "ko": "염소",
+    "hi": "बकरी",
+    "ar": "ماعز",
+    "ru": "коза",
+    "nl": "geit"
+   },
+   "say": {
+    "ja": "yagi",
+    "zh": "shānyáng",
+    "ko": "yeomso",
+    "hi": "bakri",
+    "ar": "maa'iz",
+    "ru": "koza"
+   }
+  },
+  {
+   "en": "frog",
+   "also": [],
+   "t": {
+    "es": "rana",
+    "fr": "grenouille",
+    "de": "Frosch",
+    "it": "rana",
+    "pt": "sapo",
+    "ja": "カエル",
+    "zh": "青蛙",
+    "ko": "개구리",
+    "hi": "मेंढक",
+    "ar": "ضفدع",
+    "ru": "лягушка",
+    "nl": "kikker"
+   },
+   "say": {
+    "ja": "kaeru",
+    "zh": "qīngwā",
+    "ko": "gaeguri",
+    "hi": "mendhak",
+    "ar": "difda'",
+    "ru": "lyagushka"
+   }
+  },
+  {
+   "en": "turtle",
+   "also": [
+    "tortoise"
+   ],
+   "t": {
+    "es": "tortuga",
+    "fr": "tortue",
+    "de": "Schildkröte",
+    "it": "tartaruga",
+    "pt": "tartaruga",
+    "ja": "カメ",
+    "zh": "乌龟",
+    "ko": "거북",
+    "hi": "कछुआ",
+    "ar": "سلحفاة",
+    "ru": "черепаха",
+    "nl": "schildpad"
+   },
+   "say": {
+    "ja": "kame",
+    "zh": "wūguī",
+    "ko": "geobuk",
+    "hi": "kachhua",
+    "ar": "sulahfaa",
+    "ru": "cherepakha"
+   }
+  },
+  {
+   "en": "bee",
+   "also": [],
+   "t": {
+    "es": "abeja",
+    "fr": "abeille",
+    "de": "Biene",
+    "it": "ape",
+    "pt": "abelha",
+    "ja": "ハチ",
+    "zh": "蜜蜂",
+    "ko": "벌",
+    "hi": "मधुमक्खी",
+    "ar": "نحلة",
+    "ru": "пчела",
+    "nl": "bij"
+   },
+   "say": {
+    "ja": "hachi",
+    "zh": "mìfēng",
+    "ko": "beol",
+    "hi": "madhumakkhi",
+    "ar": "nahla",
+    "ru": "pchela"
+   }
+  },
+  {
+   "en": "butterfly",
+   "also": [],
+   "t": {
+    "es": "mariposa",
+    "fr": "papillon",
+    "de": "Schmetterling",
+    "it": "farfalla",
+    "pt": "borboleta",
+    "ja": "蝶",
+    "zh": "蝴蝶",
+    "ko": "나비",
+    "hi": "तितली",
+    "ar": "فراشة",
+    "ru": "бабочка",
+    "nl": "vlinder"
+   },
+   "say": {
+    "ja": "chou",
+    "zh": "húdié",
+    "ko": "nabi",
+    "hi": "titli",
+    "ar": "faraasha",
+    "ru": "babochka"
+   }
+  },
+  {
+   "en": "spider",
+   "also": [],
+   "t": {
+    "es": "araña",
+    "fr": "araignée",
+    "de": "Spinne",
+    "it": "ragno",
+    "pt": "aranha",
+    "ja": "クモ",
+    "zh": "蜘蛛",
+    "ko": "거미",
+    "hi": "मकड़ी",
+    "ar": "عنكبوت",
+    "ru": "паук",
+    "nl": "spin"
+   },
+   "say": {
+    "ja": "kumo",
+    "zh": "zhīzhū",
+    "ko": "geomi",
+    "hi": "makdi",
+    "ar": "'ankaboot",
+    "ru": "pauk"
+   }
+  },
+  {
+   "en": "ant",
+   "also": [],
+   "t": {
+    "es": "hormiga",
+    "fr": "fourmi",
+    "de": "Ameise",
+    "it": "formica",
+    "pt": "formiga",
+    "ja": "アリ",
+    "zh": "蚂蚁",
+    "ko": "개미",
+    "hi": "चींटी",
+    "ar": "نملة",
+    "ru": "муравей",
+    "nl": "mier"
+   },
+   "say": {
+    "ja": "ari",
+    "zh": "mǎyǐ",
+    "ko": "gaemi",
+    "hi": "cheenti",
+    "ar": "namla",
+    "ru": "muravey"
+   }
+  },
+  {
+   "en": "mosquito",
+   "also": [],
+   "t": {
+    "es": "mosquito",
+    "fr": "moustique",
+    "de": "Mücke",
+    "it": "zanzara",
+    "pt": "mosquito",
+    "ja": "蚊",
+    "zh": "蚊子",
+    "ko": "모기",
+    "hi": "मच्छर",
+    "ar": "بعوضة",
+    "ru": "комар",
+    "nl": "mug"
+   },
+   "say": {
+    "ja": "ka",
+    "zh": "wénzi",
+    "ko": "mogi",
+    "hi": "machchhar",
+    "ar": "ba'ooda",
+    "ru": "komar"
+   }
+  },
+  {
+   "en": "whale",
+   "also": [],
+   "t": {
+    "es": "ballena",
+    "fr": "baleine",
+    "de": "Wal",
+    "it": "balena",
+    "pt": "baleia",
+    "ja": "クジラ",
+    "zh": "鲸鱼",
+    "ko": "고래",
+    "hi": "व्हेल",
+    "ar": "حوت",
+    "ru": "кит",
+    "nl": "walvis"
+   },
+   "say": {
+    "ja": "kujira",
+    "zh": "jīngyú",
+    "ko": "gorae",
+    "hi": "vhel",
+    "ar": "hoot",
+    "ru": "kit"
+   }
+  },
+  {
+   "en": "dolphin",
+   "also": [],
+   "t": {
+    "es": "delfín",
+    "fr": "dauphin",
+    "de": "Delfin",
+    "it": "delfino",
+    "pt": "golfinho",
+    "ja": "イルカ",
+    "zh": "海豚",
+    "ko": "돌고래",
+    "hi": "डॉल्फ़िन",
+    "ar": "دلفين",
+    "ru": "дельфин",
+    "nl": "dolfijn"
+   },
+   "say": {
+    "ja": "iruka",
+    "zh": "hǎitún",
+    "ko": "dolgorae",
+    "hi": "dolfin",
+    "ar": "dulfeen",
+    "ru": "delfin"
+   }
+  },
+  {
+   "en": "penguin",
+   "also": [],
+   "t": {
+    "es": "pingüino",
+    "fr": "manchot",
+    "de": "Pinguin",
+    "it": "pinguino",
+    "pt": "pinguim",
+    "ja": "ペンギン",
+    "zh": "企鹅",
+    "ko": "펭귄",
+    "hi": "पेंगुइन",
+    "ar": "بطريق",
+    "ru": "пингвин",
+    "nl": "pinguïn"
+   },
+   "say": {
+    "ja": "pengin",
+    "zh": "qǐ'é",
+    "ko": "penggwin",
+    "hi": "penguin",
+    "ar": "batreeq",
+    "ru": "pingvin"
+   }
+  },
+  {
+   "en": "giraffe",
+   "also": [],
+   "t": {
+    "es": "jirafa",
+    "fr": "girafe",
+    "de": "Giraffe",
+    "it": "giraffa",
+    "pt": "girafa",
+    "ja": "キリン",
+    "zh": "长颈鹿",
+    "ko": "기린",
+    "hi": "जिराफ़",
+    "ar": "زرافة",
+    "ru": "жираф",
+    "nl": "giraf"
+   },
+   "say": {
+    "ja": "kirin",
+    "zh": "chángjǐnglù",
+    "ko": "girin",
+    "hi": "jiraaf",
+    "ar": "zaraafa",
+    "ru": "zhiraf"
+   }
+  },
+  {
+   "en": "zebra",
+   "also": [],
+   "t": {
+    "es": "cebra",
+    "fr": "zèbre",
+    "de": "Zebra",
+    "it": "zebra",
+    "pt": "zebra",
+    "ja": "シマウマ",
+    "zh": "斑马",
+    "ko": "얼룩말",
+    "hi": "ज़ेबरा",
+    "ar": "حمار وحشي",
+    "ru": "зебра",
+    "nl": "zebra"
+   },
+   "say": {
+    "ja": "shimauma",
+    "zh": "bānmǎ",
+    "ko": "eollukmal",
+    "hi": "zebra",
+    "ar": "himaar wahshi",
+    "ru": "zebra"
+   }
+  },
+  {
+   "en": "wolf",
+   "also": [],
+   "t": {
+    "es": "lobo",
+    "fr": "loup",
+    "de": "Wolf",
+    "it": "lupo",
+    "pt": "lobo",
+    "ja": "オオカミ",
+    "zh": "狼",
+    "ko": "늑대",
+    "hi": "भेड़िया",
+    "ar": "ذئب",
+    "ru": "волк",
+    "nl": "wolf"
+   },
+   "say": {
+    "ja": "ookami",
+    "zh": "láng",
+    "ko": "neukdae",
+    "hi": "bhediya",
+    "ar": "dhi'b",
+    "ru": "volk"
+   }
+  },
+  {
+   "en": "fox",
+   "also": [],
+   "t": {
+    "es": "zorro",
+    "fr": "renard",
+    "de": "Fuchs",
+    "it": "volpe",
+    "pt": "raposa",
+    "ja": "キツネ",
+    "zh": "狐狸",
+    "ko": "여우",
+    "hi": "लोमड़ी",
+    "ar": "ثعلب",
+    "ru": "лиса",
+    "nl": "vos"
+   },
+   "say": {
+    "ja": "kitsune",
+    "zh": "húli",
+    "ko": "yeou",
+    "hi": "lomdi",
+    "ar": "tha'lab",
+    "ru": "lisa"
+   }
+  },
+  {
+   "en": "deer",
+   "also": [],
+   "t": {
+    "es": "ciervo",
+    "fr": "cerf",
+    "de": "Hirsch",
+    "it": "cervo",
+    "pt": "veado",
+    "ja": "シカ",
+    "zh": "鹿",
+    "ko": "사슴",
+    "hi": "हिरण",
+    "ar": "أيل",
+    "ru": "олень",
+    "nl": "hert"
+   },
+   "say": {
+    "ja": "shika",
+    "zh": "lù",
+    "ko": "saseum",
+    "hi": "hiran",
+    "ar": "ayyil",
+    "ru": "olen"
+   }
+  },
+  {
+   "en": "squirrel",
+   "also": [],
+   "t": {
+    "es": "ardilla",
+    "fr": "écureuil",
+    "de": "Eichhörnchen",
+    "it": "scoiattolo",
+    "pt": "esquilo",
+    "ja": "リス",
+    "zh": "松鼠",
+    "ko": "다람쥐",
+    "hi": "गिलहरी",
+    "ar": "سنجاب",
+    "ru": "белка",
+    "nl": "eekhoorn"
+   },
+   "say": {
+    "ja": "risu",
+    "zh": "sōngshǔ",
+    "ko": "daramjwi",
+    "hi": "gilahri",
+    "ar": "sinjaab",
+    "ru": "belka"
+   }
+  },
+  {
+   "en": "owl",
+   "also": [],
+   "t": {
+    "es": "búho",
+    "fr": "hibou",
+    "de": "Eule",
+    "it": "gufo",
+    "pt": "coruja",
+    "ja": "フクロウ",
+    "zh": "猫头鹰",
+    "ko": "부엉이",
+    "hi": "उल्लू",
+    "ar": "بومة",
+    "ru": "сова",
+    "nl": "uil"
+   },
+   "say": {
+    "ja": "fukurou",
+    "zh": "māotóuyīng",
+    "ko": "bueongi",
+    "hi": "ullu",
+    "ar": "booma",
+    "ru": "sova"
+   }
+  },
+  {
+   "en": "eagle",
+   "also": [],
+   "t": {
+    "es": "águila",
+    "fr": "aigle",
+    "de": "Adler",
+    "it": "aquila",
+    "pt": "águia",
+    "ja": "ワシ",
+    "zh": "鹰",
+    "ko": "독수리",
+    "hi": "उकाब",
+    "ar": "نسر",
+    "ru": "орёл",
+    "nl": "adelaar"
+   },
+   "say": {
+    "ja": "washi",
+    "zh": "yīng",
+    "ko": "doksuri",
+    "hi": "ukaab",
+    "ar": "nasr",
+    "ru": "oryol"
+   }
+  },
+  {
+   "en": "parrot",
+   "also": [],
+   "t": {
+    "es": "loro",
+    "fr": "perroquet",
+    "de": "Papagei",
+    "it": "pappagallo",
+    "pt": "papagaio",
+    "ja": "オウム",
+    "zh": "鹦鹉",
+    "ko": "앵무새",
+    "hi": "तोता",
+    "ar": "ببغاء",
+    "ru": "попугай",
+    "nl": "papegaai"
+   },
+   "say": {
+    "ja": "oumu",
+    "zh": "yīngwǔ",
+    "ko": "aengmusae",
+    "hi": "tota",
+    "ar": "babbaghaa'",
+    "ru": "popugay"
+   }
+  },
+  {
+   "en": "hen",
+   "also": [],
+   "t": {
+    "es": "gallina",
+    "fr": "poule",
+    "de": "Huhn",
+    "it": "gallina",
+    "pt": "galinha",
+    "ja": "ニワトリ",
+    "zh": "鸡",
+    "ko": "닭",
+    "hi": "मुर्गी",
+    "ar": "دجاجة",
+    "ru": "курица",
+    "nl": "kip"
+   },
+   "say": {
+    "ja": "niwatori",
+    "zh": "jī",
+    "ko": "dak",
+    "hi": "murgi",
+    "ar": "dajaaja",
+    "ru": "kuritsa"
+   }
+  },
+  {
+   "en": "camel",
+   "also": [],
+   "t": {
+    "es": "camello",
+    "fr": "chameau",
+    "de": "Kamel",
+    "it": "cammello",
+    "pt": "camelo",
+    "ja": "ラクダ",
+    "zh": "骆驼",
+    "ko": "낙타",
+    "hi": "ऊँट",
+    "ar": "جمل",
+    "ru": "верблюд",
+    "nl": "kameel"
+   },
+   "say": {
+    "ja": "rakuda",
+    "zh": "luòtuo",
+    "ko": "nakta",
+    "hi": "oont",
+    "ar": "jamal",
+    "ru": "verblyud"
+   }
+  },
+  {
+   "en": "kangaroo",
+   "also": [],
+   "t": {
+    "es": "canguro",
+    "fr": "kangourou",
+    "de": "Känguru",
+    "it": "canguro",
+    "pt": "canguru",
+    "ja": "カンガルー",
+    "zh": "袋鼠",
+    "ko": "캥거루",
+    "hi": "कंगारू",
+    "ar": "كنغر",
+    "ru": "кенгуру",
+    "nl": "kangoeroe"
+   },
+   "say": {
+    "ja": "kangaruu",
+    "zh": "dàishǔ",
+    "ko": "kaenggeoru",
+    "hi": "kangaaroo",
+    "ar": "kanghar",
+    "ru": "kenguru"
+   }
+  },
+  {
+   "en": "panda",
+   "also": [],
+   "t": {
+    "es": "panda",
+    "fr": "panda",
+    "de": "Panda",
+    "it": "panda",
+    "pt": "panda",
+    "ja": "パンダ",
+    "zh": "熊猫",
+    "ko": "판다",
+    "hi": "पांडा",
+    "ar": "باندا",
+    "ru": "панда",
+    "nl": "panda"
+   },
+   "say": {
+    "ja": "panda",
+    "zh": "xióngmāo",
+    "ko": "panda",
+    "hi": "paanda",
+    "ar": "baanda",
+    "ru": "panda"
+   }
+  },
+  {
+   "en": "crocodile",
+   "also": [],
+   "t": {
+    "es": "cocodrilo",
+    "fr": "crocodile",
+    "de": "Krokodil",
+    "it": "coccodrillo",
+    "pt": "crocodilo",
+    "ja": "ワニ",
+    "zh": "鳄鱼",
+    "ko": "악어",
+    "hi": "मगरमच्छ",
+    "ar": "تمساح",
+    "ru": "крокодил",
+    "nl": "krokodil"
+   },
+   "say": {
+    "ja": "wani",
+    "zh": "èyú",
+    "ko": "ageo",
+    "hi": "magarmachchh",
+    "ar": "timsaah",
+    "ru": "krokodil"
+   }
+  },
+  {
+   "en": "octopus",
+   "also": [],
+   "t": {
+    "es": "pulpo",
+    "fr": "pieuvre",
+    "de": "Krake",
+    "it": "polpo",
+    "pt": "polvo",
+    "ja": "タコ",
+    "zh": "章鱼",
+    "ko": "문어",
+    "hi": "ऑक्टोपस",
+    "ar": "أخطبوط",
+    "ru": "осьминог",
+    "nl": "octopus"
+   },
+   "say": {
+    "ja": "tako",
+    "zh": "zhāngyú",
+    "ko": "muneo",
+    "hi": "oktopas",
+    "ar": "akhtaboot",
+    "ru": "osminog"
+   }
+  },
+  {
+   "en": "pet",
+   "also": [
+    "pets"
+   ],
+   "t": {
+    "es": "mascota",
+    "fr": "animal de compagnie",
+    "de": "Haustier",
+    "it": "animale domestico",
+    "pt": "animal de estimação",
+    "ja": "ペット",
+    "zh": "宠物",
+    "ko": "반려동물",
+    "hi": "पालतू जानवर",
+    "ar": "حيوان أليف",
+    "ru": "домашнее животное",
+    "nl": "huisdier"
+   },
+   "say": {
+    "ja": "petto",
+    "zh": "chǒngwù",
+    "ko": "ballyeodongmul",
+    "hi": "paaltoo jaanvar",
+    "ar": "hayawaan aleef",
+    "ru": "domashneye zhivotnoye"
+   }
+  },
+  {
+   "en": "do you have a pet",
+   "also": [
+    "do you have pets"
+   ],
+   "t": {
+    "es": "¿Tiene mascota?",
+    "fr": "Vous avez un animal de compagnie ?",
+    "de": "Haben Sie ein Haustier?",
+    "it": "Ha un animale domestico?",
+    "pt": "Você tem animal de estimação?",
+    "ja": "ペットを飼っていますか？",
+    "zh": "你养宠物吗？",
+    "ko": "반려동물 있어요?",
+    "hi": "क्या आपके पास पालतू जानवर है?",
+    "ar": "هل عندك حيوان أليف؟",
+    "ru": "У вас есть домашнее животное?",
+    "nl": "Heeft u een huisdier?"
+   },
+   "say": {
+    "ja": "petto o katte imasu ka?",
+    "zh": "nǐ yǎng chǒngwù ma?",
+    "ko": "ballyeodongmul isseoyo?",
+    "hi": "kya aapke paas paaltoo jaanvar hai?",
+    "ar": "hal 'indak hayawaan aleef?",
+    "ru": "u vas yest domashneye zhivotnoye?"
+   }
+  },
+  {
+   "en": "i have a dog",
+   "also": [],
+   "t": {
+    "es": "Tengo un perro",
+    "fr": "J'ai un chien",
+    "de": "Ich habe einen Hund",
+    "it": "Ho un cane",
+    "pt": "Tenho um cachorro",
+    "ja": "犬を飼っています",
+    "zh": "我养了一只狗",
+    "ko": "강아지를 키워요",
+    "hi": "मेरे पास एक कुत्ता है",
+    "ar": "عندي كلب",
+    "ru": "У меня есть собака",
+    "nl": "Ik heb een hond"
+   },
+   "say": {
+    "ja": "inu o katte imasu",
+    "zh": "wǒ yǎng le yì zhī gǒu",
+    "ko": "gangajireul kiwoyo",
+    "hi": "mere paas ek kutta hai",
+    "ar": "'indi kalb",
+    "ru": "u menya yest sobaka"
+   }
+  },
+  {
+   "en": "i have a cat",
+   "also": [],
+   "t": {
+    "es": "Tengo un gato",
+    "fr": "J'ai un chat",
+    "de": "Ich habe eine Katze",
+    "it": "Ho un gatto",
+    "pt": "Tenho um gato",
+    "ja": "猫を飼っています",
+    "zh": "我养了一只猫",
+    "ko": "고양이를 키워요",
+    "hi": "मेरे पास एक बिल्ली है",
+    "ar": "عندي قطة",
+    "ru": "У меня есть кошка",
+    "nl": "Ik heb een kat"
+   },
+   "say": {
+    "ja": "neko o katte imasu",
+    "zh": "wǒ yǎng le yì zhī māo",
+    "ko": "goyangireul kiwoyo",
+    "hi": "mere paas ek billi hai",
+    "ar": "'indi qitta",
+    "ru": "u menya yest koshka"
+   }
+  }
+ ]
+}

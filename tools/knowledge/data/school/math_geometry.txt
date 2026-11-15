@@ -97,7 +97,6 @@ who discovered the pythagorean theorem | was pythagoras the first to know the th
 what is pi exactly | why is pi 3.14 | what does pi mean => Pi (π) is the circumference of any circle divided by its diameter, about 3.14159. It's irrational, so its digits never end or repeat. 22/7 is a handy rough fraction for it.
 how many digits of pi are there | does pi ever end | how many digits of pi do we know => Pi never ends. Computers have worked out trillions of digits, but you only need a few for most math: 3.14 or 3.1416 is plenty for school.
 what are the first digits of pi | pi to 10 decimal places => Pi to 10 decimal places is 3.1415926535.
-when is pi day | why is pi day on march 14 | what is pi day => Pi Day is March 14 (3/14), because pi starts 3.14. Lots of people celebrate by eating pie.
 how do you find the diameter from the radius | radius to diameter | diameter from radius => Double the radius: d = 2r. A radius of 7 cm means a diameter of 14 cm.
 what is an inscribed angle | inscribed angle theorem | angle at the circumference => An inscribed angle has its vertex on the circle. It's half the central angle that cuts off the same arc, so an arc with a 100° central angle has a 50° inscribed angle.
 what is a central angle | define central angle | central angle of a circle => A central angle has its vertex at the center of a circle and its arms are radii. It has the same measure as the arc it cuts off.

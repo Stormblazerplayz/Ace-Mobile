@@ -538,6 +538,63 @@ MODULES.update({
     },
 })
 
+# More standard modules and popular libraries. Third-party names are checked when the library is installed.
+MODULES.update({
+    "asyncio": {
+        "run": "asyncio.run(main()) starts the event loop, runs the async function main until it finishes, then closes the loop. Call it once at the top of your program.",
+        "sleep": "await asyncio.sleep(1) pauses an async function for 1 second without blocking other tasks, unlike time.sleep.",
+        "gather": "await asyncio.gather(a(), b()) runs several coroutines at the same time and returns all their results in a list.",
+        "create_task": "asyncio.create_task(coro()) schedules a coroutine to run in the background and returns a Task you can await later.",
+        "wait_for": "await asyncio.wait_for(coro(), timeout=5) gives up with TimeoutError if the coroutine takes longer than 5 seconds.",
+        "Queue": "asyncio.Queue passes items between async tasks safely: await q.put(x) in one task and await q.get() in another.",
+        "TaskGroup": "async with asyncio.TaskGroup() as tg: (Python 3.11+) starts several tasks with tg.create_task and waits for all of them, cancelling the rest if one fails.",
+    },
+    "sqlite3": {
+        "connect": "sqlite3.connect('game.db') opens (or creates) a small database file. Use conn.execute with SQL and ? placeholders, then conn.commit() to save changes.",
+        "Row": "Setting conn.row_factory = sqlite3.Row lets you read query results by column name, like row['name'].",
+    },
+    "datetime.extra": {
+        "MINYEAR": "datetime.MINYEAR and datetime.MAXYEAR are the smallest and largest years datetime supports, 1 and 9999.",
+    },
+    "random.extra": {
+        "triangular": "random.triangular(low, high, mode) gives a random float that is more likely to be near mode.",
+        "getrandbits": "random.getrandbits(k) returns a random integer made of k random bits.",
+    },
+    "pathlib.extra": {
+        "PurePath": "pathlib.PurePath handles path text without touching the disk, useful for splitting and joining paths. Path adds real file operations.",
+    },
+    "requests": {
+        "get": "requests.get(url) downloads a web page or API result. Check r.status_code, then read r.text or r.json(). Install it with pip install requests.",
+        "post": "requests.post(url, json=data) sends data to a server, as many web APIs expect.",
+        "Session": "requests.Session() reuses the connection and cookies across many requests, which is faster for talking to the same site.",
+        "exceptions": "requests.exceptions holds errors like ConnectionError and Timeout. Pass timeout=10 to requests.get so it does not wait forever.",
+    },
+    "numpy": {
+        "array": "numpy.array([1, 2, 3]) makes a fast array. Math works on every element at once, so arr * 2 doubles them all. Most people import numpy as np.",
+        "zeros": "numpy.zeros((3, 4)) makes a 3 by 4 array filled with zeros; numpy.ones does the same with ones.",
+        "arange": "numpy.arange(0, 10, 2) makes an array like range: 0, 2, 4, 6, 8.",
+        "linspace": "numpy.linspace(0, 1, 5) makes 5 evenly spaced numbers from 0 to 1, including both ends.",
+        "mean": "numpy.mean(arr) gives the average of an array. There are also numpy.sum, numpy.max, numpy.min and numpy.std.",
+        "reshape": "numpy.reshape(arr, (2, 3)), or arr.reshape(2, 3), changes an array's shape without changing its data.",
+        "dot": "numpy.dot(a, b) multiplies vectors or matrices. For matrices you can also write a @ b.",
+        "random": "numpy.random.default_rng() makes a random generator: rng.integers(1, 7, size=10) rolls ten dice.",
+        "where": "numpy.where(arr > 0, arr, 0) picks values element by element: keep positives, replace the rest with 0.",
+        "concatenate": "numpy.concatenate([a, b]) joins arrays end to end.",
+    },
+    "pandas": {
+        "DataFrame": "pandas.DataFrame is a table with labelled rows and columns, like a spreadsheet in Python. Most people import pandas as pd.",
+        "Series": "pandas.Series is one labelled column of data, what you get from df['score'].",
+        "read_csv": "pandas.read_csv('data.csv') loads a CSV file into a DataFrame. df.head() shows the first rows.",
+        "concat": "pandas.concat([df1, df2]) stacks DataFrames on top of each other (or side by side with axis=1).",
+        "merge": "pandas.merge(left, right, on='id') joins two tables where a column matches, like a database join.",
+        "to_datetime": "pandas.to_datetime(df['date']) turns text dates into real dates you can sort and do math with.",
+    },
+    "PIL.Image": {
+        "open": "PIL.Image.open('photo.png') opens an image with Pillow (pip install pillow). Then img.resize, img.rotate and img.save work on it.",
+        "new": "PIL.Image.new('RGB', (200, 100), 'white') makes a blank image you can draw on with PIL.ImageDraw.",
+    },
+})
+
 
 def check(obj, name):
     if not hasattr(obj, name):
@@ -593,6 +650,19 @@ def main():
     add("coding.python.sets", ["what does set.remove do in python", "remove vs discard python set"], SET_REMOVE)
     for mod, funcs in MODULES.items():
         mod = mod.replace(".extra", "")
+        if mod.split(".")[0] in ("requests", "numpy", "pandas", "PIL"):
+            try:
+                module = importlib.import_module(mod)
+            except ImportError:
+                print(f"note: {mod} is not installed here, names not checked", file=sys.stderr)
+                module = None
+            for f, a in funcs.items():
+                if module is not None:
+                    check(module, f)
+                full = f"{mod}.{f}"
+                add("coding.python.libraries", [f"what does {full.lower()} do in python", f"python {mod.lower()} {f.lower().replace('_', ' ')}",
+                                                f"how do i use {full.lower()}"], a)
+            continue
         try:
             module = importlib.import_module(mod)
             if mod == "tkinter":

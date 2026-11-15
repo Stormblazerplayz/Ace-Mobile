@@ -22,7 +22,7 @@ how do i add multiple cursors in vs code | alt click vscode | type in many place
 how do i format my code in vs code | shift alt f | auto format vscode => Press Shift + Alt + F (Shift + Option + F on Mac) to format the whole document. It needs a formatter for that language.
 how do i go to where a function is defined | f12 vscode | go to definition => Click the function name and press F12 to jump to its definition. Alt + F12 peeks at it in a small window.
 how do i find everywhere a function is used | shift f12 vscode => Click the name and press Shift + F12 to see all references to it.
-how do i rename a variable everywhere in vs code | f2 vscode | rename symbol => Click the variable and press F2, type the new name and press Enter. VS Code renames it everywhere it's used, if the language supports it.
+how do i rename a variable everywhere in vs code | f2 vscode | rename symbol vs code => Click the variable and press F2, type the new name and press Enter. VS Code renames it everywhere it's used, if the language supports it.
 how do i go to a line number in vs code | ctrl g vscode => Press Ctrl + G (Control + G on Mac), type the line number and press Enter.
 how do i jump to a function in a file | ctrl shift o vscode | go to symbol => Press Ctrl + Shift + O to list functions and other symbols in the file and jump to one.
 how do i get autocomplete suggestions | ctrl space vscode => Press Ctrl + Space to show IntelliSense suggestions at the cursor.

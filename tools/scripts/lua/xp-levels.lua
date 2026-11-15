@@ -2,7 +2,7 @@
 -- @category Pickups and money
 -- @kind Script
 -- @where Put this Script in ServerScriptService; other server scripts can give XP by firing the BindableEvent ServerStorage.AddXP with (player, amount).
--- @keywords xp, experience points, level up, levels system, xp bar, gain levels
+-- @keywords xp, experience points, level up, levels system, experience levels system, gain levels
 -- @about Adds Level to the leaderboard and an XP number; when you get enough XP you level up and the next level needs more.
 
 local Players = game:GetService("Players")

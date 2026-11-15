@@ -1,0 +1,105 @@
+# tag: plants.basics
+what do plants need to grow | what does a plant need to survive | what do plants need to live => Most plants need sunlight, water, air (carbon dioxide), nutrients from the soil and the right temperature. Roots also need some air in the soil.
+what are the parts of a plant | name the parts of a plant => The main parts of a plant are the roots, stem, leaves, flowers, fruits and seeds. Each part has its own job.
+what do roots do | why do plants have roots | what is the job of a root => Roots hold the plant in the ground and soak up water and nutrients from the soil. Some, like carrots, also store food.
+what does the stem do | what is the job of a stem => The stem holds the plant up and carries water from the roots up to the leaves, and sugar from the leaves to the rest of the plant.
+what do leaves do | why do plants have leaves | what is the job of a leaf => Leaves are the plant's food factories. They catch sunlight and use it to turn water and carbon dioxide into sugar, giving off oxygen.
+what is chlorophyll | why are plants green | why are leaves green => Chlorophyll is the green pigment in leaves that captures sunlight for photosynthesis. It absorbs red and blue light and reflects green, so leaves look green.
+how do plants make food | how do plants eat => Plants make their own food by photosynthesis. Using sunlight, they turn carbon dioxide from the air and water from the soil into sugar, and release oxygen.
+what is the formula for photosynthesis | photosynthesis equation => Carbon dioxide plus water, using light energy, makes glucose (sugar) plus oxygen. In symbols: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.
+where does photosynthesis happen | what are chloroplasts => Photosynthesis happens in chloroplasts, tiny green parts inside plant cells, mostly in the leaves.
+do plants breathe | do plants need oxygen => Yes. Plants take in carbon dioxide for photosynthesis, but their cells also use oxygen to burn sugar for energy, just like ours, day and night.
+what are stomata | how do leaves breathe => Stomata are tiny pores, mostly on the underside of leaves. They open to let in carbon dioxide and let out oxygen and water vapor.
+what is transpiration | how does water get to the top of a tree => Transpiration is water evaporating from leaves. As it escapes, it pulls more water up from the roots through thin tubes, like sucking a straw, even in very tall trees.
+what are xylem and phloem | how does water move in a plant => Xylem tubes carry water and minerals up from the roots. Phloem tubes carry sugar made in the leaves to other parts of the plant.
+why do plants grow toward the light | what is phototropism => Plants bend toward light because of a hormone called auxin. It collects on the shady side of the stem and makes those cells grow longer, tilting the plant toward the light.
+how do roots know to grow down | what is gravitropism => Roots sense gravity with tiny heavy grains in their cells, and hormones make them grow downward while shoots grow up. This is called gravitropism.
+can plants grow without sunlight | can plants grow in the dark => Most plants need light to make food. Seeds can sprout in the dark using stored food, but the seedlings grow pale and spindly and die without light.
+can plants grow without soil | what is hydroponics => Yes. Hydroponics grows plants in water mixed with nutrients instead of soil. Soil isn't needed, just the water, nutrients, light and air it normally provides.
+do plants grow at night | when do plants grow the most => Many plants actually do much of their growing at night, using sugar they made during the day.
+do plants sleep | do plants rest at night => Plants don't sleep like animals, but they have daily rhythms. Some fold their leaves at night, and they stop photosynthesis in the dark.
+can plants feel pain | do plants have feelings => Plants have no brain or nerves, so scientists don't think they feel pain. They can still sense touch, light, damage and chemicals and respond to them.
+can plants hear sound | do plants respond to music => Some studies suggest plants can respond to vibrations, like the sound of a caterpillar chewing. Claims that music makes plants grow better aren't well proven.
+do plants talk to each other | how do plants communicate => In a way. Plants release chemicals into the air when attacked that can warn nearby plants, and roots connect through fungi underground that pass along nutrients and signals.
+what is a plant cell | how are plant cells different from animal cells => Plant cells have a stiff cell wall, chloroplasts for photosynthesis and a big water-filled sac called a vacuole. Animal cells have none of these.
+how many kinds of plants are there | how many plant species are there => Scientists have named around 390,000 species of plants, and most of them are flowering plants.
+what is the difference between annual and perennial plants | what is a perennial plant | what does annual plant mean => Annuals live for one growing season, then die after making seeds. Perennials live for many years, often dying back in winter and regrowing in spring.
+what is a monocot and a dicot | difference between monocots and dicots => Monocots, like grasses and lilies, sprout with one seed leaf and have long leaves with parallel veins. Dicots, like beans and roses, sprout with two seed leaves and have branching veins.
+what is a weed | why are weeds bad => A weed is just a plant growing where people don't want it. Weeds compete with crops and garden plants for water, light and nutrients.
+are mushrooms plants | is a fungus a plant => No. Mushrooms are fungi, a separate kingdom of life. Fungi can't make their own food from sunlight and are actually more closely related to animals than plants.
+is seaweed a plant | what is seaweed => Most seaweed is algae, not true plants. It makes food from sunlight like plants, but it has no real roots, stems or leaves.
+what are algae | is algae a plant => Algae are simple living things that make food from sunlight. They range from tiny single cells in ponds to giant kelp, and most aren't true plants.
+what is moss | how does moss grow => Moss is a small, simple plant with no flowers, seeds or true roots. It soaks up water through its leaves and spreads by tiny spores, so it loves damp, shady places.
+what are ferns | do ferns have seeds => Ferns are ancient plants with feathery leaves called fronds. They don't make flowers or seeds and instead spread by spores found on the underside of their leaves.
+
+# tag: plants.flowers-seeds
+why do plants have flowers | what is the purpose of a flower => Flowers are how many plants reproduce. They attract pollinators like bees, and once pollinated, they make seeds and often fruit.
+what are the parts of a flower | what is a stamen and pistil => A flower has petals to attract pollinators, stamens that make pollen, and a pistil in the middle that collects pollen and holds the eggs that become seeds.
+what is pollination | how does pollination work => Pollination is when pollen moves from the male part of a flower to the female part, usually carried by insects, birds, bats or wind. This lets the flower make seeds.
+what is pollen | why is pollen yellow => Pollen is a fine powder made by flowers that carries the plant's male cells. Many pollens are yellow, but they can be white, orange, red or even blue.
+which animals pollinate plants | what are pollinators => Pollinators include bees, butterflies, moths, flies, beetles, hummingbirds and bats. Some plants, like grasses and pine trees, are pollinated by wind.
+why do flowers smell good | why do flowers have a scent => Flowers make scents to attract pollinators. Some smell sweet to bees and moths, while others smell like rotting meat to attract flies.
+why are flowers colorful | why are flowers different colors => Bright colors guide pollinators to the flower. Bees love blue and purple, hummingbirds love red, and many flowers have ultraviolet patterns we can't see.
+what is germination | how does a seed sprout | what makes a seed start growing => Germination is when a seed wakes up and sprouts. Water soaks in, the seed swells, a root grows down and a shoot pushes up toward the light.
+what is inside a seed | what are the parts of a seed => A seed has a tiny baby plant called an embryo, stored food to help it start growing, and a tough seed coat that protects it.
+how do seeds travel | how are seeds spread => Seeds spread by wind (like dandelions), water (like coconuts), animals eating fruit and pooping the seeds, sticking to fur (like burrs), or by pods that burst open.
+what is the oldest seed ever grown | can old seeds still grow => A date palm seed about 2,000 years old, found in Israel, sprouted in 2005. Scientists also grew a plant from 32,000-year-old fruit tissue frozen in Siberian ice.
+what is the difference between a fruit and a vegetable | how do you know if something is a fruit => In science, a fruit is the part that grows from a flower and holds seeds. Vegetables are other plant parts, like roots, stems and leaves. Cooks group them by taste instead.
+is a pepper a fruit | what vegetables are actually fruits => Yes. Cucumbers, peppers, pumpkins, eggplants, avocados, beans and corn kernels are all fruits to scientists, because they grow from flowers and hold seeds.
+why isnt a strawberry a berry | are strawberry seeds on the outside => A strawberry isn't a true berry. Its seeds are on the outside, and each tiny "seed" is actually its own little fruit. Bananas, grapes and tomatoes are true berries.
+what is a nut | is an almond a nut => A true nut is a hard-shelled fruit with one seed, like acorns and hazelnuts. Almonds, cashews and pistachios are actually seeds of other fruits.
+why do apples float | do apples float in water => Apples float because about a quarter of an apple is air, trapped between its cells.
+
+# tag: plants.records
+what is the tallest tree in the world | how tall is hyperion => The tallest known tree is a coast redwood named Hyperion in California, about 116 m (380 ft) tall. Its exact location is kept secret to protect it.
+what is the biggest tree in the world | how big is general sherman => The biggest tree by volume is General Sherman, a giant sequoia in California. It's about 84 m tall and over 1,400 cubic metres of wood.
+what is the oldest tree in the world | how old is the oldest tree => One of the oldest known trees is a Great Basin bristlecone pine in California called Methuselah, about 4,800 years old. Its location is kept secret.
+what is pando | what is the biggest living thing => Pando is a forest of quaking aspen trees in Utah that are all one plant connected by roots. It covers about 43 hectares and may be one of the heaviest living things on Earth.
+what is the biggest flower in the world | what is rafflesia => Rafflesia arnoldii has the biggest single flower, about 1 m across. It lives in Southeast Asian rainforests, smells like rotting meat and has no leaves or stems.
+what is the corpse flower | why does the corpse flower smell => The titan arum, or corpse flower, has a huge flower spike up to about 3 m tall. It blooms rarely and smells like rotting meat to attract flies and beetles.
+what is the smallest flowering plant | what is the tiniest plant => Wolffia, a kind of duckweed, is the smallest flowering plant. Each plant is about 1 mm across, smaller than a grain of rice.
+what is the fastest growing plant | how fast does bamboo grow => Some bamboo can grow about 90 cm (35 in) in a single day, making it the fastest growing plant.
+is bamboo a tree | what is bamboo => Bamboo isn't a tree, it's a giant grass. Some bamboo grows over 30 m tall.
+what plant has the biggest leaves | biggest leaf in the world => The giant Amazon water lily has round floating leaves up to about 3 m across, strong enough to hold a small child if weight is spread out.
+what is the biggest seed in the world | what is a coco de mer => The coco de mer palm from the Seychelles has the biggest seed of any plant, weighing up to about 18 kg.
+
+# tag: plants.special
+how does a venus flytrap work | how does a flytrap catch bugs => A Venus flytrap has tiny trigger hairs inside its trap. If two hairs are touched within about 20 seconds, the trap snaps shut, then digests the insect over several days.
+where do venus flytraps grow in the wild | where do venus flytraps come from => Wild Venus flytraps grow only in a small area of bogs in North and South Carolina, within about 120 km of Wilmington, North Carolina.
+why do carnivorous plants eat bugs | what are carnivorous plants => Carnivorous plants like flytraps, pitcher plants and sundews grow in poor, boggy soil. They catch insects to get nutrients, especially nitrogen, that the soil lacks.
+how do pitcher plants catch bugs | how does a pitcher plant trap insects => Pitcher plants have slippery, cup-shaped leaves filled with liquid. Insects slip in, can't climb out and get digested.
+what is a sundew | how do sundews catch insects => Sundews have leaves covered with sticky, glistening drops that look like dew. Insects get stuck, and the leaf slowly curls around them.
+what plant closes when you touch it | what is mimosa pudica => The sensitive plant, Mimosa pudica, quickly folds its leaves when touched. Water leaves certain cells, making them go limp, probably to scare off hungry animals.
+do sunflowers follow the sun | why do sunflowers face east => Young sunflowers turn to follow the sun across the sky each day. Grown-up flowers stop moving and mostly face east, which warms them in the morning and attracts more bees.
+how do cactuses survive in the desert | how do cacti store water => Cacti store water in thick, spongy stems with a waxy coating. Their spines are leaves that lose little water, shade the plant and keep animals away.
+can you drink water from a cactus | is cactus water safe to drink => Not safely, in most cases. The juice in many cacti is bitter and acidic and can make you sick, which makes dehydration worse.
+what is poison ivy | how do you identify poison ivy => Poison ivy has leaves in groups of three, which is why people say "leaves of three, let it be". Its oil, urushiol, causes an itchy, blistering rash on most people.
+what should i do if i touch poison ivy | how do you treat a poison ivy rash => Wash the skin with soap and cool water as soon as you can, and wash clothes and anything that touched it. Don't scratch. See a doctor if the rash is on your face or very bad.
+why do stinging nettles sting | what is a stinging nettle => Stinging nettles are covered in tiny hollow hairs that break off and inject chemicals into your skin, causing a burning, itchy rash that usually fades in a day.
+what plants are poisonous to humans | which plants are dangerous => Some dangerous plants are oleander, foxglove, lily of the valley, deadly nightshade, castor beans, poison hemlock and water hemlock. Never eat a wild plant unless an expert says it's safe.
+what is giant hogweed | why is giant hogweed dangerous => Giant hogweed sap makes skin super sensitive to sunlight, causing painful burns and blisters. Don't touch it, and tell an adult if you see it.
+what is the sap in plants | what is tree sap => Sap is the watery fluid that moves through a plant, carrying water, minerals and sugar. Maple syrup comes from boiling down maple tree sap.
+how is maple syrup made | how much sap makes maple syrup => In early spring, sap is collected from sugar maple trees and boiled to evaporate the water. It takes about 40 liters of sap to make 1 liter of syrup.
+where does rubber come from | how is natural rubber made => Natural rubber comes from latex, a milky sap from rubber trees. Workers cut thin grooves in the bark and collect the latex that drips out.
+where does cotton come from | how does cotton grow => Cotton comes from fluffy fibers around the seeds of the cotton plant. When the seed pod, called a boll, bursts open, the fluffy cotton is picked and spun into thread.
+where does paper come from | how is paper made from trees => Most paper is made from wood. Logs are chipped and mashed into pulp with water, then the pulp is spread out, pressed and dried into sheets.
+
+# tag: plants.food-plants
+how do bananas grow | is a banana tree really a tree => Banana plants aren't trees. They're giant herbs with stems made of tightly rolled leaves. Bananas grow in big bunches that point upward.
+why dont bananas have seeds | how do bananas reproduce => The bananas we eat have only tiny, useless seeds. They're grown from cuttings of other banana plants, so most are clones of one variety called Cavendish.
+how do pineapples grow | how long does a pineapple take to grow => A pineapple grows from the middle of a spiky plant close to the ground, one per plant. It takes about 18 months to 2 years for one to be ready.
+how do peanuts grow | do peanuts grow underground => Peanuts grow underground. After the flower is pollinated, a stalk bends down and pushes into the soil, where the peanut pod forms.
+is a potato a root | are potatoes roots or stems | what are potato eyes => A potato is a tuber, a swollen underground stem that stores food. The "eyes" are buds that can sprout new plants.
+where did potatoes come from | where were tomatoes first grown => Potatoes and tomatoes both came from South America. Potatoes were first grown in the Andes mountains thousands of years ago.
+how does corn grow | what is corn silk for => Each kernel of corn grows from a separate flower, and each strand of silk is connected to one kernel. Pollen has to land on a silk for its kernel to grow.
+where does coffee come from | are coffee beans beans => Coffee beans are the seeds of red fruits called coffee cherries, grown on shrubs in tropical places. They're roasted to make coffee.
+is cinnamon tree bark | how is cinnamon made => Cinnamon is the dried inner bark of cinnamon trees. It curls up into rolls called quills as it dries.
+how do cashews grow | why are cashews never sold in shells => Each cashew grows hanging below a fruit called a cashew apple. Its shell contains an oil related to poison ivy, so cashews are always shelled and roasted before sale.
+how is sugar made | what plants does sugar come from => Most sugar comes from sugarcane, a tall grass, or from sugar beets. The juice is squeezed out, cleaned and boiled until sugar crystals form.
+how does rice grow | why are rice fields flooded => Rice is a grass grown in flooded fields called paddies in many places. The water helps keep weeds down, and rice can handle it while most weeds can't.
+what makes peppers spicy | what is capsaicin => Capsaicin, a chemical mostly in the white ribs inside peppers, makes them spicy. It tricks nerves into feeling heat. Birds can't feel it, so they spread the seeds.
+how do strawberries grow | what are strawberry runners => Strawberries grow on low plants that send out long stems called runners. Where a runner touches the soil, a new baby plant takes root.
+what is wheat | what is flour made from => Wheat is a grass whose seeds, called grains, are ground up to make flour for bread, pasta and cereal. It's one of the most grown crops in the world.
+what are legumes | what plants are legumes => Legumes are plants that grow seeds in pods, like beans, peas, lentils and peanuts. Bacteria in their roots pull nitrogen from the air and help fertilize the soil.
+how big can a pumpkin get | how long do pumpkins take to grow | biggest pumpkin ever => Pumpkins grow on long vines and take about 3 to 4 months to ripen. Giant pumpkins grown for contests can weigh over 1,000 kg.
+how does a coconut grow | is a coconut a nut => A coconut isn't a true nut. It's a fruit called a drupe with a hard shell around a seed. Coconuts can float across oceans and sprout on new beaches.

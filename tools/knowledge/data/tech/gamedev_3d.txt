@@ -1,0 +1,27 @@
+# tag: tech.3d.gamedev
+what is pbr texturing | physically based rendering materials => PBR materials use maps like base color, roughness, metallic and normal so surfaces react to light realistically in any engine.
+what is substance painter | substance 3d painter => Substance 3D Painter is Adobe's app for painting textures right onto 3D models, with smart materials for rust, dirt and wear.
+what is low poly | low poly art style => Low poly models use few polygons, often with flat colors. They run fast in games and give a clean, stylized look.
+what is texel density | texture resolution consistency => Texel density is how many texture pixels cover each part of a model. Keeping it even stops some parts looking blurry next to sharp ones.
+how do i mark seams in blender | where to cut uvs blender => In Edit Mode, select edges, press Ctrl+E and choose Mark Seam, then unwrap. Seams tell Blender where to cut the model flat, like a paper pattern.
+what is a trim sheet | trim texture => A trim sheet is one texture with strips of details, like edges and panels, reused across many models to save memory in games.
+what is polycount | triangles vs quads for games => Polycount is how many polygons a model has. Game engines turn everything into triangles, so game artists usually count tris.
+what is zbrush | zbrush sculpting => ZBrush is a professional sculpting app used for detailed characters and creatures in films and games.
+what is maya | autodesk maya => Maya is professional 3D software from Autodesk, widely used for animation and effects in films and big games.
+what is 3ds max | autodesk 3ds max => 3ds Max is Autodesk's 3D modeling app, popular for game assets and architecture visuals. It runs on Windows only.
+what is cinema 4d | c4d motion graphics => Cinema 4D is 3D software from Maxon known for motion graphics, like animated logos and titles.
+what is houdini | houdini software => Houdini is procedural 3D software used for complex effects like explosions, water and destruction in movies and games.
+what is godot | godot engine => Godot is a free, open-source game engine for 2D and 3D games. It uses its own easy language called GDScript, and C# too.
+what is unity engine | unity game engine => Unity is a popular game engine for 2D, 3D and mobile games, scripted in C#. Many indie and phone games are made with it.
+what is unreal engine | unreal engine 5 => Unreal Engine is Epic's game engine known for realistic graphics, used for Fortnite and many big games. You can code in C++ or use visual Blueprints.
+is unreal engine free | unreal royalty => As of 2025, Unreal Engine is free to use, and you only pay a 5 percent royalty after a game earns over 1 million dollars.
+what is gamemaker | gamemaker studio => GameMaker is an engine made for 2D games, with its own simple language. It's free for non-commercial use.
+what is mixamo | free character animations => Mixamo is a free Adobe site that automatically rigs humanoid characters and gives you ready-made animations like running and jumping.
+what is vroid studio | make an anime avatar 3d => VRoid Studio is a free app for making anime-style 3D characters with sliders and hair tools, often used for VTuber avatars.
+what is sketchfab | view 3d models online => Sketchfab is a website for sharing and viewing 3D models in your browser, with many free downloadable models.
+what is gaussian splatting | 3d gaussian splats => Gaussian splatting captures a real place as millions of soft colored blobs, giving very realistic 3D views from photos or video. It's not a normal mesh, so it's harder to edit.
+what is polycam | 3d scanning app phone => Polycam is a phone app for 3D scanning objects and rooms using photos or the iPhone's LiDAR sensor.
+what is kitbashing | kitbash 3d => Kitbashing means building new models by combining ready-made parts, a fast way to make sci-fi ships, buildings or robots.
+what is marvelous designer | 3d clothes simulation => Marvelous Designer makes 3D clothes by sewing virtual fabric patterns together, like real tailoring.
+what is a game asset | game ready model => A game asset is anything in a game, like a model, texture, sound or animation. Game-ready models have clean topology, UVs and sensible polycounts.
+what is a vtuber | how do vtubers work => A VTuber streams as an animated avatar that copies their face and body movements using a webcam or phone tracking.

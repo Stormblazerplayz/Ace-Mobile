@@ -4,7 +4,8 @@
 Drops any wording in a science file that is already used (or asks the same thing with the
 same important words) in Ace's older bank or in another area's files. An entry left with
 fewer than 2 wordings is dropped and listed, so it can be reworded by hand.
-Clashes between two science files are only reported, not fixed.
+Science files are processed in a fixed order (generated element, compound and space files
+first), and a later science file also loses wordings that clash with an earlier one.
 
 Run from the repo root:  python3 tools/knowledge/gen/science_clean.py
 """
@@ -40,9 +41,18 @@ def others():
     return words, keys
 
 
+ORDER = ["gen_elements.txt", "gen_elements2.txt", "gen_units.txt", "gen_compounds.txt", "gen_planets.txt", "gen_moons.txt", "gen_moons2.txt", "gen_stars.txt", "gen_stars2.txt", "gen_skyguide.txt", "gen_compare.txt"]
+
+
+def ordered_files():
+    files = sorted(glob.glob(os.path.join(SCI, "*.txt")))
+    first = [os.path.join(SCI, n) for n in ORDER if os.path.join(SCI, n) in files]
+    return first + [f for f in files if f not in first]
+
+
 def main():
     words, keys = others()
-    for path in sorted(glob.glob(os.path.join(SCI, "*.txt"))):
+    for path in ordered_files():
         out, dropped, removed = [], [], 0
         for raw in open(path, encoding="utf-8").read().splitlines():
             line = raw.strip()
@@ -57,6 +67,11 @@ def main():
                 dropped.append(line[:110])
                 continue
             out.append(" | ".join(keep) + " =>" + right)
+            for q in keep:
+                words.add(cd.norm(q))
+                ks = cd.keyset(q)
+                if len(ks) >= 2:
+                    keys.add(ks)
         open(path, "w", encoding="utf-8").write("\n".join(out) + "\n")
         if removed or dropped:
             print(f"{os.path.basename(path)}: removed {removed} wordings, dropped {len(dropped)} entries")

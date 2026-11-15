@@ -1,0 +1,13 @@
+# tag: tech.robotics.extra
+what happened to lego mindstorms | mindstorms ev3 retired => LEGO retired Mindstorms at the end of 2022. LEGO Education SPIKE Prime is the main LEGO robotics kit that replaced it.
+what is a sumo robot | robot sumo competition => In robot sumo, two small robots try to push each other out of a round ring. They use sensors to find the opponent and the ring's white edge.
+how does a robot solve a maze | wall follower robot => A simple trick is wall following: keep one hand on the same wall and you'll find the exit of many mazes. Smarter robots map the maze and plan the shortest path.
+what is differential drive | tank drive robot => Differential drive steers by spinning the left and right wheels at different speeds, like a tank. It's the simplest and most common robot drive.
+what is odometry in robotics | robot tracks its position with wheels => Odometry estimates where a robot is by counting wheel turns with encoders. Small errors add up, so robots often correct it with a gyro or camera.
+what is a limit switch | robot stop at the end => A limit switch is a small button that gets pressed when a part reaches the end of its travel, telling the robot to stop or where home is.
+what is a behavior tree | robot decision tree => A behavior tree organizes what a robot or game character does as a tree of tasks and checks, making complex behavior easier to build and change.
+what is teleoperation | remote controlled robot => Teleoperation means a person drives a robot from a distance, often using its camera feed, like rovers, bomb disposal robots or competition driver control.
+what is boston dynamics | spot robot dog => Boston Dynamics is a robotics company famous for Spot, a four-legged robot dog used for inspections, and Atlas, a humanoid robot.
+what is a surgical robot | robot doctor surgery => Surgical robots like the da Vinci system hold tiny tools that a surgeon controls from a console. The surgeon makes every move, and the robot makes it steadier and smaller.
+how do warehouse robots work | amazon robots => Warehouse robots drive under shelves or bins and bring them to workers, following floor markers and a central computer that plans their routes.
+what are asimov's three laws of robotics | three laws of robots => In Isaac Asimov's stories, robots may not harm humans, must obey humans unless that causes harm, and must protect themselves unless that breaks the first two laws. They're fiction, not real rules.

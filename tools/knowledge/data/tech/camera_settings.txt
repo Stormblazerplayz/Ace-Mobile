@@ -1,0 +1,25 @@
+# tag: tech.camera.settings
+what do p a s m mean on a camera | camera mode dial => P is program auto, A or Av is aperture priority, S or Tv is shutter priority and M is full manual. Each mode lets you control more of the exposure yourself.
+what is aperture priority mode | av mode camera => In aperture priority you choose the f-stop and the camera picks the shutter speed. It's great for controlling background blur.
+what is shutter priority mode | tv mode camera => In shutter priority you pick the shutter speed and the camera chooses the aperture. Use it to freeze fast action or blur motion on purpose.
+what is af s vs af c | single vs continuous autofocus => AF-S locks focus once, which suits still subjects. AF-C keeps refocusing as things move, which suits sports, pets and video.
+what is focus peaking | manual focus help => Focus peaking highlights the sharpest edges in color on the screen, making manual focusing much easier.
+what are zebras on a camera | zebra stripes video => Zebras show striped lines over parts of the image that are close to too bright, so you can avoid blown-out highlights.
+what is a camera histogram | read a histogram photo => A histogram is a graph of brightness in your shot. A pile at the far right means lost highlights, and at the far left means lost shadows.
+what is exposure compensation | plus minus button camera => Exposure compensation tells the camera to make pictures brighter or darker than it thinks they should be, in steps like plus or minus 1.
+what are metering modes | spot vs matrix metering => Metering is how the camera measures light. Matrix or evaluative looks at the whole frame, center-weighted favors the middle and spot measures one small point.
+what is burst mode | take lots of photos fast => Burst mode takes many photos per second while you hold the shutter, so you can pick the sharpest moment of fast action.
+electronic vs mechanical shutter | silent shutter camera => An electronic shutter is silent and can be very fast, but can bend fast motion. A mechanical shutter makes a click but handles motion and flickering lights better.
+what is crop factor | 1.5x crop sensor => Crop factor compares a sensor to full frame. On a 1.5x crop sensor, a 50mm lens frames like a 75mm lens would on full frame.
+what are the iphone lenses for | wide ultra wide telephoto phone => Phones often have an ultra wide lens for big scenes, a main wide lens for most shots and a telephoto lens for zooming in. The main lens usually has the best quality.
+what is macro photography | close up photos of bugs => Macro photography shows tiny things up close, like insects or water drops. Many phones switch to the ultra wide lens for macro when you get close.
+how do i turn on the camera grid | grid lines on phone camera => On iPhone, turn on Grid in Settings > Camera. Most Android camera apps have a grid option in the camera settings.
+what is a gimbal for a phone | phone stabilizer => A phone gimbal uses motors to keep the phone steady and level as you move, so walking shots look smooth.
+what is hypersmooth on a gopro | gopro stabilization => HyperSmooth is GoPro's built-in stabilization that makes bumpy action footage look smooth without a gimbal.
+what is a linear lens mode on an action cam | remove fisheye gopro => Linear mode corrects the fisheye bend of an action camera's wide lens, so straight lines stay straight.
+how do i mount an action camera | action cam mounts => Action cameras use mounts like chest straps, helmet mounts, handlebar clamps and suction cups. Use a tether on anything that could fall.
+how do i clean a camera lens | smudged phone lens => Wipe the lens gently with a clean microfiber cloth. Blurry or hazy phone photos are often just a fingerprint on the lens.
+what is raw video | raw video vs log => Raw video saves the sensor data with almost no processing, giving the most editing freedom but huge files. Log is processed but flat, a middle ground.
+what is a camera's dynamic range | dynamic range photo => Dynamic range is how much detail a camera can keep in both bright and dark areas at once. More dynamic range means fewer blown skies and black shadows.
+what is noise in photos | grainy photos low light => Noise is grainy speckles that appear in dark photos or at high ISO. More light, a lower ISO or noise reduction in editing helps.
+what is a long exposure photo | light trails photo => A long exposure keeps the shutter open for seconds, turning moving lights into trails and water into a smooth blur. Use a tripod.

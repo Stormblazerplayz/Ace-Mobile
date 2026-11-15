@@ -111,6 +111,6 @@ what is a liquid metal | should i use liquid metal => Liquid metal is a super-co
 # tag: tech.parts.case
 how do i choose a pc case | what to look for in a case => Check that your motherboard size, GPU length, cooler height and radiator sizes fit. Pick one with mesh front panels for good airflow and dust filters.
 what is a mesh front case | mesh vs glass front => A mesh front lets fans pull in plenty of air, keeping parts cooler. Solid glass fronts look sleek but often run hotter.
-what is cable management | how do i hide cables => It's routing cables behind the motherboard tray and tying them with zip or velcro ties. It looks cleaner and makes the PC easier to work on.
+pc case cable management | how do i hide cables in my pc => It's routing cables behind the motherboard tray and tying them with zip or velcro ties. It looks cleaner and makes the PC easier to work on.
 what are dust filters | should i clean dust filters => Dust filters are mesh screens over the fans that catch dust. Rinse or vacuum them every month or two so airflow stays strong.
 how big a gpu fits my case | gpu clearance => Check the case's maximum GPU length in its specs and compare with the card's length. Front fans or radiators can take some of that space.

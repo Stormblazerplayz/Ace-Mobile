@@ -2,7 +2,7 @@
 # @category Files and data
 # @kind Console program
 # @where Save as json2csv.py and run: python3 json2csv.py, then type a .json file that holds a list of objects (or press Enter for a sample).
-# @keywords python json to csv, python flatten json, python export spreadsheet, python list of dicts to csv
+# @keywords python json to csv, json to csv, python flatten json, python export spreadsheet, python list of dicts to csv
 # @about Turns a JSON list of objects into a CSV spreadsheet, collecting every key as a column.
 
 import csv

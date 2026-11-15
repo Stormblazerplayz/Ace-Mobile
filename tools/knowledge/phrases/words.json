@@ -1,0 +1,1416 @@
+{
+ "entries": [
+  {
+   "en": "gold",
+   "also": [
+    "golden"
+   ],
+   "t": {
+    "es": "dorado",
+    "fr": "doré",
+    "de": "golden",
+    "it": "dorato",
+    "pt": "dourado",
+    "ja": "金色",
+    "zh": "金色",
+    "ko": "금색",
+    "hi": "सुनहरा",
+    "ar": "ذهبي",
+    "ru": "золотой",
+    "nl": "goud"
+   },
+   "say": {
+    "ja": "kin'iro",
+    "zh": "jīnsè",
+    "ko": "geumsaek",
+    "hi": "sunahra",
+    "ar": "dhahabi",
+    "ru": "zolotoy"
+   }
+  },
+  {
+   "en": "silver",
+   "also": [],
+   "t": {
+    "es": "plateado",
+    "fr": "argenté",
+    "de": "silbern",
+    "it": "argento",
+    "pt": "prateado",
+    "ja": "銀色",
+    "zh": "银色",
+    "ko": "은색",
+    "hi": "रुपहला",
+    "ar": "فضي",
+    "ru": "серебристый",
+    "nl": "zilver"
+   },
+   "say": {
+    "ja": "gin'iro",
+    "zh": "yínsè",
+    "ko": "eunsaek",
+    "hi": "rupahla",
+    "ar": "fiddi",
+    "ru": "serebristy"
+   }
+  },
+  {
+   "en": "light blue",
+   "also": [],
+   "t": {
+    "es": "azul claro",
+    "fr": "bleu clair",
+    "de": "hellblau",
+    "it": "azzurro",
+    "pt": "azul-claro",
+    "ja": "水色",
+    "zh": "浅蓝色",
+    "ko": "하늘색",
+    "hi": "हल्का नीला",
+    "ar": "أزرق فاتح",
+    "ru": "голубой",
+    "nl": "lichtblauw"
+   },
+   "say": {
+    "ja": "mizuiro",
+    "zh": "qiǎnlánsè",
+    "ko": "haneulsaek",
+    "hi": "halka neela",
+    "ar": "azraq faatih",
+    "ru": "goluboy"
+   }
+  },
+  {
+   "en": "dark blue",
+   "also": [
+    "navy"
+   ],
+   "t": {
+    "es": "azul oscuro",
+    "fr": "bleu foncé",
+    "de": "dunkelblau",
+    "it": "blu scuro",
+    "pt": "azul-escuro",
+    "ja": "紺色",
+    "zh": "深蓝色",
+    "ko": "남색",
+    "hi": "गहरा नीला",
+    "ar": "أزرق غامق",
+    "ru": "тёмно-синий",
+    "nl": "donkerblauw"
+   },
+   "say": {
+    "ja": "kon'iro",
+    "zh": "shēnlánsè",
+    "ko": "namsaek",
+    "hi": "gahra neela",
+    "ar": "azraq ghaamiq",
+    "ru": "tyomno-siny"
+   }
+  },
+  {
+   "en": "slow",
+   "also": [],
+   "t": {
+    "es": "lento",
+    "fr": "lent",
+    "de": "langsam",
+    "it": "lento",
+    "pt": "lento",
+    "ja": "遅い",
+    "zh": "慢",
+    "ko": "느려요",
+    "hi": "धीमा",
+    "ar": "بطيء",
+    "ru": "медленный",
+    "nl": "langzaam"
+   },
+   "say": {
+    "ja": "osoi",
+    "zh": "màn",
+    "ko": "neuryeoyo",
+    "hi": "dheema",
+    "ar": "batee'",
+    "ru": "medlenny"
+   }
+  },
+  {
+   "en": "ugly",
+   "also": [],
+   "t": {
+    "es": "feo",
+    "fr": "moche",
+    "de": "hässlich",
+    "it": "brutto",
+    "pt": "feio",
+    "ja": "醜い",
+    "zh": "丑",
+    "ko": "못생겼어요",
+    "hi": "बदसूरत",
+    "ar": "قبيح",
+    "ru": "некрасивый",
+    "nl": "lelijk"
+   },
+   "say": {
+    "ja": "minikui",
+    "zh": "chǒu",
+    "ko": "motsaenggyeosseoyo",
+    "hi": "badsoorat",
+    "ar": "qabeeh",
+    "ru": "nekrasivy"
+   }
+  },
+  {
+   "en": "clean",
+   "also": [],
+   "t": {
+    "es": "limpio",
+    "fr": "propre",
+    "de": "sauber",
+    "it": "pulito",
+    "pt": "limpo",
+    "ja": "きれい",
+    "zh": "干净",
+    "ko": "깨끗해요",
+    "hi": "साफ़",
+    "ar": "نظيف",
+    "ru": "чистый",
+    "nl": "schoon"
+   },
+   "say": {
+    "ja": "kirei",
+    "zh": "gānjìng",
+    "ko": "kkaekkeutaeyo",
+    "hi": "saaf",
+    "ar": "nadheef",
+    "ru": "chisty"
+   }
+  },
+  {
+   "en": "dirty",
+   "also": [],
+   "t": {
+    "es": "sucio",
+    "fr": "sale",
+    "de": "schmutzig",
+    "it": "sporco",
+    "pt": "sujo",
+    "ja": "汚い",
+    "zh": "脏",
+    "ko": "더러워요",
+    "hi": "गंदा",
+    "ar": "وسخ",
+    "ru": "грязный",
+    "nl": "vies"
+   },
+   "say": {
+    "ja": "kitanai",
+    "zh": "zāng",
+    "ko": "deoreowoyo",
+    "hi": "ganda",
+    "ar": "wasikh",
+    "ru": "gryazny"
+   }
+  },
+  {
+   "en": "full",
+   "also": [],
+   "t": {
+    "es": "lleno",
+    "fr": "plein",
+    "de": "voll",
+    "it": "pieno",
+    "pt": "cheio",
+    "ja": "いっぱい",
+    "zh": "满",
+    "ko": "가득해요",
+    "hi": "भरा हुआ",
+    "ar": "ممتلئ",
+    "ru": "полный",
+    "nl": "vol"
+   },
+   "say": {
+    "ja": "ippai",
+    "zh": "mǎn",
+    "ko": "gadeukaeyo",
+    "hi": "bhara hua",
+    "ar": "mumtali'",
+    "ru": "polny"
+   }
+  },
+  {
+   "en": "empty",
+   "also": [],
+   "t": {
+    "es": "vacío",
+    "fr": "vide",
+    "de": "leer",
+    "it": "vuoto",
+    "pt": "vazio",
+    "ja": "空っぽ",
+    "zh": "空",
+    "ko": "비어 있어요",
+    "hi": "ख़ाली",
+    "ar": "فارغ",
+    "ru": "пустой",
+    "nl": "leeg"
+   },
+   "say": {
+    "ja": "karappo",
+    "zh": "kōng",
+    "ko": "bieo isseoyo",
+    "hi": "khaali",
+    "ar": "faarigh",
+    "ru": "pustoy"
+   }
+  },
+  {
+   "en": "heavy",
+   "also": [],
+   "t": {
+    "es": "pesado",
+    "fr": "lourd",
+    "de": "schwer",
+    "it": "pesante",
+    "pt": "pesado",
+    "ja": "重い",
+    "zh": "重",
+    "ko": "무거워요",
+    "hi": "भारी",
+    "ar": "ثقيل",
+    "ru": "тяжёлый",
+    "nl": "zwaar"
+   },
+   "say": {
+    "ja": "omoi",
+    "zh": "zhòng",
+    "ko": "mugeowoyo",
+    "hi": "bhaari",
+    "ar": "thaqeel",
+    "ru": "tyazhyoly"
+   }
+  },
+  {
+   "en": "long",
+   "also": [],
+   "t": {
+    "es": "largo",
+    "fr": "long",
+    "de": "lang",
+    "it": "lungo",
+    "pt": "comprido",
+    "ja": "長い",
+    "zh": "长",
+    "ko": "길어요",
+    "hi": "लंबा",
+    "ar": "طويل",
+    "ru": "длинный",
+    "nl": "lang"
+   },
+   "say": {
+    "ja": "nagai",
+    "zh": "cháng",
+    "ko": "gireoyo",
+    "hi": "lamba",
+    "ar": "taweel",
+    "ru": "dlinny"
+   }
+  },
+  {
+   "en": "short",
+   "also": [],
+   "t": {
+    "es": "corto",
+    "fr": "court",
+    "de": "kurz",
+    "it": "corto",
+    "pt": "curto",
+    "ja": "短い",
+    "zh": "短",
+    "ko": "짧아요",
+    "hi": "छोटा",
+    "ar": "قصير",
+    "ru": "короткий",
+    "nl": "kort"
+   },
+   "say": {
+    "ja": "mijikai",
+    "zh": "duǎn",
+    "ko": "jjalbayo",
+    "hi": "chhota",
+    "ar": "qaseer",
+    "ru": "korotky"
+   }
+  },
+  {
+   "en": "tall",
+   "also": [],
+   "t": {
+    "es": "alto",
+    "fr": "grand",
+    "de": "groß",
+    "it": "alto",
+    "pt": "alto",
+    "ja": "背が高い",
+    "zh": "高",
+    "ko": "키가 커요",
+    "hi": "लंबा",
+    "ar": "طويل",
+    "ru": "высокий",
+    "nl": "lang"
+   },
+   "say": {
+    "ja": "se ga takai",
+    "zh": "gāo",
+    "ko": "kiga keoyo",
+    "hi": "lamba",
+    "ar": "taweel",
+    "ru": "vysoky"
+   }
+  },
+  {
+   "en": "strong",
+   "also": [],
+   "t": {
+    "es": "fuerte",
+    "fr": "fort",
+    "de": "stark",
+    "it": "forte",
+    "pt": "forte",
+    "ja": "強い",
+    "zh": "强壮",
+    "ko": "강해요",
+    "hi": "ताक़तवर",
+    "ar": "قوي",
+    "ru": "сильный",
+    "nl": "sterk"
+   },
+   "say": {
+    "ja": "tsuyoi",
+    "zh": "qiángzhuàng",
+    "ko": "ganghaeyo",
+    "hi": "taaqatvar",
+    "ar": "qawi",
+    "ru": "silny"
+   }
+  },
+  {
+   "en": "weak",
+   "also": [],
+   "t": {
+    "es": "débil",
+    "fr": "faible",
+    "de": "schwach",
+    "it": "debole",
+    "pt": "fraco",
+    "ja": "弱い",
+    "zh": "弱",
+    "ko": "약해요",
+    "hi": "कमज़ोर",
+    "ar": "ضعيف",
+    "ru": "слабый",
+    "nl": "zwak"
+   },
+   "say": {
+    "ja": "yowai",
+    "zh": "ruò",
+    "ko": "yakaeyo",
+    "hi": "kamzor",
+    "ar": "da'eef",
+    "ru": "slaby"
+   }
+  },
+  {
+   "en": "loud",
+   "also": [
+    "noisy"
+   ],
+   "t": {
+    "es": "ruidoso",
+    "fr": "bruyant",
+    "de": "laut",
+    "it": "rumoroso",
+    "pt": "barulhento",
+    "ja": "うるさい",
+    "zh": "吵",
+    "ko": "시끄러워요",
+    "hi": "शोर वाला",
+    "ar": "صاخب",
+    "ru": "громкий",
+    "nl": "luid"
+   },
+   "say": {
+    "ja": "urusai",
+    "zh": "chǎo",
+    "ko": "sikkeureowoyo",
+    "hi": "shor vaala",
+    "ar": "saakhib",
+    "ru": "gromky"
+   }
+  },
+  {
+   "en": "quiet",
+   "also": [],
+   "t": {
+    "es": "tranquilo",
+    "fr": "calme",
+    "de": "leise",
+    "it": "silenzioso",
+    "pt": "silencioso",
+    "ja": "静か",
+    "zh": "安静",
+    "ko": "조용해요",
+    "hi": "शांत",
+    "ar": "هادئ",
+    "ru": "тихий",
+    "nl": "stil"
+   },
+   "say": {
+    "ja": "shizuka",
+    "zh": "ānjìng",
+    "ko": "joyonghaeyo",
+    "hi": "shaant",
+    "ar": "haadi'",
+    "ru": "tikhy"
+   }
+  },
+  {
+   "en": "soft",
+   "also": [],
+   "t": {
+    "es": "suave",
+    "fr": "doux",
+    "de": "weich",
+    "it": "morbido",
+    "pt": "macio",
+    "ja": "柔らかい",
+    "zh": "软",
+    "ko": "부드러워요",
+    "hi": "मुलायम",
+    "ar": "ناعم",
+    "ru": "мягкий",
+    "nl": "zacht"
+   },
+   "say": {
+    "ja": "yawarakai",
+    "zh": "ruǎn",
+    "ko": "budeureowoyo",
+    "hi": "mulaayam",
+    "ar": "naa'im",
+    "ru": "myagky"
+   }
+  },
+  {
+   "en": "wet",
+   "also": [],
+   "t": {
+    "es": "mojado",
+    "fr": "mouillé",
+    "de": "nass",
+    "it": "bagnato",
+    "pt": "molhado",
+    "ja": "濡れた",
+    "zh": "湿",
+    "ko": "젖었어요",
+    "hi": "गीला",
+    "ar": "مبلل",
+    "ru": "мокрый",
+    "nl": "nat"
+   },
+   "say": {
+    "ja": "nureta",
+    "zh": "shī",
+    "ko": "jeojeosseoyo",
+    "hi": "geela",
+    "ar": "muballal",
+    "ru": "mokry"
+   }
+  },
+  {
+   "en": "dry",
+   "also": [],
+   "t": {
+    "es": "seco",
+    "fr": "sec",
+    "de": "trocken",
+    "it": "asciutto",
+    "pt": "seco",
+    "ja": "乾いた",
+    "zh": "干",
+    "ko": "말랐어요",
+    "hi": "सूखा",
+    "ar": "جاف",
+    "ru": "сухой",
+    "nl": "droog"
+   },
+   "say": {
+    "ja": "kawaita",
+    "zh": "gān",
+    "ko": "mallasseoyo",
+    "hi": "sookha",
+    "ar": "jaaff",
+    "ru": "sukhoy"
+   }
+  },
+  {
+   "en": "young",
+   "also": [],
+   "t": {
+    "es": "joven",
+    "fr": "jeune",
+    "de": "jung",
+    "it": "giovane",
+    "pt": "jovem",
+    "ja": "若い",
+    "zh": "年轻",
+    "ko": "젊어요",
+    "hi": "जवान",
+    "ar": "شاب",
+    "ru": "молодой",
+    "nl": "jong"
+   },
+   "say": {
+    "ja": "wakai",
+    "zh": "niánqīng",
+    "ko": "jeolmeoyo",
+    "hi": "javaan",
+    "ar": "shaabb",
+    "ru": "molodoy"
+   }
+  },
+  {
+   "en": "smart",
+   "also": [
+    "clever"
+   ],
+   "t": {
+    "es": "listo",
+    "fr": "intelligent",
+    "de": "klug",
+    "it": "intelligente",
+    "pt": "inteligente",
+    "ja": "頭がいい",
+    "zh": "聪明",
+    "ko": "똑똑해요",
+    "hi": "होशियार",
+    "ar": "ذكي",
+    "ru": "умный",
+    "nl": "slim"
+   },
+   "say": {
+    "ja": "atama ga ii",
+    "zh": "cōngming",
+    "ko": "ttokttokaeyo",
+    "hi": "hoshiyaar",
+    "ar": "dhaki",
+    "ru": "umny"
+   }
+  },
+  {
+   "en": "kind",
+   "also": [],
+   "t": {
+    "es": "amable",
+    "fr": "gentil",
+    "de": "nett",
+    "it": "gentile",
+    "pt": "gentil",
+    "ja": "優しい",
+    "zh": "善良",
+    "ko": "친절해요",
+    "hi": "दयालु",
+    "ar": "لطيف",
+    "ru": "добрый",
+    "nl": "aardig"
+   },
+   "say": {
+    "ja": "yasashii",
+    "zh": "shànliáng",
+    "ko": "chinjeolhaeyo",
+    "hi": "dayaalu",
+    "ar": "lateef",
+    "ru": "dobry"
+   }
+  },
+  {
+   "en": "nice",
+   "also": [
+    "lovely"
+   ],
+   "t": {
+    "es": "agradable",
+    "fr": "sympa",
+    "de": "schön",
+    "it": "carino",
+    "pt": "legal",
+    "ja": "いい",
+    "zh": "好",
+    "ko": "좋아요",
+    "hi": "अच्छा",
+    "ar": "جميل",
+    "ru": "хороший",
+    "nl": "leuk"
+   },
+   "say": {
+    "ja": "ii",
+    "zh": "hǎo",
+    "ko": "joayo",
+    "hi": "achchha",
+    "ar": "jameel",
+    "ru": "khoroshy"
+   }
+  },
+  {
+   "en": "boring",
+   "also": [],
+   "t": {
+    "es": "aburrido",
+    "fr": "ennuyeux",
+    "de": "langweilig",
+    "it": "noioso",
+    "pt": "chato",
+    "ja": "つまらない",
+    "zh": "无聊",
+    "ko": "지루해요",
+    "hi": "उबाऊ",
+    "ar": "ممل",
+    "ru": "скучный",
+    "nl": "saai"
+   },
+   "say": {
+    "ja": "tsumaranai",
+    "zh": "wúliáo",
+    "ko": "jiruhaeyo",
+    "hi": "ubaau",
+    "ar": "mumill",
+    "ru": "skuchny"
+   }
+  },
+  {
+   "en": "interesting",
+   "also": [],
+   "t": {
+    "es": "interesante",
+    "fr": "intéressant",
+    "de": "interessant",
+    "it": "interessante",
+    "pt": "interessante",
+    "ja": "面白い",
+    "zh": "有意思",
+    "ko": "재미있어요",
+    "hi": "दिलचस्प",
+    "ar": "مثير للاهتمام",
+    "ru": "интересный",
+    "nl": "interessant"
+   },
+   "say": {
+    "ja": "omoshiroi",
+    "zh": "yǒu yìsi",
+    "ko": "jaemiisseoyo",
+    "hi": "dilchasp",
+    "ar": "mutheer lil-ihtimaam",
+    "ru": "interesny"
+   }
+  },
+  {
+   "en": "important",
+   "also": [],
+   "t": {
+    "es": "importante",
+    "fr": "important",
+    "de": "wichtig",
+    "it": "importante",
+    "pt": "importante",
+    "ja": "大切",
+    "zh": "重要",
+    "ko": "중요해요",
+    "hi": "ज़रूरी",
+    "ar": "مهم",
+    "ru": "важный",
+    "nl": "belangrijk"
+   },
+   "say": {
+    "ja": "taisetsu",
+    "zh": "zhòngyào",
+    "ko": "jungyohaeyo",
+    "hi": "zaroori",
+    "ar": "muhimm",
+    "ru": "vazhny"
+   }
+  },
+  {
+   "en": "dangerous",
+   "also": [],
+   "t": {
+    "es": "peligroso",
+    "fr": "dangereux",
+    "de": "gefährlich",
+    "it": "pericoloso",
+    "pt": "perigoso",
+    "ja": "危ない",
+    "zh": "危险",
+    "ko": "위험해요",
+    "hi": "ख़तरनाक",
+    "ar": "خطير",
+    "ru": "опасный",
+    "nl": "gevaarlijk"
+   },
+   "say": {
+    "ja": "abunai",
+    "zh": "wēixiǎn",
+    "ko": "wiheomhaeyo",
+    "hi": "khatarnaak",
+    "ar": "khateer",
+    "ru": "opasny"
+   }
+  },
+  {
+   "en": "safe",
+   "also": [],
+   "t": {
+    "es": "seguro",
+    "fr": "sûr",
+    "de": "sicher",
+    "it": "sicuro",
+    "pt": "seguro",
+    "ja": "安全",
+    "zh": "安全",
+    "ko": "안전해요",
+    "hi": "सुरक्षित",
+    "ar": "آمن",
+    "ru": "безопасный",
+    "nl": "veilig"
+   },
+   "say": {
+    "ja": "anzen",
+    "zh": "ānquán",
+    "ko": "anjeonhaeyo",
+    "hi": "surakshit",
+    "ar": "aamin",
+    "ru": "bezopasny"
+   }
+  },
+  {
+   "en": "correct",
+   "also": [
+    "right answer"
+   ],
+   "t": {
+    "es": "correcto",
+    "fr": "correct",
+    "de": "richtig",
+    "it": "giusto",
+    "pt": "certo",
+    "ja": "正しい",
+    "zh": "对",
+    "ko": "맞아요",
+    "hi": "सही",
+    "ar": "صحيح",
+    "ru": "правильно",
+    "nl": "goed"
+   },
+   "say": {
+    "ja": "tadashii",
+    "zh": "duì",
+    "ko": "majayo",
+    "hi": "sahi",
+    "ar": "saheeh",
+    "ru": "pravilno"
+   }
+  },
+  {
+   "en": "wrong",
+   "also": [],
+   "t": {
+    "es": "incorrecto",
+    "fr": "faux",
+    "de": "falsch",
+    "it": "sbagliato",
+    "pt": "errado",
+    "ja": "間違い",
+    "zh": "错",
+    "ko": "틀렸어요",
+    "hi": "ग़लत",
+    "ar": "خطأ",
+    "ru": "неправильно",
+    "nl": "fout"
+   },
+   "say": {
+    "ja": "machigai",
+    "zh": "cuò",
+    "ko": "teullyeosseoyo",
+    "hi": "galat",
+    "ar": "khata'",
+    "ru": "nepravilno"
+   }
+  },
+  {
+   "en": "same",
+   "also": [],
+   "t": {
+    "es": "igual",
+    "fr": "pareil",
+    "de": "gleich",
+    "it": "uguale",
+    "pt": "igual",
+    "ja": "同じ",
+    "zh": "一样",
+    "ko": "같아요",
+    "hi": "एक जैसा",
+    "ar": "نفس الشيء",
+    "ru": "одинаковый",
+    "nl": "hetzelfde"
+   },
+   "say": {
+    "ja": "onaji",
+    "zh": "yíyàng",
+    "ko": "gatayo",
+    "hi": "ek jaisa",
+    "ar": "nafs ash-shay'",
+    "ru": "odinakovy"
+   }
+  },
+  {
+   "en": "different",
+   "also": [],
+   "t": {
+    "es": "diferente",
+    "fr": "différent",
+    "de": "anders",
+    "it": "diverso",
+    "pt": "diferente",
+    "ja": "違う",
+    "zh": "不一样",
+    "ko": "달라요",
+    "hi": "अलग",
+    "ar": "مختلف",
+    "ru": "разный",
+    "nl": "anders"
+   },
+   "say": {
+    "ja": "chigau",
+    "zh": "bù yíyàng",
+    "ko": "dallayo",
+    "hi": "alag",
+    "ar": "mukhtalif",
+    "ru": "razny"
+   }
+  },
+  {
+   "en": "ready",
+   "also": [],
+   "t": {
+    "es": "listo",
+    "fr": "prêt",
+    "de": "fertig",
+    "it": "pronto",
+    "pt": "pronto",
+    "ja": "準備ができた",
+    "zh": "准备好了",
+    "ko": "준비됐어요",
+    "hi": "तैयार",
+    "ar": "جاهز",
+    "ru": "готов",
+    "nl": "klaar"
+   },
+   "say": {
+    "ja": "junbi ga dekita",
+    "zh": "zhǔnbèi hǎo le",
+    "ko": "junbidwaesseoyo",
+    "hi": "taiyaar",
+    "ar": "jaahiz",
+    "ru": "gotov"
+   }
+  },
+  {
+   "en": "true",
+   "also": [],
+   "t": {
+    "es": "verdad",
+    "fr": "vrai",
+    "de": "wahr",
+    "it": "vero",
+    "pt": "verdade",
+    "ja": "本当",
+    "zh": "真的",
+    "ko": "진짜예요",
+    "hi": "सच",
+    "ar": "صحيح",
+    "ru": "правда",
+    "nl": "waar"
+   },
+   "say": {
+    "ja": "hontou",
+    "zh": "zhēn de",
+    "ko": "jinjjayeyo",
+    "hi": "sach",
+    "ar": "saheeh",
+    "ru": "pravda"
+   }
+  },
+  {
+   "en": "false",
+   "also": [
+    "not true"
+   ],
+   "t": {
+    "es": "falso",
+    "fr": "faux",
+    "de": "falsch",
+    "it": "falso",
+    "pt": "falso",
+    "ja": "うそ",
+    "zh": "假的",
+    "ko": "거짓이에요",
+    "hi": "झूठ",
+    "ar": "غير صحيح",
+    "ru": "неправда",
+    "nl": "niet waar"
+   },
+   "say": {
+    "ja": "uso",
+    "zh": "jiǎ de",
+    "ko": "geojisieyo",
+    "hi": "jhooth",
+    "ar": "ghayr saheeh",
+    "ru": "nepravda"
+   }
+  },
+  {
+   "en": "very",
+   "also": [],
+   "t": {
+    "es": "muy",
+    "fr": "très",
+    "de": "sehr",
+    "it": "molto",
+    "pt": "muito",
+    "ja": "とても",
+    "zh": "很",
+    "ko": "아주",
+    "hi": "बहुत",
+    "ar": "جدا",
+    "ru": "очень",
+    "nl": "heel"
+   },
+   "say": {
+    "ja": "totemo",
+    "zh": "hěn",
+    "ko": "aju",
+    "hi": "bahut",
+    "ar": "jiddan",
+    "ru": "ochen"
+   }
+  },
+  {
+   "en": "a little",
+   "also": [
+    "a bit",
+    "a little bit"
+   ],
+   "t": {
+    "es": "un poco",
+    "fr": "un peu",
+    "de": "ein bisschen",
+    "it": "un po'",
+    "pt": "um pouco",
+    "ja": "少し",
+    "zh": "一点",
+    "ko": "조금",
+    "hi": "थोड़ा",
+    "ar": "قليلا",
+    "ru": "немного",
+    "nl": "een beetje"
+   },
+   "say": {
+    "ja": "sukoshi",
+    "zh": "yìdiǎn",
+    "ko": "jogeum",
+    "hi": "thoda",
+    "ar": "qaleelan",
+    "ru": "nemnogo"
+   }
+  },
+  {
+   "en": "a lot",
+   "also": [
+    "lots"
+   ],
+   "t": {
+    "es": "mucho",
+    "fr": "beaucoup",
+    "de": "viel",
+    "it": "molto",
+    "pt": "muito",
+    "ja": "たくさん",
+    "zh": "很多",
+    "ko": "많이",
+    "hi": "बहुत सारा",
+    "ar": "كثيرا",
+    "ru": "много",
+    "nl": "veel"
+   },
+   "say": {
+    "ja": "takusan",
+    "zh": "hěn duō",
+    "ko": "mani",
+    "hi": "bahut saara",
+    "ar": "katheeran",
+    "ru": "mnogo"
+   }
+  },
+  {
+   "en": "more",
+   "also": [],
+   "t": {
+    "es": "más",
+    "fr": "plus",
+    "de": "mehr",
+    "it": "di più",
+    "pt": "mais",
+    "ja": "もっと",
+    "zh": "更多",
+    "ko": "더",
+    "hi": "और",
+    "ar": "أكثر",
+    "ru": "больше",
+    "nl": "meer"
+   },
+   "say": {
+    "ja": "motto",
+    "zh": "gèng duō",
+    "ko": "deo",
+    "hi": "aur",
+    "ar": "akthar",
+    "ru": "bolshe"
+   }
+  },
+  {
+   "en": "less",
+   "also": [],
+   "t": {
+    "es": "menos",
+    "fr": "moins",
+    "de": "weniger",
+    "it": "meno",
+    "pt": "menos",
+    "ja": "もっと少なく",
+    "zh": "少一点",
+    "ko": "덜",
+    "hi": "कम",
+    "ar": "أقل",
+    "ru": "меньше",
+    "nl": "minder"
+   },
+   "say": {
+    "ja": "motto sukunaku",
+    "zh": "shǎo yìdiǎn",
+    "ko": "deol",
+    "hi": "kam",
+    "ar": "aqall",
+    "ru": "menshe"
+   }
+  },
+  {
+   "en": "too much",
+   "also": [],
+   "t": {
+    "es": "demasiado",
+    "fr": "trop",
+    "de": "zu viel",
+    "it": "troppo",
+    "pt": "demais",
+    "ja": "多すぎる",
+    "zh": "太多了",
+    "ko": "너무 많아요",
+    "hi": "बहुत ज़्यादा",
+    "ar": "كثير جدا",
+    "ru": "слишком много",
+    "nl": "te veel"
+   },
+   "say": {
+    "ja": "oosugiru",
+    "zh": "tài duō le",
+    "ko": "neomu manayo",
+    "hi": "bahut zyaada",
+    "ar": "katheer jiddan",
+    "ru": "slishkom mnogo"
+   }
+  },
+  {
+   "en": "enough",
+   "also": [
+    "that's enough"
+   ],
+   "t": {
+    "es": "suficiente",
+    "fr": "assez",
+    "de": "genug",
+    "it": "abbastanza",
+    "pt": "suficiente",
+    "ja": "十分",
+    "zh": "够了",
+    "ko": "충분해요",
+    "hi": "काफ़ी",
+    "ar": "يكفي",
+    "ru": "достаточно",
+    "nl": "genoeg"
+   },
+   "say": {
+    "ja": "juubun",
+    "zh": "gòu le",
+    "ko": "chungbunhaeyo",
+    "hi": "kaafi",
+    "ar": "yakfi",
+    "ru": "dostatochno"
+   }
+  },
+  {
+   "en": "everything",
+   "also": [
+    "all of it"
+   ],
+   "t": {
+    "es": "todo",
+    "fr": "tout",
+    "de": "alles",
+    "it": "tutto",
+    "pt": "tudo",
+    "ja": "全部",
+    "zh": "一切",
+    "ko": "전부",
+    "hi": "सब कुछ",
+    "ar": "كل شيء",
+    "ru": "всё",
+    "nl": "alles"
+   },
+   "say": {
+    "ja": "zenbu",
+    "zh": "yíqiè",
+    "ko": "jeonbu",
+    "hi": "sab kuchh",
+    "ar": "kull shay'",
+    "ru": "vsyo"
+   }
+  },
+  {
+   "en": "nothing",
+   "also": [],
+   "t": {
+    "es": "nada",
+    "fr": "rien",
+    "de": "nichts",
+    "it": "niente",
+    "pt": "nada",
+    "ja": "何も...",
+    "zh": "没有什么",
+    "ko": "아무것도",
+    "hi": "कुछ नहीं",
+    "ar": "لا شيء",
+    "ru": "ничего",
+    "nl": "niets"
+   },
+   "say": {
+    "ja": "nani mo...",
+    "zh": "méiyǒu shénme",
+    "ko": "amugeotdo",
+    "hi": "kuchh nahin",
+    "ar": "la shay'",
+    "ru": "nichego"
+   }
+  },
+  {
+   "en": "something",
+   "also": [],
+   "t": {
+    "es": "algo",
+    "fr": "quelque chose",
+    "de": "etwas",
+    "it": "qualcosa",
+    "pt": "algo",
+    "ja": "何か",
+    "zh": "什么东西",
+    "ko": "뭔가",
+    "hi": "कुछ",
+    "ar": "شيء ما",
+    "ru": "что-нибудь",
+    "nl": "iets"
+   },
+   "say": {
+    "ja": "nanika",
+    "zh": "shénme dōngxi",
+    "ko": "mwonga",
+    "hi": "kuchh",
+    "ar": "shay' ma",
+    "ru": "chto-nibud"
+   }
+  },
+  {
+   "en": "everyone",
+   "also": [
+    "everybody"
+   ],
+   "t": {
+    "es": "todos",
+    "fr": "tout le monde",
+    "de": "alle",
+    "it": "tutti",
+    "pt": "todo mundo",
+    "ja": "みんな",
+    "zh": "大家",
+    "ko": "모두",
+    "hi": "सब लोग",
+    "ar": "الجميع",
+    "ru": "все",
+    "nl": "iedereen"
+   },
+   "say": {
+    "ja": "minna",
+    "zh": "dàjiā",
+    "ko": "modu",
+    "hi": "sab log",
+    "ar": "al-jamee'",
+    "ru": "vse"
+   }
+  },
+  {
+   "en": "nobody",
+   "also": [
+    "no one"
+   ],
+   "t": {
+    "es": "nadie",
+    "fr": "personne",
+    "de": "niemand",
+    "it": "nessuno",
+    "pt": "ninguém",
+    "ja": "誰も...",
+    "zh": "没有人",
+    "ko": "아무도",
+    "hi": "कोई नहीं",
+    "ar": "لا أحد",
+    "ru": "никто",
+    "nl": "niemand"
+   },
+   "say": {
+    "ja": "daremo...",
+    "zh": "méiyǒu rén",
+    "ko": "amudo",
+    "hi": "koi nahin",
+    "ar": "la ahad",
+    "ru": "nikto"
+   }
+  },
+  {
+   "en": "together",
+   "also": [],
+   "t": {
+    "es": "juntos",
+    "fr": "ensemble",
+    "de": "zusammen",
+    "it": "insieme",
+    "pt": "juntos",
+    "ja": "一緒に",
+    "zh": "一起",
+    "ko": "같이",
+    "hi": "साथ में",
+    "ar": "معا",
+    "ru": "вместе",
+    "nl": "samen"
+   },
+   "say": {
+    "ja": "issho ni",
+    "zh": "yìqǐ",
+    "ko": "gachi",
+    "hi": "saath mein",
+    "ar": "ma'an",
+    "ru": "vmeste"
+   }
+  },
+  {
+   "en": "alone",
+   "also": [
+    "by myself"
+   ],
+   "t": {
+    "es": "solo",
+    "fr": "seul",
+    "de": "allein",
+    "it": "da solo",
+    "pt": "sozinho",
+    "ja": "一人で",
+    "zh": "一个人",
+    "ko": "혼자",
+    "hi": "अकेले",
+    "ar": "وحدي",
+    "ru": "один",
+    "nl": "alleen"
+   },
+   "say": {
+    "ja": "hitori de",
+    "zh": "yí ge rén",
+    "ko": "honja",
+    "hi": "akele",
+    "ar": "wahdi",
+    "ru": "odin"
+   }
+  },
+  {
+   "en": "again",
+   "also": [
+    "one more time"
+   ],
+   "t": {
+    "es": "otra vez",
+    "fr": "encore",
+    "de": "noch einmal",
+    "it": "ancora",
+    "pt": "de novo",
+    "ja": "もう一度",
+    "zh": "再一次",
+    "ko": "다시",
+    "hi": "फिर से",
+    "ar": "مرة أخرى",
+    "ru": "ещё раз",
+    "nl": "nog een keer"
+   },
+   "say": {
+    "ja": "mou ichido",
+    "zh": "zài yí cì",
+    "ko": "dasi",
+    "hi": "phir se",
+    "ar": "marra ukhra",
+    "ru": "yeshchyo raz"
+   }
+  },
+  {
+   "en": "also",
+   "also": [
+    "too",
+    "as well"
+   ],
+   "t": {
+    "es": "también",
+    "fr": "aussi",
+    "de": "auch",
+    "it": "anche",
+    "pt": "também",
+    "ja": "も",
+    "zh": "也",
+    "ko": "도",
+    "hi": "भी",
+    "ar": "أيضا",
+    "ru": "тоже",
+    "nl": "ook"
+   },
+   "say": {
+    "ja": "mo",
+    "zh": "yě",
+    "ko": "do",
+    "hi": "bhi",
+    "ar": "aydan",
+    "ru": "tozhe"
+   }
+  }
+ ]
+}

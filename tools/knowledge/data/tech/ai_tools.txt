@@ -1,0 +1,21 @@
+# tag: tech.ai.tools
+what is generative fill | ai fill in photoshop => Generative Fill in Photoshop uses AI to add or remove things from a selected area based on a text prompt. Other apps have similar AI erase and fill tools.
+what is ai upscaling for photos | upscale image ai => AI upscalers enlarge low-resolution images by guessing extra detail. They work well on photos but can invent details that weren't really there.
+what is ai video upscaling | ai video upscaling explained => AI video upscaling sharpens and enlarges old or low-quality video frame by frame. NVIDIA's RTX Video Super Resolution does this for videos in the browser.
+what is ai noise removal for audio | ai voice cleanup => AI audio tools like Resolve's Voice Isolation or NVIDIA Broadcast separate your voice from background noise, keeping speech clear.
+what is ai transcription | speech to text ai => AI transcription turns speech in a video or recording into text, which helps make subtitles. Resolve Studio and many apps can do it.
+what is an ai coding assistant | copilot for code => An AI coding assistant suggests or writes code as you type, like GitHub Copilot in VS Code. Always read and test what it writes.
+can ai make 3d models | text to 3d ai => Some AI tools can make rough 3D models from text or images, but they often need cleanup before printing or using in games.
+what is ai music generation | ai music generation explained => AI music tools create songs from text prompts. Check the app's age rules and usage rights before posting the music anywhere.
+what is ai image generation age limit | can kids use ai image tools => Many AI image and chat tools require users to be 13 or older, and some 18 or older. Check each app's rules and ask a parent.
+how do i tell ai what style i want | style in ai prompts => Describe the style clearly, like pixel art, watercolor or low-poly 3D, and add details about colors, lighting and camera angle.
+what is a negative prompt | negative prompt explained => A negative prompt tells some image AI tools what to leave out, like blurry or extra fingers, to clean up results.
+what is an ai hallucination in images | ai hallucination in images explained => In images, AI can add wrong details like extra fingers, melted text or impossible objects. Always check AI art carefully.
+can i use ai to help with coding homework | ai for learning to code => It can explain ideas and help find bugs, but copying answers doesn't teach you. Use it to understand, and follow your teacher's rules about AI.
+what is ai background removal | ai background removal explained => AI background removal cuts out the main subject of a photo in one click. iPad's subject lifting, Canva and Photoshop all have it.
+what is ai frame interpolation | ai slow motion => AI frame interpolation creates new in-between frames to make smooth slow motion from normal video. Resolve's optical flow and Speed Warp do this.
+what is an ai voice changer | voice changer for streaming => A voice changer alters how you sound in real time. Use it for fun, never to pretend to be a real person or trick someone.
+is it safe to upload my photos to ai apps | ai app privacy => Some AI apps keep or train on what you upload. Read the privacy settings, and don't upload photos of other people without their permission.
+what is ai in windows paint | paint cocreator => On some Windows 11 PCs, Paint has AI features like generating images from text and removing backgrounds. Some need a Copilot+ PC or a Microsoft account.
+what is apple image playground | apple image playground explained => Image Playground is an Apple Intelligence app that makes cartoon-style images from descriptions, on supported iPhones, iPads and Macs.
+what is genmoji | genmoji explained => Genmoji, part of Apple Intelligence, makes a custom emoji from a description you type, on supported Apple devices.

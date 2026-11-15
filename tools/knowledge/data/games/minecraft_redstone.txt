@@ -1,0 +1,37 @@
+# Minecraft redstone, hand-written. Java Edition 1.21.
+
+# tag: minecraft.redstone
+how far does redstone go | redstone signal strength | how far can redstone dust carry power => A redstone signal starts at strength 15 and drops by 1 for each block of dust, so it reaches 15 blocks. Use a repeater to boost it back to 15.
+what does a repeater do | how does a redstone repeater work | repeater delay => A repeater boosts a signal back to full strength, only lets power go one way and adds a delay of 1 to 4 redstone ticks (0.1 to 0.4 seconds).
+what does a comparator do | how does a redstone comparator work | comparator modes => A comparator reads how full a container is, keeps or compares signals, and has a subtract mode when its front torch is lit.
+what is a redstone tick | how long is a redstone tick | game tick vs redstone tick => A redstone tick is 0.1 seconds, which is 2 game ticks. The game runs 20 game ticks per second.
+how do you power a block with redstone | what powers redstone | redstone power sources => Power comes from levers, buttons, pressure plates, redstone torches, redstone blocks, daylight detectors, observers, tripwires, target blocks and more.
+what is the difference between a stone and wooden button | button signal length | how long does a button stay on => A stone button stays on for 1 second and a wooden button for 1.5 seconds. Only wooden buttons can be pressed by arrows.
+what does a redstone torch do | redstone torch not gate | how to invert a signal => A redstone torch is always on, but turns off when the block it's on gets powered. That makes it an inverter, called a NOT gate.
+how do you make a redstone clock | redstone clock circuit | how to make a repeating pulse => A simple clock is a loop of redstone with repeaters, or an observer facing another observer, which pulses very fast.
+how do you make an and gate | redstone and gate | and gate minecraft => Put two redstone torches on top of a block, each powered by one input. Join their outputs with dust into a third torch. It only turns on when both inputs are on.
+what is a t flip flop | how to make a toggle in redstone | t flip flop minecraft => A T flip-flop turns a button press into on and off, like a light switch. A copper bulb does this by itself in Java 1.21 and newer.
+how many blocks can a piston push | piston push limit | why won't my piston push => A piston can push up to 12 blocks. It can't push obsidian, bedrock, end portal frames, chests, furnaces or other blocks with storage.
+what is the difference between a piston and a sticky piston | sticky piston vs piston | do sticky pistons pull => A normal piston only pushes. A sticky piston pushes and pulls the block back when the power turns off.
+what blocks can't pistons move | immovable blocks | piston can't push obsidian => Pistons can't move obsidian, crying obsidian, bedrock, end portal frames, respawn anchors, beacons, chests, furnaces, hoppers, spawners and other storage blocks.
+how do you make a flying machine | flying machine minecraft | slime block flying machine => A simple flying machine uses slime blocks, a sticky piston, a normal piston and two observers facing opposite ways. It keeps pushing itself forward.
+how do hoppers work with redstone | hopper lock | stop a hopper => A powered hopper stops moving items. Redstone torches or levers next to it are used to lock hoppers in sorting systems.
+how fast does a hopper move items | hopper speed | items per second hopper => A hopper moves 2.5 items per second.
+how do you make an item sorter | redstone item sorter | how to sort items automatically => An item sorter uses hoppers with filter items and comparators. When enough of the right item is in a hopper, the comparator unlocks it so the item flows into its chest.
+how do you make an automatic door | pressure plate door => Put pressure plates on both sides of a door, or wire a piston door to plates or a button. Iron doors only open with redstone.
+how do you make a redstone lamp turn on | redstone lamp | how to power a lamp => Give a redstone lamp a redstone signal from a lever, button, torch or dust and it lights up.
+what is quasi connectivity | what is qc in redstone | pistons powered weird => Quasi connectivity is a Java Edition quirk where pistons, droppers and dispensers can be powered by a signal one block above them. Bedrock doesn't have it.
+what is a zero tick farm | zero tick | do zero tick farms work => Zero tick farms used a piston trick to make plants grow instantly. Mojang fixed it in Java 1.16, so they don't work anymore.
+how do you detect a player with redstone | player detector | detect when someone walks by => Use a pressure plate, tripwire, sculk sensor or a target block hit by a projectile. Observers only detect block changes.
+what does a sculk sensor detect | sculk sensor range | how to use a sculk sensor in redstone => A sculk sensor picks up vibrations like steps, block breaking and doors opening within 8 blocks and gives off a signal. Wool blocks vibrations.
+how do you use a calibrated sculk sensor | calibrated sculk sensor | filter vibrations => A calibrated sculk sensor only listens for vibrations of one strength, set by the signal you feed into its side, and it can hear 16 blocks away.
+how do you make a hidden piston staircase | secret staircase | piston stairs => Hidden staircases use sticky pistons that pull floor blocks down one at a time to make steps. They need a clock or careful delays.
+how does redstone dust connect | why won't my redstone connect | redstone dust shape => Redstone dust connects to other dust and components next to it. Right click a lone dot to switch it between a dot and a cross.
+can redstone go up blocks | how to send redstone up | redstone staircase => Yes. Dust can climb a staircase of blocks, or use slabs, glass, observers or torches to go straight up.
+what does a redstone block do | is a redstone block always on => A redstone block is always on and powers things next to it, and pistons can move it to turn power on and off.
+how do you make an automatic sugar cane farm | sugar cane farm redstone | observer piston farm => Put an observer above the sugar cane, facing it. When the cane grows to 3 tall, the observer fires a piston that breaks the top, and hoppers collect it.
+what does a dropper do | dropper uses | dropper vs hopper => A dropper drops or pushes one item when powered. Pointed into a container, it moves the item into it, which is useful for item elevators.
+what is a bud switch | block update detector | what is bud in redstone => A BUD switch is a circuit that reacts when a nearby block changes. Observers now do this job easily.
+how do you make a minecart station | detector rail | how to stop a minecart => End the track against a block with a button that powers a powered rail, or use a detector rail to sense the cart.
+what is an activator rail | what does an activator rail do | tnt minecart => An activator rail, when powered, makes minecarts with TNT explode, makes hopper minecarts stop collecting and throws off players and mobs riding carts.
+how do you power one thing from two switches | two levers one door redstone | combine two redstone inputs => Join both inputs into the same redstone line. If either one is on, the output is on. That's called an OR gate.

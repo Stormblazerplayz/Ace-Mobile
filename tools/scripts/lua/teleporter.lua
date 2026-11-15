@@ -2,7 +2,7 @@
 -- @category Players
 -- @kind Script
 -- @where Put this Script inside a Model or Folder in Workspace that holds two parts named TeleportA and TeleportB.
--- @keywords teleporter, teleport pad, portal, teleport to another part, warp pad
+-- @keywords teleporter, teleport, teleport pad, portal, teleport to another part, warp pad
 -- @about Touching one pad sends you to the other pad, and back again.
 
 local Players = game:GetService("Players")

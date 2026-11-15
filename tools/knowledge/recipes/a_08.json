@@ -1,0 +1,1913 @@
+{
+ "recipes": [
+  {
+   "id": "chicken-fajitas",
+   "name": "Chicken fajitas",
+   "aliases": [
+    "fajitas",
+    "chicken fajitas",
+    "fajita",
+    "sizzling fajitas",
+    "sheet pan fajitas"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "chicken",
+    "pepper",
+    "onion",
+    "tortilla"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless skinless chicken breasts, cut in strips",
+    "3 bell peppers in different colors, sliced",
+    "1 large onion, sliced",
+    "3 tablespoons vegetable oil, divided",
+    "2 teaspoons chili powder",
+    "1 teaspoon ground cumin",
+    "1 teaspoon paprika",
+    "1/2 teaspoon garlic powder",
+    "1 teaspoon salt",
+    "1 lime",
+    "8 flour tortillas",
+    "Sour cream, guacamole, salsa and shredded cheese"
+   ],
+   "steps": [
+    "Slice the chicken, peppers and onion. Ask an adult to help, and wash your hands after the chicken.",
+    "Mix the spices and salt and toss half with the chicken and 1 tablespoon oil.",
+    "Heat 1 tablespoon oil in a big pan over medium-high heat and cook the peppers and onion with the rest of the spices for 6 to 8 minutes, until soft and charred. Move to a plate.",
+    "Add the last of the oil and cook the chicken for 6 to 8 minutes, stirring, until 165°F (74°C) inside.",
+    "Add the vegetables back and squeeze the lime over everything.",
+    "Warm the tortillas and fill them with fajita mix and toppings."
+   ]
+  },
+  {
+   "id": "steak-fajitas",
+   "name": "Steak fajitas",
+   "aliases": [
+    "steak fajitas",
+    "beef fajitas",
+    "skirt steak fajitas",
+    "flank steak fajitas"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "beef",
+    "pepper",
+    "onion",
+    "lime",
+    "tortilla"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) skirt or flank steak",
+    "1/4 cup (60 ml) lime juice",
+    "3 tablespoons vegetable oil, divided",
+    "3 garlic cloves, grated",
+    "2 teaspoons chili powder",
+    "1 teaspoon ground cumin",
+    "1 teaspoon salt",
+    "3 bell peppers, sliced",
+    "1 onion, sliced",
+    "8 flour tortillas",
+    "Guacamole, pico de gallo and sour cream"
+   ],
+   "steps": [
+    "Mix the lime juice, 2 tablespoons oil, garlic, spices and salt and coat the steak. Marinate in the fridge for 30 minutes to 4 hours.",
+    "Slice the peppers and onion. Ask an adult to help.",
+    "Heat a big heavy pan over high heat and cook the steak for 4 to 5 minutes per side, until 135°F (57°C) for medium. Rest for 10 minutes.",
+    "Add the rest of the oil and cook the peppers and onion for 6 to 8 minutes, until charred.",
+    "Slice the steak thinly across the grain.",
+    "Serve in warm tortillas with the vegetables and toppings."
+   ]
+  },
+  {
+   "id": "chicken-enchiladas",
+   "name": "Red chicken enchiladas",
+   "aliases": [
+    "enchiladas",
+    "chicken enchiladas",
+    "red enchiladas",
+    "enchiladas rojas",
+    "enchilada"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "chicken",
+    "tortilla",
+    "enchilada sauce",
+    "cheese"
+   ],
+   "ingredients": [
+    "3 cups (420 g) shredded cooked chicken",
+    "1 can (4 oz / 115 g) diced green chilies",
+    "1 teaspoon ground cumin",
+    "3 cups (720 ml) red enchilada sauce, divided",
+    "2 1/2 cups (250 g) shredded Monterey Jack or cheddar, divided",
+    "12 corn tortillas or 8 flour tortillas",
+    "Sour cream, cilantro and sliced green onion to serve"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Mix the chicken, green chilies, cumin, 1/2 cup of sauce and 1 cup of cheese.",
+    "Spread 1/2 cup of sauce in the bottom of a 9 by 13 inch dish.",
+    "Wrap the tortillas in a damp paper towel and microwave for 30 seconds to soften.",
+    "Fill each tortilla with chicken, roll up and lay seam side down in the dish.",
+    "Pour the rest of the sauce over and sprinkle with the rest of the cheese.",
+    "Bake for 20 to 25 minutes, until bubbly. Top with sour cream and cilantro."
+   ]
+  },
+  {
+   "id": "cheese-enchiladas",
+   "name": "Cheese enchiladas",
+   "aliases": [
+    "cheese enchiladas",
+    "tex mex cheese enchiladas",
+    "vegetarian enchiladas",
+    "enchiladas de queso"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "tortilla",
+    "cheese",
+    "enchilada sauce",
+    "onion"
+   ],
+   "ingredients": [
+    "3 cups (720 ml) red enchilada sauce",
+    "12 corn tortillas",
+    "3 cups (300 g) shredded cheddar and Monterey Jack",
+    "1/2 onion, finely chopped",
+    "1 tablespoon vegetable oil",
+    "Sour cream and shredded lettuce to serve"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Chop the onion.",
+    "Warm the sauce in a pan. Brush the tortillas with oil and microwave them in a damp towel for 30 seconds.",
+    "Spread 1/2 cup of sauce in a 9 by 13 inch dish.",
+    "Dip each tortilla in the warm sauce, fill with 3 tablespoons of cheese and a little onion, and roll up.",
+    "Lay them seam side down, pour the rest of the sauce over, and top with the rest of the cheese.",
+    "Bake for 15 to 20 minutes, until bubbly. Serve with sour cream and lettuce."
+   ]
+  },
+  {
+   "id": "beef-enchiladas",
+   "name": "Ground beef enchiladas",
+   "aliases": [
+    "beef enchiladas",
+    "ground beef enchiladas",
+    "hamburger enchiladas",
+    "beef and cheese enchiladas"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "beef",
+    "tortilla",
+    "enchilada sauce",
+    "cheese",
+    "bean"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "1 onion, chopped",
+    "2 teaspoons chili powder",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon salt",
+    "1 can (15 oz / 425 g) pinto or black beans, drained",
+    "3 cups (720 ml) red enchilada sauce, divided",
+    "2 cups (200 g) shredded cheddar, divided",
+    "8 flour tortillas"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Chop the onion.",
+    "Cook the beef and onion over medium heat for 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Stir in the spices, salt, beans and 1/2 cup sauce.",
+    "Spread 1/2 cup sauce in a 9 by 13 inch dish.",
+    "Fill each tortilla with beef and a little cheese, roll up and lay seam side down.",
+    "Pour the rest of the sauce over and top with the rest of the cheese.",
+    "Bake for 20 to 25 minutes, until bubbly."
+   ]
+  },
+  {
+   "id": "chicken-tinga",
+   "name": "Chicken tinga",
+   "aliases": [
+    "chicken tinga",
+    "tinga",
+    "tinga de pollo",
+    "chipotle chicken",
+    "tinga tostadas"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "chicken",
+    "chipotle",
+    "tomato",
+    "onion"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) boneless skinless chicken breasts or thighs",
+    "2 tablespoons vegetable oil",
+    "1 onion, thinly sliced",
+    "2 garlic cloves, chopped",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "2 to 3 chipotle peppers in adobo, plus 1 tablespoon adobo sauce",
+    "1/2 teaspoon dried oregano",
+    "1/2 cup (120 ml) chicken broth",
+    "1 teaspoon salt",
+    "Tostadas or tortillas, crema, avocado and queso fresco"
+   ],
+   "steps": [
+    "Simmer the chicken in salted water for 15 to 20 minutes, until 165°F (74°C). Shred it.",
+    "Slice the onion. Ask an adult to help.",
+    "Blend the tomatoes, chipotles, adobo, garlic, oregano and broth until smooth.",
+    "Heat the oil in a pan over medium heat and cook the onion for 6 minutes.",
+    "Pour in the sauce and simmer for 5 minutes.",
+    "Add the chicken and salt and simmer for 5 minutes, until saucy.",
+    "Pile onto tostadas or into tortillas with crema, avocado and queso fresco."
+   ]
+  },
+  {
+   "id": "slow-cooker-carnitas",
+   "name": "Slow cooker carnitas",
+   "aliases": [
+    "carnitas",
+    "pork carnitas",
+    "slow cooker carnitas",
+    "crispy carnitas",
+    "carnitas tacos"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "8 hr 30 min",
+   "main": [
+    "pork",
+    "orange",
+    "garlic",
+    "cumin"
+   ],
+   "ingredients": [
+    "4 lb (1.8 kg) boneless pork shoulder, cut in 3 inch chunks",
+    "2 teaspoons salt",
+    "2 teaspoons ground cumin",
+    "1 teaspoon dried oregano",
+    "1/2 teaspoon pepper",
+    "1 onion, chopped",
+    "5 garlic cloves, smashed",
+    "1 cup (240 ml) orange juice",
+    "2 tablespoons lime juice",
+    "Corn tortillas, chopped onion, cilantro and salsa verde"
+   ],
+   "steps": [
+    "Rub the pork with the salt, cumin, oregano and pepper. Wash your hands.",
+    "Put the onion and garlic in the slow cooker, add the pork and pour the juices over.",
+    "Cover and cook on low for 8 to 10 hours, until it falls apart.",
+    "Shred the pork with two forks.",
+    "Heat the oven broiler. Ask an adult to help.",
+    "Spread the pork on a baking sheet, drizzle with 1/2 cup of the cooking liquid, and broil for 4 to 5 minutes, until the edges crisp. Watch closely.",
+    "Serve in warm tortillas with onion, cilantro and salsa."
+   ]
+  },
+  {
+   "id": "carne-asada",
+   "name": "Carne asada",
+   "aliases": [
+    "carne asada",
+    "grilled steak tacos",
+    "asada",
+    "carne asada tacos",
+    "mexican grilled steak"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr 30 min",
+   "main": [
+    "beef",
+    "lime",
+    "orange",
+    "garlic",
+    "cilantro"
+   ],
+   "ingredients": [
+    "2 lb (900 g) skirt or flank steak",
+    "1/2 cup (120 ml) orange juice",
+    "1/4 cup (60 ml) lime juice",
+    "1/4 cup (60 ml) olive oil",
+    "4 garlic cloves, grated",
+    "1 jalapeno, chopped",
+    "1/2 cup (15 g) chopped cilantro",
+    "1 teaspoon ground cumin",
+    "1 1/2 teaspoons salt",
+    "Tortillas, onion, cilantro, lime and salsa"
+   ],
+   "steps": [
+    "Chop the jalapeno and cilantro. Ask an adult to help.",
+    "Mix the juices, oil, garlic, jalapeno, cilantro, cumin and salt.",
+    "Coat the steak and marinate in the fridge for 2 hours to overnight.",
+    "Heat a grill or grill pan over high heat. An adult should do the grilling.",
+    "Cook the steak for 4 to 6 minutes per side, until 135°F (57°C) for medium.",
+    "Rest for 10 minutes, then slice thinly across the grain and chop.",
+    "Serve in tortillas with onion, cilantro, lime and salsa."
+   ]
+  },
+  {
+   "id": "slow-cooker-barbacoa",
+   "name": "Slow cooker beef barbacoa",
+   "aliases": [
+    "barbacoa",
+    "beef barbacoa",
+    "slow cooker barbacoa",
+    "barbacoa tacos",
+    "shredded beef tacos"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "8 hr 20 min",
+   "main": [
+    "beef",
+    "chipotle",
+    "lime",
+    "garlic",
+    "cumin"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) beef chuck roast, cut in 4 chunks",
+    "2 teaspoons salt",
+    "1/2 cup (120 ml) beef broth",
+    "2 to 4 chipotle peppers in adobo",
+    "1/4 cup (60 ml) lime juice",
+    "2 tablespoons apple cider vinegar",
+    "5 garlic cloves",
+    "1 tablespoon ground cumin",
+    "1 tablespoon dried oregano",
+    "1/2 teaspoon ground cloves",
+    "3 bay leaves",
+    "Tortillas, onion, cilantro and lime"
+   ],
+   "steps": [
+    "Rub the beef with the salt and put it in the slow cooker.",
+    "Blend the broth, chipotles, lime juice, vinegar, garlic, cumin, oregano and cloves until smooth.",
+    "Pour it over the beef and tuck in the bay leaves.",
+    "Cover and cook on low for 8 to 10 hours, until it falls apart.",
+    "Take out the bay leaves and shred the beef in the juices with two forks.",
+    "Serve in tortillas with onion, cilantro and lime."
+   ]
+  },
+  {
+   "id": "birria-tacos",
+   "name": "Birria tacos",
+   "aliases": [
+    "birria",
+    "birria tacos",
+    "quesabirria",
+    "birria de res",
+    "consome tacos"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "4 hr",
+   "main": [
+    "beef",
+    "dried chili",
+    "tortilla",
+    "cheese"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) beef chuck roast, cut in big chunks",
+    "2 teaspoons salt",
+    "5 dried guajillo chilies",
+    "3 dried ancho chilies",
+    "1 onion, chopped",
+    "5 garlic cloves",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "2 tablespoons apple cider vinegar",
+    "1 teaspoon ground cumin",
+    "1 teaspoon dried oregano",
+    "1 cinnamon stick",
+    "3 bay leaves",
+    "6 cups (1.4 liters) beef broth",
+    "16 corn tortillas",
+    "2 cups (225 g) shredded Oaxaca or mozzarella cheese",
+    "Chopped onion, cilantro and lime"
+   ],
+   "steps": [
+    "Pull the stems and seeds out of the chilies. Ask an adult to help.",
+    "Toast the chilies in a dry pan for 30 seconds per side, then soak in hot water for 15 minutes.",
+    "Blend the chilies, onion, garlic, tomatoes, vinegar, cumin and oregano with 1 cup of broth until smooth.",
+    "Put the beef, salt, sauce, the rest of the broth, cinnamon and bay leaves in a big pot. Bring to a boil.",
+    "Cover and simmer on low for 3 hours, until the beef falls apart. Shred the beef. The red broth is the consome.",
+    "Dip a tortilla in the fat on top of the consome and lay it in a hot pan over medium heat.",
+    "Add cheese and beef, fold, and cook for 2 minutes per side, until crispy. An adult should help with the hot pan.",
+    "Serve with cups of consome for dipping, plus onion, cilantro and lime."
+   ]
+  },
+  {
+   "id": "baja-fish-tacos",
+   "name": "Baja fish tacos",
+   "aliases": [
+    "fish tacos",
+    "baja fish tacos",
+    "crispy fish tacos",
+    "fish taco",
+    "baked fish tacos"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "fish",
+    "tortilla",
+    "cabbage",
+    "lime"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) cod, tilapia or mahi mahi, cut in strips",
+    "1 teaspoon chili powder",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon garlic powder",
+    "1 teaspoon salt",
+    "1 tablespoon olive oil",
+    "2 cups (140 g) shredded cabbage",
+    "1/2 cup (115 g) sour cream or mayonnaise",
+    "1 lime, plus wedges to serve",
+    "1 teaspoon hot sauce or sriracha",
+    "8 small corn or flour tortillas",
+    "Avocado and cilantro"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Toss the fish with the spices, salt and oil and spread on a lined baking sheet.",
+    "Bake for 10 to 12 minutes, until it flakes easily and is 145°F (63°C).",
+    "Whisk the sour cream, juice of half the lime and hot sauce to make crema.",
+    "Toss the cabbage with the juice of the other half of the lime.",
+    "Warm the tortillas and fill with fish, cabbage, crema, avocado and cilantro."
+   ]
+  },
+  {
+   "id": "garlic-shrimp-tacos",
+   "name": "Garlic lime shrimp tacos",
+   "aliases": [
+    "shrimp tacos",
+    "shrimp taco",
+    "garlic shrimp tacos",
+    "spicy shrimp tacos"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "shrimp",
+    "tortilla",
+    "lime",
+    "avocado"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) medium shrimp, peeled and deveined",
+    "1 teaspoon chili powder",
+    "1/2 teaspoon smoked paprika",
+    "1/2 teaspoon salt",
+    "1 tablespoon olive oil",
+    "3 garlic cloves, chopped",
+    "1 lime",
+    "8 small tortillas",
+    "1 avocado, sliced",
+    "Shredded cabbage, cilantro and chipotle mayo"
+   ],
+   "steps": [
+    "Chop the garlic. Ask an adult to help.",
+    "Toss the shrimp with the chili powder, paprika and salt.",
+    "Heat the oil in a big pan over medium-high heat and add the shrimp in one layer.",
+    "Cook for 1 to 2 minutes per side, until pink. Add the garlic for the last 30 seconds.",
+    "Squeeze the lime over the shrimp.",
+    "Fill warm tortillas with shrimp, avocado, cabbage, cilantro and chipotle mayo."
+   ]
+  },
+  {
+   "id": "tacos-al-pastor",
+   "name": "Pork al pastor tacos",
+   "aliases": [
+    "al pastor",
+    "tacos al pastor",
+    "pastor tacos",
+    "pork al pastor",
+    "pineapple pork tacos"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr 30 min",
+   "main": [
+    "pork",
+    "pineapple",
+    "dried chili",
+    "achiote"
+   ],
+   "ingredients": [
+    "2 lb (900 g) boneless pork shoulder, sliced 1/4 inch thick",
+    "3 dried guajillo chilies, stems and seeds removed",
+    "1/2 cup (120 ml) pineapple juice",
+    "2 tablespoons white vinegar",
+    "2 tablespoons achiote paste",
+    "3 garlic cloves",
+    "1 teaspoon ground cumin",
+    "1 teaspoon dried oregano",
+    "1 1/2 teaspoons salt",
+    "2 cups (330 g) fresh pineapple chunks",
+    "1 tablespoon vegetable oil",
+    "Corn tortillas, chopped onion, cilantro and lime"
+   ],
+   "steps": [
+    "Soak the chilies in hot water for 15 minutes, then drain.",
+    "Blend the chilies, pineapple juice, vinegar, achiote, garlic, cumin, oregano and salt until smooth.",
+    "Slice the pork thinly, ask an adult to help, and coat it in the marinade. Chill for 2 hours to overnight.",
+    "Heat the oil in a big heavy pan over medium-high heat and cook the pork in batches for 3 to 4 minutes per side, until charred and cooked through.",
+    "Chop the pork into small pieces.",
+    "Cook the pineapple chunks in the pan for 3 to 4 minutes, until browned.",
+    "Serve in tortillas with pineapple, onion, cilantro and lime."
+   ]
+  },
+  {
+   "id": "slow-cooker-salsa-chicken",
+   "name": "Slow cooker salsa chicken",
+   "aliases": [
+    "salsa chicken",
+    "slow cooker chicken tacos",
+    "shredded chicken tacos",
+    "crockpot salsa chicken",
+    "chicken taco meat"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "4 hr 10 min",
+   "main": [
+    "chicken",
+    "salsa",
+    "taco seasoning"
+   ],
+   "ingredients": [
+    "2 lb (900 g) boneless skinless chicken breasts or thighs",
+    "2 tablespoons taco seasoning",
+    "1 1/2 cups (360 ml) salsa",
+    "1/2 teaspoon salt",
+    "Tortillas, rice, cheese and toppings to serve"
+   ],
+   "steps": [
+    "Put the chicken in the slow cooker and sprinkle with the taco seasoning and salt.",
+    "Pour the salsa over the top.",
+    "Cover and cook on low for 4 to 6 hours, or high for 2 to 3 hours, until 165°F (74°C) and easy to shred.",
+    "Shred the chicken in the slow cooker with two forks and stir it into the sauce.",
+    "Use it for tacos, burritos, nachos or rice bowls."
+   ]
+  },
+  {
+   "id": "chiles-rellenos",
+   "name": "Chiles rellenos",
+   "aliases": [
+    "chiles rellenos",
+    "chile relleno",
+    "stuffed poblano peppers",
+    "chili relleno"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr 15 min",
+   "main": [
+    "poblano pepper",
+    "cheese",
+    "egg",
+    "tomato"
+   ],
+   "ingredients": [
+    "4 large poblano peppers",
+    "8 oz (225 g) Oaxaca or Monterey Jack cheese, cut in sticks",
+    "4 large eggs, separated",
+    "1/4 teaspoon salt",
+    "1/2 cup (65 g) all-purpose flour",
+    "Vegetable oil for frying",
+    "1 can (14.5 oz / 410 g) diced tomatoes, 1/4 onion and 1 garlic clove, for the sauce"
+   ],
+   "steps": [
+    "An adult roasts the poblanos directly over a gas flame or under the broiler for 8 to 10 minutes, turning, until black all over.",
+    "Put them in a bowl, cover with a plate for 10 minutes, then rub off the skins.",
+    "Cut a slit down each pepper, scoop out the seeds and stuff with cheese. Close with a toothpick.",
+    "Blend the tomatoes, onion and garlic and simmer in a pot for 10 minutes for the sauce.",
+    "Beat the egg whites to stiff peaks, then fold in the yolks and salt.",
+    "An adult heats 1 inch of oil in a pan to 350°F (175°C).",
+    "Roll each pepper in flour, dip in the egg batter, and fry for 2 to 3 minutes per side, until golden. An adult should do the frying.",
+    "Drain on paper towels, take out the toothpicks, and serve with the tomato sauce."
+   ]
+  },
+  {
+   "id": "arroz-con-pollo",
+   "name": "Arroz con pollo",
+   "aliases": [
+    "arroz con pollo",
+    "chicken and rice",
+    "latin chicken and rice",
+    "spanish chicken and rice",
+    "yellow rice and chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "rice",
+    "pepper",
+    "pea",
+    "tomato"
+   ],
+   "ingredients": [
+    "2 lb (900 g) bone-in chicken thighs",
+    "1 1/2 teaspoons salt, divided",
+    "1 teaspoon ground cumin",
+    "1 teaspoon paprika",
+    "2 tablespoons olive oil",
+    "1 onion, chopped",
+    "1 red bell pepper, chopped",
+    "3 garlic cloves, chopped",
+    "1 packet sazon seasoning or 1/2 teaspoon turmeric",
+    "1 1/2 cups (285 g) long grain white rice",
+    "1 can (8 oz / 225 g) tomato sauce",
+    "2 1/2 cups (600 ml) chicken broth",
+    "1 cup (140 g) frozen peas",
+    "1/4 cup (35 g) sliced green olives (optional)"
+   ],
+   "steps": [
+    "Season the chicken with 1 teaspoon salt, cumin and paprika. Wash your hands.",
+    "Chop the onion, pepper and garlic. Ask an adult to help.",
+    "Heat the oil in a big pot over medium-high heat and brown the chicken skin side down for 5 minutes per side. Lift it out.",
+    "Cook the onion and pepper in the pot for 5 minutes. Add the garlic and sazon for 1 minute.",
+    "Stir in the rice for 1 minute, then add the tomato sauce, broth and the rest of the salt.",
+    "Nestle the chicken back in and bring to a boil.",
+    "Cover and cook on low for 25 minutes, until the rice is tender and the chicken is 165°F (74°C).",
+    "Scatter the peas and olives on top, cover for 5 minutes, then fluff."
+   ]
+  },
+  {
+   "id": "baked-chimichangas",
+   "name": "Baked chicken chimichangas",
+   "aliases": [
+    "chimichangas",
+    "chimichanga",
+    "baked chimichangas",
+    "chicken chimichangas",
+    "fried burritos"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "chicken",
+    "tortilla",
+    "cheese",
+    "bean"
+   ],
+   "ingredients": [
+    "3 cups (420 g) shredded cooked chicken",
+    "1 cup (240 ml) salsa",
+    "1 teaspoon ground cumin",
+    "1 teaspoon chili powder",
+    "1 can (15 oz / 425 g) refried beans",
+    "2 cups (200 g) shredded Monterey Jack",
+    "6 large flour tortillas",
+    "2 tablespoons (30 g) butter, melted",
+    "Sour cream, guacamole and salsa to serve"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Mix the chicken, salsa, cumin and chili powder.",
+    "Warm the tortillas so they bend.",
+    "Spread beans down the middle of each, add chicken and cheese, fold in the sides and roll up tightly.",
+    "Lay seam side down on a baking sheet and brush all over with melted butter.",
+    "Bake for 15 to 20 minutes, until golden and crisp.",
+    "Serve with sour cream, guacamole and salsa."
+   ]
+  },
+  {
+   "id": "tamale-pie",
+   "name": "Tamale pie",
+   "aliases": [
+    "tamale pie",
+    "cornbread tamale pie",
+    "tamale casserole",
+    "mexican cornbread casserole"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "beef",
+    "cornmeal",
+    "bean",
+    "corn",
+    "cheese"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "1 onion, chopped",
+    "1 tablespoon chili powder",
+    "1 teaspoon ground cumin",
+    "1 teaspoon salt",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "1 can (15 oz / 425 g) black beans, drained",
+    "1 cup (150 g) frozen corn",
+    "1 cup (100 g) shredded cheddar",
+    "1 box (8.5 oz / 240 g) corn muffin mix, plus 1 egg and 1/3 cup (80 ml) milk"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Chop the onion.",
+    "Cook the beef and onion in an oven-safe pan over medium heat for 8 minutes, until browned. Drain the fat.",
+    "Stir in the chili powder, cumin, salt, tomatoes, beans and corn and simmer for 10 minutes.",
+    "Sprinkle the cheese on top.",
+    "Mix the muffin mix, egg and milk and spread it over the filling.",
+    "Bake for 20 to 25 minutes, until the cornbread is golden and a toothpick comes out clean."
+   ]
+  },
+  {
+   "id": "cuban-picadillo",
+   "name": "Cuban picadillo",
+   "aliases": [
+    "picadillo",
+    "cuban picadillo",
+    "picadillo cubano",
+    "cuban ground beef"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "beef",
+    "tomato",
+    "olive",
+    "raisin",
+    "pepper"
+   ],
+   "ingredients": [
+    "2 tablespoons olive oil",
+    "1 onion, chopped",
+    "1 green bell pepper, chopped",
+    "3 garlic cloves, chopped",
+    "1 1/2 lb (680 g) ground beef",
+    "1 teaspoon ground cumin",
+    "1 teaspoon dried oregano",
+    "1 teaspoon salt",
+    "1 can (8 oz / 225 g) tomato sauce",
+    "1/2 cup (120 ml) water",
+    "1/2 cup (70 g) green olives, sliced",
+    "1/3 cup (50 g) raisins (optional)",
+    "1 potato, cut in small cubes (optional)",
+    "Cooked white rice and black beans to serve"
+   ],
+   "steps": [
+    "Chop the vegetables. Ask an adult to help.",
+    "Heat the oil in a big pan over medium heat and cook the onion and pepper for 5 minutes. Add the garlic for 1 minute.",
+    "Add the beef and cook for 7 to 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Add the cumin, oregano, salt, tomato sauce, water, olives, raisins and potato.",
+    "Cover and simmer for 15 to 20 minutes, until the potato is tender.",
+    "Serve over rice with black beans."
+   ]
+  },
+  {
+   "id": "ropa-vieja",
+   "name": "Ropa vieja",
+   "aliases": [
+    "ropa vieja",
+    "cuban shredded beef",
+    "ropa vieja cubana",
+    "shredded beef and peppers"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "3 hr",
+   "main": [
+    "beef",
+    "pepper",
+    "onion",
+    "tomato"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) flank steak or chuck roast",
+    "1 1/2 teaspoons salt",
+    "2 tablespoons olive oil",
+    "1 onion, sliced",
+    "1 red and 1 green bell pepper, sliced",
+    "4 garlic cloves, chopped",
+    "2 teaspoons ground cumin",
+    "1 teaspoon dried oregano",
+    "1 can (14.5 oz / 410 g) crushed tomatoes",
+    "2 tablespoons tomato paste",
+    "1 cup (240 ml) beef broth",
+    "1/2 cup (70 g) green olives",
+    "1 bay leaf",
+    "Cooked rice and fried plantains to serve"
+   ],
+   "steps": [
+    "Season the beef with salt.",
+    "Heat the oil in a big pot over medium-high heat and brown the beef for 4 minutes per side. Lift it out.",
+    "Slice the onion and peppers. Ask an adult to help.",
+    "Cook the onion and peppers in the pot for 6 minutes. Add the garlic, cumin and oregano for 1 minute.",
+    "Add the tomatoes, tomato paste, broth, olives, bay leaf and beef and bring to a boil.",
+    "Cover and simmer on low for 2 hours 30 minutes, until the beef shreds easily.",
+    "Shred the beef in the pot with two forks and simmer uncovered for 10 minutes to thicken.",
+    "Serve over rice with plantains."
+   ]
+  },
+  {
+   "id": "cuban-mojo-pork",
+   "name": "Cuban mojo roast pork",
+   "aliases": [
+    "mojo pork",
+    "cuban roast pork",
+    "lechon asado",
+    "cuban pork",
+    "mojo roast pork"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "5 hr",
+   "main": [
+    "pork",
+    "orange",
+    "lime",
+    "garlic",
+    "cumin"
+   ],
+   "ingredients": [
+    "4 lb (1.8 kg) boneless pork shoulder",
+    "3/4 cup (180 ml) orange juice",
+    "1/4 cup (60 ml) lime juice",
+    "1/4 cup (60 ml) olive oil",
+    "10 garlic cloves, grated",
+    "2 teaspoons ground cumin",
+    "2 teaspoons dried oregano",
+    "2 teaspoons salt",
+    "1/2 teaspoon pepper",
+    "1 onion, sliced"
+   ],
+   "steps": [
+    "Whisk the juices, oil, garlic, cumin, oregano, salt and pepper. This is mojo.",
+    "Poke the pork all over with a knife and put it in a bag with 3/4 of the mojo. Ask an adult to help. Marinate in the fridge overnight.",
+    "Heat the oven to 325°F (165°C).",
+    "Put the onion in a roasting pan and set the pork on top with its marinade.",
+    "Cover with foil and roast for 3 hours.",
+    "Uncover, turn the oven to 425°F (220°C) and roast for 30 to 45 minutes more, until browned and very tender, at least 190°F (88°C).",
+    "Rest for 15 minutes, shred or slice, and drizzle with the saved mojo."
+   ]
+  },
+  {
+   "id": "lomo-saltado",
+   "name": "Lomo saltado",
+   "aliases": [
+    "lomo saltado",
+    "peruvian stir fry",
+    "peruvian beef stir fry",
+    "beef with fries peru"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "beef",
+    "onion",
+    "tomato",
+    "soy sauce",
+    "fries"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) beef sirloin, cut in thick strips",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1 teaspoon ground cumin",
+    "3 tablespoons vegetable oil",
+    "1 red onion, cut in thick wedges",
+    "3 garlic cloves, chopped",
+    "1 aji amarillo or yellow chili, sliced (optional)",
+    "2 tomatoes, cut in wedges",
+    "3 tablespoons soy sauce",
+    "2 tablespoons red wine vinegar",
+    "1/4 cup chopped cilantro",
+    "1 bag (16 oz / 450 g) frozen french fries, cooked",
+    "Cooked white rice"
+   ],
+   "steps": [
+    "Bake the fries as the bag says. Cut the beef and vegetables. Ask an adult to help.",
+    "Season the beef with salt, pepper and cumin.",
+    "Heat a wok or big pan over high heat until very hot and add 2 tablespoons oil.",
+    "Sear the beef in 2 batches for 1 to 2 minutes, until browned. Lift it out.",
+    "Add the rest of the oil and the onion, garlic and chili and stir-fry for 2 minutes.",
+    "Add the tomatoes, soy sauce and vinegar and cook for 1 minute.",
+    "Add the beef, cilantro and fries and toss quickly.",
+    "Serve right away with rice."
+   ]
+  },
+  {
+   "id": "pollo-a-la-brasa",
+   "name": "Peruvian roast chicken",
+   "aliases": [
+    "pollo a la brasa",
+    "peruvian chicken",
+    "peruvian roast chicken",
+    "chicken with green sauce"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr 30 min",
+   "main": [
+    "chicken",
+    "garlic",
+    "cumin",
+    "soy sauce",
+    "lime"
+   ],
+   "ingredients": [
+    "1 whole chicken (4 lb / 1.8 kg), cut in half or spatchcocked",
+    "4 garlic cloves, grated",
+    "2 tablespoons soy sauce",
+    "2 tablespoons lime juice",
+    "2 tablespoons vegetable oil",
+    "1 tablespoon paprika",
+    "2 teaspoons ground cumin",
+    "1 teaspoon dried oregano",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "Green sauce: 1 cup cilantro, 1 jalapeno, 1/3 cup mayonnaise, 1 garlic clove, 2 tablespoons lime juice, 1/4 teaspoon salt"
+   ],
+   "steps": [
+    "An adult cuts out the backbone with kitchen shears and presses the chicken flat.",
+    "Mix the garlic, soy sauce, lime juice, oil and spices and rub it all over the chicken. Wash your hands.",
+    "Marinate in the fridge for at least 1 hour, or overnight.",
+    "Heat the oven to 425°F (220°C).",
+    "Roast skin side up on a rack over a sheet pan for 45 to 55 minutes, until 165°F (74°C) in the thickest part of the thigh.",
+    "Blend the green sauce ingredients until smooth.",
+    "Rest the chicken for 10 minutes, cut into pieces, and serve with green sauce and fries."
+   ]
+  },
+  {
+   "id": "simple-feijoada",
+   "name": "Simple feijoada",
+   "aliases": [
+    "feijoada",
+    "brazilian black bean stew",
+    "brazilian feijoada",
+    "black bean and pork stew"
+   ],
+   "category": "Dinner",
+   "servings": 8,
+   "time": "2 hr 30 min",
+   "main": [
+    "black bean",
+    "pork",
+    "sausage",
+    "bacon"
+   ],
+   "ingredients": [
+    "1 lb (450 g) dried black beans, soaked overnight and drained",
+    "6 slices thick bacon, chopped",
+    "1 lb (450 g) pork shoulder, cut in 1 inch cubes",
+    "12 oz (340 g) smoked sausage like linguica or kielbasa, sliced",
+    "1 onion, chopped",
+    "5 garlic cloves, chopped",
+    "2 bay leaves",
+    "8 cups (2 liters) water",
+    "1 1/2 teaspoons salt",
+    "Cooked white rice, orange slices and sauteed collard greens to serve"
+   ],
+   "steps": [
+    "Chop the bacon, pork, onion and garlic and slice the sausage. Ask an adult to help.",
+    "Cook the bacon in a big pot over medium heat for 6 minutes. Add the pork and brown for 6 minutes.",
+    "Add the onion and garlic and cook for 5 minutes.",
+    "Add the beans, sausage, bay leaves and water and bring to a boil.",
+    "Cover partly and simmer on low for 2 hours, stirring now and then, until the beans are creamy and the pork is tender.",
+    "Mash a ladle of beans and stir them back in to thicken. Add salt to taste.",
+    "Serve with rice, orange slices and greens."
+   ]
+  },
+  {
+   "id": "chimichurri-steak",
+   "name": "Steak with chimichurri",
+   "aliases": [
+    "chimichurri steak",
+    "steak with chimichurri",
+    "argentinian steak",
+    "steak chimichurri"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "beef",
+    "parsley",
+    "garlic",
+    "vinegar",
+    "olive oil"
+   ],
+   "ingredients": [
+    "2 lb (900 g) flank, skirt or sirloin steak",
+    "1 1/2 teaspoons salt, divided",
+    "1/2 teaspoon pepper",
+    "1 tablespoon vegetable oil",
+    "1 cup (30 g) packed parsley, finely chopped",
+    "3 garlic cloves, finely chopped",
+    "1 teaspoon dried oregano",
+    "1/4 teaspoon chili flakes",
+    "1/4 cup (60 ml) red wine vinegar",
+    "1/2 cup (120 ml) olive oil"
+   ],
+   "steps": [
+    "Finely chop the parsley and garlic. Ask an adult to help.",
+    "Mix the parsley, garlic, oregano, chili flakes, vinegar, olive oil and 1/2 teaspoon salt. Let it sit for 15 minutes.",
+    "Season the steak with the rest of the salt and pepper.",
+    "Heat the vegetable oil in a heavy pan over high heat and cook the steak for 4 to 5 minutes per side, until 135°F (57°C) for medium.",
+    "Rest for 10 minutes, then slice thinly across the grain.",
+    "Spoon the chimichurri over the steak."
+   ]
+  },
+  {
+   "id": "milanesa",
+   "name": "Milanesa breaded steak",
+   "aliases": [
+    "milanesa",
+    "milanesas",
+    "argentinian milanesa",
+    "breaded steak",
+    "milanesa de res"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "beef",
+    "breadcrumb",
+    "egg",
+    "lemon"
+   ],
+   "ingredients": [
+    "4 thin beef cutlets (top round, about 1/4 inch thick)",
+    "2 large eggs",
+    "2 garlic cloves, grated",
+    "2 tablespoons chopped parsley",
+    "1 teaspoon salt",
+    "1/4 teaspoon pepper",
+    "1 1/2 cups (150 g) dry breadcrumbs",
+    "Vegetable oil for frying",
+    "Lemon wedges to serve"
+   ],
+   "steps": [
+    "Pound the cutlets thin between plastic wrap if needed.",
+    "Beat the eggs with the garlic, parsley, salt and pepper and soak the cutlets in it for 10 minutes.",
+    "Press each cutlet into the breadcrumbs on both sides. Wash your hands.",
+    "An adult heats 1/4 inch of oil in a big pan over medium-high heat.",
+    "Fry for 2 to 3 minutes per side, until golden and cooked through. An adult should do the frying.",
+    "Drain on paper towels and serve with lemon wedges and mashed potatoes or salad."
+   ]
+  },
+  {
+   "id": "jerk-chicken",
+   "name": "Jamaican jerk chicken",
+   "aliases": [
+    "jerk chicken",
+    "jamaican jerk chicken",
+    "jerk",
+    "oven jerk chicken",
+    "jerk chicken thighs"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "scotch bonnet",
+    "allspice",
+    "thyme",
+    "green onion"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken thighs and drumsticks",
+    "4 green onions, chopped",
+    "1 small onion, chopped",
+    "1 to 2 scotch bonnet peppers, seeded (wear gloves)",
+    "4 garlic cloves",
+    "1 tablespoon grated ginger",
+    "2 teaspoons ground allspice",
+    "1 teaspoon dried thyme",
+    "1/2 teaspoon cinnamon",
+    "1/4 cup (60 ml) soy sauce",
+    "2 tablespoons lime juice",
+    "2 tablespoons brown sugar",
+    "2 tablespoons vegetable oil",
+    "1 teaspoon salt"
+   ],
+   "steps": [
+    "Blend everything except the chicken into a smooth paste. Ask an adult to handle the scotch bonnets with gloves.",
+    "Cut 2 slashes in each chicken piece and coat it in the paste. Wash your hands.",
+    "Marinate in the fridge for at least 4 hours, or overnight.",
+    "Heat the oven to 425°F (220°C).",
+    "Lay the chicken on a rack over a foil-lined pan.",
+    "Roast for 35 to 45 minutes, until charred in spots and 165°F (74°C) inside.",
+    "Serve with rice and peas and fried plantains."
+   ]
+  },
+  {
+   "id": "jamaican-curry-chicken",
+   "name": "Jamaican curry chicken",
+   "aliases": [
+    "jamaican curry chicken",
+    "curry chicken",
+    "caribbean curry chicken",
+    "island curry chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "chicken",
+    "curry powder",
+    "potato",
+    "thyme"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken pieces, cut small",
+    "3 tablespoons Jamaican curry powder, divided",
+    "1 teaspoon salt",
+    "1 teaspoon ground allspice",
+    "1 onion, chopped",
+    "4 garlic cloves, chopped",
+    "3 green onions, chopped",
+    "1 tablespoon grated ginger",
+    "3 sprigs fresh thyme",
+    "2 tablespoons vegetable oil",
+    "2 potatoes, cubed",
+    "2 cups (480 ml) water",
+    "1 whole scotch bonnet pepper (don't cut it)"
+   ],
+   "steps": [
+    "Chop the onion, garlic and green onions. Ask an adult to help.",
+    "Mix the chicken with 2 tablespoons curry powder, salt, allspice, onion, garlic, green onions, ginger and thyme. Marinate for 30 minutes. Wash your hands.",
+    "Heat the oil in a big pot over medium heat and stir in the rest of the curry powder for 1 minute.",
+    "Add the chicken, leaving the onions behind for now, and brown for 5 minutes.",
+    "Add the onions, potatoes, water and scotch bonnet and bring to a boil.",
+    "Cover and simmer for 35 to 40 minutes, until the chicken is tender and 165°F (74°C) and the sauce is thick.",
+    "Take out the scotch bonnet and serve with rice."
+   ]
+  },
+  {
+   "id": "brown-stew-chicken",
+   "name": "Jamaican brown stew chicken",
+   "aliases": [
+    "brown stew chicken",
+    "brown stew",
+    "stew chicken",
+    "jamaican stew chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "chicken",
+    "browning sauce",
+    "onion",
+    "pepper",
+    "thyme"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken pieces",
+    "1 teaspoon salt",
+    "1 teaspoon black pepper",
+    "1 teaspoon all-purpose seasoning",
+    "2 tablespoons browning sauce",
+    "1 onion, sliced",
+    "1 bell pepper, sliced",
+    "3 garlic cloves, chopped",
+    "2 green onions, chopped",
+    "3 sprigs fresh thyme",
+    "2 tablespoons vegetable oil",
+    "1 tablespoon brown sugar",
+    "2 tablespoons ketchup",
+    "1 cup (240 ml) water"
+   ],
+   "steps": [
+    "Slice and chop the vegetables. Ask an adult to help.",
+    "Season the chicken with salt, pepper, seasoning and browning sauce. Wash your hands.",
+    "Heat the oil in a big pot over medium-high heat and brown the chicken for 4 minutes per side. Lift it out.",
+    "Add the onion, pepper, garlic, green onions and thyme and cook for 4 minutes.",
+    "Stir in the brown sugar, ketchup and water.",
+    "Put the chicken back, cover and simmer for 35 to 40 minutes, until 165°F (74°C) and the gravy is thick.",
+    "Serve with rice and peas."
+   ]
+  },
+  {
+   "id": "jamaican-oxtail-stew",
+   "name": "Jamaican oxtail stew",
+   "aliases": [
+    "oxtail",
+    "oxtail stew",
+    "jamaican oxtail",
+    "braised oxtails",
+    "oxtails and butter beans"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "3 hr 30 min",
+   "main": [
+    "oxtail",
+    "butter bean",
+    "allspice",
+    "thyme"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) oxtails, trimmed",
+    "1 1/2 teaspoons salt",
+    "1 teaspoon black pepper",
+    "2 tablespoons browning sauce",
+    "1 tablespoon soy sauce",
+    "1 onion, chopped",
+    "4 garlic cloves, chopped",
+    "3 green onions, chopped",
+    "1 tablespoon grated ginger",
+    "2 tablespoons vegetable oil",
+    "1 tablespoon brown sugar",
+    "1 teaspoon whole allspice berries",
+    "4 sprigs fresh thyme",
+    "4 cups (960 ml) water or beef broth",
+    "1 whole scotch bonnet pepper",
+    "1 can (15 oz / 425 g) butter beans, drained"
+   ],
+   "steps": [
+    "Season the oxtails with salt, pepper, browning, soy sauce, onion, garlic, green onions and ginger. Marinate for 1 hour or overnight. Wash your hands.",
+    "Heat the oil in a heavy pot over medium-high heat and brown the oxtails for 3 to 4 minutes per side, leaving the onions in the bowl. Ask an adult to help.",
+    "Add the onions, brown sugar, allspice, thyme, water and scotch bonnet and bring to a boil.",
+    "Cover and simmer on low for 2 hours 30 minutes to 3 hours, adding water if needed, until the meat falls off the bone.",
+    "Add the butter beans and simmer uncovered for 15 minutes, until the gravy is thick.",
+    "Take out the scotch bonnet and thyme stems and serve with rice."
+   ]
+  },
+  {
+   "id": "trinidad-pelau",
+   "name": "Trinidad pelau",
+   "aliases": [
+    "pelau",
+    "trini pelau",
+    "chicken pelau",
+    "caribbean pelau",
+    "trinidad pelau"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 10 min",
+   "main": [
+    "chicken",
+    "rice",
+    "pigeon pea",
+    "coconut milk",
+    "brown sugar"
+   ],
+   "ingredients": [
+    "2 lb (900 g) boneless chicken thighs, cut in pieces",
+    "1 teaspoon salt",
+    "2 tablespoons green seasoning or chopped herbs and garlic",
+    "2 tablespoons vegetable oil",
+    "3 tablespoons brown sugar",
+    "1 onion, chopped",
+    "1 carrot, diced",
+    "1 1/2 cups (285 g) parboiled rice, rinsed",
+    "1 can (15 oz / 425 g) pigeon peas, drained",
+    "1 can (13.5 oz / 400 ml) coconut milk",
+    "1 1/2 cups (360 ml) water",
+    "1 tablespoon ketchup",
+    "1 whole scotch bonnet pepper"
+   ],
+   "steps": [
+    "Season the chicken with salt and green seasoning. Wash your hands.",
+    "Heat the oil and sugar in a big heavy pot over medium heat, without stirring, until the sugar melts and turns dark amber, about 3 to 4 minutes. An adult should do this, melted sugar is very hot.",
+    "Carefully add the chicken and stir to coat it in the caramel. Cook for 6 minutes.",
+    "Add the onion and carrot and cook for 3 minutes.",
+    "Add the rice, pigeon peas, coconut milk, water, ketchup and scotch bonnet and bring to a boil.",
+    "Cover and simmer on low for 25 to 30 minutes, until the rice is tender and the chicken is 165°F (74°C).",
+    "Take out the scotch bonnet and fluff."
+   ]
+  },
+  {
+   "id": "jollof-rice",
+   "name": "Jollof rice",
+   "aliases": [
+    "jollof rice",
+    "jollof",
+    "nigerian jollof",
+    "ghana jollof",
+    "party jollof",
+    "west african rice"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "rice",
+    "tomato",
+    "pepper",
+    "onion",
+    "chicken"
+   ],
+   "ingredients": [
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "2 red bell peppers, chopped",
+    "1 onion, chopped, plus 1 onion sliced",
+    "1/2 scotch bonnet pepper (optional)",
+    "1/3 cup (80 ml) vegetable oil",
+    "3 tablespoons tomato paste",
+    "2 teaspoons curry powder",
+    "1 teaspoon dried thyme",
+    "2 bay leaves",
+    "2 cups (380 g) long grain parboiled rice, rinsed",
+    "2 1/2 cups (600 ml) chicken broth",
+    "1 1/2 teaspoons salt",
+    "Fried or roasted chicken to serve"
+   ],
+   "steps": [
+    "Blend the tomatoes, peppers, chopped onion and scotch bonnet until smooth.",
+    "Heat the oil in a big pot over medium heat and cook the sliced onion for 4 minutes. Ask an adult to help.",
+    "Add the tomato paste and fry for 3 minutes, stirring.",
+    "Add the blended sauce, curry powder, thyme and bay leaves and simmer for 15 to 20 minutes, until thick and the oil rises to the top.",
+    "Stir in the rice, broth and salt and bring to a boil.",
+    "Cover tightly with foil and the lid and cook on low for 25 to 30 minutes, until the rice is tender. Don't stir.",
+    "Take out the bay leaves, fluff and serve with chicken."
+   ]
+  },
+  {
+   "id": "beef-suya",
+   "name": "Nigerian beef suya",
+   "aliases": [
+    "suya",
+    "beef suya",
+    "nigerian suya",
+    "suya skewers",
+    "yaji spice beef"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr",
+   "main": [
+    "beef",
+    "peanut",
+    "ginger",
+    "paprika"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) sirloin or flank steak, sliced very thin",
+    "1/2 cup (75 g) roasted peanuts, finely ground (or 3 tablespoons peanut butter powder)",
+    "1 tablespoon paprika",
+    "1 teaspoon ground ginger",
+    "1 teaspoon garlic powder",
+    "1 teaspoon onion powder",
+    "1/2 to 1 teaspoon cayenne",
+    "1 teaspoon salt",
+    "1 bouillon cube, crushed",
+    "2 tablespoons vegetable oil",
+    "Wooden skewers, soaked in water",
+    "Sliced red onion and tomato to serve"
+   ],
+   "steps": [
+    "Mix the peanuts, spices, salt and bouillon to make yaji spice.",
+    "Slice the beef thinly, ask an adult to help, and thread it onto skewers.",
+    "Brush the beef with oil and press the spice mix all over it. Let it sit for 30 minutes.",
+    "Heat the broiler or grill to high.",
+    "Cook for 3 to 4 minutes per side, until browned and cooked through. An adult should do the grilling.",
+    "Sprinkle with more spice and serve with onion and tomato."
+   ]
+  },
+  {
+   "id": "chicken-maafe",
+   "name": "Maafe West African peanut stew",
+   "aliases": [
+    "maafe",
+    "mafe",
+    "peanut stew",
+    "groundnut stew",
+    "senegalese peanut stew",
+    "domoda"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "peanut butter",
+    "tomato",
+    "sweet potato"
+   ],
+   "ingredients": [
+    "2 tablespoons vegetable oil",
+    "2 lb (900 g) boneless chicken thighs, cut in chunks",
+    "1 teaspoon salt",
+    "1 onion, chopped",
+    "3 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "3 tablespoons tomato paste",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "3 cups (720 ml) chicken broth",
+    "2/3 cup (170 g) natural peanut butter",
+    "1 sweet potato, cubed",
+    "2 carrots, sliced",
+    "1/2 teaspoon cayenne (optional)",
+    "Cooked white rice to serve"
+   ],
+   "steps": [
+    "Chop the vegetables and chicken. Ask an adult to help.",
+    "Season the chicken with salt and brown it in the oil in a big pot over medium-high heat for 6 minutes. Lift it out.",
+    "Cook the onion for 5 minutes, then add the garlic, ginger and tomato paste for 2 minutes.",
+    "Add the tomatoes and broth and whisk in the peanut butter until smooth.",
+    "Add the chicken, sweet potato, carrots and cayenne and bring to a boil.",
+    "Simmer for 30 minutes, stirring now and then, until the vegetables are soft and the chicken is 165°F (74°C).",
+    "Serve over rice."
+   ]
+  },
+  {
+   "id": "moroccan-chicken-tagine",
+   "name": "Moroccan chicken tagine",
+   "aliases": [
+    "chicken tagine",
+    "moroccan chicken",
+    "tagine",
+    "moroccan chicken tagine",
+    "lemon olive chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "chicken",
+    "lemon",
+    "olive",
+    "onion",
+    "spice"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken thighs",
+    "1 teaspoon salt",
+    "2 tablespoons olive oil",
+    "2 onions, sliced",
+    "4 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "1 teaspoon ground cumin",
+    "1 teaspoon ground turmeric",
+    "1 teaspoon paprika",
+    "1/2 teaspoon cinnamon",
+    "1 1/2 cups (360 ml) chicken broth",
+    "1 preserved lemon, rinsed and sliced, or zest and juice of 1 lemon",
+    "1/2 cup (70 g) green olives",
+    "1/4 cup chopped cilantro and parsley",
+    "Couscous or bread to serve"
+   ],
+   "steps": [
+    "Season the chicken with salt. Slice the onions and chop the garlic. Ask an adult to help.",
+    "Heat the oil in a big pot or tagine over medium-high heat and brown the chicken skin side down for 6 minutes. Lift it out.",
+    "Cook the onions for 8 minutes, until soft and golden.",
+    "Add the garlic, ginger and spices for 1 minute.",
+    "Add the broth and chicken and bring to a boil.",
+    "Cover and simmer on low for 35 minutes.",
+    "Add the lemon and olives and simmer uncovered for 10 minutes, until the chicken is 165°F (74°C) and the sauce thickens.",
+    "Top with herbs and serve with couscous."
+   ]
+  },
+  {
+   "id": "doro-wat",
+   "name": "Doro wat Ethiopian chicken stew",
+   "aliases": [
+    "doro wat",
+    "doro wot",
+    "ethiopian chicken stew",
+    "ethiopian chicken",
+    "spicy chicken stew"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr",
+   "main": [
+    "chicken",
+    "onion",
+    "berbere",
+    "egg",
+    "butter"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken drumsticks and thighs, skin removed",
+    "2 tablespoons lemon juice",
+    "1 teaspoon salt",
+    "3 large red onions, finely chopped",
+    "1/3 cup (75 g) niter kibbeh or butter",
+    "4 garlic cloves, grated",
+    "1 tablespoon grated ginger",
+    "3 tablespoons berbere spice",
+    "2 tablespoons tomato paste",
+    "2 cups (480 ml) chicken broth",
+    "6 hard boiled eggs, peeled",
+    "Injera or rice to serve"
+   ],
+   "steps": [
+    "Rub the chicken with lemon juice and salt. Wash your hands.",
+    "Finely chop the onions. Ask an adult to help, there are a lot.",
+    "Cook the onions in a dry heavy pot over medium-low heat for 20 minutes, stirring often, until soft and jammy. Don't let them burn.",
+    "Add the butter, garlic, ginger and berbere and cook for 5 minutes.",
+    "Stir in the tomato paste and broth.",
+    "Add the chicken and simmer covered for 45 minutes, stirring now and then.",
+    "Cut shallow slits in the eggs and add them to the stew.",
+    "Simmer uncovered for 15 minutes more, until the chicken is tender and 165°F (74°C) and the sauce is thick. Serve with injera."
+   ]
+  },
+  {
+   "id": "misir-wot",
+   "name": "Misir wot spiced red lentils",
+   "aliases": [
+    "misir wot",
+    "misir wat",
+    "ethiopian lentils",
+    "red lentil stew",
+    "berbere lentils"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "red lentil",
+    "onion",
+    "berbere",
+    "tomato"
+   ],
+   "ingredients": [
+    "3 tablespoons butter or olive oil",
+    "2 onions, finely chopped",
+    "3 garlic cloves, grated",
+    "1 tablespoon grated ginger",
+    "2 to 3 tablespoons berbere spice",
+    "2 tablespoons tomato paste",
+    "1 1/2 cups (300 g) red lentils, rinsed",
+    "4 cups (960 ml) water or vegetable broth",
+    "1 teaspoon salt",
+    "Injera or rice to serve"
+   ],
+   "steps": [
+    "Finely chop the onions. Ask an adult to help.",
+    "Cook the onions in the butter in a pot over medium heat for 10 minutes, until soft and golden.",
+    "Add the garlic, ginger, berbere and tomato paste and cook for 2 minutes.",
+    "Add the lentils and water and bring to a boil.",
+    "Simmer for 20 to 25 minutes, stirring often, until the lentils break down and it's thick.",
+    "Add the salt and serve with injera or rice."
+   ]
+  },
+  {
+   "id": "bobotie",
+   "name": "Bobotie",
+   "aliases": [
+    "bobotie",
+    "south african bobotie",
+    "cape malay bobotie",
+    "curried mince bake"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "beef",
+    "curry powder",
+    "egg",
+    "milk",
+    "bread"
+   ],
+   "ingredients": [
+    "1 slice white bread",
+    "1 cup (240 ml) milk, divided",
+    "1 tablespoon vegetable oil",
+    "1 onion, chopped",
+    "2 garlic cloves, chopped",
+    "2 lb (900 g) ground beef",
+    "1 tablespoon curry powder",
+    "1 teaspoon ground turmeric",
+    "1 1/2 teaspoons salt",
+    "3 tablespoons fruit chutney or apricot jam",
+    "1/4 cup (35 g) raisins",
+    "1 tablespoon lemon juice",
+    "2 large eggs",
+    "3 bay leaves"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Soak the bread in half the milk.",
+    "Chop the onion and garlic and cook them in the oil in a big pan over medium heat for 5 minutes.",
+    "Add the beef and cook for 8 minutes, breaking it up, until browned. Drain the fat.",
+    "Stir in the curry powder, turmeric, salt, chutney, raisins, lemon juice and the squeezed-out bread.",
+    "Spread in a baking dish.",
+    "Whisk the eggs with the rest of the milk and the soaking milk and pour it over the top. Lay the bay leaves on top.",
+    "Bake for 30 to 35 minutes, until the custard is set and golden. Serve with yellow rice."
+   ]
+  },
+  {
+   "id": "red-red",
+   "name": "Red red Ghanaian bean stew",
+   "aliases": [
+    "red red",
+    "ghanaian red red",
+    "black eyed pea stew",
+    "ghana bean stew"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "black eyed pea",
+    "tomato",
+    "palm oil",
+    "plantain"
+   ],
+   "ingredients": [
+    "1/4 cup (60 ml) red palm oil or vegetable oil with 1 teaspoon paprika",
+    "1 onion, chopped",
+    "3 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "1/2 scotch bonnet pepper, chopped (optional)",
+    "2 tablespoons tomato paste",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "2 cans (15 oz / 425 g each) black-eyed peas, drained",
+    "1 cup (240 ml) vegetable broth",
+    "1 teaspoon salt",
+    "3 ripe plantains, sliced and fried, to serve"
+   ],
+   "steps": [
+    "Chop the onion, garlic and pepper. Ask an adult to help.",
+    "Heat the oil in a pot over medium heat and cook the onion for 5 minutes.",
+    "Add the garlic, ginger and scotch bonnet for 1 minute.",
+    "Add the tomato paste and cook for 2 minutes, then add the tomatoes.",
+    "Simmer for 10 minutes.",
+    "Add the black-eyed peas, broth and salt and simmer for 15 minutes, until thick.",
+    "Serve with fried sweet plantains."
+   ]
+  },
+  {
+   "id": "chicken-yassa",
+   "name": "Senegalese chicken yassa",
+   "aliases": [
+    "chicken yassa",
+    "yassa",
+    "poulet yassa",
+    "senegalese chicken",
+    "lemon onion chicken"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "2 hr",
+   "main": [
+    "chicken",
+    "onion",
+    "lemon",
+    "mustard"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken thighs and drumsticks",
+    "4 large onions, thinly sliced",
+    "1/2 cup (120 ml) lemon juice",
+    "2 tablespoons Dijon mustard",
+    "4 garlic cloves, grated",
+    "1 teaspoon salt",
+    "1/2 teaspoon black pepper",
+    "1 whole scotch bonnet pepper (optional)",
+    "3 tablespoons vegetable oil",
+    "1 cup (240 ml) chicken broth",
+    "1/2 cup (70 g) green olives (optional)",
+    "Cooked rice to serve"
+   ],
+   "steps": [
+    "Slice the onions thinly. Ask an adult to help.",
+    "Mix the onions, lemon juice, mustard, garlic, salt and pepper and add the chicken. Marinate in the fridge for at least 1 hour. Wash your hands.",
+    "Heat the oil in a big pot over medium-high heat. Lift the chicken out of the onions and brown it for 4 minutes per side. Lift it out.",
+    "Add the onions and marinade and cook for 15 minutes, stirring, until soft and golden.",
+    "Add the broth, chicken and whole scotch bonnet.",
+    "Cover and simmer for 35 minutes, until the chicken is 165°F (74°C).",
+    "Add the olives and serve over rice."
+   ]
+  },
+  {
+   "id": "kenyan-pilau",
+   "name": "Kenyan beef pilau",
+   "aliases": [
+    "pilau",
+    "kenyan pilau",
+    "beef pilau",
+    "swahili pilau",
+    "pilau rice"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "beef",
+    "rice",
+    "pilau masala",
+    "onion"
+   ],
+   "ingredients": [
+    "1 lb (450 g) beef chuck, cut in small cubes",
+    "4 cups (960 ml) water, plus more as needed",
+    "3 tablespoons vegetable oil",
+    "2 onions, sliced",
+    "4 garlic cloves, chopped",
+    "1 tablespoon grated ginger",
+    "2 teaspoons pilau masala, or 1 teaspoon cumin plus 1/2 teaspoon each cinnamon, cardamom and black pepper",
+    "2 tomatoes, chopped",
+    "2 cups (380 g) basmati rice, rinsed",
+    "1 1/2 teaspoons salt"
+   ],
+   "steps": [
+    "Simmer the beef in the water for 45 minutes, until tender. Keep the broth.",
+    "Slice the onions and chop the garlic and tomatoes. Ask an adult to help.",
+    "Heat the oil in a big pot over medium heat and cook the onions for 10 minutes, until deep brown.",
+    "Add the garlic, ginger and pilau masala for 1 minute.",
+    "Add the beef and tomatoes and cook for 5 minutes.",
+    "Add the rice and stir, then add 3 cups of the beef broth and the salt.",
+    "Bring to a boil, cover and cook on low for 18 to 20 minutes, until the rice is tender. Rest for 5 minutes and fluff."
+   ]
+  },
+  {
+   "id": "koshari",
+   "name": "Koshari",
+   "aliases": [
+    "koshari",
+    "kushari",
+    "koshary",
+    "egyptian koshari",
+    "egyptian rice lentils and pasta"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "lentil",
+    "rice",
+    "pasta",
+    "tomato",
+    "onion"
+   ],
+   "ingredients": [
+    "1 cup (200 g) brown lentils, rinsed",
+    "1 cup (190 g) rice, rinsed",
+    "1 cup (100 g) small elbow macaroni",
+    "1 can (15 oz / 425 g) chickpeas, drained",
+    "1/2 cup (120 ml) vegetable oil",
+    "3 onions, thinly sliced",
+    "4 garlic cloves, chopped",
+    "1 can (28 oz / 800 g) crushed tomatoes",
+    "2 tablespoons white vinegar",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon chili flakes",
+    "2 teaspoons salt, divided"
+   ],
+   "steps": [
+    "Slice the onions thinly. Ask an adult to help.",
+    "Fry the onions in the oil over medium-high heat for 15 to 20 minutes, stirring, until dark and crispy. Drain on paper towels and keep the oil.",
+    "Simmer the lentils in water for 20 minutes, until tender. Drain.",
+    "Cook the rice in 2 cups of water, 1 tablespoon of the onion oil and 1 teaspoon salt, covered on low for 18 minutes.",
+    "Boil the macaroni as the package says and drain.",
+    "Cook the garlic in 2 tablespoons of the onion oil for 1 minute, add the tomatoes, vinegar, cumin, chili flakes and the rest of the salt, and simmer for 15 minutes.",
+    "Layer rice, lentils, pasta and chickpeas in bowls, spoon the tomato sauce over, and top with crispy onions."
+   ]
+  },
+  {
+   "id": "peri-peri-chicken",
+   "name": "Peri peri chicken",
+   "aliases": [
+    "peri peri chicken",
+    "piri piri chicken",
+    "nandos chicken",
+    "portuguese chicken",
+    "peri peri"
+   ],
+   "category": "Dinner",
+   "servings": 4,
+   "time": "1 hr 30 min",
+   "main": [
+    "chicken",
+    "chili",
+    "garlic",
+    "lemon",
+    "paprika"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) bone-in chicken thighs and drumsticks",
+    "2 to 4 red chilies or 1 roasted red pepper for mild",
+    "4 garlic cloves",
+    "1/4 cup (60 ml) lemon juice",
+    "3 tablespoons olive oil",
+    "1 tablespoon smoked paprika",
+    "1 teaspoon dried oregano",
+    "1 tablespoon red wine vinegar",
+    "1 teaspoon sugar",
+    "1 1/2 teaspoons salt"
+   ],
+   "steps": [
+    "Blend everything except the chicken into a smooth sauce. Ask an adult to help with the chilies.",
+    "Cut slashes in the chicken and coat it in half the sauce. Keep the rest in the fridge. Wash your hands.",
+    "Marinate in the fridge for at least 1 hour.",
+    "Heat the oven to 425°F (220°C).",
+    "Roast on a rack over a foil-lined pan for 35 to 45 minutes, until charred in spots and 165°F (74°C) inside.",
+    "Brush with the saved sauce for the last 5 minutes.",
+    "Serve with rice, fries or salad."
+   ]
+  },
+  {
+   "id": "vegetable-couscous",
+   "name": "Moroccan vegetable couscous",
+   "aliases": [
+    "vegetable couscous",
+    "moroccan couscous",
+    "couscous with vegetables",
+    "couscous stew",
+    "seven vegetable couscous"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "couscous",
+    "chickpea",
+    "carrot",
+    "zucchini",
+    "squash"
+   ],
+   "ingredients": [
+    "2 tablespoons olive oil",
+    "1 onion, chopped",
+    "2 garlic cloves, chopped",
+    "1 teaspoon ground cumin",
+    "1 teaspoon ground turmeric",
+    "1 teaspoon ground ginger",
+    "1/2 teaspoon cinnamon",
+    "1 can (14.5 oz / 410 g) diced tomatoes",
+    "4 cups (960 ml) vegetable broth",
+    "3 carrots, in chunks",
+    "2 cups (280 g) butternut squash, in chunks",
+    "2 zucchini, in chunks",
+    "1 can (15 oz / 425 g) chickpeas, drained",
+    "1/3 cup (50 g) raisins",
+    "1 teaspoon salt",
+    "1 1/2 cups (270 g) couscous, 1 1/2 cups (360 ml) boiling water and 1 tablespoon butter"
+   ],
+   "steps": [
+    "Cut the vegetables. Ask an adult to help, the squash is hard.",
+    "Heat the oil in a big pot over medium heat and cook the onion for 5 minutes. Add the garlic and spices for 1 minute.",
+    "Add the tomatoes, broth, carrots and squash and simmer for 15 minutes.",
+    "Add the zucchini, chickpeas, raisins and salt and simmer for 10 minutes, until tender.",
+    "Put the couscous and butter in a bowl, pour the boiling water over, cover and let it sit for 5 minutes. Fluff with a fork.",
+    "Pile couscous on plates and ladle the vegetables and broth over it."
+   ]
+  },
+  {
+   "id": "chicken-mole",
+   "name": "Easy chicken mole",
+   "aliases": [
+    "mole",
+    "chicken mole",
+    "mole poblano",
+    "mole chicken",
+    "pollo en mole"
+   ],
+   "category": "Dinner",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "chicken",
+    "mole paste",
+    "chocolate",
+    "sesame"
+   ],
+   "ingredients": [
+    "2 lb (900 g) bone-in chicken thighs and drumsticks",
+    "1 onion, cut in half",
+    "2 garlic cloves",
+    "1 teaspoon salt",
+    "1 jar (8 oz / 235 g) mole paste, like Dona Maria",
+    "3 cups (720 ml) chicken broth from cooking the chicken",
+    "1 oz (30 g) Mexican chocolate or dark chocolate (optional)",
+    "1 tablespoon sugar (optional)",
+    "Toasted sesame seeds, rice and warm tortillas to serve"
+   ],
+   "steps": [
+    "Put the chicken, onion, garlic and salt in a pot, cover with water and simmer for 30 minutes, until 165°F (74°C). Keep the broth.",
+    "Spoon the mole paste into a big pan over medium heat. Ask an adult to help.",
+    "Slowly whisk in the broth a little at a time until smooth.",
+    "Add the chocolate and sugar and simmer for 10 minutes, stirring, until thick like gravy.",
+    "Add the chicken and simmer for 5 minutes, spooning sauce over it.",
+    "Sprinkle with sesame seeds and serve with rice and tortillas."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+# Facts about the English language, common abbreviations, and word play. Written by hand.
+# tag: school.english.language-facts
+where does english come from | history of the english language | how old is english => English grew from the languages of Germanic tribes (Angles, Saxons and Jutes) who settled in Britain around the 400s AD. It later borrowed heavily from Norse, French and Latin.
+what did old english sound like | beowulf language => Old English was spoken from about 450 to 1100 AD. It looks almost like a foreign language today; the poem Beowulf was written in it.
+what is middle english | chaucer english | when was middle english spoken => Middle English was spoken from about 1100 to 1500, after the Norman Conquest brought many French words. Geoffrey Chaucer's The Canterbury Tales is written in it.
+what is modern english | when did modern english start | is shakespeare modern english => Early Modern English began around 1500, and Shakespeare wrote in it. It's mostly readable today, though some words and grammar, like "thou" and "thee", have changed.
+how did french change english | french words in english | norman conquest english => After the Normans from France conquered England in 1066, French became the language of the rulers. English gained thousands of French words, like beef, court, judge, government and beauty.
+how many words are in the english language | how big is the english vocabulary | number of english words => It's hard to count exactly, but large dictionaries like the Oxford English Dictionary list over 600,000 word forms. An adult typically knows tens of thousands.
+what is the most common letter in english | most used letter | which letter is used most => E is the most common letter in English, followed by T and A.
+what is the least common letter in english | rarest letter in english | least used letter => Q, Z, J and X are among the least common letters in English.
+what is the most common word in english | most used english word | most frequent word => "The" is the most common word in English. Others near the top are "be", "to", "of" and "and".
+what is a pangram | the quick brown fox jumps over the lazy dog | sentence with every letter => A pangram is a sentence that uses every letter of the alphabet at least once, like "The quick brown fox jumps over the lazy dog."
+what is the longest word without a vowel | word with no vowels | rhythm no vowels => "Rhythms" is one of the longest common words with no a, e, i, o or u (y works as a vowel there).
+how many people speak english | how many english speakers are there | is english the most spoken language => About 1.5 billion people speak English, counting those who learned it as a second language, which makes it the most widely spoken language. Mandarin Chinese has the most native speakers.
+what is a dialect | dialect vs accent | define dialect => A dialect is a form of a language with its own words, grammar and pronunciation, used in a region or group. An accent is just a way of pronouncing.
+what is slang | define slang | slang examples => Slang is very informal language, often new or used by a particular group, like "cool" or "awesome" once were. It changes fast and isn't used in formal writing.
+what is jargon | define jargon | jargon examples => Jargon is special vocabulary used by people in a job or hobby, like "RAM" in computing or "checkmate" in chess.
+what is etymology | define etymology | where do words come from => Etymology is the study of where words come from and how their meanings changed. Many dictionaries give a word's etymology.
+what are loanwords | borrowed words in english | english words from other languages => Loanwords are words borrowed from other languages: piano (Italian), ballet (French), kindergarten (German), tsunami (Japanese), pajamas (Hindi and Persian), and ketchup (probably from Chinese).
+what is an eponym | words named after people | eponym examples => An eponym is a word named after a person, like sandwich (the Earl of Sandwich), saxophone (Adolphe Sax) and braille (Louis Braille).
+what words did shakespeare invent | words from shakespeare | shakespeare new words => Shakespeare is the first known writer of many words and phrases, like "eyeball", "bedroom", "swagger" and "break the ice", though some may have existed in speech before.
+what is a neologism | new words in english | how do new words get into the dictionary => A neologism is a newly made word. Dictionaries add words once they're widely used for a while, like "selfie" and "emoji".
+what is a dictionary | what does a dictionary entry include => A dictionary lists words alphabetically with their meanings, pronunciation, part of speech, and often example sentences and word origins.
+what are guide words in a dictionary | dictionary guide words | top of dictionary page words => Guide words are the two words at the top of a dictionary page. They show the first and last entries on that page, helping you find words quickly.
+what is a thesaurus | thesaurus vs dictionary | how to use a thesaurus => A thesaurus lists synonyms (and often antonyms) for words. A dictionary gives meanings. Check a dictionary before using an unfamiliar word from a thesaurus.
+what is alphabetical order | how to put words in abc order | alphabetical order rules => Order words by their first letter. If the first letters match, compare the second, then the third. "Cat" comes before "cow" because a comes before o.
+what is a vowel | what are consonants | vowels and consonants => The vowels are a, e, i, o and u; sometimes y acts as a vowel, as in "gym". All other letters are consonants.
+# tag: school.english.abbreviations
+what does etc mean | etc meaning | what does et cetera mean => "Etc." is short for the Latin "et cetera", meaning "and the rest" or "and so on".
+what does ps mean in a letter | what does p.s. stand for | postscript meaning => P.S. stands for "postscript", from Latin for "written after". It adds a note after the signature of a letter.
+what does aka mean | aka meaning | what does a.k.a. stand for => AKA stands for "also known as". "Peter Parker, aka Spider-Man."
+what does vs mean | vs meaning | what does versus mean => "Vs." is short for "versus", meaning "against", as in a game: Lions vs. Tigers.
+what does asap mean | asap meaning | what does asap stand for => ASAP stands for "as soon as possible".
+what does fyi mean | fyi meaning | what does fyi stand for => FYI stands for "for your information".
+what does diy mean | diy meaning | what does diy stand for => DIY stands for "do it yourself", meaning making or fixing something on your own.
+what does nb mean | n.b. meaning | what does nota bene mean => N.B. stands for the Latin "nota bene", meaning "note well". It points out something important.
+what does et al mean | et al meaning | et al in citations => "Et al." is short for the Latin "et alii", meaning "and others". It's used in citations when there are several authors.
+what does mr mrs ms mean | difference between mrs and ms | what does ms mean => Mr. is for men. Mrs. is traditionally for married women, Miss for unmarried girls or women, and Ms. for women whether married or not.
+what does dr stand for | dr abbreviation | what does the title dr mean => Dr. stands for "doctor", used for medical doctors and people with a doctorate degree, like a PhD.
+what does jr and sr mean | junior and senior names | what does jr stand for => Jr. means "junior" and Sr. means "senior". They show a son has the same name as his father, like Martin Luther King Jr.
+what does ad and bc mean | bc and ad meaning | what does bce and ce mean => BC means "before Christ" and AD is Latin "anno Domini", "in the year of the Lord". Many writers use BCE ("before the Common Era") and CE ("Common Era") for the same years.
+what does approx mean | approx abbreviation | what does approx stand for => "Approx." is short for "approximately", meaning about or nearly.
+what does misc mean | misc abbreviation | what does misc stand for => "Misc." is short for "miscellaneous", meaning various things of different kinds.
+what does no. mean | why is number abbreviated no | what does no stand for in numbers => "No." stands for "number". It comes from the Latin word "numero".
+what does lb mean | why is pound abbreviated lb | lb stands for => "Lb" stands for the Latin "libra", a Roman unit of weight. That's why pounds are written lb.
+what does oz mean | oz abbreviation | why is ounce abbreviated oz => "Oz" is short for ounce. It comes from the old Italian word "onza".
+# tag: school.english.word-play
+what is a tongue twister | tongue twister examples | hard tongue twisters => A tongue twister is a phrase that's hard to say quickly because of similar sounds, like "She sells seashells by the seashore" or "Peter Piper picked a peck of pickled peppers."
+what is a riddle | riddle examples | define riddle => A riddle is a puzzling question or statement with a clever answer. "What has keys but can't open locks? A piano."
+what is a spoonerism | spoonerism examples | define spoonerism => A spoonerism swaps the first sounds of two words, often by accident: "a well-boiled icicle" instead of "a well-oiled bicycle". It's named after William Spooner.
+what is a malapropism | malapropism examples | define malapropism => A malapropism is using a wrong word that sounds like the right one, often with a funny result, like "dance the flamingo" instead of "flamenco".
+what is a mnemonic | mnemonic examples | define mnemonic => A mnemonic is a memory trick, like a rhyme or a sentence made of first letters. "Never Eat Soggy Waffles" helps you remember north, east, south and west.
+what is a lipogram | define lipogram | writing without the letter e => A lipogram is writing that avoids one letter. A whole French novel, La Disparition, was written without the letter e.
+what is an ambigram | define ambigram | word that reads upside down => An ambigram is a word written so that it can be read in more than one way, such as upside down or in a mirror. "SWIMS" still reads SWIMS when turned upside down.
+what is a heteronym | heteronym examples | words spelled the same but said differently => A heteronym is spelled the same as another word but pronounced differently with a different meaning, like "tear" (crying) and "tear" (rip), or "wind" (air) and "wind" (turn).
+what is a contronym | word that means its own opposite | contronym examples => A contronym is a word with two opposite meanings, like "dust" (remove dust, or sprinkle with powder) and "sanction" (allow, or punish).
+what is a word ladder | word ladder game | how do you play word ladder => In a word ladder, you change one letter at a time to turn one word into another, making a real word at each step: cat → cot → dot → dog.

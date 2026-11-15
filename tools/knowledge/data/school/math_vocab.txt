@@ -6,7 +6,7 @@ define integer | what counts as an integer => An integer is a whole number or it
 what is a rational number | define rational number | rational numbers meaning => A rational number is any number you can write as a fraction a/b of two integers, where b isn't 0. Examples are 3, -1/2, 0.75 and 0.333... (which is 1/3).
 what is an irrational number | define irrational number | examples of irrational numbers => An irrational number can't be written as a fraction of two integers. Its decimal goes on forever without repeating, like pi (3.14159...) or the square root of 2 (1.41421...).
 what are real numbers | define real number | what is a real number => Real numbers are all the rational and irrational numbers together, every number that has a spot on the number line. That includes integers, fractions, decimals, pi and square roots of positive numbers.
-what is an imaginary number | define imaginary number | what is i in math => An imaginary number is a multiple of i, where i is the square root of -1. So i × i = -1, which no real number can do. They're used in algebra 2, physics and engineering.
+what is an imaginary number | define imaginary number => An imaginary number is a multiple of i, where i is the square root of -1. So i × i = -1, which no real number can do. They're used in algebra 2, physics and engineering.
 what is a complex number | define complex number | what does a + bi mean => A complex number has a real part and an imaginary part, written a + bi, like 3 + 2i. Real numbers are complex numbers where b is 0.
 what is a composite number | define composite number | composite numbers meaning => A composite number is a whole number bigger than 1 that has more than two factors, like 4, 6, 9 or 15. It can be made by multiplying two smaller whole numbers.
 what is a factor | define factor | factor meaning in math => A factor is a number that divides into another number exactly, with no remainder. The factors of 12 are 1, 2, 3, 4, 6 and 12.
@@ -15,7 +15,7 @@ what is a product in math | define product | what does product mean in math => T
 what is a sum | define sum | what does sum mean in math => The sum is the answer to an addition problem. In 8 + 5 = 13, the sum is 13.
 what is a difference in math | define difference math | what does difference mean in math => The difference is the answer to a subtraction problem. In 15 - 9 = 6, the difference is 6.
 what is a quotient | define quotient | what does quotient mean => The quotient is the answer to a division problem. In 20 ÷ 4 = 5, the quotient is 5.
-what is a dividend | dividend vs divisor | what is the divisor => The dividend is the number being divided, and the divisor is the number you divide by. In 20 ÷ 4 = 5, 20 is the dividend, 4 is the divisor and 5 is the quotient.
+dividend vs divisor | what is the divisor => The dividend is the number being divided, and the divisor is the number you divide by. In 20 ÷ 4 = 5, 20 is the dividend, 4 is the divisor and 5 is the quotient.
 what is a remainder | define remainder | what does remainder mean => A remainder is what's left over when a number doesn't divide evenly. 17 ÷ 5 is 3 with a remainder of 2, because 5 × 3 = 15 and 17 - 15 = 2.
 what is an addend | define addend | what are addends => Addends are the numbers you add together. In 4 + 9 = 13, the addends are 4 and 9.
 what is a minuend and subtrahend | define subtrahend | what is the minuend => In a subtraction like 10 - 3 = 7, the minuend is 10 (the number you start with) and the subtrahend is 3 (the number taken away).
@@ -24,7 +24,7 @@ what is a denominator | define denominator | which part of a fraction is the den
 what is a proper fraction | define proper fraction | proper fraction examples => A proper fraction has a numerator smaller than its denominator, like 2/5 or 7/8. Its value is less than 1.
 what is an improper fraction | define improper fraction | improper fraction examples => An improper fraction has a numerator equal to or bigger than its denominator, like 7/4 or 5/5. Its value is 1 or more.
 what is a mixed number | define mixed number | mixed fraction meaning => A mixed number is a whole number and a proper fraction together, like 2 3/4. It means 2 + 3/4.
-what is a unit fraction | define unit fraction | unit fraction examples => A unit fraction has 1 as its numerator, like 1/2, 1/5 or 1/10. It's one equal part of a whole.
+define unit fraction | unit fraction examples => A unit fraction has 1 as its numerator, like 1/2, 1/5 or 1/10. It's one equal part of a whole.
 define equivalent fractions | equivalent fractions meaning => Equivalent fractions name the same amount using different numbers, like 1/2, 2/4 and 5/10. You make them by multiplying or dividing the top and bottom by the same number.
 what is a reciprocal | define reciprocal | multiplicative inverse meaning => A reciprocal is a number flipped over, so the two multiply to 1. The reciprocal of 3/4 is 4/3, and the reciprocal of 5 is 1/5.
 what is a ratio | define ratio | ratio meaning => A ratio compares two amounts. If there are 3 cats and 5 dogs, the ratio of cats to dogs is 3 to 5, written 3:5 or 3/5.
@@ -38,7 +38,7 @@ what is expanded form | define expanded form | how do you write a number in expa
 what is standard form of a number | define standard form | standard form meaning => Standard form is the normal way to write a number with digits, like 4,352. In the UK, standard form can also mean scientific notation, like 4.352 × 10³.
 what is word form of a number | write a number in word form | word form meaning => Word form writes a number using words. 4,352 in word form is four thousand, three hundred fifty-two.
 what is an exponent | define exponent | what does the small number up top mean => An exponent tells how many times to multiply a number by itself. In 2⁵, the exponent is 5, so it means 2 × 2 × 2 × 2 × 2 = 32.
-what is a base in exponents | define base of a power | what is the base number => The base is the number being multiplied by itself in a power. In 2⁵, the base is 2 and the exponent is 5.
+what is a base in exponents | define base of a power => The base is the number being multiplied by itself in a power. In 2⁵, the base is 2 and the exponent is 5.
 what is a power in math | define power math | what does to the power of mean => A power is a number written with an exponent, like 3⁴, which means 3 × 3 × 3 × 3 = 81. "3 to the power of 4" and "3 to the fourth" mean the same thing.
 what does squared mean | what is a number squared | define squared => Squared means multiplied by itself, so the exponent is 2. 7 squared (7²) is 7 × 7 = 49.
 what does cubed mean | what is a number cubed | define cubed => Cubed means used as a factor three times, so the exponent is 3. 4 cubed (4³) is 4 × 4 × 4 = 64.
@@ -134,7 +134,7 @@ define surface area | surface area meaning => Surface area is the total area of 
 what is a congruent shape | define congruent | congruent meaning => Congruent shapes have exactly the same size and shape. You could slide, flip or turn one to fit perfectly on the other.
 what are similar shapes | define similar figures | similar meaning geometry => Similar shapes have the same shape but can be different sizes. Their angles are equal and their sides are in the same ratio.
 what is symmetry | define line of symmetry | what is a line of symmetry => A shape has line symmetry if you can fold it along a line and both halves match exactly. That fold line is the line of symmetry.
-what is rotational symmetry | define rotational symmetry | order of rotational symmetry => A shape has rotational symmetry if it looks the same after turning less than a full turn. A square looks the same 4 times in a full turn, so it has rotational symmetry of order 4.
+what is rotational symmetry | define rotational symmetry => A shape has rotational symmetry if it looks the same after turning less than a full turn. A square looks the same 4 times in a full turn, so it has rotational symmetry of order 4.
 what is a radius | define radius | radius meaning => The radius is the distance from the center of a circle to its edge. It's half the diameter.
 what is a diameter | define diameter | diameter meaning => The diameter is the distance across a circle through its center. It's twice the radius.
 what is circumference | define circumference | circumference meaning => Circumference is the distance around a circle, its perimeter. It equals pi times the diameter (C = πd), or 2πr.
@@ -146,9 +146,9 @@ what is a 3d shape | define solid figure | 2d vs 3d shapes => A 3D shape (solid)
 what is a prism | define prism | what makes a shape a prism => A prism is a 3D shape with two identical, parallel polygon ends (bases) joined by flat rectangular sides. It's named by its base, like a triangular prism.
 what is a pyramid in math | define pyramid | what makes a shape a pyramid => A pyramid is a 3D shape with a polygon base and triangle faces that meet at one top point called the apex. It's named by its base, like a square pyramid.
 what is a cylinder | define cylinder | cylinder shape => A cylinder is a 3D shape with two identical, parallel circle bases joined by one curved surface, like a soup can.
-what is a cone | define cone | cone shape => A cone is a 3D shape with a circle base and a curved surface that narrows to a point called the apex, like an ice cream cone.
+define cone | cone shape => A cone is a 3D shape with a circle base and a curved surface that narrows to a point called the apex, like an ice cream cone.
 what is a sphere | define sphere | sphere shape => A sphere is a perfectly round 3D shape like a ball. Every point on its surface is the same distance (the radius) from its center.
-what is a hemisphere | define hemisphere math | half a sphere => A hemisphere is exactly half of a sphere, cut through its center. Its volume is (2/3)πr³.
+what is a hemisphere | define hemisphere math => A hemisphere is exactly half of a sphere, cut through its center. Its volume is (2/3)πr³.
 what is a net in math | define net of a 3d shape | net meaning geometry => A net is a flat pattern that folds up to make a 3D shape. A cube's net is six squares joined edge to edge, often in a cross shape.
 what is a cross section | define cross section | cross section meaning => A cross section is the flat shape you see when you slice straight through a 3D object. Slicing a cylinder straight across gives a circle.
 what is a hypotenuse | define hypotenuse | which side is the hypotenuse => The hypotenuse is the longest side of a right triangle, the side across from the right angle.
@@ -161,9 +161,9 @@ what is an acute triangle | define acute triangle | acute triangle meaning => An
 what is an obtuse triangle | define obtuse triangle | obtuse triangle meaning => An obtuse triangle has one angle bigger than 90 degrees. It can only have one, because the angles add up to 180.
 what is a parallelogram | define parallelogram | parallelogram shape => A parallelogram is a quadrilateral with two pairs of parallel sides. Its opposite sides and opposite angles are equal.
 what is a rhombus | define rhombus | rhombus shape => A rhombus is a quadrilateral with all four sides the same length. It's a slanted square, and a square is a special rhombus with right angles.
-what is a trapezoid | define trapezoid | trapezium meaning => In the US, a trapezoid is a quadrilateral with at least one pair of parallel sides. In the UK it's called a trapezium.
+what is a trapezoid | define trapezoid => In the US, a trapezoid is a quadrilateral with at least one pair of parallel sides. In the UK it's called a trapezium.
 what is a kite in math | define kite shape | kite geometry => A kite is a quadrilateral with two pairs of equal sides that are next to each other, not opposite. Its diagonals cross at right angles.
-what is a rectangle | define rectangle | rectangle properties => A rectangle is a quadrilateral with four right angles. Its opposite sides are equal and parallel, and its diagonals are the same length.
+what is a rectangle | define rectangle => A rectangle is a quadrilateral with four right angles. Its opposite sides are equal and parallel, and its diagonals are the same length.
 is a square a rectangle | is every square a rectangle | is a square also a rhombus => Yes. A square has four right angles, so it's a rectangle, and it has four equal sides, so it's also a rhombus. But not every rectangle is a square.
 what is a polyhedron | define polyhedron | polyhedra meaning => A polyhedron is a 3D shape whose faces are all flat polygons, like a cube or pyramid. Cylinders, cones and spheres aren't polyhedra because they have curved surfaces.
 what are platonic solids | define platonic solid | how many platonic solids are there => The Platonic solids are the five 3D shapes whose faces are identical regular polygons with the same number meeting at each corner: the tetrahedron, cube, octahedron, dodecahedron and icosahedron.
@@ -178,13 +178,13 @@ what is a proof in math | define mathematical proof | what is a two column proof
 what is a conjecture | define conjecture | conjecture meaning math => A conjecture is a statement mathematicians think is true but haven't proven yet. Once it's proven, it becomes a theorem.
 what is a counterexample | define counterexample | counterexample meaning => A counterexample is one example that shows a statement is false. "All prime numbers are odd" is false, and 2 is the counterexample.
 what is an axis of symmetry | define axis of symmetry parabola | axis of symmetry formula => The axis of symmetry is the line that splits a graph into mirror halves. For a parabola y = ax² + bx + c, it's the vertical line x = -b/(2a).
-what is a radian | define radian | radians vs degrees => A radian is an angle unit based on the radius: one radian is the angle that cuts off an arc as long as the radius. A full circle is 2π radians, which equals 360°.
+what is a radian | define radian => A radian is an angle unit based on the radius: one radian is the angle that cuts off an arc as long as the radius. A full circle is 2π radians, which equals 360°.
 what is a matrix | define matrix | matrix meaning math => A matrix is a rectangle of numbers arranged in rows and columns, like a 2 × 3 matrix with 2 rows and 3 columns. Matrices are used to solve systems and in computer graphics.
 what is a vector | define vector | vector meaning in math => A vector is a quantity with both size (magnitude) and direction, drawn as an arrow. Velocity is a vector, but speed alone is not.
 what is an asymptote | define asymptote | asymptote meaning => An asymptote is a line that a graph gets closer and closer to but never reaches. The graph of y = 1/x has asymptotes at x = 0 and y = 0.
-what is a factorial | define factorial | what does the exclamation mark mean in math => A factorial, written n!, multiplies all whole numbers from n down to 1. 5! = 5 × 4 × 3 × 2 × 1 = 120. By definition, 0! = 1.
+what is a factorial | define factorial => A factorial, written n!, multiplies all whole numbers from n down to 1. 5! = 5 × 4 × 3 × 2 × 1 = 120. By definition, 0! = 1.
 what is a logarithm | define log | what does log mean => A logarithm answers "what power do I raise the base to?" log₂(8) = 3 because 2³ = 8. log₁₀(1000) = 3 because 10³ = 1000.
-what is a function notation | what does f of x mean | define f(x) => The notation f(x) is read "f of x". It names a function f and its input x. If f(x) = x + 4, then f(2) = 6.
+what is a function notation | define f(x) => The notation f(x) is read "f of x". It names a function f and its input x. If f(x) = x + 4, then f(2) = 6.
 what is a slope intercept form | define slope intercept form | what is y mx b => Slope-intercept form is y = mx + b, where m is the slope and b is the y-intercept. For y = 3x - 2, the slope is 3 and the line crosses the y-axis at -2.
 what is point slope form | define point slope form | point slope formula => Point-slope form is y - y₁ = m(x - x₁), where m is the slope and (x₁, y₁) is a point on the line. It's handy when you know one point and the slope.
 what is standard form of a line | standard form linear equation | ax by c form => Standard form of a line is Ax + By = C, where A, B and C are integers and A is usually positive, like 2x + 3y = 12.
@@ -197,7 +197,7 @@ what is the fibonacci sequence | define fibonacci numbers | fibonacci pattern =>
 what is a tessellation | define tessellation | what shapes tessellate => A tessellation is a pattern of shapes that covers a flat surface with no gaps or overlaps, like floor tiles. Squares, equilateral triangles and regular hexagons tessellate on their own.
 what is a venn diagram | define venn diagram | how does a venn diagram work => A Venn diagram uses overlapping circles to show sets. Things in the overlap belong to both sets, like animals that can both fly and swim.
 what is a tally chart | define tally marks | how do tally marks work => A tally chart counts things with marks. You draw four lines and then a fifth line across them to make a group of 5, which makes counting quick.
-what is a frequency table | define frequency | frequency meaning statistics => Frequency is how many times something happens in data. A frequency table lists each value or group with how many times it appears.
+what is a frequency table | define frequency => Frequency is how many times something happens in data. A frequency table lists each value or group with how many times it appears.
 what is a bar graph | define bar graph | when do you use a bar graph => A bar graph uses bars of different lengths to compare amounts in categories, like favorite fruits. The bars have gaps between them.
 what is a histogram | define histogram | histogram vs bar graph => A histogram shows how often values fall in number ranges (bins), like test scores 60 to 69, 70 to 79. Unlike a bar graph, its bars touch because the ranges are continuous.
 what is a line graph | define line graph | when do you use a line graph => A line graph connects data points with lines to show how something changes over time, like temperature through a day.
@@ -206,7 +206,7 @@ what is a scatter plot | define scatter plot | scatter graph meaning => A scatte
 what is a correlation | define correlation | positive vs negative correlation => Correlation is how two variables move together. Positive means both rise together, negative means one rises as the other falls, and no correlation means no clear pattern. Correlation doesn't prove one causes the other.
 what is a line of best fit | define trend line | line of best fit meaning => A line of best fit is a straight line drawn through a scatter plot that follows the general trend of the points as closely as possible. It's used to make predictions.
 what is a box plot | define box and whisker plot | how to read a box plot => A box plot shows data using five numbers: minimum, first quartile, median, third quartile and maximum. The box covers the middle half of the data and the whiskers reach the ends.
-what is a quartile | define quartile | what is the interquartile range => Quartiles split ordered data into four equal parts. Q1 is the median of the lower half and Q3 is the median of the upper half. The interquartile range (IQR) is Q3 - Q1.
+what is a quartile | define quartile => Quartiles split ordered data into four equal parts. Q1 is the median of the lower half and Q3 is the median of the upper half. The interquartile range (IQR) is Q3 - Q1.
 what is a stem and leaf plot | define stem and leaf | how do you read a stem and leaf plot => A stem-and-leaf plot splits each number into a stem (the first digits) and a leaf (the last digit). For example, 47 is written with stem 4 and leaf 7.
 what is a dot plot | define line plot | dot plot meaning => A dot plot (or line plot) shows data with a dot or X above a number line for each value, so you can see how often each value appears.
 what is standard deviation | define standard deviation | what does standard deviation tell you => Standard deviation measures how spread out data is from the mean. A small standard deviation means values are close to the average; a large one means they're spread out.

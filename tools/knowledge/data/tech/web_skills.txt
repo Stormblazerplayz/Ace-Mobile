@@ -1,0 +1,27 @@
+# tag: tech.web.skills
+how do i search for an exact phrase | quotes in google search => Put the phrase in quotes, like "bambu a1 nozzle clog", and Google shows pages with those exact words in that order.
+how do i remove words from a search | minus sign search => Put a minus sign before a word to leave it out, like jaguar -car to get the animal instead of the car.
+how do i search only one website | site search google => Type site: and the website, like site:reddit.com resolve export settings, to search just that site.
+filetype search | find only pdfs on google => Add filetype: and an extension, like filetype:pdf solar system worksheet, to find only that kind of file.
+how do i reverse image search | search with a picture => Use Google Lens: in Chrome, right-click an image and choose Search with Google Lens, or tap the Lens icon in the Google app and pick a photo.
+what is google lens | google lens explained => Google Lens searches using your camera or a photo. It can identify objects, plants and products, translate text and copy words from pictures.
+how do i find out when an article was written | date of a web page => Look near the title or the bottom for a published or updated date. Search results also often show a date under the link.
+what is an ad blocker | block ads in browser => An ad blocker is a browser extension that hides ads and many trackers, making pages cleaner and faster. Some sites ask you to turn it off to support them.
+what is a pop up blocker | pop up blocker explained => A pop-up blocker stops websites opening new windows on their own. Browsers have one built in, and you can allow pop-ups for sites you trust.
+how do i stop videos autoplaying in my browser | autoplay off => In Chrome, open Settings, Privacy and security, Site settings, Sound to mute sites. In Firefox and Safari you can block autoplay in their settings.
+how do i clear cookies for just one site | delete one website's data => In Chrome, click the icon left of the address, choose Cookies and site data or Site settings, and delete the data for that site.
+what are browser profiles | chrome profiles => Profiles keep separate bookmarks, history and logins in one browser, like one for school and one for personal use.
+how do i save a web page to read offline | keep a page without internet => Use Ctrl + S to save the page, print it to PDF, or use reading list features in Safari and Chrome.
+what is a paywall | paywall explained => A paywall blocks an article until you subscribe or pay. Schools and libraries often give free access to some paid sites.
+how do i download a youtube video | youtube downloader safe => Downloading is only allowed through YouTube's own features, like the Download button with YouTube Premium. Third-party downloader sites break YouTube's rules and are often full of malware.
+what is a browser extension | chrome extensions => An extension adds features to a browser, like an ad blocker or grammar checker. Only install well-known ones, since extensions can read the pages you visit.
+what is memory saver in chrome | memory saver in chrome explained => Memory Saver puts tabs you haven't used for a while to sleep to free up RAM. They reload when you click them.
+what is a browser's autofill | browser's autofill explained => Autofill saves things like your name, address and passwords so forms fill in automatically. Don't use it on shared computers.
+how do i translate part of a page | translate selected text => In Chrome, select text, right-click and choose Translate selection. Google Translate's website also translates whole documents.
+what is a url shortener | short links => A URL shortener turns a long link into a short one, like bit.ly. You can't see where it leads, so be careful clicking short links from strangers.
+how do i check where a short link goes | expand a short url => Hover over it to see the address, or paste it into a link preview tool. If you don't know who sent it, don't click.
+how do i bookmark all my tabs | save open tabs => In Chrome or Edge, right-click a tab and choose Bookmark all tabs, or press Ctrl + Shift + D.
+what is a reading list in safari | reading list in safari explained => The reading list saves pages to read later, even offline. Tap the share button and choose Add to Reading List.
+what is a search engine other than google | other search engines => Bing, DuckDuckGo, Ecosia and Brave Search are other search engines. DuckDuckGo focuses on not tracking your searches.
+how do i search for images i can reuse | creative commons images => In Google Images, open Tools, Usage rights and pick Creative Commons licenses, or use sites like Unsplash and Pixabay. Still check each license.
+what is the wayback machine | wayback machine explained => The Wayback Machine at archive.org saves old copies of websites, so you can see how a page looked in the past.

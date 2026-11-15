@@ -1,0 +1,7 @@
+# tag: tech.mac.extra
+how do i erase my mac before selling it | reset a mac to factory => On Apple silicon or T2 Macs, open System Settings, General, Transfer or Reset, then Erase All Content and Settings. Sign out of your Apple Account first.
+what is system data on mac storage | mac system data huge => System Data includes caches, logs, Time Machine snapshots and app support files. Restarting, emptying the trash and deleting old iPhone backups often shrinks it.
+what does the spinning beach ball mean on mac | mac rainbow wheel => The spinning wheel means an app is busy or frozen. Wait a moment, then force quit the app with Command + Option + Esc if it doesn't recover.
+what is game porting toolkit | run windows games on mac => Game Porting Toolkit is Apple's tool for developers to test Windows games on Mac. Apps like CrossOver use similar tech so players can run some Windows games.
+how many monitors can my mac use | macbook external display limit => Base M1, M2 and M3 MacBooks drive just one external display, though the M3 Air can run two with its lid closed and base M4 models run two. Pro and Max chips support more.
+how do i use messages on my mac | send imessages from a macbook => Sign in to Messages with your Apple Account. To send green-bubble texts too, turn on Text Message Forwarding on your iPhone for that Mac.

@@ -1,0 +1,11 @@
+# tag: tech.animation.extra
+what is a breakdown pose in animation | breakdown vs keyframe => A breakdown is the in-between pose that shows how the character gets from one key to the next, like the arc of a swinging arm. It shapes the motion more than plain in-betweens.
+what is blocking in 3d animation | spline pass animation => Blocking is the first pass with just key poses held in stepped mode. Then you switch to spline so the computer smooths between keys, and polish the curves.
+what is an idle animation | breathing animation games => An idle animation is the small looping movement a character does while standing still, like breathing or shifting weight, so it never looks frozen.
+what is an x-sheet in animation | exposure sheet => An exposure sheet, or X-sheet, is a chart that lists which drawing shows on each frame and lines up dialogue, so animators can time lip sync and holds.
+what is an impact frame | anime hit effect frame => An impact frame is one or a few dramatic frames, often high contrast or inverted colors, flashed right when a big hit lands to make it feel powerful.
+what is a toon shader | anime look in blender => A toon shader makes 3D models look like 2D cartoons with flat bands of shadow. In Blender, Shader to RGB plus a Color Ramp in Eevee is the classic setup.
+what is an expression sheet | character faces sheet => An expression sheet shows one character with many facial expressions, like happy, angry and scared, so they stay on-model through the whole animation.
+what is a character silhouette | readable silhouette => A strong silhouette means a character or pose is recognizable even as a solid black shape. Animators check silhouettes so actions read clearly.
+what is a mouth chart for lip sync | phoneme mouth shapes => A mouth chart is a set of mouth shapes for groups of sounds, like M B P closed or O round. Animators pick the shape for each sound to match the dialogue.
+what is cutout animation | puppet animation 2d => Cutout animation moves separate body parts like a paper puppet instead of redrawing every frame. Tools like Moho, Toon Boom and Spine use bones to do this.

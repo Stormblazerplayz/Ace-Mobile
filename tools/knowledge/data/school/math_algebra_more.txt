@@ -1,0 +1,66 @@
+# More algebra (grades 8 to 10): functions and graphs, exponents and logs, polynomials, complex numbers, series, matrices and vectors. Written by hand.
+# tag: school.math.functions
+how do you shift a graph up or down | vertical shift of a function | what does f(x) + k do => Adding k to a function, f(x) + k, moves its graph up k units; f(x) - k moves it down k units.
+how do you shift a graph left or right | horizontal shift of a function | what does f(x - h) do => f(x - h) moves the graph h units to the right, and f(x + h) moves it h units left. It's the opposite of what many people expect.
+how do you reflect a graph | what does -f(x) do | what does f(-x) do => -f(x) flips the graph upside down over the x-axis. f(-x) flips it left to right over the y-axis.
+how do you stretch a graph | vertical stretch | what does 2f(x) do => a·f(x) stretches the graph vertically by a factor of a if a > 1, and squashes it if 0 < a < 1. f(2x) squashes it horizontally by half.
+what is an even function | what is an odd function | even vs odd functions => An even function has f(-x) = f(x) and is symmetric about the y-axis, like x². An odd function has f(-x) = -f(x) and looks the same after a half turn about the origin, like x³.
+what does the graph of absolute value look like | graph of y equals absolute value of x | v shaped graph => The graph of y = |x| is a V shape with its corner (vertex) at the origin, sloping up with slope 1 on the right and -1 on the left.
+what does the graph of a square root look like | graph of y equals square root of x | square root function graph => The graph of y = √x starts at (0, 0) and curves up to the right, getting flatter. It only exists for x ≥ 0 in real numbers.
+what does a cubic graph look like | graph of y equals x cubed | cubic function shape => The graph of y = x³ is an S-shaped curve through the origin, low on the left and high on the right.
+what does the graph of 1 over x look like | reciprocal function graph | hyperbola graph => The graph of y = 1/x is a hyperbola with two curved pieces, in the first and third quadrants. It gets close to the axes but never touches them, since they are asymptotes.
+what is end behavior | end behavior of a polynomial | how does a graph behave at the ends => End behavior is what a graph does as x goes far left or right. For polynomials it depends on the degree and the sign of the leading term: x² rises on both ends, x³ falls left and rises right.
+how do you know if a graph is a function | vertical line test meaning => If any vertical line crosses a graph more than once, it's not a function, because one x would have two y values.
+what is the horizontal line test | one to one function => If no horizontal line crosses a graph more than once, the function is one-to-one and has an inverse that is also a function.
+steps to find an inverse function | swap x and y => Write y = f(x), swap x and y, then solve for y. For y = 2x + 3: x = 2y + 3, so y = (x - 3)/2.
+what is a domain restriction | why can't you divide by zero in a function | when is a function undefined => The domain leaves out x values that break the rule, like making a denominator 0 or putting a negative under a square root. For f(x) = 1/(x - 2), x can't be 2.
+what are x intercepts called | roots of a function => A zero (or root) is an x value where f(x) = 0, which is where the graph crosses the x-axis.
+what is a step function | floor function | greatest integer function => A step function jumps between flat pieces, like a staircase. The floor function rounds down to the nearest integer, so floor(3.7) = 3.
+what is a periodic function | period of a function | functions that repeat => A periodic function repeats its values at regular intervals called the period. sin x has period 360° (2π radians).
+# tag: school.math.exponentials
+compound interest equation | how do you calculate compound interest | a equals p 1 plus r over n => A = P(1 + r/n)^(nt), where P is the starting amount, r the yearly rate as a decimal, n the times compounded per year and t the years. $100 at 10% yearly for 2 years gives $121.
+exponential growth formula | growth by a percent each year => Exponential growth means multiplying by the same factor each step, y = a(1 + r)^t. A population of 1,000 growing 5% a year becomes 1,000 × 1.05^t.
+half life formula | how do you calculate half life => Half-life is the time for an amount to halve. After n half-lives, the amount is the start × (1/2)ⁿ. 80 g with 3 half-lives left becomes 10 g.
+difference between linear and exponential | adding vs multiplying growth => Linear growth adds the same amount each step (2, 4, 6, 8); exponential growth multiplies by the same factor (2, 4, 8, 16). Exponential growth eventually overtakes any linear growth.
+what is the number e | what is euler's number | why is e special => The number e is about 2.71828, an irrational number. It's the base of natural growth: compound $1 at 100% continuously for a year and you get e dollars.
+what is natural log | what does ln mean | ln vs log => The symbol ln means the natural logarithm, log base e. ln(e) = 1 and ln(1) = 0. Plain "log" usually means base 10 in school.
+what are the log rules | laws of logarithms | log product rule => The main rules are log(ab) = log a + log b; log(a/b) = log a - log b; log(aⁿ) = n log a. Also log_b(b) = 1 and log_b(1) = 0.
+how do you change the base of a log | change of base formula | log base 2 on a calculator => Use log_b(x) = log(x) ÷ log(b). So log₂(8) = log 8 ÷ log 2 = 3.
+how do you convert between log and exponential form | log form to exponential form | log base 2 of 8 => log_b(x) = y means bʸ = x. So log₂(8) = 3 because 2³ = 8, and log₁₀(1000) = 3 because 10³ = 1000.
+what are logs used for in real life | real life logarithms | where are logarithms used => Logarithms are used for scales that cover huge ranges: earthquake magnitude, sound in decibels, the pH of acids, and star brightness. They also solve for time in growth problems.
+# tag: school.math.polynomials
+what is polynomial long division | how do you divide polynomials | dividing a polynomial by a binomial => It works like number long division: divide the leading terms, multiply back, subtract, bring down the next term, and repeat. The last leftover is the remainder.
+what is synthetic division | how do you do synthetic division | synthetic division steps => Synthetic division is a shortcut for dividing by (x - c). Write c and the coefficients, bring down the first one, multiply by c, add to the next coefficient, and repeat. The last number is the remainder.
+what is the remainder theorem | remainder theorem example | f of c remainder => The remainder when f(x) is divided by (x - c) equals f(c). Dividing x² + 1 by (x - 2) leaves remainder 2² + 1 = 5.
+what is the factor theorem | factor theorem example | how to test a factor of a polynomial => (x - c) is a factor of f(x) exactly when f(c) = 0. Since 1³ - 1 = 0, (x - 1) is a factor of x³ - 1.
+what is the sum of cubes formula | difference of cubes formula | factoring cubes => The formulas are a³ + b³ = (a + b)(a² - ab + b²) and a³ - b³ = (a - b)(a² + ab + b²).
+what is the binomial theorem | how to expand a binomial power | expand (a + b) to the n => The binomial theorem expands (a + b)ⁿ using Pascal's triangle numbers as coefficients. (a + b)³ = a³ + 3a²b + 3ab² + b³.
+what is the rational root theorem | possible rational roots | p over q roots => Any rational root of a polynomial with integer coefficients is ± (a factor of the constant term) ÷ (a factor of the leading coefficient). It gives a list of candidates to test.
+what is the leading coefficient | leading term of a polynomial | what is the leading coefficient of a polynomial => The leading coefficient is the number in front of the highest power. In 4x³ - 2x + 7, the leading term is 4x³ and the leading coefficient is 4.
+what is standard form of a polynomial | how to write a polynomial in standard form | descending order polynomial => A polynomial is in standard form when its terms are written from highest power to lowest, like 3x³ + x² - 5x + 2.
+how many roots does a polynomial have | fundamental theorem of algebra | number of solutions polynomial => A polynomial of degree n has exactly n roots counting repeats and complex roots. A quadratic always has 2, though they may be equal or not real.
+what is the sum and product of roots | vieta's formulas | sum of roots of a quadratic => For ax² + bx + c = 0, the roots add up to -b/a and multiply to c/a. For x² - 5x + 6, they add to 5 and multiply to 6 (the roots are 2 and 3).
+# tag: school.math.complex-numbers
+what is i in math | what does i equal | imaginary unit => The letter i is the imaginary unit, defined by i² = -1, so i = √-1. It lets you take square roots of negative numbers, like √-9 = 3i.
+what are the powers of i | i squared i cubed i to the 4th | pattern of powers of i => Powers of i repeat every 4: i¹ = i, i² = -1, i³ = -i, i⁴ = 1, then it starts again. So i¹⁰ = i² = -1.
+how do you add complex numbers | adding imaginary numbers | subtract complex numbers => Add the real parts and the imaginary parts separately. (3 + 2i) + (1 - 5i) = 4 - 3i.
+how do you multiply complex numbers | multiplying imaginary numbers | multiply a plus bi => Multiply like binomials, then replace i² with -1. (2 + i)(3 + i) = 6 + 2i + 3i + i² = 5 + 5i.
+what is a complex conjugate | conjugate of a complex number | why use the conjugate => The conjugate of a + bi is a - bi. Multiplying them gives a² + b², a real number, which helps divide complex numbers.
+when does a quadratic have complex roots | negative discriminant | no real solutions quadratic => When the discriminant b² - 4ac is negative, the quadratic has no real roots; it has two complex roots that are conjugates, and the parabola doesn't touch the x-axis.
+# tag: school.math.series
+how do you find the sum of a geometric series | geometric series formula | sum of a geometric sequence => The sum of the first n terms is a(1 - rⁿ)/(1 - r), where a is the first term and r the ratio. 1 + 2 + 4 + 8 + 16 = 1(1 - 2⁵)/(1 - 2) = 31.
+what is an infinite geometric series | sum to infinity | does 1/2 + 1/4 + 1/8 add up to 1 => If -1 < r < 1, an infinite geometric series adds up to a/(1 - r). So 1/2 + 1/4 + 1/8 + ... = (1/2)/(1 - 1/2) = 1.
+does 0.999 repeating equal 1 | is 0.9 repeating equal to 1 | why does .999 equal 1 => Yes, 0.999... (repeating forever) equals exactly 1. One way to see it: 1/3 = 0.333..., and 3 × 1/3 = 1, while 3 × 0.333... = 0.999....
+what is sigma notation | how to read summation notation | sigma notation example => Sigma notation, Σ, is a short way to write a sum. Σ (k = 1 to 5) of 2k means 2 + 4 + 6 + 8 + 10 = 30.
+what is the difference between a sequence and a series | sequence vs series | is a series a sum => A sequence is a list of numbers (2, 4, 6, 8); a series is what you get when you add them (2 + 4 + 6 + 8 = 20).
+does a harmonic series converge | what is the harmonic series | 1 + 1/2 + 1/3 forever => The harmonic series 1 + 1/2 + 1/3 + 1/4 + ... grows forever without limit, even though its terms shrink toward 0. It grows very slowly.
+# tag: school.math.matrices
+how do you add matrices | matrix addition | adding two matrices => Add the numbers in matching positions. The matrices must be the same size, like two 2 × 2 matrices.
+how do you multiply matrices | matrix multiplication | row times column => Each entry of the product is a row of the first matrix times a column of the second: multiply matching numbers and add. The first matrix's column count must equal the second's row count.
+what is the determinant of a 2x2 matrix | how do you find a determinant | ad minus bc => For the matrix with rows (a, b) and (c, d), the determinant is ad - bc. For rows (3, 1) and (4, 2) it's 3 × 2 - 1 × 4 = 2.
+what is an identity matrix | identity matrix definition | matrix of ones on diagonal => The identity matrix has 1s on the main diagonal and 0s everywhere else. Multiplying any matrix by it leaves the matrix unchanged, like multiplying a number by 1.
+what is the dimension of a matrix | matrix size rows by columns | what does 2 by 3 matrix mean => A matrix's dimensions are rows × columns. A 2 × 3 matrix has 2 rows and 3 columns.
+what is a scalar | scalar vs vector | scalar multiplication => A scalar is a plain number with size only, like 5 or a temperature. Multiplying a vector or matrix by a scalar multiplies every entry by it.
+# tag: school.math.vectors
+how do you add vectors | vector addition | tip to tail method => Add matching components: (2, 3) + (1, -4) = (3, -1). Drawn, you place the second vector's tail at the first one's tip; the sum goes from the start to the final tip.
+what is a position vector | column vector | how do you write a vector => A vector can be written as (x, y) or in a column, or with an arrow over two points, like AB with an arrow. A position vector goes from the origin to a point.

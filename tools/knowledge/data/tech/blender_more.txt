@@ -1,0 +1,61 @@
+# tag: tech.blender.rigging
+what is rigging in blender | armature blender => Rigging means adding a skeleton of bones (an armature) inside a model so you can pose and animate it like a puppet.
+how do i attach a mesh to bones in blender | parent with automatic weights => Select the mesh, then shift-select the armature, press Ctrl + P and choose With Automatic Weights. Blender guesses which bones move which parts.
+what is weight painting in blender | fix bad deformation => Weight painting shows how strongly each bone moves each part of the mesh, from blue (none) to red (full). Paint to fix parts that bend wrong.
+what is pose mode in blender | pose mode in blender explained => Pose mode is where you move and rotate an armature's bones to pose the character, and keyframe those poses for animation.
+what is inverse kinematics | ik in blender => Inverse kinematics lets you move a hand or foot and the arm or leg bends automatically to follow, which makes posing much faster.
+what are shape keys in blender | blend shapes => Shape keys save different versions of a mesh's shape, like a smile or a blink, and blend between them with a slider you can animate.
+what are constraints in blender | track to constraint => Constraints control an object automatically, like Track To to keep a camera pointing at something, or Follow Path to move along a curve.
+how do i make a camera follow a path in blender | follow path constraint => Add a curve, give the camera a Follow Path constraint targeting it, then click Animate Path. Add Track To so it keeps looking at your subject.
+what is the dope sheet in blender | dope sheet editor => The Dope Sheet shows every keyframe as dots on a timeline, so you can move, copy and scale the timing of an animation.
+what is the nla editor | nonlinear animation => The NLA editor lets you stack and mix animation clips called actions, like layering a walk with a wave.
+how do i loop an animation in blender | cycles modifier => In the Graph Editor, select the curves and add a Cycles modifier so the keyframes repeat forever. Make the first and last keys match for a smooth loop.
+# tag: tech.blender.sim
+how do i make things fall in blender | rigid body physics => Select an object and choose Object, Rigid Body, Add Active so it falls. Make the floor a Passive rigid body, then press Space to play.
+how do i make cloth in blender | cloth simulation => Select a subdivided plane, open the Physics tab and click Cloth. Give the object it lands on a Collision physics so the cloth drapes over it.
+how do i make smoke or fire in blender | quick smoke => Select an object and choose Object, Quick Effects, Quick Smoke. Blender sets up a domain, and you play the timeline to simulate it.
+how do i make liquid in blender | fluid simulation => Use Object, Quick Effects, Quick Liquid on an object, then bake the simulation in the domain's settings. Liquids take a long time to bake.
+how do i make hair or grass in blender | hair particles => Recent Blender versions use the Hair Curves system: add it with Add, Curves, then comb it in Sculpt mode. Older versions used a Hair particle system.
+# tag: tech.blender.render
+how do i use my gpu to render in blender | cycles gpu render => Open Edit, Preferences, System and pick CUDA or OptiX for NVIDIA, HIP for AMD, then set Device to GPU Compute in the Render properties.
+what is optix in blender | optix vs cuda => OptiX uses RTX cards' ray tracing cores and is usually faster than CUDA in Cycles. It also powers the fast OptiX denoiser.
+what is denoising in blender | remove noise render => Denoising cleans the grainy speckles in a Cycles render using AI, so you can use fewer samples. Turn it on in the Render properties.
+how many samples should i render with | cycles samples => Start with around 128 to 512 samples with denoising on. Raise them only if you still see noise or blotches.
+how do i render a video in blender | export animation mp4 blender => In Output properties, set the frame range and file format to FFmpeg Video with MPEG-4 and H.264, then choose Render, Render Animation.
+should i render as an image sequence | png sequence render => Rendering to a PNG sequence is safer: if Blender crashes, you keep the finished frames. Turn them into a video later in Resolve or Blender's video editor.
+how do i turn on motion blur in blender | blender motion blur => Tick Motion Blur in the Render properties. It makes fast-moving objects blur like a real camera.
+how do i add depth of field to a blender camera | blurry background blender => Select the camera, open its Object Data properties, tick Depth of Field, set a focus object, and lower the F-Stop for more blur.
+what is the compositor in blender | blender compositing => The Compositor uses nodes to edit the finished render, like adding glare, color changes or a vignette, before saving.
+what is a render pass | render layers passes => Render passes save parts of the render separately, like shadows, reflections or depth, so you can adjust them in the compositor.
+what is light bounces in cycles | light paths => Light path bounces set how many times light can bounce. Lowering them renders faster but makes scenes darker and less realistic.
+# tag: tech.blender.materials
+what is the principled bsdf | principled shader => The Principled BSDF is Blender's all-in-one material with sliders like Base Color, Metallic, Roughness and Transmission, enough for most materials.
+how do i make glass in blender | glass material => Set the Principled BSDF's Transmission to 1 and Roughness near 0, and render in Cycles for realistic glass.
+how do i make something glow in blender | emission material => Raise the Emission Strength in the Principled BSDF and pick an emission color. In EEVEE, glow effects may need Bloom or the compositor's Glare node.
+what is roughness in blender | shiny vs matte material => Roughness controls how blurry reflections are. 0 is mirror-like and 1 is fully matte.
+what is a normal map | normal map blender => A normal map is an image that fakes small bumps and details by changing how light hits the surface, without adding real geometry.
+what is a procedural texture | noise texture blender => Procedural textures like Noise and Voronoi are made by math instead of images, so they never look stretched or blurry.
+what is a color ramp in blender | color ramp in blender explained => A Color Ramp node maps grey values to colors you choose, often used with noise textures to make patterns like marble or rust.
+what is texture baking in blender | bake textures => Baking saves lighting or procedural material detail into an image texture, which is needed for exporting to games like Roblox.
+# tag: tech.blender.modeling2
+what is the decimate modifier | reduce polygons blender => Decimate lowers a mesh's polygon count, which makes big scans or sculpts lighter for games or slicers.
+what is remesh in blender | voxel remesh => Remesh rebuilds the mesh with evenly sized faces. Voxel remesh is common in sculpting to clean up stretched geometry.
+what is dyntopo | dynamic topology sculpting => Dyntopo adds detail only where you sculpt, so you can add fine details without subdividing the whole model.
+what is the screw modifier | spin a profile blender => The Screw modifier spins a profile around an axis to make round objects like vases, or springs with an offset.
+what is the curve modifier | bend along a curve => The Curve modifier bends a mesh along a curve, like making a chain or a train track follow a path.
+what is the shrinkwrap modifier | shrinkwrap modifier explained => Shrinkwrap pulls one mesh onto another's surface, useful for clothing, stickers or details that hug a shape.
+what is a lattice in blender | lattice deform => A lattice is a cage of points around an object. Moving the points squashes and bends the object inside smoothly.
+how do i add 3d text in blender | text object blender => Press Shift + A, choose Text, then Tab to type. Use the Geometry settings for Extrude and Bevel, and convert it to a mesh for printing.
+how do i set the origin of an object | origin to geometry => Right-click the object and choose Set Origin, then pick an option like Origin to Geometry or Origin to 3D Cursor.
+how do i check face orientation in blender | blue and red faces => Turn on Face Orientation in the Overlays menu. Blue faces point outward and red faces point inward, which you should fix with Recalculate Outside.
+how do i see polygon count in blender | statistics overlay => Turn on Statistics in the Overlays menu to see vertices, faces and triangles in the viewport.
+what is smooth by angle in blender | auto smooth missing => In Blender 4.1 and later, Auto Smooth was replaced with Shade Auto Smooth, which adds a Smooth by Angle modifier.
+how do i add a reference image in blender | image reference => Press Shift + A and choose Image, Reference, then pick your picture. Line it up in a front or side view to model over it.
+# tag: tech.blender.files
+what is blender lts | blender long term support => LTS (Long Term Support) versions of Blender get bug fixes for two years, so they're good for long projects.
+what are blender extensions | extensions platform => Since Blender 4.2, add-ons and themes can be installed from the online Extensions platform inside Edit, Preferences, Get Extensions.
+what is the asset browser in blender | asset browser in blender explained => The Asset Browser lets you save objects, materials and poses as reusable assets and drag them into any project.
+what is append vs link in blender | append from another blend file => Append copies an object or material from another .blend into yours. Link keeps a live connection, so changes to the original update yours.
+how do i pack textures into a blend file | share blend with textures included => Choose File, External Data, Pack Resources so textures are saved inside the .blend file, making it easy to share.
+how do i recover a crashed blender file | blender autosave => Choose File, Recover, Auto Save to open the last auto-saved version, or Recover Last Session after a crash.
+what is a blend1 file | blend1 backup => A .blend1 file is Blender's backup of the previous save. Rename it to .blend to open it if your latest save went wrong.

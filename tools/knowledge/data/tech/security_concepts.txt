@@ -1,0 +1,26 @@
+# tag: tech.security
+what is a zero day | zero day exploit => A zero-day is a security hole that attackers find before the software maker knows about it, so there's no fix yet. That's why installing updates quickly matters.
+what is a security patch | why install updates => A patch is an update that fixes a security hole or bug. Many attacks use holes that were already patched on devices that never updated.
+what is a bug bounty | get paid to find bugs => A bug bounty pays people who find and privately report security bugs to a company. Big companies like Google and Microsoft run them, though many require you to be an adult.
+what is a white hat hacker | white hat vs black hat => White hat hackers test systems with permission to make them safer. Black hat hackers break in without permission, which is illegal.
+what is a ctf competition | capture the flag hacking => A CTF is a legal cybersecurity contest where you solve puzzles to find hidden flags. picoCTF is a free one designed for students.
+how do i learn cybersecurity as a kid | cybersecurity for beginners => Try free student resources like picoCTF and CyberStart, learn how networks and Linux work, and only ever practice on systems you own or that are made for practice.
+what is a man in the middle attack | mitm attack => A man-in-the-middle attack secretly sits between you and a website to read or change your data. HTTPS and avoiding sketchy Wi-Fi protect you.
+what is an evil twin wifi | fake wifi hotspot => An evil twin is a fake Wi-Fi network named like a real one, such as an airport or cafe, set up to spy on people who join.
+what is a sim swap attack | sim swapping => In a SIM swap, a scammer tricks a phone company into moving your number to their SIM to get your text codes. Authenticator apps and passkeys are safer than SMS codes.
+what is credential stuffing | credential stuffing explained => Credential stuffing is when attackers take passwords leaked from one site and try them on others. Using a different password everywhere stops it.
+what is a brute force attack | password guessing attack => A brute force attack tries huge numbers of password guesses. Long passwords and 2FA make it practically impossible.
+what is end to end encryption | e2ee meaning => End-to-end encryption means only you and the person you're messaging can read the messages, not even the app company. iMessage, WhatsApp and Signal use it.
+what is public key encryption | public and private keys => Public key encryption uses a pair of keys: anyone can lock a message with your public key, but only your private key can unlock it. HTTPS relies on it.
+what is a digital certificate | ssl certificate => A website's certificate proves it really owns its domain, so your browser can make a secure HTTPS connection. Certificate authorities check and sign them.
+how does antivirus find viruses | antivirus signatures => Antivirus compares files to known malware fingerprints and also watches for suspicious behavior, like a program suddenly encrypting lots of files.
+what is a rootkit | rootkit explained => A rootkit is malware that hides deep in the system so normal tools can't see it. Windows Defender Offline scans can find some of them.
+what is a botnet | zombie computers => A botnet is a group of infected devices controlled together by an attacker, often used for spam or DDoS attacks. Updates and strong passwords on routers and gadgets help prevent it.
+what is adware | pop up ads virus => Adware fills your screen with ads or changes your browser's search engine. It often comes bundled with free downloads from sketchy sites.
+what is a pup | potentially unwanted program => A PUP is software that sneaks in with another install, like toolbars or fake cleaners. Read installer screens carefully and untick extra offers.
+what is cryptojacking | pc mining crypto secretly => Cryptojacking secretly uses your computer to mine cryptocurrency, making it slow and hot. Check Task Manager for strange high CPU or GPU use.
+what is least privilege | use a standard account => Least privilege means using only the access you need. Daily use on a standard account instead of an admin account limits what malware can do.
+what is sandboxing in security | sandboxing in security explained => Sandboxing runs a program in a locked-off space so it can't touch the rest of the system. Browsers and phone apps are sandboxed for safety.
+what is browser fingerprinting | tracking without cookies => Fingerprinting identifies your browser by details like screen size, fonts and settings, so sites can track you even without cookies.
+what is a tracking pixel | email tracking pixel => A tracking pixel is a tiny invisible image in an email or page that tells the sender when you opened it. Some mail apps block them by protecting privacy.
+what is a supply chain attack | supply chain attack explained => A supply chain attack hides malware in a trusted program or update, so people install it without knowing. It's rare but can affect many people at once.

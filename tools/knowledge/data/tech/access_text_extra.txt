@@ -1,0 +1,11 @@
+# tag: tech.access.extra
+what are alt codes | alt 0169 copyright symbol => On Windows with a number pad, hold Alt and type a code like 0169 for the copyright sign or 0176 for a degree sign, then let go of Alt.
+what is character map on windows | find any symbol windows => Character Map is a built-in Windows app that shows every character in a font. Search for it in Start, pick a symbol, then Copy.
+what is the us international keyboard | type accents on windows => The US International layout lets you type accents by pressing a key like ' then a letter to get é. Add it in Settings, Time and language, Language and region.
+what is colemak or dvorak | other keyboard layouts => Dvorak and Colemak are alternative layouts that put common letters on the home row so fingers move less. Switching takes weeks of practice.
+what are mouse keys | control mouse with number pad => Mouse Keys lets the number pad move the pointer and click. Turn it on in Settings, Accessibility, Mouse.
+what are toggle keys | beep when caps lock is on => Toggle Keys plays a sound when you press Caps Lock, Num Lock or Scroll Lock, so you notice when one turns on. It's in Settings, Accessibility, Keyboard.
+what is nvda | free screen reader windows => NVDA is a free, open-source screen reader for Windows that reads text aloud and works with braille displays. It's used by many blind computer users.
+what is the xbox adaptive controller | controller for disabilities => The Xbox Adaptive Controller has two big buttons and lots of ports for switches, buttons and joysticks, so players with limited mobility can build a setup that fits them.
+what accessibility settings do games have | game accessibility options => Many games offer subtitle size, colorblind modes, button remapping, hold-to-toggle, aim assist and difficulty options. Check the game's accessibility menu.
+how do i type kaomoji on windows | japanese text faces windows => Press Windows key + period, then open the kaomoji tab in the emoji panel to insert faces like (^_^).

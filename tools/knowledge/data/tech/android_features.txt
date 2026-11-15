@@ -1,0 +1,23 @@
+# tag: tech.android.features
+what is samsung secure folder | hide apps on samsung => Secure Folder is a locked, separate space on Samsung phones for private apps, photos and files, protected by its own PIN or fingerprint.
+what is good lock | samsung customization app => Good Lock is a free Samsung app with modules for customizing the lock screen, quick panel, navigation and more.
+what is one ui | samsung one ui => One UI is Samsung's version of Android, with its own look, settings and apps on Galaxy phones and tablets.
+what are edge panels on samsung | samsung side panel => Edge panels are a pull-out sidebar on Samsung phones with shortcuts to favorite apps, tools and contacts. Turn them on in Display settings.
+what is call screen on pixel | google answers spam calls => Call Screen on Pixel phones answers unknown calls for you and shows a live transcript, so you can decide whether to pick up.
+what is now playing on pixel | pixel song recognition => Now Playing on Pixel phones recognizes songs playing nearby automatically and shows them on the lock screen, all on the device.
+what is magic eraser | remove objects google photos => Magic Eraser in Google Photos removes unwanted people or objects from your pictures. Some newer features need a Pixel or Google One plan.
+what is the pixel recorder app | transcribe recordings pixel => Recorder on Pixel phones records audio and types out what's said in real time, so you can search your recordings by words.
+how do i make android animations faster | animation scale developer options => In Developer Options, set Window, Transition and Animator animation scale to 0.5x. The phone feels snappier, but it doesn't make it faster.
+what is google play protect | play protect scan => Play Protect checks apps for harmful behavior, both from the Play Store and ones installed elsewhere. Keep it on.
+how do i boot android into safe mode | android safe mode => On most phones, hold the power button, then press and hold Power off until Safe mode appears. It runs only built-in apps so you can find a bad app.
+how do i factory reset an android phone | reset android => Go to Settings > System > Reset options and erase all data. Back up first and know your Google password, since the phone asks for it after reset.
+how do i move from android to iphone | move to ios app => Use Apple's Move to iOS app on Android while setting up the new iPhone. It copies contacts, messages, photos and more over Wi-Fi.
+switching from an iphone to a samsung | copy iphone data to new android => During Android setup, choose to copy data from an iPhone, using a cable or the Switch to Android app. Turn off iMessage first so you still get texts.
+how long do android phones get updates | android update years => It depends on the brand. As of 2025, Pixel and recent Samsung Galaxy flagships promise about seven years of updates, while cheaper phones often get fewer.
+what is sideloading on android | install apk outside play store => Sideloading means installing an app file from outside the Play Store. It's riskier, so only do it from sources you really trust.
+what is ram plus on samsung | virtual ram android => RAM Plus uses some storage as extra memory. It rarely helps much, and turning it off can save storage space.
+what is adaptive battery on android | android battery learns => Adaptive Battery learns which apps you use least and limits them in the background to save power.
+what is android auto | android auto in car => Android Auto puts maps, music and messages from your Android phone on a car's screen, controlled by touch or voice.
+what is carplay | apple carplay => CarPlay shows a simple version of your iPhone's apps on a car's screen, like maps, music and messages, for safer driving.
+what is gemini on android | google gemini assistant => Gemini is Google's AI assistant on Android phones, which can answer questions, help write and work with apps. It replaced Google Assistant on many phones.
+how do i add a widget on android | android home screen widget => Touch and hold an empty spot on the home screen, tap Widgets, then drag one where you want it.

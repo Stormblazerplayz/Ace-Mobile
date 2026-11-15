@@ -2,7 +2,7 @@
 // @category Arduino
 // @kind Arduino sketch
 // @where Arduino Uno; install "LiquidCrystal I2C"; LCD SDA A4, SCL A5; tilt switch between pin 2 and GND (or a button). Ask a question and shake it!
-// @keywords magic 8 ball, fortune teller lcd, shake for answer, ask a question arduino
+// @keywords arduino magic 8 ball, fortune teller lcd, shake for answer, ask a question arduino
 // @about Shake the tilt switch and the LCD shows a random Magic 8 Ball answer.
 
 #include <Wire.h>

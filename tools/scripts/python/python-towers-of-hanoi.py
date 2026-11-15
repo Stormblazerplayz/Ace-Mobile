@@ -2,7 +2,7 @@
 # @category Basics
 # @kind Console program
 # @where Save as hanoi.py and run: python3 hanoi.py
-# @keywords python towers of hanoi, python recursion puzzle, python hanoi solver, python recursive moves
+# @keywords python towers of hanoi, python hanoi puzzle, python hanoi solver, python recursive moves
 # @about Solves the Towers of Hanoi puzzle with recursion and prints every move.
 
 moves = []

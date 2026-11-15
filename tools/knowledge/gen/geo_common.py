@@ -165,3 +165,19 @@ def pick(rng, pool, n):
 
 def rng_for(*parts):
     return random.Random("|".join(parts))
+
+
+def add_block(w, fname, text, limit=5):
+    """Adds hand-written entries. Lines are '## tag' or 'wording | wording => Answer'."""
+    tag = None
+    for n, line in enumerate(text.strip().splitlines(), 1):
+        line = line.strip()
+        if not line or line.startswith("#!"):
+            continue
+        if line.startswith("## "):
+            tag = line[3:].strip()
+            continue
+        if " => " not in line:
+            raise ValueError(f"{fname}: bad line {n}: {line[:60]}")
+        qs, ans = line.split(" => ", 1)
+        w.add(fname, tag, [q.strip() for q in qs.split("|")], ans.strip(), limit=limit)

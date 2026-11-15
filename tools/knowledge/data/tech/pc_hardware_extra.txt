@@ -1,0 +1,12 @@
+# tag: tech.pc.hardware.extra
+what is userbenchmark | is userbenchmark accurate => UserBenchmark's rankings are widely criticized as unreliable and biased. Reviews from sites that test many games, plus tools like 3DMark and Cinebench, give a fairer picture.
+what is 3dmark time spy | gpu score test => Time Spy is a DirectX 12 gaming benchmark in 3DMark. Compare your graphics score to others with the same GPU to spot cooling or settings problems.
+what is memtest86 | memtest usb ram check => MemTest86 boots from a USB stick and tests RAM for errors outside Windows. Any error at all means unstable or faulty memory, often fixed by lowering EXPO or swapping a stick.
+what is prime95 | cpu torture test => Prime95 is a very heavy CPU stress test. It's good for checking stability and cooling, but it runs hotter than games, so don't panic at high temps during a short test.
+what is geekbench | compare phone and pc speed => Geekbench is a benchmark that runs on phones, tablets and computers, giving single-core and multi-core scores you can compare across devices.
+what is aio gurgling | water sound in liquid cooler => Gurgling usually means air bubbles in the pump. Mount the radiator so the pump isn't the highest point, and the noise often settles after a few days.
+what is push pull on a radiator | fans on both sides radiator => Push-pull puts fans on both sides of a radiator. It helps a little with thick radiators but usually only a few degrees, and costs more fans.
+what is a custom water loop | custom liquid cooling => A custom loop has a separate pump, reservoir, tubes and blocks for the CPU and GPU. It looks amazing and runs cool but costs a lot and needs maintenance and leak testing.
+what is positive pressure in a pc case | positive vs negative airflow => Positive pressure means more air comes in than goes out, so air leaks out of gaps and dust stays out, as long as intakes have filters.
+what are sleeved cable extensions | custom pc cables => Sleeved extensions plug onto your power supply cables to make them look neat and colorful. Make sure 12VHPWR or 12V-2x6 ones are high quality and fully seated.
+what is thermal putty | putty vs thermal pads => Thermal putty is a soft paste-like material used instead of pads on GPU memory and VRMs. It fills gaps of any thickness, which helps when pad sizes are unknown.

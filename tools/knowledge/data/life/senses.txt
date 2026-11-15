@@ -1,0 +1,47 @@
+# tag: body.eyes
+how do eyes work | how do we see | how does the eye see things => Light enters through your pupil, and the lens focuses it onto the retina at the back of your eye. Cells there turn light into signals that your brain turns into pictures.
+what are the parts of the eye | what is the iris and pupil => The cornea is the clear front window, the iris is the colored ring, the pupil is the black hole in the middle, the lens focuses light and the retina senses it.
+why do pupils get bigger in the dark | why do pupils change size => Your pupils open wide in the dark to let in more light and shrink in bright light to protect your eyes. They also widen when you're excited or scared.
+what are rods and cones | what cells in your eye see color => Your retina has rods, which work in dim light but only see gray, and cones, which see color in brighter light. Most people have three kinds of cones: red, green and blue.
+what is color blindness | why are boys more color blind => Color blindness usually means having trouble telling certain colors apart, most often red and green. It affects about 1 in 12 boys and 1 in 200 girls, because the genes are on the X chromosome.
+what is the blind spot | do we have a blind spot in our eye => Each eye has a blind spot where the optic nerve leaves the retina and there are no light sensors. You don't notice it because your brain fills in the gap.
+why do some people need glasses | what is nearsighted and farsighted => Nearsighted people see close things clearly but far things blurry. Farsighted people have trouble with close things. Glasses bend light so it focuses right on the retina.
+what is 20 20 vision | what does 20 20 mean => 20/20 vision means you can see at 20 feet what a typical person should see at 20 feet. 20/40 means you need to be at 20 feet to see what others can see from 40.
+why do we have two eyes | how do we see in 3d => Each eye sees from a slightly different angle. Your brain combines the two views to judge depth and distance, which is called 3D or stereo vision.
+what are tears made of | why do we cry => Tears are mostly water with salt, oils and germ-fighting proteins. Basic tears keep eyes wet, reflex tears wash out irritants, and emotional tears come with strong feelings.
+why do eyes water when yawning | why do i tear up when i yawn => Yawning squeezes your face muscles, which can press on the tear glands and push tears out.
+why is there crust in my eyes in the morning | what is eye sleep => Eye "sleep" is dried mucus, oil, skin cells and dust that your eyes clear out during the night. Blinking normally washes it away, but you don't blink while sleeping.
+what determines eye color | why do people have different eye colors => Eye color comes from how much brown pigment, melanin, is in your iris. Lots makes brown eyes, and less makes green or blue, which is caused by the way light scatters.
+can eye color change | do babies eyes change color => Many babies' eyes darken during their first year or so. After that, eye color usually stays the same.
+what is the most common eye color | what is the rarest eye color => Brown is by far the most common eye color in the world. Blue, green and hazel are less common, and green is one of the rarest.
+why do i see stars when i rub my eyes | what are the colors you see when you press your eyes => Pressing on your eyes squeezes the retina, which makes it send signals to your brain even without light. You see flashes called phosphenes.
+what are eye floaters | what are the squiggly things in my eye => Floaters are tiny bits of gel or cells drifting inside your eye that cast shadows on your retina. They're usually harmless, but a sudden shower of them needs a doctor.
+can eating carrots help you see in the dark | do carrots really improve your eyesight => Carrots have vitamin A, which your eyes need, but eating extra won't give you night vision. The myth came from World War II, partly to hide that pilots used radar.
+how fast do we blink | how long does a blink take => A blink takes about a tenth to a third of a second. Most people blink about 15 to 20 times a minute.
+what is pink eye | is pink eye contagious => Pink eye, or conjunctivitis, makes the white of the eye pink, itchy or crusty. Some kinds spread easily, so wash your hands, don't share towels and see a doctor.
+
+# tag: body.ears
+what is the cochlea | what does the inner ear do => The cochlea is a snail-shaped, fluid-filled tube in your inner ear that turns sound vibrations into nerve signals. Your inner ear also helps you balance.
+can headphones damage your hearing | what volume should my headphones be => Sounds above about 85 decibels can damage hearing over time. A good rule is keeping headphones under about 60 percent volume and taking breaks.
+how does the ear help you balance | why do you get dizzy when you spin => Your inner ear has fluid-filled loops that sense movement. When you spin and stop, the fluid keeps moving for a moment, so your brain thinks you're still turning.
+what is motion sickness | why do i get carsick => Motion sickness happens when your inner ear feels movement but your eyes see something still, like a book. Looking out the window at the horizon and fresh air can help.
+why do my ears ring | what is ringing in the ears => Ringing, called tinnitus, often happens after loud noise like concerts. It usually fades, but if it lasts or keeps coming back, see a doctor and protect your ears.
+what is an ear infection | why do kids get ear infections => An ear infection is when germs grow behind the eardrum, causing pain and sometimes fever. Kids get them more because the tube from the ear to the throat is shorter and flatter.
+why does my voice sound weird on recordings | why do i hate the sound of my recorded voice => When you talk, you hear your voice through the air and through vibrations in your skull bones, which make it sound deeper. A recording only captures the air part.
+
+# tag: body.nose-tongue
+how does smell work | how do we smell things => Tiny smell molecules float into your nose and stick to special sensors high up inside. These send signals to your brain, which recognizes the smell.
+how many smells can humans detect | how good is the human nose => Scientists once said people could tell apart about 10,000 smells. A 2014 study suggested it may be far more, though the exact number is still debated.
+why cant i taste food when i have a cold | why does food taste bland when im sick => Much of what we call taste is really smell. When your nose is blocked, smell molecules can't reach the sensors, so food tastes bland.
+is there a tongue map | do different parts of the tongue taste different things => The tongue map is a myth. All parts of your tongue with taste buds can sense all five tastes.
+why do some foods taste different to different people | why do some people hate broccoli => Taste genes differ between people. For example, some people find broccoli or coffee extra bitter, and some think cilantro tastes like soap because of a gene.
+how many muscles are in your tongue | is the tongue a muscle => Your tongue is made of eight muscles working together. It's very flexible and helps you talk, chew and swallow.
+why does orange juice taste bad after brushing teeth | why does toothpaste make food taste weird => Most toothpastes have a foaming ingredient that blocks your sweet taste and makes bitter tastes stronger for a while.
+
+# tag: body.touch
+how does touch work | how do we feel things => Your skin has millions of sensors for pressure, vibration, heat, cold and pain. They send signals along nerves to your brain.
+which part of the body is most sensitive to touch | most sensitive part of your body => Your fingertips, lips and tongue have the most touch sensors, which is why they're the most sensitive.
+why cant you tickle yourself | why is it impossible to tickle yourself => Your brain predicts the feeling of your own touch, so it cancels the surprise. Tickling needs a surprise, which is why someone else can tickle you.
+why do my feet fall asleep | what is pins and needles => When you sit on a leg, pressure squeezes nerves and blood vessels, so signals stop. When you move, they wake up and you feel pins and needles.
+what is proprioception | how do you know where your body is with your eyes closed => Proprioception is your sense of where your body parts are. Sensors in muscles and joints tell your brain, so you can touch your nose with your eyes closed.
+how many senses do we really have | do humans have more than five senses => Besides the classic five, people have senses for balance, body position, temperature, pain, hunger and more. Scientists count anywhere from about 9 to over 20.

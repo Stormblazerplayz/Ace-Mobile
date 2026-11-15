@@ -105,4 +105,4 @@ how do i open the snipping tool | snipping tool shortcut => Press Windows key + 
 how do i record my screen with snipping tool | screen record without game bar => Open the Snipping Tool, click the video camera icon, press New, drag the area to record, then press Start. It works on the desktop and on File Explorer, where Game Bar doesn't.
 how do i switch between keyboard and touch mode | windows ctrl o on screen => Press Windows key + Ctrl + O to bring up the on-screen keyboard for touch or mouse typing.
 how do i open the windows terminal | open command prompt shortcut => Press Windows key + R, type cmd or wt, and press Enter. Or press Windows key + X, then I, to open Terminal.
-how do i scroll a page with the keyboard | page down key | space bar scroll => Press Page Down or Space to scroll down a screen at a time, and Page Up or Shift + Space to go back up.
+how do i scroll a page with the keyboard | page down key => Press Page Down or Space to scroll down a screen at a time, and Page Up or Shift + Space to go back up.

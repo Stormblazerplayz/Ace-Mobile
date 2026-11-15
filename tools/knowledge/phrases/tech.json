@@ -1,0 +1,604 @@
+{
+ "entries": [
+  {
+   "en": "tablet",
+   "also": [
+    "ipad"
+   ],
+   "t": {
+    "es": "tableta",
+    "fr": "tablette",
+    "de": "Tablet",
+    "it": "tablet",
+    "pt": "tablet",
+    "ja": "タブレット",
+    "zh": "平板电脑",
+    "ko": "태블릿",
+    "hi": "टैबलेट",
+    "ar": "جهاز لوحي",
+    "ru": "планшет",
+    "nl": "tablet"
+   },
+   "say": {
+    "ja": "taburetto",
+    "zh": "píngbǎn diànnǎo",
+    "ko": "taebeullit",
+    "hi": "taiblet",
+    "ar": "jihaaz lawhi",
+    "ru": "planshet"
+   }
+  },
+  {
+   "en": "internet",
+   "also": [],
+   "t": {
+    "es": "internet",
+    "fr": "internet",
+    "de": "Internet",
+    "it": "internet",
+    "pt": "internet",
+    "ja": "インターネット",
+    "zh": "互联网",
+    "ko": "인터넷",
+    "hi": "इंटरनेट",
+    "ar": "الإنترنت",
+    "ru": "интернет",
+    "nl": "internet"
+   },
+   "say": {
+    "ja": "intaanetto",
+    "zh": "hùliánwǎng",
+    "ko": "inteonet",
+    "hi": "intarnet",
+    "ar": "al-intarnet",
+    "ru": "internet"
+   }
+  },
+  {
+   "en": "wifi",
+   "also": [
+    "wi-fi"
+   ],
+   "t": {
+    "es": "wifi",
+    "fr": "wifi",
+    "de": "WLAN",
+    "it": "wifi",
+    "pt": "wi-fi",
+    "ja": "ワイファイ",
+    "zh": "无线网",
+    "ko": "와이파이",
+    "hi": "वाईफ़ाई",
+    "ar": "واي فاي",
+    "ru": "вайфай",
+    "nl": "wifi"
+   },
+   "say": {
+    "ja": "waifai",
+    "zh": "wúxiànwǎng",
+    "ko": "waipai",
+    "hi": "vaaifaai",
+    "ar": "waay faay",
+    "ru": "vayfay"
+   }
+  },
+  {
+   "en": "password",
+   "also": [],
+   "t": {
+    "es": "contraseña",
+    "fr": "mot de passe",
+    "de": "Passwort",
+    "it": "password",
+    "pt": "senha",
+    "ja": "パスワード",
+    "zh": "密码",
+    "ko": "비밀번호",
+    "hi": "पासवर्ड",
+    "ar": "كلمة السر",
+    "ru": "пароль",
+    "nl": "wachtwoord"
+   },
+   "say": {
+    "ja": "pasuwaado",
+    "zh": "mìmǎ",
+    "ko": "bimilbeonho",
+    "hi": "paasvard",
+    "ar": "kalimat as-sirr",
+    "ru": "parol"
+   }
+  },
+  {
+   "en": "what's the wifi password",
+   "also": [],
+   "t": {
+    "es": "¿Cuál es la contraseña del wifi?",
+    "fr": "Quel est le mot de passe du wifi ?",
+    "de": "Wie ist das WLAN-Passwort?",
+    "it": "Qual è la password del wifi?",
+    "pt": "Qual é a senha do wi-fi?",
+    "ja": "ワイファイのパスワードは何ですか？",
+    "zh": "无线网密码是什么？",
+    "ko": "와이파이 비밀번호가 뭐예요?",
+    "hi": "वाईफ़ाई का पासवर्ड क्या है?",
+    "ar": "ما كلمة سر الواي فاي؟",
+    "ru": "Какой пароль от вайфая?",
+    "nl": "Wat is het wifi-wachtwoord?"
+   },
+   "say": {
+    "ja": "waifai no pasuwaado wa nan desu ka?",
+    "zh": "wúxiànwǎng mìmǎ shì shénme?",
+    "ko": "waipai bimilbeonhoga mwoyeyo?",
+    "hi": "vaaifaai ka paasvard kya hai?",
+    "ar": "ma kalimat sirr al-waay faay?",
+    "ru": "kakoy parol ot vayfaya?"
+   }
+  },
+  {
+   "en": "is there wifi here",
+   "also": [
+    "do you have wifi"
+   ],
+   "t": {
+    "es": "¿Hay wifi aquí?",
+    "fr": "Il y a du wifi ici ?",
+    "de": "Gibt es hier WLAN?",
+    "it": "C'è il wifi qui?",
+    "pt": "Tem wi-fi aqui?",
+    "ja": "ここにワイファイはありますか？",
+    "zh": "这里有无线网吗？",
+    "ko": "여기 와이파이 있어요?",
+    "hi": "क्या यहाँ वाईफ़ाई है?",
+    "ar": "هل يوجد واي فاي هنا؟",
+    "ru": "Здесь есть вайфай?",
+    "nl": "Is er hier wifi?"
+   },
+   "say": {
+    "ja": "koko ni waifai wa arimasu ka?",
+    "zh": "zhèlǐ yǒu wúxiànwǎng ma?",
+    "ko": "yeogi waipai isseoyo?",
+    "hi": "kya yahaan vaaifaai hai?",
+    "ar": "hal yoojad waay faay huna?",
+    "ru": "zdes yest vayfay?"
+   }
+  },
+  {
+   "en": "charger",
+   "also": [],
+   "t": {
+    "es": "cargador",
+    "fr": "chargeur",
+    "de": "Ladegerät",
+    "it": "caricabatterie",
+    "pt": "carregador",
+    "ja": "充電器",
+    "zh": "充电器",
+    "ko": "충전기",
+    "hi": "चार्जर",
+    "ar": "شاحن",
+    "ru": "зарядка",
+    "nl": "oplader"
+   },
+   "say": {
+    "ja": "juudenki",
+    "zh": "chōngdiànqì",
+    "ko": "chungjeongi",
+    "hi": "chaarjar",
+    "ar": "shaahin",
+    "ru": "zaryadka"
+   }
+  },
+  {
+   "en": "my battery is low",
+   "also": [
+    "my phone is dying",
+    "low battery"
+   ],
+   "t": {
+    "es": "Me queda poca batería",
+    "fr": "Je n'ai plus beaucoup de batterie",
+    "de": "Mein Akku ist fast leer",
+    "it": "Ho la batteria scarica",
+    "pt": "Minha bateria está acabando",
+    "ja": "電池が少ないです",
+    "zh": "我的手机快没电了",
+    "ko": "배터리가 거의 없어요",
+    "hi": "मेरी बैटरी कम है",
+    "ar": "البطارية ضعيفة",
+    "ru": "У меня садится батарейка",
+    "nl": "Mijn batterij is bijna leeg"
+   },
+   "say": {
+    "ja": "denchi ga sukunai desu",
+    "zh": "wǒ de shǒujī kuài méi diàn le",
+    "ko": "baeteoriga geoui eopseoyo",
+    "hi": "meri baitari kam hai",
+    "ar": "al-battaariyya da'eefa",
+    "ru": "u menya saditsya batareyka"
+   }
+  },
+  {
+   "en": "can i charge my phone",
+   "also": [
+    "where can i charge my phone"
+   ],
+   "t": {
+    "es": "¿Puedo cargar mi teléfono?",
+    "fr": "Je peux recharger mon téléphone ?",
+    "de": "Kann ich mein Handy aufladen?",
+    "it": "Posso caricare il telefono?",
+    "pt": "Posso carregar meu celular?",
+    "ja": "携帯を充電してもいいですか？",
+    "zh": "我可以给手机充电吗？",
+    "ko": "휴대폰 충전해도 돼요?",
+    "hi": "क्या मैं अपना फ़ोन चार्ज कर सकता / सकती हूँ?",
+    "ar": "هل يمكنني شحن هاتفي؟",
+    "ru": "Можно зарядить телефон?",
+    "nl": "Mag ik mijn telefoon opladen?"
+   },
+   "say": {
+    "ja": "keitai o juuden shite mo ii desu ka?",
+    "zh": "wǒ kěyǐ gěi shǒujī chōngdiàn ma?",
+    "ko": "hyudaepon chungjeonhaedo dwaeyo?",
+    "hi": "kya main apna fon chaarj kar sakta / sakti hoon?",
+    "ar": "hal yumkinuni shahn haatifi?",
+    "ru": "mozhno zaryadit telefon?"
+   }
+  },
+  {
+   "en": "screen",
+   "also": [],
+   "t": {
+    "es": "pantalla",
+    "fr": "écran",
+    "de": "Bildschirm",
+    "it": "schermo",
+    "pt": "tela",
+    "ja": "画面",
+    "zh": "屏幕",
+    "ko": "화면",
+    "hi": "स्क्रीन",
+    "ar": "شاشة",
+    "ru": "экран",
+    "nl": "scherm"
+   },
+   "say": {
+    "ja": "gamen",
+    "zh": "píngmù",
+    "ko": "hwamyeon",
+    "hi": "skreen",
+    "ar": "shaasha",
+    "ru": "ekran"
+   }
+  },
+  {
+   "en": "keyboard",
+   "also": [],
+   "t": {
+    "es": "teclado",
+    "fr": "clavier",
+    "de": "Tastatur",
+    "it": "tastiera",
+    "pt": "teclado",
+    "ja": "キーボード",
+    "zh": "键盘",
+    "ko": "키보드",
+    "hi": "कीबोर्ड",
+    "ar": "لوحة المفاتيح",
+    "ru": "клавиатура",
+    "nl": "toetsenbord"
+   },
+   "say": {
+    "ja": "kiiboodo",
+    "zh": "jiànpán",
+    "ko": "kibodeu",
+    "hi": "keebord",
+    "ar": "lawhat al-mafaateeh",
+    "ru": "klaviatura"
+   }
+  },
+  {
+   "en": "headphones",
+   "also": [
+    "earphones",
+    "earbuds"
+   ],
+   "t": {
+    "es": "auriculares",
+    "fr": "écouteurs",
+    "de": "Kopfhörer",
+    "it": "cuffie",
+    "pt": "fones de ouvido",
+    "ja": "イヤホン",
+    "zh": "耳机",
+    "ko": "이어폰",
+    "hi": "हेडफ़ोन",
+    "ar": "سماعات",
+    "ru": "наушники",
+    "nl": "koptelefoon"
+   },
+   "say": {
+    "ja": "iyahon",
+    "zh": "ěrjī",
+    "ko": "ieopon",
+    "hi": "hedfon",
+    "ar": "sammaa'aat",
+    "ru": "naushniki"
+   }
+  },
+  {
+   "en": "camera",
+   "also": [],
+   "t": {
+    "es": "cámara",
+    "fr": "appareil photo",
+    "de": "Kamera",
+    "it": "macchina fotografica",
+    "pt": "câmera",
+    "ja": "カメラ",
+    "zh": "相机",
+    "ko": "카메라",
+    "hi": "कैमरा",
+    "ar": "كاميرا",
+    "ru": "фотоаппарат",
+    "nl": "camera"
+   },
+   "say": {
+    "ja": "kamera",
+    "zh": "xiàngjī",
+    "ko": "kamera",
+    "hi": "kaimra",
+    "ar": "kaameera",
+    "ru": "fotoapparat"
+   }
+  },
+  {
+   "en": "app",
+   "also": [
+    "application"
+   ],
+   "t": {
+    "es": "aplicación",
+    "fr": "appli",
+    "de": "App",
+    "it": "app",
+    "pt": "aplicativo",
+    "ja": "アプリ",
+    "zh": "应用",
+    "ko": "앱",
+    "hi": "ऐप",
+    "ar": "تطبيق",
+    "ru": "приложение",
+    "nl": "app"
+   },
+   "say": {
+    "ja": "apuri",
+    "zh": "yìngyòng",
+    "ko": "aep",
+    "hi": "aip",
+    "ar": "tatbeeq",
+    "ru": "prilozheniye"
+   }
+  },
+  {
+   "en": "message",
+   "also": [
+    "text message"
+   ],
+   "t": {
+    "es": "mensaje",
+    "fr": "message",
+    "de": "Nachricht",
+    "it": "messaggio",
+    "pt": "mensagem",
+    "ja": "メッセージ",
+    "zh": "消息",
+    "ko": "메시지",
+    "hi": "संदेश",
+    "ar": "رسالة",
+    "ru": "сообщение",
+    "nl": "bericht"
+   },
+   "say": {
+    "ja": "messeeji",
+    "zh": "xiāoxi",
+    "ko": "mesiji",
+    "hi": "sandesh",
+    "ar": "risaala",
+    "ru": "soobshcheniye"
+   }
+  },
+  {
+   "en": "email",
+   "also": [
+    "e-mail"
+   ],
+   "t": {
+    "es": "correo electrónico",
+    "fr": "e-mail",
+    "de": "E-Mail",
+    "it": "email",
+    "pt": "e-mail",
+    "ja": "メール",
+    "zh": "电子邮件",
+    "ko": "이메일",
+    "hi": "ईमेल",
+    "ar": "بريد إلكتروني",
+    "ru": "электронная почта",
+    "nl": "e-mail"
+   },
+   "say": {
+    "ja": "meeru",
+    "zh": "diànzǐ yóujiàn",
+    "ko": "imeil",
+    "hi": "eemel",
+    "ar": "bareed iliktrooni",
+    "ru": "elektronnaya pochta"
+   }
+  },
+  {
+   "en": "robot",
+   "also": [],
+   "t": {
+    "es": "robot",
+    "fr": "robot",
+    "de": "Roboter",
+    "it": "robot",
+    "pt": "robô",
+    "ja": "ロボット",
+    "zh": "机器人",
+    "ko": "로봇",
+    "hi": "रोबोट",
+    "ar": "روبوت",
+    "ru": "робот",
+    "nl": "robot"
+   },
+   "say": {
+    "ja": "robotto",
+    "zh": "jīqìrén",
+    "ko": "robot",
+    "hi": "robot",
+    "ar": "roobot",
+    "ru": "robot"
+   }
+  },
+  {
+   "en": "website",
+   "also": [],
+   "t": {
+    "es": "sitio web",
+    "fr": "site web",
+    "de": "Webseite",
+    "it": "sito web",
+    "pt": "site",
+    "ja": "ウェブサイト",
+    "zh": "网站",
+    "ko": "웹사이트",
+    "hi": "वेबसाइट",
+    "ar": "موقع إلكتروني",
+    "ru": "сайт",
+    "nl": "website"
+   },
+   "say": {
+    "ja": "webusaito",
+    "zh": "wǎngzhàn",
+    "ko": "wepsaiteu",
+    "hi": "vebsaait",
+    "ar": "mawqi' iliktrooni",
+    "ru": "sayt"
+   }
+  },
+  {
+   "en": "video",
+   "also": [],
+   "t": {
+    "es": "video",
+    "fr": "vidéo",
+    "de": "Video",
+    "it": "video",
+    "pt": "vídeo",
+    "ja": "動画",
+    "zh": "视频",
+    "ko": "동영상",
+    "hi": "वीडियो",
+    "ar": "فيديو",
+    "ru": "видео",
+    "nl": "video"
+   },
+   "say": {
+    "ja": "douga",
+    "zh": "shìpín",
+    "ko": "dongyeongsang",
+    "hi": "veediyo",
+    "ar": "feedyo",
+    "ru": "video"
+   }
+  },
+  {
+   "en": "it doesn't work",
+   "also": [
+    "it's not working",
+    "it's broken"
+   ],
+   "t": {
+    "es": "No funciona",
+    "fr": "Ça ne marche pas",
+    "de": "Es funktioniert nicht",
+    "it": "Non funziona",
+    "pt": "Não funciona",
+    "ja": "動きません",
+    "zh": "坏了",
+    "ko": "작동이 안 돼요",
+    "hi": "यह काम नहीं कर रहा",
+    "ar": "لا يعمل",
+    "ru": "Не работает",
+    "nl": "Het werkt niet"
+   },
+   "say": {
+    "ja": "ugokimasen",
+    "zh": "huài le",
+    "ko": "jakdongi an dwaeyo",
+    "hi": "yah kaam nahin kar raha",
+    "ar": "la ya'mal",
+    "ru": "ne rabotayet"
+   }
+  },
+  {
+   "en": "can you send me a message",
+   "also": [
+    "text me",
+    "message me"
+   ],
+   "t": {
+    "es": "¿Me puede mandar un mensaje?",
+    "fr": "Vous pouvez m'envoyer un message ?",
+    "de": "Können Sie mir eine Nachricht schicken?",
+    "it": "Mi può mandare un messaggio?",
+    "pt": "Pode me mandar uma mensagem?",
+    "ja": "メッセージを送ってもらえますか？",
+    "zh": "你能给我发消息吗？",
+    "ko": "메시지 보내 주실 수 있어요?",
+    "hi": "क्या आप मुझे संदेश भेज सकते हैं?",
+    "ar": "هل يمكنك أن ترسل لي رسالة؟",
+    "ru": "Можете написать мне?",
+    "nl": "Kunt u me een bericht sturen?"
+   },
+   "say": {
+    "ja": "messeeji o okutte moraemasu ka?",
+    "zh": "nǐ néng gěi wǒ fā xiāoxi ma?",
+    "ko": "mesiji bonae jusil su isseoyo?",
+    "hi": "kya aap mujhe sandesh bhej sakte hain?",
+    "ar": "hal yumkinuka an tursil li risaala?",
+    "ru": "mozhete napisat mne?"
+   }
+  },
+  {
+   "en": "call me",
+   "also": [
+    "give me a call"
+   ],
+   "t": {
+    "es": "Llámeme",
+    "fr": "Appelez-moi",
+    "de": "Rufen Sie mich an",
+    "it": "Mi chiami",
+    "pt": "Me ligue",
+    "ja": "電話してください",
+    "zh": "给我打电话",
+    "ko": "전화해 주세요",
+    "hi": "मुझे फ़ोन कीजिए",
+    "ar": "اتصل بي",
+    "ru": "Позвоните мне",
+    "nl": "Bel me"
+   },
+   "say": {
+    "ja": "denwa shite kudasai",
+    "zh": "gěi wǒ dǎ diànhuà",
+    "ko": "jeonhwahae juseyo",
+    "hi": "mujhe fon keejiye",
+    "ar": "ittasil bi",
+    "ru": "pozvonite mne"
+   }
+  }
+ ]
+}

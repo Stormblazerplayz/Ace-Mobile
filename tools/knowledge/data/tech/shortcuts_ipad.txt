@@ -23,5 +23,4 @@ how do i dictate on ipad | voice typing ipad => Tap the microphone on the on-scr
 how do i turn on ipad keyboard text shortcuts | text replacement ipad => Open Settings, General, Keyboard, Text Replacement, and tap the plus button. Type a short code like omw and the phrase it should expand into.
 how do i type faster on ipad | ipad keyboard tricks => Turn on Slide to Type, double-tap Space for a period, touch and hold a letter for accents, and touch and hold the Space bar to move the cursor like a trackpad.
 how do i move the cursor on ipad without a keyboard | spacebar trackpad => Touch and hold the Space bar on the on-screen keyboard until the keys go blank, then slide your finger to move the cursor.
-how do i split the ipad keyboard | floating keyboard ipad => Pinch the on-screen keyboard with two fingers to make it a small floating keyboard you can drag around. Spread two fingers on it to make it full size again.
 how do i undo by shaking or swiping on ipad | three finger swipe undo => Swipe left with three fingers to undo and right with three fingers to redo. Pinch in with three fingers to copy and pinch out to paste.

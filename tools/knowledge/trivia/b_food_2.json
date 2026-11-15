@@ -1,0 +1,2487 @@
+{
+ "questions": [
+  {
+   "id": "food-1192",
+   "category": "Food",
+   "q": "What is horchata, a sweet drink popular in Mexico, usually made from?",
+   "choices": [
+    "Oranges and milk",
+    "Rice and cinnamon",
+    "Coconut and lime",
+    "Coffee and chocolate"
+   ],
+   "answer": 1,
+   "fact": "In Spain, horchata is made from tiger nuts instead of rice."
+  },
+  {
+   "id": "food-1193",
+   "category": "Food",
+   "q": "What is kombucha?",
+   "choices": [
+    "Fermented tea",
+    "Sparkling water",
+    "Coconut juice",
+    "Rice wine"
+   ],
+   "answer": 0,
+   "fact": "Kombucha is made using a rubbery disk of bacteria and yeast called a SCOBY."
+  },
+  {
+   "id": "food-1194",
+   "category": "Food",
+   "q": "What does the word \"chai\" mean in Hindi?",
+   "choices": [
+    "Milk",
+    "Sweet",
+    "Tea",
+    "Spice"
+   ],
+   "answer": 2,
+   "fact": "So \"chai tea\" really means \"tea tea\"."
+  },
+  {
+   "id": "food-1195",
+   "category": "Food",
+   "q": "Coconut water comes from which kind of coconuts?",
+   "choices": [
+    "Dried coconuts",
+    "Old brown coconuts",
+    "Coconut flowers",
+    "Young green coconuts"
+   ],
+   "answer": 3,
+   "fact": "As a coconut ages, much of the water turns into the white coconut meat."
+  },
+  {
+   "id": "food-1196",
+   "category": "Food",
+   "q": "What did the British spread in World War II to explain their pilots' night vision, giving carrots a reputation for helping eyesight?",
+   "choices": [
+    "A story that the pilots ate lots of carrots",
+    "A carrot-flavored drink",
+    "A carrot-colored lens",
+    "A secret carrot medicine"
+   ],
+   "answer": 0,
+   "fact": "It was really meant to hide that they were using new radar technology."
+  },
+  {
+   "id": "food-1197",
+   "category": "Food",
+   "q": "Who invented instant noodles in Japan in 1958?",
+   "choices": [
+    "Momofuku Ando",
+    "Satoshi Tajiri",
+    "Kikunae Ikeda",
+    "Akio Morita"
+   ],
+   "answer": 0,
+   "fact": "Momofuku Ando also created Cup Noodles in 1971."
+  },
+  {
+   "id": "food-1198",
+   "category": "Food",
+   "q": "Which inventor came up with quick-frozen food after seeing how Inuit people froze fish?",
+   "choices": [
+    "Clarence Birdseye",
+    "John Kellogg",
+    "Henry Ford",
+    "Thomas Edison"
+   ],
+   "answer": 0,
+   "fact": "Fish frozen quickly in the Arctic cold tasted fresh months later."
+  },
+  {
+   "id": "food-1199",
+   "category": "Food",
+   "q": "In what year was pre-sliced bread first sold?",
+   "choices": [
+    "1928",
+    "1898",
+    "1958",
+    "1828"
+   ],
+   "answer": 0,
+   "fact": "It was first sold in Chillicothe, Missouri, giving us the phrase \"the best thing since sliced bread\"."
+  },
+  {
+   "id": "food-1200",
+   "category": "Food",
+   "q": "For whose army was food canning first developed, in the early 1800s?",
+   "choices": [
+    "Julius Caesar's",
+    "Napoleon's",
+    "Queen Victoria's",
+    "George Washington's"
+   ],
+   "answer": 1,
+   "fact": "Nicolas Appert won a prize for sealing food in glass jars and boiling them."
+  },
+  {
+   "id": "food-1201",
+   "category": "Food",
+   "q": "In what year did the first TV dinners go on sale?",
+   "choices": [
+    "1983",
+    "1903",
+    "1923",
+    "1953"
+   ],
+   "answer": 3,
+   "fact": "The first TV dinner was a turkey Thanksgiving meal in an aluminum tray."
+  },
+  {
+   "id": "food-1202",
+   "category": "Food",
+   "q": "Which breakfast cereal was invented by the Kellogg brothers in the 1890s?",
+   "choices": [
+    "Rice Krispies",
+    "Cheerios",
+    "Froot Loops",
+    "Corn flakes"
+   ],
+   "answer": 3,
+   "fact": "The brothers discovered flakes by accident after leaving cooked wheat out too long."
+  },
+  {
+   "id": "food-1203",
+   "category": "Food",
+   "q": "Which snack is said to have been invented when a chef sliced potatoes very thin to annoy a picky customer?",
+   "choices": [
+    "French fries",
+    "Tater tots",
+    "Hash browns",
+    "Potato chips"
+   ],
+   "answer": 3,
+   "fact": "The story about chef George Crum in 1853 is popular, but historians aren't sure it's true."
+  },
+  {
+   "id": "food-1204",
+   "category": "Food",
+   "q": "Which famous hot dog eating contest is held every Fourth of July in New York?",
+   "choices": [
+    "Nathan's Famous",
+    "Frank Fest",
+    "Coney Cup",
+    "The Big Dog Challenge"
+   ],
+   "answer": 0,
+   "fact": "The contest is held at Coney Island in Brooklyn."
+  },
+  {
+   "id": "food-1205",
+   "category": "Food",
+   "q": "Which sourdough ingredient makes the bread rise without packaged yeast?",
+   "choices": [
+    "Eggs",
+    "A starter of wild yeast and bacteria",
+    "Baking soda",
+    "Sugar water"
+   ],
+   "answer": 1,
+   "fact": "Some bakeries use sourdough starters that are more than 100 years old."
+  },
+  {
+   "id": "food-1206",
+   "category": "Food",
+   "q": "What does the Italian pasta name \"farfalle\" mean?",
+   "choices": [
+    "Wheels",
+    "Shells",
+    "Little ears",
+    "Butterflies"
+   ],
+   "answer": 3,
+   "fact": "Farfalle is also called bow-tie pasta."
+  },
+  {
+   "id": "food-1207",
+   "category": "Food",
+   "q": "What does the Italian pasta name \"orecchiette\" mean?",
+   "choices": [
+    "Little ears",
+    "Little tongues",
+    "Little worms",
+    "Little hats"
+   ],
+   "answer": 0,
+   "fact": "Orecchiette comes from the Puglia region in southern Italy."
+  },
+  {
+   "id": "food-1208",
+   "category": "Food",
+   "q": "What does the word \"spaghetti\" mean in Italian?",
+   "choices": [
+    "Pasta sticks",
+    "Little strings",
+    "Thin worms",
+    "Long noodles"
+   ],
+   "answer": 1,
+   "fact": "Spaghetti is the plural of \"spaghetto\", which means a little piece of string."
+  },
+  {
+   "id": "food-1209",
+   "category": "Food",
+   "q": "What are gnocchi?",
+   "choices": [
+    "A kind of cheese",
+    "A pizza topping",
+    "A thin pasta sheet",
+    "Small Italian dumplings, often made with potato"
+   ],
+   "answer": 3,
+   "fact": "Gnocchi are often pressed with a fork to make grooves that hold sauce."
+  },
+  {
+   "id": "food-1210",
+   "category": "Food",
+   "q": "Which dumplings do many Chinese families make and eat to welcome Lunar New Year?",
+   "choices": [
+    "Pierogi",
+    "Ravioli",
+    "Jiaozi",
+    "Gyoza"
+   ],
+   "answer": 2,
+   "fact": "Jiaozi are shaped like old Chinese silver and gold money, for good luck."
+  },
+  {
+   "id": "food-1211",
+   "category": "Food",
+   "q": "Which round pastries are eaten during China's Mid-Autumn Festival?",
+   "choices": [
+    "Fortune cookies",
+    "Egg tarts",
+    "Mooncakes",
+    "Spring rolls"
+   ],
+   "answer": 2,
+   "fact": "Mooncakes are often filled with sweet lotus seed paste or red bean paste."
+  },
+  {
+   "id": "food-1212",
+   "category": "Food",
+   "q": "Which sweet bread, often with candied fruit, is a Christmas tradition from Milan, Italy?",
+   "choices": [
+    "Brioche",
+    "Focaccia",
+    "Stollen",
+    "Panettone"
+   ],
+   "answer": 3,
+   "fact": "Panettone dough can take days to make because it rises so slowly."
+  },
+  {
+   "id": "food-1213",
+   "category": "Food",
+   "q": "Which potato pancakes, fried in oil, are eaten during Hanukkah?",
+   "choices": [
+    "Rösti",
+    "Blini",
+    "Hash browns",
+    "Latkes"
+   ],
+   "answer": 3,
+   "fact": "The oil is a reminder of the Hanukkah story of oil that burned for eight days."
+  },
+  {
+   "id": "food-1214",
+   "category": "Food",
+   "q": "Which colorful cake with a tiny baby figure hidden inside is eaten during Mardi Gras?",
+   "choices": [
+    "Fruitcake",
+    "Angel food cake",
+    "Bundt cake",
+    "King cake"
+   ],
+   "answer": 3,
+   "fact": "Whoever finds the baby figure in their slice is often supposed to bring the next king cake."
+  },
+  {
+   "id": "food-1215",
+   "category": "Food",
+   "q": "On Shrove Tuesday in the UK, people traditionally eat lots of what?",
+   "choices": [
+    "Hot cross buns",
+    "Fish",
+    "Pancakes",
+    "Sausages"
+   ],
+   "answer": 2,
+   "fact": "Some towns even hold pancake races, where people run while flipping pancakes in a pan."
+  },
+  {
+   "id": "food-1216",
+   "category": "Food",
+   "q": "What is the sweet bread baked in Mexico for the Day of the Dead called?",
+   "choices": [
+    "Churro",
+    "Tres leches",
+    "Pan de muerto",
+    "Concha"
+   ],
+   "answer": 2,
+   "fact": "Pan de muerto is often decorated with dough shaped like bones."
+  },
+  {
+   "id": "food-1217",
+   "category": "Food",
+   "q": "Which fruit do many Muslims eat first to break their fast during Ramadan?",
+   "choices": [
+    "Bananas",
+    "Dates",
+    "Apples",
+    "Figs"
+   ],
+   "answer": 1,
+   "fact": "Dates are full of natural sugar, which gives quick energy after a day of fasting."
+  },
+  {
+   "id": "food-1218",
+   "category": "Food",
+   "q": "Which bird is the centerpiece of a traditional US Thanksgiving dinner?",
+   "choices": [
+    "Duck",
+    "Turkey",
+    "Chicken",
+    "Goose"
+   ],
+   "answer": 1,
+   "fact": "As of 2025, the US president \"pardons\" a turkey every year so it doesn't get eaten."
+  },
+  {
+   "id": "food-1219",
+   "category": "Food",
+   "q": "Which mild yellow cheese with a red wax coating comes from the Netherlands?",
+   "choices": [
+    "Brie",
+    "Cheddar",
+    "Edam",
+    "Feta"
+   ],
+   "answer": 2,
+   "fact": "Edam is named after a town north of Amsterdam."
+  },
+  {
+   "id": "food-1220",
+   "category": "Food",
+   "q": "Which famous Dutch cheese is named after a city and is often sold in big wheels?",
+   "choices": [
+    "Gruyère",
+    "Camembert",
+    "Gouda",
+    "Edam"
+   ],
+   "answer": 2,
+   "fact": "Gouda is one of the most popular cheeses in the world."
+  },
+  {
+   "id": "food-1221",
+   "category": "Food",
+   "q": "Which country is the origin of the hamburger's name?",
+   "choices": [
+    "Germany",
+    "England",
+    "France",
+    "United States"
+   ],
+   "answer": 0,
+   "fact": "The name comes from Hamburg, a port city in Germany."
+  },
+  {
+   "id": "food-1222",
+   "category": "Food",
+   "q": "What is a croissant shaped like?",
+   "choices": [
+    "A square",
+    "A crescent",
+    "A circle",
+    "A star"
+   ],
+   "answer": 1,
+   "fact": "Croissant means \"crescent\" in French."
+  },
+  {
+   "id": "food-1223",
+   "category": "Food",
+   "q": "Which drink is made by soaking ground coffee in hot water and pushing the grounds down with a plunger?",
+   "choices": [
+    "Iced tea",
+    "French press coffee",
+    "Instant coffee",
+    "Espresso"
+   ],
+   "answer": 1,
+   "fact": "A French press is also called a cafetière."
+  },
+  {
+   "id": "food-1224",
+   "category": "Food",
+   "q": "What is espresso?",
+   "choices": [
+    "Iced coffee",
+    "Strong coffee made by forcing hot water through finely ground beans",
+    "Coffee with lots of milk",
+    "Decaf coffee"
+   ],
+   "answer": 1,
+   "fact": "Espresso is the base for drinks like cappuccinos and lattes."
+  },
+  {
+   "id": "food-1225",
+   "category": "Food",
+   "q": "Which two brothers opened the first McDonald's restaurant in 1940?",
+   "choices": [
+    "Wilbur and Orville Wright",
+    "Dick and Bill Hewlett",
+    "Ray and Bob Kroc",
+    "Richard and Maurice McDonald"
+   ],
+   "answer": 3,
+   "fact": "The first McDonald's opened in San Bernardino, California, and sold barbecue at first."
+  },
+  {
+   "id": "food-1226",
+   "category": "Food",
+   "q": "Which businessman turned McDonald's into a worldwide chain after buying it from the founders?",
+   "choices": [
+    "Dave Thomas",
+    "Walt Disney",
+    "Ray Kroc",
+    "Harland Sanders"
+   ],
+   "answer": 2,
+   "fact": "Ray Kroc first met the McDonald brothers while selling milkshake mixers."
+  },
+  {
+   "id": "food-1227",
+   "category": "Food",
+   "q": "In what year did McDonald's start selling Happy Meals across the US?",
+   "choices": [
+    "1959",
+    "1979",
+    "1989",
+    "1969"
+   ],
+   "answer": 1,
+   "fact": "The first Happy Meal boxes were designed to look like circus wagons."
+  },
+  {
+   "id": "food-1228",
+   "category": "Food",
+   "q": "Who was the founder of KFC, famous for his white suit and secret recipe?",
+   "choices": [
+    "Ronald McDonald",
+    "Colonel Harland Sanders",
+    "Wendy Thomas",
+    "Ray Kroc"
+   ],
+   "answer": 1,
+   "fact": "The secret recipe is said to use 11 herbs and spices."
+  },
+  {
+   "id": "food-1229",
+   "category": "Food",
+   "q": "Wendy's restaurants were named after whom?",
+   "choices": [
+    "The first customer",
+    "The founder's daughter",
+    "The founder's dog",
+    "A famous actress"
+   ],
+   "answer": 1,
+   "fact": "Founder Dave Thomas named the chain after his daughter Melinda, whose nickname was Wendy."
+  },
+  {
+   "id": "food-1230",
+   "category": "Food",
+   "q": "Why are Wendy's hamburger patties square?",
+   "choices": [
+    "Because square grills are cheaper",
+    "To fit in square boxes",
+    "To make them cook faster",
+    "So the meat sticks out and shows it's not skimping"
+   ],
+   "answer": 3,
+   "fact": "Dave Thomas wanted people to see the corners of the beef poking out of the round bun."
+  },
+  {
+   "id": "food-1231",
+   "category": "Food",
+   "q": "Which burger is Burger King's most famous, first sold in 1957?",
+   "choices": [
+    "Whopper",
+    "Quarter Pounder",
+    "Big Mac",
+    "Baconator"
+   ],
+   "answer": 0,
+   "fact": "Burger King has sometimes let customers order a Whopper with almost any combination of toppings."
+  },
+  {
+   "id": "food-1232",
+   "category": "Food",
+   "q": "Which McDonald's burger has two patties, special sauce and a three-piece bun?",
+   "choices": [
+    "Quarter Pounder",
+    "Big Mac",
+    "Whopper",
+    "McDouble"
+   ],
+   "answer": 1,
+   "fact": "The Big Mac was created by a McDonald's franchise owner near Pittsburgh in 1967."
+  },
+  {
+   "id": "food-1233",
+   "category": "Food",
+   "q": "Pizza Hut opened its first restaurant in 1958 in which US state?",
+   "choices": [
+    "Texas",
+    "New York",
+    "Kansas",
+    "California"
+   ],
+   "answer": 2,
+   "fact": "Two brothers borrowed $600 from their mom to start it in Wichita."
+  },
+  {
+   "id": "food-1234",
+   "category": "Food",
+   "q": "Which coffee chain was named after a character in the novel Moby-Dick?",
+   "choices": [
+    "Tim Hortons",
+    "Starbucks",
+    "Dunkin'",
+    "Peet's"
+   ],
+   "answer": 1,
+   "fact": "The first Starbucks opened in Seattle in 1971 and sold coffee beans, not drinks."
+  },
+  {
+   "id": "food-1235",
+   "category": "Food",
+   "q": "Which Canadian coffee and doughnut chain was co-founded by a hockey player?",
+   "choices": [
+    "Dunkin'",
+    "Second Cup",
+    "Krispy Kreme",
+    "Tim Hortons"
+   ],
+   "answer": 3,
+   "fact": "Tim Horton played defense in the NHL for more than 20 seasons."
+  },
+  {
+   "id": "food-1236",
+   "category": "Food",
+   "q": "Which sandwich chain began in 1965 under the name \"Pete's Super Submarines\"?",
+   "choices": [
+    "Quiznos",
+    "Subway",
+    "Jimmy John's",
+    "Jersey Mike's"
+   ],
+   "answer": 1,
+   "fact": "Its founder, Fred DeLuca, started it at age 17 to help pay for college."
+  },
+  {
+   "id": "food-1237",
+   "category": "Food",
+   "q": "Which chicken restaurant chain is closed every Sunday?",
+   "choices": [
+    "KFC",
+    "Chick-fil-A",
+    "Popeyes",
+    "Wingstop"
+   ],
+   "answer": 1,
+   "fact": "Its founder decided in 1946 that his restaurants would close on Sundays so workers could rest."
+  },
+  {
+   "id": "food-1238",
+   "category": "Food",
+   "q": "Which cookie, first sold in 1912, is often called the world's best-selling cookie?",
+   "choices": [
+    "Oreo",
+    "Fig Newton",
+    "Chips Ahoy!",
+    "Nutter Butter"
+   ],
+   "answer": 0,
+   "fact": "Billions of Oreos are sold every year in more than 100 countries."
+  },
+  {
+   "id": "food-1239",
+   "category": "Food",
+   "q": "What was the original filling of Twinkies?",
+   "choices": [
+    "Strawberry jam",
+    "Banana cream",
+    "Chocolate fudge",
+    "Vanilla cream"
+   ],
+   "answer": 1,
+   "fact": "Twinkies switched to vanilla during World War II when bananas were hard to get."
+  },
+  {
+   "id": "food-1240",
+   "category": "Food",
+   "q": "What is the curved shape of a Pringles chip called by mathematicians?",
+   "choices": [
+    "Cylinder",
+    "Spiral",
+    "Perfect sphere",
+    "Hyperbolic paraboloid"
+   ],
+   "answer": 3,
+   "fact": "The shape helps the chips stack neatly without breaking."
+  },
+  {
+   "id": "food-1241",
+   "category": "Food",
+   "q": "Where was the inventor of the Pringles can buried, at his request?",
+   "choices": [
+    "In a cookie tin",
+    "Partly in a Pringles can",
+    "In a giant potato",
+    "Under a potato field"
+   ],
+   "answer": 1,
+   "fact": "Some of Fred Baur's ashes were buried in a Pringles can in 2008."
+  },
+  {
+   "id": "food-1242",
+   "category": "Food",
+   "q": "Which tortilla chips were first sold at a restaurant inside Disneyland in the 1960s?",
+   "choices": [
+    "Doritos",
+    "Takis",
+    "Fritos",
+    "Tostitos"
+   ],
+   "answer": 0,
+   "fact": "The restaurant at Disneyland was called Casa de Fritos."
+  },
+  {
+   "id": "food-1243",
+   "category": "Food",
+   "q": "Which candy was named after the last names of the two men who created it in 1941?",
+   "choices": [
+    "Milk Duds",
+    "Junior Mints",
+    "M&M's",
+    "Skittles"
+   ],
+   "answer": 2,
+   "fact": "The two M's stand for Forrest Mars and Bruce Murrie."
+  },
+  {
+   "id": "food-1244",
+   "category": "Food",
+   "q": "What did the \"Pez\" candy name originally come from?",
+   "choices": [
+    "The inventor's dog",
+    "The German word for peppermint",
+    "A town in Hungary",
+    "A Spanish word for fish"
+   ],
+   "answer": 1,
+   "fact": "Pez was first sold in Austria in 1927 as a breath mint."
+  },
+  {
+   "id": "food-1245",
+   "category": "Food",
+   "q": "The Snickers candy bar was named after what?",
+   "choices": [
+    "A city in Ohio",
+    "A horse owned by the Mars family",
+    "A famous laugh",
+    "A comic book hero"
+   ],
+   "answer": 1,
+   "fact": "The Mars family named several things after their favorite horses."
+  },
+  {
+   "id": "food-1246",
+   "category": "Food",
+   "q": "Why is Kit Kat popular as a good luck gift for students in Japan?",
+   "choices": [
+    "It has gold wrappers",
+    "It's shaped like a lucky cat",
+    "Its name sounds like a phrase meaning \"surely win\"",
+    "It was invented by a teacher"
+   ],
+   "answer": 2,
+   "fact": "Japan has sold hundreds of Kit Kat flavors, from green tea to wasabi."
+  },
+  {
+   "id": "food-1247",
+   "category": "Food",
+   "q": "In which country was Nutella first made, in 1964?",
+   "choices": [
+    "Switzerland",
+    "Belgium",
+    "France",
+    "Italy"
+   ],
+   "answer": 3,
+   "fact": "Hazelnuts were mixed with chocolate because cocoa was scarce and expensive after World War II."
+  },
+  {
+   "id": "food-1248",
+   "category": "Food",
+   "q": "In which town are the street lights shaped like Hershey's Kisses?",
+   "choices": [
+    "Candy Town, Texas",
+    "Hershey, Pennsylvania",
+    "Chocolate City, Ohio",
+    "Sweetwater, Georgia"
+   ],
+   "answer": 1,
+   "fact": "Milton Hershey built a whole town for his chocolate factory workers."
+  },
+  {
+   "id": "food-1249",
+   "category": "Food",
+   "q": "Which US president was famous for keeping a jar of Jelly Belly jelly beans on his desk?",
+   "choices": [
+    "Barack Obama",
+    "Ronald Reagan",
+    "George Washington",
+    "Abraham Lincoln"
+   ],
+   "answer": 1,
+   "fact": "Jelly Belly even created a blueberry flavor so red, white and blue beans could be served at his inauguration."
+  },
+  {
+   "id": "food-1250",
+   "category": "Food",
+   "q": "Which sports drink was invented in 1965 for a college football team?",
+   "choices": [
+    "Vitaminwater",
+    "Gatorade",
+    "Red Bull",
+    "Powerade"
+   ],
+   "answer": 1,
+   "fact": "It was named after the University of Florida Gators."
+  },
+  {
+   "id": "food-1251",
+   "category": "Food",
+   "q": "Which orange soda was first created in Germany during World War II?",
+   "choices": [
+    "Fanta",
+    "Tango",
+    "Sunkist",
+    "Crush"
+   ],
+   "answer": 0,
+   "fact": "Fanta was made because it was hard to get the ingredients for Coca-Cola in Germany during the war."
+  },
+  {
+   "id": "food-1252",
+   "category": "Food",
+   "q": "Which soft drink, first sold in Waco, Texas, in 1885, is one of the oldest major sodas in the US?",
+   "choices": [
+    "Sprite",
+    "Mountain Dew",
+    "7 Up",
+    "Dr Pepper"
+   ],
+   "answer": 3,
+   "fact": "There's a whole Dr Pepper Museum in Waco."
+  },
+  {
+   "id": "food-1253",
+   "category": "Food",
+   "q": "What was Pepsi first called when it was invented in 1893?",
+   "choices": [
+    "Cola Fizz",
+    "Caleb's Cola",
+    "Brad's Drink",
+    "Pep Water"
+   ],
+   "answer": 2,
+   "fact": "It was invented by Caleb Bradham, a pharmacist in North Carolina."
+  },
+  {
+   "id": "food-1254",
+   "category": "Food",
+   "q": "Kool-Aid, invented in 1927, is the official soft drink of which US state?",
+   "choices": [
+    "Nebraska",
+    "Ohio",
+    "Iowa",
+    "Kansas"
+   ],
+   "answer": 0,
+   "fact": "Edwin Perkins invented Kool-Aid as a powder so it would be cheaper to ship than bottled drinks."
+  },
+  {
+   "id": "food-1255",
+   "category": "Food",
+   "q": "Root beer was originally flavored with the root or bark of which tree?",
+   "choices": [
+    "Sassafras",
+    "Maple",
+    "Oak",
+    "Pine"
+   ],
+   "answer": 0,
+   "fact": "Most root beer today uses artificial flavoring instead."
+  },
+  {
+   "id": "food-1256",
+   "category": "Food",
+   "q": "What is the most popular ice cream flavor in the United States?",
+   "choices": [
+    "Vanilla",
+    "Chocolate",
+    "Cookie dough",
+    "Strawberry"
+   ],
+   "answer": 0,
+   "fact": "Vanilla is often chosen as a base for sundaes, milkshakes and pie à la mode."
+  },
+  {
+   "id": "food-1257",
+   "category": "Food",
+   "q": "What makes Pop Rocks candy crackle and pop in your mouth?",
+   "choices": [
+    "Tiny pieces of ice",
+    "Static electricity",
+    "Tiny bubbles of carbon dioxide trapped inside",
+    "Sugar crystals breaking"
+   ],
+   "answer": 2,
+   "fact": "The candy is made by mixing hot sugar with carbon dioxide under high pressure."
+  },
+  {
+   "id": "food-1258",
+   "category": "Food",
+   "q": "Why does dropping Mentos into soda make a foamy fountain?",
+   "choices": [
+    "The mint reacts with sugar to make new gas",
+    "The rough candy surface helps carbon dioxide bubbles form very fast",
+    "The candy melts and heats the soda",
+    "The candy is full of air"
+   ],
+   "answer": 1,
+   "fact": "Diet soda works best and makes less of a sticky mess."
+  },
+  {
+   "id": "food-1259",
+   "category": "Food",
+   "q": "Which nutrient is the main source of energy in bread, rice and pasta?",
+   "choices": [
+    "Protein",
+    "Minerals",
+    "Vitamins",
+    "Carbohydrates"
+   ],
+   "answer": 3,
+   "fact": "Your body breaks carbohydrates down into a sugar called glucose for fuel."
+  },
+  {
+   "id": "food-1260",
+   "category": "Food",
+   "q": "Which nutrient does your body mainly use to build and repair muscles?",
+   "choices": [
+    "Fiber",
+    "Sugar",
+    "Water",
+    "Protein"
+   ],
+   "answer": 3,
+   "fact": "Beans, eggs, fish, meat and nuts are all good sources of protein."
+  },
+  {
+   "id": "food-1261",
+   "category": "Food",
+   "q": "Which vitamin does your skin make when it's in sunlight?",
+   "choices": [
+    "Vitamin D",
+    "Vitamin A",
+    "Vitamin K",
+    "Vitamin C"
+   ],
+   "answer": 0,
+   "fact": "Vitamin D helps your body absorb calcium."
+  },
+  {
+   "id": "food-1262",
+   "category": "Food",
+   "q": "What does a food calorie measure?",
+   "choices": [
+    "Energy",
+    "Weight",
+    "Fat",
+    "Sugar"
+   ],
+   "answer": 0,
+   "fact": "The calories on food labels are really kilocalories."
+  },
+  {
+   "id": "food-1263",
+   "category": "Food",
+   "q": "What part of plant foods helps your digestion and isn't fully digested?",
+   "choices": [
+    "Fiber",
+    "Starch",
+    "Fat",
+    "Protein"
+   ],
+   "answer": 0,
+   "fact": "Whole grains, beans, fruits and vegetables are all full of fiber."
+  },
+  {
+   "id": "food-1264",
+   "category": "Food",
+   "q": "What can happen to your skin if you eat a huge amount of carrots?",
+   "choices": [
+    "It can turn slightly orange",
+    "It can glow",
+    "It can turn blue",
+    "It can become very shiny"
+   ],
+   "answer": 0,
+   "fact": "The condition is called carotenemia, and it goes away when you eat fewer carrots."
+  },
+  {
+   "id": "food-1265",
+   "category": "Food",
+   "q": "What is the main sugar found in milk?",
+   "choices": [
+    "Lactose",
+    "Sucrose",
+    "Fructose",
+    "Maltose"
+   ],
+   "answer": 0,
+   "fact": "People who are lactose intolerant have trouble digesting this sugar."
+  },
+  {
+   "id": "food-1266",
+   "category": "Food",
+   "q": "What is the natural sugar found in many fruits called?",
+   "choices": [
+    "Starch",
+    "Fructose",
+    "Caffeine",
+    "Lactose"
+   ],
+   "answer": 1,
+   "fact": "Fructose tastes sweeter than ordinary table sugar."
+  },
+  {
+   "id": "food-1267",
+   "category": "Food",
+   "q": "Which mineral is added to many kinds of table salt to keep the thyroid gland healthy?",
+   "choices": [
+    "Zinc",
+    "Calcium",
+    "Iodine",
+    "Iron"
+   ],
+   "answer": 2,
+   "fact": "Adding iodine to salt started in the 1920s and greatly reduced a thyroid problem called goiter."
+  },
+  {
+   "id": "food-1268",
+   "category": "Food",
+   "q": "Which gas, given off by bananas, makes other fruits ripen faster?",
+   "choices": [
+    "Ethylene",
+    "Helium",
+    "Neon",
+    "Oxygen"
+   ],
+   "answer": 0,
+   "fact": "Putting an unripe avocado in a paper bag with a banana helps it ripen faster."
+  },
+  {
+   "id": "food-1269",
+   "category": "Food",
+   "q": "Which enzyme in fresh pineapple breaks down protein and can make your mouth tingle?",
+   "choices": [
+    "Pepsin",
+    "Bromelain",
+    "Insulin",
+    "Amylase"
+   ],
+   "answer": 1,
+   "fact": "Fresh pineapple stops gelatin desserts from setting, but canned pineapple works fine because heat destroys the enzyme."
+  },
+  {
+   "id": "food-1270",
+   "category": "Food",
+   "q": "Which fruit contains papain, an enzyme used to make meat more tender?",
+   "choices": [
+    "Lemon",
+    "Apple",
+    "Papaya",
+    "Grape"
+   ],
+   "answer": 2,
+   "fact": "Papain is sold as a powdered meat tenderizer."
+  },
+  {
+   "id": "food-1271",
+   "category": "Food",
+   "q": "Why should you not eat potatoes that have turned green?",
+   "choices": [
+    "They're full of seaweed",
+    "They may contain a bitter, harmful chemical",
+    "They're always too hard to cook",
+    "They have extra sugar"
+   ],
+   "answer": 1,
+   "fact": "The green itself is harmless chlorophyll, but it often means solanine is building up too."
+  },
+  {
+   "id": "food-1272",
+   "category": "Food",
+   "q": "Why does food take longer to cook in boiling water high up on a mountain?",
+   "choices": [
+    "The air is colder",
+    "Water boils at a lower temperature there",
+    "There is more oxygen",
+    "Pots are heavier"
+   ],
+   "answer": 1,
+   "fact": "On top of Mount Everest, water boils at only about 70 degrees Celsius."
+  },
+  {
+   "id": "food-1273",
+   "category": "Food",
+   "q": "Why does an overcooked hard-boiled egg get a green ring around the yolk?",
+   "choices": [
+    "The egg is rotten",
+    "Mold grows inside",
+    "Iron in the yolk reacts with sulfur in the white",
+    "The shell's color leaks in"
+   ],
+   "answer": 2,
+   "fact": "The green ring is safe to eat, it just doesn't look very nice."
+  },
+  {
+   "id": "food-1274",
+   "category": "Food",
+   "q": "Why does bread go stale?",
+   "choices": [
+    "Its starch molecules recrystallize and harden",
+    "Bacteria eat it",
+    "It soaks up oxygen",
+    "The yeast comes back to life"
+   ],
+   "answer": 0,
+   "fact": "Stale bread can be softened by warming it in the oven."
+  },
+  {
+   "id": "food-1275",
+   "category": "Food",
+   "q": "What is the scientific name for \"brain freeze\" from eating something cold too fast?",
+   "choices": [
+    "Frostbite syndrome",
+    "Sphenopalatine ganglioneuralgia",
+    "Cerebral glaciation",
+    "Cryocephalitis"
+   ],
+   "answer": 1,
+   "fact": "Pressing your tongue against the roof of your mouth can help it go away faster."
+  },
+  {
+   "id": "food-1276",
+   "category": "Food",
+   "q": "Which berry from West Africa can make sour foods like lemons taste sweet for a while?",
+   "choices": [
+    "Goji berry",
+    "Acai berry",
+    "Miracle berry",
+    "Elderberry"
+   ],
+   "answer": 2,
+   "fact": "The berry contains a protein called miraculin that changes how your taste buds work."
+  },
+  {
+   "id": "food-1277",
+   "category": "Food",
+   "q": "Which chemical in mint gives your mouth a cool feeling?",
+   "choices": [
+    "Chlorine",
+    "Capsaicin",
+    "Menthol",
+    "Caffeine"
+   ],
+   "answer": 2,
+   "fact": "Menthol tricks the cold sensors in your mouth, even though nothing actually gets colder."
+  },
+  {
+   "id": "food-1278",
+   "category": "Food",
+   "q": "Which emperor's contest led to the invention of margarine in 1869?",
+   "choices": [
+    "Queen Victoria",
+    "Peter the Great",
+    "Napoleon Bonaparte",
+    "Napoleon III of France"
+   ],
+   "answer": 3,
+   "fact": "The emperor wanted a cheaper butter substitute for his army and poor families."
+  },
+  {
+   "id": "food-1279",
+   "category": "Food",
+   "q": "What happens to honey when it sits for a long time?",
+   "choices": [
+    "It turns into wax",
+    "It can crystallize but is still safe to eat",
+    "It becomes poisonous",
+    "It turns into vinegar"
+   ],
+   "answer": 1,
+   "fact": "Gently warming crystallized honey turns it back into liquid."
+  },
+  {
+   "id": "food-1280",
+   "category": "Food",
+   "q": "Tea leaves for green, black and oolong tea all come from which plant?",
+   "choices": [
+    "Mint",
+    "Chamomile",
+    "Camellia sinensis",
+    "Rooibos"
+   ],
+   "answer": 2,
+   "fact": "The differences come from how long the leaves are left to react with oxygen after picking."
+  },
+  {
+   "id": "food-1281",
+   "category": "Food",
+   "q": "Which bread's name means \"slipper\" in Italian?",
+   "choices": [
+    "Panettone",
+    "Ciabatta",
+    "Grissini",
+    "Focaccia"
+   ],
+   "answer": 1,
+   "fact": "Ciabatta was created in 1982 by a baker who wanted an Italian answer to the French baguette."
+  },
+  {
+   "id": "food-1282",
+   "category": "Food",
+   "q": "Which braided bread is traditionally eaten by Jewish families on the Sabbath?",
+   "choices": [
+    "Rye",
+    "Bagel",
+    "Challah",
+    "Matzo"
+   ],
+   "answer": 2,
+   "fact": "Challah is made with eggs, which give it a soft, golden crumb."
+  },
+  {
+   "id": "food-1283",
+   "category": "Food",
+   "q": "What is the flat, unleavened bread eaten during the Jewish holiday of Passover?",
+   "choices": [
+    "Challah",
+    "Pita",
+    "Naan",
+    "Matzo"
+   ],
+   "answer": 3,
+   "fact": "Matzo is a reminder that the Israelites left Egypt in such a hurry their bread had no time to rise."
+  },
+  {
+   "id": "food-1284",
+   "category": "Food",
+   "q": "Which ingredient makes Irish soda bread rise instead of yeast?",
+   "choices": [
+    "Eggs",
+    "Baking soda",
+    "Beer",
+    "Sugar"
+   ],
+   "answer": 1,
+   "fact": "Bakers traditionally cut a cross on top before baking."
+  },
+  {
+   "id": "food-1285",
+   "category": "Food",
+   "q": "Which flat, round Indian bread is cooked on a hot griddle and puffs up?",
+   "choices": [
+    "Chapati",
+    "Croissant",
+    "Focaccia",
+    "Bagel"
+   ],
+   "answer": 0,
+   "fact": "Chapatis are made with whole wheat flour and water."
+  },
+  {
+   "id": "food-1286",
+   "category": "Food",
+   "q": "Which dark, dense bread made with rye flour is a German specialty?",
+   "choices": [
+    "Pumpernickel",
+    "Ciabatta",
+    "Sourdough",
+    "Brioche"
+   ],
+   "answer": 0,
+   "fact": "Traditional pumpernickel is baked very slowly, sometimes for 16 hours or more."
+  },
+  {
+   "id": "food-1287",
+   "category": "Food",
+   "q": "Which rich French bread is made with lots of butter and eggs?",
+   "choices": [
+    "Baguette",
+    "Rye",
+    "Brioche",
+    "Pita"
+   ],
+   "answer": 2,
+   "fact": "Brioche dough can be up to half butter by weight of the flour."
+  },
+  {
+   "id": "food-1288",
+   "category": "Food",
+   "q": "Which knotted bread is said to have been shaped by monks to look like arms crossed in prayer?",
+   "choices": [
+    "Pretzel",
+    "Bagel",
+    "Baguette",
+    "Croissant"
+   ],
+   "answer": 0,
+   "fact": "Pretzels have been a symbol for bakeries in Germany for hundreds of years."
+  },
+  {
+   "id": "food-1289",
+   "category": "Food",
+   "q": "What is a tortilla, used to make tacos and burritos, usually made from?",
+   "choices": [
+    "Potatoes",
+    "Oats",
+    "Rice",
+    "Corn or wheat flour"
+   ],
+   "answer": 3,
+   "fact": "Corn tortillas are made from corn treated with lime, a process called nixtamalization."
+  },
+  {
+   "id": "food-1290",
+   "category": "Food",
+   "q": "What does the word \"burrito\" mean in Spanish?",
+   "choices": [
+    "Big wrap",
+    "Little donkey",
+    "Little blanket",
+    "Hot bread"
+   ],
+   "answer": 1,
+   "fact": "No one is completely sure how the food got its name."
+  },
+  {
+   "id": "food-1291",
+   "category": "Food",
+   "q": "Which flour-and-water paste grown with wild microbes has to be \"fed\" regularly?",
+   "choices": [
+    "Pie crust",
+    "Pizza sauce",
+    "Sourdough starter",
+    "Pancake batter"
+   ],
+   "answer": 2,
+   "fact": "Some bakers give their sourdough starters names, like a pet."
+  },
+  {
+   "id": "food-1292",
+   "category": "Food",
+   "q": "Which small, round British cakes are served at a \"cream tea\" with jam and clotted cream?",
+   "choices": [
+    "Crumpets",
+    "Muffins",
+    "Biscuits",
+    "Scones"
+   ],
+   "answer": 3,
+   "fact": "People in Devon and Cornwall disagree about whether jam or cream goes on first."
+  },
+  {
+   "id": "food-1293",
+   "category": "Food",
+   "q": "Which French pastry's name means \"a thousand leaves\"?",
+   "choices": [
+    "Éclair",
+    "Croissant",
+    "Profiterole",
+    "Mille-feuille"
+   ],
+   "answer": 3,
+   "fact": "It's made with three layers of puff pastry and two layers of cream."
+  },
+  {
+   "id": "food-1294",
+   "category": "Food",
+   "q": "Which small shell-shaped French cake was made famous by the writer Marcel Proust?",
+   "choices": [
+    "Madeleine",
+    "Brioche",
+    "Crêpe",
+    "Macaron"
+   ],
+   "answer": 0,
+   "fact": "In Proust's book, the taste of a madeleine dipped in tea brings back childhood memories."
+  },
+  {
+   "id": "food-1295",
+   "category": "Food",
+   "q": "Which soft French cheese is sometimes called the \"queen of cheeses\"?",
+   "choices": [
+    "Cheddar",
+    "Gouda",
+    "Parmesan",
+    "Brie"
+   ],
+   "answer": 3,
+   "fact": "Brie has a white, fuzzy rind that is safe to eat."
+  },
+  {
+   "id": "food-1296",
+   "category": "Food",
+   "q": "Which blue cheese from France is made from sheep's milk and aged in caves?",
+   "choices": [
+    "Gruyère",
+    "Roquefort",
+    "Brie",
+    "Camembert"
+   ],
+   "answer": 1,
+   "fact": "By law, Roquefort must be aged in the natural caves of Roquefort-sur-Soulzon."
+  },
+  {
+   "id": "food-1297",
+   "category": "Food",
+   "q": "Which hard Spanish cheese is made from the milk of sheep from La Mancha?",
+   "choices": [
+    "Manchego",
+    "Edam",
+    "Halloumi",
+    "Feta"
+   ],
+   "answer": 0,
+   "fact": "Manchego rinds have a zigzag pattern from the molds used to press them."
+  },
+  {
+   "id": "food-1298",
+   "category": "Food",
+   "q": "At a famous English festival, people chase a wheel of which cheese down a steep hill?",
+   "choices": [
+    "Cheddar",
+    "Wensleydale",
+    "Double Gloucester",
+    "Stilton"
+   ],
+   "answer": 2,
+   "fact": "The race at Cooper's Hill is so steep that most runners tumble down it."
+  },
+  {
+   "id": "food-1299",
+   "category": "Food",
+   "q": "Which US state calls itself \"America's Dairyland\"?",
+   "choices": [
+    "Wisconsin",
+    "California",
+    "Vermont",
+    "Texas"
+   ],
+   "answer": 0,
+   "fact": "Fans of Wisconsin's football team wear foam cheese hats and are called \"Cheeseheads\"."
+  },
+  {
+   "id": "food-1300",
+   "category": "Food",
+   "q": "Which Swiss cheese is a main ingredient in many fondues?",
+   "choices": [
+    "Gruyère",
+    "Cheddar",
+    "Mozzarella",
+    "Feta"
+   ],
+   "answer": 0,
+   "fact": "Gruyère is named after a town in Switzerland."
+  },
+  {
+   "id": "food-1301",
+   "category": "Food",
+   "q": "What does the name of the Latin American dessert tres leches mean?",
+   "choices": [
+    "Sweet milk",
+    "Three cakes",
+    "Three milks",
+    "Three eggs"
+   ],
+   "answer": 2,
+   "fact": "The sponge cake is soaked in evaporated milk, condensed milk and cream."
+  },
+  {
+   "id": "food-1302",
+   "category": "Food",
+   "q": "Which German cake is made with chocolate, cherries and whipped cream?",
+   "choices": [
+    "Black Forest cake",
+    "Strudel",
+    "Sachertorte",
+    "Stollen"
+   ],
+   "answer": 0,
+   "fact": "It's named after the Black Forest region in southwest Germany."
+  },
+  {
+   "id": "food-1303",
+   "category": "Food",
+   "q": "Which famous chocolate cake with apricot jam comes from Vienna, Austria?",
+   "choices": [
+    "Sachertorte",
+    "Black Forest cake",
+    "Opera cake",
+    "Red velvet cake"
+   ],
+   "answer": 0,
+   "fact": "The cake was created by Franz Sacher in 1832, when he was just 16."
+  },
+  {
+   "id": "food-1304",
+   "category": "Food",
+   "q": "Which Portuguese custard tarts were first made by monks in Lisbon?",
+   "choices": [
+    "Crème brûlée",
+    "Churros",
+    "Flan",
+    "Pastel de nata"
+   ],
+   "answer": 3,
+   "fact": "The monks of Belém sold the tarts to raise money."
+  },
+  {
+   "id": "food-1305",
+   "category": "Food",
+   "q": "Which thin Dutch waffle cookies are filled with syrup and often placed on top of a hot drink to soften?",
+   "choices": [
+    "Wafers",
+    "Stroopwafels",
+    "Speculoos",
+    "Biscotti"
+   ],
+   "answer": 1,
+   "fact": "Stroopwafels were first made in the city of Gouda."
+  },
+  {
+   "id": "food-1306",
+   "category": "Food",
+   "q": "Which Brazilian chocolate fudge balls are a must at birthday parties?",
+   "choices": [
+    "Bonbons",
+    "Truffles",
+    "Alfajores",
+    "Brigadeiros"
+   ],
+   "answer": 3,
+   "fact": "They were named after a Brazilian brigadier who ran for president in the 1940s."
+  },
+  {
+   "id": "food-1307",
+   "category": "Food",
+   "q": "What is dulce de leche?",
+   "choices": [
+    "A fruit salad",
+    "A spicy chocolate drink",
+    "Caramel made by slowly heating sweetened milk",
+    "A Mexican bread"
+   ],
+   "answer": 2,
+   "fact": "Dulce de leche is especially loved in Argentina and Uruguay."
+  },
+  {
+   "id": "food-1308",
+   "category": "Food",
+   "q": "Which Indian sweet is made of fried dough balls soaked in sugar syrup?",
+   "choices": [
+    "Gulab jamun",
+    "Samosa",
+    "Naan",
+    "Pakora"
+   ],
+   "answer": 0,
+   "fact": "Gulab means \"rose\", because the syrup is often flavored with rosewater."
+  },
+  {
+   "id": "food-1309",
+   "category": "Food",
+   "q": "Which Thai dessert pairs fresh fruit with sweet coconut sticky rice?",
+   "choices": [
+    "Pineapple cake",
+    "Mango sticky rice",
+    "Banana bread",
+    "Coconut flan"
+   ],
+   "answer": 1,
+   "fact": "Mango sticky rice is especially popular during mango season in April and May."
+  },
+  {
+   "id": "food-1310",
+   "category": "Food",
+   "q": "Which Philippine dessert, whose name means \"mix-mix\", has shaved ice, sweet beans, fruit and ice cream?",
+   "choices": [
+    "Leche flan",
+    "Halo-halo",
+    "Bibingka",
+    "Turon"
+   ],
+   "answer": 1,
+   "fact": "Halo-halo is often topped with purple yam ice cream called ube."
+  },
+  {
+   "id": "food-1311",
+   "category": "Food",
+   "q": "Which purple yam is a popular dessert flavor in the Philippines?",
+   "choices": [
+    "Taro",
+    "Cassava",
+    "Beet",
+    "Ube"
+   ],
+   "answer": 3,
+   "fact": "Ube gives desserts a bright purple color."
+  },
+  {
+   "id": "food-1312",
+   "category": "Food",
+   "q": "Which Australian cake squares are dipped in chocolate and rolled in coconut?",
+   "choices": [
+    "Blondies",
+    "Pavlovas",
+    "Brownies",
+    "Lamingtons"
+   ],
+   "answer": 3,
+   "fact": "Australia celebrates National Lamington Day on July 21."
+  },
+  {
+   "id": "food-1313",
+   "category": "Food",
+   "q": "Which sweet treat is made from colorful sprinkles on buttered white bread and served at Australian kids' parties?",
+   "choices": [
+    "Lamington",
+    "Anzac biscuit",
+    "Fairy bread",
+    "Pavlova"
+   ],
+   "answer": 2,
+   "fact": "In Australia, those sprinkles are called \"hundreds and thousands\"."
+  },
+  {
+   "id": "food-1314",
+   "category": "Food",
+   "q": "Which Italian frozen dessert is denser than ice cream because it has less air whipped in?",
+   "choices": [
+    "Sherbet",
+    "Frozen yogurt",
+    "Sorbet",
+    "Gelato"
+   ],
+   "answer": 3,
+   "fact": "Gelato is also usually served a bit warmer than ice cream, so it tastes softer."
+  },
+  {
+   "id": "food-1315",
+   "category": "Food",
+   "q": "What is unusual about baked Alaska?",
+   "choices": [
+    "It's made with fish",
+    "It's frozen for a year",
+    "Ice cream is baked in a hot oven without melting",
+    "It's served on fire every time"
+   ],
+   "answer": 2,
+   "fact": "The meringue around the ice cream traps air, which keeps the heat out."
+  },
+  {
+   "id": "food-1316",
+   "category": "Food",
+   "q": "Which Sicilian pastry is a fried shell tube filled with sweet ricotta cream?",
+   "choices": [
+    "Biscotti",
+    "Cannoli",
+    "Panna cotta",
+    "Tiramisu"
+   ],
+   "answer": 1,
+   "fact": "Cannoli were traditionally made during Carnival season in Sicily."
+  },
+  {
+   "id": "food-1317",
+   "category": "Food",
+   "q": "Which soft, chewy candy cubes dusted with powdered sugar come from Turkey?",
+   "choices": [
+    "Gumdrops",
+    "Marshmallows",
+    "Turkish delight",
+    "Nougat"
+   ],
+   "answer": 2,
+   "fact": "Turkish delight is called lokum in Turkey, and it's often flavored with rosewater."
+  },
+  {
+   "id": "food-1318",
+   "category": "Food",
+   "q": "Which ice cream dessert was invented in Latrobe, Pennsylvania, in 1904, with a fruit sliced lengthwise?",
+   "choices": [
+    "Sundae",
+    "Banana split",
+    "Peach Melba",
+    "Root beer float"
+   ],
+   "answer": 1,
+   "fact": "Latrobe holds a Great American Banana Split Celebration every year."
+  },
+  {
+   "id": "food-1319",
+   "category": "Food",
+   "q": "Which dish of eggs poached in spicy tomato sauce is popular in North Africa and the Middle East?",
+   "choices": [
+    "Shakshuka",
+    "Omelet",
+    "Huevos rancheros",
+    "Frittata"
+   ],
+   "answer": 0,
+   "fact": "Shakshuka is usually cooked and served right in the pan."
+  },
+  {
+   "id": "food-1320",
+   "category": "Food",
+   "q": "Which country is famous for jerk chicken, seasoned with hot peppers and allspice?",
+   "choices": [
+    "Haiti",
+    "Cuba",
+    "Trinidad and Tobago",
+    "Jamaica"
+   ],
+   "answer": 3,
+   "fact": "Jerk cooking is thought to have come from the Taíno people and escaped enslaved Africans called Maroons."
+  },
+  {
+   "id": "food-1321",
+   "category": "Food",
+   "q": "What is the national dish of Jamaica, served with salted fish?",
+   "choices": [
+    "Rice and peas",
+    "Jerk pork",
+    "Curry goat",
+    "Ackee and saltfish"
+   ],
+   "answer": 3,
+   "fact": "Ackee is a fruit that must be picked only when its pods open naturally, because unripe ackee is poisonous."
+  },
+  {
+   "id": "food-1322",
+   "category": "Food",
+   "q": "Which Indonesian fried rice dish is often topped with a fried egg?",
+   "choices": [
+    "Jollof rice",
+    "Nasi goreng",
+    "Biryani",
+    "Pad thai"
+   ],
+   "answer": 1,
+   "fact": "Nasi goreng simply means \"fried rice\" in Indonesian."
+  },
+  {
+   "id": "food-1323",
+   "category": "Food",
+   "q": "Which slow-cooked spicy beef dish from Indonesia has been called one of the most delicious foods in the world?",
+   "choices": [
+    "Satay",
+    "Adobo",
+    "Bulgogi",
+    "Rendang"
+   ],
+   "answer": 3,
+   "fact": "Rendang is cooked for hours until the coconut milk sauce almost disappears."
+  },
+  {
+   "id": "food-1324",
+   "category": "Food",
+   "q": "What is satay?",
+   "choices": [
+    "Grilled meat on skewers, often with peanut sauce",
+    "A fruit salad",
+    "A noodle soup",
+    "A rice pudding"
+   ],
+   "answer": 0,
+   "fact": "Satay is popular across Southeast Asia, especially in Indonesia and Malaysia."
+  },
+  {
+   "id": "food-1325",
+   "category": "Food",
+   "q": "Which tangy stew of meat cooked in vinegar, soy sauce and garlic is a favorite in the Philippines?",
+   "choices": [
+    "Adobo",
+    "Goulash",
+    "Rendang",
+    "Curry"
+   ],
+   "answer": 0,
+   "fact": "Cooking in vinegar helped keep food from spoiling in the hot climate."
+  },
+  {
+   "id": "food-1326",
+   "category": "Food",
+   "q": "Which Vietnamese sandwich is served on a baguette, showing French influence?",
+   "choices": [
+    "Spring roll",
+    "Bao",
+    "Pho",
+    "Banh mi"
+   ],
+   "answer": 3,
+   "fact": "Banh mi often has pickled carrots, cilantro, chili and grilled meat."
+  },
+  {
+   "id": "food-1327",
+   "category": "Food",
+   "q": "What does the name of the Japanese dish okonomiyaki roughly mean?",
+   "choices": [
+    "Grilled as you like it",
+    "Happy pancake",
+    "Fried fish",
+    "Rice in a bowl"
+   ],
+   "answer": 0,
+   "fact": "Okonomiyaki is a savory pancake filled with cabbage and other toppings."
+  },
+  {
+   "id": "food-1328",
+   "category": "Food",
+   "q": "What is inside takoyaki, the round Japanese street snack?",
+   "choices": [
+    "Strawberries",
+    "Red bean paste",
+    "Pieces of octopus",
+    "Cheese"
+   ],
+   "answer": 2,
+   "fact": "Takoyaki are cooked in a special pan with round holes."
+  },
+  {
+   "id": "food-1329",
+   "category": "Food",
+   "q": "What are onigiri?",
+   "choices": [
+    "Green tea cookies",
+    "Fried noodles",
+    "Fish cakes",
+    "Japanese rice balls, often wrapped in seaweed"
+   ],
+   "answer": 3,
+   "fact": "Onigiri are a favorite snack in Japanese lunch boxes and convenience stores."
+  },
+  {
+   "id": "food-1330",
+   "category": "Food",
+   "q": "What is a bento?",
+   "choices": [
+    "A sushi knife",
+    "A kind of soup",
+    "A tea ceremony",
+    "A Japanese packed lunch in a box"
+   ],
+   "answer": 3,
+   "fact": "Some parents make \"kyaraben\", bento boxes that look like cartoon characters."
+  },
+  {
+   "id": "food-1331",
+   "category": "Food",
+   "q": "Which thick Japanese noodles are made from wheat flour?",
+   "choices": [
+    "Udon",
+    "Rice vermicelli",
+    "Glass noodles",
+    "Soba"
+   ],
+   "answer": 0,
+   "fact": "Soba noodles, on the other hand, are made from buckwheat."
+  },
+  {
+   "id": "food-1332",
+   "category": "Food",
+   "q": "Which Korean dish is chewy rice cakes in a spicy red sauce?",
+   "choices": [
+    "Bibimbap",
+    "Kimbap",
+    "Tteokbokki",
+    "Japchae"
+   ],
+   "answer": 2,
+   "fact": "Tteokbokki is one of the most popular street foods in Korea."
+  },
+  {
+   "id": "food-1333",
+   "category": "Food",
+   "q": "What does the name of the Korean dish bulgogi mean?",
+   "choices": [
+    "Grilled rice",
+    "Sweet beef",
+    "Spicy soup",
+    "Fire meat"
+   ],
+   "answer": 3,
+   "fact": "Bulgogi is thin slices of marinated beef cooked over a flame."
+  },
+  {
+   "id": "food-1334",
+   "category": "Food",
+   "q": "Which creamy tomato curry from Delhi is one of India's most famous dishes worldwide?",
+   "choices": [
+    "Butter chicken",
+    "Vindaloo",
+    "Biryani",
+    "Dal"
+   ],
+   "answer": 0,
+   "fact": "Butter chicken is said to have been created at a Delhi restaurant in the 1950s."
+  },
+  {
+   "id": "food-1335",
+   "category": "Food",
+   "q": "Which yogurt drink, sometimes made with mango, is popular in India?",
+   "choices": [
+    "Ayran",
+    "Kefir",
+    "Horchata",
+    "Lassi"
+   ],
+   "answer": 3,
+   "fact": "Lassi can be sweet or salty."
+  },
+  {
+   "id": "food-1336",
+   "category": "Food",
+   "q": "Which Mexican sauce is famous for mixing chili peppers with chocolate?",
+   "choices": [
+    "Salsa verde",
+    "Pico de gallo",
+    "Guacamole",
+    "Mole"
+   ],
+   "answer": 3,
+   "fact": "Some mole recipes use more than 20 ingredients."
+  },
+  {
+   "id": "food-1337",
+   "category": "Food",
+   "q": "What are tamales wrapped in while they steam?",
+   "choices": [
+    "Corn husks or banana leaves",
+    "Seaweed",
+    "Cabbage leaves",
+    "Paper"
+   ],
+   "answer": 0,
+   "fact": "People in Mexico and Central America have made tamales for thousands of years."
+  },
+  {
+   "id": "food-1338",
+   "category": "Food",
+   "q": "Which thick corn tortillas stuffed with cheese, beans or pork are the national dish of El Salvador?",
+   "choices": [
+    "Arepas",
+    "Tacos",
+    "Pupusas",
+    "Empanadas"
+   ],
+   "answer": 2,
+   "fact": "El Salvador celebrates National Pupusa Day on the second Sunday of November."
+  },
+  {
+   "id": "food-1339",
+   "category": "Food",
+   "q": "What are empanadas?",
+   "choices": [
+    "Cold soups",
+    "Fried bananas",
+    "Rice and bean bowls",
+    "Pastries stuffed with meat, cheese or vegetables"
+   ],
+   "answer": 3,
+   "fact": "Empanada comes from the Spanish word \"empanar\", meaning to wrap in bread."
+  },
+  {
+   "id": "food-1340",
+   "category": "Food",
+   "q": "Which green herb sauce is served with grilled meat in Argentina?",
+   "choices": [
+    "Tzatziki",
+    "Salsa",
+    "Chimichurri",
+    "Pesto"
+   ],
+   "answer": 2,
+   "fact": "Chimichurri is made with parsley, garlic, oregano, vinegar and oil."
+  },
+  {
+   "id": "food-1341",
+   "category": "Food",
+   "q": "What is an asado in Argentina?",
+   "choices": [
+    "A barbecue with lots of grilled meat",
+    "A cheese soup",
+    "A sweet pastry",
+    "A fruit drink"
+   ],
+   "answer": 0,
+   "fact": "Argentina is famous for its beef and its love of grilling."
+  },
+  {
+   "id": "food-1342",
+   "category": "Food",
+   "q": "Which tea-like drink is sipped from a gourd through a metal straw in Argentina and Uruguay?",
+   "choices": [
+    "Matcha",
+    "Rooibos",
+    "Yerba mate",
+    "Chai"
+   ],
+   "answer": 2,
+   "fact": "The metal straw, called a bombilla, has a filter at the bottom to keep leaves out."
+  },
+  {
+   "id": "food-1343",
+   "category": "Food",
+   "q": "Which South African dish is a hollowed-out loaf of bread filled with curry?",
+   "choices": [
+    "Biltong",
+    "Bobotie",
+    "Bunny chow",
+    "Boerewors"
+   ],
+   "answer": 2,
+   "fact": "Bunny chow was created in the city of Durban."
+  },
+  {
+   "id": "food-1344",
+   "category": "Food",
+   "q": "Which dried, cured meat snack is especially popular in South Africa?",
+   "choices": [
+    "Salami",
+    "Jerky",
+    "Biltong",
+    "Pemmican"
+   ],
+   "answer": 2,
+   "fact": "Biltong is usually marinated in vinegar and spices before drying."
+  },
+  {
+   "id": "food-1345",
+   "category": "Food",
+   "q": "Which caffeine-free red tea grows only in one region of South Africa?",
+   "choices": [
+    "Matcha",
+    "Rooibos",
+    "Oolong",
+    "Earl Grey"
+   ],
+   "answer": 1,
+   "fact": "Rooibos means \"red bush\" in Afrikaans."
+  },
+  {
+   "id": "food-1346",
+   "category": "Food",
+   "q": "Which soft, stretchy dough made from pounded cassava, yams or plantains is eaten across West Africa?",
+   "choices": [
+    "Couscous",
+    "Polenta",
+    "Injera",
+    "Fufu"
+   ],
+   "answer": 3,
+   "fact": "Fufu is often eaten by hand and dipped into soups and stews."
+  },
+  {
+   "id": "food-1347",
+   "category": "Food",
+   "q": "Which spicy chili sauce, linked to Mozambique and Portugal, is often served with grilled chicken?",
+   "choices": [
+    "Tabasco",
+    "Sriracha",
+    "Peri-peri",
+    "Harissa"
+   ],
+   "answer": 2,
+   "fact": "Peri-peri is made with small, fiery African bird's eye chilies."
+  },
+  {
+   "id": "food-1348",
+   "category": "Food",
+   "q": "What is the national dish of Egypt, made with rice, lentils, pasta and tomato sauce?",
+   "choices": [
+    "Couscous",
+    "Shawarma",
+    "Falafel",
+    "Koshari"
+   ],
+   "answer": 3,
+   "fact": "Koshari is a cheap, filling street food sold all over Cairo."
+  },
+  {
+   "id": "food-1349",
+   "category": "Food",
+   "q": "Which salad made with parsley, bulgur wheat, tomatoes and lemon comes from Lebanon?",
+   "choices": [
+    "Tabbouleh",
+    "Caesar salad",
+    "Greek salad",
+    "Coleslaw"
+   ],
+   "answer": 0,
+   "fact": "Lebanon has a National Tabbouleh Day on the first Saturday of July."
+  },
+  {
+   "id": "food-1350",
+   "category": "Food",
+   "q": "Which smoky dip is made from roasted eggplant?",
+   "choices": [
+    "Guacamole",
+    "Hummus",
+    "Baba ghanoush",
+    "Tzatziki"
+   ],
+   "answer": 2,
+   "fact": "Baba ghanoush is often made smoky by roasting the eggplant over an open flame."
+  },
+  {
+   "id": "food-1351",
+   "category": "Food",
+   "q": "What are dolmades, a Greek and Turkish dish?",
+   "choices": [
+    "Fried cheese balls",
+    "Lamb meatballs",
+    "Honey cookies",
+    "Grape leaves stuffed with rice"
+   ],
+   "answer": 3,
+   "fact": "Dolma comes from a Turkish word meaning \"stuffed\"."
+  },
+  {
+   "id": "food-1352",
+   "category": "Food",
+   "q": "Which Greek pie is filled with spinach and feta cheese?",
+   "choices": [
+    "Spanakopita",
+    "Souvlaki",
+    "Baklava",
+    "Moussaka"
+   ],
+   "answer": 0,
+   "fact": "Spanakopita is wrapped in thin, flaky phyllo dough."
+  },
+  {
+   "id": "food-1353",
+   "category": "Food",
+   "q": "Which Austrian dish is a thin, breaded and fried veal cutlet?",
+   "choices": [
+    "Strudel",
+    "Wiener schnitzel",
+    "Goulash",
+    "Bratwurst"
+   ],
+   "answer": 1,
+   "fact": "Wiener means \"from Vienna\"."
+  },
+  {
+   "id": "food-1354",
+   "category": "Food",
+   "q": "Which beet soup is a beloved dish in Ukraine and was added to UNESCO's heritage list in 2022?",
+   "choices": [
+    "Borscht",
+    "Minestrone",
+    "Goulash",
+    "Gazpacho"
+   ],
+   "answer": 0,
+   "fact": "Beets give borscht its deep red color."
+  },
+  {
+   "id": "food-1355",
+   "category": "Food",
+   "q": "Which Swedish dish is a famous menu item in IKEA stores?",
+   "choices": [
+    "Pancakes",
+    "Cinnamon buns",
+    "Pickled herring",
+    "Meatballs"
+   ],
+   "answer": 3,
+   "fact": "IKEA sells around a billion meatballs every year."
+  },
+  {
+   "id": "food-1356",
+   "category": "Food",
+   "q": "What is a smörgåsbord?",
+   "choices": [
+    "A cheese grater",
+    "A spicy fish soup",
+    "A type of bread",
+    "A Swedish buffet of many dishes"
+   ],
+   "answer": 3,
+   "fact": "The word combines Swedish words for \"sandwich\" and \"table\"."
+  },
+  {
+   "id": "food-1357",
+   "category": "Food",
+   "q": "Which open-faced sandwiches on rye bread are a lunchtime tradition in Denmark?",
+   "choices": [
+    "Sloppy joes",
+    "Smørrebrød",
+    "Croque monsieur",
+    "Panini"
+   ],
+   "answer": 1,
+   "fact": "Smørrebrød means \"butter and bread\" in Danish."
+  },
+  {
+   "id": "food-1358",
+   "category": "Food",
+   "q": "Which Icelandic dish is fermented shark meat known for its very strong smell?",
+   "choices": [
+    "Hákarl",
+    "Surströmming",
+    "Gravlax",
+    "Lutefisk"
+   ],
+   "answer": 0,
+   "fact": "Hákarl is hung to dry for several months before it is eaten."
+  },
+  {
+   "id": "food-1359",
+   "category": "Food",
+   "q": "Which Swiss potato dish is like one big crispy hash brown?",
+   "choices": [
+    "Fondue",
+    "Gnocchi",
+    "Rösti",
+    "Raclette"
+   ],
+   "answer": 2,
+   "fact": "Rösti was once a common breakfast for farmers in the Bern area."
+  },
+  {
+   "id": "food-1360",
+   "category": "Food",
+   "q": "Which Spanish potato omelet is often served in thick slices?",
+   "choices": [
+    "Churros",
+    "Gazpacho",
+    "Paella",
+    "Tortilla española"
+   ],
+   "answer": 3,
+   "fact": "In Spain, people argue about whether a tortilla should have onions in it."
+  },
+  {
+   "id": "food-1361",
+   "category": "Food",
+   "q": "Which Italian pasta dish is made with eggs, cheese, black pepper and cured pork?",
+   "choices": [
+    "Ravioli",
+    "Carbonara",
+    "Lasagna",
+    "Pesto pasta"
+   ],
+   "answer": 1,
+   "fact": "Traditional carbonara from Rome uses guanciale, which is cured pork cheek."
+  },
+  {
+   "id": "food-1362",
+   "category": "Food",
+   "q": "What is polenta, a common food in northern Italy, made from?",
+   "choices": [
+    "Rice",
+    "Chickpeas",
+    "Cornmeal",
+    "Potatoes"
+   ],
+   "answer": 2,
+   "fact": "Polenta can be eaten soft like porridge or cooled, sliced and grilled."
+  },
+  {
+   "id": "food-1363",
+   "category": "Food",
+   "q": "What is a calzone?",
+   "choices": [
+    "A cheese cake",
+    "A folded, stuffed pizza",
+    "A pasta soup",
+    "A kind of salami"
+   ],
+   "answer": 1,
+   "fact": "Calzone means \"trouser leg\" in Italian."
+  },
+  {
+   "id": "food-1364",
+   "category": "Food",
+   "q": "Which traditional Cornish food was a handy lunch for tin miners?",
+   "choices": [
+    "Scone",
+    "Sausage roll",
+    "Crumpet",
+    "Pasty"
+   ],
+   "answer": 3,
+   "fact": "The thick crimped crust may have been a handle that miners threw away after eating."
+  },
+  {
+   "id": "food-1365",
+   "category": "Food",
+   "q": "What is Welsh rarebit?",
+   "choices": [
+    "A seaweed bread",
+    "Rabbit stew",
+    "Cheese sauce on toast",
+    "A lamb pie"
+   ],
+   "answer": 2,
+   "fact": "Despite its old name \"Welsh rabbit\", it has no rabbit in it."
+  },
+  {
+   "id": "food-1366",
+   "category": "Food",
+   "q": "Which puffy baked batter is traditionally served with roast beef in England?",
+   "choices": [
+    "Yorkshire pudding",
+    "Christmas pudding",
+    "Black pudding",
+    "Bread pudding"
+   ],
+   "answer": 0,
+   "fact": "Yorkshire pudding is made from flour, eggs and milk, and it's not sweet at all."
+  },
+  {
+   "id": "food-1367",
+   "category": "Food",
+   "q": "Which Māori way of cooking food in an underground pit is still used in New Zealand?",
+   "choices": [
+    "Tandoor",
+    "Hāngī",
+    "Clambake",
+    "Barbecue"
+   ],
+   "answer": 1,
+   "fact": "Hot stones are buried with the food, which cooks slowly for hours."
+  },
+  {
+   "id": "food-1368",
+   "category": "Food",
+   "q": "If someone says a task is \"a piece of cake\", what do they mean?",
+   "choices": [
+    "It's very easy",
+    "It's a big job",
+    "It's only partly done",
+    "It's delicious"
+   ],
+   "answer": 0,
+   "fact": "French has a similar saying, \"c'est du gâteau\", which means \"it's cake\"."
+  },
+  {
+   "id": "food-1369",
+   "category": "Food",
+   "q": "What does it mean if someone \"spills the beans\"?",
+   "choices": [
+    "They tell a secret",
+    "They waste food",
+    "They cook dinner",
+    "They make a mess"
+   ],
+   "answer": 0,
+   "fact": "No one is completely sure where this phrase comes from."
+  },
+  {
+   "id": "food-1370",
+   "category": "Food",
+   "q": "Which US city has the nickname \"the Big Apple\"?",
+   "choices": [
+    "Los Angeles",
+    "Chicago",
+    "New York City",
+    "Seattle"
+   ],
+   "answer": 2,
+   "fact": "The nickname became famous in the 1920s through a newspaper writer who covered horse racing."
+  },
+  {
+   "id": "food-1371",
+   "category": "Food",
+   "q": "What do people call someone who spends too much time on the sofa watching TV?",
+   "choices": [
+    "Sofa carrot",
+    "Couch potato",
+    "Lazy bean",
+    "TV tomato"
+   ],
+   "answer": 1,
+   "fact": "The phrase became popular in the United States in the 1970s and 1980s."
+  },
+  {
+   "id": "food-1372",
+   "category": "Food",
+   "q": "If someone is \"cool as a cucumber\", how are they feeling?",
+   "choices": [
+    "Hungry",
+    "Green with envy",
+    "Calm and relaxed",
+    "Cold and shivering"
+   ],
+   "answer": 2,
+   "fact": "Cucumbers are about 95 percent water."
+  },
+  {
+   "id": "food-1373",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most coffee?",
+   "choices": [
+    "Ethiopia",
+    "Colombia",
+    "Vietnam",
+    "Brazil"
+   ],
+   "answer": 3,
+   "fact": "Brazil has been the world's biggest coffee producer for more than 150 years."
+  },
+  {
+   "id": "food-1374",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most cocoa beans for chocolate?",
+   "choices": [
+    "Brazil",
+    "Mexico",
+    "Switzerland",
+    "Côte d'Ivoire"
+   ],
+   "answer": 3,
+   "fact": "Côte d'Ivoire, also called Ivory Coast, grows more than a third of the world's cocoa."
+  },
+  {
+   "id": "food-1375",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most vanilla?",
+   "choices": [
+    "India",
+    "Mexico",
+    "Madagascar",
+    "France"
+   ],
+   "answer": 2,
+   "fact": "Vanilla first came from Mexico, but Madagascar now grows most of the world's supply."
+  },
+  {
+   "id": "food-1376",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most avocados?",
+   "choices": [
+    "Australia",
+    "Mexico",
+    "Spain",
+    "United States"
+   ],
+   "answer": 1,
+   "fact": "The state of Michoacán grows most of Mexico's avocados."
+  },
+  {
+   "id": "food-1377",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most saffron?",
+   "choices": [
+    "India",
+    "Iran",
+    "Spain",
+    "Morocco"
+   ],
+   "answer": 1,
+   "fact": "Iran grows around 90 percent of the world's saffron."
+  },
+  {
+   "id": "food-1378",
+   "category": "Food",
+   "q": "As of 2025, which country exports the most bananas?",
+   "choices": [
+    "Brazil",
+    "India",
+    "Ecuador",
+    "Jamaica"
+   ],
+   "answer": 2,
+   "fact": "India grows more bananas than any other country, but it eats most of them at home."
+  },
+  {
+   "id": "food-1379",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most corn?",
+   "choices": [
+    "Italy",
+    "United States",
+    "Egypt",
+    "Mexico"
+   ],
+   "answer": 1,
+   "fact": "Much of the US corn crop is used to feed animals and make fuel, not for eating off the cob."
+  },
+  {
+   "id": "food-1380",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most potatoes?",
+   "choices": [
+    "Peru",
+    "United States",
+    "China",
+    "Ireland"
+   ],
+   "answer": 2,
+   "fact": "China and India together grow more than a third of the world's potatoes."
+  },
+  {
+   "id": "food-1381",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most oranges?",
+   "choices": [
+    "United States",
+    "Italy",
+    "Spain",
+    "Brazil"
+   ],
+   "answer": 3,
+   "fact": "Much of Brazil's orange crop is made into orange juice for other countries."
+  },
+  {
+   "id": "food-1382",
+   "category": "Food",
+   "q": "As of 2025, which country grows the most tea?",
+   "choices": [
+    "Argentina",
+    "China",
+    "England",
+    "Canada"
+   ],
+   "answer": 1,
+   "fact": "India and Kenya are also among the biggest tea growers."
+  }
+ ]
+}

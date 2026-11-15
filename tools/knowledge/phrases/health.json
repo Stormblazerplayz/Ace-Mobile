@@ -1,0 +1,1225 @@
+{
+ "entries": [
+  {
+   "en": "arm",
+   "also": [],
+   "t": {
+    "es": "brazo",
+    "fr": "bras",
+    "de": "Arm",
+    "it": "braccio",
+    "pt": "braço",
+    "ja": "腕",
+    "zh": "胳膊",
+    "ko": "팔",
+    "hi": "बाँह",
+    "ar": "ذراع",
+    "ru": "рука",
+    "nl": "arm"
+   },
+   "say": {
+    "ja": "ude",
+    "zh": "gēbo",
+    "ko": "pal",
+    "hi": "baanh",
+    "ar": "dhiraa'",
+    "ru": "ruka"
+   }
+  },
+  {
+   "en": "finger",
+   "also": [],
+   "t": {
+    "es": "dedo",
+    "fr": "doigt",
+    "de": "Finger",
+    "it": "dito",
+    "pt": "dedo",
+    "ja": "指",
+    "zh": "手指",
+    "ko": "손가락",
+    "hi": "उंगली",
+    "ar": "إصبع",
+    "ru": "палец",
+    "nl": "vinger"
+   },
+   "say": {
+    "ja": "yubi",
+    "zh": "shǒuzhǐ",
+    "ko": "songarak",
+    "hi": "ungli",
+    "ar": "isba'",
+    "ru": "palets"
+   }
+  },
+  {
+   "en": "toe",
+   "also": [],
+   "t": {
+    "es": "dedo del pie",
+    "fr": "orteil",
+    "de": "Zeh",
+    "it": "dito del piede",
+    "pt": "dedo do pé",
+    "ja": "足の指",
+    "zh": "脚趾",
+    "ko": "발가락",
+    "hi": "पैर की उंगली",
+    "ar": "إصبع القدم",
+    "ru": "палец ноги",
+    "nl": "teen"
+   },
+   "say": {
+    "ja": "ashi no yubi",
+    "zh": "jiǎozhǐ",
+    "ko": "balgarak",
+    "hi": "pair ki ungli",
+    "ar": "isba' al-qadam",
+    "ru": "palets nogi"
+   }
+  },
+  {
+   "en": "knee",
+   "also": [],
+   "t": {
+    "es": "rodilla",
+    "fr": "genou",
+    "de": "Knie",
+    "it": "ginocchio",
+    "pt": "joelho",
+    "ja": "ひざ",
+    "zh": "膝盖",
+    "ko": "무릎",
+    "hi": "घुटना",
+    "ar": "ركبة",
+    "ru": "колено",
+    "nl": "knie"
+   },
+   "say": {
+    "ja": "hiza",
+    "zh": "xīgài",
+    "ko": "mureup",
+    "hi": "ghutna",
+    "ar": "rukba",
+    "ru": "koleno"
+   }
+  },
+  {
+   "en": "back",
+   "also": [],
+   "t": {
+    "es": "espalda",
+    "fr": "dos",
+    "de": "Rücken",
+    "it": "schiena",
+    "pt": "costas",
+    "ja": "背中",
+    "zh": "背",
+    "ko": "등",
+    "hi": "पीठ",
+    "ar": "ظهر",
+    "ru": "спина",
+    "nl": "rug"
+   },
+   "say": {
+    "ja": "senaka",
+    "zh": "bèi",
+    "ko": "deung",
+    "hi": "peeth",
+    "ar": "dhahr",
+    "ru": "spina"
+   }
+  },
+  {
+   "en": "neck",
+   "also": [],
+   "t": {
+    "es": "cuello",
+    "fr": "cou",
+    "de": "Hals",
+    "it": "collo",
+    "pt": "pescoço",
+    "ja": "首",
+    "zh": "脖子",
+    "ko": "목",
+    "hi": "गर्दन",
+    "ar": "رقبة",
+    "ru": "шея",
+    "nl": "nek"
+   },
+   "say": {
+    "ja": "kubi",
+    "zh": "bózi",
+    "ko": "mok",
+    "hi": "gardan",
+    "ar": "raqaba",
+    "ru": "sheya"
+   }
+  },
+  {
+   "en": "shoulder",
+   "also": [],
+   "t": {
+    "es": "hombro",
+    "fr": "épaule",
+    "de": "Schulter",
+    "it": "spalla",
+    "pt": "ombro",
+    "ja": "肩",
+    "zh": "肩膀",
+    "ko": "어깨",
+    "hi": "कंधा",
+    "ar": "كتف",
+    "ru": "плечо",
+    "nl": "schouder"
+   },
+   "say": {
+    "ja": "kata",
+    "zh": "jiānbǎng",
+    "ko": "eokkae",
+    "hi": "kandha",
+    "ar": "katif",
+    "ru": "plecho"
+   }
+  },
+  {
+   "en": "throat",
+   "also": [],
+   "t": {
+    "es": "garganta",
+    "fr": "gorge",
+    "de": "Hals",
+    "it": "gola",
+    "pt": "garganta",
+    "ja": "のど",
+    "zh": "喉咙",
+    "ko": "목",
+    "hi": "गला",
+    "ar": "حلق",
+    "ru": "горло",
+    "nl": "keel"
+   },
+   "say": {
+    "ja": "nodo",
+    "zh": "hóulóng",
+    "ko": "mok",
+    "hi": "gala",
+    "ar": "halq",
+    "ru": "gorlo"
+   }
+  },
+  {
+   "en": "skin",
+   "also": [],
+   "t": {
+    "es": "piel",
+    "fr": "peau",
+    "de": "Haut",
+    "it": "pelle",
+    "pt": "pele",
+    "ja": "肌",
+    "zh": "皮肤",
+    "ko": "피부",
+    "hi": "त्वचा",
+    "ar": "جلد",
+    "ru": "кожа",
+    "nl": "huid"
+   },
+   "say": {
+    "ja": "hada",
+    "zh": "pífū",
+    "ko": "pibu",
+    "hi": "tvacha",
+    "ar": "jild",
+    "ru": "kozha"
+   }
+  },
+  {
+   "en": "blood",
+   "also": [],
+   "t": {
+    "es": "sangre",
+    "fr": "sang",
+    "de": "Blut",
+    "it": "sangue",
+    "pt": "sangue",
+    "ja": "血",
+    "zh": "血",
+    "ko": "피",
+    "hi": "ख़ून",
+    "ar": "دم",
+    "ru": "кровь",
+    "nl": "bloed"
+   },
+   "say": {
+    "ja": "chi",
+    "zh": "xuè",
+    "ko": "pi",
+    "hi": "khoon",
+    "ar": "dam",
+    "ru": "krov"
+   }
+  },
+  {
+   "en": "body",
+   "also": [],
+   "t": {
+    "es": "cuerpo",
+    "fr": "corps",
+    "de": "Körper",
+    "it": "corpo",
+    "pt": "corpo",
+    "ja": "体",
+    "zh": "身体",
+    "ko": "몸",
+    "hi": "शरीर",
+    "ar": "جسم",
+    "ru": "тело",
+    "nl": "lichaam"
+   },
+   "say": {
+    "ja": "karada",
+    "zh": "shēntǐ",
+    "ko": "mom",
+    "hi": "shareer",
+    "ar": "jism",
+    "ru": "telo"
+   }
+  },
+  {
+   "en": "lips",
+   "also": [],
+   "t": {
+    "es": "labios",
+    "fr": "lèvres",
+    "de": "Lippen",
+    "it": "labbra",
+    "pt": "lábios",
+    "ja": "唇",
+    "zh": "嘴唇",
+    "ko": "입술",
+    "hi": "होंठ",
+    "ar": "شفاه",
+    "ru": "губы",
+    "nl": "lippen"
+   },
+   "say": {
+    "ja": "kuchibiru",
+    "zh": "zuǐchún",
+    "ko": "ipsul",
+    "hi": "honth",
+    "ar": "shifaah",
+    "ru": "guby"
+   }
+  },
+  {
+   "en": "tongue",
+   "also": [],
+   "t": {
+    "es": "lengua",
+    "fr": "langue",
+    "de": "Zunge",
+    "it": "lingua",
+    "pt": "língua",
+    "ja": "舌",
+    "zh": "舌头",
+    "ko": "혀",
+    "hi": "जीभ",
+    "ar": "لسان",
+    "ru": "язык",
+    "nl": "tong"
+   },
+   "say": {
+    "ja": "shita",
+    "zh": "shétou",
+    "ko": "hyeo",
+    "hi": "jeebh",
+    "ar": "lisaan",
+    "ru": "yazyk"
+   }
+  },
+  {
+   "en": "brain",
+   "also": [],
+   "t": {
+    "es": "cerebro",
+    "fr": "cerveau",
+    "de": "Gehirn",
+    "it": "cervello",
+    "pt": "cérebro",
+    "ja": "脳",
+    "zh": "大脑",
+    "ko": "뇌",
+    "hi": "दिमाग़",
+    "ar": "دماغ",
+    "ru": "мозг",
+    "nl": "hersenen"
+   },
+   "say": {
+    "ja": "nou",
+    "zh": "dànǎo",
+    "ko": "noe",
+    "hi": "dimaag",
+    "ar": "dimaagh",
+    "ru": "mozg"
+   }
+  },
+  {
+   "en": "bone",
+   "also": [],
+   "t": {
+    "es": "hueso",
+    "fr": "os",
+    "de": "Knochen",
+    "it": "osso",
+    "pt": "osso",
+    "ja": "骨",
+    "zh": "骨头",
+    "ko": "뼈",
+    "hi": "हड्डी",
+    "ar": "عظم",
+    "ru": "кость",
+    "nl": "bot"
+   },
+   "say": {
+    "ja": "hone",
+    "zh": "gǔtou",
+    "ko": "ppyeo",
+    "hi": "haddi",
+    "ar": "'adhm",
+    "ru": "kost"
+   }
+  },
+  {
+   "en": "my head hurts",
+   "also": [
+    "i have a headache",
+    "headache"
+   ],
+   "t": {
+    "es": "Me duele la cabeza",
+    "fr": "J'ai mal à la tête",
+    "de": "Ich habe Kopfschmerzen",
+    "it": "Ho mal di testa",
+    "pt": "Estou com dor de cabeça",
+    "ja": "頭が痛いです",
+    "zh": "我头疼",
+    "ko": "머리가 아파요",
+    "hi": "मेरे सिर में दर्द है",
+    "ar": "رأسي يؤلمني",
+    "ru": "У меня болит голова",
+    "nl": "Ik heb hoofdpijn"
+   },
+   "say": {
+    "ja": "atama ga itai desu",
+    "zh": "wǒ tóu téng",
+    "ko": "meoriga apayo",
+    "hi": "mere sir mein dard hai",
+    "ar": "ra'si yu'limuni",
+    "ru": "u menya bolit golova"
+   }
+  },
+  {
+   "en": "my stomach hurts",
+   "also": [
+    "i have a stomachache",
+    "my tummy hurts",
+    "stomachache"
+   ],
+   "t": {
+    "es": "Me duele el estómago",
+    "fr": "J'ai mal au ventre",
+    "de": "Ich habe Bauchschmerzen",
+    "it": "Ho mal di pancia",
+    "pt": "Estou com dor de barriga",
+    "ja": "お腹が痛いです",
+    "zh": "我肚子疼",
+    "ko": "배가 아파요",
+    "hi": "मेरे पेट में दर्द है",
+    "ar": "بطني يؤلمني",
+    "ru": "У меня болит живот",
+    "nl": "Ik heb buikpijn"
+   },
+   "say": {
+    "ja": "onaka ga itai desu",
+    "zh": "wǒ dùzi téng",
+    "ko": "baega apayo",
+    "hi": "mere pet mein dard hai",
+    "ar": "batni yu'limuni",
+    "ru": "u menya bolit zhivot"
+   }
+  },
+  {
+   "en": "it hurts",
+   "also": [
+    "that hurts"
+   ],
+   "t": {
+    "es": "Me duele",
+    "fr": "Ça fait mal",
+    "de": "Das tut weh",
+    "it": "Fa male",
+    "pt": "Dói",
+    "ja": "痛いです",
+    "zh": "好疼",
+    "ko": "아파요",
+    "hi": "दर्द हो रहा है",
+    "ar": "هذا يؤلمني",
+    "ru": "Больно",
+    "nl": "Het doet pijn"
+   },
+   "say": {
+    "ja": "itai desu",
+    "zh": "hǎo téng",
+    "ko": "apayo",
+    "hi": "dard ho raha hai",
+    "ar": "haadha yu'limuni",
+    "ru": "bolno"
+   }
+  },
+  {
+   "en": "it hurts here",
+   "also": [
+    "here it hurts"
+   ],
+   "t": {
+    "es": "Me duele aquí",
+    "fr": "J'ai mal ici",
+    "de": "Hier tut es weh",
+    "it": "Mi fa male qui",
+    "pt": "Dói aqui",
+    "ja": "ここが痛いです",
+    "zh": "这里疼",
+    "ko": "여기가 아파요",
+    "hi": "यहाँ दर्द हो रहा है",
+    "ar": "يؤلمني هنا",
+    "ru": "Болит здесь",
+    "nl": "Het doet hier pijn"
+   },
+   "say": {
+    "ja": "koko ga itai desu",
+    "zh": "zhèlǐ téng",
+    "ko": "yeogiga apayo",
+    "hi": "yahaan dard ho raha hai",
+    "ar": "yu'limuni huna",
+    "ru": "bolit zdes"
+   }
+  },
+  {
+   "en": "i have a fever",
+   "also": [
+    "fever"
+   ],
+   "t": {
+    "es": "Tengo fiebre",
+    "fr": "J'ai de la fièvre",
+    "de": "Ich habe Fieber",
+    "it": "Ho la febbre",
+    "pt": "Estou com febre",
+    "ja": "熱があります",
+    "zh": "我发烧了",
+    "ko": "열이 나요",
+    "hi": "मुझे बुख़ार है",
+    "ar": "عندي حمى",
+    "ru": "У меня температура",
+    "nl": "Ik heb koorts"
+   },
+   "say": {
+    "ja": "netsu ga arimasu",
+    "zh": "wǒ fāshāo le",
+    "ko": "yeori nayo",
+    "hi": "mujhe bukhaar hai",
+    "ar": "'indi humma",
+    "ru": "u menya temperatura"
+   }
+  },
+  {
+   "en": "i have a cold",
+   "also": [],
+   "t": {
+    "es": "Estoy resfriado/a",
+    "fr": "J'ai un rhume",
+    "de": "Ich bin erkältet",
+    "it": "Ho il raffreddore",
+    "pt": "Estou resfriado/a",
+    "ja": "風邪をひいています",
+    "zh": "我感冒了",
+    "ko": "감기에 걸렸어요",
+    "hi": "मुझे ज़ुकाम है",
+    "ar": "عندي زكام",
+    "ru": "Я простыл / простыла",
+    "nl": "Ik ben verkouden"
+   },
+   "say": {
+    "ja": "kaze o hiite imasu",
+    "zh": "wǒ gǎnmào le",
+    "ko": "gamgie geollyeosseoyo",
+    "hi": "mujhe zukaam hai",
+    "ar": "'indi zukaam",
+    "ru": "ya prostyl / prostyla"
+   }
+  },
+  {
+   "en": "i have a cough",
+   "also": [
+    "cough"
+   ],
+   "t": {
+    "es": "Tengo tos",
+    "fr": "Je tousse",
+    "de": "Ich habe Husten",
+    "it": "Ho la tosse",
+    "pt": "Estou com tosse",
+    "ja": "咳が出ます",
+    "zh": "我咳嗽",
+    "ko": "기침이 나요",
+    "hi": "मुझे खाँसी है",
+    "ar": "عندي سعال",
+    "ru": "У меня кашель",
+    "nl": "Ik moet hoesten"
+   },
+   "say": {
+    "ja": "seki ga demasu",
+    "zh": "wǒ késou",
+    "ko": "gichimi nayo",
+    "hi": "mujhe khaansi hai",
+    "ar": "'indi su'aal",
+    "ru": "u menya kashel"
+   }
+  },
+  {
+   "en": "i feel sick",
+   "also": [
+    "i feel ill",
+    "i don't feel well"
+   ],
+   "t": {
+    "es": "Me siento mal",
+    "fr": "Je ne me sens pas bien",
+    "de": "Mir geht es nicht gut",
+    "it": "Non mi sento bene",
+    "pt": "Não estou me sentindo bem",
+    "ja": "気分が悪いです",
+    "zh": "我不舒服",
+    "ko": "몸이 안 좋아요",
+    "hi": "मेरी तबीयत ठीक नहीं है",
+    "ar": "أشعر بتوعك",
+    "ru": "Мне плохо",
+    "nl": "Ik voel me niet lekker"
+   },
+   "say": {
+    "ja": "kibun ga warui desu",
+    "zh": "wǒ bù shūfu",
+    "ko": "momi an joayo",
+    "hi": "meri tabeeyat theek nahin hai",
+    "ar": "ash'ur bi-tawa''uk",
+    "ru": "mne plokho"
+   }
+  },
+  {
+   "en": "i need a doctor",
+   "also": [
+    "get a doctor"
+   ],
+   "t": {
+    "es": "Necesito un médico",
+    "fr": "J'ai besoin d'un médecin",
+    "de": "Ich brauche einen Arzt",
+    "it": "Ho bisogno di un medico",
+    "pt": "Preciso de um médico",
+    "ja": "医者が必要です",
+    "zh": "我需要看医生",
+    "ko": "의사가 필요해요",
+    "hi": "मुझे डॉक्टर चाहिए",
+    "ar": "أحتاج إلى طبيب",
+    "ru": "Мне нужен врач",
+    "nl": "Ik heb een dokter nodig"
+   },
+   "say": {
+    "ja": "isha ga hitsuyou desu",
+    "zh": "wǒ xūyào kàn yīshēng",
+    "ko": "uisaga piryohaeyo",
+    "hi": "mujhe doktar chaahiye",
+    "ar": "ahtaaj ila tabeeb",
+    "ru": "mne nuzhen vrach"
+   }
+  },
+  {
+   "en": "call an ambulance",
+   "also": [],
+   "t": {
+    "es": "Llame a una ambulancia",
+    "fr": "Appelez une ambulance",
+    "de": "Rufen Sie einen Krankenwagen",
+    "it": "Chiami un'ambulanza",
+    "pt": "Chame uma ambulância",
+    "ja": "救急車を呼んでください",
+    "zh": "请叫救护车",
+    "ko": "구급차를 불러 주세요",
+    "hi": "एम्बुलेंस बुलाइए",
+    "ar": "اتصل بالإسعاف",
+    "ru": "Вызовите скорую",
+    "nl": "Bel een ambulance"
+   },
+   "say": {
+    "ja": "kyuukyuusha o yonde kudasai",
+    "zh": "qǐng jiào jiùhùchē",
+    "ko": "gugeupchareul bulleo juseyo",
+    "hi": "embulens bulaaiye",
+    "ar": "ittasil bil-is'aaf",
+    "ru": "vyzovite skoruyu"
+   }
+  },
+  {
+   "en": "call the police",
+   "also": [],
+   "t": {
+    "es": "Llame a la policía",
+    "fr": "Appelez la police",
+    "de": "Rufen Sie die Polizei",
+    "it": "Chiami la polizia",
+    "pt": "Chame a polícia",
+    "ja": "警察を呼んでください",
+    "zh": "请报警",
+    "ko": "경찰을 불러 주세요",
+    "hi": "पुलिस को बुलाइए",
+    "ar": "اتصل بالشرطة",
+    "ru": "Вызовите полицию",
+    "nl": "Bel de politie"
+   },
+   "say": {
+    "ja": "keisatsu o yonde kudasai",
+    "zh": "qǐng bàojǐng",
+    "ko": "gyeongchareul bulleo juseyo",
+    "hi": "pulis ko bulaaiye",
+    "ar": "ittasil bish-shurta",
+    "ru": "vyzovite politsiyu"
+   }
+  },
+  {
+   "en": "it's an emergency",
+   "also": [
+    "this is an emergency",
+    "emergency"
+   ],
+   "t": {
+    "es": "Es una emergencia",
+    "fr": "C'est une urgence",
+    "de": "Es ist ein Notfall",
+    "it": "È un'emergenza",
+    "pt": "É uma emergência",
+    "ja": "緊急です",
+    "zh": "这是紧急情况",
+    "ko": "응급 상황이에요",
+    "hi": "यह आपातकाल है",
+    "ar": "هذه حالة طارئة",
+    "ru": "Это экстренный случай",
+    "nl": "Het is een noodgeval"
+   },
+   "say": {
+    "ja": "kinkyuu desu",
+    "zh": "zhè shì jǐnjí qíngkuàng",
+    "ko": "eunggeup sanghwangieyo",
+    "hi": "yah aapaatkaal hai",
+    "ar": "haadhihi haala taari'a",
+    "ru": "eto ekstrenny sluchay"
+   }
+  },
+  {
+   "en": "fire",
+   "also": [
+    "there's a fire"
+   ],
+   "t": {
+    "es": "Fuego",
+    "fr": "Au feu",
+    "de": "Feuer",
+    "it": "Al fuoco",
+    "pt": "Fogo",
+    "ja": "火事だ",
+    "zh": "着火了",
+    "ko": "불이야",
+    "hi": "आग",
+    "ar": "حريق",
+    "ru": "Пожар",
+    "nl": "Brand"
+   },
+   "say": {
+    "ja": "kaji da",
+    "zh": "zháohuǒ le",
+    "ko": "buriya",
+    "hi": "aag",
+    "ar": "hareeq",
+    "ru": "pozhar"
+   }
+  },
+  {
+   "en": "i'm hurt",
+   "also": [
+    "i'm injured"
+   ],
+   "t": {
+    "es": "Estoy herido/a",
+    "fr": "Je suis blessé(e)",
+    "de": "Ich bin verletzt",
+    "it": "Sono ferito/a",
+    "pt": "Estou machucado/a",
+    "ja": "けがをしました",
+    "zh": "我受伤了",
+    "ko": "다쳤어요",
+    "hi": "मुझे चोट लगी है",
+    "ar": "أنا مصاب / مصابة",
+    "ru": "Я ранен / ранена",
+    "nl": "Ik ben gewond"
+   },
+   "say": {
+    "ja": "kega o shimashita",
+    "zh": "wǒ shòushāng le",
+    "ko": "dachyeosseoyo",
+    "hi": "mujhe chot lagi hai",
+    "ar": "ana musaab / musaaba",
+    "ru": "ya ranen / ranena"
+   }
+  },
+  {
+   "en": "i fell down",
+   "also": [
+    "i fell"
+   ],
+   "t": {
+    "es": "Me caí",
+    "fr": "Je suis tombé(e)",
+    "de": "Ich bin hingefallen",
+    "it": "Sono caduto/a",
+    "pt": "Eu caí",
+    "ja": "転びました",
+    "zh": "我摔倒了",
+    "ko": "넘어졌어요",
+    "hi": "मैं गिर गया / गई",
+    "ar": "وقعت",
+    "ru": "Я упал / упала",
+    "nl": "Ik ben gevallen"
+   },
+   "say": {
+    "ja": "korobimashita",
+    "zh": "wǒ shuāi dǎo le",
+    "ko": "neomeojyeosseoyo",
+    "hi": "main gir gaya / gayi",
+    "ar": "waqa'tu",
+    "ru": "ya upal / upala"
+   }
+  },
+  {
+   "en": "i lost my ...",
+   "also": [
+    "i've lost my"
+   ],
+   "t": {
+    "es": "Perdí mi ...",
+    "fr": "J'ai perdu mon / ma ...",
+    "de": "Ich habe mein / meine ... verloren",
+    "it": "Ho perso il mio / la mia ...",
+    "pt": "Perdi meu / minha ...",
+    "ja": "...をなくしました",
+    "zh": "我的...丢了",
+    "ko": "...를 잃어버렸어요",
+    "hi": "मेरा / मेरी ... खो गया / गई",
+    "ar": "أضعت ...",
+    "ru": "Я потерял / потеряла ...",
+    "nl": "Ik ben mijn ... kwijt"
+   },
+   "say": {
+    "ja": "...o nakushimashita",
+    "zh": "wǒ de ... diū le",
+    "ko": "...reul ireobeoryeosseoyo",
+    "hi": "mera / meri ... kho gaya / gayi",
+    "ar": "ada'tu ...",
+    "ru": "ya poteryal / poteryala ..."
+   }
+  },
+  {
+   "en": "i can't find my parents",
+   "also": [
+    "where are my parents"
+   ],
+   "t": {
+    "es": "No encuentro a mis padres",
+    "fr": "Je ne trouve pas mes parents",
+    "de": "Ich finde meine Eltern nicht",
+    "it": "Non trovo i miei genitori",
+    "pt": "Não acho meus pais",
+    "ja": "両親が見つかりません",
+    "zh": "我找不到我爸妈",
+    "ko": "부모님을 못 찾겠어요",
+    "hi": "मुझे मेरे माता-पिता नहीं मिल रहे",
+    "ar": "لا أجد والديّ",
+    "ru": "Я не могу найти родителей",
+    "nl": "Ik kan mijn ouders niet vinden"
+   },
+   "say": {
+    "ja": "ryoushin ga mitsukarimasen",
+    "zh": "wǒ zhǎo bú dào wǒ bàmā",
+    "ko": "bumonimeul mot chatgesseoyo",
+    "hi": "mujhe mere maata-pita nahin mil rahe",
+    "ar": "la ajid waaliday",
+    "ru": "ya ne mogu nayti roditeley"
+   }
+  },
+  {
+   "en": "please call my mom",
+   "also": [
+    "call my mom"
+   ],
+   "t": {
+    "es": "Por favor, llame a mi mamá",
+    "fr": "Appelez ma mère, s'il vous plaît",
+    "de": "Bitte rufen Sie meine Mutter an",
+    "it": "Per favore, chiami mia madre",
+    "pt": "Por favor, ligue para minha mãe",
+    "ja": "母に電話してください",
+    "zh": "请给我妈妈打电话",
+    "ko": "엄마한테 전화해 주세요",
+    "hi": "कृपया मेरी माँ को फ़ोन कीजिए",
+    "ar": "من فضلك اتصل بأمي",
+    "ru": "Позвоните, пожалуйста, моей маме",
+    "nl": "Bel alstublieft mijn moeder"
+   },
+   "say": {
+    "ja": "haha ni denwa shite kudasai",
+    "zh": "qǐng gěi wǒ māma dǎ diànhuà",
+    "ko": "eommahante jeonhwahae juseyo",
+    "hi": "kripya meri maan ko fon keejiye",
+    "ar": "min fadlak ittasil bi-ummi",
+    "ru": "pozvonite, pozhaluysta, moyey mame"
+   }
+  },
+  {
+   "en": "can i use your phone",
+   "also": [
+    "may i use your phone"
+   ],
+   "t": {
+    "es": "¿Puedo usar su teléfono?",
+    "fr": "Je peux utiliser votre téléphone ?",
+    "de": "Darf ich Ihr Telefon benutzen?",
+    "it": "Posso usare il suo telefono?",
+    "pt": "Posso usar seu telefone?",
+    "ja": "電話を借りてもいいですか？",
+    "zh": "我可以用一下你的电话吗？",
+    "ko": "전화 좀 써도 될까요?",
+    "hi": "क्या मैं आपका फ़ोन इस्तेमाल कर सकता / सकती हूँ?",
+    "ar": "هل يمكنني استخدام هاتفك؟",
+    "ru": "Можно позвонить с вашего телефона?",
+    "nl": "Mag ik uw telefoon gebruiken?"
+   },
+   "say": {
+    "ja": "denwa o karite mo ii desu ka?",
+    "zh": "wǒ kěyǐ yòng yíxià nǐ de diànhuà ma?",
+    "ko": "jeonhwa jom sseodo doelkkayo?",
+    "hi": "kya main aapka fon istemaal kar sakta / sakti hoon?",
+    "ar": "hal yumkinuni istikhdaam haatifak?",
+    "ru": "mozhno pozvonit s vashego telefona?"
+   }
+  },
+  {
+   "en": "leave me alone",
+   "also": [
+    "go away"
+   ],
+   "t": {
+    "es": "Déjeme en paz",
+    "fr": "Laissez-moi tranquille",
+    "de": "Lassen Sie mich in Ruhe",
+    "it": "Mi lasci in pace",
+    "pt": "Me deixe em paz",
+    "ja": "ほっといてください",
+    "zh": "别烦我",
+    "ko": "저 좀 내버려 두세요",
+    "hi": "मुझे अकेला छोड़ दीजिए",
+    "ar": "اتركني وشأني",
+    "ru": "Оставьте меня в покое",
+    "nl": "Laat me met rust"
+   },
+   "say": {
+    "ja": "hottoite kudasai",
+    "zh": "bié fán wǒ",
+    "ko": "jeo jom naebeoryeo duseyo",
+    "hi": "mujhe akela chhod deejiye",
+    "ar": "utrukni wa-sha'ni",
+    "ru": "ostavte menya v pokoye"
+   }
+  },
+  {
+   "en": "medicine",
+   "also": [],
+   "t": {
+    "es": "medicina",
+    "fr": "médicament",
+    "de": "Medikament",
+    "it": "medicina",
+    "pt": "remédio",
+    "ja": "薬",
+    "zh": "药",
+    "ko": "약",
+    "hi": "दवाई",
+    "ar": "دواء",
+    "ru": "лекарство",
+    "nl": "medicijn"
+   },
+   "say": {
+    "ja": "kusuri",
+    "zh": "yào",
+    "ko": "yak",
+    "hi": "davaai",
+    "ar": "dawaa'",
+    "ru": "lekarstvo"
+   }
+  },
+  {
+   "en": "bandage",
+   "also": [
+    "band-aid",
+    "plaster"
+   ],
+   "t": {
+    "es": "curita",
+    "fr": "pansement",
+    "de": "Pflaster",
+    "it": "cerotto",
+    "pt": "curativo",
+    "ja": "絆創膏",
+    "zh": "创可贴",
+    "ko": "반창고",
+    "hi": "पट्टी",
+    "ar": "ضمادة",
+    "ru": "пластырь",
+    "nl": "pleister"
+   },
+   "say": {
+    "ja": "bansoukou",
+    "zh": "chuàngkětiē",
+    "ko": "banchanggo",
+    "hi": "patti",
+    "ar": "dimaada",
+    "ru": "plastyr"
+   }
+  },
+  {
+   "en": "allergy",
+   "also": [],
+   "t": {
+    "es": "alergia",
+    "fr": "allergie",
+    "de": "Allergie",
+    "it": "allergia",
+    "pt": "alergia",
+    "ja": "アレルギー",
+    "zh": "过敏",
+    "ko": "알레르기",
+    "hi": "एलर्जी",
+    "ar": "حساسية",
+    "ru": "аллергия",
+    "nl": "allergie"
+   },
+   "say": {
+    "ja": "arerugii",
+    "zh": "guòmǐn",
+    "ko": "allereugi",
+    "hi": "elarji",
+    "ar": "hassaasiyya",
+    "ru": "allergiya"
+   }
+  },
+  {
+   "en": "ambulance",
+   "also": [],
+   "t": {
+    "es": "ambulancia",
+    "fr": "ambulance",
+    "de": "Krankenwagen",
+    "it": "ambulanza",
+    "pt": "ambulância",
+    "ja": "救急車",
+    "zh": "救护车",
+    "ko": "구급차",
+    "hi": "एम्बुलेंस",
+    "ar": "سيارة إسعاف",
+    "ru": "скорая помощь",
+    "nl": "ambulance"
+   },
+   "say": {
+    "ja": "kyuukyuusha",
+    "zh": "jiùhùchē",
+    "ko": "gugeupcha",
+    "hi": "embulens",
+    "ar": "sayyaarat is'aaf",
+    "ru": "skoraya pomoshch"
+   }
+  },
+  {
+   "en": "police",
+   "also": [],
+   "t": {
+    "es": "policía",
+    "fr": "police",
+    "de": "Polizei",
+    "it": "polizia",
+    "pt": "polícia",
+    "ja": "警察",
+    "zh": "警察",
+    "ko": "경찰",
+    "hi": "पुलिस",
+    "ar": "شرطة",
+    "ru": "полиция",
+    "nl": "politie"
+   },
+   "say": {
+    "ja": "keisatsu",
+    "zh": "jǐngchá",
+    "ko": "gyeongchal",
+    "hi": "pulis",
+    "ar": "shurta",
+    "ru": "politsiya"
+   }
+  },
+  {
+   "en": "danger",
+   "also": [],
+   "t": {
+    "es": "peligro",
+    "fr": "danger",
+    "de": "Gefahr",
+    "it": "pericolo",
+    "pt": "perigo",
+    "ja": "危険",
+    "zh": "危险",
+    "ko": "위험",
+    "hi": "ख़तरा",
+    "ar": "خطر",
+    "ru": "опасность",
+    "nl": "gevaar"
+   },
+   "say": {
+    "ja": "kiken",
+    "zh": "wēixiǎn",
+    "ko": "wiheom",
+    "hi": "khatra",
+    "ar": "khatar",
+    "ru": "opasnost"
+   }
+  },
+  {
+   "en": "i need help",
+   "also": [
+    "i need some help"
+   ],
+   "t": {
+    "es": "Necesito ayuda",
+    "fr": "J'ai besoin d'aide",
+    "de": "Ich brauche Hilfe",
+    "it": "Ho bisogno di aiuto",
+    "pt": "Preciso de ajuda",
+    "ja": "助けが必要です",
+    "zh": "我需要帮助",
+    "ko": "도움이 필요해요",
+    "hi": "मुझे मदद चाहिए",
+    "ar": "أحتاج إلى مساعدة",
+    "ru": "Мне нужна помощь",
+    "nl": "Ik heb hulp nodig"
+   },
+   "say": {
+    "ja": "tasuke ga hitsuyou desu",
+    "zh": "wǒ xūyào bāngzhù",
+    "ko": "doumi piryohaeyo",
+    "hi": "mujhe madad chaahiye",
+    "ar": "ahtaaj ila musaa'ada",
+    "ru": "mne nuzhna pomoshch"
+   }
+  },
+  {
+   "en": "are you okay",
+   "also": [
+    "are you ok",
+    "are you alright"
+   ],
+   "t": {
+    "es": "¿Está bien?",
+    "fr": "Ça va ?",
+    "de": "Alles in Ordnung?",
+    "it": "Sta bene?",
+    "pt": "Você está bem?",
+    "ja": "大丈夫ですか？",
+    "zh": "你没事吧？",
+    "ko": "괜찮아요?",
+    "hi": "क्या आप ठीक हैं?",
+    "ar": "هل أنت بخير؟",
+    "ru": "Вы в порядке?",
+    "nl": "Gaat het?"
+   },
+   "say": {
+    "ja": "daijoubu desu ka?",
+    "zh": "nǐ méi shì ba?",
+    "ko": "gwaenchanayo?",
+    "hi": "kya aap theek hain?",
+    "ar": "hal anta bi-khayr?",
+    "ru": "vy v poryadke?"
+   }
+  },
+  {
+   "en": "i'm okay now",
+   "also": [
+    "i'm fine now"
+   ],
+   "t": {
+    "es": "Ya estoy bien",
+    "fr": "Ça va maintenant",
+    "de": "Jetzt geht es mir gut",
+    "it": "Ora sto bene",
+    "pt": "Agora estou bem",
+    "ja": "もう大丈夫です",
+    "zh": "我现在没事了",
+    "ko": "이제 괜찮아요",
+    "hi": "अब मैं ठीक हूँ",
+    "ar": "أنا بخير الآن",
+    "ru": "Теперь я в порядке",
+    "nl": "Het gaat nu goed"
+   },
+   "say": {
+    "ja": "mou daijoubu desu",
+    "zh": "wǒ xiànzài méi shì le",
+    "ko": "ije gwaenchanayo",
+    "hi": "ab main theek hoon",
+    "ar": "ana bi-khayr al-aan",
+    "ru": "teper ya v poryadke"
+   }
+  },
+  {
+   "en": "i need to rest",
+   "also": [
+    "i want to rest"
+   ],
+   "t": {
+    "es": "Necesito descansar",
+    "fr": "J'ai besoin de me reposer",
+    "de": "Ich muss mich ausruhen",
+    "it": "Ho bisogno di riposare",
+    "pt": "Preciso descansar",
+    "ja": "休みたいです",
+    "zh": "我需要休息",
+    "ko": "쉬어야 해요",
+    "hi": "मुझे आराम करना है",
+    "ar": "أحتاج إلى الراحة",
+    "ru": "Мне нужно отдохнуть",
+    "nl": "Ik moet rusten"
+   },
+   "say": {
+    "ja": "yasumitai desu",
+    "zh": "wǒ xūyào xiūxi",
+    "ko": "swieoya haeyo",
+    "hi": "mujhe aaraam karna hai",
+    "ar": "ahtaaj ila ar-raaha",
+    "ru": "mne nuzhno otdokhnut"
+   }
+  }
+ ]
+}

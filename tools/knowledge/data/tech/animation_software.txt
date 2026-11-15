@@ -1,0 +1,13 @@
+# tag: tech.animation.software
+what is stop motion studio | stop motion app => Stop Motion Studio is an app for phones, tablets and computers that helps you shoot stop motion, with onion skinning so you can line up each frame.
+what is pencil2d | free 2d animation pc => Pencil2D is a free, open-source app for hand-drawn 2D animation on Windows, Mac and Linux. It's simple, which makes it great for beginners.
+what is opentoonz | opentoonz animation => OpenToonz is a free, open-source 2D animation program based on software used by Studio Ghibli. It's powerful but harder to learn.
+what is toon boom harmony | toon boom => Toon Boom Harmony is professional 2D animation software used for many TV cartoons, with drawing, rigging and effects tools.
+what is moho animation | moho bones 2d => Moho is 2D animation software built around bone rigging, so you can move characters like puppets instead of redrawing every frame.
+what is adobe animate | adobe flash animation => Adobe Animate, once called Flash, makes 2D vector animations and interactive content, using a timeline and tweens.
+what is spine animation | 2d skeletal animation for games => Spine is a tool for animating 2D game characters with bones, so the animations are small files that run smoothly in game engines.
+what is cascadeur | physics animation software => Cascadeur is a 3D character animation app that uses physics and AI to help make poses and jumps look natural.
+what is rokoko vision | free webcam motion capture => Rokoko Vision is a free tool that turns video of you moving into 3D character animation, no special suit needed.
+what is clip studio paint | clip studio for comics => Clip Studio Paint is a drawing app popular for comics, manga and illustrations, with an animation timeline too.
+what is roughanimator | roughanimator app => RoughAnimator is a paid hand-drawn animation app for iPad, Android and computers, with onion skin and audio sync.
+how do i animate in krita | krita animation timeline => Open the Animation workspace in Krita, then add frames on the timeline and draw on each one. Turn on onion skin to see neighboring frames.

@@ -25,7 +25,10 @@ def existing(own_output):
     for path in glob.glob(os.path.join(KNOW, "data", "**", "*.txt"), recursive=True):
         if os.path.abspath(path) == os.path.abspath(own_output):
             continue
-        entries, _ = parse_txt(path)
+        try:
+            entries, _ = parse_txt(path)
+        except OSError:  # another area's file moved while we were reading
+            continue
         for _n, _tag, qs, _ans in entries:
             for q in qs:
                 words.add(norm(q))

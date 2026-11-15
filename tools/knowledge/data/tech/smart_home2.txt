@@ -1,0 +1,8 @@
+# tag: tech.smarthome2
+what is a homepod | apple smart speaker => HomePod is Apple's smart speaker with Siri. It plays music with good sound and works as a home hub for Apple Home devices.
+what is a smart light switch | smart switch vs smart bulb => A smart switch replaces the wall switch, so any bulbs on it become smart and the switch still works by hand. Installing one means working with mains wiring, which is a job for an adult or electrician.
+what is ifttt | connect apps and smart devices => IFTTT, short for If This Then That, links apps and gadgets with simple rules, like turning on a light when your game starts streaming.
+what is a smart smoke detector | smoke alarm phone alert => A smart smoke detector sends an alert to your phone when it goes off, even when nobody is home, and tells you when its battery is low.
+what is a water leak sensor | smart leak detector => A leak sensor sits on the floor near a washer or water heater and sends an alert to your phone if it gets wet.
+what is a smart home hub | do i need a hub for smart home => A hub connects Zigbee, Z-Wave, Thread or Matter devices to your network and app. Many smart speakers and some routers act as hubs, so you may already have one.
+is a smart home private | smart home privacy tips => Smart devices collect data like when you're home. Buy known brands, use strong passwords and 2FA, update firmware and keep cameras out of private rooms.

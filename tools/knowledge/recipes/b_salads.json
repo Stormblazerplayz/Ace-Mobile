@@ -1,0 +1,1427 @@
+{
+ "recipes": [
+  {
+   "id": "garden-salad",
+   "name": "Garden salad",
+   "aliases": [
+    "garden salad",
+    "green salad",
+    "side salad",
+    "tossed salad",
+    "house salad",
+    "simple salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "lettuce",
+    "cucumber",
+    "tomatoes",
+    "carrots"
+   ],
+   "ingredients": [
+    "1 head romaine or 6 cups (about 200 g) mixed greens",
+    "1 cucumber, sliced",
+    "1 cup cherry tomatoes, halved",
+    "1 carrot, shredded",
+    "1/4 red onion, thinly sliced (optional)",
+    "1/2 cup croutons",
+    "Dressing: 3 tablespoons olive oil, 1 tablespoon red wine vinegar, 1/2 teaspoon Dijon mustard, 1/4 teaspoon salt, pinch of pepper"
+   ],
+   "steps": [
+    "Wash the lettuce and dry it well in a salad spinner or towel.",
+    "Tear the lettuce into bite size pieces in a big bowl.",
+    "Slice the cucumber and halve the tomatoes. Ask an adult to help with the knife.",
+    "Add the cucumber, tomatoes, carrot and onion.",
+    "Shake the dressing ingredients in a jar with the lid on.",
+    "Toss the salad with the dressing just before serving and top with croutons."
+   ]
+  },
+  {
+   "id": "greek-salad",
+   "name": "Greek salad",
+   "aliases": [
+    "greek salad",
+    "horiatiki",
+    "village salad",
+    "feta salad",
+    "greek village salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "tomatoes",
+    "cucumber",
+    "feta",
+    "olives",
+    "red onion"
+   ],
+   "ingredients": [
+    "4 ripe tomatoes, cut in wedges",
+    "1 cucumber, cut in thick half moons",
+    "1 green bell pepper, sliced",
+    "1/2 red onion, thinly sliced",
+    "1/2 cup (75 g) kalamata olives",
+    "4 oz (115 g) feta, in a block or crumbled",
+    "3 tablespoons olive oil",
+    "1 tablespoon red wine vinegar",
+    "1/2 teaspoon dried oregano",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Have an adult help cut the tomatoes, cucumber, pepper and onion.",
+    "Put the vegetables and olives in a big bowl.",
+    "Drizzle with olive oil and vinegar and sprinkle with salt.",
+    "Toss gently.",
+    "Put the feta on top and sprinkle with oregano."
+   ]
+  },
+  {
+   "id": "caprese-salad",
+   "name": "Caprese salad",
+   "aliases": [
+    "caprese salad",
+    "caprese",
+    "tomato mozzarella salad",
+    "insalata caprese",
+    "tomato basil mozzarella"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "tomatoes",
+    "mozzarella",
+    "basil",
+    "olive oil"
+   ],
+   "ingredients": [
+    "3 large ripe tomatoes",
+    "8 oz (225 g) fresh mozzarella",
+    "12 fresh basil leaves",
+    "2 tablespoons olive oil",
+    "1 tablespoon balsamic glaze (optional)",
+    "1/4 teaspoon flaky salt and a pinch of pepper"
+   ],
+   "steps": [
+    "Slice the tomatoes and mozzarella about 1/4 inch thick. Ask an adult to help.",
+    "Lay them on a plate, overlapping and switching between tomato and cheese.",
+    "Tuck basil leaves between the slices.",
+    "Drizzle with olive oil and balsamic glaze.",
+    "Sprinkle with salt and pepper."
+   ]
+  },
+  {
+   "id": "cobb-salad",
+   "name": "Cobb salad",
+   "aliases": [
+    "cobb salad",
+    "cobb",
+    "chopped cobb salad",
+    "chicken cobb salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "lettuce",
+    "chicken",
+    "bacon",
+    "egg",
+    "avocado"
+   ],
+   "ingredients": [
+    "1 head romaine, chopped",
+    "2 cups (250 g) cooked chicken, diced",
+    "6 slices cooked bacon, crumbled",
+    "2 hard boiled eggs, chopped",
+    "1 avocado, diced",
+    "1 cup cherry tomatoes, halved",
+    "1/2 cup (60 g) crumbled blue cheese or cheddar",
+    "Dressing: 1/4 cup (60 ml) olive oil, 2 tablespoons red wine vinegar, 1 teaspoon Dijon mustard, 1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Spread the lettuce on a big platter.",
+    "Lay the chicken, bacon, eggs, avocado, tomatoes and cheese on top in neat rows.",
+    "Shake the dressing in a jar.",
+    "Drizzle over the salad, or serve it on the side."
+   ]
+  },
+  {
+   "id": "potato-salad",
+   "name": "Classic potato salad",
+   "aliases": [
+    "potato salad",
+    "classic potato salad",
+    "american potato salad",
+    "creamy potato salad",
+    "picnic potato salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "2 hr",
+   "main": [
+    "potatoes",
+    "mayonnaise",
+    "egg",
+    "celery",
+    "mustard"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) Yukon Gold or red potatoes, cut in 1 inch cubes",
+    "1 tablespoon salt for the water",
+    "3/4 cup (170 g) mayonnaise",
+    "1 tablespoon yellow mustard",
+    "1 tablespoon pickle relish or chopped pickles",
+    "1 tablespoon white vinegar",
+    "2 celery stalks, diced",
+    "2 green onions, sliced",
+    "3 hard boiled eggs, chopped (optional)",
+    "1/2 teaspoon salt and a pinch of pepper",
+    "Paprika to sprinkle"
+   ],
+   "steps": [
+    "Put the potatoes in a pot of cold salted water and bring to a boil. Ask an adult to help.",
+    "Boil for 10 to 12 minutes, until a fork slides in easily but they hold their shape.",
+    "Drain and let cool for 20 minutes.",
+    "Stir the mayo, mustard, relish, vinegar, salt and pepper in a big bowl.",
+    "Add the potatoes, celery, green onions and eggs and fold gently.",
+    "Chill for 1 hour. Sprinkle with paprika."
+   ]
+  },
+  {
+   "id": "german-potato-salad",
+   "name": "German potato salad",
+   "aliases": [
+    "german potato salad",
+    "warm potato salad",
+    "bacon potato salad",
+    "kartoffelsalat"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "potatoes",
+    "bacon",
+    "onion",
+    "vinegar",
+    "sugar"
+   ],
+   "ingredients": [
+    "2 lb (900 g) small red potatoes, sliced 1/4 inch thick",
+    "6 slices bacon, chopped",
+    "1 small onion, diced",
+    "1/3 cup (80 ml) apple cider vinegar",
+    "1/4 cup (60 ml) water",
+    "2 tablespoons sugar",
+    "1 teaspoon Dijon mustard",
+    "1/2 teaspoon salt",
+    "2 tablespoons chopped parsley"
+   ],
+   "steps": [
+    "Boil the potatoes for 10 to 12 minutes, until just tender. Ask an adult to help drain them.",
+    "Cook the bacon in a big pan over medium heat for 6 to 8 minutes, until crisp. Lift it out.",
+    "Cook the onion in the bacon fat for 4 minutes, until soft.",
+    "Stir in the vinegar, water, sugar, mustard and salt and simmer for 1 minute.",
+    "Add the potatoes and bacon and toss gently.",
+    "Sprinkle with parsley and serve warm."
+   ]
+  },
+  {
+   "id": "macaroni-salad",
+   "name": "Macaroni salad",
+   "aliases": [
+    "macaroni salad",
+    "macaroni salad recipe",
+    "mac salad",
+    "hawaiian macaroni salad",
+    "elbow macaroni salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "1 hr 30 min",
+   "main": [
+    "elbow macaroni",
+    "mayonnaise",
+    "celery",
+    "carrot",
+    "vinegar"
+   ],
+   "ingredients": [
+    "8 oz (225 g) elbow macaroni",
+    "1 cup (225 g) mayonnaise",
+    "2 tablespoons apple cider vinegar",
+    "1 tablespoon sugar",
+    "1 teaspoon yellow mustard",
+    "1/2 teaspoon salt",
+    "2 celery stalks, diced",
+    "1 carrot, shredded",
+    "1/4 cup diced red bell pepper",
+    "2 green onions, sliced"
+   ],
+   "steps": [
+    "Boil the macaroni in salted water following the package, plus 1 minute so it is soft. Ask an adult to help drain it.",
+    "Rinse with cold water and drain well.",
+    "Whisk the mayo, vinegar, sugar, mustard and salt in a big bowl.",
+    "Stir in the macaroni, celery, carrot, pepper and green onions.",
+    "Chill for 1 hour. Stir in a spoonful of milk if it gets dry."
+   ]
+  },
+  {
+   "id": "italian-pasta-salad",
+   "name": "Italian pasta salad",
+   "aliases": [
+    "pasta salad",
+    "italian pasta salad",
+    "rotini pasta salad",
+    "cold pasta salad",
+    "summer pasta salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "1 hr 20 min",
+   "main": [
+    "rotini",
+    "salami",
+    "mozzarella",
+    "tomatoes",
+    "italian dressing"
+   ],
+   "ingredients": [
+    "12 oz (340 g) rotini pasta",
+    "1 cup cherry tomatoes, halved",
+    "1 cucumber, diced",
+    "1/2 red onion, diced",
+    "1/2 cup (75 g) black olives, sliced",
+    "4 oz (115 g) salami, diced (optional)",
+    "8 oz (225 g) mozzarella pearls or cubes",
+    "Dressing: 1/2 cup (120 ml) olive oil, 1/4 cup (60 ml) red wine vinegar, 1 teaspoon Italian seasoning, 1 minced garlic clove, 1 teaspoon sugar, 1/2 teaspoon salt",
+    "1/4 cup (25 g) grated parmesan"
+   ],
+   "steps": [
+    "Cook the pasta in salted boiling water following the package. Ask an adult to help drain it.",
+    "Rinse with cold water and drain well.",
+    "Shake the dressing ingredients in a jar.",
+    "Toss the pasta with the vegetables, olives, salami and mozzarella.",
+    "Pour on the dressing and toss.",
+    "Chill for 1 hour. Sprinkle with parmesan before serving."
+   ]
+  },
+  {
+   "id": "coleslaw",
+   "name": "Creamy coleslaw",
+   "aliases": [
+    "coleslaw",
+    "cole slaw",
+    "slaw",
+    "creamy coleslaw",
+    "sweet coleslaw",
+    "cabbage salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "45 min",
+   "main": [
+    "cabbage",
+    "carrots",
+    "mayonnaise",
+    "vinegar",
+    "sugar"
+   ],
+   "ingredients": [
+    "6 cups (about 450 g) shredded green cabbage, or a 14 oz bag of coleslaw mix",
+    "1 carrot, shredded",
+    "3/4 cup (170 g) mayonnaise",
+    "2 tablespoons apple cider vinegar",
+    "1 tablespoon sugar",
+    "1 teaspoon Dijon mustard",
+    "1/2 teaspoon celery seed (optional)",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Whisk the mayo, vinegar, sugar, mustard, celery seed and salt in a big bowl.",
+    "Add the cabbage and carrot and toss well.",
+    "Chill for 30 minutes so it softens a little."
+   ]
+  },
+  {
+   "id": "asian-sesame-slaw",
+   "name": "Asian sesame slaw",
+   "aliases": [
+    "asian slaw",
+    "sesame slaw",
+    "asian coleslaw",
+    "crunchy asian salad",
+    "napa cabbage slaw"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "cabbage",
+    "carrots",
+    "sesame oil",
+    "rice vinegar",
+    "peanuts"
+   ],
+   "ingredients": [
+    "4 cups (about 300 g) shredded napa or green cabbage",
+    "1 cup shredded red cabbage",
+    "1 carrot, shredded",
+    "1 red bell pepper, thinly sliced",
+    "2 green onions, sliced",
+    "1/4 cup chopped cilantro",
+    "1/4 cup (35 g) chopped peanuts",
+    "1 tablespoon toasted sesame seeds",
+    "Dressing: 3 tablespoons rice vinegar, 2 tablespoons soy sauce, 1 tablespoon sesame oil, 1 tablespoon honey, 1 tablespoon vegetable oil, 1 teaspoon grated ginger"
+   ],
+   "steps": [
+    "Put the cabbages, carrot, pepper, green onions and cilantro in a big bowl.",
+    "Whisk the dressing ingredients.",
+    "Pour over the slaw and toss.",
+    "Top with peanuts and sesame seeds."
+   ]
+  },
+  {
+   "id": "broccoli-salad",
+   "name": "Broccoli salad",
+   "aliases": [
+    "broccoli salad",
+    "broccoli bacon salad",
+    "creamy broccoli salad",
+    "broccoli raisin salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "broccoli",
+    "bacon",
+    "cheddar",
+    "raisins",
+    "mayonnaise"
+   ],
+   "ingredients": [
+    "6 cups (about 450 g) small raw broccoli florets",
+    "6 slices cooked bacon, crumbled",
+    "1 cup (115 g) shredded cheddar",
+    "1/2 cup (75 g) raisins or dried cranberries",
+    "1/4 red onion, finely diced",
+    "1/3 cup (45 g) sunflower seeds",
+    "Dressing: 3/4 cup (170 g) mayonnaise, 2 tablespoons sugar, 2 tablespoons apple cider vinegar"
+   ],
+   "steps": [
+    "Cut the broccoli into very small florets.",
+    "Whisk the dressing in a big bowl.",
+    "Add the broccoli, bacon, cheese, raisins, onion and sunflower seeds and toss.",
+    "Chill for 1 hour so the flavors blend."
+   ]
+  },
+  {
+   "id": "creamy-cucumber-salad",
+   "name": "Creamy cucumber dill salad",
+   "aliases": [
+    "cucumber salad",
+    "creamy cucumber salad",
+    "cucumber dill salad",
+    "sour cream cucumbers"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "cucumbers",
+    "sour cream",
+    "dill",
+    "red onion",
+    "vinegar"
+   ],
+   "ingredients": [
+    "2 English cucumbers, thinly sliced",
+    "1 teaspoon salt",
+    "1/2 cup (120 g) sour cream or Greek yogurt",
+    "1 tablespoon white vinegar",
+    "1 teaspoon sugar",
+    "2 tablespoons chopped fresh dill",
+    "1/4 red onion, very thinly sliced"
+   ],
+   "steps": [
+    "Toss the cucumber slices with the salt in a strainer and let drain for 20 minutes.",
+    "Pat them dry with a towel.",
+    "Stir the sour cream, vinegar, sugar and dill in a bowl.",
+    "Add the cucumbers and onion and toss.",
+    "Chill for 10 minutes before serving."
+   ]
+  },
+  {
+   "id": "smashed-cucumber-salad",
+   "name": "Smashed cucumber salad",
+   "aliases": [
+    "smashed cucumber salad",
+    "smashed cucumbers",
+    "chinese cucumber salad",
+    "pai huang gua",
+    "garlic cucumber salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "cucumbers",
+    "garlic",
+    "soy sauce",
+    "rice vinegar",
+    "sesame oil"
+   ],
+   "ingredients": [
+    "2 English cucumbers",
+    "1/2 teaspoon salt",
+    "1 teaspoon sugar",
+    "2 garlic cloves, minced",
+    "1 tablespoon soy sauce",
+    "1 tablespoon rice vinegar or black vinegar",
+    "1 teaspoon sesame oil",
+    "1 teaspoon chili oil (optional)",
+    "1 teaspoon toasted sesame seeds"
+   ],
+   "steps": [
+    "Lay a cucumber on a cutting board and press down hard with the flat side of a big knife or a rolling pin until it cracks. Ask an adult to help.",
+    "Break it into bite size chunks. Do the same with the other one.",
+    "Toss with the salt and sugar and let sit for 10 minutes, then pour off the water.",
+    "Stir the garlic, soy sauce, vinegar, sesame oil and chili oil.",
+    "Toss with the cucumbers and sprinkle with sesame seeds."
+   ]
+  },
+  {
+   "id": "tabbouleh",
+   "name": "Tabbouleh",
+   "aliases": [
+    "tabbouleh",
+    "tabouli",
+    "tabbouli",
+    "bulgur salad",
+    "parsley salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "parsley",
+    "bulgur",
+    "tomatoes",
+    "lemon",
+    "mint"
+   ],
+   "ingredients": [
+    "1/2 cup (90 g) fine bulgur wheat",
+    "1/2 cup (120 ml) boiling water",
+    "3 bunches flat-leaf parsley, finely chopped (about 3 cups)",
+    "1/4 cup chopped fresh mint",
+    "3 tomatoes, finely diced",
+    "4 green onions, thinly sliced",
+    "1/4 cup (60 ml) lemon juice",
+    "1/4 cup (60 ml) olive oil",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Pour the boiling water over the bulgur, cover and let sit for 20 minutes, until soft. Ask an adult to help.",
+    "Fluff it with a fork and let cool.",
+    "Have an adult help finely chop the parsley, mint and tomatoes.",
+    "Mix everything in a big bowl.",
+    "Taste and add more lemon or salt. It should taste bright and lemony."
+   ]
+  },
+  {
+   "id": "fattoush",
+   "name": "Fattoush",
+   "aliases": [
+    "fattoush",
+    "fattoush salad",
+    "pita salad",
+    "lebanese bread salad",
+    "crispy pita salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "pita",
+    "lettuce",
+    "cucumber",
+    "tomatoes",
+    "sumac"
+   ],
+   "ingredients": [
+    "2 pita breads, torn in pieces",
+    "2 tablespoons olive oil for the pita",
+    "1 head romaine, chopped",
+    "1 cucumber, diced",
+    "2 tomatoes, diced",
+    "5 radishes, thinly sliced",
+    "3 green onions, sliced",
+    "1/4 cup chopped mint and parsley",
+    "Dressing: 1/4 cup (60 ml) olive oil, 3 tablespoons lemon juice, 1 small garlic clove, grated, 1 teaspoon sumac, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Toss the pita pieces with oil and bake for 8 to 10 minutes, until crisp.",
+    "Put the lettuce, cucumber, tomatoes, radishes, green onions and herbs in a big bowl.",
+    "Whisk the dressing.",
+    "Toss the salad with the dressing, then add the crispy pita and toss again.",
+    "Sprinkle with more sumac."
+   ]
+  },
+  {
+   "id": "mediterranean-quinoa-salad",
+   "name": "Mediterranean quinoa salad",
+   "aliases": [
+    "quinoa salad",
+    "mediterranean quinoa salad",
+    "greek quinoa salad",
+    "quinoa feta salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "quinoa",
+    "cucumber",
+    "tomatoes",
+    "chickpeas",
+    "feta"
+   ],
+   "ingredients": [
+    "1 cup (170 g) quinoa, rinsed",
+    "2 cups (480 ml) water",
+    "1 cucumber, diced",
+    "1 cup cherry tomatoes, halved",
+    "1 can (15 oz / 425 g) chickpeas, drained and rinsed",
+    "1/2 cup (75 g) crumbled feta",
+    "1/4 cup sliced kalamata olives",
+    "1/4 cup chopped parsley",
+    "Dressing: 1/4 cup (60 ml) olive oil, 3 tablespoons lemon juice, 1 teaspoon dried oregano, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Simmer the quinoa in the water, covered, for 15 minutes. Ask an adult to help.",
+    "Let sit for 5 minutes, fluff and spread on a plate to cool for 15 minutes.",
+    "Whisk the dressing.",
+    "Toss the quinoa with the cucumber, tomatoes, chickpeas, olives and parsley.",
+    "Pour on the dressing and fold in the feta."
+   ]
+  },
+  {
+   "id": "three-bean-salad",
+   "name": "Three bean salad",
+   "aliases": [
+    "three bean salad",
+    "3 bean salad",
+    "bean salad",
+    "marinated bean salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "green beans",
+    "kidney beans",
+    "chickpeas",
+    "vinegar",
+    "red onion"
+   ],
+   "ingredients": [
+    "1 can (15 oz / 425 g) cut green beans, drained",
+    "1 can (15 oz / 425 g) kidney beans, drained and rinsed",
+    "1 can (15 oz / 425 g) chickpeas, drained and rinsed",
+    "1/2 red onion, finely diced",
+    "1/4 cup chopped parsley",
+    "Dressing: 1/3 cup (80 ml) apple cider vinegar, 1/4 cup (60 ml) vegetable oil, 1/4 cup (50 g) sugar, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Whisk the dressing until the sugar dissolves.",
+    "Put the beans, chickpeas, onion and parsley in a bowl.",
+    "Pour on the dressing and stir.",
+    "Chill for 1 hour, stirring once."
+   ]
+  },
+  {
+   "id": "waldorf-salad",
+   "name": "Waldorf salad",
+   "aliases": [
+    "waldorf salad",
+    "apple walnut salad",
+    "apple celery salad",
+    "waldorf"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "apples",
+    "celery",
+    "grapes",
+    "walnuts",
+    "mayonnaise"
+   ],
+   "ingredients": [
+    "2 apples, cored and diced",
+    "1 tablespoon lemon juice",
+    "2 celery stalks, sliced",
+    "1 cup red grapes, halved",
+    "1/2 cup (55 g) walnuts, toasted and chopped",
+    "1/3 cup (75 g) mayonnaise",
+    "1/3 cup (80 g) plain yogurt",
+    "Lettuce leaves to serve"
+   ],
+   "steps": [
+    "Toss the apples with the lemon juice so they stay white.",
+    "Stir the mayo and yogurt in a bowl.",
+    "Add the apples, celery, grapes and walnuts and fold together.",
+    "Serve on lettuce leaves."
+   ]
+  },
+  {
+   "id": "ambrosia-salad",
+   "name": "Ambrosia salad",
+   "aliases": [
+    "ambrosia",
+    "ambrosia salad",
+    "fluff salad",
+    "marshmallow fruit salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "mandarin oranges",
+    "pineapple",
+    "marshmallows",
+    "coconut",
+    "sour cream"
+   ],
+   "ingredients": [
+    "1 can (11 oz / 312 g) mandarin oranges, drained",
+    "1 can (8 oz / 227 g) pineapple tidbits, drained",
+    "1 cup (50 g) mini marshmallows",
+    "1 cup (75 g) sweetened shredded coconut",
+    "1/2 cup maraschino cherries, halved",
+    "1 cup (240 g) sour cream or whipped topping"
+   ],
+   "steps": [
+    "Drain the fruit well.",
+    "Stir everything together in a bowl.",
+    "Chill for 1 hour."
+   ]
+  },
+  {
+   "id": "watermelon-feta-salad",
+   "name": "Watermelon feta salad",
+   "aliases": [
+    "watermelon feta salad",
+    "watermelon salad",
+    "watermelon mint salad",
+    "watermelon cucumber salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "watermelon",
+    "feta",
+    "cucumber",
+    "mint",
+    "lime"
+   ],
+   "ingredients": [
+    "6 cups (900 g) cubed seedless watermelon",
+    "1 cucumber, diced",
+    "1/2 cup (75 g) crumbled feta",
+    "1/4 cup chopped fresh mint",
+    "2 tablespoons lime juice",
+    "1 tablespoon olive oil",
+    "Pinch of flaky salt"
+   ],
+   "steps": [
+    "Put the watermelon and cucumber in a big bowl.",
+    "Drizzle with lime juice and olive oil.",
+    "Toss gently.",
+    "Sprinkle with feta, mint and salt. Serve cold right away."
+   ]
+  },
+  {
+   "id": "strawberry-spinach-salad",
+   "name": "Strawberry spinach salad",
+   "aliases": [
+    "strawberry spinach salad",
+    "spinach salad",
+    "strawberry salad",
+    "poppy seed spinach salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "spinach",
+    "strawberries",
+    "almonds",
+    "feta",
+    "poppy seed dressing"
+   ],
+   "ingredients": [
+    "6 cups (180 g) baby spinach",
+    "2 cups (300 g) sliced strawberries",
+    "1/3 cup (35 g) sliced almonds, toasted",
+    "1/3 cup (50 g) crumbled feta or goat cheese",
+    "1/4 red onion, thinly sliced",
+    "Dressing: 3 tablespoons olive oil, 2 tablespoons apple cider vinegar, 1 tablespoon honey, 1 teaspoon poppy seeds, pinch of salt"
+   ],
+   "steps": [
+    "Put the spinach in a big bowl and top with strawberries, almonds, cheese and onion.",
+    "Shake the dressing in a jar.",
+    "Drizzle over the salad just before serving."
+   ]
+  },
+  {
+   "id": "massaged-kale-salad",
+   "name": "Massaged kale salad",
+   "aliases": [
+    "kale salad",
+    "massaged kale salad",
+    "kale caesar",
+    "lemon kale salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "kale",
+    "lemon",
+    "parmesan",
+    "olive oil",
+    "cranberries"
+   ],
+   "ingredients": [
+    "1 large bunch curly or lacinato kale",
+    "3 tablespoons olive oil",
+    "2 tablespoons lemon juice",
+    "1 teaspoon honey",
+    "1/4 teaspoon salt",
+    "1/3 cup (35 g) shaved parmesan",
+    "1/4 cup (35 g) dried cranberries",
+    "1/4 cup (35 g) toasted sunflower seeds or almonds"
+   ],
+   "steps": [
+    "Pull the kale leaves off the stems and tear or slice them thin.",
+    "Put the kale in a bowl with the oil, lemon juice, honey and salt.",
+    "Squeeze and rub the kale with your hands for 2 minutes, until it turns darker and softer.",
+    "Toss in the parmesan, cranberries and seeds."
+   ]
+  },
+  {
+   "id": "wedge-salad",
+   "name": "Wedge salad",
+   "aliases": [
+    "wedge salad",
+    "iceberg wedge salad",
+    "blue cheese wedge",
+    "wedge"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "iceberg lettuce",
+    "blue cheese",
+    "bacon",
+    "tomatoes"
+   ],
+   "ingredients": [
+    "1 head iceberg lettuce",
+    "4 slices cooked bacon, crumbled",
+    "1 cup cherry tomatoes, halved",
+    "2 green onions, sliced",
+    "Dressing: 1/2 cup (120 g) sour cream, 1/4 cup (60 g) mayonnaise, 2 tablespoons milk, 1/2 cup (60 g) crumbled blue cheese, 1 teaspoon lemon juice, pinch of salt and pepper"
+   ],
+   "steps": [
+    "Stir the dressing ingredients, mashing some of the blue cheese.",
+    "Have an adult cut the lettuce into 4 wedges through the core.",
+    "Put each wedge on a plate.",
+    "Spoon the dressing over the wedges.",
+    "Top with bacon, tomatoes and green onions."
+   ]
+  },
+  {
+   "id": "taco-salad",
+   "name": "Taco salad",
+   "aliases": [
+    "taco salad",
+    "beef taco salad",
+    "mexican salad",
+    "taco salad bowl"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "ground beef",
+    "lettuce",
+    "cheddar",
+    "tomatoes",
+    "tortilla chips"
+   ],
+   "ingredients": [
+    "1 lb (450 g) ground beef",
+    "2 tablespoons taco seasoning",
+    "1/3 cup (80 ml) water",
+    "1 head romaine, chopped",
+    "1 cup cherry tomatoes, halved",
+    "1 can (15 oz / 425 g) black beans, drained and rinsed",
+    "1 cup (115 g) shredded cheddar",
+    "2 cups crushed tortilla chips",
+    "Sour cream and salsa to top"
+   ],
+   "steps": [
+    "Cook the beef in a pan over medium high heat for 7 to 8 minutes, breaking it up, until no pink is left. Ask an adult to help.",
+    "Drain the fat, stir in the taco seasoning and water, and simmer for 3 minutes.",
+    "Put the lettuce in bowls and top with beef, tomatoes, beans and cheese.",
+    "Add crushed chips, sour cream and salsa just before eating."
+   ]
+  },
+  {
+   "id": "panzanella",
+   "name": "Panzanella",
+   "aliases": [
+    "panzanella",
+    "bread salad",
+    "tuscan bread salad",
+    "tomato bread salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "bread",
+    "tomatoes",
+    "cucumber",
+    "basil",
+    "olive oil"
+   ],
+   "ingredients": [
+    "4 cups (about 200 g) crusty bread cubes",
+    "2 tablespoons olive oil for the bread",
+    "1 1/2 lb (680 g) ripe tomatoes, cut in chunks",
+    "1 cucumber, sliced",
+    "1/4 red onion, thinly sliced",
+    "1/2 cup torn basil",
+    "Dressing: 1/4 cup (60 ml) olive oil, 2 tablespoons red wine vinegar, 1 small garlic clove, grated, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Toss the bread with oil and bake for 10 minutes, until crisp at the edges.",
+    "Put the tomatoes, cucumber and onion in a big bowl with the salt from the dressing. Let sit for 10 minutes so the juice comes out.",
+    "Whisk the rest of the dressing.",
+    "Add the bread, dressing and basil and toss.",
+    "Let sit for 10 minutes so the bread soaks up the juices."
+   ]
+  },
+  {
+   "id": "thai-mango-salad",
+   "name": "Thai mango salad",
+   "aliases": [
+    "thai mango salad",
+    "mango salad",
+    "green mango salad",
+    "yum mamuang"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "mango",
+    "red bell pepper",
+    "cilantro",
+    "peanuts",
+    "lime"
+   ],
+   "ingredients": [
+    "2 firm, slightly underripe mangoes, cut in thin strips",
+    "1 red bell pepper, thinly sliced",
+    "1/4 red onion, thinly sliced",
+    "1/4 cup chopped cilantro",
+    "2 tablespoons chopped mint",
+    "1/4 cup (35 g) chopped roasted peanuts",
+    "Dressing: 2 tablespoons lime juice, 1 tablespoon fish sauce or soy sauce, 1 tablespoon brown sugar, 1/2 small chili, minced (optional)"
+   ],
+   "steps": [
+    "Have an adult peel and cut the mangoes into thin strips.",
+    "Stir the dressing until the sugar dissolves.",
+    "Toss the mango, pepper, onion, cilantro and mint with the dressing.",
+    "Top with peanuts."
+   ]
+  },
+  {
+   "id": "kachumber-salad",
+   "name": "Kachumber salad",
+   "aliases": [
+    "kachumber",
+    "kachumber salad",
+    "indian cucumber tomato salad",
+    "cucumber tomato onion salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "cucumber",
+    "tomatoes",
+    "red onion",
+    "lemon",
+    "cilantro"
+   ],
+   "ingredients": [
+    "1 cucumber, diced small",
+    "2 tomatoes, diced small",
+    "1/2 red onion, diced small",
+    "2 tablespoons chopped cilantro",
+    "1 tablespoon lemon juice",
+    "1/4 teaspoon salt",
+    "1/4 teaspoon ground cumin or chaat masala"
+   ],
+   "steps": [
+    "Have an adult help dice the vegetables into small, even pieces.",
+    "Put everything in a bowl.",
+    "Toss and serve right away, so it stays crunchy."
+   ]
+  },
+  {
+   "id": "lentil-salad",
+   "name": "Lemony lentil salad",
+   "aliases": [
+    "lentil salad",
+    "green lentil salad",
+    "french lentil salad",
+    "lentil feta salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "lentils",
+    "red onion",
+    "carrot",
+    "lemon",
+    "parsley"
+   ],
+   "ingredients": [
+    "1 cup (200 g) green or brown lentils, rinsed",
+    "1 bay leaf",
+    "1 carrot, finely diced",
+    "1/4 red onion, finely diced",
+    "1/2 cup chopped parsley",
+    "1/3 cup (50 g) crumbled feta (optional)",
+    "Dressing: 1/4 cup (60 ml) olive oil, 3 tablespoons lemon juice, 1 teaspoon Dijon mustard, 1 small garlic clove, grated, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Cover the lentils and bay leaf with 3 cups of water in a pot and bring to a boil. Ask an adult to help.",
+    "Simmer for 20 to 25 minutes, until tender but not mushy. Drain and take out the bay leaf.",
+    "Whisk the dressing and toss it with the warm lentils.",
+    "Let cool for 10 minutes.",
+    "Stir in the carrot, onion, parsley and feta."
+   ]
+  },
+  {
+   "id": "orzo-salad",
+   "name": "Lemon orzo salad",
+   "aliases": [
+    "orzo salad",
+    "lemon orzo salad",
+    "greek orzo salad",
+    "orzo pasta salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "30 min",
+   "main": [
+    "orzo",
+    "cucumber",
+    "tomatoes",
+    "feta",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 cup (200 g) orzo",
+    "1 cucumber, diced",
+    "1 cup cherry tomatoes, quartered",
+    "1/2 cup (75 g) crumbled feta",
+    "1/4 cup chopped parsley or basil",
+    "2 cups (60 g) baby spinach, chopped",
+    "Dressing: 1/4 cup (60 ml) olive oil, 3 tablespoons lemon juice, 1 teaspoon honey, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Cook the orzo in salted boiling water following the package. Ask an adult to help drain it.",
+    "Rinse with cold water and drain well.",
+    "Whisk the dressing.",
+    "Toss the orzo with the cucumber, tomatoes, spinach, herbs and dressing.",
+    "Fold in the feta."
+   ]
+  },
+  {
+   "id": "carrot-raisin-salad",
+   "name": "Carrot raisin salad",
+   "aliases": [
+    "carrot raisin salad",
+    "carrot salad",
+    "shredded carrot salad",
+    "carrot and raisin salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "carrots",
+    "raisins",
+    "mayonnaise",
+    "pineapple"
+   ],
+   "ingredients": [
+    "1 lb (450 g) carrots, peeled and shredded",
+    "1/2 cup (75 g) raisins",
+    "1 can (8 oz / 227 g) crushed pineapple, drained",
+    "1/3 cup (75 g) mayonnaise or Greek yogurt",
+    "1 tablespoon honey",
+    "1 tablespoon lemon juice",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Shred the carrots on a box grater, keeping your fingers away from the blades.",
+    "Stir the mayo, honey, lemon juice and salt in a bowl.",
+    "Add the carrots, raisins and pineapple and toss.",
+    "Chill for 30 minutes."
+   ]
+  },
+  {
+   "id": "summer-corn-salad",
+   "name": "Summer corn salad",
+   "aliases": [
+    "corn salad",
+    "summer corn salad",
+    "corn tomato salad",
+    "fresh corn salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "25 min",
+   "main": [
+    "corn",
+    "tomatoes",
+    "cucumber",
+    "basil",
+    "lime"
+   ],
+   "ingredients": [
+    "4 ears corn, or 3 cups (450 g) frozen corn, thawed",
+    "1 cup cherry tomatoes, halved",
+    "1 cucumber, diced",
+    "1/4 red onion, finely diced",
+    "1/4 cup torn basil or cilantro",
+    "2 tablespoons olive oil",
+    "2 tablespoons lime juice",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Boil the corn ears for 4 minutes, let cool, and have an adult cut off the kernels. Frozen corn can skip this.",
+    "Put the corn, tomatoes, cucumber, onion and basil in a bowl.",
+    "Drizzle with olive oil and lime juice and sprinkle with salt.",
+    "Toss and serve."
+   ]
+  },
+  {
+   "id": "chinese-chicken-salad",
+   "name": "Chinese chicken salad",
+   "aliases": [
+    "chinese chicken salad",
+    "asian chicken salad",
+    "sesame chicken salad",
+    "mandarin chicken salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "chicken",
+    "cabbage",
+    "mandarin oranges",
+    "wonton strips",
+    "sesame dressing"
+   ],
+   "ingredients": [
+    "2 cups (250 g) shredded cooked chicken",
+    "4 cups (about 300 g) shredded napa cabbage or romaine",
+    "1 cup shredded red cabbage",
+    "1 carrot, shredded",
+    "1 can (11 oz / 312 g) mandarin oranges, drained",
+    "3 green onions, sliced",
+    "1/4 cup (25 g) sliced almonds, toasted",
+    "1 cup crispy wonton strips or chow mein noodles",
+    "Dressing: 1/4 cup (60 ml) rice vinegar, 2 tablespoons soy sauce, 2 tablespoons honey, 2 tablespoons vegetable oil, 1 tablespoon sesame oil, 1 teaspoon grated ginger"
+   ],
+   "steps": [
+    "Whisk the dressing.",
+    "Toss the chicken, cabbages, carrot and green onions with most of the dressing.",
+    "Top with mandarin oranges, almonds and wonton strips.",
+    "Drizzle with the rest of the dressing."
+   ]
+  },
+  {
+   "id": "avocado-tomato-salad",
+   "name": "Avocado tomato salad",
+   "aliases": [
+    "avocado salad",
+    "avocado tomato salad",
+    "tomato avocado salad",
+    "avocado cucumber salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "avocado",
+    "tomatoes",
+    "red onion",
+    "cilantro",
+    "lime"
+   ],
+   "ingredients": [
+    "2 ripe avocados, diced",
+    "2 cups cherry tomatoes, halved",
+    "1/4 red onion, thinly sliced",
+    "1/4 cup chopped cilantro",
+    "2 tablespoons lime juice",
+    "1 tablespoon olive oil",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Have an adult cut and pit the avocados.",
+    "Put the avocado, tomatoes, onion and cilantro in a bowl.",
+    "Drizzle with lime juice and olive oil and sprinkle with salt.",
+    "Toss gently and eat right away."
+   ]
+  },
+  {
+   "id": "arugula-parmesan-salad",
+   "name": "Arugula parmesan salad",
+   "aliases": [
+    "arugula salad",
+    "rocket salad",
+    "arugula parmesan salad",
+    "lemon arugula salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "arugula",
+    "parmesan",
+    "lemon",
+    "olive oil"
+   ],
+   "ingredients": [
+    "5 oz (140 g) baby arugula",
+    "1/3 cup (35 g) shaved parmesan",
+    "2 tablespoons olive oil",
+    "1 tablespoon lemon juice",
+    "1/4 teaspoon flaky salt and a pinch of pepper",
+    "2 tablespoons toasted pine nuts (optional)"
+   ],
+   "steps": [
+    "Put the arugula in a big bowl.",
+    "Drizzle with olive oil and lemon juice and sprinkle with salt and pepper.",
+    "Toss gently with your hands.",
+    "Top with parmesan and pine nuts. Serve right away."
+   ]
+  },
+  {
+   "id": "antipasto-salad",
+   "name": "Antipasto salad",
+   "aliases": [
+    "antipasto salad",
+    "antipasto",
+    "italian chopped salad",
+    "chopped italian salad"
+   ],
+   "category": "Salad",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "romaine",
+    "salami",
+    "provolone",
+    "olives",
+    "peppers"
+   ],
+   "ingredients": [
+    "1 head romaine, chopped",
+    "4 oz (115 g) salami, sliced into strips",
+    "4 oz (115 g) provolone, cubed",
+    "1/2 cup (75 g) olives",
+    "1/2 cup jarred roasted red peppers, sliced",
+    "1/2 cup marinated artichoke hearts, quartered",
+    "1/2 cup cherry tomatoes, halved",
+    "1/4 cup sliced pepperoncini (optional)",
+    "Dressing: 1/3 cup (80 ml) olive oil, 2 tablespoons red wine vinegar, 1 teaspoon Italian seasoning, 1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Put the lettuce in a big bowl.",
+    "Add the salami, cheese, olives, peppers, artichokes, tomatoes and pepperoncini.",
+    "Shake the dressing in a jar.",
+    "Toss the salad with the dressing just before serving."
+   ]
+  },
+  {
+   "id": "soba-noodle-salad",
+   "name": "Sesame soba noodle salad",
+   "aliases": [
+    "soba noodle salad",
+    "soba salad",
+    "cold soba salad",
+    "sesame noodle salad",
+    "buckwheat noodle salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "soba noodles",
+    "cucumber",
+    "carrot",
+    "edamame",
+    "sesame dressing"
+   ],
+   "ingredients": [
+    "8 oz (225 g) soba noodles",
+    "1 cucumber, cut in thin sticks",
+    "1 carrot, shredded",
+    "1 cup (150 g) shelled edamame, thawed",
+    "2 green onions, sliced",
+    "1 tablespoon toasted sesame seeds",
+    "Dressing: 3 tablespoons soy sauce, 2 tablespoons rice vinegar, 1 tablespoon sesame oil, 1 tablespoon honey, 1 teaspoon grated ginger"
+   ],
+   "steps": [
+    "Cook the soba in boiling water following the package, usually 4 to 5 minutes. Ask an adult to help.",
+    "Drain and rinse under cold water, rubbing gently to wash off the starch.",
+    "Whisk the dressing.",
+    "Toss the noodles with the vegetables and dressing.",
+    "Sprinkle with sesame seeds."
+   ]
+  },
+  {
+   "id": "olivier-salad",
+   "name": "Olivier salad",
+   "aliases": [
+    "olivier salad",
+    "russian salad",
+    "salade olivier",
+    "ensalada rusa",
+    "russian potato salad"
+   ],
+   "category": "Salad",
+   "servings": 8,
+   "time": "1 hr 30 min",
+   "main": [
+    "potatoes",
+    "carrots",
+    "peas",
+    "eggs",
+    "pickles"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) potatoes, peeled",
+    "2 carrots, peeled",
+    "3 hard boiled eggs",
+    "1 cup (140 g) frozen peas, thawed",
+    "3 dill pickles, diced",
+    "4 oz (115 g) cooked ham or bologna, diced (optional)",
+    "3/4 cup (170 g) mayonnaise",
+    "1/2 teaspoon salt",
+    "1 tablespoon chopped dill"
+   ],
+   "steps": [
+    "Boil the whole potatoes and carrots for 20 to 25 minutes, until a knife slides in. Ask an adult to help.",
+    "Let cool for 30 minutes.",
+    "Dice the potatoes, carrots, eggs and pickles into small cubes about the size of the peas.",
+    "Put everything in a big bowl with the peas and ham.",
+    "Fold in the mayo, salt and dill.",
+    "Chill for 30 minutes."
+   ]
+  },
+  {
+   "id": "mediterranean-chickpea-salad",
+   "name": "Mediterranean chickpea salad",
+   "aliases": [
+    "chickpea salad",
+    "mediterranean chickpea salad",
+    "garbanzo bean salad",
+    "chickpea cucumber salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "chickpeas",
+    "cucumber",
+    "tomatoes",
+    "red onion",
+    "lemon"
+   ],
+   "ingredients": [
+    "2 cans (15 oz / 425 g each) chickpeas, drained and rinsed",
+    "1 cucumber, diced",
+    "1 cup cherry tomatoes, halved",
+    "1/4 red onion, finely diced",
+    "1/4 cup chopped parsley",
+    "1/3 cup (50 g) crumbled feta (optional)",
+    "Dressing: 3 tablespoons olive oil, 2 tablespoons lemon juice, 1/2 teaspoon dried oregano, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Put the chickpeas, cucumber, tomatoes, onion and parsley in a bowl.",
+    "Whisk the dressing.",
+    "Toss everything together and top with feta."
+   ]
+  },
+  {
+   "id": "beet-goat-cheese-salad",
+   "name": "Beet and goat cheese salad",
+   "aliases": [
+    "beet salad",
+    "beet and goat cheese salad",
+    "roasted beet salad",
+    "beetroot salad"
+   ],
+   "category": "Salad",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "beets",
+    "goat cheese",
+    "greens",
+    "walnuts",
+    "balsamic"
+   ],
+   "ingredients": [
+    "1 package (8 oz / 225 g) cooked peeled beets, cut in wedges",
+    "5 oz (140 g) mixed greens or arugula",
+    "2 oz (55 g) goat cheese, crumbled",
+    "1/4 cup (30 g) candied or toasted walnuts",
+    "Dressing: 3 tablespoons olive oil, 1 tablespoon balsamic vinegar, 1 teaspoon honey, pinch of salt"
+   ],
+   "steps": [
+    "Shake the dressing in a jar.",
+    "Toss the greens with half the dressing and spread on a platter.",
+    "Add the beets. They stain everything pink, so add them last.",
+    "Top with goat cheese and walnuts and drizzle with the rest of the dressing."
+   ]
+  }
+ ]
+}

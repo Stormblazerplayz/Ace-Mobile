@@ -1,0 +1,9 @@
+# tag: tech.procreate.extra
+how do i blur in procreate | gaussian blur procreate => Tap the magic wand Adjustments icon, choose Gaussian Blur, pick Layer or Pencil, then slide your finger across the screen to set the amount.
+what is quickmenu in procreate | procreate quick menu => QuickMenu is a ring of six actions you can pop up with a gesture you choose in Gesture controls, like a touch and hold or square button tap.
+how do i watch my procreate timelapse | timelapse replay procreate => Open the wrench Actions menu, tap Video, then Time-lapse Replay. Export it from the same menu to share how you drew it.
+what is procreate pocket | procreate on iphone => Procreate Pocket is the iPhone version of Procreate, sold separately, with most of the same brushes and tools on a smaller screen.
+can i paint 3d models in procreate | procreate 3d painting => Yes, Procreate can open OBJ, USDZ and USDA models with UVs and paint right on them, and you can view them in AR.
+what is palm rejection | hand touching ipad while drawing => Palm rejection ignores your hand resting on the screen while you draw with Apple Pencil. If touches still interfere, turn off finger painting in your art app.
+what is barrel roll on apple pencil pro | rotate pencil to turn brush => Apple Pencil Pro has a gyroscope, so rolling it in your fingers rotates shaped brushes and pens in apps that support it.
+what is lumafusion | video editor for ipad => LumaFusion is a paid video editing app for iPad and iPhone with multiple tracks, keyframes and effects, popular before Resolve came to iPad.

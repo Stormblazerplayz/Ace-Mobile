@@ -1,0 +1,1951 @@
+{
+ "recipes": [
+  {
+   "id": "deviled-eggs",
+   "name": "Deviled eggs",
+   "aliases": [
+    "deviled eggs",
+    "deviled egg",
+    "devilled eggs",
+    "stuffed eggs",
+    "egg mayo bites"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "egg",
+    "mayonnaise",
+    "mustard",
+    "paprika"
+   ],
+   "ingredients": [
+    "6 large eggs",
+    "1/4 cup (60 g) mayonnaise",
+    "1 teaspoon yellow mustard",
+    "1 teaspoon pickle juice or white vinegar",
+    "Salt and pepper",
+    "Paprika and chopped chives to top"
+   ],
+   "steps": [
+    "Put the eggs in a pot and cover with cold water by 1 inch.",
+    "Bring to a boil, then turn off the heat, cover and let sit for 12 minutes. Ask an adult to help.",
+    "Move the eggs to a bowl of ice water for 10 minutes.",
+    "Peel the eggs and cut them in half lengthwise.",
+    "Pop the yolks into a bowl and mash with the mayo, mustard, pickle juice, salt and pepper.",
+    "Spoon or pipe the yolk mix back into the whites.",
+    "Sprinkle with paprika and chives. Keep in the fridge."
+   ]
+  },
+  {
+   "id": "spinach-artichoke-dip",
+   "name": "Hot spinach artichoke dip",
+   "aliases": [
+    "spinach artichoke dip",
+    "spinach dip",
+    "artichoke dip",
+    "hot spinach dip",
+    "spinach and artichoke dip"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "spinach",
+    "artichoke",
+    "cream cheese",
+    "parmesan",
+    "mozzarella"
+   ],
+   "ingredients": [
+    "8 oz (225 g) cream cheese, softened",
+    "1/2 cup (120 g) sour cream",
+    "1/4 cup (60 g) mayonnaise",
+    "1 cup (100 g) grated parmesan",
+    "1 cup (115 g) shredded mozzarella, divided",
+    "1 can (14 oz / 400 g) artichoke hearts, drained and chopped",
+    "10 oz (285 g) frozen chopped spinach, thawed and squeezed dry",
+    "2 garlic cloves, minced",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Squeeze the spinach in a clean towel until no more water comes out.",
+    "Stir the cream cheese, sour cream, mayo, parmesan, half the mozzarella and the garlic until smooth.",
+    "Stir in the artichokes, spinach and salt.",
+    "Spread in a small baking dish and top with the rest of the mozzarella.",
+    "Bake for 20 to 25 minutes, until bubbly and golden.",
+    "Serve warm with tortilla chips, pita chips or bread."
+   ]
+  },
+  {
+   "id": "queso-dip",
+   "name": "Queso dip",
+   "aliases": [
+    "queso",
+    "queso dip",
+    "cheese dip",
+    "chile con queso",
+    "white queso"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "american cheese",
+    "monterey jack",
+    "milk",
+    "green chiles"
+   ],
+   "ingredients": [
+    "1 tablespoon butter",
+    "1 tablespoon all-purpose flour",
+    "1 cup (240 ml) milk",
+    "8 oz (225 g) white American cheese from the deli, torn",
+    "1 cup (115 g) shredded Monterey Jack",
+    "1 can (4 oz / 115 g) diced green chiles",
+    "1/2 teaspoon ground cumin",
+    "1/4 teaspoon garlic powder"
+   ],
+   "steps": [
+    "Melt the butter in a pot over medium low heat and whisk in the flour for 1 minute. Ask an adult to help.",
+    "Slowly whisk in the milk and cook for 2 to 3 minutes, until a little thick.",
+    "Add the cheeses a handful at a time, stirring until melted and smooth.",
+    "Stir in the green chiles, cumin and garlic powder.",
+    "Serve warm with tortilla chips. Stir in a splash of milk if it gets thick."
+   ]
+  },
+  {
+   "id": "seven-layer-dip",
+   "name": "Seven layer dip",
+   "aliases": [
+    "seven layer dip",
+    "7 layer dip",
+    "layered bean dip",
+    "taco dip",
+    "mexican layer dip"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "20 min",
+   "main": [
+    "refried beans",
+    "sour cream",
+    "guacamole",
+    "salsa",
+    "cheddar"
+   ],
+   "ingredients": [
+    "1 can (16 oz / 450 g) refried beans",
+    "1 tablespoon taco seasoning",
+    "1 cup (240 g) sour cream",
+    "1 cup (240 g) guacamole",
+    "1 cup (260 g) salsa, drained a little",
+    "1 1/2 cups (170 g) shredded cheddar",
+    "1 cup shredded lettuce",
+    "1/4 cup sliced black olives and 2 sliced green onions"
+   ],
+   "steps": [
+    "Stir the refried beans and taco seasoning and spread in a 9 inch dish.",
+    "Spread the sour cream over the beans.",
+    "Spread the guacamole on top, then the salsa.",
+    "Sprinkle on the cheese and lettuce.",
+    "Top with olives and green onions.",
+    "Serve with tortilla chips, or chill for up to 4 hours."
+   ]
+  },
+  {
+   "id": "buffalo-chicken-dip",
+   "name": "Buffalo chicken dip",
+   "aliases": [
+    "buffalo chicken dip",
+    "buffalo dip",
+    "hot wing dip",
+    "chicken wing dip"
+   ],
+   "category": "Snack",
+   "servings": 10,
+   "time": "35 min",
+   "main": [
+    "chicken",
+    "cream cheese",
+    "hot sauce",
+    "ranch",
+    "cheddar"
+   ],
+   "ingredients": [
+    "2 cups (250 g) shredded cooked chicken, like rotisserie chicken",
+    "8 oz (225 g) cream cheese, softened",
+    "1/2 cup (120 ml) ranch or blue cheese dressing",
+    "1/2 cup (120 ml) buffalo hot sauce",
+    "1 cup (115 g) shredded cheddar or mozzarella"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Stir the cream cheese, dressing and hot sauce until smooth.",
+    "Stir in the chicken and half the cheese.",
+    "Spread in a small baking dish and top with the rest of the cheese.",
+    "Bake for 20 minutes, until hot and bubbly.",
+    "Serve with celery, crackers or tortilla chips."
+   ]
+  },
+  {
+   "id": "french-onion-dip",
+   "name": "French onion dip",
+   "aliases": [
+    "french onion dip",
+    "onion dip",
+    "caramelized onion dip",
+    "chip dip"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "1 hr 45 min",
+   "main": [
+    "onions",
+    "sour cream",
+    "butter",
+    "mayonnaise"
+   ],
+   "ingredients": [
+    "2 tablespoons butter",
+    "2 large onions, finely chopped",
+    "1/2 teaspoon salt",
+    "1 1/2 cups (360 g) sour cream",
+    "1/2 cup (120 g) mayonnaise",
+    "1/2 teaspoon garlic powder",
+    "1 teaspoon Worcestershire sauce",
+    "Black pepper"
+   ],
+   "steps": [
+    "Chop the onions small. Ask an adult to help with the knife.",
+    "Melt the butter in a pan over medium low heat and add the onions and salt.",
+    "Cook for 25 to 30 minutes, stirring now and then, until soft and deep golden brown.",
+    "Let cool for 15 minutes.",
+    "Stir the onions into the sour cream, mayo, garlic powder, Worcestershire and pepper.",
+    "Chill for 1 hour. Serve with potato chips."
+   ]
+  },
+  {
+   "id": "baba-ganoush",
+   "name": "Baba ganoush",
+   "aliases": [
+    "baba ganoush",
+    "baba ghanoush",
+    "eggplant dip",
+    "aubergine dip",
+    "mutabal"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "eggplant",
+    "tahini",
+    "lemon",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 large eggplant (about 1 1/2 lb / 680 g)",
+    "3 tablespoons tahini",
+    "2 tablespoons lemon juice",
+    "1 small garlic clove, grated",
+    "1/2 teaspoon salt",
+    "2 tablespoons olive oil",
+    "Chopped parsley to top"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Poke the eggplant all over with a fork and put it on a lined baking sheet.",
+    "Roast for 40 to 45 minutes, turning once, until it collapses and is very soft.",
+    "Let cool for 15 minutes, then cut it open and scoop the flesh into a strainer to drain for 5 minutes.",
+    "Mash the eggplant with the tahini, lemon juice, garlic and salt.",
+    "Spread in a bowl, drizzle with olive oil and sprinkle with parsley.",
+    "Serve with pita."
+   ]
+  },
+  {
+   "id": "fruit-dip",
+   "name": "Fluffy fruit dip",
+   "aliases": [
+    "fruit dip",
+    "cream cheese fruit dip",
+    "marshmallow fruit dip",
+    "fruit dip for strawberries"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "10 min",
+   "main": [
+    "cream cheese",
+    "marshmallow creme",
+    "fruit"
+   ],
+   "ingredients": [
+    "8 oz (225 g) cream cheese, softened",
+    "1 jar (7 oz / 200 g) marshmallow creme",
+    "1 teaspoon orange zest or vanilla (optional)",
+    "Fruit to dip: strawberries, apple slices, grapes, pineapple"
+   ],
+   "steps": [
+    "Beat the cream cheese until smooth.",
+    "Beat in the marshmallow creme and zest until fluffy.",
+    "Spoon into a bowl and serve with fruit. Keep in the fridge."
+   ]
+  },
+  {
+   "id": "trail-mix",
+   "name": "Trail mix",
+   "aliases": [
+    "trail mix",
+    "gorp",
+    "snack mix",
+    "hiking mix",
+    "nut mix"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "5 min",
+   "main": [
+    "peanuts",
+    "raisins",
+    "chocolate candies",
+    "pretzels"
+   ],
+   "ingredients": [
+    "1 cup (145 g) roasted peanuts or almonds",
+    "1 cup (150 g) raisins",
+    "1 cup (200 g) candy-coated chocolate pieces",
+    "1 cup (60 g) mini pretzels",
+    "1/2 cup (70 g) sunflower seeds",
+    "1/2 cup (60 g) dried cranberries"
+   ],
+   "steps": [
+    "Put everything in a big bowl.",
+    "Stir to mix.",
+    "Scoop 1/2 cup into small bags for each serving.",
+    "Store in a sealed container for up to 2 weeks."
+   ]
+  },
+  {
+   "id": "chewy-granola-bars",
+   "name": "Chewy granola bars",
+   "aliases": [
+    "granola bars",
+    "chewy granola bars",
+    "granola bar",
+    "oat bars",
+    "homemade granola bars"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "2 hr 30 min",
+   "main": [
+    "oats",
+    "honey",
+    "peanut butter",
+    "butter",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "2 1/2 cups (225 g) old-fashioned rolled oats",
+    "1/2 cup (55 g) chopped almonds",
+    "1/2 cup (170 g) honey",
+    "1/4 cup (55 g) butter",
+    "1/4 cup (55 g) packed brown sugar",
+    "1/4 cup (65 g) peanut butter",
+    "1 teaspoon vanilla extract",
+    "1/4 teaspoon salt",
+    "1/3 cup (55 g) mini chocolate chips"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Spread the oats and almonds on a baking sheet and toast for 10 minutes. Put them in a big bowl.",
+    "Line an 8 by 8 inch pan with parchment.",
+    "Heat the honey, butter and brown sugar in a pot until it bubbles, then simmer for 2 minutes, stirring.",
+    "Take it off the heat and stir in the peanut butter, vanilla and salt.",
+    "Pour over the oats and stir well.",
+    "Press firmly into the pan and let cool for 10 minutes, then press the chocolate chips on top.",
+    "Chill for 2 hours, then cut into 12 bars."
+   ]
+  },
+  {
+   "id": "energy-balls",
+   "name": "No-bake energy balls",
+   "aliases": [
+    "energy balls",
+    "energy bites",
+    "protein balls",
+    "oat balls",
+    "no bake energy bites"
+   ],
+   "category": "Snack",
+   "servings": 16,
+   "time": "40 min",
+   "main": [
+    "oats",
+    "peanut butter",
+    "honey",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "1 cup (90 g) old-fashioned rolled oats",
+    "1/2 cup (130 g) peanut butter",
+    "1/3 cup (115 g) honey",
+    "1/2 cup (85 g) mini chocolate chips",
+    "2 tablespoons ground flax or chia seeds",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Stir everything together in a bowl.",
+    "Chill for 30 minutes so it is easier to roll.",
+    "Roll into 1 inch balls.",
+    "Keep in a sealed container in the fridge for up to a week."
+   ]
+  },
+  {
+   "id": "puppy-chow",
+   "name": "Puppy chow",
+   "aliases": [
+    "puppy chow",
+    "muddy buddies",
+    "monkey munch",
+    "reindeer chow",
+    "chocolate chex mix"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "20 min",
+   "main": [
+    "chex cereal",
+    "chocolate chips",
+    "peanut butter",
+    "powdered sugar"
+   ],
+   "ingredients": [
+    "9 cups (about 270 g) rice or corn Chex cereal",
+    "1 cup (170 g) chocolate chips",
+    "1/2 cup (130 g) peanut butter",
+    "1/4 cup (55 g) butter",
+    "1 teaspoon vanilla extract",
+    "1 1/2 cups (180 g) powdered sugar"
+   ],
+   "steps": [
+    "Put the cereal in a very big bowl.",
+    "Microwave the chocolate chips, peanut butter and butter for 1 minute, stir, then 30 seconds more until smooth.",
+    "Stir in the vanilla.",
+    "Pour over the cereal and gently stir until coated.",
+    "Put the cereal in a big zip bag with the powdered sugar, seal and shake until coated.",
+    "Spread on a tray to cool for 10 minutes."
+   ]
+  },
+  {
+   "id": "chex-party-mix",
+   "name": "Oven party mix",
+   "aliases": [
+    "chex mix",
+    "party mix",
+    "savory snack mix",
+    "homemade chex mix",
+    "nuts and bolts"
+   ],
+   "category": "Snack",
+   "servings": 16,
+   "time": "1 hr 15 min",
+   "main": [
+    "chex cereal",
+    "pretzels",
+    "nuts",
+    "butter",
+    "worcestershire"
+   ],
+   "ingredients": [
+    "3 cups corn Chex cereal",
+    "3 cups rice Chex cereal",
+    "3 cups wheat Chex cereal",
+    "1 cup (140 g) mixed nuts",
+    "1 cup (45 g) bite size pretzels",
+    "1 cup (60 g) garlic bagel chips",
+    "6 tablespoons (85 g) butter, melted",
+    "2 tablespoons Worcestershire sauce",
+    "1 1/2 teaspoons seasoned salt",
+    "3/4 teaspoon garlic powder",
+    "1/2 teaspoon onion powder"
+   ],
+   "steps": [
+    "Heat the oven to 250°F (120°C). Ask an adult to help.",
+    "Mix the cereals, nuts, pretzels and bagel chips in a big roasting pan.",
+    "Stir the butter, Worcestershire and spices together.",
+    "Pour over the mix and stir until coated.",
+    "Bake for 1 hour, stirring every 15 minutes.",
+    "Spread on paper towels to cool."
+   ]
+  },
+  {
+   "id": "caramel-corn",
+   "name": "Caramel popcorn",
+   "aliases": [
+    "caramel corn",
+    "caramel popcorn",
+    "toffee popcorn",
+    "cracker jack popcorn"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "1 hr 15 min",
+   "main": [
+    "popcorn",
+    "brown sugar",
+    "butter",
+    "corn syrup"
+   ],
+   "ingredients": [
+    "12 cups (about 100 g) popped popcorn, from 1/2 cup kernels",
+    "1 cup (220 g) packed brown sugar",
+    "1/2 cup (115 g) butter",
+    "1/4 cup (60 ml) light corn syrup",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon baking soda",
+    "1 teaspoon vanilla extract"
+   ],
+   "steps": [
+    "Heat the oven to 250°F (120°C). Ask an adult to help.",
+    "Put the popcorn in a big greased roasting pan and pick out any unpopped kernels.",
+    "Heat the brown sugar, butter, corn syrup and salt in a pot, stirring, until it boils. An adult should do this, the caramel is very hot.",
+    "Boil for 4 minutes without stirring.",
+    "Take it off the heat and stir in the baking soda and vanilla. It will foam.",
+    "Pour over the popcorn and stir to coat.",
+    "Bake for 45 minutes, stirring every 15 minutes.",
+    "Spread on parchment to cool for 15 minutes, then break apart."
+   ]
+  },
+  {
+   "id": "kettle-corn",
+   "name": "Kettle corn",
+   "aliases": [
+    "kettle corn",
+    "sweet and salty popcorn",
+    "kettle popcorn",
+    "sweet popcorn"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "popcorn",
+    "sugar",
+    "oil",
+    "salt"
+   ],
+   "ingredients": [
+    "1/4 cup (60 ml) vegetable oil",
+    "1/2 cup (100 g) popcorn kernels",
+    "1/4 cup (50 g) sugar",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "An adult should do this. Melted sugar and oil are very hot.",
+    "Heat the oil and 3 kernels in a big pot with a lid over medium high heat until the kernels pop.",
+    "Add the rest of the kernels and the sugar and stir quickly.",
+    "Cover and shake the pot all the time for 2 to 3 minutes, until the popping slows to 2 seconds apart.",
+    "Pour into a big bowl right away so the sugar does not burn.",
+    "Sprinkle with salt and toss. Let cool for 5 minutes, it clumps as it cools."
+   ]
+  },
+  {
+   "id": "furikake-popcorn",
+   "name": "Furikake popcorn",
+   "aliases": [
+    "furikake popcorn",
+    "hawaiian popcorn",
+    "hurricane popcorn",
+    "seaweed popcorn"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "popcorn",
+    "butter",
+    "furikake",
+    "rice crackers"
+   ],
+   "ingredients": [
+    "10 cups (about 80 g) popped popcorn",
+    "3 tablespoons butter, melted",
+    "3 tablespoons furikake seasoning",
+    "1 cup (40 g) small rice crackers (optional)"
+   ],
+   "steps": [
+    "Put the popcorn in a big bowl.",
+    "Drizzle with the melted butter while tossing.",
+    "Sprinkle on the furikake and toss again.",
+    "Stir in the rice crackers."
+   ]
+  },
+  {
+   "id": "roasted-chickpeas",
+   "name": "Crispy roasted chickpeas",
+   "aliases": [
+    "roasted chickpeas",
+    "crispy chickpeas",
+    "roasted garbanzo beans",
+    "chickpea snack"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "chickpeas",
+    "olive oil",
+    "paprika",
+    "salt"
+   ],
+   "ingredients": [
+    "1 can (15 oz / 425 g) chickpeas, drained and rinsed",
+    "1 tablespoon olive oil",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon smoked paprika",
+    "1/4 teaspoon garlic powder"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Dry the chickpeas really well with a towel and pull off any loose skins.",
+    "Toss with the oil on a baking sheet.",
+    "Roast for 25 to 30 minutes, shaking the pan halfway, until crunchy.",
+    "Toss the hot chickpeas with the salt, paprika and garlic powder.",
+    "Let cool for 5 minutes. They get crunchier as they cool."
+   ]
+  },
+  {
+   "id": "kale-chips",
+   "name": "Kale chips",
+   "aliases": [
+    "kale chips",
+    "baked kale chips",
+    "crispy kale",
+    "kale crisps"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "kale",
+    "olive oil",
+    "salt"
+   ],
+   "ingredients": [
+    "1 bunch kale (about 8 oz / 225 g)",
+    "1 tablespoon olive oil",
+    "1/4 teaspoon salt",
+    "2 tablespoons grated parmesan (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 300°F (150°C). Ask an adult to help.",
+    "Pull the kale leaves off the stems and tear into big chip size pieces.",
+    "Wash and dry them completely. Wet kale steams instead of crisps.",
+    "Toss with the oil and rub it into every leaf.",
+    "Spread in one layer on 2 baking sheets and sprinkle with salt.",
+    "Bake for 20 to 25 minutes, until crisp but still green.",
+    "Sprinkle with parmesan."
+   ]
+  },
+  {
+   "id": "baked-tortilla-chips",
+   "name": "Baked tortilla chips",
+   "aliases": [
+    "tortilla chips",
+    "baked tortilla chips",
+    "homemade tortilla chips",
+    "corn chips"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "25 min",
+   "main": [
+    "corn tortillas",
+    "oil",
+    "salt",
+    "lime"
+   ],
+   "ingredients": [
+    "10 corn tortillas",
+    "2 tablespoons vegetable oil",
+    "1/2 teaspoon salt",
+    "1 lime (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Brush both sides of the tortillas lightly with oil.",
+    "Stack them and cut into 6 wedges each.",
+    "Spread in one layer on 2 baking sheets and sprinkle with salt.",
+    "Bake for 12 to 15 minutes, flipping halfway, until crisp and golden.",
+    "Squeeze lime over the warm chips."
+   ]
+  },
+  {
+   "id": "pita-chips",
+   "name": "Pita chips",
+   "aliases": [
+    "pita chips",
+    "baked pita chips",
+    "homemade pita chips",
+    "zaatar pita chips"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "pita bread",
+    "olive oil",
+    "salt",
+    "garlic powder"
+   ],
+   "ingredients": [
+    "4 pita rounds",
+    "3 tablespoons olive oil",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon garlic powder or za'atar"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Cut each pita into 8 wedges and pull the layers apart.",
+    "Toss with the oil, salt and garlic powder.",
+    "Spread in one layer on a baking sheet.",
+    "Bake for 8 to 10 minutes, until golden and crisp."
+   ]
+  },
+  {
+   "id": "cheese-crackers",
+   "name": "Homemade cheese crackers",
+   "aliases": [
+    "cheese crackers",
+    "homemade goldfish",
+    "cheddar crackers",
+    "cheese its",
+    "cheesy crackers"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "cheddar",
+    "butter",
+    "flour",
+    "salt"
+   ],
+   "ingredients": [
+    "1 cup (115 g) shredded sharp cheddar",
+    "4 tablespoons (55 g) cold butter, cubed",
+    "3/4 cup (95 g) all-purpose flour",
+    "1/2 teaspoon salt",
+    "2 tablespoons cold water"
+   ],
+   "steps": [
+    "Pulse the cheese, butter, flour and salt in a food processor until crumbly.",
+    "Add the water and pulse until a ball forms.",
+    "Wrap and chill for 30 minutes.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Roll 1/8 inch thick and cut into 1 inch squares or fun shapes.",
+    "Poke a hole in the middle of each with a skewer and put them on a lined sheet.",
+    "Bake for 12 to 15 minutes, until puffed and the edges are golden."
+   ]
+  },
+  {
+   "id": "pigs-in-a-blanket",
+   "name": "Pigs in a blanket",
+   "aliases": [
+    "pigs in a blanket",
+    "pigs in blankets",
+    "mini hot dogs",
+    "sausage crescents",
+    "lil smokies"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "30 min",
+   "main": [
+    "crescent dough",
+    "cocktail sausages",
+    "egg"
+   ],
+   "ingredients": [
+    "1 can (8 oz / 225 g) crescent roll dough",
+    "24 cocktail sausages, or 8 hot dogs cut in thirds",
+    "1 egg, beaten (optional)",
+    "Ketchup and mustard to dip"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Unroll the dough and split it into 8 triangles.",
+    "Cut each triangle into 3 thin strips.",
+    "Roll each sausage up in a strip, starting at the wide end.",
+    "Put them seam side down on a lined sheet and brush with egg.",
+    "Bake for 12 to 15 minutes, until golden.",
+    "Serve warm with ketchup and mustard."
+   ]
+  },
+  {
+   "id": "mozzarella-sticks",
+   "name": "Mozzarella sticks",
+   "aliases": [
+    "mozzarella sticks",
+    "mozzarella stick",
+    "cheese sticks",
+    "fried cheese",
+    "mozz sticks"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "1 hr 30 min",
+   "main": [
+    "string cheese",
+    "breadcrumbs",
+    "egg",
+    "flour",
+    "marinara"
+   ],
+   "ingredients": [
+    "12 mozzarella string cheese sticks, cut in half",
+    "1/2 cup (65 g) all-purpose flour",
+    "2 large eggs, beaten",
+    "1 1/2 cups (150 g) Italian breadcrumbs",
+    "Vegetable oil for frying, or cooking spray for the air fryer",
+    "Marinara sauce to dip"
+   ],
+   "steps": [
+    "Roll each cheese piece in flour, dip in egg, then roll in breadcrumbs.",
+    "Dip in egg and breadcrumbs a second time so the cheese cannot leak out.",
+    "Freeze for 1 hour. This keeps them from melting too fast.",
+    "An adult should fry. Heat 2 inches of oil to 350°F (175°C) and fry a few at a time for 1 to 2 minutes, until golden.",
+    "Or air fry at 400°F (200°C) for 6 to 7 minutes, sprayed with oil.",
+    "Drain on paper towels and serve right away with warm marinara."
+   ]
+  },
+  {
+   "id": "jalapeno-poppers",
+   "name": "Baked jalapeno poppers",
+   "aliases": [
+    "jalapeno poppers",
+    "jalapeno popper",
+    "stuffed jalapenos",
+    "popper bites"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "jalapenos",
+    "cream cheese",
+    "cheddar",
+    "bacon",
+    "panko"
+   ],
+   "ingredients": [
+    "12 jalapenos",
+    "8 oz (225 g) cream cheese, softened",
+    "1 cup (115 g) shredded cheddar",
+    "1/4 teaspoon garlic powder",
+    "4 slices cooked bacon, crumbled (optional)",
+    "1/4 cup (15 g) panko breadcrumbs"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Wear gloves and have an adult cut the jalapenos in half lengthwise and scrape out the seeds. Do not touch your eyes.",
+    "Mix the cream cheese, cheddar, garlic powder and bacon.",
+    "Fill each pepper half and put them on a lined baking sheet.",
+    "Sprinkle with panko.",
+    "Bake for 20 minutes, until the filling is bubbly and golden.",
+    "Let cool for 5 minutes."
+   ]
+  },
+  {
+   "id": "bruschetta",
+   "name": "Tomato bruschetta",
+   "aliases": [
+    "bruschetta",
+    "tomato bruschetta",
+    "tomato basil toast",
+    "italian toast"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "25 min",
+   "main": [
+    "tomatoes",
+    "baguette",
+    "basil",
+    "garlic",
+    "olive oil"
+   ],
+   "ingredients": [
+    "6 Roma tomatoes, diced",
+    "1 garlic clove, minced, plus 1 whole clove for rubbing",
+    "6 basil leaves, sliced",
+    "3 tablespoons olive oil, divided",
+    "1 teaspoon balsamic vinegar",
+    "1/2 teaspoon salt",
+    "1 baguette, sliced 1/2 inch thick"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Dice the tomatoes. Ask an adult to help with the knife.",
+    "Stir the tomatoes, minced garlic, basil, 2 tablespoons oil, vinegar and salt. Let sit for 10 minutes.",
+    "Brush the bread with the rest of the oil and put it on a baking sheet.",
+    "Toast for 6 to 8 minutes, until golden.",
+    "Rub the warm toasts with the cut whole garlic clove.",
+    "Spoon the tomatoes on top just before serving."
+   ]
+  },
+  {
+   "id": "caprese-skewers",
+   "name": "Caprese skewers",
+   "aliases": [
+    "caprese skewers",
+    "caprese bites",
+    "tomato mozzarella skewers",
+    "caprese sticks"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "cherry tomatoes",
+    "mozzarella",
+    "basil",
+    "balsamic glaze"
+   ],
+   "ingredients": [
+    "24 cherry tomatoes",
+    "24 small mozzarella balls (bocconcini)",
+    "24 fresh basil leaves",
+    "24 small skewers or toothpicks",
+    "2 tablespoons olive oil",
+    "1 tablespoon balsamic glaze",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Thread a tomato, a folded basil leaf and a mozzarella ball onto each skewer.",
+    "Lay them on a plate.",
+    "Drizzle with olive oil and balsamic glaze.",
+    "Sprinkle with salt and pepper."
+   ]
+  },
+  {
+   "id": "stuffed-mushrooms",
+   "name": "Cheesy stuffed mushrooms",
+   "aliases": [
+    "stuffed mushrooms",
+    "stuffed mushroom",
+    "cheese stuffed mushrooms",
+    "mushroom bites"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "mushrooms",
+    "cream cheese",
+    "parmesan",
+    "breadcrumbs",
+    "garlic"
+   ],
+   "ingredients": [
+    "24 white mushrooms (about 1 lb / 450 g)",
+    "1 tablespoon olive oil",
+    "1 garlic clove, minced",
+    "4 oz (115 g) cream cheese, softened",
+    "1/4 cup (25 g) grated parmesan",
+    "1/4 cup (25 g) breadcrumbs",
+    "2 tablespoons chopped parsley",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Wipe the mushrooms clean and pull out the stems. Chop the stems small.",
+    "Cook the stems and garlic in the oil in a pan over medium heat for 3 to 4 minutes. Ask an adult to help.",
+    "Mix the cooked stems with the cream cheese, parmesan, breadcrumbs, parsley and salt.",
+    "Stuff each mushroom cap and put them on a baking sheet.",
+    "Bake for 18 to 20 minutes, until golden and juicy."
+   ]
+  },
+  {
+   "id": "edamame",
+   "name": "Salted edamame",
+   "aliases": [
+    "edamame",
+    "salted edamame",
+    "soybeans",
+    "garlic edamame",
+    "steamed edamame"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "edamame",
+    "salt",
+    "garlic",
+    "soy sauce"
+   ],
+   "ingredients": [
+    "1 lb (450 g) frozen edamame in pods",
+    "1 teaspoon flaky salt",
+    "Optional: 1 teaspoon soy sauce and 1 minced garlic clove warmed in 1 teaspoon sesame oil"
+   ],
+   "steps": [
+    "Bring a pot of water to a boil. Ask an adult to help.",
+    "Add the edamame and boil for 4 to 5 minutes, until hot and tender.",
+    "Drain well.",
+    "Toss with the flaky salt, or the garlic and soy mix.",
+    "Squeeze the beans out of the pods with your teeth. Do not eat the pods."
+   ]
+  },
+  {
+   "id": "ants-on-a-log",
+   "name": "Ants on a log",
+   "aliases": [
+    "ants on a log",
+    "celery with peanut butter",
+    "peanut butter celery",
+    "ants on logs"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "celery",
+    "peanut butter",
+    "raisins"
+   ],
+   "ingredients": [
+    "4 celery stalks",
+    "1/2 cup (130 g) peanut butter or sunflower seed butter",
+    "1/4 cup (35 g) raisins"
+   ],
+   "steps": [
+    "Wash the celery and cut each stalk into 3 pieces with a butter knife.",
+    "Spread peanut butter into the groove of each piece.",
+    "Press a row of raisins on top like ants."
+   ]
+  },
+  {
+   "id": "apple-nachos",
+   "name": "Apple nachos",
+   "aliases": [
+    "apple nachos",
+    "apple slices with peanut butter",
+    "caramel apple nachos",
+    "fruit nachos"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "apples",
+    "peanut butter",
+    "caramel sauce",
+    "chocolate chips"
+   ],
+   "ingredients": [
+    "2 apples",
+    "1 tablespoon lemon juice",
+    "2 tablespoons peanut butter",
+    "2 tablespoons caramel or chocolate sauce",
+    "2 tablespoons mini chocolate chips",
+    "2 tablespoons granola"
+   ],
+   "steps": [
+    "Have an adult core and thinly slice the apples.",
+    "Toss the slices with lemon juice so they stay white and spread them on a plate.",
+    "Microwave the peanut butter for 15 seconds so it drizzles.",
+    "Drizzle the peanut butter and caramel over the apples.",
+    "Sprinkle with chocolate chips and granola."
+   ]
+  },
+  {
+   "id": "oven-smores",
+   "name": "Oven s'mores",
+   "aliases": [
+    "smores",
+    "smore",
+    "oven smores",
+    "indoor smores",
+    "microwave smores"
+   ],
+   "category": "Dessert",
+   "servings": 8,
+   "time": "10 min",
+   "main": [
+    "graham crackers",
+    "chocolate",
+    "marshmallows"
+   ],
+   "ingredients": [
+    "8 graham crackers, broken into 16 squares",
+    "2 milk chocolate bars (1.55 oz / 44 g each), broken into pieces",
+    "8 large marshmallows"
+   ],
+   "steps": [
+    "Turn on the oven broiler and put the rack near the top. Ask an adult to help.",
+    "Lay 8 cracker squares on a baking sheet and put chocolate and a marshmallow on each.",
+    "Broil for 1 to 2 minutes, watching the whole time, until the marshmallows are golden.",
+    "Press the other cracker squares on top.",
+    "For one in the microwave, heat the cracker, chocolate and marshmallow for 15 seconds."
+   ]
+  },
+  {
+   "id": "cinnamon-sugar-tortilla-chips",
+   "name": "Cinnamon sugar tortilla chips",
+   "aliases": [
+    "cinnamon sugar chips",
+    "cinnamon tortilla chips",
+    "cinnamon chips",
+    "sweet tortilla chips"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "flour tortillas",
+    "butter",
+    "sugar",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "6 flour tortillas",
+    "3 tablespoons butter, melted",
+    "1/4 cup (50 g) sugar",
+    "1 teaspoon ground cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Mix the sugar and cinnamon.",
+    "Brush the tortillas with melted butter and sprinkle with cinnamon sugar.",
+    "Cut each into 8 wedges with a pizza cutter.",
+    "Spread on 2 baking sheets in one layer.",
+    "Bake for 10 to 12 minutes, until crisp.",
+    "Serve with fruit salsa or fruit dip."
+   ]
+  },
+  {
+   "id": "chocolate-covered-pretzels",
+   "name": "Chocolate covered pretzels",
+   "aliases": [
+    "chocolate covered pretzels",
+    "chocolate pretzels",
+    "dipped pretzels",
+    "chocolate pretzel rods"
+   ],
+   "category": "Snack",
+   "servings": 10,
+   "time": "30 min",
+   "main": [
+    "pretzels",
+    "chocolate",
+    "sprinkles"
+   ],
+   "ingredients": [
+    "40 pretzel twists or 12 pretzel rods",
+    "8 oz (225 g) milk or white chocolate, chopped",
+    "1 teaspoon coconut oil",
+    "Sprinkles"
+   ],
+   "steps": [
+    "Line a tray with parchment.",
+    "Microwave the chocolate and coconut oil for 30 seconds at a time, stirring, until smooth.",
+    "Dip each pretzel with a fork, tap off the extra and lay it on the tray.",
+    "Add sprinkles right away.",
+    "Chill for 15 minutes, until set."
+   ]
+  },
+  {
+   "id": "candied-pecans",
+   "name": "Cinnamon candied pecans",
+   "aliases": [
+    "candied pecans",
+    "cinnamon pecans",
+    "sugared pecans",
+    "candied nuts",
+    "glazed pecans"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "1 hr 15 min",
+   "main": [
+    "pecans",
+    "sugar",
+    "egg white",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 large egg white",
+    "1 tablespoon water",
+    "1 lb (450 g) pecan halves",
+    "1 cup (200 g) sugar",
+    "1 teaspoon ground cinnamon",
+    "1 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 250°F (120°C). Ask an adult to help.",
+    "Whisk the egg white and water until frothy.",
+    "Toss the pecans in the egg white until coated.",
+    "Mix the sugar, cinnamon and salt and toss with the pecans.",
+    "Spread on a lined baking sheet.",
+    "Bake for 1 hour, stirring every 15 minutes.",
+    "Let cool for 10 minutes, then break apart."
+   ]
+  },
+  {
+   "id": "cheese-ball",
+   "name": "Party cheese ball",
+   "aliases": [
+    "cheese ball",
+    "party cheese ball",
+    "pecan cheese ball",
+    "cheddar cheese ball"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "1 hr 15 min",
+   "main": [
+    "cream cheese",
+    "cheddar",
+    "pecans",
+    "green onions"
+   ],
+   "ingredients": [
+    "8 oz (225 g) cream cheese, softened",
+    "2 cups (225 g) shredded sharp cheddar",
+    "1/2 teaspoon garlic powder",
+    "1 teaspoon Worcestershire sauce",
+    "2 green onions, finely chopped",
+    "3/4 cup (85 g) finely chopped pecans",
+    "Crackers to serve"
+   ],
+   "steps": [
+    "Beat the cream cheese, cheddar, garlic powder, Worcestershire and green onions until mixed.",
+    "Scoop onto plastic wrap and shape into a ball.",
+    "Wrap and chill for 1 hour, until firm.",
+    "Roll the ball in the pecans.",
+    "Serve with crackers."
+   ]
+  },
+  {
+   "id": "pizza-roll-ups",
+   "name": "Pizza pinwheels",
+   "aliases": [
+    "pizza pinwheels",
+    "pizza rolls",
+    "pizza roll ups",
+    "pepperoni rolls",
+    "pizza scrolls"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "35 min",
+   "main": [
+    "pizza dough",
+    "mozzarella",
+    "pepperoni",
+    "pizza sauce"
+   ],
+   "ingredients": [
+    "1 lb (450 g) pizza dough",
+    "1/2 cup (120 ml) pizza sauce, plus more to dip",
+    "1 1/2 cups (170 g) shredded mozzarella",
+    "3 oz (85 g) sliced pepperoni",
+    "1/2 teaspoon Italian seasoning"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Roll the dough into a 12 by 16 inch rectangle on a floured counter.",
+    "Spread with the sauce, leaving a 1 inch border on one long side.",
+    "Sprinkle with cheese, pepperoni and Italian seasoning.",
+    "Roll up from the long side and pinch the seam closed.",
+    "Cut into 12 slices and put them cut side up in a greased muffin pan or on a lined sheet.",
+    "Bake for 15 to 18 minutes, until golden and bubbly.",
+    "Serve with warm sauce to dip."
+   ]
+  },
+  {
+   "id": "tortilla-pinwheels",
+   "name": "Tortilla pinwheels",
+   "aliases": [
+    "tortilla pinwheels",
+    "pinwheels",
+    "roll ups",
+    "tortilla roll ups",
+    "ranch pinwheels"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "1 hr 20 min",
+   "main": [
+    "flour tortillas",
+    "cream cheese",
+    "cheddar",
+    "ranch seasoning",
+    "turkey"
+   ],
+   "ingredients": [
+    "4 large flour tortillas",
+    "8 oz (225 g) cream cheese, softened",
+    "2 tablespoons dry ranch seasoning",
+    "1 cup (115 g) shredded cheddar",
+    "1/4 cup finely diced red bell pepper",
+    "2 green onions, finely chopped",
+    "8 oz (225 g) sliced deli turkey (optional)"
+   ],
+   "steps": [
+    "Mix the cream cheese, ranch seasoning, cheddar, bell pepper and green onions.",
+    "Spread a thin layer over each tortilla all the way to the edges.",
+    "Lay turkey slices on top.",
+    "Roll each tortilla up tight and wrap in plastic.",
+    "Chill for 1 hour.",
+    "Trim the ends and cut into 1 inch slices."
+   ]
+  },
+  {
+   "id": "cucumber-bites",
+   "name": "Cucumber cream cheese bites",
+   "aliases": [
+    "cucumber bites",
+    "cucumber cream cheese bites",
+    "cucumber rounds",
+    "cucumber appetizers"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "cucumber",
+    "cream cheese",
+    "dill",
+    "tomatoes"
+   ],
+   "ingredients": [
+    "1 English cucumber",
+    "4 oz (115 g) cream cheese, softened",
+    "1 tablespoon chopped fresh dill",
+    "1/4 teaspoon garlic powder",
+    "12 cherry tomatoes, halved",
+    "Salt and pepper"
+   ],
+   "steps": [
+    "Cut the cucumber into 1/4 inch rounds. Ask an adult to help with the knife.",
+    "Mix the cream cheese, dill and garlic powder.",
+    "Spread or pipe a little on each cucumber round.",
+    "Top with half a cherry tomato and a pinch of salt and pepper."
+   ]
+  },
+  {
+   "id": "bhel-puri",
+   "name": "Bhel puri",
+   "aliases": [
+    "bhel puri",
+    "bhel",
+    "bhelpuri",
+    "puffed rice chaat",
+    "indian street snack"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "puffed rice",
+    "potato",
+    "onion",
+    "tomato",
+    "tamarind chutney"
+   ],
+   "ingredients": [
+    "3 cups (about 45 g) puffed rice",
+    "1/2 cup (40 g) sev (crunchy chickpea noodles)",
+    "1 potato, boiled, peeled and diced",
+    "1 small onion, finely chopped",
+    "1 tomato, diced",
+    "2 tablespoons chopped cilantro",
+    "2 tablespoons tamarind chutney",
+    "1 tablespoon green chutney (optional)",
+    "1/2 teaspoon chaat masala",
+    "1 tablespoon lemon juice"
+   ],
+   "steps": [
+    "Boil the potato for 15 to 20 minutes, until soft. Ask an adult to help. Let cool, then peel and dice.",
+    "Chop the onion and tomato small.",
+    "Mix the potato, onion, tomato and cilantro in a big bowl.",
+    "Add the chutneys, chaat masala and lemon juice and stir.",
+    "Add the puffed rice and most of the sev and toss quickly.",
+    "Top with the rest of the sev and eat right away before it gets soggy."
+   ]
+  },
+  {
+   "id": "samosas",
+   "name": "Potato samosas",
+   "aliases": [
+    "samosas",
+    "samosa",
+    "potato samosas",
+    "aloo samosa",
+    "vegetable samosas"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "1 hr 30 min",
+   "main": [
+    "flour",
+    "potatoes",
+    "peas",
+    "garam masala",
+    "oil"
+   ],
+   "ingredients": [
+    "Dough: 2 cups (250 g) all-purpose flour, 1/2 teaspoon salt, 1/4 cup (60 ml) vegetable oil, 1/3 to 1/2 cup (80 to 120 ml) water",
+    "3 medium potatoes (1 lb / 450 g), boiled, peeled and diced small",
+    "1/2 cup (70 g) frozen peas",
+    "1 tablespoon vegetable oil",
+    "1 teaspoon cumin seeds",
+    "1 teaspoon grated ginger",
+    "1 teaspoon garam masala",
+    "1/2 teaspoon ground coriander",
+    "1 teaspoon salt",
+    "2 tablespoons chopped cilantro",
+    "Oil for frying"
+   ],
+   "steps": [
+    "Rub the oil into the flour and salt, then add water a little at a time to make a stiff dough. Cover and rest for 30 minutes.",
+    "Heat 1 tablespoon oil in a pan and cook the cumin seeds and ginger for 30 seconds. Ask an adult to help.",
+    "Add the potatoes, peas, spices and salt and cook for 3 to 4 minutes. Stir in cilantro and let cool.",
+    "Split the dough into 6 balls, roll each into a 7 inch oval and cut in half.",
+    "Fold each half into a cone, sealing the edge with water, fill with potato and pinch the top shut.",
+    "An adult should fry. Heat 2 inches of oil to 325°F (163°C).",
+    "Fry a few at a time for 10 to 12 minutes, turning, until golden and crisp. Low heat keeps the crust from bubbling.",
+    "Drain on paper towels. Serve with tamarind or mint chutney."
+   ]
+  },
+  {
+   "id": "vegetable-pakoras",
+   "name": "Vegetable pakoras",
+   "aliases": [
+    "pakoras",
+    "pakora",
+    "vegetable pakoras",
+    "onion pakoras",
+    "bhaji",
+    "onion bhaji"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "chickpea flour",
+    "onion",
+    "potato",
+    "spinach",
+    "oil"
+   ],
+   "ingredients": [
+    "1 cup (90 g) besan (chickpea flour)",
+    "1/4 cup (40 g) rice flour",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon ground turmeric",
+    "1/2 teaspoon ground cumin",
+    "1/4 teaspoon chili powder",
+    "About 1/2 cup (120 ml) water",
+    "1 onion, thinly sliced",
+    "1 small potato, very thinly sliced",
+    "1 cup (30 g) spinach leaves, chopped",
+    "Oil for frying"
+   ],
+   "steps": [
+    "Have an adult slice the onion and potato thinly.",
+    "Whisk the flours, salt and spices with enough water to make a thick batter like pancake batter.",
+    "Stir in the vegetables until coated.",
+    "An adult should fry. Heat 2 inches of oil to 350°F (175°C).",
+    "Drop small spoonfuls into the oil and fry for 3 to 4 minutes, turning, until golden and crisp.",
+    "Drain on paper towels and serve with ketchup or mint chutney."
+   ]
+  },
+  {
+   "id": "scallion-pancakes",
+   "name": "Scallion pancakes",
+   "aliases": [
+    "scallion pancakes",
+    "scallion pancake",
+    "green onion pancakes",
+    "cong you bing",
+    "spring onion pancakes"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "1 hr 15 min",
+   "main": [
+    "flour",
+    "scallions",
+    "sesame oil",
+    "oil"
+   ],
+   "ingredients": [
+    "2 cups (250 g) all-purpose flour",
+    "3/4 cup (180 ml) boiling water",
+    "2 to 3 tablespoons cold water",
+    "2 tablespoons sesame oil",
+    "1 teaspoon salt",
+    "1 cup (60 g) chopped scallions",
+    "4 tablespoons vegetable oil for frying",
+    "Dip: 2 tablespoons soy sauce and 1 tablespoon rice vinegar"
+   ],
+   "steps": [
+    "Have an adult pour the boiling water into the flour while you stir with chopsticks, then stir in cold water until a shaggy dough forms.",
+    "Knead for 5 minutes when cool enough to touch, cover and rest for 30 minutes.",
+    "Split into 4 balls. Roll one into a thin circle, brush with sesame oil and sprinkle with salt and scallions.",
+    "Roll it up like a rope, then coil the rope into a snail and flatten it into a 7 inch pancake.",
+    "Heat 1 tablespoon oil in a frying pan over medium heat. Ask an adult to help.",
+    "Fry for 2 to 3 minutes per side, until golden and crisp.",
+    "Cut into wedges and serve with the dip."
+   ]
+  },
+  {
+   "id": "apple-chips",
+   "name": "Baked apple chips",
+   "aliases": [
+    "apple chips",
+    "baked apple chips",
+    "dried apple chips",
+    "cinnamon apple chips"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "2 hr 15 min",
+   "main": [
+    "apples",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "2 apples",
+    "1/2 teaspoon ground cinnamon",
+    "1 teaspoon sugar (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 225°F (110°C). Ask an adult to help.",
+    "Have an adult core the apples and slice them very thin, about 1/8 inch, with a mandoline or sharp knife.",
+    "Lay the slices in one layer on 2 parchment-lined baking sheets.",
+    "Sprinkle with cinnamon and sugar.",
+    "Bake for 1 hour, flip the slices, then bake for 1 hour more, until dry.",
+    "Turn off the oven and let them cool inside. They crisp up as they cool."
+   ]
+  },
+  {
+   "id": "fruit-leather",
+   "name": "Strawberry fruit leather",
+   "aliases": [
+    "fruit leather",
+    "fruit roll ups",
+    "strawberry fruit leather",
+    "homemade fruit snacks",
+    "fruit roll"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "4 hr 30 min",
+   "main": [
+    "strawberries",
+    "honey",
+    "lemon"
+   ],
+   "ingredients": [
+    "4 cups (600 g) strawberries, hulled",
+    "2 tablespoons honey",
+    "1 tablespoon lemon juice"
+   ],
+   "steps": [
+    "Heat the oven to 200°F (95°C). Ask an adult to help.",
+    "Blend the strawberries, honey and lemon juice until very smooth.",
+    "Line a rimmed baking sheet with parchment or a silicone mat.",
+    "Spread the puree evenly about 1/8 inch thick.",
+    "Bake for 3 to 4 hours, until it is no longer sticky in the middle.",
+    "Let cool for 20 minutes, then cut into strips with scissors, paper and all, and roll up."
+   ]
+  },
+  {
+   "id": "banana-sushi",
+   "name": "Banana sushi",
+   "aliases": [
+    "banana sushi",
+    "banana roll",
+    "peanut butter banana bites",
+    "banana rolls"
+   ],
+   "category": "Snack",
+   "servings": 1,
+   "time": "5 min",
+   "main": [
+    "banana",
+    "peanut butter",
+    "crispy rice cereal",
+    "honey"
+   ],
+   "ingredients": [
+    "1 banana",
+    "2 tablespoons peanut butter or sunflower seed butter",
+    "2 tablespoons crispy rice cereal or granola",
+    "1 teaspoon honey"
+   ],
+   "steps": [
+    "Peel the banana and spread the peanut butter all over it.",
+    "Roll it in the cereal so it sticks.",
+    "Drizzle with honey.",
+    "Cut into 1 inch pieces with a butter knife, like sushi rolls."
+   ]
+  },
+  {
+   "id": "cheese-straws",
+   "name": "Puff pastry cheese straws",
+   "aliases": [
+    "cheese straws",
+    "cheese twists",
+    "puff pastry twists",
+    "parmesan twists"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "30 min",
+   "main": [
+    "puff pastry",
+    "parmesan",
+    "egg",
+    "paprika"
+   ],
+   "ingredients": [
+    "1 sheet (about 9 oz / 245 g) puff pastry, thawed",
+    "1 egg, beaten",
+    "1 cup (100 g) finely grated parmesan or cheddar",
+    "1/2 teaspoon paprika"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Unfold the pastry on a floured counter and brush with egg.",
+    "Sprinkle with the cheese and paprika and press it in with a rolling pin.",
+    "Cut into 1/2 inch strips with a pizza cutter.",
+    "Twist each strip a few times and lay it on a lined baking sheet.",
+    "Bake for 12 to 15 minutes, until puffed and golden."
+   ]
+  },
+  {
+   "id": "sausage-rolls",
+   "name": "Sausage rolls",
+   "aliases": [
+    "sausage rolls",
+    "sausage roll",
+    "british sausage rolls",
+    "party sausage rolls"
+   ],
+   "category": "Snack",
+   "servings": 12,
+   "time": "50 min",
+   "main": [
+    "puff pastry",
+    "pork sausage",
+    "onion",
+    "breadcrumbs",
+    "egg"
+   ],
+   "ingredients": [
+    "1 sheet (about 9 oz / 245 g) puff pastry, thawed",
+    "1 lb (450 g) pork sausage meat, casings removed",
+    "1/2 small onion, grated",
+    "1/4 cup (25 g) breadcrumbs",
+    "1/2 teaspoon dried thyme",
+    "1 egg, beaten"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Mix the sausage, onion, breadcrumbs and thyme with clean hands. Wash your hands after touching raw meat.",
+    "Cut the pastry in half lengthwise.",
+    "Shape the sausage into 2 long logs and lay one down the middle of each strip.",
+    "Brush one edge with egg, fold the pastry over and press with a fork to seal.",
+    "Cut each log into 6 pieces and put them on a lined sheet. Brush with egg.",
+    "Bake for 25 to 30 minutes, until deep golden and the sausage reaches 160°F (71°C) inside."
+   ]
+  },
+  {
+   "id": "pimento-cheese",
+   "name": "Pimento cheese",
+   "aliases": [
+    "pimento cheese",
+    "pimiento cheese",
+    "southern pimento cheese",
+    "pimento cheese spread"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "cheddar",
+    "cream cheese",
+    "mayonnaise",
+    "pimentos"
+   ],
+   "ingredients": [
+    "2 cups (225 g) shredded sharp cheddar",
+    "4 oz (115 g) cream cheese, softened",
+    "1/3 cup (75 g) mayonnaise",
+    "1 jar (4 oz / 115 g) diced pimentos, drained",
+    "1/4 teaspoon garlic powder",
+    "Pinch of cayenne pepper (optional)"
+   ],
+   "steps": [
+    "Beat the cream cheese and mayo until smooth.",
+    "Stir in the cheddar, pimentos, garlic powder and cayenne.",
+    "Chill for 30 minutes.",
+    "Serve with crackers and celery, or spread on sandwiches."
+   ]
+  },
+  {
+   "id": "mexican-fruit-cup",
+   "name": "Mexican fruit cup",
+   "aliases": [
+    "mexican fruit cup",
+    "fruta picada",
+    "fruit with tajin",
+    "chili lime fruit cup",
+    "fruit cup with chamoy"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "mango",
+    "watermelon",
+    "pineapple",
+    "cucumber",
+    "lime"
+   ],
+   "ingredients": [
+    "1 cup cubed mango",
+    "1 cup cubed watermelon",
+    "1 cup cubed pineapple",
+    "1 cup cucumber sticks",
+    "1 cup jicama sticks",
+    "2 tablespoons lime juice",
+    "1 teaspoon chili lime seasoning like Tajin",
+    "Chamoy sauce to drizzle (optional)"
+   ],
+   "steps": [
+    "Have an adult help cut the fruit and vegetables into sticks and cubes.",
+    "Pile them into 4 cups.",
+    "Squeeze lime juice over the top.",
+    "Sprinkle with the chili lime seasoning and drizzle with chamoy."
+   ]
+  },
+  {
+   "id": "esquites",
+   "name": "Esquites",
+   "aliases": [
+    "esquites",
+    "elote en vaso",
+    "mexican corn cups",
+    "corn in a cup",
+    "street corn salad"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "corn",
+    "mayonnaise",
+    "cotija",
+    "lime",
+    "chili powder"
+   ],
+   "ingredients": [
+    "3 cups (450 g) corn kernels, fresh or frozen",
+    "1 tablespoon butter",
+    "2 tablespoons mayonnaise",
+    "2 tablespoons sour cream or Mexican crema",
+    "1/3 cup (40 g) crumbled cotija cheese",
+    "1 tablespoon lime juice",
+    "1/2 teaspoon chili powder",
+    "2 tablespoons chopped cilantro",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Melt the butter in a big pan over medium high heat. Ask an adult to help.",
+    "Add the corn and cook for 5 to 6 minutes, stirring only now and then, until it has golden brown spots.",
+    "Take it off the heat and stir in the mayo, crema, most of the cotija, lime juice and salt.",
+    "Spoon into cups and top with the rest of the cotija, chili powder and cilantro."
+   ]
+  },
+  {
+   "id": "muhammara",
+   "name": "Muhammara",
+   "aliases": [
+    "muhammara",
+    "red pepper walnut dip",
+    "roasted red pepper dip",
+    "red pepper dip"
+   ],
+   "category": "Snack",
+   "servings": 6,
+   "time": "15 min",
+   "main": [
+    "roasted red peppers",
+    "walnuts",
+    "breadcrumbs",
+    "pomegranate molasses"
+   ],
+   "ingredients": [
+    "1 cup (200 g) jarred roasted red peppers, drained",
+    "1/2 cup (55 g) walnuts, toasted",
+    "1/4 cup (25 g) breadcrumbs",
+    "1 tablespoon pomegranate molasses, or 1 teaspoon honey with 1 teaspoon lemon juice",
+    "1 small garlic clove",
+    "1/2 teaspoon ground cumin",
+    "1/4 teaspoon red pepper flakes",
+    "2 tablespoons olive oil",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Put everything in a food processor.",
+    "Pulse until mostly smooth with a little texture.",
+    "Taste and add salt or lemon if needed.",
+    "Serve with pita chips or vegetables."
+   ]
+  },
+  {
+   "id": "parmesan-crisps",
+   "name": "Parmesan crisps",
+   "aliases": [
+    "parmesan crisps",
+    "cheese crisps",
+    "frico",
+    "baked cheese chips",
+    "parmesan chips"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "parmesan",
+    "pepper"
+   ],
+   "ingredients": [
+    "1 cup (100 g) finely grated parmesan",
+    "1/4 teaspoon black pepper or Italian seasoning",
+    "1 tablespoon sesame seeds or chopped herbs (optional)"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Line a baking sheet with parchment.",
+    "Drop level tablespoons of cheese on the sheet 2 inches apart and pat into flat circles.",
+    "Sprinkle with pepper and seeds or herbs.",
+    "Bake for 5 to 7 minutes, until golden and lacy.",
+    "Let cool for 5 minutes on the sheet so they crisp."
+   ]
+  },
+  {
+   "id": "baked-potato-chips",
+   "name": "Baked potato chips",
+   "aliases": [
+    "potato chips",
+    "homemade potato chips",
+    "baked potato chips",
+    "homemade crisps",
+    "crisps"
+   ],
+   "category": "Snack",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "potatoes",
+    "oil",
+    "salt"
+   ],
+   "ingredients": [
+    "2 russet potatoes, scrubbed",
+    "1 tablespoon vegetable oil",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Have an adult slice the potatoes very thin, about 1/16 inch, with a mandoline.",
+    "Rinse the slices in cold water, then dry them really well with towels.",
+    "Toss with the oil and lay in one layer on parchment-lined sheets.",
+    "Bake for 15 to 20 minutes, flipping halfway. Take off any chips that brown early.",
+    "Sprinkle with salt and let cool for 5 minutes to crisp."
+   ]
+  },
+  {
+   "id": "watermelon-pizza",
+   "name": "Watermelon pizza",
+   "aliases": [
+    "watermelon pizza",
+    "fruit watermelon pizza",
+    "watermelon slices with yogurt",
+    "watermelon pie"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "15 min",
+   "main": [
+    "watermelon",
+    "greek yogurt",
+    "berries",
+    "kiwi"
+   ],
+   "ingredients": [
+    "1 round slice of watermelon, 1 inch thick, from the middle",
+    "1/2 cup (120 g) Greek yogurt",
+    "1 tablespoon honey",
+    "1 cup mixed berries",
+    "1 kiwi, peeled and sliced",
+    "Fresh mint leaves"
+   ],
+   "steps": [
+    "Have an adult cut a 1 inch thick round slice from the middle of the watermelon.",
+    "Stir the yogurt and honey and spread it over the slice like sauce.",
+    "Top with berries, kiwi and mint.",
+    "Cut into 8 wedges like a pizza and eat right away."
+   ]
+  },
+  {
+   "id": "cowboy-caviar",
+   "name": "Cowboy caviar",
+   "aliases": [
+    "cowboy caviar",
+    "texas caviar",
+    "black bean corn salsa",
+    "bean salsa",
+    "black eyed pea salsa"
+   ],
+   "category": "Snack",
+   "servings": 8,
+   "time": "45 min",
+   "main": [
+    "black beans",
+    "black eyed peas",
+    "corn",
+    "bell pepper",
+    "tomatoes"
+   ],
+   "ingredients": [
+    "1 can (15 oz / 425 g) black beans, drained and rinsed",
+    "1 can (15 oz / 425 g) black-eyed peas, drained and rinsed",
+    "1 1/2 cups (225 g) corn kernels",
+    "1 red bell pepper, diced",
+    "1/2 red onion, finely diced",
+    "1 cup cherry tomatoes, quartered",
+    "1/4 cup chopped cilantro",
+    "Dressing: 1/4 cup (60 ml) olive oil, 3 tablespoons red wine vinegar, 1 tablespoon lime juice, 1 tablespoon sugar, 1/2 teaspoon chili powder, 1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Dice the pepper and onion. Ask an adult to help with the knife.",
+    "Put the beans, peas, corn, pepper, onion, tomatoes and cilantro in a big bowl.",
+    "Whisk the dressing and pour it over.",
+    "Stir and chill for 30 minutes.",
+    "Serve with tortilla chips or as a side."
+   ]
+  }
+ ]
+}

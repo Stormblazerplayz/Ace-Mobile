@@ -1,0 +1,12 @@
+# tag: tech.careers
+what does a cybersecurity job involve | ethical hacker career => Cybersecurity workers protect systems by finding weak spots, watching for attacks and fixing problems. Ethical hackers break in only with permission to help companies fix holes.
+what is cyberpatriot | cyber competition for students => CyberPatriot is a US youth cyber defense competition where teams find and fix security problems on practice computers. It has a middle school division.
+can i become a drone pilot as a job | commercial drone pilot => Drone pilots do filming, mapping, inspections and farming work. In the US you need an FAA Part 107 certificate, which you can earn at 16 by passing a knowledge test.
+what does a 3d artist do | 3d modeling jobs => 3D artists build models, textures and scenes for games, movies, ads and products, often in Blender, Maya or ZBrush. A strong portfolio matters more than a degree.
+what is a vfx artist | visual effects job => VFX artists add explosions, magic, creatures and backgrounds to video, using tools like Houdini, Nuke and After Effects.
+what is a technical artist | tech artist games => A technical artist connects art and code in game studios, building shaders, tools, rigs and effects so artists' work runs well in the engine.
+what does a ux designer do | ui ux design job => UX designers figure out how an app or site should work so it's easy to use, and UI designers make it look good. Many use Figma.
+what does a data scientist do | data science job => Data scientists use statistics and code, often Python, to find patterns in data, make predictions and build AI models.
+what does it support do | help desk job => IT support helps people fix computer, account and network problems at schools and companies. It's a common first tech job, and certificates like CompTIA A+ help.
+what does a robotics engineer do | robotics career => Robotics engineers design and program robots, mixing mechanical design, electronics and coding. Competitions like FIRST and VEX are great practice.
+what is artstation | art portfolio site => ArtStation is a portfolio site where game, film and 3D artists show their work and studios look for people to hire.

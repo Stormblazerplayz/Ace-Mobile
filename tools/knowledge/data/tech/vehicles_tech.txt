@@ -1,0 +1,11 @@
+# tag: tech.vehicles
+how do you charge an electric car | ev charging levels => EVs charge from a regular outlet slowly, from a Level 2 home or public charger in several hours, or from a DC fast charger in about 20 to 40 minutes for most of the battery.
+what is nacs | tesla charging plug => NACS is Tesla's charging plug, now standardized as SAE J3400. Most carmakers in North America started switching to it around 2025.
+what is range anxiety | will an ev run out of battery => Range anxiety is worry that an electric car will run out of charge before reaching a charger. Most modern EVs go 400 km or more per charge, and route planners show chargers on the way.
+what is waymo | driverless taxi => Waymo is a self-driving taxi service from Google's parent company, Alphabet. Riders use an app, and no one sits in the driver's seat.
+what is adaptive cruise control | car keeps distance automatically => Adaptive cruise control holds a set speed but slows down and speeds up to keep a safe gap behind the car ahead. The driver still has to pay attention.
+what is lane keeping assist | car stays in lane => Lane keeping assist uses a camera to see lane lines and gently steers the car back if it drifts. It's a helper, not self-driving.
+what is an obd2 port | car diagnostic scanner => Cars since the late 1990s have an OBD-II port under the dashboard. A cheap scanner plugged in reads the codes that explain a check engine light.
+how do e-bikes work | electric bike assist => An e-bike has a battery and motor that add power when you pedal, or with a throttle on some types. Age and speed rules for riding them vary by place.
+are hoverboard and e-scooter batteries dangerous | lithium battery fire scooter => Their lithium batteries can catch fire if damaged, cheap or charged with the wrong charger. Use certified models, the original charger, and don't charge them overnight or near exits.
+what is a tire pressure sensor | tpms light => TPMS sensors in the wheels warn you when a tire is low on air with a dashboard light shaped like a horseshoe with an exclamation mark.

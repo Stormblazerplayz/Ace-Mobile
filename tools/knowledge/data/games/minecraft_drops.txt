@@ -1,0 +1,46 @@
+# What blocks drop when broken, Minecraft Java Edition 1.21. Hand-written; amounts are without Fortune.
+
+# tag: minecraft.blocks
+what does stone drop | why does stone turn into cobblestone | how do you get smooth stone blocks back => Stone drops cobblestone when mined with a pickaxe. Use a Silk Touch pickaxe to get the stone block itself, or smelt cobblestone back into stone.
+what does deepslate drop | why does deepslate turn into cobbled deepslate => Deepslate drops cobbled deepslate when mined. With Silk Touch you get the deepslate block itself.
+what does grass block drop | why does grass turn into dirt when i mine it | how do you get grass blocks => A grass block drops dirt. You need a Silk Touch tool to pick up the grass block itself.
+what does mycelium drop | how do you get mycelium => Mycelium drops dirt unless you mine it with Silk Touch, which gives you the mycelium block.
+what does podzol drop | how do you get podzol => Podzol drops dirt unless you mine it with Silk Touch.
+what does nylium drop | how do you get crimson nylium | how to get warped nylium => Crimson and warped nylium drop netherrack unless you use Silk Touch. You can also spread nylium by using bone meal on netherrack next to it.
+what does glass drop | why does glass disappear when i break it | how to pick up glass => Glass drops nothing when broken unless you use a Silk Touch tool. You can always make more by smelting sand.
+what does ice drop | how do you pick up ice | why does ice turn into water => Ice drops nothing and turns into water if there is a block under it. Mine it with Silk Touch to collect it.
+how do you get packed ice | what does packed ice drop => Packed ice and blue ice drop nothing without Silk Touch. You can also craft packed ice from 9 ice, and blue ice from 9 packed ice.
+what does coal ore drop | how much coal from one ore => Coal ore drops 1 coal, or more with Fortune. Mining it also gives a little experience.
+what does iron ore drop | why does iron ore give raw iron => Iron ore drops 1 raw iron, which you smelt into an iron ingot. With Silk Touch you get the ore block instead.
+what does gold ore drop | why does gold ore give raw gold => Gold ore drops 1 raw gold, which you smelt into a gold ingot. It needs an iron pickaxe or better.
+what does copper ore drop | how much raw copper from copper ore => Copper ore drops 2 to 5 raw copper, or more with Fortune. Smelt raw copper into copper ingots.
+what does diamond ore drop | how many diamonds from one ore => Diamond ore drops 1 diamond, and Fortune III can raise that to as many as 4. You need an iron pickaxe or better.
+what does lapis ore drop | how much lapis from one ore => Lapis lazuli ore drops 4 to 9 lapis lazuli, and even more with Fortune.
+what does redstone ore drop | how much redstone from one ore => Redstone ore drops 4 to 5 redstone dust, or more with Fortune. It needs an iron pickaxe or better.
+what does nether quartz ore drop | how much quartz from one ore => Nether quartz ore drops 1 nether quartz, or more with Fortune. Any pickaxe can mine it.
+what does nether gold ore drop | how much gold from nether gold ore => Nether gold ore drops 2 to 6 gold nuggets, and any pickaxe can mine it. Mining it near piglins makes them angry.
+what does ancient debris drop | does fortune work on ancient debris => Ancient debris always drops itself, and Fortune does nothing. Smelt it into netherite scrap. It needs a diamond pickaxe or better.
+what does a sea lantern drop | how do you pick up a sea lantern => A sea lantern drops 2 to 3 prismarine crystals unless you use Silk Touch.
+what does a bookshelf drop | how do you pick up bookshelves => A bookshelf drops 3 books. Use Silk Touch to pick up the whole bookshelf.
+what does a clay block drop | how much clay from a clay block => A clay block drops 4 clay balls. With Silk Touch it drops the clay block.
+what does a snow block drop | how do you pick up snow blocks => A snow block drops 4 snowballs when dug with a shovel. With Silk Touch you get the block.
+what does a melon drop | how many melon slices from a melon => A melon drops 3 to 7 melon slices. Silk Touch gives you the whole melon block.
+what does gravel drop | how do you get flint | how often does gravel drop flint => Gravel has a 10 percent chance to drop flint instead of gravel. Fortune raises the chance, and Fortune III always gives flint.
+can you pick up budding amethyst | how do you get budding amethyst => No, budding amethyst can't be picked up in survival, even with Silk Touch. It breaks and drops nothing.
+what does an ender chest drop | how do you pick up an ender chest => An ender chest drops 8 obsidian when mined with a pickaxe. Use Silk Touch to keep the ender chest. Your items stay safe either way.
+what does a campfire drop | how do you pick up a campfire => A campfire drops 2 charcoal. Use Silk Touch to pick up the campfire itself.
+what do leaves drop | how do you get saplings | how do you get apples from trees => Leaves can drop saplings and sometimes sticks. Oak and dark oak leaves also have a small chance to drop apples. Shears or Silk Touch pick up the leaves themselves.
+what does a cobweb drop | how do you get a cobweb | how do you get string from cobwebs => Breaking a cobweb with a sword drops string. Use shears or a Silk Touch sword to collect the cobweb itself.
+what does a dead bush drop | how do you get sticks from dead bushes => A dead bush drops 0 to 2 sticks. Shears let you keep the dead bush.
+what do mushroom blocks drop | how do you get mushroom blocks => Huge mushroom blocks drop 0 to 2 small mushrooms. Use Silk Touch to collect the mushroom block.
+what does sculk drop | how do you pick up sculk | what does a sculk catalyst drop => Sculk blocks drop experience instead of themselves. You need Silk Touch to collect sculk, sculk catalysts, sculk sensors and sculk shriekers.
+how do you pick up a bee nest | what does a bee nest drop | how to move bees => A bee nest needs Silk Touch to pick up, and then it keeps the bees inside. Without it, the nest drops nothing. A crafted beehive always drops itself.
+can you pick up turtle eggs | what do turtle eggs drop => Turtle eggs only drop with Silk Touch. Breaking them any other way destroys them.
+what does a coral block drop | how do you keep coral alive => Coral blocks drop dead coral blocks unless mined with Silk Touch. Coral also dies if it's not touching water.
+can you pick up reinforced deepslate | what does reinforced deepslate drop => No, reinforced deepslate drops nothing, even with Silk Touch. It's found around ancient city portal frames.
+what does an infested block drop | how do you get infested stone => Infested blocks release a silverfish when broken and drop nothing. With Silk Touch you get the normal block, not the infested one.
+what does a chiseled bookshelf drop | how to pick up a chiseled bookshelf => A chiseled bookshelf drops the books inside it, but the shelf itself needs Silk Touch.
+what does a beehive drop | does a beehive keep bees => A beehive always drops itself, but it only keeps the bees and honey inside when you use Silk Touch.
+what does a crop drop | what does wheat drop => Fully grown wheat drops 1 wheat and 0 to 3 seeds. Breaking it before it's grown only gives back a seed.
+what do potatoes drop | how do you get poisonous potatoes => Fully grown potatoes drop a few potatoes, and there is a 2 percent chance of also getting a poisonous potato. Fortune gives more.
+what does a carrot crop drop | how many carrots from one plant => A fully grown carrot plant drops a few carrots, and Fortune gives more. You plant carrots themselves to grow more.

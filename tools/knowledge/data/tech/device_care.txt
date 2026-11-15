@@ -1,0 +1,23 @@
+# tag: tech.devicecare
+what does ip68 mean | water resistance rating => IP68 means the device is dust-tight and resists water, often down to a few meters for about 30 minutes in tests. Water resistance wears down over time, so avoid swimming with it.
+what should i do if my phone gets wet | dropped phone in water => Turn it off, wipe it dry, and let it dry with the port facing down. Don't charge it until dry, and skip the rice, since Apple advises against it.
+should i put my wet phone in rice | rice for wet phone => No, Apple says rice can leave dust and starch inside. Let it air dry instead, ideally in a spot with airflow.
+should i use a screen protector | tempered glass screen protector => A tempered glass protector is cheap and can save the real screen from scratches and cracks. Install it in a dust-free room for no bubbles.
+how do i clean my phone screen | smudgy phone screen => Wipe it with a soft, slightly damp microfiber cloth. Avoid harsh cleaners and don't spray liquid directly on the phone.
+why is my phone hot | phone overheating => Gaming, charging, bright sun and weak signal all heat a phone. Take off the case, stop heavy apps, and let it cool. It may slow down to protect itself.
+what should i do with a swollen battery | battery bulging => Stop using and charging it right away, keep it away from heat, and tell an adult. A swollen battery can catch fire and must be recycled safely.
+is it bad to charge my phone overnight | charge phone all night => Modern phones are designed for overnight charging and slow down near full. Optimized charging helps the battery last longer.
+does fast charging hurt the battery | fast charge battery damage => Fast charging creates a little more heat, but phones manage it well. Heat is the biggest battery enemy, so avoid charging in hot places.
+why does my battery drain faster than before | battery getting worse => Batteries slowly lose capacity as they're charged and used, usually noticeable after two to three years. A battery replacement can make an older phone feel new.
+what is a battery cycle | charge cycle meaning => One cycle is using 100 percent of the battery's capacity, even if spread across several partial charges. Phone batteries are rated for hundreds of cycles.
+what should i do if my screen cracks | cracked phone screen => Put clear tape or a screen protector over cracks to stop glass splinters, back up your data, and get it repaired. Cracks can let water in.
+how do i keep my ipad safe in a backpack | protect tablet => Use a case with a cover, put it in a padded sleeve or laptop pocket, and don't pack heavy things on top of the screen.
+how do i clean my laptop keyboard | laptop crumbs => Turn it off, tip it sideways and gently brush or use short bursts of compressed air. Wipe keys with a barely damp cloth.
+how do i clean my mouse and keyboard | dirty keyboard => Unplug them, use compressed air between keys, and wipe with a cloth slightly damp with isopropyl alcohol. Mechanical keycaps can be pulled off for deep cleaning.
+how do i clean my headset ear cushions | headset pads dirty => Wipe them with a slightly damp cloth and let them air dry. Many cushions can be replaced when they wear out.
+how do i clean my controller | sticky controller buttons => Wipe it with a cloth slightly damp with isopropyl alcohol, and use a toothpick gently around the buttons. Never soak it.
+how should i store a laptop i won't use for a while | laptop storage long time => Charge it to about 50 percent, shut it down fully and keep it somewhere cool and dry. Charge it every few months.
+how do i make my laptop last longer | laptop care tips => Keep it on hard surfaces so vents breathe, clean dust yearly, avoid heat, close it gently, and keep software updated.
+is it bad to keep my console in a cabinet | console in tv stand closed => Closed cabinets trap heat, which makes consoles louder and can shorten their life. Leave space around the vents for air to flow.
+can heat damage electronics | hot car electronics => Yes, hot cars can damage batteries and screens. Don't leave phones, tablets, consoles or LiPo batteries in a hot car.
+can cold weather damage my phone | phone dies in the cold => Cold makes batteries drop fast and may shut the phone off. Warm it up slowly before charging, and the battery recovers.

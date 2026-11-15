@@ -1,0 +1,956 @@
+{
+ "entries": [
+  {
+   "en": "how do you say ... in ...",
+   "also": [
+    "how do you say"
+   ],
+   "t": {
+    "es": "¿Cómo se dice ... en ...?",
+    "fr": "Comment dit-on ... en ... ?",
+    "de": "Wie sagt man ... auf ...?",
+    "it": "Come si dice ... in ...?",
+    "pt": "Como se diz ... em ...?",
+    "ja": "...は...語で何と言いますか？",
+    "zh": "...用...怎么说？",
+    "ko": "...를 ...로 뭐라고 해요?",
+    "hi": "... को ... में क्या कहते हैं?",
+    "ar": "كيف تقول ... بال...؟",
+    "ru": "Как сказать ... по-...?",
+    "nl": "Hoe zeg je ... in het ...?"
+   },
+   "say": {
+    "ja": "...wa ...go de nan to iimasu ka?",
+    "zh": "... yòng ... zěnme shuō?",
+    "ko": "...reul ...ro mworago haeyo?",
+    "hi": "... ko ... mein kya kahte hain?",
+    "ar": "kayfa taqool ... bil-...?",
+    "ru": "kak skazat ... po-...?"
+   }
+  },
+  {
+   "en": "can you translate this",
+   "also": [
+    "translate this please"
+   ],
+   "t": {
+    "es": "¿Puede traducir esto?",
+    "fr": "Vous pouvez traduire ça ?",
+    "de": "Können Sie das übersetzen?",
+    "it": "Può tradurre questo?",
+    "pt": "Pode traduzir isso?",
+    "ja": "これを翻訳してもらえますか？",
+    "zh": "你能翻译一下吗？",
+    "ko": "이거 번역해 주실 수 있어요?",
+    "hi": "क्या आप इसका अनुवाद कर सकते हैं?",
+    "ar": "هل يمكنك ترجمة هذا؟",
+    "ru": "Можете это перевести?",
+    "nl": "Kunt u dit vertalen?"
+   },
+   "say": {
+    "ja": "kore o hon'yaku shite moraemasu ka?",
+    "zh": "nǐ néng fānyì yíxià ma?",
+    "ko": "igeo beonyeokae jusil su isseoyo?",
+    "hi": "kya aap iska anuvaad kar sakte hain?",
+    "ar": "hal yumkinuka tarjamat haadha?",
+    "ru": "mozhete eto perevesti?"
+   }
+  },
+  {
+   "en": "i don't speak ...",
+   "also": [
+    "i do not speak"
+   ],
+   "t": {
+    "es": "No hablo ...",
+    "fr": "Je ne parle pas ...",
+    "de": "Ich spreche kein ...",
+    "it": "Non parlo ...",
+    "pt": "Não falo ...",
+    "ja": "...は話せません",
+    "zh": "我不会说...",
+    "ko": "...를 못 해요",
+    "hi": "मैं ... नहीं बोलता / बोलती",
+    "ar": "لا أتكلم ...",
+    "ru": "Я не говорю по-...",
+    "nl": "Ik spreek geen ..."
+   },
+   "say": {
+    "ja": "...wa hanasemasen",
+    "zh": "wǒ bú huì shuō ...",
+    "ko": "...reul mot haeyo",
+    "hi": "main ... nahin bolta / bolti",
+    "ar": "la atakallam ...",
+    "ru": "ya ne govoryu po-..."
+   }
+  },
+  {
+   "en": "louder please",
+   "also": [
+    "speak louder",
+    "a bit louder"
+   ],
+   "t": {
+    "es": "Más alto, por favor",
+    "fr": "Plus fort, s'il vous plaît",
+    "de": "Lauter, bitte",
+    "it": "Più forte, per favore",
+    "pt": "Mais alto, por favor",
+    "ja": "もう少し大きな声でお願いします",
+    "zh": "请大声一点",
+    "ko": "좀 더 크게 말해 주세요",
+    "hi": "ज़रा ज़ोर से बोलिए",
+    "ar": "بصوت أعلى من فضلك",
+    "ru": "Громче, пожалуйста",
+    "nl": "Harder, alstublieft"
+   },
+   "say": {
+    "ja": "mou sukoshi ookina koe de onegai shimasu",
+    "zh": "qǐng dà shēng yìdiǎn",
+    "ko": "jom deo keuge malhae juseyo",
+    "hi": "zara zor se boliye",
+    "ar": "bi-sawt a'la min fadlak",
+    "ru": "gromche, pozhaluysta"
+   }
+  },
+  {
+   "en": "one more please",
+   "also": [
+    "another one please"
+   ],
+   "t": {
+    "es": "Otro, por favor",
+    "fr": "Encore un, s'il vous plaît",
+    "de": "Noch eins, bitte",
+    "it": "Un altro, per favore",
+    "pt": "Mais um, por favor",
+    "ja": "もう一つください",
+    "zh": "请再来一个",
+    "ko": "하나 더 주세요",
+    "hi": "एक और दीजिए",
+    "ar": "واحد آخر من فضلك",
+    "ru": "Ещё один, пожалуйста",
+    "nl": "Nog eentje, alstublieft"
+   },
+   "say": {
+    "ja": "mou hitotsu kudasai",
+    "zh": "qǐng zài lái yí ge",
+    "ko": "hana deo juseyo",
+    "hi": "ek aur deejiye",
+    "ar": "waahid aakhar min fadlak",
+    "ru": "yeshchyo odin, pozhaluysta"
+   }
+  },
+  {
+   "en": "this one",
+   "also": [
+    "this one please"
+   ],
+   "t": {
+    "es": "Este",
+    "fr": "Celui-ci",
+    "de": "Dieses hier",
+    "it": "Questo",
+    "pt": "Este",
+    "ja": "これ",
+    "zh": "这个",
+    "ko": "이거요",
+    "hi": "यह वाला",
+    "ar": "هذا",
+    "ru": "Вот этот",
+    "nl": "Deze"
+   },
+   "say": {
+    "ja": "kore",
+    "zh": "zhège",
+    "ko": "igeoyo",
+    "hi": "yah vaala",
+    "ar": "haadha",
+    "ru": "vot etot"
+   }
+  },
+  {
+   "en": "that one",
+   "also": [
+    "that one please"
+   ],
+   "t": {
+    "es": "Ese",
+    "fr": "Celui-là",
+    "de": "Das da",
+    "it": "Quello",
+    "pt": "Esse",
+    "ja": "あれ",
+    "zh": "那个",
+    "ko": "저거요",
+    "hi": "वह वाला",
+    "ar": "ذلك",
+    "ru": "Вон тот",
+    "nl": "Die"
+   },
+   "say": {
+    "ja": "are",
+    "zh": "nàge",
+    "ko": "jeogeoyo",
+    "hi": "vah vaala",
+    "ar": "dhaalik",
+    "ru": "von tot"
+   }
+  },
+  {
+   "en": "how was it",
+   "also": [
+    "how did it go"
+   ],
+   "t": {
+    "es": "¿Qué tal estuvo?",
+    "fr": "C'était comment ?",
+    "de": "Wie war es?",
+    "it": "Com'è andata?",
+    "pt": "Como foi?",
+    "ja": "どうでしたか？",
+    "zh": "怎么样？",
+    "ko": "어땠어요?",
+    "hi": "कैसा रहा?",
+    "ar": "كيف كان؟",
+    "ru": "Как всё прошло?",
+    "nl": "Hoe was het?"
+   },
+   "say": {
+    "ja": "dou deshita ka?",
+    "zh": "zěnmeyàng?",
+    "ko": "eottaesseoyo?",
+    "hi": "kaisa raha?",
+    "ar": "kayfa kaan?",
+    "ru": "kak vsyo proshlo?"
+   }
+  },
+  {
+   "en": "what's new",
+   "also": [
+    "anything new"
+   ],
+   "t": {
+    "es": "¿Qué hay de nuevo?",
+    "fr": "Quoi de neuf ?",
+    "de": "Was gibt's Neues?",
+    "it": "Che c'è di nuovo?",
+    "pt": "Quais são as novidades?",
+    "ja": "何か新しいことはありますか？",
+    "zh": "有什么新鲜事吗？",
+    "ko": "별일 없어요?",
+    "hi": "क्या नया है?",
+    "ar": "ما الجديد؟",
+    "ru": "Что нового?",
+    "nl": "Wat is er nieuw?"
+   },
+   "say": {
+    "ja": "nanika atarashii koto wa arimasu ka?",
+    "zh": "yǒu shénme xīnxiān shì ma?",
+    "ko": "byeoril eopseoyo?",
+    "hi": "kya naya hai?",
+    "ar": "ma al-jadeed?",
+    "ru": "chto novogo?"
+   }
+  },
+  {
+   "en": "it's up to you",
+   "also": [
+    "you decide",
+    "you choose"
+   ],
+   "t": {
+    "es": "Usted decide",
+    "fr": "C'est vous qui voyez",
+    "de": "Wie Sie möchten",
+    "it": "Decida lei",
+    "pt": "Você decide",
+    "ja": "お任せします",
+    "zh": "你决定吧",
+    "ko": "마음대로 하세요",
+    "hi": "जैसा आप चाहें",
+    "ar": "الأمر لك",
+    "ru": "Как хотите",
+    "nl": "Zoals u wilt"
+   },
+   "say": {
+    "ja": "omakase shimasu",
+    "zh": "nǐ juédìng ba",
+    "ko": "maeumdaero haseyo",
+    "hi": "jaisa aap chaahen",
+    "ar": "al-amr lak",
+    "ru": "kak khotite"
+   }
+  },
+  {
+   "en": "i'm hungry for ...",
+   "also": [
+    "i want to eat"
+   ],
+   "t": {
+    "es": "Tengo ganas de comer ...",
+    "fr": "J'ai envie de manger ...",
+    "de": "Ich habe Lust auf ...",
+    "it": "Ho voglia di ...",
+    "pt": "Estou com vontade de comer ...",
+    "ja": "...が食べたいです",
+    "zh": "我想吃...",
+    "ko": "...가 먹고 싶어요",
+    "hi": "मुझे ... खाना है",
+    "ar": "أريد أن آكل ...",
+    "ru": "Я хочу съесть ...",
+    "nl": "Ik heb zin in ..."
+   },
+   "say": {
+    "ja": "...ga tabetai desu",
+    "zh": "wǒ xiǎng chī ...",
+    "ko": "...ga meokgo sipeoyo",
+    "hi": "mujhe ... khaana hai",
+    "ar": "ureed an aakul ...",
+    "ru": "ya khochu syest ..."
+   }
+  },
+  {
+   "en": "can i have some more",
+   "also": [
+    "more please"
+   ],
+   "t": {
+    "es": "¿Me da un poco más?",
+    "fr": "Je peux en avoir encore un peu ?",
+    "de": "Kann ich noch etwas haben?",
+    "it": "Posso averne ancora un po'?",
+    "pt": "Pode me dar mais um pouco?",
+    "ja": "もう少しもらえますか？",
+    "zh": "能再给我一点吗？",
+    "ko": "조금 더 주실 수 있어요?",
+    "hi": "क्या मुझे थोड़ा और मिल सकता है?",
+    "ar": "هل يمكنني الحصول على المزيد؟",
+    "ru": "Можно ещё немного?",
+    "nl": "Mag ik nog wat?"
+   },
+   "say": {
+    "ja": "mou sukoshi moraemasu ka?",
+    "zh": "néng zài gěi wǒ yìdiǎn ma?",
+    "ko": "jogeum deo jusil su isseoyo?",
+    "hi": "kya mujhe thoda aur mil sakta hai?",
+    "ar": "hal yumkinuni al-husool 'ala al-mazeed?",
+    "ru": "mozhno yeshchyo nemnogo?"
+   }
+  },
+  {
+   "en": "where can i buy ...",
+   "also": [
+    "where do i buy"
+   ],
+   "t": {
+    "es": "¿Dónde puedo comprar ...?",
+    "fr": "Où est-ce que je peux acheter ... ?",
+    "de": "Wo kann ich ... kaufen?",
+    "it": "Dove posso comprare ...?",
+    "pt": "Onde posso comprar ...?",
+    "ja": "...はどこで買えますか？",
+    "zh": "在哪里可以买到...？",
+    "ko": "...는 어디서 살 수 있어요?",
+    "hi": "... कहाँ मिलेगा?",
+    "ar": "أين يمكنني شراء ...؟",
+    "ru": "Где можно купить ...?",
+    "nl": "Waar kan ik ... kopen?"
+   },
+   "say": {
+    "ja": "...wa doko de kaemasu ka?",
+    "zh": "zài nǎli kěyǐ mǎi dào ...?",
+    "ko": "...neun eodiseo sal su isseoyo?",
+    "hi": "... kahaan milega?",
+    "ar": "ayna yumkinuni shiraa' ...?",
+    "ru": "gde mozhno kupit ...?"
+   }
+  },
+  {
+   "en": "is it free",
+   "also": [
+    "is it free of charge"
+   ],
+   "t": {
+    "es": "¿Es gratis?",
+    "fr": "C'est gratuit ?",
+    "de": "Ist das kostenlos?",
+    "it": "È gratis?",
+    "pt": "É grátis?",
+    "ja": "無料ですか？",
+    "zh": "免费吗？",
+    "ko": "무료예요?",
+    "hi": "क्या यह मुफ़्त है?",
+    "ar": "هل هو مجاني؟",
+    "ru": "Это бесплатно?",
+    "nl": "Is het gratis?"
+   },
+   "say": {
+    "ja": "muryou desu ka?",
+    "zh": "miǎnfèi ma?",
+    "ko": "muryoyeyo?",
+    "hi": "kya yah muft hai?",
+    "ar": "hal huwa majjaani?",
+    "ru": "eto besplatno?"
+   }
+  },
+  {
+   "en": "free",
+   "also": [
+    "free of charge"
+   ],
+   "t": {
+    "es": "gratis",
+    "fr": "gratuit",
+    "de": "kostenlos",
+    "it": "gratis",
+    "pt": "grátis",
+    "ja": "無料",
+    "zh": "免费",
+    "ko": "무료",
+    "hi": "मुफ़्त",
+    "ar": "مجاني",
+    "ru": "бесплатно",
+    "nl": "gratis"
+   },
+   "say": {
+    "ja": "muryou",
+    "zh": "miǎnfèi",
+    "ko": "muryo",
+    "hi": "muft",
+    "ar": "majjaani",
+    "ru": "besplatno"
+   }
+  },
+  {
+   "en": "how many people",
+   "also": [
+    "how many of you"
+   ],
+   "t": {
+    "es": "¿Cuántas personas?",
+    "fr": "Combien de personnes ?",
+    "de": "Wie viele Personen?",
+    "it": "Quante persone?",
+    "pt": "Quantas pessoas?",
+    "ja": "何人ですか？",
+    "zh": "几位？",
+    "ko": "몇 명이에요?",
+    "hi": "कितने लोग?",
+    "ar": "كم شخصا؟",
+    "ru": "Сколько человек?",
+    "nl": "Met hoeveel personen?"
+   },
+   "say": {
+    "ja": "nannin desu ka?",
+    "zh": "jǐ wèi?",
+    "ko": "myeot myeongieyo?",
+    "hi": "kitne log?",
+    "ar": "kam shakhsan?",
+    "ru": "skolko chelovek?"
+   }
+  },
+  {
+   "en": "what is this in english",
+   "also": [
+    "how do you say this in english"
+   ],
+   "t": {
+    "es": "¿Cómo se dice esto en inglés?",
+    "fr": "Comment on dit ça en anglais ?",
+    "de": "Was heißt das auf Englisch?",
+    "it": "Come si dice questo in inglese?",
+    "pt": "Como se diz isso em inglês?",
+    "ja": "これは英語で何と言いますか？",
+    "zh": "这个用英语怎么说？",
+    "ko": "이거 영어로 뭐예요?",
+    "hi": "इसे अंग्रेज़ी में क्या कहते हैं?",
+    "ar": "ما هذا بالإنجليزية؟",
+    "ru": "Как это по-английски?",
+    "nl": "Wat is dit in het Engels?"
+   },
+   "say": {
+    "ja": "kore wa eigo de nan to iimasu ka?",
+    "zh": "zhège yòng Yīngyǔ zěnme shuō?",
+    "ko": "igeo yeongeoro mwoyeyo?",
+    "hi": "ise angrezi mein kya kahte hain?",
+    "ar": "ma haadha bil-injleeziyya?",
+    "ru": "kak eto po-angliyski?"
+   }
+  },
+  {
+   "en": "flag",
+   "also": [],
+   "t": {
+    "es": "bandera",
+    "fr": "drapeau",
+    "de": "Fahne",
+    "it": "bandiera",
+    "pt": "bandeira",
+    "ja": "旗",
+    "zh": "旗子",
+    "ko": "깃발",
+    "hi": "झंडा",
+    "ar": "علم",
+    "ru": "флаг",
+    "nl": "vlag"
+   },
+   "say": {
+    "ja": "hata",
+    "zh": "qízi",
+    "ko": "gitbal",
+    "hi": "jhanda",
+    "ar": "'alam",
+    "ru": "flag"
+   }
+  },
+  {
+   "en": "world",
+   "also": [],
+   "t": {
+    "es": "mundo",
+    "fr": "monde",
+    "de": "Welt",
+    "it": "mondo",
+    "pt": "mundo",
+    "ja": "世界",
+    "zh": "世界",
+    "ko": "세계",
+    "hi": "दुनिया",
+    "ar": "العالم",
+    "ru": "мир",
+    "nl": "wereld"
+   },
+   "say": {
+    "ja": "sekai",
+    "zh": "shìjiè",
+    "ko": "segye",
+    "hi": "duniya",
+    "ar": "al-'aalam",
+    "ru": "mir"
+   }
+  },
+  {
+   "en": "holiday",
+   "also": [
+    "day off"
+   ],
+   "t": {
+    "es": "día festivo",
+    "fr": "jour férié",
+    "de": "Feiertag",
+    "it": "giorno festivo",
+    "pt": "feriado",
+    "ja": "祝日",
+    "zh": "节日",
+    "ko": "공휴일",
+    "hi": "छुट्टी",
+    "ar": "عطلة",
+    "ru": "праздник",
+    "nl": "feestdag"
+   },
+   "say": {
+    "ja": "shukujitsu",
+    "zh": "jiérì",
+    "ko": "gonghyuil",
+    "hi": "chhutti",
+    "ar": "'utla",
+    "ru": "prazdnik"
+   }
+  },
+  {
+   "en": "birthday",
+   "also": [],
+   "t": {
+    "es": "cumpleaños",
+    "fr": "anniversaire",
+    "de": "Geburtstag",
+    "it": "compleanno",
+    "pt": "aniversário",
+    "ja": "誕生日",
+    "zh": "生日",
+    "ko": "생일",
+    "hi": "जन्मदिन",
+    "ar": "عيد ميلاد",
+    "ru": "день рождения",
+    "nl": "verjaardag"
+   },
+   "say": {
+    "ja": "tanjoubi",
+    "zh": "shēngrì",
+    "ko": "saengil",
+    "hi": "janmdin",
+    "ar": "'eed meelaad",
+    "ru": "den rozhdeniya"
+   }
+  },
+  {
+   "en": "christmas",
+   "also": [],
+   "t": {
+    "es": "Navidad",
+    "fr": "Noël",
+    "de": "Weihnachten",
+    "it": "Natale",
+    "pt": "Natal",
+    "ja": "クリスマス",
+    "zh": "圣诞节",
+    "ko": "크리스마스",
+    "hi": "क्रिसमस",
+    "ar": "عيد الميلاد",
+    "ru": "Рождество",
+    "nl": "Kerstmis"
+   },
+   "say": {
+    "ja": "kurisumasu",
+    "zh": "Shèngdànjié",
+    "ko": "keuriseumaseu",
+    "hi": "krismas",
+    "ar": "'eed al-meelaad",
+    "ru": "rozhdestvo"
+   }
+  },
+  {
+   "en": "candle",
+   "also": [],
+   "t": {
+    "es": "vela",
+    "fr": "bougie",
+    "de": "Kerze",
+    "it": "candela",
+    "pt": "vela",
+    "ja": "ろうそく",
+    "zh": "蜡烛",
+    "ko": "초",
+    "hi": "मोमबत्ती",
+    "ar": "شمعة",
+    "ru": "свеча",
+    "nl": "kaars"
+   },
+   "say": {
+    "ja": "rousoku",
+    "zh": "làzhú",
+    "ko": "cho",
+    "hi": "mombatti",
+    "ar": "sham'a",
+    "ru": "svecha"
+   }
+  },
+  {
+   "en": "balloon",
+   "also": [],
+   "t": {
+    "es": "globo",
+    "fr": "ballon",
+    "de": "Luftballon",
+    "it": "palloncino",
+    "pt": "balão",
+    "ja": "風船",
+    "zh": "气球",
+    "ko": "풍선",
+    "hi": "गुब्बारा",
+    "ar": "بالون",
+    "ru": "воздушный шарик",
+    "nl": "ballon"
+   },
+   "say": {
+    "ja": "fuusen",
+    "zh": "qìqiú",
+    "ko": "pungseon",
+    "hi": "gubbaara",
+    "ar": "baaloon",
+    "ru": "vozdushny sharik"
+   }
+  },
+  {
+   "en": "snowman",
+   "also": [],
+   "t": {
+    "es": "muñeco de nieve",
+    "fr": "bonhomme de neige",
+    "de": "Schneemann",
+    "it": "pupazzo di neve",
+    "pt": "boneco de neve",
+    "ja": "雪だるま",
+    "zh": "雪人",
+    "ko": "눈사람",
+    "hi": "हिममानव",
+    "ar": "رجل الثلج",
+    "ru": "снеговик",
+    "nl": "sneeuwpop"
+   },
+   "say": {
+    "ja": "yukidaruma",
+    "zh": "xuěrén",
+    "ko": "nunsaram",
+    "hi": "himmaanav",
+    "ar": "rajul ath-thalj",
+    "ru": "snegovik"
+   }
+  },
+  {
+   "en": "kite",
+   "also": [],
+   "t": {
+    "es": "cometa",
+    "fr": "cerf-volant",
+    "de": "Drachen",
+    "it": "aquilone",
+    "pt": "pipa",
+    "ja": "凧",
+    "zh": "风筝",
+    "ko": "연",
+    "hi": "पतंग",
+    "ar": "طائرة ورقية",
+    "ru": "воздушный змей",
+    "nl": "vlieger"
+   },
+   "say": {
+    "ja": "tako",
+    "zh": "fēngzheng",
+    "ko": "yeon",
+    "hi": "patang",
+    "ar": "taa'ira waraqiyya",
+    "ru": "vozdushny zmey"
+   }
+  },
+  {
+   "en": "swing",
+   "also": [],
+   "t": {
+    "es": "columpio",
+    "fr": "balançoire",
+    "de": "Schaukel",
+    "it": "altalena",
+    "pt": "balanço",
+    "ja": "ブランコ",
+    "zh": "秋千",
+    "ko": "그네",
+    "hi": "झूला",
+    "ar": "أرجوحة",
+    "ru": "качели",
+    "nl": "schommel"
+   },
+   "say": {
+    "ja": "buranko",
+    "zh": "qiūqiān",
+    "ko": "geune",
+    "hi": "jhoola",
+    "ar": "urjooha",
+    "ru": "kacheli"
+   }
+  },
+  {
+   "en": "slide",
+   "also": [
+    "playground slide"
+   ],
+   "t": {
+    "es": "tobogán",
+    "fr": "toboggan",
+    "de": "Rutsche",
+    "it": "scivolo",
+    "pt": "escorregador",
+    "ja": "滑り台",
+    "zh": "滑梯",
+    "ko": "미끄럼틀",
+    "hi": "फिसलपट्टी",
+    "ar": "زحليقة",
+    "ru": "горка",
+    "nl": "glijbaan"
+   },
+   "say": {
+    "ja": "suberidai",
+    "zh": "huátī",
+    "ko": "mikkeureomteul",
+    "hi": "phisalpatti",
+    "ar": "zuhleeqa",
+    "ru": "gorka"
+   }
+  },
+  {
+   "en": "tent",
+   "also": [],
+   "t": {
+    "es": "tienda de campaña",
+    "fr": "tente",
+    "de": "Zelt",
+    "it": "tenda",
+    "pt": "barraca",
+    "ja": "テント",
+    "zh": "帐篷",
+    "ko": "텐트",
+    "hi": "तंबू",
+    "ar": "خيمة",
+    "ru": "палатка",
+    "nl": "tent"
+   },
+   "say": {
+    "ja": "tento",
+    "zh": "zhàngpeng",
+    "ko": "tenteu",
+    "hi": "tamboo",
+    "ar": "khayma",
+    "ru": "palatka"
+   }
+  },
+  {
+   "en": "flashlight",
+   "also": [
+    "torch"
+   ],
+   "t": {
+    "es": "linterna",
+    "fr": "lampe de poche",
+    "de": "Taschenlampe",
+    "it": "torcia",
+    "pt": "lanterna",
+    "ja": "懐中電灯",
+    "zh": "手电筒",
+    "ko": "손전등",
+    "hi": "टॉर्च",
+    "ar": "مصباح يدوي",
+    "ru": "фонарик",
+    "nl": "zaklamp"
+   },
+   "say": {
+    "ja": "kaichuu dentou",
+    "zh": "shǒudiàntǒng",
+    "ko": "sonjeondeung",
+    "hi": "torch",
+    "ar": "misbaah yadawi",
+    "ru": "fonarik"
+   }
+  },
+  {
+   "en": "treasure",
+   "also": [],
+   "t": {
+    "es": "tesoro",
+    "fr": "trésor",
+    "de": "Schatz",
+    "it": "tesoro",
+    "pt": "tesouro",
+    "ja": "宝物",
+    "zh": "宝藏",
+    "ko": "보물",
+    "hi": "ख़ज़ाना",
+    "ar": "كنز",
+    "ru": "сокровище",
+    "nl": "schat"
+   },
+   "say": {
+    "ja": "takaramono",
+    "zh": "bǎozàng",
+    "ko": "bomul",
+    "hi": "khazaana",
+    "ar": "kanz",
+    "ru": "sokrovishche"
+   }
+  },
+  {
+   "en": "dragon",
+   "also": [],
+   "t": {
+    "es": "dragón",
+    "fr": "dragon",
+    "de": "Drache",
+    "it": "drago",
+    "pt": "dragão",
+    "ja": "ドラゴン",
+    "zh": "龙",
+    "ko": "용",
+    "hi": "ड्रैगन",
+    "ar": "تنين",
+    "ru": "дракон",
+    "nl": "draak"
+   },
+   "say": {
+    "ja": "doragon",
+    "zh": "lóng",
+    "ko": "yong",
+    "hi": "draigan",
+    "ar": "tinneen",
+    "ru": "drakon"
+   }
+  },
+  {
+   "en": "ghost",
+   "also": [],
+   "t": {
+    "es": "fantasma",
+    "fr": "fantôme",
+    "de": "Gespenst",
+    "it": "fantasma",
+    "pt": "fantasma",
+    "ja": "おばけ",
+    "zh": "鬼",
+    "ko": "유령",
+    "hi": "भूत",
+    "ar": "شبح",
+    "ru": "привидение",
+    "nl": "spook"
+   },
+   "say": {
+    "ja": "obake",
+    "zh": "guǐ",
+    "ko": "yuryeong",
+    "hi": "bhoot",
+    "ar": "shabah",
+    "ru": "privideniye"
+   }
+  },
+  {
+   "en": "magic",
+   "also": [],
+   "t": {
+    "es": "magia",
+    "fr": "magie",
+    "de": "Zauberei",
+    "it": "magia",
+    "pt": "mágica",
+    "ja": "魔法",
+    "zh": "魔法",
+    "ko": "마법",
+    "hi": "जादू",
+    "ar": "سحر",
+    "ru": "магия",
+    "nl": "magie"
+   },
+   "say": {
+    "ja": "mahou",
+    "zh": "mófǎ",
+    "ko": "mabeop",
+    "hi": "jaadoo",
+    "ar": "sihr",
+    "ru": "magiya"
+   }
+  },
+  {
+   "en": "superhero",
+   "also": [],
+   "t": {
+    "es": "superhéroe",
+    "fr": "super-héros",
+    "de": "Superheld",
+    "it": "supereroe",
+    "pt": "super-herói",
+    "ja": "スーパーヒーロー",
+    "zh": "超级英雄",
+    "ko": "슈퍼히어로",
+    "hi": "सुपरहीरो",
+    "ar": "بطل خارق",
+    "ru": "супергерой",
+    "nl": "superheld"
+   },
+   "say": {
+    "ja": "suupaa hiiroo",
+    "zh": "chāojí yīngxióng",
+    "ko": "syupeohieoro",
+    "hi": "suparheero",
+    "ar": "batal khaariq",
+    "ru": "supergeroy"
+   }
+  }
+ ]
+}

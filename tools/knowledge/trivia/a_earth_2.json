@@ -1,0 +1,2305 @@
+{
+ "questions": [
+  {
+   "id": "earth-1201",
+   "category": "Earth",
+   "q": "Do Earth's magnetic poles ever swap places?",
+   "choices": [
+    "No, never",
+    "Yes, many times in the past",
+    "Only every year",
+    "Only during eclipses"
+   ],
+   "answer": 1,
+   "fact": "Rocks on the sea floor record these flips like a striped barcode."
+  },
+  {
+   "id": "earth-1202",
+   "category": "Earth",
+   "q": "What is the name for the outer rigid shell of Earth made of the crust and upper mantle?",
+   "choices": [
+    "Atmosphere",
+    "Hydrosphere",
+    "Biosphere",
+    "Lithosphere"
+   ],
+   "answer": 3,
+   "fact": "The lithosphere is broken into the tectonic plates."
+  },
+  {
+   "id": "earth-1203",
+   "category": "Earth",
+   "q": "What is the name for all of Earth's water, including oceans, lakes and ice?",
+   "choices": [
+    "Lithosphere",
+    "Hydrosphere",
+    "Atmosphere",
+    "Stratosphere"
+   ],
+   "answer": 1,
+   "fact": "Hydro comes from the Greek word for water."
+  },
+  {
+   "id": "earth-1204",
+   "category": "Earth",
+   "q": "What is the name for all the living things on Earth together?",
+   "choices": [
+    "Hydrosphere",
+    "Lithosphere",
+    "Biosphere",
+    "Ionosphere"
+   ],
+   "answer": 2,
+   "fact": "The biosphere reaches from deep underground to high in the sky."
+  },
+  {
+   "id": "earth-1205",
+   "category": "Earth",
+   "q": "What gives Earth's sky its colors during sunrise and sunset?",
+   "choices": [
+    "Smoke from volcanoes",
+    "Reflection from oceans",
+    "The Moon's light",
+    "Sunlight passing through more air"
+   ],
+   "answer": 3,
+   "fact": "Dust and pollution can make sunsets even more colorful."
+  },
+  {
+   "id": "earth-1206",
+   "category": "Earth",
+   "q": "How long does Earth take to spin once on its axis?",
+   "choices": [
+    "About 12 hours",
+    "About 24 hours",
+    "About 365 days",
+    "About 7 days"
+   ],
+   "answer": 1,
+   "fact": "Earth actually spins once every 23 hours and 56 minutes compared with the stars."
+  },
+  {
+   "id": "earth-1207",
+   "category": "Earth",
+   "q": "About how fast does a point on the equator move as Earth spins?",
+   "choices": [
+    "About 1,670 kilometers per hour",
+    "About 100 kilometers per hour",
+    "About 10 kilometers per hour",
+    "About 100,000 kilometers per hour"
+   ],
+   "answer": 0,
+   "fact": "We do not feel it because everything around us moves along with us."
+  },
+  {
+   "id": "earth-1208",
+   "category": "Earth",
+   "q": "What shape is Earth?",
+   "choices": [
+    "A perfect sphere",
+    "A flat disk",
+    "A sphere that bulges a little at the equator",
+    "An egg standing up"
+   ],
+   "answer": 2,
+   "fact": "Earth's spin makes it about 43 kilometers wider around the equator than from pole to pole."
+  },
+  {
+   "id": "earth-1209",
+   "category": "Earth",
+   "q": "About how far is it around Earth at the equator?",
+   "choices": [
+    "About 40,000 kilometers",
+    "About 4,000 kilometers",
+    "About 400,000 kilometers",
+    "About 1 million kilometers"
+   ],
+   "answer": 0,
+   "fact": "An ancient Greek scientist named Eratosthenes estimated it closely more than 2,000 years ago."
+  },
+  {
+   "id": "earth-1210",
+   "category": "Earth",
+   "q": "Which ancient Greek scientist measured Earth's size using shadows and wells?",
+   "choices": [
+    "Archimedes",
+    "Pythagoras",
+    "Aristotle",
+    "Eratosthenes"
+   ],
+   "answer": 3,
+   "fact": "He compared shadows in two Egyptian cities to calculate Earth's circumference."
+  },
+  {
+   "id": "earth-1211",
+   "category": "Earth",
+   "q": "Why do we have leap years?",
+   "choices": [
+    "The Moon slows down",
+    "To give February more days for fun",
+    "Because of daylight saving time",
+    "Earth takes about 365 and a quarter days to orbit the Sun"
+   ],
+   "answer": 3,
+   "fact": "Adding a day every four years keeps the calendar matched with the seasons."
+  },
+  {
+   "id": "earth-1212",
+   "category": "Earth",
+   "q": "When it is summer in the United States, what season is it in Australia?",
+   "choices": [
+    "Winter",
+    "Summer",
+    "Spring",
+    "Autumn"
+   ],
+   "answer": 0,
+   "fact": "The Northern and Southern Hemispheres have opposite seasons."
+  },
+  {
+   "id": "earth-1213",
+   "category": "Earth",
+   "q": "What do we call the season between summer and winter?",
+   "choices": [
+    "Spring",
+    "Autumn",
+    "Monsoon",
+    "Solstice"
+   ],
+   "answer": 1,
+   "fact": "Autumn is also called fall in the United States because leaves fall from trees."
+  },
+  {
+   "id": "earth-1214",
+   "category": "Earth",
+   "q": "Why do leaves change color in autumn?",
+   "choices": [
+    "Green chlorophyll breaks down and other colors show",
+    "Frost paints them",
+    "They get sunburned",
+    "Animals chew them"
+   ],
+   "answer": 0,
+   "fact": "Shorter days and cooler nights tell trees to stop making chlorophyll."
+  },
+  {
+   "id": "earth-1215",
+   "category": "Earth",
+   "q": "Why do some places near the equator have only wet and dry seasons?",
+   "choices": [
+    "They have no air",
+    "They get strong sunlight all year",
+    "They are too high",
+    "They have no oceans"
+   ],
+   "answer": 1,
+   "fact": "Near the equator, temperatures stay warm, so rain is what changes most."
+  },
+  {
+   "id": "earth-1216",
+   "category": "Earth",
+   "q": "What is the gemstone form of the mineral corundum that is red?",
+   "choices": [
+    "Ruby",
+    "Emerald",
+    "Diamond",
+    "Amethyst"
+   ],
+   "answer": 0,
+   "fact": "Blue corundum is called sapphire."
+  },
+  {
+   "id": "earth-1217",
+   "category": "Earth",
+   "q": "What is a blue gemstone made of the mineral corundum?",
+   "choices": [
+    "Sapphire",
+    "Ruby",
+    "Topaz",
+    "Opal"
+   ],
+   "answer": 0,
+   "fact": "Sapphires can also be pink, yellow and many other colors."
+  },
+  {
+   "id": "earth-1218",
+   "category": "Earth",
+   "q": "What is a green gemstone that is a type of the mineral beryl?",
+   "choices": [
+    "Ruby",
+    "Sapphire",
+    "Topaz",
+    "Emerald"
+   ],
+   "answer": 3,
+   "fact": "Most emeralds have tiny flaws inside, which jewelers call the garden."
+  },
+  {
+   "id": "earth-1219",
+   "category": "Earth",
+   "q": "What is a purple gemstone made of quartz?",
+   "choices": [
+    "Amethyst",
+    "Ruby",
+    "Emerald",
+    "Garnet"
+   ],
+   "answer": 0,
+   "fact": "The name comes from a Greek word, because people once believed it stopped drunkenness."
+  },
+  {
+   "id": "earth-1220",
+   "category": "Earth",
+   "q": "Which gemstone forms inside oysters instead of in the ground?",
+   "choices": [
+    "Diamond",
+    "Ruby",
+    "Pearl",
+    "Opal"
+   ],
+   "answer": 2,
+   "fact": "Pearls are one of the few gems made by living animals."
+  },
+  {
+   "id": "earth-1221",
+   "category": "Earth",
+   "q": "How do diamonds usually reach Earth's surface?",
+   "choices": [
+    "Falling from space",
+    "Growing in caves",
+    "Washing up from the sea",
+    "Carried up by deep volcanic eruptions"
+   ],
+   "answer": 3,
+   "fact": "Most diamonds formed more than 150 kilometers underground over a billion years ago."
+  },
+  {
+   "id": "earth-1222",
+   "category": "Earth",
+   "q": "What is the largest gem-quality diamond ever found?",
+   "choices": [
+    "The Hope diamond",
+    "The Cullinan diamond",
+    "The Koh-i-Noor",
+    "The Star of India"
+   ],
+   "answer": 1,
+   "fact": "It was found in South Africa in 1905 and cut into stones for the British Crown Jewels."
+  },
+  {
+   "id": "earth-1223",
+   "category": "Earth",
+   "q": "Which famous blue diamond is in the Smithsonian museum and rumored to be cursed?",
+   "choices": [
+    "The Cullinan",
+    "The Koh-i-Noor",
+    "The Hope Diamond",
+    "The Star of Africa"
+   ],
+   "answer": 2,
+   "fact": "The Hope Diamond glows red-orange for a while after being exposed to ultraviolet light."
+  },
+  {
+   "id": "earth-1224",
+   "category": "Earth",
+   "q": "What is an ore?",
+   "choices": [
+    "A type of boat paddle",
+    "A gemstone",
+    "A fossil",
+    "Rock containing enough metal to be worth mining"
+   ],
+   "answer": 3,
+   "fact": "Iron ore is melted in furnaces to make iron and steel."
+  },
+  {
+   "id": "earth-1225",
+   "category": "Earth",
+   "q": "Which metal ore is the main source of aluminum?",
+   "choices": [
+    "Hematite",
+    "Galena",
+    "Pyrite",
+    "Bauxite"
+   ],
+   "answer": 3,
+   "fact": "Australia is one of the world's biggest producers of bauxite."
+  },
+  {
+   "id": "earth-1226",
+   "category": "Earth",
+   "q": "Which mineral, used for rock salt, is mined from the ground?",
+   "choices": [
+    "Quartz",
+    "Halite",
+    "Mica",
+    "Calcite"
+   ],
+   "answer": 1,
+   "fact": "Halite is the mineral name for table salt."
+  },
+  {
+   "id": "earth-1227",
+   "category": "Earth",
+   "q": "Which soft mineral is used to make plaster and drywall?",
+   "choices": [
+    "Quartz",
+    "Talc",
+    "Diamond",
+    "Gypsum"
+   ],
+   "answer": 3,
+   "fact": "A cave in Mexico called the Cave of the Crystals has gypsum crystals longer than a bus."
+  },
+  {
+   "id": "earth-1228",
+   "category": "Earth",
+   "q": "Which flaky mineral splits into thin, see-through sheets?",
+   "choices": [
+    "Quartz",
+    "Granite",
+    "Mica",
+    "Gold"
+   ],
+   "answer": 2,
+   "fact": "Mica was once used for windows in stoves and lanterns."
+  },
+  {
+   "id": "earth-1229",
+   "category": "Earth",
+   "q": "What lies under Yellowstone National Park?",
+   "choices": [
+    "A supervolcano",
+    "A giant cave",
+    "An ocean",
+    "A meteorite"
+   ],
+   "answer": 0,
+   "fact": "Yellowstone sits on top of a huge hot spot of magma deep underground."
+  },
+  {
+   "id": "earth-1230",
+   "category": "Earth",
+   "q": "What are hot spots in Earth's mantle known for creating?",
+   "choices": [
+    "Chains of volcanic islands like Hawaii",
+    "Deep trenches",
+    "Mountain glaciers",
+    "Deserts"
+   ],
+   "answer": 0,
+   "fact": "As the plate moves over the hot spot, new islands form in a line."
+  },
+  {
+   "id": "earth-1231",
+   "category": "Earth",
+   "q": "Which Hawaiian volcano has been one of the most active in the world?",
+   "choices": [
+    "Mount Fuji",
+    "Kilauea",
+    "Vesuvius",
+    "Krakatoa"
+   ],
+   "answer": 1,
+   "fact": "In Hawaiian tradition, Kilauea is home to Pele, the goddess of fire and volcanoes."
+  },
+  {
+   "id": "earth-1232",
+   "category": "Earth",
+   "q": "What is the name for volcanic rock fragments that fly through the air during an eruption?",
+   "choices": [
+    "Magma",
+    "Moraine",
+    "Silt",
+    "Tephra"
+   ],
+   "answer": 3,
+   "fact": "Tephra includes everything from fine ash to huge volcanic bombs."
+  },
+  {
+   "id": "earth-1233",
+   "category": "Earth",
+   "q": "What is a fast, deadly cloud of hot gas and rock that rushes down a volcano called?",
+   "choices": [
+    "Lava lake",
+    "Mudflow only",
+    "Ash fall",
+    "Pyroclastic flow"
+   ],
+   "answer": 3,
+   "fact": "Pyroclastic flows can move faster than 100 kilometers per hour."
+  },
+  {
+   "id": "earth-1234",
+   "category": "Earth",
+   "q": "What are volcanic mudflows called?",
+   "choices": [
+    "Tsunamis",
+    "Geysers",
+    "Lahars",
+    "Fumaroles"
+   ],
+   "answer": 2,
+   "fact": "Lahars form when volcanic ash mixes with water from rain or melting snow."
+  },
+  {
+   "id": "earth-1235",
+   "category": "Earth",
+   "q": "Which island country formed on the Mid-Atlantic Ridge has many volcanoes and geysers?",
+   "choices": [
+    "Ireland",
+    "Iceland",
+    "Greenland",
+    "Madagascar"
+   ],
+   "answer": 1,
+   "fact": "In Iceland, you can stand where the North American and Eurasian plates are pulling apart."
+  },
+  {
+   "id": "earth-1236",
+   "category": "Earth",
+   "q": "Which new island formed from an undersea volcano near Iceland in 1963?",
+   "choices": [
+    "Krakatoa",
+    "Hawaii",
+    "Bermuda",
+    "Surtsey"
+   ],
+   "answer": 3,
+   "fact": "Scientists have studied Surtsey to see how plants and animals arrive on brand-new land."
+  },
+  {
+   "id": "earth-1237",
+   "category": "Earth",
+   "q": "Which Japanese mountain is a famous volcano?",
+   "choices": [
+    "Mount Everest",
+    "Mount Etna",
+    "Mount Kilimanjaro",
+    "Mount Fuji"
+   ],
+   "answer": 3,
+   "fact": "Mount Fuji last erupted in 1707."
+  },
+  {
+   "id": "earth-1238",
+   "category": "Earth",
+   "q": "Which Philippine volcano's 1991 eruption cooled the whole planet for about a year?",
+   "choices": [
+    "Mount Fuji",
+    "Krakatoa",
+    "Mount Pinatubo",
+    "Kilauea"
+   ],
+   "answer": 2,
+   "fact": "It threw so much gas into the stratosphere that global temperatures dropped about half a degree Celsius."
+  },
+  {
+   "id": "earth-1239",
+   "category": "Earth",
+   "q": "Which large lake in Central Asia has mostly dried up because its rivers were used to water crops?",
+   "choices": [
+    "Dead Sea",
+    "Aral Sea",
+    "Red Sea",
+    "Black Sea"
+   ],
+   "answer": 1,
+   "fact": "The Aral Sea was once one of the four largest lakes in the world."
+  },
+  {
+   "id": "earth-1240",
+   "category": "Earth",
+   "q": "Which sea has no coastline at all?",
+   "choices": [
+    "Sargasso Sea",
+    "Red Sea",
+    "Mediterranean Sea",
+    "Caribbean Sea"
+   ],
+   "answer": 0,
+   "fact": "The Sargasso Sea in the Atlantic is defined by ocean currents and floating seaweed."
+  },
+  {
+   "id": "earth-1241",
+   "category": "Earth",
+   "q": "What is a strait?",
+   "choices": [
+    "A long straight river",
+    "A tall cliff",
+    "A narrow channel of water connecting two larger bodies of water",
+    "A type of island"
+   ],
+   "answer": 2,
+   "fact": "The Strait of Gibraltar separates Europe from Africa."
+  },
+  {
+   "id": "earth-1242",
+   "category": "Earth",
+   "q": "What is a lagoon?",
+   "choices": [
+    "A deep mountain lake",
+    "A river mouth",
+    "An underground river",
+    "Shallow water separated from the sea by a reef or sandbar"
+   ],
+   "answer": 3,
+   "fact": "Venice, Italy, was built on islands in a lagoon."
+  },
+  {
+   "id": "earth-1243",
+   "category": "Earth",
+   "q": "What are the steep rocky walls along a coast, worn by waves, called?",
+   "choices": [
+    "Dunes",
+    "Deltas",
+    "Sea cliffs",
+    "Beaches"
+   ],
+   "answer": 2,
+   "fact": "Waves can carve sea cliffs into arches and tall stacks of rock."
+  },
+  {
+   "id": "earth-1244",
+   "category": "Earth",
+   "q": "What is a natural rock arch along a coast eventually likely to become?",
+   "choices": [
+    "A sea stack",
+    "A delta",
+    "A beach",
+    "A glacier"
+   ],
+   "answer": 0,
+   "fact": "When the top of the arch collapses, the pillar left standing is called a stack."
+  },
+  {
+   "id": "earth-1245",
+   "category": "Earth",
+   "q": "What are most beaches made of?",
+   "choices": [
+    "Salt",
+    "Sugar",
+    "Sand and small pebbles",
+    "Ash only"
+   ],
+   "answer": 2,
+   "fact": "Some Hawaiian beaches have black sand made from volcanic rock."
+  },
+  {
+   "id": "earth-1246",
+   "category": "Earth",
+   "q": "What is the pink sand on some beaches in Bermuda partly made of?",
+   "choices": [
+    "Crushed rubies",
+    "Coral paint",
+    "Red algae only",
+    "Tiny red shells of sea creatures"
+   ],
+   "answer": 3,
+   "fact": "The tiny creatures are called foraminifera."
+  },
+  {
+   "id": "earth-1247",
+   "category": "Earth",
+   "q": "What do you call a large, slow-moving swirl of ocean currents?",
+   "choices": [
+    "A gyre",
+    "A whirlpool",
+    "A tsunami",
+    "A tide"
+   ],
+   "answer": 0,
+   "fact": "Garbage patches form in the middle of gyres."
+  },
+  {
+   "id": "earth-1248",
+   "category": "Earth",
+   "q": "What is a powerful swirling body of water, like in some narrow sea passages, called?",
+   "choices": [
+    "Tsunami",
+    "Delta",
+    "Whirlpool",
+    "Fjord"
+   ],
+   "answer": 2,
+   "fact": "The Saltstraumen in Norway is one of the strongest tidal currents in the world."
+  },
+  {
+   "id": "earth-1249",
+   "category": "Earth",
+   "q": "What is a rip current?",
+   "choices": [
+    "A strong current pulling water away from the beach",
+    "A wave that ripples sideways",
+    "A tide that rises fast",
+    "A whirlpool in a lake"
+   ],
+   "answer": 0,
+   "fact": "If caught in one, swim parallel to the shore until you are out of it."
+  },
+  {
+   "id": "earth-1250",
+   "category": "Earth",
+   "q": "How deep can sunlight reach in the ocean?",
+   "choices": [
+    "About 10 kilometers",
+    "Only 1 meter",
+    "To the very bottom everywhere",
+    "About 200 meters for most light"
+   ],
+   "answer": 3,
+   "fact": "Below 1,000 meters, it is completely dark."
+  },
+  {
+   "id": "earth-1251",
+   "category": "Earth",
+   "q": "How much of the ocean have people mapped in high detail, as of 2025?",
+   "choices": [
+    "About a quarter",
+    "All of it",
+    "About 90 percent",
+    "None at all"
+   ],
+   "answer": 0,
+   "fact": "As of 2025, about a quarter of the sea floor has been mapped in high detail."
+  },
+  {
+   "id": "earth-1252",
+   "category": "Earth",
+   "q": "What color does deep, clear ocean water look, and why?",
+   "choices": [
+    "Blue, because water absorbs red light",
+    "Green, because of fish",
+    "Black, because it is dirty",
+    "Red, because of coral"
+   ],
+   "answer": 0,
+   "fact": "Water absorbs red, orange and yellow light, leaving mostly blue."
+  },
+  {
+   "id": "earth-1253",
+   "category": "Earth",
+   "q": "What makes some lakes look bright turquoise?",
+   "choices": [
+    "Paint",
+    "Blue fish",
+    "Fine rock dust from glaciers",
+    "Copper pipes"
+   ],
+   "answer": 2,
+   "fact": "This fine dust is called rock flour."
+  },
+  {
+   "id": "earth-1254",
+   "category": "Earth",
+   "q": "What is the place where a river's fresh water mixes with the sea's salt water called?",
+   "choices": [
+    "Aquifer",
+    "Spring",
+    "Estuary",
+    "Glacier"
+   ],
+   "answer": 2,
+   "fact": "Estuaries are rich nurseries for young fish."
+  },
+  {
+   "id": "earth-1255",
+   "category": "Earth",
+   "q": "What is a curving bend in a river called?",
+   "choices": [
+    "Delta",
+    "Meander",
+    "Rapid",
+    "Gorge"
+   ],
+   "answer": 1,
+   "fact": "When a meander gets cut off, it can become an oxbow lake."
+  },
+  {
+   "id": "earth-1256",
+   "category": "Earth",
+   "q": "What is the flat land beside a river that floods sometimes called?",
+   "choices": [
+    "Plateau",
+    "Canyon",
+    "Mesa",
+    "Floodplain"
+   ],
+   "answer": 3,
+   "fact": "Floodplains have very rich soil because floods leave behind mud."
+  },
+  {
+   "id": "earth-1257",
+   "category": "Earth",
+   "q": "What is a lake made by people when they build a dam called?",
+   "choices": [
+    "Lagoon",
+    "Estuary",
+    "Fjord",
+    "Reservoir"
+   ],
+   "answer": 3,
+   "fact": "Many cities get their drinking water from reservoirs."
+  },
+  {
+   "id": "earth-1258",
+   "category": "Earth",
+   "q": "Which river flows through Egypt and helped ancient Egyptians farm?",
+   "choices": [
+    "The Amazon",
+    "The Tigris",
+    "The Jordan",
+    "The Nile"
+   ],
+   "answer": 3,
+   "fact": "Its yearly floods left fertile mud along the riverbanks."
+  },
+  {
+   "id": "earth-1259",
+   "category": "Earth",
+   "q": "Which river is the longest in the United States?",
+   "choices": [
+    "The Mississippi River",
+    "The Missouri River",
+    "The Colorado River",
+    "The Ohio River"
+   ],
+   "answer": 1,
+   "fact": "The Missouri is slightly longer than the Mississippi, which it flows into."
+  },
+  {
+   "id": "earth-1260",
+   "category": "Earth",
+   "q": "What is the largest canyon in the world by some measures, in Tibet?",
+   "choices": [
+    "Grand Canyon",
+    "Yarlung Tsangpo Grand Canyon",
+    "Copper Canyon",
+    "Fish River Canyon"
+   ],
+   "answer": 1,
+   "fact": "It is deeper than the Grand Canyon in Arizona."
+  },
+  {
+   "id": "earth-1261",
+   "category": "Earth",
+   "q": "What is the giant red sandstone rock in the middle of Australia, sacred to Aboriginal people, called?",
+   "choices": [
+    "Table Mountain",
+    "Half Dome",
+    "Ben Nevis",
+    "Uluru"
+   ],
+   "answer": 3,
+   "fact": "Uluru seems to change color, glowing bright red at sunrise and sunset."
+  },
+  {
+   "id": "earth-1262",
+   "category": "Earth",
+   "q": "What is the huge crack in East Africa where the continent is slowly splitting apart called?",
+   "choices": [
+    "The Grand Canyon",
+    "The Great Rift Valley",
+    "The San Andreas Fault",
+    "The Ring of Fire"
+   ],
+   "answer": 1,
+   "fact": "In millions of years, eastern Africa may break off to form a new landmass."
+  },
+  {
+   "id": "earth-1263",
+   "category": "Earth",
+   "q": "Which large mountain range separates Europe and Asia?",
+   "choices": [
+    "The Alps",
+    "The Pyrenees",
+    "The Andes",
+    "The Ural Mountains"
+   ],
+   "answer": 3,
+   "fact": "The Ural Mountains are very old and have been worn down by erosion."
+  },
+  {
+   "id": "earth-1264",
+   "category": "Earth",
+   "q": "Which mountain range in Europe includes Mont Blanc?",
+   "choices": [
+    "The Alps",
+    "The Pyrenees",
+    "The Carpathians",
+    "The Urals"
+   ],
+   "answer": 0,
+   "fact": "Mont Blanc is the tallest mountain in the Alps."
+  },
+  {
+   "id": "earth-1265",
+   "category": "Earth",
+   "q": "How much of the Sahara is covered by sand dunes?",
+   "choices": [
+    "All of it",
+    "Only about a quarter",
+    "About 90 percent",
+    "None"
+   ],
+   "answer": 1,
+   "fact": "Most of the Sahara is rocky plains and gravel."
+  },
+  {
+   "id": "earth-1266",
+   "category": "Earth",
+   "q": "Was the Sahara Desert always a desert?",
+   "choices": [
+    "Yes, always",
+    "No, it was green with lakes thousands of years ago",
+    "It used to be an ocean last century",
+    "It used to be covered in ice last century"
+   ],
+   "answer": 1,
+   "fact": "Ancient rock art in the Sahara shows giraffes and hippos."
+  },
+  {
+   "id": "earth-1267",
+   "category": "Earth",
+   "q": "What is the large region of Earth near the equator that is warm all year called?",
+   "choices": [
+    "The polar zone",
+    "The temperate zone",
+    "The tundra",
+    "The tropics"
+   ],
+   "answer": 3,
+   "fact": "The tropics lie between the Tropic of Cancer and the Tropic of Capricorn."
+  },
+  {
+   "id": "earth-1268",
+   "category": "Earth",
+   "q": "What do we call the climate zones between the tropics and the polar regions, with four seasons?",
+   "choices": [
+    "Arctic zones",
+    "Temperate zones",
+    "Desert zones",
+    "Equatorial zones"
+   ],
+   "answer": 1,
+   "fact": "Most of the United States and Europe are in the temperate zone."
+  },
+  {
+   "id": "earth-1269",
+   "category": "Earth",
+   "q": "What is the climate of most rainforests?",
+   "choices": [
+    "Cold and dry",
+    "Hot and wet all year",
+    "Snowy in winter",
+    "Dry for half the year with snow"
+   ],
+   "answer": 1,
+   "fact": "Some rainforests get more than 2.5 meters of rain a year."
+  },
+  {
+   "id": "earth-1270",
+   "category": "Earth",
+   "q": "What kind of climate does the Mediterranean region have?",
+   "choices": [
+    "Cold all year",
+    "Rainy all year",
+    "Snowy summers",
+    "Hot dry summers and mild wet winters"
+   ],
+   "answer": 3,
+   "fact": "California, parts of Chile and South Africa have Mediterranean climates too."
+  },
+  {
+   "id": "earth-1271",
+   "category": "Earth",
+   "q": "Why are mountaintops colder than valleys?",
+   "choices": [
+    "They are closer to space ice",
+    "Wind blows snow up",
+    "They get less sunlight",
+    "Air gets thinner and cooler higher up"
+   ],
+   "answer": 3,
+   "fact": "Temperatures often drop about 6.5 degrees Celsius for every kilometer you climb."
+  },
+  {
+   "id": "earth-1272",
+   "category": "Earth",
+   "q": "Why are places near the ocean often milder than places far inland?",
+   "choices": [
+    "The ocean makes its own heat",
+    "Salt warms the air",
+    "Fish warm the water",
+    "Water heats and cools slowly"
+   ],
+   "answer": 3,
+   "fact": "This is why coastal cities usually have cooler summers and warmer winters."
+  },
+  {
+   "id": "earth-1273",
+   "category": "Earth",
+   "q": "What is a heat wave?",
+   "choices": [
+    "Several days of unusually hot weather",
+    "A wave in a hot tub",
+    "A hurricane",
+    "Sunlight from a solar flare"
+   ],
+   "answer": 0,
+   "fact": "Drinking water and staying in shade help people stay safe in a heat wave."
+  },
+  {
+   "id": "earth-1274",
+   "category": "Earth",
+   "q": "What is El Niño?",
+   "choices": [
+    "A volcano in Mexico",
+    "A type of hurricane",
+    "A mountain wind",
+    "A warming of the Pacific Ocean that changes weather around the world"
+   ],
+   "answer": 3,
+   "fact": "El Niño means the boy in Spanish, because fishermen noticed it around Christmas."
+  },
+  {
+   "id": "earth-1275",
+   "category": "Earth",
+   "q": "What is the cooling of the Pacific Ocean, opposite to El Niño, called?",
+   "choices": [
+    "El Frío",
+    "La Tormenta",
+    "La Niña",
+    "El Grande"
+   ],
+   "answer": 2,
+   "fact": "La Niña means the girl in Spanish."
+  },
+  {
+   "id": "earth-1276",
+   "category": "Earth",
+   "q": "What does a weather forecast use to predict the weather?",
+   "choices": [
+    "Guesses only",
+    "Data from satellites, radar and weather stations",
+    "Animal behavior only",
+    "Tea leaves"
+   ],
+   "answer": 1,
+   "fact": "Supercomputers run weather models millions of times faster than people could."
+  },
+  {
+   "id": "earth-1277",
+   "category": "Earth",
+   "q": "What does weather radar mainly detect?",
+   "choices": [
+    "Rain, snow and hail in clouds",
+    "Wind speed only",
+    "Temperature only",
+    "Sunlight"
+   ],
+   "answer": 0,
+   "fact": "Radar sends out radio waves that bounce off raindrops and come back."
+  },
+  {
+   "id": "earth-1278",
+   "category": "Earth",
+   "q": "What is a cold front?",
+   "choices": [
+    "A frozen lake",
+    "The edge of a cold air mass pushing into warmer air",
+    "A snowy mountain",
+    "A cold drink"
+   ],
+   "answer": 1,
+   "fact": "Cold fronts often bring thunderstorms and then cooler, clearer weather."
+  },
+  {
+   "id": "earth-1279",
+   "category": "Earth",
+   "q": "What weather does high air pressure usually bring?",
+   "choices": [
+    "Clear, calm weather",
+    "Storms",
+    "Snow",
+    "Hurricanes"
+   ],
+   "answer": 0,
+   "fact": "Low pressure often brings clouds, wind and rain."
+  },
+  {
+   "id": "earth-1280",
+   "category": "Earth",
+   "q": "What is the windiest continent on Earth?",
+   "choices": [
+    "Antarctica",
+    "Africa",
+    "Europe",
+    "Australia"
+   ],
+   "answer": 0,
+   "fact": "Winds pouring down off the Antarctic ice can be stronger than hurricane winds."
+  },
+  {
+   "id": "earth-1281",
+   "category": "Earth",
+   "q": "How thick is the ice in Antarctica at its thickest?",
+   "choices": [
+    "About 10 meters",
+    "About 100 meters",
+    "About 50 kilometers",
+    "About 4.8 kilometers"
+   ],
+   "answer": 3,
+   "fact": "The ice sheet is so heavy it pushes the land beneath it down."
+  },
+  {
+   "id": "earth-1282",
+   "category": "Earth",
+   "q": "What is a huge floating shelf of ice attached to the coast of Antarctica called?",
+   "choices": [
+    "Iceberg",
+    "Ice shelf",
+    "Glacier cap",
+    "Floe"
+   ],
+   "answer": 1,
+   "fact": "The Ross Ice Shelf is about the size of France."
+  },
+  {
+   "id": "earth-1283",
+   "category": "Earth",
+   "q": "What is the name of the largest lake buried under the Antarctic ice?",
+   "choices": [
+    "Lake Vostok",
+    "Lake Baikal",
+    "Lake Superior",
+    "Lake Erie"
+   ],
+   "answer": 0,
+   "fact": "Lake Vostok is under about 4 kilometers of ice and has been sealed off for millions of years."
+  },
+  {
+   "id": "earth-1284",
+   "category": "Earth",
+   "q": "Which is the coldest place inhabited all year by people, a village in Siberia?",
+   "choices": [
+    "Moscow",
+    "Oymyakon",
+    "Oslo",
+    "Anchorage"
+   ],
+   "answer": 1,
+   "fact": "Winter temperatures in Oymyakon can fall below minus 60 degrees Celsius."
+  },
+  {
+   "id": "earth-1285",
+   "category": "Earth",
+   "q": "What does a compass point to on Earth?",
+   "choices": [
+    "Magnetic north",
+    "The North Star",
+    "The equator",
+    "The geographic South Pole"
+   ],
+   "answer": 0,
+   "fact": "Magnetic north is not exactly the same spot as the geographic North Pole, and it slowly moves."
+  },
+  {
+   "id": "earth-1286",
+   "category": "Earth",
+   "q": "Is magnetic north moving?",
+   "choices": [
+    "No, it never moves",
+    "It moves only during earthquakes",
+    "Yes, it has been drifting toward Siberia",
+    "It moves to the equator each summer"
+   ],
+   "answer": 2,
+   "fact": "Scientists update maps of magnetic north every few years because of this drift."
+  },
+  {
+   "id": "earth-1287",
+   "category": "Earth",
+   "q": "What are topographic maps used to show?",
+   "choices": [
+    "Country borders only",
+    "Population",
+    "The shape and height of the land",
+    "Weather"
+   ],
+   "answer": 2,
+   "fact": "Contour lines that are close together show steep slopes."
+  },
+  {
+   "id": "earth-1288",
+   "category": "Earth",
+   "q": "What does a map scale tell you?",
+   "choices": [
+    "The weight of the land",
+    "The temperature",
+    "How distances on the map compare to real distances",
+    "Which way is north only"
+   ],
+   "answer": 2,
+   "fact": "For example, 1 centimeter on the map might equal 1 kilometer in real life."
+  },
+  {
+   "id": "earth-1289",
+   "category": "Earth",
+   "q": "What is the science of making maps called?",
+   "choices": [
+    "Geology",
+    "Cartography",
+    "Meteorology",
+    "Oceanography"
+   ],
+   "answer": 1,
+   "fact": "Mapmakers are called cartographers."
+  },
+  {
+   "id": "earth-1290",
+   "category": "Earth",
+   "q": "What is a scientist who studies the ocean called?",
+   "choices": [
+    "Astronomer",
+    "Botanist",
+    "Volcanologist",
+    "Oceanographer"
+   ],
+   "answer": 3,
+   "fact": "Oceanographers study waves, currents, sea life and the sea floor."
+  },
+  {
+   "id": "earth-1291",
+   "category": "Earth",
+   "q": "What is a scientist who studies volcanoes called?",
+   "choices": [
+    "Volcanologist",
+    "Seismologist",
+    "Meteorologist",
+    "Paleontologist"
+   ],
+   "answer": 0,
+   "fact": "Volcanologists wear heat-resistant suits to get close to lava."
+  },
+  {
+   "id": "earth-1292",
+   "category": "Earth",
+   "q": "What is a scientist who studies earthquakes called?",
+   "choices": [
+    "Volcanologist",
+    "Geographer",
+    "Astronomer",
+    "Seismologist"
+   ],
+   "answer": 3,
+   "fact": "Seismologists use networks of instruments to find where earthquakes start."
+  },
+  {
+   "id": "earth-1293",
+   "category": "Earth",
+   "q": "What is a scientist who studies glaciers called?",
+   "choices": [
+    "Geologist only",
+    "Glaciologist",
+    "Meteorologist",
+    "Botanist"
+   ],
+   "answer": 1,
+   "fact": "Glaciologists drill ice cores to learn about Earth's past climate."
+  },
+  {
+   "id": "earth-1294",
+   "category": "Earth",
+   "q": "What can ice cores drilled from glaciers tell scientists?",
+   "choices": [
+    "What Earth's air and climate were like long ago",
+    "The future weather",
+    "Where gold is",
+    "How old penguins are"
+   ],
+   "answer": 0,
+   "fact": "Bubbles trapped in Antarctic ice hold samples of air from about 800,000 years ago."
+  },
+  {
+   "id": "earth-1295",
+   "category": "Earth",
+   "q": "How can tree rings tell us about past weather?",
+   "choices": [
+    "They change color with rain",
+    "Wide rings mean good growing years, thin rings mean hard years",
+    "They show the temperature in numbers",
+    "They cannot tell anything"
+   ],
+   "answer": 1,
+   "fact": "The study of tree rings is called dendrochronology."
+  },
+  {
+   "id": "earth-1296",
+   "category": "Earth",
+   "q": "What are the four main parts of the water cycle?",
+   "choices": [
+    "Melting, freezing, boiling and cooling",
+    "Rain, snow, hail and sleet",
+    "Evaporation, condensation, precipitation and collection",
+    "Rivers, lakes, oceans and ponds"
+   ],
+   "answer": 2,
+   "fact": "The same water has been cycling around Earth for billions of years."
+  },
+  {
+   "id": "earth-1297",
+   "category": "Earth",
+   "q": "What is water that soaks into the ground called?",
+   "choices": [
+    "Evaporation",
+    "Condensation",
+    "Infiltration",
+    "Transpiration"
+   ],
+   "answer": 2,
+   "fact": "Sandy ground lets water soak in quickly, while clay slows it down."
+  },
+  {
+   "id": "earth-1298",
+   "category": "Earth",
+   "q": "What is a natural place where groundwater flows out onto the surface?",
+   "choices": [
+    "Spring",
+    "Geyser",
+    "Delta",
+    "Reservoir"
+   ],
+   "answer": 0,
+   "fact": "Some springs are hot because the water is heated deep underground."
+  },
+  {
+   "id": "earth-1299",
+   "category": "Earth",
+   "q": "What makes a cloud turn dark gray before rain?",
+   "choices": [
+    "It is full of smoke",
+    "It is so thick with water drops that sunlight cannot get through",
+    "It is dirty",
+    "It is cold"
+   ],
+   "answer": 1,
+   "fact": "Thin clouds look white because light passes through and scatters."
+  },
+  {
+   "id": "earth-1300",
+   "category": "Earth",
+   "q": "Why does it often rain more on one side of a mountain range?",
+   "choices": [
+    "Air rises over the mountains, cools and drops its rain",
+    "The other side has no clouds ever",
+    "Mountains make rain from rocks",
+    "Wind never crosses mountains"
+   ],
+   "answer": 0,
+   "fact": "The dry side behind the mountains is called a rain shadow."
+  },
+  {
+   "id": "earth-1301",
+   "category": "Earth",
+   "q": "What is a rain shadow?",
+   "choices": [
+    "A dry area on the far side of mountains",
+    "A shadow made by rain clouds",
+    "A type of rainbow",
+    "A puddle"
+   ],
+   "answer": 0,
+   "fact": "The Atacama Desert and Death Valley are both in rain shadows."
+  },
+  {
+   "id": "earth-1302",
+   "category": "Earth",
+   "q": "Which kind of cloud looks like a flying saucer and forms near mountains?",
+   "choices": [
+    "Cumulus cloud",
+    "Lenticular cloud",
+    "Cirrus cloud",
+    "Stratus cloud"
+   ],
+   "answer": 1,
+   "fact": "People have mistaken lenticular clouds for UFOs."
+  },
+  {
+   "id": "earth-1303",
+   "category": "Earth",
+   "q": "What is the rumbling sound that follows lightning called?",
+   "choices": [
+    "Thunder",
+    "An echo",
+    "Hail",
+    "A sonic wave"
+   ],
+   "answer": 0,
+   "fact": "Thunder can be heard up to about 15 kilometers from the lightning."
+  },
+  {
+   "id": "earth-1304",
+   "category": "Earth",
+   "q": "What is a waterspout?",
+   "choices": [
+    "A fountain",
+    "A tornado over water",
+    "A whale's breath",
+    "A geyser"
+   ],
+   "answer": 1,
+   "fact": "Waterspouts often form over warm tropical seas."
+  },
+  {
+   "id": "earth-1305",
+   "category": "Earth",
+   "q": "What is a dust devil?",
+   "choices": [
+    "A sandstorm in the ocean",
+    "A desert animal",
+    "A small spinning whirlwind of dust on a hot day",
+    "A type of tornado that lasts for weeks"
+   ],
+   "answer": 2,
+   "fact": "Dust devils form when the ground gets very hot and air rises in a spinning column."
+  },
+  {
+   "id": "earth-1306",
+   "category": "Earth",
+   "q": "What is a huge wall of dust blown by strong winds in deserts called?",
+   "choices": [
+    "Monsoon",
+    "Haboob",
+    "Blizzard",
+    "Typhoon"
+   ],
+   "answer": 1,
+   "fact": "Haboob comes from an Arabic word meaning strong wind."
+  },
+  {
+   "id": "earth-1307",
+   "category": "Earth",
+   "q": "What are the warm, dry winds that rush down the eastern side of the Rocky Mountains called?",
+   "choices": [
+    "Trade winds",
+    "Chinook winds",
+    "Monsoons",
+    "Jet streams"
+   ],
+   "answer": 1,
+   "fact": "Chinooks can melt snow so fast that they are nicknamed snow eaters."
+  },
+  {
+   "id": "earth-1308",
+   "category": "Earth",
+   "q": "What is it called when a hurricane pushes ocean water onto land?",
+   "choices": [
+    "Storm surge",
+    "Tsunami",
+    "Rip current",
+    "High tide"
+   ],
+   "answer": 0,
+   "fact": "Storm surge is often the most dangerous part of a hurricane."
+  },
+  {
+   "id": "earth-1309",
+   "category": "Earth",
+   "q": "Who gives hurricanes their names?",
+   "choices": [
+    "The President of the United States",
+    "Whoever spots it first",
+    "The World Meteorological Organization",
+    "The country it hits"
+   ],
+   "answer": 2,
+   "fact": "Names of very deadly hurricanes are retired and never used again."
+  },
+  {
+   "id": "earth-1310",
+   "category": "Earth",
+   "q": "What is the hurricane season in the Atlantic Ocean?",
+   "choices": [
+    "January to March",
+    "June 1 to November 30",
+    "All year with the same chance",
+    "December only"
+   ],
+   "answer": 1,
+   "fact": "Most Atlantic hurricanes happen from August to October."
+  },
+  {
+   "id": "earth-1311",
+   "category": "Earth",
+   "q": "What is the most common type of natural disaster in the world?",
+   "choices": [
+    "Volcanic eruptions",
+    "Meteor strikes",
+    "Tsunamis",
+    "Floods"
+   ],
+   "answer": 3,
+   "fact": "Floods affect more people around the world than any other natural disaster."
+  },
+  {
+   "id": "earth-1312",
+   "category": "Earth",
+   "q": "Why is it important to have an emergency kit at home?",
+   "choices": [
+    "To decorate the house",
+    "To have water, food and supplies if a disaster hits",
+    "To keep homework in",
+    "To store old toys"
+   ],
+   "answer": 1,
+   "fact": "A kit should have water, food, a flashlight, batteries and first aid supplies."
+  },
+  {
+   "id": "earth-1313",
+   "category": "Earth",
+   "q": "What layer of the atmosphere has the ozone layer in it?",
+   "choices": [
+    "Troposphere",
+    "Mesosphere",
+    "Exosphere",
+    "Stratosphere"
+   ],
+   "answer": 3,
+   "fact": "The stratosphere gets warmer as you go higher because ozone soaks up ultraviolet light."
+  },
+  {
+   "id": "earth-1314",
+   "category": "Earth",
+   "q": "What is the outermost layer of Earth's atmosphere, where it fades into space, called?",
+   "choices": [
+    "Troposphere",
+    "Mesosphere",
+    "Exosphere",
+    "Stratosphere"
+   ],
+   "answer": 2,
+   "fact": "Some satellites orbit in the exosphere."
+  },
+  {
+   "id": "earth-1315",
+   "category": "Earth",
+   "q": "In which layer of the atmosphere does the International Space Station orbit?",
+   "choices": [
+    "Troposphere",
+    "Stratosphere",
+    "Mesosphere",
+    "Thermosphere"
+   ],
+   "answer": 3,
+   "fact": "The thermosphere can reach over 1,500 degrees Celsius, but the air is so thin it would not feel hot."
+  },
+  {
+   "id": "earth-1316",
+   "category": "Earth",
+   "q": "What are the two main gases in Earth's air?",
+   "choices": [
+    "Oxygen and carbon dioxide",
+    "Helium and hydrogen",
+    "Nitrogen and helium",
+    "Nitrogen and oxygen"
+   ],
+   "answer": 3,
+   "fact": "Argon is the third most common gas, at about 1 percent."
+  },
+  {
+   "id": "earth-1317",
+   "category": "Earth",
+   "q": "What is the air pressure at sea level like compared to the top of Mount Everest?",
+   "choices": [
+    "About the same",
+    "About three times greater",
+    "Lower",
+    "Ten times lower"
+   ],
+   "answer": 1,
+   "fact": "Climbers on Everest often carry bottled oxygen because each breath holds about a third as much oxygen."
+  },
+  {
+   "id": "earth-1318",
+   "category": "Earth",
+   "q": "What is the scientific name for the study of Earth's physical features and processes?",
+   "choices": [
+    "Biology",
+    "Astronomy",
+    "Chemistry",
+    "Geology"
+   ],
+   "answer": 3,
+   "fact": "Geo comes from the Greek word for Earth."
+  },
+  {
+   "id": "earth-1319",
+   "category": "Earth",
+   "q": "Who is often called the father of modern geology?",
+   "choices": [
+    "Charles Darwin",
+    "James Hutton",
+    "Isaac Newton",
+    "Alfred Wegener"
+   ],
+   "answer": 1,
+   "fact": "In the 1700s, Hutton argued that Earth must be extremely old because rock changes so slowly."
+  },
+  {
+   "id": "earth-1320",
+   "category": "Earth",
+   "q": "What do scientists use to date very old rocks?",
+   "choices": [
+    "Counting fossils",
+    "Radioactive elements that decay at known rates",
+    "Measuring their color",
+    "Weighing them"
+   ],
+   "answer": 1,
+   "fact": "This method is called radiometric dating."
+  },
+  {
+   "id": "earth-1321",
+   "category": "Earth",
+   "q": "How long ago did the supercontinent Pangaea begin to break apart?",
+   "choices": [
+    "About 2,000 years ago",
+    "About 20 million years ago",
+    "About 4 billion years ago",
+    "About 200 million years ago"
+   ],
+   "answer": 3,
+   "fact": "The breakup of Pangaea created the Atlantic Ocean."
+  },
+  {
+   "id": "earth-1322",
+   "category": "Earth",
+   "q": "Which two continents' coastlines fit together like puzzle pieces?",
+   "choices": [
+    "South America and Africa",
+    "Europe and Australia",
+    "Asia and Antarctica",
+    "North America and Australia"
+   ],
+   "answer": 0,
+   "fact": "Matching fossils on both continents also show they were once joined."
+  },
+  {
+   "id": "earth-1323",
+   "category": "Earth",
+   "q": "Which continent has the most people?",
+   "choices": [
+    "Africa",
+    "Europe",
+    "North America",
+    "Asia"
+   ],
+   "answer": 3,
+   "fact": "As of 2025, more than half of all people on Earth live in Asia."
+  },
+  {
+   "id": "earth-1324",
+   "category": "Earth",
+   "q": "On which continent is the Amazon rainforest?",
+   "choices": [
+    "Africa",
+    "South America",
+    "Asia",
+    "North America"
+   ],
+   "answer": 1,
+   "fact": "The Amazon rainforest spreads across nine countries, with the largest part in Brazil."
+  },
+  {
+   "id": "earth-1325",
+   "category": "Earth",
+   "q": "What is light pollution?",
+   "choices": [
+    "Pollution that glows",
+    "Smoke from candles",
+    "Sunlight reflected off trash",
+    "Too much artificial light at night that hides the stars"
+   ],
+   "answer": 3,
+   "fact": "Many people in cities can no longer see the Milky Way because of light pollution."
+  },
+  {
+   "id": "earth-1326",
+   "category": "Earth",
+   "q": "What is the main cause of the seasons being colder at the poles?",
+   "choices": [
+    "They are farther from the Sun",
+    "Ice makes cold air",
+    "Sunlight hits them at a low angle",
+    "The Moon blocks them"
+   ],
+   "answer": 2,
+   "fact": "Low-angle sunlight spreads its energy over a bigger area, so it heats less."
+  },
+  {
+   "id": "earth-1327",
+   "category": "Earth",
+   "q": "What is the line around the Arctic where the Sun does not set on the summer solstice?",
+   "choices": [
+    "Arctic Circle",
+    "Tropic of Cancer",
+    "Equator",
+    "Prime meridian"
+   ],
+   "answer": 0,
+   "fact": "North of the Arctic Circle, there is at least one full day of darkness in winter."
+  },
+  {
+   "id": "earth-1328",
+   "category": "Earth",
+   "q": "What is the name for the green flash that sometimes appears just as the Sun sets over the sea?",
+   "choices": [
+    "Green flash",
+    "Sun sparkle",
+    "Emerald glow",
+    "Ocean beam"
+   ],
+   "answer": 0,
+   "fact": "It happens because the atmosphere bends green light slightly more than red."
+  },
+  {
+   "id": "earth-1329",
+   "category": "Earth",
+   "q": "What are sundogs?",
+   "choices": [
+    "Bright spots beside the Sun caused by ice crystals",
+    "Dogs that sleep in the sun",
+    "Sunspots",
+    "Shooting stars"
+   ],
+   "answer": 0,
+   "fact": "Sundogs often appear on cold days when thin, icy clouds are in the sky."
+  },
+  {
+   "id": "earth-1330",
+   "category": "Earth",
+   "q": "What is a halo around the Sun or Moon caused by?",
+   "choices": [
+    "Dust on Earth",
+    "Ice crystals in high clouds",
+    "A solar eclipse",
+    "Lightning"
+   ],
+   "answer": 1,
+   "fact": "A halo often appears when cirrus clouds are in the sky."
+  },
+  {
+   "id": "earth-1331",
+   "category": "Earth",
+   "q": "What does the rhyme red sky at night, sailors' delight usually predict?",
+   "choices": [
+    "A storm coming",
+    "Snow coming",
+    "An eclipse",
+    "Good weather coming"
+   ],
+   "answer": 3,
+   "fact": "A red sunset often means dry air to the west, where weather usually comes from in the middle latitudes."
+  },
+  {
+   "id": "earth-1332",
+   "category": "Earth",
+   "q": "What do we call a region that gets less than about 25 centimeters of rain a year?",
+   "choices": [
+    "Rainforest",
+    "Tundra only",
+    "Wetland",
+    "Desert"
+   ],
+   "answer": 3,
+   "fact": "Some desert plants can survive for years waiting for the next rain."
+  },
+  {
+   "id": "earth-1333",
+   "category": "Earth",
+   "q": "How do cactus plants survive in the desert?",
+   "choices": [
+    "They drink from the ocean",
+    "They grow only at night",
+    "They store water in their thick stems",
+    "They never need water"
+   ],
+   "answer": 2,
+   "fact": "Some cactuses have roots that spread out wide just under the surface to catch rain quickly."
+  },
+  {
+   "id": "earth-1334",
+   "category": "Earth",
+   "q": "What is a coral reef's biggest threat as oceans warm?",
+   "choices": [
+    "Too many fish",
+    "Too much sunlight on the beach",
+    "Sand dunes",
+    "Coral bleaching"
+   ],
+   "answer": 3,
+   "fact": "The Great Barrier Reef has had several mass bleaching events in recent years."
+  },
+  {
+   "id": "earth-1335",
+   "category": "Earth",
+   "q": "What do mangrove forests do for coasts?",
+   "choices": [
+    "Protect them from storms and erosion",
+    "Make them colder",
+    "Turn sand into rock",
+    "Pull in sharks"
+   ],
+   "answer": 0,
+   "fact": "Mangrove trees grow in salty water with roots that stick up above the mud."
+  },
+  {
+   "id": "earth-1336",
+   "category": "Earth",
+   "q": "What gas do oceans absorb a lot of, making them more acidic?",
+   "choices": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Helium",
+    "Nitrogen"
+   ],
+   "answer": 0,
+   "fact": "Ocean acidification makes it harder for corals and shellfish to build their shells."
+  },
+  {
+   "id": "earth-1337",
+   "category": "Earth",
+   "q": "What fraction of the oxygen we breathe is estimated to come from the ocean?",
+   "choices": [
+    "Almost none",
+    "All of it",
+    "About half",
+    "About one tenth"
+   ],
+   "answer": 2,
+   "fact": "Tiny ocean plants called phytoplankton make much of this oxygen."
+  },
+  {
+   "id": "earth-1338",
+   "category": "Earth",
+   "q": "What does a national park protect?",
+   "choices": [
+    "Shopping malls",
+    "Natural areas, wildlife and landscapes",
+    "Factories",
+    "Highways"
+   ],
+   "answer": 1,
+   "fact": "Yellowstone, created in 1872, is often called the world's first national park."
+  },
+  {
+   "id": "earth-1339",
+   "category": "Earth",
+   "q": "What is the name of the rock layer under the crust that flows very slowly, like thick putty?",
+   "choices": [
+    "Lithosphere",
+    "Inner core",
+    "Hydrosphere",
+    "Asthenosphere"
+   ],
+   "answer": 3,
+   "fact": "The tectonic plates slide around on top of this soft layer."
+  },
+  {
+   "id": "earth-1340",
+   "category": "Earth",
+   "q": "What kind of seismic waves cannot travel through liquid?",
+   "choices": [
+    "S waves",
+    "P waves",
+    "Surface waves",
+    "Sound waves"
+   ],
+   "answer": 0,
+   "fact": "Because S waves do not pass through the outer core, scientists learned it must be liquid."
+  },
+  {
+   "id": "earth-1341",
+   "category": "Earth",
+   "q": "Which earthquake waves arrive first at a seismometer?",
+   "choices": [
+    "S waves",
+    "Surface waves",
+    "Tidal waves",
+    "P waves"
+   ],
+   "answer": 3,
+   "fact": "P stands for primary because these waves are the fastest."
+  },
+  {
+   "id": "earth-1342",
+   "category": "Earth",
+   "q": "What do we call a crack in Earth's crust where rocks have moved?",
+   "choices": [
+    "Vein",
+    "Ridge",
+    "Trench",
+    "Fault"
+   ],
+   "answer": 3,
+   "fact": "Earthquakes happen when rocks along a fault suddenly slip."
+  },
+  {
+   "id": "earth-1343",
+   "category": "Earth",
+   "q": "What is a deep, narrow valley on the ocean floor where one plate sinks under another called?",
+   "choices": [
+    "Mid-ocean ridge",
+    "Abyssal plain",
+    "Seamount",
+    "Ocean trench"
+   ],
+   "answer": 3,
+   "fact": "The sinking of one plate under another is called subduction."
+  },
+  {
+   "id": "earth-1344",
+   "category": "Earth",
+   "q": "What is it called when one tectonic plate slides beneath another?",
+   "choices": [
+    "Subduction",
+    "Erosion",
+    "Deposition",
+    "Sublimation"
+   ],
+   "answer": 0,
+   "fact": "Subduction zones cause some of the most powerful earthquakes and volcanoes."
+  },
+  {
+   "id": "earth-1345",
+   "category": "Earth",
+   "q": "What is an underwater mountain that does not reach the surface called?",
+   "choices": [
+    "Atoll",
+    "Island",
+    "Reef",
+    "Seamount"
+   ],
+   "answer": 3,
+   "fact": "There are thought to be tens of thousands of seamounts in the oceans."
+  },
+  {
+   "id": "earth-1346",
+   "category": "Earth",
+   "q": "What are the wide, flat parts of the deep ocean floor called?",
+   "choices": [
+    "Continental shelves",
+    "Trenches",
+    "Abyssal plains",
+    "Ridges"
+   ],
+   "answer": 2,
+   "fact": "Abyssal plains are among the flattest places on Earth."
+  },
+  {
+   "id": "earth-1347",
+   "category": "Earth",
+   "q": "What is the shallow, gently sloping edge of a continent under the sea called?",
+   "choices": [
+    "Abyssal plain",
+    "Continental shelf",
+    "Ocean trench",
+    "Mid-ocean ridge"
+   ],
+   "answer": 1,
+   "fact": "Most of the world's fishing happens over continental shelves."
+  },
+  {
+   "id": "earth-1348",
+   "category": "Earth",
+   "q": "How does new ocean floor form?",
+   "choices": [
+    "Sand piles up",
+    "Coral grows on it",
+    "Magma rises at mid-ocean ridges and cools",
+    "Ice melts on it"
+   ],
+   "answer": 2,
+   "fact": "This process is called seafloor spreading."
+  },
+  {
+   "id": "earth-1349",
+   "category": "Earth",
+   "q": "What type of volcano is tall and cone-shaped, built from layers of lava and ash?",
+   "choices": [
+    "Shield volcano",
+    "Cinder cone",
+    "Stratovolcano",
+    "Fissure"
+   ],
+   "answer": 2,
+   "fact": "Mount Fuji and Mount St. Helens are stratovolcanoes."
+  },
+  {
+   "id": "earth-1350",
+   "category": "Earth",
+   "q": "What is the smallest and simplest type of volcano, made of piled-up bits of lava?",
+   "choices": [
+    "Cinder cone",
+    "Stratovolcano",
+    "Shield volcano",
+    "Caldera"
+   ],
+   "answer": 0,
+   "fact": "Paricutin in Mexico grew from a cornfield in 1943 as a cinder cone."
+  },
+  {
+   "id": "earth-1351",
+   "category": "Earth",
+   "q": "What is a vent in the ground that lets out volcanic gases and steam?",
+   "choices": [
+    "Fumarole",
+    "Geyser",
+    "Spring",
+    "Sinkhole"
+   ],
+   "answer": 0,
+   "fact": "Some fumaroles leave behind yellow crystals of sulfur."
+  },
+  {
+   "id": "earth-1352",
+   "category": "Earth",
+   "q": "What is the hard, ropy kind of lava from Hawaii called?",
+   "choices": [
+    "Pahoehoe",
+    "Aa",
+    "Obsidian",
+    "Pumice"
+   ],
+   "answer": 0,
+   "fact": "The rough, jagged kind is called aa, and both names come from the Hawaiian language."
+  },
+  {
+   "id": "earth-1353",
+   "category": "Earth",
+   "q": "Which gas do volcanoes give off the most of?",
+   "choices": [
+    "Oxygen",
+    "Water vapor",
+    "Helium",
+    "Neon"
+   ],
+   "answer": 1,
+   "fact": "Volcanoes also give off carbon dioxide and sulfur gases."
+  },
+  {
+   "id": "earth-1354",
+   "category": "Earth",
+   "q": "How can scientists sometimes predict a volcanic eruption?",
+   "choices": [
+    "By watching for small earthquakes and ground swelling",
+    "By counting clouds",
+    "By checking the moon phase",
+    "They can always predict the exact day"
+   ],
+   "answer": 0,
+   "fact": "Volcano monitors also measure gases coming out of the ground."
+  },
+  {
+   "id": "earth-1355",
+   "category": "Earth",
+   "q": "What do we call the remains of a dead plant or animal that has turned to stone?",
+   "choices": [
+    "Amber",
+    "Petrified fossil",
+    "Coal",
+    "Lava"
+   ],
+   "answer": 1,
+   "fact": "In petrified wood, minerals slowly replaced the wood, keeping its shape."
+  },
+  {
+   "id": "earth-1356",
+   "category": "Earth",
+   "q": "What is coal made from?",
+   "choices": [
+    "Dinosaur bones",
+    "Volcanic ash",
+    "Ancient plants buried and squeezed for millions of years",
+    "Sea salt"
+   ],
+   "answer": 2,
+   "fact": "Much of the world's coal formed from swamp forests about 300 million years ago."
+  },
+  {
+   "id": "earth-1357",
+   "category": "Earth",
+   "q": "How do plant roots help break apart rocks?",
+   "choices": [
+    "They dissolve rock with sunlight",
+    "They freeze the rock",
+    "They grow into cracks and push them wider",
+    "They pull the rock up"
+   ],
+   "answer": 2,
+   "fact": "This is a kind of weathering."
+  },
+  {
+   "id": "earth-1358",
+   "category": "Earth",
+   "q": "How does freezing water break rocks?",
+   "choices": [
+    "Ice is hotter than rock",
+    "Ice melts the rock",
+    "Water in cracks expands when it freezes",
+    "Ice is magnetic"
+   ],
+   "answer": 2,
+   "fact": "This is called frost wedging, and it also makes potholes in roads."
+  },
+  {
+   "id": "earth-1359",
+   "category": "Earth",
+   "q": "What is the slow downhill creep of soil caused by gravity called?",
+   "choices": [
+    "Avalanche",
+    "Deposition",
+    "Soil creep",
+    "Sublimation"
+   ],
+   "answer": 2,
+   "fact": "You can spot soil creep where fences and trees on a hillside lean downhill."
+  },
+  {
+   "id": "earth-1360",
+   "category": "Earth",
+   "q": "Which is heavier, a cubic meter of dry air or a cubic meter of moist air at the same temperature?",
+   "choices": [
+    "Moist air",
+    "They weigh the same",
+    "Dry air",
+    "Neither has weight"
+   ],
+   "answer": 2,
+   "fact": "Water vapor molecules are lighter than the nitrogen and oxygen molecules they replace."
+  },
+  {
+   "id": "earth-1361",
+   "category": "Earth",
+   "q": "What is the boundary between two air masses called?",
+   "choices": [
+    "Front",
+    "Ridge",
+    "Trough",
+    "Jet"
+   ],
+   "answer": 0,
+   "fact": "Weather often changes quickly when a front passes."
+  },
+  {
+   "id": "earth-1362",
+   "category": "Earth",
+   "q": "What is a warm front?",
+   "choices": [
+    "A heat wave",
+    "Warm air sliding up over colder air",
+    "A hot desert wind",
+    "Sunlight at noon"
+   ],
+   "answer": 1,
+   "fact": "Warm fronts often bring long, steady rain."
+  },
+  {
+   "id": "earth-1363",
+   "category": "Earth",
+   "q": "What are the curving lines on a weather map that connect places with equal air pressure called?",
+   "choices": [
+    "Isobars",
+    "Isotherms",
+    "Contours",
+    "Meridians"
+   ],
+   "answer": 0,
+   "fact": "When isobars are close together, the wind is strong."
+  },
+  {
+   "id": "earth-1364",
+   "category": "Earth",
+   "q": "What do weather balloons carry into the sky?",
+   "choices": [
+    "Passengers",
+    "Instruments that measure temperature, humidity and wind",
+    "Rain seeds",
+    "Cameras only"
+   ],
+   "answer": 1,
+   "fact": "Weather balloons are launched around the world twice a day."
+  },
+  {
+   "id": "earth-1365",
+   "category": "Earth",
+   "q": "Which weather satellites stay above one spot on Earth to watch storms?",
+   "choices": [
+    "Polar satellites only",
+    "Moon satellites",
+    "Geostationary satellites",
+    "Spy planes"
+   ],
+   "answer": 2,
+   "fact": "They orbit about 36,000 kilometers above the equator."
+  },
+  {
+   "id": "earth-1366",
+   "category": "Earth",
+   "q": "What is the cloud type that brings steady rain or snow and is dark and thick?",
+   "choices": [
+    "Cirrus",
+    "Nimbostratus",
+    "Cumulus",
+    "Altocumulus"
+   ],
+   "answer": 1,
+   "fact": "Nimbus comes from the Latin word for rain cloud."
+  },
+  {
+   "id": "earth-1367",
+   "category": "Earth",
+   "q": "What are the anvil-shaped tops of thunderstorm clouds caused by?",
+   "choices": [
+    "The storm cloud hitting the top of the troposphere and spreading out",
+    "Wind blowing them flat from the ground",
+    "Ice falling",
+    "Lightning"
+   ],
+   "answer": 0,
+   "fact": "The rising air cannot easily push into the warmer stratosphere above."
+  },
+  {
+   "id": "earth-1368",
+   "category": "Earth",
+   "q": "What is graupel?",
+   "choices": [
+    "Soft, small pellets of snow and ice",
+    "A kind of lightning",
+    "A desert wind",
+    "A type of rock"
+   ],
+   "answer": 0,
+   "fact": "Graupel forms when supercooled water droplets freeze onto snowflakes."
+  },
+  {
+   "id": "earth-1369",
+   "category": "Earth",
+   "q": "What is freezing rain?",
+   "choices": [
+    "Rain that freezes when it hits cold surfaces",
+    "Hail",
+    "Snow that melts",
+    "Rain in space"
+   ],
+   "answer": 0,
+   "fact": "Freezing rain can coat roads, trees and power lines in a thick layer of ice."
+  },
+  {
+   "id": "earth-1370",
+   "category": "Earth",
+   "q": "What causes the seasons to be opposite in the Northern and Southern Hemispheres?",
+   "choices": [
+    "The Moon blocks one side",
+    "One side has more ocean",
+    "The Sun moves north and south",
+    "Earth's tilt points one hemisphere toward the Sun while the other points away"
+   ],
+   "answer": 3,
+   "fact": "In December, the Southern Hemisphere is tilted toward the Sun."
+  },
+  {
+   "id": "earth-1371",
+   "category": "Earth",
+   "q": "What is the main reason it is hotter at the equator than at the poles?",
+   "choices": [
+    "The equator is closer to the Sun's core",
+    "Sunlight hits the equator more directly",
+    "There are more volcanoes there",
+    "The poles have no air"
+   ],
+   "answer": 1,
+   "fact": "The same sunlight spread over a larger area at the poles gives less heat."
+  },
+  {
+   "id": "earth-1372",
+   "category": "Earth",
+   "q": "What are thick layers of mud and sand at the bottom of lakes and oceans that build up over time called?",
+   "choices": [
+    "Magma",
+    "Bedrock",
+    "Mantle",
+    "Sediment"
+   ],
+   "answer": 3,
+   "fact": "Layers of sediment can hold pollen and tiny shells that reveal past climates."
+  },
+  {
+   "id": "earth-1373",
+   "category": "Earth",
+   "q": "What is the process that turns loose sediment into solid rock?",
+   "choices": [
+    "Melting and cooling",
+    "Freezing and thawing",
+    "Compaction and cementation",
+    "Burning"
+   ],
+   "answer": 2,
+   "fact": "Minerals in water act like glue to cement the grains together."
+  },
+  {
+   "id": "earth-1374",
+   "category": "Earth",
+   "q": "What metamorphic rock forms when sandstone is heated and squeezed?",
+   "choices": [
+    "Quartzite",
+    "Marble",
+    "Slate",
+    "Granite"
+   ],
+   "answer": 0,
+   "fact": "Quartzite is very hard and resists weathering."
+  },
+  {
+   "id": "earth-1375",
+   "category": "Earth",
+   "q": "What gives some rocks layers or bands of different colors?",
+   "choices": [
+    "Different materials deposited at different times",
+    "Paint from people",
+    "Lightning",
+    "Animals"
+   ],
+   "answer": 0,
+   "fact": "Places like the Grand Canyon show millions of years of history in their colored layers."
+  },
+  {
+   "id": "earth-1376",
+   "category": "Earth",
+   "q": "Why do some rocks fizz when a drop of acid touches them?",
+   "choices": [
+    "They contain calcite",
+    "They are full of air",
+    "They are magnetic",
+    "They are hot"
+   ],
+   "answer": 0,
+   "fact": "Geologists use this test to identify limestone and marble."
+  },
+  {
+   "id": "earth-1377",
+   "category": "Earth",
+   "q": "What is the streak test used to identify minerals?",
+   "choices": [
+    "Scratching it with a nail",
+    "Weighing it",
+    "Dropping it in water",
+    "Rubbing a mineral on tile to see the color of its powder"
+   ],
+   "answer": 3,
+   "fact": "Pyrite looks gold but leaves a greenish black streak."
+  }
+ ]
+}

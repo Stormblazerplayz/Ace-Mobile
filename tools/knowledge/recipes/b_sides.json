@@ -1,0 +1,1993 @@
+{
+ "recipes": [
+  {
+   "id": "crispy-roasted-potatoes",
+   "name": "Crispy roasted potatoes",
+   "aliases": [
+    "roasted potatoes",
+    "roast potatoes",
+    "crispy potatoes",
+    "oven roasted potatoes",
+    "roasties",
+    "rosemary potatoes"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "potatoes",
+    "olive oil",
+    "garlic",
+    "rosemary"
+   ],
+   "ingredients": [
+    "2 lb (900 g) Yukon Gold or red potatoes",
+    "3 tablespoons olive oil",
+    "1 teaspoon salt",
+    "1/2 teaspoon black pepper",
+    "1/2 teaspoon garlic powder",
+    "1 tablespoon chopped fresh rosemary or 1 teaspoon dried"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Cut the potatoes into 1 inch chunks. Ask an adult to help with the knife.",
+    "Toss with the oil, salt, pepper, garlic powder and rosemary on a baking sheet.",
+    "Spread out in one layer with a cut side down.",
+    "Roast for 20 minutes, then flip with a spatula.",
+    "Roast for 15 to 20 minutes more, until crispy and golden."
+   ]
+  },
+  {
+   "id": "oven-fries",
+   "name": "Oven-baked fries",
+   "aliases": [
+    "french fries",
+    "fries",
+    "oven fries",
+    "baked fries",
+    "chips",
+    "homemade fries"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "1 hr 10 min",
+   "main": [
+    "potatoes",
+    "oil",
+    "salt"
+   ],
+   "ingredients": [
+    "3 russet potatoes (about 1 1/2 lb / 680 g)",
+    "2 tablespoons vegetable oil",
+    "1 teaspoon salt",
+    "1/2 teaspoon garlic powder (optional)"
+   ],
+   "steps": [
+    "Have an adult cut the potatoes into 1/4 inch sticks.",
+    "Soak the sticks in cold water for 30 minutes. This makes them crispier.",
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Drain and dry them really well with towels.",
+    "Toss with the oil and spread in one layer on 2 baking sheets.",
+    "Bake for 25 to 30 minutes, flipping halfway, until golden and crisp.",
+    "Toss with salt and garlic powder right away."
+   ]
+  },
+  {
+   "id": "sweet-potato-fries",
+   "name": "Sweet potato fries",
+   "aliases": [
+    "sweet potato fries",
+    "sweet potato fry",
+    "baked sweet potato fries",
+    "yam fries"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "sweet potatoes",
+    "cornstarch",
+    "oil",
+    "paprika"
+   ],
+   "ingredients": [
+    "2 sweet potatoes (about 1 1/2 lb / 680 g)",
+    "1 tablespoon cornstarch",
+    "2 tablespoons vegetable oil",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon smoked paprika"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Have an adult cut the sweet potatoes into 1/4 inch sticks.",
+    "Toss with the cornstarch until lightly dusted, then with the oil.",
+    "Spread them out on 2 lined baking sheets so they do not touch.",
+    "Bake for 25 to 30 minutes, flipping halfway, until crisp at the edges.",
+    "Sprinkle with salt and paprika."
+   ]
+  },
+  {
+   "id": "potato-wedges",
+   "name": "Seasoned potato wedges",
+   "aliases": [
+    "potato wedges",
+    "wedges",
+    "baked potato wedges",
+    "seasoned wedges",
+    "parmesan potato wedges"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "potatoes",
+    "oil",
+    "garlic powder",
+    "paprika",
+    "parmesan"
+   ],
+   "ingredients": [
+    "4 russet potatoes",
+    "3 tablespoons vegetable oil",
+    "1 teaspoon salt",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "1/4 cup (25 g) grated parmesan"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Have an adult cut each potato in half lengthwise, then each half into 4 wedges.",
+    "Toss with the oil, salt, garlic powder and paprika.",
+    "Lay them skin side down on a lined baking sheet.",
+    "Bake for 30 to 35 minutes, until golden and tender inside.",
+    "Sprinkle with parmesan and serve."
+   ]
+  },
+  {
+   "id": "scalloped-potatoes",
+   "name": "Cheesy scalloped potatoes",
+   "aliases": [
+    "scalloped potatoes",
+    "au gratin potatoes",
+    "potatoes au gratin",
+    "cheesy potatoes",
+    "potato bake"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "1 hr 45 min",
+   "main": [
+    "potatoes",
+    "milk",
+    "butter",
+    "cheddar",
+    "flour"
+   ],
+   "ingredients": [
+    "2 1/2 lb (1.1 kg) Yukon Gold potatoes, peeled",
+    "3 tablespoons butter",
+    "3 tablespoons all-purpose flour",
+    "2 1/2 cups (600 ml) milk",
+    "1 garlic clove, minced",
+    "1 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "1 1/2 cups (170 g) shredded cheddar or Gruyere"
+   ],
+   "steps": [
+    "Heat the oven to 375°F (190°C). Ask an adult to help.",
+    "Have an adult slice the potatoes 1/8 inch thick.",
+    "Melt the butter in a pot, whisk in the flour and cook for 1 minute.",
+    "Slowly whisk in the milk, add the garlic, salt and pepper, and cook for 3 to 4 minutes, until thick.",
+    "Layer half the potatoes in a greased 9 by 13 inch dish, pour on half the sauce and sprinkle with half the cheese.",
+    "Repeat with the rest.",
+    "Cover with foil and bake for 45 minutes.",
+    "Uncover and bake for 30 minutes more, until golden and the potatoes are tender.",
+    "Let rest for 10 minutes before serving."
+   ]
+  },
+  {
+   "id": "smashed-potatoes",
+   "name": "Crispy smashed potatoes",
+   "aliases": [
+    "smashed potatoes",
+    "crispy smashed potatoes",
+    "smashed baby potatoes",
+    "crushed potatoes"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "baby potatoes",
+    "olive oil",
+    "garlic",
+    "parmesan"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) baby potatoes",
+    "1 tablespoon salt for the water",
+    "3 tablespoons olive oil",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon garlic powder",
+    "2 tablespoons grated parmesan",
+    "Chopped parsley"
+   ],
+   "steps": [
+    "Boil the potatoes in salted water for 15 to 20 minutes, until a fork slides in easily. Ask an adult to help drain them.",
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Put the potatoes on an oiled baking sheet and let cool for 5 minutes.",
+    "Press each one flat with the bottom of a glass.",
+    "Drizzle with oil and sprinkle with salt and garlic powder.",
+    "Roast for 20 to 25 minutes, until crispy and golden at the edges.",
+    "Sprinkle with parmesan and parsley."
+   ]
+  },
+  {
+   "id": "hasselback-potatoes",
+   "name": "Hasselback potatoes",
+   "aliases": [
+    "hasselback potatoes",
+    "hasselback potato",
+    "accordion potatoes",
+    "sliced baked potatoes"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "1 hr 30 min",
+   "main": [
+    "potatoes",
+    "butter",
+    "olive oil",
+    "garlic"
+   ],
+   "ingredients": [
+    "4 medium Yukon Gold or russet potatoes",
+    "4 tablespoons (55 g) butter, melted",
+    "2 tablespoons olive oil",
+    "1 garlic clove, minced",
+    "1 teaspoon salt",
+    "Chopped chives to top"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Lay a potato between 2 chopsticks so the knife stops before cutting through.",
+    "Have an adult cut thin slices 1/8 inch apart along each potato.",
+    "Mix the butter, oil and garlic and brush over the potatoes, getting some between the slices.",
+    "Sprinkle with salt and put them in a baking dish.",
+    "Roast for 30 minutes, then brush again with the butter.",
+    "Roast for 30 to 40 minutes more, until crisp on the edges and soft inside.",
+    "Top with chives."
+   ]
+  },
+  {
+   "id": "twice-baked-potatoes",
+   "name": "Twice-baked potatoes",
+   "aliases": [
+    "twice baked potatoes",
+    "twice baked potato",
+    "stuffed potatoes",
+    "double baked potatoes"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "1 hr 45 min",
+   "main": [
+    "potatoes",
+    "sour cream",
+    "cheddar",
+    "butter",
+    "green onions"
+   ],
+   "ingredients": [
+    "4 russet potatoes",
+    "1/2 cup (120 g) sour cream",
+    "1/4 cup (60 ml) milk",
+    "3 tablespoons butter",
+    "1 cup (115 g) shredded cheddar, divided",
+    "1/2 teaspoon salt",
+    "2 green onions, sliced"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Scrub the potatoes, poke them with a fork and bake for 1 hour, until soft.",
+    "Let cool for 10 minutes, then have an adult cut them in half lengthwise.",
+    "Scoop out the insides, leaving a thin wall of potato in the skins.",
+    "Mash the insides with the sour cream, milk, butter, half the cheese, salt and green onions.",
+    "Spoon the filling back into the skins and top with the rest of the cheese.",
+    "Bake for 15 to 20 minutes, until hot and the cheese melts."
+   ]
+  },
+  {
+   "id": "sweet-potato-casserole",
+   "name": "Sweet potato casserole",
+   "aliases": [
+    "sweet potato casserole",
+    "sweet potatoes with marshmallows",
+    "candied yams",
+    "yam casserole",
+    "mashed sweet potatoes"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "1 hr 15 min",
+   "main": [
+    "sweet potatoes",
+    "butter",
+    "brown sugar",
+    "marshmallows",
+    "egg"
+   ],
+   "ingredients": [
+    "3 lb (1.4 kg) sweet potatoes, peeled and cubed",
+    "1/4 cup (55 g) butter",
+    "1/3 cup (75 g) packed brown sugar",
+    "1/2 cup (120 ml) milk",
+    "1 large egg",
+    "1 teaspoon vanilla extract",
+    "1/2 teaspoon ground cinnamon",
+    "1/2 teaspoon salt",
+    "3 cups (150 g) mini marshmallows"
+   ],
+   "steps": [
+    "Boil the sweet potatoes for 15 to 20 minutes, until very soft. Ask an adult to help drain them.",
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Mash with the butter, brown sugar, milk, egg, vanilla, cinnamon and salt until smooth.",
+    "Spread in a greased 2 quart baking dish.",
+    "Bake for 25 minutes.",
+    "Cover the top with the marshmallows and bake for 10 minutes more, until puffed and golden."
+   ]
+  },
+  {
+   "id": "patatas-bravas",
+   "name": "Patatas bravas",
+   "aliases": [
+    "patatas bravas",
+    "bravas",
+    "spanish potatoes",
+    "potatoes with brava sauce"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "50 min",
+   "main": [
+    "potatoes",
+    "olive oil",
+    "smoked paprika",
+    "tomato"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) potatoes, cut in 1 inch cubes",
+    "3 tablespoons olive oil",
+    "1/2 teaspoon salt",
+    "Sauce: 1 tablespoon olive oil, 1 garlic clove, minced, 1 teaspoon smoked paprika, 1 tablespoon flour, 1/2 cup (120 ml) broth, 1/2 cup (120 g) tomato sauce, 1 teaspoon vinegar, pinch of cayenne",
+    "Mayonnaise or garlic aioli to serve"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Toss the potatoes with the oil and salt on a baking sheet.",
+    "Roast for 35 to 40 minutes, turning once, until crisp and golden.",
+    "For the sauce, warm the oil and garlic in a small pot for 30 seconds. Ask an adult to help.",
+    "Stir in the paprika and flour, then whisk in the broth, tomato sauce and vinegar.",
+    "Simmer for 3 to 4 minutes, until thick. Add cayenne if you like it spicy.",
+    "Spoon the sauce over the potatoes and add dots of mayo."
+   ]
+  },
+  {
+   "id": "bombay-potatoes",
+   "name": "Bombay potatoes",
+   "aliases": [
+    "bombay potatoes",
+    "bombay aloo",
+    "spiced potatoes",
+    "masala potatoes",
+    "jeera aloo"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "potatoes",
+    "cumin seeds",
+    "turmeric",
+    "tomato",
+    "cilantro"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) baby potatoes, halved",
+    "2 tablespoons vegetable oil",
+    "1 teaspoon cumin seeds",
+    "1 teaspoon mustard seeds (optional)",
+    "1 teaspoon ground turmeric",
+    "1 teaspoon ground coriander",
+    "1/2 teaspoon chili powder",
+    "1/2 teaspoon garam masala",
+    "1 tomato, chopped",
+    "1 teaspoon salt",
+    "2 tablespoons chopped cilantro"
+   ],
+   "steps": [
+    "Boil the potatoes for 10 minutes, until just tender. Ask an adult to help drain them.",
+    "Heat the oil in a big pan over medium heat and add the cumin and mustard seeds. Cook for 30 seconds, until they sizzle.",
+    "Stir in the turmeric, coriander, chili powder and garam masala.",
+    "Add the potatoes and tomato and stir to coat.",
+    "Cook for 8 to 10 minutes, stirring now and then, until the potatoes are golden at the edges.",
+    "Sprinkle with salt and cilantro."
+   ]
+  },
+  {
+   "id": "latkes",
+   "name": "Potato latkes",
+   "aliases": [
+    "latkes",
+    "latke",
+    "potato pancakes",
+    "potato latkes",
+    "hanukkah latkes"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "45 min",
+   "main": [
+    "potatoes",
+    "onion",
+    "egg",
+    "flour",
+    "oil"
+   ],
+   "ingredients": [
+    "2 lb (900 g) russet potatoes, peeled",
+    "1 small onion",
+    "2 large eggs",
+    "1/4 cup (30 g) all-purpose flour or matzo meal",
+    "1 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "1/4 teaspoon baking powder",
+    "Vegetable oil for frying",
+    "Applesauce and sour cream to serve"
+   ],
+   "steps": [
+    "Grate the potatoes and onion on the big holes of a box grater, keeping fingers clear.",
+    "Squeeze handfuls in a clean towel until no more liquid comes out.",
+    "Mix with the eggs, flour, salt, pepper and baking powder.",
+    "An adult should fry. Heat 1/4 inch of oil in a big frying pan over medium high heat.",
+    "Drop 1/4 cup mounds into the oil and flatten them.",
+    "Fry for 3 to 4 minutes per side, until deep golden and crisp.",
+    "Drain on paper towels and serve with applesauce and sour cream."
+   ]
+  },
+  {
+   "id": "colcannon",
+   "name": "Colcannon",
+   "aliases": [
+    "colcannon",
+    "irish mashed potatoes",
+    "cabbage mashed potatoes",
+    "champ"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "40 min",
+   "main": [
+    "potatoes",
+    "cabbage",
+    "butter",
+    "milk",
+    "green onions"
+   ],
+   "ingredients": [
+    "2 lb (900 g) potatoes, peeled and cubed",
+    "4 tablespoons (55 g) butter, divided",
+    "4 cups (about 300 g) shredded green cabbage or kale",
+    "3/4 cup (180 ml) warm milk",
+    "3 green onions, sliced",
+    "1 teaspoon salt"
+   ],
+   "steps": [
+    "Boil the potatoes for 15 to 20 minutes, until very soft. Ask an adult to help drain them.",
+    "Melt 2 tablespoons butter in a pan and cook the cabbage for 5 minutes, until soft.",
+    "Mash the potatoes with the warm milk and salt.",
+    "Stir in the cabbage and green onions.",
+    "Make a dip in the top and add the rest of the butter to melt."
+   ]
+  },
+  {
+   "id": "steamed-white-rice",
+   "name": "Fluffy white rice",
+   "aliases": [
+    "white rice",
+    "steamed rice",
+    "plain rice",
+    "boiled rice",
+    "how to cook rice",
+    "fluffy rice"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "rice",
+    "water",
+    "salt"
+   ],
+   "ingredients": [
+    "1 cup (200 g) long-grain white rice",
+    "1 3/4 cups (420 ml) water, or 1 1/2 cups (360 ml) for jasmine rice",
+    "1/2 teaspoon salt",
+    "1 teaspoon butter or oil (optional)"
+   ],
+   "steps": [
+    "Rinse the rice in a strainer until the water runs almost clear.",
+    "Put the rice, water, salt and butter in a pot and bring to a boil. Ask an adult to help.",
+    "Turn the heat to low, cover with a tight lid and cook for 18 minutes. Do not lift the lid.",
+    "Turn off the heat and let it sit covered for 10 minutes.",
+    "Fluff with a fork."
+   ]
+  },
+  {
+   "id": "rice-pilaf",
+   "name": "Rice pilaf",
+   "aliases": [
+    "rice pilaf",
+    "pilaf",
+    "vermicelli rice",
+    "buttery rice pilaf",
+    "rice with vermicelli"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "rice",
+    "broth",
+    "butter",
+    "vermicelli"
+   ],
+   "ingredients": [
+    "2 tablespoons butter",
+    "1/2 cup (50 g) broken vermicelli or orzo",
+    "1 cup (200 g) long-grain white rice",
+    "2 cups (480 ml) chicken or vegetable broth",
+    "1/2 teaspoon salt",
+    "Chopped parsley"
+   ],
+   "steps": [
+    "Melt the butter in a pot over medium heat. Ask an adult to help.",
+    "Add the vermicelli and stir for 2 to 3 minutes, until golden.",
+    "Add the rice and stir for 1 minute.",
+    "Pour in the broth and salt and bring to a boil.",
+    "Cover, turn the heat to low and cook for 18 minutes.",
+    "Let sit covered for 5 minutes, then fluff and add parsley."
+   ]
+  },
+  {
+   "id": "cilantro-lime-rice",
+   "name": "Cilantro lime rice",
+   "aliases": [
+    "cilantro lime rice",
+    "lime rice",
+    "chipotle rice",
+    "cilantro rice",
+    "burrito bowl rice"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "rice",
+    "lime",
+    "cilantro",
+    "oil"
+   ],
+   "ingredients": [
+    "1 cup (200 g) long-grain white rice, rinsed",
+    "1 tablespoon vegetable oil",
+    "1 3/4 cups (420 ml) water",
+    "1/2 teaspoon salt",
+    "Zest of 1 lime",
+    "2 tablespoons lime juice",
+    "1/2 cup chopped cilantro"
+   ],
+   "steps": [
+    "Stir the rice in the oil in a pot over medium heat for 1 minute. Ask an adult to help.",
+    "Add the water and salt and bring to a boil.",
+    "Cover, turn the heat to low and cook for 18 minutes.",
+    "Let sit covered for 5 minutes.",
+    "Fluff and stir in the lime zest, lime juice and cilantro."
+   ]
+  },
+  {
+   "id": "mexican-rice",
+   "name": "Mexican rice",
+   "aliases": [
+    "mexican rice",
+    "spanish rice",
+    "arroz rojo",
+    "red rice",
+    "tomato rice"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "rice",
+    "tomato sauce",
+    "broth",
+    "onion",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 cup (200 g) long-grain white rice",
+    "2 tablespoons vegetable oil",
+    "1/2 onion, finely chopped",
+    "2 garlic cloves, minced",
+    "1/2 cup (120 g) tomato sauce",
+    "1 3/4 cups (420 ml) chicken or vegetable broth",
+    "1/2 teaspoon ground cumin",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oil in a pot over medium heat. Ask an adult to help.",
+    "Add the rice and stir for 4 to 5 minutes, until light golden.",
+    "Add the onion and garlic and stir for 1 minute.",
+    "Stir in the tomato sauce, broth, cumin and salt and bring to a boil.",
+    "Cover, turn the heat to low and cook for 20 minutes.",
+    "Let sit covered for 5 minutes, then fluff."
+   ]
+  },
+  {
+   "id": "coconut-rice",
+   "name": "Coconut rice",
+   "aliases": [
+    "coconut rice",
+    "coconut jasmine rice",
+    "thai coconut rice",
+    "rice with coconut milk"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "jasmine rice",
+    "coconut milk",
+    "sugar",
+    "salt"
+   ],
+   "ingredients": [
+    "1 1/2 cups (300 g) jasmine rice, rinsed",
+    "1 can (13.5 oz / 400 ml) coconut milk",
+    "3/4 cup (180 ml) water",
+    "1 teaspoon sugar",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Put everything in a pot and stir.",
+    "Bring to a boil over medium heat, stirring so it does not stick. Ask an adult to help.",
+    "Cover, turn the heat to low and cook for 15 to 18 minutes.",
+    "Let sit covered for 10 minutes, then fluff."
+   ]
+  },
+  {
+   "id": "jeera-rice",
+   "name": "Jeera rice",
+   "aliases": [
+    "jeera rice",
+    "cumin rice",
+    "basmati rice",
+    "indian cumin rice",
+    "zeera rice"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "basmati rice",
+    "cumin seeds",
+    "ghee",
+    "bay leaf"
+   ],
+   "ingredients": [
+    "1 cup (200 g) basmati rice",
+    "1 tablespoon ghee or butter",
+    "1 teaspoon cumin seeds",
+    "1 bay leaf",
+    "1 1/2 cups (360 ml) water",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Rinse the rice and soak it in water for 20 minutes, then drain.",
+    "Melt the ghee in a pot over medium heat and add the cumin seeds and bay leaf. Cook for 30 seconds, until they sizzle. Ask an adult to help.",
+    "Add the rice and stir gently for 1 minute.",
+    "Add the water and salt and bring to a boil.",
+    "Cover, turn the heat to low and cook for 12 to 15 minutes.",
+    "Let sit covered for 10 minutes, then fluff with a fork."
+   ]
+  },
+  {
+   "id": "yellow-rice",
+   "name": "Yellow turmeric rice",
+   "aliases": [
+    "yellow rice",
+    "turmeric rice",
+    "arroz amarillo",
+    "golden rice",
+    "saffron style rice"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "rice",
+    "turmeric",
+    "broth",
+    "onion",
+    "butter"
+   ],
+   "ingredients": [
+    "1 tablespoon butter or olive oil",
+    "1/2 small onion, finely chopped",
+    "1 cup (200 g) long-grain white rice",
+    "1/2 teaspoon ground turmeric",
+    "1/4 teaspoon garlic powder",
+    "1 3/4 cups (420 ml) chicken or vegetable broth",
+    "1/2 teaspoon salt",
+    "1 bay leaf"
+   ],
+   "steps": [
+    "Melt the butter in a pot over medium heat and cook the onion for 3 minutes. Ask an adult to help.",
+    "Add the rice, turmeric and garlic powder and stir for 1 minute, until the rice is coated and yellow.",
+    "Add the broth, salt and bay leaf and bring to a boil.",
+    "Cover, turn the heat to low and cook for 18 minutes.",
+    "Let sit covered for 5 minutes, take out the bay leaf and fluff."
+   ]
+  },
+  {
+   "id": "sushi-rice",
+   "name": "Seasoned sushi rice",
+   "aliases": [
+    "sushi rice",
+    "seasoned rice",
+    "vinegar rice",
+    "sumeshi",
+    "rice for sushi"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "1 hr",
+   "main": [
+    "short-grain rice",
+    "rice vinegar",
+    "sugar",
+    "salt"
+   ],
+   "ingredients": [
+    "2 cups (400 g) short-grain sushi rice",
+    "2 cups (480 ml) water, plus 2 tablespoons",
+    "1/3 cup (80 ml) rice vinegar",
+    "2 tablespoons sugar",
+    "1 teaspoon salt"
+   ],
+   "steps": [
+    "Rinse the rice, swishing with your hand, until the water is almost clear.",
+    "Let it soak in the measured water in the pot for 30 minutes.",
+    "Bring to a boil, cover, turn the heat to low and cook for 15 minutes. Ask an adult to help.",
+    "Turn off the heat and let it sit covered for 10 minutes.",
+    "Warm the vinegar, sugar and salt for 30 seconds in the microwave and stir until dissolved.",
+    "Spread the rice in a big bowl and gently fold in the vinegar mix with a paddle.",
+    "Fan it while folding until it is shiny and close to room temperature."
+   ]
+  },
+  {
+   "id": "lemon-herb-couscous",
+   "name": "Lemon herb couscous",
+   "aliases": [
+    "couscous",
+    "lemon couscous",
+    "herb couscous",
+    "fluffy couscous",
+    "couscous side"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "couscous",
+    "broth",
+    "lemon",
+    "parsley",
+    "olive oil"
+   ],
+   "ingredients": [
+    "1 cup (175 g) couscous",
+    "1 1/4 cups (300 ml) chicken or vegetable broth",
+    "1 tablespoon olive oil",
+    "1/2 teaspoon salt",
+    "Zest and juice of 1/2 lemon",
+    "2 tablespoons chopped parsley"
+   ],
+   "steps": [
+    "Bring the broth, oil and salt to a boil. Ask an adult to help.",
+    "Stir in the couscous, cover and take it off the heat.",
+    "Let sit for 5 minutes.",
+    "Fluff with a fork and stir in the lemon and parsley."
+   ]
+  },
+  {
+   "id": "fluffy-quinoa",
+   "name": "Fluffy quinoa",
+   "aliases": [
+    "quinoa",
+    "cooked quinoa",
+    "how to cook quinoa",
+    "fluffy quinoa",
+    "plain quinoa"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "quinoa",
+    "water",
+    "salt"
+   ],
+   "ingredients": [
+    "1 cup (170 g) quinoa",
+    "2 cups (480 ml) water or broth",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Rinse the quinoa well in a fine strainer. This washes off a bitter coating.",
+    "Put it in a pot with the water and salt and bring to a boil. Ask an adult to help.",
+    "Cover, turn the heat to low and simmer for 15 minutes, until the water is gone.",
+    "Let sit covered for 5 minutes, then fluff with a fork."
+   ]
+  },
+  {
+   "id": "creamy-polenta",
+   "name": "Creamy polenta",
+   "aliases": [
+    "polenta",
+    "creamy polenta",
+    "soft polenta",
+    "cheesy polenta",
+    "grits polenta"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "cornmeal",
+    "water",
+    "butter",
+    "parmesan"
+   ],
+   "ingredients": [
+    "4 cups (950 ml) water or broth",
+    "1 teaspoon salt",
+    "1 cup (160 g) coarse cornmeal or polenta",
+    "2 tablespoons butter",
+    "1/2 cup (50 g) grated parmesan"
+   ],
+   "steps": [
+    "Bring the water and salt to a boil in a big pot. Ask an adult to help.",
+    "Slowly whisk in the cornmeal so no lumps form.",
+    "Turn the heat to low and cook for 25 to 30 minutes, stirring often with a long spoon. It bubbles and spits, so stand back.",
+    "Stir in the butter and parmesan.",
+    "Add a splash of water if it gets too thick."
+   ]
+  },
+  {
+   "id": "refried-beans",
+   "name": "Refried beans",
+   "aliases": [
+    "refried beans",
+    "frijoles refritos",
+    "mashed beans",
+    "pinto bean dip"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "pinto beans",
+    "onion",
+    "garlic",
+    "cumin"
+   ],
+   "ingredients": [
+    "2 cans (15 oz / 425 g each) pinto beans, liquid saved",
+    "2 tablespoons vegetable oil or lard",
+    "1/2 onion, finely chopped",
+    "2 garlic cloves, minced",
+    "1/2 teaspoon ground cumin",
+    "1/2 teaspoon salt",
+    "1/4 cup (25 g) shredded cheese (optional)"
+   ],
+   "steps": [
+    "Heat the oil in a pan over medium heat and cook the onion for 4 minutes. Ask an adult to help.",
+    "Add the garlic and cumin and cook for 30 seconds.",
+    "Add the beans and 1/2 cup of their liquid.",
+    "Mash with a potato masher as they heat for 5 minutes, adding more liquid until creamy.",
+    "Stir in the salt and top with cheese."
+   ]
+  },
+  {
+   "id": "baked-beans",
+   "name": "Baked beans",
+   "aliases": [
+    "baked beans",
+    "bbq beans",
+    "boston baked beans",
+    "barbecue baked beans"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "1 hr 20 min",
+   "main": [
+    "navy beans",
+    "bacon",
+    "ketchup",
+    "brown sugar",
+    "molasses"
+   ],
+   "ingredients": [
+    "3 cans (15 oz / 425 g each) navy or great northern beans, drained",
+    "4 slices bacon, chopped (optional)",
+    "1 onion, diced",
+    "1/2 cup (120 g) ketchup",
+    "1/3 cup (75 g) packed brown sugar",
+    "2 tablespoons molasses",
+    "1 tablespoon yellow mustard",
+    "1 tablespoon Worcestershire sauce",
+    "1/2 cup (120 ml) water"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Cook the bacon in an oven-safe pot for 5 minutes, then add the onion and cook for 5 minutes more.",
+    "Stir in the beans, ketchup, brown sugar, molasses, mustard, Worcestershire and water.",
+    "Cover and bake for 30 minutes.",
+    "Uncover and bake for 30 minutes more, until thick and bubbly."
+   ]
+  },
+  {
+   "id": "cuban-black-beans",
+   "name": "Cuban black beans",
+   "aliases": [
+    "cuban black beans",
+    "black beans",
+    "frijoles negros",
+    "seasoned black beans"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "35 min",
+   "main": [
+    "black beans",
+    "onion",
+    "bell pepper",
+    "garlic",
+    "cumin"
+   ],
+   "ingredients": [
+    "2 cans (15 oz / 425 g each) black beans with their liquid",
+    "2 tablespoons olive oil",
+    "1 onion, diced",
+    "1 green bell pepper, diced",
+    "3 garlic cloves, minced",
+    "1 teaspoon ground cumin",
+    "1 teaspoon dried oregano",
+    "1 bay leaf",
+    "1 tablespoon vinegar",
+    "1 teaspoon sugar",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oil in a pot and cook the onion and pepper for 5 minutes. Ask an adult to help.",
+    "Add the garlic, cumin and oregano and cook for 1 minute.",
+    "Add the beans, bay leaf, vinegar, sugar and salt.",
+    "Simmer for 20 minutes, stirring now and then, until thick.",
+    "Take out the bay leaf. Serve over white rice."
+   ]
+  },
+  {
+   "id": "bread-stuffing",
+   "name": "Herb bread stuffing",
+   "aliases": [
+    "stuffing",
+    "dressing",
+    "thanksgiving stuffing",
+    "bread stuffing",
+    "herb stuffing"
+   ],
+   "category": "Side",
+   "servings": 10,
+   "time": "1 hr 30 min",
+   "main": [
+    "bread",
+    "butter",
+    "celery",
+    "onion",
+    "broth"
+   ],
+   "ingredients": [
+    "1 loaf (1 lb / 450 g) white or French bread, cut in 1 inch cubes",
+    "1/2 cup (115 g) butter",
+    "1 onion, diced",
+    "3 celery stalks, diced",
+    "1 teaspoon dried sage",
+    "1 teaspoon dried thyme",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "2 cups (480 ml) chicken or vegetable broth",
+    "1 large egg",
+    "2 tablespoons chopped parsley"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Spread the bread cubes on 2 baking sheets and bake for 15 minutes to dry them.",
+    "Melt the butter in a pan and cook the onion and celery for 8 minutes, until soft. Ask an adult to help.",
+    "Stir in the sage, thyme, salt and pepper.",
+    "Whisk the broth and egg.",
+    "Toss the bread with the vegetables, broth mix and parsley in a big bowl.",
+    "Spread in a greased 9 by 13 inch dish and cover with foil.",
+    "Bake for 30 minutes, then uncover and bake for 15 to 20 minutes more, until golden on top."
+   ]
+  },
+  {
+   "id": "yorkshire-pudding",
+   "name": "Yorkshire puddings",
+   "aliases": [
+    "yorkshire pudding",
+    "yorkshire puddings",
+    "yorkshires",
+    "popover pudding",
+    "yorkies"
+   ],
+   "category": "Side",
+   "servings": 12,
+   "time": "40 min",
+   "main": [
+    "flour",
+    "egg",
+    "milk",
+    "oil"
+   ],
+   "ingredients": [
+    "3/4 cup (95 g) all-purpose flour",
+    "3 large eggs",
+    "3/4 cup (180 ml) milk",
+    "1/2 teaspoon salt",
+    "4 tablespoons vegetable oil or beef drippings"
+   ],
+   "steps": [
+    "Whisk the flour, eggs, milk and salt until smooth. Let rest for 10 minutes.",
+    "Heat the oven to 450°F (230°C). Ask an adult to help.",
+    "Put 1 teaspoon oil in each cup of a 12-cup muffin pan and heat it in the oven for 10 minutes, until smoking hot.",
+    "Have an adult take out the pan and quickly pour the batter into the hot oil, filling each cup halfway.",
+    "Bake for 20 to 25 minutes, until puffed and deep golden. Do not open the oven.",
+    "Serve right away with gravy."
+   ]
+  },
+  {
+   "id": "hush-puppies",
+   "name": "Hush puppies",
+   "aliases": [
+    "hush puppies",
+    "hushpuppies",
+    "cornmeal fritters",
+    "fried cornbread balls"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "30 min",
+   "main": [
+    "cornmeal",
+    "flour",
+    "buttermilk",
+    "egg",
+    "onion"
+   ],
+   "ingredients": [
+    "1 cup (140 g) cornmeal",
+    "1/2 cup (65 g) all-purpose flour",
+    "1 tablespoon sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon garlic powder",
+    "2 green onions, finely chopped",
+    "1 large egg",
+    "3/4 cup (180 ml) buttermilk",
+    "Vegetable oil for frying"
+   ],
+   "steps": [
+    "Whisk the cornmeal, flour, sugar, baking powder, salt and garlic powder.",
+    "Stir in the green onions, egg and buttermilk until just combined. Let sit for 5 minutes.",
+    "An adult should fry. Heat 2 inches of oil to 350°F (175°C).",
+    "Drop tablespoons of batter into the oil a few at a time.",
+    "Fry for 2 to 3 minutes, turning, until deep golden.",
+    "Drain on paper towels and serve hot."
+   ]
+  },
+  {
+   "id": "creamed-corn",
+   "name": "Creamed corn",
+   "aliases": [
+    "creamed corn",
+    "cream corn",
+    "homemade creamed corn",
+    "creamy corn"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "corn",
+    "butter",
+    "cream",
+    "sugar",
+    "parmesan"
+   ],
+   "ingredients": [
+    "4 cups (600 g) corn kernels, fresh or frozen",
+    "2 tablespoons butter",
+    "1 tablespoon all-purpose flour",
+    "1 cup (240 ml) heavy cream or milk",
+    "1 tablespoon sugar",
+    "1/2 teaspoon salt",
+    "2 tablespoons grated parmesan"
+   ],
+   "steps": [
+    "Melt the butter in a pan over medium heat and stir in the flour for 1 minute. Ask an adult to help.",
+    "Slowly stir in the cream.",
+    "Add the corn, sugar and salt.",
+    "Simmer for 5 to 8 minutes, stirring, until thick and the corn is tender.",
+    "Stir in the parmesan."
+   ]
+  },
+  {
+   "id": "corn-on-the-cob",
+   "name": "Corn on the cob",
+   "aliases": [
+    "corn on the cob",
+    "boiled corn",
+    "corn cobs",
+    "buttered corn",
+    "sweet corn"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "20 min",
+   "main": [
+    "corn",
+    "butter",
+    "salt"
+   ],
+   "ingredients": [
+    "6 ears of corn, husks and silk removed",
+    "4 tablespoons (55 g) butter, softened",
+    "Salt"
+   ],
+   "steps": [
+    "Bring a big pot of water to a boil. Ask an adult to help.",
+    "Add the corn and boil for 4 to 5 minutes, until bright yellow and tender.",
+    "Lift out with tongs and let drain.",
+    "Spread with butter and sprinkle with salt."
+   ]
+  },
+  {
+   "id": "elote",
+   "name": "Elote",
+   "aliases": [
+    "elote",
+    "mexican street corn",
+    "elotes",
+    "street corn",
+    "grilled mexican corn"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "corn",
+    "mayonnaise",
+    "cotija",
+    "lime",
+    "chili powder"
+   ],
+   "ingredients": [
+    "4 ears of corn, husked",
+    "1/4 cup (60 g) mayonnaise",
+    "2 tablespoons Mexican crema or sour cream",
+    "1/2 cup (60 g) crumbled cotija cheese",
+    "1/2 teaspoon chili powder",
+    "1 lime, cut in wedges",
+    "Chopped cilantro"
+   ],
+   "steps": [
+    "Have an adult grill the corn over medium high heat, or broil it, for 10 to 12 minutes, turning, until charred in spots.",
+    "Mix the mayo and crema.",
+    "Brush it all over the hot corn.",
+    "Roll the corn in the cotija.",
+    "Sprinkle with chili powder and cilantro and serve with lime wedges."
+   ]
+  },
+  {
+   "id": "roasted-broccoli",
+   "name": "Parmesan roasted broccoli",
+   "aliases": [
+    "roasted broccoli",
+    "parmesan broccoli",
+    "oven broccoli",
+    "crispy broccoli",
+    "roast broccoli"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "broccoli",
+    "olive oil",
+    "garlic",
+    "parmesan",
+    "lemon"
+   ],
+   "ingredients": [
+    "2 heads broccoli (about 1 1/2 lb / 680 g), cut into florets",
+    "3 tablespoons olive oil",
+    "2 garlic cloves, minced",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "1/4 cup (25 g) grated parmesan",
+    "1 lemon wedge"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Toss the broccoli with the oil, garlic, salt and pepper on a baking sheet.",
+    "Spread it out so the pieces do not touch.",
+    "Roast for 18 to 22 minutes, until the edges are crispy and brown.",
+    "Sprinkle with parmesan and squeeze the lemon over it."
+   ]
+  },
+  {
+   "id": "garlic-green-beans",
+   "name": "Garlic butter green beans",
+   "aliases": [
+    "green beans",
+    "garlic green beans",
+    "sauteed green beans",
+    "string beans",
+    "buttery green beans"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "green beans",
+    "butter",
+    "garlic",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 lb (450 g) green beans, ends snapped off",
+    "2 tablespoons butter",
+    "3 garlic cloves, minced",
+    "1/4 teaspoon salt",
+    "Squeeze of lemon juice"
+   ],
+   "steps": [
+    "Boil the green beans in salted water for 3 minutes. Ask an adult to help drain them.",
+    "Melt the butter in a big pan over medium heat.",
+    "Add the garlic and cook for 30 seconds, until it smells good.",
+    "Add the beans and toss for 2 to 3 minutes.",
+    "Season with salt and lemon."
+   ]
+  },
+  {
+   "id": "green-bean-casserole",
+   "name": "Green bean casserole",
+   "aliases": [
+    "green bean casserole",
+    "green bean bake",
+    "thanksgiving green beans",
+    "crispy onion green beans"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "45 min",
+   "main": [
+    "green beans",
+    "cream of mushroom soup",
+    "milk",
+    "fried onions"
+   ],
+   "ingredients": [
+    "1 can (10.5 oz / 298 g) condensed cream of mushroom soup",
+    "3/4 cup (180 ml) milk",
+    "1 teaspoon soy sauce",
+    "1/8 teaspoon black pepper",
+    "4 cups (about 450 g) cooked cut green beans, or 2 cans (14.5 oz each), drained",
+    "1 1/3 cups (75 g) French fried onions, divided"
+   ],
+   "steps": [
+    "Heat the oven to 350°F (175°C). Ask an adult to help.",
+    "Stir the soup, milk, soy sauce and pepper in a 1 1/2 quart baking dish.",
+    "Stir in the green beans and 2/3 cup of the fried onions.",
+    "Bake for 25 minutes, until hot and bubbly.",
+    "Stir, then top with the rest of the fried onions.",
+    "Bake for 5 minutes more, until the onions are golden."
+   ]
+  },
+  {
+   "id": "roasted-brussels-sprouts",
+   "name": "Roasted Brussels sprouts",
+   "aliases": [
+    "brussels sprouts",
+    "roasted brussels sprouts",
+    "crispy brussels sprouts",
+    "balsamic brussels sprouts"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "brussels sprouts",
+    "olive oil",
+    "balsamic vinegar",
+    "honey"
+   ],
+   "ingredients": [
+    "1 1/2 lb (680 g) Brussels sprouts, trimmed and halved",
+    "3 tablespoons olive oil",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "1 tablespoon balsamic vinegar",
+    "1 teaspoon honey"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Have an adult trim and halve the sprouts.",
+    "Toss with the oil, salt and pepper.",
+    "Lay them cut side down on a baking sheet.",
+    "Roast for 20 to 25 minutes, until deep brown and crispy.",
+    "Toss with the balsamic and honey."
+   ]
+  },
+  {
+   "id": "honey-glazed-carrots",
+   "name": "Honey glazed carrots",
+   "aliases": [
+    "glazed carrots",
+    "honey glazed carrots",
+    "honey carrots",
+    "buttered carrots",
+    "carrots"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "carrots",
+    "butter",
+    "honey"
+   ],
+   "ingredients": [
+    "1 lb (450 g) carrots, sliced into 1/4 inch coins, or baby carrots",
+    "1/2 cup (120 ml) water",
+    "2 tablespoons butter",
+    "2 tablespoons honey",
+    "1/4 teaspoon salt",
+    "Chopped parsley"
+   ],
+   "steps": [
+    "Put the carrots, water, butter and salt in a pan.",
+    "Bring to a simmer, cover and cook for 8 to 10 minutes, until tender. Ask an adult to help.",
+    "Uncover, add the honey and cook for 3 to 4 minutes, stirring, until the water is gone and the carrots are shiny.",
+    "Sprinkle with parsley."
+   ]
+  },
+  {
+   "id": "roasted-asparagus",
+   "name": "Roasted asparagus",
+   "aliases": [
+    "asparagus",
+    "roasted asparagus",
+    "oven asparagus",
+    "parmesan asparagus",
+    "roast asparagus"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "asparagus",
+    "olive oil",
+    "parmesan",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 lb (450 g) asparagus",
+    "1 tablespoon olive oil",
+    "1/4 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "2 tablespoons grated parmesan",
+    "1 lemon wedge"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Snap off the woody ends of the asparagus. They break off in the right spot on their own.",
+    "Toss with the oil, salt and pepper on a baking sheet.",
+    "Roast for 10 to 12 minutes, until tender and a little browned.",
+    "Sprinkle with parmesan and squeeze lemon over it."
+   ]
+  },
+  {
+   "id": "sauteed-spinach",
+   "name": "Garlic sauteed spinach",
+   "aliases": [
+    "sauteed spinach",
+    "garlic spinach",
+    "wilted spinach",
+    "cooked spinach"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "spinach",
+    "olive oil",
+    "garlic",
+    "lemon"
+   ],
+   "ingredients": [
+    "1 lb (450 g) baby spinach",
+    "2 tablespoons olive oil",
+    "2 garlic cloves, thinly sliced",
+    "1/4 teaspoon salt",
+    "Squeeze of lemon juice"
+   ],
+   "steps": [
+    "Heat the oil in a big pan over medium heat. Ask an adult to help.",
+    "Add the garlic and cook for 30 seconds.",
+    "Add the spinach a handful at a time, tossing with tongs as it wilts.",
+    "Cook for 3 to 4 minutes, until all the spinach is wilted.",
+    "Season with salt and lemon. It shrinks a lot."
+   ]
+  },
+  {
+   "id": "creamed-spinach",
+   "name": "Creamed spinach",
+   "aliases": [
+    "creamed spinach",
+    "creamy spinach",
+    "steakhouse spinach",
+    "spinach in cream sauce"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "spinach",
+    "butter",
+    "milk",
+    "parmesan",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 lb (450 g) frozen chopped spinach, thawed and squeezed dry",
+    "2 tablespoons butter",
+    "1/2 small onion, minced",
+    "2 garlic cloves, minced",
+    "2 tablespoons all-purpose flour",
+    "1 cup (240 ml) milk or cream",
+    "1/4 cup (25 g) grated parmesan",
+    "Pinch of nutmeg",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Melt the butter in a pan over medium heat and cook the onion for 3 minutes. Ask an adult to help.",
+    "Add the garlic and flour and stir for 1 minute.",
+    "Slowly stir in the milk and cook for 2 to 3 minutes, until thick.",
+    "Stir in the spinach, parmesan, nutmeg and salt.",
+    "Cook for 2 minutes, until hot."
+   ]
+  },
+  {
+   "id": "roasted-cauliflower",
+   "name": "Roasted cauliflower",
+   "aliases": [
+    "roasted cauliflower",
+    "roast cauliflower",
+    "crispy cauliflower",
+    "spiced cauliflower"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "35 min",
+   "main": [
+    "cauliflower",
+    "olive oil",
+    "garlic powder",
+    "smoked paprika"
+   ],
+   "ingredients": [
+    "1 head cauliflower (about 2 lb / 900 g), cut into florets",
+    "3 tablespoons olive oil",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon smoked paprika",
+    "Chopped parsley and a lemon wedge"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Toss the cauliflower with the oil, salt, garlic powder and paprika.",
+    "Spread on a baking sheet so the pieces do not touch.",
+    "Roast for 25 to 30 minutes, turning once, until golden and tender.",
+    "Sprinkle with parsley and lemon juice."
+   ]
+  },
+  {
+   "id": "parmesan-zucchini",
+   "name": "Parmesan zucchini spears",
+   "aliases": [
+    "parmesan zucchini",
+    "roasted zucchini",
+    "zucchini spears",
+    "baked zucchini",
+    "courgette"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "25 min",
+   "main": [
+    "zucchini",
+    "parmesan",
+    "olive oil",
+    "garlic powder"
+   ],
+   "ingredients": [
+    "4 small zucchini",
+    "2 tablespoons olive oil",
+    "1/2 cup (50 g) grated parmesan",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon Italian seasoning",
+    "1/4 teaspoon salt"
+   ],
+   "steps": [
+    "Heat the oven to 425°F (220°C). Ask an adult to help.",
+    "Cut each zucchini in half lengthwise, then in half again to make spears.",
+    "Lay them cut side up on a lined sheet and brush with oil.",
+    "Mix the parmesan, garlic powder, Italian seasoning and salt and sprinkle over the tops.",
+    "Roast for 15 to 18 minutes, until tender and the cheese is golden."
+   ]
+  },
+  {
+   "id": "ratatouille",
+   "name": "Ratatouille",
+   "aliases": [
+    "ratatouille",
+    "french vegetable stew",
+    "provencal vegetables",
+    "eggplant zucchini stew"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "50 min",
+   "main": [
+    "eggplant",
+    "zucchini",
+    "bell pepper",
+    "tomatoes",
+    "onion"
+   ],
+   "ingredients": [
+    "1/4 cup (60 ml) olive oil",
+    "1 onion, diced",
+    "1 red bell pepper, diced",
+    "3 garlic cloves, minced",
+    "1 eggplant, cubed",
+    "2 zucchini, cubed",
+    "1 can (14.5 oz / 411 g) diced tomatoes",
+    "1 teaspoon dried thyme",
+    "1 teaspoon salt",
+    "Fresh basil"
+   ],
+   "steps": [
+    "Have an adult help chop the vegetables into small cubes.",
+    "Heat the oil in a big pot and cook the onion and pepper for 5 minutes.",
+    "Add the garlic and eggplant and cook for 5 minutes, stirring.",
+    "Add the zucchini and cook for 5 minutes.",
+    "Stir in the tomatoes, thyme and salt.",
+    "Simmer for 20 to 25 minutes, until everything is soft.",
+    "Stir in torn basil."
+   ]
+  },
+  {
+   "id": "garlic-bok-choy",
+   "name": "Garlic bok choy",
+   "aliases": [
+    "bok choy",
+    "garlic bok choy",
+    "stir fried bok choy",
+    "pak choi",
+    "baby bok choy"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "bok choy",
+    "garlic",
+    "soy sauce",
+    "sesame oil"
+   ],
+   "ingredients": [
+    "1 lb (450 g) baby bok choy, halved lengthwise and washed",
+    "1 tablespoon vegetable oil",
+    "3 garlic cloves, minced",
+    "1 tablespoon soy sauce",
+    "1 teaspoon oyster sauce (optional)",
+    "2 tablespoons water",
+    "1 teaspoon sesame oil"
+   ],
+   "steps": [
+    "Heat the oil in a wok or big pan over medium high heat. Ask an adult to help.",
+    "Add the garlic and stir for 30 seconds.",
+    "Add the bok choy and toss for 2 minutes.",
+    "Add the soy sauce, oyster sauce and water, cover and cook for 1 to 2 minutes, until the stems are just tender.",
+    "Drizzle with sesame oil."
+   ]
+  },
+  {
+   "id": "roasted-butternut-squash",
+   "name": "Maple roasted butternut squash",
+   "aliases": [
+    "butternut squash",
+    "roasted butternut squash",
+    "roasted squash",
+    "maple squash"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "45 min",
+   "main": [
+    "butternut squash",
+    "olive oil",
+    "maple syrup",
+    "cinnamon"
+   ],
+   "ingredients": [
+    "1 butternut squash (2 to 3 lb / 900 g to 1.4 kg)",
+    "2 tablespoons olive oil",
+    "1 tablespoon maple syrup",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon ground cinnamon"
+   ],
+   "steps": [
+    "Heat the oven to 400°F (200°C). Ask an adult to help.",
+    "Have an adult peel the squash, cut it in half, scoop out the seeds and cut it into 1 inch cubes. It is hard to cut.",
+    "Toss with the oil, maple syrup, salt and cinnamon.",
+    "Spread on a lined baking sheet.",
+    "Roast for 30 to 35 minutes, flipping halfway, until tender and caramelized."
+   ]
+  },
+  {
+   "id": "sauteed-mushrooms",
+   "name": "Garlic butter mushrooms",
+   "aliases": [
+    "sauteed mushrooms",
+    "garlic mushrooms",
+    "garlic butter mushrooms",
+    "fried mushrooms",
+    "mushrooms"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "mushrooms",
+    "butter",
+    "garlic",
+    "thyme"
+   ],
+   "ingredients": [
+    "1 lb (450 g) cremini or white mushrooms, sliced",
+    "1 tablespoon olive oil",
+    "2 tablespoons butter",
+    "2 garlic cloves, minced",
+    "1/2 teaspoon dried thyme",
+    "1/4 teaspoon salt",
+    "Chopped parsley"
+   ],
+   "steps": [
+    "Heat the oil and 1 tablespoon butter in a big pan over medium high heat. Ask an adult to help.",
+    "Add the mushrooms in one layer and leave them alone for 3 minutes, until browned underneath.",
+    "Stir and cook for 4 to 5 minutes more, until golden and the liquid is gone.",
+    "Add the rest of the butter, the garlic and thyme and cook for 1 minute.",
+    "Season with salt and parsley."
+   ]
+  },
+  {
+   "id": "buttered-peas",
+   "name": "Buttered peas with mint",
+   "aliases": [
+    "peas",
+    "buttered peas",
+    "green peas",
+    "minty peas",
+    "garden peas"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "10 min",
+   "main": [
+    "peas",
+    "butter",
+    "mint"
+   ],
+   "ingredients": [
+    "3 cups (450 g) frozen peas",
+    "1/4 cup (60 ml) water",
+    "2 tablespoons butter",
+    "1/4 teaspoon salt",
+    "Pinch of sugar",
+    "1 tablespoon chopped fresh mint (optional)"
+   ],
+   "steps": [
+    "Put the peas and water in a pot and bring to a simmer. Ask an adult to help.",
+    "Cover and cook for 3 to 4 minutes, until hot and bright green.",
+    "Drain off any water left.",
+    "Stir in the butter, salt, sugar and mint."
+   ]
+  },
+  {
+   "id": "maduros",
+   "name": "Sweet fried plantains",
+   "aliases": [
+    "maduros",
+    "fried plantains",
+    "sweet plantains",
+    "platanos maduros",
+    "plantains"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "20 min",
+   "main": [
+    "ripe plantains",
+    "oil",
+    "salt"
+   ],
+   "ingredients": [
+    "3 very ripe plantains, with mostly black skins",
+    "3 tablespoons vegetable oil",
+    "Pinch of salt"
+   ],
+   "steps": [
+    "Cut the ends off the plantains, slit the skin and peel it off.",
+    "Slice them on a slant into 1/2 inch pieces.",
+    "Heat the oil in a big frying pan over medium heat. Ask an adult to help, the oil can spatter.",
+    "Fry the slices for 2 to 3 minutes per side, until deep golden and caramelized.",
+    "Drain on paper towels and sprinkle with salt."
+   ]
+  },
+  {
+   "id": "tostones",
+   "name": "Tostones",
+   "aliases": [
+    "tostones",
+    "patacones",
+    "fried green plantains",
+    "twice fried plantains",
+    "smashed plantains"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "30 min",
+   "main": [
+    "green plantains",
+    "oil",
+    "salt",
+    "garlic"
+   ],
+   "ingredients": [
+    "2 green plantains",
+    "Vegetable oil for frying",
+    "1/2 teaspoon salt",
+    "Dip: 2 garlic cloves, minced, 2 tablespoons olive oil, 1 tablespoon lime juice"
+   ],
+   "steps": [
+    "Cut off the ends, slit the skin lengthwise and peel. Green plantains are stiff, so ask an adult to help.",
+    "Cut into 1 inch thick pieces.",
+    "An adult should fry. Heat 1/2 inch of oil in a frying pan to 350°F (175°C).",
+    "Fry the pieces for 3 to 4 minutes, turning, until pale golden. Drain.",
+    "Smash each piece flat with the bottom of a glass.",
+    "Fry again for 2 to 3 minutes, until crisp and golden.",
+    "Drain, sprinkle with salt and serve with the garlic dip."
+   ]
+  },
+  {
+   "id": "onion-rings",
+   "name": "Crispy onion rings",
+   "aliases": [
+    "onion rings",
+    "onion ring",
+    "fried onion rings",
+    "crispy onion rings",
+    "homemade onion rings"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "40 min",
+   "main": [
+    "onions",
+    "flour",
+    "egg",
+    "milk",
+    "panko"
+   ],
+   "ingredients": [
+    "2 large onions",
+    "1 cup (125 g) all-purpose flour",
+    "1 teaspoon baking powder",
+    "1 teaspoon salt",
+    "1 large egg",
+    "1 cup (240 ml) milk",
+    "1 1/2 cups (90 g) panko breadcrumbs",
+    "Vegetable oil for frying"
+   ],
+   "steps": [
+    "Have an adult slice the onions 1/2 inch thick and separate the rings.",
+    "Whisk the flour, baking powder and salt. Toss the rings in it and shake off the extra.",
+    "Whisk the egg and milk into the leftover flour to make a batter.",
+    "Dip each ring in batter, then press into the panko.",
+    "An adult should fry. Heat 2 inches of oil to 365°F (185°C).",
+    "Fry a few rings at a time for 2 to 3 minutes, until golden.",
+    "Drain on paper towels and sprinkle with salt."
+   ]
+  },
+  {
+   "id": "collard-greens",
+   "name": "Southern collard greens",
+   "aliases": [
+    "collard greens",
+    "collards",
+    "southern greens",
+    "braised greens"
+   ],
+   "category": "Side",
+   "servings": 6,
+   "time": "1 hr 15 min",
+   "main": [
+    "collard greens",
+    "bacon",
+    "onion",
+    "broth",
+    "vinegar"
+   ],
+   "ingredients": [
+    "2 lb (900 g) collard greens, stems removed, chopped",
+    "4 slices bacon, chopped",
+    "1 onion, diced",
+    "3 garlic cloves, minced",
+    "3 cups (720 ml) chicken broth",
+    "1 tablespoon apple cider vinegar",
+    "1 teaspoon sugar",
+    "1/4 teaspoon red pepper flakes",
+    "1/2 teaspoon salt"
+   ],
+   "steps": [
+    "Cook the bacon in a big pot over medium heat for 5 minutes. Ask an adult to help.",
+    "Add the onion and cook for 5 minutes, then the garlic for 1 minute.",
+    "Add the greens a handful at a time, stirring as they wilt.",
+    "Add the broth, vinegar, sugar, red pepper flakes and salt.",
+    "Cover and simmer for 45 to 60 minutes, until very tender."
+   ]
+  },
+  {
+   "id": "quick-pickles",
+   "name": "Quick refrigerator pickles",
+   "aliases": [
+    "quick pickles",
+    "refrigerator pickles",
+    "homemade pickles",
+    "dill pickles",
+    "pickles",
+    "fridge pickles"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "2 hr 15 min",
+   "main": [
+    "cucumbers",
+    "vinegar",
+    "salt",
+    "dill",
+    "garlic"
+   ],
+   "ingredients": [
+    "1 lb (450 g) small pickling cucumbers, sliced into spears or rounds",
+    "1 cup (240 ml) white vinegar",
+    "1 cup (240 ml) water",
+    "1 tablespoon sugar",
+    "1 tablespoon kosher salt",
+    "2 garlic cloves, smashed",
+    "2 teaspoons dill seed or 4 sprigs fresh dill"
+   ],
+   "steps": [
+    "Pack the cucumbers, garlic and dill into a clean quart jar.",
+    "Heat the vinegar, water, sugar and salt in a pot, stirring, until dissolved. Ask an adult to help.",
+    "Pour the hot brine over the cucumbers so they are covered.",
+    "Let cool for 15 minutes, then put the lid on.",
+    "Chill for 2 hours. They taste even better the next day and keep for 2 weeks."
+   ]
+  },
+  {
+   "id": "pickled-red-onions",
+   "name": "Pickled red onions",
+   "aliases": [
+    "pickled red onions",
+    "pickled onions",
+    "quick pickled onions",
+    "pink onions"
+   ],
+   "category": "Side",
+   "servings": 8,
+   "time": "40 min",
+   "main": [
+    "red onion",
+    "vinegar",
+    "sugar",
+    "salt"
+   ],
+   "ingredients": [
+    "1 red onion",
+    "1/2 cup (120 ml) apple cider vinegar",
+    "1/2 cup (120 ml) warm water",
+    "1 tablespoon sugar",
+    "1 1/2 teaspoons salt"
+   ],
+   "steps": [
+    "Have an adult slice the onion into thin rings.",
+    "Pack the onion into a jar.",
+    "Stir the vinegar, warm water, sugar and salt until dissolved.",
+    "Pour it over the onions.",
+    "Let sit for 30 minutes, until bright pink. Keep in the fridge for up to 2 weeks. Great on tacos."
+   ]
+  },
+  {
+   "id": "korean-spinach-namul",
+   "name": "Korean seasoned spinach",
+   "aliases": [
+    "sigeumchi namul",
+    "korean spinach",
+    "spinach namul",
+    "sesame spinach",
+    "spinach banchan"
+   ],
+   "category": "Side",
+   "servings": 4,
+   "time": "15 min",
+   "main": [
+    "spinach",
+    "sesame oil",
+    "garlic",
+    "soy sauce",
+    "sesame seeds"
+   ],
+   "ingredients": [
+    "1 lb (450 g) spinach",
+    "1 teaspoon soy sauce, or 1/2 teaspoon salt",
+    "1 small garlic clove, minced",
+    "1 teaspoon sesame oil",
+    "1 teaspoon toasted sesame seeds",
+    "1 green onion, thinly sliced"
+   ],
+   "steps": [
+    "Bring a pot of water to a boil. Ask an adult to help.",
+    "Add the spinach and cook for 30 seconds, until just wilted.",
+    "Drain and rinse in cold water.",
+    "Squeeze out as much water as you can with your hands.",
+    "Toss with the soy sauce, garlic, sesame oil, sesame seeds and green onion."
+   ]
+  }
+ ]
+}

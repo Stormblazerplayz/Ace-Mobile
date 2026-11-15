@@ -1,0 +1,11 @@
+# tag: tech.devices.lifecycle
+how do i wipe my phone before selling it | prepare iphone to sell => Back it up, sign out of your Apple Account or Google account so the lock is removed, then erase all content and settings. Remove the SIM card too.
+where can i sell or trade in my old phone | trade in old iphone => Apple, Samsung and phone carriers offer trade-in credit, and resale sites pay cash. Wipe it first and compare offers, ideally with a parent.
+when should i replace my phone battery | phone battery replacement => Replace it when battery health falls to around 80 percent or the phone shuts off early. A new battery can make an old phone feel new again.
+what is right to repair | repair your own devices => Right to repair is the idea that people should be able to fix their own devices with available parts, tools and guides. Some laws now support it.
+what is ifixit | repair guides website => iFixit is a website with free step-by-step repair guides and toolkits for phones, consoles and computers, plus repairability scores.
+what is applecare | is applecare worth it => AppleCare is Apple's extended warranty that covers repairs, including accidental damage for a fee. It can be worth it for expensive devices used by kids.
+how do i recycle old electronics | where to recycle a phone => Many electronics stores and phone makers take old devices for free recycling. Never throw batteries or electronics in the trash.
+how long do ipads get updates | ipad software support years => Apple usually supports iPads with new iPadOS versions for about five to seven years after release, and security fixes for a while longer.
+what is an old phone good for | reuse an old phone => An old phone can become a music player, webcam, security camera, smart home remote, alarm clock or a backup phone.
+what is planned obsolescence | are devices made to break => Planned obsolescence is when products seem designed to wear out or go out of date so people buy new ones. Repairable designs and longer updates help push against it.

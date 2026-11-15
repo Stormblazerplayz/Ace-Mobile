@@ -1,0 +1,130 @@
+# Even more Python: pygame details, turtle, pitfalls and handy tricks, written by hand for Ace.
+# tag: coding.python.pygame
+what is pygame.init | pygame init | why call pygame.init => `pygame.init()` starts up all of pygame's modules, like fonts and sound. Call it once at the top before making the window.
+what is pygame.display.set_mode | make pygame window size | set_mode pygame => `screen = pygame.display.set_mode((800, 600))` opens an 800 by 600 window and gives you the Surface to draw on.
+what is pygame.display.flip | flip vs update pygame | show drawing pygame => Drawing happens off screen first. `pygame.display.flip()` shows the whole new frame; `pygame.display.update(rect)` can refresh just part of it.
+what is a surface in pygame | pygame surface | screen surface => A Surface is an image you can draw on. The window is a Surface, and loaded images and rendered text are Surfaces too, drawn with `screen.blit(img, (x, y))`.
+what does blit mean in pygame | screen.blit | draw image pygame => `screen.blit(image, (x, y))` copies an image onto the screen at that position, measured from the top-left corner.
+what is pygame.rect | pygame rect | rect in pygame => A Rect stores a rectangle's x, y, width and height. It has handy parts like `rect.center` and `rect.right`, and `colliderect` for collisions.
+what is colliderect | collidepoint pygame | rect collision pygame => `a.colliderect(b)` is True when two Rects overlap, and `rect.collidepoint(mouse_pos)` checks if a point, like a click, is inside.
+what is pygame.event.get | pygame events => `for event in pygame.event.get():` handles everything that happened since last frame, like `pygame.QUIT` when the window closes or `pygame.KEYDOWN` when a key is pressed.
+how do i check if a key is held in pygame | get_pressed pygame | hold key pygame => `keys = pygame.key.get_pressed()` then `if keys[pygame.K_LEFT]:` is True while the left arrow is held, which is good for smooth movement.
+how do i get the mouse position in pygame | mouse pos pygame | click in pygame => `pygame.mouse.get_pos()` gives (x, y). Detect clicks with `event.type == pygame.MOUSEBUTTONDOWN` in the event loop.
+what is pygame.time.clock | clock tick pygame | pygame clock => `clock = pygame.time.Clock()` then `clock.tick(60)` each frame keeps the game at 60 frames per second and returns the milliseconds since the last tick.
+what is pygame.sprite.sprite | pygame sprite class | sprite groups pygame => Subclass `pygame.sprite.Sprite` with an `image` and a `rect`, then put sprites in a `pygame.sprite.Group` to update and draw them all with `group.update()` and `group.draw(screen)`.
+what is spritecollide | pygame spritecollide | sprite group collision => `pygame.sprite.spritecollide(player, enemies, False)` returns the enemies touching the player. Pass True to remove them from the group.
+how do i draw shapes in pygame | pygame.draw | draw rectangle pygame => `pygame.draw.rect(screen, color, rect)`, `pygame.draw.circle(screen, color, center, radius)` and `pygame.draw.line(screen, color, start, end)` draw simple shapes.
+how do i fill the background in pygame | screen.fill | clear screen pygame => `screen.fill((0, 0, 0))` paints the whole window black. Do it at the start of every frame so old drawings disappear.
+how do i make an image transparent in pygame | convert_alpha | png transparency pygame => Load PNGs with `pygame.image.load("ship.png").convert_alpha()` to keep transparency and draw faster.
+how do i scale an image in pygame | pygame transform scale | resize sprite pygame => `pygame.transform.scale(image, (64, 64))` returns a resized copy.
+how do i flip an image in pygame | pygame transform flip | mirror sprite pygame => `pygame.transform.flip(image, True, False)` mirrors it left to right, handy for facing the other way.
+how do i play music in pygame | pygame mixer music | background music pygame => `pygame.mixer.music.load("song.ogg")` then `pygame.mixer.music.play(-1)` loops it forever. Use `pygame.mixer.Sound` for short effects.
+how do i make a pygame window title | set_caption | pygame window name => `pygame.display.set_caption("My Game")` sets the text in the window's title bar.
+what is pygame-ce | pygame community edition | pygame ce vs pygame => pygame-ce is a community fork of pygame with frequent updates and new features. You still `import pygame`, so most code works with either.
+how do i make gravity in pygame | jumping pygame | platformer physics pygame => Keep a vertical speed `vy`. Each frame add gravity to it (like `vy += 0.5`) and add `vy` to y. To jump, set `vy` to a negative number when on the ground.
+how do i make a camera that follows the player in pygame | scrolling pygame | pygame camera => Keep a camera offset, like `cam_x = player.x - WIDTH // 2`, and draw everything at `x - cam_x` so the world scrolls around the player.
+how do i make a health bar in pygame | hp bar pygame | draw health bar => Draw a red rectangle for the full width, then a green one on top whose width is `full_width * health / max_health`.
+# tag: coding.python.turtle
+what is turtle in python | python turtle graphics | turtle module => The turtle module draws pictures by moving a pen-carrying turtle around: `forward`, `left`, `right`, `penup` and `pendown`. It is built into Python but needs tkinter.
+how do i draw a square with turtle | turtle square | square in python turtle => `for _ in range(4): t.forward(100); t.left(90)` draws a square.
+how do i draw a circle with turtle | turtle circle => `t.circle(50)` draws a circle with radius 50. `t.circle(50, 180)` draws half of one.
+how do i draw a star with turtle | turtle star | star in python turtle => `for _ in range(5): t.forward(100); t.right(144)` draws a five-pointed star.
+how do i change turtle color | turtle pen color | fill color turtle => `t.color("red")` sets the pen, and `t.fillcolor("yellow")` with `t.begin_fill()` and `t.end_fill()` fills a shape.
+how do i make turtle draw faster | turtle speed | turtle tracer => `t.speed(0)` is the fastest. For huge drawings, `turtle.tracer(0)` then `turtle.update()` at the end draws instantly.
+how do i keep the turtle window open | turtle window closes | turtle done => Call `turtle.done()` (or `turtle.mainloop()`) at the end so the window stays open.
+how do i use keys in turtle | onkey turtle | turtle keyboard control => `screen.onkey(move_up, "Up")` then `screen.listen()` runs your function when the arrow key is pressed, which is enough for simple games.
+# tag: coding.python.pitfalls
+why does my default list argument keep growing | def f(x=[]) => Default values are made once when the function is defined, so a list default is shared between calls. Use `def f(x=None):` then `if x is None: x = []`.
+what is late binding in python closures | lambdas in a loop all same | closure loop variable python => Lambdas made in a loop look up the variable when called, so they all see its last value. Capture it now with a default: `lambda i=i: i`.
+why is 0.1 + 0.2 not 0.3 in python | float precision python => Floats are stored in binary and cannot hold 0.1 exactly, so you get 0.30000000000000004. Use `round`, `math.isclose`, or the `decimal` module for money.
+why does is give a different answer than == | is vs == with numbers | integer caching python => `is` checks if two names point to the same object, while `==` checks equal values. Small ints may share objects, so `is` seems to work and then fails for big numbers. Use `==` for values.
+why did my list change inside a function | list passed by reference python | function changes my list => Functions get a reference to the same list, so `append` inside changes the caller's list too. Pass a copy with `my_list.copy()` if you want to keep the original.
+why does my 2d list change every row | [[0]*3]*3 problem | same row repeated => `[[0] * 3] * 3` repeats the same inner list three times. Build it with `[[0] * 3 for _ in range(3)]` so each row is separate.
+why should i not name a variable list | shadowing built ins | list is not callable => Naming a variable `list`, `str`, `input` or `sum` hides the built-in, so calling it later fails. Pick another name like `items`.
+why should i not name my file random.py | file named like module => If your file is called random.py or turtle.py, `import random` imports your own file instead. Rename it and delete any __pycache__ folder.
+why does my loop skip items when removing | remove while iterating python | modify list in loop => Removing from a list while looping shifts items and skips some. Loop over a copy, or build a new list: `items = [x for x in items if keep(x)]`.
+why is my global variable not changing | change global in function => Assigning to a name inside a function makes a new local variable. Add `global score` at the top of the function to change the global one.
+what is the difference between == none and is none | check for none => Use `if x is None:`. It is the standard style and cannot be fooled by classes that change how `==` works.
+why does sort return none | x = x.sort() | list sort returns none => `list.sort()` sorts in place and returns None. Use `sorted(x)` to get a new sorted list, or call `x.sort()` on its own line.
+why is my recursion so slow | slow fibonacci python | lru_cache recursion => Plain recursive Fibonacci recalculates the same values over and over. Add `@functools.cache` above the function to remember results.
+why does my program freeze with time.sleep in a game | sleep freezes window | time sleep pygame => `time.sleep` stops everything, including drawing and events, so the window freezes. Use the game clock and timers instead.
+# tag: coding.python.tricks
+what is enumerate with a start | enumerate start 1 | count from 1 python => `for i, name in enumerate(names, start=1):` numbers items from 1 instead of 0.
+what is zip with strict | zip strict python | zip lists different lengths => `zip` stops at the shortest list. In Python 3.10+, `zip(a, b, strict=True)` raises an error if the lengths differ.
+how do i loop over two lists at once python | parallel loop python | iterate two lists => `for name, score in zip(names, scores):` gives matching pairs from both lists.
+how do i get the key with the biggest value python | max by value python | argmax dictionary => `max(scores, key=scores.get)` returns the key whose value is largest.
+how do i sort by two things in python | sort multiple keys python | sort by score then name => Return a tuple from the key: `sorted(players, key=lambda p: (-p.score, p.name))` sorts by score high to low, then by name.
+how do i get the last n items of a list python | last three items python | negative slice => `items[-3:]` gives the last three items, even if there are fewer.
+how do i make a list of random numbers python | random list python | list of dice rolls => `[random.randint(1, 6) for _ in range(10)]` makes ten dice rolls.
+how do i pick several random items without repeats python | choose unique random => `random.sample(items, 3)` picks 3 different items. `random.choices(items, k=3)` can repeat.
+how do i chunk a list in python | split list into groups | batches python => `[items[i:i + 3] for i in range(0, len(items), 3)]` splits into groups of 3. Python 3.12 adds `itertools.batched(items, 3)`.
+how do i read a file into a list of lines python | readlines strip python | lines without newline => `lines = Path("file.txt").read_text().splitlines()` gives a list of lines without the newline characters.
+how do i write a list to a file one per line python | save lines python | writelines => `Path("out.txt").write_text("\n".join(items))` writes each item on its own line (items must be strings).
+how do i get a number with leading zeros python | zfill python | format 007 => `str(7).zfill(3)` gives "007", and so does `f"{7:03}"`.
+how do i print a table in python | align columns python | f string padding => Use widths in f-strings: `f"{name:<10}{score:>5}"` left-aligns the name in 10 spaces and right-aligns the score in 5.
+how do i print with commas in python | 1,000,000 format => `f"{1234567:,}"` gives "1,234,567".
+how do i print a percentage in python | percent format python | format as percent => `f"{0.256:.1%}"` gives "25.6%".
+how do i debug print a variable name and value | f string equals | f"{x=}" => In Python 3.8+, `print(f"{score=}")` prints `score=42`, showing the name and the value.
+how do i check if a number is between two numbers python | range check python | chained comparison check => Write `if 1 <= n <= 10:`. Python lets you chain comparisons like in maths.
+how do i convert a string to a list of words python | words from sentence python | split into words => `text.split()` splits on any whitespace and ignores extra spaces.
+how do i remove punctuation from a string python | strip punctuation python | remove symbols python => `"".join(ch for ch in text if ch.isalnum() or ch.isspace())` keeps only letters, digits and spaces.
+how do i count words in python | word count python | most common words python => `collections.Counter(text.lower().split())` counts every word; `.most_common(5)` gives the top five.
+how do i check if two words are anagrams python | anagram python | same letters python => `sorted(a) == sorted(b)` is True when both words use exactly the same letters.
+how do i get the digits of a number python | sum of digits python | digits of int => `[int(d) for d in str(n)]` gives the digits, and `sum(...)` of that adds them up.
+how do i convert a number to binary in python | binary string python => `bin(10)` gives '0b1010', and `f"{10:b}"` gives '1010' without the prefix. `int("1010", 2)` converts back.
+how do i convert to hexadecimal in python | hex color python => `hex(255)` gives '0xff', and `f"{255:02X}"` gives 'FF'. `int("ff", 16)` converts back.
+how do i get ascii code of a letter in python | ord and chr | char code python => `ord("A")` gives 65 and `chr(65)` gives "A".
+how do i make a caesar cipher in python | caesar cipher python | shift letters python => For each letter, use `ord` to get its number, add the shift, wrap around with `% 26`, and turn it back with `chr`. Leave non-letters unchanged.
+how do i make a countdown in python | countdown timer python | count down from 10 => `for i in range(10, 0, -1): print(i); time.sleep(1)` counts down from 10 to 1, one per second.
+how do i make an infinite loop in python | while true python | loop forever python => `while True:` loops forever. Use `break` inside to stop when something happens, like the player choosing to quit.
+how do i ask yes or no in python | yes no input python | play again python => `again = input("Play again? (y/n) ").strip().lower()` then check `if again.startswith("y"):`.
+how do i keep asking until valid input python | input validation loop python | retry input python => Loop with `while True:`, try converting the input inside try/except ValueError, and `break` once it works.
+how do i make a menu in python | text menu python | menu choices python => Print the options, read a choice with input, then use if/elif or `match` to run the matching function. Loop until the user picks quit.
+how do i store player data in python | save game python | save progress python => Keep the data in a dict and save it with `json.dump` to a file; load it with `json.load` when the game starts.
+how do i make a class for a game character python | player class python | character class python => Make `class Player:` with `__init__(self, name, hp)` storing values on self, and methods like `take_damage(self, amount)` that change them.
+how do i make an inventory in python | inventory system python => A dict from item name to count works well: `inventory["potion"] = inventory.get("potion", 0) + 1`.
+how do i make a dice game in python | dice game python | roll two dice python => `random.randint(1, 6)` rolls one die. Roll for each player, compare totals with if/else, and keep score in variables.
+how do i make hangman in python | hangman python | guess the word python => Pick a random word, keep a set of guessed letters, show `_` for unguessed letters, and count wrong guesses until the word is done or lives run out.
+how do i make tic tac toe in python | tic tac toe python | noughts and crosses python => Store the board as a list of 9 cells, print it as a 3x3 grid, take turns placing X and O, and check the 8 winning lines after each move.
+how do i make a clicker game in python | clicker game python | cookie clicker python => In tkinter or pygame, add 1 to a score when a button is clicked, show the score, and let players buy upgrades that add points automatically with a timer.
+how do i make a chatbot in python | simple chatbot python | chat bot python => A simple one uses a loop, `input()`, and if/elif checks for keywords to choose a reply. For a smart one, call an AI API.
+how do i make a calculator gui python | tkinter calculator | calculator app python => In tkinter, make buttons in a grid with `grid(row, column)`, add each pressed key to an Entry, and on = work out the result with your own parser.
+why should i not use eval | eval dangerous python | eval security => `eval` runs any text as Python code, so if a user types something nasty it runs it. Parse numbers and operators yourself, or use `ast.literal_eval` for simple values.
+what is ast.literal_eval | literal_eval python | safe eval python => `ast.literal_eval("[1, 2, 3]")` safely turns text containing simple Python values (numbers, strings, lists, dicts) into objects, without running code.
+# tag: coding.python.concepts
+what is **kwargs in python | keyword arguments dict => `**kwargs` collects extra keyword arguments into a dict, like `def make(**kwargs): print(kwargs["color"])`.
+what is keyword only argument python | star in function parameters | arguments after * => Parameters after a bare `*` must be passed by name: `def move(x, *, speed=1)` must be called like `move(5, speed=2)`.
+what is positional only argument python | slash in function parameters | / in def => Parameters before `/` must be passed by position: `def f(a, b, /, c)` cannot be called with `a=1`.
+what is unpacking with star python | star unpacking | first, *rest => `first, *rest = [1, 2, 3, 4]` puts 1 in first and [2, 3, 4] in rest. `print(*items)` passes each item as its own argument.
+what is dictionary unpacking python | ** in a function call | merge dicts with ** => `f(**options)` passes a dict's keys as named arguments, and `{**a, **b}` builds a merged dict.
+what is @classmethod used for | alternative constructor python | from_string classmethod => A classmethod gets the class as `cls`, often used for alternative constructors like `Date.from_string("2025-01-01")`.
+super init python | call parent method python => `super().__init__(name)` runs the parent class's `__init__` from a subclass, so the parent's setup still happens.
+what is multiple inheritance in python | mro python | method resolution order => A class can inherit from several parents. Python checks them in the method resolution order (see `Class.__mro__`) to decide which method to use.
+what is duck typing | duck typing python | if it quacks like a duck => Python cares what an object can do, not what class it is. If it has the methods you call, it works.
+what is eafp | easier to ask forgiveness | eafp vs lbyl => EAFP means try the action and catch the error, rather than checking everything first (LBYL, look before you leap). Python code often uses try/except this way.
+what is a module level variable | all caps variable python => Variables at the top of a file are module level. By convention, ALL_CAPS names like `MAX_LIVES` are constants not meant to change.
+what is __name__ | __main__ meaning => `__name__` is "__main__" when a file is run directly and the module's name when it is imported, which is why `if __name__ == "__main__":` guards test code.
+what is __init__.py | init py file | package folder python => An `__init__.py` file marks a folder as a regular package and runs when it is imported. Modern Python can import folders without one, but it is still common.
+what is a relative import | from . import | relative import python => Inside a package, `from . import utils` imports a sibling module. Relative imports only work when the file is run as part of the package.
+what is the python path order | sys.path | where does python look for modules => Python searches the script's folder first, then the folders in `sys.path`, including the standard library and site-packages.
+what is yield from | delegate generator => `yield from other_generator()` passes along every value from another generator, a shortcut for a for loop with yield.
+what is a coroutine in python | async def python | coroutine explained python => A function defined with `async def` returns a coroutine. It runs when awaited or passed to `asyncio.run`, and can pause at each `await`.
+what is an f string format spec | format spec python | :.2f meaning => After a colon in an f-string you can format: `.2f` for 2 decimals, `,` for thousands, `>10` to right-align in 10 spaces, `%` for percent.
+what is string formatting with format() | str.format python | old string formatting => `"Hi {}, you have {} points".format(name, score)` fills the braces in order. f-strings are newer and easier; `%` formatting is the oldest style.
+what is a bytes object | bytes vs str python | encode decode python => `str` is text and `bytes` is raw data. Turn text into bytes with `text.encode("utf-8")` and back with `data.decode("utf-8")`.
+what is a set used for in python | fast membership python => Use a set to remove duplicates or to check `x in s` quickly on lots of items, much faster than in a list.
+what is a frozen dataclass | dataclass frozen | immutable dataclass => `@dataclass(frozen=True)` makes instances that cannot be changed after creation, which also lets them be dict keys.
+what is typing optional | optional type hint | str or none type => `str | None` (Python 3.10+) or `Optional[str]` means the value can be a string or None.
+what is a typeddict | typeddict python | typed dictionary => `TypedDict` describes the keys and value types a dict should have, so type checkers can catch mistakes. It is still a normal dict at run time.
+what is a literal type | literal type hint | typing literal => `Literal["easy", "hard"]` says a value must be one of those exact options, for type checkers.
+what is the global interpreter lock simply | gil simply => In standard CPython, the GIL lets only one thread run Python code at a time, so threads help with waiting (like downloads) but not heavy math. Python 3.13 adds an optional free-threaded build.
+what is a python version manager | pyenv | multiple python versions => Tools like pyenv or uv let you install several Python versions and choose one per project.
+what is python 3.12 | python 3.12 features | new in python 3.12 => Python 3.12 (2023) brought clearer error messages, more flexible f-strings, the `type` statement for type aliases and speed improvements.
+python 3.13 features | new in python 3.13 => Python 3.13 (2024) added a nicer interactive shell with colors and multi-line editing, plus experimental free-threading and JIT builds.
+what is idle | python idle | idle editor => IDLE is the simple editor that comes with Python. It is fine for beginners; VS Code or PyCharm offer more features.
+what is pycharm | pycharm python | pycharm vs vs code => PyCharm is a powerful Python IDE by JetBrains with a free community version. VS Code with the Python extension is a lighter popular choice.
+what is thonny | thonny python | beginner python editor => Thonny is a beginner-friendly Python editor with a simple debugger that shows variables step by step, and it works well with MicroPython boards.
+what is replit | replit python | code online python => Replit lets you write and run Python and other languages in a web browser, no install needed.
+what is pythonista | python on ipad app | pythonista ios => Pythonista is a paid iPad and iPhone app for writing and running Python, with modules for touch, sound and the device. Pyto and a-Shell are other options.
+what is a jupyter cell | jupyter shift enter | notebook cells => A Jupyter notebook is made of cells. Press Shift+Enter to run one; its output shows below, and variables stay available to later cells.
+what is a python one liner | one line python | short python code => A one-liner does a task in a single line, often with comprehensions. They are fun, but split them up if they get hard to read.

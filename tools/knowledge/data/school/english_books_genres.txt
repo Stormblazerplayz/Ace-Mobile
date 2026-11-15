@@ -1,0 +1,39 @@
+# Parts of a book, text features, text structures and genres. Written by hand.
+# tag: school.english.parts-of-a-book
+what is a table of contents | where is the table of contents | what does a table of contents show => A table of contents is a list at the front of a book showing its chapters or sections and the page each one starts on.
+what is an appendix in a book | book appendix meaning | what goes in an appendix => An appendix is extra material at the end of a book or report, like charts, maps or documents, that supports the main text.
+what is a preface | foreword vs preface | what is a foreword => A preface is an introduction written by the author. A foreword is an introduction written by someone else, often a well-known person.
+what is a dedication in a book | book dedication | why do authors write dedications => A dedication is a short note near the front of a book where the author honors someone, like "For my parents".
+what are acknowledgments in a book | acknowledgements page | who do authors thank => The acknowledgments section is where the author thanks the people who helped make the book, like editors, family and researchers.
+what is the spine of a book | book spine | what is written on a book spine => The spine is the edge of a book that holds the pages together. It usually shows the title, author and publisher, so you can read it on a shelf.
+what is a title page | what is on a title page | copyright page => The title page shows the book's title, author and publisher. The copyright page, usually right behind it, gives the publication year and copyright details.
+what is an isbn | isbn meaning | what does isbn stand for => ISBN stands for International Standard Book Number. It's a 13-digit number (older books have 10 digits) that identifies one edition of a book.
+what is a blurb on a book | back cover summary | book blurb meaning => A blurb is the short description on the back cover or inside flap that tells what a book is about, to make readers want to read it.
+what is a chapter book | chapter book vs picture book | when do kids read chapter books => A chapter book is a story for young readers divided into short chapters, with few or no pictures. Picture books tell the story mostly through illustrations.
+what is an author vs an illustrator | what does an illustrator do | who draws the pictures in a book => The author writes the words; the illustrator creates the pictures. Sometimes one person does both.
+what is a publisher | what does a publisher do | how do books get published => A publisher is a company that edits, designs, prints and sells books. Writers often send their work to an agent or publisher, and if accepted it goes through editing before printing.
+# tag: school.english.text-features
+what is a caption | caption meaning | caption in a book => A caption is a short line of text under or beside a picture that explains what it shows.
+what is a heading | heading vs subheading | what is a subheading => A heading is the title of a section of text. A subheading divides that section into smaller parts. Both tell you what each part is about.
+what is a sidebar in a text | sidebar meaning in reading | what is a text box => A sidebar is a box set apart from the main text with extra facts or a related story.
+what is bold print for | why are words in bold | why are some words highlighted in a textbook => Bold or highlighted words are important vocabulary. They're often defined in the glossary.
+how do you read a timeline | timeline text feature => A timeline is a line showing events in the order they happened, with dates. Read it from left to right, or top to bottom.
+what is a diagram | labeled diagram | diagram meaning => A diagram is a drawing that shows the parts of something or how it works, usually with labels.
+# tag: school.english.text-structures
+what is cause and effect text structure | cause and effect signal words | cause and effect in reading => A cause is why something happens, and the effect is what happens. Signal words include because, so, since, as a result and therefore.
+what is compare and contrast text structure | compare and contrast signal words | compare and contrast in reading => Comparing shows how things are alike; contrasting shows how they're different. Signal words include both, similarly, however, unlike and on the other hand.
+what is problem and solution text structure | problem and solution signal words | problem and solution in reading => The text explains a problem and one or more ways to solve it. Signal words include problem, solution, solved, the answer is and one way.
+what is sequence text structure | chronological order | sequence signal words => Sequence, or chronological order, tells events or steps in the order they happen. Signal words include first, next, then, after that and finally.
+what is description text structure | descriptive text structure | description signal words => A descriptive text explains a topic by listing its features, characteristics or examples. Signal words include for example, such as, includes and characteristics.
+# tag: school.english.genres
+what is fantasy genre | fantasy books meaning | what makes a story fantasy => Fantasy stories include magic or impossible things, like dragons, wizards or other worlds. Examples include Harry Potter and The Hobbit.
+what is a mystery story | mystery genre | elements of a mystery => A mystery centers on a puzzle or crime that a detective or character solves using clues. It often includes suspects, red herrings and a final reveal.
+what is a memoir | memoir vs autobiography | memoir meaning => A memoir is a true story by the author about one part or theme of their life, while an autobiography usually covers the whole life.
+what is informational text | informational text examples | what is expository text => Informational (expository) text gives facts about a topic, like a textbook, news article or encyclopedia entry.
+what is a tall tale | tall tale examples | characteristics of a tall tale => A tall tale is a funny, exaggerated story about a larger-than-life hero, like Paul Bunyan, the giant lumberjack, or Pecos Bill.
+folktale meaning | folktale examples => A folktale is a traditional story passed down by word of mouth, often teaching a lesson. Examples include Anansi stories and Jack and the Beanstalk.
+what is a fairy tale | fairy tale characteristics | what makes a fairy tale => A fairy tale is a folktale with magic, often starting "once upon a time", with good and evil characters and a happy ending, like Cinderella.
+what is a legend | legend vs myth | legend meaning => A legend is a traditional story about a person or event that may be partly based on history, like King Arthur or Robin Hood. A myth usually explains nature or involves gods.
+what is horror genre | horror books for kids | what makes a horror story => Horror stories aim to scare readers with suspense, danger and creepy settings. Goosebumps by R. L. Stine is a famous kids' horror series.
+what is an adventure story | adventure genre | adventure books meaning => An adventure story follows characters on an exciting journey full of danger and action, like Hatchet or Treasure Island.
+what is drama as a genre | drama genre in literature | what is a play script => In literature, drama means plays: stories written to be performed, told through dialogue and stage directions.

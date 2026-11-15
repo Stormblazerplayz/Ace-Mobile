@@ -1,0 +1,7 @@
+# tag: tech.ai.extra
+what is notebooklm | google notebooklm => NotebookLM is a Google AI tool where you upload your own notes, PDFs or videos and ask questions about them. It can also make study guides and podcast-style audio summaries.
+what is mcp in ai | model context protocol => MCP, the Model Context Protocol, is an open standard that lets AI assistants connect to tools and data like files, calendars or apps in a common way.
+what is vibe coding | coding by asking ai => Vibe coding means building software mostly by describing what you want to an AI and accepting its code. It's fast for prototypes, but you still need to test and understand what it made.
+what is deepseek | deepseek ai => DeepSeek is a Chinese AI company whose open-weight models, released in late 2024 and early 2025, matched top chatbots at much lower training cost.
+are ai companion apps safe | ai friend chatbot => AI companion bots can feel like real friends, but they aren't people and some push you to keep chatting or share private stuff. Keep real friends close and talk to a parent if a bot makes you uncomfortable.
+what is elevenlabs | ai text to speech voices => ElevenLabs is an AI voice company that turns text into very natural speech and can clone voices. Only clone a voice with that person's permission.

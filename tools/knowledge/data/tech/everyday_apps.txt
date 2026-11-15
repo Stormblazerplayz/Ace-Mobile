@@ -1,0 +1,39 @@
+# tag: tech.apps.convert
+how do i turn a video into an mp3 | extract audio from video => Open the video in VLC and use Media, Convert/Save with an audio profile, or import it into Audacity and export as MP3. Resolve can also render audio only.
+how do i compress a pdf | make pdf smaller => Use a trusted tool like Adobe's free online compressor, or on a Mac open it in Preview and choose File, Export with a Reduce File Size filter.
+how do i convert a pdf to word | edit a pdf in word => Open the PDF in Microsoft Word, which converts it into an editable document, or upload it to Google Drive and open it with Google Docs.
+how do i resize lots of images at once | bulk image resize => On Windows, PowerToys Image Resizer adds a right-click option to resize many images. On Mac, select them in Finder and use Quick Actions, Convert Image.
+how do i turn screenshots into one pdf | combine pictures into pdf windows => Select them and choose Print, then Microsoft Print to PDF on Windows, or on Mac right-click, Quick Actions, Create PDF.
+what is vlc media player | vlc player => VLC is a free media player that plays almost any video or audio file, including MKV and odd formats Windows can't open.
+how do i make a video play faster in vlc | vlc speed keys => Press ] to speed up and [ to slow down in VLC, or use Playback, Speed in the menu.
+how do i convert video formats | mov to mp4 converter => Use HandBrake or VLC to convert videos. For a simple MKV to MP4 change without quality loss, remux it in OBS or a similar tool.
+how do i record audio on my pc | voice recorder windows => Use the Sound Recorder app in Windows 11, or Audacity for more editing tools.
+how do i trim a video on windows without an editor | cut a clip windows photos => Open it in Clipchamp or the Photos app's video editor, drag the ends of the clip to trim, and export.
+# tag: tech.apps.access
+what is voiceover on iphone | screen reader iphone => VoiceOver reads everything on screen aloud for people who can't see it well. Turn it on in Settings, Accessibility, VoiceOver. It changes how taps work, so learn the gestures first.
+what is assistivetouch | on screen home button => AssistiveTouch adds a floating button that does things like home, screenshots and volume without pressing physical buttons. Turn it on in Settings, Accessibility, Touch.
+what is eye tracking on ipad | control ipad with eyes => In iPadOS 18 and later, Eye Tracking lets you control the iPad by looking at the screen, using the front camera. It's in Settings, Accessibility.
+what is sound recognition on iphone | alert for sounds => Sound Recognition notifies you when the iPhone or iPad hears sounds like a doorbell, alarm or crying baby. It's in Settings, Accessibility.
+what is live speech | type to speak => Live Speech lets you type and have the device speak your words aloud in calls and in person. It's in Settings, Accessibility.
+what is personal voice | make a voice like mine => Personal Voice lets an iPhone or iPad create a voice that sounds like you, used with Live Speech. It's meant for people at risk of losing their speech.
+what is mono audio | one ear audio => Mono Audio plays both left and right sound in each ear, which helps if you use one earbud or hear better in one ear. Find it in accessibility settings.
+what is reduce motion | stop screen animations => Reduce Motion cuts zooming and sliding animations, which helps if motion makes you feel sick. It's in accessibility settings on iPad, iPhone, Mac and Windows.
+what is high contrast mode on windows | contrast themes => Contrast themes in Settings, Accessibility make text and buttons stand out with strong colors, which helps low vision.
+what is switch control | switch control explained => Switch Control lets someone use a device with one or a few buttons or switches instead of touching the screen, scanning through items to pick one.
+# tag: tech.apps.smarthome
+what is thread smart home | thread network => Thread is a low-power mesh network for smart home gadgets. Devices pass messages to each other, so range improves as you add more.
+what is zigbee | zigbee explained => Zigbee is a low-power wireless system many smart bulbs and sensors use. It usually needs a hub to connect to your phone and Wi-Fi.
+what is home assistant | home assistant explained => Home Assistant is free software, often on a Raspberry Pi, that controls smart home devices from many brands in one place, with automations.
+what is a smart home automation | smart home routine => An automation makes devices act on their own, like lights turning on at sunset or when you open a door.
+what is a smart bulb | smart bulb explained => A smart bulb connects to Wi-Fi, Bluetooth or Zigbee so you can change brightness and color from an app or by voice.
+what is apple home | homekit => Apple Home (HomeKit) controls smart devices from iPhone, iPad and Mac. An Apple TV or HomePod is needed as a home hub for automations.
+what is google home app | google home app explained => The Google Home app sets up and controls Google Nest speakers, Chromecast and other smart devices, plus routines.
+# tag: tech.apps.calls
+what is shareplay | shareplay explained => SharePlay lets you watch videos, listen to music or share your screen together during a FaceTime call. Apps have to support it.
+how do i make a group facetime | facetime group call => In FaceTime, tap New FaceTime and add several contacts, or start one from a group chat in Messages.
+how do i share my screen on facetime | facetime screen share => During a call, tap the share content button and choose Share My Screen.
+what is a meeting link | join a video call => A meeting link opens a video call in Zoom, Teams or Meet. Click it, allow camera and mic, and choose whether to join with them on or off.
+how do i blur my background in a video call | background blur zoom => Zoom, Teams and Meet all have background blur in their video or effects settings. Windows Studio Effects can also blur on supported PCs.
+why does my voice echo in video calls | echo in zoom => Echo usually comes from someone's speakers being picked up by their mic. Use headphones, or lower the speaker volume.
+what is game streaming from my pc to my ipad | moonlight sunshine => Apps like Moonlight with Sunshine, or Steam Link, stream games from your PC to an iPad over your home network so you can play anywhere in the house.
+what is parsec | parsec explained => Parsec is an app for streaming your computer to another device with low lag, popular for playing games together remotely.

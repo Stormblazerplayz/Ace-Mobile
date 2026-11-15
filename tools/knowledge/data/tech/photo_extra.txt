@@ -1,0 +1,13 @@
+# tag: tech.photo.extra
+what is blue hour in photography | blue hour photos => Blue hour is the short time just before sunrise and after sunset when the sky turns deep blue. City lights and sky balance nicely then.
+how do i photograph stars | night sky photo with phone => Get away from city lights, put the phone or camera on a tripod and use night mode or a long exposure of 10 to 30 seconds. A moonless night shows the most stars.
+how do i lock focus and exposure on iphone | ae af lock => Touch and hold on the subject in the Camera app until AE/AF Lock appears. Then slide up or down to adjust brightness.
+what is a polarizing filter | cpl filter for camera => A circular polarizer cuts reflections on water and glass and makes skies bluer. You twist it to change how strong the effect is.
+how do i scan old printed photos | digitize old photos => Use a flatbed scanner at 600 DPI, or a phone app like Google's PhotoScan that removes glare by taking several shots.
+how do i print my photos | order prints from phone => Many stores and online services print from your phone or computer. Use the full-resolution original, not a screenshot, for sharp prints.
+how do i take a group photo where everyone looks good | group photo tips => Use a tripod and timer or burst mode, have the light behind you, put people at different heights and take several shots.
+what is a bluetooth remote shutter | take photos from far away with phone => A small Bluetooth remote pairs with your phone and snaps a photo when you press it. An Apple Watch or the volume buttons on wired earbuds work too.
+what is action mode on iphone | super stable phone video => Action Mode gives very steady video while running or biking by cropping in and stabilizing heavily. It works best in good light.
+what is apple log video | log recording iphone => Apple Log, on iPhone 15 Pro and later, records flat, low-contrast video that keeps more highlight and shadow detail for color grading in apps like Resolve.
+what is spatial video | 3d video iphone => Spatial video records in 3D on newer iPhones and Apple Vision Pro, so it looks deep when watched on Vision Pro or other supported headsets.
+what are clip on phone lenses | add lens to phone camera => Clip-on lenses add macro, fisheye or wide views to a phone. Cheap ones often blur the edges, and many phones now have good built-in ultra-wide and macro.

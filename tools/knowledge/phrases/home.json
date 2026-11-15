@@ -1,0 +1,1080 @@
+{
+ "entries": [
+  {
+   "en": "kitchen",
+   "also": [],
+   "t": {
+    "es": "cocina",
+    "fr": "cuisine",
+    "de": "Küche",
+    "it": "cucina",
+    "pt": "cozinha",
+    "ja": "台所",
+    "zh": "厨房",
+    "ko": "부엌",
+    "hi": "रसोई",
+    "ar": "مطبخ",
+    "ru": "кухня",
+    "nl": "keuken"
+   },
+   "say": {
+    "ja": "daidokoro",
+    "zh": "chúfáng",
+    "ko": "bueok",
+    "hi": "rasoi",
+    "ar": "matbakh",
+    "ru": "kukhnya"
+   }
+  },
+  {
+   "en": "bedroom",
+   "also": [],
+   "t": {
+    "es": "dormitorio",
+    "fr": "chambre",
+    "de": "Schlafzimmer",
+    "it": "camera da letto",
+    "pt": "quarto",
+    "ja": "寝室",
+    "zh": "卧室",
+    "ko": "침실",
+    "hi": "सोने का कमरा",
+    "ar": "غرفة النوم",
+    "ru": "спальня",
+    "nl": "slaapkamer"
+   },
+   "say": {
+    "ja": "shinshitsu",
+    "zh": "wòshì",
+    "ko": "chimsil",
+    "hi": "sone ka kamra",
+    "ar": "ghurfat an-nawm",
+    "ru": "spalnya"
+   }
+  },
+  {
+   "en": "living room",
+   "also": [],
+   "t": {
+    "es": "sala",
+    "fr": "salon",
+    "de": "Wohnzimmer",
+    "it": "soggiorno",
+    "pt": "sala de estar",
+    "ja": "リビング",
+    "zh": "客厅",
+    "ko": "거실",
+    "hi": "बैठक",
+    "ar": "غرفة المعيشة",
+    "ru": "гостиная",
+    "nl": "woonkamer"
+   },
+   "say": {
+    "ja": "ribingu",
+    "zh": "kètīng",
+    "ko": "geosil",
+    "hi": "baithak",
+    "ar": "ghurfat al-ma'eesha",
+    "ru": "gostinaya"
+   }
+  },
+  {
+   "en": "door",
+   "also": [],
+   "t": {
+    "es": "puerta",
+    "fr": "porte",
+    "de": "Tür",
+    "it": "porta",
+    "pt": "porta",
+    "ja": "ドア",
+    "zh": "门",
+    "ko": "문",
+    "hi": "दरवाज़ा",
+    "ar": "باب",
+    "ru": "дверь",
+    "nl": "deur"
+   },
+   "say": {
+    "ja": "doa",
+    "zh": "mén",
+    "ko": "mun",
+    "hi": "darvaaza",
+    "ar": "baab",
+    "ru": "dver"
+   }
+  },
+  {
+   "en": "window",
+   "also": [],
+   "t": {
+    "es": "ventana",
+    "fr": "fenêtre",
+    "de": "Fenster",
+    "it": "finestra",
+    "pt": "janela",
+    "ja": "窓",
+    "zh": "窗户",
+    "ko": "창문",
+    "hi": "खिड़की",
+    "ar": "نافذة",
+    "ru": "окно",
+    "nl": "raam"
+   },
+   "say": {
+    "ja": "mado",
+    "zh": "chuānghu",
+    "ko": "changmun",
+    "hi": "khidki",
+    "ar": "naafidha",
+    "ru": "okno"
+   }
+  },
+  {
+   "en": "bed",
+   "also": [],
+   "t": {
+    "es": "cama",
+    "fr": "lit",
+    "de": "Bett",
+    "it": "letto",
+    "pt": "cama",
+    "ja": "ベッド",
+    "zh": "床",
+    "ko": "침대",
+    "hi": "बिस्तर",
+    "ar": "سرير",
+    "ru": "кровать",
+    "nl": "bed"
+   },
+   "say": {
+    "ja": "beddo",
+    "zh": "chuáng",
+    "ko": "chimdae",
+    "hi": "bistar",
+    "ar": "sareer",
+    "ru": "krovat"
+   }
+  },
+  {
+   "en": "sofa",
+   "also": [
+    "couch"
+   ],
+   "t": {
+    "es": "sofá",
+    "fr": "canapé",
+    "de": "Sofa",
+    "it": "divano",
+    "pt": "sofá",
+    "ja": "ソファー",
+    "zh": "沙发",
+    "ko": "소파",
+    "hi": "सोफ़ा",
+    "ar": "أريكة",
+    "ru": "диван",
+    "nl": "bank"
+   },
+   "say": {
+    "ja": "sofaa",
+    "zh": "shāfā",
+    "ko": "sopa",
+    "hi": "sofa",
+    "ar": "areeka",
+    "ru": "divan"
+   }
+  },
+  {
+   "en": "lamp",
+   "also": [
+    "light"
+   ],
+   "t": {
+    "es": "lámpara",
+    "fr": "lampe",
+    "de": "Lampe",
+    "it": "lampada",
+    "pt": "lâmpada",
+    "ja": "電気",
+    "zh": "灯",
+    "ko": "전등",
+    "hi": "बत्ती",
+    "ar": "مصباح",
+    "ru": "лампа",
+    "nl": "lamp"
+   },
+   "say": {
+    "ja": "denki",
+    "zh": "dēng",
+    "ko": "jeondeung",
+    "hi": "batti",
+    "ar": "misbaah",
+    "ru": "lampa"
+   }
+  },
+  {
+   "en": "fridge",
+   "also": [
+    "refrigerator"
+   ],
+   "t": {
+    "es": "refrigerador",
+    "fr": "frigo",
+    "de": "Kühlschrank",
+    "it": "frigorifero",
+    "pt": "geladeira",
+    "ja": "冷蔵庫",
+    "zh": "冰箱",
+    "ko": "냉장고",
+    "hi": "फ़्रिज",
+    "ar": "ثلاجة",
+    "ru": "холодильник",
+    "nl": "koelkast"
+   },
+   "say": {
+    "ja": "reizouko",
+    "zh": "bīngxiāng",
+    "ko": "naengjanggo",
+    "hi": "frij",
+    "ar": "thallaaja",
+    "ru": "kholodilnik"
+   }
+  },
+  {
+   "en": "shower",
+   "also": [],
+   "t": {
+    "es": "ducha",
+    "fr": "douche",
+    "de": "Dusche",
+    "it": "doccia",
+    "pt": "chuveiro",
+    "ja": "シャワー",
+    "zh": "淋浴",
+    "ko": "샤워",
+    "hi": "शावर",
+    "ar": "دش",
+    "ru": "душ",
+    "nl": "douche"
+   },
+   "say": {
+    "ja": "shawaa",
+    "zh": "línyù",
+    "ko": "syawo",
+    "hi": "shaavar",
+    "ar": "dush",
+    "ru": "dush"
+   }
+  },
+  {
+   "en": "soap",
+   "also": [],
+   "t": {
+    "es": "jabón",
+    "fr": "savon",
+    "de": "Seife",
+    "it": "sapone",
+    "pt": "sabonete",
+    "ja": "石けん",
+    "zh": "肥皂",
+    "ko": "비누",
+    "hi": "साबुन",
+    "ar": "صابون",
+    "ru": "мыло",
+    "nl": "zeep"
+   },
+   "say": {
+    "ja": "sekken",
+    "zh": "féizào",
+    "ko": "binu",
+    "hi": "saabun",
+    "ar": "saaboon",
+    "ru": "mylo"
+   }
+  },
+  {
+   "en": "towel",
+   "also": [],
+   "t": {
+    "es": "toalla",
+    "fr": "serviette",
+    "de": "Handtuch",
+    "it": "asciugamano",
+    "pt": "toalha",
+    "ja": "タオル",
+    "zh": "毛巾",
+    "ko": "수건",
+    "hi": "तौलिया",
+    "ar": "منشفة",
+    "ru": "полотенце",
+    "nl": "handdoek"
+   },
+   "say": {
+    "ja": "taoru",
+    "zh": "máojīn",
+    "ko": "sugeon",
+    "hi": "tauliya",
+    "ar": "minshafa",
+    "ru": "polotentse"
+   }
+  },
+  {
+   "en": "toothbrush",
+   "also": [],
+   "t": {
+    "es": "cepillo de dientes",
+    "fr": "brosse à dents",
+    "de": "Zahnbürste",
+    "it": "spazzolino",
+    "pt": "escova de dentes",
+    "ja": "歯ブラシ",
+    "zh": "牙刷",
+    "ko": "칫솔",
+    "hi": "टूथब्रश",
+    "ar": "فرشاة أسنان",
+    "ru": "зубная щётка",
+    "nl": "tandenborstel"
+   },
+   "say": {
+    "ja": "haburashi",
+    "zh": "yáshuā",
+    "ko": "chitsol",
+    "hi": "toothbrash",
+    "ar": "furshaat asnaan",
+    "ru": "zubnaya shchyotka"
+   }
+  },
+  {
+   "en": "toothpaste",
+   "also": [],
+   "t": {
+    "es": "pasta de dientes",
+    "fr": "dentifrice",
+    "de": "Zahnpasta",
+    "it": "dentifricio",
+    "pt": "pasta de dente",
+    "ja": "歯磨き粉",
+    "zh": "牙膏",
+    "ko": "치약",
+    "hi": "टूथपेस्ट",
+    "ar": "معجون أسنان",
+    "ru": "зубная паста",
+    "nl": "tandpasta"
+   },
+   "say": {
+    "ja": "hamigakiko",
+    "zh": "yágāo",
+    "ko": "chiyak",
+    "hi": "toothpest",
+    "ar": "ma'joon asnaan",
+    "ru": "zubnaya pasta"
+   }
+  },
+  {
+   "en": "pillow",
+   "also": [],
+   "t": {
+    "es": "almohada",
+    "fr": "oreiller",
+    "de": "Kopfkissen",
+    "it": "cuscino",
+    "pt": "travesseiro",
+    "ja": "枕",
+    "zh": "枕头",
+    "ko": "베개",
+    "hi": "तकिया",
+    "ar": "وسادة",
+    "ru": "подушка",
+    "nl": "kussen"
+   },
+   "say": {
+    "ja": "makura",
+    "zh": "zhěntou",
+    "ko": "begae",
+    "hi": "takiya",
+    "ar": "wisaada",
+    "ru": "podushka"
+   }
+  },
+  {
+   "en": "blanket",
+   "also": [],
+   "t": {
+    "es": "manta",
+    "fr": "couverture",
+    "de": "Decke",
+    "it": "coperta",
+    "pt": "cobertor",
+    "ja": "毛布",
+    "zh": "毯子",
+    "ko": "담요",
+    "hi": "कंबल",
+    "ar": "بطانية",
+    "ru": "одеяло",
+    "nl": "deken"
+   },
+   "say": {
+    "ja": "moufu",
+    "zh": "tǎnzi",
+    "ko": "damyo",
+    "hi": "kambal",
+    "ar": "battaaniyya",
+    "ru": "odeyalo"
+   }
+  },
+  {
+   "en": "clock",
+   "also": [],
+   "t": {
+    "es": "reloj",
+    "fr": "horloge",
+    "de": "Uhr",
+    "it": "orologio",
+    "pt": "relógio",
+    "ja": "時計",
+    "zh": "钟",
+    "ko": "시계",
+    "hi": "घड़ी",
+    "ar": "ساعة",
+    "ru": "часы",
+    "nl": "klok"
+   },
+   "say": {
+    "ja": "tokei",
+    "zh": "zhōng",
+    "ko": "sigye",
+    "hi": "ghadi",
+    "ar": "saa'a",
+    "ru": "chasy"
+   }
+  },
+  {
+   "en": "television",
+   "also": [
+    "tv"
+   ],
+   "t": {
+    "es": "televisión",
+    "fr": "télévision",
+    "de": "Fernseher",
+    "it": "televisione",
+    "pt": "televisão",
+    "ja": "テレビ",
+    "zh": "电视",
+    "ko": "텔레비전",
+    "hi": "टीवी",
+    "ar": "تلفزيون",
+    "ru": "телевизор",
+    "nl": "televisie"
+   },
+   "say": {
+    "ja": "terebi",
+    "zh": "diànshì",
+    "ko": "tellebijeon",
+    "hi": "teevee",
+    "ar": "tilifizyoon",
+    "ru": "televizor"
+   }
+  },
+  {
+   "en": "garbage",
+   "also": [
+    "trash",
+    "rubbish"
+   ],
+   "t": {
+    "es": "basura",
+    "fr": "poubelle",
+    "de": "Müll",
+    "it": "spazzatura",
+    "pt": "lixo",
+    "ja": "ゴミ",
+    "zh": "垃圾",
+    "ko": "쓰레기",
+    "hi": "कूड़ा",
+    "ar": "قمامة",
+    "ru": "мусор",
+    "nl": "afval"
+   },
+   "say": {
+    "ja": "gomi",
+    "zh": "lājī",
+    "ko": "sseuregi",
+    "hi": "kooda",
+    "ar": "qumaama",
+    "ru": "musor"
+   }
+  },
+  {
+   "en": "stairs",
+   "also": [],
+   "t": {
+    "es": "escaleras",
+    "fr": "escalier",
+    "de": "Treppe",
+    "it": "scale",
+    "pt": "escada",
+    "ja": "階段",
+    "zh": "楼梯",
+    "ko": "계단",
+    "hi": "सीढ़ियाँ",
+    "ar": "درج",
+    "ru": "лестница",
+    "nl": "trap"
+   },
+   "say": {
+    "ja": "kaidan",
+    "zh": "lóutī",
+    "ko": "gyedan",
+    "hi": "seedhiyaan",
+    "ar": "daraj",
+    "ru": "lestnitsa"
+   }
+  },
+  {
+   "en": "elevator",
+   "also": [
+    "lift"
+   ],
+   "t": {
+    "es": "ascensor",
+    "fr": "ascenseur",
+    "de": "Aufzug",
+    "it": "ascensore",
+    "pt": "elevador",
+    "ja": "エレベーター",
+    "zh": "电梯",
+    "ko": "엘리베이터",
+    "hi": "लिफ़्ट",
+    "ar": "مصعد",
+    "ru": "лифт",
+    "nl": "lift"
+   },
+   "say": {
+    "ja": "erebeetaa",
+    "zh": "diàntī",
+    "ko": "ellibeiteo",
+    "hi": "lift",
+    "ar": "mis'ad",
+    "ru": "lift"
+   }
+  },
+  {
+   "en": "floor",
+   "also": [],
+   "t": {
+    "es": "suelo",
+    "fr": "sol",
+    "de": "Boden",
+    "it": "pavimento",
+    "pt": "chão",
+    "ja": "床",
+    "zh": "地板",
+    "ko": "바닥",
+    "hi": "फ़र्श",
+    "ar": "أرض",
+    "ru": "пол",
+    "nl": "vloer"
+   },
+   "say": {
+    "ja": "yuka",
+    "zh": "dìbǎn",
+    "ko": "badak",
+    "hi": "farsh",
+    "ar": "ard",
+    "ru": "pol"
+   }
+  },
+  {
+   "en": "wall",
+   "also": [],
+   "t": {
+    "es": "pared",
+    "fr": "mur",
+    "de": "Wand",
+    "it": "muro",
+    "pt": "parede",
+    "ja": "壁",
+    "zh": "墙",
+    "ko": "벽",
+    "hi": "दीवार",
+    "ar": "جدار",
+    "ru": "стена",
+    "nl": "muur"
+   },
+   "say": {
+    "ja": "kabe",
+    "zh": "qiáng",
+    "ko": "byeok",
+    "hi": "deevaar",
+    "ar": "jidaar",
+    "ru": "stena"
+   }
+  },
+  {
+   "en": "roof",
+   "also": [],
+   "t": {
+    "es": "techo",
+    "fr": "toit",
+    "de": "Dach",
+    "it": "tetto",
+    "pt": "telhado",
+    "ja": "屋根",
+    "zh": "屋顶",
+    "ko": "지붕",
+    "hi": "छत",
+    "ar": "سقف",
+    "ru": "крыша",
+    "nl": "dak"
+   },
+   "say": {
+    "ja": "yane",
+    "zh": "wūdǐng",
+    "ko": "jibung",
+    "hi": "chhat",
+    "ar": "saqf",
+    "ru": "krysha"
+   }
+  },
+  {
+   "en": "apartment",
+   "also": [
+    "flat"
+   ],
+   "t": {
+    "es": "departamento",
+    "fr": "appartement",
+    "de": "Wohnung",
+    "it": "appartamento",
+    "pt": "apartamento",
+    "ja": "アパート",
+    "zh": "公寓",
+    "ko": "아파트",
+    "hi": "फ़्लैट",
+    "ar": "شقة",
+    "ru": "квартира",
+    "nl": "appartement"
+   },
+   "say": {
+    "ja": "apaato",
+    "zh": "gōngyù",
+    "ko": "apateu",
+    "hi": "flait",
+    "ar": "shaqqa",
+    "ru": "kvartira"
+   }
+  },
+  {
+   "en": "address",
+   "also": [],
+   "t": {
+    "es": "dirección",
+    "fr": "adresse",
+    "de": "Adresse",
+    "it": "indirizzo",
+    "pt": "endereço",
+    "ja": "住所",
+    "zh": "地址",
+    "ko": "주소",
+    "hi": "पता",
+    "ar": "عنوان",
+    "ru": "адрес",
+    "nl": "adres"
+   },
+   "say": {
+    "ja": "juusho",
+    "zh": "dìzhǐ",
+    "ko": "juso",
+    "hi": "pata",
+    "ar": "'unwaan",
+    "ru": "adres"
+   }
+  },
+  {
+   "en": "box",
+   "also": [],
+   "t": {
+    "es": "caja",
+    "fr": "boîte",
+    "de": "Kiste",
+    "it": "scatola",
+    "pt": "caixa",
+    "ja": "箱",
+    "zh": "盒子",
+    "ko": "상자",
+    "hi": "डिब्बा",
+    "ar": "صندوق",
+    "ru": "коробка",
+    "nl": "doos"
+   },
+   "say": {
+    "ja": "hako",
+    "zh": "hézi",
+    "ko": "sangja",
+    "hi": "dibba",
+    "ar": "sundooq",
+    "ru": "korobka"
+   }
+  },
+  {
+   "en": "bottle",
+   "also": [],
+   "t": {
+    "es": "botella",
+    "fr": "bouteille",
+    "de": "Flasche",
+    "it": "bottiglia",
+    "pt": "garrafa",
+    "ja": "ボトル",
+    "zh": "瓶子",
+    "ko": "병",
+    "hi": "बोतल",
+    "ar": "زجاجة",
+    "ru": "бутылка",
+    "nl": "fles"
+   },
+   "say": {
+    "ja": "botoru",
+    "zh": "píngzi",
+    "ko": "byeong",
+    "hi": "botal",
+    "ar": "zujaaja",
+    "ru": "butylka"
+   }
+  },
+  {
+   "en": "picture",
+   "also": [
+    "photo"
+   ],
+   "t": {
+    "es": "foto",
+    "fr": "photo",
+    "de": "Foto",
+    "it": "foto",
+    "pt": "foto",
+    "ja": "写真",
+    "zh": "照片",
+    "ko": "사진",
+    "hi": "फ़ोटो",
+    "ar": "صورة",
+    "ru": "фото",
+    "nl": "foto"
+   },
+   "say": {
+    "ja": "shashin",
+    "zh": "zhàopiàn",
+    "ko": "sajin",
+    "hi": "foto",
+    "ar": "soora",
+    "ru": "foto"
+   }
+  },
+  {
+   "en": "can i take a picture",
+   "also": [
+    "can i take a photo"
+   ],
+   "t": {
+    "es": "¿Puedo tomar una foto?",
+    "fr": "Je peux prendre une photo ?",
+    "de": "Darf ich ein Foto machen?",
+    "it": "Posso fare una foto?",
+    "pt": "Posso tirar uma foto?",
+    "ja": "写真を撮ってもいいですか？",
+    "zh": "我可以拍照吗？",
+    "ko": "사진 찍어도 돼요?",
+    "hi": "क्या मैं फ़ोटो ले सकता / सकती हूँ?",
+    "ar": "هل يمكنني التقاط صورة؟",
+    "ru": "Можно сфотографировать?",
+    "nl": "Mag ik een foto maken?"
+   },
+   "say": {
+    "ja": "shashin o totte mo ii desu ka?",
+    "zh": "wǒ kěyǐ pāizhào ma?",
+    "ko": "sajin jjigeodo dwaeyo?",
+    "hi": "kya main foto le sakta / sakti hoon?",
+    "ar": "hal yumkinuni iltiqaat soora?",
+    "ru": "mozhno sfotografirovat?"
+   }
+  },
+  {
+   "en": "can you take a picture of us",
+   "also": [
+    "take our picture"
+   ],
+   "t": {
+    "es": "¿Nos puede tomar una foto?",
+    "fr": "Vous pouvez nous prendre en photo ?",
+    "de": "Können Sie ein Foto von uns machen?",
+    "it": "Ci può fare una foto?",
+    "pt": "Pode tirar uma foto nossa?",
+    "ja": "写真を撮ってもらえますか？",
+    "zh": "能帮我们拍张照吗？",
+    "ko": "사진 좀 찍어 주실래요?",
+    "hi": "क्या आप हमारी फ़ोटो ले सकते हैं?",
+    "ar": "هل يمكنك أن تلتقط لنا صورة؟",
+    "ru": "Сфотографируйте нас, пожалуйста",
+    "nl": "Kunt u een foto van ons maken?"
+   },
+   "say": {
+    "ja": "shashin o totte moraemasu ka?",
+    "zh": "néng bāng wǒmen pāi zhāng zhào ma?",
+    "ko": "sajin jom jjigeo jusillaeyo?",
+    "hi": "kya aap hamaari foto le sakte hain?",
+    "ar": "hal yumkinuka an taltaqit lana soora?",
+    "ru": "sfotografiruyte nas, pozhaluysta"
+   }
+  },
+  {
+   "en": "i'm home",
+   "also": [],
+   "t": {
+    "es": "Ya llegué",
+    "fr": "Je suis rentré(e)",
+    "de": "Ich bin zu Hause",
+    "it": "Sono a casa",
+    "pt": "Cheguei",
+    "ja": "ただいま",
+    "zh": "我回来了",
+    "ko": "다녀왔습니다",
+    "hi": "मैं घर आ गया / गई",
+    "ar": "وصلت إلى البيت",
+    "ru": "Я дома",
+    "nl": "Ik ben thuis"
+   },
+   "say": {
+    "ja": "tadaima",
+    "zh": "wǒ huílai le",
+    "ko": "danyeowatseumnida",
+    "hi": "main ghar aa gaya / gayi",
+    "ar": "wasaltu ila al-bayt",
+    "ru": "ya doma"
+   }
+  },
+  {
+   "en": "welcome home",
+   "also": [],
+   "t": {
+    "es": "Bienvenido/a a casa",
+    "fr": "Bon retour à la maison",
+    "de": "Willkommen zu Hause",
+    "it": "Bentornato/a a casa",
+    "pt": "Bem-vindo/a de volta",
+    "ja": "おかえりなさい",
+    "zh": "欢迎回家",
+    "ko": "어서 와요",
+    "hi": "घर में स्वागत है",
+    "ar": "أهلا بعودتك",
+    "ru": "С возвращением домой",
+    "nl": "Welkom thuis"
+   },
+   "say": {
+    "ja": "okaerinasai",
+    "zh": "huānyíng huí jiā",
+    "ko": "eoseo wayo",
+    "hi": "ghar mein svaagat hai",
+    "ar": "ahlan bi-'awdatik",
+    "ru": "s vozvrashcheniyem domoy"
+   }
+  },
+  {
+   "en": "i'm going to bed",
+   "also": [
+    "going to bed"
+   ],
+   "t": {
+    "es": "Me voy a dormir",
+    "fr": "Je vais me coucher",
+    "de": "Ich gehe ins Bett",
+    "it": "Vado a letto",
+    "pt": "Vou dormir",
+    "ja": "もう寝ます",
+    "zh": "我去睡觉了",
+    "ko": "자러 갈게요",
+    "hi": "मैं सोने जा रहा / रही हूँ",
+    "ar": "سأذهب إلى النوم",
+    "ru": "Я иду спать",
+    "nl": "Ik ga naar bed"
+   },
+   "say": {
+    "ja": "mou nemasu",
+    "zh": "wǒ qù shuìjiào le",
+    "ko": "jareo galgeyo",
+    "hi": "main sone ja raha / rahi hoon",
+    "ar": "sa-adh-hab ila an-nawm",
+    "ru": "ya idu spat"
+   }
+  },
+  {
+   "en": "wake up",
+   "also": [
+    "get up"
+   ],
+   "t": {
+    "es": "Despiértate",
+    "fr": "Réveille-toi",
+    "de": "Wach auf",
+    "it": "Svegliati",
+    "pt": "Acorda",
+    "ja": "起きて",
+    "zh": "起床",
+    "ko": "일어나",
+    "hi": "उठो",
+    "ar": "استيقظ",
+    "ru": "Просыпайся",
+    "nl": "Wakker worden"
+   },
+   "say": {
+    "ja": "okite",
+    "zh": "qǐchuáng",
+    "ko": "ireona",
+    "hi": "utho",
+    "ar": "istayqidh",
+    "ru": "prosypaysya"
+   }
+  },
+  {
+   "en": "it's time for dinner",
+   "also": [
+    "dinner is ready",
+    "dinner time"
+   ],
+   "t": {
+    "es": "La cena está lista",
+    "fr": "Le dîner est prêt",
+    "de": "Das Abendessen ist fertig",
+    "it": "La cena è pronta",
+    "pt": "O jantar está pronto",
+    "ja": "晩ご飯ですよ",
+    "zh": "吃晚饭了",
+    "ko": "저녁 먹어요",
+    "hi": "खाना तैयार है",
+    "ar": "العشاء جاهز",
+    "ru": "Ужин готов",
+    "nl": "Het eten is klaar"
+   },
+   "say": {
+    "ja": "bangohan desu yo",
+    "zh": "chī wǎnfàn le",
+    "ko": "jeonyeok meogeoyo",
+    "hi": "khaana taiyaar hai",
+    "ar": "al-'ashaa' jaahiz",
+    "ru": "uzhin gotov"
+   }
+  },
+  {
+   "en": "turn on the light",
+   "also": [
+    "switch on the light"
+   ],
+   "t": {
+    "es": "Encienda la luz, por favor",
+    "fr": "Allumez la lumière, s'il vous plaît",
+    "de": "Machen Sie bitte das Licht an",
+    "it": "Accenda la luce, per favore",
+    "pt": "Acenda a luz, por favor",
+    "ja": "電気をつけてください",
+    "zh": "请开灯",
+    "ko": "불 좀 켜 주세요",
+    "hi": "लाइट जला दीजिए",
+    "ar": "أشعل الضوء من فضلك",
+    "ru": "Включите свет, пожалуйста",
+    "nl": "Doe het licht aan, alstublieft"
+   },
+   "say": {
+    "ja": "denki o tsukete kudasai",
+    "zh": "qǐng kāi dēng",
+    "ko": "bul jom kyeo juseyo",
+    "hi": "laait jala deejiye",
+    "ar": "ash'il ad-daw' min fadlak",
+    "ru": "vklyuchite svet, pozhaluysta"
+   }
+  },
+  {
+   "en": "turn off the light",
+   "also": [
+    "switch off the light"
+   ],
+   "t": {
+    "es": "Apague la luz, por favor",
+    "fr": "Éteignez la lumière, s'il vous plaît",
+    "de": "Machen Sie bitte das Licht aus",
+    "it": "Spenga la luce, per favore",
+    "pt": "Apague a luz, por favor",
+    "ja": "電気を消してください",
+    "zh": "请关灯",
+    "ko": "불 좀 꺼 주세요",
+    "hi": "लाइट बंद कर दीजिए",
+    "ar": "أطفئ الضوء من فضلك",
+    "ru": "Выключите свет, пожалуйста",
+    "nl": "Doe het licht uit, alstublieft"
+   },
+   "say": {
+    "ja": "denki o keshite kudasai",
+    "zh": "qǐng guān dēng",
+    "ko": "bul jom kkeo juseyo",
+    "hi": "laait band kar deejiye",
+    "ar": "atfi' ad-daw' min fadlak",
+    "ru": "vyklyuchite svet, pozhaluysta"
+   }
+  },
+  {
+   "en": "open the door",
+   "also": [
+    "open the door please"
+   ],
+   "t": {
+    "es": "Abra la puerta",
+    "fr": "Ouvrez la porte",
+    "de": "Öffnen Sie die Tür",
+    "it": "Apra la porta",
+    "pt": "Abra a porta",
+    "ja": "ドアを開けてください",
+    "zh": "请开门",
+    "ko": "문 좀 열어 주세요",
+    "hi": "दरवाज़ा खोलिए",
+    "ar": "افتح الباب",
+    "ru": "Откройте дверь",
+    "nl": "Doe de deur open"
+   },
+   "say": {
+    "ja": "doa o akete kudasai",
+    "zh": "qǐng kāi mén",
+    "ko": "mun jom yeoreo juseyo",
+    "hi": "darvaaza kholiye",
+    "ar": "iftah al-baab",
+    "ru": "otkroyte dver"
+   }
+  },
+  {
+   "en": "close the door",
+   "also": [
+    "shut the door"
+   ],
+   "t": {
+    "es": "Cierre la puerta",
+    "fr": "Fermez la porte",
+    "de": "Schließen Sie die Tür",
+    "it": "Chiuda la porta",
+    "pt": "Feche a porta",
+    "ja": "ドアを閉めてください",
+    "zh": "请关门",
+    "ko": "문 좀 닫아 주세요",
+    "hi": "दरवाज़ा बंद कीजिए",
+    "ar": "أغلق الباب",
+    "ru": "Закройте дверь",
+    "nl": "Doe de deur dicht"
+   },
+   "say": {
+    "ja": "doa o shimete kudasai",
+    "zh": "qǐng guān mén",
+    "ko": "mun jom dada juseyo",
+    "hi": "darvaaza band keejiye",
+    "ar": "aghliq al-baab",
+    "ru": "zakroyte dver"
+   }
+  }
+ ]
+}

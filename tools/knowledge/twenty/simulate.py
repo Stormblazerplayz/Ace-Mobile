@@ -5,7 +5,7 @@ Run from the repo root:
     python3 tools/knowledge/twenty/simulate.py          # win rate and the things it missed
     python3 tools/knowledge/twenty/simulate.py -v       # also how each missed game went
 
-It merges Ace/Resources/twenty_questions.json with tools/knowledge/twenty/new.json (new questions and
+It merges tools/knowledge/base/twenty_questions.json with tools/knowledge/twenty/new.json (new questions and
 things, added after the built-in ones) and existing_answers.json (the built-in things' answers to the new
 questions), then copies the Swift code in Ace/Brain/Games.swift (TwentyQuestions.weights, nextQuestion,
 nextMove) and the way AceTests/GamesTests.swift answers:
@@ -24,7 +24,12 @@ MAX_QUESTIONS = 20
 
 
 def load():
-    core = json.load(open(os.path.join(ROOT, "Ace", "Resources", "twenty_questions.json"), encoding="utf-8"))
+    # The built-in data before the knowledge pack is merged in (build_knowledge.py writes the merged copy to
+    # Ace/Resources). Falls back to Ace/Resources when there is no base copy.
+    base = os.path.join(HERE, "..", "base", "twenty_questions.json")
+    if not os.path.exists(base):
+        base = os.path.join(ROOT, "Ace", "Resources", "twenty_questions.json")
+    core = json.load(open(base, encoding="utf-8"))
     new = json.load(open(os.path.join(HERE, "new.json"), encoding="utf-8"))
     extra_path = os.path.join(HERE, "existing_answers.json")
     extra = json.load(open(extra_path, encoding="utf-8")) if os.path.exists(extra_path) else {}

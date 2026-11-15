@@ -1,0 +1,10 @@
+# tag: tech.maker.parts
+what is heat shrink tubing | how do i use heat shrink => Heat shrink is plastic tubing you slide over a soldered joint and warm with a heat gun or lighter held at a distance, so it shrinks and insulates the wires.
+what is a jst connector | small white battery plug => JST is a family of small plastic plug connectors used for batteries, sensors and drone parts. Several sizes look alike, so check the pitch before buying.
+what is a boost converter | step up voltage module => A boost converter raises voltage, like turning a 3.7 V battery into 5 V. A buck converter does the opposite and lowers it.
+what is a logic analyzer | see i2c signals => A logic analyzer records digital signals on several pins at once and shows them as waveforms, which helps debug I2C, SPI and serial problems.
+what are gerber files | files to order a pcb => Gerber files describe each copper, solder mask and silkscreen layer of a PCB. You export them from KiCad and upload them to a board maker.
+what is the ch340 driver | arduino clone usb driver => Many cheap Arduino clones use a CH340 USB chip. If the board doesn't show up as a port, installing the CH340 driver usually fixes it.
+what is a tp4056 module | charge a lithium cell with usb => The TP4056 is a tiny board that charges one 3.7 V lithium cell from USB. Pick a version with battery protection.
+what is a third hand tool | helping hands soldering => Helping hands are clips on stands that hold wires and boards while you solder, so your hands are free for the iron and solder.
+what is solder wick | remove solder => Solder wick is copper braid that soaks up melted solder when you press it against a joint with the iron. A solder sucker pump works too.

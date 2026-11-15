@@ -1,0 +1,9 @@
+# tag: tech.display.extra
+what is msaa vs fxaa | types of anti aliasing => MSAA smooths edges well but costs a lot of FPS. FXAA and SMAA are cheap filters that can blur a little. TAA is smooth but can look soft in motion, and DLSS or FSR replace it in many games.
+what is black crush | dark details disappear on monitor => Black crush is when dark shades turn into pure black, hiding details in shadows. Check gamma and black level settings on the monitor.
+what is mprt vs gtg | 1ms mprt meaning => GtG measures how fast pixels change color. MPRT measures how blurry motion looks, and 1 ms MPRT usually needs a strobing backlight that dims the screen.
+what are psu transient spikes | pc shuts off under load gpu => Modern GPUs can draw short bursts of power far above their rated wattage. Weak power supplies may shut the PC off, so pick a good PSU with some headroom.
+what is amd adrenalin | amd software app => AMD Software: Adrenalin Edition is the app for Radeon drivers. It has game settings, performance tracking, recording and features like Anti-Lag and Radeon Super Resolution.
+is a 360hz monitor worth it | do i need more than 240hz => Only if your PC can push that many FPS in your games. Most players notice a big jump from 60 to 144 Hz, and smaller jumps after that.
+does a second monitor lower fps | gaming with two monitors fps => Usually only a tiny bit. Video playing on the other screen or mismatched refresh rates can cause stutter, so close heavy stuff and update drivers.
+how bright should a monitor be for hdr | nits for good hdr => Good HDR needs bright highlights, around 600 to 1,000 nits or more, and deep blacks like OLED or mini LED. HDR400 monitors usually look only a little different from SDR.

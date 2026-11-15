@@ -1,0 +1,42 @@
+# Fortnite basics, hand-written.
+
+# tag: games.fortnite
+what is fortnite | what kind of game is fortnite | how does fortnite work => Fortnite is a free online game by Epic Games. Its most famous mode is Battle Royale, where up to 100 players drop onto an island and fight to be the last one standing.
+who made fortnite | what company makes fortnite | fortnite developer => Fortnite is made by Epic Games, the company that also makes the Unreal Engine.
+when did fortnite come out | how old is fortnite | when was fortnite battle royale released => Fortnite came out in July 2017 with Save the World, and Battle Royale was added in September 2017.
+how many players are in a fortnite match | fortnite lobby size | how many people per fortnite game => A normal Battle Royale match has up to 100 players.
+what is a victory royale | how do you win fortnite | what happens when you win fortnite => A Victory Royale is what you get for being the last player or team alive in Battle Royale.
+what is the storm in fortnite | how does the storm work | why does the circle shrink => The storm is the closing circle that hurts you if you're outside it. It shrinks over the match to push everyone together.
+what is the battle bus | how do you drop in fortnite | battle bus fortnite => The Battle Bus is the flying bus that carries everyone over the island at the start. Jump out when you want and glide down to land.
+what are v bucks | how do you get v bucks | what can you buy with v bucks => V-Bucks are Fortnite's money. Buy them with real money, earn some from the Battle Pass, and spend them on skins, emotes and passes. Ask a parent before buying.
+what is the fortnite battle pass | how does the battle pass work | is the battle pass worth it => The Battle Pass is a paid pass for each season. You level it up by playing to unlock skins and rewards, and it can give back enough V-Bucks to buy the next one.
+what is the fortnite item shop | when does the item shop reset | fortnite shop => The Item Shop sells skins, emotes, pickaxes and gliders for V-Bucks. It changes every day.
+what is fortnite crew | how does fortnite crew work | fortnite subscription => Fortnite Crew is a monthly subscription that gives a skin pack, V-Bucks every month and that season's Battle Pass.
+what is zero build in fortnite | how does zero build work | fortnite no building mode => Zero Build is Battle Royale without building, so fights are all about aim, cover and movement.
+how do you build in fortnite | building materials fortnite | wood brick metal fortnite => Gather wood, brick and metal by hitting things with your pickaxe, then build walls, floors, ramps and roofs. Wood builds fastest, and metal is the strongest once finished.
+what are the weapon rarities in fortnite | fortnite rarity colors | what color is legendary in fortnite => From weakest to strongest: common is gray, uncommon is green, rare is blue, epic is purple and legendary is gold. Mythic items are special and also gold.
+how much shield can you have in fortnite | fortnite health and shield | max hp in fortnite => You have 100 health and up to 100 shield.
+how do shield potions work in fortnite | small shield vs big shield | how much shield does a mini give => A small shield potion gives 25 shield but only up to 50. A big shield potion gives 50 shield, up to 100.
+what is lego fortnite | how does lego fortnite work | fortnite lego mode => LEGO Fortnite is a survival crafting mode from December 2023 where you build villages, gather resources and explore with LEGO versions of skins.
+what is fortnite festival | fortnite music game | how does fortnite festival work => Fortnite Festival is a music game mode where you play songs like a band, similar to Rock Band.
+what is rocket racing | fortnite racing mode | fortnite rocket racing => Rocket Racing is a Fortnite racing mode made with the creators of Rocket League.
+what is save the world fortnite | is save the world free | fortnite pve mode => Save the World is Fortnite's paid player versus environment mode where you build forts and fight husks with friends.
+what is fortnite creative | what is uefn | how do you make a fortnite map => Creative lets you build your own islands and games. UEFN, Unreal Editor for Fortnite, is a more powerful tool for making Fortnite islands on PC.
+what is a fortnite chapter | fortnite chapters and seasons | how often do fortnite seasons change => Fortnite is split into chapters, each with several seasons. A new season usually brings a new Battle Pass and map changes, and a new chapter brings a whole new map.
+what is fortnite og | fortnite og mode | what is the og map => Fortnite OG brings back the original Chapter 1 map and older weapons.
+what platforms is fortnite on | can you play fortnite on ipad | where can you play fortnite => Fortnite is on PC, PlayStation, Xbox, Nintendo Switch and Android. As of 2025 it's back on iPhone and iPad in some countries, like the US.
+does fortnite have crossplay | can pc and console play fortnite together | fortnite cross platform => Yes. Fortnite has crossplay between PC, consoles and phones, and your account and skins carry over.
+what age rating is fortnite | is fortnite ok for kids | fortnite esrb rating => Fortnite is rated T for Teen by the ESRB. The cartoon violence has no blood, and parents can set controls for chat and spending.
+what are fortnite parental controls | how to limit fortnite spending | fortnite settings for parents => Epic's parental controls can limit voice and text chat, require a PIN to spend money, filter mature language and set play time reports.
+who won the fortnite world cup | fortnite world cup 2019 | how much did bugha win => Bugha, Kyle Giersdorf, won the 2019 Fortnite World Cup solo final at 16 and took home 3 million dollars.
+what is an emote in fortnite | fortnite dances | how do you use emotes => Emotes are dances and moves your character can do. Pick them in the locker and use them from the emote wheel in a match.
+what is a fortnite skin | do skins make you better in fortnite | fortnite outfits => Skins, or outfits, change how your character looks. They're only cosmetic and don't make you stronger.
+what is a pickaxe in fortnite | harvesting tool fortnite | what do you use the pickaxe for => The pickaxe, or harvesting tool, breaks objects to gather materials. Every skin has one, and you can swap it in the locker.
+what is a sweat in fortnite | what does sweaty mean | fortnite sweats => A sweat is a player who tries really hard and builds super fast. People call very competitive lobbies sweaty.
+what is box fighting | fortnite box fight | how to box fight => Box fighting is close-range fighting where players build boxes around themselves and edit walls to peek and shoot.
+what does editing mean in fortnite | how to edit builds | fortnite edits => Editing lets you change a build piece, like making a window or door in a wall, so you can shoot through it or escape.
+what is a 90 in fortnite | how to do 90s | fortnite 90s => A 90 is a building trick where you quickly build walls, ramps and floors while turning 90 degrees to climb high fast.
+what is high ground in fortnite | why is high ground important | fortnite high ground => High ground means being above your enemy. It's easier to shoot down and harder for them to hit you.
+fortnite tips for beginners | how to win more in fortnite => Land somewhere quieter, loot well, stay inside the storm circle, use cover, practice building or Zero Build aim in Creative, and watch how you lost.
+what is arena mode in fortnite | fortnite ranked | how does ranked work in fortnite => Ranked mode puts you against players at your skill level and gives you a rank from Bronze up to Unreal based on your results.
+what is unreal rank in fortnite | highest rank fortnite | fortnite ranks list => The ranks go Bronze, Silver, Gold, Platinum, Diamond, Elite, Champion and Unreal. Unreal is the highest.

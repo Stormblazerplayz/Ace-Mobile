@@ -1,0 +1,23 @@
+# tag: tech.streaming.obs
+what is studio mode in obs | obs preview and program => Studio Mode shows a preview on the left and what viewers see on the right. You set up the next scene in private, then click Transition to switch.
+how do i hear my audio sources in obs | obs audio monitoring => Open Advanced Audio Properties, find the source and set Audio Monitoring to Monitor and Output. Use headphones so it doesn't echo.
+how do i change where obs saves recordings | obs recording folder => Go to Settings > Output and change the Recording Path. Pick a drive with plenty of space.
+what are profiles and scene collections in obs | obs profiles => Profiles store settings like bitrate and resolution, and scene collections store your scenes and sources. You can keep separate ones for streaming and recording.
+what is the obs virtual camera | use obs as webcam => Click Start Virtual Camera and OBS shows up as a webcam in apps like Discord or Zoom, so you can use your scenes in video calls.
+how do i color correct a source in obs | obs color filter => Right-click the source, choose Filters, and add a Color Correction filter under Effect Filters to change brightness, contrast or saturation.
+how do i crop a source in obs | alt drag crop obs => Hold Alt and drag a source's edge to crop it on Windows, or add a Crop/Pad filter for exact numbers.
+how do i make a source fill the screen in obs | fit to screen obs => Select the source and press Ctrl+F to fit it to the screen, or right-click it and use Transform options.
+what is the obs auto configuration wizard | obs auto setup => Find it in the Tools menu. It tests your PC and internet and suggests settings for streaming or recording.
+what is canvas vs output resolution in obs | base vs scaled resolution => Canvas, or base, resolution is the size of your scene. Output, or scaled, resolution is what gets streamed or recorded, and can be smaller to save performance.
+what does encoding overloaded mean in obs | obs encoder overloaded => Your PC can't encode fast enough. Switch to a hardware encoder like NVENC, lower the output resolution or frame rate, or pick a faster preset.
+window capture vs game capture vs display capture | which capture in obs => Game Capture is best for full-screen games, Window Capture grabs one app window, and Display Capture records your whole screen.
+how do i fix audio out of sync in obs | obs sync offset => In Advanced Audio Properties, add a Sync Offset in milliseconds to the source that's early, like your mic, until it lines up.
+how do i see obs stats | obs performance stats => Open the Stats dock from the Docks menu to see dropped frames, CPU use and encoding lag while you stream or record.
+what is the twitch vod track | keep music out of vods => The Twitch VOD Track setting sends a separate audio track to your saved VODs, so you can leave copyrighted music out of them.
+how do i add text in obs | obs text source => Add a Text source from the plus button. On Windows it's called Text (GDI+), and you can pick the font, color and outline.
+how do i put one scene inside another in obs | nested scenes obs => Add a Scene as a source in another scene. Changing the nested scene updates it everywhere, which is great for webcam frames or overlays.
+how do i lock a source in obs | stop moving sources by accident => Click the padlock icon next to the source in the Sources list. Locked sources can't be moved or resized by accident.
+how do i put a source in front in obs | layer order obs => Sources at the top of the list appear in front. Drag them up or down to change the order.
+how do i pause a recording in obs | obs pause button => Click the pause button next to Stop Recording. It may only appear for some recording formats and encoders.
+can obs split recordings into parts | obs automatic file splitting => Yes. In Settings > Output under Recording, turn on automatic file splitting by time or size.
+what is obs websocket | control obs from other apps => OBS WebSocket is built into OBS and lets apps like Stream Deck or phone remotes control your scenes and recording.

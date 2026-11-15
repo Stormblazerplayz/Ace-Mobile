@@ -1,0 +1,860 @@
+{
+ "entries": [
+  {
+   "en": "nice to see you",
+   "also": [
+    "good to see you"
+   ],
+   "t": {
+    "es": "Me alegra verle",
+    "fr": "Ça me fait plaisir de vous voir",
+    "de": "Schön, Sie zu sehen",
+    "it": "Che piacere vederla",
+    "pt": "Que bom ver você",
+    "ja": "会えてうれしいです",
+    "zh": "很高兴见到你",
+    "ko": "만나서 반가워요",
+    "hi": "आपसे मिलकर ख़ुशी हुई",
+    "ar": "سعيد برؤيتك",
+    "ru": "Рад / рада вас видеть",
+    "nl": "Leuk u te zien"
+   },
+   "say": {
+    "ja": "aete ureshii desu",
+    "zh": "hěn gāoxìng jiàn dào nǐ",
+    "ko": "mannaseo bangawoyo",
+    "hi": "aapse milkar khushi hui",
+    "ar": "sa'eed bi-ru'yatik",
+    "ru": "rad / rada vas videt"
+   }
+  },
+  {
+   "en": "see you",
+   "also": [
+    "see you around"
+   ],
+   "t": {
+    "es": "Nos vemos",
+    "fr": "À plus",
+    "de": "Bis dann",
+    "it": "Ci vediamo",
+    "pt": "Até mais",
+    "ja": "またね",
+    "zh": "回头见",
+    "ko": "또 봐요",
+    "hi": "फिर मिलेंगे",
+    "ar": "أراك لاحقا",
+    "ru": "Увидимся",
+    "nl": "Tot ziens"
+   },
+   "say": {
+    "ja": "mata ne",
+    "zh": "huítóu jiàn",
+    "ko": "tto bwayo",
+    "hi": "phir milenge",
+    "ar": "araak laahiqan",
+    "ru": "uvidimsya"
+   }
+  },
+  {
+   "en": "good luck on your test",
+   "also": [
+    "good luck with your exam"
+   ],
+   "t": {
+    "es": "Suerte en tu examen",
+    "fr": "Bonne chance pour ton examen",
+    "de": "Viel Glück bei der Prüfung",
+    "it": "In bocca al lupo per l'esame",
+    "pt": "Boa sorte na prova",
+    "ja": "テスト頑張ってね",
+    "zh": "考试顺利",
+    "ko": "시험 잘 봐요",
+    "hi": "परीक्षा के लिए शुभकामनाएँ",
+    "ar": "بالتوفيق في الامتحان",
+    "ru": "Удачи на экзамене",
+    "nl": "Succes met je toets"
+   },
+   "say": {
+    "ja": "tesuto ganbatte ne",
+    "zh": "kǎoshì shùnlì",
+    "ko": "siheom jal bwayo",
+    "hi": "pareeksha ke liye shubhkaamnaayen",
+    "ar": "bit-tawfeeq fi al-imtihaan",
+    "ru": "udachi na ekzamene"
+   }
+  },
+  {
+   "en": "do your best",
+   "also": [
+    "you can do it",
+    "go for it"
+   ],
+   "t": {
+    "es": "Tú puedes",
+    "fr": "Tu peux le faire",
+    "de": "Du schaffst das",
+    "it": "Ce la puoi fare",
+    "pt": "Você consegue",
+    "ja": "頑張って",
+    "zh": "加油",
+    "ko": "화이팅",
+    "hi": "तुम कर सकते हो",
+    "ar": "تستطيع فعلها",
+    "ru": "У тебя получится",
+    "nl": "Je kunt het"
+   },
+   "say": {
+    "ja": "ganbatte",
+    "zh": "jiāyóu",
+    "ko": "hwaiting",
+    "hi": "tum kar sakte ho",
+    "ar": "tastatee' fi'lahaa",
+    "ru": "u tebya poluchitsya"
+   }
+  },
+  {
+   "en": "i'm sorry to hear that",
+   "also": [
+    "sorry to hear that"
+   ],
+   "t": {
+    "es": "Lo siento mucho",
+    "fr": "Je suis désolé(e) d'apprendre ça",
+    "de": "Das tut mir leid",
+    "it": "Mi dispiace",
+    "pt": "Sinto muito",
+    "ja": "それは残念です",
+    "zh": "听到这个我很难过",
+    "ko": "그렇다니 안타깝네요",
+    "hi": "यह सुनकर दुख हुआ",
+    "ar": "يؤسفني سماع ذلك",
+    "ru": "Мне очень жаль",
+    "nl": "Wat vervelend voor je"
+   },
+   "say": {
+    "ja": "sore wa zannen desu",
+    "zh": "tīng dào zhège wǒ hěn nánguò",
+    "ko": "geureotani antakkamneyo",
+    "hi": "yah sunkar dukh hua",
+    "ar": "yu'sifuni samaa' dhaalik",
+    "ru": "mne ochen zhal"
+   }
+  },
+  {
+   "en": "i hope so",
+   "also": [],
+   "t": {
+    "es": "Eso espero",
+    "fr": "J'espère",
+    "de": "Hoffentlich",
+    "it": "Spero di sì",
+    "pt": "Espero que sim",
+    "ja": "そうだといいですね",
+    "zh": "希望如此",
+    "ko": "그러면 좋겠어요",
+    "hi": "मुझे उम्मीद है",
+    "ar": "أتمنى ذلك",
+    "ru": "Надеюсь",
+    "nl": "Ik hoop het"
+   },
+   "say": {
+    "ja": "sou da to ii desu ne",
+    "zh": "xīwàng rúcǐ",
+    "ko": "geureomyeon jokesseoyo",
+    "hi": "mujhe ummeed hai",
+    "ar": "atamanna dhaalik",
+    "ru": "nadeyus"
+   }
+  },
+  {
+   "en": "i'm not sure",
+   "also": [
+    "not sure"
+   ],
+   "t": {
+    "es": "No estoy seguro/a",
+    "fr": "Je ne suis pas sûr(e)",
+    "de": "Ich bin mir nicht sicher",
+    "it": "Non sono sicuro/a",
+    "pt": "Não tenho certeza",
+    "ja": "よく分かりません",
+    "zh": "我不确定",
+    "ko": "잘 모르겠어요",
+    "hi": "मुझे पक्का नहीं पता",
+    "ar": "لست متأكدا / متأكدة",
+    "ru": "Я не уверен / уверена",
+    "nl": "Ik weet het niet zeker"
+   },
+   "say": {
+    "ja": "yoku wakarimasen",
+    "zh": "wǒ bú quèdìng",
+    "ko": "jal moreugesseoyo",
+    "hi": "mujhe pakka nahin pata",
+    "ar": "lastu muta'akkidan / muta'akkida",
+    "ru": "ya ne uveren / uverena"
+   }
+  },
+  {
+   "en": "i forgot",
+   "also": [
+    "i've forgotten"
+   ],
+   "t": {
+    "es": "Se me olvidó",
+    "fr": "J'ai oublié",
+    "de": "Ich habe es vergessen",
+    "it": "Ho dimenticato",
+    "pt": "Esqueci",
+    "ja": "忘れました",
+    "zh": "我忘了",
+    "ko": "잊어버렸어요",
+    "hi": "मैं भूल गया / गई",
+    "ar": "نسيت",
+    "ru": "Я забыл / забыла",
+    "nl": "Ik ben het vergeten"
+   },
+   "say": {
+    "ja": "wasuremashita",
+    "zh": "wǒ wàng le",
+    "ko": "ijeobeoryeosseoyo",
+    "hi": "main bhool gaya / gayi",
+    "ar": "naseetu",
+    "ru": "ya zabyl / zabyla"
+   }
+  },
+  {
+   "en": "i remember",
+   "also": [
+    "i remember now"
+   ],
+   "t": {
+    "es": "Me acuerdo",
+    "fr": "Je m'en souviens",
+    "de": "Ich erinnere mich",
+    "it": "Mi ricordo",
+    "pt": "Eu lembro",
+    "ja": "覚えています",
+    "zh": "我记得",
+    "ko": "기억나요",
+    "hi": "मुझे याद है",
+    "ar": "أتذكر",
+    "ru": "Я помню",
+    "nl": "Ik weet het nog"
+   },
+   "say": {
+    "ja": "oboete imasu",
+    "zh": "wǒ jìde",
+    "ko": "gieongnayo",
+    "hi": "mujhe yaad hai",
+    "ar": "atadhakkar",
+    "ru": "ya pomnyu"
+   }
+  },
+  {
+   "en": "i need ...",
+   "also": [
+    "i need a"
+   ],
+   "t": {
+    "es": "Necesito ...",
+    "fr": "J'ai besoin de ...",
+    "de": "Ich brauche ...",
+    "it": "Ho bisogno di ...",
+    "pt": "Preciso de ...",
+    "ja": "...が必要です",
+    "zh": "我需要...",
+    "ko": "...가 필요해요",
+    "hi": "मुझे ... चाहिए",
+    "ar": "أحتاج إلى ...",
+    "ru": "Мне нужен / нужна / нужно ...",
+    "nl": "Ik heb ... nodig"
+   },
+   "say": {
+    "ja": "...ga hitsuyou desu",
+    "zh": "wǒ xūyào ...",
+    "ko": "...ga piryohaeyo",
+    "hi": "mujhe ... chaahiye",
+    "ar": "ahtaaj ila ...",
+    "ru": "mne nuzhen / nuzhna / nuzhno ..."
+   }
+  },
+  {
+   "en": "i want ...",
+   "also": [
+    "i want a"
+   ],
+   "t": {
+    "es": "Quiero ...",
+    "fr": "Je veux ...",
+    "de": "Ich will ...",
+    "it": "Voglio ...",
+    "pt": "Quero ...",
+    "ja": "...がほしいです",
+    "zh": "我想要...",
+    "ko": "...를 원해요",
+    "hi": "मुझे ... चाहिए",
+    "ar": "أريد ...",
+    "ru": "Я хочу ...",
+    "nl": "Ik wil ..."
+   },
+   "say": {
+    "ja": "...ga hoshii desu",
+    "zh": "wǒ xiǎng yào ...",
+    "ko": "...reul wonhaeyo",
+    "hi": "mujhe ... chaahiye",
+    "ar": "ureed ...",
+    "ru": "ya khochu ..."
+   }
+  },
+  {
+   "en": "i have ...",
+   "also": [
+    "i've got"
+   ],
+   "t": {
+    "es": "Tengo ...",
+    "fr": "J'ai ...",
+    "de": "Ich habe ...",
+    "it": "Ho ...",
+    "pt": "Tenho ...",
+    "ja": "...があります",
+    "zh": "我有...",
+    "ko": "...가 있어요",
+    "hi": "मेरे पास ... है",
+    "ar": "عندي ...",
+    "ru": "У меня есть ...",
+    "nl": "Ik heb ..."
+   },
+   "say": {
+    "ja": "...ga arimasu",
+    "zh": "wǒ yǒu ...",
+    "ko": "...ga isseoyo",
+    "hi": "mere paas ... hai",
+    "ar": "'indi ...",
+    "ru": "u menya yest ..."
+   }
+  },
+  {
+   "en": "i don't have ...",
+   "also": [
+    "i haven't got"
+   ],
+   "t": {
+    "es": "No tengo ...",
+    "fr": "Je n'ai pas de ...",
+    "de": "Ich habe kein / keine ...",
+    "it": "Non ho ...",
+    "pt": "Não tenho ...",
+    "ja": "...がありません",
+    "zh": "我没有...",
+    "ko": "...가 없어요",
+    "hi": "मेरे पास ... नहीं है",
+    "ar": "ليس عندي ...",
+    "ru": "У меня нет ...",
+    "nl": "Ik heb geen ..."
+   },
+   "say": {
+    "ja": "...ga arimasen",
+    "zh": "wǒ méiyǒu ...",
+    "ko": "...ga eopseoyo",
+    "hi": "mere paas ... nahin hai",
+    "ar": "laysa 'indi ...",
+    "ru": "u menya net ..."
+   }
+  },
+  {
+   "en": "i can't",
+   "also": [],
+   "t": {
+    "es": "No puedo",
+    "fr": "Je ne peux pas",
+    "de": "Ich kann nicht",
+    "it": "Non posso",
+    "pt": "Não posso",
+    "ja": "できません",
+    "zh": "我不能",
+    "ko": "못 해요",
+    "hi": "मैं नहीं कर सकता / सकती",
+    "ar": "لا أستطيع",
+    "ru": "Я не могу",
+    "nl": "Ik kan het niet"
+   },
+   "say": {
+    "ja": "dekimasen",
+    "zh": "wǒ bù néng",
+    "ko": "mot haeyo",
+    "hi": "main nahin kar sakta / sakti",
+    "ar": "la astatee'",
+    "ru": "ya ne mogu"
+   }
+  },
+  {
+   "en": "i can do it",
+   "also": [
+    "i can"
+   ],
+   "t": {
+    "es": "Yo puedo",
+    "fr": "Je peux le faire",
+    "de": "Ich kann das",
+    "it": "Posso farlo",
+    "pt": "Eu consigo",
+    "ja": "できます",
+    "zh": "我能做到",
+    "ko": "할 수 있어요",
+    "hi": "मैं कर सकता / सकती हूँ",
+    "ar": "أستطيع فعلها",
+    "ru": "Я могу",
+    "nl": "Ik kan het"
+   },
+   "say": {
+    "ja": "dekimasu",
+    "zh": "wǒ néng zuò dào",
+    "ko": "hal su isseoyo",
+    "hi": "main kar sakta / sakti hoon",
+    "ar": "astatee' fi'lahaa",
+    "ru": "ya mogu"
+   }
+  },
+  {
+   "en": "let me try",
+   "also": [
+    "can i try"
+   ],
+   "t": {
+    "es": "Déjame intentarlo",
+    "fr": "Laissez-moi essayer",
+    "de": "Lass mich mal versuchen",
+    "it": "Fammi provare",
+    "pt": "Deixa eu tentar",
+    "ja": "やらせてください",
+    "zh": "让我试试",
+    "ko": "제가 해 볼게요",
+    "hi": "मुझे कोशिश करने दीजिए",
+    "ar": "دعني أحاول",
+    "ru": "Дайте мне попробовать",
+    "nl": "Laat mij eens proberen"
+   },
+   "say": {
+    "ja": "yarasete kudasai",
+    "zh": "ràng wǒ shìshi",
+    "ko": "jega hae bolgeyo",
+    "hi": "mujhe koshish karne deejiye",
+    "ar": "da'ni uhaawil",
+    "ru": "dayte mne poprobovat"
+   }
+  },
+  {
+   "en": "wait for me",
+   "also": [],
+   "t": {
+    "es": "Espérame",
+    "fr": "Attendez-moi",
+    "de": "Warten Sie auf mich",
+    "it": "Mi aspetti",
+    "pt": "Me espere",
+    "ja": "待ってください",
+    "zh": "等等我",
+    "ko": "기다려 주세요",
+    "hi": "मेरा इंतज़ार कीजिए",
+    "ar": "انتظرني",
+    "ru": "Подождите меня",
+    "nl": "Wacht op mij"
+   },
+   "say": {
+    "ja": "matte kudasai",
+    "zh": "děngdeng wǒ",
+    "ko": "gidaryeo juseyo",
+    "hi": "mera intazaar keejiye",
+    "ar": "intadhirni",
+    "ru": "podozhdite menya"
+   }
+  },
+  {
+   "en": "follow me",
+   "also": [],
+   "t": {
+    "es": "Sígame",
+    "fr": "Suivez-moi",
+    "de": "Folgen Sie mir",
+    "it": "Mi segua",
+    "pt": "Siga-me",
+    "ja": "ついて来てください",
+    "zh": "跟我来",
+    "ko": "따라오세요",
+    "hi": "मेरे पीछे आइए",
+    "ar": "اتبعني",
+    "ru": "Идите за мной",
+    "nl": "Volg mij"
+   },
+   "say": {
+    "ja": "tsuite kite kudasai",
+    "zh": "gēn wǒ lái",
+    "ko": "ttaraoseyo",
+    "hi": "mere peechhe aaiye",
+    "ar": "ittabi'ni",
+    "ru": "idite za mnoy"
+   }
+  },
+  {
+   "en": "let me see",
+   "also": [
+    "show me"
+   ],
+   "t": {
+    "es": "A ver",
+    "fr": "Faites voir",
+    "de": "Lassen Sie mich sehen",
+    "it": "Fammi vedere",
+    "pt": "Deixa eu ver",
+    "ja": "見せてください",
+    "zh": "让我看看",
+    "ko": "보여 주세요",
+    "hi": "मुझे देखने दीजिए",
+    "ar": "دعني أرى",
+    "ru": "Дайте посмотреть",
+    "nl": "Laat eens zien"
+   },
+   "say": {
+    "ja": "misete kudasai",
+    "zh": "ràng wǒ kànkan",
+    "ko": "boyeo juseyo",
+    "hi": "mujhe dekhne deejiye",
+    "ar": "da'ni ara",
+    "ru": "dayte posmotret"
+   }
+  },
+  {
+   "en": "look at this",
+   "also": [],
+   "t": {
+    "es": "Mire",
+    "fr": "Regardez",
+    "de": "Schauen Sie mal",
+    "it": "Guardi",
+    "pt": "Olha",
+    "ja": "見て",
+    "zh": "你看",
+    "ko": "보세요",
+    "hi": "देखिए",
+    "ar": "انظر",
+    "ru": "Смотрите",
+    "nl": "Kijk"
+   },
+   "say": {
+    "ja": "mite",
+    "zh": "nǐ kàn",
+    "ko": "boseyo",
+    "hi": "dekhiye",
+    "ar": "undhur",
+    "ru": "smotrite"
+   }
+  },
+  {
+   "en": "it's ok, don't worry",
+   "also": [
+    "don't worry about it"
+   ],
+   "t": {
+    "es": "Tranquilo/a, no se preocupe",
+    "fr": "Ce n'est rien, ne vous inquiétez pas",
+    "de": "Schon gut, keine Sorge",
+    "it": "Tranquillo/a, non si preoccupi",
+    "pt": "Tudo bem, não se preocupe",
+    "ja": "大丈夫、心配しないで",
+    "zh": "没事，别担心",
+    "ko": "괜찮아요, 걱정 마세요",
+    "hi": "कोई बात नहीं, चिंता मत कीजिए",
+    "ar": "لا بأس، لا تقلق",
+    "ru": "Ничего, не волнуйтесь",
+    "nl": "Geeft niet, maak je geen zorgen"
+   },
+   "say": {
+    "ja": "daijoubu, shinpai shinaide",
+    "zh": "méi shì, bié dānxīn",
+    "ko": "gwaenchanayo, geokjeong maseyo",
+    "hi": "koi baat nahin, chinta mat keejiye",
+    "ar": "la ba's, la taqlaq",
+    "ru": "nichego, ne volnuytes"
+   }
+  },
+  {
+   "en": "it's my fault",
+   "also": [
+    "my fault",
+    "my bad"
+   ],
+   "t": {
+    "es": "Es mi culpa",
+    "fr": "C'est ma faute",
+    "de": "Das ist meine Schuld",
+    "it": "È colpa mia",
+    "pt": "A culpa é minha",
+    "ja": "私のせいです",
+    "zh": "是我的错",
+    "ko": "제 잘못이에요",
+    "hi": "मेरी ग़लती है",
+    "ar": "إنه خطئي",
+    "ru": "Это моя вина",
+    "nl": "Het is mijn schuld"
+   },
+   "say": {
+    "ja": "watashi no sei desu",
+    "zh": "shì wǒ de cuò",
+    "ko": "je jalmosieyo",
+    "hi": "meri galti hai",
+    "ar": "innahu khata'i",
+    "ru": "eto moya vina"
+   }
+  },
+  {
+   "en": "that's not fair",
+   "also": [
+    "not fair",
+    "it's not fair"
+   ],
+   "t": {
+    "es": "No es justo",
+    "fr": "Ce n'est pas juste",
+    "de": "Das ist nicht fair",
+    "it": "Non è giusto",
+    "pt": "Não é justo",
+    "ja": "ずるいです",
+    "zh": "不公平",
+    "ko": "불공평해요",
+    "hi": "यह ठीक नहीं है",
+    "ar": "هذا ليس عدلا",
+    "ru": "Это нечестно",
+    "nl": "Dat is niet eerlijk"
+   },
+   "say": {
+    "ja": "zurui desu",
+    "zh": "bù gōngpíng",
+    "ko": "bulgongpyeonghaeyo",
+    "hi": "yah theek nahin hai",
+    "ar": "haadha laysa 'adlan",
+    "ru": "eto nechestno"
+   }
+  },
+  {
+   "en": "be nice",
+   "also": [
+    "be kind"
+   ],
+   "t": {
+    "es": "Sé amable",
+    "fr": "Sois gentil(le)",
+    "de": "Sei nett",
+    "it": "Sii gentile",
+    "pt": "Seja legal",
+    "ja": "優しくしてください",
+    "zh": "友好一点",
+    "ko": "친절하게 대해 주세요",
+    "hi": "अच्छे से पेश आइए",
+    "ar": "كن لطيفا",
+    "ru": "Будь добрым / доброй",
+    "nl": "Doe aardig"
+   },
+   "say": {
+    "ja": "yasashiku shite kudasai",
+    "zh": "yǒuhǎo yìdiǎn",
+    "ko": "chinjeolhage daehae juseyo",
+    "hi": "achchhe se pesh aaiye",
+    "ar": "kun lateefan",
+    "ru": "bud dobrym / dobroy"
+   }
+  },
+  {
+   "en": "i'll be right back",
+   "also": [
+    "be right back",
+    "brb"
+   ],
+   "t": {
+    "es": "Ahora vuelvo",
+    "fr": "Je reviens tout de suite",
+    "de": "Ich bin gleich zurück",
+    "it": "Torno subito",
+    "pt": "Já volto",
+    "ja": "すぐ戻ります",
+    "zh": "我马上回来",
+    "ko": "금방 올게요",
+    "hi": "मैं अभी आता / आती हूँ",
+    "ar": "سأعود حالا",
+    "ru": "Я сейчас вернусь",
+    "nl": "Ik ben zo terug"
+   },
+   "say": {
+    "ja": "sugu modorimasu",
+    "zh": "wǒ mǎshàng huílai",
+    "ko": "geumbang olgeyo",
+    "hi": "main abhi aata / aati hoon",
+    "ar": "sa-a'ood haalan",
+    "ru": "ya seychas vernus"
+   }
+  },
+  {
+   "en": "i'm coming",
+   "also": [
+    "coming"
+   ],
+   "t": {
+    "es": "Ya voy",
+    "fr": "J'arrive",
+    "de": "Ich komme",
+    "it": "Arrivo",
+    "pt": "Já vou",
+    "ja": "今行きます",
+    "zh": "我来了",
+    "ko": "지금 가요",
+    "hi": "मैं आ रहा / रही हूँ",
+    "ar": "أنا قادم / قادمة",
+    "ru": "Иду",
+    "nl": "Ik kom eraan"
+   },
+   "say": {
+    "ja": "ima ikimasu",
+    "zh": "wǒ lái le",
+    "ko": "jigeum gayo",
+    "hi": "main aa raha / rahi hoon",
+    "ar": "ana qaadim / qaadima",
+    "ru": "idu"
+   }
+  },
+  {
+   "en": "let's go home",
+   "also": [
+    "time to go home"
+   ],
+   "t": {
+    "es": "Vamos a casa",
+    "fr": "On rentre à la maison",
+    "de": "Lass uns nach Hause gehen",
+    "it": "Andiamo a casa",
+    "pt": "Vamos para casa",
+    "ja": "家に帰りましょう",
+    "zh": "我们回家吧",
+    "ko": "집에 가요",
+    "hi": "चलो घर चलते हैं",
+    "ar": "هيا نعد إلى البيت",
+    "ru": "Пойдём домой",
+    "nl": "Laten we naar huis gaan"
+   },
+   "say": {
+    "ja": "ie ni kaerimashou",
+    "zh": "wǒmen huí jiā ba",
+    "ko": "jibe gayo",
+    "hi": "chalo ghar chalte hain",
+    "ar": "hayya na'ud ila al-bayt",
+    "ru": "poydyom domoy"
+   }
+  },
+  {
+   "en": "i want to go home",
+   "also": [],
+   "t": {
+    "es": "Quiero ir a casa",
+    "fr": "Je veux rentrer à la maison",
+    "de": "Ich will nach Hause",
+    "it": "Voglio andare a casa",
+    "pt": "Quero ir para casa",
+    "ja": "家に帰りたいです",
+    "zh": "我想回家",
+    "ko": "집에 가고 싶어요",
+    "hi": "मैं घर जाना चाहता / चाहती हूँ",
+    "ar": "أريد أن أعود إلى البيت",
+    "ru": "Я хочу домой",
+    "nl": "Ik wil naar huis"
+   },
+   "say": {
+    "ja": "ie ni kaeritai desu",
+    "zh": "wǒ xiǎng huí jiā",
+    "ko": "jibe gago sipeoyo",
+    "hi": "main ghar jaana chaahta / chaahti hoon",
+    "ar": "ureed an a'ood ila al-bayt",
+    "ru": "ya khochu domoy"
+   }
+  },
+  {
+   "en": "it's your birthday",
+   "also": [
+    "today is your birthday"
+   ],
+   "t": {
+    "es": "Es tu cumpleaños",
+    "fr": "C'est ton anniversaire",
+    "de": "Du hast Geburtstag",
+    "it": "È il tuo compleanno",
+    "pt": "É seu aniversário",
+    "ja": "誕生日ですね",
+    "zh": "今天是你的生日",
+    "ko": "생일이네요",
+    "hi": "आज तुम्हारा जन्मदिन है",
+    "ar": "إنه عيد ميلادك",
+    "ru": "У тебя день рождения",
+    "nl": "Je bent jarig"
+   },
+   "say": {
+    "ja": "tanjoubi desu ne",
+    "zh": "jīntiān shì nǐ de shēngrì",
+    "ko": "saengirineyo",
+    "hi": "aaj tumhaara janmdin hai",
+    "ar": "innahu 'eed meelaadik",
+    "ru": "u tebya den rozhdeniya"
+   }
+  },
+  {
+   "en": "happy easter",
+   "also": [],
+   "t": {
+    "es": "Felices Pascuas",
+    "fr": "Joyeuses Pâques",
+    "de": "Frohe Ostern",
+    "it": "Buona Pasqua",
+    "pt": "Feliz Páscoa",
+    "ja": "ハッピーイースター",
+    "zh": "复活节快乐",
+    "ko": "부활절 축하해요",
+    "hi": "ईस्टर की शुभकामनाएँ",
+    "ar": "عيد فصح سعيد",
+    "ru": "С Пасхой",
+    "nl": "Vrolijk Pasen"
+   },
+   "say": {
+    "ja": "happii iisutaa",
+    "zh": "Fùhuójié kuàilè",
+    "ko": "buhwaljeol chukahaeyo",
+    "hi": "eestar ki shubhkaamnaayen",
+    "ar": "'eed fish sa'eed",
+    "ru": "s paskhoy"
+   }
+  },
+  {
+   "en": "happy thanksgiving",
+   "also": [],
+   "t": {
+    "es": "Feliz Día de Acción de Gracias",
+    "fr": "Joyeux Thanksgiving",
+    "de": "Frohes Thanksgiving",
+    "it": "Buon Ringraziamento",
+    "pt": "Feliz Dia de Ação de Graças",
+    "ja": "ハッピーサンクスギビング",
+    "zh": "感恩节快乐",
+    "ko": "추수감사절 잘 보내세요",
+    "hi": "थैंक्सगिविंग की शुभकामनाएँ",
+    "ar": "عيد شكر سعيد",
+    "ru": "С Днём благодарения",
+    "nl": "Fijne Thanksgiving"
+   },
+   "say": {
+    "ja": "happii sankusugibingu",
+    "zh": "Gǎn'ēnjié kuàilè",
+    "ko": "chusugamsajeol jal bonaeseyo",
+    "hi": "thainksgiving ki shubhkaamnaayen",
+    "ar": "'eed shukr sa'eed",
+    "ru": "s dnyom blagodareniya"
+   }
+  }
+ ]
+}

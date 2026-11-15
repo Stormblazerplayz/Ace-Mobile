@@ -8,8 +8,8 @@ final class ScriptLibraryTests: XCTestCase {
         let all = ScriptLibrary.all
         XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Lua" }.count, 25)
         XCTAssertGreaterThanOrEqual(all.filter { $0.language == "C++" }.count, 20)
-        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Python" }.count, 20)
-        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Swift" }.count, 20)
+        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Python" }.count, 200)
+        XCTAssertGreaterThanOrEqual(all.filter { $0.language == "Swift" }.count, 100)
         XCTAssertEqual(Set(all.map(\.id)).count, all.count, "Two scripts share an id")
         for s in all {
             XCTAssertFalse(s.title.isEmpty, s.id)
@@ -58,6 +58,14 @@ final class ScriptLibraryTests: XCTestCase {
             ("script for a speed boost", "speed-pad"),
             ("rising lava script", "rising-lava"),
             ("neopixel rainbow arduino code", "arduino-neopixel-rainbow"),
+            ("python fizzbuzz", "python-fizzbuzz"),
+            ("write a magic eight ball in python", "python-magic-8-ball"),
+            ("python turtle smiley face", "python-turtle-smiley"),
+            ("python script to convert json to csv", "python-json-to-csv"),
+            ("python slot machine", "python-slot-machine"),
+            ("swiftui dice roller app", "swiftui-dice-roller"),
+            ("swift coin flip app", "swiftui-coin-flip"),
+            ("swift binary search", "swift-binary-search"),
         ]
         for (text, want) in cases {
             XCTAssertEqual(ScriptLibrary.find(text)?.script.id, want, text)

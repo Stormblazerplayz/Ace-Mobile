@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Writes computed school math facts to data/school/:
-    gen_math_numbers.txt  primes, factors, prime factorizations, Roman numerals
+    gen_math_numbers.txt  primes, factors, prime factorizations, Roman numerals (1 to 100, hundreds, and years 1900 to 2040)
     gen_math_shapes.txt   polygon names and angles, faces/edges/vertices of solids
 
 Source: no outside data. Every answer is computed here from the number itself (trial division for primes and
@@ -178,7 +178,8 @@ def numbers(w):
         w.add(qs, a)
 
     w.tag("school.math.roman")
-    nums = list(range(1, 101)) + list(range(200, 1001, 100)) + [1500, 2000]
+    nums = (list(range(1, 101)) + list(range(200, 1001, 100)) + [1500]
+            + list(range(1900, 1990, 10)) + list(range(1990, 2041)))  # years people often ask about
     for n in nums:
         r = roman(n)
         qs = [f"what is {n} in roman numerals", f"{n} in roman numerals", f"how do you write {n} in roman numerals",

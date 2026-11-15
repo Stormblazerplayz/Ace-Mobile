@@ -1,0 +1,17 @@
+# tag: tech.mobile.trouble
+why won't my iphone charge | iphone not charging => Try another cable and charger, gently clean lint from the port with a wooden toothpick, and force restart. If it shows Charging On Hold, the phone is too hot and will continue when cooler.
+why is my iphone stuck on the apple logo | iphone boot loop => Force restart it first. If that fails, connect it to a computer and use recovery mode to update iOS, which tries to keep your data.
+why does my iphone say sos only | no service iphone => It means there's no signal from your carrier, but emergency calls may work. Toggle airplane mode, restart, and check for a carrier update in Settings, General, About.
+why isn't my iphone ringing | iphone silent calls => Check the Ring/Silent switch or Action button, Focus modes, and that the ringtone volume is up in Settings, Sounds and Haptics.
+why does an app keep crashing on my iphone | iphone app crash => Update the app and iOS, restart the phone, and if it keeps happening, delete and reinstall the app.
+why can't i download apps on my iphone | app store not downloading => Check storage, Wi-Fi, and that you're signed in to the App Store. Screen Time restrictions or Ask to Buy can also block downloads.
+why is my ipad screen not responding to touch | ipad touch not working => Clean the screen, remove the case and screen protector to test, and force restart. If only some spots fail, it may need repair.
+my ipad says ipad unavailable | forgot ipad passcode => After too many wrong passcodes, the iPad locks. You'll need to erase it, either from the lock screen's Forgot Passcode option or with a computer, then restore from a backup.
+why is my icloud storage full | icloud full fix => Photos and device backups use the most. Delete old backups, turn off backup for big apps, delete large files, or ask a parent about more storage.
+why aren't my photos syncing to icloud | icloud photos not uploading => Make sure iCloud Photos is on, the device is on Wi-Fi and charging, Low Power Mode is off, and there's free iCloud storage.
+why doesn't my ipad show up on my pc | ipad not detected windows => Unlock the iPad, tap Trust when asked, try another cable, and install the Apple Devices app from the Microsoft Store.
+why is my iphone or ipad not connecting to wifi | ios wifi problems => Forget the network and rejoin, restart the router and device, and if needed reset network settings.
+why won't my bluetooth headphones connect to my ipad | earbuds won't pair ipad => Turn Bluetooth off and on, forget the device and pair it again, and make sure it's not still connected to another device.
+why is my ipad sound not working | no sound on ipad => Check the volume, the silent mode in Control Center, and Bluetooth, since sound may be going to headphones. Restart the iPad if it persists.
+why does my android say storage full but i deleted stuff | android storage still full => Empty the trash in Photos and Files apps, clear app caches, and check that downloaded media in apps like WhatsApp isn't taking space.
+why is my phone not receiving texts | not getting messages => Restart the phone, check airplane mode and blocked numbers, and make sure messages settings and storage are fine. A carrier issue may need a call to them.

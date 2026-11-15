@@ -1,0 +1,1337 @@
+{
+ "entries": [
+  {
+   "en": "zero",
+   "also": [
+    "0"
+   ],
+   "t": {
+    "es": "cero",
+    "fr": "zéro",
+    "de": "null",
+    "it": "zero",
+    "pt": "zero",
+    "ja": "ゼロ",
+    "zh": "零",
+    "ko": "영",
+    "hi": "शून्य",
+    "ar": "صفر",
+    "ru": "ноль",
+    "nl": "nul"
+   },
+   "say": {
+    "ja": "zero",
+    "zh": "líng",
+    "ko": "yeong",
+    "hi": "shoonya",
+    "ar": "sifr",
+    "ru": "nol"
+   }
+  },
+  {
+   "en": "sixty",
+   "also": [
+    "60"
+   ],
+   "t": {
+    "es": "sesenta",
+    "fr": "soixante",
+    "de": "sechzig",
+    "it": "sessanta",
+    "pt": "sessenta",
+    "ja": "六十",
+    "zh": "六十",
+    "ko": "예순 / 육십",
+    "hi": "साठ",
+    "ar": "ستون",
+    "ru": "шестьдесят",
+    "nl": "zestig"
+   },
+   "say": {
+    "ja": "rokujuu",
+    "zh": "liùshí",
+    "ko": "yesun / yuksip",
+    "hi": "saath",
+    "ar": "sittoon",
+    "ru": "shestdesyat"
+   }
+  },
+  {
+   "en": "seventy",
+   "also": [
+    "70"
+   ],
+   "t": {
+    "es": "setenta",
+    "fr": "soixante-dix",
+    "de": "siebzig",
+    "it": "settanta",
+    "pt": "setenta",
+    "ja": "七十",
+    "zh": "七十",
+    "ko": "일흔 / 칠십",
+    "hi": "सत्तर",
+    "ar": "سبعون",
+    "ru": "семьдесят",
+    "nl": "zeventig"
+   },
+   "say": {
+    "ja": "nanajuu",
+    "zh": "qīshí",
+    "ko": "ilheun / chilsip",
+    "hi": "sattar",
+    "ar": "sab'oon",
+    "ru": "semdesyat"
+   }
+  },
+  {
+   "en": "eighty",
+   "also": [
+    "80"
+   ],
+   "t": {
+    "es": "ochenta",
+    "fr": "quatre-vingts",
+    "de": "achtzig",
+    "it": "ottanta",
+    "pt": "oitenta",
+    "ja": "八十",
+    "zh": "八十",
+    "ko": "여든 / 팔십",
+    "hi": "अस्सी",
+    "ar": "ثمانون",
+    "ru": "восемьдесят",
+    "nl": "tachtig"
+   },
+   "say": {
+    "ja": "hachijuu",
+    "zh": "bāshí",
+    "ko": "yeodeun / palsip",
+    "hi": "assi",
+    "ar": "thamaanoon",
+    "ru": "vosemdesyat"
+   }
+  },
+  {
+   "en": "ninety",
+   "also": [
+    "90"
+   ],
+   "t": {
+    "es": "noventa",
+    "fr": "quatre-vingt-dix",
+    "de": "neunzig",
+    "it": "novanta",
+    "pt": "noventa",
+    "ja": "九十",
+    "zh": "九十",
+    "ko": "아흔 / 구십",
+    "hi": "नब्बे",
+    "ar": "تسعون",
+    "ru": "девяносто",
+    "nl": "negentig"
+   },
+   "say": {
+    "ja": "kyuujuu",
+    "zh": "jiǔshí",
+    "ko": "aheun / gusip",
+    "hi": "nabbe",
+    "ar": "tis'oon",
+    "ru": "devyanosto"
+   }
+  },
+  {
+   "en": "a million",
+   "also": [
+    "one million",
+    "million",
+    "1,000,000",
+    "1000000"
+   ],
+   "t": {
+    "es": "un millón",
+    "fr": "un million",
+    "de": "eine Million",
+    "it": "un milione",
+    "pt": "um milhão",
+    "ja": "百万",
+    "zh": "一百万",
+    "ko": "백만",
+    "hi": "दस लाख",
+    "ar": "مليون",
+    "ru": "миллион",
+    "nl": "een miljoen"
+   },
+   "say": {
+    "ja": "hyakuman",
+    "zh": "yìbǎiwàn",
+    "ko": "baengman",
+    "hi": "das laakh",
+    "ar": "milyoon",
+    "ru": "million"
+   }
+  },
+  {
+   "en": "first",
+   "also": [],
+   "t": {
+    "es": "primero",
+    "fr": "premier",
+    "de": "erste",
+    "it": "primo",
+    "pt": "primeiro",
+    "ja": "一番目",
+    "zh": "第一",
+    "ko": "첫 번째",
+    "hi": "पहला",
+    "ar": "الأول",
+    "ru": "первый",
+    "nl": "eerste"
+   },
+   "say": {
+    "ja": "ichibanme",
+    "zh": "dì yī",
+    "ko": "cheot beonjjae",
+    "hi": "pahla",
+    "ar": "al-awwal",
+    "ru": "pervy"
+   }
+  },
+  {
+   "en": "second",
+   "also": [
+    "2nd"
+   ],
+   "t": {
+    "es": "segundo",
+    "fr": "deuxième",
+    "de": "zweite",
+    "it": "secondo",
+    "pt": "segundo",
+    "ja": "二番目",
+    "zh": "第二",
+    "ko": "두 번째",
+    "hi": "दूसरा",
+    "ar": "الثاني",
+    "ru": "второй",
+    "nl": "tweede"
+   },
+   "say": {
+    "ja": "nibanme",
+    "zh": "dì èr",
+    "ko": "du beonjjae",
+    "hi": "doosra",
+    "ar": "ath-thaani",
+    "ru": "vtoroy"
+   }
+  },
+  {
+   "en": "third",
+   "also": [
+    "3rd"
+   ],
+   "t": {
+    "es": "tercero",
+    "fr": "troisième",
+    "de": "dritte",
+    "it": "terzo",
+    "pt": "terceiro",
+    "ja": "三番目",
+    "zh": "第三",
+    "ko": "세 번째",
+    "hi": "तीसरा",
+    "ar": "الثالث",
+    "ru": "третий",
+    "nl": "derde"
+   },
+   "say": {
+    "ja": "sanbanme",
+    "zh": "dì sān",
+    "ko": "se beonjjae",
+    "hi": "teesra",
+    "ar": "ath-thaalith",
+    "ru": "tretiy"
+   }
+  },
+  {
+   "en": "last",
+   "also": [],
+   "t": {
+    "es": "último",
+    "fr": "dernier",
+    "de": "letzte",
+    "it": "ultimo",
+    "pt": "último",
+    "ja": "最後",
+    "zh": "最后",
+    "ko": "마지막",
+    "hi": "आख़िरी",
+    "ar": "الأخير",
+    "ru": "последний",
+    "nl": "laatste"
+   },
+   "say": {
+    "ja": "saigo",
+    "zh": "zuìhòu",
+    "ko": "majimak",
+    "hi": "aakhiri",
+    "ar": "al-akheer",
+    "ru": "posledny"
+   }
+  },
+  {
+   "en": "half",
+   "also": [],
+   "t": {
+    "es": "mitad",
+    "fr": "moitié",
+    "de": "Hälfte",
+    "it": "metà",
+    "pt": "metade",
+    "ja": "半分",
+    "zh": "一半",
+    "ko": "반",
+    "hi": "आधा",
+    "ar": "نصف",
+    "ru": "половина",
+    "nl": "helft"
+   },
+   "say": {
+    "ja": "hanbun",
+    "zh": "yíbàn",
+    "ko": "ban",
+    "hi": "aadha",
+    "ar": "nisf",
+    "ru": "polovina"
+   }
+  },
+  {
+   "en": "spring",
+   "also": [],
+   "t": {
+    "es": "primavera",
+    "fr": "printemps",
+    "de": "Frühling",
+    "it": "primavera",
+    "pt": "primavera",
+    "ja": "春",
+    "zh": "春天",
+    "ko": "봄",
+    "hi": "वसंत",
+    "ar": "الربيع",
+    "ru": "весна",
+    "nl": "lente"
+   },
+   "say": {
+    "ja": "haru",
+    "zh": "chūntiān",
+    "ko": "bom",
+    "hi": "vasant",
+    "ar": "ar-rabee'",
+    "ru": "vesna"
+   }
+  },
+  {
+   "en": "summer",
+   "also": [],
+   "t": {
+    "es": "verano",
+    "fr": "été",
+    "de": "Sommer",
+    "it": "estate",
+    "pt": "verão",
+    "ja": "夏",
+    "zh": "夏天",
+    "ko": "여름",
+    "hi": "गर्मी",
+    "ar": "الصيف",
+    "ru": "лето",
+    "nl": "zomer"
+   },
+   "say": {
+    "ja": "natsu",
+    "zh": "xiàtiān",
+    "ko": "yeoreum",
+    "hi": "garmi",
+    "ar": "as-sayf",
+    "ru": "leto"
+   }
+  },
+  {
+   "en": "autumn",
+   "also": [
+    "fall"
+   ],
+   "t": {
+    "es": "otoño",
+    "fr": "automne",
+    "de": "Herbst",
+    "it": "autunno",
+    "pt": "outono",
+    "ja": "秋",
+    "zh": "秋天",
+    "ko": "가을",
+    "hi": "पतझड़",
+    "ar": "الخريف",
+    "ru": "осень",
+    "nl": "herfst"
+   },
+   "say": {
+    "ja": "aki",
+    "zh": "qiūtiān",
+    "ko": "gaeul",
+    "hi": "patjhad",
+    "ar": "al-khareef",
+    "ru": "osen"
+   }
+  },
+  {
+   "en": "winter",
+   "also": [],
+   "t": {
+    "es": "invierno",
+    "fr": "hiver",
+    "de": "Winter",
+    "it": "inverno",
+    "pt": "inverno",
+    "ja": "冬",
+    "zh": "冬天",
+    "ko": "겨울",
+    "hi": "सर्दी",
+    "ar": "الشتاء",
+    "ru": "зима",
+    "nl": "winter"
+   },
+   "say": {
+    "ja": "fuyu",
+    "zh": "dōngtiān",
+    "ko": "gyeoul",
+    "hi": "sardi",
+    "ar": "ash-shitaa'",
+    "ru": "zima"
+   }
+  },
+  {
+   "en": "season",
+   "also": [],
+   "t": {
+    "es": "estación",
+    "fr": "saison",
+    "de": "Jahreszeit",
+    "it": "stagione",
+    "pt": "estação",
+    "ja": "季節",
+    "zh": "季节",
+    "ko": "계절",
+    "hi": "मौसम",
+    "ar": "فصل",
+    "ru": "время года",
+    "nl": "seizoen"
+   },
+   "say": {
+    "ja": "kisetsu",
+    "zh": "jìjié",
+    "ko": "gyejeol",
+    "hi": "mausam",
+    "ar": "fasl",
+    "ru": "vremya goda"
+   }
+  },
+  {
+   "en": "hour",
+   "also": [],
+   "t": {
+    "es": "hora",
+    "fr": "heure",
+    "de": "Stunde",
+    "it": "ora",
+    "pt": "hora",
+    "ja": "時間",
+    "zh": "小时",
+    "ko": "시간",
+    "hi": "घंटा",
+    "ar": "ساعة",
+    "ru": "час",
+    "nl": "uur"
+   },
+   "say": {
+    "ja": "jikan",
+    "zh": "xiǎoshí",
+    "ko": "sigan",
+    "hi": "ghanta",
+    "ar": "saa'a",
+    "ru": "chas"
+   }
+  },
+  {
+   "en": "minute",
+   "also": [],
+   "t": {
+    "es": "minuto",
+    "fr": "minute",
+    "de": "Minute",
+    "it": "minuto",
+    "pt": "minuto",
+    "ja": "分",
+    "zh": "分钟",
+    "ko": "분",
+    "hi": "मिनट",
+    "ar": "دقيقة",
+    "ru": "минута",
+    "nl": "minuut"
+   },
+   "say": {
+    "ja": "fun",
+    "zh": "fēnzhōng",
+    "ko": "bun",
+    "hi": "minat",
+    "ar": "daqeeqa",
+    "ru": "minuta"
+   }
+  },
+  {
+   "en": "afternoon",
+   "also": [],
+   "t": {
+    "es": "tarde",
+    "fr": "après-midi",
+    "de": "Nachmittag",
+    "it": "pomeriggio",
+    "pt": "tarde",
+    "ja": "午後",
+    "zh": "下午",
+    "ko": "오후",
+    "hi": "दोपहर",
+    "ar": "بعد الظهر",
+    "ru": "после обеда",
+    "nl": "middag"
+   },
+   "say": {
+    "ja": "gogo",
+    "zh": "xiàwǔ",
+    "ko": "ohu",
+    "hi": "dopahar",
+    "ar": "ba'd adh-dhuhr",
+    "ru": "posle obeda"
+   }
+  },
+  {
+   "en": "evening",
+   "also": [],
+   "t": {
+    "es": "noche",
+    "fr": "soir",
+    "de": "Abend",
+    "it": "sera",
+    "pt": "noite",
+    "ja": "夕方",
+    "zh": "晚上",
+    "ko": "저녁",
+    "hi": "शाम",
+    "ar": "مساء",
+    "ru": "вечер",
+    "nl": "avond"
+   },
+   "say": {
+    "ja": "yuugata",
+    "zh": "wǎnshang",
+    "ko": "jeonyeok",
+    "hi": "shaam",
+    "ar": "masaa'",
+    "ru": "vecher"
+   }
+  },
+  {
+   "en": "noon",
+   "also": [
+    "midday"
+   ],
+   "t": {
+    "es": "mediodía",
+    "fr": "midi",
+    "de": "Mittag",
+    "it": "mezzogiorno",
+    "pt": "meio-dia",
+    "ja": "正午",
+    "zh": "中午",
+    "ko": "정오",
+    "hi": "दोपहर बारह बजे",
+    "ar": "الظهر",
+    "ru": "полдень",
+    "nl": "middaguur"
+   },
+   "say": {
+    "ja": "shougo",
+    "zh": "zhōngwǔ",
+    "ko": "jeongo",
+    "hi": "dopahar baarah baje",
+    "ar": "adh-dhuhr",
+    "ru": "polden"
+   }
+  },
+  {
+   "en": "midnight",
+   "also": [],
+   "t": {
+    "es": "medianoche",
+    "fr": "minuit",
+    "de": "Mitternacht",
+    "it": "mezzanotte",
+    "pt": "meia-noite",
+    "ja": "真夜中",
+    "zh": "半夜",
+    "ko": "자정",
+    "hi": "आधी रात",
+    "ar": "منتصف الليل",
+    "ru": "полночь",
+    "nl": "middernacht"
+   },
+   "say": {
+    "ja": "mayonaka",
+    "zh": "bànyè",
+    "ko": "jajeong",
+    "hi": "aadhi raat",
+    "ar": "muntasaf al-layl",
+    "ru": "polnoch"
+   }
+  },
+  {
+   "en": "weekend",
+   "also": [],
+   "t": {
+    "es": "fin de semana",
+    "fr": "week-end",
+    "de": "Wochenende",
+    "it": "fine settimana",
+    "pt": "fim de semana",
+    "ja": "週末",
+    "zh": "周末",
+    "ko": "주말",
+    "hi": "सप्ताहांत",
+    "ar": "عطلة نهاية الأسبوع",
+    "ru": "выходные",
+    "nl": "weekend"
+   },
+   "say": {
+    "ja": "shuumatsu",
+    "zh": "zhōumò",
+    "ko": "jumal",
+    "hi": "saptaahaant",
+    "ar": "'utlat nihaayat al-usboo'",
+    "ru": "vykhodnye"
+   }
+  },
+  {
+   "en": "always",
+   "also": [],
+   "t": {
+    "es": "siempre",
+    "fr": "toujours",
+    "de": "immer",
+    "it": "sempre",
+    "pt": "sempre",
+    "ja": "いつも",
+    "zh": "总是",
+    "ko": "항상",
+    "hi": "हमेशा",
+    "ar": "دائما",
+    "ru": "всегда",
+    "nl": "altijd"
+   },
+   "say": {
+    "ja": "itsumo",
+    "zh": "zǒngshì",
+    "ko": "hangsang",
+    "hi": "hamesha",
+    "ar": "daa'iman",
+    "ru": "vsegda"
+   }
+  },
+  {
+   "en": "never",
+   "also": [],
+   "t": {
+    "es": "nunca",
+    "fr": "jamais",
+    "de": "nie",
+    "it": "mai",
+    "pt": "nunca",
+    "ja": "決して",
+    "zh": "从不",
+    "ko": "절대",
+    "hi": "कभी नहीं",
+    "ar": "أبدا",
+    "ru": "никогда",
+    "nl": "nooit"
+   },
+   "say": {
+    "ja": "kesshite",
+    "zh": "cóngbù",
+    "ko": "jeoldae",
+    "hi": "kabhi nahin",
+    "ar": "abadan",
+    "ru": "nikogda"
+   }
+  },
+  {
+   "en": "sometimes",
+   "also": [],
+   "t": {
+    "es": "a veces",
+    "fr": "parfois",
+    "de": "manchmal",
+    "it": "a volte",
+    "pt": "às vezes",
+    "ja": "時々",
+    "zh": "有时候",
+    "ko": "가끔",
+    "hi": "कभी-कभी",
+    "ar": "أحيانا",
+    "ru": "иногда",
+    "nl": "soms"
+   },
+   "say": {
+    "ja": "tokidoki",
+    "zh": "yǒu shíhou",
+    "ko": "gakkeum",
+    "hi": "kabhi-kabhi",
+    "ar": "ahyaanan",
+    "ru": "inogda"
+   }
+  },
+  {
+   "en": "often",
+   "also": [],
+   "t": {
+    "es": "a menudo",
+    "fr": "souvent",
+    "de": "oft",
+    "it": "spesso",
+    "pt": "frequentemente",
+    "ja": "よく",
+    "zh": "经常",
+    "ko": "자주",
+    "hi": "अक्सर",
+    "ar": "غالبا",
+    "ru": "часто",
+    "nl": "vaak"
+   },
+   "say": {
+    "ja": "yoku",
+    "zh": "jīngcháng",
+    "ko": "jaju",
+    "hi": "aksar",
+    "ar": "ghaaliban",
+    "ru": "chasto"
+   }
+  },
+  {
+   "en": "early",
+   "also": [],
+   "t": {
+    "es": "temprano",
+    "fr": "tôt",
+    "de": "früh",
+    "it": "presto",
+    "pt": "cedo",
+    "ja": "早い",
+    "zh": "早",
+    "ko": "일찍",
+    "hi": "जल्दी",
+    "ar": "مبكرا",
+    "ru": "рано",
+    "nl": "vroeg"
+   },
+   "say": {
+    "ja": "hayai",
+    "zh": "zǎo",
+    "ko": "iljjik",
+    "hi": "jaldi",
+    "ar": "mubakkiran",
+    "ru": "rano"
+   }
+  },
+  {
+   "en": "late",
+   "also": [],
+   "t": {
+    "es": "tarde",
+    "fr": "tard",
+    "de": "spät",
+    "it": "tardi",
+    "pt": "tarde",
+    "ja": "遅い",
+    "zh": "晚",
+    "ko": "늦게",
+    "hi": "देर",
+    "ar": "متأخرا",
+    "ru": "поздно",
+    "nl": "laat"
+   },
+   "say": {
+    "ja": "osoi",
+    "zh": "wǎn",
+    "ko": "neutge",
+    "hi": "der",
+    "ar": "muta'akhkhiran",
+    "ru": "pozdno"
+   }
+  },
+  {
+   "en": "soon",
+   "also": [],
+   "t": {
+    "es": "pronto",
+    "fr": "bientôt",
+    "de": "bald",
+    "it": "presto",
+    "pt": "logo",
+    "ja": "もうすぐ",
+    "zh": "很快",
+    "ko": "곧",
+    "hi": "जल्द ही",
+    "ar": "قريبا",
+    "ru": "скоро",
+    "nl": "binnenkort"
+   },
+   "say": {
+    "ja": "mou sugu",
+    "zh": "hěn kuài",
+    "ko": "got",
+    "hi": "jald hi",
+    "ar": "qareeban",
+    "ru": "skoro"
+   }
+  },
+  {
+   "en": "later",
+   "also": [],
+   "t": {
+    "es": "más tarde",
+    "fr": "plus tard",
+    "de": "später",
+    "it": "più tardi",
+    "pt": "mais tarde",
+    "ja": "後で",
+    "zh": "待会儿",
+    "ko": "나중에",
+    "hi": "बाद में",
+    "ar": "لاحقا",
+    "ru": "позже",
+    "nl": "later"
+   },
+   "say": {
+    "ja": "ato de",
+    "zh": "dāi huìr",
+    "ko": "najunge",
+    "hi": "baad mein",
+    "ar": "laahiqan",
+    "ru": "pozzhe"
+   }
+  },
+  {
+   "en": "before",
+   "also": [],
+   "t": {
+    "es": "antes",
+    "fr": "avant",
+    "de": "vorher",
+    "it": "prima",
+    "pt": "antes",
+    "ja": "前に",
+    "zh": "以前",
+    "ko": "전에",
+    "hi": "पहले",
+    "ar": "قبل",
+    "ru": "до",
+    "nl": "voor"
+   },
+   "say": {
+    "ja": "mae ni",
+    "zh": "yǐqián",
+    "ko": "jeone",
+    "hi": "pahle",
+    "ar": "qabl",
+    "ru": "do"
+   }
+  },
+  {
+   "en": "after",
+   "also": [
+    "afterwards"
+   ],
+   "t": {
+    "es": "después",
+    "fr": "après",
+    "de": "danach",
+    "it": "dopo",
+    "pt": "depois",
+    "ja": "後に",
+    "zh": "之后",
+    "ko": "후에",
+    "hi": "बाद",
+    "ar": "بعد",
+    "ru": "после",
+    "nl": "na"
+   },
+   "say": {
+    "ja": "ato ni",
+    "zh": "zhīhòu",
+    "ko": "hue",
+    "hi": "baad",
+    "ar": "ba'd",
+    "ru": "posle"
+   }
+  },
+  {
+   "en": "the day after tomorrow",
+   "also": [],
+   "t": {
+    "es": "pasado mañana",
+    "fr": "après-demain",
+    "de": "übermorgen",
+    "it": "dopodomani",
+    "pt": "depois de amanhã",
+    "ja": "明後日",
+    "zh": "后天",
+    "ko": "모레",
+    "hi": "परसों",
+    "ar": "بعد غد",
+    "ru": "послезавтра",
+    "nl": "overmorgen"
+   },
+   "say": {
+    "ja": "asatte",
+    "zh": "hòutiān",
+    "ko": "more",
+    "hi": "parson",
+    "ar": "ba'd ghad",
+    "ru": "poslezavtra"
+   }
+  },
+  {
+   "en": "the day before yesterday",
+   "also": [],
+   "t": {
+    "es": "anteayer",
+    "fr": "avant-hier",
+    "de": "vorgestern",
+    "it": "l'altro ieri",
+    "pt": "anteontem",
+    "ja": "一昨日",
+    "zh": "前天",
+    "ko": "그저께",
+    "hi": "परसों",
+    "ar": "أول أمس",
+    "ru": "позавчера",
+    "nl": "eergisteren"
+   },
+   "say": {
+    "ja": "ototoi",
+    "zh": "qiántiān",
+    "ko": "geujeokke",
+    "hi": "parson",
+    "ar": "awwal ams",
+    "ru": "pozavchera"
+   }
+  },
+  {
+   "en": "tonight",
+   "also": [
+    "this evening"
+   ],
+   "t": {
+    "es": "esta noche",
+    "fr": "ce soir",
+    "de": "heute Abend",
+    "it": "stasera",
+    "pt": "hoje à noite",
+    "ja": "今夜",
+    "zh": "今晚",
+    "ko": "오늘 밤",
+    "hi": "आज रात",
+    "ar": "الليلة",
+    "ru": "сегодня вечером",
+    "nl": "vanavond"
+   },
+   "say": {
+    "ja": "kon'ya",
+    "zh": "jīnwǎn",
+    "ko": "oneul bam",
+    "hi": "aaj raat",
+    "ar": "al-layla",
+    "ru": "sevodnya vecherom"
+   }
+  },
+  {
+   "en": "this week",
+   "also": [],
+   "t": {
+    "es": "esta semana",
+    "fr": "cette semaine",
+    "de": "diese Woche",
+    "it": "questa settimana",
+    "pt": "esta semana",
+    "ja": "今週",
+    "zh": "这个星期",
+    "ko": "이번 주",
+    "hi": "इस हफ़्ते",
+    "ar": "هذا الأسبوع",
+    "ru": "на этой неделе",
+    "nl": "deze week"
+   },
+   "say": {
+    "ja": "konshuu",
+    "zh": "zhège xīngqī",
+    "ko": "ibeon ju",
+    "hi": "is hafte",
+    "ar": "haadha al-usboo'",
+    "ru": "na etoy nedele"
+   }
+  },
+  {
+   "en": "next week",
+   "also": [],
+   "t": {
+    "es": "la próxima semana",
+    "fr": "la semaine prochaine",
+    "de": "nächste Woche",
+    "it": "la settimana prossima",
+    "pt": "semana que vem",
+    "ja": "来週",
+    "zh": "下个星期",
+    "ko": "다음 주",
+    "hi": "अगले हफ़्ते",
+    "ar": "الأسبوع القادم",
+    "ru": "на следующей неделе",
+    "nl": "volgende week"
+   },
+   "say": {
+    "ja": "raishuu",
+    "zh": "xià ge xīngqī",
+    "ko": "daeum ju",
+    "hi": "agle hafte",
+    "ar": "al-usboo' al-qaadim",
+    "ru": "na sleduyushchey nedele"
+   }
+  },
+  {
+   "en": "last week",
+   "also": [],
+   "t": {
+    "es": "la semana pasada",
+    "fr": "la semaine dernière",
+    "de": "letzte Woche",
+    "it": "la settimana scorsa",
+    "pt": "semana passada",
+    "ja": "先週",
+    "zh": "上个星期",
+    "ko": "지난주",
+    "hi": "पिछले हफ़्ते",
+    "ar": "الأسبوع الماضي",
+    "ru": "на прошлой неделе",
+    "nl": "vorige week"
+   },
+   "say": {
+    "ja": "senshuu",
+    "zh": "shàng ge xīngqī",
+    "ko": "jinanju",
+    "hi": "pichhle hafte",
+    "ar": "al-usboo' al-maadi",
+    "ru": "na proshloy nedele"
+   }
+  },
+  {
+   "en": "next year",
+   "also": [],
+   "t": {
+    "es": "el año que viene",
+    "fr": "l'année prochaine",
+    "de": "nächstes Jahr",
+    "it": "l'anno prossimo",
+    "pt": "ano que vem",
+    "ja": "来年",
+    "zh": "明年",
+    "ko": "내년",
+    "hi": "अगले साल",
+    "ar": "العام القادم",
+    "ru": "в следующем году",
+    "nl": "volgend jaar"
+   },
+   "say": {
+    "ja": "rainen",
+    "zh": "míngnián",
+    "ko": "naenyeon",
+    "hi": "agle saal",
+    "ar": "al-'aam al-qaadim",
+    "ru": "v sleduyushchem godu"
+   }
+  },
+  {
+   "en": "last year",
+   "also": [],
+   "t": {
+    "es": "el año pasado",
+    "fr": "l'année dernière",
+    "de": "letztes Jahr",
+    "it": "l'anno scorso",
+    "pt": "ano passado",
+    "ja": "去年",
+    "zh": "去年",
+    "ko": "작년",
+    "hi": "पिछले साल",
+    "ar": "العام الماضي",
+    "ru": "в прошлом году",
+    "nl": "vorig jaar"
+   },
+   "say": {
+    "ja": "kyonen",
+    "zh": "qùnián",
+    "ko": "jangnyeon",
+    "hi": "pichhle saal",
+    "ar": "al-'aam al-maadi",
+    "ru": "v proshlom godu"
+   }
+  },
+  {
+   "en": "every day",
+   "also": [
+    "daily"
+   ],
+   "t": {
+    "es": "todos los días",
+    "fr": "tous les jours",
+    "de": "jeden Tag",
+    "it": "ogni giorno",
+    "pt": "todos os dias",
+    "ja": "毎日",
+    "zh": "每天",
+    "ko": "매일",
+    "hi": "हर दिन",
+    "ar": "كل يوم",
+    "ru": "каждый день",
+    "nl": "elke dag"
+   },
+   "say": {
+    "ja": "mainichi",
+    "zh": "měitiān",
+    "ko": "maeil",
+    "hi": "har din",
+    "ar": "kull yawm",
+    "ru": "kazhdy den"
+   }
+  },
+  {
+   "en": "it's ... o'clock",
+   "also": [],
+   "t": {
+    "es": "Son las ...",
+    "fr": "Il est ... heures",
+    "de": "Es ist ... Uhr",
+    "it": "Sono le ...",
+    "pt": "São ... horas",
+    "ja": "...時です",
+    "zh": "现在...点",
+    "ko": "...시예요",
+    "hi": "... बजे हैं",
+    "ar": "الساعة ...",
+    "ru": "Сейчас ... часов",
+    "nl": "Het is ... uur"
+   },
+   "say": {
+    "ja": "...ji desu",
+    "zh": "xiànzài ... diǎn",
+    "ko": "...siyeyo",
+    "hi": "... baje hain",
+    "ar": "as-saa'a ...",
+    "ru": "seychas ... chasov"
+   }
+  },
+  {
+   "en": "in the morning",
+   "also": [],
+   "t": {
+    "es": "por la mañana",
+    "fr": "le matin",
+    "de": "am Morgen",
+    "it": "di mattina",
+    "pt": "de manhã",
+    "ja": "朝に",
+    "zh": "在早上",
+    "ko": "아침에",
+    "hi": "सुबह को",
+    "ar": "في الصباح",
+    "ru": "утром",
+    "nl": "'s ochtends"
+   },
+   "say": {
+    "ja": "asa ni",
+    "zh": "zài zǎoshang",
+    "ko": "achime",
+    "hi": "subah ko",
+    "ar": "fi as-sabaah",
+    "ru": "utrom"
+   }
+  },
+  {
+   "en": "in the evening",
+   "also": [],
+   "t": {
+    "es": "por la noche",
+    "fr": "le soir",
+    "de": "am Abend",
+    "it": "di sera",
+    "pt": "à noite",
+    "ja": "夕方に",
+    "zh": "在晚上",
+    "ko": "저녁에",
+    "hi": "शाम को",
+    "ar": "في المساء",
+    "ru": "вечером",
+    "nl": "'s avonds"
+   },
+   "say": {
+    "ja": "yuugata ni",
+    "zh": "zài wǎnshang",
+    "ko": "jeonyeoge",
+    "hi": "shaam ko",
+    "ar": "fi al-masaa'",
+    "ru": "vecherom"
+   }
+  },
+  {
+   "en": "on the weekend",
+   "also": [
+    "at the weekend"
+   ],
+   "t": {
+    "es": "el fin de semana",
+    "fr": "le week-end",
+    "de": "am Wochenende",
+    "it": "nel fine settimana",
+    "pt": "no fim de semana",
+    "ja": "週末に",
+    "zh": "周末",
+    "ko": "주말에",
+    "hi": "सप्ताहांत पर",
+    "ar": "في عطلة نهاية الأسبوع",
+    "ru": "на выходных",
+    "nl": "in het weekend"
+   },
+   "say": {
+    "ja": "shuumatsu ni",
+    "zh": "zhōumò",
+    "ko": "jumare",
+    "hi": "saptaahaant par",
+    "ar": "fi 'utlat nihaayat al-usboo'",
+    "ru": "na vykhodnykh"
+   }
+  },
+  {
+   "en": "what day is tomorrow",
+   "also": [],
+   "t": {
+    "es": "¿Qué día es mañana?",
+    "fr": "Quel jour sommes-nous demain ?",
+    "de": "Welcher Tag ist morgen?",
+    "it": "Che giorno è domani?",
+    "pt": "Que dia é amanhã?",
+    "ja": "明日は何曜日ですか？",
+    "zh": "明天星期几？",
+    "ko": "내일 무슨 요일이에요?",
+    "hi": "कल कौन सा दिन है?",
+    "ar": "ما هو يوم غد؟",
+    "ru": "Какой завтра день?",
+    "nl": "Welke dag is het morgen?"
+   },
+   "say": {
+    "ja": "ashita wa nan'youbi desu ka?",
+    "zh": "míngtiān xīngqī jǐ?",
+    "ko": "naeil museun yoirieyo?",
+    "hi": "kal kaun sa din hai?",
+    "ar": "ma huwa yawm ghad?",
+    "ru": "kakoy zavtra den?"
+   }
+  },
+  {
+   "en": "i'm in a hurry",
+   "also": [],
+   "t": {
+    "es": "Tengo prisa",
+    "fr": "Je suis pressé(e)",
+    "de": "Ich habe es eilig",
+    "it": "Ho fretta",
+    "pt": "Estou com pressa",
+    "ja": "急いでいます",
+    "zh": "我赶时间",
+    "ko": "급해요",
+    "hi": "मुझे जल्दी है",
+    "ar": "أنا مستعجل / مستعجلة",
+    "ru": "Я спешу",
+    "nl": "Ik heb haast"
+   },
+   "say": {
+    "ja": "isoide imasu",
+    "zh": "wǒ gǎn shíjiān",
+    "ko": "geupaeyo",
+    "hi": "mujhe jaldi hai",
+    "ar": "ana musta'jil / musta'jila",
+    "ru": "ya speshu"
+   }
+  },
+  {
+   "en": "we're late",
+   "also": [
+    "we are late"
+   ],
+   "t": {
+    "es": "Llegamos tarde",
+    "fr": "Nous sommes en retard",
+    "de": "Wir sind spät dran",
+    "it": "Siamo in ritardo",
+    "pt": "Estamos atrasados",
+    "ja": "遅れています",
+    "zh": "我们迟到了",
+    "ko": "우리 늦었어요",
+    "hi": "हमें देर हो गई",
+    "ar": "تأخرنا",
+    "ru": "Мы опаздываем",
+    "nl": "We zijn te laat"
+   },
+   "say": {
+    "ja": "okurete imasu",
+    "zh": "wǒmen chídào le",
+    "ko": "uri neujeosseoyo",
+    "hi": "hamen der ho gayi",
+    "ar": "ta'akhkharna",
+    "ru": "my opazdyvayem"
+   }
+  },
+  {
+   "en": "on time",
+   "also": [],
+   "t": {
+    "es": "a tiempo",
+    "fr": "à l'heure",
+    "de": "pünktlich",
+    "it": "in orario",
+    "pt": "na hora",
+    "ja": "時間通り",
+    "zh": "准时",
+    "ko": "제시간에",
+    "hi": "समय पर",
+    "ar": "في الوقت المحدد",
+    "ru": "вовремя",
+    "nl": "op tijd"
+   },
+   "say": {
+    "ja": "jikan doori",
+    "zh": "zhǔnshí",
+    "ko": "jesigane",
+    "hi": "samay par",
+    "ar": "fi al-waqt al-muhaddad",
+    "ru": "vovremya"
+   }
+  }
+ ]
+}
