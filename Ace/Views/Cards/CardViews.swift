@@ -20,6 +20,7 @@ struct CardView: View {
         case .image(let i): ImageReportView(report: i)
         case .timer(let t): TimerCardView(timer: t)
         case .power(let p): PowerCardView(card: p)
+        case .greeting(let g): GreetingCardView(card: g)
         }
     }
 }
@@ -543,6 +544,85 @@ struct TimerCardView: View {
         let s = Int(seconds.rounded(.up))
         let h = s / 3600, m = (s % 3600) / 60, sec = s % 60
         return h > 0 ? String(format: "%d:%02d:%02d", h, m, sec) : String(format: "%d:%02d", m, sec)
+    }
+}
+
+struct GreetingCardView: View {
+    let card: GreetingCard
+    @EnvironmentObject var core: AceCore
+
+    private var icon: String {
+        let hour = Calendar.current.component(.hour, from: card.date)
+        return hour < 12 ? "sun.max.fill" : hour < 17 ? "sun.haze.fill" : "moon.stars.fill"
+    }
+
+    private let quick: [(String, String, String)] = [
+        ("Focus 25 min", "brain.head.profile", "focus for 25 minutes"),
+        ("Dinner idea", "fork.knife", "what should I make for dinner"),
+        ("Weather", "cloud.sun.fill", "what is the weather"),
+    ]
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 10) {
+                Image(systemName: icon)
+                    .font(.title2)
+                    .foregroundStyle(AceTheme.amber)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(card.hello)
+                        .font(.system(.title3, design: .rounded).weight(.semibold))
+                        .foregroundStyle(AceTheme.fg)
+                    Text(card.date.formatted(.dateTime.weekday(.wide).month(.wide).day()))
+                        .font(.subheadline)
+                        .foregroundStyle(AceTheme.muted)
+                }
+            }
+            if card.calendarAllowed {
+                if card.events.isEmpty {
+                    Label("Nothing else on your calendar today", systemImage: "calendar")
+                        .font(.subheadline)
+                        .foregroundStyle(AceTheme.muted)
+                } else {
+                    VStack(alignment: .leading, spacing: 6) {
+                        ForEach(card.events.prefix(3)) { e in
+                            HStack(spacing: 8) {
+                                Text(e.allDay ? "All day" : e.start.formatted(date: .omitted, time: .shortened))
+                                    .font(.caption.weight(.semibold).monospacedDigit())
+                                    .foregroundStyle(AceTheme.ace)
+                                    .frame(width: 64, alignment: .leading)
+                                Text(e.title)
+                                    .font(.subheadline)
+                                    .foregroundStyle(AceTheme.fg)
+                                    .lineLimit(1)
+                            }
+                        }
+                        if card.events.count > 3 {
+                            Text("and \(card.events.count - 3) more")
+                                .font(.caption)
+                                .foregroundStyle(AceTheme.muted)
+                        }
+                    }
+                }
+            }
+            HStack(spacing: 8) {
+                ForEach(quick, id: \.0) { item in
+                    Button {
+                        Haptics.shared.play(.tick)
+                        core.send(item.2)
+                    } label: {
+                        Label(item.0, systemImage: item.1)
+                            .font(.caption.weight(.semibold))
+                            .lineLimit(1)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 7)
+                            .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
+                            .foregroundStyle(AceTheme.ace)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+        .aceCard()
     }
 }
 

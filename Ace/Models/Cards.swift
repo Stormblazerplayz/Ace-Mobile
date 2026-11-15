@@ -14,6 +14,16 @@ enum AceCard: Codable, Equatable {
     case image(ImageReport)
     case timer(TimerCard)
     case power(PowerCard)
+    case greeting(GreetingCard)
+}
+
+/// The first hello of the day: the date, what's on today, and a few quick things to ask.
+struct GreetingCard: Codable, Equatable {
+    var hello: String
+    var date: Date
+    /// Today's events, soonest first (empty when the calendar is clear or not allowed).
+    var events: [EventItem]
+    var calendarAllowed: Bool
 }
 
 struct RecipeCard: Codable, Equatable {

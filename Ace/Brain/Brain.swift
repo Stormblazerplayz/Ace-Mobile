@@ -698,6 +698,7 @@ final class Brain {
         case .repeatLast: return "repeating myself"
         case .correction: return "a correction"
         case .teach: return "teaching me"
+        case .focus: return "a focus session"
         case .ipadOnlyLimit: return "an iPad limit"
         case .home: return "your home"
         }
@@ -769,6 +770,9 @@ final class Brain {
 
         case .alarm:
             return BrainReply(text: Say.line(.alarm))
+
+        case .focus(let what):
+            return await FocusSession.handle(what)
 
         case .reminder(let raw):
             return await reminder(raw, think: think)

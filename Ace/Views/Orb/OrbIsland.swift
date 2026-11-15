@@ -19,6 +19,8 @@ struct OrbIsland: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.scenePhase) private var scenePhase
     @StateObject private var motion = OrbMotion()
+    /// Running timers, so a focus session can fill a ring around the orb.
+    @ObservedObject private var timers = KitchenTimers.shared
     @State private var start = Date()
     @State private var pressStart: Date?
     @State private var holding = false
@@ -39,6 +41,7 @@ struct OrbIsland: View {
     }
 
     var body: some View {
+        let focusTimer = FocusSession.current
         // Redraws every screen frame (60 or 120 a second); slower while resting.
         TimelineView(.animation(minimumInterval: mood == .sleeping ? 1 / 20 : nil)) { context in
             // Seconds since the orb appeared, so the numbers stay small and smooth.
@@ -53,7 +56,7 @@ struct OrbIsland: View {
                     .shadow(color: mood.tint.opacity(expanded ? 0.45 : 0), radius: 18)
 
                 HStack(spacing: 12) {
-                    orb(breathe: breathe, t: t)
+                    orb(breathe: breathe, t: t, focus: focusTimer.map { FocusSession.progress(of: $0, at: context.date) })
                         .frame(width: height - 8, height: height - 8)
                     if expanded {
                         OrbEyes(look: look, open: eyeOpen, happy: mood == .happy || mood == .home, color: mood.tint)
@@ -114,7 +117,7 @@ struct OrbIsland: View {
                 }
         )
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Ace, \(mood.label)")
+        .accessibilityLabel(focusText.map { "Ace, \(mood.label), \($0)" } ?? "Ace, \(mood.label)")
         .accessibilityHint("Double tap to open Settings. Use the Talk action to speak to Ace.")
         .accessibilityAddTraits(.isButton)
         .accessibilityAction(.default) { onTap() }
@@ -123,9 +126,27 @@ struct OrbIsland: View {
         }
     }
 
+    /// "12 minutes of focus left" for VoiceOver.
+    private var focusText: String? {
+        guard let t = FocusSession.current else { return nil }
+        let minutes = max(1, Int((t.end.timeIntervalSinceNow / 60).rounded(.up)))
+        return "\(minutes) minute\(minutes == 1 ? "" : "s") of focus left"
+    }
+
     @ViewBuilder
-    private func orb(breathe: Double, t: TimeInterval) -> some View {
+    private func orb(breathe: Double, t: TimeInterval, focus: Double?) -> some View {
         ZStack {
+            if let focus {
+                // A focus session fills this ring as the time goes by.
+                Circle()
+                    .stroke(Color(hex: 0x3DF59A).opacity(0.18), lineWidth: 3)
+                    .scaleEffect(1.32)
+                Circle()
+                    .trim(from: 0, to: max(0.01, focus))
+                    .stroke(Color(hex: 0x3DF59A), style: StrokeStyle(lineWidth: 3, lineCap: .round))
+                    .rotationEffect(.degrees(-90))
+                    .scaleEffect(1.32)
+            }
             if mood == .listening {
                 ForEach(0..<3, id: \.self) { i in
                     let phase = (t * 0.9 + Double(i) / 3).truncatingRemainder(dividingBy: 1)

@@ -64,5 +64,27 @@
   "I picked {name} for you. Here's the recipe.",
   "Let's cook {name}! Here's how.",
   "Good choice coming up: {name}. Here's the recipe."
+ ],
+ "focusNone": [
+  "There's no focus session running. Say \"focus for 25 minutes\" to start one.",
+  "No focus timer is on right now. Want one? Say \"focus for 25 minutes\".",
+  "You don't have a focus session going. Try \"start a pomodoro\".",
+  "Nothing's running. Say \"focus for 20 minutes\" and I'll start one.",
+  "There's no focus timer right now. Say \"focus\" and I'll give you 25 minutes.",
+  "No focus session yet. Say \"focus for 30 minutes\" to start.",
+  "I don't see a focus timer running. Say \"start a focus session\" for one.",
+  "Your focus timer isn't on. Say \"focus for 25 minutes\" whenever you're ready.",
+  "No focus time on the clock. Say \"pomodoro\" to start 25 minutes.",
+  "There isn't a focus session going. I can start one if you say \"focus\".",
+  "Nothing to stop or check. Say \"focus for 25 minutes\" to begin.",
+  "No focus session is on. Just say \"focus\" and the timer goes on my orb.",
+  "You're not in a focus session. Say \"study for 30 minutes\" to start one.",
+  "There's no focus timer. Say \"focus for 15 minutes\" for a short one.",
+  "No session running right now. Say \"start a focus timer\" when you're ready.",
+  "I'm not timing any focus right now. Say \"focus\" to start 25 minutes.",
+  "No focus timer yet. Say \"homework session for 40 minutes\" and I'll time it.",
+  "Nothing's on the focus clock. Say \"focus for 25 minutes\" to start.",
+  "There's no focus session to check. Want to start one? Say \"focus\".",
+  "No focus session is running. Say \"pomodoro\" and I'll show it on my orb."
  ]
 }
