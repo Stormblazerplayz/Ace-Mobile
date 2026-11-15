@@ -185,7 +185,10 @@ enum ScriptLibrary {
         guard let m = find(t) else { return false }
         let words = tokens(t)
         let short = Set(significant(words)).count <= 2
-        return hints(words).language != nil || asks || m.phrase || short
+        let language = hints(words).language
+        // With no language named, one loose word ("code for a website") isn't enough to pick a Python or Swift program.
+        if language == nil, m.script.language != "Lua", !m.phrase, Set(significant(words)).count < 2 { return false }
+        return language != nil || asks || m.phrase || short
     }
 
     /// "what scripts do you have", "show me your roblox scripts", "list c++ code". Returns the language, or "" for all.

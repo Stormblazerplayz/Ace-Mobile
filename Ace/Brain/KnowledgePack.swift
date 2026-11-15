@@ -285,7 +285,9 @@ final class KnowledgePack: @unchecked Sendable {
     static let extraWordPenalty = 0.85
 
     /// Word matching, scored exactly like QABank's: the best wordings and their scores (0...1).
-    func lexical(qKeys: Set<String>, qAll: Set<String>, limit: Int = 25) -> [(wording: Int, lex: Double)] {
+    /// `important` adds words the hand-made bank counts as important: a word that's common in the pack
+    /// ("eat" in thousands of animal and cooking questions) still has to be there for a match to count.
+    func lexical(qKeys: Set<String>, qAll: Set<String>, important: Set<String> = [], limit: Int = 25) -> [(wording: Int, lex: Double)] {
         let lookup = qKeys.isEmpty ? qAll : qKeys
         let known = lookup.compactMap { tokenID[$0] }
         guard !known.isEmpty else { return [] }
@@ -303,7 +305,7 @@ final class KnowledgePack: @unchecked Sendable {
         // 2. Weighted overlap.
         let qKeyIDs = Set(qKeys.compactMap { tokenID[$0] })
         let questionWeight = qKeys.reduce(0.0) { $0 + weight($1) }
-        let bigKeys = qKeys.filter { weight($0) > 5.5 }.map { tokenID[$0] }
+        let bigKeys = qKeys.filter { weight($0) > 5.5 || important.contains($0) }.map { tokenID[$0] }
         let qAllIDs = Set(qAll.compactMap { tokenID[$0] })
 
         var scored: [(Int, Double)] = []

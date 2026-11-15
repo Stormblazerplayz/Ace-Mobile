@@ -189,7 +189,7 @@ final class QABank {
 
     /// The knowledge pack's best answers, scored the same way as the hand-made bank.
     private func searchPack(_ pack: KnowledgePack, _ norm: String, qKeys: Set<String>, qAll: Set<String>, limit: Int) -> [Match] {
-        let top = pack.lexical(qKeys: qKeys, qAll: qAll, limit: 20)
+        let top = pack.lexical(qKeys: qKeys, qAll: qAll, important: qKeys.filter { weight($0) > 5.5 }, limit: 20)
         guard !top.isEmpty else { return [] }
         let qVec = vector(for: norm)
         var bestPerEntry: [Int32: Match] = [:]

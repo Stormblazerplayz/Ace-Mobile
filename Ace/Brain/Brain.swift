@@ -84,6 +84,8 @@ final class Brain {
     static let rephraseSure = 0.72
     /// Below this it's a guess, and Ace says so.
     static let guessFloor = 0.58
+    /// How sure a knowledge-pack guess about "my ..." has to be.
+    static let packPersonalGuessFloor = 0.66
 
     // MARK: Think loop
 
@@ -518,7 +520,15 @@ final class Brain {
                 return .clarify(a, b)
             }
         }
-        if let best = matches.first, best.score >= Self.guessFloor { return .weak(best) }
+        if let best = matches.first, best.score >= Self.guessFloor {
+            // A loose guess from the big knowledge pack about something of yours ("how much does my backpack weigh")
+            // is usually about something else, so only take it when it fits well.
+            if best.entry.source == "pack", best.score < Self.packPersonalGuessFloor, Rx.matches(#"\bmy\b"#, norm) {
+                notes.append("Only a loose match about something of yours, so I won't guess")
+                return .none
+            }
+            return .weak(best)
+        }
         return .none
     }
 
@@ -707,14 +717,19 @@ final class Brain {
         var words = norm.split(separator: " ").map(String.init)
         for i in words.indices {
             let w = words[i]
-            guard w.count >= 4, w.allSatisfy({ $0.isLetter }), !Self.ruleWords.contains(w), bank.spellingFrequency(w) == 0,
+            // A word the knowledge pack uses only a few times ("capitol") can still be a typo of a common one ("capital").
+            let own = bank.spellingFrequency(w)
+            guard w.count >= 4, w.allSatisfy({ $0.isLetter }), !Self.ruleWords.contains(w), bank.wordFrequency(w) == 0, own <= 5,
                   !TextKit.stopwords.contains(w) else { continue }
             let maxDistance = w.count >= 8 ? 2 : 1
             var found: [String: (d: Int, f: Int)] = [:]
-            for candidate in bank.vocabulary(near: w) + Self.ruleWords.filter({ abs($0.count - w.count) <= maxDistance }) {
+            for candidate in bank.vocabulary(near: w) + Self.ruleWords.filter({ abs($0.count - w.count) <= maxDistance }) where candidate != w {
                 let d = TextKit.editDistance(w, candidate, limit: maxDistance)
                 guard d <= maxDistance else { continue }
-                found[candidate] = (d, max(1, bank.spellingFrequency(candidate)) + (Self.ruleWords.contains(candidate) ? 50 : 0))
+                let f = max(1, bank.spellingFrequency(candidate)) + (Self.ruleWords.contains(candidate) ? 50 : 0)
+                // A real word is only swapped for one that's used far more often.
+                if own > 0 && f < own * 100 { continue }
+                found[candidate] = (d, f)
             }
             guard let closest = found.values.map({ $0.d }).min() else { continue }
             let close = found.filter { $0.value.d == closest }.sorted { $0.value.f > $1.value.f }.prefix(6).map { $0.key }
