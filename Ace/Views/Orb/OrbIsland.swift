@@ -49,9 +49,15 @@ struct OrbIsland: View {
         }
     }
 
+    // The body is split into three parts so the compiler can check each one quickly.
     var body: some View {
-        // Redraws every screen frame (60 or 120 a second); slower while resting.
-        TimelineView(.animation(minimumInterval: mood == .sleeping ? 1 / 20 : nil)) { context in
+        touchable
+    }
+
+    /// Redraws every screen frame (60 or 120 a second); slower while resting.
+    private var animated: some View {
+        let interval: Double? = mood == .sleeping ? 1.0 / 20.0 : nil
+        return TimelineView(.animation(minimumInterval: interval)) { context in
             island(at: context.date)
         }
         // Stretches and shrinks with a springy bounce, like the real island.
@@ -59,9 +65,15 @@ struct OrbIsland: View {
         .onChange(of: mood) { oldMood, newMood in
             if newMood == .thinking && oldMood != .thinking { thinkingStart = Date() }
         }
-        // Tilt the iPad and the orb leans with it.
-        .rotation3DEffect(.degrees(Double(motion.tilt.height) * -10), axis: (x: 1, y: 0, z: 0))
-        .rotation3DEffect(.degrees(Double(motion.tilt.width) * 10), axis: (x: 0, y: 1, z: 0))
+    }
+
+    /// Tilt the iPad and the orb leans with it.
+    private var tilted: some View {
+        let tiltX = Double(motion.tilt.height) * -10
+        let tiltY = Double(motion.tilt.width) * 10
+        return animated
+        .rotation3DEffect(.degrees(tiltX), axis: (x: 1, y: 0, z: 0))
+        .rotation3DEffect(.degrees(tiltY), axis: (x: 0, y: 1, z: 0))
         .offset(x: motion.tilt.width * 3, y: motion.tilt.height * -2)
         .onAppear { if !reduceMotion { motion.start() } }
         .onDisappear { motion.stop() }
@@ -70,6 +82,17 @@ struct OrbIsland: View {
             guard !reduceMotion else { return }
             if phase == .active { motion.start() } else if phase == .background { motion.stop() }
         }
+    }
+
+    /// What VoiceOver says for the orb.
+    private var spokenLabel: String {
+        if let f = focusText { return "Ace, \(mood.label), \(f)" }
+        return "Ace, \(mood.label)"
+    }
+
+    /// A quick tap opens Settings. Press and hold to talk, let go to send.
+    private var touchable: some View {
+        tilted
         .contentShape(Capsule(style: .continuous))
         .scaleEffect(holding ? 1.12 : 1)
         .animation(.spring(response: 0.3, dampingFraction: 0.6), value: holding)
@@ -99,7 +122,7 @@ struct OrbIsland: View {
                 }
         )
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel(focusText.map { "Ace, \(mood.label), \($0)" } ?? "Ace, \(mood.label)")
+        .accessibilityLabel(spokenLabel)
         .accessibilityHint("Double tap to open Settings. Use the Talk action to speak to Ace.")
         .accessibilityAddTraits(.isButton)
         .accessibilityAction(.default) { onTap() }
