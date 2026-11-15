@@ -237,6 +237,53 @@ final class CalendarService: ObservableObject {
         return (try? store.save(r, commit: true)) != nil
     }
 
+    // MARK: Shopping list
+
+    /// The "Shopping" list in Reminders (made the first time it's needed).
+    private func shoppingList() -> EKCalendar? {
+        guard reminderAccess else { return nil }
+        let lists = store.calendars(for: .reminder).filter { $0.allowsContentModifications }
+        if let list = lists.first(where: { $0.title.lowercased() == ShoppingList.name.lowercased() })
+            ?? lists.first(where: { ["groceries", "grocery", "grocery list", "shopping list"].contains($0.title.lowercased()) }) {
+            return list
+        }
+        let cal = EKCalendar(for: .reminder, eventStore: store)
+        cal.title = ShoppingList.name
+        cal.cgColor = UIColor(red: 0.35, green: 0.8, blue: 0.45, alpha: 1).cgColor
+        for source in candidateSources(for: .reminder) {
+            cal.source = source
+            if (try? store.saveCalendar(cal, commit: true)) != nil { return cal }
+        }
+        return nil
+    }
+
+    /// What's still to buy on the Shopping list. Nil when Reminders can't be used.
+    func shoppingItems() async -> [String]? {
+        guard let list = shoppingList() else { return nil }
+        let predicate = store.predicateForIncompleteReminders(withDueDateStarting: nil, ending: nil, calendars: [list])
+        return await withCheckedContinuation { cont in
+            store.fetchReminders(matching: predicate) { reminders in
+                let titles = (reminders ?? []).compactMap { $0.title }.filter { !$0.isEmpty }
+                cont.resume(returning: titles)
+            }
+        }
+    }
+
+    /// Adds things to the Shopping list, skipping ones already on it.
+    func addToShopping(_ items: [String]) async -> (added: [String], skipped: [String])? {
+        guard let list = shoppingList(), let have = await shoppingItems() else { return nil }
+        let split = ShoppingList.split(items, existing: have)
+        var added: [String] = []
+        for item in split.new {
+            let r = EKReminder(eventStore: store)
+            r.calendar = list
+            r.title = item
+            if (try? store.save(r, commit: false)) != nil { added.append(item) }
+        }
+        if !added.isEmpty, (try? store.commit()) == nil { return nil }
+        return (added, split.skipped)
+    }
+
     /// Reminders that aren't done and are due before `date` (or have no date).
     func openReminders(dueBefore date: Date) async -> [ReminderInfo] {
         guard reminderAccess else { return [] }

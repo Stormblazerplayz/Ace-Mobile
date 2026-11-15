@@ -153,6 +153,26 @@ enum ReplyKey: String, CaseIterable {
     case twentyLearned
     case twentyStopped
     case yourName
+    case homeworkSteps
+    case homeworkHelp
+    case homeworkCantSolve
+    case photoMathOne
+    case photoMathMany
+    case noteSaved
+    case noteList
+    case noteListEmpty
+    case noteDeleted
+    case noteNotFound
+    case notesCleared
+    case voiceSpeedSet
+    case voiceSpeedLimit
+    case shoppingAdded
+    case shoppingAddedItems
+    case shoppingSkipped
+    case shoppingNoRecipe
+    case shoppingNoAccess
+    case shoppingListRead
+    case shoppingListEmpty
 }
 
 /// Picks one of several wordings, never one it used recently for the same thing.

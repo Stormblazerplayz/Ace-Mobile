@@ -19,6 +19,7 @@ enum AceCard: Codable, Equatable {
     case trivia(TriviaCard)
     case translation(TranslationCard)
     case quickReplies(QuickReplies)
+    case steps(StepsCard)
 }
 
 /// Buttons that send a short answer ("Yes", "No"...), used by 20 questions.

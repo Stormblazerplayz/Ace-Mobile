@@ -1,4 +1,4 @@
-"""The 200 held-out questions for Ace's smartness test.
+"""The 300 held-out questions for Ace's smartness test.
 
 Run:  python3 tools/smartness_cases.py
 It checks every case and writes AceTests/smartness_cases.json, which the
@@ -279,11 +279,136 @@ UNKNOWN = [
 # Saying Ace's name (alone or with a hello) means "are you there?", never a web search.
 NAME_CALLS = ["ace", "you there ace?", "hey ace", "yo ace", "hi ace!", "ok ace", "hello ace", "ace are you there"]
 
-# Room for the name calls: the last two cases of four lists go, so there are still 200.
+# Room for the name calls: the last two cases of four lists go, so the first 200 stay 200.
 PARAPHRASE = PARAPHRASE[:-2]
 TYPOS = TYPOS[:-2]
 SKILLS = SKILLS[:-2]
 UNKNOWN = UNKNOWN[:-2]
+
+
+# The newer 100 cases (scripts, translating, games, conversions, homework, notes, talking speed, shopping).
+NEWER = {
+ "script": [
+  "write me a lava brick script for roblox",
+  "can i get a kill part script",
+  "i want a checkpoint script for my obby",
+  "send me the double jump script",
+  "show me a teleport pad script",
+  "roblox spinning part script please",
+  "make me a disappearing platform script",
+  "i need code for a healing pad",
+  "give me a rainbow part script",
+  "can you make a coin pickup script",
+  "write a sprint button script",
+  "roblox shop button script",
+  "give me a win pad script for the end of the obby",
+  "arduino code for a servo motor",
+  "give me arduino buzzer code",
+  "c++ hello world code",
+  "can you give me a c++ hangman game",
+  "show me c++ vector code",
+  "unreal engine moving platform code",
+  "i need a c++ text adventure program",
+  "what roblox scripts do you have",
+  "do you have any c++ programs",
+  "can you write me a lua script",
+  "give me some c++ code",
+ ],
+ "translate": [
+  "how would you say good luck in german",
+  "how do i say i love you in italian",
+  "translate happy birthday into spanish",
+  "can you translate where is the bathroom to japanese",
+  "what is dog in portuguese",
+  "what's the french word for library",
+  "german for good night",
+  "how do you say my name is storm in french",
+  "say good morning in korean",
+  "please translate thank you very much into chinese",
+  "what is pizza in russian",
+  "how to say see you tomorrow in spanish",
+ ],
+ "game": [
+  "let's do a trivia game",
+  "can we play a quiz",
+  "quiz me about animals",
+  "ask me some trivia questions",
+  "give me a trivia round on space",
+  "i want to play twenty questions",
+  "let's play 20 questions with me",
+  "can you guess what i am thinking of",
+ ],
+ "convert": [
+  "convert 3 cups to milliliters",
+  "what's 100 fahrenheit in celsius",
+  "change 5 kilometers into miles",
+  "how many teaspoons are in 3 tablespoons",
+  "60 mph in kph",
+  "2 gigabytes to megabytes",
+ ],
+ "homework": [
+  "solve 5x - 4 = 21",
+  "can you solve 3x + 7 = 4x - 2",
+  "help me solve 2(x + 3) = 14",
+  "what is x if 4x = 36",
+  "solve for x: x/3 + 2 = 6",
+  "2/5 + 1/10",
+  "what's 3/4 of 2/3",
+  "work out 18 - 4 × 3 + 2",
+  "show me the steps for 25% of 60",
+  "step by step: 7 × (2 + 3)",
+  "how do i solve 6 + 2x = 20",
+  "explain how to do 5/6 - 1/3",
+  "can you help me with my math homework",
+  "i need help with my homework",
+  "find x in 10 = 2x - 6",
+  "solve x^2 = 49",
+  "show your work for 3/8 × 4",
+  "solve 9 - x = 2",
+  "help me with fractions homework",
+  "check my homework: 3x = 27",
+ ],
+ "note": [
+  "take a note: return my library books on friday",
+  "make a note that the wifi password is on the fridge",
+  "note to self call grandma on sunday",
+  "jot down a note: bring my charger to school",
+  "write this down: practice piano for 20 minutes",
+  "add buy new headphones to my notes",
+  "read me my notes",
+  "what notes do i have",
+  "show all my notes",
+  "delete the note about piano",
+  "remove the note that says charger",
+  "delete all my notes",
+ ],
+ "voiceSpeed": [
+  "talk a little slower please",
+  "can you speak more slowly",
+  "slow down when you talk",
+  "you talk too fast",
+  "speak a bit faster",
+  "speed up your voice",
+  "you're talking really slowly",
+  "go back to your normal speed",
+ ],
+ "shopping": [
+  "add the ingredients to my shopping list",
+  "put these ingredients on my grocery list",
+  "make me a shopping list for this recipe",
+  "add all of the stuff i need to the shopping list",
+  "what's on my shopping list",
+  "read me my grocery list",
+  "add bananas to my shopping list",
+  "put bread on the grocery list",
+  "add chocolate chips to my shopping list please",
+  "show my shopping list",
+ ],
+}
+
+# Skill names for the newer cases (the category is the key above).
+NEWER_SKILL = {"script": "script", "translate": "translate", "game": "game", "convert": "convert",
+               "homework": "homework", "note": "note", "voiceSpeed": "voiceSpeed", "shopping": "shopping"}
 
 
 def build():
@@ -309,6 +434,9 @@ def build():
         add("unknown", p, U)
     for p in NAME_CALLS:
         add("name-call", p, S("summon"))
+    for category, prompts in NEWER.items():
+        for p in prompts:
+            add(category, p, S(NEWER_SKILL[category]))
     return cases
 
 
@@ -349,8 +477,8 @@ def check(cases):
         for i in ids_in(c["expect"]):
             if i not in ids:
                 problems.append(f"#{c['n']} expects a missing id: {i}")
-    if len(cases) != 200:
-        problems.append(f"there are {len(cases)} cases, not 200")
+    if len(cases) != 300:
+        problems.append(f"there are {len(cases)} cases, not 300")
     return problems
 
 

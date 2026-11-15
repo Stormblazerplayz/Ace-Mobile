@@ -1,7 +1,7 @@
 import XCTest
 @testable import Ace
 
-/// Ace's smartness test: 200 held-out questions (never in the answer bank),
+/// Ace's smartness test: 300 held-out questions (never in the answer bank),
 /// covering new wordings, typos, skills, follow-ups, multi-part questions and
 /// things Ace can't know. The cases come from tools/smartness_cases.py.
 @MainActor
@@ -27,7 +27,7 @@ final class SmartnessTests: XCTestCase {
     }
 
     /// The lowest score that still passes, so the brain can't quietly get worse.
-    static let passMark = 185
+    static let passMark = 280
 
     private func loadCases() throws -> CaseFile {
         let bundle = Bundle(for: SmartnessTests.self)
@@ -37,7 +37,7 @@ final class SmartnessTests: XCTestCase {
 
     func testCasesAreHeldOut() throws {
         let file = try loadCases()
-        XCTAssertEqual(file.cases.count, 200)
+        XCTAssertEqual(file.cases.count, 300)
         let brain = Brain()
         for c in file.cases {
             let norm = TextKit.normalize(c.prompt)
@@ -69,7 +69,7 @@ final class SmartnessTests: XCTestCase {
             print("SMARTNESS \(category): \(row.right)/\(row.total)")
         }
         for m in misses { print("SMARTNESS MISS \(m)") }
-        XCTAssertGreaterThanOrEqual(score, Self.passMark, "Smartness dropped below \(Self.passMark)/200")
+        XCTAssertGreaterThanOrEqual(score, Self.passMark, "Smartness dropped below \(Self.passMark)/\(file.cases.count)")
     }
 
     static func passes(_ got: Brain.Understanding, _ e: Expect) -> Bool {

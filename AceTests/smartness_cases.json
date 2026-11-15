@@ -1,6 +1,6 @@
 {
  "format": "ace-smartness/1",
- "count": 200,
+ "count": 300,
  "cases": [
   {
    "n": 1,
@@ -2106,6 +2106,806 @@
    "prompt": "ace are you there",
    "expect": {
     "skill": "summon"
+   }
+  },
+  {
+   "n": 201,
+   "category": "script",
+   "prompt": "write me a lava brick script for roblox",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 202,
+   "category": "script",
+   "prompt": "can i get a kill part script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 203,
+   "category": "script",
+   "prompt": "i want a checkpoint script for my obby",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 204,
+   "category": "script",
+   "prompt": "send me the double jump script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 205,
+   "category": "script",
+   "prompt": "show me a teleport pad script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 206,
+   "category": "script",
+   "prompt": "roblox spinning part script please",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 207,
+   "category": "script",
+   "prompt": "make me a disappearing platform script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 208,
+   "category": "script",
+   "prompt": "i need code for a healing pad",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 209,
+   "category": "script",
+   "prompt": "give me a rainbow part script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 210,
+   "category": "script",
+   "prompt": "can you make a coin pickup script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 211,
+   "category": "script",
+   "prompt": "write a sprint button script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 212,
+   "category": "script",
+   "prompt": "roblox shop button script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 213,
+   "category": "script",
+   "prompt": "give me a win pad script for the end of the obby",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 214,
+   "category": "script",
+   "prompt": "arduino code for a servo motor",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 215,
+   "category": "script",
+   "prompt": "give me arduino buzzer code",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 216,
+   "category": "script",
+   "prompt": "c++ hello world code",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 217,
+   "category": "script",
+   "prompt": "can you give me a c++ hangman game",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 218,
+   "category": "script",
+   "prompt": "show me c++ vector code",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 219,
+   "category": "script",
+   "prompt": "unreal engine moving platform code",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 220,
+   "category": "script",
+   "prompt": "i need a c++ text adventure program",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 221,
+   "category": "script",
+   "prompt": "what roblox scripts do you have",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 222,
+   "category": "script",
+   "prompt": "do you have any c++ programs",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 223,
+   "category": "script",
+   "prompt": "can you write me a lua script",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 224,
+   "category": "script",
+   "prompt": "give me some c++ code",
+   "expect": {
+    "skill": "script"
+   }
+  },
+  {
+   "n": 225,
+   "category": "translate",
+   "prompt": "how would you say good luck in german",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 226,
+   "category": "translate",
+   "prompt": "how do i say i love you in italian",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 227,
+   "category": "translate",
+   "prompt": "translate happy birthday into spanish",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 228,
+   "category": "translate",
+   "prompt": "can you translate where is the bathroom to japanese",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 229,
+   "category": "translate",
+   "prompt": "what is dog in portuguese",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 230,
+   "category": "translate",
+   "prompt": "what's the french word for library",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 231,
+   "category": "translate",
+   "prompt": "german for good night",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 232,
+   "category": "translate",
+   "prompt": "how do you say my name is storm in french",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 233,
+   "category": "translate",
+   "prompt": "say good morning in korean",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 234,
+   "category": "translate",
+   "prompt": "please translate thank you very much into chinese",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 235,
+   "category": "translate",
+   "prompt": "what is pizza in russian",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 236,
+   "category": "translate",
+   "prompt": "how to say see you tomorrow in spanish",
+   "expect": {
+    "skill": "translate"
+   }
+  },
+  {
+   "n": 237,
+   "category": "game",
+   "prompt": "let's do a trivia game",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 238,
+   "category": "game",
+   "prompt": "can we play a quiz",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 239,
+   "category": "game",
+   "prompt": "quiz me about animals",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 240,
+   "category": "game",
+   "prompt": "ask me some trivia questions",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 241,
+   "category": "game",
+   "prompt": "give me a trivia round on space",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 242,
+   "category": "game",
+   "prompt": "i want to play twenty questions",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 243,
+   "category": "game",
+   "prompt": "let's play 20 questions with me",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 244,
+   "category": "game",
+   "prompt": "can you guess what i am thinking of",
+   "expect": {
+    "skill": "game"
+   }
+  },
+  {
+   "n": 245,
+   "category": "convert",
+   "prompt": "convert 3 cups to milliliters",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 246,
+   "category": "convert",
+   "prompt": "what's 100 fahrenheit in celsius",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 247,
+   "category": "convert",
+   "prompt": "change 5 kilometers into miles",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 248,
+   "category": "convert",
+   "prompt": "how many teaspoons are in 3 tablespoons",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 249,
+   "category": "convert",
+   "prompt": "60 mph in kph",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 250,
+   "category": "convert",
+   "prompt": "2 gigabytes to megabytes",
+   "expect": {
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 251,
+   "category": "homework",
+   "prompt": "solve 5x - 4 = 21",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 252,
+   "category": "homework",
+   "prompt": "can you solve 3x + 7 = 4x - 2",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 253,
+   "category": "homework",
+   "prompt": "help me solve 2(x + 3) = 14",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 254,
+   "category": "homework",
+   "prompt": "what is x if 4x = 36",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 255,
+   "category": "homework",
+   "prompt": "solve for x: x/3 + 2 = 6",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 256,
+   "category": "homework",
+   "prompt": "2/5 + 1/10",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 257,
+   "category": "homework",
+   "prompt": "what's 3/4 of 2/3",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 258,
+   "category": "homework",
+   "prompt": "work out 18 - 4 \u00d7 3 + 2",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 259,
+   "category": "homework",
+   "prompt": "show me the steps for 25% of 60",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 260,
+   "category": "homework",
+   "prompt": "step by step: 7 \u00d7 (2 + 3)",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 261,
+   "category": "homework",
+   "prompt": "how do i solve 6 + 2x = 20",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 262,
+   "category": "homework",
+   "prompt": "explain how to do 5/6 - 1/3",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 263,
+   "category": "homework",
+   "prompt": "can you help me with my math homework",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 264,
+   "category": "homework",
+   "prompt": "i need help with my homework",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 265,
+   "category": "homework",
+   "prompt": "find x in 10 = 2x - 6",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 266,
+   "category": "homework",
+   "prompt": "solve x^2 = 49",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 267,
+   "category": "homework",
+   "prompt": "show your work for 3/8 \u00d7 4",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 268,
+   "category": "homework",
+   "prompt": "solve 9 - x = 2",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 269,
+   "category": "homework",
+   "prompt": "help me with fractions homework",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 270,
+   "category": "homework",
+   "prompt": "check my homework: 3x = 27",
+   "expect": {
+    "skill": "homework"
+   }
+  },
+  {
+   "n": 271,
+   "category": "note",
+   "prompt": "take a note: return my library books on friday",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 272,
+   "category": "note",
+   "prompt": "make a note that the wifi password is on the fridge",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 273,
+   "category": "note",
+   "prompt": "note to self call grandma on sunday",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 274,
+   "category": "note",
+   "prompt": "jot down a note: bring my charger to school",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 275,
+   "category": "note",
+   "prompt": "write this down: practice piano for 20 minutes",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 276,
+   "category": "note",
+   "prompt": "add buy new headphones to my notes",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 277,
+   "category": "note",
+   "prompt": "read me my notes",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 278,
+   "category": "note",
+   "prompt": "what notes do i have",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 279,
+   "category": "note",
+   "prompt": "show all my notes",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 280,
+   "category": "note",
+   "prompt": "delete the note about piano",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 281,
+   "category": "note",
+   "prompt": "remove the note that says charger",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 282,
+   "category": "note",
+   "prompt": "delete all my notes",
+   "expect": {
+    "skill": "note"
+   }
+  },
+  {
+   "n": 283,
+   "category": "voiceSpeed",
+   "prompt": "talk a little slower please",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 284,
+   "category": "voiceSpeed",
+   "prompt": "can you speak more slowly",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 285,
+   "category": "voiceSpeed",
+   "prompt": "slow down when you talk",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 286,
+   "category": "voiceSpeed",
+   "prompt": "you talk too fast",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 287,
+   "category": "voiceSpeed",
+   "prompt": "speak a bit faster",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 288,
+   "category": "voiceSpeed",
+   "prompt": "speed up your voice",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 289,
+   "category": "voiceSpeed",
+   "prompt": "you're talking really slowly",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 290,
+   "category": "voiceSpeed",
+   "prompt": "go back to your normal speed",
+   "expect": {
+    "skill": "voiceSpeed"
+   }
+  },
+  {
+   "n": 291,
+   "category": "shopping",
+   "prompt": "add the ingredients to my shopping list",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 292,
+   "category": "shopping",
+   "prompt": "put these ingredients on my grocery list",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 293,
+   "category": "shopping",
+   "prompt": "make me a shopping list for this recipe",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 294,
+   "category": "shopping",
+   "prompt": "add all of the stuff i need to the shopping list",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 295,
+   "category": "shopping",
+   "prompt": "what's on my shopping list",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 296,
+   "category": "shopping",
+   "prompt": "read me my grocery list",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 297,
+   "category": "shopping",
+   "prompt": "add bananas to my shopping list",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 298,
+   "category": "shopping",
+   "prompt": "put bread on the grocery list",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 299,
+   "category": "shopping",
+   "prompt": "add chocolate chips to my shopping list please",
+   "expect": {
+    "skill": "shopping"
+   }
+  },
+  {
+   "n": 300,
+   "category": "shopping",
+   "prompt": "show my shopping list",
+   "expect": {
+    "skill": "shopping"
    }
   }
  ]

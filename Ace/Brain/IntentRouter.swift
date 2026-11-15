@@ -26,6 +26,10 @@ enum Intent: Equatable {
     case translate(phrase: String, code: String)   // "how do you say thank you in spanish"
     case translateList              // "what languages can you speak"
     case game(String)               // "trivia", "trivia:Space", "twenty"
+    case homework(String)           // "solve 2x + 3 = 11" (or "" for "help me with my homework")
+    case note(action: String, text: String)   // "take a note: buy milk", "read my notes"
+    case voiceSpeed(String)         // "talk slower": "slower", "faster" or "normal"
+    case shopping(String)           // "recipe", "read" or "add:milk and eggs"
     case weather(place: String?, day: String? = nil)
     case check
     case battery, storage, memoryUsage, network
@@ -93,6 +97,10 @@ extension Intent {
         case .script: return "script"
         case .translate, .translateList: return "translate"
         case .game: return "game"
+        case .homework: return "homework"
+        case .note: return "note"
+        case .voiceSpeed: return "voiceSpeed"
+        case .shopping: return "shopping"
         case .weather: return "weather"
         case .check: return "check"
         case .battery: return "battery"
@@ -156,6 +164,15 @@ enum IntentRouter {
         // Follow-ups
         if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
         if Rx.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
+
+        // Homework, step by step ("solve 2x + 3 = 11", "3/4 + 1/8", "help me with my math homework").
+        // Read from the words as typed, because normalizing drops "=", "(" and ")".
+        if let hw = Homework.intent(raw) { return .homework(hw) }
+
+        // Notes, the voice speed and the shopping list
+        if let n = HelperParser.note(raw) { return .note(action: n.action, text: n.text) }
+        if let v = HelperParser.voiceSpeed(raw) { return .voiceSpeed(v) }
+        if let s = HelperParser.shopping(raw) { return .shopping(s) }
 
         // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
         if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }

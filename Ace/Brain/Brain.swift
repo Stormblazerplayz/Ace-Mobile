@@ -770,6 +770,10 @@ final class Brain {
         case .recipe: return "a recipe"
         case .recipeTweak: return "changing the recipe"
         case .script: return "a script"
+        case .homework: return "homework"
+        case .note: return "notes"
+        case .voiceSpeed: return "how fast I talk"
+        case .shopping: return "the shopping list"
         case .translate, .translateList: return "translating"
         case .game: return "a game"
         case .weather: return "the weather"
@@ -980,6 +984,19 @@ final class Brain {
 
         case .game(let which):
             return startGame(which)
+
+        case .homework(let problem):
+            if !problem.isEmpty { await think("Working it out one step at a time") }
+            return homeworkReply(problem)
+
+        case .note(let action, let words):
+            return notes(action, words)
+
+        case .voiceSpeed(let how):
+            return voiceSpeed(how, settings: host.settings)
+
+        case .shopping(let what):
+            return await shopping(what, think: think)
 
         case .recipeTweak(let ask):
             guard let change = RecipeTweaks.parse(ask) else { return nil }
@@ -1336,6 +1353,100 @@ final class Brain {
     }
 
     // MARK: Calendar and reminders
+
+    // MARK: Homework, notes, voice speed and the shopping list
+
+    /// Ace's homework helper: sums, fractions, percents and equations, one step at a time.
+    func homeworkReply(_ problem: String) -> BrainReply {
+        let source = "Ace's homework helper"
+        guard !problem.isEmpty else {
+            return BrainReply(text: Say.line(.homeworkHelp, ["examples": TextKit.joinList(Homework.examples, last: "or")]), source: source)
+        }
+        guard let s = Homework.solve(problem) else {
+            return BrainReply(text: Say.line(.homeworkCantSolve, ["kinds": TextKit.joinList(Homework.kinds)]), source: source, mood: .idle)
+        }
+        lastTopic = s.problem
+        return BrainReply(text: Say.line(.homeworkSteps, ["problem": s.problem, "answer": s.answer]),
+                          cards: [.steps(StepsCard(problem: s.problem, steps: s.steps, answer: s.answer))], source: source)
+    }
+
+    func notes(_ action: String, _ words: String, store: NotesStore = .shared) -> BrainReply {
+        let source = "Ace's notes"
+        switch action {
+        case "add":
+            let n = store.add(words)
+            return BrainReply(text: Say.line(.noteSaved, ["note": n.text]), source: source)
+        case "list":
+            guard !store.notes.isEmpty else { return BrainReply(text: Say.line(.noteListEmpty), source: source, mood: .idle) }
+            let newest = store.notes.prefix(5).map { "\"\($0.text)\"" }
+            let text = Say.line(.noteList, ["count": "\(store.notes.count)", "notes": TextKit.joinList(Array(newest))])
+            return BrainReply(text: Say.singular(text), source: source)
+        case "delete":
+            guard let gone = store.delete(matching: words) else {
+                return BrainReply(text: Say.line(.noteNotFound, ["words": words]), source: source, mood: .idle)
+            }
+            return BrainReply(text: Say.line(.noteDeleted, ["note": gone.text]), source: source)
+        default:
+            let count = store.clearAll()
+            guard count > 0 else { return BrainReply(text: Say.line(.noteListEmpty), source: source, mood: .idle) }
+            return BrainReply(text: Say.singular(Say.line(.notesCleared, ["count": "\(count)"])), source: source)
+        }
+    }
+
+    /// Talk slower, faster or at the normal speed. The speed goes from 0.6 to 1.5 times normal.
+    func voiceSpeed(_ how: String, settings: SettingsStore) -> BrainReply {
+        let old = settings.voiceSpeed
+        var new: Double
+        switch how {
+        case "slower": new = max(SettingsStore.slowestVoice, old - 0.15)
+        case "faster": new = min(SettingsStore.fastestVoice, old + 0.15)
+        default: new = 1.0
+        }
+        new = (new * 100).rounded() / 100
+        if how != "normal", abs(new - old) < 0.001 {
+            return BrainReply(text: Say.line(.voiceSpeedLimit, ["speed": how == "slower" ? "slow" : "fast"]), mood: .idle)
+        }
+        settings.voiceSpeed = new
+        return BrainReply(text: Say.line(.voiceSpeedSet, ["speed": how == "normal" ? "at my normal speed" : how]))
+    }
+
+    private func shopping(_ what: String, think: (String) async -> Void) async -> BrainReply {
+        let source = "Reminders"
+        var items: [String] = []
+        var recipe: RecipeCard?
+        if what == "recipe" {
+            guard let r = lastRecipe else { return BrainReply(text: Say.line(.shoppingNoRecipe), mood: .idle) }
+            recipe = r
+            items = r.ingredients
+        } else if what.hasPrefix("add:") {
+            items = RecipeBook.splitItems(String(what.dropFirst(4)))
+        }
+        let cal = CalendarService.shared
+        guard await cal.requestReminderAccess() else { return BrainReply(text: Say.line(.shoppingNoAccess), source: source, mood: .alert) }
+        if what == "read" {
+            guard let have = await cal.shoppingItems() else { return BrainReply(text: Say.line(.shoppingNoAccess), source: source, mood: .alert) }
+            guard !have.isEmpty else { return BrainReply(text: Say.line(.shoppingListEmpty), source: source, mood: .idle) }
+            let text = Say.line(.shoppingListRead, ["count": "\(have.count)", "items": TextKit.joinList(have.map { $0.lowercased() })])
+            return BrainReply(text: Say.singular(text), source: source)
+        }
+        guard !items.isEmpty else { return BrainReply(text: Say.line(.shoppingNoRecipe), mood: .idle) }
+        await think("Adding \(items.count) thing\(items.count == 1 ? "" : "s") to your Shopping list in Reminders")
+        guard let result = await cal.addToShopping(items) else {
+            return BrainReply(text: Say.line(.shoppingNoAccess), source: source, mood: .alert)
+        }
+        var text: String
+        if let recipe {
+            text = result.added.isEmpty ? "" : Say.line(.shoppingAdded, ["count": "\(result.added.count)", "recipe": recipe.name.lowercased(),
+                                                                        "list": ShoppingList.name])
+        } else {
+            text = result.added.isEmpty ? "" : Say.line(.shoppingAddedItems, ["items": TextKit.joinList(result.added.map { $0.lowercased() }),
+                                                                             "list": ShoppingList.name])
+        }
+        if !result.skipped.isEmpty {
+            text += (text.isEmpty ? "" : " ") + Say.line(.shoppingSkipped, ["count": "\(result.skipped.count)"])
+        }
+        return BrainReply(text: Say.singular(TextKit.capitalizeFirst(text)), source: source)
+    }
 
     private func reminder(_ raw: String, think: (String) async -> Void) async -> BrainReply {
         let found = DateParser.find(in: raw)

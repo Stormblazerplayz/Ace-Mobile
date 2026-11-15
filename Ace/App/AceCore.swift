@@ -553,6 +553,12 @@ final class AceCore: ObservableObject, BrainHost {
         lastImageReport = report
         note(report.labels.isEmpty ? "Didn't recognize objects" : "Spotted: " + report.labels.prefix(3).joined(separator: ", "))
         if report.text != nil { note("Read the text in it") }
+        // Homework in the picture: solve each problem step by step.
+        if let ocr = report.text, let math = Self.photoMath(ocr, question: question) {
+            note(math.cards.count == 1 ? "Found a math problem" : "Found \(math.cards.count) math problems")
+            return BrainReply(text: math.text, thoughts: thoughts, cards: math.cards.map { AceCard.steps($0) } + [AceCard.image(report)],
+                              source: "vision + Ace's homework helper")
+        }
         var text = report.summary
         var source = "vision"
         if !question.isEmpty, settings.lfmAllowed || settings.useAppleModel {
@@ -566,6 +572,21 @@ final class AceCore: ObservableObject, BrainHost {
             }
         }
         return BrainReply(text: text, thoughts: thoughts, cards: [.image(report)], source: source)
+    }
+
+    /// Math problems in a photo's text, solved. Without a question that asks about math, only lines with an "="
+    /// count, so a date or a page number isn't taken for a sum.
+    static func photoMath(_ ocr: String, question: String) -> (text: String, cards: [StepsCard])? {
+        let q = question.lowercased()
+        let asksMath = Rx.matches(#"\b(math|maths|solve|homework|worksheet|answers?|equations?|sums?|problems?|fractions?|check my|work out)\b"#, q)
+        guard q.isEmpty || asksMath else { return nil }
+        let found = Homework.problems(inText: ocr, needEquals: !asksMath)
+        let cards = found.compactMap { p in Homework.solve(p).map { StepsCard(problem: $0.problem, steps: $0.steps, answer: $0.answer) } }
+        guard let first = cards.first else { return nil }
+        if cards.count == 1 {
+            return (Say.line(.photoMathOne, ["problem": first.problem, "answer": first.answer]), cards)
+        }
+        return (Say.line(.photoMathMany, ["count": "\(cards.count)"]), cards)
     }
 
     // MARK: On-device models
