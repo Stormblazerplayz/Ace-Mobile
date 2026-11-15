@@ -689,6 +689,19 @@ final class AceCore: ObservableObject, BrainHost {
 
     var pcPaired: Bool { false }
 
+    func setPersonality(_ sassy: Bool) -> String {
+        if Sass.isOn(settings.personality) == sassy {
+            return sassy ? "Sassy mode is already on. Can't you tell?" : "Sassy mode is already off."
+        }
+        settings.personality = sassy ? "sassy" : "normal"
+        let line = SassPack.shared.line(sassy ? "sassy.on" : "sassy.off", level: sassLevel)
+        if sassy {
+            holdMood = true
+            Task { await sassyEyes(sassLevel == .mild ? .side : .roll, then: .happy) }
+        }
+        return line.isEmpty ? (sassy ? "Sassy mode is on." : "Sassy mode is off.") : line
+    }
+
     func setHandsFree(_ on: Bool) -> String {
         settings.heyAce = on
         handsFree = on

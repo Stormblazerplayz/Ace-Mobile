@@ -17,9 +17,31 @@ enum Chat {
         case laugh
         /// "whatever", "meh", "bruh", "ok cool"
         case whatever
+        /// "heyy", "yo bro", "hello friend" (the plain "hi" and "hello" are the greeting rule)
+        case hello
+        /// "what up", "wassup", "what's good", "wyd"
+        case whatsUp = "whatsup"
+        /// "how are you", "how's it going", "you good?"
+        case howAreYou = "howareyou"
+        /// "you're awesome", "good job", "you rock"
+        case compliment
+        /// "sorry", "my bad", "oops"
+        case sorry
+        /// Anything else that's just chatting, not a question (never picked by `kind`, only as the last stop).
+        case smalltalk
+
+        /// Friendly small talk (not banter like "roast me"): a hand-made "feelings" answer in the bank can take it.
+        var isSmallTalk: Bool {
+            switch self {
+            case .hello, .whatsUp, .howAreYou, .compliment, .sorry, .smalltalk: return true
+            default: return false
+            }
+        }
     }
 
     private static let tail = #"(\s+(ace|bro|dude|man|lol|lmao|haha|then|anyway|anyways|now|ok|okay|though|tho))*"#
+    /// "yo", "hey ace", "ayy" in front of small talk ("yo what up").
+    private static let lead = #"^((hey|hi|hello|yo|ayy+|ay|oi|so|ok|okay|well|and|bro|dude|ace),? )*"#
 
     /// What kind of banter a message is, or nil when it's a real question or command.
     static func kind(_ raw: String) -> Kind? {
@@ -45,6 +67,22 @@ enum Chat {
             || Rx.matches(#"^(this is|that is|that was|this|it is|today is) (so |really |very |super )*boring"# + tail + "$", t)
             || Rx.matches(#"^i (have|got) nothing to do"# + tail + "$", t) {
             return .bored
+        }
+        if Rx.matches(lead + #"(what up|whats up|what is up|wat up|wut up|whaddup|whaddap|wassup|wassap|wazzup|whatsup|sup|supp|ssup|wsg|wsp|wyd|what is good|whats good|what is new|whats new|what is happening|whats happening|what is going on|whats going on|what is popping|whats popping|what is poppin|whats poppin|what are you doing|what are you up to|what you up to|what you doing|anything new|what is crackin|whats crackin)"# + tail + "$", t) {
+            return .whatsUp
+        }
+        if Rx.matches(lead + #"(how are you|how r you|hru|how are you doing|how are you today|how are you feeling|how you doing|how ya doing|how is it going|hows it going|how is your day|hows your day|how is your day going|how was your day|how are things|how have you been|how is life|hows life|how do you feel|are you okay|are you ok|are you good|you good|you okay|you ok|you alright|are you alright|how goes it|how is everything|hows everything)"# + tail + "$", t) {
+            return .howAreYou
+        }
+        if Rx.matches(lead + #"(heyy+|hii+|helloo+|hey hey|hi hi|hello hello|hey there|hi there|hello there|hey ace|hi ace|hello ace|yo yo|yoo+|howdy|greetings|hiya|heya|ello|hey friend|hello friend|hi friend|hey buddy|hi buddy|hey bud|hey bro|yo bro|hi bro|hello bro|hey dude|yo dude|hey man|yo man|nice to meet you|good to see you|long time no see|i am back|im back|i am here|we meet again)"# + tail + "$", t) {
+            return .hello
+        }
+        if Rx.matches(#"^(ace )?(you are|you re|your|ur|you r|u r|you)( so| really| very| such| super| kinda| kind of| pretty| the| a| an)* (awesome|cool|smart|clever|funny|amazing|great|the best|best|the goat|goat|a genius|genius|nice|sweet|helpful|so helpful|epic|legend|a legend|brilliant|fun|lit|fire)"# + tail + "$", t)
+            || Rx.matches(#"^(good job|nice job|great job|good work|nice work|great work|well done|nice one ace|good one|good answer|nice answer|great answer|you rock|you rule|i like you|i love you|love you|love ya|i like you ace|you are my favorite|you are my best friend|you did great|you did it|nailed it|smart orb|good orb|best orb)"# + tail + "$", t) {
+            return .compliment
+        }
+        if Rx.matches(#"^(sorry|so sorry|i am sorry|im sorry|i am so sorry|my bad|oops|oopsie|whoops|my mistake|sorry about that|sorry ace|sry|soz|i apologize)"# + tail + "$", t) {
+            return .sorry
         }
         if Rx.matches(#"^(lol+|lmao+|lmfao|rofl|haha+|hahaha+|hehe+|ha|hah|ha ha( ha)*|xd|that is (so )?funny|so funny|funny)"# + tail + "$", t) {
             return .laugh
@@ -133,6 +171,36 @@ enum Chat {
                     "Okay! I'm here when you want me.",
                     "No problem. Ask me anything whenever.",
                     "Alright. Want to play a game or ask me something?"]
+        case .hello:
+            return ["Hey! Good to see you. What's up?",
+                    "Hi there! What can I do for you?",
+                    "Hey hey! Ask me anything.",
+                    "Hello! I'm all ears. Well, all orb."]
+        case .whatsUp:
+            return ["Not much, just hanging out and glowing. What's up with you?",
+                    "Just waiting for a good question. What's up with you?",
+                    "Not much! Ready when you are. What's going on?",
+                    "Just chilling. What are you up to?"]
+        case .howAreYou:
+            return ["I'm doing great, thanks for asking! How about you?",
+                    "Pretty good! Ready to help. How are you?",
+                    "Feeling bright and glowy. How's your day going?",
+                    "I'm great! What's going on with you?"]
+        case .compliment:
+            return ["Aw, thanks! You're pretty great too.",
+                    "Thank you! That made my orb glow.",
+                    "Thanks! I try my best.",
+                    "You just made my day. Thanks!"]
+        case .sorry:
+            return ["No worries at all!",
+                    "It's okay! No harm done.",
+                    "All good. What can I help with?",
+                    "Don't worry about it. We're cool."]
+        case .smalltalk:
+            return ["I'm listening. Tell me more, or ask me something.",
+                    "Gotcha. What would you like to do?",
+                    "Okay! I can answer questions, play trivia, or set a timer.",
+                    "Cool. Ask me anything whenever you're ready."]
         }
     }
 }

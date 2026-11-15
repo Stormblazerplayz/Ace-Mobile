@@ -67,8 +67,11 @@ enum HomeParser {
 
         // Scenes
         // "Focus mode" or "dark mode" are iPad settings, but "the focus scene" is a home scene.
+        // "X mode" is only a home scene when X sounds like one ("movie mode") or is a scene in Apple Home,
+        // so "turn on sassy mode" never asks Apple Home for anything.
         if let g = Rx.groups(polite + #"(?:run|start|activate|turn on|play|set|do)\s+(?:the\s+|my\s+)?(.+?)\s+(scene|mode)$"#, t),
-           g[1] == "scene" || !Rx.matches(#"^(hands ?free|dark|light|low power|airplane|focus|do not disturb|sound|silent|reader|reading|guided access|lost)$"#, g[0]) {
+           g[1] == "scene" || (!Rx.matches(#"^(hands ?free|dark|light|low power|airplane|focus|do not disturb|sound|silent|reader|reading|guided access|lost)$"#, g[0])
+                                && (Rx.matches(sceneWords, g[0]) || isKnownName(g[0]))) {
             return HomeCommand(action: .scene(g[0]), target: "")
         }
         if let g = Rx.groups(#"^(movie (?:mode|time|night)|good ?night (?:mode|scene)|good morning (?:mode|scene)|party (?:mode|time)|i am (?:going|heading) to bed|i am leaving|i am home|i am back home)$"#, t) {
@@ -168,6 +171,19 @@ enum HomeParser {
         }
 
         return nil
+    }
+
+    /// Words that sound like a home scene ("movie", "party", "goodnight"), the same ones Ace's built-in scenes know.
+    static let sceneWords = #"\b(good ?night|good ?morning|morning|night|nighttime|bed|bedtime|sleep|sleepy|leaving|away|lights out|movie|movies|film|cinema|tv|wake|wake up|study|homework|party|disco|rainbow|home|welcome home|back|arrive|arriving|relax|relaxing|chill|cozy|dinner|romantic|evening|gaming|game|night light|nap|quiet)\b"#
+
+    /// True when the words are (or are in) the name of something in Apple Home or a light Ace knows.
+    static func isKnownName(_ words: String) -> Bool {
+        let w = words.trimmingCharacters(in: .whitespaces)
+        guard w.count >= 3 else { return false }
+        return knownNames.contains { n in
+            let n = n.lowercased()
+            return n.count >= 3 && (w == n || w.contains(n) || n.contains(w))
+        }
     }
 
     /// True unless the words name something that can't change color (a thermostat, a fan...).

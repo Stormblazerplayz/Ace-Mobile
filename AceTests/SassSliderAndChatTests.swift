@@ -171,7 +171,14 @@ final class SassSliderAndChatTests: XCTestCase {
         XCTAssertEqual(WhatsNew.due(currentBuild: 55, lastShown: 53, releases: releases)?.build, 55)
         XCTAssertNil(WhatsNew.due(currentBuild: 55, lastShown: 55, releases: releases))
         XCTAssertEqual(WhatsNew.due(currentBuild: 56, lastShown: 55, releases: releases)?.build, 56)
-        XCTAssertEqual(releases.first?.build, 56, "Newest first")
+        XCTAssertEqual(WhatsNew.due(currentBuild: 57, lastShown: 56, releases: releases)?.build, 57)
+        XCTAssertEqual(releases.first?.build, 57, "Newest first")
+    }
+
+    func testWhatsNewShowsChatThatFits() throws {
+        let release = try XCTUnwrap(WhatsNew.load().first { $0.build == 57 })
+        XCTAssertTrue(release.items.contains { $0.contains("yo what up") })
+        XCTAssertTrue(release.items.contains { $0.contains("sassy mode") })
     }
 
     func testWhatsNewShowsNewWordings() throws {
