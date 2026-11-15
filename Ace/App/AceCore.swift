@@ -313,18 +313,18 @@ final class AceCore: ObservableObject, BrainHost {
         try? await Task.sleep(nanoseconds: 220_000_000)
         switch eyes {
         case .roll:
-            SoundFX.shared.play(.lookWhir, pan: -0.6, jitter: 0.05, gain: 0.45 * drama.size)
+            SoundFX.shared.play(.lookWhir, pan: -0.6, jitter: 0.05, gain: Float(0.45 * drama.size))
             for p in drama.rollPath {
                 withAnimation(.easeInOut(duration: drama.step)) { look = p }
                 try? await Task.sleep(nanoseconds: UInt64(drama.step * 1_000_000_000))
             }
-            SoundFX.shared.play(.lookWhir, pan: 0.3, jitter: 0.05, gain: 0.35 * drama.size)
+            SoundFX.shared.play(.lookWhir, pan: 0.3, jitter: 0.05, gain: Float(0.35 * drama.size))
             // Hold the "ugh, really?" look.
             try? await Task.sleep(nanoseconds: UInt64(drama.hold * 1_000_000_000))
         case .side:
             withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) { look = CGPoint(x: 1.15 * drama.size, y: 0.1) }
             withAnimation(.easeInOut(duration: 0.2)) { eyeOpen = drama.squint - 0.17 }
-            SoundFX.shared.play(.lookWhir, pan: 0.8, jitter: 0.05, gain: 0.45 * drama.size)
+            SoundFX.shared.play(.lookWhir, pan: 0.8, jitter: 0.05, gain: Float(0.45 * drama.size))
             try? await Task.sleep(nanoseconds: UInt64(drama.sideHold * 1_000_000_000))
             // A quick glance back, still unimpressed.
             withAnimation(.spring(response: 0.25, dampingFraction: 0.7)) { look = CGPoint(x: -0.2, y: 0.1) }

@@ -71,7 +71,7 @@ final class SassSliderAndChatTests: XCTestCase {
         let answer = "The capital of Spain is Madrid."
         let skipped = Sass.dress(answer, category: "answer", repeats: 0, hour: 14, level: .mild, chance: { 0.9 })
         XCTAssertEqual(skipped.text, answer, "Mild lets most replies go by")
-        XCTAssertEqual(skipped.eyes, .none, "No eye-roll without a quip")
+        XCTAssertEqual(skipped.eyes, Sass.Eyes.none, "No eye-roll without a quip")
         let quip = Sass.dress(answer, category: "answer", repeats: 0, hour: 14, level: .mild, chance: { 0.2 })
         XCTAssertTrue(pack.linesFor("answer.open", level: .mild).contains(quip.before))
         XCTAssertTrue(quip.after.isEmpty, "No extra line after at Mild")
