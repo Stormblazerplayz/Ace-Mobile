@@ -144,6 +144,8 @@ struct TranslationCard: Codable, Equatable {
 struct SpokenPart: Equatable {
     var text: String
     var language: String?
+    /// A Sassy mode line, said slower and higher with a dramatic pause after it.
+    var sassy: Bool = false
 }
 
 extension Phrasebook {

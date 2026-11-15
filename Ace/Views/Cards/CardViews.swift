@@ -27,6 +27,42 @@ struct CardView: View {
         case .translation(let t): TranslationCardView(card: t)
         case .quickReplies(let q): QuickRepliesView(card: q)
         case .steps(let s): StepsCardView(card: s)
+        case .whatsNew(let w): WhatsNewCardView(card: w)
+        }
+    }
+}
+
+/// The What's new card: the build number and a short list of what changed.
+struct WhatsNewCardView: View {
+    let card: WhatsNewCard
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            CardHeader(icon: "sparkles", title: "What's new in build \(card.build)", tint: AceTheme.amber)
+            WhatsNewList(items: card.items)
+        }
+        .aceCard()
+    }
+}
+
+/// The list of changes, used by the card and by Settings.
+struct WhatsNewList: View {
+    let items: [String]
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            ForEach(Array(items.enumerated()), id: \.offset) { _, item in
+                HStack(alignment: .top, spacing: 8) {
+                    Image(systemName: "star.fill")
+                        .font(.caption2)
+                        .foregroundStyle(AceTheme.amber)
+                        .padding(.top, 4)
+                    Text(item)
+                        .font(.subheadline)
+                        .foregroundStyle(AceTheme.fg)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
         }
     }
 }

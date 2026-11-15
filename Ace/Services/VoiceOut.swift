@@ -27,7 +27,8 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
     /// Reads a reply in parts: Ace's own voice, and a translation in the accent of its language.
     func speak(_ parts: [SpokenPart], voiceID: String, onChange: @escaping (Bool) -> Void) {
         let lines = parts.map { p in
-            SpokenPart(text: p.language == nil ? Self.clean(p.text) : p.text.trimmingCharacters(in: .whitespacesAndNewlines), language: p.language)
+            SpokenPart(text: p.language == nil ? Self.clean(p.text) : p.text.trimmingCharacters(in: .whitespacesAndNewlines),
+                       language: p.language, sassy: p.sassy)
         }.filter { !$0.text.isEmpty }
         guard !lines.isEmpty else { return }
         AudioRouter.shared.prepareForSpeaking()
@@ -44,8 +45,15 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
                 } else {
                     u.voice = AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
                 }
-                u.rate = Self.rate(1.02)
-                u.pitchMultiplier = 1.08
+                if line.sassy {
+                    // Sassy delivery: drawn out, a bit higher, and a dramatic pause before the answer.
+                    u.rate = Self.rate(0.88)
+                    u.pitchMultiplier = 1.24
+                    u.postUtteranceDelay = 0.25
+                } else {
+                    u.rate = Self.rate(1.02)
+                    u.pitchMultiplier = 1.08
+                }
             }
             queued[ObjectIdentifier(u)] = u
             synth.speak(u)
