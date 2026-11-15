@@ -1,0 +1,1358 @@
+{
+ "format": "ace-knowledge-cases/1",
+ "count": 100,
+ "cases": [
+  {
+   "n": 1,
+   "category": "math",
+   "prompt": "how do you find the area of a triangle",
+   "expect": {
+    "has": [
+     [
+      "base"
+     ],
+     [
+      "height"
+     ],
+     [
+      "half",
+      "divide",
+      "/ 2",
+      "÷ 2",
+      "/2",
+      "÷2",
+      "1/2",
+      "½"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "category": "math",
+   "prompt": "whats the formula for the circumference of a circle",
+   "expect": {
+    "has": [
+     [
+      "circumference"
+     ],
+     [
+      "pi",
+      "π"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "category": "math",
+   "prompt": "what is a prime number",
+   "expect": {
+    "has": [
+     [
+      "itself",
+      "two factors",
+      "only two"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "category": "math",
+   "prompt": "what is the pythagorean theorem",
+   "expect": {
+    "has": [
+     [
+      "hypotenuse",
+      "a² + b²",
+      "a^2 + b^2",
+      "a squared"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "category": "math",
+   "prompt": "how many sides does a heptagon have",
+   "expect": {
+    "has": [
+     [
+      "7",
+      "seven"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "category": "math",
+   "prompt": "what is pemdas",
+   "expect": {
+    "has": [
+     [
+      "parenthes"
+     ],
+     [
+      "exponent"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "category": "math",
+   "prompt": "whats the difference between mean median and mode",
+   "expect": {
+    "has": [
+     [
+      "median"
+     ],
+     [
+      "middle"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "category": "math",
+   "prompt": "how do you divide fractions",
+   "expect": {
+    "has": [
+     [
+      "flip",
+      "reciprocal",
+      "invert",
+      "upside down"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "category": "math",
+   "prompt": "what is a right angle",
+   "expect": {
+    "has": [
+     [
+      "90"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "category": "math",
+   "prompt": "what is a variable in algebra",
+   "expect": {
+    "has": [
+     [
+      "letter",
+      "symbol",
+      "unknown"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "category": "science",
+   "prompt": "what does the mitochondria do",
+   "expect": {
+    "has": [
+     [
+      "energy",
+      "powerhouse",
+      "atp"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "category": "science",
+   "prompt": "what are the three states of matter",
+   "expect": {
+    "has": [
+     [
+      "solid"
+     ],
+     [
+      "liquid"
+     ],
+     [
+      "gas"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "category": "science",
+   "prompt": "what is newtons second law",
+   "expect": {
+    "has": [
+     [
+      "f = ma",
+      "f=ma",
+      "mass times acceleration",
+      "mass × acceleration",
+      "mass x acceleration"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 14,
+   "category": "science",
+   "prompt": "what is the chemical formula for table salt",
+   "expect": {
+    "has": [
+     [
+      "nacl"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 15,
+   "category": "science",
+   "prompt": "what is an atom made of",
+   "expect": {
+    "has": [
+     [
+      "proton"
+     ],
+     [
+      "neutron"
+     ],
+     [
+      "electron"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "category": "science",
+   "prompt": "what is the difference between weather and climate",
+   "expect": {
+    "has": [
+     [
+      "climate"
+     ],
+     [
+      "years",
+      "long-term",
+      "long term",
+      "over a long"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "category": "science",
+   "prompt": "how many chromosomes do humans have",
+   "expect": {
+    "has": [
+     [
+      "46",
+      "23 pairs"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "category": "science",
+   "prompt": "what planet has the most moons",
+   "expect": {
+    "has": [
+     [
+      "saturn"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "category": "science",
+   "prompt": "what is the atomic number of carbon",
+   "expect": {
+    "has": [
+     [
+      "carbon"
+     ],
+     [
+      "6"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "category": "science",
+   "prompt": "what causes earthquakes",
+   "expect": {
+    "has": [
+     [
+      "plate",
+      "fault"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 21,
+   "category": "science",
+   "prompt": "what is a food chain",
+   "expect": {
+    "has": [
+     [
+      "energy",
+      "eats",
+      "eaten",
+      "producer"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 22,
+   "category": "science",
+   "prompt": "what is the boiling point of water in fahrenheit",
+   "expect": {
+    "has": [
+     [
+      "212"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 23,
+   "category": "history",
+   "prompt": "who was the 16th president",
+   "expect": {
+    "has": [
+     [
+      "lincoln"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 24,
+   "category": "history",
+   "prompt": "when did world war 2 end",
+   "expect": {
+    "has": [
+     [
+      "1945"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 25,
+   "category": "history",
+   "prompt": "who discovered penicillin",
+   "expect": {
+    "has": [
+     [
+      "fleming"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 26,
+   "category": "history",
+   "prompt": "what was the renaissance",
+   "expect": {
+    "has": [
+     [
+      "rebirth",
+      "art",
+      "italy"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 27,
+   "category": "history",
+   "prompt": "when did the titanic sink",
+   "expect": {
+    "has": [
+     [
+      "1912"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 28,
+   "category": "history",
+   "prompt": "who was cleopatra",
+   "expect": {
+    "has": [
+     [
+      "egypt"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 29,
+   "category": "history",
+   "prompt": "what was the cold war",
+   "expect": {
+    "has": [
+     [
+      "soviet",
+      "ussr"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 30,
+   "category": "history",
+   "prompt": "who wrote the declaration of independence",
+   "expect": {
+    "has": [
+     [
+      "jefferson"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 31,
+   "category": "world",
+   "prompt": "whats the capital of peru",
+   "expect": {
+    "has": [
+     [
+      "lima"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 32,
+   "category": "world",
+   "prompt": "what currency does japan use",
+   "expect": {
+    "has": [
+     [
+      "yen"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 33,
+   "category": "world",
+   "prompt": "what language do they speak in brazil",
+   "expect": {
+    "has": [
+     [
+      "portuguese"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 34,
+   "category": "world",
+   "prompt": "what is the leader of germany called",
+   "expect": {
+    "has": [
+     [
+      "chancellor"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 35,
+   "category": "world",
+   "prompt": "what currency does switzerland use",
+   "expect": {
+    "has": [
+     [
+      "franc"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 36,
+   "category": "world",
+   "prompt": "whats the capital of australia",
+   "expect": {
+    "has": [
+     [
+      "canberra"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 37,
+   "category": "world",
+   "prompt": "what continent is egypt in",
+   "expect": {
+    "has": [
+     [
+      "africa"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 38,
+   "category": "world",
+   "prompt": "what is the longest river in the world",
+   "expect": {
+    "has": [
+     [
+      "nile"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 39,
+   "category": "world",
+   "prompt": "how many states are in the us",
+   "expect": {
+    "has": [
+     [
+      "50"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 40,
+   "category": "world",
+   "prompt": "what is the capital of texas",
+   "expect": {
+    "has": [
+     [
+      "austin"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 41,
+   "category": "world",
+   "prompt": "what language is spoken in iran",
+   "expect": {
+    "has": [
+     [
+      "persian",
+      "farsi"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 42,
+   "category": "world",
+   "prompt": "what is the smallest country in the world",
+   "expect": {
+    "has": [
+     [
+      "vatican"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 43,
+   "category": "world",
+   "prompt": "what country has the most people",
+   "expect": {
+    "has": [
+     [
+      "india"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 44,
+   "category": "world",
+   "prompt": "what is the leader of japan called",
+   "expect": {
+    "has": [
+     [
+      "prime minister"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 45,
+   "category": "english",
+   "prompt": "what is a noun",
+   "expect": {
+    "has": [
+     [
+      "person"
+     ],
+     [
+      "place"
+     ],
+     [
+      "thing"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 46,
+   "category": "english",
+   "prompt": "what is an adverb",
+   "expect": {
+    "has": [
+     [
+      "verb"
+     ],
+     [
+      "how",
+      "describes",
+      "modifies"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 47,
+   "category": "english",
+   "prompt": "whats the difference between their there and they're",
+   "expect": {
+    "has": [
+     [
+      "they are"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 48,
+   "category": "english",
+   "prompt": "what is a simile",
+   "expect": {
+    "has": [
+     [
+      "simile"
+     ],
+     [
+      "like"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 49,
+   "category": "english",
+   "prompt": "what does protagonist mean",
+   "expect": {
+    "has": [
+     [
+      "main character"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 50,
+   "category": "english",
+   "prompt": "what is a haiku",
+   "expect": {
+    "has": [
+     [
+      "syllable",
+      "5-7-5",
+      "5, 7"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 51,
+   "category": "english",
+   "prompt": "who wrote romeo and juliet",
+   "expect": {
+    "has": [
+     [
+      "shakespeare"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 52,
+   "category": "english",
+   "prompt": "what does ubiquitous mean",
+   "expect": {
+    "has": [
+     [
+      "everywhere"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 53,
+   "category": "coding",
+   "prompt": "how do i make a part spin in roblox",
+   "expect": {
+    "has": [
+     [
+      "rotat",
+      "cframe",
+      "angularvelocity",
+      "spin"
+     ]
+    ],
+    "skill": "script"
+   }
+  },
+  {
+   "n": 54,
+   "category": "coding",
+   "prompt": "what is a remote event in roblox",
+   "expect": {
+    "has": [
+     [
+      "server"
+     ],
+     [
+      "client"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 55,
+   "category": "coding",
+   "prompt": "what does task.wait do in roblox",
+   "expect": {
+    "has": [
+     [
+      "second",
+      "pause",
+      "yield"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 56,
+   "category": "coding",
+   "prompt": "how do i make a leaderboard in roblox",
+   "expect": {
+    "has": [
+     [
+      "leaderstats"
+     ]
+    ],
+    "skill": "script"
+   }
+  },
+  {
+   "n": 57,
+   "category": "coding",
+   "prompt": "whats the difference between a script and a local script in roblox",
+   "expect": {
+    "has": [
+     [
+      "client"
+     ],
+     [
+      "server"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 58,
+   "category": "coding",
+   "prompt": "what does print do in python",
+   "expect": {
+    "has": [
+     [
+      "print"
+     ],
+     [
+      "screen",
+      "console",
+      "output",
+      "shows",
+      "displays"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 59,
+   "category": "coding",
+   "prompt": "how do you make a list in python",
+   "expect": {
+    "has": [
+     [
+      "[",
+      "square bracket"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 60,
+   "category": "coding",
+   "prompt": "what is a for loop",
+   "expect": {
+    "has": [
+     [
+      "repeat",
+      "each item",
+      "every item",
+      "over and over"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 61,
+   "category": "coding",
+   "prompt": "what does len do in python",
+   "expect": {
+    "has": [
+     [
+      "length",
+      "how many"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 62,
+   "category": "coding",
+   "prompt": "what is swiftui",
+   "expect": {
+    "has": [
+     [
+      "apple"
+     ],
+     [
+      "interface",
+      "ui",
+      "view"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 63,
+   "category": "coding",
+   "prompt": "what does var mean in swift",
+   "expect": {
+    "has": [
+     [
+      "variable"
+     ],
+     [
+      "change"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 64,
+   "category": "coding",
+   "prompt": "what is a pointer in c++",
+   "expect": {
+    "has": [
+     [
+      "address",
+      "memory"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 65,
+   "category": "coding",
+   "prompt": "what does #include do in c++",
+   "expect": {
+    "has": [
+     [
+      "header",
+      "library",
+      "file"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 66,
+   "category": "coding",
+   "prompt": "what does void setup do in arduino",
+   "expect": {
+    "has": [
+     [
+      "once"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 67,
+   "category": "coding",
+   "prompt": "what is pinmode in arduino",
+   "expect": {
+    "has": [
+     [
+      "input",
+      "output"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 68,
+   "category": "coding",
+   "prompt": "what is an api",
+   "expect": {
+    "has": [
+     [
+      "application programming interface"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 69,
+   "category": "how-to",
+   "prompt": "how do you tie a tie",
+   "expect": {
+    "has": [
+     [
+      "knot"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 70,
+   "category": "how-to",
+   "prompt": "how do i get gum out of hair",
+   "expect": {
+    "has": [
+     [
+      "peanut butter",
+      "oil",
+      "ice"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 71,
+   "category": "how-to",
+   "prompt": "how long should you boil an egg",
+   "expect": {
+    "has": [
+     [
+      "minute"
+     ]
+    ],
+    "skill": "recipe"
+   }
+  },
+  {
+   "n": 72,
+   "category": "how-to",
+   "prompt": "how do i stop a nosebleed",
+   "expect": {
+    "has": [
+     [
+      "lean forward",
+      "pinch"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 73,
+   "category": "how-to",
+   "prompt": "how do you do cpr",
+   "expect": {
+    "has": [
+     [
+      "chest",
+      "compress",
+      "911"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 74,
+   "category": "how-to",
+   "prompt": "how much should i tip at a restaurant",
+   "expect": {
+    "has": [
+     [
+      "15",
+      "20"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 75,
+   "category": "how-to",
+   "prompt": "how do you get rid of hiccups",
+   "expect": {
+    "has": [
+     [
+      "breath",
+      "water",
+      "sugar"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 76,
+   "category": "how-to",
+   "prompt": "how do i save money",
+   "expect": {
+    "has": [
+     [
+      "budget",
+      "goal",
+      "jar",
+      "savings account"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 77,
+   "category": "tech",
+   "prompt": "how do i take a screenshot on windows",
+   "expect": {
+    "has": [
+     [
+      "prtscn",
+      "print screen",
+      "shift + s",
+      "snipping"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 78,
+   "category": "tech",
+   "prompt": "whats the shortcut to undo",
+   "expect": {
+    "has": [
+     [
+      "ctrl + z",
+      "ctrl+z",
+      "command + z",
+      "cmd + z"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 79,
+   "category": "tech",
+   "prompt": "how do i check my gpu temperature",
+   "expect": {
+    "has": [
+     [
+      "task manager",
+      "hwmonitor",
+      "afterburner",
+      "hwinfo",
+      "gpu-z"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 80,
+   "category": "tech",
+   "prompt": "what is ram",
+   "expect": {
+    "has": [
+     [
+      "memory"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 81,
+   "category": "tech",
+   "prompt": "why is my pc so slow",
+   "expect": {
+    "has": [
+     [
+      "startup",
+      "task manager",
+      "background",
+      "restart"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 82,
+   "category": "tech",
+   "prompt": "how do i update my graphics drivers",
+   "expect": {
+    "has": [
+     [
+      "driver"
+     ],
+     [
+      "nvidia",
+      "amd",
+      "intel",
+      "device manager",
+      "geforce",
+      "adrenalin"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 83,
+   "category": "tech",
+   "prompt": "how do i force quit an app on windows",
+   "expect": {
+    "has": [
+     [
+      "task manager",
+      "alt + f4",
+      "ctrl + shift + esc"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 84,
+   "category": "tech",
+   "prompt": "what does a cpu do",
+   "expect": {
+    "has": [
+     [
+      "instruction",
+      "brain",
+      "calculation"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 85,
+   "category": "games",
+   "prompt": "how much health does a creeper have",
+   "expect": {
+    "has": [
+     [
+      "20",
+      "10 hearts"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 86,
+   "category": "games",
+   "prompt": "how do you make a nether portal",
+   "expect": {
+    "has": [
+     [
+      "obsidian"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 87,
+   "category": "games",
+   "prompt": "what do you need to make a beacon in minecraft",
+   "expect": {
+    "has": [
+     [
+      "nether star"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 88,
+   "category": "games",
+   "prompt": "how do you tame a wolf in minecraft",
+   "expect": {
+    "has": [
+     [
+      "bone"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 89,
+   "category": "games",
+   "prompt": "what does the mending enchantment do",
+   "expect": {
+    "has": [
+     [
+      "experience",
+      "xp",
+      "durability",
+      "repair"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 90,
+   "category": "games",
+   "prompt": "what type is gengar",
+   "expect": {
+    "has": [
+     [
+      "ghost"
+     ],
+     [
+      "poison"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 91,
+   "category": "games",
+   "prompt": "what does pikachu evolve into",
+   "expect": {
+    "has": [
+     [
+      "raichu"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 92,
+   "category": "games",
+   "prompt": "what is robux",
+   "expect": {
+    "has": [
+     [
+      "currency",
+      "money"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 93,
+   "category": "cooking",
+   "prompt": "how many tablespoons are in a cup",
+   "expect": {
+    "has": [
+     [
+      "16"
+     ]
+    ],
+    "skill": "convert"
+   }
+  },
+  {
+   "n": 94,
+   "category": "cooking",
+   "prompt": "what can i use instead of eggs in baking",
+   "expect": {
+    "has": [
+     [
+      "banana",
+      "applesauce",
+      "flax"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 95,
+   "category": "cooking",
+   "prompt": "what temperature should chicken be cooked to",
+   "expect": {
+    "has": [
+     [
+      "165",
+      "74"
+     ]
+    ]
+   }
+  },
+  {
+   "n": 96,
+   "category": "unknown",
+   "prompt": "what's my teacher's name",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 97,
+   "category": "unknown",
+   "prompt": "how many pencils are in my backpack",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 98,
+   "category": "unknown",
+   "prompt": "what did my dog eat today",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 99,
+   "category": "unknown",
+   "prompt": "what game am i going to play tonight",
+   "expect": {
+    "unknown": true
+   }
+  },
+  {
+   "n": 100,
+   "category": "unknown",
+   "prompt": "where did i leave my headphones",
+   "expect": {
+    "unknown": true
+   }
+  }
+ ]
+}

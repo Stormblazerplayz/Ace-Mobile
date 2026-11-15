@@ -373,6 +373,8 @@ jobs:
           if [ -n "$SCORE" ]; then echo "::notice title=Ace smartness::${SCORE#*SMARTNESS }"; fi
           FRESH=$(grep -m1 'FRESH SCORE:' "$LOG" || true)
           if [ -n "$FRESH" ]; then echo "::notice title=Ace fresh questions::${FRESH#*FRESH }"; fi
+          KNOW=$(grep -m1 'KNOWLEDGE SCORE:' "$LOG" || true)
+          if [ -n "$KNOW" ]; then echo "::notice title=Ace knowledge questions::${KNOW#*KNOWLEDGE }"; fi
           {
             echo "## Ace smartness test"
             echo '```'
@@ -387,6 +389,10 @@ jobs:
             echo "## Fresh questions (never tuned on)"
             echo '```'
             grep 'FRESH' "$LOG" || echo "No score"
+            echo '```'
+            echo "## 100 knowledge questions (never tuned on)"
+            echo '```'
+            grep 'KNOWLEDGE' "$LOG" || echo "No score"
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
