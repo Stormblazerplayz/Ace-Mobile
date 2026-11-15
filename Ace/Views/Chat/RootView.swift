@@ -5,6 +5,7 @@ import UIKit
 /// The main screen: Ace's orb island at the top, the chat in the middle, and the message box at the bottom.
 struct RootView: View {
     @EnvironmentObject var core: AceCore
+    @ObservedObject private var voice = VoiceIn.shared
     @EnvironmentObject var settings: SettingsStore
     @State private var draft = ""
     @State private var showCalendar = false
@@ -81,11 +82,14 @@ struct RootView: View {
                     look: core.look,
                     eyeOpen: core.eyeOpen,
                     status: core.statusLine,
-                    maxExpandedWidth: geo.size.width
-                ) {
-                    // Tapping the orb opens Settings (there's no gear button any more).
-                    showSettings = true
-                }
+                    maxExpandedWidth: geo.size.width,
+                    level: voice.level,
+                    onTap: {
+                        // Tapping the orb opens Settings (there's no gear button any more).
+                        showSettings = true
+                    },
+                    onHold: { down in core.holdToTalk(down) }
+                )
             }
             .frame(width: geo.size.width, height: geo.size.height)
             .animation(.easeInOut(duration: 0.25), value: core.mood.expands)

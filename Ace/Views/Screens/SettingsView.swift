@@ -38,8 +38,12 @@ struct SettingsView: View {
                     Text("Sound effects follow your silent switch.")
                 }
 
-                Section("Voice") {
+                Section {
                     Toggle("Read replies out loud", isOn: $settings.speakReplies)
+                    Toggle("Listen for \"Hey Ace\"", isOn: Binding(
+                        get: { settings.heyAce },
+                        set: { on in _ = core.setHandsFree(on) }
+                    ))
                     Picker("Voice", selection: $settings.voiceID) {
                         Text("Default").tag("")
                         ForEach(voices, id: \.identifier) { v in
@@ -49,6 +53,10 @@ struct SettingsView: View {
                     Button("Hear it") {
                         VoiceOut.shared.speak("Hi! I'm Ace.", voiceID: settings.voiceID) { _ in }
                     }
+                } header: {
+                    Text("Voice")
+                } footer: {
+                    Text("Hold the orb to talk, and let go when you're done. With \"Hey Ace\" on, Ace listens while the app is open. Tap the orb for Settings.")
                 }
 
                 Section {

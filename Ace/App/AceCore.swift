@@ -1,3 +1,4 @@
+import Combine
 import SwiftUI
 import UIKit
 import WidgetKit
@@ -35,6 +36,8 @@ final class AceCore: ObservableObject, BrainHost {
     private var typing = false
     private let chatFile = "chat.json"
     private let checksFile = "checks.json"
+    private var voiceWatch: AnyCancellable?
+    private var holdDown = false
 
     init(settings: SettingsStore) {
         self.settings = settings
@@ -42,6 +45,69 @@ final class AceCore: ObservableObject, BrainHost {
         checkHistory = Persistence.load([CheckReport].self, from: checksFile) ?? []
         brain.host = self
         applySoundSettings()
+        setUpVoice()
+    }
+
+    // MARK: Talking to Ace
+
+    private func setUpVoice() {
+        let voice = VoiceIn.shared
+        voice.onCommand = { [weak self] text in self?.send(text) }
+        voiceWatch = voice.$state.combineLatest(voice.$heard)
+            .receive(on: RunLoop.main)
+            .sink { [weak self] state, heard in self?.voiceChanged(state, heard: heard) }
+    }
+
+    private func voiceChanged(_ state: VoiceIn.State, heard: String) {
+        switch state {
+        case .holding, .hearingCommand:
+            if mood != .listening { setMood(.listening) }
+            statusLine = heard.isEmpty ? "Listening" : heard
+        case .waitingForWakeWord, .off:
+            if mood == .listening && !busy {
+                setMood(.idle)
+                statusLine = "Ready"
+            }
+        }
+    }
+
+    /// You pressed and held the orb (down), or let go (up).
+    func holdToTalk(_ down: Bool) {
+        holdDown = down
+        if down {
+            noteInteraction()
+            SoundFX.shared.play(.orbWake, gain: 0.7)
+            Haptics.shared.play(.pop)
+            Task {
+                let started = await VoiceIn.shared.startHold()
+                if !started {
+                    messages.append(ChatMessage(speaker: .ace, text: Say.line(.voiceNoPermission), source: "voice"))
+                    saveChat()
+                    setMood(.alert, thenIdleAfter: 2.5)
+                } else if !holdDown {
+                    // You let go before the microphone was ready.
+                    finishHold()
+                }
+            }
+        } else {
+            finishHold()
+        }
+    }
+
+    private func finishHold() {
+        guard VoiceIn.shared.state == .holding else { return }
+        Task {
+            let text = await VoiceIn.shared.endHold()
+            if text.isEmpty {
+                SoundFX.shared.play(.blink, gain: 0.6)
+                let line = Say.line(.voiceDidntHear)
+                statusLine = line
+                try? await Task.sleep(nanoseconds: 2_500_000_000)
+                if statusLine == line { statusLine = "Ready" }
+            } else {
+                send(text)
+            }
+        }
     }
 
     var latestCheck: CheckReport? { checkHistory.first }
@@ -58,6 +124,11 @@ final class AceCore: ObservableObject, BrainHost {
         noteInteraction()
         CalendarService.shared.refreshStatus()
         scheduleWake()
+        if settings.heyAce && !handsFree {
+            _ = setHandsFree(true)
+        } else {
+            VoiceIn.shared.appActive(true)
+        }
         let today = Persistence.dayKey()
         if settings.lastGreetingDay != today {
             settings.lastGreetingDay = today
@@ -71,6 +142,7 @@ final class AceCore: ObservableObject, BrainHost {
         SoundFX.shared.stopLoop()
         saveChat()
         BackgroundWake.schedule()
+        VoiceIn.shared.appActive(false)
     }
 
     func noteInteraction() {
@@ -145,6 +217,7 @@ final class AceCore: ObservableObject, BrainHost {
         guard settings.speakReplies || handsFree else { return }
         VoiceOut.shared.speak(text, voiceID: settings.voiceID) { [weak self] speaking in
             guard let self else { return }
+            VoiceIn.shared.aceSpeaking(speaking)
             if speaking { self.setMood(.talking) } else if !self.busy { self.setMood(.idle) }
         }
     }
@@ -425,7 +498,18 @@ final class AceCore: ObservableObject, BrainHost {
     var pcPaired: Bool { false }
 
     func setHandsFree(_ on: Bool) -> String {
-        "Hands-free mode is coming in the next update. For now, tap the mic on the keyboard to talk."
+        settings.heyAce = on
+        handsFree = on
+        Task {
+            let ok = await VoiceIn.shared.setHandsFree(on)
+            if !ok {
+                settings.heyAce = false
+                handsFree = false
+                messages.append(ChatMessage(speaker: .ace, text: Say.line(.voiceNoPermission), source: "voice"))
+                saveChat()
+            }
+        }
+        return Say.line(on ? .heyAceOn : .heyAceOff)
     }
 
     func pcCommand(_ action: String, target: String?) async -> (ok: Bool, detail: String) {
