@@ -1,6 +1,6 @@
 import Foundation
 
-/// Splits Lua or C++ code into colored pieces: keywords, strings, comments, numbers and well-known names.
+/// Splits Lua, C++, Python or Swift code into colored pieces: keywords, strings, comments, numbers and well-known names.
 /// No UI here, so the tests can check it.
 enum CodeHighlighter {
     enum Kind: Equatable {
@@ -35,11 +35,45 @@ enum CodeHighlighter {
         "FRotator", "AActor", "ACharacter", "UStaticMeshComponent", "UBoxComponent", "TEXT", "UE_LOG", "main",
     ]
 
+    static let pythonKeywords: Set<String> = [
+        "False", "None", "True", "and", "as", "assert", "async", "await", "break", "class", "continue", "def", "del",
+        "elif", "else", "except", "finally", "for", "from", "global", "if", "import", "in", "is", "lambda", "nonlocal",
+        "not", "or", "pass", "raise", "return", "try", "while", "with", "yield",
+    ]
+    static let pythonBuiltins: Set<String> = [
+        "print", "input", "len", "range", "int", "str", "float", "bool", "list", "dict", "set", "tuple", "open", "sorted",
+        "sum", "min", "max", "abs", "round", "enumerate", "zip", "type", "isinstance", "random", "time", "math", "os",
+        "json", "turtle", "self", "__name__", "__init__", "append", "split", "join", "format", "GPIO",
+    ]
+    static let swiftKeywords: Set<String> = [
+        "actor", "as", "async", "await", "break", "case", "catch", "class", "continue", "default", "defer", "do", "else",
+        "enum", "extension", "false", "fileprivate", "for", "func", "guard", "if", "import", "in", "init", "inout",
+        "internal", "is", "lazy", "let", "mutating", "nil", "open", "private", "protocol", "public", "repeat", "return",
+        "self", "Self", "some", "static", "struct", "subscript", "super", "switch", "throw", "throws", "true", "try",
+        "var", "weak", "where", "while", "any",
+    ]
+    static let swiftBuiltins: Set<String> = [
+        "print", "String", "Int", "Double", "Float", "Bool", "Array", "Dictionary", "Set", "Character", "View", "Text",
+        "Button", "VStack", "HStack", "ZStack", "Image", "List", "ForEach", "NavigationStack", "State", "Binding",
+        "Color", "Spacer", "TextField", "Toggle", "Slider", "App", "Scene", "WindowGroup", "ContentView", "Date",
+        "Timer", "withAnimation", "Identifiable", "Codable", "UUID", "Task", "Preview", "body",
+    ]
+
     /// The colored pieces of the code. Joining every piece's text gives back the code exactly.
     static func pieces(_ code: String, language: String) -> [Piece] {
         let lua = language == "Lua"
-        let keywords = lua ? luaKeywords : cppKeywords
-        let builtins = lua ? luaBuiltins : cppBuiltins
+        let python = language == "Python"
+        let swift = language == "Swift"
+        // C++ and Swift share // and /* */ comments.
+        let cStyle = !lua && !python
+        let keywords: Set<String>
+        let builtins: Set<String>
+        switch language {
+        case "Lua": keywords = luaKeywords; builtins = luaBuiltins
+        case "Python": keywords = pythonKeywords; builtins = pythonBuiltins
+        case "Swift": keywords = swiftKeywords; builtins = swiftBuiltins
+        default: keywords = cppKeywords; builtins = cppBuiltins
+        }
         let chars = Array(code)
         var out: [Piece] = []
         var plain = ""
@@ -82,19 +116,26 @@ enum CodeHighlighter {
             if lua, starts("--", at: i) {
                 let e = lineEnd(from: i); add(String(chars[i..<e]), .comment); i = e; continue
             }
-            if !lua, starts("//", at: i) {
+            if python, c == "#" {
                 let e = lineEnd(from: i); add(String(chars[i..<e]), .comment); i = e; continue
             }
-            if !lua, starts("/*", at: i) {
+            if cStyle, starts("//", at: i) {
+                let e = lineEnd(from: i); add(String(chars[i..<e]), .comment); i = e; continue
+            }
+            if cStyle, starts("/*", at: i) {
                 let e = upTo("*/", from: i + 2); add(String(chars[i..<e]), .comment); i = e; lineStart = false; continue
             }
             // #include and friends
-            if !lua, c == "#", lineStart {
+            if cStyle, !swift, c == "#", lineStart {
                 let e = lineEnd(from: i); add(String(chars[i..<e]), .preprocessor); i = e; continue
             }
             // Strings
             if lua, starts("[[", at: i) {
                 let e = upTo("]]", from: i + 2); add(String(chars[i..<e]), .string); i = e; lineStart = false; continue
+            }
+            if python || swift, starts("\"\"\"", at: i) || (python && starts("'''", at: i)) {
+                let quote = String(chars[i..<(i + 3)])
+                let e = upTo(quote, from: i + 3); add(String(chars[i..<e]), .string); i = e; lineStart = false; continue
             }
             if c == "\"" || c == "'" || (lua && c == "`") {
                 var k = i + 1

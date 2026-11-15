@@ -1,9 +1,18 @@
 import SwiftUI
 
-/// Settings > Scripts: every built-in Roblox Lua and C++ script, by category, with search.
+/// Settings > Scripts: every built-in Roblox Lua, C++, Python and Swift script, by category, with search.
 struct ScriptsView: View {
     @State private var language = "Lua"
     @State private var search = ""
+
+    static func footer(_ language: String) -> String {
+        switch language {
+        case "Lua": return "Scripts for Roblox Studio. Each one says where to put it."
+        case "Python": return "Console games, turtle drawings, handy tools and Raspberry Pi programs."
+        case "Swift": return "SwiftUI views and small apps for Xcode or Swift Playgrounds."
+        default: return "Arduino sketches, console games, C++ basics and Unreal Engine classes."
+        }
+    }
 
     private var matches: [ScriptLibrary.Script] {
         let q = search.trimmingCharacters(in: .whitespaces).lowercased()
@@ -21,12 +30,12 @@ struct ScriptsView: View {
                 Picker("Language", selection: $language) {
                     Text("Roblox Lua").tag("Lua")
                     Text("C++").tag("C++")
+                    Text("Python").tag("Python")
+                    Text("Swift").tag("Swift")
                 }
                 .pickerStyle(.segmented)
             } footer: {
-                Text(language == "Lua"
-                     ? "Scripts for Roblox Studio. Each one says where to put it."
-                     : "Arduino sketches, console games, C++ basics and Unreal Engine classes.")
+                Text(Self.footer(language))
             }
 
             let shown = matches

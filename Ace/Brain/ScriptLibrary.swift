@@ -1,13 +1,14 @@
 import Foundation
 
-/// Ace's built-in code library: Roblox Lua scripts (kill bricks, moving parts, doors, shops...)
-/// and C++ (Arduino, console games, basics, Unreal Engine). It all works with no internet.
+/// Ace's built-in code library: Roblox Lua scripts (kill bricks, moving parts, doors, shops...),
+/// C++ (Arduino, console games, basics, Unreal Engine), Python (console games, turtle drawing, tools,
+/// Raspberry Pi) and Swift (SwiftUI views and apps). It all works with no internet.
 /// The scripts live in tools/scripts and are bundled as scripts.json by tools/build_scripts.py.
 enum ScriptLibrary {
     struct Script: Decodable, Identifiable, Equatable {
         let id: String
         let title: String
-        let language: String   // "Lua" or "C++"
+        let language: String   // "Lua", "C++", "Python" or "Swift"
         let category: String
         let kind: String       // "Script", "LocalScript", "Arduino sketch", "Unreal C++ class"...
         let `where`: String
@@ -29,7 +30,7 @@ enum ScriptLibrary {
         return file.scripts
     }()
 
-    static let languages = ["Lua", "C++"]
+    static let languages = ["Lua", "C++", "Python", "Swift"]
 
     /// Categories for a language, in the library's order.
     static func categories(_ language: String) -> [String] {
@@ -47,11 +48,22 @@ enum ScriptLibrary {
     a an the for in of to i my that this it is and on with can you please how do does what some one which when so be \
     will would like just into from your me give show write make makes making need want get send script scripts code \
     coding program programs sketch sketches example examples lua luau roblox c++ cpp arduino unreal ue5 ue4 engine \
+    python py swift swiftui xcode \
     studio simple basic easy good cool little small quick new about using use are there any have has where put
     """.split(whereSeparator: { $0 == " " || $0 == "\n" }).map(String.init))
 
     private static let cppWords: Set<String> = ["c++", "cpp", "arduino", "unreal", "ue5", "ue4"]
     private static let luaWords: Set<String> = ["lua", "luau", "roblox"]
+    private static let pythonWords: Set<String> = ["python", "py"]
+    private static let swiftWords: Set<String> = ["swift", "swiftui", "xcode"]
+
+    /// The language a word names ("roblox" -> Lua, "py" -> Python, "swiftui" -> Swift, anything else -> C++).
+    static func language(of word: String) -> String {
+        if luaWords.contains(word) { return "Lua" }
+        if pythonWords.contains(word) { return "Python" }
+        if swiftWords.contains(word) { return "Swift" }
+        return "C++"
+    }
 
     /// A light word stem so "spinning", "spins" and "spin" match: drops s, ing and a final e.
     static func stem(_ word: String) -> String {
@@ -89,9 +101,13 @@ enum ScriptLibrary {
         let set = Set(words)
         var language: String?
         if !set.isDisjoint(with: cppWords) || (set.contains("c") && set.contains("plu")) { language = "C++" }
+        else if !set.isDisjoint(with: pythonWords) || set.contains("raspberry") { language = "Python" }
+        else if !set.isDisjoint(with: swiftWords) { language = "Swift" }
         else if !set.isDisjoint(with: luaWords) { language = "Lua" }
         var category: String?
         if set.contains("arduino") { category = "Arduino" }
+        else if set.contains("raspberry") { category = "Raspberry Pi" }
+        else if set.contains("turtle") { category = "Drawing" }
         else if !set.isDisjoint(with: ["unreal", "ue5", "ue4"]) { category = "Unreal Engine" }
         return (language, category)
     }
@@ -152,7 +168,7 @@ enum ScriptLibrary {
 
     // MARK: Is this a code question?
 
-    private static let codeWord = #"(?<![a-z])(scripts?|code|coding|program|programs|sketch|sketches|lua|luau|c\+\+|cpp|arduino|unreal|ue5|ue4|roblox)(?![a-z+])"#
+    private static let codeWord = #"(?<![a-z])(scripts?|code|coding|program|programs|sketch|sketches|lua|luau|c\+\+|cpp|arduino|unreal|ue5|ue4|roblox|python|py|swift|swiftui)(?![a-z+])"#
     private static let askWord = #"\b(give|show|write|make|need|want|get|send|got|have you got|can you|could you|how do i|how to|code for|script for|script that|script to|scripts? for|i need)\b"#
 
     /// True when the text asks for one of Ace's scripts. Questions like "what is lua" stay with the answer bank.
@@ -167,10 +183,10 @@ enum ScriptLibrary {
         return hints(words).language != nil || asks || m.phrase || short
     }
 
-    /// "what scripts do you have", "show me your roblox scripts", "list c++ code". Returns the language, or "" for both.
+    /// "what scripts do you have", "show me your roblox scripts", "list c++ code". Returns the language, or "" for all.
     static func listAsk(_ text: String) -> String? {
         let t = TextKit.normalize(text)
-        let lang = #"(?:(lua|luau|roblox|c\+\+|cpp|arduino|unreal)\s+)?"#
+        let lang = #"(?:(lua|luau|roblox|c\+\+|cpp|arduino|unreal|python|py|swift|swiftui)\s+)?"#
         let things = #"(?:scripts|code|programs|sketches|code examples)"#
         let patterns = [
             #"^(?:what|which)\s+(?:kinds? of\s+)?"# + lang + things + #"\s+(?:do you have|do you know|can you (?:give me|write|make)|are there|have you got)$"#,
@@ -182,7 +198,7 @@ enum ScriptLibrary {
             if let g = Rx.groups(p, t) {
                 let word = g.first ?? ""
                 if word.isEmpty { return "" }
-                return ["lua", "luau", "roblox"].contains(word) ? "Lua" : "C++"
+                return language(of: word)
             }
         }
         return nil
@@ -191,11 +207,11 @@ enum ScriptLibrary {
     /// "give me a script", "can you write me a roblox script": a script, but not which one. Returns the language, or "" for any.
     static func needsOne(_ text: String) -> String? {
         let t = TextKit.normalize(text)
-        let p = #"^(?:please\s+)?(?:give me|write me|make me|send me|show me|i want|i need|can you (?:give me|write|make|send)(?: me)?|could you (?:give me|write|make)(?: me)?)\s+(?:a|an|some|one)\s+(?:(lua|luau|roblox|c\+\+|cpp|arduino|unreal)\s+)?(?:script|code|program|sketch)s?(?:\s+please)?$"#
+        let p = #"^(?:please\s+)?(?:give me|write me|make me|send me|show me|i want|i need|can you (?:give me|write|make|send)(?: me)?|could you (?:give me|write|make)(?: me)?)\s+(?:a|an|some|one)\s+(?:(lua|luau|roblox|c\+\+|cpp|arduino|unreal|python|py|swift|swiftui)\s+)?(?:script|code|program|sketch)s?(?:\s+please)?$"#
         guard let g = Rx.groups(p, t) else { return nil }
         let word = g.first ?? ""
         if word.isEmpty { return "" }
-        return ["lua", "luau", "roblox"].contains(word) ? "Lua" : "C++"
+        return language(of: word)
     }
 
     /// The name Ace says out loud: "Kill Volume (Kill Brick)" -> "kill volume", "Classes and Objects: a Pet" -> "classes and objects".

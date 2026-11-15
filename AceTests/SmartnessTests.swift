@@ -39,6 +39,7 @@ final class SmartnessTests: XCTestCase {
         let file = try loadCases()
         XCTAssertEqual(file.cases.count, 300)
         let brain = Brain()
+        brain.bank.loadKnowledgeNow()
         for c in file.cases {
             let norm = TextKit.normalize(c.prompt)
             if let hit = brain.bank.search(c.prompt).first, hit.wording == norm, hit.semantic == nil, hit.score >= 1 {
@@ -50,6 +51,7 @@ final class SmartnessTests: XCTestCase {
     func testSmartness() throws {
         let file = try loadCases()
         let brain = Brain()
+        brain.bank.loadKnowledgeNow()
         var score = 0
         var perCategory: [String: (right: Int, total: Int)] = [:]
         var misses: [String] = []

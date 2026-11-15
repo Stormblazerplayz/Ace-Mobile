@@ -3,7 +3,8 @@
 Run from the repo root:   python3 tools/build_scripts.py
 Check only (for CI):      python3 tools/build_scripts.py --check
 
-Every script lives in tools/scripts/lua/*.lua or tools/scripts/cpp/*.cpp|*.ino and starts with a header:
+Every script lives in tools/scripts/lua/*.lua, tools/scripts/cpp/*.cpp|*.ino, tools/scripts/python/*.py or
+tools/scripts/swift/*.swift and starts with a header (# for Python, // for C++ and Swift):
     -- @title Kill brick            (or // @title for C++)
     -- @category Obstacles
     -- @kind Script
@@ -24,14 +25,19 @@ OUT = os.path.join(ROOT, "Ace", "Resources", "scripts.json")
 TAGS = ["title", "category", "kind", "where", "keywords", "about"]
 CATEGORIES = {
     "Lua": {"Obstacles", "Moving parts", "Players", "Pickups and money", "Doors and buttons", "World and effects",
-            "Tools and combat", "GUI", "Game rounds"},
-    "C++": {"Arduino", "Games", "Basics", "Unreal Engine"},
+            "Tools and combat", "GUI", "Game rounds", "Saving data", "NPCs and AI", "Vehicles", "Sound",
+            "Chat and admin", "Teams", "Camera", "Leaderboards"},
+    "C++": {"Arduino", "Games", "Basics", "Unreal Engine", "Data structures", "Math and school"},
+    "Python": {"Basics", "Games", "Tools", "Math and school", "Files and data", "Drawing", "Raspberry Pi"},
+    "Swift": {"Swift basics", "SwiftUI basics", "SwiftUI apps", "Games"},
 }
-KINDS = {"Lua": {"Script", "LocalScript", "ModuleScript"}, "C++": {"Arduino sketch", "Console program", "Unreal C++ class"}}
+KINDS = {"Lua": {"Script", "LocalScript", "ModuleScript"}, "C++": {"Arduino sketch", "Console program", "Unreal C++ class"},
+         "Python": {"Console program", "Turtle program", "Module"}, "Swift": {"SwiftUI view", "Swift program"}}
+PREFIX = {"Lua": "--", "C++": "//", "Python": "#", "Swift": "//"}
 
 
 def read(path, language):
-    prefix = "--" if language == "Lua" else "//"
+    prefix = PREFIX[language]
     lines = open(path, encoding="utf-8").read().replace("\r\n", "\n").split("\n")
     meta, errors = {}, []
     for i, tag in enumerate(TAGS):
@@ -74,6 +80,8 @@ def build():
     scripts, problems = [], []
     files = [(p, "Lua") for p in sorted(glob.glob(os.path.join(HERE, "scripts", "lua", "*.lua")))]
     files += [(p, "C++") for p in sorted(glob.glob(os.path.join(HERE, "scripts", "cpp", "*.cpp")) + glob.glob(os.path.join(HERE, "scripts", "cpp", "*.ino")))]
+    files += [(p, "Python") for p in sorted(glob.glob(os.path.join(HERE, "scripts", "python", "*.py")))]
+    files += [(p, "Swift") for p in sorted(glob.glob(os.path.join(HERE, "scripts", "swift", "*.swift")))]
     for path, language in files:
         s, errors = read(path, language)
         rel = os.path.relpath(path, ROOT)
@@ -86,16 +94,18 @@ def build():
             problems.append(f"two scripts have the id {s['id']}")
         seen_ids[s["id"]] = True
         for k in s["keywords"]:
-            if k in seen_kw:
-                problems.append(f"keyword {k!r} is in both {seen_kw[k]} and {s['id']}")
-            seen_kw[k] = s["id"]
+            key = (s["language"], k)
+            if key in seen_kw:
+                problems.append(f"keyword {k!r} is in both {seen_kw[key]} and {s['id']}")
+            seen_kw[key] = s["id"]
     lua = sum(1 for s in scripts if s["language"] == "Lua")
     cpp = len(scripts) - lua
     if lua < 25:
         problems.append(f"only {lua} Lua scripts (need at least 25)")
     if cpp < 20:
         problems.append(f"only {cpp} C++ scripts (need at least 20)")
-    scripts.sort(key=lambda s: (s["language"] != "Lua", s["category"], s["title"].lower()))
+    order = {"Lua": 0, "C++": 1, "Python": 2, "Swift": 3}
+    scripts.sort(key=lambda s: (order[s["language"]], s["category"], s["title"].lower()))
     return {"format": "ace-scripts/1", "count": len(scripts), "scripts": scripts}, problems
 
 

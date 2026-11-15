@@ -238,7 +238,7 @@ struct MemorySection: View {
                     Label("Scripts", systemImage: "chevron.left.forwardslash.chevron.right")
                 }
             }
-            LabeledContent("Answers I know", value: "\(bank.entries.count)")
+            LabeledContent("Answers I know", value: "\(bank.entries.count + bank.knowledgeCount)")
             LabeledContent("Answers I learned", value: "\(max(0, bank.entries.count - bank.builtinCount))")
         } header: {
             Text("What Ace remembers")

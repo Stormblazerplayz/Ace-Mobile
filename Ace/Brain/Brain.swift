@@ -707,14 +707,14 @@ final class Brain {
         var words = norm.split(separator: " ").map(String.init)
         for i in words.indices {
             let w = words[i]
-            guard w.count >= 4, w.allSatisfy({ $0.isLetter }), !Self.ruleWords.contains(w), bank.wordFrequency(w) == 0,
+            guard w.count >= 4, w.allSatisfy({ $0.isLetter }), !Self.ruleWords.contains(w), bank.spellingFrequency(w) == 0,
                   !TextKit.stopwords.contains(w) else { continue }
             let maxDistance = w.count >= 8 ? 2 : 1
             var found: [String: (d: Int, f: Int)] = [:]
             for candidate in bank.vocabulary(near: w) + Self.ruleWords.filter({ abs($0.count - w.count) <= maxDistance }) {
                 let d = TextKit.editDistance(w, candidate, limit: maxDistance)
                 guard d <= maxDistance else { continue }
-                found[candidate] = (d, max(1, bank.wordFrequency(candidate)) + (Self.ruleWords.contains(candidate) ? 50 : 0))
+                found[candidate] = (d, max(1, bank.spellingFrequency(candidate)) + (Self.ruleWords.contains(candidate) ? 50 : 0))
             }
             guard let closest = found.values.map({ $0.d }).min() else { continue }
             let close = found.filter { $0.value.d == closest }.sorted { $0.value.f > $1.value.f }.prefix(6).map { $0.key }
@@ -825,7 +825,7 @@ final class Brain {
             .replacingOccurrences(of: " ,", with: ",").replacingOccurrences(of: " !", with: "!")
             .replacingOccurrences(of: "  ", with: " ")
         lastTopic = Summarizer.topic(of: m.wording)
-        let source = e.source == "builtin" || e.source == nil ? "answer bank" : "learned"
+        let source = e.source == "builtin" || e.source == "pack" || e.source == nil ? "answer bank" : "learned"
         return BrainReply(text: text, source: source)
     }
 

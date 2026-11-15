@@ -33,6 +33,7 @@ final class KnowledgeTests: XCTestCase {
         let file = try JSONDecoder().decode(CaseFile.self, from: Data(contentsOf: url))
         XCTAssertEqual(file.cases.count, 100)
         let brain = Brain()
+        brain.bank.loadKnowledgeNow()
         var score = 0
         var perCategory: [String: (right: Int, total: Int)] = [:]
         var misses: [String] = []
