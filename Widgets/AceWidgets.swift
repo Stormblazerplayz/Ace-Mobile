@@ -6,6 +6,7 @@ import WidgetKit
 struct AceWidgetBundle: WidgetBundle {
     var body: some Widget {
         AceOrbWidget()
+        KitchenTimerLiveActivity()
     }
 }
 

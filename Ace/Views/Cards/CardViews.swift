@@ -49,6 +49,7 @@ struct RecipeCardView: View {
     @EnvironmentObject var core: AceCore
     @State private var checked: Set<Int> = []
     @State private var showAllSteps = false
+    @State private var cooking = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -68,6 +69,8 @@ struct RecipeCardView: View {
             HStack(spacing: 6) {
                 if let c = recipe.category { Chip(text: c) }
                 if let a = recipe.area { Chip(text: a) }
+                if let time = recipe.time { Chip(text: time) }
+                if let n = recipe.servings { Chip(text: "Serves \(n)") }
                 Chip(text: "\(recipe.ingredients.count) ingredients")
             }
             Text("Ingredients")
@@ -104,9 +107,14 @@ struct RecipeCardView: View {
                             .frame(width: 22, height: 22)
                             .background(Circle().fill(AceTheme.amber.opacity(0.25)))
                             .foregroundStyle(AceTheme.amber)
-                        Text(step)
-                            .foregroundStyle(AceTheme.fg)
-                            .fixedSize(horizontal: false, vertical: true)
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text(step)
+                                .foregroundStyle(AceTheme.fg)
+                                .fixedSize(horizontal: false, vertical: true)
+                            if let found = StepTimer.find(in: step) {
+                                StepTimerButton(recipe: recipe.name, found: found)
+                            }
+                        }
                     }
                 }
             }
@@ -127,8 +135,21 @@ struct RecipeCardView: View {
             }
             .font(.subheadline)
             .tint(AceTheme.ace)
+            if !recipe.steps.isEmpty {
+                Button {
+                    cooking = true
+                    SoundFX.shared.play(.orbWake, gain: 0.6)
+                } label: {
+                    Label("Start cooking", systemImage: "frying.pan.fill")
+                        .font(.headline)
+                        .frame(maxWidth: .infinity, minHeight: 48)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(AceTheme.amber)
+            }
         }
         .aceCard()
+        .fullScreenCover(isPresented: $cooking) { CookingModeView(recipe: recipe) }
     }
 }
 

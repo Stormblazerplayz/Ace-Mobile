@@ -129,6 +129,7 @@ final class AceCore: ObservableObject, BrainHost {
         } else {
             VoiceIn.shared.appActive(true)
         }
+        KitchenTimers.shared.refresh()
         let today = Persistence.dayKey()
         if settings.lastGreetingDay != today {
             settings.lastGreetingDay = today

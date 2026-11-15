@@ -24,6 +24,10 @@ struct RecipeCard: Codable, Equatable {
     var ingredients: [String]
     var steps: [String]
     var sourceURL: URL?
+    var servings: Int? = nil
+    var time: String? = nil
+    /// True for recipes from Ace's own recipe book (they work with no internet).
+    var builtIn: Bool? = nil
 }
 
 struct WeatherCard: Codable, Equatable {

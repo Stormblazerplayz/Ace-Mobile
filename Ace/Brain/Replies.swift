@@ -68,6 +68,9 @@ enum ReplyKey: String, CaseIterable {
     case focusDone
     case focusStopped
     case focusLeft
+    case recipeIdeas
+    case recipeNoIdeas
+    case recipeIdea
     case nextUp
     case noNameYet
     case noPhoto

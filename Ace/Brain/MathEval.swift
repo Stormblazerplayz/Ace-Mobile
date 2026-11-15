@@ -352,6 +352,17 @@ enum Rx {
         return out
     }
 
+    /// The capture groups of every match, in order.
+    static func allGroups(_ pattern: String, _ text: String) -> [[String]] {
+        guard let re = try? NSRegularExpression(pattern: pattern, options: [.caseInsensitive]) else { return [] }
+        let range = NSRange(text.startIndex..., in: text)
+        return re.matches(in: text, range: range).map { m in
+            (1..<max(1, m.numberOfRanges)).map { i in
+                Range(m.range(at: i), in: text).map { String(text[$0]) } ?? ""
+            }
+        }
+    }
+
     static func matches(_ pattern: String, _ text: String) -> Bool {
         text.range(of: pattern, options: [.regularExpression, .caseInsensitive]) != nil
     }

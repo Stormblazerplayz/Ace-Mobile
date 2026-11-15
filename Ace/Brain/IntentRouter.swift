@@ -255,12 +255,31 @@ enum IntentRouter {
             return .calendarAdd(text: raw)
         }
 
-        // Recipes and weather
-        if let g = Rx.groups(#"(?:recipe|recipes) (?:for|of|with)\s+(.+)$"#, t) { return .recipe(g[0]) }
-        if let g = Rx.groups(#"^(?:give me |show me |find |get )?(?:a |an )?(.+?) recipes?$"#, t) { return .recipe(g[0]) }
-        if let g = Rx.groups(#"^how (?:do i|do you|to|can i) (?:cook|bake|grill|roast|fry)\s+(?:a |an |some )?(.+)$"#, t) { return .recipe(g[0]) }
-        if let g = Rx.groups(#"^what (?:can|should) i (?:cook|make for (?:dinner|lunch|breakfast)|eat)(?: with (.+))?$"#, t) {
-            return .recipe(g[0].isEmpty ? "chicken" : g[0])
+        // Recipes ("with eggs and cheese" asks for ideas, "idea dinner" asks for any idea)
+        if let g = Rx.groups(#"^(?:so |ok |okay )?what (?:can|could|should) (?:i|we) (?:make|cook|bake|eat|have)(?: for (?:dinner|lunch|breakfast|dessert|a snack|snack))? (?:with|using|out of|from)\s+(.+)$"#, t)
+            ?? Rx.groups(#"^(?:give me |show me |find |suggest |any |got any )?(?:a |some )?(?:recipes?|meals?|dishes|food|ideas?) (?:i can make |to make |i can cook |to cook )?(?:with|using)\s+(.+)$"#, t)
+            ?? Rx.groups(#"^i (?:have|got|only have)\s+(.+?) what (?:can|should|could) i (?:make|cook|bake)$"#, t) {
+            return .recipe("with " + g[0])
+        }
+        if let g = Rx.groups(#"^what (?:can|should|could) (?:i|we) (?:cook|make|bake|eat|have)(?: for (dinner|lunch|breakfast|dessert|a snack|snack|tonight|today))?$"#, t) {
+            return .recipe("idea " + g[0])
+        }
+        if let g = Rx.groups(#"^(?:give me |tell me |show me |suggest |i want |i need |find me )?(?:a |some |any )?(?:random |good |easy |new |yummy )?(dinner |lunch |breakfast |dessert |snack )?(?:recipe|recipes|recipe ideas?|meal ideas?)$"#, t) {
+            return .recipe("idea " + g[0].trimmingCharacters(in: .whitespaces))
+        }
+        if let g = Rx.groups(#"^(?:any |some |got any |give me |i need )?(dinner|lunch|breakfast|dessert|snack|meal|food|cooking|baking) ideas?$"#, t) {
+            return .recipe("idea " + g[0])
+        }
+        if let g = Rx.groups(#"(?:recipe|recipes) (?:for|of)\s+(?:a |an |some |the )?(.+)$"#, t) { return .recipe(g[0]) }
+        if let g = Rx.groups(#"^(?:give me |show me |find |get |find me )?(?:a |an |the )?(.+?) recipes?$"#, t),
+           !Rx.matches(#"^(what|who|why|how|is|are|do|does|did|can|where|when|which)\b"#, g[0]) { return .recipe(g[0]) }
+        if let g = Rx.groups(#"^(?:how (?:do i|do you|to|can i|would i|should i)|i want to|lets|let us|teach me (?:how )?to|can you teach me (?:how )?to|help me|show me how to) (?:cook|bake|grill|roast|fry)\s+(?:a |an |some |the )?(.+?)(?: please| at home| from scratch)?$"#, t) {
+            return .recipe(g[0])
+        }
+        // "make" is used for lots of things ("make a crafting table"), so only known dishes count.
+        if let g = Rx.groups(#"^(?:how (?:do i|do you|to|can i|would i|should i) make|i want to make|lets make|let us make|teach me (?:how )?to make|can you teach me (?:how )?to make|help me make|show me how to make)\s+(?:a |an |some |the |homemade )?(.+?)(?: please| at home| from scratch)?$"#, t),
+           RecipeBook.knows(g[0]) {
+            return .recipe(g[0])
         }
         if Rx.matches(#"\b(weather|forecast|temperature outside|how (hot|cold) is it|will it (rain|snow)|is it (raining|snowing)|umbrella)\b"#, t) {
             if let g = Rx.groups(#"\b(?:in|for|at)\s+([a-z][a-z .'\-]+?)(?:\s+(?:today|tomorrow|this week|right now|now))?$"#, t),
