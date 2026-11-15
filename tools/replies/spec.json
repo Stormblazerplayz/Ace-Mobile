@@ -832,5 +832,31 @@
   "opt": [],
   "orig": "{time} left in your focus session.",
   "note": "How long is left. {time} is like '12 minutes'."
+ },
+ "recipeIdeas": {
+  "req": [
+   "items",
+   "dishes",
+   "first"
+  ],
+  "opt": [],
+  "orig": "With {items} you could make {dishes}. Here's {first}.",
+  "note": "{dishes} is a list like 'omelette, quesadilla or mac and cheese'"
+ },
+ "recipeNoIdeas": {
+  "req": [
+   "items"
+  ],
+  "opt": [],
+  "orig": "I don't have a recipe that uses {items} yet. Try naming a dish, like \"recipe for pancakes\".",
+  "note": ""
+ },
+ "recipeIdea": {
+  "req": [
+   "name"
+  ],
+  "opt": [],
+  "orig": "How about {name}? Here's how to make it.",
+  "note": ""
  }
 }

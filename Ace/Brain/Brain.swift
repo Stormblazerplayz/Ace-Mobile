@@ -796,6 +796,35 @@ final class Brain {
             return BrainReply(text: Say.line(.searchTab, ["site": site.flatMap { Sites.lookup($0)?.name } ?? "the web", "query": query]), cards: [.links([LinkItem(title: link.title, url: link.url)])])
 
         case .recipe(let dish):
+            // "with eggs and cheese": ideas from Ace's recipe book.
+            if dish.hasPrefix("with ") {
+                let items = RecipeBook.splitItems(String(dish.dropFirst(5)))
+                let list = TextKit.joinList(items)
+                await think("Looking for recipes with \(list)")
+                let ideas = RecipeBook.ideas(with: items)
+                guard let first = ideas.first else {
+                    return BrainReply(text: Say.line(.recipeNoIdeas, ["items": list]), mood: .idle)
+                }
+                lastTopic = first.entry.name
+                let names = TextKit.joinList(ideas.map { $0.entry.name.lowercased() }, last: "or")
+                return BrainReply(text: TextKit.capitalizeFirst(Say.line(.recipeIdeas, ["items": list, "dishes": names, "first": first.entry.name])),
+                                  cards: [.recipe(first.entry.card)], source: "Ace's recipe book")
+            }
+            // "what should I make for dinner": any idea.
+            if dish.hasPrefix("idea") {
+                let meal = dish.dropFirst(4).trimmingCharacters(in: .whitespaces)
+                guard let pick = RecipeBook.suggestion(for: meal) else {
+                    return BrainReply(text: Say.line(.recipeNotFound, ["dish": meal.isEmpty ? "that" : meal]), mood: .idle)
+                }
+                lastTopic = pick.name
+                return BrainReply(text: TextKit.capitalizeFirst(Say.line(.recipeIdea, ["name": pick.name])), cards: [.recipe(pick.card)], source: "Ace's recipe book")
+            }
+            // Ace's own recipe book works with no internet.
+            if let e = RecipeBook.find(dish) {
+                lastTopic = e.name
+                return BrainReply(text: Say.line(.recipeFound, ["name": e.name, "ingredients": "\(e.ingredients.count)", "steps": "\(e.steps.count)"]),
+                                  cards: [.recipe(e.card)], source: "Ace's recipe book")
+            }
             await think("Looking up a recipe for \(dish)")
             guard let card = await WebService.recipe(dish) else {
                 return BrainReply(text: Say.line(.recipeNotFound, ["dish": dish]), mood: .idle)

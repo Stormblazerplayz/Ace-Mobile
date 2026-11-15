@@ -56,6 +56,8 @@
 	<string>Ace listens while you hold the orb, or after you say "Hey Ace" with hands-free on.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Ace turns what you say into text so it can answer you.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
 	<key>NSHomeKitUsageDescription</key>
 	<string>Ace turns your lights, plugs, fans, thermostat and robot vacuum on and off when you ask. It never touches locks, garage doors or alarms.</string>
 	<key>NSCameraUsageDescription</key>

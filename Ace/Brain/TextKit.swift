@@ -201,6 +201,16 @@ enum TextKit {
         return prev[y.count]
     }
 
+    /// "eggs, cheese and bread" (or "... or bread").
+    static func joinList(_ items: [String], last: String = "and") -> String {
+        switch items.count {
+        case 0: return ""
+        case 1: return items[0]
+        case 2: return "\(items[0]) \(last) \(items[1])"
+        default: return items.dropLast().joined(separator: ", ") + " \(last) " + items.last!
+        }
+    }
+
     static func capitalizeFirst(_ s: String) -> String {
         guard let f = s.first else { return s }
         return f.uppercased() + s.dropFirst()

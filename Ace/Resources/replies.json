@@ -1,6 +1,6 @@
 {
  "format": "ace-replies/1",
- "count": 115,
+ "count": 118,
  "replies": {
   "alarm": {
    "required": [],
@@ -2064,6 +2064,89 @@
     "Here's how to make {name}: {ingredients} ingredients and {steps} steps.",
     "{name} is ready to go: {ingredients} ingredients and {steps} steps.",
     "Let's make {name}! It has {ingredients} ingredients and {steps} steps."
+   ]
+  },
+  "recipeIdea": {
+   "required": [
+    "name"
+   ],
+   "say": [
+    "How about {name}? Here's how to make it.",
+    "Let's make {name}! Here's the recipe.",
+    "Try {name}. Here's how.",
+    "I'd go with {name}. Here's the recipe.",
+    "How does {name} sound? Here's how to make it.",
+    "Ooh, {name} would be good. Here's the recipe.",
+    "Here's an idea: {name}.",
+    "You could make {name}. Here's how.",
+    "What about {name}? Here's the recipe.",
+    "Let's do {name}. Here's how to make it.",
+    "{name} would be a good pick. Here's the recipe.",
+    "My pick is {name}. Here's how.",
+    "Try making {name}. Here's the recipe.",
+    "Here's a good one: {name}.",
+    "{name} sounds tasty. Here's how to make it.",
+    "How about some {name}? Here's the recipe.",
+    "Why not {name}? Here's how.",
+    "I picked {name} for you. Here's the recipe.",
+    "Let's cook {name}! Here's how.",
+    "Good choice coming up: {name}. Here's the recipe."
+   ]
+  },
+  "recipeIdeas": {
+   "required": [
+    "items",
+    "dishes",
+    "first"
+   ],
+   "say": [
+    "With {items} you could make {dishes}. Here's {first}.",
+    "{items}? You could make {dishes}. Here's {first} to start.",
+    "Nice, {items} works for {dishes}. Here's {first}.",
+    "You can make {dishes} with {items}. Here's how to make {first}.",
+    "Good news! {items} is enough for {dishes}. Here's {first}.",
+    "I found {dishes} using {items}. Here's {first}.",
+    "Try {dishes}. They all use {items}. Here's {first}.",
+    "With {items}, my top ideas are {dishes}. Here's {first}.",
+    "Ooh, {items}! You could do {dishes}. Here's {first}.",
+    "{dishes} would all work with {items}. Here's {first} first.",
+    "Here are ideas for {items}: {dishes}. Let's start with {first}.",
+    "You've got {items}, so how about {dishes}? Here's {first}.",
+    "Using {items}, you can make {dishes}. Here's the recipe for {first}.",
+    "I'd go with {dishes}. They use {items}. Here's {first}.",
+    "{items} can turn into {dishes}. Here's {first}.",
+    "Let's cook! With {items} you can make {dishes}. Here's {first}.",
+    "Ideas for {items}: {dishes}. Here's how to make {first}.",
+    "You could make {dishes} from {items}. Here's {first}.",
+    "Perfect, {items} goes great in {dishes}. Here's {first}.",
+    "With {items} on hand, try {dishes}. Here's {first}."
+   ]
+  },
+  "recipeNoIdeas": {
+   "required": [
+    "items"
+   ],
+   "say": [
+    "I don't have a recipe that uses {items} yet. Try naming a dish, like \"recipe for pancakes\".",
+    "Hmm, nothing in my recipe book uses {items}. Try asking for a dish, like \"how do I make tacos\".",
+    "I couldn't find a recipe with {items}. Try naming a dish instead, like \"recipe for mac and cheese\".",
+    "My recipe book doesn't have anything with {items} yet. Ask me for a dish by name and I'll find it.",
+    "I don't know a recipe for {items} yet. Try \"recipe for\" and a dish name.",
+    "Nothing with {items} in my recipes. Try asking for a dish, like \"pizza recipe\".",
+    "I looked, but I don't have a recipe using {items}. Name a dish and I'll look it up.",
+    "No recipes with {items} yet. Try something like \"what can I make with eggs and cheese\".",
+    "Hmm, {items} doesn't match any of my recipes. Try asking for a dish by name.",
+    "I couldn't think of a recipe with {items}. Tell me a dish you want to make and I'll help.",
+    "I don't have anything that uses {items}. Try asking \"how do I make\" and a dish.",
+    "No luck with {items}. Try naming a dish, like \"recipe for brownies\".",
+    "My recipe book has nothing with {items} yet. Ask for a dish and I'll search for it.",
+    "I can't find a recipe with {items}. Try \"what can I make with\" and a few other things you have.",
+    "Nothing came up for {items}. Try asking for a dish by name.",
+    "I don't have ideas for {items} yet. Name a dish and I'll get you the recipe.",
+    "Sorry, no recipes with {items}. Try asking for something like \"cookie recipe\".",
+    "I looked through my recipes and none use {items}. Try a dish name instead.",
+    "I couldn't match {items} to a recipe. Ask me for a dish, like \"how do I make pancakes\".",
+    "No recipes for {items} in my book yet. Try naming a dish you'd like to cook."
    ]
   },
   "recipeNotFound": {

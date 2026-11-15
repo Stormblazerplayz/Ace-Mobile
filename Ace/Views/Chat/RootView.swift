@@ -22,6 +22,8 @@ struct RootView: View {
                 AceTheme.background.ignoresSafeArea()
                 VStack(spacing: 0) {
                     header
+                    KitchenTimersStrip()
+                        .padding(.horizontal, 16)
                     chat
                     inputBar
                 }
