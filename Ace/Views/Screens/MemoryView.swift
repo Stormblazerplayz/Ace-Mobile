@@ -3,12 +3,14 @@ import SwiftUI
 /// Everything Ace remembers about you: search it, add to it, and forget any of it.
 struct MemoryView: View {
     @ObservedObject var memory: MemoryStore
+    @ObservedObject var notes: NotesStore = .shared
     @State private var search = ""
     @State private var newFact = ""
     @State private var confirmForgetAll = false
     @FocusState private var adding: Bool
 
     private var shown: [MemoryFact] { memory.search(search) }
+    private var shownNotes: [NotesStore.Note] { notes.search(search) }
     private struct NameItem: Identifiable {
         let alias: String
         let thing: String
@@ -76,6 +78,30 @@ struct MemoryView: View {
                 if !memory.facts.isEmpty { Text("Swipe a memory to forget it.") }
             }
 
+            if !notes.notes.isEmpty && (search.isEmpty || !shownNotes.isEmpty) {
+                Section {
+                    ForEach(shownNotes) { note in
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(note.text)
+                            Text(note.date.formatted(date: .abbreviated, time: .shortened))
+                                .font(.caption)
+                                .foregroundStyle(AceTheme.muted)
+                        }
+                        .swipeActions {
+                            Button("Delete", role: .destructive) {
+                                Haptics.shared.play(.tick)
+                                notes.delete(note)
+                            }
+                        }
+                        .accessibilityHint("Swipe left to delete")
+                    }
+                } header: {
+                    Text(search.isEmpty ? "Notes (\(notes.notes.count))" : "Notes found \(shownNotes.count)")
+                } footer: {
+                    Text("Swipe a note to delete it. Add one by telling Ace \"take a note: ...\".")
+                }
+            }
+
             if !memory.facts.isEmpty {
                 Section {
                     Button("Forget everything", role: .destructive) { confirmForgetAll = true }
@@ -85,7 +111,7 @@ struct MemoryView: View {
         .scrollContentBackground(.hidden)
         .background(AceTheme.background.ignoresSafeArea())
         .navigationTitle("Memories")
-        .searchable(text: $search, prompt: "Search memories")
+        .searchable(text: $search, prompt: "Search memories and notes")
         .confirmationDialog("Forget all \(memory.facts.count) memories?", isPresented: $confirmForgetAll, titleVisibility: .visible) {
             Button("Forget everything", role: .destructive) { memory.removeAll() }
             Button("Cancel", role: .cancel) {}

@@ -59,6 +59,21 @@ enum TextKit {
         (#"\b(are|is|am) (you|i|it|we|they) able to\b"#, "can $2"),
         (#"\bable to\b"#, "can"),
         (#"\bis it (ok|okay|alright|fine|safe|smart|a good idea) (to|if i)\b"#, "should i"),
+        // "the person that made you" -> "who made you"
+        (#"\b(?:who is |whos )?the (?:person|guy|man|woman|people|one|company) (?:that|who) (made|created|invented|built|discovered|founded|wrote|painted|designed|started)\b"#, "who $1"),
+        (#"\bhow (?:quick|quickly|speedy|rapid|rapidly)\b"#, "how fast"),
+        (#"\b(?:what|which) number element is\b"#, "what is the atomic number of"),
+        (#"\b(?:element|atomic) number (?:of|for)\b"#, "atomic number of"),
+        (#"\bhow many (?:people|persons|kids|guys) (?:play|are|go) (?:on|in)\b"#, "how many players are on"),
+        (#"\b(?:what is|whats) the distance (?:from|between)\b"#, "how far is it from"),
+        (#"^distance (?:from|between)\b"#, "how far is it from"),
+        (#"\b(?:go|goes|went|gone) down\b(?=\s*$)"#, "sink"),
+        (#"\bin (?:the )?(?:a\.?i\.?|artificial intelligence)\b"#, "in ai"),
+        (#"\bhow old is (?:the )?planet earth\b"#, "how old is the earth"),
+        (#"\bhow long ago (?:was|were|did)\b"#, "when was"),
+        (#"\b(?:what is|whats) the (?:meaning|definition) of\b"#, "what does mean"),
+        (#"\bgive me (?:some |a few |a couple of )?(?:facts|info|information) (?:about|on)\b"#, "tell me about"),
+        (#"\b(?:can you |could you )?(?:teach me|tell me) (?:a bit |a little |something )?about\b"#, "tell me about"),
     ]
 
     static func canonical(_ normalized: String) -> String {
@@ -129,6 +144,22 @@ enum TextKit {
         "kg": "kilogram", "kgs": "kilogram", "kilograms": "kilogram", "lb": "pound", "lbs": "pound", "ft": "foot", "feet": "foot",
         "hr": "hour", "hrs": "hour", "mins": "minute", "secs": "second", "discovered": "discover", "discoverer": "discover",
         "humans": "human", "people": "human", "person": "human",
+        "sinking": "sink", "sinks": "sink", "smartest": "smart", "clever": "smart", "intelligent": "smart",
+        "closest": "nearest", "close": "near", "nearby": "near", "farthest": "far", "furthest": "far",
+        "oldest": "old", "aged": "old", "age": "old", "youngest": "young", "newest": "new",
+        "heaviest": "heavy", "weigh": "weight", "weighs": "weight", "lightest": "light",
+        "longest": "long", "length": "long", "shortest": "short", "deepest": "deep", "depth": "deep",
+        "strongest": "strong", "strength": "strong", "loudest": "loud",
+        "built": "build", "builds": "build", "wrote": "write", "written": "write", "writer": "write", "author": "write",
+        "painted": "paint", "painter": "paint", "sang": "sing", "singer": "sing", "sung": "sing",
+        "died": "die", "dies": "die", "death": "die", "dead": "die",
+        "born": "birth", "birthplace": "birth",
+        "physician": "doctor",
+        "automobile": "car",
+        "puppy": "dog", "puppies": "dog", "doggy": "dog", "kitten": "cat", "kittens": "cat", "kitty": "cat",
+        "telly": "tv", "television": "tv", "cellphone": "phone", "smartphone": "phone",
+        "maths": "math", "mathematics": "math", "aeroplane": "plane", "airplane": "plane", "airplanes": "plane",
+        "spaceship": "spacecraft", "rocketship": "rocket",
     ]
 
     /// Simple word stem so "planets" matches "planet" and "running" matches "run".

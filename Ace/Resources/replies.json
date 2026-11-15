@@ -1,6 +1,6 @@
 {
  "format": "ace-replies/1",
- "count": 170,
+ "count": 175,
  "replies": {
   "alarm": {
    "required": [],
@@ -3709,6 +3709,35 @@
     "Nice! In {language}, \"{phrase}\" is said {text}."
    ]
   },
+  "triviaBest": {
+   "required": [
+    "category",
+    "best",
+    "total"
+   ],
+   "say": [
+    "Your best in {category} trivia is {best} out of {total}.",
+    "Your top {category} trivia score is still {best} out of {total}.",
+    "The {category} trivia record to beat is {best} out of {total}.",
+    "Your {category} trivia best stays at {best} out of {total}.",
+    "Your high score in {category} trivia is {best} out of {total}.",
+    "To beat your best in {category} trivia, you need more than {best} out of {total}.",
+    "Your best {category} trivia round so far was {best} out of {total}.",
+    "Your {category} trivia record is {best} out of {total}.",
+    "The best you've done in {category} trivia is {best} out of {total}.",
+    "Your all-time best in {category} trivia is {best} out of {total}.",
+    "Still standing: your {category} trivia best of {best} out of {total}.",
+    "Your highest {category} trivia score is {best} out of {total}.",
+    "Your best ever in {category} trivia is {best} out of {total}.",
+    "The {category} trivia high score is yours at {best} out of {total}.",
+    "For {category} trivia, your best is {best} out of {total}.",
+    "Your record in {category} trivia is still {best} out of {total}.",
+    "Can you beat {best} out of {total}? That's your best in {category} trivia.",
+    "Your top score in {category} trivia so far is {best} out of {total}.",
+    "The score to beat in {category} trivia is {best} out of {total}.",
+    "Your {category} trivia high score stays at {best} out of {total}."
+   ]
+  },
   "triviaDone": {
    "required": [
     "score",
@@ -3737,6 +3766,35 @@
     "The round's done, and you got {score} out of {total}. Say trivia to have another go."
    ]
   },
+  "triviaNewBest": {
+   "required": [
+    "category",
+    "score",
+    "total"
+   ],
+   "say": [
+    "That's a new best in {category} trivia: {score} out of {total}!",
+    "New record! {score} out of {total} is your best ever in {category} trivia.",
+    "You beat your best! {score} out of {total} in {category} trivia.",
+    "That's your highest {category} trivia score yet: {score} out of {total}.",
+    "A new personal best in {category} trivia, {score} out of {total}!",
+    "Nice, {score} out of {total} is a new {category} trivia record for you.",
+    "Best score yet in {category} trivia! {score} out of {total}.",
+    "You just set a new {category} trivia best with {score} out of {total}.",
+    "Record broken! Your {category} trivia best is now {score} out of {total}.",
+    "{score} out of {total} is a new high score in {category} trivia!",
+    "That beats your old best. New {category} trivia record: {score} out of {total}.",
+    "Whoa, a new best in {category} trivia! {score} out of {total}.",
+    "Your top {category} trivia score is now {score} out of {total}. New best!",
+    "New high score! {score} out of {total} in {category} trivia.",
+    "You topped your best in {category} trivia with {score} out of {total}.",
+    "{category} trivia has a new record: {score} out of {total}!",
+    "That's the best you've done in {category} trivia: {score} out of {total}.",
+    "Way to go, a new {category} trivia best of {score} out of {total}!",
+    "You set a fresh record in {category} trivia, {score} out of {total}.",
+    "New best ever for {category} trivia: {score} out of {total}!"
+   ]
+  },
   "triviaQuestion": {
    "required": [
     "number",
@@ -3763,6 +3821,58 @@
     "Question {number} coming up. {question}",
     "Try question {number}. {question}",
     "Number {number} is: {question}"
+   ]
+  },
+  "triviaRecords": {
+   "required": [
+    "records"
+   ],
+   "say": [
+    "Your trivia bests: {records}.",
+    "Here are your best trivia scores: {records}.",
+    "Your top trivia scores are {records}.",
+    "Your trivia records: {records}.",
+    "Here's how you've done at trivia: {records}.",
+    "Your best trivia rounds: {records}.",
+    "Your trivia high scores are {records}.",
+    "So far your trivia bests are {records}.",
+    "Here are your trivia records: {records}.",
+    "Your best scores in trivia: {records}.",
+    "These are your trivia bests: {records}.",
+    "Your trivia scoreboard: {records}.",
+    "Your highest trivia scores are {records}.",
+    "Here's your trivia scoreboard: {records}.",
+    "Your trivia personal bests: {records}.",
+    "Best trivia scores so far: {records}.",
+    "Your records in trivia are {records}.",
+    "Here are the trivia scores to beat: {records}.",
+    "Your top trivia rounds so far: {records}.",
+    "Here's your best in each trivia category: {records}."
+   ]
+  },
+  "triviaRecordsEmpty": {
+   "required": [],
+   "say": [
+    "You haven't finished a trivia round yet. Say trivia to play one!",
+    "No trivia scores yet. Say trivia to start a round!",
+    "You don't have any trivia scores yet. Want to play? Say trivia.",
+    "There are no trivia records yet. Finish a round and I'll keep your best.",
+    "Nothing on the trivia scoreboard yet. Say trivia to play!",
+    "You haven't played a full trivia round yet. Say trivia to start.",
+    "No trivia bests saved yet. Say trivia and let's set one!",
+    "Your trivia scoreboard is empty so far. Say trivia to play.",
+    "I don't have any trivia scores for you yet. Say trivia to start a round.",
+    "No records yet! Finish a trivia round and I'll remember your best.",
+    "You haven't set any trivia scores yet. Say trivia to give it a go.",
+    "The trivia scoreboard is blank. Play a round by saying trivia!",
+    "No trivia scores so far. Say trivia whenever you want to play.",
+    "You don't have a trivia best yet. Say trivia to make one!",
+    "Nothing saved for trivia yet. Play a round and I'll keep your score.",
+    "There's no trivia score to show yet. Say trivia to play a round.",
+    "No high scores yet. Say trivia and we'll play!",
+    "You haven't got any trivia records yet. Say trivia to start one.",
+    "I haven't saved any trivia scores yet. Finish a round to get one.",
+    "Zero trivia rounds finished so far. Say trivia to play!"
    ]
   },
   "triviaRight": {
@@ -3873,6 +3983,34 @@
     "Game paused for good. You got {score} out of {total}.",
     "Alright, done for now. You got {score} out of {total}.",
     "Okay, trivia stopped. You ended with {score} out of {total}."
+   ]
+  },
+  "triviaStreak": {
+   "required": [
+    "count",
+    "category"
+   ],
+   "say": [
+    "That's {count} right in a row in {category} trivia!",
+    "{count} in a row in {category} trivia!",
+    "You're on a streak: {count} right in a row in {category} trivia.",
+    "Streak! {count} correct in a row in {category} trivia.",
+    "{count} right answers in a row in {category} trivia. Keep going!",
+    "You've got {count} in a row in {category} trivia!",
+    "Hot streak! That's {count} straight in {category} trivia.",
+    "That makes {count} correct in a row in {category} trivia.",
+    "{count} straight right answers in {category} trivia!",
+    "Your {category} trivia streak is up to {count}!",
+    "Nice streak: {count} right in a row in {category} trivia.",
+    "That's a {count} answer streak in {category} trivia!",
+    "You're on fire, {count} in a row in {category} trivia!",
+    "{count} correct in a row! Your {category} trivia streak is going strong.",
+    "Keep it up, that's {count} right in a row in {category} trivia.",
+    "Streak alert: {count} in a row in {category} trivia!",
+    "You've answered {count} in a row right in {category} trivia.",
+    "That's {count} correct answers in a row in {category} trivia!",
+    "{count} in a row! Your {category} trivia streak keeps growing.",
+    "Wow, {count} straight right in {category} trivia!"
    ]
   },
   "triviaWrong": {

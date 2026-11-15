@@ -58,6 +58,16 @@ final class NotesStore: ObservableObject {
         return n
     }
 
+    /// Notes containing every word typed in the search box ("milk eggs"). All notes when it's empty.
+    func search(_ text: String) -> [Note] {
+        let words = TextKit.normalize(text).split(separator: " ").map(String.init)
+        guard !words.isEmpty else { return notes }
+        return notes.filter { n in
+            let have = TextKit.normalize(n.text)
+            return words.allSatisfy { have.contains($0) }
+        }
+    }
+
     func delete(_ note: Note) {
         notes.removeAll { $0.id == note.id }
         save()

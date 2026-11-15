@@ -38,7 +38,7 @@ struct MessageRow: View {
                         .contextMenu {
                             Button { UIPasteboard.general.string = shownText } label: { Label("Copy", systemImage: "doc.on.doc") }
                             if !isUser {
-                                Button { core.speak(shownText) } label: { Label("Read aloud", systemImage: "speaker.wave.2") }
+                                Button { core.speak(shownText, cards: message.cards) } label: { Label("Read aloud", systemImage: "speaker.wave.2") }
                             }
                         }
                 }

@@ -94,7 +94,7 @@ final class HelpersTests: XCTestCase {
         XCTAssertEqual(solved("4y + 2 = 10")?.answer, "y = 2")
         XCTAssertEqual(solved("2x + 1 = 2x + 1")?.answer, "any number")
         XCTAssertEqual(solved("2x + 1 = 2x + 5")?.answer, "no answer")
-        XCTAssertNil(Homework.solve("x^2 = 4"), "Squares aren't straight-line equations")
+        XCTAssertNil(Homework.solve("x^3 = 8"), "Cubes are too hard for now")
         XCTAssertNil(Homework.solve("2 + 2 = 4"), "Nothing to find")
         XCTAssertNil(Homework.solve("x + y = 4"), "Two unknowns")
         // Every step's answer checks out.
@@ -153,6 +153,8 @@ final class HelpersTests: XCTestCase {
         XCTAssertNotEqual(IntentRouter.parse("start a homework session")?.kind, "homework")
         // "solve" with something Ace can't do yet still goes to the homework helper, which says what it can do.
         XCTAssertEqual(IntentRouter.parse("solve x^2 = 4")?.kind, "homework")
+        XCTAssertEqual(IntentRouter.parse("solve x^3 = 8")?.kind, "homework")
+        XCTAssertEqual(IntentRouter.parse("x squared equals 81")?.kind, "homework")
     }
 
     func testPhotoMath() {
@@ -174,9 +176,41 @@ final class HelpersTests: XCTestCase {
         XCTAssertTrue(r.text.contains("x = 4"), r.text)
         guard case .steps(let card)? = r.cards.first else { return XCTFail("No steps card") }
         XCTAssertEqual(card.steps.count, 3)
-        let cant = brain.homeworkReply("solve x^2 = 4")
+        let cant = brain.homeworkReply("solve x^3 = 8")
         XCTAssertTrue(cant.cards.isEmpty)
         XCTAssertTrue(cant.text.contains("fractions"), cant.text)
+    }
+
+    func testSquaredEquations() {
+        func solved(_ t: String) -> Homework.Solution? { Homework.solve(t) }
+        XCTAssertEqual(solved("x^2 = 49")?.answer, "x = 7 or x = -7")
+        XCTAssertEqual(solved("x² = 49")?.answer, "x = 7 or x = -7")
+        XCTAssertEqual(solved("x squared = 81")?.answer, "x = 9 or x = -9")
+        XCTAssertEqual(solved("49 = x^2")?.answer, "x = 7 or x = -7")
+        XCTAssertEqual(solved("x^2 + 1 = 50")?.answer, "x = 7 or x = -7")
+        XCTAssertEqual(solved("x^2 = 0")?.answer, "x = 0")
+        XCTAssertEqual(solved("x^2 = -4")?.answer, "no answer")
+        XCTAssertEqual(solved("x^2 = 2")?.answer, "x = about 1.414 or x = about -1.414")
+        XCTAssertEqual(solved("x*x = 16")?.answer, "x = 4 or x = -4")
+        XCTAssertEqual(solved("x^2 - 5x + 6 = 0")?.answer, "x = 3 or x = 2")
+        XCTAssertEqual(solved("x^2 + 2x + 1 = 0")?.answer, "x = -1")
+        XCTAssertEqual(solved("2x^2 + 3x - 2 = 0")?.answer, "x = 1/2 or x = -2")
+        XCTAssertEqual(solved("x^2 + x + 1 = 0")?.answer, "no answer")
+        XCTAssertEqual(solved("(x + 1)^2 = 9")?.answer, "x = 2 or x = -4")
+        let two = solved("2x^2 = 18")
+        XCTAssertEqual(two?.answer, "x = 3 or x = -3")
+        XCTAssertEqual(two?.steps, [
+            "Divide both sides by 2: x^2 = 9.",
+            "Take the square root of both sides. It can be plus or minus: x = 3 or x = -3.",
+            "Check: with x = 3, both sides come to 18.",
+        ])
+        let f = solved("x^2 - 5x + 6 = 0")
+        XCTAssertEqual(f?.steps.count, 4)
+        XCTAssertEqual(f?.steps[1], "Work out b^2 - 4ac: 25 - 24 = 1.")
+        XCTAssertEqual(Homework.intent("solve x^2 = 49"), "x^2 = 49")
+        XCTAssertEqual(Homework.intent("x^2 - 5x + 6 = 0"), "x^2 - 5x + 6 = 0")
+        let reply = Brain().homeworkReply("x^2 = 49")
+        XCTAssertTrue(reply.text.contains("x = 7 or x = -7"), reply.text)
     }
 
     // MARK: Notes
@@ -214,6 +248,13 @@ final class HelpersTests: XCTestCase {
         let list = brain.notes("list", "", store: store).text
         XCTAssertTrue(list.contains("Call Grandma on Sunday") && list.contains("Bring my PE kit"), list)
         XCTAssertEqual(NotesStore(key: "aceNotes.test").notes.count, 2, "Notes are saved")
+        XCTAssertEqual(store.search("").count, 2, "An empty search shows every note")
+        XCTAssertEqual(store.search("grandma").map(\.text), ["Call Grandma on Sunday"])
+        XCTAssertEqual(store.search("kit pe").map(\.text), ["Bring my PE kit"])
+        XCTAssertTrue(store.search("pizza").isEmpty)
+        if let first = store.notes.first { store.delete(first) }
+        XCTAssertEqual(NotesStore(key: "aceNotes.test").notes.map(\.text), ["Bring my PE kit"], "Swiping a note away deletes it for good")
+        _ = brain.notes("add", "Call Grandma on Sunday", store: store)
         let gone = brain.notes("delete", "pe kit", store: store).text
         XCTAssertTrue(gone.contains("Bring my PE kit"), gone)
         XCTAssertEqual(store.notes.count, 1)

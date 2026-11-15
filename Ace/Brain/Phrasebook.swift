@@ -139,3 +139,56 @@ struct TranslationCard: Codable, Equatable {
     /// How to say it in English letters (for Japanese, Chinese, Korean, Hindi, Arabic and Russian).
     var say: String?
 }
+
+/// One piece of a reply read aloud. A nil language is Ace's own voice.
+struct SpokenPart: Equatable {
+    var text: String
+    var language: String?
+}
+
+extension Phrasebook {
+    /// Splits a reply so a translation is spoken in its own accent:
+    /// "In Spanish, "thank you" is gracias." -> Ace says "In Spanish, "thank you" is", then "gracias" in a Spanish voice.
+    /// The "say it like" spelling in brackets is left out, because the real voice says it properly.
+    static func spokenParts(_ text: String, cards: [AceCard]) -> [SpokenPart] {
+        var parts = [SpokenPart(text: text, language: nil)]
+        for case .translation(let card) in cards {
+            let words = card.text.trimmingCharacters(in: .whitespacesAndNewlines)
+            guard !words.isEmpty, let language = speechCodes[card.code] ?? (card.code.isEmpty ? nil : card.code) else { continue }
+            let shown = card.say.map { "\(card.text) (\($0))" } ?? card.text
+            var next: [SpokenPart] = []
+            var done = false
+            for p in parts {
+                guard !done, p.language == nil, let r = spot(shown, in: p.text) ?? spot(card.text, in: p.text) else {
+                    next.append(p)
+                    continue
+                }
+                done = true
+                let before = String(p.text[..<r.lowerBound]).trimmingCharacters(in: .whitespacesAndNewlines)
+                let after = String(p.text[r.upperBound...]).trimmingCharacters(in: .whitespacesAndNewlines)
+                if hasWords(before) { next.append(SpokenPart(text: before, language: nil)) }
+                next.append(SpokenPart(text: words, language: language))
+                if hasWords(after) { next.append(SpokenPart(text: after, language: nil)) }
+            }
+            parts = next
+        }
+        return parts
+    }
+
+    /// Where the translation sits in the reply, skipping a match inside quotes ("pizza" in Italian is pizza).
+    private static func spot(_ needle: String, in text: String) -> Range<String.Index>? {
+        guard !needle.isEmpty else { return nil }
+        var first: Range<String.Index>?
+        var from = text.startIndex
+        while from < text.endIndex, let r = text.range(of: needle, range: from..<text.endIndex) {
+            if first == nil { first = r }
+            let before = r.lowerBound > text.startIndex ? text[text.index(before: r.lowerBound)] : " "
+            let after = r.upperBound < text.endIndex ? text[r.upperBound] : " "
+            if before != "\"" && after != "\"" { return r }
+            from = text.index(after: r.lowerBound)
+        }
+        return first
+    }
+
+    private static func hasWords(_ s: String) -> Bool { s.unicodeScalars.contains { CharacterSet.alphanumerics.contains($0) } }
+}

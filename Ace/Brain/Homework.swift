@@ -113,8 +113,8 @@ enum Homework {
     // MARK: Reading the problem
 
     /// The kinds of problem Ace can do, for "I can do ...".
-    static let kinds = ["sums with + - × and ÷", "fractions", "percents", "equations like 2x + 3 = 11"]
-    static let examples = ["2x + 3 = 11", "3/4 + 1/8", "12 + 7 × 3", "15% of 80"]
+    static let kinds = ["sums with + - × and ÷", "fractions", "percents", "equations like 2x + 3 = 11", "squared equations like x^2 = 49"]
+    static let examples = ["2x + 3 = 11", "x^2 = 49", "3/4 + 1/8", "12 + 7 × 3", "15% of 80"]
 
     /// "solve 2x+3=11 step by step" -> "2x+3=11". Nil when there's no math problem in it.
     static func problem(in text: String) -> String? {
@@ -158,7 +158,7 @@ enum Homework {
         guard raw.rangeOfCharacter(from: .decimalDigits) != nil else { return nil }
         let lower = raw.lowercased()
         guard let p = problem(in: raw) else {
-            // "solve x^2 = 4": a math problem Ace can't do step by step yet, so it says what it can do.
+            // "solve x^3 = 8": a math problem Ace can't do step by step yet, so it says what it can do.
             if Rx.matches(#"^(?:please\s+)?(?:can you\s+|could you\s+)?(?:solve|simplify)\s+\S"#, lower), Rx.matches(#"[=+*/^×÷]"#, lower) {
                 return lower.trimmingCharacters(in: .whitespaces)
             }
@@ -167,8 +167,8 @@ enum Homework {
         if Rx.matches(#"\b(?:solve|step by step|steps|working|show (?:me )?(?:the |your )?work|homework|work out|explain|how (?:do|would|can|should) (?:i|you|we) (?:solve|work out|do|figure out|calculate|get))\b"#, lower) {
             return p
         }
-        // An equation with a letter in it ("2x + 3 = 11").
-        if Rx.matches(#"=\s*[-(0-9a-z.]"#, p), let s = solve(p), s.answer.contains(" = ") || s.answer == "any number" || s.answer == "no answer" {
+        // An equation with a letter in it ("2x + 3 = 11", "x squared equals 81").
+        if Rx.matches(#"=\s*[-(0-9a-z.]"#, tidy(p)), let s = solve(p), s.answer.contains(" = ") || s.answer == "any number" || s.answer == "no answer" {
             return p
         }
         // Fractions ("3/4 + 1/8"), which a quick answer would turn into a long decimal.
@@ -645,7 +645,10 @@ enum Homework {
         guard let letter = pl.letter ?? pr.letter else { return nil }   // "3 + 4 = 7" isn't an equation to solve
         let decimal = pl.decimals || pr.decimals
         let leftNode = markFractions(pl.node), rightNode = markFractions(pr.node)
-        guard var l = linear(leftNode), var r = linear(rightNode) else { return nil }
+        guard var l = linear(leftNode), var r = linear(rightNode) else {
+            // x^2 = 49, x^2 - 5x + 6 = 0
+            return quadraticEquation(leftNode, rightNode, letter: letter, decimal: decimal)
+        }
         let problem = write(leftNode, letter: letter, decimal: decimal) + " = " + write(rightNode, letter: letter, decimal: decimal)
         let x = String(letter)
         var steps: [String] = []
@@ -694,6 +697,192 @@ enum Homework {
             steps.append("Check: with \(x) = \(show(answer, decimal: decimal)), both sides come to \(show(lv, decimal: decimal)).")
         }
         return Solution(problem: problem, steps: steps, answer: "\(x) = \(show(answer, decimal: decimal))")
+    }
+
+    // MARK: Squared equations
+
+    /// a·x² + b·x + c
+    struct Quadratic: Equatable {
+        var a: Rational
+        var b: Rational
+        var c: Rational
+
+        static let zero = Quadratic(a: .zero, b: .zero, c: .zero)
+        static func constant(_ r: Rational) -> Quadratic { Quadratic(a: .zero, b: .zero, c: r) }
+
+        var degree: Int { a != .zero ? 2 : (b != .zero ? 1 : 0) }
+
+        static func + (p: Quadratic, q: Quadratic) -> Quadratic? {
+            guard let a = p.a + q.a, let b = p.b + q.b, let c = p.c + q.c else { return nil }
+            return Quadratic(a: a, b: b, c: c)
+        }
+
+        static prefix func - (p: Quadratic) -> Quadratic { Quadratic(a: -p.a, b: -p.b, c: -p.c) }
+
+        static func - (p: Quadratic, q: Quadratic) -> Quadratic? { p + (-q) }
+
+        /// Only while the answer stays at x² or lower.
+        static func * (p: Quadratic, q: Quadratic) -> Quadratic? {
+            guard p.degree + q.degree <= 2 else { return nil }
+            guard let a1 = p.a * q.c, let a2 = p.b * q.b, let a3 = p.c * q.a,
+                  let b1 = p.b * q.c, let b2 = p.c * q.b, let c = p.c * q.c,
+                  let a12 = a1 + a2, let a = a12 + a3, let b = b1 + b2 else { return nil }
+            return Quadratic(a: a, b: b, c: c)
+        }
+    }
+
+    private static func quadratic(_ n: Node) -> Quadratic? {
+        switch n {
+        case .num(let r), .frac(let r): return .constant(r)
+        case .variable: return Quadratic(a: .zero, b: .one, c: .zero)
+        case .neg(let x):
+            guard let p = quadratic(x) else { return nil }
+            return -p
+        case .op(let o, let x, let y):
+            guard let p = quadratic(x), let q = quadratic(y) else { return nil }
+            switch o {
+            case "+": return p + q
+            case "-": return p - q
+            case "*": return p * q
+            case "/":
+                guard q.degree == 0, q.c != .zero, let flip = Rational.one / q.c else { return nil }
+                return p * .constant(flip)
+            case "^":
+                guard q.degree == 0 else { return nil }
+                if p.degree == 0 {
+                    guard let v = p.c.power(q.c) else { return nil }
+                    return .constant(v)
+                }
+                guard q.c.isInteger, q.c.n >= 0, q.c.n <= 2 else { return nil }
+                var out = Quadratic.constant(.one)
+                for _ in 0..<q.c.n {
+                    guard let next = out * p else { return nil }
+                    out = next
+                }
+                return out
+            default: return nil
+            }
+        }
+    }
+
+    private static func write(_ q: Quadratic, letter: Character, decimal: Bool) -> String {
+        var parts: [String] = []
+        let terms: [(Rational, String)] = [(q.a, "\(letter)^2"), (q.b, String(letter)), (q.c, "")]
+        for (k, tail) in terms where k != .zero {
+            let size = k.n < 0 ? -k : k
+            let body: String
+            if tail.isEmpty {
+                body = show(size, decimal: decimal)
+            } else if size == .one {
+                body = tail
+            } else if size.isInteger || decimal {
+                body = show(size, decimal: decimal) + tail
+            } else {
+                body = "(\(size.fractionText))" + tail
+            }
+            if parts.isEmpty {
+                parts.append((k.n < 0 ? "-" : "") + body)
+            } else {
+                parts.append((k.n < 0 ? "- " : "+ ") + body)
+            }
+        }
+        return parts.isEmpty ? "0" : parts.joined(separator: " ")
+    }
+
+    /// The square root when it's a whole fraction (49 -> 7, 9/4 -> 3/2), otherwise nil.
+    static func exactRoot(_ r: Rational) -> Rational? {
+        guard r.n >= 0 else { return nil }
+        let top = Int(Double(r.n).squareRoot().rounded())
+        let bottom = Int(Double(r.d).squareRoot().rounded())
+        guard top * top == r.n, bottom * bottom == r.d else { return nil }
+        return Rational(top, bottom)
+    }
+
+    private static func about(_ v: Double) -> String {
+        "about " + Rational.trim(String(format: "%.3f", v))
+    }
+
+    private static func double(_ r: Rational) -> Double { Double(r.n) / Double(r.d) }
+
+    private static func quadraticEquation(_ leftNode: Node, _ rightNode: Node, letter: Character, decimal: Bool) -> Solution? {
+        guard var l = quadratic(leftNode), var r = quadratic(rightNode) else { return nil }
+        let x = String(letter)
+        let problem = write(leftNode, letter: letter, decimal: decimal) + " = " + write(rightNode, letter: letter, decimal: decimal)
+        var steps: [String] = []
+        func num(_ v: Rational) -> String { show(v, decimal: decimal) }
+        func side(_ q: Quadratic) -> String { write(q, letter: letter, decimal: decimal) }
+        // Keep the x² part on the left ("49 = x^2" -> "x^2 = 49").
+        var turned = false
+        if l.a == .zero, r.a != .zero {
+            swap(&l, &r)
+            turned = true
+        }
+        if turned {
+            steps.append("Turn it around: \(side(l)) = \(side(r)).")
+        } else if side(l) + " = " + side(r) != problem {
+            steps.append("Tidy up each side: \(side(l)) = \(side(r)).")
+        }
+        guard let q = l - r, q.a != .zero else { return nil }
+        var roots: [Rational] = []
+        let answer: String
+        if q.b == .zero {
+            // a·x² + c = 0, so x² = -c ÷ a.
+            guard let k = (-q.c) / q.a else { return nil }
+            let alone = l.b == .zero && l.c == .zero && r.a == .zero && r.b == .zero
+            if !alone {
+                steps.append("Get the \(x)^2 part on its own: \(side(Quadratic(a: q.a, b: .zero, c: .zero))) = \(num(-q.c)).")
+            }
+            if q.a != .one {
+                steps.append("Divide both sides by \(num(q.a)): \(x)^2 = \(num(k)).")
+            }
+            if k.n < 0 {
+                steps.append("No number times itself makes a negative number, so no ordinary number works.")
+                answer = "no answer"
+            } else if k == .zero {
+                steps.append("Only 0 times 0 makes 0, so \(x) = 0.")
+                roots = [.zero]
+                answer = "\(x) = 0"
+            } else if let s = exactRoot(k) {
+                steps.append("Take the square root of both sides. It can be plus or minus: \(x) = \(num(s)) or \(x) = \(num(-s)).")
+                roots = [s, -s]
+                answer = "\(x) = \(num(s)) or \(x) = \(num(-s))"
+            } else {
+                let v = double(k).squareRoot()
+                steps.append("Take the square root of both sides. \(num(k)) isn't a perfect square, so \(x) = \(about(v)) or \(x) = \(about(-v)).")
+                answer = "\(x) = \(about(v)) or \(x) = \(about(-v))"
+            }
+        } else {
+            if r != .zero { steps.append("Move everything to one side: \(side(q)) = 0.") }
+            guard let four = Rational(4), let two = Rational(2), let bb = q.b * q.b, let ac = q.a * q.c,
+                  let fourAC = four * ac, let disc = bb - fourAC, let twoA = two * q.a else { return nil }
+            steps.append("Use the quadratic formula with a = \(num(q.a)), b = \(num(q.b)) and c = \(num(q.c)): \(x) = (-b ± √(b^2 - 4ac)) ÷ 2a.")
+            let minusPart = fourAC.n < 0 ? "+ \(num(-fourAC))" : "- \(num(fourAC))"
+            steps.append("Work out b^2 - 4ac: \(num(bb)) \(minusPart) = \(num(disc)).")
+            let minusB = -q.b
+            if disc.n < 0 {
+                steps.append("That's negative, and no ordinary number squared is negative, so no ordinary number works.")
+                answer = "no answer"
+            } else if disc == .zero {
+                guard let v = minusB / twoA else { return nil }
+                steps.append("That's 0, so there's just one answer: \(x) = \(num(minusB)) ÷ \(num(twoA)) = \(num(v)).")
+                roots = [v]
+                answer = "\(x) = \(num(v))"
+            } else if let s = exactRoot(disc), let top1 = minusB + s, let v1 = top1 / twoA, let top2 = minusB - s, let v2 = top2 / twoA {
+                steps.append("√\(num(disc)) = \(num(s)), so \(x) = (\(num(minusB)) + \(num(s))) ÷ \(num(twoA)) = \(num(v1)) or \(x) = (\(num(minusB)) - \(num(s))) ÷ \(num(twoA)) = \(num(v2)).")
+                roots = [v1, v2]
+                answer = "\(x) = \(num(v1)) or \(x) = \(num(v2))"
+            } else {
+                let d = double(disc).squareRoot()
+                let v1 = (double(minusB) + d) / double(twoA)
+                let v2 = (double(minusB) - d) / double(twoA)
+                steps.append("\(num(disc)) isn't a perfect square, so √\(num(disc)) is \(about(d)). That makes \(x) = \(about(v1)) or \(x) = \(about(v2)).")
+                answer = "\(x) = \(about(v1)) or \(x) = \(about(v2))"
+            }
+        }
+        if let v = roots.first, let lv = evaluate(leftNode, x: v), let rv = evaluate(rightNode, x: v), lv == rv {
+            steps.append("Check: with \(x) = \(num(v)), both sides come to \(num(lv)).")
+        }
+        return Solution(problem: problem, steps: steps, answer: answer)
     }
 
     private static func evaluate(_ n: Node, x: Rational) -> Rational? {
