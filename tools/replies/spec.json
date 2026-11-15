@@ -858,5 +858,11 @@
   "opt": [],
   "orig": "How about {name}? Here's how to make it.",
   "note": ""
+ },
+ "focusNone": {
+  "req": [],
+  "opt": [],
+  "orig": "There's no focus session running. Say \"focus for 25 minutes\" to start one.",
+  "note": "No focus timer is running."
  }
 }

@@ -46,6 +46,7 @@ enum Intent: Equatable {
     case teach(question: String, answer: String)
     case ipadOnlyLimit(String)
     case home(HomeCommand)
+    case focus(String)            // "start 1500", "stop" or "left"
 }
 
 extension Intent {
@@ -111,6 +112,7 @@ extension Intent {
         case .teach: return "teach"
         case .ipadOnlyLimit: return "ipadOnlyLimit"
         case .home: return "home"
+        case .focus: return "focus"
         }
     }
 }
@@ -215,6 +217,18 @@ enum IntentRouter {
         }
         if let g = Rx.groups(#"^how (?:do you|do i|to) spell\s+([a-z\-']+)$"#, t) { return .spell(g[0]) }
         if let expr = MathEval.expression(from: t) { return .math(expr) }
+
+        // Focus sessions ("focus for 25 minutes", "start a pomodoro", "how much focus time is left")
+        if Rx.matches(#"\b(focus|pomodoro|study session|homework session)\b"#, t), !Rx.matches(#"\b(scene|mode|lights?)\b"#, t) {
+            if Rx.matches(#"^(please )?(stop|end|cancel|quit|finish|turn off)( the| my)? (focus|pomodoro|study|homework)( session| timer| time)?( please)?$"#, t) {
+                return .focus("stop")
+            }
+            if Rx.matches(#"\b(left|remaining)\b"#, t), Rx.matches(#"^(how (much|long)|what is|time)"#, t) { return .focus("left") }
+            if Rx.matches(#"^(please |can you |could you |ace )?(start|begin|set|do|make|give me|time to|i want to|i need to|let us|lets|help me)?\s*(a |an |my |the )?(focus|pomodoro|study|homework)( session| timer| time| block)?(\s+(for|of)\s+.+|\s+\d+.*)?( please)?$"#, t) {
+                let seconds = DateParser.duration(in: t).map { Int($0.seconds) } ?? 25 * 60
+                return .focus("start \(min(max(seconds, 60), 4 * 3600))")
+            }
+        }
 
         // Timers, reminders, alarms
         if Rx.matches(#"\b(set|start|make|create)?\s*(a |an )?timer\b"#, t) || Rx.matches(#"^\d+\s*(minute|min|second|sec|hour)s?\s+timer"#, t) {

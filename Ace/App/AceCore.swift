@@ -469,17 +469,20 @@ final class AceCore: ObservableObject, BrainHost {
         setMood(.happy)
         var lines = ["\(part)\(name)! Ace V4 is awake."]
         let cal = CalendarService.shared
+        var today: [EventItem] = []
         if cal.eventAccess {
             let c = Calendar.current
             let end = c.date(byAdding: .day, value: 1, to: c.startOfDay(for: Date()))!
-            let events = cal.events(from: Date(), to: end, nimbusOnly: false)
+            let events = cal.events(from: Date(), to: end, nimbusOnly: false).sorted { $0.start < $1.start }
+            today = events
             lines.append(events.isEmpty ? "Your calendar is clear for the rest of today." :
                             "You have \(events.count) thing\(events.count == 1 ? "" : "s") today, starting with \(events[0].title).")
         }
+        let card = GreetingCard(hello: "\(part)\(name)!", date: Date(), events: today, calendarAllowed: cal.eventAccess)
         if let level = SystemMonitor.shared.snapshot().batteryLevel, level < 0.25 {
             lines.append("Your battery is at \(Int(level * 100))%, so you may want to charge.")
         }
-        messages.append(ChatMessage(speaker: .ace, text: lines.joined(separator: " "), source: "greeting"))
+        messages.append(ChatMessage(speaker: .ace, text: lines.joined(separator: " "), cards: [.greeting(card)], source: "greeting"))
         saveChat()
         speak(lines.joined(separator: " "))
         setMood(.happy, thenIdleAfter: 2.5)
