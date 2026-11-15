@@ -30,7 +30,7 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
         } else {
             u.voice = AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
         }
-        u.rate = AVSpeechUtteranceDefaultSpeechRate * 1.02
+        u.rate = Self.rate(1.02)
         u.pitchMultiplier = 1.08
         synth.speak(u)
     }
@@ -43,8 +43,14 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
         onChange = nil
         let u = AVSpeechUtterance(string: text)
         u.voice = AVSpeechSynthesisVoice(language: language) ?? AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
-        u.rate = AVSpeechUtteranceDefaultSpeechRate * 0.85
+        u.rate = Self.rate(0.85)
         synth.speak(u)
+    }
+
+    /// The talking speed, with the speed from Settings ("talk slower") on top.
+    static func rate(_ base: Float) -> Float {
+        let r = AVSpeechUtteranceDefaultSpeechRate * base * Float(SettingsStore.voiceSpeedNow)
+        return min(AVSpeechUtteranceMaximumSpeechRate, max(AVSpeechUtteranceMinimumSpeechRate, r))
     }
 
     func stop() {

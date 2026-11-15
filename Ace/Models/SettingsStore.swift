@@ -12,6 +12,8 @@ final class SettingsStore: ObservableObject {
     @Published var hapticsOn: Bool { didSet { d.set(hapticsOn, forKey: "hapticsOn") } }
     @Published var speakReplies: Bool { didSet { d.set(speakReplies, forKey: "speakReplies") } }
     @Published var voiceID: String { didSet { d.set(voiceID, forKey: "voiceID") } }
+    /// How fast Ace talks: 1 is normal, 0.6 is slowest, 1.5 is fastest.
+    @Published var voiceSpeed: Double { didSet { d.set(voiceSpeed, forKey: "voiceSpeed") } }
     @Published var wakeChecks: Bool { didSet { d.set(wakeChecks, forKey: "wakeChecks") } }
     @Published var backgroundAlerts: Bool { didSet { d.set(backgroundAlerts, forKey: "backgroundAlerts") } }
     /// "ace" opens pages in a sheet inside Ace, "safari" opens Safari.
@@ -42,7 +44,7 @@ final class SettingsStore: ObservableObject {
             "soundsOn": true, "volume": 0.8, "hapticsOn": true, "speakReplies": false,
             "wakeChecks": true, "backgroundAlerts": true, "openLinksIn": "ace", "searchEngine": "google",
             "webAnswers": true, "showThinking": true, "useAppleModel": false, "useLocalModel": true, "brain": "ace",
-            "bedtimeTips": true, "temperatureUnit": "auto", "syncEnabled": false, "syncPort": 48620,
+            "bedtimeTips": true, "temperatureUnit": "auto", "syncEnabled": false, "syncPort": 48620, "voiceSpeed": 1.0,
         ])
         userName = d.string(forKey: "userName") ?? ""
         soundsOn = d.bool(forKey: "soundsOn")
@@ -50,6 +52,7 @@ final class SettingsStore: ObservableObject {
         hapticsOn = d.bool(forKey: "hapticsOn")
         speakReplies = d.bool(forKey: "speakReplies")
         voiceID = d.string(forKey: "voiceID") ?? ""
+        voiceSpeed = min(SettingsStore.fastestVoice, max(SettingsStore.slowestVoice, d.double(forKey: "voiceSpeed")))
         wakeChecks = d.bool(forKey: "wakeChecks")
         backgroundAlerts = d.bool(forKey: "backgroundAlerts")
         openLinksIn = d.string(forKey: "openLinksIn") ?? "ace"
@@ -68,6 +71,15 @@ final class SettingsStore: ObservableObject {
         syncPCName = d.string(forKey: "syncPCName") ?? ""
         lastSync = d.object(forKey: "lastSync") as? Date
         lastGreetingDay = d.string(forKey: "lastGreetingDay") ?? ""
+    }
+
+    nonisolated static let slowestVoice = 0.6
+    nonisolated static let fastestVoice = 1.5
+
+    /// The speed for background code that can't reach the settings object.
+    nonisolated static var voiceSpeedNow: Double {
+        let v = UserDefaults.standard.double(forKey: "voiceSpeed")
+        return v == 0 ? 1 : min(fastestVoice, max(slowestVoice, v))
     }
 
     /// True when LFM3 Omni is picked as the brain.

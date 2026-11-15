@@ -50,13 +50,29 @@ struct SettingsView: View {
                             Text(v.name + " (" + v.language + ")").tag(v.identifier)
                         }
                     }
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack {
+                            Text("Talking speed")
+                            Spacer()
+                            Text(settings.voiceSpeed == 1 ? "Normal" : String(format: "%.2fx", settings.voiceSpeed))
+                                .foregroundStyle(.secondary)
+                                .monospacedDigit()
+                        }
+                        Slider(value: $settings.voiceSpeed, in: SettingsStore.slowestVoice...SettingsStore.fastestVoice, step: 0.05) {
+                            Text("Talking speed")
+                        } minimumValueLabel: {
+                            Image(systemName: "tortoise.fill")
+                        } maximumValueLabel: {
+                            Image(systemName: "hare.fill")
+                        }
+                    }
                     Button("Hear it") {
                         VoiceOut.shared.speak("Hi! I'm Ace.", voiceID: settings.voiceID) { _ in }
                     }
                 } header: {
                     Text("Voice")
                 } footer: {
-                    Text("Hold the orb to talk, and let go when you're done. With \"Hey Ace\" on, Ace listens while the app is open. Tap the orb for Settings.")
+                    Text("You can also say \"talk slower\" or \"talk faster\". Hold the orb to talk, and let go when you're done. With \"Hey Ace\" on, Ace listens while the app is open. Tap the orb for Settings.")
                 }
 
                 Section {

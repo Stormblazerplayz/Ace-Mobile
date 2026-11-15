@@ -26,6 +26,7 @@ struct CardView: View {
         case .trivia(let t): TriviaCardView(card: t)
         case .translation(let t): TranslationCardView(card: t)
         case .quickReplies(let q): QuickRepliesView(card: q)
+        case .steps(let s): StepsCardView(card: s)
         }
     }
 }
@@ -56,6 +57,7 @@ struct RecipeCardView: View {
     @State private var checked: Set<Int> = []
     @State private var showAllSteps = false
     @State private var cooking = false
+    @State private var shoppingNote: String?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -141,6 +143,19 @@ struct RecipeCardView: View {
             }
             .font(.subheadline)
             .tint(AceTheme.ace)
+            if !recipe.ingredients.isEmpty {
+                Button {
+                    Haptics.shared.play(.tick)
+                    Task { await addToShopping() }
+                } label: {
+                    Label(shoppingNote ?? "Add ingredients to Shopping list", systemImage: shoppingNote == nil ? "cart.badge.plus" : "checkmark.circle.fill")
+                        .font(.subheadline.weight(.semibold))
+                        .frame(maxWidth: .infinity, minHeight: 40)
+                }
+                .buttonStyle(.bordered)
+                .tint(AceTheme.ace)
+                .disabled(shoppingNote != nil)
+            }
             if !recipe.steps.isEmpty {
                 Button {
                     cooking = true
@@ -156,6 +171,20 @@ struct RecipeCardView: View {
         }
         .aceCard()
         .fullScreenCover(isPresented: $cooking) { CookingModeView(recipe: recipe) }
+    }
+
+    /// Puts the ingredients on the Shopping list in Reminders (skipping ones already there).
+    private func addToShopping() async {
+        let cal = CalendarService.shared
+        guard await cal.requestReminderAccess(), let r = await cal.addToShopping(recipe.ingredients) else {
+            shoppingNote = "Turn on Reminders for Ace in Settings"
+            return
+        }
+        if r.added.isEmpty {
+            shoppingNote = "Already on your Shopping list"
+        } else {
+            shoppingNote = "Added \(r.added.count) to your Shopping list"
+        }
     }
 }
 
@@ -891,5 +920,97 @@ struct QuickRepliesView: View {
             }
         }
         .opacity(live || tapped != nil ? 1 : 0.5)
+    }
+}
+
+// MARK: Homework steps
+
+/// A worked math problem. Steps show one at a time ("Next step"), so you can try each one first.
+struct StepsCardView: View {
+    let card: StepsCard
+    @State private var shown = 1
+    @State private var copied = false
+
+    private var allShown: Bool { shown >= card.steps.count }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Label("Step by step", systemImage: "function")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(AceTheme.ace)
+            Text(card.problem)
+                .font(.system(.title3, design: .rounded).weight(.semibold))
+                .foregroundStyle(AceTheme.fg)
+                .textSelection(.enabled)
+                .fixedSize(horizontal: false, vertical: true)
+            ForEach(Array(card.steps.prefix(shown).enumerated()), id: \.offset) { i, step in
+                HStack(alignment: .top, spacing: 10) {
+                    Text("\(i + 1)")
+                        .font(.caption.weight(.bold))
+                        .frame(width: 22, height: 22)
+                        .background(Circle().fill(AceTheme.ace.opacity(0.18)))
+                        .foregroundStyle(AceTheme.ace)
+                    Text(step)
+                        .font(.subheadline)
+                        .foregroundStyle(AceTheme.fg)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .transition(.opacity.combined(with: .move(edge: .top)))
+            }
+            if allShown {
+                HStack(spacing: 8) {
+                    Image(systemName: "checkmark.seal.fill")
+                        .foregroundStyle(AceTheme.ace)
+                    Text("Answer: \(card.answer)")
+                        .font(.headline)
+                        .foregroundStyle(AceTheme.fg)
+                        .textSelection(.enabled)
+                }
+                .padding(.top, 2)
+            }
+            HStack(spacing: 10) {
+                if !allShown {
+                    Button {
+                        Haptics.shared.play(.tick)
+                        withAnimation { shown += 1 }
+                    } label: {
+                        Label("Next step", systemImage: "arrow.down.circle.fill")
+                            .font(.caption.weight(.semibold))
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 7)
+                            .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
+                            .foregroundStyle(AceTheme.ace)
+                    }
+                    .buttonStyle(.plain)
+                    Button {
+                        withAnimation { shown = card.steps.count }
+                    } label: {
+                        Text("Show all")
+                            .font(.caption.weight(.semibold))
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 7)
+                            .background(Capsule().fill(AceTheme.soft))
+                            .foregroundStyle(AceTheme.muted)
+                    }
+                    .buttonStyle(.plain)
+                }
+                Spacer(minLength: 0)
+                Button {
+                    UIPasteboard.general.string = ([card.problem] + card.steps + ["Answer: \(card.answer)"]).joined(separator: "\n")
+                    Haptics.shared.play(.tick)
+                    copied = true
+                } label: {
+                    Label(copied ? "Copied" : "Copy", systemImage: copied ? "checkmark" : "doc.on.doc")
+                        .font(.caption.weight(.semibold))
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 7)
+                        .background(Capsule().fill(AceTheme.soft))
+                        .foregroundStyle(AceTheme.muted)
+                }
+                .buttonStyle(.plain)
+            }
+        }
+        .aceCard()
+        .onAppear { if card.steps.isEmpty { shown = 0 } }
     }
 }

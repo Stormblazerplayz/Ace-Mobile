@@ -1126,5 +1126,164 @@
   "opt": [],
   "orig": "Okay, game over. We can play again anytime.",
   "note": "They stopped the game"
+ },
+ "homeworkSteps": {
+  "req": [
+   "problem",
+   "answer"
+  ],
+  "opt": [],
+  "orig": "Here's {problem}, step by step. The answer is {answer}.",
+  "note": "{problem} is a math problem like '2x + 3 = 11'. The steps are shown in a card under the message."
+ },
+ "homeworkHelp": {
+  "req": [
+   "examples"
+  ],
+  "opt": [],
+  "orig": "Send me a math problem like {examples}, or take a photo of your worksheet, and I'll show every step.",
+  "note": "{examples} is a list like '2x + 3 = 11, 3/4 + 1/8 or 15% of 80'"
+ },
+ "homeworkCantSolve": {
+  "req": [
+   "kinds"
+  ],
+  "opt": [],
+  "orig": "I can't do that one step by step yet. I can do {kinds}.",
+  "note": "{kinds} is a list like 'arithmetic, fractions, percents and equations like 2x + 3 = 11'"
+ },
+ "photoMathOne": {
+  "req": [
+   "problem",
+   "answer"
+  ],
+  "opt": [],
+  "orig": "I found a math problem in your picture: {problem}. The answer is {answer}, and the steps are below.",
+  "note": "From the camera"
+ },
+ "photoMathMany": {
+  "req": [
+   "count"
+  ],
+  "opt": [],
+  "orig": "I found {count} math problems in your picture. The steps for each are below.",
+  "note": "{count} is a number, 2 or more"
+ },
+ "noteSaved": {
+  "req": [
+   "note"
+  ],
+  "opt": [],
+  "orig": "Saved your note: \"{note}\".",
+  "note": "They said something like 'take a note: buy glue'"
+ },
+ "noteList": {
+  "req": [
+   "count",
+   "notes"
+  ],
+  "opt": [],
+  "orig": "You have {count} notes. The newest ones: {notes}.",
+  "note": "{notes} is a list of the newest few notes in quotes"
+ },
+ "noteListEmpty": {
+  "req": [],
+  "opt": [],
+  "orig": "You don't have any notes yet. Say \"take a note\" and what to write.",
+  "note": "No notes saved"
+ },
+ "noteDeleted": {
+  "req": [
+   "note"
+  ],
+  "opt": [],
+  "orig": "Deleted the note \"{note}\".",
+  "note": "One note removed"
+ },
+ "noteNotFound": {
+  "req": [
+   "words"
+  ],
+  "opt": [],
+  "orig": "I couldn't find a note about \"{words}\".",
+  "note": "They asked to delete or find a note that doesn't exist"
+ },
+ "notesCleared": {
+  "req": [
+   "count"
+  ],
+  "opt": [],
+  "orig": "Deleted all {count} of your notes.",
+  "note": "They asked to delete every note"
+ },
+ "voiceSpeedSet": {
+  "req": [
+   "speed"
+  ],
+  "opt": [],
+  "orig": "Okay, I'll talk {speed} now.",
+  "note": "{speed} is 'a bit slower', 'a bit faster' or 'at my normal speed'"
+ },
+ "voiceSpeedLimit": {
+  "req": [
+   "speed"
+  ],
+  "opt": [],
+  "orig": "That's as {speed} as I can talk.",
+  "note": "{speed} is 'slow' or 'fast'"
+ },
+ "shoppingAdded": {
+  "req": [
+   "count",
+   "recipe",
+   "list"
+  ],
+  "opt": [],
+  "orig": "Added {count} ingredients for {recipe} to your {list} list in Reminders.",
+  "note": "{list} is the Reminders list name like 'Shopping'"
+ },
+ "shoppingAddedItems": {
+  "req": [
+   "items",
+   "list"
+  ],
+  "opt": [],
+  "orig": "Added {items} to your {list} list.",
+  "note": "{items} like 'milk and eggs'"
+ },
+ "shoppingSkipped": {
+  "req": [
+   "count"
+  ],
+  "opt": [],
+  "orig": "{count} of them were already on the list, so I left those.",
+  "note": "Follows shoppingAdded or shoppingAddedItems in the same message"
+ },
+ "shoppingNoRecipe": {
+  "req": [],
+  "opt": [],
+  "orig": "Ask me for a recipe first, then I can put its ingredients on your shopping list.",
+  "note": "No recipe has been shown yet"
+ },
+ "shoppingNoAccess": {
+  "req": [],
+  "opt": [],
+  "orig": "I need to use Reminders for that. You can turn it on in Settings, then Privacy, then Reminders, then Ace.",
+  "note": "Reminders permission is off"
+ },
+ "shoppingListRead": {
+  "req": [
+   "count",
+   "items"
+  ],
+  "opt": [],
+  "orig": "Your shopping list has {count} things: {items}.",
+  "note": "{items} is a list joined with 'and'"
+ },
+ "shoppingListEmpty": {
+  "req": [],
+  "opt": [],
+  "orig": "Your shopping list is empty.",
+  "note": "Nothing on it"
  }
 }
