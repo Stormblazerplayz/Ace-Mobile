@@ -61,6 +61,8 @@ final class Brain {
     private var gameSerial = 0
     /// Trivia questions asked lately, so a new round brings new ones.
     private var recentTrivia: [String] = []
+    /// Best scores and streaks per trivia category.
+    var triviaRecords = TriviaRecords.shared
 
     /// How sure the answer bank has to be to answer straight away.
     static let sure = 0.74
@@ -1221,6 +1223,7 @@ final class Brain {
 
     /// Starts trivia ("trivia" or "trivia:Space") or 20 questions ("twenty").
     func startGame(_ which: String) -> BrainReply {
+        if which == "trivia:records" { return triviaRecordsReply() }
         gameSerial += 1
         if which == "twenty" {
             let r = twentyMove(TwentyRound(), lead: Say.line(.twentyStart))
@@ -1260,12 +1263,19 @@ final class Brain {
             let lead: String
             if Rx.matches(#"^(?:skip|pass|next|next one|next question|i do not know|i dont know|dont know|do not know|no idea|i have no idea|idk|not sure|i am not sure|i give up|give up|tell me|tell me the answer|what is it|what is the answer)(?: please| one| question| it| this one)?$"#, t) {
                 lead = Say.line(.triviaSkipped, ["answer": answer])
+                triviaRecords.answered(category: round.category, right: false)
             } else if let i = Trivia.pick(text, for: q) {
                 if i == q.answer {
                     round.score += 1
-                    lead = Say.line(.triviaRight, ["fact": q.fact])
+                    var line = Say.line(.triviaRight, ["fact": q.fact])
+                    let streak = triviaRecords.answered(category: round.category, right: true)
+                    if TriviaRecords.isMilestone(streak) {
+                        line += " " + Say.line(.triviaStreak, ["count": "\(streak)", "category": TriviaRecords.name(round.category)])
+                    }
+                    lead = line
                 } else {
                     lead = Say.line(.triviaWrong, ["answer": answer, "fact": q.fact])
+                    triviaRecords.answered(category: round.category, right: false)
                 }
             } else {
                 return nil
@@ -1312,12 +1322,26 @@ final class Brain {
         gameToken = ""
     }
 
+    /// "What are my trivia scores": the best round and best streak in each category.
+    func triviaRecordsReply() -> BrainReply {
+        let list = triviaRecords.summary
+        guard !list.isEmpty else { return BrainReply(text: Say.line(.triviaRecordsEmpty), source: "trivia", mood: .idle) }
+        return BrainReply(text: Say.line(.triviaRecords, ["records": TextKit.joinList(list)]), source: "trivia")
+    }
+
     /// The next trivia question, or the score when the round is over.
     private func triviaNext(_ round: TriviaRound, lead: String?) -> BrainReply {
         guard let q = round.current else {
             endGame()
-            let done = Say.line(.triviaDone, ["score": "\(round.score)", "total": "\(round.questions.count)"])
-            return BrainReply(text: [lead, done].compactMap { $0 }.joined(separator: "\n\n"), source: "trivia", mood: .happy)
+            let total = round.questions.count
+            let done = Say.line(.triviaDone, ["score": "\(round.score)", "total": "\(total)"])
+            let name = TriviaRecords.name(round.category)
+            let newBest = triviaRecords.finished(category: round.category, score: round.score, total: total)
+            let best = triviaRecords.record(round.category)
+            let record = newBest
+                ? Say.line(.triviaNewBest, ["category": name, "score": "\(round.score)", "total": "\(total)"])
+                : Say.line(.triviaBest, ["category": name, "best": "\(best.best)", "total": "\(best.total)"])
+            return BrainReply(text: [lead, done + " " + record].compactMap { $0 }.joined(separator: "\n\n"), source: "trivia", mood: .happy)
         }
         game = .trivia(round)
         gameToken = "t\(gameSerial)-\(round.index)"

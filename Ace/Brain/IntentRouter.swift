@@ -188,6 +188,11 @@ enum IntentRouter {
             || Rx.matches(#"^(?:20|twenty) questions$"#, t) {
             return .game("twenty")
         }
+        if Rx.matches(#"^(?:(?:what (?:is|are)|show(?: me)?|tell me|read(?: me)?|check) )?(?:my |the )?(?:best |high |top )?(?:trivia|quiz) (?:scores?|records?|bests?|high scores?|top scores?|streaks?|scoreboard|stats)(?: please)?$"#, t)
+            || Rx.matches(#"^(?:what (?:is|are) )?my (?:best |high |top )?(?:scores?|records?|streaks?) (?:in|at|for) (?:trivia|the quiz)(?: please)?$"#, t)
+            || Rx.matches(#"^how (?:am i doing|have i done|good am i) (?:at|in) trivia$"#, t) {
+            return .game("trivia:records")
+        }
         if Rx.matches(#"^(?:(?:can we|can you|let us|lets|i want to|want to|wanna|please|ok|okay)\s+)*(?:(?:play|start|do|give me|have)\s+(?:a\s+|some\s+)?(?:trivia|quiz)(?:\s+game|\s+round|\s+questions?)?|quiz me|test me|ask me (?:a\s+|some\s+)?(?:trivia|quiz)(?:\s+questions?)?|trivia(?: time)?)(?:\s+(?:about|on|with|for)\s+.+)?(?: please)?$"#, t) {
             if let cat = Trivia.category(in: t) { return .game("trivia:" + cat) }
             return .game("trivia")

@@ -15,6 +15,7 @@ sys.path.insert(0, HERE)
 
 import qa_data_world as W  # noqa: E402
 import qa_data_general as G  # noqa: E402
+import qa_data_more as MORE  # noqa: E402
 import qa_variants as V  # noqa: E402
 
 OUT = os.path.join(HERE, "..", "Ace", "Resources", "qa_bank.json")
@@ -61,9 +62,9 @@ def cap_first(s):
 
 
 # ---------- hand-written general entries ----------
-def parse_general():
+def parse_general(text=None):
     tag = "general"
-    for raw in G.GENERAL.splitlines():
+    for raw in (G.GENERAL if text is None else text).splitlines():
         line = raw.strip()
         if not line:
             continue
@@ -224,6 +225,7 @@ def planets():
 
 def main():
     parse_general()
+    parse_general(MORE.MORE)
     countries()
     states()
     elements()

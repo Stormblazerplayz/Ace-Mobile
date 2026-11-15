@@ -211,14 +211,15 @@ final class AceCore: ObservableObject, BrainHost {
             SoundFX.shared.play(.success, gain: 0.55)
             Haptics.shared.play(.success)
         }
-        speak(reply.text)
+        speak(reply.text, cards: reply.cards)
         setMood(reply.mood == .idle ? .talking : reply.mood, thenIdleAfter: 2.2)
         saveChat()
     }
 
-    func speak(_ text: String) {
+    /// Reads a reply out loud. A translation in it is said in that language's accent.
+    func speak(_ text: String, cards: [AceCard] = []) {
         guard settings.speakReplies || handsFree else { return }
-        VoiceOut.shared.speak(text, voiceID: settings.voiceID) { [weak self] speaking in
+        VoiceOut.shared.speak(Phrasebook.spokenParts(text, cards: cards), voiceID: settings.voiceID) { [weak self] speaking in
             guard let self else { return }
             VoiceIn.shared.aceSpeaking(speaking)
             if speaking { self.setMood(.talking) } else if !self.busy { self.setMood(.idle) }

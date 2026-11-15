@@ -79,6 +79,37 @@ final class GamesTests: XCTestCase {
         XCTAssertEqual(Phrasebook.card(hello, code: "es")?.language, "Spanish")
     }
 
+    func testTranslationsAreSpokenInTheirAccent() {
+        let thanks = TranslationCard(english: "thank you", language: "Spanish", code: "es", text: "gracias", say: nil)
+        XCTAssertEqual(Phrasebook.spokenParts("In Spanish, \"thank you\" is gracias.", cards: [.translation(thanks)]), [
+            SpokenPart(text: "In Spanish, \"thank you\" is", language: nil),
+            SpokenPart(text: "gracias", language: "es-ES"),
+        ])
+        let jp = TranslationCard(english: "thank you", language: "Japanese", code: "ja", text: "ありがとう", say: "arigatou")
+        let parts = Phrasebook.spokenParts("\"thank you\" in Japanese is ありがとう (arigatou). Give it a try!", cards: [.translation(jp)])
+        XCTAssertEqual(parts.map(\.language), [nil, "ja-JP", nil])
+        XCTAssertEqual(parts[1].text, "ありがとう")
+        XCTAssertFalse(parts.contains { $0.text.contains("arigatou") }, "The real voice says it, not the spelling")
+        let pizza = TranslationCard(english: "pizza", language: "Italian", code: "it", text: "pizza", say: nil)
+        XCTAssertEqual(Phrasebook.spokenParts("\"pizza\" in Italian is pizza.", cards: [.translation(pizza)]).last,
+                       SpokenPart(text: "pizza", language: "it-IT"), "The quoted English word isn't the translation")
+        XCTAssertEqual(Phrasebook.spokenParts("Hi there!", cards: []), [SpokenPart(text: "Hi there!", language: nil)])
+        // Every way Ace words a translation gets split, for every language.
+        let hello = try! XCTUnwrap(Phrasebook.find("hello"))
+        for code in Phrasebook.languages.map(\.code) {
+            guard let card = Phrasebook.card(hello, code: code) else { continue }
+            let shown = card.say.map { "\(card.text) (\($0))" } ?? card.text
+            for wording in Say.wordings(.translated) {
+                let text = wording.replacingOccurrences(of: "{phrase}", with: card.english)
+                    .replacingOccurrences(of: "{language}", with: card.language)
+                    .replacingOccurrences(of: "{text}", with: shown)
+                let got = Phrasebook.spokenParts(text, cards: [.translation(card)])
+                XCTAssertEqual(got.filter { $0.language != nil }, [SpokenPart(text: card.text, language: Phrasebook.speechCodes[code])], text)
+                XCTAssertFalse(got.contains { $0.language == nil && $0.text.contains(card.text) && card.text != card.english }, text)
+            }
+        }
+    }
+
     // MARK: Trivia
 
     private let mars = TriviaQuestion(id: "t", category: "Space", q: "Which planet is known as the Red Planet?",
@@ -102,10 +133,50 @@ final class GamesTests: XCTestCase {
         XCTAssertEqual(IntentRouter.parse("can we play 20 questions"), .game("twenty"))
         XCTAssertEqual(IntentRouter.parse("guess what i'm thinking of"), .game("twenty"))
         XCTAssertNotEqual(IntentRouter.parse("what is trivia")?.kind, "game")
+        XCTAssertEqual(IntentRouter.parse("what are my trivia scores"), .game("trivia:records"))
+        XCTAssertEqual(IntentRouter.parse("what's my best trivia score"), .game("trivia:records"))
+        XCTAssertEqual(IntentRouter.parse("show me my trivia streaks"), .game("trivia:records"))
+        XCTAssertEqual(IntentRouter.parse("how am i doing at trivia"), .game("trivia:records"))
+    }
+
+    func testTriviaRecords() {
+        let records = TriviaRecords(key: "ace.trivia.records.test")
+        records.clearAll()
+        defer { records.clearAll() }
+        XCTAssertTrue(records.summary.isEmpty)
+        XCTAssertEqual(records.answered(category: "Space", right: true), 1)
+        XCTAssertEqual(records.answered(category: "Space", right: true), 2)
+        XCTAssertEqual(records.answered(category: "Space", right: true), 3)
+        XCTAssertEqual(records.answered(category: "Space", right: false), 0, "A miss ends the streak")
+        XCTAssertEqual(records.record("Space").bestStreak, 3)
+        XCTAssertEqual(records.answered(category: nil, right: true), 1, "Mixed rounds have their own streak")
+        XCTAssertTrue(records.finished(category: "Space", score: 3, total: 5), "The first round is a new best")
+        XCTAssertFalse(records.finished(category: "Space", score: 2, total: 5))
+        XCTAssertFalse(records.finished(category: "Space", score: 3, total: 5), "A tie isn't a new best")
+        XCTAssertTrue(records.finished(category: "Space", score: 5, total: 5))
+        XCTAssertEqual(records.record("Space").best, 5)
+        XCTAssertEqual(records.record("Space").rounds, 4)
+        XCTAssertFalse(records.finished(category: "Animals", score: 0, total: 5), "Zero isn't a new best")
+        XCTAssertEqual(records.record("Animals").rounds, 1)
+        XCTAssertEqual(TriviaRecords(key: "ace.trivia.records.test").record("Space").best, 5, "Records are saved")
+        XCTAssertEqual(records.summary, ["Space 5 out of 5 (best streak 3)", "Animals 0 out of 5 (best streak 0)"])
+        XCTAssertEqual([1, 2, 3, 4, 5, 6, 10, 12, 15].filter(TriviaRecords.isMilestone), [3, 5, 10, 15])
+
+        let brain = Brain()
+        brain.triviaRecords = records
+        let r = brain.startGame("trivia:records")
+        XCTAssertTrue(r.text.contains("Space 5 out of 5"), r.text)
+        XCTAssertNil(brain.game, "Asking for scores doesn't start a round")
+        records.clearAll()
+        XCTAssertEqual(brain.triviaRecordsReply().mood, .idle)
     }
 
     func testTriviaRound() throws {
         let brain = Brain()
+        let records = TriviaRecords(key: "ace.trivia.records.round")
+        records.clearAll()
+        defer { records.clearAll() }
+        brain.triviaRecords = records
         let first = brain.startGame("trivia:Space")
         guard case .trivia(let start)? = brain.game else { return XCTFail("No trivia round") }
         XCTAssertEqual(start.questions.count, Trivia.roundLength)
@@ -136,6 +207,10 @@ final class GamesTests: XCTestCase {
         }
         XCTAssertNil(brain.game, "The round should be over")
         XCTAssertEqual(brain.gameToken, "")
+        // 3 right out of 5, ending on two right in a row.
+        XCTAssertEqual(records.record("Space").best, 3)
+        XCTAssertEqual(records.record("Space").rounds, 1)
+        XCTAssertEqual(records.record("Space").streak, 2)
     }
 
     func testTriviaStopsAndLetsOtherQuestionsThrough() {

@@ -144,6 +144,11 @@ enum ReplyKey: String, CaseIterable {
     case triviaSkipped
     case triviaDone
     case triviaStopped
+    case triviaNewBest
+    case triviaBest
+    case triviaStreak
+    case triviaRecords
+    case triviaRecordsEmpty
     case twentyStart
     case twentyQuestion
     case twentyGuess

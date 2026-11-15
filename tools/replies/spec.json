@@ -1285,5 +1285,48 @@
   "opt": [],
   "orig": "Your shopping list is empty.",
   "note": "Nothing on it"
+ },
+ "triviaNewBest": {
+  "req": [
+   "category",
+   "score",
+   "total"
+  ],
+  "opt": [],
+  "orig": "That's a new best in {category} trivia: {score} out of {total}!",
+  "note": "Said after the round score when this round beat their old best. {category} like 'Space' or 'mixed'"
+ },
+ "triviaBest": {
+  "req": [
+   "category",
+   "best",
+   "total"
+  ],
+  "opt": [],
+  "orig": "Your best in {category} trivia is {best} out of {total}.",
+  "note": "Said after the round score when they didn't beat their best"
+ },
+ "triviaStreak": {
+  "req": [
+   "count",
+   "category"
+  ],
+  "opt": [],
+  "orig": "That's {count} right in a row in {category} trivia!",
+  "note": "A streak of right answers, said at 3, 5, 10 and every 5 after"
+ },
+ "triviaRecords": {
+  "req": [
+   "records"
+  ],
+  "opt": [],
+  "orig": "Your trivia bests: {records}.",
+  "note": "{records} like 'Space 5 out of 5 (best streak 7) and Animals 3 out of 5 (best streak 3)'"
+ },
+ "triviaRecordsEmpty": {
+  "req": [],
+  "opt": [],
+  "orig": "You haven't finished a trivia round yet. Say trivia to play one!",
+  "note": "Asked for trivia scores with none saved"
  }
 }

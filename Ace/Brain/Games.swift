@@ -108,6 +108,85 @@ struct TriviaRound: Equatable {
     var current: TriviaQuestion? { index < questions.count ? questions[index] : nil }
 }
 
+// MARK: Trivia records
+
+/// Best round score and right-answer streaks for each trivia category, kept on this device.
+final class TriviaRecords {
+    static let shared = TriviaRecords()
+
+    struct Record: Codable, Equatable {
+        var best = 0          // best round score
+        var total = 0         // questions in that round
+        var rounds = 0        // rounds finished
+        var streak = 0        // right answers in a row right now
+        var bestStreak = 0
+    }
+
+    /// Category name ("Space"), or "mixed" for rounds from every category.
+    static func name(_ category: String?) -> String { category ?? "mixed" }
+
+    private(set) var records: [String: Record] = [:]
+    private let key: String
+
+    init(key: String = "ace.trivia.records") {
+        self.key = key
+        if let data = UserDefaults.standard.data(forKey: key),
+           let saved = try? JSONDecoder().decode([String: Record].self, from: data) {
+            records = saved
+        }
+    }
+
+    private func save() {
+        if let data = try? JSONEncoder().encode(records) { UserDefaults.standard.set(data, forKey: key) }
+    }
+
+    func record(_ category: String?) -> Record { records[Self.name(category)] ?? Record() }
+
+    /// After each answer. A wrong answer or a skip ends the streak. Returns the streak now.
+    @discardableResult
+    func answered(category: String?, right: Bool) -> Int {
+        var r = record(category)
+        r.streak = right ? r.streak + 1 : 0
+        r.bestStreak = max(r.bestStreak, r.streak)
+        records[Self.name(category)] = r
+        save()
+        return r.streak
+    }
+
+    /// After a full round. True when it beat the old best (the first round counts when it scored anything).
+    @discardableResult
+    func finished(category: String?, score: Int, total: Int) -> Bool {
+        var r = record(category)
+        let newBest = score > r.best
+        if newBest || r.rounds == 0 {
+            r.best = score
+            r.total = total
+        }
+        r.rounds += 1
+        records[Self.name(category)] = r
+        save()
+        return newBest
+    }
+
+    /// Streaks worth saying out loud: 3, 5, 10, 15, 20...
+    static func isMilestone(_ streak: Int) -> Bool { streak == 3 || streak == 5 || (streak >= 10 && streak % 5 == 0) }
+
+    /// "Space 5 out of 5 (best streak 7)", best first. Only categories with a finished round.
+    var summary: [String] {
+        records.filter { $0.value.rounds > 0 }
+            .sorted { ($0.value.best, $1.key) > ($1.value.best, $0.key) }
+            .map { item in
+                let label = item.key == "mixed" ? "Mixed" : item.key
+                return "\(label) \(item.value.best) out of \(item.value.total) (best streak \(item.value.bestStreak))"
+            }
+    }
+
+    func clearAll() {
+        records = [:]
+        save()
+    }
+}
+
 // MARK: 20 questions (Ace guesses what you're thinking of)
 
 /// Ace asks yes-or-no questions and guesses the thing you picked. Things it doesn't know, it learns.
