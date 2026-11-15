@@ -130,6 +130,10 @@ enum ReplyKey: String, CaseIterable {
     case recipeGuessedServings
     case recipeTweaked
     case recipeTweakNothing
+    case scriptFound
+    case scriptNotFound
+    case scriptNeedOne
+    case scriptList
     case yourName
 }
 

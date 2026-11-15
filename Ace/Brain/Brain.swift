@@ -755,6 +755,7 @@ final class Brain {
         case .searchTab: return "a web search tab"
         case .recipe: return "a recipe"
         case .recipeTweak: return "changing the recipe"
+        case .script: return "a script"
         case .weather: return "the weather"
         case .check: return "a full check"
         case .battery: return "the battery"
@@ -918,6 +919,30 @@ final class Brain {
             }
             lastTopic = card.name
             return BrainReply(text: Say.line(.recipeFound, ["name": card.name, "ingredients": "\(card.ingredients.count)", "steps": "\(card.steps.count)"]), cards: [.recipe(card)], source: "web")
+
+        case .script(let ask):
+            // Ace's built-in code library: Roblox Lua and C++.
+            if let m = ScriptLibrary.find(ask) {
+                let s = m.script
+                await think("Found \(s.title) in my \(s.language) scripts")
+                lastTopic = s.title
+                return BrainReply(text: TextKit.capitalizeFirst(Say.line(.scriptFound, ["title": ScriptLibrary.spokenName(s.title), "language": s.language])),
+                                  cards: [.code(s.card)], source: "Ace's script library", mood: .happy)
+            }
+            let words = ScriptLibrary.tokens(TextKit.normalize(ask))
+            let language = ScriptLibrary.listAsk(ask).flatMap { $0.isEmpty ? nil : $0 }
+                ?? ScriptLibrary.needsOne(ask).flatMap { $0.isEmpty ? nil : $0 }
+                ?? ScriptLibrary.hints(words).language
+            let examples = ScriptLibrary.examples(language).map(ScriptLibrary.spokenName)
+            if ScriptLibrary.listAsk(ask) != nil {
+                let pool = ScriptLibrary.all.filter { language == nil || $0.language == language }
+                let count = language.map { "\(pool.count) \($0)" } ?? "\(pool.count)"
+                return BrainReply(text: Say.line(.scriptList, ["count": count, "examples": TextKit.joinList(examples)]), source: "Ace's script library")
+            }
+            if ScriptLibrary.needsOne(ask) != nil {
+                return BrainReply(text: Say.line(.scriptNeedOne, ["examples": TextKit.joinList(examples, last: "or")]), source: "Ace's script library")
+            }
+            return BrainReply(text: Say.line(.scriptNotFound, ["examples": TextKit.joinList(examples, last: "or")]), source: "Ace's script library", mood: .idle)
 
         case .recipeTweak(let ask):
             guard let change = RecipeTweaks.parse(ask) else { return nil }

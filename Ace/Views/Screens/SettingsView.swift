@@ -172,12 +172,21 @@ struct MemorySection: View {
                     Label("Memories", systemImage: "brain.head.profile")
                 }
             }
+            NavigationLink {
+                ScriptsView()
+            } label: {
+                LabeledContent {
+                    Text("\(ScriptLibrary.all.count)")
+                } label: {
+                    Label("Scripts", systemImage: "chevron.left.forwardslash.chevron.right")
+                }
+            }
             LabeledContent("Answers I know", value: "\(bank.entries.count)")
             LabeledContent("Answers I learned", value: "\(max(0, bank.entries.count - bank.builtinCount))")
         } header: {
             Text("What Ace remembers")
         } footer: {
-            Text("Open Memories to see, search, add or forget things.")
+            Text("Open Memories to see, search, add or forget things. Scripts has Ace's built-in Roblox Lua and C++ code.")
         }
     }
 }

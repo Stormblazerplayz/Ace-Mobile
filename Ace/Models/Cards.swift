@@ -15,6 +15,7 @@ enum AceCard: Codable, Equatable {
     case timer(TimerCard)
     case power(PowerCard)
     case greeting(GreetingCard)
+    case code(CodeCard)
 }
 
 /// The first hello of the day: the date, what's on today, and a few quick things to ask.
@@ -24,6 +25,17 @@ struct GreetingCard: Codable, Equatable {
     /// Today's events, soonest first (empty when the calendar is clear or not allowed).
     var events: [EventItem]
     var calendarAllowed: Bool
+}
+
+/// A script from Ace's code library, shown with colors, a Copy button and where to put it.
+struct CodeCard: Codable, Equatable {
+    var id: String
+    var title: String
+    var language: String   // "Lua" or "C++"
+    var kind: String       // "Script", "LocalScript", "Arduino sketch"...
+    var `where`: String
+    var about: String
+    var code: String
 }
 
 struct RecipeCard: Codable, Equatable {
