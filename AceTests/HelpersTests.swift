@@ -58,6 +58,8 @@ final class HelpersTests: XCTestCase {
         let times = solved("2/3 × 3/4")
         XCTAssertEqual(times?.problem, "2/3 × 3/4")
         XCTAssertEqual(times?.steps, ["Times the tops and the bottoms: 2/3 × 3/4 = 6/12. That simplifies to 1/2."])
+        XCTAssertEqual(solved("3/4 of 2/3")?.answer, "1/2", "\"of\" between fractions is times")
+        XCTAssertEqual(solved("3/4 of 2/3")?.problem, "3/4 × 2/3")
         XCTAssertEqual(solved("1/2 ÷ 1/4")?.answer, "2")
         XCTAssertEqual(solved("12 ÷ 3/4")?.answer, "16", "÷ divides by the whole fraction")
         XCTAssertEqual(solved("-3/4 + 1")?.answer, "1/4")
@@ -131,6 +133,15 @@ final class HelpersTests: XCTestCase {
             ("help me with my math homework", ""),
             ("can you help me with my homework", ""),
             ("homework help", ""),
+            ("help me with fractions homework", ""),
+            ("what is x if 4x = 36", "4x = 36"),
+            ("find x in 10 = 2x - 6", "10 = 2x - 6"),
+            ("check my homework: 3x = 27", "3x = 27"),
+            ("step by step: 7 × (2 + 3)", "7 × (2 + 3)"),
+            ("explain how to do 5/6 - 1/3", "5/6 - 1/3"),
+            ("show your work for 3/8 × 4", "3/8 × 4"),
+            ("what's 3/4 of 2/3", "3/4 of 2/3"),
+            ("work out 18 - 4 × 3 + 2", "18 - 4 × 3 + 2"),
         ]
         for (text, problem) in yes {
             XCTAssertEqual(IntentRouter.parse(text), .homework(problem), text)
@@ -219,7 +230,7 @@ final class HelpersTests: XCTestCase {
         let cases: [(String, String)] = [
             ("talk slower", "slower"), ("can you talk a little slower please", "slower"), ("slow down", "slower"),
             ("you're talking too fast", "slower"), ("speak faster", "faster"), ("speed up", "faster"),
-            ("talk at normal speed", "normal"), ("reset your voice speed", "normal"),
+            ("talk at normal speed", "normal"), ("reset your voice speed", "normal"), ("go back to your normal speed", "normal"),
         ]
         for (text, how) in cases {
             XCTAssertEqual(IntentRouter.parse(text), .voiceSpeed(how), text)

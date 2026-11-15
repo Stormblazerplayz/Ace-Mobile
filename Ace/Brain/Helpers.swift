@@ -119,7 +119,7 @@ enum HelperParser {
             || Rx.matches(#"^you(?: are)? (?:talk|talking|speak|speaking) (?:too|really|so) (?:slow|slowly)$"#, t) {
             return "faster"
         }
-        if Rx.matches("^" + polite + #"(?:(?:talk|speak)(?: at)? (?:your |the )?(?:normal|regular|usual) speed|(?:reset|fix) (?:your |the )?(?:voice|talking|speaking) speed|normal (?:voice|talking) speed)(?: please)?$"#, t) {
+        if Rx.matches("^" + polite + #"(?:(?:talk|speak)(?: at)? (?:your |the )?(?:normal|regular|usual) speed|(?:reset|fix) (?:your |the )?(?:voice|talking|speaking) speed|normal (?:voice|talking) speed|(?:go back to|back to|use|switch back to|change back to) (?:your |the )?(?:normal|regular|usual) (?:speed|voice|voice speed|talking speed))(?: please)?$"#, t) {
             return "normal"
         }
         return nil

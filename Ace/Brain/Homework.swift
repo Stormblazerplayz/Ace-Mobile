@@ -122,8 +122,16 @@ enum Homework {
             .replacingOccurrences(of: "’", with: "'")
             .trimmingCharacters(in: .whitespacesAndNewlines)
         let leads = [
+            // "what is x if 4x = 36", "find x in 10 = 2x - 6"
+            #"^(?:please\s+)?(?:can you\s+|could you\s+)?(?:what is|what's|whats|find|solve for|work out)\s+[a-z]\s+(?:if|when|in|for|from|given)\s+"#,
+            // "check my homework: 3x = 27"
+            #"^(?:please\s+)?(?:can you\s+|could you\s+)?(?:check|mark|grade)\s+(?:my\s+|this\s+)?(?:math\s+|maths\s+)?(?:homework|answer|work|sum)\s*[:,]?\s*"#,
+            // "explain how to do 5/6 - 1/3"
+            #"^(?:please\s+)?(?:can you\s+|could you\s+)?(?:explain|show me|tell me) how (?:to|you|i|do you|do i|would you|would i)\s*(?:do|solve|work out|get|figure out|calculate)\s+"#,
+            // "step by step: 7 × (2 + 3)"
+            #"^(?:step by step|with steps)\s*[:,]?\s+"#,
             #"^(?:please\s+)?(?:can you |could you |will you )?(?:please\s+)?(?:help me (?:with|solve|work out|do)|solve|work out|calculate|figure out|simplify|evaluate|explain|find)\s+"#,
-            #"^(?:please\s+)?(?:can you |could you |will you )?(?:please\s+)?(?:show|give|tell)(?: me)?(?: the| all the)? (?:steps|working|work|solution|answer)(?: for| to| of| on)?\s+"#,
+            #"^(?:please\s+)?(?:can you |could you |will you )?(?:please\s+)?(?:show|give|tell)(?: me)?(?: the| all the| your| all your)? (?:steps|working|work|solution|answer)(?: for| to| of| on)?\s+"#,
             #"^how (?:do|would|can|should) (?:i|you|we) (?:solve|work out|do|figure out|calculate|get)\s+"#,
             #"^what (?:is|are|does)\s+"#, #"^whats\s+"#, #"^what's\s+"#,
         ]
@@ -144,7 +152,7 @@ enum Homework {
     /// or nil when it isn't homework (plain sums like "what is 5 + 3" stay quick answers).
     static func intent(_ raw: String) -> String? {
         let t = TextKit.normalize(raw)
-        if Rx.matches(#"^(?:(?:can|could|will) you |please )*(?:help(?: me)?(?: out)? (?:with|on|do) (?:my |some |this )?(?:math |maths )?homework|homework help|(?:i need|i want) help (?:with|on) (?:my )?(?:math |maths )?homework|do (?:my )?(?:math |maths )?homework|(?:math|maths) homework|homework helper)(?: please)?$"#, t) {
+        if Rx.matches(#"^(?:(?:can|could|will) you |please )*(?:help(?: me)?(?: out)? (?:with|on|do) (?:my |some |this )?(?:math |maths |fractions? |algebra |equations? |times tables? )?homework|homework help|(?:i need|i want) help (?:with|on) (?:my )?(?:math |maths |fractions? |algebra |equations? |times tables? )?homework|do (?:my )?(?:math |maths )?homework|(?:math|maths) homework|homework helper)(?: please)?$"#, t) {
             return ""
         }
         guard raw.rangeOfCharacter(from: .decimalDigits) != nil else { return nil }
@@ -156,7 +164,7 @@ enum Homework {
             }
             return nil
         }
-        if Rx.matches(#"\b(?:solve|step by step|steps|working|show (?:me )?(?:the |your )?work|homework|how (?:do|would|can|should) (?:i|you|we) (?:solve|work out|do|figure out|calculate|get))\b"#, lower) {
+        if Rx.matches(#"\b(?:solve|step by step|steps|working|show (?:me )?(?:the |your )?work|homework|work out|explain|how (?:do|would|can|should) (?:i|you|we) (?:solve|work out|do|figure out|calculate|get))\b"#, lower) {
             return p
         }
         // An equation with a letter in it ("2x + 3 = 11").
@@ -164,7 +172,7 @@ enum Homework {
             return p
         }
         // Fractions ("3/4 + 1/8"), which a quick answer would turn into a long decimal.
-        if Rx.matches(#"\d\s*/\s*\d+\s*[-+*×÷]|[-+*×÷]\s*\d+\s*/\s*\d"#, p) { return p }
+        if Rx.matches(#"\d\s*/\s*\d+\s*(?:[-+*×÷]|of\s)|[-+*×÷]\s*\d+\s*/\s*\d"#, p) { return p }
         return nil
     }
 
@@ -213,6 +221,8 @@ enum Homework {
         for (a, b) in symbols { t = t.replacingOccurrences(of: a, with: b) }
         // "3 x 4" is times, "3x" is a letter.
         t = t.replacingOccurrences(of: #"(\d|\))\s+x\s+(\d|\()"#, with: "$1 * $2", options: .regularExpression)
+        // "3/4 of 2/3" is times.
+        t = t.replacingOccurrences(of: #"(\d\s*/\s*\d+)\s+of\s+(?=[0-9(])"#, with: "$1 * ", options: .regularExpression)
         return t.trimmingCharacters(in: .whitespaces)
     }
 
