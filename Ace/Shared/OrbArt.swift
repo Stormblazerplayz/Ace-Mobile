@@ -2,18 +2,20 @@ import SwiftUI
 
 /// What Ace is doing right now. The orb, the island and the widgets all draw from this.
 enum OrbMood: String, Codable, CaseIterable {
-    case idle, typing, listening, thinking, talking, checking, alert, happy, sleeping
+    case idle, typing, listening, thinking, talking, checking, alert, happy, sleeping, home
 
     var tint: Color {
         switch self {
         case .idle, .typing: return AceTheme.ace
-        case .listening: return Color(hex: 0x6FE3FF)
-        case .thinking: return AceTheme.accent
+        // Listening is blue, thinking is gold, and home control is green.
+        case .listening: return Color(hex: 0x3D8BFF)
+        case .thinking: return Color(hex: 0xFFC83D)
         case .talking: return Color(hex: 0x7CC8FF)
         case .checking: return AceTheme.ace
         case .alert: return AceTheme.amber
         case .happy: return AceTheme.good
         case .sleeping: return Color(hex: 0x4A6FA8)
+        case .home: return Color(hex: 0x3DF59A)
         }
     }
 
@@ -21,12 +23,13 @@ enum OrbMood: String, Codable, CaseIterable {
     var tint2: Color {
         switch self {
         case .idle, .typing, .checking: return AceTheme.accent
-        case .listening: return AceTheme.ace
-        case .thinking: return AceTheme.nova
+        case .listening: return Color(hex: 0x6FE3FF)
+        case .thinking: return Color(hex: 0xFF8A3D)
         case .talking: return AceTheme.accent
         case .alert: return AceTheme.nova
         case .happy: return Color(hex: 0x6FE3FF)
         case .sleeping: return Color(hex: 0x2A3A78)
+        case .home: return Color(hex: 0x2FC9B0)
         }
     }
 
@@ -41,13 +44,14 @@ enum OrbMood: String, Codable, CaseIterable {
         case .checking, .alert: return 0.5
         case .happy: return 0.4
         case .sleeping: return 0.05
+        case .home: return 0.55
         }
     }
 
     /// Eyes come out only when Ace is looking at something.
     var showsEyes: Bool {
         switch self {
-        case .checking, .alert, .happy: return true
+        case .checking, .alert, .happy, .home: return true
         default: return false
         }
     }
@@ -66,6 +70,7 @@ enum OrbMood: String, Codable, CaseIterable {
         case .alert: return "Heads up"
         case .happy: return "All good"
         case .sleeping: return "Resting"
+        case .home: return "Home done"
         }
     }
 }

@@ -494,7 +494,7 @@ final class HomeService: NSObject, ObservableObject {
         return ((h * 10).rounded() / 10, (sat * 10).rounded() / 10)
     }
 
-    private func lanSay(_ key: ReplyKey, _ slots: [String: String] = [:], mood: OrbMood = .happy) -> BrainReply {
+    private func lanSay(_ key: ReplyKey, _ slots: [String: String] = [:], mood: OrbMood = .home) -> BrainReply {
         BrainReply(text: TextKit.capitalizeFirst(Say.line(key, slots)), source: "Your Wi-Fi lights", mood: mood)
     }
 
@@ -677,7 +677,7 @@ final class HomeService: NSObject, ObservableObject {
 
     // MARK: Helpers
 
-    private func say(_ key: ReplyKey, _ slots: [String: String] = [:], mood: OrbMood = .happy) -> BrainReply {
+    private func say(_ key: ReplyKey, _ slots: [String: String] = [:], mood: OrbMood = .home) -> BrainReply {
         BrainReply(text: TextKit.capitalizeFirst(Say.line(key, slots)), source: "Apple Home", mood: mood)
     }
 
