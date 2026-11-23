@@ -28,6 +28,8 @@ final class VoiceIn: ObservableObject {
     private var commandStart: Int?
     private var lastText = ""
     private var paused = false
+    /// A voice call has the microphone, so hold-to-talk and "Hey Ace" wait until it ends.
+    private var inCall = false
 
     private init() {}
 
@@ -53,7 +55,7 @@ final class VoiceIn: ObservableObject {
 
     /// Starts listening while you hold the orb. False if Ace can't listen.
     func startHold() async -> Bool {
-        guard await allowed(), recognizer?.isAvailable == true else { return false }
+        guard !inCall, await allowed(), recognizer?.isAvailable == true, !inCall else { return false }
         VoiceOut.shared.stop()
         stopRecognition()
         heard = ""
@@ -85,7 +87,7 @@ final class VoiceIn: ObservableObject {
         if on {
             guard await allowed(), recognizer?.isAvailable == true else { return false }
             handsFree = true
-            startWakeWord()
+            startWakeWord()   // waits until a call ends, if one is going
             return true
         }
         handsFree = false
@@ -98,7 +100,7 @@ final class VoiceIn: ObservableObject {
 
     /// Stops listening while the app is in the background, and picks up again when it's back.
     func appActive(_ active: Bool) {
-        guard handsFree else { return }
+        guard handsFree, !inCall else { return }
         if active {
             startWakeWord()
         } else {
@@ -109,7 +111,7 @@ final class VoiceIn: ObservableObject {
 
     /// Ace stops listening while it talks, so it doesn't hear itself.
     func aceSpeaking(_ speaking: Bool) {
-        guard handsFree, state != .holding else { return }
+        guard handsFree, !inCall, state != .holding else { return }
         paused = speaking
         if speaking {
             stopRecognition()
@@ -123,8 +125,25 @@ final class VoiceIn: ObservableObject {
         }
     }
 
+    /// A voice call started (true) or ended (false). During a call the call has the microphone.
+    func callStarted(_ on: Bool) {
+        inCall = on
+        restartTask?.cancel()
+        if on {
+            stopRecognition()
+            heard = ""
+            lastText = ""
+            commandStart = nil
+            paused = false
+            state = .off
+        } else if handsFree {
+            paused = false
+            startWakeWord()
+        }
+    }
+
     private func startWakeWord() {
-        guard handsFree, !paused else { return }
+        guard handsFree, !paused, !inCall else { return }
         stopRecognition()
         heard = ""
         commandStart = nil
@@ -220,6 +239,18 @@ final class VoiceIn: ObservableObject {
             if let text, text != lastText {
                 lastText = text
                 let wake = Self.wakeWordEnd(in: text)
+                if state == .waitingForWakeWord, wake == nil, CallLogic.saysCallAce(text) {
+                    // "Call Ace" on its own starts a voice call, no "Hey Ace" needed.
+                    SoundFX.shared.play(.orbWake, gain: 0.7)
+                    Haptics.shared.play(.pop)
+                    stopRecognition()
+                    heard = ""
+                    lastText = ""
+                    state = .off
+                    // The call takes the microphone now. If it can't start, "Hey Ace" listening comes back then.
+                    onCommand?("call Ace")
+                    return
+                }
                 if state == .waitingForWakeWord, let wake {
                     commandStart = text.distance(from: text.startIndex, to: wake)
                     state = .hearingCommand

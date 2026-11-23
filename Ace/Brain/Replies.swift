@@ -64,6 +64,13 @@ enum ReplyKey: String, CaseIterable {
     case voiceDidntHear
     case heyAceOn
     case heyAceOff
+    case callStarting
+    case callAlready
+    case callNotOn
+    case callBye
+    case callHello
+    case callStillThere
+    case callQuietBye
     case focusStart
     case focusDone
     case focusStopped

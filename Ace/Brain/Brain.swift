@@ -23,6 +23,8 @@ protocol BrainHost: AnyObject {
     func runCheck(spoken: Bool) async -> CheckReport
     func openLink(_ url: URL, title: String)
     func setHandsFree(_ on: Bool) -> String
+    /// Starts (true) or ends (false) a voice call, and returns what Ace says about it.
+    func setCall(_ on: Bool) -> String
     /// Switches Sassy mode on or off from a spoken ask, and returns what Ace says about it.
     func setPersonality(_ sassy: Bool) -> String
     var pcPaired: Bool { get }
@@ -328,7 +330,7 @@ final class Brain {
 
     /// Kinds of reply that aren't answers to a question, so "search it" skips them.
     static let notQuestions: Set<String> = ["greeting", "summon", "thanks", "goodbye", "chat", "searchTab", "openSite",
-                                            "clarify", "voiceSpeed", "sounds", "handsFree", "settings", "personality", "sassy"]
+                                            "clarify", "voiceSpeed", "sounds", "handsFree", "call", "settings", "personality", "sassy"]
 
     /// Chat and goodbyes, answered without the web. nil for anything else.
     func conversation(_ intent: Intent) -> BrainReply? {
@@ -994,6 +996,7 @@ final class Brain {
         case .recallAll: return "what I remember"
         case .forget: return "forgetting something"
         case .handsFree: return "hands-free mode"
+        case .call: return "a voice call"
         case .pcPower: return "your PC's power"
         case .pcApp: return "an app window"
         case .pcStatus: return "your PC"
@@ -1380,6 +1383,9 @@ final class Brain {
 
         case .handsFree(let on):
             return BrainReply(text: host.setHandsFree(on))
+
+        case .call(let on):
+            return BrainReply(text: host.setCall(on), source: "call", mood: on ? .happy : .idle, kind: "call")
 
         case .pcPower(let action):
             guard host.pcPaired else {

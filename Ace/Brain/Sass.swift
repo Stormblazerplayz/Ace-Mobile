@@ -231,7 +231,7 @@ enum Sass {
         case "game": return "game"
         case "homework": return "homework"
         case "note", "remember", "setName", "recall", "recallAll", "forget", "teach": return "memory"
-        case "voiceSpeed", "handsFree", "sounds": return "settings"
+        case "voiceSpeed", "handsFree", "sounds", "call": return "settings"
         case "weather": return "weather"
         case "check", "battery", "storage", "memoryUsage", "network", "largeFiles", "findFiles", "findScreenshots",
              "describePhoto", "pcPower", "pcApp", "pcStatus", "syncNow", "ipadOnlyLimit": return "device"

@@ -1,6 +1,15 @@
 {
  "builds": [
   {
+   "build": 58,
+   "date": "2026-11-23",
+   "items": [
+    "Call Ace: tap the phone button, or say \"call Ace\", for a full-screen voice call.",
+    "The orb reacts while Ace listens, thinks and talks, with live captions of both of you.",
+    "Talk over Ace to interrupt, plus Mute, Speaker and a call timer. Say \"hang up\" or \"bye\" to end."
+   ]
+  },
+  {
    "build": 57,
    "date": "2026-11-15",
    "items": [

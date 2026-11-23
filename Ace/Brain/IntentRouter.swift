@@ -45,6 +45,7 @@ enum Intent: Equatable {
     case recallAll
     case forget(String)
     case handsFree(Bool)
+    case call(Bool)               // "call Ace" starts a voice call (true), "hang up" ends it (false)
     case pcPower(String)          // shutdown or restart
     case pcApp(action: String, app: String, onPC: Bool)
     case pcStatus
@@ -122,6 +123,7 @@ extension Intent {
         case .recallAll: return "recallAll"
         case .forget: return "forget"
         case .handsFree: return "handsFree"
+        case .call: return "call"
         case .pcPower: return "pcPower"
         case .pcApp: return "pcApp"
         case .pcStatus: return "pcStatus"
@@ -160,6 +162,29 @@ enum IntentRouter {
         return rest
     }
 
+    /// "call Ace" or "start a voice call" is true, "hang up" or "end the call" is false, anything else nil.
+    /// "call me Sam" and "call mom" aren't calls to Ace, so they're nil.
+    static func call(_ t: String) -> Bool? {
+        let polite = #"^(?:(?:please|can you|could you|would you|can we|could we|ok|okay|alright|yo|hey|hi|ace)\s+)*"#
+        let end = #"(?:\s+(?:please|now|right now|ace|with me|again))*$"#
+        let what = #"(?:the |this |our |my |a )?(?:voice |phone |audio )?call"#
+        if Rx.matches(polite + #"(?:hang up|end|stop|leave|finish|quit|exit) "# + what + #"(?: with (?:you|ace|me))?"# + end, t)
+            || Rx.matches(polite + #"hang up(?: the phone| on me| now)?"# + end, t)
+            || Rx.matches(#"^(?:ok |okay |alright )?(?:bye|goodbye|bye bye) (?:and |now )?hang up$"#, t) {
+            return false
+        }
+        if Rx.matches(polite + #"(?:call|ring|phone|facetime|video call|voice call) (?:ace|ase|you)"# + end, t)
+            || Rx.matches(polite + #"(?:start|begin|make|have|do|open|start up|set up) (?:a |an |the )?(?:voice |phone |audio )?call(?: with (?:you|ace|me))?(?: screen| mode)?"# + end, t)
+            || Rx.matches(polite + #"(?:let us|lets|i want to|want to|i would like to) (?:have |do |start |make )?(?:a )?(?:voice |phone )?call(?: with (?:you|ace))?"# + end, t)
+            || Rx.matches(polite + #"(?:let us|lets|can we|i want to) talk on (?:the |a )?(?:phone|call)"# + end, t)
+            || Rx.matches(polite + #"(?:voice|phone|audio) call(?: mode| screen)?"# + end, t)
+            || Rx.matches(polite + #"call (?:mode|screen)"# + end, t)
+            || t == "call" {
+            return true
+        }
+        return nil
+    }
+
     /// "turn on sassy mode" is true, "turn off sassy mode" or "normal mode" is false, anything else nil.
     static func personality(_ t: String) -> Bool? {
         let polite = #"^(?:please |can you |could you |would you |ace |hey ace |ok ace |yo ace )*"#
@@ -188,6 +213,9 @@ enum IntentRouter {
             || Rx.matches(#"^(are )?you (there|here|awake|listening)( ace)?$"#, t) {
             return .summon
         }
+
+        // A voice call ("call Ace", "hang up"), before small talk so "bye and hang up" ends the call.
+        if let on = call(t) { return .call(on) }
 
         // Small talk
         if Rx.matches(#"^(hi|hello|hey|yo|sup|hiya|howdy|good (morning|afternoon|evening|day))( there)?( to you)?( ace)?( to you)?$"#, t) { return .greeting }

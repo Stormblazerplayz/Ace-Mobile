@@ -7,6 +7,8 @@ final class IntentInbox {
     static let shared = IntentInbox()
     private var waiting: [String] = []
     private var handler: ((String) -> Void)?
+    private var callWaiting = false
+    private var callHandler: (() -> Void)?
 
     private init() {}
 
@@ -16,6 +18,20 @@ final class IntentInbox {
         let queued = waiting
         waiting = []
         for text in queued { handler(text) }
+    }
+
+    /// Ace's call screen calls this when it's ready, and starts a call if one was asked for meanwhile.
+    func connectCall(_ handler: @escaping () -> Void) {
+        callHandler = handler
+        if callWaiting {
+            callWaiting = false
+            handler()
+        }
+    }
+
+    /// Starts a voice call with Ace (Siri's "Call Ace", or ace://call).
+    func postCall() {
+        if let callHandler { callHandler() } else { callWaiting = true }
     }
 
     func post(_ text: String) {
@@ -37,6 +53,19 @@ struct AskAceIntent: AppIntent {
     @MainActor
     func perform() async throws -> some IntentResult {
         IntentInbox.shared.post(question)
+        return .result()
+    }
+}
+
+/// "Call Ace": opens Ace's voice call screen so you can talk back and forth.
+struct CallAceIntent: AppIntent {
+    static var title: LocalizedStringResource = "Call Ace"
+    static var description = IntentDescription("Starts a voice call with Ace. Talk, and Ace talks back.")
+    static var openAppWhenRun = true
+
+    @MainActor
+    func perform() async throws -> some IntentResult {
+        IntentInbox.shared.postCall()
         return .result()
     }
 }
@@ -109,6 +138,12 @@ struct AceShortcuts: AppShortcutsProvider {
             "Ask \(.applicationName) a question",
             "Talk to \(.applicationName)",
         ], shortTitle: "Ask Ace", systemImageName: "sparkles")
+        AppShortcut(intent: CallAceIntent(), phrases: [
+            "Call \(.applicationName)",
+            "Start a call with \(.applicationName)",
+            "Voice call \(.applicationName)",
+            "Talk with \(.applicationName) on a call",
+        ], shortTitle: "Call Ace", systemImageName: "phone.fill")
         AppShortcut(intent: StartVacuumIntent(), phrases: [
             "Start the vacuum with \(.applicationName)",
             "\(.applicationName) start the vacuum",

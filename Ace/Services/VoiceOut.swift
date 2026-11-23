@@ -26,19 +26,29 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
 
     /// Reads a reply in parts: Ace's own voice, and a translation in the accent of its language.
     func speak(_ parts: [SpokenPart], voiceID: String, onChange: @escaping (Bool) -> Void) {
-        let lines = parts.map { p in
-            SpokenPart(text: p.language == nil ? Self.clean(p.text) : p.text.trimmingCharacters(in: .whitespacesAndNewlines),
-                       language: p.language, sassy: p.sassy, drama: p.drama)
-        }.filter { !$0.text.isEmpty }
-        guard !lines.isEmpty else { return }
+        let utterances = Self.utterances(parts, voiceID: voiceID)
+        guard !utterances.isEmpty else { return }
         AudioRouter.shared.prepareForSpeaking()
         restart()
         self.onChange = onChange
-        for line in lines {
+        for u in utterances {
+            queued[ObjectIdentifier(u)] = u
+            synth.speak(u)
+        }
+    }
+
+    /// The spoken lines for a reply, each with its voice, speed and pitch.
+    /// A voice call with Ace uses the same lines, so Ace sounds the same on a call.
+    static func utterances(_ parts: [SpokenPart], voiceID: String) -> [AVSpeechUtterance] {
+        let lines = parts.map { p in
+            SpokenPart(text: p.language == nil ? clean(p.text) : p.text.trimmingCharacters(in: .whitespacesAndNewlines),
+                       language: p.language, sassy: p.sassy, drama: p.drama)
+        }.filter { !$0.text.isEmpty }
+        return lines.map { line -> AVSpeechUtterance in
             let u = AVSpeechUtterance(string: line.text)
             if let language = line.language {
                 u.voice = AVSpeechSynthesisVoice(language: language) ?? AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
-                u.rate = Self.rate(0.85)
+                u.rate = rate(0.85)
             } else {
                 if !voiceID.isEmpty, let v = AVSpeechSynthesisVoice(identifier: voiceID) {
                     u.voice = v
@@ -48,17 +58,16 @@ final class VoiceOut: NSObject, AVSpeechSynthesizerDelegate {
                 if line.sassy {
                     // Sassy delivery: drawn out, a bit higher, and a dramatic pause before the answer.
                     // More of each the higher the sass slider is.
-                    let style = Self.sassyStyle(drama: line.drama)
-                    u.rate = Self.rate(style.rate)
+                    let style = sassyStyle(drama: line.drama)
+                    u.rate = rate(style.rate)
                     u.pitchMultiplier = style.pitch
                     u.postUtteranceDelay = style.pause
                 } else {
-                    u.rate = Self.rate(1.02)
+                    u.rate = rate(1.02)
                     u.pitchMultiplier = 1.08
                 }
             }
-            queued[ObjectIdentifier(u)] = u
-            synth.speak(u)
+            return u
         }
     }
 

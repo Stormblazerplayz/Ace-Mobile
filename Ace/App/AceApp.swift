@@ -33,13 +33,15 @@ struct AceApp: App {
         }
     }
 
-    /// ace://check wakes Ace up right away. ace://talk just opens the chat.
+    /// ace://check wakes Ace up right away. ace://talk just opens the chat. ace://call starts a voice call.
     /// ace://ask?q=... asks Ace something (used by the widgets).
     private func handle(_ url: URL) {
         guard url.scheme == "ace" else { return }
         switch url.host ?? "" {
         case "check":
             Task { await core.wakeUp(reason: .manual) }
+        case "call":
+            IntentInbox.shared.postCall()
         case "ask":
             let q = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems?.first { $0.name == "q" }?.value ?? ""
             IntentInbox.shared.post(q)
