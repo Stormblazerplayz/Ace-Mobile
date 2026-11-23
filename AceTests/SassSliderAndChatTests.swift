@@ -172,7 +172,7 @@ final class SassSliderAndChatTests: XCTestCase {
         XCTAssertNil(WhatsNew.due(currentBuild: 55, lastShown: 55, releases: releases))
         XCTAssertEqual(WhatsNew.due(currentBuild: 56, lastShown: 55, releases: releases)?.build, 56)
         XCTAssertEqual(WhatsNew.due(currentBuild: 57, lastShown: 56, releases: releases)?.build, 57)
-        XCTAssertEqual(releases.first?.build, 57, "Newest first")
+        XCTAssertEqual(releases.first?.build, releases.map(\.build).max(), "Newest first")
     }
 
     func testWhatsNewShowsChatThatFits() throws {

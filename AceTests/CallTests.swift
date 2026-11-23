@@ -210,6 +210,14 @@ final class CallTests: XCTestCase {
         XCTAssertEqual(lines[1].pitchMultiplier, 1.08, accuracy: 0.001)
     }
 
+    func testWhatsNewShowsVoiceCalls() throws {
+        let releases = WhatsNew.load()
+        XCTAssertEqual(releases.first?.build, 58, "Newest first")
+        let release = try XCTUnwrap(releases.first { $0.build == 58 })
+        XCTAssertTrue(release.items.contains { $0.contains("call Ace") })
+        XCTAssertEqual(WhatsNew.due(currentBuild: 58, lastShown: 57, releases: releases)?.build, 58)
+    }
+
     func testAudioRouterHasACallMode() {
         // Outside a call, the speaker button does nothing and nothing crashes.
         AudioRouter.shared.callSpeaker(true)
