@@ -1,6 +1,17 @@
 {
  "builds": [
   {
+   "build": 73,
+   "date": "2026-11-25",
+   "items": [
+    "Secret codes: tap the key button at the top to hide a message or read one.",
+    "Code wheel: turn the wheel to pick a shift and watch your message change. Got a code but no shift? Crack it for me tries all 26 and finds the one that reads like English.",
+    "Morse code: turn words into dots and dashes, or type them with the big keys. Flash it makes a lamp blink the message, and each dot and dash buzzes.",
+    "Mirror code: A swaps with Z, B with Y. Code it twice to get your message back.",
+    "Answers scramble into place like a code being cracked. Copy sends the code to your clipboard."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
