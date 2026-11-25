@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 67,
+   "date": "2026-11-25",
+   "items": [
+    "Ace Space: tap the globe at the top, or say \"show me the solar system\", to see every planet where it really is today.",
+    "Speed up time to a day, week, month or year a second and watch the planets race round the Sun, with the Moon circling Earth.",
+    "Tap a planet for a card with a spinning globe, its size, year, day, moons, temperature, gravity and how far away it is right now.",
+    "Switch to Sizes to see the planets lined up at their real sizes next to the giant Sun. Ask \"where is Mars right now\" for its distance today."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [

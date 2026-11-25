@@ -39,6 +39,8 @@ protocol BrainHost: AnyObject {
     func freeAnswer(_ question: String) async -> (text: String, model: String)?
     /// LFM3 Omni is downloaded and can run.
     var modelReady: Bool { get }
+    /// Opens the solar system map, maybe on one planet. False during a voice call.
+    func showSpace(_ start: SpaceStart) -> Bool
 }
 
 /// Ace V4's brain: rules + a big answer bank + a neural matcher + web research,
@@ -1009,6 +1011,7 @@ final class Brain {
         case .teach: return "teaching me"
         case .focus: return "a focus session"
         case .leader: return "who leads a country"
+        case .space: return "the solar system"
         case .ipadOnlyLimit: return "an iPad limit"
         case .home: return "your home"
         }
@@ -1220,6 +1223,9 @@ final class Brain {
 
         case .game(let which):
             return startGame(which)
+
+        case .space(let ask):
+            return spaceReply(ask, host: host)
 
         case .homework(let problem):
             if !problem.isEmpty { await think("Working it out one step at a time") }

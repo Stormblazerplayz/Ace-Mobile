@@ -30,6 +30,8 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    /// The solar system map is open (full screen), and how it opened.
+    @Published var spaceScreen: SpaceScreen?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -400,6 +402,13 @@ final class AceCore: ObservableObject, BrainHost {
         saveChat()
         holdMood = true
         Task { await sassyEyes(level == .mild ? .side : .roll, then: .happy) }
+    }
+
+    /// Opens the solar system map. It stays shut during a voice call, where the call screen covers everything.
+    func showSpace(_ start: SpaceStart) -> Bool {
+        guard !call.isLive else { return false }
+        spaceScreen = SpaceScreen(start: start)
+        return true
     }
 
     /// The What's new card: once after each update, or any time from Settings (`force`).
