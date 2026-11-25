@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 62,
+   "date": "2026-11-25",
+   "items": [
+    "Mood journal: tap the book at the top right to write about your day. Pick how it went, from Awesome to Rough, add a few words and tap what you did.",
+    "The whole screen glows in your mood's colors, the mood faces spring up when you pick one, and your mood line draws itself in.",
+    "See a month of colored days, your streak, your mood this week, and which things go with your best days. Tap any past day to read or change it.",
+    "Search past days by words or tags. Your journal stays on your iPad."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
