@@ -37,6 +37,9 @@ struct RootView: View {
         core.messages.filter { $0.speaker == .user || !$0.text.isEmpty || !$0.cards.isEmpty }
     }
 
+    /// Opens Pick for me (the wheel, coin, dice and teams).
+    @State private var showDecide = false
+
     /// How many replies Ace has given, so the orb hops when a new one lands.
     private var aceReplies: Int {
         core.messages.reduce(0) { $0 + ($1.speaker == .ace ? 1 : 0) }
@@ -224,6 +227,7 @@ struct RootView: View {
     private var inputBar: some View {
         HStack(alignment: .bottom, spacing: 10) {
             Menu {
+                Button { showDecide = true } label: { Label("Pick for me", systemImage: "dice") }
                 Button { showPhotoPicker = true } label: { Label("Photo library", systemImage: "photo.on.rectangle") }
                 if CameraPicker.isAvailable {
                     Button { showCamera = true } label: { Label("Take a photo", systemImage: "camera") }
@@ -269,6 +273,7 @@ struct RootView: View {
             .buttonStyle(BouncyButtonStyle(depth: 0.8))
             .disabled(!canSend)
             .accessibilityLabel("Send")
+            .fullScreenCover(isPresented: $showDecide) { DecideView() }
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 10)
