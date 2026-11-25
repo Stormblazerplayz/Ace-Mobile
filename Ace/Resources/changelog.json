@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 71,
+   "date": "2026-11-25",
+   "items": [
+    "World clocks: open the calendar and tap the globe to see what time it is around the world.",
+    "Every city gets a card with a ticking clock and a sky that matches the time there: blue in the day, orange at sunset, stars at night.",
+    "Slide the planner to try another time, like 4 PM here, and see the time in every city move with it.",
+    "Each city says if it's today, tomorrow or yesterday there, how far ahead or behind it is, and if it's a good time to call."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
