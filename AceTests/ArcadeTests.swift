@@ -179,7 +179,7 @@ final class ArcadeTests: XCTestCase {
             return XCTFail("No hangman card")
         }
         XCTAssertEqual(card.outcome, .won)
-        XCTAssertEqual(card.word, round.word)
+        XCTAssertEqual(card.word, round.word.uppercased(), "The card shows the word in capitals")
         XCTAssertEqual(brain.gameStats.score(.hangman).wins, 1)
     }
 
