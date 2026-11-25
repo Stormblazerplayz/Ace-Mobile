@@ -8,7 +8,7 @@ struct RootView: View {
     @State private var showCodes = false
     /// The Apps grid, and the app picked there (opened once the grid has closed).
     @State private var showApps = false
-    @State private var pendingApp: AceApp?
+    @State private var pendingApp: AceTile?
     @State private var showClocks = false
     @ObservedObject private var voice = VoiceIn.shared
     @EnvironmentObject var settings: SettingsStore

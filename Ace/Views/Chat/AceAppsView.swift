@@ -2,7 +2,7 @@ import SwiftUI
 
 /// Everything Ace can open, in one place. The top row only has room for a few buttons,
 /// so the Apps button opens this grid instead of squeezing an icon in for every screen.
-enum AceApp: String, CaseIterable, Identifiable {
+enum AceTile: String, CaseIterable, Identifiable {
     case studyCards, flashcards, games, piano, space, graphs, typing, codes
     case converter, countdowns, clocks, sketchbook, habits, journal, breathe, decide, savings, lists
 
@@ -69,7 +69,7 @@ enum AceApp: String, CaseIterable, Identifiable {
 
 /// The Apps grid: tap a tile and its screen opens.
 struct AceAppsView: View {
-    let open: (AceApp) -> Void
+    let open: (AceTile) -> Void
     @Environment(\.dismiss) private var dismiss
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @AppStorage(AceMotion.settingKey) private var bouncy = true
@@ -81,14 +81,8 @@ struct AceAppsView: View {
         NavigationStack {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 16) {
-                    ForEach(Array(AceApp.allCases.enumerated()), id: \.element) { index, app in
-                        Button { open(app) } label: { tile(app) }
-                            .buttonStyle(BouncyButtonStyle(depth: 0.9))
-                            .accessibilityLabel(app.title)
-                            .accessibilityIdentifier("app-\(app.rawValue)")
-                            .opacity(shown ? 1 : 0)
-                            .scaleEffect(shown ? 1 : 0.8)
-                            .animation(appear(index), value: shown)
+                    ForEach(Array(AceTile.allCases.enumerated()), id: \.element) { index, app in
+                        cell(app, index: index)
                     }
                 }
                 .padding(20)
@@ -113,7 +107,19 @@ struct AceAppsView: View {
         return .spring(response: 0.4, dampingFraction: 0.7).delay(Double(index) * 0.02)
     }
 
-    private func tile(_ app: AceApp) -> some View {
+    /// One tappable tile, split out so the grid stays quick to compile.
+    private func cell(_ app: AceTile, index: Int) -> some View {
+        let button = Button { open(app) } label: { tile(app) }
+            .buttonStyle(BouncyButtonStyle(depth: 0.9))
+            .accessibilityLabel(app.title)
+            .accessibilityIdentifier("app-\(app.rawValue)")
+        return button
+            .opacity(shown ? 1 : 0)
+            .scaleEffect(shown ? 1 : 0.8)
+            .animation(appear(index), value: shown)
+    }
+
+    private func tile(_ app: AceTile) -> some View {
         VStack(spacing: 10) {
             Image(systemName: app.symbol)
                 .font(.system(size: 26, weight: .semibold))
