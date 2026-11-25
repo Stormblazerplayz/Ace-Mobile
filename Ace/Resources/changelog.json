@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 69,
+   "date": "2026-11-25",
+   "items": [
+    "Ace Graphs: tap the ƒ button at the top, or say \"graph y = x squared\", for a graphing calculator.",
+    "Lines draw themselves in with a glowing pen, in up to 4 colors, with dots where they cross the axes.",
+    "Drag and pinch the graph paper, and switch to Trace to slide along a line and read off any point.",
+    "Ace tells you about each graph: the slope of a straight line, the lowest point of a U-shaped curve, and where it crosses the axes."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [

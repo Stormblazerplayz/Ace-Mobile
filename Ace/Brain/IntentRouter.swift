@@ -60,6 +60,7 @@ enum Intent: Equatable {
     case focus(String)            // "start 1500", "stop" or "left"
     case personality(Bool)        // "turn on sassy mode" (true), "go back to normal mode" (false)
     case leader(Leaders.Ask)      // "who is the prime minister of the UK", "who is the president of the UK" (it has none)
+    case graph(String)            // "open" or "plot:x^2 + 1"
 }
 
 extension Intent {
@@ -138,6 +139,7 @@ extension Intent {
         case .home: return "home"
         case .focus: return "focus"
         case .leader: return "leader"
+        case .graph: return "graph"
         }
     }
 }
@@ -243,6 +245,10 @@ enum IntentRouter {
 
         // Who leads a country, and fixing a wrong title ("president of the UK").
         if let ask = Leaders.parse(raw) { return .leader(ask) }
+
+        // Ace Graphs: "graph y = x^2", "plot sin x", "y = 2x + 3", "open the graphing calculator".
+        // Read from the words as typed, because normalizing drops "^", "=", "(" and ")".
+        if let graph = GraphAsk.parse(raw) { return .graph(graph) }
 
         // Homework, step by step ("solve 2x + 3 = 11", "3/4 + 1/8", "help me with my math homework").
         // Read from the words as typed, because normalizing drops "=", "(" and ")".

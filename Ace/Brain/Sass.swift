@@ -229,7 +229,7 @@ enum Sass {
         case "script": return "script"
         case "translate": return "translate"
         case "game": return "game"
-        case "homework": return "homework"
+        case "homework", "graph": return "homework"
         case "note", "remember", "setName", "recall", "recallAll", "forget", "teach": return "memory"
         case "voiceSpeed", "handsFree", "sounds", "call": return "settings"
         case "weather": return "weather"
