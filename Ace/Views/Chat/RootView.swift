@@ -25,6 +25,9 @@ struct RootView: View {
         AceMotion.animation(kind, bouncy: settings.bouncyMotion, reduceMotion: reduceMotion)
     }
 
+    /// Opens Savings jars.
+    @State private var showSavings = false
+
     /// The messages the chat shows. Empty Ace messages (older chats could have them) are skipped,
     /// so no "How I got this" row floats alone.
     private var visibleMessages: [ChatMessage] {
@@ -183,6 +186,7 @@ struct RootView: View {
                 withAnimation(.easeOut(duration: 0.2)) { proxy.scrollTo("bottom", anchor: .bottom) }
             }
             .onAppear { proxy.scrollTo("bottom", anchor: .bottom) }
+            .fullScreenCover(isPresented: $showSavings) { SavingsView() }
         }
     }
 
@@ -192,6 +196,7 @@ struct RootView: View {
         HStack(alignment: .bottom, spacing: 10) {
             Menu {
                 Button { showPhotoPicker = true } label: { Label("Photo library", systemImage: "photo.on.rectangle") }
+                Button { showSavings = true } label: { Label("Savings jars", systemImage: "dollarsign.circle") }
                 if CameraPicker.isAvailable {
                     Button { showCamera = true } label: { Label("Take a photo", systemImage: "camera") }
                 }

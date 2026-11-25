@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 70,
+   "date": "2026-11-25",
+   "items": [
+    "Savings jars: tap + and choose Savings jars to save up for a bike, a game or a gift.",
+    "Each goal is a glass jar that fills up with gold coins as you save, and a coin drops in every time you add money.",
+    "Quick +$1, +$5, +$10 and +$20 buttons, any other amount, taking money out, and a history of everything.",
+    "A chart of the last 8 weeks, a guess at when you'll reach your goal, and a burst of stars when you get there."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
