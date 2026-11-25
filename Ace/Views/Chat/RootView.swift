@@ -13,6 +13,7 @@ struct RootView: View {
     @State private var showSettings = false
     @FocusState private var inputFocused: Bool
     @State private var showPhotoPicker = false
+    @State private var showLists = false
     @State private var photoItem: PhotosPickerItem?
     @State private var showCamera = false
     /// Counts orb taps and sends, so the orb and the send arrow can boing each time.
@@ -195,6 +196,8 @@ struct RootView: View {
                 if CameraPicker.isAvailable {
                     Button { showCamera = true } label: { Label("Take a photo", systemImage: "camera") }
                 }
+                Divider()
+                Button { showLists = true } label: { Label("Lists and packing lists", systemImage: "checklist") }
             } label: {
                 Image(systemName: "plus")
                     .font(.system(size: 17, weight: .bold))
@@ -203,7 +206,8 @@ struct RootView: View {
                     .foregroundStyle(AceTheme.ace)
             }
             .disabled(core.busy)
-            .accessibilityLabel("Add a picture")
+            .accessibilityLabel("Add a picture or open Lists")
+            .fullScreenCover(isPresented: $showLists) { ChecklistsView() }
             TextField("Talk to Ace", text: $draft, axis: .vertical)
                 .lineLimit(1...5)
                 .focused($inputFocused)

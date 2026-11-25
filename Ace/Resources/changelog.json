@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 68,
+   "date": "2026-11-25",
+   "items": [
+    "Lists: tap + next to the message box and pick Lists to make packing lists, routines and to-dos.",
+    "Each list is a colorful card with a glowing progress bar. Ticks draw themselves in and ticked things slide to the bottom.",
+    "Paste a whole list at once and each line becomes its own item. Stars pop out when everything is ticked.",
+    "Start from a ready-made list like School bag, Sleepover, Beach day or Camping trip, and untick it all to use it again next time."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
