@@ -8,6 +8,7 @@ struct RootView: View {
     @ObservedObject private var voice = VoiceIn.shared
     @EnvironmentObject var settings: SettingsStore
     @State private var draft = ""
+    @State private var showCountdowns = false
     @State private var showCalendar = false
     @State private var showChecks = false
     @State private var showSettings = false
@@ -58,6 +59,7 @@ struct RootView: View {
         // The voice call screen covers everything while a call is on.
         .modifier(CallCover(call: core.call, core: core, settings: settings))
         .sheet(isPresented: $showCalendar) { CalendarView() }
+        .fullScreenCover(isPresented: $showCountdowns) { CountdownsView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
         .sheet(isPresented: $core.gamesOpen) { GamesView() }
         .fullScreenCover(isPresented: $showSketchbook) { SketchbookView() }
@@ -114,6 +116,7 @@ struct RootView: View {
                     }
                     headerButton("gamecontroller.fill", label: "Ace Games") { core.gamesOpen = true }
                     Spacer()
+                    headerButton("hourglass", label: "Countdowns") { showCountdowns = true }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
                     headerButton("book.closed.fill", label: "Mood journal") { showJournal = true }
