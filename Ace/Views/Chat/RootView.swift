@@ -95,6 +95,9 @@ struct RootView: View {
         .fullScreenCover(item: $core.typingScreen) { screen in
             TypingView(start: screen.lesson)
         }
+        .fullScreenCover(item: $core.breatheScreen) { screen in
+            BreatheView(start: screen.pattern)
+        }
         .onChange(of: inputFocused) { _, focused in
             core.setTyping(focused && !draft.isEmpty)
         }
@@ -147,6 +150,7 @@ struct RootView: View {
                     headerButton("key.fill", label: "Secret codes") { showCodes = true }
                         .fullScreenCover(isPresented: $showCodes) { SecretCodesView() }
                     headerButton("keyboard", label: "Typing practice") { _ = core.showTyping(nil) }
+                    headerButton("wind", label: "Breathe") { _ = core.showBreathe(nil) }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("drop.circle", label: "Habits") { showHabits = true }
                         .fullScreenCover(isPresented: $showHabits) { HabitsView() }

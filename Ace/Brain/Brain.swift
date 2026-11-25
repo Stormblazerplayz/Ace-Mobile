@@ -51,6 +51,8 @@ protocol BrainHost: AnyObject {
     func showGraph(_ start: GraphStart) -> Bool
     /// Opens typing practice, maybe on one lesson. False during a voice call.
     func showTyping(_ lesson: TypingLesson?) -> Bool
+    /// Opens breathing practice, maybe on one pattern. False during a voice call.
+    func showBreathe(_ pattern: BreathPattern?) -> Bool
 }
 
 /// Ace V4's brain: rules + a big answer bank + a neural matcher + web research,
@@ -1033,6 +1035,7 @@ final class Brain {
         case .space: return "the solar system"
         case .graph: return "a graph"
         case .typing: return "typing practice"
+        case .breathe: return "breathing together"
         case .ipadOnlyLimit: return "an iPad limit"
         case .home: return "your home"
         }
@@ -1256,6 +1259,8 @@ final class Brain {
             return graphReply(ask, host: host)
         case .typing(let ask):
             return typingReply(ask, host: host)
+        case .breathe(let ask):
+            return breatheReply(ask, host: host)
 
         case .homework(let problem):
             if !problem.isEmpty { await think("Working it out one step at a time") }

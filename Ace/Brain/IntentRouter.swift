@@ -65,6 +65,7 @@ enum Intent: Equatable {
     case space(String)            // "open", "planet:mars" or "where:mars"
     case graph(String)            // "open" or "plot:x^2 + 1"
     case typing(String)           // "open" or a lesson id like "homeRow"
+    case breathe(String)          // "open" or a pattern id like "box"
 }
 
 extension Intent {
@@ -148,6 +149,7 @@ extension Intent {
         case .space: return "space"
         case .graph: return "graph"
         case .typing: return "typing"
+        case .breathe: return "breathe"
         }
     }
 }
@@ -277,6 +279,8 @@ enum IntentRouter {
         if let space = SpaceAsk.parse(t) { return .space(space) }
         // Ace Typing: "typing practice", "teach me to type", "how fast can i type".
         if let typing = TypingAsk.parse(t) { return .typing(typing) }
+        // Ace Breathe: "breathe with me", "start a breathing exercise", "do box breathing".
+        if let breathe = BreathAsk.parse(t) { return .breathe(breathe) }
 
         // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
         if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }
