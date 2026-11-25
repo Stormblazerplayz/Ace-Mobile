@@ -62,6 +62,7 @@ enum Intent: Equatable {
     case leader(Leaders.Ask)      // "who is the prime minister of the UK", "who is the president of the UK" (it has none)
     case flashcards(FlashcardAsk) // "study my flashcards", "make spanish flashcards", "add a flashcard: hola = hello"
     case piano(String)            // "open", "lessons", "list", "learn:twinkle" or "listen:jingle-bells"
+    case space(String)            // "open", "planet:mars" or "where:mars"
 }
 
 extension Intent {
@@ -142,6 +143,7 @@ extension Intent {
         case .leader: return "leader"
         case .flashcards: return "flashcards"
         case .piano: return "piano"
+        case .space: return "space"
         }
     }
 }
@@ -263,6 +265,8 @@ enum IntentRouter {
 
         // Ace Piano: "play piano", "teach me ode to joy", "play jingle bells", "what songs can you play".
         if let piano = PianoAsk.parse(t) { return .piano(piano) }
+        // Ace Space: "show me the solar system", "show me saturn", "where is mars right now".
+        if let space = SpaceAsk.parse(t) { return .space(space) }
 
         // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
         if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }
