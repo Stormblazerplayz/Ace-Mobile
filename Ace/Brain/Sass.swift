@@ -228,7 +228,7 @@ enum Sass {
         case "recipe", "recipeTweak", "shopping": return "recipe"
         case "script": return "script"
         case "translate": return "translate"
-        case "game": return "game"
+        case "game", "piano": return "game"
         case "homework": return "homework"
         case "note", "remember", "setName", "recall", "recallAll", "forget", "teach": return "memory"
         case "voiceSpeed", "handsFree", "sounds", "call": return "settings"

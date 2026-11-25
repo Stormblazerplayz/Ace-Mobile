@@ -30,6 +30,8 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    /// Ace Piano is open (full screen), and how it opened.
+    @Published var pianoScreen: PianoScreen?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -400,6 +402,26 @@ final class AceCore: ObservableObject, BrainHost {
         saveChat()
         holdMood = true
         Task { await sassyEyes(level == .mild ? .side : .roll, then: .happy) }
+    }
+
+    /// Opens Ace Piano. It stays shut during a voice call, where the call screen covers everything.
+    func showPiano(_ start: PianoStart) -> Bool {
+        guard !call.isLive else { return false }
+        pianoScreen = PianoScreen(start: start)
+        return true
+    }
+
+    /// A piano lesson was finished: Ace cheers in the chat, so you see it when the piano closes.
+    func pianoLessonDone(_ song: PianoSong, stars: Int, newBest: Bool) {
+        let starWords = stars == 1 ? "1 star" : "\(stars) stars"
+        var line = "You played \(song.title) on the piano and got \(starWords)!"
+        if newBest, stars < 3 {
+            line += " That's your best yet. Go for 3 next time."
+        } else if stars == 3 {
+            line += " Perfect!"
+        }
+        messages.append(ChatMessage(speaker: .ace, text: line, source: "Ace Piano"))
+        saveChat()
     }
 
     /// The What's new card: once after each update, or any time from Settings (`force`).

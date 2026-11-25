@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 64,
+   "date": "2026-11-25",
+   "items": [
+    "Ace Piano: tap the piano button at the top, or say \"play piano\", for a full-screen piano. Play chords with lots of fingers and slide across the keys.",
+    "12 songs to learn, like Twinkle Twinkle, Ode to Joy, Jingle Bells and Für Elise. Notes fall onto the keys and the song waits for you to press the glowing one.",
+    "Earn up to 3 stars on every song. Say \"play jingle bells\" to hear Ace play it, or \"teach me ode to joy\" to learn it.",
+    "Pick Piano, Music box, Organ or Synth, and watch the keys glow in rainbow colors with music notes floating up."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
