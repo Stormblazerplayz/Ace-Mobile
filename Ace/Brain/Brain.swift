@@ -39,6 +39,8 @@ protocol BrainHost: AnyObject {
     func freeAnswer(_ question: String) async -> (text: String, model: String)?
     /// LFM3 Omni is downloaded and can run.
     var modelReady: Bool { get }
+    /// Opens the Flashcards screen (one deck, or all of them), or starts studying right away.
+    func showFlashcards(deckID: UUID?, study: Bool, practice: Bool)
 }
 
 /// Ace V4's brain: rules + a big answer bank + a neural matcher + web research,
@@ -330,7 +332,8 @@ final class Brain {
 
     /// Kinds of reply that aren't answers to a question, so "search it" skips them.
     static let notQuestions: Set<String> = ["greeting", "summon", "thanks", "goodbye", "chat", "searchTab", "openSite",
-                                            "clarify", "voiceSpeed", "sounds", "handsFree", "call", "settings", "personality", "sassy"]
+                                            "clarify", "voiceSpeed", "sounds", "handsFree", "call", "settings", "personality", "sassy",
+                                            "flashcards"]
 
     /// Chat and goodbyes, answered without the web. nil for anything else.
     func conversation(_ intent: Intent) -> BrainReply? {
@@ -1009,6 +1012,7 @@ final class Brain {
         case .teach: return "teaching me"
         case .focus: return "a focus session"
         case .leader: return "who leads a country"
+        case .flashcards: return "your flashcards"
         case .ipadOnlyLimit: return "an iPad limit"
         case .home: return "your home"
         }
@@ -1086,6 +1090,9 @@ final class Brain {
 
         case .focus(let what):
             return await FocusSession.handle(what)
+
+        case .flashcards(let ask):
+            return FlashcardSkill.handle(ask, host: host)
 
         case .reminder(let raw):
             return await reminder(raw, think: think)

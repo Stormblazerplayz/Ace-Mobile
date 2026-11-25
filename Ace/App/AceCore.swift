@@ -9,6 +9,13 @@ struct WebPage: Identifiable, Equatable {
     var url: URL
 }
 
+/// A flashcard study session to open full screen: one deck or all of them, and whether it's practice.
+struct StudyTarget: Identifiable, Equatable {
+    let id = UUID()
+    var deckID: UUID?
+    var practice: Bool
+}
+
 /// Runs Ace: the chat, the orb's mood, the wake-up checks, greetings and bedtime nudges.
 @MainActor
 final class AceCore: ObservableObject, BrainHost {
@@ -30,6 +37,11 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    /// The Flashcards screen is open, and the deck it should show first (nil for the list of decks).
+    @Published var flashcardsOpen = false
+    @Published var flashcardsDeck: UUID?
+    /// A study session that's open full screen.
+    @Published var studyTarget: StudyTarget?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -861,6 +873,26 @@ final class AceCore: ObservableObject, BrainHost {
 
     func freeAnswer(_ question: String) async -> (text: String, model: String)? {
         await askModel(system: Self.modelInstructions, user: question)
+    }
+
+    /// Opens the Flashcards screen, or a study session. During a voice call the call screen
+    /// covers everything, so nothing opens then (the reply's card still has the buttons).
+    func showFlashcards(deckID: UUID?, study: Bool, practice: Bool) {
+        guard !call.isLive else { return }
+        if study {
+            let target = StudyTarget(deckID: deckID, practice: practice)
+            guard flashcardsOpen else { studyTarget = target; return }
+            // Let the Flashcards sheet slide away first, so the study screen can open.
+            flashcardsOpen = false
+            Task { @MainActor [weak self] in
+                try? await Task.sleep(for: .milliseconds(600))
+                self?.studyTarget = target
+            }
+        } else {
+            studyTarget = nil
+            flashcardsDeck = deckID
+            flashcardsOpen = true
+        }
     }
 }
 

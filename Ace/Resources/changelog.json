@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 60,
+   "date": "2026-11-25",
+   "items": [
+    "Flashcards: tap the new cards button at the top, or say \"make Spanish flashcards\" or \"make a deck called Science test\".",
+    "Study with cards that flip over in 3D. Say how well you knew each one, and Ace brings it back at the right time (spaced repetition).",
+    "Add cards by talking or typing, like \"add a flashcard: hola = hello\", or paste a whole list at once.",
+    "Ready-made decks from Ace's phrasebook (12 languages) and trivia topics, plus a reminder when cards are ready to review."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [

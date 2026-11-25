@@ -57,6 +57,10 @@ struct RootView: View {
         .sheet(isPresented: $showCalendar) { CalendarView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
+        .sheet(isPresented: $core.flashcardsOpen) { FlashcardsView(startDeck: core.flashcardsDeck) }
+        .fullScreenCover(item: $core.studyTarget) { target in
+            FlashcardStudyView(deckID: target.deckID, practice: target.practice)
+        }
         .sheet(item: $core.webPage) { page in
             SafariView(url: page.url).ignoresSafeArea()
         }
@@ -96,6 +100,9 @@ struct RootView: View {
             ZStack {
                 HStack(spacing: 4) {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
+                    headerButton("rectangle.stack.fill", label: "Flashcards") {
+                        core.showFlashcards(deckID: nil, study: false, practice: false)
+                    }
                     Spacer()
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
