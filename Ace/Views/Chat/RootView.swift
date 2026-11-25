@@ -11,6 +11,7 @@ struct RootView: View {
     @State private var showCountdowns = false
     @State private var showCalendar = false
     @State private var showChecks = false
+    @State private var showHabits = false
     @State private var showSettings = false
     @State private var showStudy = false
     @FocusState private var inputFocused: Bool
@@ -118,6 +119,8 @@ struct RootView: View {
                     Spacer()
                     headerButton("hourglass", label: "Countdowns") { showCountdowns = true }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
+                    headerButton("drop.circle", label: "Habits") { showHabits = true }
+                        .fullScreenCover(isPresented: $showHabits) { HabitsView() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
                     headerButton("book.closed.fill", label: "Mood journal") { showJournal = true }
                 }
