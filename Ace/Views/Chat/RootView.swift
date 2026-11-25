@@ -15,7 +15,6 @@ struct RootView: View {
     @State private var showPhotoPicker = false
     @State private var photoItem: PhotosPickerItem?
     @State private var showCamera = false
-    @State private var showDecide = false
     /// Counts orb taps and sends, so the orb and the send arrow can boing each time.
     @State private var orbTaps = 0
     @State private var sends = 0
@@ -31,6 +30,9 @@ struct RootView: View {
     private var visibleMessages: [ChatMessage] {
         core.messages.filter { $0.speaker == .user || !$0.text.isEmpty || !$0.cards.isEmpty }
     }
+
+    /// Opens Pick for me (the wheel, coin, dice and teams).
+    @State private var showDecide = false
 
     /// How many replies Ace has given, so the orb hops when a new one lands.
     private var aceReplies: Int {
