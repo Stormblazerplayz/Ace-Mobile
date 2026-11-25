@@ -105,7 +105,7 @@ struct StudySessionView: View {
                     topCard(card)
                 } else {
                     let depth = CGFloat(i) - (moving ? pull : 0)
-                    FlipCard(card: card, deck: deck, angle: 0)
+                    StudyFlipCard(card: card, deck: deck, angle: 0)
                         .scaleEffect(1 - depth * 0.06)
                         .offset(y: depth * 22)
                         .brightness(-Double(depth) * 0.12)
@@ -120,7 +120,7 @@ struct StudySessionView: View {
     private func topCard(_ card: StudyCard) -> some View {
         let right = max(0, min(1, drag.width / Self.swipeDistance))
         let left = max(0, min(1, -drag.width / Self.swipeDistance))
-        return FlipCard(card: card, deck: deck, angle: flipped ? 180 : 0)
+        return StudyFlipCard(card: card, deck: deck, angle: flipped ? 180 : 0)
             .overlay(alignment: .topLeading) {
                 SwipeStamp(text: "Got it", symbol: "checkmark", color: AceTheme.good, tilt: -12)
                     .opacity(right)

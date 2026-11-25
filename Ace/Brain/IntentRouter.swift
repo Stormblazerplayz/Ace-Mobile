@@ -60,6 +60,7 @@ enum Intent: Equatable {
     case focus(String)            // "start 1500", "stop" or "left"
     case personality(Bool)        // "turn on sassy mode" (true), "go back to normal mode" (false)
     case leader(Leaders.Ask)      // "who is the prime minister of the UK", "who is the president of the UK" (it has none)
+    case flashcards(FlashcardAsk) // "study my flashcards", "make spanish flashcards", "add a flashcard: hola = hello"
 }
 
 extension Intent {
@@ -138,6 +139,7 @@ extension Intent {
         case .home: return "home"
         case .focus: return "focus"
         case .leader: return "leader"
+        case .flashcards: return "flashcards"
         }
     }
 }
@@ -240,6 +242,10 @@ enum IntentRouter {
         // Follow-ups
         if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
         if Rx.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
+
+        // Flashcards ("study my flashcards", "make spanish flashcards", "add a flashcard: hola = hello").
+        // Read from the words as typed, because normalizing drops "=" and ":", and before homework so "x = y" is a card.
+        if let ask = FlashcardText.parse(raw) { return .flashcards(ask) }
 
         // Who leads a country, and fixing a wrong title ("president of the UK").
         if let ask = Leaders.parse(raw) { return .leader(ask) }

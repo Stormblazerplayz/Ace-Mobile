@@ -21,6 +21,18 @@ enum AceCard: Codable, Equatable {
     case quickReplies(QuickReplies)
     case steps(StepsCard)
     case whatsNew(WhatsNewCard)
+    case flashcards(FlashcardsCard)
+}
+
+/// Your flashcards at a glance (one deck, or all of them), with Study and Add buttons.
+/// The counts on screen are read live from your decks, so an old card never shows old numbers.
+struct FlashcardsCard: Codable, Equatable {
+    /// One deck, or nil for all of them.
+    var deckID: UUID?
+    var title: String
+    /// The card just added, shown as "front → back".
+    var addedFront: String? = nil
+    var addedBack: String? = nil
 }
 
 /// What changed in this build, shown once after an update (and from Settings).

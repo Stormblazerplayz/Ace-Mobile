@@ -64,7 +64,7 @@ struct ProgressRing: View {
 
 /// A flashcard that flips over in 3D. `angle` is 0 for the question side and 180 for the answer side.
 /// It's Animatable, so the side swaps exactly when the card is edge-on.
-struct FlipCard: View, Animatable {
+struct StudyFlipCard: View, Animatable {
     let card: StudyCard
     let deck: StudyDeck
     var angle: Double
