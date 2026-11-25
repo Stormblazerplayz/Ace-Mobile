@@ -123,11 +123,14 @@ struct RecipeCardView: View {
             VStack(alignment: .leading, spacing: 6) {
                 ForEach(Array(recipe.ingredients.enumerated()), id: \.offset) { i, item in
                     Button {
-                        if checked.contains(i) { checked.remove(i) } else { checked.insert(i) }
+                        withAnimation(AceMotion.now(.pop)) {
+                            if checked.contains(i) { checked.remove(i) } else { checked.insert(i) }
+                        }
                         SoundFX.shared.play(.typeTick, gain: 0.5)
                     } label: {
                         HStack(alignment: .top, spacing: 10) {
                             Image(systemName: checked.contains(i) ? "checkmark.circle.fill" : "circle")
+                                .contentTransition(.symbolEffect(.replace))
                                 .foregroundStyle(checked.contains(i) ? AceTheme.good : AceTheme.muted)
                             Text(item)
                                 .strikethrough(checked.contains(i))
@@ -136,7 +139,7 @@ struct RecipeCardView: View {
                             Spacer(minLength: 0)
                         }
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(BouncyButtonStyle(depth: 0.97))
                 }
             }
             Text("Steps")
@@ -337,7 +340,7 @@ struct WebCardView: View {
                                     .padding(.vertical, 6)
                                     .background(Capsule().fill(AceTheme.soft))
                             }
-                            .buttonStyle(.plain)
+                            .buttonStyle(.aceBouncy)
                             .foregroundStyle(AceTheme.ace)
                         }
                     }
@@ -368,7 +371,7 @@ struct LinksCardView: View {
                         Image(systemName: "arrow.up.right").foregroundStyle(AceTheme.muted)
                     }
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(BouncyButtonStyle(depth: 0.97))
             }
         }
         .aceCard(padding: 12)
@@ -688,7 +691,7 @@ struct GreetingCardView: View {
                             .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
                             .foregroundStyle(AceTheme.ace)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.aceBouncy)
                 }
             }
         }
@@ -749,6 +752,7 @@ struct CodeCardView: View {
                     }
                 } label: {
                     Label(copied ? "Copied" : "Copy", systemImage: copied ? "checkmark" : "doc.on.doc")
+                        .contentTransition(.symbolEffect(.replace))
                         .font(.subheadline.weight(.semibold))
                 }
                 .buttonStyle(.borderedProminent)
@@ -862,7 +866,7 @@ struct TriviaCardView: View {
                         .frame(maxWidth: .infinity, minHeight: 44)
                         .background(RoundedRectangle(cornerRadius: 12).fill(tapped == i ? AceTheme.ace.opacity(0.3) : AceTheme.ace.opacity(0.1)))
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(BouncyButtonStyle(depth: 0.95))
                     .disabled(!live)
                     .accessibilityLabel("\(Trivia.letter(i)), \(choice)")
                 }
@@ -906,7 +910,7 @@ struct TranslationCardView: View {
                         .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
                         .foregroundStyle(AceTheme.ace)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.aceBouncy)
                 Button {
                     UIPasteboard.general.string = card.text
                     Haptics.shared.play(.tick)
@@ -918,7 +922,7 @@ struct TranslationCardView: View {
                         .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
                         .foregroundStyle(AceTheme.ace)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.aceBouncy)
             }
         }
         .aceCard()
@@ -951,7 +955,7 @@ struct QuickRepliesView: View {
                         .background(Capsule().fill(tapped == reply ? AceTheme.ace.opacity(0.32) : AceTheme.ace.opacity(0.16)))
                         .foregroundStyle(AceTheme.ace)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.aceBouncy)
                 .disabled(!live)
             }
         }
@@ -1008,7 +1012,7 @@ struct StepsCardView: View {
                 if !allShown {
                     Button {
                         Haptics.shared.play(.tick)
-                        withAnimation { shown += 1 }
+                        withAnimation(AceMotion.now(.bouncy)) { shown += 1 }
                     } label: {
                         Label("Next step", systemImage: "arrow.down.circle.fill")
                             .font(.caption.weight(.semibold))
@@ -1017,9 +1021,9 @@ struct StepsCardView: View {
                             .background(Capsule().fill(AceTheme.ace.opacity(0.16)))
                             .foregroundStyle(AceTheme.ace)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.aceBouncy)
                     Button {
-                        withAnimation { shown = card.steps.count }
+                        withAnimation(AceMotion.now(.bouncy)) { shown = card.steps.count }
                     } label: {
                         Text("Show all")
                             .font(.caption.weight(.semibold))
@@ -1028,7 +1032,7 @@ struct StepsCardView: View {
                             .background(Capsule().fill(AceTheme.soft))
                             .foregroundStyle(AceTheme.muted)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.aceBouncy)
                 }
                 Spacer(minLength: 0)
                 Button {
@@ -1037,13 +1041,14 @@ struct StepsCardView: View {
                     copied = true
                 } label: {
                     Label(copied ? "Copied" : "Copy", systemImage: copied ? "checkmark" : "doc.on.doc")
+                        .contentTransition(.symbolEffect(.replace))
                         .font(.caption.weight(.semibold))
                         .padding(.horizontal, 12)
                         .padding(.vertical, 7)
                         .background(Capsule().fill(AceTheme.soft))
                         .foregroundStyle(AceTheme.muted)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.aceBouncy)
             }
         }
         .aceCard()

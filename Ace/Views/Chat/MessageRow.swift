@@ -67,18 +67,22 @@ struct MessageRow: View {
     private var thoughtsView: some View {
         VStack(alignment: .leading, spacing: 6) {
             Button {
-                withAnimation(.easeInOut(duration: 0.2)) { showThoughts.toggle() }
+                withAnimation(AceMotion.now(.bouncy)) { showThoughts.toggle() }
             } label: {
                 HStack(spacing: 6) {
                     Image(systemName: "brain")
+                        .symbolEffect(.bounce, value: showThoughts)
                     Text("How I got this")
                     if let s = message.source { Text("· \(s)").foregroundStyle(AceTheme.muted.opacity(0.7)) }
-                    Image(systemName: showThoughts ? "chevron.up" : "chevron.down")
+                    // The chevron spins round to point the other way.
+                    Image(systemName: "chevron.down")
+                        .rotationEffect(.degrees(showThoughts ? 180 : 0))
                 }
                 .font(.caption)
                 .foregroundStyle(AceTheme.muted)
+                .contentShape(Rectangle())
             }
-            .buttonStyle(.plain)
+            .buttonStyle(BouncyButtonStyle(depth: 0.95))
             if showThoughts {
                 VStack(alignment: .leading, spacing: 4) {
                     ForEach(Array(message.thoughts.enumerated()), id: \.offset) { i, t in
@@ -88,6 +92,7 @@ struct MessageRow: View {
                     }
                 }
                 .padding(.leading, 4)
+                .transition(.scale(scale: 0.9, anchor: .topLeading).combined(with: .opacity))
             }
         }
     }

@@ -52,6 +52,8 @@ final class SettingsStore: ObservableObject {
     @Published var sassLevel: String { didSet { d.set(sassLevel, forKey: "sassLevel") } }
     /// The newest build whose What's new card was shown in the chat.
     @Published var lastWhatsNewBuild: Int { didSet { d.set(lastWhatsNewBuild, forKey: "lastWhatsNewBuild") } }
+    /// Springy, bouncy animations all over the app. Off swaps them for a quick, calm fade.
+    @Published var bouncyMotion: Bool { didSet { d.set(bouncyMotion, forKey: AceMotion.settingKey) } }
 
     init() {
         d.register(defaults: [
@@ -60,6 +62,7 @@ final class SettingsStore: ObservableObject {
             "webAnswers": true, "showThinking": true, "useAppleModel": false, "useLocalModel": true, "brain": "ace",
             "bedtimeTips": true, "temperatureUnit": "auto", "syncEnabled": false, "syncPort": 48620, "voiceSpeed": 1.0,
             "speakGreeting": true, "moodSounds": true, "orbOutfits": true, "personality": "normal", "sassLevel": "extra",
+            AceMotion.settingKey: true,
         ])
         userName = d.string(forKey: "userName") ?? ""
         soundsOn = d.bool(forKey: "soundsOn")
@@ -93,6 +96,7 @@ final class SettingsStore: ObservableObject {
         personality = d.string(forKey: "personality") == "sassy" ? "sassy" : "normal"
         sassLevel = SassLevel(setting: d.string(forKey: "sassLevel") ?? "extra").setting
         lastWhatsNewBuild = d.integer(forKey: "lastWhatsNewBuild")
+        bouncyMotion = d.bool(forKey: AceMotion.settingKey)
     }
 
     nonisolated static let slowestVoice = 0.6

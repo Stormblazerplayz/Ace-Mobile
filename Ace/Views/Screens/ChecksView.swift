@@ -5,6 +5,8 @@ struct ChecksView: View {
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject var core: AceCore
     @EnvironmentObject var settings: SettingsStore
+    /// Turns true when Checks opens, so the cards spring in one after another.
+    @State private var shown = false
 
     var body: some View {
         NavigationStack {
@@ -23,6 +25,7 @@ struct ChecksView: View {
                         Spacer(minLength: 0)
                     }
                     .aceCard()
+                    .bounceReveal(shown, order: 0)
 
                     Button {
                         dismiss()
@@ -33,6 +36,7 @@ struct ChecksView: View {
                     }
                     .buttonStyle(.borderedProminent)
                     .disabled(core.busy)
+                    .bounceReveal(shown, order: 1)
 
                     if core.checkHistory.isEmpty {
                         Text("No checks yet.")
@@ -40,13 +44,14 @@ struct ChecksView: View {
                             .frame(maxWidth: .infinity)
                             .padding(.top, 20)
                     }
-                    ForEach(core.checkHistory) { report in
+                    ForEach(Array(core.checkHistory.enumerated()), id: \.element.id) { i, report in
                         VStack(alignment: .leading, spacing: 6) {
                             Text(report.summary)
                                 .font(.subheadline)
                                 .foregroundStyle(AceTheme.fg)
                             CheckReportView(report: report)
                         }
+                        .bounceReveal(shown, order: i + 2)
                     }
                 }
                 .padding(16)
@@ -56,6 +61,7 @@ struct ChecksView: View {
             .background(AceTheme.background.ignoresSafeArea())
             .navigationTitle("Checks")
             .navigationBarTitleDisplayMode(.inline)
+            .onAppear { shown = true }
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Done") { dismiss() }

@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 59,
+   "date": "2026-11-25",
+   "items": [
+    "Ace is bouncier: buttons squish when you press them and boing back, and the header icons jump when you tap them.",
+    "Chat bubbles pop in, yours from the right and Ace's from the left, and the orb hops when Ace replies.",
+    "Settings springs open one section at a time, with springy switches and an orb at the top that smiles when you tap it.",
+    "Turn it off in Settings > Look and feel > Bouncy animations. Reduce Motion in the iPad's Settings keeps everything still."
+   ]
+  },
+  {
    "build": 58,
    "date": "2026-11-23",
    "items": [

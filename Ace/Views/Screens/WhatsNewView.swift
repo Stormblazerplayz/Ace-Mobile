@@ -5,6 +5,8 @@ struct WhatsNewView: View {
     @EnvironmentObject var core: AceCore
     @Environment(\.dismiss) private var dismiss
     private let releases = WhatsNew.load()
+    /// Turns true when the page opens, so the builds spring in one after another.
+    @State private var shown = false
 
     var body: some View {
         List {
@@ -12,7 +14,7 @@ struct WhatsNewView: View {
                 Text("No notes for this build.")
                     .foregroundStyle(AceTheme.muted)
             }
-            ForEach(releases, id: \.build) { r in
+            ForEach(Array(releases.enumerated()), id: \.element.build) { i, r in
                 Section {
                     WhatsNewList(items: r.items)
                         .padding(.vertical, 4)
@@ -20,6 +22,7 @@ struct WhatsNewView: View {
                     Text(r.build == WhatsNew.release(forBuild: WhatsNew.currentBuild, in: releases)?.build
                          ? "Build \(r.build) (this one)" : "Build \(r.build)")
                 }
+                .bounceReveal(shown, order: i)
             }
             if !releases.isEmpty {
                 Section {
@@ -27,12 +30,15 @@ struct WhatsNewView: View {
                         core.showWhatsNew(force: true)
                         dismiss()
                     }
+                    .buttonStyle(.aceBouncyRow)
                 }
+                .bounceReveal(shown, order: releases.count)
             }
         }
         .scrollContentBackground(.hidden)
         .background(AceTheme.background.ignoresSafeArea())
         .navigationTitle("What's new")
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear { shown = true }
     }
 }

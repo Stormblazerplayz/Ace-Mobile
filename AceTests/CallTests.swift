@@ -212,7 +212,7 @@ final class CallTests: XCTestCase {
 
     func testWhatsNewShowsVoiceCalls() throws {
         let releases = WhatsNew.load()
-        XCTAssertEqual(releases.first?.build, 58, "Newest first")
+        XCTAssertEqual(releases.map(\.build), releases.map(\.build).sorted(by: >), "Newest first")
         let release = try XCTUnwrap(releases.first { $0.build == 58 })
         XCTAssertTrue(release.items.contains { $0.contains("call Ace") })
         XCTAssertEqual(WhatsNew.due(currentBuild: 58, lastShown: 57, releases: releases)?.build, 58)
