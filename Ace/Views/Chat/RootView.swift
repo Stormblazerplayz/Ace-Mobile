@@ -11,6 +11,7 @@ struct RootView: View {
     @State private var draft = ""
     @State private var showCountdowns = false
     @State private var showCalendar = false
+    @State private var showConverter = false
     @State private var showChecks = false
     @State private var showHabits = false
     @State private var showSettings = false
@@ -69,6 +70,7 @@ struct RootView: View {
         .modifier(CallCover(call: core.call, core: core, settings: settings))
         .sheet(isPresented: $showCalendar) { CalendarView() }
         .fullScreenCover(isPresented: $showCountdowns) { CountdownsView() }
+        .fullScreenCover(isPresented: $showConverter) { ConverterView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
         .sheet(isPresented: $core.gamesOpen) { GamesView() }
         .fullScreenCover(isPresented: $showSketchbook) { SketchbookView() }
@@ -133,6 +135,7 @@ struct RootView: View {
                         core.showFlashcards(deckID: nil, study: false, practice: false)
                     }
                     headerButton("gamecontroller.fill", label: "Ace Games") { core.gamesOpen = true }
+                    headerButton("ruler.fill", label: "Converter") { showConverter = true }
                     Spacer()
                     headerButton("hourglass", label: "Countdowns") { showCountdowns = true }
                     headerButton("pianokeys", label: "Ace Piano") { _ = core.showPiano(.free) }
