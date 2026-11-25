@@ -16,6 +16,7 @@ struct RootView: View {
     @State private var showPhotoPicker = false
     @State private var photoItem: PhotosPickerItem?
     @State private var showCamera = false
+    @State private var showSketchbook = false
     /// Counts orb taps and sends, so the orb and the send arrow can boing each time.
     @State private var orbTaps = 0
     @State private var sends = 0
@@ -59,6 +60,7 @@ struct RootView: View {
         .sheet(isPresented: $showCalendar) { CalendarView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
         .sheet(isPresented: $core.gamesOpen) { GamesView() }
+        .fullScreenCover(isPresented: $showSketchbook) { SketchbookView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
         .fullScreenCover(isPresented: $showStudy) { StudyView() }
         .sheet(isPresented: $core.flashcardsOpen) { FlashcardsView(startDeck: core.flashcardsDeck) }
@@ -104,6 +106,7 @@ struct RootView: View {
         GeometryReader { geo in
             ZStack {
                 HStack(spacing: 4) {
+                    headerButton("scribble.variable", label: "Sketchbook") { showSketchbook = true }
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
                     headerButton("rectangle.on.rectangle.angled", label: "Study cards") { showStudy = true }
                     headerButton("rectangle.stack.fill", label: "Flashcards") {
