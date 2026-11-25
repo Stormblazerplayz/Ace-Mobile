@@ -5,6 +5,7 @@ import UIKit
 /// The main screen: Ace's orb island at the top, the chat in the middle, and the message box at the bottom.
 struct RootView: View {
     @EnvironmentObject var core: AceCore
+    @State private var showCodes = false
     @ObservedObject private var voice = VoiceIn.shared
     @EnvironmentObject var settings: SettingsStore
     @State private var draft = ""
@@ -137,6 +138,8 @@ struct RootView: View {
                     headerButton("pianokeys", label: "Ace Piano") { _ = core.showPiano(.free) }
                     headerButton("globe.americas.fill", label: "Solar system") { _ = core.showSpace(.overview) }
                     headerButton("function", label: "Graphs") { _ = core.showGraph(.blank) }
+                    headerButton("key.fill", label: "Secret codes") { showCodes = true }
+                        .fullScreenCover(isPresented: $showCodes) { SecretCodesView() }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("drop.circle", label: "Habits") { showHabits = true }
                         .fullScreenCover(isPresented: $showHabits) { HabitsView() }
