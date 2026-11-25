@@ -1,6 +1,17 @@
 {
  "builds": [
   {
+   "build": 74,
+   "date": "2026-11-25",
+   "items": [
+    "Converter: tap the ruler button at the top to change any measurement into another, like metres to feet, cups to millilitres or MB to GB.",
+    "Pick from 8 kinds (length, weight, temperature, volume, speed, area, time and data). The answer rolls into place, and the swap button spins to flip the units.",
+    "How big is that? Bars compare your amount with real things, like soda cans, tennis courts or marathons.",
+    "Temperatures fill up a thermometer that turns from blue to red, with marks for freezing, room, body and boiling.",
+    "See your amount in every unit at once, and tap one to switch to it. Ace remembers your units for each kind."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [

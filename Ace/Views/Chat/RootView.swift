@@ -9,6 +9,7 @@ struct RootView: View {
     @EnvironmentObject var settings: SettingsStore
     @State private var draft = ""
     @State private var showCalendar = false
+    @State private var showConverter = false
     @State private var showChecks = false
     @State private var showSettings = false
     @FocusState private var inputFocused: Bool
@@ -55,6 +56,7 @@ struct RootView: View {
         // The voice call screen covers everything while a call is on.
         .modifier(CallCover(call: core.call, core: core, settings: settings))
         .sheet(isPresented: $showCalendar) { CalendarView() }
+        .fullScreenCover(isPresented: $showConverter) { ConverterView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
         .sheet(item: $core.webPage) { page in
@@ -96,6 +98,7 @@ struct RootView: View {
             ZStack {
                 HStack(spacing: 4) {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
+                    headerButton("ruler.fill", label: "Converter") { showConverter = true }
                     Spacer()
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
