@@ -10,6 +10,7 @@ struct RootView: View {
     @State private var draft = ""
     @State private var showCalendar = false
     @State private var showChecks = false
+    @State private var showHabits = false
     @State private var showSettings = false
     @FocusState private var inputFocused: Bool
     @State private var showPhotoPicker = false
@@ -98,6 +99,8 @@ struct RootView: View {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
                     Spacer()
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
+                    headerButton("drop.circle", label: "Habits") { showHabits = true }
+                        .fullScreenCover(isPresented: $showHabits) { HabitsView() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
                 }
                 .opacity(core.mood.expands ? 0 : 1)

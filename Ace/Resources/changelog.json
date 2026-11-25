@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 66,
+   "date": "2026-11-25",
+   "items": [
+    "Habits: tap the drop at the top to track things you want to do every day, like reading, homework or drinking water.",
+    "Each habit is a round bubble that fills up with colored water as you tap it, with a wave that sloshes around.",
+    "A flame shows your streak, dots show the last 7 days, and a big ring of every habit's colors fills up as your day gets done.",
+    "A glowing grid shows the last 12 weeks, and dots burst out of the ring when every habit is done for the day."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
