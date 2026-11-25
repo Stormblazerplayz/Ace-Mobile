@@ -11,6 +11,7 @@ struct RootView: View {
     @State private var showCalendar = false
     @State private var showChecks = false
     @State private var showSettings = false
+    @State private var showStudy = false
     @FocusState private var inputFocused: Bool
     @State private var showPhotoPicker = false
     @State private var photoItem: PhotosPickerItem?
@@ -57,6 +58,7 @@ struct RootView: View {
         .sheet(isPresented: $showCalendar) { CalendarView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
+        .fullScreenCover(isPresented: $showStudy) { StudyView() }
         .sheet(item: $core.webPage) { page in
             SafariView(url: page.url).ignoresSafeArea()
         }
@@ -96,6 +98,7 @@ struct RootView: View {
             ZStack {
                 HStack(spacing: 4) {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
+                    headerButton("rectangle.on.rectangle.angled", label: "Study cards") { showStudy = true }
                     Spacer()
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }

@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 60,
+   "date": "2026-11-25",
+   "items": [
+    "Study cards: tap the new cards button at the top to learn with flashcards made from Ace's 4,000 trivia questions, in 10 colorful decks.",
+    "Tap a card to flip it over in 3D, then swipe right if you knew it or left to see it again. Cards you miss come back until you get them.",
+    "Ace remembers how well you know each card, so the hard ones come back sooner and the easy ones wait longer.",
+    "Make your own cards in Make cards, fill the daily ring with 20 cards, keep a streak going, and get confetti when you finish a deck."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
