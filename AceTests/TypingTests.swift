@@ -219,7 +219,7 @@ final class TypingTests: XCTestCase {
 
     func testChangelogHasTyping() {
         let releases = WhatsNew.load()
-        XCTAssertEqual(releases.first?.build, 74)
+        XCTAssertEqual(releases.first?.build, 75)
         XCTAssertTrue(releases.first?.items.contains { $0.contains("Ace Typing") } == true)
     }
 }
