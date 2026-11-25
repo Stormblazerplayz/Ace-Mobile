@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 65,
+   "date": "2026-11-25",
+   "items": [
+    "Countdowns: tap the hourglass at the top to count down to birthdays, trips, game launches or the last day of school.",
+    "The next big day gets a huge colorful card with a rolling clock that ticks down the days, hours, minutes and seconds.",
+    "Every other countdown is a tile with a ring that fills up as the day gets closer, and confetti falls when it's here.",
+    "Pick an icon and colors, make it come back every year, or add New Year's, Valentine's, Halloween and Christmas with one tap."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
