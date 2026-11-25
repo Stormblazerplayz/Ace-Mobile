@@ -16,6 +16,7 @@ struct RootView: View {
     @State private var showStudy = false
     @FocusState private var inputFocused: Bool
     @State private var showPhotoPicker = false
+    @State private var showLists = false
     @State private var photoItem: PhotosPickerItem?
     @State private var showCamera = false
     @State private var showSketchbook = false
@@ -223,6 +224,8 @@ struct RootView: View {
                 if CameraPicker.isAvailable {
                     Button { showCamera = true } label: { Label("Take a photo", systemImage: "camera") }
                 }
+                Divider()
+                Button { showLists = true } label: { Label("Lists and packing lists", systemImage: "checklist") }
             } label: {
                 Image(systemName: "plus")
                     .font(.system(size: 17, weight: .bold))
@@ -231,7 +234,8 @@ struct RootView: View {
                     .foregroundStyle(AceTheme.ace)
             }
             .disabled(core.busy)
-            .accessibilityLabel("Add a picture")
+            .accessibilityLabel("Add a picture or open Lists")
+            .fullScreenCover(isPresented: $showLists) { ChecklistsView() }
             TextField("Talk to Ace", text: $draft, axis: .vertical)
                 .lineLimit(1...5)
                 .focused($inputFocused)
