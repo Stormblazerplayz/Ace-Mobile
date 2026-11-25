@@ -356,11 +356,19 @@ struct TwentyRound: Equatable {
 enum ActiveGame: Equatable {
     case trivia(TriviaRound)
     case twenty(TwentyRound)
+    case ticTacToe(TicTacToeRound)
+    case hangman(HangmanRound)
+    case numberGuess(NumberRound)
+    case rps(RPSRound)
 
     var name: String {
         switch self {
         case .trivia: return "trivia"
         case .twenty: return "20 questions"
+        case .ticTacToe: return "tic-tac-toe"
+        case .hangman: return "hangman"
+        case .numberGuess: return "guess the number"
+        case .rps: return "rock paper scissors"
         }
     }
 }

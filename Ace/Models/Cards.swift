@@ -21,6 +21,10 @@ enum AceCard: Codable, Equatable {
     case quickReplies(QuickReplies)
     case steps(StepsCard)
     case whatsNew(WhatsNewCard)
+    case ticTacToe(TicTacToeCard)
+    case hangman(HangmanCard)
+    case numberGuess(NumberGuessCard)
+    case rps(RPSCard)
     case flashcards(FlashcardsCard)
 }
 

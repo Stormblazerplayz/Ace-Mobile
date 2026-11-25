@@ -212,7 +212,7 @@ enum Sass {
             case .recipe: return "recipe"
             case .code: return "script"
             case .translation: return "translate"
-            case .trivia: return "game"
+            case .trivia, .ticTacToe, .hangman, .numberGuess, .rps: return "game"
             case .steps: return "homework"
             default: break
             }

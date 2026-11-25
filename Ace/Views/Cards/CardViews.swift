@@ -29,6 +29,10 @@ struct CardView: View {
         case .steps(let s): StepsCardView(card: s)
         case .whatsNew(let w): WhatsNewCardView(card: w)
         case .flashcards(let f): FlashcardsCardView(card: f)
+        case .ticTacToe(let t): TicTacToeCardView(card: t, messageID: messageID)
+        case .hangman(let h): HangmanCardView(card: h, messageID: messageID)
+        case .numberGuess(let n): NumberGuessCardView(card: n, messageID: messageID)
+        case .rps(let r): RPSCardView(card: r, messageID: messageID)
         }
     }
 }

@@ -26,7 +26,7 @@ enum Intent: Equatable {
     case script(String)             // "give me a kill brick script", "C++ servo code"
     case translate(phrase: String, code: String)   // "how do you say thank you in spanish"
     case translateList              // "what languages can you speak"
-    case game(String)               // "trivia", "trivia:Space", "twenty"
+    case game(String)               // "trivia", "trivia:Space", "twenty", "tictactoe", "hangman", "number", "rps", "arcade"
     case homework(String)           // "solve 2x + 3 = 11" (or "" for "help me with my homework")
     case note(action: String, text: String)   // "take a note: buy milk", "read my notes"
     case voiceSpeed(String)         // "talk slower": "slower", "faster" or "normal"
@@ -282,6 +282,9 @@ enum IntentRouter {
             if let cat = Trivia.category(in: t) { return .game("trivia:" + cat) }
             return .game("trivia")
         }
+
+        // Ace Games: tic-tac-toe, hangman, guess the number, rock paper scissors and the games screen
+        if let g = ArcadeAsk.parse(t) { return .game(g) }
 
         // Sassy mode by voice ("turn on sassy mode", "get sassy", "normal mode"), before Home so it's never a scene.
         if let on = personality(t) { return .personality(on) }

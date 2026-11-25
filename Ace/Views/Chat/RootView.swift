@@ -58,6 +58,7 @@ struct RootView: View {
         .modifier(CallCover(call: core.call, core: core, settings: settings))
         .sheet(isPresented: $showCalendar) { CalendarView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
+        .sheet(isPresented: $core.gamesOpen) { GamesView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
         .fullScreenCover(isPresented: $showStudy) { StudyView() }
         .sheet(isPresented: $core.flashcardsOpen) { FlashcardsView(startDeck: core.flashcardsDeck) }
@@ -108,6 +109,7 @@ struct RootView: View {
                     headerButton("rectangle.stack.fill", label: "Flashcards") {
                         core.showFlashcards(deckID: nil, study: false, practice: false)
                     }
+                    headerButton("gamecontroller.fill", label: "Ace Games") { core.gamesOpen = true }
                     Spacer()
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
