@@ -64,6 +64,7 @@ enum Intent: Equatable {
     case piano(String)            // "open", "lessons", "list", "learn:twinkle" or "listen:jingle-bells"
     case space(String)            // "open", "planet:mars" or "where:mars"
     case graph(String)            // "open" or "plot:x^2 + 1"
+    case typing(String)           // "open" or a lesson id like "homeRow"
 }
 
 extension Intent {
@@ -146,6 +147,7 @@ extension Intent {
         case .piano: return "piano"
         case .space: return "space"
         case .graph: return "graph"
+        case .typing: return "typing"
         }
     }
 }
@@ -273,6 +275,8 @@ enum IntentRouter {
         if let piano = PianoAsk.parse(t) { return .piano(piano) }
         // Ace Space: "show me the solar system", "show me saturn", "where is mars right now".
         if let space = SpaceAsk.parse(t) { return .space(space) }
+        // Ace Typing: "typing practice", "teach me to type", "how fast can i type".
+        if let typing = TypingAsk.parse(t) { return .typing(typing) }
 
         // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
         if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }

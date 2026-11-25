@@ -50,6 +50,8 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var spaceScreen: SpaceScreen?
     /// Ace Graphs is open (full screen), and how it opened.
     @Published var graphScreen: GraphScreen?
+    /// Typing practice is open (full screen), and which lesson it opened on.
+    @Published var typingScreen: TypingScreen?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -460,6 +462,13 @@ final class AceCore: ObservableObject, BrainHost {
     func showGraph(_ start: GraphStart) -> Bool {
         guard !call.isLive else { return false }
         graphScreen = GraphScreen(start: start)
+        return true
+    }
+
+    /// Opens typing practice. It stays shut during a voice call, where the call screen covers everything.
+    func showTyping(_ lesson: TypingLesson?) -> Bool {
+        guard !call.isLive else { return false }
+        typingScreen = TypingScreen(lesson: lesson)
         return true
     }
 

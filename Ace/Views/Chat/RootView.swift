@@ -92,6 +92,9 @@ struct RootView: View {
         .fullScreenCover(item: $core.graphScreen) { screen in
             GraphView(start: screen.start)
         }
+        .fullScreenCover(item: $core.typingScreen) { screen in
+            TypingView(start: screen.lesson)
+        }
         .onChange(of: inputFocused) { _, focused in
             core.setTyping(focused && !draft.isEmpty)
         }
@@ -143,6 +146,7 @@ struct RootView: View {
                     headerButton("function", label: "Graphs") { _ = core.showGraph(.blank) }
                     headerButton("key.fill", label: "Secret codes") { showCodes = true }
                         .fullScreenCover(isPresented: $showCodes) { SecretCodesView() }
+                    headerButton("keyboard", label: "Typing practice") { _ = core.showTyping(nil) }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("drop.circle", label: "Habits") { showHabits = true }
                         .fullScreenCover(isPresented: $showHabits) { HabitsView() }
