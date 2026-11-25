@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 61,
+   "date": "2026-11-25",
+   "items": [
+    "Ace Games: tap the game controller button for an arcade of six games, with glowing tiles, your wins and your best streak.",
+    "New games: tic-tac-toe (easy, normal or hard), hangman with 8 word topics, guess the number, and rock paper scissors. Trivia and 20 questions are in there too.",
+    "Play by tapping the board and letters, or by voice: say \"play hangman\", \"top left\" or \"the letter E\".",
+    "Wins burst into confetti, losses give a shake, and everything follows Bouncy animations and Reduce Motion."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [

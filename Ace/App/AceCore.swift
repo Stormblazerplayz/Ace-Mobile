@@ -30,6 +30,8 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    /// The Ace Games screen is open.
+    @Published var gamesOpen = false
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -400,6 +402,13 @@ final class AceCore: ObservableObject, BrainHost {
         saveChat()
         holdMood = true
         Task { await sassyEyes(level == .mild ? .side : .roll, then: .happy) }
+    }
+
+    /// Opens the Ace Games screen (from "open games"). It stays shut during a voice call,
+    /// where the call screen covers everything and games are played by voice.
+    func showGames() {
+        guard !call.isLive else { return }
+        gamesOpen = true
     }
 
     /// The What's new card: once after each update, or any time from Settings (`force`).
