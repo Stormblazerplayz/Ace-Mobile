@@ -15,6 +15,26 @@ struct RootView: View {
     @State private var showPhotoPicker = false
     @State private var photoItem: PhotosPickerItem?
     @State private var showCamera = false
+    /// Counts orb taps and sends, so the orb and the send arrow can boing each time.
+    @State private var orbTaps = 0
+    @State private var sends = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    /// The animation for a kind of move here, from the Bouncy animations setting and Reduce Motion.
+    private func motion(_ kind: AceMotion.Kind) -> Animation? {
+        AceMotion.animation(kind, bouncy: settings.bouncyMotion, reduceMotion: reduceMotion)
+    }
+
+    /// The messages the chat shows. Empty Ace messages (older chats could have them) are skipped,
+    /// so no "How I got this" row floats alone.
+    private var visibleMessages: [ChatMessage] {
+        core.messages.filter { $0.speaker == .user || !$0.text.isEmpty || !$0.cards.isEmpty }
+    }
+
+    /// How many replies Ace has given, so the orb hops when a new one lands.
+    private var aceReplies: Int {
+        core.messages.reduce(0) { $0 + ($1.speaker == .ace ? 1 : 0) }
+    }
 
     var body: some View {
         NavigationStack {
@@ -81,6 +101,7 @@ struct RootView: View {
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
                 }
                 .opacity(core.mood.expands ? 0 : 1)
+                .scaleEffect(core.mood.expands && AceMotion.moves(bouncy: settings.bouncyMotion, reduceMotion: reduceMotion) ? 0.85 : 1)
                 .allowsHitTesting(!core.mood.expands)
                 OrbIsland(
                     mood: core.mood,
@@ -92,13 +113,24 @@ struct RootView: View {
                     outfit: settings.orbOutfits ? OrbOutfit.forDate(Date()) : nil,
                     onTap: {
                         // Tapping the orb opens Settings (there's no gear button any more).
-                        showSettings = true
+                        // With the bounce on, the orb boings first so you see it react.
+                        guard AceMotion.moves(bouncy: settings.bouncyMotion, reduceMotion: reduceMotion) else {
+                            showSettings = true
+                            return
+                        }
+                        orbTaps += 1
+                        Task {
+                            try? await Task.sleep(for: .milliseconds(140))
+                            showSettings = true
+                        }
                     },
                     onHold: { down in core.holdToTalk(down) }
                 )
+                .boing(on: orbTaps, scale: 1.12)
+                .boing(on: aceReplies, scale: 1.06)
             }
             .frame(width: geo.size.width, height: geo.size.height)
-            .animation(.easeInOut(duration: 0.25), value: core.mood.expands)
+            .animation(motion(.bouncy), value: core.mood.expands)
         }
         .frame(height: 64)
         .padding(.horizontal, 12)
@@ -106,14 +138,9 @@ struct RootView: View {
         .padding(.bottom, 6)
     }
 
+    /// A header button that squishes when pressed and whose symbol jumps when tapped.
     private func headerButton(_ symbol: String, label: String, action: @escaping () -> Void) -> some View {
-        Button(action: action) {
-            Image(systemName: symbol)
-                .font(.system(size: 19, weight: .medium))
-                .frame(width: 44, height: 44)
-                .contentShape(Rectangle())
-        }
-        .accessibilityLabel(label)
+        BouncyIconButton(symbol: symbol, label: label, action: action)
     }
 
     private var chat: some View {
@@ -124,10 +151,11 @@ struct RootView: View {
                         EmptyChatView { text in send(text) }
                             .padding(.top, 40)
                     }
-                    // Skip empty Ace messages (older chats could have them), so no "How I got this" row floats alone.
-                    ForEach(core.messages.filter { $0.speaker == .user || !$0.text.isEmpty || !$0.cards.isEmpty }) { m in
+                    // New bubbles pop in: yours from the bottom right, Ace's from the top left.
+                    ForEach(visibleMessages) { m in
                         MessageRow(message: m)
                             .id(m.id)
+                            .transition(.chatBubble(fromUser: m.speaker == .user))
                     }
                     if core.busy && !core.liveThoughts.isEmpty && settings.showThinking {
                         LiveThoughtsView(thoughts: core.liveThoughts)
@@ -135,6 +163,8 @@ struct RootView: View {
                     }
                     Color.clear.frame(height: 4).id("bottom")
                 }
+                .animation(motion(.bouncy), value: visibleMessages.count)
+                .animation(motion(.snappy), value: core.busy)
                 .padding(.horizontal, 16)
                 .padding(.vertical, 8)
                 .frame(maxWidth: 820)
@@ -193,10 +223,14 @@ struct RootView: View {
             } label: {
                 Image(systemName: "arrow.up")
                     .font(.system(size: 17, weight: .bold))
+                    .symbolEffect(.bounce.up, value: sends)
                     .frame(width: 44, height: 44)
                     .background(Circle().fill(canSend ? AceTheme.ace : AceTheme.soft))
                     .foregroundStyle(canSend ? Color.black : AceTheme.muted)
+                    .scaleEffect(canSend || !AceMotion.moves(bouncy: settings.bouncyMotion, reduceMotion: reduceMotion) ? 1 : 0.88)
+                    .animation(motion(.pop), value: canSend)
             }
+            .buttonStyle(BouncyButtonStyle(depth: 0.8))
             .disabled(!canSend)
             .accessibilityLabel("Send")
         }
@@ -216,6 +250,8 @@ struct RootView: View {
         guard !t.isEmpty, !core.busy else { return }
         draft = ""
         core.setTyping(false)
+        if AceMotion.moves(bouncy: settings.bouncyMotion, reduceMotion: reduceMotion) { sends += 1 }
+        Haptics.shared.play(.tick)
         core.send(t)
     }
 }
@@ -224,6 +260,8 @@ struct RootView: View {
 struct EmptyChatView: View {
     var onPick: (String) -> Void
     @EnvironmentObject var settings: SettingsStore
+    /// Turns true when the hello shows, so the ideas cascade in one after another.
+    @State private var shown = false
 
     private let ideas = [
         "What's on my calendar today?",
@@ -239,10 +277,12 @@ struct EmptyChatView: View {
             Text(settings.userName.isEmpty ? "Hi, I'm Ace." : "Hi \(settings.userName), I'm Ace.")
                 .font(.system(.title2, design: .rounded).weight(.semibold))
                 .foregroundStyle(AceTheme.fg)
+                .bounceReveal(shown, order: 0)
             Text("Ask me anything, or try one of these.")
                 .foregroundStyle(AceTheme.muted)
+                .bounceReveal(shown, order: 1)
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 220), spacing: 10)], spacing: 10) {
-                ForEach(ideas, id: \.self) { idea in
+                ForEach(Array(ideas.enumerated()), id: \.element) { i, idea in
                     Button { onPick(idea) } label: {
                         Text(idea)
                             .font(.subheadline)
@@ -250,24 +290,31 @@ struct EmptyChatView: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(12)
                             .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(AceTheme.card))
+                            .contentShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.aceBouncy)
+                    .bounceReveal(shown, order: i + 2)
                 }
             }
         }
         .frame(maxWidth: .infinity)
+        .onAppear { shown = true }
     }
 }
 
 /// Ace's thinking steps, shown live while it works.
 struct LiveThoughtsView: View {
     let thoughts: [String]
+    @AppStorage(AceMotion.settingKey) private var bouncy = true
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             ForEach(Array(thoughts.suffix(6).enumerated()), id: \.offset) { i, step in
                 HStack(alignment: .top, spacing: 8) {
+                    // The dotted circle turns into a tick when Ace moves on to the next step.
                     Image(systemName: i == thoughts.suffix(6).count - 1 ? "circle.dotted" : "checkmark")
+                        .contentTransition(.symbolEffect(.replace))
                         .font(.caption)
                         .foregroundStyle(AceTheme.amber)
                         .frame(width: 14)
@@ -279,6 +326,7 @@ struct LiveThoughtsView: View {
         }
         .padding(12)
         .background(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(AceTheme.amber.opacity(0.35), style: StrokeStyle(lineWidth: 1, dash: [4, 4])))
-        .transition(.opacity)
+        .animation(AceMotion.animation(.snappy, bouncy: bouncy, reduceMotion: reduceMotion), value: thoughts.count)
+        .transition(.scale(scale: 0.92, anchor: .topLeading).combined(with: .opacity))
     }
 }

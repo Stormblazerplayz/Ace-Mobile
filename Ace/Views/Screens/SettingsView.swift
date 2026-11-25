@@ -9,29 +9,59 @@ struct SettingsView: View {
     @ObservedObject private var calendar = CalendarService.shared
     @State private var confirmClear = false
     @State private var voices: [AVSpeechSynthesisVoice] = []
+    /// Turns true when Settings opens, so the sections spring in one after another.
+    @State private var revealed = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    /// The animation for a kind of move here, from the Bouncy animations setting and Reduce Motion.
+    private func motion(_ kind: AceMotion.Kind) -> Animation? {
+        AceMotion.animation(kind, bouncy: settings.bouncyMotion, reduceMotion: reduceMotion)
+    }
 
     var body: some View {
         NavigationStack {
             Form {
+                Section {
+                    SettingsHero(name: settings.userName)
+                }
+                .listRowBackground(Color.clear)
+                .bounceReveal(revealed, order: 0, rise: 8)
+
                 Section("You") {
                     TextField("Your name", text: $settings.userName)
                         .textContentType(.givenName)
                 }
+                .bounceReveal(revealed, order: 1)
 
                 Section {
-                    Picker("Personality", selection: $settings.personality) {
+                    Toggle("Bouncy animations", isOn: $settings.bouncyMotion)
+                } header: {
+                    Text("Look and feel")
+                } footer: {
+                    Text(settings.bouncyMotion
+                         ? "Buttons squish, switches boing and chat bubbles pop in. If Reduce Motion is on in the iPad's Settings, Ace keeps still."
+                         : "Ace moves calmly, with quick fades and no bouncing.")
+                        .contentTransition(.opacity)
+                }
+                .bounceReveal(revealed, order: 2)
+
+                Section {
+                    Picker("Personality", selection: $settings.personality.animation(motion(.bouncy))) {
                         Text("Normal").tag("normal")
                         Text("Sassy").tag("sassy")
                     }
                     .pickerStyle(.segmented)
                     if settings.personality == "sassy" {
-                        SassSlider(level: $settings.sassLevel)
+                        SassSlider(level: $settings.sassLevel.animation(motion(.snappy)))
+                            .transition(.scale(scale: 0.9, anchor: .top).combined(with: .opacity))
                     }
                 } header: {
                     Text("Personality")
                 } footer: {
                     Text(personalityFooter)
+                        .contentTransition(.opacity)
                 }
+                .bounceReveal(revealed, order: 3)
 
                 Section {
                     Toggle("Sound effects", isOn: $settings.soundsOn)
@@ -49,11 +79,13 @@ struct SettingsView: View {
                         SoundFX.shared.play(.greeting)
                         Haptics.shared.play(.success)
                     }
+                    .buttonStyle(.aceBouncyRow)
                 } header: {
                     Text("Sounds")
                 } footer: {
                     Text("Sound effects follow your silent switch. Mood sounds are quiet blips when the orb changes mood.")
                 }
+                .bounceReveal(revealed, order: 4)
 
                 Section {
                     Toggle("Seasonal orb outfits", isOn: $settings.orbOutfits)
@@ -63,6 +95,7 @@ struct SettingsView: View {
                 } footer: {
                     Text("Ace wears a Santa hat in December, a pumpkin at Halloween, and more on special days.")
                 }
+                .bounceReveal(revealed, order: 5)
 
                 Section {
                     Toggle("Read replies out loud", isOn: $settings.speakReplies)
@@ -84,6 +117,8 @@ struct SettingsView: View {
                             Text(settings.voiceSpeed == 1 ? "Normal" : String(format: "%.2fx", settings.voiceSpeed))
                                 .foregroundStyle(.secondary)
                                 .monospacedDigit()
+                                .contentTransition(.numericText(value: settings.voiceSpeed))
+                                .animation(motion(.snappy), value: settings.voiceSpeed)
                         }
                         Slider(value: $settings.voiceSpeed, in: SettingsStore.slowestVoice...SettingsStore.fastestVoice, step: 0.05) {
                             Text("Talking speed")
@@ -96,11 +131,13 @@ struct SettingsView: View {
                     Button("Hear it") {
                         VoiceOut.shared.speak("Hi! I'm Ace.", voiceID: settings.voiceID) { _ in }
                     }
+                    .buttonStyle(.aceBouncyRow)
                 } header: {
                     Text("Voice")
                 } footer: {
                     Text("You can also say \"talk slower\" or \"talk faster\". Hold the orb to talk, and let go when you're done. With \"Hey Ace\" on, Ace listens while the app is open. Tap the orb for Settings.")
                 }
+                .bounceReveal(revealed, order: 6)
 
                 Section {
                     Toggle("Wake up and check things", isOn: $settings.wakeChecks)
@@ -109,11 +146,13 @@ struct SettingsView: View {
                     Button("Allow notifications") {
                         Task { _ = await Notifier.requestPermission() }
                     }
+                    .buttonStyle(.aceBouncyRow)
                 } header: {
                     Text("Checks")
                 } footer: {
                     Text("While Ace is open it wakes up every 15 to 30 minutes. When it's closed, iPadOS decides when Ace can check, so it may be less often.")
                 }
+                .bounceReveal(revealed, order: 7)
 
                 Section("Thinking and the web") {
                     Toggle("Show how Ace thinks", isOn: $settings.showThinking)
@@ -133,24 +172,32 @@ struct SettingsView: View {
                         Text("°F").tag("f")
                     }
                 }
+                .bounceReveal(revealed, order: 8)
 
                 Section("Calendar and reminders") {
                     LabeledContent("Calendar", value: calendar.eventAccess ? "Allowed" : "Not allowed")
                     if !calendar.eventAccess {
                         Button("Allow calendar") { Task { await calendar.requestEventAccess() } }
+                            .buttonStyle(.aceBouncyRow)
                     }
                     LabeledContent("Reminders", value: calendar.reminderAccess ? "Allowed" : "Not allowed")
                     if !calendar.reminderAccess {
                         Button("Allow reminders") { Task { await calendar.requestReminderAccess() } }
+                            .buttonStyle(.aceBouncyRow)
                     }
                 }
+                .bounceReveal(revealed, order: 9)
 
                 MemorySection(memory: core.memory, bank: core.brain.bank)
+                    .bounceReveal(revealed, order: 10)
 
                 HomeSection()
+                    .bounceReveal(revealed, order: 11)
                 WiFiLightsSection()
+                    .bounceReveal(revealed, order: 12)
 
                 AIModelSection()
+                    .bounceReveal(revealed, order: 13)
 
                 Section("Coming next") {
                     Label("PC Sync with Nimbus", systemImage: "desktopcomputer")
@@ -158,16 +205,21 @@ struct SettingsView: View {
                     Label("Screenshot and file search", systemImage: "doc.text.magnifyingglass")
                 }
                 .foregroundStyle(AceTheme.muted)
+                .bounceReveal(revealed, order: 14)
 
                 Section {
                     Button("Clear chat", role: .destructive) { confirmClear = true }
+                        .buttonStyle(.aceBouncyRow)
                 }
+                .bounceReveal(revealed, order: 15)
 
                 Section {
                     NavigationLink("What's new") { WhatsNewView() }
                     LabeledContent("Ace", value: Self.version)
                 }
+                .bounceReveal(revealed, order: 16)
             }
+            .toggleStyle(.aceBouncy)
             .scrollContentBackground(.hidden)
             .background(AceTheme.background.ignoresSafeArea())
             .navigationTitle("Settings")
@@ -183,6 +235,7 @@ struct SettingsView: View {
             }
             .onAppear {
                 if voices.isEmpty { voices = VoiceOut.englishVoices() }
+                revealed = true
             }
             .onChange(of: settings.soundsOn) { _, _ in core.applySoundSettings() }
             .onChange(of: settings.volume) { _, _ in core.applySoundSettings() }
@@ -255,13 +308,14 @@ struct AIModelSection: View {
     @ObservedObject private var local = LocalModel.shared
     @State private var confirmDownload = false
     @State private var confirmDelete = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     /// The model has to be on this iPad for the picked setting to work.
     private var needsModel: Bool { settings.lfmAllowed }
 
     var body: some View {
         Section {
-            Picker("Brain", selection: $settings.brain) {
+            Picker("Brain", selection: $settings.brain.animation(AceMotion.animation(.bouncy, bouncy: settings.bouncyMotion, reduceMotion: reduceMotion))) {
                 Text("Normal Ace").tag("ace")
                 Text("LFM3 Omni").tag("model")
             }
@@ -291,11 +345,14 @@ struct AIModelSection: View {
                 switch local.state {
                 case .notDownloaded, .failed:
                     Button("Download LFM3 Omni (\(SystemMonitor.bytes(LocalModel.totalBytes)))") { confirmDownload = true }
+                        .buttonStyle(.aceBouncyRow)
                 case .downloading(let p):
                     ProgressView(value: p)
                     Button("Stop download", role: .destructive) { local.cancelDownload() }
+                        .buttonStyle(.aceBouncyRow)
                 case .downloaded, .ready, .loading:
                     Button("Delete the model", role: .destructive) { confirmDelete = true }
+                        .buttonStyle(.aceBouncyRow)
                 }
             }
         } header: {
@@ -345,6 +402,7 @@ struct HomeSection: View {
                 } label: {
                     Label("Connect Apple Home", systemImage: "house.fill")
                 }
+                .buttonStyle(.aceBouncyRow)
             case .waiting:
                 HStack {
                     ProgressView()
@@ -378,11 +436,10 @@ struct HomeSection: View {
                         }
                         Spacer()
                         if let on = d.isOn {
-                            Toggle(d.name, isOn: Binding(
+                            BouncyMiniToggle(d.name, isOn: Binding(
                                 get: { on },
                                 set: { v in Task { await home.setPower(d.id, v) } }
                             ))
-                            .labelsHidden()
                         }
                     }
                 }
@@ -395,6 +452,7 @@ struct HomeSection: View {
                         .foregroundStyle(AceTheme.muted)
                 }
                 Button("Refresh") { Task { await home.refresh() } }
+                    .buttonStyle(.aceBouncyRow)
             }
         } header: {
             Text("Apple Home")
@@ -430,6 +488,7 @@ struct WiFiLightsSection: View {
                     } label: {
                         Label("Scan for lights", systemImage: "wifi")
                     }
+                    .buttonStyle(.aceBouncyRow)
                 }
                 if lan.lights.isEmpty && scannedOnce && !lan.scanning {
                     Text("No lights found. In the Govee Home app, open each light's settings and turn on LAN Control, then scan again.")
@@ -448,11 +507,10 @@ struct WiFiLightsSection: View {
                                 .foregroundStyle(AceTheme.muted)
                         }
                         Spacer()
-                        Toggle(l.label, isOn: Binding(
+                        BouncyMiniToggle(l.label, isOn: Binding(
                             get: { l.isOn ?? false },
                             set: { v in Task { _ = await lan.setPower(l, v) } }
                         ))
-                        .labelsHidden()
                     }
                     .contextMenu {
                         Button("Rename") { newName = l.name; renaming = l }
@@ -474,6 +532,93 @@ struct WiFiLightsSection: View {
         }
         .task {
             if lan.enabled && !lan.lights.isEmpty { await lan.refresh() }
+        }
+    }
+}
+
+/// The top of Settings: Ace's orb, which hops and smiles when you tap it.
+struct SettingsHero: View {
+    var name: String
+    @State private var taps = 0
+    @State private var happy = false
+    @State private var look = CGPoint(x: 0.25, y: -0.1)
+
+    private var greeting: String {
+        let n = name.trimmingCharacters(in: .whitespaces)
+        return n.isEmpty ? "Make Ace yours" : "Make Ace yours, \(n)"
+    }
+
+    var body: some View {
+        VStack(spacing: 8) {
+            Button {
+                taps += 1
+                happy = true
+                // Glance a different way each tap.
+                let xs: [CGFloat] = [0.3, -0.3, 0, 0.2]
+                let ys: [CGFloat] = [-0.15, -0.1, 0.2, -0.2]
+                look = CGPoint(x: xs[taps % 4], y: ys[taps % 4])
+                Haptics.shared.play(.pop)
+                Task {
+                    let mine = taps
+                    try? await Task.sleep(for: .seconds(1.2))
+                    if taps == mine { happy = false }
+                }
+            } label: {
+                OrbStill(mood: happy ? .happy : .idle, look: look)
+                    .frame(width: 72, height: 72)
+                    .animation(AceMotion.now(.bouncy), value: look)
+            }
+            .buttonStyle(BouncyButtonStyle(depth: 0.86))
+            .boing(on: taps, scale: 1.18)
+            .accessibilityLabel("Ace")
+            .accessibilityHint("Tap to make Ace smile.")
+
+            Text(greeting)
+                .font(.headline)
+                .foregroundStyle(AceTheme.fg)
+            Text("Tap the orb, flip a switch, have fun.")
+                .font(.caption)
+                .foregroundStyle(AceTheme.muted)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 4)
+    }
+}
+
+/// A springy on/off switch with no label next to it (for rows that show their own name).
+struct BouncyMiniToggle: View {
+    let title: String
+    @Binding var isOn: Bool
+    @AppStorage(AceMotion.settingKey) private var bouncy = true
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var squish = false
+
+    init(_ title: String, isOn: Binding<Bool>) {
+        self.title = title
+        _isOn = isOn
+    }
+
+    var body: some View {
+        BouncySwitch(isOn: isOn, squish: squish)
+            .contentShape(Rectangle())
+            .onTapGesture { flip() }
+            .accessibilityElement()
+            .accessibilityLabel(title)
+            .accessibilityAddTraits(.isToggle)
+            .accessibilityValue(isOn ? "On" : "Off")
+            .accessibilityAction { flip() }
+    }
+
+    private func flip() {
+        withAnimation(AceMotion.animation(.pop, bouncy: bouncy, reduceMotion: reduceMotion)) {
+            isOn.toggle()
+        }
+        Haptics.shared.play(.tick)
+        guard AceMotion.moves(bouncy: bouncy, reduceMotion: reduceMotion) else { return }
+        withAnimation(.spring(response: 0.14, dampingFraction: 0.7)) {
+            squish = true
+        } completion: {
+            withAnimation(AceMotion.animation(.pop, bouncy: true, reduceMotion: false)) { squish = false }
         }
     }
 }
