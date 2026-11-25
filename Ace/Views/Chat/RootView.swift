@@ -15,6 +15,7 @@ struct RootView: View {
     @State private var showPhotoPicker = false
     @State private var photoItem: PhotosPickerItem?
     @State private var showCamera = false
+    @State private var showDecide = false
     /// Counts orb taps and sends, so the orb and the send arrow can boing each time.
     @State private var orbTaps = 0
     @State private var sends = 0
@@ -191,6 +192,7 @@ struct RootView: View {
     private var inputBar: some View {
         HStack(alignment: .bottom, spacing: 10) {
             Menu {
+                Button { showDecide = true } label: { Label("Pick for me", systemImage: "dice") }
                 Button { showPhotoPicker = true } label: { Label("Photo library", systemImage: "photo.on.rectangle") }
                 if CameraPicker.isAvailable {
                     Button { showCamera = true } label: { Label("Take a photo", systemImage: "camera") }
@@ -233,6 +235,7 @@ struct RootView: View {
             .buttonStyle(BouncyButtonStyle(depth: 0.8))
             .disabled(!canSend)
             .accessibilityLabel("Send")
+            .fullScreenCover(isPresented: $showDecide) { DecideView() }
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 10)

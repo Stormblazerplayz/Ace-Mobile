@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 69,
+   "date": "2026-11-25",
+   "items": [
+    "Pick for me: tap + and choose Pick for me when you can't decide.",
+    "Spin a colorful wheel of choices. It slows down, the pointer flicks, and the winner pops up. Make your own wheels or start from dinner, movie night and more.",
+    "Flip a gold coin that tosses up and spins in 3D, roll up to four dice that tumble, or split everyone into fair, random teams.",
+    "The screen glows in a new color for each tab, and your last picks are saved at the bottom."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [
