@@ -219,8 +219,8 @@ final class CountdownTests: XCTestCase {
 
     func testTheNewsMentionsCountdowns() {
         let releases = WhatsNew.load()
-        guard let notes = releases.first(where: { $0.build == 65 }) else {
-            return XCTFail("Build 65 should have notes")
+        guard let notes = releases.first(where: { $0.build == 60 }) else {
+            return XCTFail("Build 60 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("Countdowns") })
         XCTAssertEqual(releases.first?.build, releases.map(\.build).max())

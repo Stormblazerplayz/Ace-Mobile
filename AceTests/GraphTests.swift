@@ -215,7 +215,7 @@ final class GraphTests: XCTestCase {
 
     func testChangelogHasGraphs() {
         let releases = WhatsNew.load()
-        XCTAssertEqual(releases.first?.build, 72)
+        XCTAssertEqual(releases.first?.build, 60)
         XCTAssertTrue(releases.first?.items.contains { $0.contains("Ace Graphs") } == true)
     }
 }

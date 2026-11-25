@@ -190,8 +190,8 @@ final class HabitTests: XCTestCase {
 
     func testTheNewsMentionsHabits() {
         let releases = WhatsNew.load()
-        guard let notes = releases.first(where: { $0.build == 66 }) else {
-            return XCTFail("Build 66 should have notes")
+        guard let notes = releases.first(where: { $0.build == 60 }) else {
+            return XCTFail("Build 60 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("Habits") })
         XCTAssertEqual(releases.first?.build, releases.map(\.build).max())

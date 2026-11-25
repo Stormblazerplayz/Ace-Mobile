@@ -315,8 +315,8 @@ final class SketchTests: XCTestCase {
     // MARK: What's new
 
     func testTheNewsMentionsTheSketchbook() {
-        let release = WhatsNew.load().first { $0.build == 63 }
-        XCTAssertNotNil(release, "Build 63 should have notes")
+        let release = WhatsNew.load().first { $0.build == 60 }
+        XCTAssertNotNil(release, "Build 60 should have notes")
         XCTAssertTrue(release?.items.contains { $0.contains("Sketchbook") } ?? false)
     }
 }

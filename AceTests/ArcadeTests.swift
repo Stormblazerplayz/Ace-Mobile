@@ -251,7 +251,7 @@ final class ArcadeTests: XCTestCase {
 
     func testChangelogHasGames() {
         let releases = WhatsNew.load()
-        XCTAssertEqual(releases.first?.build, 61)
+        XCTAssertEqual(releases.first?.build, 60)
         XCTAssertTrue(releases.first?.items.contains { $0.contains("Ace Games") } == true)
     }
 }

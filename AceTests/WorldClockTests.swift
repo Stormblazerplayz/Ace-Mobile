@@ -150,10 +150,10 @@ final class WorldClockTests: XCTestCase {
         XCTAssertEqual(again.cities.map(\.name), ["London", "Tokyo", "Cairo"])
     }
 
-    func testWhatsNewHasBuild71() {
+    func testWhatsNewMentionsWorldClocks() {
         let releases = WhatsNew.load()
-        guard let notes = releases.first(where: { $0.build == 71 }) else {
-            return XCTFail("Build 71 should have notes")
+        guard let notes = releases.first(where: { $0.build == 60 }) else {
+            return XCTFail("Build 60 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("World clocks") })
         XCTAssertEqual(releases.first?.build, releases.map(\.build).max())

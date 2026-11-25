@@ -194,10 +194,10 @@ final class SavingsTests: XCTestCase {
         XCTAssertEqual(again.goal(goal.id)?.entries.first?.note, "Chores")
     }
 
-    func testWhatsNewHasBuild70() {
+    func testWhatsNewMentionsSavingsJars() {
         let releases = WhatsNew.load()
-        guard let notes = releases.first(where: { $0.build == 70 }) else {
-            return XCTFail("Build 70 should have notes")
+        guard let notes = releases.first(where: { $0.build == 60 }) else {
+            return XCTFail("Build 60 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("Savings jars") })
         XCTAssertEqual(releases.first?.build, releases.map(\.build).max())

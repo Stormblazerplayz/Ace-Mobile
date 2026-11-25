@@ -191,7 +191,7 @@ struct SwipeStamp: View {
 }
 
 /// Confetti that bursts out from the middle and falls. Draws nothing with motion turned down.
-struct ConfettiBurst: View {
+struct StudyConfetti: View {
     var colors: [Color]
     var count = 70
     @AppStorage(AceMotion.settingKey) private var bouncy = true

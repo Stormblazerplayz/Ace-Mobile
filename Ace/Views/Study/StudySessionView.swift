@@ -54,7 +54,7 @@ struct StudySessionView: View {
             }
             .frame(maxWidth: 720)
             if finished {
-                ConfettiBurst(colors: deck.colors.map { Color(hex: $0) } + [AceTheme.pebble, AceTheme.good, AceTheme.nova])
+                StudyConfetti(colors: deck.colors.map { Color(hex: $0) } + [AceTheme.pebble, AceTheme.good, AceTheme.nova])
                     .ignoresSafeArea()
             }
         }

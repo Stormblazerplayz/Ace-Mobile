@@ -249,7 +249,7 @@ final class PianoTests: XCTestCase {
 
     func testChangelogHasThePiano() {
         let releases = WhatsNew.load()
-        XCTAssertEqual(releases.first?.build, 64)
+        XCTAssertEqual(releases.first?.build, 60)
         XCTAssertTrue(releases.first?.items.contains { $0.contains("Ace Piano") } == true)
     }
 }

@@ -167,8 +167,8 @@ final class ConverterTests: XCTestCase {
 
     func testWhatsNewMentionsTheConverter() {
         let releases = WhatsNew.load()
-        guard let notes = releases.first(where: { $0.build == 74 }) else {
-            return XCTFail("Build 74 should have notes")
+        guard let notes = releases.first(where: { $0.build == 60 }) else {
+            return XCTFail("Build 60 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("Converter") })
         XCTAssertEqual(releases.map(\.build), releases.map(\.build).sorted(by: >))

@@ -168,8 +168,8 @@ final class ChecklistTests: XCTestCase {
 
     func testTheNewsMentionsLists() {
         let releases = WhatsNew.load()
-        guard let notes = releases.first(where: { $0.build == 68 }) else {
-            return XCTFail("Build 68 should have notes")
+        guard let notes = releases.first(where: { $0.build == 60 }) else {
+            return XCTFail("Build 60 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("Lists") })
         XCTAssertEqual(releases.first?.build, releases.map(\.build).max())

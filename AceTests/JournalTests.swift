@@ -206,8 +206,8 @@ final class JournalTests: XCTestCase {
     }
 
     func testTheNewsMentionsTheJournal() {
-        let release = WhatsNew.load().first { $0.build == 62 }
-        XCTAssertNotNil(release, "Build 62 should have notes")
+        let release = WhatsNew.load().first { $0.build == 60 }
+        XCTAssertNotNil(release, "Build 60 should have notes")
         XCTAssertTrue(release?.items.contains { $0.contains("Mood journal") } ?? false)
     }
 }

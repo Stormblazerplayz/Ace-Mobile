@@ -284,7 +284,7 @@ struct TypingFinishCard: View {
             Color.black.opacity(0.55).ignoresSafeArea()
                 .onTapGesture {}
             if moves && (result.stars >= 2 || result.newBest) {
-                ConfettiBurst(seed: seed).ignoresSafeArea()
+                TypingConfetti(seed: seed).ignoresSafeArea()
             }
             VStack(spacing: 18) {
                 HStack(spacing: 10) {

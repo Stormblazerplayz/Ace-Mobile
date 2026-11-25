@@ -150,7 +150,7 @@ final class BreatheTests: XCTestCase {
 
     func testChangelogHasBreathe() {
         let releases = WhatsNew.load()
-        XCTAssertEqual(releases.first?.build, 76)
+        XCTAssertEqual(releases.first?.build, 60)
         XCTAssertTrue(releases.first?.items.contains { $0.contains("Ace Breathe") } == true)
     }
 }

@@ -6,6 +6,10 @@ import UIKit
 struct RootView: View {
     @EnvironmentObject var core: AceCore
     @State private var showCodes = false
+    /// The Apps grid, and the app picked there (opened once the grid has closed).
+    @State private var showApps = false
+    @State private var pendingApp: AceApp?
+    @State private var showClocks = false
     @ObservedObject private var voice = VoiceIn.shared
     @EnvironmentObject var settings: SettingsStore
     @State private var draft = ""
@@ -50,7 +54,8 @@ struct RootView: View {
         core.messages.reduce(0) { $0 + ($1.speaker == .ace ? 1 : 0) }
     }
 
-    var body: some View {
+    /// The chat screen with its first set of screens; `body` adds the rest (one long chain is slow for Swift to check).
+    private var mainScreen: some View {
         NavigationStack {
             ZStack {
                 AceTheme.background.ignoresSafeArea()
@@ -80,6 +85,10 @@ struct RootView: View {
         .fullScreenCover(item: $core.studyTarget) { target in
             FlashcardStudyView(deckID: target.deckID, practice: target.practice)
         }
+    }
+
+    var body: some View {
+        mainScreen
         .sheet(item: $core.webPage) { page in
             SafariView(url: page.url).ignoresSafeArea()
         }
@@ -116,6 +125,15 @@ struct RootView: View {
                 .ignoresSafeArea()
         }
         .fullScreenCover(isPresented: $showJournal) { JournalView() }
+        .fullScreenCover(isPresented: $showCodes) { SecretCodesView() }
+        .fullScreenCover(isPresented: $showHabits) { HabitsView() }
+        .fullScreenCover(isPresented: $showClocks) { WorldClockView() }
+        .sheet(isPresented: $showApps, onDismiss: openPendingApp) {
+            AceAppsView { app in
+                pendingApp = app
+                showApps = false
+            }
+        }
     }
 
     private func sendPicture(_ image: UIImage) {
@@ -134,28 +152,11 @@ struct RootView: View {
         GeometryReader { geo in
             ZStack {
                 HStack(spacing: 4) {
-                    headerButton("scribble.variable", label: "Sketchbook") { showSketchbook = true }
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
-                    headerButton("rectangle.on.rectangle.angled", label: "Study cards") { showStudy = true }
-                    headerButton("rectangle.stack.fill", label: "Flashcards") {
-                        core.showFlashcards(deckID: nil, study: false, practice: false)
-                    }
-                    headerButton("gamecontroller.fill", label: "Ace Games") { core.gamesOpen = true }
-                    headerButton("ruler.fill", label: "Converter") { showConverter = true }
+                    headerButton("square.grid.2x2.fill", label: "Ace apps") { showApps = true }
                     Spacer()
-                    headerButton("hourglass", label: "Countdowns") { showCountdowns = true }
-                    headerButton("pianokeys", label: "Ace Piano") { _ = core.showPiano(.free) }
-                    headerButton("globe.americas.fill", label: "Solar system") { _ = core.showSpace(.overview) }
-                    headerButton("function", label: "Graphs") { _ = core.showGraph(.blank) }
-                    headerButton("key.fill", label: "Secret codes") { showCodes = true }
-                        .fullScreenCover(isPresented: $showCodes) { SecretCodesView() }
-                    headerButton("keyboard", label: "Typing practice") { _ = core.showTyping(nil) }
-                    headerButton("wind", label: "Breathe") { _ = core.showBreathe(nil) }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
-                    headerButton("drop.circle", label: "Habits") { showHabits = true }
-                        .fullScreenCover(isPresented: $showHabits) { HabitsView() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
-                    headerButton("book.closed.fill", label: "Mood journal") { showJournal = true }
                 }
                 .opacity(core.mood.expands ? 0 : 1)
                 .scaleEffect(core.mood.expands && AceMotion.moves(bouncy: settings.bouncyMotion, reduceMotion: reduceMotion) ? 0.85 : 1)
@@ -193,6 +194,32 @@ struct RootView: View {
         .padding(.horizontal, 12)
         .padding(.top, 2)
         .padding(.bottom, 6)
+    }
+
+    /// Opens the app picked in the Apps grid, once the grid has slid away (a screen can't open while it's still closing).
+    private func openPendingApp() {
+        guard let app = pendingApp else { return }
+        pendingApp = nil
+        switch app {
+        case .studyCards: showStudy = true
+        case .flashcards: core.showFlashcards(deckID: nil, study: false, practice: false)
+        case .games: core.showGames()
+        case .piano: _ = core.showPiano(.free)
+        case .space: _ = core.showSpace(.overview)
+        case .graphs: _ = core.showGraph(.blank)
+        case .typing: _ = core.showTyping(nil)
+        case .codes: showCodes = true
+        case .converter: showConverter = true
+        case .countdowns: showCountdowns = true
+        case .clocks: showClocks = true
+        case .sketchbook: showSketchbook = true
+        case .habits: showHabits = true
+        case .journal: showJournal = true
+        case .breathe: _ = core.showBreathe(nil)
+        case .decide: showDecide = true
+        case .savings: showSavings = true
+        case .lists: showLists = true
+        }
     }
 
     /// A header button that squishes when pressed and whose symbol jumps when tapped.

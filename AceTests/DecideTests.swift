@@ -183,10 +183,10 @@ final class DecideTests: XCTestCase {
         XCTAssertEqual(again.history, ["Weekend: Pool"])
     }
 
-    func testWhatsNewHasBuild69() {
+    func testWhatsNewMentionsPickForMe() {
         let releases = WhatsNew.load()
-        guard let notes = releases.first(where: { $0.build == 69 }) else {
-            return XCTFail("Build 69 should have notes")
+        guard let notes = releases.first(where: { $0.build == 60 }) else {
+            return XCTFail("Build 60 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("Pick for me") })
         XCTAssertEqual(releases.first?.build, releases.map(\.build).max())

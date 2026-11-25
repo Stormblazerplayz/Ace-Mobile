@@ -193,7 +193,7 @@ final class SpaceTests: XCTestCase {
 
     func testChangelogHasSpace() {
         let releases = WhatsNew.load()
-        XCTAssertEqual(releases.first?.build, 67)
+        XCTAssertEqual(releases.first?.build, 60)
         XCTAssertTrue(releases.first?.items.contains { $0.contains("Ace Space") } == true)
     }
 }

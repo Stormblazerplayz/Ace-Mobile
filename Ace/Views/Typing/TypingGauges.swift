@@ -135,7 +135,7 @@ struct Shake: GeometryEffect {
 }
 
 /// Confetti that falls from the top for a few seconds when a lesson is finished.
-struct ConfettiBurst: View {
+struct TypingConfetti: View {
     let seed: Int
     private static let colors: [Color] = [AceTheme.ace, AceTheme.nova, AceTheme.pebble, AceTheme.good, AceTheme.accent]
     @State private var start = Date()

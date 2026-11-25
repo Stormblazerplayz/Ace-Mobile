@@ -82,16 +82,16 @@ struct PlanetPanel: View {
 
     private var stats: some View {
         LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
-            StatTile(symbol: "circle.dashed", title: "Size", value: sizeText, tint: AceTheme.ace)
+            PlanetStatTile(symbol: "circle.dashed", title: "Size", value: sizeText, tint: AceTheme.ace)
             if planet.isSun {
-                StatTile(symbol: "arrow.triangle.2.circlepath", title: "Spins once in", value: SolarSystem.dayText(planet), tint: AceTheme.pebble)
+                PlanetStatTile(symbol: "arrow.triangle.2.circlepath", title: "Spins once in", value: SolarSystem.dayText(planet), tint: AceTheme.pebble)
             } else {
-                StatTile(symbol: "arrow.triangle.2.circlepath", title: "One year", value: SolarSystem.yearText(planet), tint: AceTheme.pebble)
-                StatTile(symbol: "sun.max.fill", title: "One day", value: SolarSystem.dayText(planet), tint: AceTheme.amber)
-                StatTile(symbol: "moon.stars.fill", title: "Moons", value: planet.moons == 0 ? "None" : "\(planet.moons)", tint: AceTheme.accent)
+                PlanetStatTile(symbol: "arrow.triangle.2.circlepath", title: "One year", value: SolarSystem.yearText(planet), tint: AceTheme.pebble)
+                PlanetStatTile(symbol: "sun.max.fill", title: "One day", value: SolarSystem.dayText(planet), tint: AceTheme.amber)
+                PlanetStatTile(symbol: "moon.stars.fill", title: "Moons", value: planet.moons == 0 ? "None" : "\(planet.moons)", tint: AceTheme.accent)
             }
-            StatTile(symbol: "thermometer.medium", title: planet.isSun ? "Surface" : "Average temperature", value: temperature, tint: AceTheme.nova)
-            StatTile(symbol: "arrow.down.circle.fill", title: "Gravity", value: gravityText, tint: AceTheme.good)
+            PlanetStatTile(symbol: "thermometer.medium", title: planet.isSun ? "Surface" : "Average temperature", value: temperature, tint: AceTheme.nova)
+            PlanetStatTile(symbol: "arrow.down.circle.fill", title: "Gravity", value: gravityText, tint: AceTheme.good)
         }
     }
 
@@ -188,7 +188,7 @@ struct PlanetPanel: View {
 }
 
 /// One small number card in the planet panel.
-struct StatTile: View {
+struct PlanetStatTile: View {
     let symbol: String
     let title: String
     let value: String
