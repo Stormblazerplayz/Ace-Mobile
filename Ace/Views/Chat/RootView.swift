@@ -86,6 +86,9 @@ struct RootView: View {
         .fullScreenCover(item: $core.spaceScreen) { screen in
             SpaceView(start: screen.start)
         }
+        .fullScreenCover(item: $core.graphScreen) { screen in
+            GraphView(start: screen.start)
+        }
         .onChange(of: inputFocused) { _, focused in
             core.setTyping(focused && !draft.isEmpty)
         }
@@ -133,6 +136,7 @@ struct RootView: View {
                     headerButton("hourglass", label: "Countdowns") { showCountdowns = true }
                     headerButton("pianokeys", label: "Ace Piano") { _ = core.showPiano(.free) }
                     headerButton("globe.americas.fill", label: "Solar system") { _ = core.showSpace(.overview) }
+                    headerButton("function", label: "Graphs") { _ = core.showGraph(.blank) }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("drop.circle", label: "Habits") { showHabits = true }
                         .fullScreenCover(isPresented: $showHabits) { HabitsView() }

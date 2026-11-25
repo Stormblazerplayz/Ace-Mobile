@@ -63,6 +63,7 @@ enum Intent: Equatable {
     case flashcards(FlashcardAsk) // "study my flashcards", "make spanish flashcards", "add a flashcard: hola = hello"
     case piano(String)            // "open", "lessons", "list", "learn:twinkle" or "listen:jingle-bells"
     case space(String)            // "open", "planet:mars" or "where:mars"
+    case graph(String)            // "open" or "plot:x^2 + 1"
 }
 
 extension Intent {
@@ -144,6 +145,7 @@ extension Intent {
         case .flashcards: return "flashcards"
         case .piano: return "piano"
         case .space: return "space"
+        case .graph: return "graph"
         }
     }
 }
@@ -253,6 +255,10 @@ enum IntentRouter {
 
         // Who leads a country, and fixing a wrong title ("president of the UK").
         if let ask = Leaders.parse(raw) { return .leader(ask) }
+
+        // Ace Graphs: "graph y = x^2", "plot sin x", "y = 2x + 3", "open the graphing calculator".
+        // Read from the words as typed, because normalizing drops "^", "=", "(" and ")".
+        if let graph = GraphAsk.parse(raw) { return .graph(graph) }
 
         // Homework, step by step ("solve 2x + 3 = 11", "3/4 + 1/8", "help me with my math homework").
         // Read from the words as typed, because normalizing drops "=", "(" and ")".

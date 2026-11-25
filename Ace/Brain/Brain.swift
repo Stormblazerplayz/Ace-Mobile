@@ -47,6 +47,8 @@ protocol BrainHost: AnyObject {
     func showPiano(_ start: PianoStart) -> Bool
     /// Opens the solar system map, maybe on one planet. False during a voice call.
     func showSpace(_ start: SpaceStart) -> Bool
+    /// Opens Ace Graphs, maybe drawing a formula. False during a voice call.
+    func showGraph(_ start: GraphStart) -> Bool
 }
 
 /// Ace V4's brain: rules + a big answer bank + a neural matcher + web research,
@@ -1027,6 +1029,7 @@ final class Brain {
         case .flashcards: return "your flashcards"
         case .piano: return "the piano"
         case .space: return "the solar system"
+        case .graph: return "a graph"
         case .ipadOnlyLimit: return "an iPad limit"
         case .home: return "your home"
         }
@@ -1246,6 +1249,8 @@ final class Brain {
             return pianoReply(ask, host: host)
         case .space(let ask):
             return spaceReply(ask, host: host)
+        case .graph(let ask):
+            return graphReply(ask, host: host)
 
         case .homework(let problem):
             if !problem.isEmpty { await think("Working it out one step at a time") }

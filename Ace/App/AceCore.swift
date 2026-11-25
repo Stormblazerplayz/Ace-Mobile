@@ -48,6 +48,8 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var pianoScreen: PianoScreen?
     /// The solar system map is open (full screen), and how it opened.
     @Published var spaceScreen: SpaceScreen?
+    /// Ace Graphs is open (full screen), and how it opened.
+    @Published var graphScreen: GraphScreen?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -451,6 +453,13 @@ final class AceCore: ObservableObject, BrainHost {
     func showSpace(_ start: SpaceStart) -> Bool {
         guard !call.isLive else { return false }
         spaceScreen = SpaceScreen(start: start)
+        return true
+    }
+
+    /// Opens Ace Graphs. It stays shut during a voice call, where the call screen covers everything.
+    func showGraph(_ start: GraphStart) -> Bool {
+        guard !call.isLive else { return false }
+        graphScreen = GraphScreen(start: start)
         return true
     }
 
