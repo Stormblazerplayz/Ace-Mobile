@@ -5,12 +5,31 @@ import AVFoundation
 /// Listening uses "play and record". Spoken replies use "playback" so you can hear them.
 /// A voice call uses "voice chat", which cancels Ace's own voice out of the microphone,
 /// and nothing else changes the audio until the call ends.
+/// While Ace Piano is open it uses "playback" too, so the piano still plays with the silent switch on.
 @MainActor
 final class AudioRouter {
     static let shared = AudioRouter()
 
-    enum Mode { case none, effects, speaking, listening, call }
+    enum Mode { case none, effects, speaking, listening, call, music }
     private(set) var mode: Mode = .none
+    /// Ace Piano is open, so quiet effects give way to music until it closes.
+    private(set) var musicHeld = false
+
+    /// Ace Piano opened: play out loud even with the silent switch on, and mix with other music.
+    func holdMusic() {
+        musicHeld = true
+        guard mode != .call, mode != .listening, mode != .speaking else { return }
+        set(.playback, mode: .default, options: [.mixWithOthers])
+        mode = .music
+    }
+
+    /// Ace Piano closed: back to quiet effects (unless a call or listening has the audio).
+    func releaseMusic() {
+        musicHeld = false
+        guard mode == .music else { return }
+        mode = .none
+        prepareForEffects()
+    }
 
     func prepareForEffects() {
         guard mode == .none else { return }
@@ -61,7 +80,11 @@ final class AudioRouter {
     func backToEffects() {
         guard mode != .call else { return }
         mode = .none
-        prepareForEffects()
+        if musicHeld {
+            holdMusic()
+        } else {
+            prepareForEffects()
+        }
     }
 
     @discardableResult
