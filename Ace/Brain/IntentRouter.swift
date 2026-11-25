@@ -60,6 +60,7 @@ enum Intent: Equatable {
     case focus(String)            // "start 1500", "stop" or "left"
     case personality(Bool)        // "turn on sassy mode" (true), "go back to normal mode" (false)
     case leader(Leaders.Ask)      // "who is the prime minister of the UK", "who is the president of the UK" (it has none)
+    case breathe(String)          // "open" or a pattern id like "box"
 }
 
 extension Intent {
@@ -138,6 +139,7 @@ extension Intent {
         case .home: return "home"
         case .focus: return "focus"
         case .leader: return "leader"
+        case .breathe: return "breathe"
         }
     }
 }
@@ -252,6 +254,9 @@ enum IntentRouter {
         if let n = HelperParser.note(raw) { return .note(action: n.action, text: n.text) }
         if let v = HelperParser.voiceSpeed(raw) { return .voiceSpeed(v) }
         if let s = HelperParser.shopping(raw) { return .shopping(s) }
+
+        // Ace Breathe: "breathe with me", "start a breathing exercise", "do box breathing".
+        if let breathe = BreathAsk.parse(t) { return .breathe(breathe) }
 
         // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
         if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }

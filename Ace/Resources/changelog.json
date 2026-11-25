@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 76,
+   "date": "2026-11-25",
+   "items": [
+    "Ace Breathe: tap the wind button at the top, or say \"breathe with me\", for a calm breathing break.",
+    "A glowing circle grows as you breathe in and shrinks as you breathe out, with a ring that shows each step and sparkles that drift with your breath.",
+    "Pick Balloon, Calm, Box or 4-7-8 breathing for 1, 2, 3 or 5 minutes. The colors change as you breathe in, hold and breathe out.",
+    "See your minutes today and your days in a row when you finish. Say \"do box breathing\" to jump straight in."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [

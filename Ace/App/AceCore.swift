@@ -30,6 +30,8 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    /// Breathing practice is open (full screen), and which pattern it opened on.
+    @Published var breatheScreen: BreatheScreen?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -400,6 +402,13 @@ final class AceCore: ObservableObject, BrainHost {
         saveChat()
         holdMood = true
         Task { await sassyEyes(level == .mild ? .side : .roll, then: .happy) }
+    }
+
+    /// Opens breathing practice. It stays shut during a voice call, where the call screen covers everything.
+    func showBreathe(_ pattern: BreathPattern?) -> Bool {
+        guard !call.isLive else { return false }
+        breatheScreen = BreatheScreen(pattern: pattern)
+        return true
     }
 
     /// The What's new card: once after each update, or any time from Settings (`force`).
