@@ -19,6 +19,7 @@ struct RootView: View {
     /// Counts orb taps and sends, so the orb and the send arrow can boing each time.
     @State private var orbTaps = 0
     @State private var sends = 0
+    @State private var showJournal = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     /// The animation for a kind of move here, from the Bouncy animations setting and Reduce Motion.
@@ -83,6 +84,7 @@ struct RootView: View {
             CameraPicker { image in sendPicture(image) }
                 .ignoresSafeArea()
         }
+        .fullScreenCover(isPresented: $showJournal) { JournalView() }
     }
 
     private func sendPicture(_ image: UIImage) {
@@ -109,6 +111,7 @@ struct RootView: View {
                     Spacer()
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
+                    headerButton("book.closed.fill", label: "Mood journal") { showJournal = true }
                 }
                 .opacity(core.mood.expands ? 0 : 1)
                 .scaleEffect(core.mood.expands && AceMotion.moves(bouncy: settings.bouncyMotion, reduceMotion: reduceMotion) ? 0.85 : 1)
