@@ -112,6 +112,6 @@ final class MotionTests: XCTestCase {
             return XCTFail("Build 59 should have notes")
         }
         XCTAssertTrue(notes.items.contains { $0.contains("Bouncy animations") })
-        XCTAssertEqual(releases.first?.build, 59, "Newest build first")
+        XCTAssertEqual(releases.map(\.build), releases.map(\.build).sorted(by: >), "Newest build first")
     }
 }

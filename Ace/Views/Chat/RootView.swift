@@ -5,19 +5,31 @@ import UIKit
 /// The main screen: Ace's orb island at the top, the chat in the middle, and the message box at the bottom.
 struct RootView: View {
     @EnvironmentObject var core: AceCore
+    @State private var showCodes = false
+    /// The Apps grid, and the app picked there (opened once the grid has closed).
+    @State private var showApps = false
+    @State private var pendingApp: AceApp?
+    @State private var showClocks = false
     @ObservedObject private var voice = VoiceIn.shared
     @EnvironmentObject var settings: SettingsStore
     @State private var draft = ""
+    @State private var showCountdowns = false
     @State private var showCalendar = false
+    @State private var showConverter = false
     @State private var showChecks = false
+    @State private var showHabits = false
     @State private var showSettings = false
+    @State private var showStudy = false
     @FocusState private var inputFocused: Bool
     @State private var showPhotoPicker = false
+    @State private var showLists = false
     @State private var photoItem: PhotosPickerItem?
     @State private var showCamera = false
+    @State private var showSketchbook = false
     /// Counts orb taps and sends, so the orb and the send arrow can boing each time.
     @State private var orbTaps = 0
     @State private var sends = 0
+    @State private var showJournal = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     /// The animation for a kind of move here, from the Bouncy animations setting and Reduce Motion.
@@ -25,18 +37,25 @@ struct RootView: View {
         AceMotion.animation(kind, bouncy: settings.bouncyMotion, reduceMotion: reduceMotion)
     }
 
+    /// Opens Savings jars.
+    @State private var showSavings = false
+
     /// The messages the chat shows. Empty Ace messages (older chats could have them) are skipped,
     /// so no "How I got this" row floats alone.
     private var visibleMessages: [ChatMessage] {
         core.messages.filter { $0.speaker == .user || !$0.text.isEmpty || !$0.cards.isEmpty }
     }
 
+    /// Opens Pick for me (the wheel, coin, dice and teams).
+    @State private var showDecide = false
+
     /// How many replies Ace has given, so the orb hops when a new one lands.
     private var aceReplies: Int {
         core.messages.reduce(0) { $0 + ($1.speaker == .ace ? 1 : 0) }
     }
 
-    var body: some View {
+    /// The chat screen with its first set of screens; `body` adds the rest (one long chain is slow for Swift to check).
+    private var mainScreen: some View {
         NavigationStack {
             ZStack {
                 AceTheme.background.ignoresSafeArea()
@@ -55,10 +74,38 @@ struct RootView: View {
         // The voice call screen covers everything while a call is on.
         .modifier(CallCover(call: core.call, core: core, settings: settings))
         .sheet(isPresented: $showCalendar) { CalendarView() }
+        .fullScreenCover(isPresented: $showCountdowns) { CountdownsView() }
+        .fullScreenCover(isPresented: $showConverter) { ConverterView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
+        .sheet(isPresented: $core.gamesOpen) { GamesView() }
+        .fullScreenCover(isPresented: $showSketchbook) { SketchbookView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
+        .fullScreenCover(isPresented: $showStudy) { StudyView() }
+        .sheet(isPresented: $core.flashcardsOpen) { FlashcardsView(startDeck: core.flashcardsDeck) }
+        .fullScreenCover(item: $core.studyTarget) { target in
+            FlashcardStudyView(deckID: target.deckID, practice: target.practice)
+        }
+    }
+
+    var body: some View {
+        mainScreen
         .sheet(item: $core.webPage) { page in
             SafariView(url: page.url).ignoresSafeArea()
+        }
+        .fullScreenCover(item: $core.pianoScreen) { screen in
+            PianoView(start: screen.start)
+        }
+        .fullScreenCover(item: $core.spaceScreen) { screen in
+            SpaceView(start: screen.start)
+        }
+        .fullScreenCover(item: $core.graphScreen) { screen in
+            GraphView(start: screen.start)
+        }
+        .fullScreenCover(item: $core.typingScreen) { screen in
+            TypingView(start: screen.lesson)
+        }
+        .fullScreenCover(item: $core.breatheScreen) { screen in
+            BreatheView(start: screen.pattern)
         }
         .onChange(of: inputFocused) { _, focused in
             core.setTyping(focused && !draft.isEmpty)
@@ -76,6 +123,16 @@ struct RootView: View {
         .fullScreenCover(isPresented: $showCamera) {
             CameraPicker { image in sendPicture(image) }
                 .ignoresSafeArea()
+        }
+        .fullScreenCover(isPresented: $showJournal) { JournalView() }
+        .fullScreenCover(isPresented: $showCodes) { SecretCodesView() }
+        .fullScreenCover(isPresented: $showHabits) { HabitsView() }
+        .fullScreenCover(isPresented: $showClocks) { WorldClockView() }
+        .sheet(isPresented: $showApps, onDismiss: openPendingApp) {
+            AceAppsView { app in
+                pendingApp = app
+                showApps = false
+            }
         }
     }
 
@@ -96,6 +153,7 @@ struct RootView: View {
             ZStack {
                 HStack(spacing: 4) {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
+                    headerButton("square.grid.2x2.fill", label: "Ace apps") { showApps = true }
                     Spacer()
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
@@ -136,6 +194,32 @@ struct RootView: View {
         .padding(.horizontal, 12)
         .padding(.top, 2)
         .padding(.bottom, 6)
+    }
+
+    /// Opens the app picked in the Apps grid, once the grid has slid away (a screen can't open while it's still closing).
+    private func openPendingApp() {
+        guard let app = pendingApp else { return }
+        pendingApp = nil
+        switch app {
+        case .studyCards: showStudy = true
+        case .flashcards: core.showFlashcards(deckID: nil, study: false, practice: false)
+        case .games: core.showGames()
+        case .piano: _ = core.showPiano(.free)
+        case .space: _ = core.showSpace(.overview)
+        case .graphs: _ = core.showGraph(.blank)
+        case .typing: _ = core.showTyping(nil)
+        case .codes: showCodes = true
+        case .converter: showConverter = true
+        case .countdowns: showCountdowns = true
+        case .clocks: showClocks = true
+        case .sketchbook: showSketchbook = true
+        case .habits: showHabits = true
+        case .journal: showJournal = true
+        case .breathe: _ = core.showBreathe(nil)
+        case .decide: showDecide = true
+        case .savings: showSavings = true
+        case .lists: showLists = true
+        }
     }
 
     /// A header button that squishes when pressed and whose symbol jumps when tapped.
@@ -183,6 +267,7 @@ struct RootView: View {
                 withAnimation(.easeOut(duration: 0.2)) { proxy.scrollTo("bottom", anchor: .bottom) }
             }
             .onAppear { proxy.scrollTo("bottom", anchor: .bottom) }
+            .fullScreenCover(isPresented: $showSavings) { SavingsView() }
         }
     }
 
@@ -191,10 +276,14 @@ struct RootView: View {
     private var inputBar: some View {
         HStack(alignment: .bottom, spacing: 10) {
             Menu {
+                Button { showDecide = true } label: { Label("Pick for me", systemImage: "dice") }
                 Button { showPhotoPicker = true } label: { Label("Photo library", systemImage: "photo.on.rectangle") }
+                Button { showSavings = true } label: { Label("Savings jars", systemImage: "dollarsign.circle") }
                 if CameraPicker.isAvailable {
                     Button { showCamera = true } label: { Label("Take a photo", systemImage: "camera") }
                 }
+                Divider()
+                Button { showLists = true } label: { Label("Lists and packing lists", systemImage: "checklist") }
             } label: {
                 Image(systemName: "plus")
                     .font(.system(size: 17, weight: .bold))
@@ -203,7 +292,8 @@ struct RootView: View {
                     .foregroundStyle(AceTheme.ace)
             }
             .disabled(core.busy)
-            .accessibilityLabel("Add a picture")
+            .accessibilityLabel("Add a picture or open Lists")
+            .fullScreenCover(isPresented: $showLists) { ChecklistsView() }
             TextField("Talk to Ace", text: $draft, axis: .vertical)
                 .lineLimit(1...5)
                 .focused($inputFocused)
@@ -233,6 +323,7 @@ struct RootView: View {
             .buttonStyle(BouncyButtonStyle(depth: 0.8))
             .disabled(!canSend)
             .accessibilityLabel("Send")
+            .fullScreenCover(isPresented: $showDecide) { DecideView() }
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 10)

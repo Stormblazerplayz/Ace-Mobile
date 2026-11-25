@@ -9,6 +9,13 @@ struct WebPage: Identifiable, Equatable {
     var url: URL
 }
 
+/// A flashcard study session to open full screen: one deck or all of them, and whether it's practice.
+struct StudyTarget: Identifiable, Equatable {
+    let id = UUID()
+    var deckID: UUID?
+    var practice: Bool
+}
+
 /// Runs Ace: the chat, the orb's mood, the wake-up checks, greetings and bedtime nudges.
 @MainActor
 final class AceCore: ObservableObject, BrainHost {
@@ -30,6 +37,23 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    /// The Flashcards screen is open, and the deck it should show first (nil for the list of decks).
+    @Published var flashcardsOpen = false
+    @Published var flashcardsDeck: UUID?
+    /// A study session that's open full screen.
+    @Published var studyTarget: StudyTarget?
+    /// The Ace Games screen is open.
+    @Published var gamesOpen = false
+    /// Ace Piano is open (full screen), and how it opened.
+    @Published var pianoScreen: PianoScreen?
+    /// The solar system map is open (full screen), and how it opened.
+    @Published var spaceScreen: SpaceScreen?
+    /// Ace Graphs is open (full screen), and how it opened.
+    @Published var graphScreen: GraphScreen?
+    /// Typing practice is open (full screen), and which lesson it opened on.
+    @Published var typingScreen: TypingScreen?
+    /// Breathing practice is open (full screen), and which pattern it opened on.
+    @Published var breatheScreen: BreatheScreen?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -400,6 +424,61 @@ final class AceCore: ObservableObject, BrainHost {
         saveChat()
         holdMood = true
         Task { await sassyEyes(level == .mild ? .side : .roll, then: .happy) }
+    }
+
+    /// Opens the Ace Games screen (from "open games"). It stays shut during a voice call,
+    /// where the call screen covers everything and games are played by voice.
+    func showGames() {
+        guard !call.isLive else { return }
+        gamesOpen = true
+    }
+
+    /// Opens Ace Piano. It stays shut during a voice call, where the call screen covers everything.
+    func showPiano(_ start: PianoStart) -> Bool {
+        guard !call.isLive else { return false }
+        pianoScreen = PianoScreen(start: start)
+        return true
+    }
+
+    /// A piano lesson was finished: Ace cheers in the chat, so you see it when the piano closes.
+    func pianoLessonDone(_ song: PianoSong, stars: Int, newBest: Bool) {
+        let starWords = stars == 1 ? "1 star" : "\(stars) stars"
+        var line = "You played \(song.title) on the piano and got \(starWords)!"
+        if newBest, stars < 3 {
+            line += " That's your best yet. Go for 3 next time."
+        } else if stars == 3 {
+            line += " Perfect!"
+        }
+        messages.append(ChatMessage(speaker: .ace, text: line, source: "Ace Piano"))
+        saveChat()
+    }
+
+    /// Opens the solar system map. It stays shut during a voice call, where the call screen covers everything.
+    func showSpace(_ start: SpaceStart) -> Bool {
+        guard !call.isLive else { return false }
+        spaceScreen = SpaceScreen(start: start)
+        return true
+    }
+
+    /// Opens Ace Graphs. It stays shut during a voice call, where the call screen covers everything.
+    func showGraph(_ start: GraphStart) -> Bool {
+        guard !call.isLive else { return false }
+        graphScreen = GraphScreen(start: start)
+        return true
+    }
+
+    /// Opens typing practice. It stays shut during a voice call, where the call screen covers everything.
+    func showTyping(_ lesson: TypingLesson?) -> Bool {
+        guard !call.isLive else { return false }
+        typingScreen = TypingScreen(lesson: lesson)
+        return true
+    }
+
+    /// Opens breathing practice. It stays shut during a voice call, where the call screen covers everything.
+    func showBreathe(_ pattern: BreathPattern?) -> Bool {
+        guard !call.isLive else { return false }
+        breatheScreen = BreatheScreen(pattern: pattern)
+        return true
     }
 
     /// The What's new card: once after each update, or any time from Settings (`force`).
@@ -861,6 +940,26 @@ final class AceCore: ObservableObject, BrainHost {
 
     func freeAnswer(_ question: String) async -> (text: String, model: String)? {
         await askModel(system: Self.modelInstructions, user: question)
+    }
+
+    /// Opens the Flashcards screen, or a study session. During a voice call the call screen
+    /// covers everything, so nothing opens then (the reply's card still has the buttons).
+    func showFlashcards(deckID: UUID?, study: Bool, practice: Bool) {
+        guard !call.isLive else { return }
+        if study {
+            let target = StudyTarget(deckID: deckID, practice: practice)
+            guard flashcardsOpen else { studyTarget = target; return }
+            // Let the Flashcards sheet slide away first, so the study screen can open.
+            flashcardsOpen = false
+            Task { @MainActor [weak self] in
+                try? await Task.sleep(for: .milliseconds(600))
+                self?.studyTarget = target
+            }
+        } else {
+            studyTarget = nil
+            flashcardsDeck = deckID
+            flashcardsOpen = true
+        }
     }
 }
 

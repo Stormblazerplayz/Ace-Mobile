@@ -10,6 +10,7 @@ struct CalendarView: View {
     @State private var editing: EventDraft?
     @State private var deleting: EventItem?
     @State private var message: String?
+    @State private var showClocks = false
 
     var body: some View {
         NavigationStack {
@@ -26,6 +27,14 @@ struct CalendarView: View {
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Done") { dismiss() }
+                }
+                ToolbarItem(placement: .primaryAction) {
+                    Button {
+                        showClocks = true
+                    } label: {
+                        Image(systemName: "globe")
+                    }
+                    .accessibilityLabel("World clocks")
                 }
                 if calendar.eventAccess {
                     ToolbarItem(placement: .primaryAction) {
@@ -55,6 +64,7 @@ struct CalendarView: View {
             }
             .onAppear(perform: reload)
             .onChange(of: allCalendars) { _, _ in reload() }
+            .fullScreenCover(isPresented: $showClocks) { WorldClockView() }
         }
         .preferredColorScheme(.dark)
         .tint(AceTheme.ace)

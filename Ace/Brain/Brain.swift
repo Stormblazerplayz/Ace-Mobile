@@ -39,6 +39,20 @@ protocol BrainHost: AnyObject {
     func freeAnswer(_ question: String) async -> (text: String, model: String)?
     /// LFM3 Omni is downloaded and can run.
     var modelReady: Bool { get }
+    /// Opens the Flashcards screen (one deck, or all of them), or starts studying right away.
+    func showFlashcards(deckID: UUID?, study: Bool, practice: Bool)
+    /// Opens the Ace Games screen (not during a voice call).
+    func showGames()
+    /// Opens Ace Piano, maybe on a song ("learn:twinkle" or "listen:twinkle"). False during a voice call.
+    func showPiano(_ start: PianoStart) -> Bool
+    /// Opens the solar system map, maybe on one planet. False during a voice call.
+    func showSpace(_ start: SpaceStart) -> Bool
+    /// Opens Ace Graphs, maybe drawing a formula. False during a voice call.
+    func showGraph(_ start: GraphStart) -> Bool
+    /// Opens typing practice, maybe on one lesson. False during a voice call.
+    func showTyping(_ lesson: TypingLesson?) -> Bool
+    /// Opens breathing practice, maybe on one pattern. False during a voice call.
+    func showBreathe(_ pattern: BreathPattern?) -> Bool
 }
 
 /// Ace V4's brain: rules + a big answer bank + a neural matcher + web research,
@@ -72,11 +86,17 @@ final class Brain {
     private(set) var lastRecipe: RecipeCard?
     /// What a follow-up like "what about tomorrow" turned into, so the next follow-up builds on it.
     private var resolvedQuestion: String?
-    /// The game being played (trivia or 20 questions), if any.
-    private(set) var game: ActiveGame?
+    /// The game being played (trivia, 20 questions or one of the Ace Games), if any.
+    var game: ActiveGame?
     /// Changes with every new game question. Cards whose token doesn't match it are old and stop taking taps.
-    private(set) var gameToken = ""
-    private var gameSerial = 0
+    var gameToken = ""
+    var gameSerial = 0
+    /// Wins, losses and streaks for the Ace Games.
+    var gameStats = GameStats.shared
+    /// Hangman words used lately, so a new round brings a new word.
+    var recentWords: [String] = []
+    /// Tic-tac-toe games started, so you and Ace take turns going first.
+    var ticTacToeGames = 0
     /// Trivia questions asked lately, so a new round brings new ones.
     private var recentTrivia: [String] = []
     /// Best scores and streaks per trivia category.
@@ -330,7 +350,8 @@ final class Brain {
 
     /// Kinds of reply that aren't answers to a question, so "search it" skips them.
     static let notQuestions: Set<String> = ["greeting", "summon", "thanks", "goodbye", "chat", "searchTab", "openSite",
-                                            "clarify", "voiceSpeed", "sounds", "handsFree", "call", "settings", "personality", "sassy"]
+                                            "clarify", "voiceSpeed", "sounds", "handsFree", "call", "settings", "personality", "sassy",
+                                            "flashcards"]
 
     /// Chat and goodbyes, answered without the web. nil for anything else.
     func conversation(_ intent: Intent) -> BrainReply? {
@@ -1009,6 +1030,12 @@ final class Brain {
         case .teach: return "teaching me"
         case .focus: return "a focus session"
         case .leader: return "who leads a country"
+        case .flashcards: return "your flashcards"
+        case .piano: return "the piano"
+        case .space: return "the solar system"
+        case .graph: return "a graph"
+        case .typing: return "typing practice"
+        case .breathe: return "breathing together"
         case .ipadOnlyLimit: return "an iPad limit"
         case .home: return "your home"
         }
@@ -1086,6 +1113,9 @@ final class Brain {
 
         case .focus(let what):
             return await FocusSession.handle(what)
+
+        case .flashcards(let ask):
+            return FlashcardSkill.handle(ask, host: host)
 
         case .reminder(let raw):
             return await reminder(raw, think: think)
@@ -1220,6 +1250,17 @@ final class Brain {
 
         case .game(let which):
             return startGame(which)
+
+        case .piano(let ask):
+            return pianoReply(ask, host: host)
+        case .space(let ask):
+            return spaceReply(ask, host: host)
+        case .graph(let ask):
+            return graphReply(ask, host: host)
+        case .typing(let ask):
+            return typingReply(ask, host: host)
+        case .breathe(let ask):
+            return breatheReply(ask, host: host)
 
         case .homework(let problem):
             if !problem.isEmpty { await think("Working it out one step at a time") }
@@ -1484,6 +1525,7 @@ final class Brain {
     /// Starts trivia ("trivia" or "trivia:Space") or 20 questions ("twenty").
     func startGame(_ which: String) -> BrainReply {
         if which == "trivia:records" { return triviaRecordsReply() }
+        if let r = startArcade(which) { return r }
         gameSerial += 1
         if which == "twenty" {
             let r = twentyMove(TwentyRound(), lead: Say.line(.twentyStart))
@@ -1513,6 +1555,9 @@ final class Brain {
             return nil
         }
         switch current {
+        case .ticTacToe, .hangman, .numberGuess, .rps:
+            return playArcade(current, text: text, stop: stop)
+
         case .trivia(var round):
             guard let q = round.current else { endGame(); return nil }
             if stop {
@@ -1560,6 +1605,7 @@ final class Brain {
                 guard let reply = TwentyQuestions.reply(text) else { return nil }
                 if case .value(let v) = reply, v > 0.9 {
                     endGame()
+                    gameStats.record(.twenty, .lost)
                     return BrainReply(text: Say.line(.twentyWin, ["thing": name, "count": "\(round.used)"]), source: "20 questions", mood: .happy)
                 }
                 round.wrong.insert(name.lowercased())
@@ -1577,7 +1623,7 @@ final class Brain {
         }
     }
 
-    private func endGame() {
+    func endGame() {
         game = nil
         gameToken = ""
     }
@@ -1597,6 +1643,8 @@ final class Brain {
             let done = Say.line(.triviaDone, ["score": "\(round.score)", "total": "\(total)"])
             let name = TriviaRecords.name(round.category)
             let newBest = triviaRecords.finished(category: round.category, score: round.score, total: total)
+            // A round counts as a win in Ace Games when you get more than half right.
+            gameStats.record(.trivia, round.score * 2 > total ? .won : .lost)
             let best = triviaRecords.record(round.category)
             let record = newBest
                 ? Say.line(.triviaNewBest, ["category": name, "score": "\(round.score)", "total": "\(total)"])
@@ -1625,6 +1673,7 @@ final class Brain {
             round.step = .guessing(name)
             line = Say.line(.twentyGuess, ["number": "\(round.used)", "thing": name])
         case .giveUp:
+            gameStats.record(.twenty, .won)
             round.step = .whatWasIt
             game = .twenty(round)
             gameToken = "w\(gameSerial)-ask"

@@ -212,7 +212,7 @@ enum Sass {
             case .recipe: return "recipe"
             case .code: return "script"
             case .translation: return "translate"
-            case .trivia: return "game"
+            case .trivia, .ticTacToe, .hangman, .numberGuess, .rps: return "game"
             case .steps: return "homework"
             default: break
             }
@@ -228,8 +228,8 @@ enum Sass {
         case "recipe", "recipeTweak", "shopping": return "recipe"
         case "script": return "script"
         case "translate": return "translate"
-        case "game": return "game"
-        case "homework": return "homework"
+        case "game", "flashcards", "piano", "space", "typing", "breathe": return "game"
+        case "homework", "graph": return "homework"
         case "note", "remember", "setName", "recall", "recallAll", "forget", "teach": return "memory"
         case "voiceSpeed", "handsFree", "sounds", "call": return "settings"
         case "weather": return "weather"

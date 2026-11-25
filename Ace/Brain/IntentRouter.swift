@@ -26,7 +26,7 @@ enum Intent: Equatable {
     case script(String)             // "give me a kill brick script", "C++ servo code"
     case translate(phrase: String, code: String)   // "how do you say thank you in spanish"
     case translateList              // "what languages can you speak"
-    case game(String)               // "trivia", "trivia:Space", "twenty"
+    case game(String)               // "trivia", "trivia:Space", "twenty", "tictactoe", "hangman", "number", "rps", "arcade"
     case homework(String)           // "solve 2x + 3 = 11" (or "" for "help me with my homework")
     case note(action: String, text: String)   // "take a note: buy milk", "read my notes"
     case voiceSpeed(String)         // "talk slower": "slower", "faster" or "normal"
@@ -60,6 +60,12 @@ enum Intent: Equatable {
     case focus(String)            // "start 1500", "stop" or "left"
     case personality(Bool)        // "turn on sassy mode" (true), "go back to normal mode" (false)
     case leader(Leaders.Ask)      // "who is the prime minister of the UK", "who is the president of the UK" (it has none)
+    case flashcards(FlashcardAsk) // "study my flashcards", "make spanish flashcards", "add a flashcard: hola = hello"
+    case piano(String)            // "open", "lessons", "list", "learn:twinkle" or "listen:jingle-bells"
+    case space(String)            // "open", "planet:mars" or "where:mars"
+    case graph(String)            // "open" or "plot:x^2 + 1"
+    case typing(String)           // "open" or a lesson id like "homeRow"
+    case breathe(String)          // "open" or a pattern id like "box"
 }
 
 extension Intent {
@@ -138,6 +144,12 @@ extension Intent {
         case .home: return "home"
         case .focus: return "focus"
         case .leader: return "leader"
+        case .flashcards: return "flashcards"
+        case .piano: return "piano"
+        case .space: return "space"
+        case .graph: return "graph"
+        case .typing: return "typing"
+        case .breathe: return "breathe"
         }
     }
 }
@@ -241,8 +253,16 @@ enum IntentRouter {
         if Rx.matches(#"^(tell me more|more|more info|go on|keep going|what else|more about that|tell me more about (it|that))$"#, t) { return .tellMore }
         if Rx.matches(#"^(say that again|repeat that|what did you say|repeat|come again)$"#, t) { return .repeatLast }
 
+        // Flashcards ("study my flashcards", "make spanish flashcards", "add a flashcard: hola = hello").
+        // Read from the words as typed, because normalizing drops "=" and ":", and before homework so "x = y" is a card.
+        if let ask = FlashcardText.parse(raw) { return .flashcards(ask) }
+
         // Who leads a country, and fixing a wrong title ("president of the UK").
         if let ask = Leaders.parse(raw) { return .leader(ask) }
+
+        // Ace Graphs: "graph y = x^2", "plot sin x", "y = 2x + 3", "open the graphing calculator".
+        // Read from the words as typed, because normalizing drops "^", "=", "(" and ")".
+        if let graph = GraphAsk.parse(raw) { return .graph(graph) }
 
         // Homework, step by step ("solve 2x + 3 = 11", "3/4 + 1/8", "help me with my math homework").
         // Read from the words as typed, because normalizing drops "=", "(" and ")".
@@ -252,6 +272,15 @@ enum IntentRouter {
         if let n = HelperParser.note(raw) { return .note(action: n.action, text: n.text) }
         if let v = HelperParser.voiceSpeed(raw) { return .voiceSpeed(v) }
         if let s = HelperParser.shopping(raw) { return .shopping(s) }
+
+        // Ace Piano: "play piano", "teach me ode to joy", "play jingle bells", "what songs can you play".
+        if let piano = PianoAsk.parse(t) { return .piano(piano) }
+        // Ace Space: "show me the solar system", "show me saturn", "where is mars right now".
+        if let space = SpaceAsk.parse(t) { return .space(space) }
+        // Ace Typing: "typing practice", "teach me to type", "how fast can i type".
+        if let typing = TypingAsk.parse(t) { return .typing(typing) }
+        // Ace Breathe: "breathe with me", "start a breathing exercise", "do box breathing".
+        if let breathe = BreathAsk.parse(t) { return .breathe(breathe) }
 
         // Ace's built-in scripts: Roblox Lua and C++ ("give me a kill brick script", "C++ servo code")
         if ScriptLibrary.wantsScript(t) || ScriptLibrary.listAsk(t) != nil || ScriptLibrary.needsOne(t) != nil { return .script(t) }
@@ -276,6 +305,9 @@ enum IntentRouter {
             if let cat = Trivia.category(in: t) { return .game("trivia:" + cat) }
             return .game("trivia")
         }
+
+        // Ace Games: tic-tac-toe, hangman, guess the number, rock paper scissors and the games screen
+        if let g = ArcadeAsk.parse(t) { return .game(g) }
 
         // Sassy mode by voice ("turn on sassy mode", "get sassy", "normal mode"), before Home so it's never a scene.
         if let on = personality(t) { return .personality(on) }

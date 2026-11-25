@@ -28,7 +28,105 @@ struct CardView: View {
         case .quickReplies(let q): QuickRepliesView(card: q)
         case .steps(let s): StepsCardView(card: s)
         case .whatsNew(let w): WhatsNewCardView(card: w)
+        case .flashcards(let f): FlashcardsCardView(card: f)
+        case .ticTacToe(let t): TicTacToeCardView(card: t, messageID: messageID)
+        case .hangman(let h): HangmanCardView(card: h, messageID: messageID)
+        case .numberGuess(let n): NumberGuessCardView(card: n, messageID: messageID)
+        case .rps(let r): RPSCardView(card: r, messageID: messageID)
         }
+    }
+}
+
+// MARK: Flashcards
+
+/// Flashcards in the chat: the deck (or all decks), how many cards are ready, and buttons to
+/// study, practice or add cards. The numbers are read live, so they're right even on an old card.
+struct FlashcardsCardView: View {
+    let card: FlashcardsCard
+    @EnvironmentObject var core: AceCore
+    @ObservedObject private var store = FlashcardStore.shared
+    @State private var shown = false
+
+    var body: some View {
+        TimelineView(.periodic(from: .now, by: 30)) { context in
+            content(now: context.date)
+        }
+        .aceCard()
+        .onAppear { shown = true }
+    }
+
+    @ViewBuilder
+    private func content(now: Date) -> some View {
+        let deck = store.deck(card.deckID)
+        if card.deckID != nil && deck == nil {
+            Label("This deck was deleted.", systemImage: "rectangle.stack.badge.minus")
+                .font(.subheadline)
+                .foregroundStyle(AceTheme.muted)
+        } else {
+            let decks = deck.map { [$0] } ?? store.decks
+            let total = decks.reduce(0) { $0 + $1.cards.count }
+            let due = decks.reduce(0) { $0 + $1.dueCount(at: now) }
+            let known = decks.reduce(0) { $0 + $1.masteredCount }
+            VStack(alignment: .leading, spacing: 12) {
+                CardHeader(icon: "rectangle.stack.fill", title: deck?.name ?? card.title)
+                if let front = card.addedFront, let back = card.addedBack {
+                    HStack(spacing: 8) {
+                        Text(front).foregroundStyle(AceTheme.fg)
+                        Image(systemName: "arrow.right").font(.caption).foregroundStyle(AceTheme.muted)
+                        Text(back).foregroundStyle(AceTheme.good)
+                    }
+                    .font(.subheadline.weight(.semibold))
+                    .lineLimit(2)
+                    .padding(10)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(RoundedRectangle(cornerRadius: 12, style: .continuous).fill(AceTheme.soft))
+                    .bounceReveal(shown, order: 1)
+                }
+                HStack(spacing: 18) {
+                    number("\(total)", total == 1 ? "card" : "cards", AceTheme.fg)
+                    number("\(due)", "ready", AceTheme.ace)
+                    number("\(known)", "known well", AceTheme.good)
+                    Spacer(minLength: 0)
+                }
+                HStack(spacing: 8) {
+                    if total > 0 {
+                        button(due > 0 ? "Study \(due)" : "Practice", icon: due > 0 ? "play.fill" : "shuffle", primary: true) {
+                            core.showFlashcards(deckID: deck?.id, study: true, practice: due == 0)
+                        }
+                    }
+                    button(deck == nil ? "Open" : "Add cards", icon: deck == nil ? "rectangle.stack" : "plus", primary: total == 0) {
+                        core.showFlashcards(deckID: deck?.id, study: false, practice: false)
+                    }
+                }
+            }
+        }
+    }
+
+    private func number(_ value: String, _ label: String, _ color: Color) -> some View {
+        VStack(alignment: .leading, spacing: 1) {
+            Text(value)
+                .font(.system(.title3, design: .rounded).weight(.bold).monospacedDigit())
+                .foregroundStyle(color)
+                .contentTransition(.numericText())
+            Text(label)
+                .font(.caption)
+                .foregroundStyle(AceTheme.muted)
+        }
+    }
+
+    private func button(_ title: String, icon: String, primary: Bool, action: @escaping () -> Void) -> some View {
+        Button {
+            Haptics.shared.play(.tick)
+            action()
+        } label: {
+            Label(title, systemImage: icon)
+                .font(.subheadline.weight(.semibold))
+                .padding(.horizontal, 14)
+                .padding(.vertical, 8)
+                .background(Capsule().fill(primary ? AceTheme.ace : AceTheme.ace.opacity(0.16)))
+                .foregroundStyle(primary ? Color.black.opacity(0.85) : AceTheme.ace)
+        }
+        .buttonStyle(.aceBouncy)
     }
 }
 
