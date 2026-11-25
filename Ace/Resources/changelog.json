@@ -1,6 +1,16 @@
 {
  "builds": [
   {
+   "build": 74,
+   "date": "2026-11-25",
+   "items": [
+    "Ace Typing: tap the keyboard at the top, or say \"teach me to type\", for typing lessons from the home row up to whole sentences.",
+    "Letters turn green or red as you type, the next key glows on the big keyboard, and a speedometer shows your words a minute live.",
+    "Finish a lesson for stars, confetti and your best speed. The keyboard turns into a heat map of the keys you missed most.",
+    "Say \"practice the home row\" to jump straight in, or \"how fast can I type\" for a speed test."
+   ]
+  },
+  {
    "build": 59,
    "date": "2026-11-25",
    "items": [

@@ -60,6 +60,9 @@ struct RootView: View {
         .sheet(item: $core.webPage) { page in
             SafariView(url: page.url).ignoresSafeArea()
         }
+        .fullScreenCover(item: $core.typingScreen) { screen in
+            TypingView(start: screen.lesson)
+        }
         .onChange(of: inputFocused) { _, focused in
             core.setTyping(focused && !draft.isEmpty)
         }
@@ -97,6 +100,7 @@ struct RootView: View {
                 HStack(spacing: 4) {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
                     Spacer()
+                    headerButton("keyboard", label: "Typing practice") { _ = core.showTyping(nil) }
                     headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
                 }

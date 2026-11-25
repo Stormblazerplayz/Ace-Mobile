@@ -30,6 +30,8 @@ final class AceCore: ObservableObject, BrainHost {
     @Published var checkHistory: [CheckReport] = []
     @Published var nextWake: Date?
     @Published var handsFree = false
+    /// Typing practice is open (full screen), and which lesson it opened on.
+    @Published var typingScreen: TypingScreen?
     private(set) var lastImageReport: ImageReport?
 
     private var wakeTask: Task<Void, Never>?
@@ -400,6 +402,13 @@ final class AceCore: ObservableObject, BrainHost {
         saveChat()
         holdMood = true
         Task { await sassyEyes(level == .mild ? .side : .roll, then: .happy) }
+    }
+
+    /// Opens typing practice. It stays shut during a voice call, where the call screen covers everything.
+    func showTyping(_ lesson: TypingLesson?) -> Bool {
+        guard !call.isLive else { return false }
+        typingScreen = TypingScreen(lesson: lesson)
+        return true
     }
 
     /// The What's new card: once after each update, or any time from Settings (`force`).
