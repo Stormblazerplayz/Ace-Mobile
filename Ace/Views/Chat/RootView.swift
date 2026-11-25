@@ -32,6 +32,8 @@ struct RootView: View {
             .tint(AceTheme.ace)
         }
         .preferredColorScheme(.dark)
+        // The voice call screen covers everything while a call is on.
+        .modifier(CallCover(call: core.call, core: core, settings: settings))
         .sheet(isPresented: $showCalendar) { CalendarView() }
         .sheet(isPresented: $showChecks) { ChecksView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
@@ -75,6 +77,7 @@ struct RootView: View {
                 HStack(spacing: 4) {
                     headerButton("calendar", label: "Nimbus calendar") { showCalendar = true }
                     Spacer()
+                    headerButton("phone.fill", label: "Call Ace") { core.startCall() }
                     headerButton("waveform.path.ecg", label: "Checks") { showChecks = true }
                 }
                 .opacity(core.mood.expands ? 0 : 1)

@@ -16,6 +16,8 @@ final class AceCore: ObservableObject, BrainHost {
     let memory = MemoryStore()
     let sleepCoach = SleepCoach()
     let brain = Brain()
+    /// A voice call with Ace (the call screen).
+    let call = CallController()
 
     @Published var messages: [ChatMessage] = []
     @Published var mood: OrbMood = .idle
@@ -46,16 +48,21 @@ final class AceCore: ObservableObject, BrainHost {
     private let checksFile = "checks.json"
     private var voiceWatch: AnyCancellable?
     private var holdDown = false
+    /// A call was just started from something you said or typed, so that reply isn't read out
+    /// (the call says hello itself once it connects).
+    private var callJustStarted = false
 
     init(settings: SettingsStore) {
         self.settings = settings
         messages = Persistence.load([ChatMessage].self, from: chatFile) ?? []
         checkHistory = Persistence.load([CheckReport].self, from: checksFile) ?? []
         brain.host = self
+        call.host = self
         applySoundSettings()
         setUpVoice()
         // Siri, Shortcuts and widgets hand their asks to Ace here.
         IntentInbox.shared.connect { [weak self] text in self?.send(text) }
+        IntentInbox.shared.connectCall { [weak self] in self?.startCall() }
     }
 
     // MARK: Talking to Ace
@@ -83,6 +90,7 @@ final class AceCore: ObservableObject, BrainHost {
 
     /// You pressed and held the orb (down), or let go (up).
     func holdToTalk(_ down: Bool) {
+        guard !call.isLive else { return }
         holdDown = down
         if down {
             noteInteraction()
@@ -146,7 +154,8 @@ final class AceCore: ObservableObject, BrainHost {
         openedOnce = true
         let away = awaySince
         awaySince = nil
-        let greetNow = Greeter.shouldGreet(now: now, lastGreeting: settings.lastGreetingAt, awaySince: away, firstOpen: first)
+        let greetNow = !call.isLive
+            && Greeter.shouldGreet(now: now, lastGreeting: settings.lastGreetingAt, awaySince: away, firstOpen: first)
         var full = false
         if greetNow {
             settings.lastGreetingAt = now
@@ -164,6 +173,8 @@ final class AceCore: ObservableObject, BrainHost {
     }
 
     func wentToBackground() {
+        // iPadOS doesn't let a call keep the microphone in the background, so it ends.
+        call.hangUp()
         awaySince = Date()
         wakeTask?.cancel()
         wakeTask = nil
@@ -250,6 +261,16 @@ final class AceCore: ObservableObject, BrainHost {
         let finalMood: OrbMood = reply.mood == .idle ? .talking : reply.mood
         // A goodbye: the orb dozes off once it's done talking.
         restAfterTalk = reply.mood == .sleeping
+        // Saying bye on a call hangs up once Ace says bye back.
+        if call.isLive, reply.kind == "goodbye" { call.endAfterSpeaking = true }
+        if callJustStarted {
+            // "Call Ace": the call screen takes over and says hello itself.
+            callJustStarted = false
+            restAfterTalk = false
+            setMood(.happy, thenIdleAfter: 1.5)
+            saveChat()
+            return
+        }
         if let sass, sass.eyes != .none {
             // Set before speaking, so the voice starting doesn't cut the eye-roll short.
             holdMood = true
@@ -266,7 +287,10 @@ final class AceCore: ObservableObject, BrainHost {
     /// `force` says it even when spoken replies are off (the hello when the app opens has its own switch).
     /// In Sassy mode, `sassBefore` and `sassAfter` are the sassy lines, said with extra drama.
     func speak(_ text: String, cards: [AceCard] = [], force: Bool = false, sassBefore: String = "", sassAfter: String = "") {
-        guard force || settings.speakReplies || handsFree else { return }
+        // A call that's still connecting says hello itself once it's ready.
+        if call.phase == .connecting { return }
+        // On a call, Ace always talks.
+        guard force || settings.speakReplies || handsFree || call.isLive else { return }
         var parts = Phrasebook.spokenParts(text, cards: cards)
         if Sass.isOn(settings.personality) {
             // "*sigh*" is said as a sigh, and other *stage directions* aren't read out.
@@ -278,7 +302,7 @@ final class AceCore: ObservableObject, BrainHost {
             if !before.isEmpty { parts.insert(SpokenPart(text: before, language: nil, sassy: true, drama: drama), at: 0) }
             if !after.isEmpty { parts.append(SpokenPart(text: after, language: nil, sassy: true, drama: drama)) }
         }
-        VoiceOut.shared.speak(parts, voiceID: settings.voiceID) { [weak self] speaking in
+        let onChange: (Bool) -> Void = { [weak self] speaking in
             guard let self else { return }
             VoiceIn.shared.aceSpeaking(speaking)
             guard !self.holdMood else { return }
@@ -293,6 +317,13 @@ final class AceCore: ObservableObject, BrainHost {
                 }
             }
         }
+        if call.isLive {
+            // On a call, Ace talks through the call (so you can talk over it), with captions.
+            let caption = [sassBefore, text, sassAfter].filter { !$0.isEmpty }.joined(separator: " ")
+            call.say(parts, caption: caption, onTalk: onChange)
+            return
+        }
+        VoiceOut.shared.speak(parts, voiceID: settings.voiceID, onChange: onChange)
     }
 
     /// After a goodbye, the orb sleeps once it's done talking.
@@ -474,7 +505,8 @@ final class AceCore: ObservableObject, BrainHost {
 
     /// The eyes come out, look around (with whirs panned left and right), then Ace checks things.
     func wakeUp(reason: WakeReason) async {
-        guard !busy else { return }
+        // Not in the middle of a call (a manual check said on the call is fine).
+        guard !busy, !call.isLive || reason == .manual else { return }
         busy = true
         statusLine = "Waking up"
         SoundFX.shared.play(.orbWake, gain: 0.8)
@@ -628,7 +660,8 @@ final class AceCore: ObservableObject, BrainHost {
     /// (out loud too, unless that's off in Settings). `full` adds today's calendar and battery.
     private func greet(full: Bool) async {
         try? await Task.sleep(nanoseconds: 500_000_000)
-        guard !busy else { return }
+        // No hello over a call that's starting or going.
+        guard !busy, call.phase == .off else { return }
         // The orb wakes up: the island stretches and the eyes pop out.
         SoundFX.shared.play(.orbWake, gain: 0.7)
         Haptics.shared.play(.wake)
@@ -715,6 +748,18 @@ final class AceCore: ObservableObject, BrainHost {
             }
         }
         return Say.line(on ? .heyAceOn : .heyAceOff)
+    }
+
+    func setCall(_ on: Bool) -> String {
+        if on {
+            if call.isLive { return Say.line(.callAlready) }
+            callJustStarted = true
+            startCall()
+            return Say.line(.callStarting)
+        }
+        guard call.isLive else { return Say.line(.callNotOn) }
+        call.endAfterSpeaking = true
+        return Say.line(.callBye)
     }
 
     func pcCommand(_ action: String, target: String?) async -> (ok: Bool, detail: String) {
@@ -816,5 +861,74 @@ final class AceCore: ObservableObject, BrainHost {
 
     func freeAnswer(_ question: String) async -> (text: String, model: String)? {
         await askModel(system: Self.modelInstructions, user: question)
+    }
+}
+
+// MARK: Voice calls
+
+extension AceCore: CallHost {
+    /// Starts a voice call (the phone button, "call Ace", Siri or ace://call).
+    func startCall() {
+        guard !call.isLive else { return }
+        noteInteraction()
+        holdDown = false
+        if VoiceIn.shared.state == .holding { Task { _ = await VoiceIn.shared.endHold() } }
+        SoundFX.shared.play(.orbWake, gain: 0.7)
+        Haptics.shared.play(.pop)
+        call.start()
+    }
+
+    func callHeard(_ text: String) {
+        send(text)
+    }
+
+    func callLine(_ moment: CallController.Moment) -> String {
+        let name = settings.userName
+        switch moment {
+        case .hello: return Say.line(.callHello, ["who": name.isEmpty ? "" : ", \(name)"])
+        case .stillThere: return Say.line(.callStillThere)
+        case .quietHangUp: return Say.line(.callQuietBye)
+        }
+    }
+
+    var callVoiceID: String { settings.voiceID }
+
+    func callTalking(_ talking: Bool) {
+        guard !holdMood else { return }
+        if talking {
+            setMood(.talking)
+        } else if !busy {
+            setMood(.idle)
+        }
+    }
+
+    func callPhaseChanged(_ phase: CallLogic.Phase) {
+        switch phase {
+        case .hearing:
+            noteInteraction()
+            if !holdMood { setMood(.listening) }
+            statusLine = "Listening"
+        case .listening, .ended, .off:
+            if mood == .listening && !busy { setMood(.idle) }
+            if !busy { statusLine = "Ready" }
+        case .connecting:
+            statusLine = "Calling"
+        case .thinking, .speaking:
+            break
+        }
+    }
+
+    func callEnded(length: TimeInterval?, failed: Bool) {
+        callJustStarted = false
+        if failed {
+            messages.append(ChatMessage(speaker: .ace, text: Say.line(.voiceNoPermission), source: "voice"))
+            saveChat()
+            setMood(.alert, thenIdleAfter: 2.5)
+            return
+        }
+        guard let length else { return }
+        messages.append(ChatMessage(speaker: .ace, text: "Call ended after \(CallLogic.lengthInWords(length)).", source: "call"))
+        saveChat()
+        if !busy { setMood(.idle) }
     }
 }

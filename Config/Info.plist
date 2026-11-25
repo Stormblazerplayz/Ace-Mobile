@@ -53,7 +53,7 @@
 		<true/>
 	</dict>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Ace listens while you hold the orb, or after you say "Hey Ace" with hands-free on.</string>
+	<string>Ace listens while you hold the orb, after you say "Hey Ace" with hands-free on, and while you're on a voice call with Ace.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Ace turns what you say into text so it can answer you.</string>
 	<key>NSSupportsLiveActivities</key>

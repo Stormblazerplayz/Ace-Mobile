@@ -1328,5 +1328,49 @@
   "opt": [],
   "orig": "You haven't finished a trivia round yet. Say trivia to play one!",
   "note": "Asked for trivia scores with none saved"
+ },
+ "callStarting": {
+  "req": [],
+  "opt": [],
+  "orig": "Calling now! Talk to me like a phone call.",
+  "note": "A voice call with Ace is starting (the call screen opens). Short and upbeat."
+ },
+ "callAlready": {
+  "req": [],
+  "opt": [],
+  "orig": "We're already on a call. Go ahead, I'm listening.",
+  "note": "You asked to start a call but one is already going. Say Ace is listening."
+ },
+ "callNotOn": {
+  "req": [],
+  "opt": [],
+  "orig": "We're not on a call right now. Say \"call Ace\" to start one.",
+  "note": "You asked to hang up but there's no call. Must include \"call Ace\" in double quotes."
+ },
+ "callBye": {
+  "req": [],
+  "opt": [],
+  "orig": "Okay, hanging up. Talk soon!",
+  "note": "You asked to hang up a voice call. Ace says bye, then the call ends."
+ },
+ "callHello": {
+  "req": [],
+  "opt": [
+   "who"
+  ],
+  "orig": "Hey{who}! I'm here. What's up?",
+  "note": "The call just connected. {who} is \", Name\" or empty, put right after the greeting word."
+ },
+ "callStillThere": {
+  "req": [],
+  "opt": [],
+  "orig": "Still there? Say something, or I'll hang up in a bit.",
+  "note": "Nobody has talked on the call for a while. Ask if they're there and say Ace will hang up soon."
+ },
+ "callQuietBye": {
+  "req": [],
+  "opt": [],
+  "orig": "It got quiet, so I'm hanging up. Call me any time!",
+  "note": "Nobody answered \"still there?\", so Ace ends the call."
  }
 }
